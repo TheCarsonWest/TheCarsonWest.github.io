@@ -134,7 +134,14 @@ pre code {
 .hljs-meta{
 	color: #58a54b
 }
+.hljs-var{
+	color: #ee7f0f
+}
 
 h2 code{
   color: #d8ba7d
 }
+.h{
+	color: #d8ba7d;
+	font-size: 20px
+  }
