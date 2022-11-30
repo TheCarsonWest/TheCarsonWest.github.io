@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>thats everything</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="../jacob.jpg">
+
+</head>
+
+<body>
+    <a href="../index.html">Back to home</a>
+    <h1 id="strings">Strings</h1>
+    <p>-carson west</p>
+    <h2 id="this-is-quite-possibly-the-most-basic-thing-in-all-of-programming-make-sure-you-know-it">this is quite possibly the most basic thing in all of programming, make sure you know it</h2>
+    <h2 id="sorry-about-it-being-long">sorry about it being long</h2>
+    <p><a href="https://www.w3schools.com/js/js_strings.asp">W3Schools link</a></p>
+    <hr>
+    <ul>
+    <li>stirngs are what normal humans call text</li>
+    <li>they are text, i know its incredible</li>
+    <li>they have either single quotes(&#39;) or double quotes(&quot;) around them. They are literally the same. </li>
+    <li>Big brain tip: if you need to use single quotes in your string, surround it by double quotes so that it doesnt mess it up</li>
+    <li>here is what a string looks like </li>
+    </ul>
+    <p>py</p>
+    <pre><code class="lang-py">deez = <span class="hljs-symbol">'nuts</span>'
+    double_quoted_string = <span class="hljs-string">"you're mom"</span>
+    # <span class="hljs-keyword">if</span> i surrounded that <span class="hljs-keyword">in</span> single quotes it would<span class="hljs-symbol">'ve</span> been weird because i used single quotes
+    </code></pre>
+    <p>js</p>
+    <pre><code class="lang-js"><span class="hljs-attribute">var deez</span> = <span class="hljs-string">'nuts'</span>;
+    </code></pre>
+    <h2 id="-print-and-console-log-"><code>Print()</code> and <code>Console.log()</code></h2>
+    <ul>
+    <li>these two functions are the first thign you should learn to use when starting programming</li>
+    <li>Print is python, console.log is js.</li>
+    <li>they are self explanatory, but in case you are having a rough morning, they put text into the terminal.</li>
+    <li>no matter what you put into the parentheses, they will always output as a string.</li>
+    <li>you can use a plus sign to put things together</li>
+    </ul>
+    <p>py</p>
+    <pre><code class="lang-py"><span class="hljs-built_in">print</span>(<span class="hljs-string">'i love eating'</span> + deez)
+    <span class="hljs-comment"># output: i love eatingnuts</span>
+    <span class="hljs-comment"># it will not add a space for you, remember that</span>
+    </code></pre>
+    <p>js</p>
+    <pre><code class="lang-js">console.<span class="hljs-built_in">log</span>(deez);
+    <span class="hljs-comment">// Output: nuts</span>
+    </code></pre>
+    <h2 id="special-letters">Special letters</h2>
+    <p>Im grouping together two concepts here and they might be different in the two languages, so look things up if you get an error</p>
+    <h3 id="-n-every-programming-language-"><code>\n</code> (every programming language)</h3>
+    <p>\n what you do to make your string go multiple lines. This is called an escape sequence, and there are 6 others that Heres it in action</p>
+    <pre><code class="lang-py">print(<span class="hljs-string">"guess what<span class="hljs-subst">\n</span>What?<span class="hljs-subst">\n</span>chicken butt<span class="hljs-subst">\n</span>shut up"</span>)
+    </code></pre>
+    <p>output:</p>
+    <pre><code class="lang-txt">guess what
+    What?
+    chicken <span class="hljs-keyword">butt
+    </span><span class="hljs-keyword">shut </span>up
+    </code></pre>
+    <p>in my current markdown viewer it doesn&#39;t give \n a different color but most editors do.</p>
+    <h3 id="f-py-and-js-">f(py) and ``(js)</h3>
+    <p>These are called by the extremly fancy name &quot;template literals&quot;, but you will never need to know that. Basically, you have a string, and you want to use variables in that string, so you use these. </p>
+    <p>In python you simply put an f right before the quotes, and that you can use curly brackets with the name of a variable in them at any point in the string, and it&#39;ll use it. </p>
+    <pre><code class="lang-py">name = <span class="hljs-string">'robert'</span>
+    <span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(f<span class="hljs-string">'big man {name}.'</span>)</span></span>
+    <span class="hljs-selector-id">#output</span>: big man robert.
+    </code></pre>
+    <p>In js its similar but you use don&#39;t use quotes when you want to do it, you use ticks(``,i think thats what they are called) instead and then you can do the variable </p>
+    <pre><code class="lang-js"><span class="hljs-keyword">var</span> name = <span class="hljs-string">'robert'</span>;
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`big man <span class="hljs-subst">${name}</span>.`</span>);
+    <span class="hljs-comment">// output: big man robert</span>
+    </code></pre>
+    <h2 id="-"><code>\</code> <code>&quot;</code> <code>&#39;</code></h2>
+    <p>I cant show the syntax in the title because its doing its job too well, but if you ever want to use any of the characters above in a string, add a backslash before them and itll work. I just learned this lookign through the w3schools page, so idk if it works in py</p>
+    <pre><code class="lang-js">console.<span class="hljs-built_in">log</span>('backslash \\ double <span class="hljs-literal">quote</span> \<span class="hljs-string">" single quote \'')
+    // output: backslash \ double quote "</span> single <span class="hljs-literal">quote</span> '
+    </code></pre>
+    <h2 id="-r-and-string-raw-"><code>r</code> and <code>String.raw</code></h2>
+    <p>r means raw, you use it like f, it ignores every backslash and fancy thing i just taught you. Its very useful if you are working with file paths in your program</p>
+    <p>exmaple i stole from mozilla:</p>
+    <pre><code class="lang-js"><span class="hljs-keyword">var</span> filePath = <span class="hljs-built_in">String</span>.raw<span class="hljs-string">`C:\deez\nuts\inyo.mouth`</span>;
+    
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`The file was uploaded from: <span class="hljs-subst">${filePath}</span>`</span>);
+    <span class="hljs-comment">// expected output: "The file was uploaded from: C:\deez\nuts\inyo.mouth"</span>
+    </code></pre>
+    <p>identical thing in py</p>
+    <pre><code class="lang-py">filePath = <span class="hljs-string">r'C:\deez\nuts\inyo.mouth'</span>
+    
+    print(f<span class="hljs-string">'The file was uploaded from: ${filePath}'</span>)
+    
+    <span class="hljs-comment"># expected output: "The file was uploaded from: C:\deez\nuts\inyo.mouth"</span>
+    </code></pre>
+    <h2 id="substrings">Substrings</h2>
+    <p>I barely ever use this, but they talk about it in college board, so its important</p>
+    <h3 id="-subtring-"><code>subtring()</code></h3>
+    <p>it takes a part of the string. its that simple</p>
+    <pre><code class="lang-js"><span class="hljs-keyword">var</span> <span class="hljs-keyword">name</span> = <span class="hljs-string">'robert'</span>;
+    <span class="hljs-keyword">var</span> shortName = substring(<span class="hljs-keyword">name</span>, <span class="hljs-number">1</span>, <span class="hljs-number">3</span>); 
+    <span class="hljs-comment">// shortName = rob, indexing starts at 1.</span>
+    </code></pre>
+    <h3 id="-in-"><code>in</code></h3>
+    <p>in is a logic operator that is very useful. If something is in the string listed, it returns true, if not, it returns false
+    js</p>
+    <pre><code class="lang-js"><span class="hljs-keyword">if</span> (<span class="hljs-string">'rob'</span> <span class="hljs-keyword">in</span> <span class="hljs-string">'robert'</span>){
+        console.<span class="hljs-built_in">log</span>(<span class="hljs-string">'yep'</span>)<span class="hljs-comment">;</span>
+    }
+    </code></pre>
+    <p>py</p>
+    <pre><code class="lang-py"><span class="hljs-keyword">if</span> <span class="hljs-string">'rob'</span> <span class="hljs-keyword">in</span> <span class="hljs-string">'robert'</span>:
+        <span class="hljs-built_in">print</span>(<span class="hljs-string">'yep'</span>)
+    </code></pre>
+    <h2 id="strings-are-lists">Strings are lists</h2>
+    <p>I already taught this in lists but ima do it again</p>
+    <ul>
+    <li>strings are lists of characters</li>
+    <li>you can use a string like a list</li>
+    <li>any function you can use on a list, you can use on a string.<pre><code class="lang-py"><span class="hljs-built_in">name</span> = <span class="hljs-string">'robert'</span>
+    print(len(<span class="hljs-built_in">name</span>))
+    <span class="hljs-meta"># outputs 5, len starts at 1, not 0 </span>
+    <span class="hljs-built_in">name</span>.<span class="hljs-built_in">append</span>(<span class="hljs-string">'o'</span>)
+    print(<span class="hljs-built_in">name</span>)
+    <span class="hljs-meta"># output: roberto</span>
+    </code></pre>
+    <h3 id="javascript-is-not-allowed-to-be-easy">Javascript is not allowed to be easy</h3>
+    while you can just use a plus sign to join together two strings in python, you have to do <code>concat()</code> to do the same thing in js. <pre><code class="lang-js"><span class="hljs-keyword">var</span> firstName = <span class="hljs-string">'Joe'</span>;
+    <span class="hljs-keyword">var</span> secondName = <span class="hljs-string">'Biden'</span>;
+    <span class="hljs-keyword">var</span> fullName = concat(firstname,<span class="hljs-string">" "</span>, secondName);
+    <span class="hljs-built_in">console</span>.log(fullName);
+    <span class="hljs-comment">// Output: Joe Biden</span>
+    </code></pre>
+    <h3 id="strings-can-be-compared">Strings can be compared</h3>
+    yeah<pre><code class="lang-py"><span class="hljs-built_in">print</span>(<span class="hljs-string">"funny"</span> == <span class="hljs-string">"monke"</span>)
+    <span class="hljs-meta"># output: False</span>
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">'silly'</span> == <span class="hljs-string">'silly'</span>)
+    <span class="hljs-meta"># output: True</span>
+    </code></pre>
+    im not writing a js exmaple</li>
+    </ul>
+    <h2 id="summary">Summary</h2>
+    <ul>
+    <li>strings are text</li>
+    <li><code>Console.log()</code> and <code>print()</code> display things in a terminal</li>
+    <li>strings have many funkey characters that can change their behavior</li>
+    <li>\n puts all the text after it on a new line</li>
+    <li>if you want to put a varibale in a string and don&#39;t want to use the plus sign or concat, use template literals. If you don&#39;t remember that word go back in the document.</li>
+    <li>use String.raw or r when using file paths, beause they have many back slashes.</li>
+    <li>use <code>substring()</code> if you want a smll part of the stirng</li>
+    <li>use <code>in</code> if you need to know if a certain word or phrase is in a big string.</li>
+    <li>Strings can be used just like lists</li>
+    <li>strings can be used in boolean comparisons</li>
+    <li>look things up if you dont remember them.</li>
+    </ul>
+    <p>thats strings. If you don&#39;t know how to use them I give up</p>
+    
+</body>
+
+</html>

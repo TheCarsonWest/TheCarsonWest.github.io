@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>thats everything</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="../jacob.jpg">
+
+</head>
+
+<body>
+    <a href="../index.html">Back to home</a>
+    <h1 id="lists-yeah">Lists, yeah</h1>
+    <p>-carson west</p>
+    <h2 id="i-learned-this-when-i-was-like-8">I learned this when i was like 8</h2>
+    <h3 id="-w3schools-link-https-www-w3schools-com-js-js_arrays-asp-"><a href="https://www.w3schools.com/js/js_arrays.asp">W3schools link</a></h3>
+    <hr>
+    <h3 id="basic-stuff">Basic stuff</h3>
+    <ul>
+    <li>Lists are lists</li>
+    <li><p>They look like this in javascript</p>
+    <pre><code class="lang-js"><span class="hljs-keyword">var</span> exampleList = [ <span class="hljs-literal">true</span>, <span class="hljs-number">69</span>, <span class="hljs-string">'I already know this'</span>, <span class="hljs-number">4.20</span>, previouslyMadeVariable, [<span class="hljs-string">'A'</span>,<span class="hljs-string">'List'</span>,<span class="hljs-string">'In'</span>,<span class="hljs-string">'A'</span>,<span class="hljs-string">'List!'</span>], { <span class="hljs-string">'A'</span> : <span class="hljs-string">"Dictionary"</span>}];
+    </code></pre>
+    </li>
+    <li><p>You can call from a list using indexing</p>
+    </li>
+    <li><strong>Numbers start at 0, not 1!!!!!</strong></li>
+    <li>Indexing looks like this
+    ```js
+    console.log(exampleList[1]);
+    // returns 69</li>
+    </ul>
+    <p>// For lists in lists, the outermost lists&#39; index goes first
+    console.log(exampleList[5][2]);
+    // returns &#39;In&#39;</p>
+    <pre><code>
+    - **Negative indexing doesn’t exist <span class="hljs-keyword">in</span> JS** except for <span class="hljs-keyword">in</span> packages, but it exists <span class="hljs-keyword">in</span> most other languages, It takes that number <span class="hljs-keyword">from</span> the back <span class="hljs-keyword">of</span> the list
+    - Just pretend it exists here
+    ```js
+    console.log(exampleList[<span class="hljs-number">-2</span>][<span class="hljs-number">1</span>]);
+    
+    <span class="hljs-comment">// returns "List"</span>
+    </code></pre><h3 id="strings">Strings</h3>
+    <ul>
+    <li>Strings are also lists</li>
+    <li>You can index a string to return a character
+    ```js
+    var exampleString = ‘joe mama’;
+    console.log(exampleString[4]);</li>
+    </ul>
+    <p>// returns ‘m’, remember, indexing starts at 0</p>
+    <pre><code><span class="hljs-comment">### Changing values</span>
+    
+    - Every item <span class="hljs-keyword">in</span> a list is a variable
+    - You can change them, look here
+    
+    ```js
+    var teams = [<span class="hljs-string">'Cupcake Kitties'</span>, <span class="hljs-string">'Zam too Thick'</span>, <span class="hljs-string">'Karels'</span>,<span class="hljs-string">'5 little thickems'</span>,<span class="hljs-string">'Xanders'</span>];
+    teams[<span class="hljs-number">1</span>] = <span class="hljs-string">'Zam too Thicc'</span>;
+    
+    <span class="hljs-regexp">//</span> [<span class="hljs-string">'Cupcake Kitties'</span>, <span class="hljs-string">'Zam too Thicc'</span>, <span class="hljs-string">'Karels'</span>,<span class="hljs-string">'5 little thickems'</span>,<span class="hljs-string">'Xanders'</span>]
+    </code></pre><ul>
+    <li>You can replace a whole list with another whole list </li>
+    <li>It looks like this</li>
+    </ul>
+    <pre><code class="lang-js">var scores1 = [<span class="hljs-number">89</span>, <span class="hljs-number">78</span>, <span class="hljs-number">92</span>, <span class="hljs-number">63</span>, <span class="hljs-number">95</span>, <span class="hljs-number">88</span>];
+    var scores2 = [<span class="hljs-number">92</span>, <span class="hljs-number">79</span>, <span class="hljs-number">97</span>, <span class="hljs-number">63</span>];
+    scores1 = scores2;
+    console.log(scores1);
+    
+    <span class="hljs-comment">// [92, 79, 97, 63]</span>
+    </code></pre>
+    <h3 id="appending">Appending</h3>
+    <ul>
+    <li>Appending is really neat</li>
+    <li>you can add items to a list any time</li>
+    <li>always added to the end of the list<pre><code class="lang-js"><span class="hljs-keyword">var</span> answers = [];
+    answers.<span class="hljs-built_in">append</span>(<span class="hljs-literal">true</span>);
+    answers.<span class="hljs-built_in">append</span>(<span class="hljs-number">69</span>);
+    <span class="hljs-comment">// [true, 69]</span>
+    </code></pre>
+    </li>
+    </ul>
+    <h2 id="why-this-is-useful">Why this is useful</h2>
+    <ul>
+    <li>It bundles things together</li>
+    <li>It is a way to store newly aquired data</li>
+    <li>It saves you a lot of copy pasting if you need to keep switching variables</li>
+    <li>It lets you make new data infinitly during the running of the program</li>
+    </ul>
+    <p>Enjoy using lists</p>
+    
+</body>
+
+</html>

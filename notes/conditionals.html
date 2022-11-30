@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>thats everything</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="../jacob.jpg">
+
+</head>
+
+<body>
+    <a href="../index.html">Back to home</a>
+    <h1 id="conditionals">Conditionals</h1>
+    <h2 id="im-not-gonna-make-a-flowchart">Im not gonna make a flowchart</h2>
+    <p>-carson west</p>
+    <h2 id="-w3schools-link-https-www-w3schools-com-js-js_if_else-asp-"><a href="https://www.w3schools.com/js/js_if_else.asp">W3Schools link</a></h2>
+    <hr>
+    <ul>
+    <li>Conditionals and logic functions are usually weasier to explain in psuedo code</li>
+    <li>This is the job of a senior developer or a corporate higher up, and then you have to code it</li>
+    <li>if you see a flowchart, its for this</li>
+    <li>heres the simplest conditional possible<pre><code class="lang-py"># Python
+    condition = <span class="hljs-keyword">True</span>
+    <span class="hljs-keyword">if</span> condition:
+    # <span class="hljs-keyword">if</span> its <span class="hljs-keyword">true</span>, it goes here, <span class="hljs-keyword">if</span> its <span class="hljs-keyword">false</span>, it doesnt
+      <span class="hljs-keyword">print</span>(<span class="hljs-string">'Yeah'</span>)
+    <span class="hljs-keyword">else</span>:
+      <span class="hljs-keyword">print</span>(<span class="hljs-string">'Nah'</span>)
+    </code></pre>
+    <pre><code class="lang-js"><span class="hljs-comment">// Javascript</span>
+    <span class="hljs-keyword">var</span> condition = <span class="hljs-literal">true</span>
+    <span class="hljs-keyword">if</span> (condition){
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Yeah"</span>);
+    }<span class="hljs-keyword">else</span>{
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Nah"</span>);
+    }
+    </code></pre>
+    </li>
+    <li>heres the example ap college board uses
+    ```js </li>
+    </ul>
+    <p>var number = int(input())
+    if (number &gt; 0 &amp;&amp; number &lt; 10){
+        console.log(number);
+        var temp = true;
+    }else{var temp = false};
+    if (number MOD 3 == 0 &amp;&amp; temp){
+        console.log(&quot;Your number is a multiple of 3!&quot;);
+    }
+    console.log(&#39;Goodbye&#39;);</p>
+    <p>var number = int(input())
+    if (number &gt; 0 &amp;&amp; number &lt; 10){
+        console.log(number);
+    }
+    console.log(&#39;Goodbye&#39;);
+    ```</p>
+    <ul>
+    <li>Time to actually break down everything that was said</li>
+    </ul>
+    <h2 id="-int-input-"><code>int(input())</code></h2>
+    <p><code>input()</code> is a very simple function that is usful all the time in terminal programs.  It stops everything and waits for the user to put in some text. <code>int()</code> is a functiont hat converts anything put into it into a number, as long as it can. You can have a number in a string, like <code>var string = &#39;69&#39;</code>, but if you try somehting like <code>string += 420</code> you get an error, since it is a string, and cant be used in math. this is why you need <code>int()</code></p>
+    <h2 id="-number-0-number-10-"><code>number &gt; 0 &amp;&amp; number &lt; 10</code></h2>
+    <p>two things to break down here in the condition bracket. the first is <code>number &gt; 0</code>, which is known as a boolean expression, since it either evaluates to true or false. if <code>number</code> is greater than 0, it says true, if it isnt, it says false. this also goes for <code>number &lt; 10</code> heres every boolean operator:</p>
+    <ul>
+    <li><code>==</code> = equals, they use two equals signs so theres no confusion with it and variables</li>
+    <li><code>===</code> = equal value &amp; type, if they are the same type of variable and the same value(I have never used this)</li>
+    <li><code>!=</code> = not equal, if they aren&#39;t equal, its true.</li>
+    <li><code>!==</code> = not equal value <strong>or</strong> type. If it is not the same value, or the same type of variable.</li>
+    <li><code>&gt; &lt;</code> = Greater than or less than. The alligator you leanred in 1st grade</li>
+    <li><code>&gt;= &lt;=</code> Greater than or equal to/Less than or equal to. You learned this is math at some point.</li>
+    </ul>
+    <p>Now for the <code>&amp;&amp;</code>. <code>&amp;&amp;</code> is a javascript logic operator, and it represents what many languages simply put as <code>and</code>, like in python. There are many other javascript logic operators, here they are </p>
+    <ul>
+    <li><code>&amp;&amp;</code> = and. Usage: <code>if (true &amp;&amp; true)</code>    (evaluates true if both are true, anything else is false)</li>
+    <li><code>||</code> = or. Usage: <code>if (false || true)</code>    (evaluates true if either or true, false if both are false)</li>
+    <li><code>!</code> = not. Usage: <code>if(!true)</code>             (evaluates the opposite of what is there. False if true, true if false)</li>
+    </ul>
+    <h2 id="why-this-is-useful">Why this is useful</h2>
+    <ul>
+    <li>It is the baseline for just about every program.</li>
+    <li>you will use it in every program</li>
+    <li>knowing the fancier stuff makes you better at using it in every program</li>
+    <li>every senior developer will maek flowcharts for this, if they can get paid in a manager position without knowing how to code, you can write their conditionals.</li>
+    </ul>
+    <p>Enjoy using conditionals</p>
+    
+</body>
+
+</html>

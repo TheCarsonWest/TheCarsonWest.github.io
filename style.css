@@ -51,15 +51,16 @@ h1 {
 h2 {
 	font-size: 20px;
 	line-height: 25px;
+	text-decoration: none;
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 27px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	border-bottom: 1px solid #D8D8D8;
-	border-top: 1px solid #D8D8D8;
+	text-decoration: none;
+
 }
 
 hr {
@@ -102,11 +103,34 @@ aside,
 }
 pre code {
   display: block;
-  background: none;
+  color: #c5c5c5;
+  background: #1c1c1c;
   white-space: pre;
+  border-radius: 5px;
   -webkit-overflow-scrolling: touch;
   overflow-x: scroll;
   max-width: 100%;
   min-width: 100px;
-  padding: 0;
+  padding: 15px;
+}
+.hljs-func{
+  color: #4fcab0;
+}
+.hljs-built_in {
+  color: #b65fbd;
+}
+.hljs-keyword{
+  color: #569dd6;
+}
+.hljs-number{
+  color: #b8d7a3;
+}
+.hljs-string{
+  color: #d79d85;
+} 
+.comment{
+	
+}
+h2 code{
+  color: #d8ba7d
 }
