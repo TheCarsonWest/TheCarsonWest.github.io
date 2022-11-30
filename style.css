@@ -128,9 +128,13 @@ pre code {
 .hljs-string{
   color: #d79d85;
 } 
-.comment{
-	
+.hljs-comment{
+	color: #58a54b
 }
+.hljs-meta{
+	color: #58a54b
+}
+
 h2 code{
   color: #d8ba7d
 }
