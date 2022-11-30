@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>thats everything</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/jacob.ico">
+
+</head>
+
+<body>
+    <a href="../index.html">Back to home</a>
+<h1 id="loops">loops</h1>
+<h2 id="this-is-ez">this is ez</h2>
+<p>-carson west</p>
+<p><a href="./Conditionals.html">link to conditionals incase you havent read it yet</a></p>
+<hr>
+<ul>
+<li>loops are functions that will repeat the code inside them either until:<ul>
+<li>a condition is not longer met(while)</li>
+<li>it goes through everything it needs to(for)</li>
+</ul>
+</li>
+<li>this is what a while loop looks like in both languages</li>
+</ul>
+<pre><code class="lang-js">// js 
+var <span class="hljs-built_in">number</span> = Math.<span class="hljs-built_in">floor</span>(Math.<span class="hljs-built_in">random</span>*<span class="hljs-number">10</span>+<span class="hljs-number">1</span>)<span class="hljs-comment">; // random number generation, 1-10</span>
+var guessed = <span class="hljs-literal">false</span>
+<span class="hljs-keyword">while</span> (!guessed) { // will repeat over <span class="hljs-literal">and</span> oer <span class="hljs-keyword">until</span> guessed is <span class="hljs-literal">true</span>, <span class="hljs-literal">or</span> <span class="hljs-keyword">in</span> this <span class="hljs-keyword">case</span>, <span class="hljs-literal">not</span> <span class="hljs-literal">false</span>
+    console.<span class="hljs-built_in">log</span>(<span class="hljs-string">'guess a number'</span>)<span class="hljs-comment">;</span>
+    <span class="hljs-keyword">if</span> (parseInt(prompt()) == <span class="hljs-built_in">number</span>){
+        guessed = <span class="hljs-literal">true</span><span class="hljs-comment">;</span>
+    }
+    <span class="hljs-keyword">else</span>{
+        console.<span class="hljs-built_in">log</span>(<span class="hljs-string">'try again'</span>)<span class="hljs-comment">;</span>
+    }
+}
+console.<span class="hljs-built_in">log</span>(<span class="hljs-string">'gj'</span>)<span class="hljs-comment">; // this will only be reached once they guess right</span>
+</code></pre>
+<pre><code class="lang-py">import <span class="hljs-built_in">random</span>
+<span class="hljs-meta"># py</span>
+<span class="hljs-built_in">number</span> = <span class="hljs-built_in">random</span>.randint(<span class="hljs-number">1</span>,<span class="hljs-number">10</span>)
+guessed = <span class="hljs-literal">False</span>
+
+<span class="hljs-keyword">while</span> <span class="hljs-literal">not</span> guessed:
+    <span class="hljs-keyword">if</span> <span class="hljs-built_in">int</span>(input(<span class="hljs-string">'guess a number \n'</span>)) = <span class="hljs-built_in">number</span>:
+        guessed = <span class="hljs-literal">True</span>
+    <span class="hljs-keyword">else</span>:
+        print(<span class="hljs-string">'try again'</span>)
+print(<span class="hljs-string">'gj'</span>)
+</code></pre>
+<p>These programs choose a random number from 1-10, and make you guess it, and will not stop until you do. This is what a while loop does.</p>
+<h2 id="-what-if-i-want-to-run-something-a-certain-amount-of-times-">&quot;what if i want to run something a certain amount of times?&quot;</h2>
+<p>you have two options here. A counting variable or a <code>for</code> loop.</p>
+<p>Heres an example of a counting variable loop.</p>
+<pre><code class="lang-py"><span class="hljs-meta"># py </span>
+i = <span class="hljs-number">5</span> # I recommend <span class="hljs-keyword">using</span> <span class="hljs-string">"i"</span> as your counting variable name, its standard practice.
+<span class="hljs-built_in">while</span> i &gt; <span class="hljs-number">0</span>:
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">'hi'</span>)
+    i -= <span class="hljs-number">1</span> <span class="hljs-meta"># subtracts 1</span>
+<span class="hljs-built_in">print</span>(<span class="hljs-string">'bye'</span>)
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-comment">// js</span>
+<span class="hljs-keyword">var</span> i = <span class="hljs-number">5</span>;
+<span class="hljs-keyword">while</span> (i &gt; <span class="hljs-number">0</span>) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'hi'</span>);
+    i -= <span class="hljs-number">1</span>;
+}
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">'bye'</span>);
+</code></pre>
+<p>all that, of you can use this next section</p>
+<h2 id="-for-loops"><code>for</code> loops</h2>
+<ul>
+<li>in python, a for loop will go through the loop for the amount of items in a specified list<ul>
+<li>this list can be a numbered range using the <a href="https://www.w3schools.com/python/ref_func_range.asp"><code>range</code></a> function, like I will show you</li>
+</ul>
+</li>
+<li><p>In js, its much easier. You give the loop a varable(or create one within the arguments), you tell it where to stop with a conditional, and you can also give it a one character variable to increase the value of</p>
+<ul>
+<li>it sounds like a lot, but it is ridiculously simple</li>
+</ul>
+</li>
+<li><p>here they are</p>
+</li>
+</ul>
+<pre><code class="lang-py"># <span class="hljs-keyword">py</span>
+<span class="hljs-keyword">for</span> <span class="hljs-keyword">x</span> in <span class="hljs-built_in">range</span>(<span class="hljs-number">5</span>): 
+# <span class="hljs-keyword">x</span> will represent the item it <span class="hljs-keyword">is</span> currently <span class="hljs-keyword">on</span>
+# <span class="hljs-built_in">range</span>(<span class="hljs-number">5</span>) <span class="hljs-keyword">is</span> the same <span class="hljs-keyword">as</span> putting [<span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]
+    <span class="hljs-keyword">print</span>(<span class="hljs-keyword">x</span>, end=<span class="hljs-string">''</span>) # end=<span class="hljs-string">''</span> makes it <span class="hljs-keyword">so</span> the <span class="hljs-keyword">next</span> <span class="hljs-keyword">print</span> with <span class="hljs-keyword">go</span> <span class="hljs-keyword">on</span> the same <span class="hljs-built_in">line</span> <span class="hljs-keyword">as</span> the current one
+
+# outputs <span class="hljs-number">012345</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-regexp">// js 
+for (var x = 0; x &lt; 5; x++){
+//</span>      ^^^ <span class="hljs-number">1</span>) creates a varibale <span class="hljs-literal">that</span> I am about <span class="hljs-keyword">to</span> use <span class="hljs-number">2</span>) what the <span class="hljs-keyword">loop</span> <span class="hljs-keyword">with</span> run <span class="hljs-keyword">for</span> as long as <span class="hljs-literal">it</span> <span class="hljs-keyword">is</span> <span class="hljs-literal">true</span> <span class="hljs-number">3</span>) makes <span class="hljs-literal">it</span> so <span class="hljs-literal">that</span> variable x counts up <span class="hljs-keyword">by</span> <span class="hljs-number">1</span> every iteration.
+    <span class="hljs-built_in">console</span>.log(x);
+}
+<span class="hljs-regexp">// outputs 0 1 2 3 4 5, all in different lines</span>
+</code></pre>
+<p>thats about it, bye</p>
+    
+</body>
+
+</html>
