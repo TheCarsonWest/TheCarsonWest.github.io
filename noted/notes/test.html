@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <form>
+      <label for="html">Enter HTML:</label><br>
+      <textarea id="html" rows="10" cols="50"></textarea><br>
+      <button type="button" onclick="createPage()">Create Page</button>
+    </form> 
+    <script>
+      function createPage() {
+        // Get the HTML input
+        var html = document.getElementById("html").value;
+        
+        // Create a blob from the HTML string
+        var blob = new Blob([html], {type: 'text/html'});
+        
+        // Create a URL for the blob
+        var url = URL.createObjectURL(blob);
+        
+        // Create a link element to download the file
+        var link = document.createElement("a");
+        link.download = "page.html";
+        link.href = url;
+        
+        // Add the link to the DOM
+        document.body.appendChild(link);
+        
+        // Click the link to start the download
+        link.click();
+        
+        // Remove the link from the DOM
+        document.body.removeChild(link);
+      }
+    </script>
+  </body>
+</html>

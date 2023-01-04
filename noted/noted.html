@@ -29,6 +29,7 @@
    <h1>big titles</h1><h2>or small ones?</h2></div>
    <a id='toggleButton'href="javascript:toggle('examples','toggleButton','Hide the examples above','Show the examples above');">Hide the examples above</a>
    <p>You text will be converted into markdown, and it'll get formatted just like this. Learn the basic parts of markdown <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">here</a></p>
+   <form action="download.php" method="post">
    <textarea id="text" oninput="update();hljs.highlightAll()" name="text" rows="20" cols="150">
 type things!
 </textarea><br>
@@ -38,7 +39,7 @@ type things!
 <hr>
 
    <button onclick="gen(getElementById('text').value)">Make me a website!</button>
-   <button onclick="hljs.highlightAll();">update</button>
+
 </body>
 
 </html>
