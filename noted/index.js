@@ -23,7 +23,7 @@ var gen = function(text){
         var url = URL.createObjectURL(blob);
         // Open the URL in a new window
         window.open(url);
-
+        downloadURL(url, document.getElementById('siteName').value);
 }
 
 var update = function(){

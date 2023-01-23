@@ -18,10 +18,10 @@
 
 <body>
   <h1>noted</h1>
-  <h3>the simplest way to keep have notes online</h3>
+  <h3>the simplest way to make notes pages</h3>
   <h4>-carson west</h4>
 <hr>
-<p>This is a tool that will make a permenent website with everything you type into the box below</p>
+<p>This is a tool that will make a downloadable website with whatever is in the box below</p>
 <div id="examples">
 <p>Want to make your text do cool things like 
    <li><em>italics</em> </li>
@@ -29,6 +29,8 @@
    <h1>big titles</h1><h2>or small ones?</h2></div>
    <a id='toggleButton'href="javascript:toggle('examples','toggleButton','Hide the examples above','Show the examples above');">Hide the examples above</a>
    <p>You text will be converted into markdown, and it'll get formatted just like this. Learn the basic parts of markdown <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">here</a></p>
+   <label for="siteName">Input the name of your site:    </label>
+   <input type="text" id="siteName" name="siteName" placeholder="noted">
    <textarea id="text" oninput="update();hljs.highlightAll()" name="text" rows="20" cols="150">
 type things!
 </textarea><br>
