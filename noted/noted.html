@@ -23,20 +23,20 @@
 <hr>
 <p>This is a tool that will make a downloadable website with whatever is in the box below</p>
 <div id="examples">
+  <hr>
 <p>Want to make your text do cool things like 
    <li><em>italics</em> </li>
    <pre><code class="language-py">'use code snippets' or print('with')</code></pre>
-   <h1>big titles</h1><h2>or small ones?</h2></div>
+   <h1>big titles</h1><h2>or small ones?</h2><hr></div>
    <a id='toggleButton'href="javascript:toggle('examples','toggleButton','Hide the examples above','Show the examples above');">Hide the examples above</a>
    <p>You text will be converted into markdown, and it'll get formatted just like this. Learn the basic parts of markdown <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">here</a></p>
    <label for="siteName">Input the name of your site:    </label>
    <input type="text" id="siteName" name="siteName" placeholder="noted">
    <textarea id="text" oninput="update();hljs.highlightAll()" name="text" rows="20" cols="150">
-type things!
-</textarea><br>
+# Your Title Here</textarea><br>
 <button id="previewBtn" onclick="toggle('preview','previewBtn','Collapse','Expand')">Collapse</button>
 <hr>
-<div id="preview"><h1>Preview will appear here</h1></div>
+<div id="preview"><h1>Your Title Here</h1></div>
 <hr>
 
    <button onclick="gen(getElementById('preview').innerHTML)">Make me a website!</button>
