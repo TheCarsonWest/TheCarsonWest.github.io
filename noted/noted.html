@@ -16,20 +16,24 @@
 
 </head>
 
-<body>
+<body onload="update()">
+
   <a href='https://thecarsonwest.github.io/index.html'>Back to home</a>
-  <h1>noted</h1>
+  <h1 style="color: #009b77;">noted</h1>
   <h3>the simplest way to make notes pages</h3>
   <h4>-carson west</h4>
 <hr>
 <p>This is a tool that will make a downloadable website with whatever is in the box below</p>
-<div id="examples">
-  <hr>
-<p>Want to make your text do cool things like 
-   <li><em>italics</em> </li>
-   <pre><code class="language-py">'use code snippets' or print('with')</code></pre>
-   <h1>big titles</h1><h2>or small ones?</h2><hr></div>
-   <a id='toggleButton'href="javascript:toggle('examples','toggleButton','Hide the examples above','Show the examples above');">Hide the examples above</a>
+<hr>
+
+
+<div id="examples" class="preview"><p>You can make all your text customizable, and this is what your final website will look like</p>
+<input id="bgColor" type="color" value="#222222" onchange="scheme['bg'] = document.getElementById('bgColor').value;update()"> BG Color</input><h1>Big title(h1)</h1><input id="h1Color" type="color" value="#009b77" onchange="scheme['h1'] = document.getElementById('h1Color').value;update()"></input><h2>Subtitle(h2)</h2><input id="h2Color" type="color" value="#aaaaaa" onchange="scheme['h2'] = document.getElementById('h2Color').value;update()"></input><h3>Heading(h3)</h3><input id="h3Color" type="color" value="#aaaaaa" onchange="scheme['h3'] = document.getElementById('h3Color').value;update()"></input><p>page line(hr) VVVVV</p><input id="hrColor" type="color" value="#d8d8d8" onchange="scheme['hr'] = document.getElementById('hrColor').value;update()"></input><hr><p> general text(p)</p><input id="pColor" type="color" value="#aaaaaa" onchange="scheme['p'] = document.getElementById('pColor').value;update()"></input>
+<code>inline code(code)</code>
+<input id="codeColor" type="color" value="#d8ba7d" onchange="scheme['code'] = document.getElementById('codeColor').value;update()"></input>
+<button onclick="defaults()">Back to defaults</button>
+</div>
+  <a id='toggleButton'href="javascript:toggle('examples','toggleButton','Hide the customization','Show the customization');">Hide the customization</a>
    <p>You text will be converted into markdown, and it'll get formatted just like this. Learn the basic parts of markdown <a href="https://www.markdownguide.org/cheat-sheet/" target="_blank">here</a></p>
    <label for="siteName">Input the name of your site:    </label>
    <input type="text" id="siteName" name="siteName" placeholder="noted">
@@ -37,7 +41,7 @@
 # Your Title Here</textarea><br>
 <button id="previewBtn" onclick="toggle('preview','previewBtn','Collapse','Expand')">Collapse</button>
 <hr>
-<div id="preview"><h1>Your Title Here</h1></div>
+<div id="preview" class="preview"><h1>Your Title Here</h1></div>
 <hr>
 
    <button onclick="gen(getElementById('preview').innerHTML)">Make me a website!</button>
