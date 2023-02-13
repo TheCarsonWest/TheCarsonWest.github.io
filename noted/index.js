@@ -42,7 +42,10 @@ var update = function(){
     console.log(text);
     converter = new showdown.Converter();
     html = converter.makeHtml(text);
+<<<<<<< HEAD
     html = html.replaceAll('[ ]','<input type="checkbox">');
+=======
+>>>>>>> 0f9b550332c3dd15cfd1b6aeb7cc03f50187a915
     target.innerHTML = `<style> .preview {background: ${scheme['bg']};color:${scheme['p']}} h1{color: ${scheme['h1']};} h2{color: ${scheme['h2']};}h3{color: ${scheme['h3']};}hr{background-color: ${scheme['hr']};}code{color: ${scheme['code']};}}</style>`.concat(html);
     
 }
@@ -66,4 +69,8 @@ function defaults(){
     document.getElementById('pColor').value = '#aaaaaa';
     document.getElementById('codeColor').value = '#d8ba7d';
     update()
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 0f9b550332c3dd15cfd1b6aeb7cc03f50187a915
