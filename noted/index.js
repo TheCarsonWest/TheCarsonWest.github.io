@@ -37,10 +37,12 @@ var gen = function(text){
 }
 
 var update = function(){
-    var text = document.getElementById('text').value,
-    target = document.getElementById('preview'),
-    converter = new showdown.Converter(),
+    var text = document.getElementById('text').value;
+    target = document.getElementById('preview');
+    console.log(text);
+    converter = new showdown.Converter();
     html = converter.makeHtml(text);
+    html = html.replaceAll('[ ]','<input type="checkbox">');
     target.innerHTML = `<style> .preview {background: ${scheme['bg']};color:${scheme['p']}} h1{color: ${scheme['h1']};} h2{color: ${scheme['h2']};}h3{color: ${scheme['h3']};}hr{background-color: ${scheme['hr']};}code{color: ${scheme['code']};}}</style>`.concat(html);
     
 }
