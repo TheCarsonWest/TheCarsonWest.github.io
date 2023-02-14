@@ -19,7 +19,9 @@ body {
 	padding-top: 70px;
 	padding-bottom: 20px;
 }
-
+div{
+	overflow:hidden;
+}
 .simple-print {
 	fill: white;
 	stroke: white;
