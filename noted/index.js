@@ -46,7 +46,7 @@ var update = function(){
     html = html.replaceAll('[ ]','<input type="checkbox">');
 
 
-    target.innerHTML = `<style> .preview {background: ${scheme['bg']};color:${scheme['p']}} h1{color: ${scheme['h1']};} h2{color: ${scheme['h2']};}h3{color: ${scheme['h3']};}hr{background-color: ${scheme['hr']};}code{color: ${scheme['code']};}}</style>`.concat(html);
+    target.innerHTML = `<style>img{width:50%;margin-left:25%}; .preview {background: ${scheme['bg']};color:${scheme['p']}} h1{color: ${scheme['h1']};} h2{color: ${scheme['h2']};}h3{color: ${scheme['h3']};}hr{background-color: ${scheme['hr']};}code{color: ${scheme['code']};}}</style>`.concat(html);
     
 }
 var toggle = function(target, btn, on, off){
