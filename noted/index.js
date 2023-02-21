@@ -22,7 +22,7 @@ function downloadURL(url, name) {
 
 var gen = function(text){
     var start = `<!DOCTYPE html>\n<html>\n    <head>\n<meta charset="utf-8">\n    <meta name="viewport" content="width=device-width">\n    <title>${document.getElementById('siteName').value}</title>\n    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/jacob.ico">\n    <link rel="stylesheet" href="https://thecarsonwest.github.io/noted/monkai.css">    \n    <link rel="stylesheet" href="https://thecarsonwest.github.io/noted/style.css">\n</head>`;
-    var start = start.concat('\n<body><a href="https://TheCarsonWest.github.io/noted.html">Made with noted</a>');
+    var start = start.concat('\n<body><a href="https://TheCarsonWest.github.io/noted/noted.html">Made with noted</a>');
     var html = start.concat(text.concat(`<style>body {background: ${scheme['bg']};color: ${scheme['p']};}h1{color: ${scheme['h1']};}h2{color: ${scheme['h2']};}h3{color: ${scheme['h3']};}hr{background-color: ${scheme['hr']};}code{color: ${scheme['code']};}</style></body></html>`));
 
     
