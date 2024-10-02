@@ -30,5 +30,9 @@
  * Laid the foundation for American education and religious pluralism
  * Influenced the development of American democracy and individualism
  * Contributed to the intellectual and cultural heritage of the [United States](./../united-states/)
-# Puritans 
+---
+params:
+	author: Carson West
+title: Puritans
+--- 
 #ids

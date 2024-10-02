@@ -1,4 +1,8 @@
-# Functions 
+---
+params:
+	author: Carson West
+title: Functions
+--- 
 # [Functions](./../functions/)
 
 ## What are [Functions](./../functions/)?

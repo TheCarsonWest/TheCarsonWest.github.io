@@ -1,4 +1,8 @@
-# Handling APIs with Requests Library 
+---
+params:
+	author: Carson West
+title: Handling APIs with Requests Library
+--- 
 ## [Handling APIs with Requests Library](./../handling-apis-with-requests-library/)
 
 ### What is the Requests Library?

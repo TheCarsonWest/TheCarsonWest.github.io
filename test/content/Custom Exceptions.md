@@ -1,4 +1,8 @@
-# Custom Exceptions 
+---
+params:
+	author: Carson West
+title: Custom Exceptions
+--- 
 ## [Custom Exceptions](./../custom-exceptions/)
 
 ### What are [Custom Exceptions](./../custom-exceptions/)?

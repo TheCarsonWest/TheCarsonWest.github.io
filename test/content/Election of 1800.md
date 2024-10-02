@@ -17,5 +17,9 @@
 * Marked the peaceful transfer of power from one political party to another
 * Established the principle of popular sovereignty (voters determine the winner)
 * Contributed to the rise of the Democratic-Republican Party
-# Election of 1800 
+---
+params:
+	author: Carson West
+title: Election of 1800
+--- 
 # [IDS Unit 3](./../ids-unit-3/)

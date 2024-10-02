@@ -1,4 +1,8 @@
-# Operators 
+---
+params:
+	author: Carson West
+title: Operators
+--- 
 ## Python [Operators](./../operators/)
 
 ### What are [Operators](./../operators/)?

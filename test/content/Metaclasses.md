@@ -1,4 +1,8 @@
-# Metaclasses 
+---
+params:
+	author: Carson West
+title: Metaclasses
+--- 
 ## [Metaclasses](./../metaclasses/)
 
 ### What are [Metaclasses](./../metaclasses/)?

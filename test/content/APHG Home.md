@@ -1,4 +1,8 @@
-# APHG Home 
+---
+params:
+	author: Carson West
+title: APHG Home
+--- 
 # [nexus](./../nexus/)
 
 - # [Cengage home](./../cengage-home/)

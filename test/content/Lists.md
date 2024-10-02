@@ -1,4 +1,8 @@
-# Lists 
+---
+params:
+	author: Carson West
+title: Lists
+--- 
 ## Python [Lists](./../lists/)
 
 ### What are [Lists](./../lists/)?

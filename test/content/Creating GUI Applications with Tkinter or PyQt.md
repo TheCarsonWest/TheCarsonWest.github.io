@@ -1,4 +1,8 @@
-# Creating GUI Applications with Tkinter or PyQt 
+---
+params:
+	author: Carson West
+title: Creating GUI Applications with Tkinter or PyQt
+--- 
 ## [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/)
 
 ### Explanation

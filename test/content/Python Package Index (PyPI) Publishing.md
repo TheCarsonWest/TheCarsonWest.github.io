@@ -1,4 +1,8 @@
-# Python Package Index (PyPI) Publishing 
+---
+params:
+	author: Carson West
+title: Python Package Index (PyPI) Publishing
+--- 
 ## Python Package Index (PyPI) Publishing
 
 ### Explanation

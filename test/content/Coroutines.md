@@ -1,4 +1,8 @@
-# Coroutines 
+---
+params:
+	author: Carson West
+title: Coroutines
+--- 
 ## [Coroutines](./../coroutines/)
 
 ### What are [Coroutines](./../coroutines/)?

@@ -1,4 +1,8 @@
-# Libraries like Matplotlib 
+---
+params:
+	author: Carson West
+title: Libraries like Matplotlib
+--- 
 ## Python Libraries Like Matplotlib
 
 ### What is Matplotlib?

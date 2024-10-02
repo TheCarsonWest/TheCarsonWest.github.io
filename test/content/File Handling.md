@@ -1,4 +1,8 @@
-# File Handling 
+---
+params:
+	author: Carson West
+title: File Handling
+--- 
 ## [File Handling](./../file-handling/)
 
 ### Explanation

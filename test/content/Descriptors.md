@@ -1,4 +1,8 @@
-# Descriptors 
+---
+params:
+	author: Carson West
+title: Descriptors
+--- 
 ## [Descriptors](./../descriptors/)
 
 ### What are [Descriptors](./../descriptors/)?

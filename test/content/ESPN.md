@@ -1,6 +1,10 @@
  [APHG Unit 2](./../aphg-unit-2/)
 
-# ESPN 
+---
+params:
+	author: Carson West
+title: ESPN
+--- 
 # [ESPN](./../espn/): List of consequences
 ## E   = Economics (money, currency, trading, etc.)
 

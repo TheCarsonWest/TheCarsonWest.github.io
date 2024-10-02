@@ -1,4 +1,8 @@
-# The nature of geography 1.1 
+---
+params:
+	author: Carson West
+title: The nature of geography 1.1
+--- 
 # [APHG Unit 1](./../aphg-unit-1/)
 
 ### Geography etymology

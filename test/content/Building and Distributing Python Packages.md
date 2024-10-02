@@ -1,4 +1,8 @@
-# Building and Distributing Python Packages 
+---
+params:
+	author: Carson West
+title: Building and Distributing Python Packages
+--- 
 ## [Building and Distributing Python Packages](./../building-and-distributing-python-packages/)
 
 ### What are Python Packages?

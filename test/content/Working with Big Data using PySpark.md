@@ -1,4 +1,8 @@
-# Working with Big Data using PySpark 
+---
+params:
+	author: Carson West
+title: Working with Big Data using PySpark
+--- 
 ## [Working with Big Data using PySpark](./../working-with-big-data-using-pyspark/)
 
 ### Overview

@@ -1,4 +1,8 @@
-# Python 1 Home 
+---
+params:
+	author: Carson West
+title: Python 1 Home
+--- 
 # [nexus](./../nexus/)
  [Variables and Data Types](./../variables-and-data-types/)
  [Operators](./../operators/)

@@ -1,4 +1,8 @@
-# IDS Unit 3 
+---
+params:
+	author: Carson West
+title: IDS Unit 3
+--- 
 # [ID Home](./../id-home/)
 
 1. [Constitutional Convention](./../constitutional-convention/)

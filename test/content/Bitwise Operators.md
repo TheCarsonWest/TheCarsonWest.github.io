@@ -1,4 +1,8 @@
-# Bitwise Operators 
+---
+params:
+	author: Carson West
+title: Bitwise Operators
+--- 
 ## [Bitwise [[Operators](./../bitwise-[[operators/)
 
 ### What are [Bitwise [[Operators](./../bitwise-[[operators/)?

@@ -1,4 +1,8 @@
-# Atomic Radius 
+---
+params:
+	author: Carson West
+title: Atomic Radius
+--- 
 # [Periodic Trends](./../periodic-trends/)
 ![Screenshot 2024-09-09 at 10.16.06 AM.png](./../screenshot-2024-09-09-at-10.16.06-am.png/)
 

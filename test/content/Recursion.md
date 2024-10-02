@@ -1,4 +1,8 @@
-# Recursion 
+---
+params:
+	author: Carson West
+title: Recursion
+--- 
 ## [Recursion](./../recursion/)
 
 ### Explanation

@@ -1,4 +1,8 @@
-# Importing Modules 
+---
+params:
+	author: Carson West
+title: Importing Modules
+--- 
 ## [Importing Modules](./../importing-modules/)
 
 ### What is [Importing Modules](./../importing-modules/)?

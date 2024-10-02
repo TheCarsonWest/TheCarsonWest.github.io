@@ -1,4 +1,8 @@
-# Return Values 
+---
+params:
+	author: Carson West
+title: Return Values
+--- 
 ## [Return Values](./../return-values/)
 
 ### What are [Return Values](./../return-values/)?

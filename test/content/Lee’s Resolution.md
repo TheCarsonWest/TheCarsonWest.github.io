@@ -6,5 +6,9 @@
 * **Impact:**
  * Sparked the American Revolutionary War
  * Established the [United States](./../united-states/) of America as an independent nation
-# Lee’s Resolution 
+---
+params:
+	author: Carson West
+title: Lee’s Resolution
+--- 
 #ids

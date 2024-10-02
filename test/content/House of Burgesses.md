@@ -3,7 +3,11 @@ location: 37.2089184,-76.7783003
 ---
 
 **Notecard**
-# House of Burgesses 
+---
+params:
+	author: Carson West
+title: House of Burgesses
+--- 
 #id
 
 **ID:** [House of Burgesses](./../house-of-burgesses/)
@@ -23,5 +27,9 @@ location: 37.2089184,-76.7783003
 **Impact:**
 * **Short-term:** Established a precedent for representative government in the American colonies
 * **Long-term:** Inspired the development of colonial legislatures throughout the Americas and served as a model for the [United States](./../united-states/) Congress
-# House of Burgesses 
+---
+params:
+	author: Carson West
+title: House of Burgesses
+--- 
 #ids

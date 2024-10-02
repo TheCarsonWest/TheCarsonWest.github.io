@@ -1,4 +1,8 @@
-# Working with Databases (SQLAlchemy, SQLite, MySQL) 
+---
+params:
+	author: Carson West
+title: Working with Databases (SQLAlchemy, SQLite, MySQL)
+--- 
 ## Working with Databases (SQLAlchemy, SQLite, MySQL)
 
 ### What is Working with Databases?

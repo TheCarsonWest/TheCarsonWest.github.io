@@ -1,4 +1,8 @@
-# While Loops 
+---
+params:
+	author: Carson West
+title: While Loops
+--- 
 ## [While Loops](./../while-loops/)
 
 ### What are [While Loops](./../while-loops/)?

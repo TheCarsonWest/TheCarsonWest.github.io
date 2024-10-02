@@ -1,4 +1,8 @@
-# Memoization in Recursion 
+---
+params:
+	author: Carson West
+title: Memoization in Recursion
+--- 
 ## [Memoization in [[Recursion](./../memoization-in-[[recursion/)
 
 ### What is Memoization?

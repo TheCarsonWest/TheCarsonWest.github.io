@@ -1,4 +1,8 @@
-# Handling Large Datasets with Dask 
+---
+params:
+	author: Carson West
+title: Handling Large Datasets with Dask
+--- 
 ## [Handling Large Datasets with Dask](./../handling-large-datasets-with-dask/)
 
 ### What is Dask?

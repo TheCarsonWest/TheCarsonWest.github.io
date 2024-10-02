@@ -1,4 +1,8 @@
-# Deep Learning with TensorFlow or Keras 
+---
+params:
+	author: Carson West
+title: Deep Learning with TensorFlow or Keras
+--- 
 ## [Deep Learning with TensorFlow or Keras](./../deep-learning-with-tensorflow-or-keras/)
 
 ### Overview

@@ -1,4 +1,8 @@
-# Memory Management 
+---
+params:
+	author: Carson West
+title: Memory Management
+--- 
 ## [Memory Management](./../memory-management/)
 
 **Definition:**

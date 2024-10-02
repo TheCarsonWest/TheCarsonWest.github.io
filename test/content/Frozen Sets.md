@@ -1,4 +1,8 @@
-# Frozen Sets 
+---
+params:
+	author: Carson West
+title: Frozen Sets
+--- 
 ## [Frozen [[Sets](./../frozen-[[sets/)
 
 ### Explanation

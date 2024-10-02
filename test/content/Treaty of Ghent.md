@@ -19,5 +19,9 @@
 * Made the US and Great Britain aware of each other's naval and military strength
 * Boosted American nationalism and patriotism
 * Settled the issue of impressment of American sailors by the British
-# Treaty of Ghent 
+---
+params:
+	author: Carson West
+title: Treaty of Ghent
+--- 
 # [IDS Unit 3](./../ids-unit-3/)

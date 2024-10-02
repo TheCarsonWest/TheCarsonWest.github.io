@@ -1,4 +1,8 @@
-# Laws 
+---
+params:
+	author: Carson West
+title: Laws
+--- 
 # [APCHEM  Home](./../apchem--home/)
 
 ## [Coulombs Law](./../coulombs-law/)

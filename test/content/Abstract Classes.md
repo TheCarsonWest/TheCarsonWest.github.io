@@ -1,4 +1,8 @@
-# Abstract Classes 
+---
+params:
+	author: Carson West
+title: Abstract Classes
+--- 
 ## [Abstract Classes](./../abstract-classes/)
 
 ### What are [Abstract Classes](./../abstract-classes/)?

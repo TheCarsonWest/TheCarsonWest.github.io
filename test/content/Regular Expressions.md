@@ -1,4 +1,8 @@
-# Regular Expressions 
+---
+params:
+	author: Carson West
+title: Regular Expressions
+--- 
 ## [Regular Expressions](./../regular-expressions/)
 
 ### What are [Regular Expressions](./../regular-expressions/)?

@@ -1,4 +1,8 @@
-# Decorators 
+---
+params:
+	author: Carson West
+title: Decorators
+--- 
 ## Python [Decorators](./../decorators/)
 
 ### Introduction

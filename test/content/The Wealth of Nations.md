@@ -16,5 +16,9 @@
 * Revolutionized economic thought and paved the way for capitalism
 * Major influence on economic policies and the development of modern economies
 * Its principles continue to shape economic debates and policies today
-# The Wealth of Nations 
+---
+params:
+	author: Carson West
+title: The Wealth of Nations
+--- 
 #ids

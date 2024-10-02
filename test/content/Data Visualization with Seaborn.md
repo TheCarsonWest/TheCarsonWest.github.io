@@ -1,4 +1,8 @@
-# Data Visualization with Seaborn 
+---
+params:
+	author: Carson West
+title: Data Visualization with Seaborn
+--- 
 ## [Data Visualization with Seaborn](./../data-visualization-with-seaborn/)
 
 ### Introduction

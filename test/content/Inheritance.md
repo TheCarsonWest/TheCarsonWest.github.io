@@ -1,4 +1,8 @@
-# Inheritance 
+---
+params:
+	author: Carson West
+title: Inheritance
+--- 
 ## [Inheritance](./../inheritance/) in Python
 
 ### What is [Inheritance](./../inheritance/)?

@@ -1,4 +1,8 @@
-# Constants 
+---
+params:
+	author: Carson West
+title: Constants
+--- 
 # [APCHEM Home](./../apchem-home/)
 
 - ## [Planck constant](./../planck-constant/)

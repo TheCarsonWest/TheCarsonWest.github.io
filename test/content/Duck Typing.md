@@ -1,4 +1,8 @@
-# Duck Typing 
+---
+params:
+	author: Carson West
+title: Duck Typing
+--- 
 ## [Duck Typing](./../duck-typing/)
 
 ### Definition

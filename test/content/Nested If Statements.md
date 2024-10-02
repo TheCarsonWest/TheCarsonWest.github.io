@@ -1,4 +1,8 @@
-# Nested If Statements 
+---
+params:
+	author: Carson West
+title: Nested If Statements
+--- 
 ## [Nested If Statements](./../nested-if-statements/)
 
 ### What are [Nested If Statements](./../nested-if-statements/)?

@@ -1,4 +1,8 @@
-# Async Generators 
+---
+params:
+	author: Carson West
+title: Async Generators
+--- 
 ## Async [Generators](./../generators/)
 
 ### Definition

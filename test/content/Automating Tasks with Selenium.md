@@ -1,4 +1,8 @@
-# Automating Tasks with Selenium 
+---
+params:
+	author: Carson West
+title: Automating Tasks with Selenium
+--- 
 ## [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
 
 ### What is Selenium?

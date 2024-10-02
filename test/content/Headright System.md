@@ -12,7 +12,15 @@
 * Expanded population in 13 Colonies
 * Increased indentured servitude and wealth disparities
 * Conflict with Native Americans over land ownership
-# Headright System 
+---
+params:
+	author: Carson West
+title: Headright System
+--- 
 #id
-# Headright System 
+---
+params:
+	author: Carson West
+title: Headright System
+--- 
 #ids

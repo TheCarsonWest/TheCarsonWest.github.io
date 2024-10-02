@@ -1,5 +1,9 @@
 [APHG Home](./../aphg-home/)
-# Glossary 
+---
+params:
+	author: Carson West
+title: Glossary
+--- 
 ## Unit 1
 ### Region Types
 

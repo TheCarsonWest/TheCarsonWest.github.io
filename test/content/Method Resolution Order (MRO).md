@@ -1,4 +1,8 @@
-# Method Resolution Order (MRO) 
+---
+params:
+	author: Carson West
+title: Method Resolution Order (MRO)
+--- 
 ## Method Resolution Order (MRO)
 
 ### Explanation

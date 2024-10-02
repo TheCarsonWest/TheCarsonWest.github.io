@@ -1,4 +1,8 @@
-# Electronegativity 
+---
+params:
+	author: Carson West
+title: Electronegativity
+--- 
 # [Periodic Trends](./../periodic-trends/)
 ![Screenshot 2024-09-09 at 10.27.16 AM.png](./../screenshot-2024-09-09-at-10.27.16-am.png/)
 - [Electronegativity](./../electronegativity/):

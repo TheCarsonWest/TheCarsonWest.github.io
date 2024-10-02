@@ -1,4 +1,8 @@
-# REST APIs with FastAPI 
+---
+params:
+	author: Carson West
+title: REST APIs with FastAPI
+--- 
 ## [REST APIs with FastAPI](./../rest-apis-with-fastapi/)
 
 ### What are FastAPI REST APIs?

@@ -1,6 +1,10 @@
-# README 
+---
+params:
+	author: Carson West
+title: README
+--- 
 # My 24-25 Notes
-
+# Start at [nexus](./../nexus/)
 ## anyone can use these idc
 By June 2025 there will be a [full obsidian vault](https://obsidian.md/) for:
 - AP US History
@@ -8,7 +12,6 @@ By June 2025 there will be a [full obsidian vault](https://obsidian.md/) for:
 - AP Calculus AB
 - AP Human Geography
 - AP English Language and Composition
-- Arabic II
 
 By the looks of things it might just be APUSH, APHG, and AP Chem
 

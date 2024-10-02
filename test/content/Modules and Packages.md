@@ -1,4 +1,8 @@
-# Modules and Packages 
+---
+params:
+	author: Carson West
+title: Modules and Packages
+--- 
 ## [Modules and Packages](./../modules-and-packages/)
 
 ### What are [Modules and Packages](./../modules-and-packages/)?

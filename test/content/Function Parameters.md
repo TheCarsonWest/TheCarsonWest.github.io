@@ -1,4 +1,8 @@
-# Function Parameters 
+---
+params:
+	author: Carson West
+title: Function Parameters
+--- 
 ## [Function Parameters](./../function-parameters/)
 
 ### Definition

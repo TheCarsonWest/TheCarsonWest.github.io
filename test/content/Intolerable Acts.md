@@ -17,5 +17,9 @@ location: 51.5074456,-0.1277653
 * Provoked outrage and resistance among colonists
 * Contributed to the growing movement for American independence
  [IDs unit 2](./../ids-unit-2/)
-# Intolerable Acts 
+---
+params:
+	author: Carson West
+title: Intolerable Acts
+--- 
 #ids

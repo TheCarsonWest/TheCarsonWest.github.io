@@ -1,4 +1,10 @@
-# nexus 
+---
+params:
+	author: Carson West
+title: nexus
+--- 
+# See [README](./../readme/)
+
 # [APHG Home](./../aphg-home/)
 # [APUSH Home](./../apush-home/)
 

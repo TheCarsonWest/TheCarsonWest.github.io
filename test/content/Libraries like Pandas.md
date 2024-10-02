@@ -1,4 +1,8 @@
-# Libraries like Pandas 
+---
+params:
+	author: Carson West
+title: Libraries like Pandas
+--- 
 ## [Libraries like Pandas](./../libraries-like-pandas/)
 
 ### What is Pandas?

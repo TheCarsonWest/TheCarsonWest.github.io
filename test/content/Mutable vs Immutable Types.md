@@ -1,4 +1,8 @@
-# Mutable vs Immutable Types 
+---
+params:
+	author: Carson West
+title: Mutable vs Immutable Types
+--- 
 ## [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 
 ### Explanation

@@ -1,4 +1,8 @@
-# Map Projections 
+---
+params:
+	author: Carson West
+title: Map Projections
+--- 
 # [APHG Home](./../aphg-home/)
 
 There are 4 common map projections. they are all distorted

@@ -1,4 +1,8 @@
-# Default Parameters 
+---
+params:
+	author: Carson West
+title: Default Parameters
+--- 
 ## [Default Parameters](./../default-parameters/)
 
 ### What are [Default Parameters](./../default-parameters/)?

@@ -1,4 +1,8 @@
-# Montana 
+---
+params:
+	author: Carson West
+title: Montana
+--- 
 ## [Montana](./../montana/)'s Role in U.S. History
 
 ### Timeline of Events

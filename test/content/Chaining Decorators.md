@@ -1,4 +1,8 @@
-# Chaining Decorators 
+---
+params:
+	author: Carson West
+title: Chaining Decorators
+--- 
 # Chaining [Decorators](./../decorators/)
 
 ## What are Chaining [Decorators](./../decorators/)?

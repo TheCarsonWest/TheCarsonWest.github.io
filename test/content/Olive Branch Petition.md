@@ -6,5 +6,9 @@
 * **Impact:**
  * Short-term: Rejected by the King, contributing to the escalation of tensions and the American Revolution.
  * Long-term: Documented grievances and American desire for self-government, shaping the narrative of the conflict and the eventual [Declaration of Independence](./../declaration-of-independence/).
-# Olive Branch Petition 
+---
+params:
+	author: Carson West
+title: Olive Branch Petition
+--- 
 #ids

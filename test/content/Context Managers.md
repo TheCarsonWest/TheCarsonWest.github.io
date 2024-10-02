@@ -1,4 +1,8 @@
-# Context Managers 
+---
+params:
+	author: Carson West
+title: Context Managers
+--- 
 ## [Context Managers](./../context-managers/)
 
 ### What are [Context Managers](./../context-managers/)?

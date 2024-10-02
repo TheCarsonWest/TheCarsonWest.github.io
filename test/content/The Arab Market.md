@@ -1,4 +1,8 @@
-# The Arab Market 
+---
+params:
+	author: Carson West
+title: The Arab Market
+--- 
 # [Module 1](./../module-1/)
 **Arabian Market Characteristics and Goods**
 

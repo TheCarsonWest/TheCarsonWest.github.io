@@ -1,4 +1,8 @@
-# Profiling and Optimization 
+---
+params:
+	author: Carson West
+title: Profiling and Optimization
+--- 
 ## Python [Profiling and Optimization](./../profiling-and-optimization/)
 
 ### What is [Profiling and Optimization](./../profiling-and-optimization/)?

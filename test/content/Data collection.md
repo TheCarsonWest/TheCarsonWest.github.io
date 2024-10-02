@@ -1,4 +1,8 @@
-# Data collection 
+---
+params:
+	author: Carson West
+title: Data collection
+--- 
 # [Cengage home](./../cengage-home/)
 
 ### **Approximately 80% of the world's data is spatial(for maps)**

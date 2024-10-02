@@ -19,5 +19,9 @@
 **Impact:**
 * Short-term: United the colonies and established a central government during the American Revolutionary War
 * Long-term: Led to the [Declaration of Independence](./../declaration-of-independence/) and the eventual creation of the [United States](./../united-states/) of America
-# Second Continental Congress 
+---
+params:
+	author: Carson West
+title: Second Continental Congress
+--- 
 #ids

@@ -1,4 +1,8 @@
-# Tuples 
+---
+params:
+	author: Carson West
+title: Tuples
+--- 
 ## [Tuples](./../tuples/)
 
 ### What are [Tuples](./../tuples/)?

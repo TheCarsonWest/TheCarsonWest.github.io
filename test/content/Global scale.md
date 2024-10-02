@@ -1,4 +1,8 @@
-# Global scale 
+---
+params:
+	author: Carson West
+title: Global scale
+--- 
 ## [Glossary](./../glossary/)
 
 **Global Scale**

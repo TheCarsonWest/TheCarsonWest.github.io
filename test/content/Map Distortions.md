@@ -1,4 +1,8 @@
-# Map Distortions 
+---
+params:
+	author: Carson West
+title: Map Distortions
+--- 
 ## [Map Projections](./../map-projections/)
 
 # SADD

@@ -1,5 +1,9 @@
  [ESPN](./../espn/)
-# ESPN Example 
+---
+params:
+	author: Carson West
+title: ESPN Example
+--- 
 ## E   = Economics (money, currency, trading, etc.)
 
 Destroyed Western NC

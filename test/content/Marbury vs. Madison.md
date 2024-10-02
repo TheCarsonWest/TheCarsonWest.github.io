@@ -18,5 +18,9 @@
 * Strengthened the power of the judiciary.
 * Set a precedent for the Court to limit the powers of the other branches of government.
 * Contributed to the development of the system of checks and balances.
-# Marbury vs. Madison 
+---
+params:
+	author: Carson West
+title: Marbury vs. Madison
+--- 
 # [IDS Unit 3](./../ids-unit-3/)

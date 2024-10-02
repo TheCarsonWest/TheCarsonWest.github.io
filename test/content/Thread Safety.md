@@ -1,4 +1,8 @@
-# Thread Safety 
+---
+params:
+	author: Carson West
+title: Thread Safety
+--- 
 ## [Thread Safety](./../thread-safety/)
 
 ### What is [Thread Safety](./../thread-safety/)?

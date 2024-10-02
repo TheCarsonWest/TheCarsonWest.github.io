@@ -1,4 +1,8 @@
-# Closures 
+---
+params:
+	author: Carson West
+title: Closures
+--- 
 ## [Closures](./../closures/)
 
 ### What is a Closure?

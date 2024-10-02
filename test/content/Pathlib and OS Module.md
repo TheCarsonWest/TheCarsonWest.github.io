@@ -1,4 +1,8 @@
-# Pathlib and OS Module 
+---
+params:
+	author: Carson West
+title: Pathlib and OS Module
+--- 
 ## [Pathlib and OS Module](./../pathlib-and-os-module/)
 
 ### Overview

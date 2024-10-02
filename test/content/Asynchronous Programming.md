@@ -1,4 +1,8 @@
-# Asynchronous Programming 
+---
+params:
+	author: Carson West
+title: Asynchronous Programming
+--- 
 ## [Asynchronous Programming](./../asynchronous-programming/)
 
 ### What is [Asynchronous Programming](./../asynchronous-programming/)?

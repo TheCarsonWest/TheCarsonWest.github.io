@@ -8,5 +8,9 @@
 
 **Impact:** The rebellion demonstrated the growing resistance of slaves to slavery and highlighted the fear of slave insurrections among white colonists. It led to increased efforts by [South Carolina](./../south-carolina/) to control and suppress slave resistance.
  [IDs unit 2](./../ids-unit-2/)
-# Stono Rebellion 
+---
+params:
+	author: Carson West
+title: Stono Rebellion
+--- 
 #ids

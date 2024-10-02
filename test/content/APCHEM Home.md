@@ -1,4 +1,8 @@
-# APCHEM Home 
+---
+params:
+	author: Carson West
+title: APCHEM Home
+--- 
 # [nexus](./../nexus/)
 
 # [Constants](./../constants/)

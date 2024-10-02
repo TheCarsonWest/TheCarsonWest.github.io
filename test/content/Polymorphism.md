@@ -1,4 +1,8 @@
-# Polymorphism 
+---
+params:
+	author: Carson West
+title: Polymorphism
+--- 
 ## [Polymorphism](./../polymorphism/)
 
 ### What is [Polymorphism](./../polymorphism/)?

@@ -21,5 +21,9 @@
 * Strengthened the national government
 * Boosted American pride and confidence
 * Set the stage for westward expansion and industrialization
-# Era of Good Feelings 
+---
+params:
+	author: Carson West
+title: Era of Good Feelings
+--- 
 # [IDS Unit 3](./../ids-unit-3/)

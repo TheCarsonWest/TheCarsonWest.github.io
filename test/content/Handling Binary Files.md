@@ -1,4 +1,8 @@
-# Handling Binary Files 
+---
+params:
+	author: Carson West
+title: Handling Binary Files
+--- 
 ## [Handling Binary Files](./../handling-binary-files/) in Python
 
 ### What is Binary [File Handling](./../file-handling/)?

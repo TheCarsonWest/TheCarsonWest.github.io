@@ -1,4 +1,8 @@
-# List Comprehension 
+---
+params:
+	author: Carson West
+title: List Comprehension
+--- 
 ## [List Comprehension](./../list-comprehension/)
 
 ### What is [List Comprehension](./../list-comprehension/)?

@@ -8,5 +8,9 @@
 * Protected individual rights and freedoms from government infringement.
 * Ensured the right to free speech, press, assembly, religion, and a fair trial.
 * Established the foundations of American civil liberties.
-# Bill of Rights 
+---
+params:
+	author: Carson West
+title: Bill of Rights
+--- 
 # [IDS Unit 3](./../ids-unit-3/)
