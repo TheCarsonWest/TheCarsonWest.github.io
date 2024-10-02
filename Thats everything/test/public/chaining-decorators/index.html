@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | My Obsidian Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h1 id="chaining-decoratorsdecorators">Chaining <a href="./../decorators/">Decorators</a></h1>
+<h2 id="what-are-chaining-decoratorsdecorators">What are Chaining <a href="./../decorators/">Decorators</a>?</h2>
+<p>Chaining decorators is a technique in Python that allows multiple decorators to be applied to a single function or class. By chaining decorators, you can combine the functionalities of different decorators in a sequential manner, allowing you to enhance the behavior of the decorated function or class in a more modular and flexible way.</p>
+<h2 id="how-to-use-chaining-decoratorsdecorators">How to Use Chaining <a href="./../decorators/">Decorators</a></h2>
+<p>To chain decorators, simply use the <code>@</code> symbol before each decorator function you want to apply, in the order you wish to apply them. The syntax is as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@decorator1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@decorator2</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@decoratorN</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_name</span>(parameters):
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># function body</span>
+</span></span></code></pre></div><p>Note that the decorators are applied from top to bottom, so the inner-most decorator is applied first, followed by the next-inner decorator, and so on.</p>
+<h2 id="code-examples">Code Examples</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example 1: Chaining decorators to add cache and timing functionality to a function</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> functools <span style="color:#f92672">import</span> wraps
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">cache</span>(func):
+</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">@wraps</span>(func)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span> key <span style="color:#f92672">=</span> str(args) <span style="color:#f92672">+</span> str(kwargs)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> key <span style="color:#f92672">in</span> wrapper<span style="color:#f92672">.</span>cache:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> wrapper<span style="color:#f92672">.</span>cache[key]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> result <span style="color:#f92672">=</span> func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span> wrapper<span style="color:#f92672">.</span>cache[key] <span style="color:#f92672">=</span> result
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span> wrapper<span style="color:#f92672">.</span>cache <span style="color:#f92672">=</span> {}
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> wrapper
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">timing</span>(func):
+</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">@wraps</span>(func)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span> start <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span> result <span style="color:#f92672">=</span> func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span> end <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Function </span><span style="color:#e6db74">{</span>func<span style="color:#f92672">.</span>__name__<span style="color:#e6db74">}</span><span style="color:#e6db74"> took </span><span style="color:#e6db74">{</span>end <span style="color:#f92672">-</span> start<span style="color:#e6db74">}</span><span style="color:#e6db74"> seconds to run&#34;</span>)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> wrapper
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@cache</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@timing</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">factorial</span>(n):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> n <span style="color:#f92672">*</span> factorial(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(factorial(<span style="color:#ae81ff">10</span>)) <span style="color:#75715e"># prints the result and execution time</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example 2: Chaining decorators to add multiple permissions checks to a method</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">permission_required</span>(permission):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator</span>(func):
+</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">@wraps</span>(func)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(self, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> self<span style="color:#f92672">.</span>has_permission(permission):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> func(self, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">PermissionError</span>(<span style="color:#e6db74">&#34;Permission Denied&#34;</span>)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> wrapper
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> decorator
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">User</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __init__(self, permissions):
+</span></span><span style="display:flex;"><span> self<span style="color:#f92672">.</span>permissions <span style="color:#f92672">=</span> permissions
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">has_permission</span>(self, permission):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> permission <span style="color:#f92672">in</span> self<span style="color:#f92672">.</span>permissions
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@permission_required</span>(<span style="color:#e6db74">&#34;read&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@permission_required</span>(<span style="color:#e6db74">&#34;write&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_user</span>(self, new_data):
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># update user data if permissions are granted</span>
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">pass</span>
+</span></span></code></pre></div><h2 id="related-python-concepts">Related Python Concepts</h2>
+<ul>
+<li><a href="./../decorators/">Decorators</a>: Chaining decorators is an advanced technique that builds upon the concept of decorators.</li>
+<li><a href="./../functions/">Functions</a>: <a href="./../decorators/">Decorators</a> are applied to functions to modify their behavior.</li>
+<li>[[Higher-Order <a href="./../functions/">Functions</a>: <a href="./../decorators/">Decorators</a> are higher-order functions that take a function as an argument and return a new function.</li>
+<li><a href="./../closures/">Closures</a>: <a href="./../decorators/">Decorators</a> create closures that remember and have access to the variables defined in their scope.</li>
+<li><a href="./../metaclasses/">Metaclasses</a>: Chaining decorators can be used to create custom metaclasses that modify the behavior of classes and their instances.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

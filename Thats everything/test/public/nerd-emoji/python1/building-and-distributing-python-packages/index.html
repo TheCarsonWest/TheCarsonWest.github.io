@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | My Obsidian Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h2 id="building-and-distributing-python-packages">[[Building and Distributing Python Packages]]</h2>
+<h3 id="what-are-python-packages">What are Python Packages?</h3>
+<p>Python packages are a way to organize and distribute reusable code in Python. They encapsulate related modules, classes, and other resources into a single unit that can be easily installed and used in other Python programs.</p>
+<h3 id="how-to-build-a-python-package">How to Build a Python Package</h3>
+<p>To create a package, create a directory with the name of your package. Inside this directory, create one or more Python modules (files with a <code>.py</code> extension) that contain your code.</p>
+<p>To define a package, create a file named <code>__init__.py</code> in the package directory. This file can be empty or contain code to initialize the package.</p>
+<h3 id="how-to-distribute-a-python-package">How to Distribute a Python Package</h3>
+<p>To distribute your package, you can use the Python Package Index ([[Python Package Index (PyPI) Publishing]]) or other package repositories. To publish your package on PyPI, follow these steps:</p>
+<ol>
+<li>Create a PyPI account.</li>
+<li>Create a setup script (usually named <code>setup.py</code>) in your package directory.</li>
+<li>Register your package with PyPI using the <code>twine</code> tool:</li>
+</ol>
+<pre tabindex="0"><code>twine register dist/PACKAGE_NAME-VERSION_NUMBER.tar.gz
+</code></pre><h3 id="other-python-concepts-related-to-packages">Other Python Concepts Related to Packages</h3>
+<ul>
+<li>[[Modules and Packages]]: Packages are a higher-level organization of modules.</li>
+<li>[[Importing Modules]]: Packages can be imported using the <code>import</code> statement.</li>
+<li>[[Virtual Environments]]: Packages can be installed and used within virtual environments.</li>
+<li>[[Dynamic Importing]]: Packages can be imported dynamically at runtime.</li>
+<li>[[Command Line Interface (CLI) Programs]]: Packages can be used to create command-line tools.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

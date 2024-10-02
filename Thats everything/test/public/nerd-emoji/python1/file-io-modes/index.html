@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | My Obsidian Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h2 id="file-io-modes">[[File IO Modes]]</h2>
+<h3 id="overview">Overview</h3>
+<p>Python provides file handling modes to specify how the file is opened and how data is accessed. The mode specifies the usage of the file, such as reading, writing, or appending.</p>
+<h3 id="file-io-mode-options">File IO Mode Options</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Mode</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><code>'r'</code></td>
+          <td style="text-align: left">Opens a file for reading. The file must exist, or an <code>OSError</code> will be raised.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'w'</code></td>
+          <td style="text-align: left">Opens a file for writing. If the file exists, it will be overwritten. If it doesn&rsquo;t, a new file will be created.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'a'</code></td>
+          <td style="text-align: left">Opens a file for appending. Data is written to the end of the file without overwriting the existing content. If the file doesn&rsquo;t exist, a new file will be created.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'r+'</code></td>
+          <td style="text-align: left">Opens a file for both reading and writing. The file must exist, or an <code>OSError</code> will be raised.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'w+'</code></td>
+          <td style="text-align: left">Opens a file for both writing and reading. If the file exists, it will be overwritten. If it doesn&rsquo;t, a new file will be created.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'a+'</code></td>
+          <td style="text-align: left">Opens a file for both appending and reading. Data is written to the end of the file without overwriting the existing content. If the file doesn&rsquo;t exist, a new file will be created.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>'x'</code></td>
+          <td style="text-align: left">Opens a file for exclusive creation and writing. If the file already exists, an <code>OSError</code> will be raised.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="how-to-use-file-io-modes">How to Use [[File IO Modes]]</h3>
+<p>When opening a file using the <code>open()</code> function, the mode is specified as the second parameter:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#39;filename.txt&#39;</span>, mode<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;r&#39;</span>) <span style="color:#66d9ef">as</span> file:
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># reading operations</span>
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li>[[File Handling]]: File IO modes are part of the Python file handling functionality.</li>
+<li>[[Context Managers]]: Context managers are used in Python to ensure proper resource management, including file handling.</li>
+<li>[[Exceptions]]: Errors while working with files, such as file not found or permission denied, raise exceptions that need to be handled appropriately.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
