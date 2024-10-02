@@ -1,4 +1,5 @@
-# Duck Typing ## [Duck Typing](./../duck-typing/)
+# Duck Typing 
+## [Duck Typing](./../duck-typing/)
 
 ### Definition
 Duck typing is a concept in Python that allows objects to be used based on their behavior rather than their type. In other words, if an object can "quack" like a duck and "swim" like a duck, it can be treated as a duck, even if it is not an instance of the `Duck` class.

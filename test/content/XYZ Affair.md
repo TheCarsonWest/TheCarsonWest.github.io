@@ -16,4 +16,5 @@
 * Strengthened the [Federalist](./../federalist/) Party and weakened the [Democratic-Republican](./../democratic-republican/) Party.
 * Contributed to the [Alien and Sedition Acts](./../alien-and-sedition-acts/), which suppressed political dissent.
 * Demonstrated the fragility of American neutrality in global affairs.
-# XYZ Affair # [IDS Unit 3](./../ids-unit-3/)
+# XYZ Affair 
+# [IDS Unit 3](./../ids-unit-3/)

@@ -1,4 +1,5 @@
-# The Arab Market # [Module 1](./../module-1/)
+# The Arab Market 
+# [Module 1](./../module-1/)
 **Arabian Market Characteristics and Goods**
 
 * Items differ in shape, culture, and Arabian style.

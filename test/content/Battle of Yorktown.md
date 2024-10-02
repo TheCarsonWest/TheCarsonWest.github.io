@@ -22,4 +22,5 @@
  * Major turning point in the war, leading to negotiations and the end of hostilities
  * Accelerating the recognition of American independence
  * Weakening of British imperial power and the beginning of the global rise of the [United States](./../united-states/)
-# Battle of Yorktown #ids
+# Battle of Yorktown 
+#ids

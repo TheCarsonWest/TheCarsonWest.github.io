@@ -10,4 +10,5 @@
  * Contributed to the development of evangelical Protestantism
  * Challenged authority and fostered independent thinking
  * Influenced the abolitionist movement and other social reform efforts
-# Great Awakening #ids
+# Great Awakening 
+#ids

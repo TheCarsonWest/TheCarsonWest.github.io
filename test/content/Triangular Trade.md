@@ -15,4 +15,5 @@
  * Transatlantic slave trade became a global phenomenon
  * Led to the creation of the Americas as a new slave society
  * Contributed to racial discrimination and ongoing racial disparities
-# Triangular Trade #ids
+# Triangular Trade 
+#ids

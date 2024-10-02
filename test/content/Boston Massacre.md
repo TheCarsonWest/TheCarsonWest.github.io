@@ -16,4 +16,5 @@ location: 42.3554334,-71.060511
 **Impact:**
 * Short-term: Outrage and protests in Boston, leading to the repeal of the Townshend Acts.
 * Long-term: Contributed to growing resentment against British authority and played a role in the American Revolution.
-# Boston Massacre #ids
+# Boston Massacre 
+#ids

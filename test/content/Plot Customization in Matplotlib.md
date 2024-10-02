@@ -1,4 +1,5 @@
-# Plot Customization in Matplotlib ## [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/)
+# Plot Customization in Matplotlib 
+## [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/)
 
 
 ### Overview

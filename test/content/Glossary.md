@@ -1,5 +1,6 @@
 [APHG Home](./../aphg-home/)
-# Glossary ## Unit 1
+# Glossary 
+## Unit 1
 ### Region Types
  [Formal region](./../formal-region/)
  [Functional Region](./../functional-region/)

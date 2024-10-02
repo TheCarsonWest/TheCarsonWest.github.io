@@ -6,4 +6,5 @@
 * **Impact:**
  * Sparked the American Revolutionary War
  * Established the [United States](./../united-states/) of America as an independent nation
-# Lee’s Resolution #ids
+# Lee’s Resolution 
+#ids

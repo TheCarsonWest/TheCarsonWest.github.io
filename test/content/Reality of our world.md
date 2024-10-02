@@ -1,5 +1,6 @@
 [APHG Home](./../aphg-home/)
-# Reality of our world ## Africa
+# Reality of our world 
+## Africa
 there are cell phones in africa no way
 heres some cities that are in africa
 - Addis Ababa

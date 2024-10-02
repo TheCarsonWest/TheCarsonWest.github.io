@@ -1,4 +1,5 @@
-# Dynamic Importing ## [Dynamic Importing](./../dynamic-importing/)
+# Dynamic Importing 
+## [Dynamic Importing](./../dynamic-importing/)
 
 ### What is [Dynamic Importing](./../dynamic-importing/)?
 Dynamic importing is a technique in Python that allows the importing of modules or packages at runtime based on a dynamically determined string. It is different from static importing, which imports modules or packages explicitly at the beginning of a script.

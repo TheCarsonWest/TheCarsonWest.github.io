@@ -2,7 +2,8 @@
 
 
 
-# Planck constant # h = 6.62607015e−34 joule/hertz
+# Planck constant 
+# h = 6.62607015e−34 joule/hertz
 # Commonly just 6.626e-34
 ## Relationship between joules and frequency
 

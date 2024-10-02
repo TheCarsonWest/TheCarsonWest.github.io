@@ -1,4 +1,5 @@
-# Montana ## [Montana](./../montana/)'s Role in U.S. History
+# Montana 
+## [Montana](./../montana/)'s Role in U.S. History
 
 ### Timeline of Events
 

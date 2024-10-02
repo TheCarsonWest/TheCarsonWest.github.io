@@ -1,4 +1,5 @@
-# Nested Loops ## [Nested Loops](./../nested-loops/)
+# Nested Loops 
+## [Nested Loops](./../nested-loops/)
 
 ### What are [Nested Loops](./../nested-loops/)?
 Nested loops are a sequence of loops, where one or more loops are contained within another loop. They enable the execution of a nested block of code a specified number of times, depending on the conditions of the outer and inner loops.

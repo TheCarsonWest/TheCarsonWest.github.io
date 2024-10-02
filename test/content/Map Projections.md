@@ -1,4 +1,5 @@
-# Map Projections # [APHG Home](./../aphg-home/)
+# Map Projections 
+# [APHG Home](./../aphg-home/)
 
 There are 4 common map projections. they are all distorted
 ## [Map Distortions](./../map-distortions/)

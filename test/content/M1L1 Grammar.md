@@ -1,4 +1,5 @@
-# M1L1 Grammar # These first two things aren't written down in everyday writing
+# M1L1 Grammar 
+# These first two things aren't written down in everyday writing
 # Fat-ha, Dama, Kasra 
 they are short vowels
 I already know this so im going to skip over it

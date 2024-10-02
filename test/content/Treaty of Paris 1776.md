@@ -12,4 +12,5 @@
 * Solidified American independence and marked the end of British colonial rule in North America.
 * Set the stage for the development of a new American nation, free from British influence.
  [IDs unit 2](./../ids-unit-2/)
-# Treaty of Paris 1776 #ids
+# Treaty of Paris 1776 
+#ids

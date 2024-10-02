@@ -10,4 +10,5 @@ What:
 Impact:
 -- Short-term: American morale boost, British recognition of American determination
 -- Long-term: foreshadowed the American victory in the Revolutionary War
-# Battle of Bunker Hill #ids
+# Battle of Bunker Hill 
+#ids

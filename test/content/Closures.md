@@ -1,4 +1,5 @@
-# Closures ## [Closures](./../closures/)
+# Closures 
+## [Closures](./../closures/)
 
 ### What is a Closure?
 A closure in Python is a function that retains access to the variables in its enclosing scope, even after the enclosing function has returned. This allows the closed function to access and manipulate variables from the enclosing scope, making it a powerful tool for encapsulating state and creating flexible and reusable code.

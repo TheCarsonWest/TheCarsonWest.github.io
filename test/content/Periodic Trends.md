@@ -1,4 +1,5 @@
-# Periodic Trends # [APCHEM Home](./../apchem-home/)
+# Periodic Trends 
+# [APCHEM Home](./../apchem-home/)
 
 # [Ptable.com](https://ptable.com/?lang=en#Properties)
 

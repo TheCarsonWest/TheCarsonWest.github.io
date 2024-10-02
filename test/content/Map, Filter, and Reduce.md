@@ -1,4 +1,5 @@
-# Map, Filter, and Reduce ## [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
+# Map, Filter, and Reduce 
+## [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
 
 ### Explanation
  [Map, Filter, and Reduce](./../map,-filter,-and-reduce/) are higher-order functions that operate on sequences and return a new sequence. They are widely used for functional programming in Python.

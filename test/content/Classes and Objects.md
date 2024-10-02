@@ -1,4 +1,5 @@
-# Classes and Objects ## [Classes and Objects](./../classes-and-objects/)
+# Classes and Objects 
+## [Classes and Objects](./../classes-and-objects/)
 
 ### What are [Classes and Objects](./../classes-and-objects/)?
 In Python, classes are blueprints for creating objects. An object is an instance of a class, containing data and methods specific to that object. Classes define the attributes (variables) and methods (functions) that objects of that class will have.

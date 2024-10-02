@@ -1,4 +1,5 @@
-# Operators ## Python [Operators](./../operators/)
+# Operators 
+## Python [Operators](./../operators/)
 
 ### What are [Operators](./../operators/)?
  [Operators](./../operators/) are special symbols or functions that perform specific operations on values. They allow the manipulation, comparison, and modification of data in Python.

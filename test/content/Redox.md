@@ -1,5 +1,6 @@
 
-# Redox ## **Definition:**
+# Redox 
+## **Definition:**
 [Redox](./../redox/) reactions are chemical reactions involving the transfer of electrons between atoms or molecules.
 
 ## **Key Concepts:**

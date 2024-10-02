@@ -1,4 +1,5 @@
-# Global scale ## [Glossary](./../glossary/)
+# Global scale 
+## [Glossary](./../glossary/)
 
 **Global Scale**
 

@@ -1,4 +1,5 @@
-# Garbage Collection ## [Garbage Collection](./../garbage-collection/)
+# Garbage Collection 
+## [Garbage Collection](./../garbage-collection/)
 
 ### What is [Garbage Collection](./../garbage-collection/)?
 Garbage collection is an automatic memory management mechanism in Python. It manages the memory allocated to objects and releases the memory when the objects are no longer in use. This ensures that Python programs can efficiently and effectively utilize memory resources.

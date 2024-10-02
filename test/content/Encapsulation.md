@@ -1,4 +1,5 @@
-# Encapsulation ## Python [Encapsulation](./../encapsulation/)
+# Encapsulation 
+## Python [Encapsulation](./../encapsulation/)
 
 ### What is [Encapsulation](./../encapsulation/)?
  [Encapsulation](./../encapsulation/) is a concept in object-oriented programming that bundles data and methods together into a single unit, known as a class. It restricts direct access to certain attributes and methods of an object, making them only accessible through well-defined interfaces.

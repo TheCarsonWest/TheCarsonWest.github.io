@@ -1,4 +1,5 @@
-# South Dakota ## [South Dakota](./../south-dakota/) in [United States](./../united-states/) History
+# South Dakota 
+## [South Dakota](./../south-dakota/) in [United States](./../united-states/) History
 
 **Timeline of Events:**
 

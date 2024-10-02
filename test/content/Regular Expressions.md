@@ -1,4 +1,5 @@
-# Regular Expressions ## [Regular Expressions](./../regular-expressions/)
+# Regular Expressions 
+## [Regular Expressions](./../regular-expressions/)
 
 ### What are [Regular Expressions](./../regular-expressions/)?
 Regular expressions (regex) are a powerful tool for matching and manipulating strings in Python. They provide a concise and expressive way to search for patterns, validate input, and perform complex string transformations.

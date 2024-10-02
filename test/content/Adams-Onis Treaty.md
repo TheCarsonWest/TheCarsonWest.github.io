@@ -12,4 +12,5 @@
 * Prevented potential conflicts over the [Louisiana](./../louisiana/) Purchase]]
 * Strengthened US control over the Gulf Coast
 * Set the stage for the eventual annexation of [Texas](./../texas/)
-# Adams-Onis Treaty # [IDS Unit 3](./../ids-unit-3/)
+# Adams-Onis Treaty 
+# [IDS Unit 3](./../ids-unit-3/)

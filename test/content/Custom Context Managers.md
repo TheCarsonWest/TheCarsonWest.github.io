@@ -1,4 +1,5 @@
-# Custom Context Managers ## [Custom [[Context Managers](./../custom-[[context-managers/)
+# Custom Context Managers 
+## [Custom [[Context Managers](./../custom-[[context-managers/)
 
 ### What are [Custom [[Context Managers](./../custom-[[context-managers/)?
 Custom context managers provide a way to define a block of code that should be executed before and after a specific operation. They are used to automate resource management tasks, such as opening and closing files or acquiring and releasing locks.

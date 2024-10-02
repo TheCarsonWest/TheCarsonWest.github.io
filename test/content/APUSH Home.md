@@ -1,3 +1,4 @@
-# APUSH Home # [nexus](./../nexus/)
+# APUSH Home 
+# [nexus](./../nexus/)
 
 # [ID Home](./../id-home/)

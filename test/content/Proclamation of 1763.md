@@ -23,4 +23,5 @@ location: 51.5156177,-0.0919983
 * **Long-term consequences:**
  * Contributed to American resentment towards British rule
  * Fueled the movement for independence and the American Revolution
-# Proclamation of 1763 #ids
+# Proclamation of 1763 
+#ids

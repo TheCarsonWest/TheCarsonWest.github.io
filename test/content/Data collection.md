@@ -1,4 +1,5 @@
-# Data collection # [Cengage home](./../cengage-home/)
+# Data collection 
+# [Cengage home](./../cengage-home/)
 
 ### **Approximately 80% of the world's data is spatial(for maps)**
 

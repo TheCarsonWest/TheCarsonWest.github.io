@@ -1,4 +1,5 @@
-# Dictionaries ## Python [Dictionaries](./../dictionaries/)
+# Dictionaries 
+## Python [Dictionaries](./../dictionaries/)
 
 ### Definition
  [Dictionaries](./../dictionaries/) are mutable data structures that store key-value pairs. The keys are unique and immutable, while the values can be of any type. [Dictionaries](./../dictionaries/) provide a convenient way to store and retrieve data associated with specific keys.

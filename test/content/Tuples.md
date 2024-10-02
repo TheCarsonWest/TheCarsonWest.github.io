@@ -1,4 +1,5 @@
-# Tuples ## [Tuples](./../tuples/)
+# Tuples 
+## [Tuples](./../tuples/)
 
 ### What are [Tuples](./../tuples/)?
  [Tuples](./../tuples/) are immutable data structures in Python that store ordered sequences of elements. Unlike lists, tuples cannot be modified after creation. They are represented by parentheses `()`.

@@ -20,4 +20,5 @@
 * **Expansion of Presidential Power:** [Washington](./../washington/)'s action to raise an army and lead it into the field extended the presidential role as commander-in-chief.
 * **Political Divide:** The [Whiskey Rebellion](./../whiskey-rebellion/) exposed deep divisions within the [United States](./../united-states/) over the issue of federal taxation and the scope of government power.
 * **Rise of Anti-Federalist Sentiment:** The rebellion further alienated Western states from the federal government, strengthening Anti-Federalist opposition.
-# Whiskey Rebellion # [IDS Unit 3](./../ids-unit-3/)
+# Whiskey Rebellion 
+# [IDS Unit 3](./../ids-unit-3/)

@@ -2,696 +2,696 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/abraham-lincoln/</loc>
+    <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
-    <loc>http://localhost:1313/abstract-classes/</loc>
+    <loc>http://example.org/abstract-classes/</loc>
   </url><url>
-    <loc>http://localhost:1313/adams-onis-treaty/</loc>
+    <loc>http://example.org/adams-onis-treaty/</loc>
   </url><url>
-    <loc>http://localhost:1313/alabama/</loc>
+    <loc>http://example.org/alabama/</loc>
   </url><url>
-    <loc>http://localhost:1313/alaska/</loc>
+    <loc>http://example.org/alaska/</loc>
   </url><url>
-    <loc>http://localhost:1313/albany-plan-of-union/</loc>
+    <loc>http://example.org/albany-plan-of-union/</loc>
   </url><url>
-    <loc>http://localhost:1313/alexander-hamilton/</loc>
+    <loc>http://example.org/alexander-hamilton/</loc>
   </url><url>
-    <loc>http://localhost:1313/andrew-jackson/</loc>
+    <loc>http://example.org/andrew-jackson/</loc>
   </url><url>
-    <loc>http://localhost:1313/andrew-johnson/</loc>
+    <loc>http://example.org/andrew-johnson/</loc>
   </url><url>
-    <loc>http://localhost:1313/apchem-home/</loc>
+    <loc>http://example.org/apchem-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/aphg-home/</loc>
+    <loc>http://example.org/aphg-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/aphg-unit-1/</loc>
+    <loc>http://example.org/aphg-unit-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/aphg-unit-2/</loc>
+    <loc>http://example.org/aphg-unit-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/apush-event/</loc>
+    <loc>http://example.org/apush-event/</loc>
   </url><url>
-    <loc>http://localhost:1313/apush-home/</loc>
+    <loc>http://example.org/apush-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/apush-person/</loc>
+    <loc>http://example.org/apush-person/</loc>
   </url><url>
-    <loc>http://localhost:1313/apush-place/</loc>
+    <loc>http://example.org/apush-place/</loc>
   </url><url>
-    <loc>http://localhost:1313/arabic-home/</loc>
+    <loc>http://example.org/arabic-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/arizona/</loc>
+    <loc>http://example.org/arizona/</loc>
   </url><url>
-    <loc>http://localhost:1313/arkansas/</loc>
+    <loc>http://example.org/arkansas/</loc>
   </url><url>
-    <loc>http://localhost:1313/articles-of-confederation/</loc>
+    <loc>http://example.org/articles-of-confederation/</loc>
   </url><url>
-    <loc>http://localhost:1313/async-generators/</loc>
+    <loc>http://example.org/async-generators/</loc>
   </url><url>
-    <loc>http://localhost:1313/asynchronous-programming/</loc>
+    <loc>http://example.org/asynchronous-programming/</loc>
   </url><url>
-    <loc>http://localhost:1313/atomic-radius/</loc>
+    <loc>http://example.org/atomic-radius/</loc>
   </url><url>
-    <loc>http://localhost:1313/aufbau-principle/</loc>
+    <loc>http://example.org/aufbau-principle/</loc>
   </url><url>
-    <loc>http://localhost:1313/automating-tasks-with-selenium/</loc>
+    <loc>http://example.org/automating-tasks-with-selenium/</loc>
   </url><url>
-    <loc>http://localhost:1313/bacons-rebellion/</loc>
+    <loc>http://example.org/bacons-rebellion/</loc>
   </url><url>
-    <loc>http://localhost:1313/barack-obama/</loc>
+    <loc>http://example.org/barack-obama/</loc>
   </url><url>
-    <loc>http://localhost:1313/battle-of-bunker-hill/</loc>
+    <loc>http://example.org/battle-of-bunker-hill/</loc>
   </url><url>
-    <loc>http://localhost:1313/battle-of-saratoga/</loc>
+    <loc>http://example.org/battle-of-saratoga/</loc>
   </url><url>
-    <loc>http://localhost:1313/battle-of-yorktown/</loc>
+    <loc>http://example.org/battle-of-yorktown/</loc>
   </url><url>
-    <loc>http://localhost:1313/benjamin-franklin/</loc>
+    <loc>http://example.org/benjamin-franklin/</loc>
   </url><url>
-    <loc>http://localhost:1313/benjamin-harrison/</loc>
+    <loc>http://example.org/benjamin-harrison/</loc>
   </url><url>
-    <loc>http://localhost:1313/bill-clinton/</loc>
+    <loc>http://example.org/bill-clinton/</loc>
   </url><url>
-    <loc>http://localhost:1313/bill-of-rights/</loc>
+    <loc>http://example.org/bill-of-rights/</loc>
   </url><url>
-    <loc>http://localhost:1313/bitwise-operators/</loc>
+    <loc>http://example.org/bitwise-operators/</loc>
   </url><url>
-    <loc>http://localhost:1313/boston-massacre/</loc>
+    <loc>http://example.org/boston-massacre/</loc>
   </url><url>
-    <loc>http://localhost:1313/boston-tea-party/</loc>
+    <loc>http://example.org/boston-tea-party/</loc>
   </url><url>
-    <loc>http://localhost:1313/building-and-distributing-python-packages/</loc>
+    <loc>http://example.org/building-and-distributing-python-packages/</loc>
   </url><url>
-    <loc>http://localhost:1313/building-apis-with-flask-or-django/</loc>
+    <loc>http://example.org/building-apis-with-flask-or-django/</loc>
   </url><url>
-    <loc>http://localhost:1313/building-machine-learning-models-with-scikit-learn/</loc>
+    <loc>http://example.org/building-machine-learning-models-with-scikit-learn/</loc>
   </url><url>
-    <loc>http://localhost:1313/california/</loc>
+    <loc>http://example.org/california/</loc>
   </url><url>
-    <loc>http://localhost:1313/calvin-coolidge/</loc>
+    <loc>http://example.org/calvin-coolidge/</loc>
   </url><url>
-    <loc>http://localhost:1313/capital-compromise/</loc>
+    <loc>http://example.org/capital-compromise/</loc>
   </url><url>
-    <loc>http://localhost:1313/cartogram/</loc>
+    <loc>http://example.org/cartogram/</loc>
   </url><url>
-    <loc>http://localhost:1313/cengage-home/</loc>
+    <loc>http://example.org/cengage-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/chaining-decorators/</loc>
+    <loc>http://example.org/chaining-decorators/</loc>
   </url><url>
-    <loc>http://localhost:1313/chester-a.-arthur/</loc>
+    <loc>http://example.org/chester-a.-arthur/</loc>
   </url><url>
-    <loc>http://localhost:1313/classes-and-objects/</loc>
+    <loc>http://example.org/classes-and-objects/</loc>
   </url><url>
-    <loc>http://localhost:1313/cloropleth/</loc>
+    <loc>http://example.org/cloropleth/</loc>
   </url><url>
-    <loc>http://localhost:1313/closures/</loc>
+    <loc>http://example.org/closures/</loc>
   </url><url>
-    <loc>http://localhost:1313/colorado/</loc>
+    <loc>http://example.org/colorado/</loc>
   </url><url>
-    <loc>http://localhost:1313/combustion-reaction/</loc>
+    <loc>http://example.org/combustion-reaction/</loc>
   </url><url>
-    <loc>http://localhost:1313/command-line-interface-cli-programs/</loc>
+    <loc>http://example.org/command-line-interface-cli-programs/</loc>
   </url><url>
-    <loc>http://localhost:1313/committees-of-correspondence/</loc>
+    <loc>http://example.org/committees-of-correspondence/</loc>
   </url><url>
-    <loc>http://localhost:1313/common-sense/</loc>
+    <loc>http://example.org/common-sense/</loc>
   </url><url>
-    <loc>http://localhost:1313/concurrency-and-multithreading/</loc>
+    <loc>http://example.org/concurrency-and-multithreading/</loc>
   </url><url>
-    <loc>http://localhost:1313/connecticut/</loc>
+    <loc>http://example.org/connecticut/</loc>
   </url><url>
-    <loc>http://localhost:1313/constants/</loc>
+    <loc>http://example.org/constants/</loc>
   </url><url>
-    <loc>http://localhost:1313/constitution-of-the-united-states/</loc>
+    <loc>http://example.org/constitution-of-the-united-states/</loc>
   </url><url>
-    <loc>http://localhost:1313/constitutional-convention/</loc>
+    <loc>http://example.org/constitutional-convention/</loc>
   </url><url>
-    <loc>http://localhost:1313/context-managers/</loc>
+    <loc>http://example.org/context-managers/</loc>
   </url><url>
-    <loc>http://localhost:1313/continuous-integration-or-continuous-deployment-ci-or-cd-with-python/</loc>
+    <loc>http://example.org/continuous-integration-or-continuous-deployment-ci-or-cd-with-python/</loc>
   </url><url>
-    <loc>http://localhost:1313/control-flow-if-statements/</loc>
+    <loc>http://example.org/control-flow-if-statements/</loc>
   </url><url>
-    <loc>http://localhost:1313/coroutines/</loc>
+    <loc>http://example.org/coroutines/</loc>
   </url><url>
-    <loc>http://localhost:1313/coulombs-constant/</loc>
+    <loc>http://example.org/coulombs-constant/</loc>
   </url><url>
-    <loc>http://localhost:1313/coulombs-law/</loc>
+    <loc>http://example.org/coulombs-law/</loc>
   </url><url>
-    <loc>http://localhost:1313/creating-gui-applications-with-tkinter-or-pyqt/</loc>
+    <loc>http://example.org/creating-gui-applications-with-tkinter-or-pyqt/</loc>
   </url><url>
-    <loc>http://localhost:1313/custom-context-managers/</loc>
+    <loc>http://example.org/custom-context-managers/</loc>
   </url><url>
-    <loc>http://localhost:1313/custom-exceptions/</loc>
+    <loc>http://example.org/custom-exceptions/</loc>
   </url><url>
-    <loc>http://localhost:1313/data-collection/</loc>
+    <loc>http://example.org/data-collection/</loc>
   </url><url>
-    <loc>http://localhost:1313/data-serialization-json-xml-pickle/</loc>
+    <loc>http://example.org/data-serialization-json-xml-pickle/</loc>
   </url><url>
-    <loc>http://localhost:1313/data-visualization-with-seaborn/</loc>
+    <loc>http://example.org/data-visualization-with-seaborn/</loc>
   </url><url>
-    <loc>http://localhost:1313/dataframes-in-pandas/</loc>
+    <loc>http://example.org/dataframes-in-pandas/</loc>
   </url><url>
-    <loc>http://localhost:1313/declaration-of-independence/</loc>
+    <loc>http://example.org/declaration-of-independence/</loc>
   </url><url>
-    <loc>http://localhost:1313/decomposition-reaction/</loc>
+    <loc>http://example.org/decomposition-reaction/</loc>
   </url><url>
-    <loc>http://localhost:1313/decorators/</loc>
+    <loc>http://example.org/decorators/</loc>
   </url><url>
-    <loc>http://localhost:1313/deep-learning-with-tensorflow-or-keras/</loc>
+    <loc>http://example.org/deep-learning-with-tensorflow-or-keras/</loc>
   </url><url>
-    <loc>http://localhost:1313/default-parameters/</loc>
+    <loc>http://example.org/default-parameters/</loc>
   </url><url>
-    <loc>http://localhost:1313/delaware/</loc>
+    <loc>http://example.org/delaware/</loc>
   </url><url>
-    <loc>http://localhost:1313/descriptors/</loc>
+    <loc>http://example.org/descriptors/</loc>
   </url><url>
-    <loc>http://localhost:1313/dictionaries/</loc>
+    <loc>http://example.org/dictionaries/</loc>
   </url><url>
-    <loc>http://localhost:1313/dictionary-comprehension/</loc>
+    <loc>http://example.org/dictionary-comprehension/</loc>
   </url><url>
-    <loc>http://localhost:1313/donald-trump/</loc>
+    <loc>http://example.org/donald-trump/</loc>
   </url><url>
-    <loc>http://localhost:1313/dot-distribution/</loc>
+    <loc>http://example.org/dot-distribution/</loc>
   </url><url>
-    <loc>http://localhost:1313/double-replacement-reaction/</loc>
+    <loc>http://example.org/double-replacement-reaction/</loc>
   </url><url>
-    <loc>http://localhost:1313/duck-typing/</loc>
+    <loc>http://example.org/duck-typing/</loc>
   </url><url>
-    <loc>http://localhost:1313/dwight-d.-eisenhower/</loc>
+    <loc>http://example.org/dwight-d.-eisenhower/</loc>
   </url><url>
-    <loc>http://localhost:1313/dynamic-importing/</loc>
+    <loc>http://example.org/dynamic-importing/</loc>
   </url><url>
-    <loc>http://localhost:1313/ecumene/</loc>
+    <loc>http://example.org/ecumene/</loc>
   </url><url>
-    <loc>http://localhost:1313/election-of-1800/</loc>
+    <loc>http://example.org/election-of-1800/</loc>
   </url><url>
-    <loc>http://localhost:1313/electrical-constant/</loc>
+    <loc>http://example.org/electrical-constant/</loc>
   </url><url>
-    <loc>http://localhost:1313/electron-affinity/</loc>
+    <loc>http://example.org/electron-affinity/</loc>
   </url><url>
-    <loc>http://localhost:1313/electronegativity/</loc>
+    <loc>http://example.org/electronegativity/</loc>
   </url><url>
-    <loc>http://localhost:1313/embargo-act-of-1807/</loc>
+    <loc>http://example.org/embargo-act-of-1807/</loc>
   </url><url>
-    <loc>http://localhost:1313/encapsulation/</loc>
+    <loc>http://example.org/encapsulation/</loc>
   </url><url>
-    <loc>http://localhost:1313/enlightenment/</loc>
+    <loc>http://example.org/enlightenment/</loc>
   </url><url>
-    <loc>http://localhost:1313/era-of-good-feelings/</loc>
+    <loc>http://example.org/era-of-good-feelings/</loc>
   </url><url>
-    <loc>http://localhost:1313/espn-example/</loc>
+    <loc>http://example.org/espn-example/</loc>
   </url><url>
-    <loc>http://localhost:1313/espn/</loc>
+    <loc>http://example.org/espn/</loc>
   </url><url>
-    <loc>http://localhost:1313/exception-handling/</loc>
+    <loc>http://example.org/exception-handling/</loc>
   </url><url>
-    <loc>http://localhost:1313/federalist-papers/</loc>
+    <loc>http://example.org/federalist-papers/</loc>
   </url><url>
-    <loc>http://localhost:1313/file-handling/</loc>
+    <loc>http://example.org/file-handling/</loc>
   </url><url>
-    <loc>http://localhost:1313/file-io-modes/</loc>
+    <loc>http://example.org/file-io-modes/</loc>
   </url><url>
-    <loc>http://localhost:1313/first-continental-congress/</loc>
+    <loc>http://example.org/first-continental-congress/</loc>
   </url><url>
-    <loc>http://localhost:1313/florida/</loc>
+    <loc>http://example.org/florida/</loc>
   </url><url>
-    <loc>http://localhost:1313/for-loops/</loc>
+    <loc>http://example.org/for-loops/</loc>
   </url><url>
-    <loc>http://localhost:1313/formal-region/</loc>
+    <loc>http://example.org/formal-region/</loc>
   </url><url>
-    <loc>http://localhost:1313/france/</loc>
+    <loc>http://example.org/france/</loc>
   </url><url>
-    <loc>http://localhost:1313/franklin-d.-roosevelt/</loc>
+    <loc>http://example.org/franklin-d.-roosevelt/</loc>
   </url><url>
-    <loc>http://localhost:1313/franklin-pierce/</loc>
+    <loc>http://example.org/franklin-pierce/</loc>
   </url><url>
-    <loc>http://localhost:1313/french-and-indian-war/</loc>
+    <loc>http://example.org/french-and-indian-war/</loc>
   </url><url>
-    <loc>http://localhost:1313/frozen-sets/</loc>
+    <loc>http://example.org/frozen-sets/</loc>
   </url><url>
-    <loc>http://localhost:1313/function-overloading/</loc>
+    <loc>http://example.org/function-overloading/</loc>
   </url><url>
-    <loc>http://localhost:1313/function-parameters/</loc>
+    <loc>http://example.org/function-parameters/</loc>
   </url><url>
-    <loc>http://localhost:1313/functional-region/</loc>
+    <loc>http://example.org/functional-region/</loc>
   </url><url>
-    <loc>http://localhost:1313/functions/</loc>
+    <loc>http://example.org/functions/</loc>
   </url><url>
-    <loc>http://localhost:1313/garbage-collection/</loc>
+    <loc>http://example.org/garbage-collection/</loc>
   </url><url>
-    <loc>http://localhost:1313/generators/</loc>
+    <loc>http://example.org/generators/</loc>
   </url><url>
-    <loc>http://localhost:1313/geographic-scale/</loc>
+    <loc>http://example.org/geographic-scale/</loc>
   </url><url>
-    <loc>http://localhost:1313/george-h.-w.-bush/</loc>
+    <loc>http://example.org/george-h.-w.-bush/</loc>
   </url><url>
-    <loc>http://localhost:1313/george-w.-bush/</loc>
+    <loc>http://example.org/george-w.-bush/</loc>
   </url><url>
-    <loc>http://localhost:1313/george-washington/</loc>
+    <loc>http://example.org/george-washington/</loc>
   </url><url>
-    <loc>http://localhost:1313/george-washingtons-farewell-address/</loc>
+    <loc>http://example.org/george-washingtons-farewell-address/</loc>
   </url><url>
-    <loc>http://localhost:1313/georgia/</loc>
+    <loc>http://example.org/georgia/</loc>
   </url><url>
-    <loc>http://localhost:1313/geospatial-data/</loc>
+    <loc>http://example.org/geospatial-data/</loc>
   </url><url>
-    <loc>http://localhost:1313/gerald-ford/</loc>
+    <loc>http://example.org/gerald-ford/</loc>
   </url><url>
-    <loc>http://localhost:1313/global-and-nonlocal-variables/</loc>
+    <loc>http://example.org/global-and-nonlocal-variables/</loc>
   </url><url>
-    <loc>http://localhost:1313/global-scale/</loc>
+    <loc>http://example.org/global-scale/</loc>
   </url><url>
-    <loc>http://localhost:1313/globalization-and-sustainability/</loc>
+    <loc>http://example.org/globalization-and-sustainability/</loc>
   </url><url>
-    <loc>http://localhost:1313/glossary/</loc>
+    <loc>http://example.org/glossary/</loc>
   </url><url>
-    <loc>http://localhost:1313/graduated-symbols/</loc>
+    <loc>http://example.org/graduated-symbols/</loc>
   </url><url>
-    <loc>http://localhost:1313/great-awakening/</loc>
+    <loc>http://example.org/great-awakening/</loc>
   </url><url>
-    <loc>http://localhost:1313/great-compromise/</loc>
+    <loc>http://example.org/great-compromise/</loc>
   </url><url>
-    <loc>http://localhost:1313/grover-cleveland/</loc>
+    <loc>http://example.org/grover-cleveland/</loc>
   </url><url>
-    <loc>http://localhost:1313/handling-apis-with-requests-library/</loc>
+    <loc>http://example.org/handling-apis-with-requests-library/</loc>
   </url><url>
-    <loc>http://localhost:1313/handling-binary-files/</loc>
+    <loc>http://example.org/handling-binary-files/</loc>
   </url><url>
-    <loc>http://localhost:1313/handling-large-datasets-with-dask/</loc>
+    <loc>http://example.org/handling-large-datasets-with-dask/</loc>
   </url><url>
-    <loc>http://localhost:1313/harry-s.-truman/</loc>
+    <loc>http://example.org/harry-s.-truman/</loc>
   </url><url>
-    <loc>http://localhost:1313/harvard/</loc>
+    <loc>http://example.org/harvard/</loc>
   </url><url>
-    <loc>http://localhost:1313/hawaii/</loc>
+    <loc>http://example.org/hawaii/</loc>
   </url><url>
-    <loc>http://localhost:1313/headright-system/</loc>
+    <loc>http://example.org/headright-system/</loc>
   </url><url>
-    <loc>http://localhost:1313/herbert-hoover/</loc>
+    <loc>http://example.org/herbert-hoover/</loc>
   </url><url>
-    <loc>http://localhost:1313/higher-order-functions/</loc>
+    <loc>http://example.org/higher-order-functions/</loc>
   </url><url>
-    <loc>http://localhost:1313/house-of-burgesses/</loc>
+    <loc>http://example.org/house-of-burgesses/</loc>
   </url><url>
-    <loc>http://localhost:1313/id-home/</loc>
+    <loc>http://example.org/id-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/idaho/</loc>
+    <loc>http://example.org/idaho/</loc>
   </url><url>
-    <loc>http://localhost:1313/ids-unit-2/</loc>
+    <loc>http://example.org/ids-unit-2/</loc>
   </url><url>
-    <loc>http://localhost:1313/ids-unit-3/</loc>
+    <loc>http://example.org/ids-unit-3/</loc>
   </url><url>
-    <loc>http://localhost:1313/illinois/</loc>
+    <loc>http://example.org/illinois/</loc>
   </url><url>
-    <loc>http://localhost:1313/importing-modules/</loc>
+    <loc>http://example.org/importing-modules/</loc>
   </url><url>
-    <loc>http://localhost:1313/indentured-servitude/</loc>
+    <loc>http://example.org/indentured-servitude/</loc>
   </url><url>
-    <loc>http://localhost:1313/indiana/</loc>
+    <loc>http://example.org/indiana/</loc>
   </url><url>
-    <loc>http://localhost:1313/inheritance/</loc>
+    <loc>http://example.org/inheritance/</loc>
   </url><url>
-    <loc>http://localhost:1313/intolerable-acts/</loc>
+    <loc>http://example.org/intolerable-acts/</loc>
   </url><url>
-    <loc>http://localhost:1313/ionization-energy/</loc>
+    <loc>http://example.org/ionization-energy/</loc>
   </url><url>
-    <loc>http://localhost:1313/iowa/</loc>
+    <loc>http://example.org/iowa/</loc>
   </url><url>
-    <loc>http://localhost:1313/james-a.-garfield/</loc>
+    <loc>http://example.org/james-a.-garfield/</loc>
   </url><url>
-    <loc>http://localhost:1313/james-buchanan/</loc>
+    <loc>http://example.org/james-buchanan/</loc>
   </url><url>
-    <loc>http://localhost:1313/james-k.-polk/</loc>
+    <loc>http://example.org/james-k.-polk/</loc>
   </url><url>
-    <loc>http://localhost:1313/james-madison/</loc>
+    <loc>http://example.org/james-madison/</loc>
   </url><url>
-    <loc>http://localhost:1313/james-monroe/</loc>
+    <loc>http://example.org/james-monroe/</loc>
   </url><url>
-    <loc>http://localhost:1313/jays-treaty/</loc>
+    <loc>http://example.org/jays-treaty/</loc>
   </url><url>
-    <loc>http://localhost:1313/jimmy-carter/</loc>
+    <loc>http://example.org/jimmy-carter/</loc>
   </url><url>
-    <loc>http://localhost:1313/joe-biden/</loc>
+    <loc>http://example.org/joe-biden/</loc>
   </url><url>
-    <loc>http://localhost:1313/john-adams/</loc>
+    <loc>http://example.org/john-adams/</loc>
   </url><url>
-    <loc>http://localhost:1313/john-f.-kennedy/</loc>
+    <loc>http://example.org/john-f.-kennedy/</loc>
   </url><url>
-    <loc>http://localhost:1313/john-hancock/</loc>
+    <loc>http://example.org/john-hancock/</loc>
   </url><url>
-    <loc>http://localhost:1313/john-quincy-adams/</loc>
+    <loc>http://example.org/john-quincy-adams/</loc>
   </url><url>
-    <loc>http://localhost:1313/john-tyler/</loc>
+    <loc>http://example.org/john-tyler/</loc>
   </url><url>
-    <loc>http://localhost:1313/judiciary-act/</loc>
+    <loc>http://example.org/judiciary-act/</loc>
   </url><url>
-    <loc>http://localhost:1313/kansas/</loc>
+    <loc>http://example.org/kansas/</loc>
   </url><url>
-    <loc>http://localhost:1313/kentucky/</loc>
+    <loc>http://example.org/kentucky/</loc>
   </url><url>
-    <loc>http://localhost:1313/king-philips-war/</loc>
+    <loc>http://example.org/king-philips-war/</loc>
   </url><url>
-    <loc>http://localhost:1313/labs/</loc>
+    <loc>http://example.org/labs/</loc>
   </url><url>
-    <loc>http://localhost:1313/lambda-functions/</loc>
+    <loc>http://example.org/lambda-functions/</loc>
   </url><url>
-    <loc>http://localhost:1313/laws/</loc>
+    <loc>http://example.org/laws/</loc>
   </url><url>
-    <loc>http://localhost:1313/lees-resolution/</loc>
+    <loc>http://example.org/lees-resolution/</loc>
   </url><url>
-    <loc>http://localhost:1313/letters-from-a-farmer-in-pennsylvania/</loc>
+    <loc>http://example.org/letters-from-a-farmer-in-pennsylvania/</loc>
   </url><url>
-    <loc>http://localhost:1313/libraries-like-matplotlib/</loc>
+    <loc>http://example.org/libraries-like-matplotlib/</loc>
   </url><url>
-    <loc>http://localhost:1313/libraries-like-numpy/</loc>
+    <loc>http://example.org/libraries-like-numpy/</loc>
   </url><url>
-    <loc>http://localhost:1313/libraries-like-pandas/</loc>
+    <loc>http://example.org/libraries-like-pandas/</loc>
   </url><url>
-    <loc>http://localhost:1313/list-comprehension/</loc>
+    <loc>http://example.org/list-comprehension/</loc>
   </url><url>
-    <loc>http://localhost:1313/lists/</loc>
+    <loc>http://example.org/lists/</loc>
   </url><url>
-    <loc>http://localhost:1313/local-scale/</loc>
+    <loc>http://example.org/local-scale/</loc>
   </url><url>
-    <loc>http://localhost:1313/louisiana-purchase/</loc>
+    <loc>http://example.org/louisiana-purchase/</loc>
   </url><url>
-    <loc>http://localhost:1313/louisiana/</loc>
+    <loc>http://example.org/louisiana/</loc>
   </url><url>
-    <loc>http://localhost:1313/lyndon-b.-johnson/</loc>
+    <loc>http://example.org/lyndon-b.-johnson/</loc>
   </url><url>
-    <loc>http://localhost:1313/m1l1-grammar/</loc>
+    <loc>http://example.org/m1l1-grammar/</loc>
   </url><url>
-    <loc>http://localhost:1313/magnetic-constant/</loc>
+    <loc>http://example.org/magnetic-constant/</loc>
   </url><url>
-    <loc>http://localhost:1313/maine/</loc>
+    <loc>http://example.org/maine/</loc>
   </url><url>
-    <loc>http://localhost:1313/map-distortions/</loc>
+    <loc>http://example.org/map-distortions/</loc>
   </url><url>
-    <loc>http://localhost:1313/map-projections/</loc>
+    <loc>http://example.org/map-projections/</loc>
   </url><url>
-    <loc>http://localhost:1313/map-types/</loc>
+    <loc>http://example.org/map-types/</loc>
   </url><url>
-    <loc>http://localhost:1313/map-filter-and-reduce/</loc>
+    <loc>http://example.org/map-filter-and-reduce/</loc>
   </url><url>
-    <loc>http://localhost:1313/marbury-vs.-madison/</loc>
+    <loc>http://example.org/marbury-vs.-madison/</loc>
   </url><url>
-    <loc>http://localhost:1313/martin-van-buren/</loc>
+    <loc>http://example.org/martin-van-buren/</loc>
   </url><url>
-    <loc>http://localhost:1313/maryland/</loc>
+    <loc>http://example.org/maryland/</loc>
   </url><url>
-    <loc>http://localhost:1313/massachusetts/</loc>
+    <loc>http://example.org/massachusetts/</loc>
   </url><url>
-    <loc>http://localhost:1313/mayflower-compact/</loc>
+    <loc>http://example.org/mayflower-compact/</loc>
   </url><url>
-    <loc>http://localhost:1313/mcculloch-v.-maryland/</loc>
+    <loc>http://example.org/mcculloch-v.-maryland/</loc>
   </url><url>
-    <loc>http://localhost:1313/memoization-in-recursion/</loc>
+    <loc>http://example.org/memoization-in-recursion/</loc>
   </url><url>
-    <loc>http://localhost:1313/memory-management/</loc>
+    <loc>http://example.org/memory-management/</loc>
   </url><url>
-    <loc>http://localhost:1313/metaclasses/</loc>
+    <loc>http://example.org/metaclasses/</loc>
   </url><url>
-    <loc>http://localhost:1313/method-resolution-order-mro/</loc>
+    <loc>http://example.org/method-resolution-order-mro/</loc>
   </url><url>
-    <loc>http://localhost:1313/michigan/</loc>
+    <loc>http://example.org/michigan/</loc>
   </url><url>
-    <loc>http://localhost:1313/millard-fillmore/</loc>
+    <loc>http://example.org/millard-fillmore/</loc>
   </url><url>
-    <loc>http://localhost:1313/minnesota/</loc>
+    <loc>http://example.org/minnesota/</loc>
   </url><url>
-    <loc>http://localhost:1313/mississippi/</loc>
+    <loc>http://example.org/mississippi/</loc>
   </url><url>
-    <loc>http://localhost:1313/missouri/</loc>
+    <loc>http://example.org/missouri/</loc>
   </url><url>
-    <loc>http://localhost:1313/mocking-in-unit-tests/</loc>
+    <loc>http://example.org/mocking-in-unit-tests/</loc>
   </url><url>
-    <loc>http://localhost:1313/module-1/</loc>
+    <loc>http://example.org/module-1/</loc>
   </url><url>
-    <loc>http://localhost:1313/modules-and-packages/</loc>
+    <loc>http://example.org/modules-and-packages/</loc>
   </url><url>
-    <loc>http://localhost:1313/molarity/</loc>
+    <loc>http://example.org/molarity/</loc>
   </url><url>
-    <loc>http://localhost:1313/monroe-doctrine/</loc>
+    <loc>http://example.org/monroe-doctrine/</loc>
   </url><url>
-    <loc>http://localhost:1313/montana/</loc>
+    <loc>http://example.org/montana/</loc>
   </url><url>
-    <loc>http://localhost:1313/multidimensional-lists/</loc>
+    <loc>http://example.org/multidimensional-lists/</loc>
   </url><url>
-    <loc>http://localhost:1313/multiple-inheritance/</loc>
+    <loc>http://example.org/multiple-inheritance/</loc>
   </url><url>
-    <loc>http://localhost:1313/multiprocessing/</loc>
+    <loc>http://example.org/multiprocessing/</loc>
   </url><url>
-    <loc>http://localhost:1313/mutable-vs-immutable-types/</loc>
+    <loc>http://example.org/mutable-vs-immutable-types/</loc>
   </url><url>
-    <loc>http://localhost:1313/national-scale/</loc>
+    <loc>http://example.org/national-scale/</loc>
   </url><url>
-    <loc>http://localhost:1313/natural-language-processing-with-nltk-or-spacy/</loc>
+    <loc>http://example.org/natural-language-processing-with-nltk-or-spacy/</loc>
   </url><url>
-    <loc>http://localhost:1313/naturalization-alien-and-sedition-acts/</loc>
+    <loc>http://example.org/naturalization-alien-and-sedition-acts/</loc>
   </url><url>
-    <loc>http://localhost:1313/nebraska/</loc>
+    <loc>http://example.org/nebraska/</loc>
   </url><url>
-    <loc>http://localhost:1313/nested-if-statements/</loc>
+    <loc>http://example.org/nested-if-statements/</loc>
   </url><url>
-    <loc>http://localhost:1313/nested-loops/</loc>
+    <loc>http://example.org/nested-loops/</loc>
   </url><url>
-    <loc>http://localhost:1313/network-programming-sockets/</loc>
+    <loc>http://example.org/network-programming-sockets/</loc>
   </url><url>
-    <loc>http://localhost:1313/nevada/</loc>
+    <loc>http://example.org/nevada/</loc>
   </url><url>
-    <loc>http://localhost:1313/new-hampshire/</loc>
+    <loc>http://example.org/new-hampshire/</loc>
   </url><url>
-    <loc>http://localhost:1313/new-jersey/</loc>
+    <loc>http://example.org/new-jersey/</loc>
   </url><url>
-    <loc>http://localhost:1313/new-mexico/</loc>
+    <loc>http://example.org/new-mexico/</loc>
   </url><url>
-    <loc>http://localhost:1313/new-york/</loc>
+    <loc>http://example.org/new-york/</loc>
   </url><url>
-    <loc>http://localhost:1313/nexus/</loc>
+    <loc>http://example.org/nexus/</loc>
   </url><url>
-    <loc>http://localhost:1313/north-carolina/</loc>
+    <loc>http://example.org/north-carolina/</loc>
   </url><url>
-    <loc>http://localhost:1313/north-dakota/</loc>
+    <loc>http://example.org/north-dakota/</loc>
   </url><url>
-    <loc>http://localhost:1313/numpy-broadcasting/</loc>
+    <loc>http://example.org/numpy-broadcasting/</loc>
   </url><url>
-    <loc>http://localhost:1313/ohio/</loc>
+    <loc>http://example.org/ohio/</loc>
   </url><url>
-    <loc>http://localhost:1313/oklahoma/</loc>
+    <loc>http://example.org/oklahoma/</loc>
   </url><url>
-    <loc>http://localhost:1313/olive-branch-petition/</loc>
+    <loc>http://example.org/olive-branch-petition/</loc>
   </url><url>
-    <loc>http://localhost:1313/operators/</loc>
+    <loc>http://example.org/operators/</loc>
   </url><url>
-    <loc>http://localhost:1313/oregon/</loc>
+    <loc>http://example.org/oregon/</loc>
   </url><url>
-    <loc>http://localhost:1313/panic-of-1819/</loc>
+    <loc>http://example.org/panic-of-1819/</loc>
   </url><url>
-    <loc>http://localhost:1313/pathlib-and-os-module/</loc>
+    <loc>http://example.org/pathlib-and-os-module/</loc>
   </url><url>
-    <loc>http://localhost:1313/pennsylvania/</loc>
+    <loc>http://example.org/pennsylvania/</loc>
   </url><url>
-    <loc>http://localhost:1313/pequot-war/</loc>
+    <loc>http://example.org/pequot-war/</loc>
   </url><url>
-    <loc>http://localhost:1313/periodic-trends/</loc>
+    <loc>http://example.org/periodic-trends/</loc>
   </url><url>
-    <loc>http://localhost:1313/philadelphia/</loc>
+    <loc>http://example.org/philadelphia/</loc>
   </url><url>
-    <loc>http://localhost:1313/photoelectron-spectroscopy/</loc>
+    <loc>http://example.org/photoelectron-spectroscopy/</loc>
   </url><url>
-    <loc>http://localhost:1313/place-names/</loc>
+    <loc>http://example.org/place-names/</loc>
   </url><url>
-    <loc>http://localhost:1313/planck-constant/</loc>
+    <loc>http://example.org/planck-constant/</loc>
   </url><url>
-    <loc>http://localhost:1313/plot-customization-in-matplotlib/</loc>
+    <loc>http://example.org/plot-customization-in-matplotlib/</loc>
   </url><url>
-    <loc>http://localhost:1313/polymorphism/</loc>
+    <loc>http://example.org/polymorphism/</loc>
   </url><url>
-    <loc>http://localhost:1313/population-density/</loc>
+    <loc>http://example.org/population-density/</loc>
   </url><url>
-    <loc>http://localhost:1313/population-distribution/</loc>
+    <loc>http://example.org/population-distribution/</loc>
   </url><url>
-    <loc>http://localhost:1313/president-of-the-united-states/</loc>
+    <loc>http://example.org/president-of-the-united-states/</loc>
   </url><url>
-    <loc>http://localhost:1313/private-and-protected-members/</loc>
+    <loc>http://example.org/private-and-protected-members/</loc>
   </url><url>
-    <loc>http://localhost:1313/processes/</loc>
+    <loc>http://example.org/processes/</loc>
   </url><url>
-    <loc>http://localhost:1313/proclamation-of-1763/</loc>
+    <loc>http://example.org/proclamation-of-1763/</loc>
   </url><url>
-    <loc>http://localhost:1313/proclamation-of-neutrality/</loc>
+    <loc>http://example.org/proclamation-of-neutrality/</loc>
   </url><url>
-    <loc>http://localhost:1313/profiling-and-optimization/</loc>
+    <loc>http://example.org/profiling-and-optimization/</loc>
   </url><url>
-    <loc>http://localhost:1313/puritans/</loc>
+    <loc>http://example.org/puritans/</loc>
   </url><url>
-    <loc>http://localhost:1313/python-1-home/</loc>
+    <loc>http://example.org/python-1-home/</loc>
   </url><url>
-    <loc>http://localhost:1313/python-package-index-pypi-publishing/</loc>
+    <loc>http://example.org/python-package-index-pypi-publishing/</loc>
   </url><url>
-    <loc>http://localhost:1313/reactions-types/</loc>
+    <loc>http://example.org/reactions-types/</loc>
   </url><url>
-    <loc>http://localhost:1313/readme/</loc>
+    <loc>http://example.org/readme/</loc>
   </url><url>
-    <loc>http://localhost:1313/reality-of-our-world/</loc>
+    <loc>http://example.org/reality-of-our-world/</loc>
   </url><url>
-    <loc>http://localhost:1313/recursion/</loc>
+    <loc>http://example.org/recursion/</loc>
   </url><url>
-    <loc>http://localhost:1313/redox/</loc>
+    <loc>http://example.org/redox/</loc>
   </url><url>
-    <loc>http://localhost:1313/regex-groups-and-backreferences/</loc>
+    <loc>http://example.org/regex-groups-and-backreferences/</loc>
   </url><url>
-    <loc>http://localhost:1313/regional-scale/</loc>
+    <loc>http://example.org/regional-scale/</loc>
   </url><url>
-    <loc>http://localhost:1313/regular-expressions/</loc>
+    <loc>http://example.org/regular-expressions/</loc>
   </url><url>
-    <loc>http://localhost:1313/report-on-manufactures/</loc>
+    <loc>http://example.org/report-on-manufactures/</loc>
   </url><url>
-    <loc>http://localhost:1313/report-on-the-public-credit/</loc>
+    <loc>http://example.org/report-on-the-public-credit/</loc>
   </url><url>
-    <loc>http://localhost:1313/rest-apis-with-fastapi/</loc>
+    <loc>http://example.org/rest-apis-with-fastapi/</loc>
   </url><url>
-    <loc>http://localhost:1313/return-values/</loc>
+    <loc>http://example.org/return-values/</loc>
   </url><url>
-    <loc>http://localhost:1313/rhode-island/</loc>
+    <loc>http://example.org/rhode-island/</loc>
   </url><url>
-    <loc>http://localhost:1313/richard-nixon/</loc>
+    <loc>http://example.org/richard-nixon/</loc>
   </url><url>
-    <loc>http://localhost:1313/ronald-reagan/</loc>
+    <loc>http://example.org/ronald-reagan/</loc>
   </url><url>
-    <loc>http://localhost:1313/rutherford-b.-hayes/</loc>
+    <loc>http://example.org/rutherford-b.-hayes/</loc>
   </url><url>
-    <loc>http://localhost:1313/salutary-neglect/</loc>
+    <loc>http://example.org/salutary-neglect/</loc>
   </url><url>
-    <loc>http://localhost:1313/samuel-adams/</loc>
+    <loc>http://example.org/samuel-adams/</loc>
   </url><url>
-    <loc>http://localhost:1313/second-continental-congress/</loc>
+    <loc>http://example.org/second-continental-congress/</loc>
   </url><url>
-    <loc>http://localhost:1313/security-and-cryptography-pycryptodome/</loc>
+    <loc>http://example.org/security-and-cryptography-pycryptodome/</loc>
   </url><url>
-    <loc>http://localhost:1313/sets/</loc>
+    <loc>http://example.org/sets/</loc>
   </url><url>
-    <loc>http://localhost:1313/single-replacement-reaction/</loc>
+    <loc>http://example.org/single-replacement-reaction/</loc>
   </url><url>
-    <loc>http://localhost:1313/sons-of-liberty/</loc>
+    <loc>http://example.org/sons-of-liberty/</loc>
   </url><url>
-    <loc>http://localhost:1313/south-carolina/</loc>
+    <loc>http://example.org/south-carolina/</loc>
   </url><url>
-    <loc>http://localhost:1313/south-dakota/</loc>
+    <loc>http://example.org/south-dakota/</loc>
   </url><url>
-    <loc>http://localhost:1313/speed-of-light/</loc>
+    <loc>http://example.org/speed-of-light/</loc>
   </url><url>
-    <loc>http://localhost:1313/stamp-act/</loc>
+    <loc>http://example.org/stamp-act/</loc>
   </url><url>
-    <loc>http://localhost:1313/states-list/</loc>
+    <loc>http://example.org/states-list/</loc>
   </url><url>
-    <loc>http://localhost:1313/stono-rebellion/</loc>
+    <loc>http://example.org/stono-rebellion/</loc>
   </url><url>
-    <loc>http://localhost:1313/sugar-act/</loc>
+    <loc>http://example.org/sugar-act/</loc>
   </url><url>
-    <loc>http://localhost:1313/synthesis-reaction/</loc>
+    <loc>http://example.org/synthesis-reaction/</loc>
   </url><url>
-    <loc>http://localhost:1313/tea-act/</loc>
+    <loc>http://example.org/tea-act/</loc>
   </url><url>
-    <loc>http://localhost:1313/tennessee/</loc>
+    <loc>http://example.org/tennessee/</loc>
   </url><url>
-    <loc>http://localhost:1313/texas/</loc>
+    <loc>http://example.org/texas/</loc>
   </url><url>
-    <loc>http://localhost:1313/the-american-system/</loc>
+    <loc>http://example.org/the-american-system/</loc>
   </url><url>
-    <loc>http://localhost:1313/the-arab-market/</loc>
+    <loc>http://example.org/the-arab-market/</loc>
   </url><url>
-    <loc>http://localhost:1313/the-nature-of-geography-1.1/</loc>
+    <loc>http://example.org/the-nature-of-geography-1.1/</loc>
   </url><url>
-    <loc>http://localhost:1313/the-wealth-of-nations/</loc>
+    <loc>http://example.org/the-wealth-of-nations/</loc>
   </url><url>
-    <loc>http://localhost:1313/theodore-roosevelt/</loc>
+    <loc>http://example.org/theodore-roosevelt/</loc>
   </url><url>
-    <loc>http://localhost:1313/thomas-jefferson/</loc>
+    <loc>http://example.org/thomas-jefferson/</loc>
   </url><url>
-    <loc>http://localhost:1313/thread-safety/</loc>
+    <loc>http://example.org/thread-safety/</loc>
   </url><url>
-    <loc>http://localhost:1313/time-series-analysis/</loc>
+    <loc>http://example.org/time-series-analysis/</loc>
   </url><url>
-    <loc>http://localhost:1313/titration/</loc>
+    <loc>http://example.org/titration/</loc>
   </url><url>
-    <loc>http://localhost:1313/townshend-act/</loc>
+    <loc>http://example.org/townshend-act/</loc>
   </url><url>
-    <loc>http://localhost:1313/treaty-of-ghent/</loc>
+    <loc>http://example.org/treaty-of-ghent/</loc>
   </url><url>
-    <loc>http://localhost:1313/treaty-of-greenville/</loc>
+    <loc>http://example.org/treaty-of-greenville/</loc>
   </url><url>
-    <loc>http://localhost:1313/treaty-of-paris-1776/</loc>
+    <loc>http://example.org/treaty-of-paris-1776/</loc>
   </url><url>
-    <loc>http://localhost:1313/triangular-trade/</loc>
+    <loc>http://example.org/triangular-trade/</loc>
   </url><url>
-    <loc>http://localhost:1313/tuples/</loc>
+    <loc>http://example.org/tuples/</loc>
   </url><url>
-    <loc>http://localhost:1313/type-hinting/</loc>
+    <loc>http://example.org/type-hinting/</loc>
   </url><url>
-    <loc>http://localhost:1313/types-of-regions/</loc>
+    <loc>http://example.org/types-of-regions/</loc>
   </url><url>
-    <loc>http://localhost:1313/ulysses-s.-grant/</loc>
+    <loc>http://example.org/ulysses-s.-grant/</loc>
   </url><url>
-    <loc>http://localhost:1313/unit-testing-and-test-driven-development/</loc>
+    <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
-    <loc>http://localhost:1313/united-states/</loc>
+    <loc>http://example.org/united-states/</loc>
   </url><url>
-    <loc>http://localhost:1313/untitled/</loc>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
-    <loc>http://localhost:1313/utah/</loc>
+    <loc>http://example.org/utah/</loc>
   </url><url>
-    <loc>http://localhost:1313/va-and-ky-resolutions/</loc>
+    <loc>http://example.org/va-and-ky-resolutions/</loc>
   </url><url>
-    <loc>http://localhost:1313/valley-forge/</loc>
+    <loc>http://example.org/valley-forge/</loc>
   </url><url>
-    <loc>http://localhost:1313/variables-and-data-types/</loc>
+    <loc>http://example.org/variables-and-data-types/</loc>
   </url><url>
-    <loc>http://localhost:1313/vermont/</loc>
+    <loc>http://example.org/vermont/</loc>
   </url><url>
-    <loc>http://localhost:1313/vernacular-region/</loc>
+    <loc>http://example.org/vernacular-region/</loc>
   </url><url>
-    <loc>http://localhost:1313/virginia/</loc>
+    <loc>http://example.org/virginia/</loc>
   </url><url>
-    <loc>http://localhost:1313/virtual-environments/</loc>
+    <loc>http://example.org/virtual-environments/</loc>
   </url><url>
-    <loc>http://localhost:1313/warren-g.-harding/</loc>
+    <loc>http://example.org/warren-g.-harding/</loc>
   </url><url>
-    <loc>http://localhost:1313/washington/</loc>
+    <loc>http://example.org/washington/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-development-with-django/</loc>
+    <loc>http://example.org/web-development-with-django/</loc>
   </url><url>
-    <loc>http://localhost:1313/web-scraping-with-beautifulsoup/</loc>
+    <loc>http://example.org/web-scraping-with-beautifulsoup/</loc>
   </url><url>
-    <loc>http://localhost:1313/west-virginia/</loc>
+    <loc>http://example.org/west-virginia/</loc>
   </url><url>
-    <loc>http://localhost:1313/while-loops/</loc>
+    <loc>http://example.org/while-loops/</loc>
   </url><url>
-    <loc>http://localhost:1313/whiskey-rebellion/</loc>
+    <loc>http://example.org/whiskey-rebellion/</loc>
   </url><url>
-    <loc>http://localhost:1313/william-henry-harrison/</loc>
+    <loc>http://example.org/william-henry-harrison/</loc>
   </url><url>
-    <loc>http://localhost:1313/william-howard-taft/</loc>
+    <loc>http://example.org/william-howard-taft/</loc>
   </url><url>
-    <loc>http://localhost:1313/william-mckinley/</loc>
+    <loc>http://example.org/william-mckinley/</loc>
   </url><url>
-    <loc>http://localhost:1313/wisconsin/</loc>
+    <loc>http://example.org/wisconsin/</loc>
   </url><url>
-    <loc>http://localhost:1313/woodrow-wilson/</loc>
+    <loc>http://example.org/woodrow-wilson/</loc>
   </url><url>
-    <loc>http://localhost:1313/working-with-big-data-using-pyspark/</loc>
+    <loc>http://example.org/working-with-big-data-using-pyspark/</loc>
   </url><url>
-    <loc>http://localhost:1313/working-with-databases-sqlalchemy-sqlite-mysql/</loc>
+    <loc>http://example.org/working-with-databases-sqlalchemy-sqlite-mysql/</loc>
   </url><url>
-    <loc>http://localhost:1313/wyoming/</loc>
+    <loc>http://example.org/wyoming/</loc>
   </url><url>
-    <loc>http://localhost:1313/xyz-affair/</loc>
+    <loc>http://example.org/xyz-affair/</loc>
   </url><url>
-    <loc>http://localhost:1313/zachary-taylor/</loc>
+    <loc>http://example.org/zachary-taylor/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://example.org/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://example.org/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://example.org/tags/</loc>
   </url>
 </urlset>

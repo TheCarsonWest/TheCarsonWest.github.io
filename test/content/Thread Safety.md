@@ -1,4 +1,5 @@
-# Thread Safety ## [Thread Safety](./../thread-safety/)
+# Thread Safety 
+## [Thread Safety](./../thread-safety/)
 
 ### What is [Thread Safety](./../thread-safety/)?
 Thread safety refers to the ability of a code block or object to be safely executed by multiple threads simultaneously without causing unpredictable behavior or data corruption. In other words, thread-safe code ensures that the outcome of a computation is the same regardless of how many threads are accessing it.

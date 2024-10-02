@@ -1,4 +1,5 @@
-# Pathlib and OS Module ## [Pathlib and OS Module](./../pathlib-and-os-module/)
+# Pathlib and OS Module 
+## [Pathlib and OS Module](./../pathlib-and-os-module/)
 
 ### Overview
 Pathlib and OS are two important modules in Python that provide extensive capabilities for interacting with the file system and operating system. Pathlib offers a modern, object-oriented approach to working with files and directories, while the OS module offers a comprehensive set of functions for performing system-level tasks.

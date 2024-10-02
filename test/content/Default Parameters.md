@@ -1,4 +1,5 @@
-# Default Parameters ## [Default Parameters](./../default-parameters/)
+# Default Parameters 
+## [Default Parameters](./../default-parameters/)
 
 ### What are [Default Parameters](./../default-parameters/)?
 Default parameters are a way to give a value to a function parameter if no argument is passed when calling the function. This helps in providing more flexibility and simplifying the function call.

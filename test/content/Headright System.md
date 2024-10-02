@@ -12,5 +12,7 @@
 * Expanded population in 13 Colonies
 * Increased indentured servitude and wealth disparities
 * Conflict with Native Americans over land ownership
-# Headright System #id
-# Headright System #ids
+# Headright System 
+#id
+# Headright System 
+#ids

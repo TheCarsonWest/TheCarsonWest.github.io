@@ -1,4 +1,5 @@
-# Generators ## [Generators](./../generators/)
+# Generators 
+## [Generators](./../generators/)
 
 ### What are [Generators](./../generators/)?
  [Generators](./../generators/) are a special type of function that returns a sequence of values one at a time, without storing the entire sequence in memory. They are created using the `yield` keyword instead of the `return` keyword.
