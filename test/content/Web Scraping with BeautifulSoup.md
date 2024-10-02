@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Web Scraping with BeautifulSoup
---- 
++++
+ title = 'Web Scraping with BeautifulSoup'
++++
 ## [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
 
 ### What is [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)?

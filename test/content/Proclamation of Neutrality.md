@@ -8,9 +8,7 @@
 * Avoided involvement in a major European conflict and preserved American neutrality
 * Set a precedent for the [United States](./../united-states/)' foreign policy of non-intervention in European affairs
 * Upset many Americans who sympathized with the French Revolution and wanted to support their cause
----
-params:
-	author: Carson West
-title: Proclamation of Neutrality
---- 
++++
+ title = 'Proclamation of Neutrality'
++++
 # [IDS Unit 3](./../ids-unit-3/)

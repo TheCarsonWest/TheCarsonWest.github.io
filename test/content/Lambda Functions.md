@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Lambda Functions
---- 
++++
+ title = 'Lambda Functions'
++++
 ## Lambda [Functions](./../functions/)
 
 ### Explanation

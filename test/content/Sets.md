@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Sets
---- 
++++
+ title = 'Sets'
++++
 ## Python [Sets](./../sets/)
 
 ### What are [Sets](./../sets/)?

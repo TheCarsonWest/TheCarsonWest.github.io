@@ -23,9 +23,7 @@ location: 44.2057083,-70.75378387447887
  * Expansion of English settlements and displacement of indigenous populations
  * End of Metacomet's Confederacy
  * Increased tensions and conflicts between English settlers and Native Americans
----
-params:
-	author: Carson West
-title: King Philip’s War
---- 
++++
+ title = 'King Philip’s War'
++++
 #ids

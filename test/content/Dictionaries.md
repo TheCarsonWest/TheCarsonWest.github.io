@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Dictionaries
---- 
++++
+ title = 'Dictionaries'
++++
 ## Python [Dictionaries](./../dictionaries/)
 
 ### Definition

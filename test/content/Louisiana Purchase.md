@@ -13,9 +13,7 @@
 * Opened up new lands for westward expansion.
 * Led to the [Lewis and Clark Expedition](./../lewis-and-clark-expedition/) to explore the new territory.
 * Strengthened the [United States](./../united-states/) as a world power.
----
-params:
-	author: Carson West
-title: Louisiana Purchase
---- 
++++
+ title = 'Louisiana Purchase'
++++
 # [IDS Unit 3](./../ids-unit-3/)

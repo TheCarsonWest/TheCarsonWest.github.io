@@ -10,9 +10,7 @@ What:
 Impact:
 -- Short-term: American morale boost, British recognition of American determination
 -- Long-term: foreshadowed the American victory in the Revolutionary War
----
-params:
-	author: Carson West
-title: Battle of Bunker Hill
---- 
++++
+ title = 'Battle of Bunker Hill'
++++
 #ids

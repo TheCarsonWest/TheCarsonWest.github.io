@@ -16,9 +16,7 @@
 * Provided a check on the power of the executive and legislative branches
 * Established the Supreme Court as the final arbiter of federal law
 * Strengthened the federal government and national unity
----
-params:
-	author: Carson West
-title: Judiciary Act
---- 
++++
+ title = 'Judiciary Act'
++++
 # [IDS Unit 3](./../ids-unit-3/)

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Async Generators
---- 
++++
+ title = 'Async Generators'
++++
 ## Async [Generators](./../generators/)
 
 ### Definition

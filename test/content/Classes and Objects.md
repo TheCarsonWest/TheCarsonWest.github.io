@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Classes and Objects
---- 
++++
+ title = 'Classes and Objects'
++++
 ## [Classes and Objects](./../classes-and-objects/)
 
 ### What are [Classes and Objects](./../classes-and-objects/)?

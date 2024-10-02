@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Metaclasses
---- 
++++
+ title = 'Metaclasses'
++++
 ## [Metaclasses](./../metaclasses/)
 
 ### What are [Metaclasses](./../metaclasses/)?

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: README
---- 
++++
+ title = 'README'
++++
 # My 24-25 Notes
 # Start at [nexus](./../nexus/)
 ## anyone can use these idc

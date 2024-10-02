@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Context Managers
---- 
++++
+ title = 'Context Managers'
++++
 ## [Context Managers](./../context-managers/)
 
 ### What are [Context Managers](./../context-managers/)?

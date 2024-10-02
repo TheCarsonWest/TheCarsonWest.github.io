@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Multiprocessing
---- 
++++
+ title = 'Multiprocessing'
++++
 ## [Multiprocessing](./../multiprocessing/) in Python
 
 ### Explanation

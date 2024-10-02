@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Encapsulation
---- 
++++
+ title = 'Encapsulation'
++++
 ## Python [Encapsulation](./../encapsulation/)
 
 ### What is [Encapsulation](./../encapsulation/)?

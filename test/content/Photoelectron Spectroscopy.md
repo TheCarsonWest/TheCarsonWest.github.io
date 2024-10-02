@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Photoelectron Spectroscopy
---- 
++++
+ title = 'Photoelectron Spectroscopy'
++++
 # [Processes](./../processes/)
 ![Pasted image 20240909095108.png](./../pasted-image-20240909095108.png/)
 

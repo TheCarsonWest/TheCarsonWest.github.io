@@ -20,9 +20,7 @@
  * Laid foundation for modern political philosophy (democracy, liberalism)
  * Promoted scientific and technological advancements
  * Shaped ideas of individual rights, freedom, and progress
----
-params:
-	author: Carson West
-title: Enlightenment
---- 
++++
+ title = 'Enlightenment'
++++
 #ids

@@ -14,9 +14,7 @@
 * Stimulated economic growth in the colonies.
 * Fostered a sense of independence and self-reliance among colonists.
 * Laid the groundwork for the American Revolution as it contributed to the development of a separate American identity and the perception that Britain was not providing adequate support.
----
-params:
-	author: Carson West
-title: Salutary Neglect
---- 
++++
+ title = 'Salutary Neglect'
++++
 #ids

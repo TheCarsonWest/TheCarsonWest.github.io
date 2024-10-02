@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Dynamic Importing
---- 
++++
+ title = 'Dynamic Importing'
++++
 ## [Dynamic Importing](./../dynamic-importing/)
 
 ### What is [Dynamic Importing](./../dynamic-importing/)?

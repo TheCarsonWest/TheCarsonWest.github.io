@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Dictionary Comprehension
---- 
++++
+ title = 'Dictionary Comprehension'
++++
 ## Python [Dictionary Comprehension](./../dictionary-comprehension/)
 
 ### What is [Dictionary Comprehension](./../dictionary-comprehension/)?

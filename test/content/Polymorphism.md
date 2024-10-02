@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Polymorphism
---- 
++++
+ title = 'Polymorphism'
++++
 ## [Polymorphism](./../polymorphism/)
 
 ### What is [Polymorphism](./../polymorphism/)?

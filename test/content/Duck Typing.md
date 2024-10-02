@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Duck Typing
---- 
++++
+ title = 'Duck Typing'
++++
 ## [Duck Typing](./../duck-typing/)
 
 ### Definition

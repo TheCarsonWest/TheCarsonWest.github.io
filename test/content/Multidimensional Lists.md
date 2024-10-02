@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Multidimensional Lists
---- 
++++
+ title = 'Multidimensional Lists'
++++
 ## [Multidimensional [[Lists](./../multidimensional-[[lists/)
 
 ### What are [Multidimensional [[Lists](./../multidimensional-[[lists/)?

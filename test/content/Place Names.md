@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Place Names
---- 
++++
+ title = 'Place Names'
++++
 ## Fancy name for place names: Toponym
 - Some matter more than others
 ## Names after where they are

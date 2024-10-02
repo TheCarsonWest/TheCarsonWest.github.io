@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Nested Loops
---- 
++++
+ title = 'Nested Loops'
++++
 ## [Nested Loops](./../nested-loops/)
 
 ### What are [Nested Loops](./../nested-loops/)?

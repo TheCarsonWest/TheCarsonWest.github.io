@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Processes
---- 
++++
+ title = 'Processes'
++++
 # [APCHEM Home](./../apchem-home/)
 
 - # [Mass Spectroscopy](./../mass-spectroscopy/)

@@ -2,11 +2,9 @@
 **Definition:** A reaction in which two or more substances combine to form a new, more complex substance.
 
 **General Equation:**
----
-params:
-	author: Carson West
-title: Synthesis Reaction
---- 
++++
+ title = 'Synthesis Reaction'
++++
 # $$ A + B → C $$ **Types of Synthesis Reactions:**
 
 * **Direct Combination:** Two elements combine directly to form a compound.

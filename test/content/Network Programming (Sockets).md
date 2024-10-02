@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Network Programming (Sockets)
---- 
++++
+ title = 'Network Programming (Sockets)'
++++
 ## Network Programming (Sockets)
 
 ### Overview

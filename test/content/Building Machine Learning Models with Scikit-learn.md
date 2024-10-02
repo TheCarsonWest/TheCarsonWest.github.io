@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Building Machine Learning Models with Scikit-learn
---- 
++++
+ title = 'Building Machine Learning Models with Scikit-learn'
++++
 ## [Building Machine Learning Models with Scikit-learn](./../building-machine-learning-models-with-scikit-learn/)
 
 ### Introduction

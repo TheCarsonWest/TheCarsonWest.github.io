@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Speed of light
---- 
++++
+ title = 'Speed of light'
++++
 ## [Constants](./../constants/)
 
 # c = 299,790,000 meters/second

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: File IO Modes
---- 
++++
+ title = 'File IO Modes'
++++
 ## [File IO Modes](./../file-io-modes/)
 
 ### Overview

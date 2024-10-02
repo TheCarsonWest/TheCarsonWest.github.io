@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Higher-Order Functions
---- 
++++
+ title = 'Higher-Order Functions'
++++
 ## Higher-Order [Functions](./../functions/)
 
 ### Explanation

@@ -1,9 +1,7 @@
  [Cengage home](./../cengage-home/)
----
-params:
-	author: Carson West
-title: Globalization and Sustainability
---- 
++++
+ title = 'Globalization and Sustainability'
++++
 ## Globalization: the process by which the nations of the world become more interconnected
 
 ## Major factors leading to globalization

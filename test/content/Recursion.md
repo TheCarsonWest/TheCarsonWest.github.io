@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Recursion
---- 
++++
+ title = 'Recursion'
++++
 ## [Recursion](./../recursion/)
 
 ### Explanation

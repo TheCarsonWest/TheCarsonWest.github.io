@@ -13,9 +13,7 @@
  * United the colonies in their opposition to British policies
  * Set the stage for the American Revolution
  * Established the precedent for inter-colonial cooperation
----
-params:
-	author: Carson West
-title: First Continental Congress
---- 
++++
+ title = 'First Continental Congress'
++++
 #ids

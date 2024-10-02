@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: APCHEM Home
---- 
++++
+ title = 'APCHEM Home'
++++
 # [nexus](./../nexus/)
 
 # [Constants](./../constants/)

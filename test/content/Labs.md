@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Labs
---- 
++++
+ title = 'Labs'
++++
 # [APCHEM Home](./../apchem-home/)
 
 [Preparing a standard Solution](./../preparing-a-standard-solution/)

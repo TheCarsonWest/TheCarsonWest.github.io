@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Data Serialization (JSON, XML, Pickle)
---- 
++++
+ title = 'Data Serialization (JSON, XML, Pickle)'
++++
 ## Data Serialization
 
 ### What is Data Serialization?

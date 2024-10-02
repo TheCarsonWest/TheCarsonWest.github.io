@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Building APIs with Flask or Django
---- 
++++
+ title = 'Building APIs with Flask or Django'
++++
 ## [Building APIs with Flask or Django](./../building-apis-with-flask-or-django/)
 
 **What are Flask and Django?**

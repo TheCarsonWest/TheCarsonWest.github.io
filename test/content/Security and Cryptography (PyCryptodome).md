@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Security and Cryptography (PyCryptodome)
---- 
++++
+ title = 'Security and Cryptography (PyCryptodome)'
++++
 ## Security and Cryptography (PyCryptodome)
 
 ### What is PyCryptodome?

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Ionization Energy
---- 
++++
+ title = 'Ionization Energy'
++++
 # [Periodic Trends](./../periodic-trends/)
 
 ![Screenshot 2024-09-09 at 9.34.02 AM.png](./../screenshot-2024-09-09-at-9.34.02-am.png/)

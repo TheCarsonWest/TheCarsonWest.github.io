@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Laws
---- 
++++
+ title = 'Laws'
++++
 # [APCHEM  Home](./../apchem--home/)
 
 ## [Coulombs Law](./../coulombs-law/)

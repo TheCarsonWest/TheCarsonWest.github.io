@@ -10,9 +10,7 @@
  * Contributed to the development of evangelical Protestantism
  * Challenged authority and fostered independent thinking
  * Influenced the abolitionist movement and other social reform efforts
----
-params:
-	author: Carson West
-title: Great Awakening
---- 
++++
+ title = 'Great Awakening'
++++
 #ids

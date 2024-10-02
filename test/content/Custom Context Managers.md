@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Custom Context Managers
---- 
++++
+ title = 'Custom Context Managers'
++++
 ## [Custom [[Context Managers](./../custom-[[context-managers/)
 
 ### What are [Custom [[Context Managers](./../custom-[[context-managers/)?

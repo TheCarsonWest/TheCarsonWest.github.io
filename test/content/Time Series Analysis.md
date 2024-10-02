@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Time Series Analysis
---- 
++++
+ title = 'Time Series Analysis'
++++
 ## [Time Series Analysis](./../time-series-analysis/)
 
 ### What is [Time Series Analysis](./../time-series-analysis/)?

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: File Handling
---- 
++++
+ title = 'File Handling'
++++
 ## [File Handling](./../file-handling/)
 
 ### Explanation

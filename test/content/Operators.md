@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Operators
---- 
++++
+ title = 'Operators'
++++
 ## Python [Operators](./../operators/)
 
 ### What are [Operators](./../operators/)?

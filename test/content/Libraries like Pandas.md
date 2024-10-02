@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Libraries like Pandas
---- 
++++
+ title = 'Libraries like Pandas'
++++
 ## [Libraries like Pandas](./../libraries-like-pandas/)
 
 ### What is Pandas?

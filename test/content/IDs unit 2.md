@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: IDs unit 2
---- 
++++
+ title = 'IDs unit 2'
++++
 # [ID Home](./../id-home/)
 
 1. [Headright System](./../headright-system/) 

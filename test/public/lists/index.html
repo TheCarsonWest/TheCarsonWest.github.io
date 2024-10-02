@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lists | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Lists</span></h1>
+
+
+</div>
+
+<main>
+<h2 id="python-listslists">Python <a href="./../lists/">Lists</a></h2>
+<h3 id="what-are-listslists">What are <a href="./../lists/">Lists</a>?</h3>
+<p><a href="./../lists/">Lists</a> are one of the most versatile data structures in Python. They are ordered collections of elements that can be accessed and modified by index. <a href="./../lists/">Lists</a> are mutable, which means their contents can be changed during program execution.</p>
+<h3 id="how-to-use-listslists">How to Use <a href="./../lists/">Lists</a></h3>
+<p><a href="./../lists/">Lists</a> can be created using square brackets <code>[]</code>. The elements of a list are separated by commas.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>]
+</span></span></code></pre></div><p><a href="./../lists/">Lists</a> can also be created from other iterables, such as tuples and strings.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> list((<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>))
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> list(<span style="color:#e6db74">&#34;Python&#34;</span>)
+</span></span></code></pre></div><p><strong>Accessing List Elements:</strong>
+Individual elements of a list can be accessed by index. The index of the first element is 0, and the index of the last element is the length of the list minus 1.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(my_list[<span style="color:#ae81ff">0</span>]) <span style="color:#75715e"># 1</span>
+</span></span><span style="display:flex;"><span>print(my_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]) <span style="color:#75715e"># 5</span>
+</span></span></code></pre></div><p><strong>Modifying List Elements:</strong>
+Elements of a list can be modified by assigning a new value to the corresponding index.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
+</span></span></code></pre></div><h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Create a list of numbers</span>
+</span></span><span style="display:flex;"><span>numbers <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add an element to the end of the list</span>
+</span></span><span style="display:flex;"><span>numbers<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">6</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Remove an element from the list by index</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">del</span> numbers[<span style="color:#ae81ff">2</span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Sort the list in ascending order</span>
+</span></span><span style="display:flex;"><span>numbers<span style="color:#f92672">.</span>sort()
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../variables-and-data-types/">Variables and Data Types</a>: <a href="./../lists/">Lists</a> are a type of data structure that can store multiple values.</li>
+<li><a href="./../mutable-vs-immutable-types/">Mutable vs Immutable Types</a>: <a href="./../lists/">Lists</a> are mutable, meaning their contents can be modified.</li>
+<li><a href="./../for-loops/">For Loops</a>: For loops can be used to iterate over the elements of a list.</li>
+<li><a href="./../list-comprehension/">List Comprehension</a>: List comprehensions provide a concise way to create new lists based on existing lists.</li>
+<li>[[Multidimensional <a href="./../lists/">Lists</a>: <a href="./../lists/">Lists</a> can be nested to create multidimensional data structures.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

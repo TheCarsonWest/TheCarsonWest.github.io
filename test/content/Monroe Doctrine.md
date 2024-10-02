@@ -11,9 +11,7 @@
 * Protected American security interests.
 * Strengthened the [United States](./../united-states/)' position as a world power.
 * Led to the [United States](./../united-states/) becoming involved in conflicts in Latin America to enforce the doctrine.
----
-params:
-	author: Carson West
-title: Monroe Doctrine
---- 
++++
+ title = 'Monroe Doctrine'
++++
 # [IDS Unit 3](./../ids-unit-3/)

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Exception Handling
---- 
++++
+ title = 'Exception Handling'
++++
 ## [Exception Handling](./../exception-handling/)
 
 ### What is [Exception Handling](./../exception-handling/)?

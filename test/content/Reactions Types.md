@@ -1,10 +1,8 @@
 
 [APCHEM Home](./../apchem-home/)
----
-params:
-	author: Carson West
-title: Reactions Types
---- 
++++
+ title = 'Reactions Types'
++++
 ### [Double replacement reaction](./../double-replacement-reaction/)
 - [Titration](./../titration/)
 ### [Single Replacement reaction](./../single-replacement-reaction/)

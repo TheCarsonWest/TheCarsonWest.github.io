@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: nexus
---- 
++++
+ title = 'nexus'
++++
 # See [README](./../readme/)
 
 # [APHG Home](./../aphg-home/)

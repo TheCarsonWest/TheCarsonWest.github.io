@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: President of the United States
---- 
++++
+ title = 'President of the United States'
++++
 # Presidents
 
 - [George Washington](./../george-washington/) (1789–1797)

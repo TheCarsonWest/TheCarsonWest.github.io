@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Concurrency and Multithreading
---- 
++++
+ title = 'Concurrency and Multithreading'
++++
 ## [Concurrency and Multithreading](./../concurrency-and-multithreading/)
 
 ### What is [Concurrency and Multithreading](./../concurrency-and-multithreading/)?

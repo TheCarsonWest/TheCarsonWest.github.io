@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Thread Safety
---- 
++++
+ title = 'Thread Safety'
++++
 ## [Thread Safety](./../thread-safety/)
 
 ### What is [Thread Safety](./../thread-safety/)?

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Libraries like NumPy
---- 
++++
+ title = 'Libraries like NumPy'
++++
 ## [Libraries like NumPy](./../libraries-like-numpy/)
 
 ### What is NumPy?

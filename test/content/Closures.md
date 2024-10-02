@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Closures
---- 
++++
+ title = 'Closures'
++++
 ## [Closures](./../closures/)
 
 ### What is a Closure?

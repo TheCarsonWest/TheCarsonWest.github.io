@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Virtual Environments
---- 
++++
+ title = 'Virtual Environments'
++++
 ## Python [Virtual Environments](./../virtual-environments/)
 
 ### What is a Virtual Environment?

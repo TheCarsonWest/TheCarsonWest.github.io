@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: NumPy Broadcasting
---- 
++++
+ title = 'NumPy Broadcasting'
++++
 ## [NumPy Broadcasting](./../numpy-broadcasting/)
 
 ### What is Broadcasting?

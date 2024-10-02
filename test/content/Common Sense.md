@@ -15,9 +15,7 @@
 * Sparked widespread support for independence among American colonists.
 * Influenced the [Declaration of Independence](./../declaration-of-independence/) and the course of the American Revolution.
 * Became one of the most influential political tracts in American history.
----
-params:
-	author: Carson West
-title: Common Sense
---- 
++++
+ title = 'Common Sense'
++++
 #ids

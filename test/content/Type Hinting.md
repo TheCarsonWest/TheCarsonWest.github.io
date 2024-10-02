@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Type Hinting
---- 
++++
+ title = 'Type Hinting'
++++
 ## [Type Hinting](./../type-hinting/)
 
 ### What is [Type Hinting](./../type-hinting/)?

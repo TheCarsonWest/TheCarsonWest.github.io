@@ -15,9 +15,7 @@
 - **Strengthened Federalist Party:** The treaty's success strengthened the Federalist Party, which supported President [George Washington](./../george-washington/)'s foreign policy.
 
 - **Opposition from Democratic-Republicans:** Many Democratic-Republicans, led by [Thomas Jefferson](./../thomas-jefferson/), opposed the treaty, arguing that it was too favorable to Great Britain.
----
-params:
-	author: Carson West
-title: Jay’s Treaty
---- 
++++
+ title = 'Jay’s Treaty'
++++
 # [IDS Unit 3](./../ids-unit-3/)

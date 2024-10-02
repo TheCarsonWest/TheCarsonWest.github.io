@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: APHG Home
---- 
++++
+ title = 'APHG Home'
++++
 # [nexus](./../nexus/)
 
 - # [Cengage home](./../cengage-home/)

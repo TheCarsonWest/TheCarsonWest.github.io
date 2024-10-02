@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Multiple Inheritance
---- 
++++
+ title = 'Multiple Inheritance'
++++
 ## [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python
 
 ### What is [Multiple [[Inheritance](./../multiple-[[inheritance/)?

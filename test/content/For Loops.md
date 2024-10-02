@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: For Loops
---- 
++++
+ title = 'For Loops'
++++
 # Python [For Loops](./../for-loops/)
 
 ## What are [For Loops](./../for-loops/)?

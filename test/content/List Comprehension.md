@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: List Comprehension
---- 
++++
+ title = 'List Comprehension'
++++
 ## [List Comprehension](./../list-comprehension/)
 
 ### What is [List Comprehension](./../list-comprehension/)?

@@ -19,9 +19,7 @@ location: 42.3788774,-72.032366
 * Provided a legal basis for the Plymouth Colony
 * Influenced the development of colonial government and legal systems
 * Contributed to the growth of democracy and representative government in the [United States](./../united-states/)
----
-params:
-	author: Carson West
-title: Mayflower Compact
---- 
++++
+ title = 'Mayflower Compact'
++++
 #ids

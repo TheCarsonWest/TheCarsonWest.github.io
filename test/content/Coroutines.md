@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Coroutines
---- 
++++
+ title = 'Coroutines'
++++
 ## [Coroutines](./../coroutines/)
 
 ### What are [Coroutines](./../coroutines/)?

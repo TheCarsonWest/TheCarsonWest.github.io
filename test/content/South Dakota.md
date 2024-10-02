@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: South Dakota
---- 
++++
+ title = 'South Dakota'
++++
 ## [South Dakota](./../south-dakota/) in [United States](./../united-states/) History
 
 **Timeline of Events:**

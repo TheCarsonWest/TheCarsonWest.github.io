@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Function Overloading
---- 
++++
+ title = 'Function Overloading'
++++
 # Python [Function Overloading](./../function-overloading/)
 
 ## What is [Function Overloading](./../function-overloading/)?

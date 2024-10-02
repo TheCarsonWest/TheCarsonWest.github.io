@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Unit Testing and Test-Driven Development
---- 
++++
+ title = 'Unit Testing and Test-Driven Development'
++++
 ## [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/)
 
 ### What is [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/)?

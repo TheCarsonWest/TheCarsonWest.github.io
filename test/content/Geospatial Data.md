@@ -3,11 +3,9 @@
 * Information linked to specific places
 * Includes locations, human activities, and traits
 
----
-params:
-	author: Carson West
-title: Geospatial Data
---- 
++++
+ title = 'Geospatial Data'
++++
 # **Obtaining Data**
 
 * Fieldwork: observing and recording information on location (e.g., census, interviews)

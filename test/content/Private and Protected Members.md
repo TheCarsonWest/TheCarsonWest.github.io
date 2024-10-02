@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Private and Protected Members
---- 
++++
+ title = 'Private and Protected Members'
++++
 ## [Private and Protected Members](./../private-and-protected-members/)
 
 ### Explanation

@@ -16,9 +16,7 @@
 * **Short-term:** Strengthened the Continental Army after a series of defeats
 * **Long-term:** Boosted morale and helped secure eventual American independence
 * Demonstrated the resilience and determination of the American people
----
-params:
-	author: Carson West
-title: Valley Forge
---- 
++++
+ title = 'Valley Forge'
++++
 #ids

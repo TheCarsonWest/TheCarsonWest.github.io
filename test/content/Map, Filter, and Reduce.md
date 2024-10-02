@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Map, Filter, and Reduce
---- 
++++
+ title = 'Map, Filter, and Reduce'
++++
 ## [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
 
 ### Explanation

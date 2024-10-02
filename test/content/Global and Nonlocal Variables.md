@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Global and Nonlocal Variables
---- 
++++
+ title = 'Global and Nonlocal Variables'
++++
 ## [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
 
 ### What are [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)?

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Garbage Collection
---- 
++++
+ title = 'Garbage Collection'
++++
 ## [Garbage Collection](./../garbage-collection/)
 
 ### What is [Garbage Collection](./../garbage-collection/)?

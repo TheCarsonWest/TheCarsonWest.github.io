@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Function Parameters
---- 
++++
+ title = 'Function Parameters'
++++
 ## [Function Parameters](./../function-parameters/)
 
 ### Definition

@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Mocking in Unit Tests
---- 
++++
+ title = 'Mocking in Unit Tests'
++++
 ## [Mocking in Unit Tests](./../mocking-in-unit-tests/)
 
 ### What is Mocking?

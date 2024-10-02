@@ -7,9 +7,7 @@
 
  * **Short-term:** The plan was not adopted by the British government or the colonial assemblies.
  * **Long-term:** The plan became a model for later attempts at colonial unity, including the [Articles of Confederation](./../articles-of-confederation/) and the Constitution.
----
-params:
-	author: Carson West
-title: Albany Plan of Union
---- 
++++
+ title = 'Albany Plan of Union'
++++
 #ids

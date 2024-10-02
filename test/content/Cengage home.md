@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Cengage home
---- 
++++
+ title = 'Cengage home'
++++
 # [APHG Home](./../aphg-home/)
 
  - [Map Projections](./../map-projections/)(38-39)

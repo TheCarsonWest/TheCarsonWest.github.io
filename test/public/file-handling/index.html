@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Handling | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">File Handling</span></h1>
+
+
+</div>
+
+<main>
+<h2 id="file-handlingfile-handling"><a href="./../file-handling/">File Handling</a></h2>
+<h3 id="explanation">Explanation</h3>
+<p>File handling in Python refers to the process of reading, writing, updating, and managing files on the computer system. It enables programs to perform operations like creating, deleting, opening, closing, and manipulating files.</p>
+<h3 id="how-to-use-file-handlingfile-handling">How to Use <a href="./../file-handling/">File Handling</a></h3>
+<p>To perform file operations, you need to open a file using the <code>open()</code> function. The <code>open()</code> function takes two parameters:</p>
+<ul>
+<li>
+<p><code>filename</code>: The name of the file to be opened.</p>
+</li>
+<li>
+<p><code>mode</code>: The mode in which the file should be opened. Common modes include:</p>
+</li>
+<li>
+<p>&lsquo;r&rsquo; - Read only</p>
+</li>
+<li>
+<p>&lsquo;w&rsquo; - Write only (overwrites existing file)</p>
+</li>
+<li>
+<p>&lsquo;a&rsquo; - Append only (adds to the end of existing file)</p>
+</li>
+</ul>
+<p>Once the file is opened, you can use methods like <code>read()</code>, <code>write()</code>, and <code>close()</code> to perform various operations on the file.</p>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Open a file for reading</span>
+</span></span><span style="display:flex;"><span>file <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Read the contents of the file</span>
+</span></span><span style="display:flex;"><span>contents <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Close the file</span>
+</span></span><span style="display:flex;"><span>file<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Open a file for writing</span>
+</span></span><span style="display:flex;"><span>file <span style="color:#f92672">=</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Write some data to the file</span>
+</span></span><span style="display:flex;"><span>file<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;This is a test.&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Close the file</span>
+</span></span><span style="display:flex;"><span>file<span style="color:#f92672">.</span>close()
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../variables-and-data-types/">Variables and Data Types</a>: File handling operations involve working with strings and file objects.</li>
+<li><a href="./../operators/">Operators</a>: File I/O operations use operators like <code>+</code> for string concatenation.</li>
+<li><a href="./../control-flow-if-statements/">Control Flow If Statements</a>: File handling operations often involve conditional execution.</li>
+<li><a href="./../functions/">Functions</a>: File I/O operations can be encapsulated in functions for reuse.</li>
+<li><a href="./../file-io-modes/">File IO Modes</a>: There are several different modes available for opening files, each with specific behavior.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

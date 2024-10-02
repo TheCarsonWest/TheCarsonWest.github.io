@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: M1L1 Grammar
---- 
++++
+ title = 'M1L1 Grammar'
++++
 # These first two things aren't written down in everyday writing
 # Fat-ha, Dama, Kasra 
 they are short vowels

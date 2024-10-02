@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Massachusetts
---- 
++++
+ title = 'Massachusetts'
++++
 ## [Massachusetts](./../massachusetts/) in [United States](./../united-states/) History
 
 **Timeline of Significant Events:**

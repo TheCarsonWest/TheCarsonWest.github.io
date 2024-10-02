@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Generators
---- 
++++
+ title = 'Generators'
++++
 ## [Generators](./../generators/)
 
 ### What are [Generators](./../generators/)?

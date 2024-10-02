@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Plot Customization in Matplotlib
---- 
++++
+ title = 'Plot Customization in Matplotlib'
++++
 ## [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/)
 
 

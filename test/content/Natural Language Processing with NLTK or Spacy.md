@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Natural Language Processing with NLTK or Spacy
---- 
++++
+ title = 'Natural Language Processing with NLTK or Spacy'
++++
 ## [Natural Language Processing with NLTK or Spacy](./../natural-language-processing-with-nltk-or-spacy/)
 
 ### What is NLP with NLTK or Spacy?

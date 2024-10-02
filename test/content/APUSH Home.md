@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: APUSH Home
---- 
++++
+ title = 'APUSH Home'
++++
 # [nexus](./../nexus/)
 
 # [ID Home](./../id-home/)

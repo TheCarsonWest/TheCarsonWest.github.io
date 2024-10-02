@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Continuous Integration or Continuous Deployment (CI or CD) with Python
---- 
++++
+ title = 'Continuous Integration or Continuous Deployment (CI or CD) with Python'
++++
 ## Continuous Integration or Continuous Deployment (CI or CD) with Python
 
 ### What is it?

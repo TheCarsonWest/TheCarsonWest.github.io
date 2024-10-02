@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Descriptors
---- 
++++
+ title = 'Descriptors'
++++
 ## [Descriptors](./../descriptors/)
 
 ### What are [Descriptors](./../descriptors/)?

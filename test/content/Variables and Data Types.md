@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Variables and Data Types
---- 
++++
+ title = 'Variables and Data Types'
++++
 ## [Variables and Data Types](./../variables-and-data-types/)
 
 ### What are [Variables and Data Types](./../variables-and-data-types/)?

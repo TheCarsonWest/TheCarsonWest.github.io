@@ -16,15 +16,11 @@
 * Contributed to the growth of the slave trade.
 * Led to social inequalities and exploitation.
 * Established the racial hierarchy that later formed the basis for slavery in the Americas.
----
-params:
-	author: Carson West
-title: Indentured Servitude
---- 
++++
+ title = 'Indentured Servitude'
++++
 #id
----
-params:
-	author: Carson West
-title: Indentured Servitude
---- 
++++
+ title = 'Indentured Servitude'
++++
 #ids

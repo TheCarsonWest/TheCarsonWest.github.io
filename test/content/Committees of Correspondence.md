@@ -18,9 +18,7 @@
 * Strengthened colonial solidarity and resistance to British authority
 * Played a key role in mobilizing support for the American Revolution
 * Provided a foundation for the future [United States](./../united-states/) Congress
----
-params:
-	author: Carson West
-title: Committees of Correspondence
---- 
++++
+ title = 'Committees of Correspondence'
++++
 #ids

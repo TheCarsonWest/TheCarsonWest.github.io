@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Geographic Scale
---- 
++++
+ title = 'Geographic Scale'
++++
 # [APHG Unit 1](./../aphg-unit-1/)
 https://www.youtube.com/watch?v=Teq7yPBw-dI&t
 

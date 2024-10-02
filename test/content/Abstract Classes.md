@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: Abstract Classes
---- 
++++
+ title = 'Abstract Classes'
++++
 ## [Abstract Classes](./../abstract-classes/)
 
 ### What are [Abstract Classes](./../abstract-classes/)?

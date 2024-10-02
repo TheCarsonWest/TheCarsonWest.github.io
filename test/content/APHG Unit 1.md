@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: APHG Unit 1
---- 
++++
+ title = 'APHG Unit 1'
++++
 # [APHG Home](./../aphg-home/)
 
  - [Reality of our world](./../reality-of-our-world/)

@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Scraping with BeautifulSoup | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Web Scraping with BeautifulSoup</span></h1>
+
+
+</div>
+
+<main>
+<h2 id="web-scraping-with-beautifulsoupweb-scraping-with-beautifulsoup"><a href="./../web-scraping-with-beautifulsoup/">Web Scraping with BeautifulSoup</a></h2>
+<h3 id="what-is-web-scraping-with-beautifulsoupweb-scraping-with-beautifulsoup">What is <a href="./../web-scraping-with-beautifulsoup/">Web Scraping with BeautifulSoup</a>?</h3>
+<p>Web scraping with BeautifulSoup is a technique to extract and parse data from web pages. BeautifulSoup is a Python library that specifically focuses on parsing HTML and XML documents, making it an efficient tool for web scraping.</p>
+<h3 id="how-to-use-beautifulsoup">How to Use BeautifulSoup</h3>
+<h4 id="creating-a-beautifulsoup-object">Creating a BeautifulSoup Object</h4>
+<p>To use BeautifulSoup for scraping, first create a BeautifulSoup object by parsing the HTML or XML document. The syntax is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>html_doc <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&lt;html&gt;&lt;body&gt;&lt;p&gt;This is a paragraph&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;&#34;</span>
+</span></span><span style="display:flex;"><span>soup <span style="color:#f92672">=</span> BeautifulSoup(html_doc, <span style="color:#e6db74">&#34;html.parser&#34;</span>)
+</span></span></code></pre></div><h4 id="navigating-the-document">Navigating the Document</h4>
+<p>Once the BeautifulSoup object is created, you can navigate and extract data from the HTML or XML document using various methods:</p>
+<ul>
+<li><code>soup.find('tag_name')</code>: Finds the first occurrence of the specified HTML tag.</li>
+<li><code>soup.find_all('tag_name')</code>: Finds all occurrences of the specified HTML tag.</li>
+<li><code>soup.select('css_selector')</code>: Selects elements using CSS selectors.</li>
+</ul>
+<h4 id="extracting-data">Extracting Data</h4>
+<p>To extract data from the HTML elements, use methods like:</p>
+<ul>
+<li><code>element.text</code>: Returns the text content of the element.</li>
+<li><code>element.attrs</code>: Returns a dictionary of the element&rsquo;s attributes.</li>
+<li><code>element.get('attribute_name')</code>: Gets the value of a specific attribute.</li>
+</ul>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># parse HTML from a website</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> requests
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> bs4 <span style="color:#f92672">import</span> BeautifulSoup
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>url <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://example.com&#34;</span>
+</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(url)
+</span></span><span style="display:flex;"><span>soup <span style="color:#f92672">=</span> BeautifulSoup(response<span style="color:#f92672">.</span>content, <span style="color:#e6db74">&#34;html.parser&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># find the title of the page</span>
+</span></span><span style="display:flex;"><span>title_element <span style="color:#f92672">=</span> soup<span style="color:#f92672">.</span>find(<span style="color:#e6db74">&#39;title&#39;</span>)
+</span></span><span style="display:flex;"><span>title <span style="color:#f92672">=</span> title_element<span style="color:#f92672">.</span>text
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../libraries-like-requests-library/">Libraries like Requests Library</a>: BeautifulSoup is often used in conjunction with libraries like Requests for fetching web pages.</li>
+<li><a href="./../regular-expressions/">Regular Expressions</a>: BeautifulSoup uses regular expressions for extracting specific patterns from web pages.</li>
+<li><a href="./../html-and-xml/">HTML and XML</a>: BeautifulSoup specifically parses HTML and XML documents.</li>
+<li><a href="./../web-development-with-django/">Web Development with Django</a>: Web scraping can be used to gather data for web development projects.</li>
+<li><a href="./../handling-apis-with-requests-library/">Handling APIs with Requests Library</a>: Web scraping can be used to access data from APIs.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

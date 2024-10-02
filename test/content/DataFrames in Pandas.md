@@ -1,8 +1,6 @@
----
-params:
-	author: Carson West
-title: DataFrames in Pandas
---- 
++++
+ title = 'DataFrames in Pandas'
++++
 ## [DataFrames in Pandas](./../dataframes-in-pandas/)
 
 ### What are DataFrames?
