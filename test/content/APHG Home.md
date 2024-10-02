@@ -1,4 +1,4 @@
-- # APHG Home 
+# APHG Home 
 # [nexus](./../nexus/)
 
 - # [Cengage home](./../cengage-home/)

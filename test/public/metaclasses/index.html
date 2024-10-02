@@ -1,0 +1,66 @@
+
+    <!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h1 id="metaclasses">Metaclasses</h1>
+<h2 id="metaclassesmetaclasses"><a href="./../metaclasses/">Metaclasses</a></h2>
+<h3 id="what-are-metaclassesmetaclasses">What are <a href="./../metaclasses/">Metaclasses</a>?</h3>
+<p><a href="./../metaclasses/">Metaclasses</a> are classes that create other classes. They provide a way to modify the behavior of classes at the time of their creation. This allows for advanced customization and control over the creation and behavior of objects.</p>
+<h3 id="how-to-use-metaclassesmetaclasses">How to Use <a href="./../metaclasses/">Metaclasses</a></h3>
+<p><a href="./../metaclasses/">Metaclasses</a> are defined using the <code>type</code> keyword, followed by the metaclass name, the tuple of base classes, and the class body. The body of a metaclass typically contains methods that modify the behavior of the class being created.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyMetaclass</span>(type):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __new__(cls, name, bases, attrs):
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># modify the class being created</span>
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> super()<span style="color:#f92672">.</span>__new__(cls, name, bases, attrs)
+</span></span></code></pre></div><p>The <code>__new__</code> method is the most commonly overridden method in metaclasses. It is called when a new class is created and provides an opportunity to modify the class before it is returned.</p>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyMetaclass</span>(type):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __new__(cls, name, bases, attrs):
+</span></span><span style="display:flex;"><span> attrs[<span style="color:#e6db74">&#39;foo&#39;</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;bar&#39;</span>
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> super()<span style="color:#f92672">.</span>__new__(cls, name, bases, attrs)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>(metaclass<span style="color:#f92672">=</span>MyMetaclass):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>obj <span style="color:#f92672">=</span> MyClass()
+</span></span><span style="display:flex;"><span>print(obj<span style="color:#f92672">.</span>foo) <span style="color:#75715e"># prints &#39;bar&#39;</span>
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../classes-and-objects/">Classes and Objects</a>: <a href="./../metaclasses/">Metaclasses</a> provide a way to customize the behavior of classes and objects.</li>
+<li><a href="./../inheritance/">Inheritance</a>: <a href="./../metaclasses/">Metaclasses</a> can be used to create new classes that inherit from existing classes.</li>
+<li><a href="./../polymorphism/">Polymorphism</a>: <a href="./../metaclasses/">Metaclasses</a> can be used to change the behavior of methods and properties based on the class of an object.</li>
+<li><a href="./../encapsulation/">Encapsulation</a>: <a href="./../metaclasses/">Metaclasses</a> can be used to restrict access to attributes and methods of a class.</li>
+<li><a href="./../modules-and-packages/">Modules and Packages</a>: <a href="./../metaclasses/">Metaclasses</a> can be used to create modular and reusable code for creating and customizing classes.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,73 @@
+
+    <!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h1 id="multiprocessing">Multiprocessing</h1>
+<h2 id="multiprocessingmultiprocessing-in-python"><a href="./../multiprocessing/">Multiprocessing</a> in Python</h2>
+<h3 id="explanation">Explanation</h3>
+<p><a href="./../multiprocessing/">Multiprocessing</a> provides a way to create multiple processes, each of which can run concurrently to perform different tasks. It is a more advanced form of parallelism than multithreading, which operates on a single processor. <a href="./../multiprocessing/">Multiprocessing</a> allows different tasks to be executed in parallel on different CPUs, improving the overall speed of execution.</p>
+<h3 id="how-to-use-multiprocessingmultiprocessing">How to Use <a href="./../multiprocessing/">Multiprocessing</a></h3>
+<p>To use multiprocessing in Python, you need to create a <code>Process</code> object for each task, and then start the process by calling the <code>start()</code> method. The <code>Process</code> object has the following attributes and methods:</p>
+<ul>
+<li><code>target</code>: The function to be executed by the process.</li>
+<li><code>name</code>: The name of the process (optional).</li>
+<li><code>args</code>: A tuple of arguments to be passed to the target function.</li>
+<li><code>kwargs</code>: A dictionary of keyword arguments to be passed to the target function.</li>
+<li><code>start()</code>: Starts the process.</li>
+<li><code>join()</code>: Waits for the process to finish and returns the result.</li>
+</ul>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> multiprocessing
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">worker</span>(num):
+</span></span><span style="display:flex;"><span> <span style="color:#e6db74">&#34;&#34;&#34;thread worker function&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;Worker: </span><span style="color:#e6db74">{</span>num<span style="color:#e6db74">}</span><span style="color:#e6db74">&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span> jobs <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">5</span>):
+</span></span><span style="display:flex;"><span> p <span style="color:#f92672">=</span> multiprocessing<span style="color:#f92672">.</span>Process(target<span style="color:#f92672">=</span>worker, args<span style="color:#f92672">=</span>(i,))
+</span></span><span style="display:flex;"><span> jobs<span style="color:#f92672">.</span>append(p)
+</span></span><span style="display:flex;"><span> p<span style="color:#f92672">.</span>start()
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> jobs:
+</span></span><span style="display:flex;"><span> j<span style="color:#f92672">.</span>join()
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../concurrency-and-multithreading/">Concurrency and Multithreading</a>: <a href="./../multiprocessing/">Multiprocessing</a> is an extension of multithreading that allows processes to run on different CPUs.</li>
+<li><a href="./../functions/">Functions</a>: <a href="./../multiprocessing/">Multiprocessing</a> uses functions as targets for processes to execute.</li>
+<li><a href="./../function-parameters/">Function Parameters</a>: Arguments and keyword arguments can be passed to target functions in multiprocessing.</li>
+<li><a href="./../return-values/">Return Values</a>: The <code>join()</code> method of a <code>Process</code> object can be used to retrieve the return value of the target function.</li>
+<li><a href="./../threading/">Threading</a>: Multithreading is another way of achieving concurrency in Python, but it operates on a single CPU.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    
+  </head>
+
+  <body>
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h1 id="custom-exceptions">Custom Exceptions</h1>
+<h2 id="custom-exceptionscustom-exceptions"><a href="./../custom-exceptions/">Custom Exceptions</a></h2>
+<h3 id="what-are-custom-exceptionscustom-exceptions">What are <a href="./../custom-exceptions/">Custom Exceptions</a>?</h3>
+<p>Custom exceptions are classes designed to handle specific errors or exceptional conditions encountered during program execution. They extend the built-in <code>Exception</code> class and allow developers to create specialized exceptions that can provide more context and tailored handling.</p>
+<h3 id="how-to-use-custom-exceptionscustom-exceptions">How to Use <a href="./../custom-exceptions/">Custom Exceptions</a></h3>
+<p>To create a custom exception, define a class that inherits from the <code>Exception</code> class and optionally provides additional attributes for storing error information. Typically, a custom exception class is defined as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CustomException</span>(<span style="color:#a6e22e">Exception</span>):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __init__(self, message):
+</span></span><span style="display:flex;"><span> super()<span style="color:#f92672">.</span>__init__(message)
+</span></span></code></pre></div><p>Where:</p>
+<ul>
+<li><code>CustomException</code> is the name of the custom exception class.</li>
+<li><code>__init__()</code> is the constructor that takes a custom message as an argument.</li>
+<li><code>super().__init__(message)</code> calls the constructor of the parent <code>Exception</code> class and sets the error message.</li>
+</ul>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># define a custom exception for invalid input</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">InvalidInputException</span>(<span style="color:#a6e22e">Exception</span>):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __init__(self, message):
+</span></span><span style="display:flex;"><span> super()<span style="color:#f92672">.</span>__init__(message)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># raise the custom exception when invalid input is encountered</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> input_value <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">raise</span> InvalidInputException(<span style="color:#e6db74">&#34;Invalid input: Input value cannot be negative&#34;</span>)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># define a custom exception for file not found</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FileNotFoundException</span>(<span style="color:#a6e22e">Exception</span>):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> __init__(self, message):
+</span></span><span style="display:flex;"><span> super()<span style="color:#f92672">.</span>__init__(message)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># raise the custom exception when trying to access a non-existent file</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;non-existent-file.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># code to read the file</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> FileNotFoundException <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error: File not found - </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../exception-handling/">Exception Handling</a>: Custom exceptions are part of the exception handling mechanism that allows catching and handling specific exceptions.</li>
+<li><a href="./../classes-and-objects/">Classes and Objects</a>: Custom exceptions are defined as classes and can have custom attributes and methods.</li>
+<li><a href="./../inheritance/">Inheritance</a>: Custom exceptions inherit from the <code>Exception</code> base class to gain its functionality.</li>
+<li><a href="./../function-parameters/">Function Parameters</a>: The constructor of a custom exception class can take additional parameters for error handling.</li>
+<li><a href="./../return-values/">Return Values</a>: Custom exceptions can return error messages or other relevant information.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
