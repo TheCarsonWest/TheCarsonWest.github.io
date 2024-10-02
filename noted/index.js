@@ -1,5 +1,5 @@
-var converter = new showdown.Converter();
-var on = true;
+var converter = new showdown.Converter({omitExtraWLInCodeBlocks: true});
+  var on = true;
 var scheme = {
     'bg' : '#222',
     'h1' : '#009b77',
@@ -42,7 +42,6 @@ var update = function(){
     console.log(text);
     converter = new showdown.Converter();
     html = converter.makeHtml(text);
-
     html = html.replaceAll('[ ]','<input type="checkbox">');
 
 
@@ -69,5 +68,4 @@ function defaults(){
     document.getElementById('pColor').value = '#aaaaaa';
     document.getElementById('codeColor').value = '#d8ba7d';
     update()
-
 }

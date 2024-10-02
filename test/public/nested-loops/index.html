@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | My Obsidian Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h2 id="nested-loopsnested-loops"><a href="./../Nested-Loops/">Nested Loops</a></h2>
+<h3 id="what-are-nested-loopsnested-loops">What are <a href="./../Nested-Loops/">Nested Loops</a>?</h3>
+<p>Nested loops are a sequence of loops, where one or more loops are contained within another loop. They enable the execution of a nested block of code a specified number of times, depending on the conditions of the outer and inner loops.</p>
+<h3 id="how-to-use-nested-loopsnested-loops">How to Use <a href="./../Nested-Loops/">Nested Loops</a></h3>
+<p>To create nested loops, use one or more for loops (or while loops) nested within another for loop (or while loop). The syntax is as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">for</span> outer_variable <span style="color:#f92672">in</span> outer_sequence:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">for</span> inner_variable <span style="color:#f92672">in</span> inner_sequence:
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># code block to be executed for each iteration of the inner loop</span>
+</span></span></code></pre></div><h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># print a multiplication table for numbers from 1 to 5</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">6</span>):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">6</span>):
+</span></span><span style="display:flex;"><span> print(i <span style="color:#f92672">*</span> j, end<span style="color:#f92672">=</span><span style="color:#e6db74">&#34; &#34;</span>)
+</span></span><span style="display:flex;"><span> print()
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># check if a number is prime</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">2</span>, number):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">if</span> number <span style="color:#f92672">%</span> i <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">break</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;Number is prime&#34;</span>)
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../For-Loops/">For Loops</a>: Nested loops are built using multiple for loops (or while loops).</li>
+<li><a href="./../Variables/">Variables</a>: The variables used in the nested loops represent the counters or iterators used to control the flow of execution.</li>
+<li><a href="./../Control-Flow-If-Statements/">Control Flow If Statements</a>: Nested loops can be used in conjunction with if statements to conditionally execute code blocks.</li>
+<li><a href="./../Functions/">Functions</a>: Nested loops can be used to iterate over the elements of a list or dictionary passed as a parameter to a function.</li>
+<li><a href="./../List-Comprehension/">List Comprehension</a>: Nested loops can be used to create multi-dimensional lists using list comprehension.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

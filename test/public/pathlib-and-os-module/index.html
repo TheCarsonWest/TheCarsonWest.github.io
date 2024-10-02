@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> | My Obsidian Hugo Site</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    
+  </head>
+
+  <body>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+  
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+<h1><span class="title"></span></h1>
+
+
+</div>
+
+<main>
+<h2 id="pathlib-and-os-modulepathlib-and-os-module"><a href="./../Pathlib-and-OS-Module/">Pathlib and OS Module</a></h2>
+<h3 id="overview">Overview</h3>
+<p>Pathlib and OS are two important modules in Python that provide extensive capabilities for interacting with the file system and operating system. Pathlib offers a modern, object-oriented approach to working with files and directories, while the OS module offers a comprehensive set of functions for performing system-level tasks.</p>
+<h3 id="pathlib">Pathlib</h3>
+<h4 id="what-is-pathlib">What is Pathlib?</h4>
+<p>Pathlib is a Python module that provides a convenient and consistent way to work with files and directories. It offers a class-based approach to representing and interacting with paths, making it easier to handle file operations and navigate the file system.</p>
+<h4 id="how-to-use-pathlib">How to Use Pathlib</h4>
+<p>The basic usage of Pathlib involves creating a Path object, which represents a path to a file or directory. The Path object provides various methods for manipulating and accessing the file system.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> pathlib <span style="color:#f92672">import</span> Path
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># create a Path object for the current working directory</span>
+</span></span><span style="display:flex;"><span>cwd <span style="color:#f92672">=</span> Path<span style="color:#f92672">.</span>cwd()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># get the home directory</span>
+</span></span><span style="display:flex;"><span>home_dir <span style="color:#f92672">=</span> Path<span style="color:#f92672">.</span>home()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># create a path to a specific file</span>
+</span></span><span style="display:flex;"><span>file_path <span style="color:#f92672">=</span> Path(<span style="color:#e6db74">&#39;my_file.txt&#39;</span>)
+</span></span></code></pre></div><h4 id="code-example">Code Example</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># create a Path object for the current working directory</span>
+</span></span><span style="display:flex;"><span>cwd <span style="color:#f92672">=</span> Path<span style="color:#f92672">.</span>cwd()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># get the absolute path to the cwd</span>
+</span></span><span style="display:flex;"><span>abs_path <span style="color:#f92672">=</span> cwd<span style="color:#f92672">.</span>absolute()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># get the parent directory of the cwd</span>
+</span></span><span style="display:flex;"><span>parent_dir <span style="color:#f92672">=</span> cwd<span style="color:#f92672">.</span>parent
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># list all files and directories in the cwd</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> cwd<span style="color:#f92672">.</span>iterdir():
+</span></span><span style="display:flex;"><span> print(item)
+</span></span></code></pre></div><h3 id="os-module">OS Module</h3>
+<h4 id="what-is-the-os-module">What is the OS Module?</h4>
+<p>The OS module in Python provides a wide range of functions for interacting with the operating system. It offers system-level functionality, such as process management, file manipulation, and directory operations.</p>
+<h4 id="how-to-use-the-os-module">How to Use the OS Module</h4>
+<p>The OS module can be imported into Python programs using the following statement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span></code></pre></div><p>Once imported, the OS module provides various functions for performing different system-level tasks.</p>
+<h4 id="code-example-1">Code Example</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># check if a file exists</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>isfile(<span style="color:#e6db74">&#39;my_file.txt&#39;</span>):
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;File exists&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># create a directory</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>mkdir(<span style="color:#e6db74">&#39;new_dir&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># rename a file</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>rename(<span style="color:#e6db74">&#39;old_file.txt&#39;</span>, <span style="color:#e6db74">&#39;new_file.txt&#39;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># delete a file</span>
+</span></span><span style="display:flex;"><span>os<span style="color:#f92672">.</span>remove(<span style="color:#e6db74">&#39;temp_file.txt&#39;</span>)
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../File-Handling/">File Handling</a>: Pathlib and OS are essential for working with files and directories.</li>
+<li><a href="./../Variables-and-Data-Types/">Variables and Data Types</a>: Variables are used to store paths and other information related to files and directories.</li>
+<li><a href="./../Operators/">Operators</a>: <a href="./../Operators/">Operators</a> are used in Pathlib and OS functions for comparisons and other operations.</li>
+<li><a href="./../Control-Flow-If-Statements/">Control Flow If Statements</a>: If statements are used to check conditions related to files and directories.</li>
+<li><a href="./../For-Loops/">For Loops</a>: For loops are used to iterate over files and directories.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
