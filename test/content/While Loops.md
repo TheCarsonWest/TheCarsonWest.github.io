@@ -1,4 +1,4 @@
-## [While Loops](./../while-loops/)
+# While Loops ## [While Loops](./../while-loops/)
 
 ### What are [While Loops](./../while-loops/)?
 While loops are a control flow construct that allows the execution of a code block repeatedly as long as a specified condition remains True. They provide a way to iterate through a sequence of operations or execute a block of code an indefinite number of times.

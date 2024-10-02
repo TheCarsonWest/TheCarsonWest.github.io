@@ -1,4 +1,4 @@
-# [nexus](./../nexus/)
+# Python 1 Home # [nexus](./../nexus/)
  [Variables and Data Types](./../variables-and-data-types/)
  [Operators](./../operators/)
  [Control Flow If Statements](./../control-flow-if-statements/)

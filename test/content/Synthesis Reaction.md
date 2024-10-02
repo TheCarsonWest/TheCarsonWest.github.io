@@ -2,7 +2,7 @@
 **Definition:** A reaction in which two or more substances combine to form a new, more complex substance.
 
 **General Equation:**
-# $$ A + B → C $$ **Types of Synthesis Reactions:**
+# Synthesis Reaction # $$ A + B → C $$ **Types of Synthesis Reactions:**
 
 * **Direct Combination:** Two elements combine directly to form a compound.
 ### $$ 2 Na + Cl2 → 2 NaCl $$ * **Combination of Oxides:** Two metal oxides react to form a new metal oxide.

@@ -1,5 +1,5 @@
  [Cengage home](./../cengage-home/)
-## Globalization: the process by which the nations of the world become more interconnected
+# Globalization and Sustainability ## Globalization: the process by which the nations of the world become more interconnected
 
 ## Major factors leading to globalization
 

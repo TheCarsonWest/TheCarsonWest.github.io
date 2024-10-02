@@ -1,4 +1,4 @@
-## [Inheritance](./../inheritance/) in Python
+# Inheritance ## [Inheritance](./../inheritance/) in Python
 
 ### What is [Inheritance](./../inheritance/)?
  [Inheritance](./../inheritance/) is a fundamental concept in object-oriented programming that allows a new class (child class) to inherit properties and methods from an existing class (parent class). It enhances code reusability, reduces redundancy, and promotes the principles of "has-a" and "is-a" relationships between objects.

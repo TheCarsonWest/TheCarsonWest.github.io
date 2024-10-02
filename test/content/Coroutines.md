@@ -1,4 +1,4 @@
-## [Coroutines](./../coroutines/)
+# Coroutines ## [Coroutines](./../coroutines/)
 
 ### What are [Coroutines](./../coroutines/)?
  [Coroutines](./../coroutines/) are a special type of generator function in Python that allows for more flexible and efficient iteration over a sequence of values. Unlike regular generators, which only yield one value at a time, coroutines can yield multiple values and resume execution from the point where they left off when called again. This enables advanced control over the iteration and suspension of code execution.

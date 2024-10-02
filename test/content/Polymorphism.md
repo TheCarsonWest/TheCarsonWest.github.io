@@ -1,4 +1,4 @@
-## [Polymorphism](./../polymorphism/)
+# Polymorphism ## [Polymorphism](./../polymorphism/)
 
 ### What is [Polymorphism](./../polymorphism/)?
  [Polymorphism](./../polymorphism/) is a fundamental concept in object-oriented programming (OOP) that allows objects of different classes to be treated as the same type. It enables the code to interact with a common interface, regardless of the specific implementation or class of an object.

@@ -1,4 +1,4 @@
-## [Context Managers](./../context-managers/)
+# Context Managers ## [Context Managers](./../context-managers/)
 
 ### What are [Context Managers](./../context-managers/)?
 Context managers are a way to define a scope where certain resources are managed automatically. They are used to ensure that resources are properly acquired, used, and released, even in the presence of exceptions.

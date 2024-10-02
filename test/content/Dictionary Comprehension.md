@@ -1,4 +1,4 @@
-## Python [Dictionary Comprehension](./../dictionary-comprehension/)
+# Dictionary Comprehension ## Python [Dictionary Comprehension](./../dictionary-comprehension/)
 
 ### What is [Dictionary Comprehension](./../dictionary-comprehension/)?
 Dictionary comprehension is a concise syntax in Python that allows for the creation of dictionaries from iterable sequences. It provides a convenient way to generate dictionaries where the keys and values are derived from the input iterables.

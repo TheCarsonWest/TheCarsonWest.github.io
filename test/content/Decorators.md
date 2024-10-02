@@ -1,4 +1,4 @@
-## Python [Decorators](./../decorators/)
+# Decorators ## Python [Decorators](./../decorators/)
 
 ### Introduction
  [Decorators](./../decorators/) are a powerful feature of Python that allow you to enhance the behavior of functions, classes, and other objects. They provide a way to add functionality or modify the behavior of an existing object without modifying its source code.

@@ -1,4 +1,4 @@
-# Python [For Loops](./../for-loops/)
+# For Loops # Python [For Loops](./../for-loops/)
 
 ## What are [For Loops](./../for-loops/)?
 For loops are a control flow statement used to iterate over a sequence of items, such as a list, tuple, or string. They allow the execution of a code block for each element in the sequence.

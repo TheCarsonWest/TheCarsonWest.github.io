@@ -1,4 +1,4 @@
-## Continuous Integration or Continuous Deployment (CI or CD) with Python
+# Continuous Integration or Continuous Deployment (CI or CD) with Python ## Continuous Integration or Continuous Deployment (CI or CD) with Python
 
 ### What is it?
 CI or CD in Python refers to practices that automate the software development lifecycle, from code versioning to testing, building, and deployment. These practices aim to improve the efficiency and reliability of software delivery.

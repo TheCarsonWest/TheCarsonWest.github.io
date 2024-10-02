@@ -1,4 +1,4 @@
-## [NumPy Broadcasting](./../numpy-broadcasting/)
+# NumPy Broadcasting ## [NumPy Broadcasting](./../numpy-broadcasting/)
 
 ### What is Broadcasting?
 Broadcasting is a mechanism in NumPy that allows arrays of different shapes to perform operations as if they were of the same shape. It automatically aligns and replicates elements of arrays to facilitate element-wise calculations.

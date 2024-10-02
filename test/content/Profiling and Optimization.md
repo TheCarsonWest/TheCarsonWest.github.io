@@ -1,4 +1,4 @@
-## Python [Profiling and Optimization](./../profiling-and-optimization/)
+# Profiling and Optimization ## Python [Profiling and Optimization](./../profiling-and-optimization/)
 
 ### What is [Profiling and Optimization](./../profiling-and-optimization/)?
 Profiling is the process of measuring and analyzing the performance of a portion of code. Its goal is to identify areas where the code is spending the most time, memory, or other resources. Optimization is the process of improving the performance of a code by making it run faster or more efficiently.

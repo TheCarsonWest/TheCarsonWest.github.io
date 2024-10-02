@@ -1,4 +1,4 @@
-## Working with Databases (SQLAlchemy, SQLite, MySQL)
+# Working with Databases (SQLAlchemy, SQLite, MySQL) ## Working with Databases (SQLAlchemy, SQLite, MySQL)
 
 ### What is Working with Databases?
 Working with databases in Python involves using libraries and tools to establish connections with database management systems (DBMS) like SQLite, MySQL, or PostgreSQL. It allows Python programs to manipulate, retrieve, and manage data stored in these databases. SQLAlchemy is a popular Python object-relational mapping (ORM) library that simplifies the interaction with databases and makes it easier to perform common database operations.

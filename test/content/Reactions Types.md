@@ -1,6 +1,6 @@
 
 [APCHEM Home](./../apchem-home/)
-### [Double replacement reaction](./../double-replacement-reaction/)
+# Reactions Types ### [Double replacement reaction](./../double-replacement-reaction/)
 - [Titration](./../titration/)
 ### [Single Replacement reaction](./../single-replacement-reaction/)
 ### [Synthesis Reaction](./../synthesis-reaction/)

@@ -1,4 +1,4 @@
-## [Descriptors](./../descriptors/)
+# Descriptors ## [Descriptors](./../descriptors/)
 
 ### What are [Descriptors](./../descriptors/)?
  [Descriptors](./../descriptors/) are a mechanism in Python that provide a way to define custom behavior for object attributes. They allow attributes to be accessed, set, and deleted in a controlled manner, providing more flexibility and control over object properties.

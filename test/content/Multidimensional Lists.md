@@ -1,4 +1,4 @@
-## [Multidimensional [[Lists](./../multidimensional-[[lists/)
+# Multidimensional Lists ## [Multidimensional [[Lists](./../multidimensional-[[lists/)
 
 ### What are [Multidimensional [[Lists](./../multidimensional-[[lists/)?
 Multidimensional lists are data structures in Python that can store elements in multiple dimensions. They allow for the organization and representation of data with hierarchical structures. Unlike one-dimensional lists, which only have one level of elements, multidimensional lists have multiple levels or dimensions.

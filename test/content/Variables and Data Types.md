@@ -1,4 +1,4 @@
-## [Variables and Data Types](./../variables-and-data-types/)
+# Variables and Data Types ## [Variables and Data Types](./../variables-and-data-types/)
 
 ### What are [Variables and Data Types](./../variables-and-data-types/)?
 Variables in Python are containers that store data. Each variable is associated with a data type, which defines the type of data it can hold (e.g., integer, float, string, list, etc.).

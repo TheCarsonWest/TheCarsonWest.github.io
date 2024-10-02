@@ -1,4 +1,4 @@
-## Lambda [Functions](./../functions/)
+# Lambda Functions ## Lambda [Functions](./../functions/)
 
 ### Explanation
 Lambda functions in Python are small, anonymous functions that can be defined without using the `def` keyword. They are often used as inline functions when passing a function as an argument to another function or as a way to quickly define a simple function.

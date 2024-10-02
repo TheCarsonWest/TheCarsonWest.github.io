@@ -1,4 +1,4 @@
-## Higher-Order [Functions](./../functions/)
+# Higher-Order Functions ## Higher-Order [Functions](./../functions/)
 
 ### Explanation
 Higher-Order [Functions](./../functions/) (HOFs) are functions that can take other functions as arguments or return functions as their results. They allow for a powerful level of abstraction and code reuse by enabling the passing of behavior as data.

@@ -1,4 +1,4 @@
-## [Function Parameters](./../function-parameters/)
+# Function Parameters ## [Function Parameters](./../function-parameters/)
 
 ### Definition
 Function parameters are arguments that are passed into a function when it is called. They allow functions to receive data from the caller and use it within their execution.

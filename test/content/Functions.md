@@ -1,4 +1,4 @@
-# [Functions](./../functions/)
+# Functions # [Functions](./../functions/)
 
 ## What are [Functions](./../functions/)?
  [Functions](./../functions/) in Python are reusable blocks of code that are defined once and can be called multiple times. They encapsulate specific tasks or functionality and provide a way to organize and structure code, making it more maintainable and modular.

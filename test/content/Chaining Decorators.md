@@ -1,4 +1,4 @@
-# Chaining [Decorators](./../decorators/)
+# Chaining Decorators # Chaining [Decorators](./../decorators/)
 
 ## What are Chaining [Decorators](./../decorators/)?
 Chaining decorators is a technique in Python that allows multiple decorators to be applied to a single function or class. By chaining decorators, you can combine the functionalities of different decorators in a sequential manner, allowing you to enhance the behavior of the decorated function or class in a more modular and flexible way.

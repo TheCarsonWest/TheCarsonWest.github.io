@@ -1,4 +1,4 @@
-## [Time Series Analysis](./../time-series-analysis/)
+# Time Series Analysis ## [Time Series Analysis](./../time-series-analysis/)
 
 ### What is [Time Series Analysis](./../time-series-analysis/)?
 Time series analysis involves analyzing data collected at regular time intervals, known as time series data. The goal is to uncover patterns, trends, and dependencies within the data over time. It helps identify seasonality, detect outliers, forecast future values, and extract meaningful insights.

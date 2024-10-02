@@ -9,4 +9,4 @@
 * Established the precedent of compromise and negotiation in American politics.
 * Led to the creation of the Bank of the [United States](./../united-states/), which played a central role in the nation's economic development.
 * Strengthened the federal government and laid the foundation for a strong national economy.
-# [IDS Unit 3](./../ids-unit-3/)
+# Capital Compromise # [IDS Unit 3](./../ids-unit-3/)

@@ -16,5 +16,5 @@
 * Contributed to the growth of the slave trade.
 * Led to social inequalities and exploitation.
 * Established the racial hierarchy that later formed the basis for slavery in the Americas.
-#id
-#ids
+# Indentured Servitude #id
+# Indentured Servitude #ids

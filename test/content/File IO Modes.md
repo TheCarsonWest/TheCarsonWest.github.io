@@ -1,4 +1,4 @@
-## [File IO Modes](./../file-io-modes/)
+# File IO Modes ## [File IO Modes](./../file-io-modes/)
 
 ### Overview
 Python provides file handling modes to specify how the file is opened and how data is accessed. The mode specifies the usage of the file, such as reading, writing, or appending.

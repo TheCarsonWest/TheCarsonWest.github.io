@@ -1,4 +1,4 @@
-## [Custom Exceptions](./../custom-exceptions/)
+# Custom Exceptions ## [Custom Exceptions](./../custom-exceptions/)
 
 ### What are [Custom Exceptions](./../custom-exceptions/)?
 Custom exceptions are classes designed to handle specific errors or exceptional conditions encountered during program execution. They extend the built-in `Exception` class and allow developers to create specialized exceptions that can provide more context and tailored handling.

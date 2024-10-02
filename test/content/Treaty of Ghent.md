@@ -19,4 +19,4 @@
 * Made the US and Great Britain aware of each other's naval and military strength
 * Boosted American nationalism and patriotism
 * Settled the issue of impressment of American sailors by the British
-# [IDS Unit 3](./../ids-unit-3/)
+# Treaty of Ghent # [IDS Unit 3](./../ids-unit-3/)

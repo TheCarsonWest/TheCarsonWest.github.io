@@ -22,4 +22,4 @@
 * Resolved the issue of representation, allowing all states to participate in the new government
 * Strengthened the central government
 * Demonstrated the ability of the delegates to compromise and reach consensus
-# [IDS Unit 3](./../ids-unit-3/)
+# Great Compromise # [IDS Unit 3](./../ids-unit-3/)

@@ -14,4 +14,4 @@
 - Deprived aliens of their due process rights.
 - Suppressed freedom of speech and the press.
 - Led to the [Virginia](./../virginia/) and [Kentucky](./../kentucky/) Resolutions, which argued that the federal government had exceeded its constitutional powers.
-# [IDS Unit 3](./../ids-unit-3/)
+# Naturalization, Alien, and Sedition Acts # [IDS Unit 3](./../ids-unit-3/)

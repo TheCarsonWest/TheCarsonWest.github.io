@@ -1,4 +1,4 @@
-## [Type Hinting](./../type-hinting/)
+# Type Hinting ## [Type Hinting](./../type-hinting/)
 
 ### What is [Type Hinting](./../type-hinting/)?
 Type hinting is a feature of Python that allows developers to include type annotations in their code to specify the expected data types of variables, function parameters, and return values. It is a non-enforced form of type checking that helps improve code readability, consistency, and the potential to detect errors early on.

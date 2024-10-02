@@ -1,4 +1,4 @@
-## Method Resolution Order (MRO)
+# Method Resolution Order (MRO) ## Method Resolution Order (MRO)
 
 ### Explanation
 MRO in Python refers to the order in which methods are searched and inherited by subclasses. It determines which implementation of a method from a superclass will be used when a subclass has multiple possible implementations.

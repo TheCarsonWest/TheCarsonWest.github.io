@@ -17,4 +17,4 @@
 * Marked the peaceful transfer of power from one political party to another
 * Established the principle of popular sovereignty (voters determine the winner)
 * Contributed to the rise of the Democratic-Republican Party
-# [IDS Unit 3](./../ids-unit-3/)
+# Election of 1800 # [IDS Unit 3](./../ids-unit-3/)

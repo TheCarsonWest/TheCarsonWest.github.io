@@ -1,4 +1,4 @@
-## [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
+# Global and Nonlocal Variables ## [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
 
 ### What are [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)?
 Global variables are declared outside of any function and are accessible throughout the program. 

@@ -12,4 +12,4 @@
 * Advocated for a strong national bank and a uniform currency system
 * Laid the foundation for the federal fiscal system in the [United States](./../united-states/)
 * Contributed to the development of the American financial system and the strengthening of the federal government
-# [IDS Unit 3](./../ids-unit-3/)
+# Report on the Public Credit # [IDS Unit 3](./../ids-unit-3/)

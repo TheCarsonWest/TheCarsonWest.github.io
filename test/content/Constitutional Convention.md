@@ -18,4 +18,4 @@
 - Resulted in the creation of the [Constitution of the United States](./../constitution-of-the-united-states/), which established a new federal government with three branches
 - Strengthened the central government and established a system of checks and balances
 - Laid the foundation for the American political system and has served as the supreme law of the land for over 200 years
-# [IDS Unit 3](./../ids-unit-3/)
+# Constitutional Convention # [IDS Unit 3](./../ids-unit-3/)

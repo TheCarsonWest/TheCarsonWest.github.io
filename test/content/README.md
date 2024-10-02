@@ -1,4 +1,4 @@
-# My 24-25 Notes
+# README # My 24-25 Notes
 
 ## anyone can use these idc
 By June 2025 there will be a [full obsidian vault](https://obsidian.md/) for:

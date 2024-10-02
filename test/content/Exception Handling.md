@@ -1,4 +1,4 @@
-## [Exception Handling](./../exception-handling/)
+# Exception Handling ## [Exception Handling](./../exception-handling/)
 
 ### What is [Exception Handling](./../exception-handling/)?
 Exception handling is a crucial mechanism in Python that allows programmers to gracefully handle errors and exceptions that may occur during program execution. It enables the detection and handling of unexpected or exceptional conditions, preventing the program from crashing or terminating abruptly.

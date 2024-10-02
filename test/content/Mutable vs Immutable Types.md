@@ -1,4 +1,4 @@
-## [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+# Mutable vs Immutable Types ## [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 
 ### Explanation
 In Python, data types can be categorized as either mutable or immutable. Mutability refers to whether the value of a variable can be changed once it is created.

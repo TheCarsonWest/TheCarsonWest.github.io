@@ -1,4 +1,4 @@
-## [Bitwise [[Operators](./../bitwise-[[operators/)
+# Bitwise Operators ## [Bitwise [[Operators](./../bitwise-[[operators/)
 
 ### What are [Bitwise [[Operators](./../bitwise-[[operators/)?
 Bitwise operators perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.

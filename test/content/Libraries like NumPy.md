@@ -1,4 +1,4 @@
-## [Libraries like NumPy](./../libraries-like-numpy/)
+# Libraries like NumPy ## [Libraries like NumPy](./../libraries-like-numpy/)
 
 ### What is NumPy?
 NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of functions and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical functions for numerical computations.

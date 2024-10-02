@@ -1,4 +1,4 @@
-## [Recursion](./../recursion/)
+# Recursion ## [Recursion](./../recursion/)
 
 ### Explanation
  [Recursion](./../recursion/) is a programming technique where a function calls itself inside its own body. It is used to break down a problem into smaller subproblems, each of which is a simpler instance of the original problem.

@@ -1,4 +1,4 @@
-## [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
+# Web Scraping with BeautifulSoup ## [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
 
 ### What is [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)?
 Web scraping with BeautifulSoup is a technique to extract and parse data from web pages. BeautifulSoup is a Python library that specifically focuses on parsing HTML and XML documents, making it an efficient tool for web scraping.

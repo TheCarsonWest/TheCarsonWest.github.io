@@ -1,4 +1,4 @@
-## [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python
+# Multiple Inheritance ## [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python
 
 ### What is [Multiple [[Inheritance](./../multiple-[[inheritance/)?
 Multiple inheritance is a feature in Python that allows a class to inherit from multiple parent classes, inheriting their attributes and functionalities. It provides a way to combine functionalities from different classes into a single class.

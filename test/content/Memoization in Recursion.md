@@ -1,4 +1,4 @@
-## [Memoization in [[Recursion](./../memoization-in-[[recursion/)
+# Memoization in Recursion ## [Memoization in [[Recursion](./../memoization-in-[[recursion/)
 
 ### What is Memoization?
 Memoization is a technique used in recursion to optimize performance by storing the results of function calls in a cache. This prevents the function from recomputing the same values multiple times, resulting in significantly faster execution times.

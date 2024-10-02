@@ -1,4 +1,4 @@
-## Python Libraries Like Matplotlib
+# Libraries like Matplotlib ## Python Libraries Like Matplotlib
 
 ### What is Matplotlib?
 Matplotlib is a comprehensive Python library for creating static, animated, and interactive visualizations in 2D. It provides a wide range of features to create various types of plots, charts, and graphs, making it a powerful tool for data analysis, visualization, and presentation.

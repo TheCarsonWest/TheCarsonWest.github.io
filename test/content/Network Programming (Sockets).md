@@ -1,4 +1,4 @@
-## Network Programming (Sockets)
+# Network Programming (Sockets) ## Network Programming (Sockets)
 
 ### Overview
 Network programming in Python allows the development of applications that can communicate over a network. It involves creating sockets, which are endpoints that enable communication between two or more devices.

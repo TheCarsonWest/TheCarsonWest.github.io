@@ -1,4 +1,4 @@
-## [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
+# Automating Tasks with Selenium ## [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
 
 ### What is Selenium?
 Selenium is an open-source framework used for web automation. It allows developers to control a web browser like a real user, enabling automated testing and interaction with web applications.
