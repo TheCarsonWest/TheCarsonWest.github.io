@@ -17,7 +17,7 @@
 15. [Stamp Act](./../stamp-act/)
 16. [Sons of Liberty](./../sons-of-liberty/)
 17. [Townshend Act](./../townshend-act/) 
-18. [Letters from a Farmer in [[Pennsylvania](./../letters-from-a-farmer-in-[[pennsylvania/)
+18. [Letters from a Farmer in Pennsylvania](./../letters-from-a-farmer-in-pennsylvania/)
 19. [Committees of Correspondence](./../committees-of-correspondence/)
 20. [Boston Massacre](./../boston-massacre/)
 21. [Tea Act](./../tea-act/)

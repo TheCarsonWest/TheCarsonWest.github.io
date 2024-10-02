@@ -1,8 +1,7 @@
  [Glossary](./../glossary/)
 
 # [Arithmetic Density]
-# $$ Density = {People \over Area} $$
-### High Arithmetic countries:
+# $$ Density = {People \over Area} $$ ### High Arithmetic countries:
 - India
 - Japan
 - Netherlands
@@ -11,15 +10,13 @@
 
 
 # [Physiological Density]
-# $$ PhysDensity = {People \over Arable Land} $$
-### High Physiological Countries
+# $$ PhysDensity = {People \over Arable Land} $$ ### High Physiological Countries
 - Singapore(6 km$^2$ of arable land for 6m people)
 - Hong Kong
 - Most of the middle east
 - Bangladesh
 # [Agricultural Density]
-# $$Ag Density = {Farmers \over Arable Land} $$
-### Farmer Dense Countries
+# $$Ag Density = {Farmers \over Arable Land} $$ ### Farmer Dense Countries
 - Djibouti
 - Bangladesh
 - Vietnam
