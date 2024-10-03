@@ -6,7 +6,9 @@
  [Glossary](./../glossary/)
 
 # [Arithmetic Density]
-# $$ Density = {People \over Area} $$ ### High Arithmetic countries:
+# $$ Density = {People \over Area} $$ 
+
+### High Arithmetic countries:
 - India
 - Japan
 - Netherlands
