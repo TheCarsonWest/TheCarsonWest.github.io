@@ -1,5 +1,7 @@
 +++
  title = 'REST APIs with FastAPI'
+[params]
+	author = 'Carson West'
 +++
 ## [REST APIs with FastAPI](./../rest-apis-with-fastapi/)
 

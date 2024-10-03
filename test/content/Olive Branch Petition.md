@@ -8,5 +8,7 @@
  * Long-term: Documented grievances and American desire for self-government, shaping the narrative of the conflict and the eventual [Declaration of Independence](./../declaration-of-independence/).
 +++
  title = 'Olive Branch Petition'
+[params]
+	author = 'Carson West'
 +++
 #ids

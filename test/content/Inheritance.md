@@ -1,5 +1,7 @@
 +++
  title = 'Inheritance'
+[params]
+	author = 'Carson West'
 +++
 ## [Inheritance](./../inheritance/) in Python
 

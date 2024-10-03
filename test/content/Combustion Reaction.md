@@ -3,6 +3,8 @@ A **combustion reaction** is a chemical process where  a hydrocarbon) reacts rap
 
 +++
  title = 'Combustion Reaction'
+[params]
+	author = 'Carson West'
 +++
 #### General Form of a Combustion Reaction
 

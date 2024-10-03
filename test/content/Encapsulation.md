@@ -1,5 +1,7 @@
 +++
  title = 'Encapsulation'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Encapsulation](./../encapsulation/)
 

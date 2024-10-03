@@ -1,5 +1,7 @@
 +++
  title = 'Custom Exceptions'
+[params]
+	author = 'Carson West'
 +++
 ## [Custom Exceptions](./../custom-exceptions/)
 

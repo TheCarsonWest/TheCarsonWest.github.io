@@ -1,5 +1,7 @@
 +++
  title = 'Nested Loops'
+[params]
+	author = 'Carson West'
 +++
 ## [Nested Loops](./../nested-loops/)
 

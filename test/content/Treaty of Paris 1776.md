@@ -14,5 +14,7 @@
  [IDs unit 2](./../ids-unit-2/)
 +++
  title = 'Treaty of Paris 1776'
+[params]
+	author = 'Carson West'
 +++
 #ids

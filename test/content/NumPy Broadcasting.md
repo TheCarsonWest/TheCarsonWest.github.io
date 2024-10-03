@@ -1,5 +1,7 @@
 +++
  title = 'NumPy Broadcasting'
+[params]
+	author = 'Carson West'
 +++
 ## [NumPy Broadcasting](./../numpy-broadcasting/)
 

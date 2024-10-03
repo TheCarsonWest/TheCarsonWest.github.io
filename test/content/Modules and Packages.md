@@ -1,5 +1,7 @@
 +++
  title = 'Modules and Packages'
+[params]
+	author = 'Carson West'
 +++
 ## [Modules and Packages](./../modules-and-packages/)
 

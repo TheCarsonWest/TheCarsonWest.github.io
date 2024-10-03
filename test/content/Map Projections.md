@@ -1,5 +1,7 @@
 +++
  title = 'Map Projections'
+[params]
+	author = 'Carson West'
 +++
 # [APHG Home](./../aphg-home/)
 

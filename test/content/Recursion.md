@@ -1,5 +1,7 @@
 +++
  title = 'Recursion'
+[params]
+	author = 'Carson West'
 +++
 ## [Recursion](./../recursion/)
 

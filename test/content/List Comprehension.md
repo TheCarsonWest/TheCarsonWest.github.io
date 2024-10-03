@@ -1,5 +1,7 @@
 +++
  title = 'List Comprehension'
+[params]
+	author = 'Carson West'
 +++
 ## [List Comprehension](./../list-comprehension/)
 

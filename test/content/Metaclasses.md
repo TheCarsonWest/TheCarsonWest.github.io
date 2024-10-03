@@ -1,5 +1,7 @@
 +++
  title = 'Metaclasses'
+[params]
+	author = 'Carson West'
 +++
 ## [Metaclasses](./../metaclasses/)
 

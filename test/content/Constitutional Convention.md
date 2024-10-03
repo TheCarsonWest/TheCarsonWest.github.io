@@ -20,5 +20,7 @@
 - Laid the foundation for the American political system and has served as the supreme law of the land for over 200 years
 +++
  title = 'Constitutional Convention'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

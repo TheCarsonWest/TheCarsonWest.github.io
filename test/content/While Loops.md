@@ -1,5 +1,7 @@
 +++
  title = 'While Loops'
+[params]
+	author = 'Carson West'
 +++
 ## [While Loops](./../while-loops/)
 

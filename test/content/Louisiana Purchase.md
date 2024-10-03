@@ -15,5 +15,7 @@
 * Strengthened the [United States](./../united-states/) as a world power.
 +++
  title = 'Louisiana Purchase'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

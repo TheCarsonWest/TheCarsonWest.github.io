@@ -22,5 +22,7 @@
  * Shaped ideas of individual rights, freedom, and progress
 +++
  title = 'Enlightenment'
+[params]
+	author = 'Carson West'
 +++
 #ids

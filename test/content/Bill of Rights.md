@@ -10,5 +10,7 @@
 * Established the foundations of American civil liberties.
 +++
  title = 'Bill of Rights'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

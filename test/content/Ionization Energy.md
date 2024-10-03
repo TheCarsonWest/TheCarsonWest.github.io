@@ -1,5 +1,7 @@
 +++
  title = 'Ionization Energy'
+[params]
+	author = 'Carson West'
 +++
 # [Periodic Trends](./../periodic-trends/)
 

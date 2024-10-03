@@ -8,5 +8,7 @@
  * Established the [United States](./../united-states/) of America as an independent nation
 +++
  title = 'Lee’s Resolution'
+[params]
+	author = 'Carson West'
 +++
 #ids

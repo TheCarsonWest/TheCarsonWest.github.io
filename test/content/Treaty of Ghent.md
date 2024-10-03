@@ -21,5 +21,7 @@
 * Settled the issue of impressment of American sailors by the British
 +++
  title = 'Treaty of Ghent'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

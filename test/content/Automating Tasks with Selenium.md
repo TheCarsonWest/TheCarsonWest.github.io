@@ -1,5 +1,7 @@
 +++
  title = 'Automating Tasks with Selenium'
+[params]
+	author = 'Carson West'
 +++
 ## [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
 

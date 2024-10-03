@@ -1,5 +1,7 @@
 +++
  title = 'Aufbau Principle'
+[params]
+	author = 'Carson West'
 +++
 # [Laws](./../laws/)
 ![Pasted image 20240909094606.png](./../pasted-image-20240909094606.png/)

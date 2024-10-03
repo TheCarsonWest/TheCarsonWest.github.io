@@ -16,5 +16,7 @@
 * **Westward Expansion:** The [Panic of 1819](./../panic-of-1819/) discouraged westward expansion by making land less valuable.
 +++
  title = 'Panic of 1819'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

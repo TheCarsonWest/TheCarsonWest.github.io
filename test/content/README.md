@@ -1,5 +1,7 @@
 +++
  title = 'README'
+[params]
+	author = 'Carson West'
 +++
 # My 24-25 Notes
 # Start at [nexus](./../nexus/)

@@ -1,5 +1,7 @@
 +++
  title = 'Creating GUI Applications with Tkinter or PyQt'
+[params]
+	author = 'Carson West'
 +++
 ## [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/)
 

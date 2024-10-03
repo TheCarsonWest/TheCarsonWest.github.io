@@ -1,5 +1,7 @@
 +++
  title = 'Libraries like NumPy'
+[params]
+	author = 'Carson West'
 +++
 ## [Libraries like NumPy](./../libraries-like-numpy/)
 

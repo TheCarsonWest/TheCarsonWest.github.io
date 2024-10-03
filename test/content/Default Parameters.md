@@ -1,5 +1,7 @@
 +++
  title = 'Default Parameters'
+[params]
+	author = 'Carson West'
 +++
 ## [Default Parameters](./../default-parameters/)
 

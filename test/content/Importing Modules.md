@@ -1,5 +1,7 @@
 +++
  title = 'Importing Modules'
+[params]
+	author = 'Carson West'
 +++
 ## [Importing Modules](./../importing-modules/)
 

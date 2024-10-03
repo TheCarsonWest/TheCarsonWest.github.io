@@ -1,5 +1,7 @@
 +++
  title = 'Lambda Functions'
+[params]
+	author = 'Carson West'
 +++
 ## Lambda [Functions](./../functions/)
 

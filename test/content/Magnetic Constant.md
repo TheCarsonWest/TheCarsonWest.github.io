@@ -1,5 +1,7 @@
 +++
  title = 'Magnetic Constant'
+[params]
+	author = 'Carson West'
 +++
 # 4π × 10-7 H/m
 ![Screenshot 2024-09-06 at 10.24.03 AM.png](./../screenshot-2024-09-06-at-10.24.03-am.png/)

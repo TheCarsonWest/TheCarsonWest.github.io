@@ -1,5 +1,7 @@
 +++
  title = 'Global and Nonlocal Variables'
+[params]
+	author = 'Carson West'
 +++
 ## [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
 

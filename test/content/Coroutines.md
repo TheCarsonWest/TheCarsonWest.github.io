@@ -1,5 +1,7 @@
 +++
  title = 'Coroutines'
+[params]
+	author = 'Carson West'
 +++
 ## [Coroutines](./../coroutines/)
 

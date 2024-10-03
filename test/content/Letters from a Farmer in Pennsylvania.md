@@ -14,5 +14,7 @@ location: 40.9699889,-77.7278831
 * **Long-term:** Helped shape American ideas of liberty, self-determination, and constitutionalism. Played a role in mobilizing public opinion in favor of independence during the American Revolution.
 +++
  title = 'Letters from a Farmer in Pennsylvania'
+[params]
+	author = 'Carson West'
 +++
 #ids

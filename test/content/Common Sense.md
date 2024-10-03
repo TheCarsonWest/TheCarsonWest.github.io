@@ -17,5 +17,7 @@
 * Became one of the most influential political tracts in American history.
 +++
  title = 'Common Sense'
+[params]
+	author = 'Carson West'
 +++
 #ids

@@ -1,5 +1,7 @@
 +++
  title = 'APCHEM Home'
+[params]
+	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
 

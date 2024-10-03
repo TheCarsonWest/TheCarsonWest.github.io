@@ -1,5 +1,7 @@
 +++
  title = 'Variables and Data Types'
+[params]
+	author = 'Carson West'
 +++
 ## [Variables and Data Types](./../variables-and-data-types/)
 

@@ -2,6 +2,8 @@
 
 +++
  title = 'Population Density'
+[params]
+	author = 'Carson West'
 +++
 # [Arithmetic Density]
 # $$ Density = {People \over Area} $$ ### High Arithmetic countries:

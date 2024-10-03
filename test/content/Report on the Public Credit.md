@@ -14,5 +14,7 @@
 * Contributed to the development of the American financial system and the strengthening of the federal government
 +++
  title = 'Report on the Public Credit'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

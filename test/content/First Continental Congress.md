@@ -15,5 +15,7 @@
  * Established the precedent for inter-colonial cooperation
 +++
  title = 'First Continental Congress'
+[params]
+	author = 'Carson West'
 +++
 #ids

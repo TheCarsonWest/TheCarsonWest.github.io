@@ -1,5 +1,7 @@
 +++
  title = 'Bitwise Operators'
+[params]
+	author = 'Carson West'
 +++
 ## [Bitwise [[Operators](./../bitwise-[[operators/)
 

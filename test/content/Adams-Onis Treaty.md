@@ -14,5 +14,7 @@
 * Set the stage for the eventual annexation of [Texas](./../texas/)
 +++
  title = 'Adams-Onis Treaty'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

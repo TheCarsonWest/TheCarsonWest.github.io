@@ -3,6 +3,8 @@ Molarity is a measure of the concentration of a solution, defined as the number 
 
 +++
  title = 'molarity'
+[params]
+	author = 'Carson West'
 +++
 ### **Calculating Molarity**
 

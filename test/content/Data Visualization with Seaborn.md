@@ -1,5 +1,7 @@
 +++
  title = 'Data Visualization with Seaborn'
+[params]
+	author = 'Carson West'
 +++
 ## [Data Visualization with Seaborn](./../data-visualization-with-seaborn/)
 

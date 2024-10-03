@@ -18,5 +18,7 @@
 * Demonstrated the fragility of American neutrality in global affairs.
 +++
  title = 'XYZ Affair'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

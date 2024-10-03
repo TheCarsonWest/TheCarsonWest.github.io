@@ -18,5 +18,7 @@
 * Strengthened the federal government and national unity
 +++
  title = 'Judiciary Act'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

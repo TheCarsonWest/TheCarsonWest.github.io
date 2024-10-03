@@ -1,5 +1,7 @@
 +++
  title = 'Montana'
+[params]
+	author = 'Carson West'
 +++
 ## [Montana](./../montana/)'s Role in U.S. History
 

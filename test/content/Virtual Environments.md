@@ -1,5 +1,7 @@
 +++
  title = 'Virtual Environments'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Virtual Environments](./../virtual-environments/)
 

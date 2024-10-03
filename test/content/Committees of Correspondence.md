@@ -20,5 +20,7 @@
 * Provided a foundation for the future [United States](./../united-states/) Congress
 +++
  title = 'Committees of Correspondence'
+[params]
+	author = 'Carson West'
 +++
 #ids

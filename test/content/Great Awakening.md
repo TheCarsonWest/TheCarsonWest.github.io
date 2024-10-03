@@ -12,5 +12,7 @@
  * Influenced the abolitionist movement and other social reform efforts
 +++
  title = 'Great Awakening'
+[params]
+	author = 'Carson West'
 +++
 #ids

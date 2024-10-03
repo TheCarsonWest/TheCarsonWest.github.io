@@ -1,5 +1,7 @@
 +++
  title = 'Descriptors'
+[params]
+	author = 'Carson West'
 +++
 ## [Descriptors](./../descriptors/)
 

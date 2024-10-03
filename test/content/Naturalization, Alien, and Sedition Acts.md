@@ -16,5 +16,7 @@
 - Led to the [Virginia](./../virginia/) and [Kentucky](./../kentucky/) Resolutions, which argued that the federal government had exceeded its constitutional powers.
 +++
  title = 'Naturalization, Alien, and Sedition Acts'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

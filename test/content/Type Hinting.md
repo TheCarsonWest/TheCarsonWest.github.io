@@ -1,5 +1,7 @@
 +++
  title = 'Type Hinting'
+[params]
+	author = 'Carson West'
 +++
 ## [Type Hinting](./../type-hinting/)
 

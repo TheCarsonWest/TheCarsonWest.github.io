@@ -20,5 +20,7 @@
 * Weakened British control over the colonies and contributed to their eventual defeat in the war
 +++
  title = 'Battle of Saratoga'
+[params]
+	author = 'Carson West'
 +++
 #ids

@@ -1,5 +1,7 @@
 +++
  title = 'Memoization in Recursion'
+[params]
+	author = 'Carson West'
 +++
 ## [Memoization in [[Recursion](./../memoization-in-[[recursion/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'Sets'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Sets](./../sets/)
 

@@ -23,5 +23,7 @@
 * Set the stage for westward expansion and industrialization
 +++
  title = 'Era of Good Feelings'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

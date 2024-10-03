@@ -1,5 +1,7 @@
 +++
  title = 'Web Scraping with BeautifulSoup'
+[params]
+	author = 'Carson West'
 +++
 ## [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
 

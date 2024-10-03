@@ -4,6 +4,8 @@
 **General Equation:**
 +++
  title = 'Synthesis Reaction'
+[params]
+	author = 'Carson West'
 +++
 # $$ A + B → C $$ **Types of Synthesis Reactions:**
 

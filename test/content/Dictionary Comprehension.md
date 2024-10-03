@@ -1,5 +1,7 @@
 +++
  title = 'Dictionary Comprehension'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Dictionary Comprehension](./../dictionary-comprehension/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'APHG Home'
+[params]
+	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
 

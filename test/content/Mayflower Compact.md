@@ -21,5 +21,7 @@ location: 42.3788774,-72.032366
 * Contributed to the growth of democracy and representative government in the [United States](./../united-states/)
 +++
  title = 'Mayflower Compact'
+[params]
+	author = 'Carson West'
 +++
 #ids

@@ -1,5 +1,7 @@
 +++
  title = 'Multidimensional Lists'
+[params]
+	author = 'Carson West'
 +++
 ## [Multidimensional [[Lists](./../multidimensional-[[lists/)
 

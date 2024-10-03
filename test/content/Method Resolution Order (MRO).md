@@ -1,5 +1,7 @@
 +++
  title = 'Method Resolution Order (MRO)'
+[params]
+	author = 'Carson West'
 +++
 ## Method Resolution Order (MRO)
 

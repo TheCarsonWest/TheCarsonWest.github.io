@@ -15,5 +15,7 @@
 * **Set a precedent for presidential departing addresses:** Established a tradition of presidents giving farewell addresses before leaving office.
 +++
  title = 'George Washington’s Farewell Address'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

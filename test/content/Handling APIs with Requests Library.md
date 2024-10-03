@@ -1,5 +1,7 @@
 +++
  title = 'Handling APIs with Requests Library'
+[params]
+	author = 'Carson West'
 +++
 ## [Handling APIs with Requests Library](./../handling-apis-with-requests-library/)
 

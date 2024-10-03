@@ -1,5 +1,7 @@
 +++
  title = 'Multiple Inheritance'
+[params]
+	author = 'Carson West'
 +++
 ## [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python
 

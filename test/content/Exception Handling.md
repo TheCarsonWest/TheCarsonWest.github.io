@@ -1,5 +1,7 @@
 +++
  title = 'Exception Handling'
+[params]
+	author = 'Carson West'
 +++
 ## [Exception Handling](./../exception-handling/)
 

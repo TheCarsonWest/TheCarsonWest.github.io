@@ -1,5 +1,7 @@
 +++
  title = 'Operators'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Operators](./../operators/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'Lists'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Lists](./../lists/)
 

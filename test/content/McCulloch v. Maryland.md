@@ -21,5 +21,7 @@
 * It also strengthened the federal government's power over the states by establishing the supremacy of federal law over state laws.
 +++
  title = 'McCulloch v. Maryland'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

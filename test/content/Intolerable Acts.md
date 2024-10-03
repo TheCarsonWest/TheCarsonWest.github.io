@@ -19,5 +19,7 @@ location: 51.5074456,-0.1277653
  [IDs unit 2](./../ids-unit-2/)
 +++
  title = 'Intolerable Acts'
+[params]
+	author = 'Carson West'
 +++
 #ids

@@ -19,5 +19,7 @@ location: 51.5074456,-0.1277653
 * Long-term: Exacerbated tensions between Great Britain and the colonies, contributing to the American Revolution
 +++
  title = 'Tea Act'
+[params]
+	author = 'Carson West'
 +++
 #ids

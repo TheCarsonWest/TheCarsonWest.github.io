@@ -18,5 +18,7 @@
 * Its principles continue to shape economic debates and policies today
 +++
  title = 'The Wealth of Nations'
+[params]
+	author = 'Carson West'
 +++
 #ids

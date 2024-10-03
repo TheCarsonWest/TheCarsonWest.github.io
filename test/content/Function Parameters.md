@@ -1,5 +1,7 @@
 +++
  title = 'Function Parameters'
+[params]
+	author = 'Carson West'
 +++
 ## [Function Parameters](./../function-parameters/)
 

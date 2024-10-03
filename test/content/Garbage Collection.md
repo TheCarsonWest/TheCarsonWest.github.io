@@ -1,5 +1,7 @@
 +++
  title = 'Garbage Collection'
+[params]
+	author = 'Carson West'
 +++
 ## [Garbage Collection](./../garbage-collection/)
 

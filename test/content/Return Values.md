@@ -1,5 +1,7 @@
 +++
  title = 'Return Values'
+[params]
+	author = 'Carson West'
 +++
 ## [Return Values](./../return-values/)
 

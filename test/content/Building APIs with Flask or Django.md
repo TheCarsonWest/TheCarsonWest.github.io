@@ -1,5 +1,7 @@
 +++
  title = 'Building APIs with Flask or Django'
+[params]
+	author = 'Carson West'
 +++
 ## [Building APIs with Flask or Django](./../building-apis-with-flask-or-django/)
 

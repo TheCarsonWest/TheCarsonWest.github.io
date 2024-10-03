@@ -1,5 +1,7 @@
 +++
  title = 'Generators'
+[params]
+	author = 'Carson West'
 +++
 ## [Generators](./../generators/)
 

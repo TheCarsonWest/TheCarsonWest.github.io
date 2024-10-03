@@ -1,5 +1,7 @@
 +++
  title = 'Natural Language Processing with NLTK or Spacy'
+[params]
+	author = 'Carson West'
 +++
 ## [Natural Language Processing with NLTK or Spacy](./../natural-language-processing-with-nltk-or-spacy/)
 

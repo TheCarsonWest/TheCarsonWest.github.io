@@ -19,5 +19,7 @@
 * Contributed to the rise of the Democratic-Republican Party
 +++
  title = 'Election of 1800'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

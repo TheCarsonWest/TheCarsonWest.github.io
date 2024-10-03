@@ -11,5 +11,7 @@
 * Strengthened the federal government and laid the foundation for a strong national economy.
 +++
  title = 'Capital Compromise'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

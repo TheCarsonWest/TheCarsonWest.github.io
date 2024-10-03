@@ -20,5 +20,7 @@
 * Contributed to the development of the system of checks and balances.
 +++
  title = 'Marbury vs. Madison'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

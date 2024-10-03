@@ -22,5 +22,7 @@ location: 37.1232245,-78.4927721
  * Contributed to the American Revolution by demonstrating the willingness of colonists to challenge British authority.
 +++
  title = 'Bacon’s Rebellion'
+[params]
+	author = 'Carson West'
 +++
 #ids

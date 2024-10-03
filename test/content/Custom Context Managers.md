@@ -1,5 +1,7 @@
 +++
  title = 'Custom Context Managers'
+[params]
+	author = 'Carson West'
 +++
 ## [Custom [[Context Managers](./../custom-[[context-managers/)
 

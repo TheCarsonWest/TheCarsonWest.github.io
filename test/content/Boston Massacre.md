@@ -18,5 +18,7 @@ location: 42.3554334,-71.060511
 * Long-term: Contributed to growing resentment against British authority and played a role in the American Revolution.
 +++
  title = 'Boston Massacre'
+[params]
+	author = 'Carson West'
 +++
 #ids

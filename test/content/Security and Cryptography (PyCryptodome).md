@@ -1,5 +1,7 @@
 +++
  title = 'Security and Cryptography (PyCryptodome)'
+[params]
+	author = 'Carson West'
 +++
 ## Security and Cryptography (PyCryptodome)
 

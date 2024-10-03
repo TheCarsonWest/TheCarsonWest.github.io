@@ -17,5 +17,7 @@
 - **Opposition from Democratic-Republicans:** Many Democratic-Republicans, led by [Thomas Jefferson](./../thomas-jefferson/), opposed the treaty, arguing that it was too favorable to Great Britain.
 +++
  title = 'Jay’s Treaty'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

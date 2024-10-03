@@ -18,5 +18,7 @@ location: 44.2057083,-70.75378387447887
  * Exacerbated tensions between colonists and indigenous communities
 +++
  title = 'Pequot War'
+[params]
+	author = 'Carson West'
 +++
 #ids

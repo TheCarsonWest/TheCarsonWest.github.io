@@ -2,6 +2,8 @@
 [APCHEM Home](./../apchem-home/)
 +++
  title = 'Reactions Types'
+[params]
+	author = 'Carson West'
 +++
 ### [Double replacement reaction](./../double-replacement-reaction/)
 - [Titration](./../titration/)

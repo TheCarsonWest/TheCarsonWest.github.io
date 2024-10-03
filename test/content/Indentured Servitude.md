@@ -18,9 +18,13 @@
 * Established the racial hierarchy that later formed the basis for slavery in the Americas.
 +++
  title = 'Indentured Servitude'
+[params]
+	author = 'Carson West'
 +++
 #id
 +++
  title = 'Indentured Servitude'
+[params]
+	author = 'Carson West'
 +++
 #ids

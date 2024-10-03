@@ -1,5 +1,7 @@
 +++
  title = 'Data Serialization (JSON, XML, Pickle)'
+[params]
+	author = 'Carson West'
 +++
 ## Data Serialization
 

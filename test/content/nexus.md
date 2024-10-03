@@ -1,5 +1,7 @@
 +++
  title = 'nexus'
+[params]
+	author = 'Carson West'
 +++
 # See [README](./../readme/)
 

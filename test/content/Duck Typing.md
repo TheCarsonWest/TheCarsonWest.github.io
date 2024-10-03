@@ -1,5 +1,7 @@
 +++
  title = 'Duck Typing'
+[params]
+	author = 'Carson West'
 +++
 ## [Duck Typing](./../duck-typing/)
 

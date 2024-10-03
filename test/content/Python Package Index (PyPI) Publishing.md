@@ -1,5 +1,7 @@
 +++
  title = 'Python Package Index (PyPI) Publishing'
+[params]
+	author = 'Carson West'
 +++
 ## Python Package Index (PyPI) Publishing
 

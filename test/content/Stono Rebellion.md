@@ -10,5 +10,7 @@
  [IDs unit 2](./../ids-unit-2/)
 +++
  title = 'Stono Rebellion'
+[params]
+	author = 'Carson West'
 +++
 #ids

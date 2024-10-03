@@ -1,5 +1,7 @@
 +++
  title = 'Handling Binary Files'
+[params]
+	author = 'Carson West'
 +++
 ## [Handling Binary Files](./../handling-binary-files/) in Python
 

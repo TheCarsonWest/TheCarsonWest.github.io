@@ -1,5 +1,7 @@
 +++
  title = 'Handling Large Datasets with Dask'
+[params]
+	author = 'Carson West'
 +++
 ## [Handling Large Datasets with Dask](./../handling-large-datasets-with-dask/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'Thread Safety'
+[params]
+	author = 'Carson West'
 +++
 ## [Thread Safety](./../thread-safety/)
 

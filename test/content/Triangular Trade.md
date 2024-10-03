@@ -17,5 +17,7 @@
  * Contributed to racial discrimination and ongoing racial disparities
 +++
  title = 'Triangular Trade'
+[params]
+	author = 'Carson West'
 +++
 #ids

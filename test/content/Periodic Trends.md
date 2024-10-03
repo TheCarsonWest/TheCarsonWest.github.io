@@ -1,5 +1,7 @@
 +++
  title = 'Periodic Trends'
+[params]
+	author = 'Carson West'
 +++
 # [APCHEM Home](./../apchem-home/)
 

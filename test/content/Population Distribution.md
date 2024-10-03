@@ -1,6 +1,8 @@
  [APHG Unit 1](./../aphg-unit-1/)
 +++
  title = 'Population Distribution'
+[params]
+	author = 'Carson West'
 +++
 ### Population distribution is the pattern of human settlement – the spread of people across the earth.
 

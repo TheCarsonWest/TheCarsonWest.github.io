@@ -1,6 +1,8 @@
  [ESPN](./../espn/)
 +++
  title = 'ESPN Example'
+[params]
+	author = 'Carson West'
 +++
 ## E   = Economics (money, currency, trading, etc.)
 

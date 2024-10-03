@@ -1,6 +1,8 @@
 [APHG Home](./../aphg-home/)
 +++
  title = 'Reality of our world'
+[params]
+	author = 'Carson West'
 +++
 ## Africa
 there are cell phones in africa no way

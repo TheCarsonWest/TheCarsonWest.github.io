@@ -1,5 +1,7 @@
 +++
  title = 'Abstract Classes'
+[params]
+	author = 'Carson West'
 +++
 ## [Abstract Classes](./../abstract-classes/)
 

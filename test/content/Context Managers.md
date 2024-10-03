@@ -1,5 +1,7 @@
 +++
  title = 'Context Managers'
+[params]
+	author = 'Carson West'
 +++
 ## [Context Managers](./../context-managers/)
 

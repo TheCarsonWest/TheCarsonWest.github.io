@@ -11,5 +11,7 @@ location: 51.5074456,-0.1277653
 
 +++
  title = 'Townshend Act'
+[params]
+	author = 'Carson West'
 +++
 #ids

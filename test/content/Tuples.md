@@ -1,5 +1,7 @@
 +++
  title = 'Tuples'
+[params]
+	author = 'Carson West'
 +++
 ## [Tuples](./../tuples/)
 

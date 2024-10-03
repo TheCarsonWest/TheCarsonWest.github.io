@@ -1,5 +1,7 @@
 +++
  title = 'Map, Filter, and Reduce'
+[params]
+	author = 'Carson West'
 +++
 ## [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'Dynamic Importing'
+[params]
+	author = 'Carson West'
 +++
 ## [Dynamic Importing](./../dynamic-importing/)
 

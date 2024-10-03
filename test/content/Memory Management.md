@@ -1,5 +1,7 @@
 +++
  title = 'Memory Management'
+[params]
+	author = 'Carson West'
 +++
 ## [Memory Management](./../memory-management/)
 

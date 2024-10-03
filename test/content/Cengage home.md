@@ -1,5 +1,7 @@
 +++
  title = 'Cengage home'
+[params]
+	author = 'Carson West'
 +++
 # [APHG Home](./../aphg-home/)
 

@@ -1,5 +1,7 @@
 +++
  title = 'Frozen Sets'
+[params]
+	author = 'Carson West'
 +++
 ## [Frozen [[Sets](./../frozen-[[sets/)
 

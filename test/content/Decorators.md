@@ -1,5 +1,7 @@
 +++
  title = 'Decorators'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Decorators](./../decorators/)
 

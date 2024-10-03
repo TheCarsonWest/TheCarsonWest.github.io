@@ -18,5 +18,7 @@ location: 51.5074456,-0.1277653
 * Contributed to the growing movement for American independence
 +++
  title = 'Sugar Act'
+[params]
+	author = 'Carson West'
 +++
 #ids

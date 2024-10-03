@@ -9,5 +9,7 @@
 **IMPACT:** The [Treaty of Greenville](./../treaty-of-greenville/) significantly expanded the territory of the [United States](./../united-states/) and paved the way for the westward expansion of American settlers. It also established a precedent for the [United States](./../united-states/) to negotiate treaties with Native American tribes to acquire their land. The treaty was criticized by some Native American leaders, who argued that it was unfair and forced them to give up too much land. However, it was generally seen as a peaceful and necessary settlement that helped to avoid further conflict.
 +++
  title = 'Treaty of Greenville'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

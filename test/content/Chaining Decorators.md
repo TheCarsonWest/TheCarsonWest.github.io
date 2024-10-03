@@ -1,5 +1,7 @@
 +++
  title = 'Chaining Decorators'
+[params]
+	author = 'Carson West'
 +++
 # Chaining [Decorators](./../decorators/)
 

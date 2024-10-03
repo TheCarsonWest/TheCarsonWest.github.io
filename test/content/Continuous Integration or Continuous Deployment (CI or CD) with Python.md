@@ -1,5 +1,7 @@
 +++
  title = 'Continuous Integration or Continuous Deployment (CI or CD) with Python'
+[params]
+	author = 'Carson West'
 +++
 ## Continuous Integration or Continuous Deployment (CI or CD) with Python
 

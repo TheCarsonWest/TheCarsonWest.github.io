@@ -1,5 +1,7 @@
 +++
  title = 'Multiprocessing'
+[params]
+	author = 'Carson West'
 +++
 ## [Multiprocessing](./../multiprocessing/) in Python
 

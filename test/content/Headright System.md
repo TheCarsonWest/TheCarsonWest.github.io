@@ -14,9 +14,13 @@
 * Conflict with Native Americans over land ownership
 +++
  title = 'Headright System'
+[params]
+	author = 'Carson West'
 +++
 #id
 +++
  title = 'Headright System'
+[params]
+	author = 'Carson West'
 +++
 #ids

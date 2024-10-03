@@ -12,5 +12,7 @@ Impact:
 -- Long-term: foreshadowed the American victory in the Revolutionary War
 +++
  title = 'Battle of Bunker Hill'
+[params]
+	author = 'Carson West'
 +++
 #ids

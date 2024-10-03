@@ -1,5 +1,7 @@
 +++
  title = 'Profiling and Optimization'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Profiling and Optimization](./../profiling-and-optimization/)
 

@@ -5,6 +5,8 @@ location: 37.2089184,-76.7783003
 **Notecard**
 +++
  title = 'House of Burgesses'
+[params]
+	author = 'Carson West'
 +++
 #id
 
@@ -27,5 +29,7 @@ location: 37.2089184,-76.7783003
 * **Long-term:** Inspired the development of colonial legislatures throughout the Americas and served as a model for the [United States](./../united-states/) Congress
 +++
  title = 'House of Burgesses'
+[params]
+	author = 'Carson West'
 +++
 #ids

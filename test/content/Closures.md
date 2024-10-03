@@ -1,5 +1,7 @@
 +++
  title = 'Closures'
+[params]
+	author = 'Carson West'
 +++
 ## [Closures](./../closures/)
 

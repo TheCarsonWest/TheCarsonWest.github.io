@@ -1,5 +1,7 @@
 +++
  title = 'Electrical constant'
+[params]
+	author = 'Carson West'
 +++
 # 8.85418782 × 10-12 m-3 kg$^-1$ s$^4$  A$^2$
 

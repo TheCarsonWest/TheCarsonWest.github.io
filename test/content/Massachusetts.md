@@ -1,5 +1,7 @@
 +++
  title = 'Massachusetts'
+[params]
+	author = 'Carson West'
 +++
 ## [Massachusetts](./../massachusetts/) in [United States](./../united-states/) History
 

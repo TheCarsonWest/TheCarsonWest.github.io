@@ -1,5 +1,7 @@
 +++
  title = 'Nested If Statements'
+[params]
+	author = 'Carson West'
 +++
 ## [Nested If Statements](./../nested-if-statements/)
 

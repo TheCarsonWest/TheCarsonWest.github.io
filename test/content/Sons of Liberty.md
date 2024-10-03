@@ -13,5 +13,7 @@ location: 44.2057083,-70.75378387447887
 * Long-term: Contribution to the American Revolution by fostering a sense of unity and defiance against British rule
 +++
  title = 'Sons of Liberty'
+[params]
+	author = 'Carson West'
 +++
 #ids

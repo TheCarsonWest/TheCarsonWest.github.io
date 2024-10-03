@@ -2,6 +2,8 @@
 
 +++
  title = 'ESPN'
+[params]
+	author = 'Carson West'
 +++
 # [ESPN](./../espn/): List of consequences
 ## E   = Economics (money, currency, trading, etc.)

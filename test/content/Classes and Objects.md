@@ -1,5 +1,7 @@
 +++
  title = 'Classes and Objects'
+[params]
+	author = 'Carson West'
 +++
 ## [Classes and Objects](./../classes-and-objects/)
 

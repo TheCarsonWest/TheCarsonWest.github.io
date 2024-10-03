@@ -1,5 +1,7 @@
 +++
  title = 'DataFrames in Pandas'
+[params]
+	author = 'Carson West'
 +++
 ## [DataFrames in Pandas](./../dataframes-in-pandas/)
 

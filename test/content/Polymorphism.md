@@ -1,5 +1,7 @@
 +++
  title = 'Polymorphism'
+[params]
+	author = 'Carson West'
 +++
 ## [Polymorphism](./../polymorphism/)
 

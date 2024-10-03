@@ -24,5 +24,7 @@
 * Demonstrated the ability of the delegates to compromise and reach consensus
 +++
  title = 'Great Compromise'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

@@ -1,5 +1,7 @@
 +++
  title = 'President of the United States'
+[params]
+	author = 'Carson West'
 +++
 # Presidents
 

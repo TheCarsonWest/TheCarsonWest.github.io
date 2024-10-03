@@ -11,5 +11,7 @@
 **IMPACT:** [The American System](./../the-american-system/) promoted economic growth and modernization in the [United States](./../united-states/). It led to the creation of new industries, the expansion of transportation networks, and the rise of a more urban and industrial society. However, the system also created tensions between different regions of the country and contributed to the sectional crisis that led to the Civil War.
 +++
  title = 'The American System'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

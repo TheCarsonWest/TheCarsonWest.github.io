@@ -20,5 +20,7 @@
 * **Precursor to the Civil War:** The nullification threat foreshadowed the later secession of Southern states over slavery.
 +++
  title = 'VA and KY Resolutions'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

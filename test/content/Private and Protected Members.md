@@ -1,5 +1,7 @@
 +++
  title = 'Private and Protected Members'
+[params]
+	author = 'Carson West'
 +++
 ## [Private and Protected Members](./../private-and-protected-members/)
 

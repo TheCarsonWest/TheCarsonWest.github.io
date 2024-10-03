@@ -13,5 +13,7 @@
 * Led to the [United States](./../united-states/) becoming involved in conflicts in Latin America to enforce the doctrine.
 +++
  title = 'Monroe Doctrine'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

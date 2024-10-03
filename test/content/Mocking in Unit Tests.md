@@ -1,5 +1,7 @@
 +++
  title = 'Mocking in Unit Tests'
+[params]
+	author = 'Carson West'
 +++
 ## [Mocking in Unit Tests](./../mocking-in-unit-tests/)
 

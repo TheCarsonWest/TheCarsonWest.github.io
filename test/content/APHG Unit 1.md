@@ -1,5 +1,7 @@
 +++
  title = 'APHG Unit 1'
+[params]
+	author = 'Carson West'
 +++
 # [APHG Home](./../aphg-home/)
 

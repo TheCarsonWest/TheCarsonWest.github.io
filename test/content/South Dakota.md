@@ -1,5 +1,7 @@
 +++
  title = 'South Dakota'
+[params]
+	author = 'Carson West'
 +++
 ## [South Dakota](./../south-dakota/) in [United States](./../united-states/) History
 

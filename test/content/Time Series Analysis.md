@@ -1,5 +1,7 @@
 +++
  title = 'Time Series Analysis'
+[params]
+	author = 'Carson West'
 +++
 ## [Time Series Analysis](./../time-series-analysis/)
 

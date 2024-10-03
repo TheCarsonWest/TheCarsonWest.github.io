@@ -1,5 +1,7 @@
 +++
  title = 'Concurrency and Multithreading'
+[params]
+	author = 'Carson West'
 +++
 ## [Concurrency and Multithreading](./../concurrency-and-multithreading/)
 

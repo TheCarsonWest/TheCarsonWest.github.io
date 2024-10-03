@@ -1,5 +1,7 @@
 +++
  title = 'Pathlib and OS Module'
+[params]
+	author = 'Carson West'
 +++
 ## [Pathlib and OS Module](./../pathlib-and-os-module/)
 

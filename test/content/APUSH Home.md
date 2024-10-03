@@ -1,5 +1,7 @@
 +++
  title = 'APUSH Home'
+[params]
+	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
 

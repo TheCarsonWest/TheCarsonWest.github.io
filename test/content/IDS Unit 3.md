@@ -1,5 +1,7 @@
 +++
  title = 'IDS Unit 3'
+[params]
+	author = 'Carson West'
 +++
 # [ID Home](./../id-home/)
 

@@ -32,5 +32,7 @@
  * Contributed to the intellectual and cultural heritage of the [United States](./../united-states/)
 +++
  title = 'Puritans'
+[params]
+	author = 'Carson West'
 +++
 #ids

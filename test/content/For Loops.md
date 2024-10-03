@@ -1,5 +1,7 @@
 +++
  title = 'For Loops'
+[params]
+	author = 'Carson West'
 +++
 # Python [For Loops](./../for-loops/)
 

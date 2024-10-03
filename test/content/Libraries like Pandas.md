@@ -1,5 +1,7 @@
 +++
  title = 'Libraries like Pandas'
+[params]
+	author = 'Carson West'
 +++
 ## [Libraries like Pandas](./../libraries-like-pandas/)
 

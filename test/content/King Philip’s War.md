@@ -25,5 +25,7 @@ location: 44.2057083,-70.75378387447887
  * Increased tensions and conflicts between English settlers and Native Americans
 +++
  title = 'King Philip’s War'
+[params]
+	author = 'Carson West'
 +++
 #ids

@@ -1,5 +1,7 @@
 +++
  title = 'Mutable vs Immutable Types'
+[params]
+	author = 'Carson West'
 +++
 ## [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 

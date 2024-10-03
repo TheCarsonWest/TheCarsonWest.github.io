@@ -1,5 +1,7 @@
 +++
  title = 'Dictionaries'
+[params]
+	author = 'Carson West'
 +++
 ## Python [Dictionaries](./../dictionaries/)
 

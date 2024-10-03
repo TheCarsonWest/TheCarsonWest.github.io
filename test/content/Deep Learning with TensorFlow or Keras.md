@@ -1,5 +1,7 @@
 +++
  title = 'Deep Learning with TensorFlow or Keras'
+[params]
+	author = 'Carson West'
 +++
 ## [Deep Learning with TensorFlow or Keras](./../deep-learning-with-tensorflow-or-keras/)
 

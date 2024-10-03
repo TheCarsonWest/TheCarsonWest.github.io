@@ -1,5 +1,7 @@
 +++
  title = 'Asynchronous Programming'
+[params]
+	author = 'Carson West'
 +++
 ## [Asynchronous Programming](./../asynchronous-programming/)
 

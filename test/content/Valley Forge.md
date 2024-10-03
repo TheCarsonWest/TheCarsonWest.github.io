@@ -18,5 +18,7 @@
 * Demonstrated the resilience and determination of the American people
 +++
  title = 'Valley Forge'
+[params]
+	author = 'Carson West'
 +++
 #ids

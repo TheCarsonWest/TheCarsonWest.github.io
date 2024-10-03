@@ -9,5 +9,7 @@
 **IMPACT:** The embargo had a devastating impact on the American economy. It led to the closure of factories, the loss of jobs, and a sharp decline in exports. It also failed to achieve its goal of pressuring Great Britain and [France](./../france/) to end their attacks on American shipping. Because of the disastrous effects on the American people, it led to the repeal of the Embargo Act in 1809, just before the end of Jefferson's presidency.
 +++
  title = 'Embargo Act of 1807'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

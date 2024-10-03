@@ -1,5 +1,7 @@
 +++
  title = 'ID Home'
+[params]
+	author = 'Carson West'
 +++
 # [APUSH Home](./../apush-home/)
 

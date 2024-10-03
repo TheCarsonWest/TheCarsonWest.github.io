@@ -22,5 +22,7 @@
 * **Rise of Anti-Federalist Sentiment:** The rebellion further alienated Western states from the federal government, strengthening Anti-Federalist opposition.
 +++
  title = 'Whiskey Rebellion'
+[params]
+	author = 'Carson West'
 +++
 # [IDS Unit 3](./../ids-unit-3/)

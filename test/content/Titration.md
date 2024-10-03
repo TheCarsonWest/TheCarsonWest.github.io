@@ -1,5 +1,7 @@
 +++
  title = 'Titration'
+[params]
+	author = 'Carson West'
 +++
 ## [Titration](./../titration/) is a type of [Double replacement reaction](./../double-replacement-reaction/) in which:
 - ### you have a known [molarity](./../molarity/) of one reactant

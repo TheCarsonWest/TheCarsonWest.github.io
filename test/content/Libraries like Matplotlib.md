@@ -1,5 +1,7 @@
 +++
  title = 'Libraries like Matplotlib'
+[params]
+	author = 'Carson West'
 +++
 ## Python Libraries Like Matplotlib
 

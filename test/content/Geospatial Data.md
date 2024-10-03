@@ -5,6 +5,8 @@
 
 +++
  title = 'Geospatial Data'
+[params]
+	author = 'Carson West'
 +++
 # **Obtaining Data**
 

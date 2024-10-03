@@ -1,5 +1,7 @@
 +++
  title = 'Async Generators'
+[params]
+	author = 'Carson West'
 +++
 ## Async [Generators](./../generators/)
 

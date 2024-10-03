@@ -33,5 +33,7 @@ location: 40.2253569,-82.6881395
 * Shaped the geopolitical landscape of North America
 +++
  title = 'French and Indian War'
+[params]
+	author = 'Carson West'
 +++
 #ids

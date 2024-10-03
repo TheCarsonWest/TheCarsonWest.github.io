@@ -1,5 +1,7 @@
 +++
  title = 'Speed of light'
+[params]
+	author = 'Carson West'
 +++
 ## [Constants](./../constants/)
 

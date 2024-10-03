@@ -1,5 +1,7 @@
 +++
  title = 'Building and Distributing Python Packages'
+[params]
+	author = 'Carson West'
 +++
 ## [Building and Distributing Python Packages](./../building-and-distributing-python-packages/)
 

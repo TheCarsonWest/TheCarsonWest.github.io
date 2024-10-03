@@ -1,5 +1,7 @@
 +++
  title = 'Working with Databases (SQLAlchemy, SQLite, MySQL)'
+[params]
+	author = 'Carson West'
 +++
 ## Working with Databases (SQLAlchemy, SQLite, MySQL)
 

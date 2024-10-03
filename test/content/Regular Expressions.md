@@ -1,5 +1,7 @@
 +++
  title = 'Regular Expressions'
+[params]
+	author = 'Carson West'
 +++
 ## [Regular Expressions](./../regular-expressions/)
 

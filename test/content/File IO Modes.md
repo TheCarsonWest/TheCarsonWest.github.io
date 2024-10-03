@@ -1,5 +1,7 @@
 +++
  title = 'File IO Modes'
+[params]
+	author = 'Carson West'
 +++
 ## [File IO Modes](./../file-io-modes/)
 

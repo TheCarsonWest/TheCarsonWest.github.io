@@ -21,5 +21,7 @@
 * Long-term: Led to the [Declaration of Independence](./../declaration-of-independence/) and the eventual creation of the [United States](./../united-states/) of America
 +++
  title = 'Second Continental Congress'
+[params]
+	author = 'Carson West'
 +++
 #ids

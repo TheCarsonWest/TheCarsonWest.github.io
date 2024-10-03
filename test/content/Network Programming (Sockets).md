@@ -1,5 +1,7 @@
 +++
  title = 'Network Programming (Sockets)'
+[params]
+	author = 'Carson West'
 +++
 ## Network Programming (Sockets)
 

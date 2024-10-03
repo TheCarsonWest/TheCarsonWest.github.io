@@ -1,5 +1,7 @@
 +++
  title = 'Web Development with Django'
+[params]
+	author = 'Carson West'
 +++
 ## [Web Development with Django](./../web-development-with-django/)
 

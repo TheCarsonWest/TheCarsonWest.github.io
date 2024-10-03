@@ -1,5 +1,7 @@
 +++
  title = 'Command Line Interface (CLI) Programs'
+[params]
+	author = 'Carson West'
 +++
 ## Python Command Line Interface (CLI) Programs
 

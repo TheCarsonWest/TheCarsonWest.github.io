@@ -1,5 +1,7 @@
 +++
  title = 'Place Names'
+[params]
+	author = 'Carson West'
 +++
 ## Fancy name for place names: Toponym
 - Some matter more than others

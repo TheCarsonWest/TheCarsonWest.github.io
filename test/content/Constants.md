@@ -1,5 +1,7 @@
 +++
  title = 'Constants'
+[params]
+	author = 'Carson West'
 +++
 # [APCHEM Home](./../apchem-home/)
 

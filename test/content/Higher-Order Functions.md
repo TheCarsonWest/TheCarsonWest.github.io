@@ -1,5 +1,7 @@
 +++
  title = 'Higher-Order Functions'
+[params]
+	author = 'Carson West'
 +++
 ## Higher-Order [Functions](./../functions/)
 

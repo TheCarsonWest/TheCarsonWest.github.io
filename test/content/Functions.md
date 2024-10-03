@@ -1,5 +1,7 @@
 +++
  title = 'Functions'
+[params]
+	author = 'Carson West'
 +++
 # [Functions](./../functions/)
 
