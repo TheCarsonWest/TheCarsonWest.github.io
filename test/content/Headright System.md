@@ -1,3 +1,8 @@
++++
+ title = 'Headright System'
+[params]
+	author = 'Carson West'
++++
 **ID: [Headright System](./../headright-system/)**
 
 **When:** 1618
@@ -12,15 +17,5 @@
 * Expanded population in 13 Colonies
 * Increased indentured servitude and wealth disparities
 * Conflict with Native Americans over land ownership
-+++
- title = 'Headright System'
-[params]
-	author = 'Carson West'
-+++
 #id
-+++
- title = 'Headright System'
-[params]
-	author = 'Carson West'
-+++
 #ids

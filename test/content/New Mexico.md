@@ -1,3 +1,8 @@
++++
+ title = 'New Mexico'
+[params]
+	author = 'Carson West'
++++
 **[New Mexico](./../new-mexico/) Historical Timeline**
 - 1540: Francisco Vásquez de Coronado explores the area that is now [New Mexico](./../new-mexico/)
 - 1598: Juan de Oñate leads a group of Spanish colonists to [New Mexico](./../new-mexico/) and establishes Santa Fe

@@ -1,3 +1,8 @@
++++
+ title = 'James A. Garfield'
+[params]
+	author = 'Carson West'
++++
 **[James A](./../james-a/). Garfield**
 
 **Early Life and Career:**

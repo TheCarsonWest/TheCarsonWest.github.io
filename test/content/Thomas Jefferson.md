@@ -1,3 +1,8 @@
++++
+ title = 'Thomas Jefferson'
+[params]
+	author = 'Carson West'
++++
 
 **Early Life and Education:**
 ![Pasted image 20240923101101.png](./../pasted-image-20240923101101.png/)

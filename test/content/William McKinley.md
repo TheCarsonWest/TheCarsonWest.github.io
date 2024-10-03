@@ -1,3 +1,8 @@
++++
+ title = 'William McKinley'
+[params]
+	author = 'Carson West'
++++
 **[William McKinley](./../william-mckinley/)**
 
 **Life and Career:**

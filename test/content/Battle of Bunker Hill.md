@@ -1,3 +1,8 @@
++++
+ title = 'Battle of Bunker Hill'
+[params]
+	author = 'Carson West'
++++
  [Massachusetts](./../massachusetts/)
 ID: [Battle of Bunker Hill](./../battle-of-bunker-hill/)
 When: June 17, 1775
@@ -10,9 +15,4 @@ What:
 Impact:
 -- Short-term: American morale boost, British recognition of American determination
 -- Long-term: foreshadowed the American victory in the Revolutionary War
-+++
- title = 'Battle of Bunker Hill'
-[params]
-	author = 'Carson West'
-+++
 #ids

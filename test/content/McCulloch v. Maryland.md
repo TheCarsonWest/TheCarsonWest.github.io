@@ -1,3 +1,8 @@
++++
+ title = 'McCulloch v. Maryland'
+[params]
+	author = 'Carson West'
++++
 **Topic: "[McCulloch v. Maryland](./../mcculloch-v.-maryland/)"**
 
 **WHEN:** March 6, 1819
@@ -19,9 +24,4 @@
 * The Supreme Court ruled in favor of the BUS, holding that it was a necessary and proper means for the federal government to exercise its taxing and spending powers.
 * The decision established the principle of implied powers, meaning that the federal government has the authority to exercise powers that are not explicitly stated in the Constitution but are necessary and proper for carrying out its functions.
 * It also strengthened the federal government's power over the states by establishing the supremacy of federal law over state laws.
-+++
- title = 'McCulloch v. Maryland'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

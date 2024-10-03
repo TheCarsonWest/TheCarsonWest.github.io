@@ -1,3 +1,8 @@
++++
+ title = 'Michigan'
+[params]
+	author = 'Carson West'
++++
 **[Michigan](./../michigan/) in U.S. History**
 
 **Timeline**

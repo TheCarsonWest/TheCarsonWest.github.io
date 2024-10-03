@@ -1,3 +1,8 @@
++++
+ title = 'Iowa'
+[params]
+	author = 'Carson West'
++++
 **[Iowa](./../iowa/) in American History**
 
 **Timeline**

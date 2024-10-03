@@ -1,3 +1,8 @@
++++
+ title = 'Functional Region'
+[params]
+	author = 'Carson West'
++++
  [Glossary](./../glossary/)
 ** [Functional Region](./../functional-region/)**
 

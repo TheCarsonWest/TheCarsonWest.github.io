@@ -1,3 +1,8 @@
++++
+ title = 'Samuel Adams'
+[params]
+	author = 'Carson West'
++++
 **Early Life and Political Career:**
 
 * Born in Boston, [Massachusetts](./../massachusetts/), on September 27, 1722.

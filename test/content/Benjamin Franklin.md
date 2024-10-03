@@ -1,3 +1,8 @@
++++
+ title = 'Benjamin Franklin'
+[params]
+	author = 'Carson West'
++++
 
 **People Associated With:**
 

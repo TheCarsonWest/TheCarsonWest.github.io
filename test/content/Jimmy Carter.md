@@ -1,3 +1,8 @@
++++
+ title = 'Jimmy Carter'
+[params]
+	author = 'Carson West'
++++
 **[Jimmy Carter](./../jimmy-carter/) (1977-1981)**
 
 **Early Life and Career:**

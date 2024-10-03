@@ -1,3 +1,8 @@
++++
+ title = 'Calvin Coolidge'
+[params]
+	author = 'Carson West'
++++
 **[Calvin Coolidge](./../calvin-coolidge/)**
 
 **Overview:**

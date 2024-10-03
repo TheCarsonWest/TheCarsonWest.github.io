@@ -1,3 +1,8 @@
++++
+ title = 'Harry S. Truman'
+[params]
+	author = 'Carson West'
++++
 **[Harry S](./../harry-s/). Truman (1884-1972)**
 
 **Early Life and Career:**

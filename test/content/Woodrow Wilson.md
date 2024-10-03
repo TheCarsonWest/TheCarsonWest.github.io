@@ -1,3 +1,8 @@
++++
+ title = 'Woodrow Wilson'
+[params]
+	author = 'Carson West'
++++
 **[Woodrow Wilson](./../woodrow-wilson/)**
 
 **Presidency:** 1913-1921

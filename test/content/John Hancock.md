@@ -1,3 +1,8 @@
++++
+ title = 'John Hancock'
+[params]
+	author = 'Carson West'
++++
  **[John Hancock](./../john-hancock/) (1737-1793)**
 
 **Early Life and Education:**

@@ -1,3 +1,8 @@
++++
+ title = 'Philadelphia'
+[params]
+	author = 'Carson West'
++++
 
 **[Philadelphia](./../philadelphia/) in American History**
 

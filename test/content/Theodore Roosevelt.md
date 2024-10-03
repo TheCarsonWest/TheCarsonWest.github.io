@@ -1,3 +1,8 @@
++++
+ title = 'Theodore Roosevelt'
+[params]
+	author = 'Carson West'
++++
 **[Theodore Roosevelt](./../theodore-roosevelt/) (1858-1919)**
 
 **Early Life and Career:**

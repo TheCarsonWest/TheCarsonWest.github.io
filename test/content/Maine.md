@@ -1,3 +1,8 @@
++++
+ title = 'Maine'
+[params]
+	author = 'Carson West'
++++
 **[Maine](./../maine/) in AP [United States](./../united-states/) History**
 
 **Timeline**

@@ -1,3 +1,8 @@
++++
+ title = 'Judiciary Act'
+[params]
+	author = 'Carson West'
++++
 ** [Judiciary Act](./../judiciary-act/) of 1789**
 
 **WHEN:** September 24, 1789
@@ -16,9 +21,4 @@
 * Provided a check on the power of the executive and legislative branches
 * Established the Supreme Court as the final arbiter of federal law
 * Strengthened the federal government and national unity
-+++
- title = 'Judiciary Act'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

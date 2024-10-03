@@ -1,3 +1,8 @@
++++
+ title = 'Mississippi'
+[params]
+	author = 'Carson West'
++++
 **[Mississippi](./../mississippi/) in U.S. History**
 
 **Timeline of Events:**

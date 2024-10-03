@@ -1,3 +1,8 @@
++++
+ title = 'Connecticut'
+[params]
+	author = 'Carson West'
++++
 **[Connecticut](./../connecticut/): A Rundown**
 
 **Timeline of Events:**

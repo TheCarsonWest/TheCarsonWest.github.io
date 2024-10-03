@@ -1,3 +1,8 @@
++++
+ title = 'New Hampshire'
+[params]
+	author = 'Carson West'
++++
 **State of [New Hampshire](./../new-hampshire/)**
 
 **Timeline of Events:**

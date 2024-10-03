@@ -1,3 +1,8 @@
++++
+ title = 'VA and KY Resolutions'
+[params]
+	author = 'Carson West'
++++
 **Notecard: [VA and KY Resolutions](./../va-and-ky-resolutions/)**
 
 **WHEN:** December 1825 - February 1833
@@ -18,9 +23,4 @@
 * **Nullification Crisis:** Sparked a major constitutional debate and led to President [Andrew Jackson](./../andrew-jackson/)'s defense of federal authority.
 * **Strengthened the Principle of States' Rights:** Affirmed the idea that states had some degree of independence from the federal government.
 * **Precursor to the Civil War:** The nullification threat foreshadowed the later secession of Southern states over slavery.
-+++
- title = 'VA and KY Resolutions'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

@@ -1,3 +1,8 @@
++++
+ title = 'Alexander Hamilton'
+[params]
+	author = 'Carson West'
++++
 
 **[Alexander Hamilton](./../alexander-hamilton/): A Founding Father and Architect of the American Republic**
 

@@ -1,3 +1,8 @@
++++
+ title = 'George Washington'
+[params]
+	author = 'Carson West'
++++
 
 **Roles and Accomplishments:**
 

@@ -1,3 +1,8 @@
++++
+ title = 'Graduated Symbols'
+[params]
+	author = 'Carson West'
++++
  [Glossary](./../glossary/)
 ** [Graduated Symbols](./../graduated-symbols/)**
 

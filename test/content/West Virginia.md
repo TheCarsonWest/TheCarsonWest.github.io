@@ -1,3 +1,8 @@
++++
+ title = 'West Virginia'
+[params]
+	author = 'Carson West'
++++
 **West [Virginia](./../virginia/): A Historical Rundown**
 
 **Timeline:**

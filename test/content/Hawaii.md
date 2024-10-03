@@ -1,3 +1,8 @@
++++
+ title = 'Hawaii'
+[params]
+	author = 'Carson West'
++++
 **State of [Hawaii](./../hawaii/)**
 
 **Timeline of Events:**

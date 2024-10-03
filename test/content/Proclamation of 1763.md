@@ -1,3 +1,8 @@
++++
+ title = 'Proclamation of 1763'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 51.5156177,-0.0919983
 ---
@@ -23,9 +28,4 @@ location: 51.5156177,-0.0919983
 * **Long-term consequences:**
  * Contributed to American resentment towards British rule
  * Fueled the movement for independence and the American Revolution
-+++
- title = 'Proclamation of 1763'
-[params]
-	author = 'Carson West'
-+++
 #ids

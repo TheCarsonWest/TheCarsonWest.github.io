@@ -1,3 +1,8 @@
++++
+ title = 'James Buchanan'
+[params]
+	author = 'Carson West'
++++
 **[James Buchanan](./../james-buchanan/) (1791-1868)**
 
 **Events Associated With:**

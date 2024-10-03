@@ -1,3 +1,8 @@
++++
+ title = 'First Continental Congress'
+[params]
+	author = 'Carson West'
++++
 **ID:** [First Continental Congress](./../first-continental-congress/)
 **When:** September 5–October 26, 1774
 **Who:**
@@ -13,9 +18,4 @@
  * United the colonies in their opposition to British policies
  * Set the stage for the American Revolution
  * Established the precedent for inter-colonial cooperation
-+++
- title = 'First Continental Congress'
-[params]
-	author = 'Carson West'
-+++
 #ids

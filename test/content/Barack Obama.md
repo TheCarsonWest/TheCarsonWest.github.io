@@ -1,3 +1,8 @@
++++
+ title = 'Barack Obama'
+[params]
+	author = 'Carson West'
++++
 **[Barack Obama](./../barack-obama/): 44th President of the [United States](./../united-states/) (2009-2017)**
 
 **Events Associated with:**

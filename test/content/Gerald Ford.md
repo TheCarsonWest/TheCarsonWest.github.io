@@ -1,3 +1,8 @@
++++
+ title = 'Gerald Ford'
+[params]
+	author = 'Carson West'
++++
 **[Gerald Ford](./../gerald-ford/) (1974-1977)**
 
 **Events Associated With:**

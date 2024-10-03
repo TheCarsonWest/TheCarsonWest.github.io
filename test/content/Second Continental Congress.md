@@ -1,3 +1,8 @@
++++
+ title = 'Second Continental Congress'
+[params]
+	author = 'Carson West'
++++
 **ID:** [Second Continental Congress](./../second-continental-congress/)
 
 **When:** May 10 - July 8, 1775
@@ -19,9 +24,4 @@
 **Impact:**
 * Short-term: United the colonies and established a central government during the American Revolutionary War
 * Long-term: Led to the [Declaration of Independence](./../declaration-of-independence/) and the eventual creation of the [United States](./../united-states/) of America
-+++
- title = 'Second Continental Congress'
-[params]
-	author = 'Carson West'
-+++
 #ids

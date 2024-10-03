@@ -1,3 +1,8 @@
++++
+ title = 'Kansas'
+[params]
+	author = 'Carson West'
++++
 **[Kansas](./../kansas/): A Historical Rundown**
 
 **Timeline of Events**

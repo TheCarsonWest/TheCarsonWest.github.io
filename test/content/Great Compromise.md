@@ -1,3 +1,8 @@
++++
+ title = 'Great Compromise'
+[params]
+	author = 'Carson West'
++++
 **Notecard: [Great Compromise](./../great-compromise/)**
 
 **WHEN:**
@@ -22,9 +27,4 @@
 * Resolved the issue of representation, allowing all states to participate in the new government
 * Strengthened the central government
 * Demonstrated the ability of the delegates to compromise and reach consensus
-+++
- title = 'Great Compromise'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

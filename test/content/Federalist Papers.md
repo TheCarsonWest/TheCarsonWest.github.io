@@ -1,3 +1,8 @@
++++
+ title = 'Federalist Papers'
+[params]
+	author = 'Carson West'
++++
 **The [Federalist Papers](./../federalist-papers/)**
 
 **Authors:** [Alexander Hamilton](./../alexander-hamilton/), [James Madison](./../james-madison/), John Jay (writing as "Publius")

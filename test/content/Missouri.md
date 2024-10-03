@@ -1,3 +1,8 @@
++++
+ title = 'Missouri'
+[params]
+	author = 'Carson West'
++++
 **[Missouri](./../missouri/)**
 
 **Timeline of Historical Events**

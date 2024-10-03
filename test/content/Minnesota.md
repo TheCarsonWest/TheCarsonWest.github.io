@@ -1,3 +1,8 @@
++++
+ title = 'Minnesota'
+[params]
+	author = 'Carson West'
++++
 **AP [United States](./../united-states/) History: [Minnesota](./../minnesota/)**
 
 **Timeline:**

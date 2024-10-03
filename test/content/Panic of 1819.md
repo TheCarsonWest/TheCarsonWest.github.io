@@ -1,3 +1,8 @@
++++
+ title = 'Panic of 1819'
+[params]
+	author = 'Carson West'
++++
 ** [Panic of 1819](./../panic-of-1819/)**
 
 **WHEN:** December 1819
@@ -14,9 +19,4 @@
 * **Political Instability:** The [Panic of 1819](./../panic-of-1819/) weakened support for President [James Monroe](./../james-monroe/) and led to the rise of opposition parties.
 * **Land Speculation:** The crisis ended the speculative land boom of the early 1800s.
 * **Westward Expansion:** The [Panic of 1819](./../panic-of-1819/) discouraged westward expansion by making land less valuable.
-+++
- title = 'Panic of 1819'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

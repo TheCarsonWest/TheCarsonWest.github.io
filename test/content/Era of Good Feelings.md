@@ -1,3 +1,8 @@
++++
+ title = 'Era of Good Feelings'
+[params]
+	author = 'Carson West'
++++
 ** [Era of Good Feelings](./../era-of-good-feelings/)**
 
 **WHEN:** 1815-1823
@@ -21,9 +26,4 @@
 * Strengthened the national government
 * Boosted American pride and confidence
 * Set the stage for westward expansion and industrialization
-+++
- title = 'Era of Good Feelings'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

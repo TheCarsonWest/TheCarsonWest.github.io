@@ -1,3 +1,8 @@
++++
+ title = 'Battle of Yorktown'
+[params]
+	author = 'Carson West'
++++
 ** [Battle of Yorktown](./../battle-of-yorktown/)**
 
 **When:** October 19, 1781
@@ -22,9 +27,4 @@
  * Major turning point in the war, leading to negotiations and the end of hostilities
  * Accelerating the recognition of American independence
  * Weakening of British imperial power and the beginning of the global rise of the [United States](./../united-states/)
-+++
- title = 'Battle of Yorktown'
-[params]
-	author = 'Carson West'
-+++
 #ids

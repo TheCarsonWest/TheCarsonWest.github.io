@@ -1,3 +1,8 @@
++++
+ title = 'Ohio'
+[params]
+	author = 'Carson West'
++++
 **State of [Ohio](./../ohio/)**
 
 **Timeline:**

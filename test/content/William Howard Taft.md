@@ -1,3 +1,8 @@
++++
+ title = 'William Howard Taft'
+[params]
+	author = 'Carson West'
++++
 **[William Howard Taft](./../william-howard-taft/)**
 
 **Overview:**

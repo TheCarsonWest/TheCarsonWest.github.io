@@ -1,3 +1,8 @@
++++
+ title = 'Sugar Act'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 51.5074456,-0.1277653
 ---
@@ -16,9 +21,4 @@ location: 51.5074456,-0.1277653
 **Impact:**
 * Deepened resentment among colonists, who saw it as an attempt to raise revenue without their consent
 * Contributed to the growing movement for American independence
-+++
- title = 'Sugar Act'
-[params]
-	author = 'Carson West'
-+++
 #ids

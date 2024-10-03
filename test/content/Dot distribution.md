@@ -1,3 +1,8 @@
++++
+ title = 'Dot distribution'
+[params]
+	author = 'Carson West'
++++
 
  [Glossary](./../glossary/)
 

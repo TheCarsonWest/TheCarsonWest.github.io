@@ -1,3 +1,8 @@
++++
+ title = 'Pennsylvania'
+[params]
+	author = 'Carson West'
++++
 **[Pennsylvania](./../pennsylvania/) in [United States](./../united-states/) History**
 
 **Timeline of Events**

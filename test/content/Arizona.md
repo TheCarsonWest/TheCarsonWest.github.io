@@ -1,3 +1,8 @@
++++
+ title = 'Arizona'
+[params]
+	author = 'Carson West'
++++
 **[Arizona](./../arizona/) in [United States](./../united-states/) History**
 
 **Timeline of Significant Events:**

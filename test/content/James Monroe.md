@@ -1,3 +1,8 @@
++++
+ title = 'James Monroe'
+[params]
+	author = 'Carson West'
++++
 **[James Monroe](./../james-monroe/) (1758-1831)**
 
 **Events:**

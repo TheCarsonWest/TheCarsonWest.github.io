@@ -1,3 +1,8 @@
++++
+ title = 'Alabama'
+[params]
+	author = 'Carson West'
++++
 **[Alabama](./../alabama/) in U.S. History**
 
 **Timeline of Events:**

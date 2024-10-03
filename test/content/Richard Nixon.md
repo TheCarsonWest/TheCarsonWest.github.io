@@ -1,3 +1,8 @@
++++
+ title = 'Richard Nixon'
+[params]
+	author = 'Carson West'
++++
 **[Richard Nixon](./../richard-nixon/): AP [United States](./../united-states/) History Rundown**
 
 **Early Life and Career:**

@@ -1,3 +1,8 @@
++++
+ title = 'Franklin Pierce'
+[params]
+	author = 'Carson West'
++++
 **[Franklin Pierce](./../franklin-pierce/) (1853-1857)**
 
 **Events Associated With:**

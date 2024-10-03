@@ -1,3 +1,8 @@
++++
+ title = 'Harvard'
+[params]
+	author = 'Carson West'
++++
 
 **Events Associated with Harvard University:**
 

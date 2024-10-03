@@ -1,3 +1,8 @@
++++
+ title = 'Articles of Confederation'
+[params]
+	author = 'Carson West'
++++
 Write an AP [United States](./../united-states/) History Rundown on the articles of confederation
 
 

@@ -1,3 +1,8 @@
++++
+ title = 'Bill Clinton'
+[params]
+	author = 'Carson West'
++++
 **[Bill Clinton](./../bill-clinton/) (42nd President of the [United States](./../united-states/), 1993-2001)**
 
 **Political Affiliations:**

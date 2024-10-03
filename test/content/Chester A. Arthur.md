@@ -1,3 +1,8 @@
++++
+ title = 'Chester A. Arthur'
+[params]
+	author = 'Carson West'
++++
 **[Chester A](./../chester-a/). Arthur (1881-1885)**
 
 **Events:**

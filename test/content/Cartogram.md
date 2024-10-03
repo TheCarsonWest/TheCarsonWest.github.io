@@ -1,3 +1,8 @@
++++
+ title = 'Cartogram'
+[params]
+	author = 'Carson West'
++++
 
 
 ** [Cartogram](./../cartogram/)**

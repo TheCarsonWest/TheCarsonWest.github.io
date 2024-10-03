@@ -1,3 +1,8 @@
++++
+ title = 'John Adams'
+[params]
+	author = 'Carson West'
++++
 **Roles:**
 
 * Second [President of the [[United States](./../president-of-the-[[united-states/) (1797-1801)

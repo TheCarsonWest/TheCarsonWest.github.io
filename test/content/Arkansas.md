@@ -1,3 +1,8 @@
++++
+ title = 'Arkansas'
+[params]
+	author = 'Carson West'
++++
 **[Arkansas](./../arkansas/) in U.S. History**
 
 **Timeline:**

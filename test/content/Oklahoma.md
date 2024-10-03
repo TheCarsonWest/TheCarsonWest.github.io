@@ -1,3 +1,8 @@
++++
+ title = 'Oklahoma'
+[params]
+	author = 'Carson West'
++++
 **[Oklahoma](./../oklahoma/) in [United States](./../united-states/) History**
 
 **Timeline:**

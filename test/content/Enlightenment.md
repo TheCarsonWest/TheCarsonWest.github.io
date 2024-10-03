@@ -1,3 +1,8 @@
++++
+ title = 'Enlightenment'
+[params]
+	author = 'Carson West'
++++
 **Notecard Summary: [Enlightenment](./../enlightenment/)**
 
 **When:** 17th and 18th centuries
@@ -20,9 +25,4 @@
  * Laid foundation for modern political philosophy (democracy, liberalism)
  * Promoted scientific and technological advancements
  * Shaped ideas of individual rights, freedom, and progress
-+++
- title = 'Enlightenment'
-[params]
-	author = 'Carson West'
-+++
 #ids

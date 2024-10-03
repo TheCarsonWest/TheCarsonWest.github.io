@@ -1,3 +1,8 @@
++++
+ title = 'New York'
+[params]
+	author = 'Carson West'
++++
 **[New York](./../new-york/) State in AP [United States](./../united-states/) History**
 
 **Timeline of Key Events:**

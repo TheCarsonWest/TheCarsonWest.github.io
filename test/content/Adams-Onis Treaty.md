@@ -1,3 +1,8 @@
++++
+ title = 'Adams-Onis Treaty'
+[params]
+	author = 'Carson West'
++++
 **Notecard:**
 
 **WHEN:** February 22, 1819
@@ -12,9 +17,4 @@
 * Prevented potential conflicts over the [Louisiana](./../louisiana/) Purchase]]
 * Strengthened US control over the Gulf Coast
 * Set the stage for the eventual annexation of [Texas](./../texas/)
-+++
- title = 'Adams-Onis Treaty'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

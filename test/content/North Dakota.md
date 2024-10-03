@@ -1,3 +1,8 @@
++++
+ title = 'North Dakota'
+[params]
+	author = 'Carson West'
++++
 **[North Dakota](./../north-dakota/): A Historical Timeline**
 
 **Pre-Statehood**

@@ -1,3 +1,8 @@
++++
+ title = 'Types of Regions'
+[params]
+	author = 'Carson West'
++++
 **Regionalization and Regions**
 
 - Regionalization: Dividing space into smaller areal units.

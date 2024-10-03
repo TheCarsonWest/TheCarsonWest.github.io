@@ -1,3 +1,8 @@
++++
+ title = 'Louisiana Purchase'
+[params]
+	author = 'Carson West'
++++
 **Notecard: [Louisiana](./../louisiana/) Purchase]]**
 
 **WHEN:** April 30, 1803
@@ -13,9 +18,4 @@
 * Opened up new lands for westward expansion.
 * Led to the [Lewis and Clark Expedition](./../lewis-and-clark-expedition/) to explore the new territory.
 * Strengthened the [United States](./../united-states/) as a world power.
-+++
- title = 'Louisiana Purchase'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

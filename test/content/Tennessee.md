@@ -1,3 +1,8 @@
++++
+ title = 'Tennessee'
+[params]
+	author = 'Carson West'
++++
 **[Tennessee](./../tennessee/) in [United States](./../united-states/) History**
 
 **Timeline of Events:**

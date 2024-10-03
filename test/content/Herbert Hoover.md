@@ -1,3 +1,8 @@
++++
+ title = 'Herbert Hoover'
+[params]
+	author = 'Carson West'
++++
 **[Herbert Hoover](./../herbert-hoover/) (1929-1933)**
 
 **Background:**

@@ -1,3 +1,8 @@
++++
+ title = 'George H. W. Bush'
+[params]
+	author = 'Carson West'
++++
 **[George H](./../george-h/). W. Bush (1989-1993)**
 
 **Events Associated With:**

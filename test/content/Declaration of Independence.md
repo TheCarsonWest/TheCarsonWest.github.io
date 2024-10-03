@@ -1,3 +1,8 @@
++++
+ title = 'Declaration of Independence'
+[params]
+	author = 'Carson West'
++++
 
 **Background:**
 

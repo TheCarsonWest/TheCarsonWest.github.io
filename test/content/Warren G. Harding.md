@@ -1,3 +1,8 @@
++++
+ title = 'Warren G. Harding'
+[params]
+	author = 'Carson West'
++++
 **[Warren G](./../warren-g/). Harding**
 
 **Background:**

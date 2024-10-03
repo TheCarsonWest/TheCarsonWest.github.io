@@ -1,3 +1,8 @@
++++
+ title = 'John Tyler'
+[params]
+	author = 'Carson West'
++++
 **[John Tyler](./../john-tyler/) (1790-1862)**
 
 **Events:**

@@ -1,3 +1,8 @@
++++
+ title = 'Monroe Doctrine'
+[params]
+	author = 'Carson West'
++++
 ** [Monroe Doctrine](./../monroe-doctrine/)**
 
 **WHEN:** December 2, 1823
@@ -11,9 +16,4 @@
 * Protected American security interests.
 * Strengthened the [United States](./../united-states/)' position as a world power.
 * Led to the [United States](./../united-states/) becoming involved in conflicts in Latin America to enforce the doctrine.
-+++
- title = 'Monroe Doctrine'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

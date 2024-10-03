@@ -1,3 +1,8 @@
++++
+ title = 'Lyndon B. Johnson'
+[params]
+	author = 'Carson West'
++++
 **[Lyndon B](./../lyndon-b/). Johnson (1908-1973)**
 
 **Early Life and Career:**

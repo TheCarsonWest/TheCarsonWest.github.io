@@ -1,3 +1,8 @@
++++
+ title = 'Marbury vs. Madison'
+[params]
+	author = 'Carson West'
++++
 **Marbury v. Madison**
 
 **WHEN:** February 24, 1803
@@ -18,9 +23,4 @@
 * Strengthened the power of the judiciary.
 * Set a precedent for the Court to limit the powers of the other branches of government.
 * Contributed to the development of the system of checks and balances.
-+++
- title = 'Marbury vs. Madison'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

@@ -1,3 +1,8 @@
++++
+ title = 'California'
+[params]
+	author = 'Carson West'
++++
 **[California](./../california/): A Historical Rundown**
 
 **Timeline of Significant Events:**

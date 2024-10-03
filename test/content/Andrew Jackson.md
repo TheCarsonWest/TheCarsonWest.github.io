@@ -1,3 +1,8 @@
++++
+ title = 'Andrew Jackson'
+[params]
+	author = 'Carson West'
++++
 **[Andrew Jackson](./../andrew-jackson/)**
 
 **Events Associated With:**

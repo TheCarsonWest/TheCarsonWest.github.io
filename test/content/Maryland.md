@@ -1,3 +1,8 @@
++++
+ title = 'Maryland'
+[params]
+	author = 'Carson West'
++++
 **[Maryland](./../maryland/) in American History**
 
 **Timeline of Events**

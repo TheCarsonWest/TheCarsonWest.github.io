@@ -1,11 +1,11 @@
-
-Molarity is a measure of the concentration of a solution, defined as the number of moles of solute per liter of solution. It is expressed in units of moles per liter (mol/L).
-
 +++
  title = 'molarity'
 [params]
 	author = 'Carson West'
 +++
+
+Molarity is a measure of the concentration of a solution, defined as the number of moles of solute per liter of solution. It is expressed in units of moles per liter (mol/L).
+
 ### **Calculating Molarity**
 
 To calculate the [molarity](./../molarity/) of a solution, use the following formula:

@@ -1,3 +1,8 @@
++++
+ title = 'Colorado'
+[params]
+	author = 'Carson West'
++++
 **[Colorado](./../colorado/) in AP [United States](./../united-states/) History**
 
 **Timeline of Events:**

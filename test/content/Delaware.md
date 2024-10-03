@@ -1,3 +1,8 @@
++++
+ title = 'Delaware'
+[params]
+	author = 'Carson West'
++++
 **Overview**
 
 [Delaware](./../delaware/), known as the "First State," played a significant role in the founding and development of the [United States](./../united-states/). It was the first state to ratify the Constitution in 1787.

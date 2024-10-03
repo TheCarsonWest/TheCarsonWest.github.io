@@ -1,3 +1,8 @@
++++
+ title = 'Valley Forge'
+[params]
+	author = 'Carson West'
++++
 **ID: [Valley Forge](./../valley-forge/)**
 
 **When:** December 1777 - June 1778
@@ -16,9 +21,4 @@
 * **Short-term:** Strengthened the Continental Army after a series of defeats
 * **Long-term:** Boosted morale and helped secure eventual American independence
 * Demonstrated the resilience and determination of the American people
-+++
- title = 'Valley Forge'
-[params]
-	author = 'Carson West'
-+++
 #ids

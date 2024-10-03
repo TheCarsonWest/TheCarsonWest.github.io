@@ -1,3 +1,8 @@
++++
+ title = 'South Carolina'
+[params]
+	author = 'Carson West'
++++
 **[South Carolina](./../south-carolina/) in American History**
 
 **Timeline of Key Events:**

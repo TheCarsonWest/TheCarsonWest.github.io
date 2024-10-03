@@ -1,3 +1,8 @@
++++
+ title = 'Ulysses S. Grant'
+[params]
+	author = 'Carson West'
++++
 **[Ulysses S](./../ulysses-s/). Grant**
 
 **Events Associated With:**

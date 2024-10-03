@@ -1,3 +1,8 @@
++++
+ title = 'French and Indian War'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 40.2253569,-82.6881395
 ---
@@ -31,9 +36,4 @@ location: 40.2253569,-82.6881395
 * Increased tensions between Great Britain and its American colonies
 * Contributed to the American Revolution
 * Shaped the geopolitical landscape of North America
-+++
- title = 'French and Indian War'
-[params]
-	author = 'Carson West'
-+++
 #ids

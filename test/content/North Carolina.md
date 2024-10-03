@@ -1,3 +1,8 @@
++++
+ title = 'North Carolina'
+[params]
+	author = 'Carson West'
++++
 **[North Carolina](./../north-carolina/) in U.S. History**
 
 **Timeline:**

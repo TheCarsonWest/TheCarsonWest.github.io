@@ -1,3 +1,8 @@
++++
+ title = 'Idaho'
+[params]
+	author = 'Carson West'
++++
 **[Idaho](./../idaho/) in AP [United States](./../united-states/) History**
 
 **Timeline of Key Events:**

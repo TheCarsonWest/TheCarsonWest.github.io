@@ -1,3 +1,8 @@
++++
+ title = 'The Wealth of Nations'
+[params]
+	author = 'Carson West'
++++
 **Notecard: [The Wealth of Nations](./../the-wealth-of-nations/)**
 
 **When:** 1776
@@ -16,9 +21,4 @@
 * Revolutionized economic thought and paved the way for capitalism
 * Major influence on economic policies and the development of modern economies
 * Its principles continue to shape economic debates and policies today
-+++
- title = 'The Wealth of Nations'
-[params]
-	author = 'Carson West'
-+++
 #ids

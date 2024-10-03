@@ -1,3 +1,8 @@
++++
+ title = 'Grover Cleveland'
+[params]
+	author = 'Carson West'
++++
 **[Grover Cleveland](./../grover-cleveland/)**
 
 **Political Affiliation:** Democrat

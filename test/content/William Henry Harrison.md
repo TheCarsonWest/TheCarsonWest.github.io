@@ -1,3 +1,8 @@
++++
+ title = 'William Henry Harrison'
+[params]
+	author = 'Carson West'
++++
 **[William Henry Harrison](./../william-henry-harrison/)**
 
 **Presidency (1841)**

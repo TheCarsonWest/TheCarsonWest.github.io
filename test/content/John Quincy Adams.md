@@ -1,3 +1,8 @@
++++
+ title = 'John Quincy Adams'
+[params]
+	author = 'Carson West'
++++
 **[John Quincy Adams](./../john-quincy-adams/) (1767-1848)**
 
 **Events Associated With:**

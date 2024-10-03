@@ -1,3 +1,8 @@
++++
+ title = 'Utah'
+[params]
+	author = 'Carson West'
++++
 **State of [Utah](./../utah/)**
 
 **Timeline of Events:**

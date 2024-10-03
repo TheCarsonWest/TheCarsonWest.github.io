@@ -1,3 +1,8 @@
++++
+ title = 'Cloropleth'
+[params]
+	author = 'Carson West'
++++
 
  [Glossary](./../glossary/)
 **Choropleth**

@@ -1,3 +1,8 @@
++++
+ title = 'Zachary Taylor'
+[params]
+	author = 'Carson West'
++++
 **[Zachary Taylor](./../zachary-taylor/)** (1784-1850)
 
 **Events Associated With:**

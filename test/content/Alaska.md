@@ -1,3 +1,8 @@
++++
+ title = 'Alaska'
+[params]
+	author = 'Carson West'
++++
 **[Alaska](./../alaska/): A [United States](./../united-states/) History Rundown**
 
 **Timeline:**

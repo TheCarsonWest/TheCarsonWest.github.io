@@ -1,3 +1,8 @@
++++
+ title = 'Wyoming'
+[params]
+	author = 'Carson West'
++++
 **[Wyoming](./../wyoming/): A Rundown for AP [United States](./../united-states/) History**
 
 **Timeline of Events:**

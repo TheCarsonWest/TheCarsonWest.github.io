@@ -1,3 +1,8 @@
++++
+ title = 'Lee’s Resolution'
+[params]
+	author = 'Carson West'
++++
 ** [Lee’s Resolution](./../lee’s-resolution/)**
 
 * **When:** July 2, 1776
@@ -6,9 +11,4 @@
 * **Impact:**
  * Sparked the American Revolutionary War
  * Established the [United States](./../united-states/) of America as an independent nation
-+++
- title = 'Lee’s Resolution'
-[params]
-	author = 'Carson West'
-+++
 #ids

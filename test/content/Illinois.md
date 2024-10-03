@@ -1,3 +1,8 @@
++++
+ title = 'Illinois'
+[params]
+	author = 'Carson West'
++++
 **[Illinois](./../illinois/) in [United States](./../united-states/) History**
 
 **Timeline of Key Events:**

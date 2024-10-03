@@ -1,3 +1,8 @@
++++
+ title = 'Rhode Island'
+[params]
+	author = 'Carson West'
++++
 **[Rhode Island](./../rhode-island/): A Historical Rundown**
 
 **Timeline of Significant Events:**

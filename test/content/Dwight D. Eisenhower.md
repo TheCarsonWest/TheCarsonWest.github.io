@@ -1,3 +1,8 @@
++++
+ title = 'Dwight D. Eisenhower'
+[params]
+	author = 'Carson West'
++++
 **[Dwight D](./../dwight-d/). Eisenhower: 34th President of the [United States](./../united-states/)**
 
 **Events Associated With:**

@@ -1,3 +1,8 @@
++++
+ title = 'Indiana'
+[params]
+	author = 'Carson West'
++++
 **[Indiana](./../indiana/): A Historical Rundown**
 
 **Timeline of Events**

@@ -1,3 +1,8 @@
++++
+ title = 'Indentured Servitude'
+[params]
+	author = 'Carson West'
++++
 **ID: [Indentured Servitude](./../indentured-servitude/)**
 
 **When:** 1619+ (first recorded African captives to America)
@@ -16,15 +21,5 @@
 * Contributed to the growth of the slave trade.
 * Led to social inequalities and exploitation.
 * Established the racial hierarchy that later formed the basis for slavery in the Americas.
-+++
- title = 'Indentured Servitude'
-[params]
-	author = 'Carson West'
-+++
 #id
-+++
- title = 'Indentured Servitude'
-[params]
-	author = 'Carson West'
-+++
 #ids

@@ -1,3 +1,8 @@
++++
+ title = 'Vernacular Region'
+[params]
+	author = 'Carson West'
++++
 
  [Glossary](./../glossary/)
 ** [Vernacular Region](./../vernacular-region/)**

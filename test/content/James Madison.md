@@ -1,3 +1,8 @@
++++
+ title = 'James Madison'
+[params]
+	author = 'Carson West'
++++
 **Early Life and Education:**
 
 * Born in Port Conway, [Virginia](./../virginia/)

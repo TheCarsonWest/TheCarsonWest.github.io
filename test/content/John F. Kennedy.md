@@ -1,3 +1,8 @@
++++
+ title = 'John F. Kennedy'
+[params]
+	author = 'Carson West'
++++
 **[John F](./../john-f/). Kennedy (1961-1963)**
 
 **Events:**

@@ -1,3 +1,8 @@
++++
+ title = 'Great Awakening'
+[params]
+	author = 'Carson West'
++++
 **ID:** [Great Awakening](./../great-awakening/)
 **When:** 1730s-1750s
 **Who:** Jonathan Edwards, George Whitefield, Gilbert Tennent
@@ -10,9 +15,4 @@
  * Contributed to the development of evangelical Protestantism
  * Challenged authority and fostered independent thinking
  * Influenced the abolitionist movement and other social reform efforts
-+++
- title = 'Great Awakening'
-[params]
-	author = 'Carson West'
-+++
 #ids

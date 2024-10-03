@@ -1,3 +1,8 @@
++++
+ title = 'Single Replacement reaction'
+[params]
+	author = 'Carson West'
++++
 
 **Definition:** A single replacement reaction is a chemical reaction in which one element replaces another element in a compound.
 

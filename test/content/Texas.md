@@ -1,3 +1,8 @@
++++
+ title = 'Texas'
+[params]
+	author = 'Carson West'
++++
 **AP [United States](./../united-states/) History: [Texas](./../texas/)**
 
 **Timeline of Events:**

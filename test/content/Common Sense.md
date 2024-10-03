@@ -1,3 +1,8 @@
++++
+ title = 'Common Sense'
+[params]
+	author = 'Carson West'
++++
 **Notecard Summary: [Common Sense](./../common-sense/)**
 
 **When:** January 10, 1776
@@ -15,9 +20,4 @@
 * Sparked widespread support for independence among American colonists.
 * Influenced the [Declaration of Independence](./../declaration-of-independence/) and the course of the American Revolution.
 * Became one of the most influential political tracts in American history.
-+++
- title = 'Common Sense'
-[params]
-	author = 'Carson West'
-+++
 #ids

@@ -1,3 +1,8 @@
++++
+ title = 'Triangular Trade'
+[params]
+	author = 'Carson West'
++++
 **ID:** [Triangular Trade](./../triangular-trade/)
 **When:** 16th-19th centuries
 **Who:** European powers (Portugal, Spain, England, [France](./../france/)), African slave traders, enslaved Africans, American colonists
@@ -15,9 +20,4 @@
  * Transatlantic slave trade became a global phenomenon
  * Led to the creation of the Americas as a new slave society
  * Contributed to racial discrimination and ongoing racial disparities
-+++
- title = 'Triangular Trade'
-[params]
-	author = 'Carson West'
-+++
 #ids

@@ -1,3 +1,8 @@
++++
+ title = 'Wisconsin'
+[params]
+	author = 'Carson West'
++++
 **[Wisconsin](./../wisconsin/) in AP [United States](./../united-states/) History**
 
 **Timeline**

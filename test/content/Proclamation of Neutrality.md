@@ -1,3 +1,8 @@
++++
+ title = 'Proclamation of Neutrality'
+[params]
+	author = 'Carson West'
++++
 **WHEN**: April 22, 1793
 
 **WHO**: President [George Washington](./../george-washington/)
@@ -8,9 +13,4 @@
 * Avoided involvement in a major European conflict and preserved American neutrality
 * Set a precedent for the [United States](./../united-states/)' foreign policy of non-intervention in European affairs
 * Upset many Americans who sympathized with the French Revolution and wanted to support their cause
-+++
- title = 'Proclamation of Neutrality'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

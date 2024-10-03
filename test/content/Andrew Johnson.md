@@ -1,3 +1,8 @@
++++
+ title = 'Andrew Johnson'
+[params]
+	author = 'Carson West'
++++
 **[Andrew Johnson](./../andrew-johnson/) (1808-1875)**
 
 **Early Life and Career:**

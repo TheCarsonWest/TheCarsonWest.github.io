@@ -1,3 +1,8 @@
++++
+ title = 'Georgia'
+[params]
+	author = 'Carson West'
++++
 **[Georgia](./../georgia/) in [United States](./../united-states/) History**
 
 **Timeline of Associated Events**

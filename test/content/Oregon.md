@@ -1,3 +1,8 @@
++++
+ title = 'Oregon'
+[params]
+	author = 'Carson West'
++++
 **[Oregon](./../oregon/): Timeline, Legislation, Court Cases, Industry, and National Impact**
 
 **Timeline**

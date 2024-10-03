@@ -1,3 +1,8 @@
++++
+ title = 'Rutherford B. Hayes'
+[params]
+	author = 'Carson West'
++++
 **[Rutherford B](./../rutherford-b/). Hayes**
 
 **Background:**

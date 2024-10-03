@@ -1,3 +1,8 @@
++++
+ title = 'Constitutional Convention'
+[params]
+	author = 'Carson West'
++++
 **ID:** [Constitutional Convention](./../constitutional-convention/)
 
 **WHEN:** May 25th - September 17th, 1787
@@ -18,9 +23,4 @@
 - Resulted in the creation of the [Constitution of the United States](./../constitution-of-the-united-states/), which established a new federal government with three branches
 - Strengthened the central government and established a system of checks and balances
 - Laid the foundation for the American political system and has served as the supreme law of the land for over 200 years
-+++
- title = 'Constitutional Convention'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

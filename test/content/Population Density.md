@@ -1,10 +1,10 @@
- [Glossary](./../glossary/)
-
 +++
  title = 'Population Density'
 [params]
 	author = 'Carson West'
 +++
+ [Glossary](./../glossary/)
+
 # [Arithmetic Density]
 # $$ Density = {People \over Area} $$ ### High Arithmetic countries:
 - India

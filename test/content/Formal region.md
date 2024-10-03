@@ -1,3 +1,8 @@
++++
+ title = 'Formal region'
+[params]
+	author = 'Carson West'
++++
  [Glossary](./../glossary/)
 
 **Formal Region:**

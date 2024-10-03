@@ -1,3 +1,8 @@
++++
+ title = 'Boston Tea Party'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 42.3554334,-71.060511
 ---
@@ -13,9 +18,4 @@ location: 42.3554334,-71.060511
 
 * **Short-term:** Led to the passage of the [Intolerable Acts](./../intolerable-acts/), which further angered colonists.
 * **Long-term:** Contributed to the outbreak of the American Revolution and cemented the idea of colonial self-governance.
-+++
- title = 'Boston Tea Party'
-[params]
-	author = 'Carson West'
-+++
 #ids

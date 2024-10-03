@@ -1,3 +1,8 @@
++++
+ title = 'Nebraska'
+[params]
+	author = 'Carson West'
++++
 **[Nebraska](./../nebraska/): A Timeline of Key Events**
 
 **Pre-1867**

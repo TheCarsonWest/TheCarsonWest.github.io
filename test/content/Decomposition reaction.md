@@ -1,3 +1,8 @@
++++
+ title = 'Decomposition reaction'
+[params]
+	author = 'Carson West'
++++
 
 **Decomposition Reactions**
 

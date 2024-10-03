@@ -1,3 +1,8 @@
++++
+ title = 'Kentucky'
+[params]
+	author = 'Carson West'
++++
 **[Kentucky](./../kentucky/) in U.S. History**
 
 **Timeline of Events:**

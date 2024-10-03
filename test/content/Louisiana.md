@@ -1,3 +1,8 @@
++++
+ title = 'Louisiana'
+[params]
+	author = 'Carson West'
++++
 **[Louisiana](./../louisiana/): AP [United States](./../united-states/) History Rundown**
 
 **Timeline of Events:**

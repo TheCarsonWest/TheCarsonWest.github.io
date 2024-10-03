@@ -1,3 +1,8 @@
++++
+ title = 'James K. Polk'
+[params]
+	author = 'Carson West'
++++
 **[James K](./../james-k/). Polk** (1795-1849)
 
 **Presidency (1845-1849):**

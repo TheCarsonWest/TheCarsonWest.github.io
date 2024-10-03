@@ -1,3 +1,8 @@
++++
+ title = 'George Washington’s Farewell Address'
+[params]
+	author = 'Carson West'
++++
 **Notecard**
 
 **WHEN:** September 19, 1796
@@ -13,9 +18,4 @@
 * **Emphasized morality and virtue:** Stressed the importance of honesty, integrity, and religious faith in maintaining a healthy society.
 * **Legacy as a guide for American foreign policy:** [Washington](./../washington/)'s principles have influenced US foreign policy throughout history.
 * **Set a precedent for presidential departing addresses:** Established a tradition of presidents giving farewell addresses before leaving office.
-+++
- title = 'George Washington’s Farewell Address'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)

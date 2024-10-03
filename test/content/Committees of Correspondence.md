@@ -1,3 +1,8 @@
++++
+ title = 'Committees of Correspondence'
+[params]
+	author = 'Carson West'
++++
 **ID:** [Committees of Correspondence](./../committees-of-correspondence/)
 
 **When:** Fall of 1772
@@ -18,9 +23,4 @@
 * Strengthened colonial solidarity and resistance to British authority
 * Played a key role in mobilizing support for the American Revolution
 * Provided a foundation for the future [United States](./../united-states/) Congress
-+++
- title = 'Committees of Correspondence'
-[params]
-	author = 'Carson West'
-+++
 #ids

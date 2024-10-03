@@ -1,3 +1,8 @@
++++
+ title = 'Abraham Lincoln'
+[params]
+	author = 'Carson West'
++++
 **[Abraham Lincoln](./../abraham-lincoln/) (1809-1865)**
 
 **Pre-Presidency:**

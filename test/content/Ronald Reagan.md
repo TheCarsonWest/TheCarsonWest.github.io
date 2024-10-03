@@ -1,3 +1,8 @@
++++
+ title = 'Ronald Reagan'
+[params]
+	author = 'Carson West'
++++
 **[Ronald Reagan](./../ronald-reagan/) (1981-1989)**
 
 **Events Associated With:**

@@ -1,3 +1,8 @@
++++
+ title = 'Martin Van Buren'
+[params]
+	author = 'Carson West'
++++
 **[Martin Van Buren](./../martin-van-buren/) (1782-1862)**
 
 **Events and Policies:**

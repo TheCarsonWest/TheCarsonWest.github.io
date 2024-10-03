@@ -1,13 +1,13 @@
- [APHG Unit 1](./../aphg-unit-1/)
-
-* Information linked to specific places
-* Includes locations, human activities, and traits
-
 +++
  title = 'Geospatial Data'
 [params]
 	author = 'Carson West'
 +++
+ [APHG Unit 1](./../aphg-unit-1/)
+
+* Information linked to specific places
+* Includes locations, human activities, and traits
+
 # **Obtaining Data**
 
 * Fieldwork: observing and recording information on location (e.g., census, interviews)

@@ -1,3 +1,8 @@
++++
+ title = 'Joe Biden'
+[params]
+	author = 'Carson West'
++++
 **[Joe Biden](./../joe-biden/): AP [United States](./../united-states/) History Rundown**
 
 **Early Life and Career:**

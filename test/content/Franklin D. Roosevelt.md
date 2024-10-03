@@ -1,3 +1,8 @@
++++
+ title = 'Franklin D. Roosevelt'
+[params]
+	author = 'Carson West'
++++
 **President Franklin Delano Roosevelt (1933-1945)**
 
 **Events Associated With:**

@@ -1,3 +1,8 @@
++++
+ title = 'George W. Bush'
+[params]
+	author = 'Carson West'
++++
 **[George W](./../george-w/). Bush**
 
 **Background:**

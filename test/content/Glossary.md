@@ -1,9 +1,9 @@
-[APHG Home](./../aphg-home/)
 +++
  title = 'Glossary'
 [params]
 	author = 'Carson West'
 +++
+[APHG Home](./../aphg-home/)
 ## Unit 1
 ### Region Types
 

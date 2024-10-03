@@ -1,3 +1,8 @@
++++
+ title = 'Benjamin Harrison'
+[params]
+	author = 'Carson West'
++++
 **[Benjamin Harrison](./../benjamin-harrison/) (23rd President of the [United States](./../united-states/))**
 
 **Political Career:**

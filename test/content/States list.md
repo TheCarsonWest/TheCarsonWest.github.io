@@ -1,3 +1,8 @@
++++
+ title = 'States list'
+[params]
+	author = 'Carson West'
++++
 States list
 - [Alabama](./../alabama/)
 - [Alaska](./../alaska/)

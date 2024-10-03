@@ -1,3 +1,8 @@
++++
+ title = 'Millard Fillmore'
+[params]
+	author = 'Carson West'
++++
 **[Millard Fillmore](./../millard-fillmore/) (1850-1853)**
 
 **Early Life and Career:**

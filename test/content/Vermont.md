@@ -1,3 +1,8 @@
++++
+ title = 'Vermont'
+[params]
+	author = 'Carson West'
++++
 **[Vermont](./../vermont/): A History of Independence and Reform**
 
 **Timeline of Key Events:**

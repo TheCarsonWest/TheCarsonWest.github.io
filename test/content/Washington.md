@@ -1,3 +1,8 @@
++++
+ title = 'Washington'
+[params]
+	author = 'Carson West'
++++
 **State of [Washington](./../washington/): AP [United States](./../united-states/) History**
 
 **Timeline:**

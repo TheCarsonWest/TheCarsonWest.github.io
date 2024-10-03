@@ -1,3 +1,8 @@
++++
+ title = 'Report on the Public Credit'
+[params]
+	author = 'Carson West'
++++
 **Notecard**
 
 **WHEN:** December 14, 1790
@@ -12,9 +17,4 @@
 * Advocated for a strong national bank and a uniform currency system
 * Laid the foundation for the federal fiscal system in the [United States](./../united-states/)
 * Contributed to the development of the American financial system and the strengthening of the federal government
-+++
- title = 'Report on the Public Credit'
-[params]
-	author = 'Carson West'
-+++
 # [IDS Unit 3](./../ids-unit-3/)
