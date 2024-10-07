@@ -31,3 +31,4 @@ my_string = "Hello"
 - [Tuples](./../tuples/): [Tuples](./../tuples/) are immutable sequences that cannot be modified.
 - [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are mutable mappings that can be modified in place.
 - [Sets](./../sets/): [Sets](./../sets/) are mutable collections that can be modified in place.
+# [Python 1 Home](./../python-1-home/)

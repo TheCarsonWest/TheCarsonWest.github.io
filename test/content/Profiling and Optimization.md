@@ -39,3 +39,4 @@ The profiling report will show you where the code is spending the most time. Onc
 - [While Loops](./../while-loops/): Profiling can be used to optimize loops.
 - [Recursion](./../recursion/): Profiling can be used to optimize recursive functions.
 - [File IO Modes](./../file-io-modes/): Profiling can be used to optimize file input/output operations.
+# [Python 1 Home](./../python-1-home/)

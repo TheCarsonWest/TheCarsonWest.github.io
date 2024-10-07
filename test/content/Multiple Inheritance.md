@@ -49,3 +49,4 @@ my_pet.play() # defined in Pet
 - [Polymorphism](./../polymorphism/): Overriding methods from parent classes in the child class demonstrates polymorphism.
 - [Encapsulation](./../encapsulation/): Attributes and methods from parent classes can be encapsulated within the child class through multiple inheritance.
 - [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/): Method Resolution Order determines the order in which methods are resolved in the child class when inheriting from multiple parent classes.
+# [Python 1 Home](./../python-1-home/)

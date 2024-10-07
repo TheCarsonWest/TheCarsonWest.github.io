@@ -147,3 +147,4 @@ plt.savefig('my_plot.png')
 - [Variables and Data Types](./../variables-and-data-types/): Variables and data types are used to store and represent data in Matplotlib.
 - [Operators](./../operators/): [Operators](./../operators/) are used to perform operations on data in Matplotlib.
 - [Functions](./../functions/): [Functions](./../functions/) are used to encapsulate code and perform specific tasks in Matplotlib.
+# [Python 1 Home](./../python-1-home/)

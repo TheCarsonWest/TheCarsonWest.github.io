@@ -58,3 +58,4 @@ for ent in doc.ents:
 - [Dictionaries](./../dictionaries/): Map words to their POS tags or lemma forms.
 - [Functions](./../functions/): Define custom NLP functions for specialized tasks.
 - [Generators](./../generators/): Yield tokens or entities one at a time for memory efficiency.
+# [Python 1 Home](./../python-1-home/)

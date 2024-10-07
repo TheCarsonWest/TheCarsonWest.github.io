@@ -56,3 +56,4 @@ except FileNotFoundException as e:
 - [Inheritance](./../inheritance/): Custom exceptions inherit from the `Exception` base class to gain its functionality.
 - [Function Parameters](./../function-parameters/): The constructor of a custom exception class can take additional parameters for error handling.
 - [Return Values](./../return-values/): Custom exceptions can return error messages or other relevant information.
+# [Python 1 Home](./../python-1-home/)

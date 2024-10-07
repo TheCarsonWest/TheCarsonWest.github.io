@@ -84,3 +84,4 @@ os.remove('temp_file.txt')
 - [Operators](./../operators/): [Operators](./../operators/) are used in Pathlib and OS functions for comparisons and other operations.
 - [Control Flow If Statements](./../control-flow-if-statements/): If statements are used to check conditions related to files and directories.
 - [For Loops](./../for-loops/): For loops are used to iterate over files and directories.
+# [Python 1 Home](./../python-1-home/)

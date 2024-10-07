@@ -53,3 +53,4 @@ else:
 - [While Loops](./../while-loops/): Similarly, nested if statements can be used within while loops to control loop execution.
 - [Functions](./../functions/): Nested if statements can be used to conditionally call functions or determine function behavior.
 - [Boolean Logic](./../boolean-logic/): Nested if statements rely on Boolean logic operators (e.g., and, or, not) for conditional evaluations.
+# [Python 1 Home](./../python-1-home/)

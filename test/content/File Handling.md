@@ -46,3 +46,4 @@ file.close()
 - [Control Flow If Statements](./../control-flow-if-statements/): File handling operations often involve conditional execution.
 - [Functions](./../functions/): File I/O operations can be encapsulated in functions for reuse.
 - [File IO Modes](./../file-io-modes/): There are several different modes available for opening files, each with specific behavior.
+# [Python 1 Home](./../python-1-home/)

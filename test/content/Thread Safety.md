@@ -88,3 +88,4 @@ thread_local = threading.local()
 - [Multiprocessing](./../multiprocessing/): [Multiprocessing](./../multiprocessing/) offers an alternative to threads for parallel execution, but thread safety considerations still apply.
 - [Synchronization](./../synchronization/): Thread safety requires proper synchronization mechanisms to ensure that multiple threads can access shared resources without conflict.
 - [Asynchronous Programming](./../asynchronous-programming/): Asynchronous programming techniques can help avoid thread safety issues by leveraging event-based execution models.
+# [Python 1 Home](./../python-1-home/)

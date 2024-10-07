@@ -40,3 +40,4 @@ print(numbers) # Output: [2, 4, 1, 3, 5]
 - [[Higher-Order [Functions](./../functions/): Lambda functions are often used as arguments to higher-order functions.
 - [Closures](./../closures/): Lambda functions can access variables from the enclosing scope, creating closures.
 - [Map, Filter, and Reduce](./../map,-filter,-and-reduce/): Lambda functions commonly appear in these built-in functions.
+# [Python 1 Home](./../python-1-home/)

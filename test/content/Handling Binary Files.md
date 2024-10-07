@@ -66,3 +66,4 @@ wav_file.close()
 - [Bytes and Bytearrays](./../bytes-and-bytearrays/): Binary data is stored in bytearrays, which contain sequences of 0s and 1s.
 - [Streams](./../streams/): Binary file handling often involves working with streams of data as opposed to specific characters.
 - [Images, Videos, and Audio](./../images,-videos,-and-audio/): Binary files commonly store data for these multimedia types.
+# [Python 1 Home](./../python-1-home/)

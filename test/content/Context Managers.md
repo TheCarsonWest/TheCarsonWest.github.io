@@ -41,3 +41,4 @@ with TemporaryDirectory() as tmp_dir:
 - [Generators](./../generators/): Context managers can be implemented using generators.
 - [Decorators](./../decorators/): Context managers can be implemented using decorators.
 - [[Custom [Context Managers](./../context-managers/): You can create your own custom context managers to manage your resources.
+# [Python 1 Home](./../python-1-home/)

@@ -34,3 +34,4 @@ result = c * b
 - [Vectorization](./../vectorization/): Broadcasting enables the efficient execution of element-wise operations on arrays.
 - [Slicing in NumPy](./../slicing-in-numpy/): Broadcasting can be used in conjunction with slicing to perform operations on specific subsets of arrays.
 - [DataFrames in Pandas](./../dataframes-in-pandas/): Pandas DataFrames also support broadcasting operations, allowing for efficient dataframe manipulations.
+# [Python 1 Home](./../python-1-home/)

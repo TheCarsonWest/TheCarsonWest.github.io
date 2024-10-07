@@ -35,3 +35,4 @@ In this example, the MRO for class `C` is `[C, B, A]` (from most derived to leas
 - [Polymorphism](./../polymorphism/): MRO enables the use of different implementations of the same method in subclasses.
 - [[Multiple [Inheritance](./../inheritance/): MRO is particularly important in managing method conflicts in multiple inheritance scenarios.
 - [Method Overloading](./../method-overloading/): MRO helps resolve ambiguity when multiple methods have the same name but different parameters.
+# [Python 1 Home](./../python-1-home/)

@@ -52,3 +52,4 @@ print(result) # 15
 - [Map, Filter, and Reduce](./../map,-filter,-and-reduce/): These are built-in HOFs that perform common operations on iterables.
 - [Closures](./../closures/): [Closures](./../closures/) allow HOFs to retain access to variables outside their scope.
 - [Decorators](./../decorators/): [Decorators](./../decorators/) are HOFs that modify the behavior of other functions.
+# [Python 1 Home](./../python-1-home/)

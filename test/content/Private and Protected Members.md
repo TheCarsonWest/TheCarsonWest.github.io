@@ -52,3 +52,4 @@ class MyClass:
 - [Inheritance](./../inheritance/): Protected members can be accessed from subclasses.
 - [Function Parameters](./../function-parameters/): Private and protected methods can accept parameters like regular methods.
 - [Return Values](./../return-values/): Private and protected methods can return values like regular methods.
+# [Python 1 Home](./../python-1-home/)

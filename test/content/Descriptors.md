@@ -45,3 +45,4 @@ print(e.name) # Output: "JOHN DOE"
 - [Decorators](./../decorators/): [Decorators](./../decorators/) can also be used to modify object attributes, although descriptors offer more flexibility and control.
 - [Class and Objects](./../class-and-objects/): [Descriptors](./../descriptors/) operate on object attributes, providing a means to define custom behavior for these attributes.
 - [Inheritance](./../inheritance/): [Descriptors](./../descriptors/) can be inherited by subclasses, allowing for reusable attribute customization across multiple classes.
+# [Python 1 Home](./../python-1-home/)

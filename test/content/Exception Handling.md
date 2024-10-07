@@ -47,3 +47,4 @@ except FileNotFoundError:
 - [Functions](./../functions/): Exception handling is often used in conjunction with functions to handle errors that occur during function calls.
 - [For Loops](./../for-loops/): Exception handling can be used to detect and handle errors that occur within loops.
 - [While Loops](./../while-loops/): Similar to for loops, exception handling can be used to handle errors in while loops.
+# [Python 1 Home](./../python-1-home/)

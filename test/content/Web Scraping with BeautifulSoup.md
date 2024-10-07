@@ -55,3 +55,4 @@ title = title_element.text
 - [HTML and XML](./../html-and-xml/): BeautifulSoup specifically parses HTML and XML documents.
 - [Web Development with Django](./../web-development-with-django/): Web scraping can be used to gather data for web development projects.
 - [Handling APIs with Requests Library](./../handling-apis-with-requests-library/): Web scraping can be used to access data from APIs.
+# [Python 1 Home](./../python-1-home/)

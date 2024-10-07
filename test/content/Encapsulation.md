@@ -27,3 +27,4 @@ class Person:
 - [Inheritance](./../inheritance/): [Encapsulation](./../encapsulation/) ensures that private attributes are not inherited by subclasses.
 - [Polymorphism](./../polymorphism/): Encapsulated methods can be overridden in subclasses, allowing for polymorphic behavior.
 - [Descriptors](./../descriptors/): [Encapsulation](./../encapsulation/) can be implemented using descriptors to control attribute access.
+# [Python 1 Home](./../python-1-home/)

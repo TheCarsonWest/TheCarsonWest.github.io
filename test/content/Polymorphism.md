@@ -45,3 +45,4 @@ cat.speak() # prints "Cat meows."
 - [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/): Determines the order in which methods are searched within the class hierarchy during polymorphism.
 - [Duck Typing](./../duck-typing/): A variant of polymorphism where objects are classified by methods they implement rather than their class.
 - [Higher-Order [[Functions](./../higher-order-[[functions/): [Functions](./../functions/) that take other functions as arguments or return functions enable polymorphism by allowing runtime customization.
+# [Python 1 Home](./../python-1-home/)

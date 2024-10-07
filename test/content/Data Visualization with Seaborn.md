@@ -57,3 +57,4 @@ sns.histplot(data=df, x="x")
 - [DataFrames in Pandas](./../dataframes-in-pandas/): Pandas DataFrames are commonly used as input data for Seaborn plots.
 - [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): Seaborn plots can be further customized using Matplotlib functions.
 - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Seaborn plots are mutable and can be modified after creation.
+# [Python 1 Home](./../python-1-home/)

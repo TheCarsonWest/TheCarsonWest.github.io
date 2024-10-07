@@ -61,3 +61,4 @@ class Square(Shape):
 - [Polymorphism](./../polymorphism/): Abstract methods encourage polymorphism by allowing derived classes to provide different implementations of the same method.
 - [Type Hinting](./../type-hinting/): Type annotations can be used to specify the expected type of the abstract methods.
 - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Abstract classes are typically considered immutable, as their methods cannot be modified.
+# [Python 1 Home](./../python-1-home/)

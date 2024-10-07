@@ -36,3 +36,4 @@ with MyContextManager() as obj:
 - [Exception Handling](./../exception-handling/): Custom context managers can be used to handle exceptions gracefully.
 - [Classes and Objects](./../classes-and-objects/): Custom context managers are implemented as classes.
 - [Decorators](./../decorators/): Custom context managers can be implemented using decorators (@contextmanager).
+# [Python 1 Home](./../python-1-home/)

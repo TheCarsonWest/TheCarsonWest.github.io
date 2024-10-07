@@ -35,3 +35,4 @@ Python objects have reference counts that keep track of the number of references
 - [Closures](./../closures/): [Closures](./../closures/) can retain references to variables in their enclosing scope, potentially keeping objects alive longer than necessary.
 - [Garbage Collection](./../garbage-collection/): The garbage collector is a key component of Python's memory management system.
 - [Thread Safety](./../thread-safety/): Multithreaded applications need to consider memory management issues related to thread safety and synchronization.
+# [Python 1 Home](./../python-1-home/)

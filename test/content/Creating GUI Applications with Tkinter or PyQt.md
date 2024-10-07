@@ -126,3 +126,4 @@ app.exec_()
 - [Object-Oriented Programming](./../object-oriented-programming/): Tkinter and PyQt utilize object-oriented programming principles for representing and interacting with GUI components.
 - [Event Handling](./../event-handling/): GUIs handle user interactions through events such as button clicks and mouse movements.
 - [Threading and [[Multiprocessing](./../threading-and-[[multiprocessing/): GUIs often employ threading or multiprocessing to manage multiple tasks concurrently.
+# [Python 1 Home](./../python-1-home/)
