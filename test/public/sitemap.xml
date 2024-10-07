@@ -22,6 +22,8 @@
   </url><url>
     <loc>http://example.org/apchem-home/</loc>
   </url><url>
+    <loc>http://example.org/apchem-rundown/</loc>
+  </url><url>
     <loc>http://example.org/aphg-home/</loc>
   </url><url>
     <loc>http://example.org/aphg-unit-1/</loc>
@@ -188,6 +190,8 @@
   </url><url>
     <loc>http://example.org/electrical-constant/</loc>
   </url><url>
+    <loc>http://example.org/electrolyte/</loc>
+  </url><url>
     <loc>http://example.org/electron-affinity/</loc>
   </url><url>
     <loc>http://example.org/electronegativity/</loc>
@@ -313,6 +317,8 @@
     <loc>http://example.org/inheritance/</loc>
   </url><url>
     <loc>http://example.org/intolerable-acts/</loc>
+  </url><url>
+    <loc>http://example.org/ion-concentration/</loc>
   </url><url>
     <loc>http://example.org/ionization-energy/</loc>
   </url><url>
@@ -488,6 +494,8 @@
   </url><url>
     <loc>http://example.org/oregon/</loc>
   </url><url>
+    <loc>http://example.org/other-important-ap-chem-things/</loc>
+  </url><url>
     <loc>http://example.org/panic-of-1819/</loc>
   </url><url>
     <loc>http://example.org/pathlib-and-os-module/</loc>
@@ -576,6 +584,8 @@
   </url><url>
     <loc>http://example.org/single-replacement-reaction/</loc>
   </url><url>
+    <loc>http://example.org/solutions/</loc>
+  </url><url>
     <loc>http://example.org/sons-of-liberty/</loc>
   </url><url>
     <loc>http://example.org/south-carolina/</loc>
@@ -641,8 +651,6 @@
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
     <loc>http://example.org/united-states/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

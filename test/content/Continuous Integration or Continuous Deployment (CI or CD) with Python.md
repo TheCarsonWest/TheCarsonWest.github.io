@@ -77,7 +77,7 @@ jobs:
  inputs:
  azureSubscription: 'my-subscription'
  appName: 'my-app'
- package: '$(Build.Artifact)'
+ package: ' $ (Build.Artifact)'
 ```
 
 ### Related Python Concepts

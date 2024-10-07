@@ -11,3 +11,5 @@
 # [Processes](./../processes/)
 # [Labs](./../labs/)
 # [Reactions Types](./../reactions-types/)
+
+# [Other important AP CHEM things](./../other-important-ap-chem-things/)

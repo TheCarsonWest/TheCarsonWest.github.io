@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="{{ "https://thecarsonwest.github.io/css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "https://thecarsonwest.github.io/css/fonts.css" | relURL }}" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'] ],
+          processEscapes: true
+        }
+      });
+    </script>
+        
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
     {{ partial "head_custom.html" . }}
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </head>

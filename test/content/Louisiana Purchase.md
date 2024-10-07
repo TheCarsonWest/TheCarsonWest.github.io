@@ -9,7 +9,7 @@
 
 **WHO:** [United States](./../united-states/) and [France](./../france/)
 
-**WHAT:** The [United States](./../united-states/) purchased the [Louisiana](./../louisiana/) Territory from [France](./../france/) for $15 million. The territory extended from the [Mississippi](./../mississippi/) River to the Rocky Mountains and from [Canada](./../canada/) to the Gulf of Mexico.
+**WHAT:** The [United States](./../united-states/) purchased the [Louisiana](./../louisiana/) Territory from [France](./../france/) for  $ 15 million. The territory extended from the [Mississippi](./../mississippi/) River to the Rocky Mountains and from [Canada](./../canada/) to the Gulf of Mexico.
 
 **IMPACT:**
 

@@ -8,7 +8,7 @@
 
 **General Equation:**
 
-$$ A + BC → AC + B $$ * A is the element that replaces B
+ $  $  A + BC → AC + B  $  $  * A is the element that replaces B
 * B is the element that is replaced
 * C is the common element in both compounds
 
@@ -28,13 +28,13 @@ To predict the products of a single replacement reaction, use the following rule
 
 * **Zinc and copper sulfate:**
 
-$$ Zn + CuSO₄ → ZnSO₄ + Cu $$ 
+ $  $  Zn + CuSO₄ → ZnSO₄ + Cu  $  $  
 * **Iron and silver nitrate:**
 
-$$ Fe + 2AgNO₃ → Fe(NO₃)₂ + 2Ag $$ 
+ $  $  Fe + 2AgNO₃ → Fe(NO₃)₂ + 2Ag  $  $  
 * **Copper and hydrochloric acid:**
 
-$$ Cu + 2HCl → CuCl₂ + H₂ $$ 
+ $  $  Cu + 2HCl → CuCl₂ + H₂  $  $  
 **Applications:**
 
 Single replacement reactions are used in a variety of applications, including:
