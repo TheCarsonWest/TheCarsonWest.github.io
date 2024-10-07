@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [APCHEM  Home](./../apchem--home/)
+# [APCHEM Home](./../apchem-home/)
 
 ## [Coulombs Law](./../coulombs-law/)
 ## [Aufbau Principle](./../aufbau-principle/)
