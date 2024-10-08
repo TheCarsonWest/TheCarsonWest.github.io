@@ -1,7 +1,12 @@
++++
+ title = 'Letters from a Farmer in Pennsylvania'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 40.9699889,-77.7278831
 ---
-**ID:** " [[Letters from a Farmer in [[Pennsylvania]]"
+**ID:** " [Letters from a Farmer in [[Pennsylvania](./../letters-from-a-farmer-in-[[pennsylvania/)"
 
 **When:** 1767-1768
 

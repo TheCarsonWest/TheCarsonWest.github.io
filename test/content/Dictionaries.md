@@ -1,9 +1,14 @@
-## Python [[Dictionaries]]
++++
+ title = 'Dictionaries'
+[params]
+	author = 'Carson West'
++++
+## Python [Dictionaries](./../dictionaries/)
 
 ### Definition
- [[Dictionaries]] are mutable data structures that store key-value pairs. The keys are unique and immutable, while the values can be of any type. [[Dictionaries]] provide a convenient way to store and retrieve data associated with specific keys.
+ [Dictionaries](./../dictionaries/) are mutable data structures that store key-value pairs. The keys are unique and immutable, while the values can be of any type. [Dictionaries](./../dictionaries/) provide a convenient way to store and retrieve data associated with specific keys.
 
-### How to Use [[Dictionaries]]
+### How to Use [Dictionaries](./../dictionaries/)
 ```python
 # create a dictionary using the {} syntax
 my_dict = {"key1": "value1", "key2": "value2"}
@@ -30,9 +35,9 @@ for name, age in students.items():
 
 ### Related Python Concepts
 
-- [[Variables and Data Types]]: [[Dictionaries]] are stored as variables and can contain different data types.
-- [[Lists]]: [[Lists]] and dictionaries are both sequence data structures, but lists are ordered and mutable while dictionaries are unordered and mutable.
-- [[Tuples]]: [[Tuples]] and dictionaries are both mutable data structures, but tuples are immutable.
-- [[Sets]]: [[Sets]] are similar to dictionaries but only store unique keys.
-- [[Functions]]: [[Functions]] can be used to create and modify dictionaries.
-# [[Python 1 Home]]
+- [Variables and Data Types](./../variables-and-data-types/): [Dictionaries](./../dictionaries/) are stored as variables and can contain different data types.
+- [Lists](./../lists/): [Lists](./../lists/) and dictionaries are both sequence data structures, but lists are ordered and mutable while dictionaries are unordered and mutable.
+- [Tuples](./../tuples/): [Tuples](./../tuples/) and dictionaries are both mutable data structures, but tuples are immutable.
+- [Sets](./../sets/): [Sets](./../sets/) are similar to dictionaries but only store unique keys.
+- [Functions](./../functions/): [Functions](./../functions/) can be used to create and modify dictionaries.
+# [Python 1 Home](./../python-1-home/)

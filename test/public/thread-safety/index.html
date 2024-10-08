@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> | Nerd-Emoji Web</title>
+    <title>Thread Safety | Nerd-Emoji Web</title>
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
@@ -33,16 +33,16 @@
     <hr/>
     </nav>
 <div class="article-meta">
-<h1><span class="title"></span></h1>
-
+<h1><span class="title">Thread Safety</span></h1>
+<h2 class="author">Carson West</h2>
 
 </div>
 
 <main>
-<h2 id="thread-safety">[[Thread Safety]]</h2>
-<h3 id="what-is-thread-safety">What is [[Thread Safety]]?</h3>
+<h2 id="thread-safetythread-safety"><a href="./../thread-safety/">Thread Safety</a></h2>
+<h3 id="what-is-thread-safetythread-safety">What is <a href="./../thread-safety/">Thread Safety</a>?</h3>
 <p>Thread safety refers to the ability of a code block or object to be safely executed by multiple threads simultaneously without causing unpredictable behavior or data corruption. In other words, thread-safe code ensures that the outcome of a computation is the same regardless of how many threads are accessing it.</p>
-<h3 id="how-to-use-thread-safety">How to Use [[Thread Safety]]</h3>
+<h3 id="how-to-use-thread-safetythread-safety">How to Use <a href="./../thread-safety/">Thread Safety</a></h3>
 <p>Thread safety can be achieved in Python using various approaches:</p>
 <p><strong>1. Locks:</strong> Locks are synchronization primitives that allow only one thread to access a critical section of code at a time. This prevents other threads from interfering with the execution of the critical section.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> threading
@@ -98,13 +98,13 @@
 </span></span><span style="display:flex;"><span>thread_local <span style="color:#f92672">=</span> threading<span style="color:#f92672">.</span>local()
 </span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
 <ul>
-<li>[[Concurrency and Multithreading]]: Thread safety is a key concern in multithreaded programming.</li>
-<li>[[Locks]]: Locks are essential for achieving thread safety by controlling access to critical sections.</li>
-<li>[[Multiprocessing]]: [[Multiprocessing]] offers an alternative to threads for parallel execution, but thread safety considerations still apply.</li>
-<li>[[Synchronization]]: Thread safety requires proper synchronization mechanisms to ensure that multiple threads can access shared resources without conflict.</li>
-<li>[[Asynchronous Programming]]: Asynchronous programming techniques can help avoid thread safety issues by leveraging event-based execution models.</li>
+<li><a href="./../concurrency-and-multithreading/">Concurrency and Multithreading</a>: Thread safety is a key concern in multithreaded programming.</li>
+<li><a href="./../locks/">Locks</a>: Locks are essential for achieving thread safety by controlling access to critical sections.</li>
+<li><a href="./../multiprocessing/">Multiprocessing</a>: <a href="./../multiprocessing/">Multiprocessing</a> offers an alternative to threads for parallel execution, but thread safety considerations still apply.</li>
+<li><a href="./../synchronization/">Synchronization</a>: Thread safety requires proper synchronization mechanisms to ensure that multiple threads can access shared resources without conflict.</li>
+<li><a href="./../asynchronous-programming/">Asynchronous Programming</a>: Asynchronous programming techniques can help avoid thread safety issues by leveraging event-based execution models.</li>
 </ul>
-<h1 id="python-1-home">[[Python 1 Home]]</h1>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
 
 </main>
 

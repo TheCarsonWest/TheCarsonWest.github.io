@@ -1,4 +1,9 @@
-## [[Natural Language Processing with NLTK or Spacy]]
++++
+ title = 'Natural Language Processing with NLTK or Spacy'
+[params]
+	author = 'Carson West'
++++
+## [Natural Language Processing with NLTK or Spacy](./../natural-language-processing-with-nltk-or-spacy/)
 
 ### What is NLP with NLTK or Spacy?
 Natural Language Processing (NLP) involves enabling computers to understand and process human language. NLTK and Spacy are popular Python libraries for NLP tasks, providing tools for tasks such as:
@@ -48,9 +53,9 @@ for ent in doc.ents:
 ```
 
 ### Related Python Concepts
-- [[Regular Expressions]]: Used for complex text matching and tokenization.
-- [[Lists]]: Store sequences of tokens or entities.
-- [[Dictionaries]]: Map words to their POS tags or lemma forms.
-- [[Functions]]: Define custom NLP functions for specialized tasks.
-- [[Generators]]: Yield tokens or entities one at a time for memory efficiency.
-# [[Python 1 Home]]
+- [Regular Expressions](./../regular-expressions/): Used for complex text matching and tokenization.
+- [Lists](./../lists/): Store sequences of tokens or entities.
+- [Dictionaries](./../dictionaries/): Map words to their POS tags or lemma forms.
+- [Functions](./../functions/): Define custom NLP functions for specialized tasks.
+- [Generators](./../generators/): Yield tokens or entities one at a time for memory efficiency.
+# [Python 1 Home](./../python-1-home/)

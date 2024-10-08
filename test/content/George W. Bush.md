@@ -1,15 +1,20 @@
-**[[George W]]. Bush**
++++
+ title = 'George W. Bush'
+[params]
+	author = 'Carson West'
++++
+**[George W](./../george-w/). Bush**
 
 **Background:**
 
-* Born July 6, 1946, in New Haven, [[Connecticut]]
-* Son of former President [[George H]]. W. Bush
-* Graduated from Yale University and [[Harvard]] Business School
+* Born July 6, 1946, in New Haven, [Connecticut](./../connecticut/)
+* Son of former President [George H](./../george-h/). W. Bush
+* Graduated from Yale University and [Harvard](./../harvard/) Business School
 
 **Political Career:**
 
-* Elected Governor of [[Texas]] in 1994 and reelected in 1998
-* Elected President of the [[United States]] in 2000 after a close and controversial election
+* Elected Governor of [Texas](./../texas/) in 1994 and reelected in 1998
+* Elected President of the [United States](./../united-states/) in 2000 after a close and controversial election
 * Reelected in 2004
 
 **Major Events:**
@@ -36,7 +41,7 @@
 * Republican Party
 * Council on Foreign Relations
 * Yale University
-* [[Harvard]] Business School
+* [Harvard](./../harvard/) Business School
 
 **Impact:**
 

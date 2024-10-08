@@ -1,4 +1,9 @@
-**ID:** [[Puritans]]
++++
+ title = 'Puritans'
+[params]
+	author = 'Carson West'
++++
+**ID:** [Puritans](./../puritans/)
 
 **When:**
 
@@ -17,7 +22,7 @@
 * Religious reformers within the Church of England
 * Believed in the concept of "predestination"
 * Sought to establish pure churches
-* Founded the [[Massachusetts]] Bay Colony
+* Founded the [Massachusetts](./../massachusetts/) Bay Colony
 * Emphasized education and literacy
 
 **Impact:**
@@ -29,5 +34,5 @@
 * **Long-Term:**
  * Laid the foundation for American education and religious pluralism
  * Influenced the development of American democracy and individualism
- * Contributed to the intellectual and cultural heritage of the [[United States]]
+ * Contributed to the intellectual and cultural heritage of the [United States](./../united-states/)
 #ids

@@ -1,6 +1,11 @@
-## [[Unit Testing and Test-Driven Development]]
++++
+ title = 'Unit Testing and Test-Driven Development'
+[params]
+	author = 'Carson West'
++++
+## [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/)
 
-### What is [[Unit Testing and Test-Driven Development]]?
+### What is [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/)?
 Unit testing is a methodology for testing individual units of code, typically functions or methods, to ensure their correct functionality. Test-driven development (TDD) is an agile development approach that emphasizes writing tests before writing the actual code, ensuring that the code meets the requirements from the outset.
 
 ### How to Use Unit Testing in Python
@@ -45,9 +50,9 @@ Run the test again to verify that it now passes, confirming the correct implemen
 
 ### Related Python Concepts
 
-- [[Functions]]: Unit tests primarily target functions or methods.
-- [[Modules and Packages]]: Unit tests can be organized into separate files as modules or packages.
-- [[Exceptions]]: Unit tests can check for the correct handling of exceptions.
-- [[Mocks]]: Unit tests often use mocks to simulate the behavior of external dependencies.
-- [[Type Hinting]]: Type hints in test functions help ensure the correct types of inputs and outputs.
-# [[Python 1 Home]]
+- [Functions](./../functions/): Unit tests primarily target functions or methods.
+- [Modules and Packages](./../modules-and-packages/): Unit tests can be organized into separate files as modules or packages.
+- [Exceptions](./../exceptions/): Unit tests can check for the correct handling of exceptions.
+- [Mocks](./../mocks/): Unit tests often use mocks to simulate the behavior of external dependencies.
+- [Type Hinting](./../type-hinting/): Type hints in test functions help ensure the correct types of inputs and outputs.
+# [Python 1 Home](./../python-1-home/)

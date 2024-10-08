@@ -1,8 +1,13 @@
-**[[James A]]. Garfield**
++++
+ title = 'James A. Garfield'
+[params]
+	author = 'Carson West'
++++
+**[James A](./../james-a/). Garfield**
 
 **Early Life and Career:**
 
-* Born on November 19, 1831, in Moreland Hills, [[Ohio]]
+* Born on November 19, 1831, in Moreland Hills, [Ohio](./../ohio/)
 * Attended Hiram College and Western Reserve College
 * Served as a Union general in the Civil War
 
@@ -10,7 +15,7 @@
 
 * Elected to the U.S. House of Representatives in 1863
 * Served as Speaker of the House from 1877 to 1879
-* Elected President of the [[United States]] in 1880
+* Elected President of the [United States](./../united-states/) in 1880
 
 **Events Associated with Garfield:**
 

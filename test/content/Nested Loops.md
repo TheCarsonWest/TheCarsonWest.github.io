@@ -1,9 +1,14 @@
-## [[Nested Loops]]
++++
+ title = 'Nested Loops'
+[params]
+	author = 'Carson West'
++++
+## [Nested Loops](./../nested-loops/)
 
-### What are [[Nested Loops]]?
+### What are [Nested Loops](./../nested-loops/)?
 Nested loops are a sequence of loops, where one or more loops are contained within another loop. They enable the execution of a nested block of code a specified number of times, depending on the conditions of the outer and inner loops.
 
-### How to Use [[Nested Loops]]
+### How to Use [Nested Loops](./../nested-loops/)
 To create nested loops, use one or more for loops (or while loops) nested within another for loop (or while loop). The syntax is as follows:
 
 ```python
@@ -32,9 +37,9 @@ else:
 
 ### Related Python Concepts
 
-- [[For Loops]]: Nested loops are built using multiple for loops (or while loops).
-- [[Variables]]: The variables used in the nested loops represent the counters or iterators used to control the flow of execution.
-- [[Control Flow If Statements]]: Nested loops can be used in conjunction with if statements to conditionally execute code blocks.
-- [[Functions]]: Nested loops can be used to iterate over the elements of a list or dictionary passed as a parameter to a function.
-- [[List Comprehension]]: Nested loops can be used to create multi-dimensional lists using list comprehension.
-# [[Python 1 Home]]
+- [For Loops](./../for-loops/): Nested loops are built using multiple for loops (or while loops).
+- [Variables](./../variables/): The variables used in the nested loops represent the counters or iterators used to control the flow of execution.
+- [Control Flow If Statements](./../control-flow-if-statements/): Nested loops can be used in conjunction with if statements to conditionally execute code blocks.
+- [Functions](./../functions/): Nested loops can be used to iterate over the elements of a list or dictionary passed as a parameter to a function.
+- [List Comprehension](./../list-comprehension/): Nested loops can be used to create multi-dimensional lists using list comprehension.
+# [Python 1 Home](./../python-1-home/)

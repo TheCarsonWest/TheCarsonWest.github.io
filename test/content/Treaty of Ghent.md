@@ -1,8 +1,13 @@
-**Notecard on the [[Treaty of Ghent]]**
++++
+ title = 'Treaty of Ghent'
+[params]
+	author = 'Carson West'
++++
+**Notecard on the [Treaty of Ghent](./../treaty-of-ghent/)**
 
 **WHEN:** December 24, 1814
 
-**WHO:** [[United States]] and Great Britain
+**WHO:** [United States](./../united-states/) and Great Britain
 
 **WHAT:**
 
@@ -19,4 +24,4 @@
 * Made the US and Great Britain aware of each other's naval and military strength
 * Boosted American nationalism and patriotism
 * Settled the issue of impressment of American sailors by the British
-# [[IDS Unit 3]]
+# [IDS Unit 3](./../ids-unit-3/)

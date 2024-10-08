@@ -1,7 +1,12 @@
-## [[Map, Filter, and Reduce]]
++++
+ title = 'Map, Filter, and Reduce'
+[params]
+	author = 'Carson West'
++++
+## [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
 
 ### Explanation
- [[Map, Filter, and Reduce]] are higher-order functions that operate on sequences and return a new sequence. They are widely used for functional programming in Python.
+ [Map, Filter, and Reduce](./../map,-filter,-and-reduce/) are higher-order functions that operate on sequences and return a new sequence. They are widely used for functional programming in Python.
 
 ### How to Use
 
@@ -61,9 +66,9 @@ print(product) # Output: 120
 
 ### Related Python Concepts
 
-- [[Higher-Order [[Functions]]: [[Map, Filter, and Reduce]] are higher-order functions.
-- [[Lambda [[Functions]]: Lambda functions are commonly used as arguments to Map and Filter.
-- [[List Comprehension]]: [[Map, Filter, and Reduce]] are alternatives to using list comprehensions for functional programming.
-- [[Generators]]: Map and Filter can be used to create generators.
-- [[Functional Programming]]: [[Map, Filter, and Reduce]] are core concepts in functional programming.
-# [[Python 1 Home]]
+- [Higher-Order [[Functions](./../higher-order-[[functions/): [Map, Filter, and Reduce](./../map,-filter,-and-reduce/) are higher-order functions.
+- [Lambda [[Functions](./../lambda-[[functions/): Lambda functions are commonly used as arguments to Map and Filter.
+- [List Comprehension](./../list-comprehension/): [Map, Filter, and Reduce](./../map,-filter,-and-reduce/) are alternatives to using list comprehensions for functional programming.
+- [Generators](./../generators/): Map and Filter can be used to create generators.
+- [Functional Programming](./../functional-programming/): [Map, Filter, and Reduce](./../map,-filter,-and-reduce/) are core concepts in functional programming.
+# [Python 1 Home](./../python-1-home/)

@@ -1,10 +1,15 @@
-# See [[README]]
++++
+ title = 'nexus'
+[params]
+	author = 'Carson West'
++++
+# See [README](./../readme/)
 
-# [[APHG Home]]
-# [[APUSH Home]]
+# [APHG Home](./../aphg-home/)
+# [APUSH Home](./../apush-home/)
 
-# [[APCHEM Home]]
+# [APCHEM Home](./../apchem-home/)
 
-# [[Python 1 Home]]
+# [Python 1 Home](./../python-1-home/)
 
-# [[Arabic Home]]
+# [Arabic Home](./../arabic-home/)

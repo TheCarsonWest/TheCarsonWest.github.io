@@ -1,3 +1,8 @@
++++
+ title = 'Method Resolution Order (MRO)'
+[params]
+	author = 'Carson West'
++++
 ## Method Resolution Order (MRO)
 
 ### Explanation
@@ -25,9 +30,9 @@ class C(B):
 In this example, the MRO for class `C` is `[C, B, A]` (from most derived to least derived). When calling `method` on an instance of class `C`, the interpreter will first look for a `method` method in `C`. If it's not found, it will proceed up the MRO, checking `B` and then `A`. This ensures that the most specific implementation of the method is used.
 
 ### Related Python Concepts
-- [[Classes and Objects]]: MRO is used to resolve method inheritance in class hierarchies.
-- [[Inheritance]]: MRO defines the order in which inherited methods are searched.
-- [[Polymorphism]]: MRO enables the use of different implementations of the same method in subclasses.
-- [[Multiple [[Inheritance]]: MRO is particularly important in managing method conflicts in multiple inheritance scenarios.
-- [[Method Overloading]]: MRO helps resolve ambiguity when multiple methods have the same name but different parameters.
-# [[Python 1 Home]]
+- [Classes and Objects](./../classes-and-objects/): MRO is used to resolve method inheritance in class hierarchies.
+- [Inheritance](./../inheritance/): MRO defines the order in which inherited methods are searched.
+- [Polymorphism](./../polymorphism/): MRO enables the use of different implementations of the same method in subclasses.
+- [[Multiple [Inheritance](./../inheritance/): MRO is particularly important in managing method conflicts in multiple inheritance scenarios.
+- [Method Overloading](./../method-overloading/): MRO helps resolve ambiguity when multiple methods have the same name but different parameters.
+# [Python 1 Home](./../python-1-home/)

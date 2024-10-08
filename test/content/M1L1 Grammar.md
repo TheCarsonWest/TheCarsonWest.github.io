@@ -1,3 +1,8 @@
++++
+ title = 'M1L1 Grammar'
+[params]
+	author = 'Carson West'
++++
 # These first two things aren't written down in everyday writing
 # Fat-ha, Dama, Kasra 
 they are short vowels

@@ -1,6 +1,11 @@
-## [[Modules and Packages]]
++++
+ title = 'Modules and Packages'
+[params]
+	author = 'Carson West'
++++
+## [Modules and Packages](./../modules-and-packages/)
 
-### What are [[Modules and Packages]]?
+### What are [Modules and Packages](./../modules-and-packages/)?
 
 **Modules:**
 - Self-contained Python code stored in a file (`*.py`).
@@ -12,9 +17,9 @@
 - Packages provide a way to group and distribute modules logically.
 - Can contain subpackages and modules within subdirectories.
 
-### How to Use [[Modules and Packages]]
+### How to Use [Modules and Packages](./../modules-and-packages/)
 
-** [[Importing Modules]]:**
+** [Importing Modules](./../importing-modules/):**
 ```python
 import module_name
 ```
@@ -58,13 +63,13 @@ subpackage.my_function()
 
 ### Related Python Concepts
 
-- [[Functions]]: Modules and packages provide a way to organize and reuse functions.
-- [[Importing Modules]]: The import statement is used to import modules and packages.
-- [[Libraries like NumPy]]: NumPy is a package that provides scientific computing capabilities.
-- [[Libraries like Pandas]]: Pandas is a package that provides data analysis and manipulation tools.
-- [[Libraries like Matplotlib]]: Matplotlib is a package that provides data visualization capabilities. [[Dynamic Importing]]
-- [[Functions]]
-- [[Python Package Index (PyPI) Publishing]]
-- [[Virtual Environments]]
+- [Functions](./../functions/): Modules and packages provide a way to organize and reuse functions.
+- [Importing Modules](./../importing-modules/): The import statement is used to import modules and packages.
+- [Libraries like NumPy](./../libraries-like-numpy/): NumPy is a package that provides scientific computing capabilities.
+- [Libraries like Pandas](./../libraries-like-pandas/): Pandas is a package that provides data analysis and manipulation tools.
+- [Libraries like Matplotlib](./../libraries-like-matplotlib/): Matplotlib is a package that provides data visualization capabilities. [Dynamic Importing](./../dynamic-importing/)
+- [Functions](./../functions/)
+- [Python Package Index (PyPI) Publishing](./../python-package-index-(pypi)-publishing/)
+- [Virtual Environments](./../virtual-environments/)
 
-# [[Python 1 Home]]
+# [Python 1 Home](./../python-1-home/)

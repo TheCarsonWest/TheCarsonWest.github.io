@@ -1,7 +1,12 @@
++++
+ title = 'Sugar Act'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 51.5074456,-0.1277653
 ---
-**ID:** [[Sugar Act]]
+**ID:** [Sugar Act](./../sugar-act/)
 
 **When:** April 5, 1764
 

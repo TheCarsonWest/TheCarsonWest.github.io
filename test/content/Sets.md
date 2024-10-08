@@ -1,10 +1,15 @@
-## Python [[Sets]]
++++
+ title = 'Sets'
+[params]
+	author = 'Carson West'
++++
+## Python [Sets](./../sets/)
 
-### What are [[Sets]]?
- [[Sets]] are an unordered collection of unique, immutable elements that can be used in various situations where you need to work with unique values and perform set operations like union, intersection, and difference. They are mutable, meaning that elements can be added or removed, but the order of elements is not guaranteed, and duplicate values are not allowed.
+### What are [Sets](./../sets/)?
+ [Sets](./../sets/) are an unordered collection of unique, immutable elements that can be used in various situations where you need to work with unique values and perform set operations like union, intersection, and difference. They are mutable, meaning that elements can be added or removed, but the order of elements is not guaranteed, and duplicate values are not allowed.
 
 ### How to Create a Set
- [[Sets]] can be created using curly braces ({}) or the `set()` constructor.
+ [Sets](./../sets/) can be created using curly braces ({}) or the `set()` constructor.
 
 ```python
 # creating a set from a list
@@ -14,9 +19,9 @@ my_set = {"apple", "banana", "cherry"}
 empty_set = set()
 ```
 
-### Operations on [[Sets]]
+### Operations on [Sets](./../sets/)
 
- [[Sets]] support various operations, including:
+ [Sets](./../sets/) support various operations, including:
 
 - **Union (|):** Combines two sets and returns a new set containing all unique elements from both sets.
 - **Intersection (&):** Returns a new set containing only the elements that are common to both sets.
@@ -49,9 +54,9 @@ print(set6) # output: {'banana', 'cherry', 'google', 'microsoft'}
 
 ### Related Python Concepts
 
-- [[Lists]]: Similar to sets, lists are also a collection of elements, but they allow duplicates and maintain the order of insertion.
-- [[Tuples]]: [[Tuples]] are immutable collections similar to sets but with a fixed order of elements.
-- [[Dictionaries]]: [[Dictionaries]] are mappings that associate keys to values, and they do not allow duplicate keys.
-- [[Frozen [[Sets]]: Frozen sets are immutable versions of sets, meaning their elements cannot be modified.
-- [[Set Comprehension]]: Set comprehension provides a concise way to create sets using a similar syntax to list comprehension.
-# [[Python 1 Home]]
+- [Lists](./../lists/): Similar to sets, lists are also a collection of elements, but they allow duplicates and maintain the order of insertion.
+- [Tuples](./../tuples/): [Tuples](./../tuples/) are immutable collections similar to sets but with a fixed order of elements.
+- [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are mappings that associate keys to values, and they do not allow duplicate keys.
+- [[Frozen [Sets](./../sets/): Frozen sets are immutable versions of sets, meaning their elements cannot be modified.
+- [Set Comprehension](./../set-comprehension/): Set comprehension provides a concise way to create sets using a similar syntax to list comprehension.
+# [Python 1 Home](./../python-1-home/)

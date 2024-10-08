@@ -1,16 +1,21 @@
-**[[Millard Fillmore]] (1850-1853)**
++++
+ title = 'Millard Fillmore'
+[params]
+	author = 'Carson West'
++++
+**[Millard Fillmore](./../millard-fillmore/) (1850-1853)**
 
 **Early Life and Career:**
 
-* Born in Summerhill, [[New York]]
-* Lawyer and politician in [[New York]] State
+* Born in Summerhill, [New York](./../new-york/)
+* Lawyer and politician in [New York](./../new-york/) State
 * Whig Party member
 
 **Events Associated with Fillmore:**
 
 * **Compromise of 1850:** Signed into law a series of measures that aimed to resolve sectional tensions over slavery and the expansion of slavery into new territories.
 * **Fugitive Slave Act:** Enacted a law that criminalized the aiding and abetting of fugitive slaves and provided incentives for their capture and return.
-* **[[Kansas]]-[[Nebraska]] Act:** Passed a law that repealed the [[Missouri]] Compromise and allowed for popular sovereignty in [[Kansas]] and [[Nebraska]].
+* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act:** Passed a law that repealed the [Missouri](./../missouri/) Compromise and allowed for popular sovereignty in [Kansas](./../kansas/) and [Nebraska](./../nebraska/).
 
 **Important Legislation Signed:**
 

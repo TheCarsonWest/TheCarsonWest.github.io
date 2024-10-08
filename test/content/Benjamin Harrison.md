@@ -1,8 +1,13 @@
-**[[Benjamin Harrison]] (23rd President of the [[United States]])**
++++
+ title = 'Benjamin Harrison'
+[params]
+	author = 'Carson West'
++++
+**[Benjamin Harrison](./../benjamin-harrison/) (23rd President of the [United States](./../united-states/))**
 
 **Political Career:**
-* Republican Senator from [[Indiana]] (1881-1887)
-* President of the [[United States]] (1889-1893)
+* Republican Senator from [Indiana](./../indiana/) (1881-1887)
+* President of the [United States](./../united-states/) (1889-1893)
 
 **Major Events:**
 * **Sherman Antitrust Act (1890):** Prohibited monopolies and cartels.

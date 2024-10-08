@@ -1,9 +1,14 @@
-## [[List Comprehension]]
++++
+ title = 'List Comprehension'
+[params]
+	author = 'Carson West'
++++
+## [List Comprehension](./../list-comprehension/)
 
-### What is [[List Comprehension]]?
+### What is [List Comprehension](./../list-comprehension/)?
 List comprehension is a concise and readable syntax in Python that allows you to create a new list based on the elements of an existing list. It combines a for loop and a conditional statement into a single line of code.
 
-### How to Use [[List Comprehension]]
+### How to Use [List Comprehension](./../list-comprehension/)
 The syntax of a list comprehension is:
 
 ```python
@@ -26,9 +31,9 @@ positive_numbers = [x for x in numbers if x > 0]
 
 ### Related Python Concepts
 
-- [[Lists]]: List comprehension creates new lists.
-- [[For Loops]]: List comprehension uses a for loop syntax.
-- [[Conditional Statements]]: List comprehension uses a conditional statement to filter elements.
-- [[Functions]]: List comprehension can be used inside functions to create and return new lists.
-- [[Map, Filter, and Reduce]]: List comprehension is similar to the map and filter functions.
-# [[Python 1 Home]]
+- [Lists](./../lists/): List comprehension creates new lists.
+- [For Loops](./../for-loops/): List comprehension uses a for loop syntax.
+- [Conditional Statements](./../conditional-statements/): List comprehension uses a conditional statement to filter elements.
+- [Functions](./../functions/): List comprehension can be used inside functions to create and return new lists.
+- [Map, Filter, and Reduce](./../map,-filter,-and-reduce/): List comprehension is similar to the map and filter functions.
+# [Python 1 Home](./../python-1-home/)

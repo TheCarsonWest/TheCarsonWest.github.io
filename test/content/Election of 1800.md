@@ -1,9 +1,14 @@
++++
+ title = 'Election of 1800'
+[params]
+	author = 'Carson West'
++++
 **WHEN:** November 2, 1800
 
 **WHO:**
 
-* [[Thomas Jefferson]] (Democratic-Republican)
-* [[John Adams]] (Federalist)
+* [Thomas Jefferson](./../thomas-jefferson/) (Democratic-Republican)
+* [John Adams](./../john-adams/) (Federalist)
 * Aaron Burr (Democratic-Republican)
 
 **WHAT:**
@@ -17,4 +22,4 @@
 * Marked the peaceful transfer of power from one political party to another
 * Established the principle of popular sovereignty (voters determine the winner)
 * Contributed to the rise of the Democratic-Republican Party
-# [[IDS Unit 3]]
+# [IDS Unit 3](./../ids-unit-3/)

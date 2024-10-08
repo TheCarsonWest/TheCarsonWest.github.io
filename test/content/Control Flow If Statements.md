@@ -1,4 +1,9 @@
-# [[Control Flow If Statements]]
++++
+ title = 'Control Flow If Statements'
+[params]
+	author = 'Carson West'
++++
+# [Control Flow If Statements](./../control-flow-if-statements/)
 
 ## What are If Statements?
 If statements are a foundational control flow construct in Python that allow the conditional execution of one or more code blocks based on a Boolean condition. They enable decisions and alter the flow of a program.
@@ -29,10 +34,10 @@ if user_is_admin():
 
 ## Related Python Concepts
 
-- [[Variables and Data Types]]: If statements rely on Boolean data types to evaluate conditions.
-- [[Operators]]: Comparison operators like `>` and `==` are used to create conditions in if statements.
-- [[Functions]]: If statements can be used to conditionally call functions.
-- [[For Loops]]: If statements can be used to control the execution of for loops.
-- [[While Loops]]: If statements can be used to terminate or continue the execution of while loops.
+- [Variables and Data Types](./../variables-and-data-types/): If statements rely on Boolean data types to evaluate conditions.
+- [Operators](./../operators/): Comparison operators like `>` and `==` are used to create conditions in if statements.
+- [Functions](./../functions/): If statements can be used to conditionally call functions.
+- [For Loops](./../for-loops/): If statements can be used to control the execution of for loops.
+- [While Loops](./../while-loops/): If statements can be used to terminate or continue the execution of while loops.
 
-# [[Python 1 Home]]
+# [Python 1 Home](./../python-1-home/)

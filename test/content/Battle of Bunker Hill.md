@@ -1,5 +1,10 @@
- [[Massachusetts]]
-ID: [[Battle of Bunker Hill]]
++++
+ title = 'Battle of Bunker Hill'
+[params]
+	author = 'Carson West'
++++
+ [Massachusetts](./../massachusetts/)
+ID: [Battle of Bunker Hill](./../battle-of-bunker-hill/)
 When: June 17, 1775
 Who:
 -- British: General William Howe, Lieutenant Colonel Francis Smith

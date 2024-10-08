@@ -1,9 +1,14 @@
-**ID: [[Valley Forge]]**
++++
+ title = 'Valley Forge'
+[params]
+	author = 'Carson West'
++++
+**ID: [Valley Forge](./../valley-forge/)**
 
 **When:** December 1777 - June 1778
 
 **Who:**
-* [[George Washington]] (American general)
+* [George Washington](./../george-washington/) (American general)
 * Thomas Paine (American soldier, pamphleteer)
 * Friedrich von Steuben (Prussian general)
 
