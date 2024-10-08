@@ -1,14 +1,9 @@
-+++
- title = 'Exception Handling'
-[params]
-	author = 'Carson West'
-+++
-## [Exception Handling](./../exception-handling/)
+## [[Exception Handling]]
 
-### What is [Exception Handling](./../exception-handling/)?
+### What is [[Exception Handling]]?
 Exception handling is a crucial mechanism in Python that allows programmers to gracefully handle errors and exceptions that may occur during program execution. It enables the detection and handling of unexpected or exceptional conditions, preventing the program from crashing or terminating abruptly.
 
-### How to Use [Exception Handling](./../exception-handling/)
+### How to Use [[Exception Handling]]
 Exception handling is typically achieved using `try` and `except` blocks. The `try` block contains the code that may potentially raise exceptions, while the `except` block is responsible for catching and handling those exceptions. The syntax for exception handling is:
 
 ```python
@@ -42,9 +37,9 @@ except FileNotFoundError:
 
 ### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Exception handling involves identifying and managing exceptions, which are objects that represent errors.
-- [Operators](./../operators/): The `try` and `except` blocks are control flow constructs used for error handling.
-- [Functions](./../functions/): Exception handling is often used in conjunction with functions to handle errors that occur during function calls.
-- [For Loops](./../for-loops/): Exception handling can be used to detect and handle errors that occur within loops.
-- [While Loops](./../while-loops/): Similar to for loops, exception handling can be used to handle errors in while loops.
-# [Python 1 Home](./../python-1-home/)
+- [[Variables and Data Types]]: Exception handling involves identifying and managing exceptions, which are objects that represent errors.
+- [[Operators]]: The `try` and `except` blocks are control flow constructs used for error handling.
+- [[Functions]]: Exception handling is often used in conjunction with functions to handle errors that occur during function calls.
+- [[For Loops]]: Exception handling can be used to detect and handle errors that occur within loops.
+- [[While Loops]]: Similar to for loops, exception handling can be used to handle errors in while loops.
+# [[Python 1 Home]]

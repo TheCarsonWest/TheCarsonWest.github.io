@@ -1,10 +1,5 @@
-+++
- title = 'Electron Affinity'
-[params]
-	author = 'Carson West'
-+++
-# [Periodic Trends](./../periodic-trends/)
-![Screenshot 2024-09-09 at 10.29.59 AM.png](./../screenshot-2024-09-09-at-10.29.59-am.png/)
+# [[Periodic Trends]]
+![[Screenshot 2024-09-09 at 10.29.59 AM.png]]
 - The energy change from when an atom gains an electron to form a negative ion
 - Can be **Exothermic or endothermic**
 	- Metals

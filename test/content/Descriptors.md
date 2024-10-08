@@ -1,15 +1,10 @@
-+++
- title = 'Descriptors'
-[params]
-	author = 'Carson West'
-+++
-## [Descriptors](./../descriptors/)
+## [[Descriptors]]
 
-### What are [Descriptors](./../descriptors/)?
- [Descriptors](./../descriptors/) are a mechanism in Python that provide a way to define custom behavior for object attributes. They allow attributes to be accessed, set, and deleted in a controlled manner, providing more flexibility and control over object properties.
+### What are [[Descriptors]]?
+ [[Descriptors]] are a mechanism in Python that provide a way to define custom behavior for object attributes. They allow attributes to be accessed, set, and deleted in a controlled manner, providing more flexibility and control over object properties.
 
-### How to Use [Descriptors](./../descriptors/)
- [Descriptors](./../descriptors/) are defined as classes with special methods:
+### How to Use [[Descriptors]]
+ [[Descriptors]] are defined as classes with special methods:
 
 - **__get__(self, instance, owner)**: Invoked when the attribute is accessed.
 - **__set__(self, instance, value)**: Invoked when the attribute is assigned a new value.
@@ -38,11 +33,11 @@ e = Example("John Doe")
 print(e.name) # Output: "JOHN DOE"
 ```
 
-### Other Python Concepts Closely Related to [Descriptors](./../descriptors/)
+### Other Python Concepts Closely Related to [[Descriptors]]
 
-- [Metaclasses](./../metaclasses/): [Descriptors](./../descriptors/) can be used with metaclasses to modify the behavior of classes themselves.
-- [Properties](./../properties/): Properties provide a way to define getter, setter, and deleter methods for object attributes, similar to descriptors.
-- [Decorators](./../decorators/): [Decorators](./../decorators/) can also be used to modify object attributes, although descriptors offer more flexibility and control.
-- [Class and Objects](./../class-and-objects/): [Descriptors](./../descriptors/) operate on object attributes, providing a means to define custom behavior for these attributes.
-- [Inheritance](./../inheritance/): [Descriptors](./../descriptors/) can be inherited by subclasses, allowing for reusable attribute customization across multiple classes.
-# [Python 1 Home](./../python-1-home/)
+- [[Metaclasses]]: [[Descriptors]] can be used with metaclasses to modify the behavior of classes themselves.
+- [[Properties]]: Properties provide a way to define getter, setter, and deleter methods for object attributes, similar to descriptors.
+- [[Decorators]]: [[Decorators]] can also be used to modify object attributes, although descriptors offer more flexibility and control.
+- [[Class and Objects]]: [[Descriptors]] operate on object attributes, providing a means to define custom behavior for these attributes.
+- [[Inheritance]]: [[Descriptors]] can be inherited by subclasses, allowing for reusable attribute customization across multiple classes.
+# [[Python 1 Home]]

@@ -1,9 +1,4 @@
-+++
- title = 'Arabic Home'
-[params]
-	author = 'Carson West'
-+++
 # بيت الغربي ٢
 I like this arabic font
 
-## [Module 1](./../module-1/)
+## [[Module 1]]

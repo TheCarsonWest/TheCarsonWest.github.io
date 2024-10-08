@@ -1,11 +1,6 @@
-+++
- title = 'Global and Nonlocal Variables'
-[params]
-	author = 'Carson West'
-+++
-## [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
+## [[Global and Nonlocal Variables]]
 
-### What are [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)?
+### What are [[Global and Nonlocal Variables]]?
 Global variables are declared outside of any function and are accessible throughout the program. 
 Nonlocal variables are declared within a nested function and can access and modify variables in the enclosing scope, but not in the global scope.
 
@@ -62,9 +57,9 @@ print(nonlocal_var) # Output: 11
 
 ### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Global and nonlocal variables are examples of variable scope in Python.
-- [Functions](./../functions/): Global and nonlocal variables are used within functions.
-- [Function Parameters](./../function-parameters/): Global and nonlocal variables can interact with function parameters.
-- [Default Parameters](./../default-parameters/): Global and nonlocal variables can be used as default values for function parameters.
-- [Closures](./../closures/): Global and nonlocal variables can be captured by closures.
-# [Python 1 Home](./../python-1-home/)
+- [[Variables and Data Types]]: Global and nonlocal variables are examples of variable scope in Python.
+- [[Functions]]: Global and nonlocal variables are used within functions.
+- [[Function Parameters]]: Global and nonlocal variables can interact with function parameters.
+- [[Default Parameters]]: Global and nonlocal variables can be used as default values for function parameters.
+- [[Closures]]: Global and nonlocal variables can be captured by closures.
+# [[Python 1 Home]]

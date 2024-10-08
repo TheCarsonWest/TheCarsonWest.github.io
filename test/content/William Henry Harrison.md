@@ -1,13 +1,8 @@
-+++
- title = 'William Henry Harrison'
-[params]
-	author = 'Carson West'
-+++
-**[William Henry Harrison](./../william-henry-harrison/)**
+**[[William Henry Harrison]]**
 
 **Presidency (1841)**
 
-* Inaugurated March 4, 1841, with [John Tyler](./../john-tyler/) as Vice President
+* Inaugurated March 4, 1841, with [[John Tyler]] as Vice President
 * Died of pneumonia just 31 days into his presidency on April 4, 1841
 
 **Events Associated With**

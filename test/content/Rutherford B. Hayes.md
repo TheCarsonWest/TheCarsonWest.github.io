@@ -1,12 +1,7 @@
-+++
- title = 'Rutherford B. Hayes'
-[params]
-	author = 'Carson West'
-+++
-**[Rutherford B](./../rutherford-b/). Hayes**
+**[[Rutherford B]]. Hayes**
 
 **Background:**
-- Born: October 4, 1822, [Delaware](./../delaware/), [Ohio](./../ohio/)
+- Born: October 4, 1822, [[Delaware]], [[Ohio]]
 - Lawyer and politician
 - Union general during the Civil War
 

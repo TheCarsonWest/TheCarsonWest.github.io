@@ -1,9 +1,4 @@
-+++
- title = 'Gerald Ford'
-[params]
-	author = 'Carson West'
-+++
-**[Gerald Ford](./../gerald-ford/) (1974-1977)**
+**[[Gerald Ford]] (1974-1977)**
 
 **Events Associated With:**
 
@@ -47,6 +42,6 @@
 
 **Legacy:**
 
-* [Gerald Ford](./../gerald-ford/) is often remembered as a pragmatic and non-charismatic leader who inherited a difficult period in American history.
+* [[Gerald Ford]] is often remembered as a pragmatic and non-charismatic leader who inherited a difficult period in American history.
 * His presidency was marked by the challenges of Watergate, the Vietnam War, and economic recession.
 * He played a key role in ending the Vietnam War, signing important legislation, and pursuing détente with the Soviet Union.

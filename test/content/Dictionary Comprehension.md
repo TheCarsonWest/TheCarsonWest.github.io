@@ -1,14 +1,9 @@
-+++
- title = 'Dictionary Comprehension'
-[params]
-	author = 'Carson West'
-+++
-## Python [Dictionary Comprehension](./../dictionary-comprehension/)
+## Python [[Dictionary Comprehension]]
 
-### What is [Dictionary Comprehension](./../dictionary-comprehension/)?
+### What is [[Dictionary Comprehension]]?
 Dictionary comprehension is a concise syntax in Python that allows for the creation of dictionaries from iterable sequences. It provides a convenient way to generate dictionaries where the keys and values are derived from the input iterables.
 
-### How to Use [Dictionary Comprehension](./../dictionary-comprehension/)
+### How to Use [[Dictionary Comprehension]]
 Dictionary comprehension is expressed in the following format:
 
 ```python
@@ -30,9 +25,9 @@ ages = {name: age for name, age in data}
 ```
 
 ### Related Python Concepts
-- [List Comprehension](./../list-comprehension/): Similar to dictionary comprehension, but used for creating lists.
-- [Generators](./../generators/): Can be used to create iterables for dictionary comprehension.
-- [Functions](./../functions/): Lambda functions can be used as expressions for keys and values.
-- [For Loops](./../for-loops/): Dictionary comprehension can be seen as a concise form of a for loop.
-- [Operators](./../operators/): Conditional and mathematical operators can be used in the key or value expressions.
-# [Python 1 Home](./../python-1-home/)
+- [[List Comprehension]]: Similar to dictionary comprehension, but used for creating lists.
+- [[Generators]]: Can be used to create iterables for dictionary comprehension.
+- [[Functions]]: Lambda functions can be used as expressions for keys and values.
+- [[For Loops]]: Dictionary comprehension can be seen as a concise form of a for loop.
+- [[Operators]]: Conditional and mathematical operators can be used in the key or value expressions.
+# [[Python 1 Home]]

@@ -1,8 +1,3 @@
-+++
- title = 'King Philip’s War'
-[params]
-	author = 'Carson West'
-+++
 ---
 location: 44.2057083,-70.75378387447887
 ---

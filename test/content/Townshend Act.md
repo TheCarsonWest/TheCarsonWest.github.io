@@ -1,12 +1,7 @@
-+++
- title = 'Townshend Act'
-[params]
-	author = 'Carson West'
-+++
 ---
 location: 51.5074456,-0.1277653
 ---
- **ID: [Townshend Act](./../townshend-act/)**
+ **ID: [[Townshend Act]]**
 **When:** June 29, 1767
 **Who:** Charles Townshend (Chancellor of the Exchequer)
 **What:** A series of taxes imposed on goods imported into the American colonies, including paper, tea, paint, and glass.

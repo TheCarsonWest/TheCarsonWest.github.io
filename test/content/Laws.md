@@ -1,9 +1,4 @@
-+++
- title = 'Laws'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-## [Coulombs Law](./../coulombs-law/)
-## [Aufbau Principle](./../aufbau-principle/)
+## [[Coulombs Law]]
+## [[Aufbau Principle]]

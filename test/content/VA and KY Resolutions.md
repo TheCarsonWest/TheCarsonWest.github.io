@@ -1,16 +1,11 @@
-+++
- title = 'VA and KY Resolutions'
-[params]
-	author = 'Carson West'
-+++
-**Notecard: [VA and KY Resolutions](./../va-and-ky-resolutions/)**
+**Notecard: [[VA and KY Resolutions]]**
 
 **WHEN:** December 1825 - February 1833
 
 **WHO:**
 
-* **[Virginia](./../virginia/) Assembly:** Led by [James Madison](./../james-madison/)
-* **[Kentucky](./../kentucky/) Legislature:** Led by Henry Clay
+* **[[Virginia]] Assembly:** Led by [[James Madison]]
+* **[[Kentucky]] Legislature:** Led by Henry Clay
 
 **WHAT:**
 
@@ -20,7 +15,7 @@
 
 **IMPACT:**
 
-* **Nullification Crisis:** Sparked a major constitutional debate and led to President [Andrew Jackson](./../andrew-jackson/)'s defense of federal authority.
+* **Nullification Crisis:** Sparked a major constitutional debate and led to President [[Andrew Jackson]]'s defense of federal authority.
 * **Strengthened the Principle of States' Rights:** Affirmed the idea that states had some degree of independence from the federal government.
 * **Precursor to the Civil War:** The nullification threat foreshadowed the later secession of Southern states over slavery.
-# [IDS Unit 3](./../ids-unit-3/)
+# [[IDS Unit 3]]

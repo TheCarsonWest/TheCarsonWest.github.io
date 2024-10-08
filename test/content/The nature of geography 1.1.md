@@ -1,9 +1,4 @@
-+++
- title = 'The nature of geography 1.1'
-[params]
-	author = 'Carson West'
-+++
-# [APHG Unit 1](./../aphg-unit-1/)
+# [[APHG Unit 1]]
 
 ### Geography etymology
 - Geo- (earth) 
@@ -31,4 +26,4 @@
 The earth is round. Maps are flat. you cant fully represent a 3d object in 2d space, so:
 **Every type of map will have some form of distortion no matter what**
 Africa is usually the most distorted
-# [Map Projections](./../map-projections/)
+# [[Map Projections]]

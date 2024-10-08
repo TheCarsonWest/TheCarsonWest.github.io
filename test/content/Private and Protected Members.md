@@ -1,9 +1,4 @@
-+++
- title = 'Private and Protected Members'
-[params]
-	author = 'Carson West'
-+++
-## [Private and Protected Members](./../private-and-protected-members/)
+## [[Private and Protected Members]]
 
 ### Explanation
 Private and protected members in Python are used to restrict access to certain attributes or methods of a class. Private members are only accessible within the class, while protected members can be accessed from within the class and its subclasses.
@@ -47,9 +42,9 @@ class MyClass:
 ```
 
 ## Related Python Concepts
-- [Encapsulation](./../encapsulation/): Private and protected members are part of the encapsulation mechanism in Python.
-- [Classes and Objects](./../classes-and-objects/): Private and protected members are defined within classes.
-- [Inheritance](./../inheritance/): Protected members can be accessed from subclasses.
-- [Function Parameters](./../function-parameters/): Private and protected methods can accept parameters like regular methods.
-- [Return Values](./../return-values/): Private and protected methods can return values like regular methods.
-# [Python 1 Home](./../python-1-home/)
+- [[Encapsulation]]: Private and protected members are part of the encapsulation mechanism in Python.
+- [[Classes and Objects]]: Private and protected members are defined within classes.
+- [[Inheritance]]: Protected members can be accessed from subclasses.
+- [[Function Parameters]]: Private and protected methods can accept parameters like regular methods.
+- [[Return Values]]: Private and protected methods can return values like regular methods.
+# [[Python 1 Home]]

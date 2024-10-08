@@ -1,9 +1,4 @@
-+++
- title = 'Libraries like NumPy'
-[params]
-	author = 'Carson West'
-+++
-## [Libraries like NumPy](./../libraries-like-numpy/)
+## [[Libraries like NumPy]]
 
 ### What is NumPy?
 NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of functions and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical functions for numerical computations.
@@ -30,7 +25,7 @@ Once imported, you can access the functions and classes provided by NumPy.
 - `arr * arr2`: Element-wise multiplication of two arrays.
 - `np.sum(arr)`: Computes the sum of all elements in an array.
 
-**Mathematical [Functions](./../functions/):**
+**Mathematical [[Functions]]:**
 - `np.sin(x)`: Computes the sine of x.
 - `np.cos(x)`: Computes the cosine of x.
 - `np.log(x)`: Computes the natural logarithm of x.
@@ -59,9 +54,9 @@ print(total)
 ```
 
 ### Related Python Concepts
-- [Variables and Data Types](./../variables-and-data-types/): NumPy arrays are stored using NumPy's own data types.
-- [Operators](./../operators/): NumPy provides operators for array operations like element-wise addition and multiplication.
-- [Functions](./../functions/): NumPy provides a rich set of mathematical functions for numerical computations.
-- [Lists](./../lists/): NumPy arrays can be converted to and from Python lists.
-- [Modules and Packages](./../modules-and-packages/): NumPy is a third-party library that is installed as a package.
-# [Python 1 Home](./../python-1-home/)
+- [[Variables and Data Types]]: NumPy arrays are stored using NumPy's own data types.
+- [[Operators]]: NumPy provides operators for array operations like element-wise addition and multiplication.
+- [[Functions]]: NumPy provides a rich set of mathematical functions for numerical computations.
+- [[Lists]]: NumPy arrays can be converted to and from Python lists.
+- [[Modules and Packages]]: NumPy is a third-party library that is installed as a package.
+# [[Python 1 Home]]

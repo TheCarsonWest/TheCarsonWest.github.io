@@ -1,9 +1,4 @@
-+++
- title = 'Handling APIs with Requests Library'
-[params]
-	author = 'Carson West'
-+++
-## [Handling APIs with Requests Library](./../handling-apis-with-requests-library/)
+## [[Handling APIs with Requests Library]]
 
 ### What is the Requests Library?
 The Requests library is a widely used Python package that simplifies the process of making HTTP requests and handling API responses. It provides a comprehensive set of features to interact with web services and retrieve data over the internet.
@@ -56,9 +51,9 @@ if response.status_code == 201:
 ```
 
 ### Related Python Concepts
-- [Importing Modules](./../importing-modules/): The Requests library must be imported to use its functionality.
-- [HTTP](./../http/): The library is designed for working with HTTP protocols and API endpoints.
-- [JSON](./../json/): The Requests library can parse and handle JSON responses.
-- [Exception Handling](./../exception-handling/): Requests can raise exceptions in case of errors during the request or response handling.
-- [File Handling](./../file-handling/): The response body can be written to a file using file handling concepts.
-# [Python 1 Home](./../python-1-home/)
+- [[Importing Modules]]: The Requests library must be imported to use its functionality.
+- [[HTTP]]: The library is designed for working with HTTP protocols and API endpoints.
+- [[JSON]]: The Requests library can parse and handle JSON responses.
+- [[Exception Handling]]: Requests can raise exceptions in case of errors during the request or response handling.
+- [[File Handling]]: The response body can be written to a file using file handling concepts.
+# [[Python 1 Home]]

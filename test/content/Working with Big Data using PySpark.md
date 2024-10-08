@@ -1,9 +1,4 @@
-+++
- title = 'Working with Big Data using PySpark'
-[params]
-	author = 'Carson West'
-+++
-## [Working with Big Data using PySpark](./../working-with-big-data-using-pyspark/)
+## [[Working with Big Data using PySpark]]
 
 ### Overview
 PySpark is a Python API for Apache Spark, a popular framework for processing large-scale data efficiently. It provides high-level APIs that enable Python developers to access and manipulate distributed datasets in a convenient and efficient manner.
@@ -64,9 +59,9 @@ df = spark.createDataFrame(data, ["name", "age"])
 ```
 
 ### Related Python Concepts
-- [Libraries like Pandas](./../libraries-like-pandas/): PySpark is similar to Pandas but designed for handling larger datasets.
-- [Big Data](./../big-data/): PySpark is specifically designed for working with large datasets.
-- [Map, Filter, and Reduce](./../map,-filter,-and-reduce/): PySpark transformations can be implemented using these higher-order functions.
-- [Lambda [[Functions](./../lambda-[[functions/): Lambda functions can be used to define anonymous functions for PySpark transformations.
-- [Concurrency and Multithreading](./../concurrency-and-multithreading/): PySpark leverages multithreading and distributed computing for efficient data processing.
-# [Python 1 Home](./../python-1-home/)
+- [[Libraries like Pandas]]: PySpark is similar to Pandas but designed for handling larger datasets.
+- [[Big Data]]: PySpark is specifically designed for working with large datasets.
+- [[Map, Filter, and Reduce]]: PySpark transformations can be implemented using these higher-order functions.
+- [[Lambda [[Functions]]: Lambda functions can be used to define anonymous functions for PySpark transformations.
+- [[Concurrency and Multithreading]]: PySpark leverages multithreading and distributed computing for efficient data processing.
+# [[Python 1 Home]]

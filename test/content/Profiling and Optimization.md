@@ -1,11 +1,6 @@
-+++
- title = 'Profiling and Optimization'
-[params]
-	author = 'Carson West'
-+++
-## Python [Profiling and Optimization](./../profiling-and-optimization/)
+## Python [[Profiling and Optimization]]
 
-### What is [Profiling and Optimization](./../profiling-and-optimization/)?
+### What is [[Profiling and Optimization]]?
 Profiling is the process of measuring and analyzing the performance of a portion of code. Its goal is to identify areas where the code is spending the most time, memory, or other resources. Optimization is the process of improving the performance of a code by making it run faster or more efficiently.
 
 ### How to Measure Profiling
@@ -34,9 +29,9 @@ The profiling report will show you where the code is spending the most time. Onc
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): Profiling is used to measure the performance of functions.
-- [For Loops](./../for-loops/): Profiling can be used to optimize loops.
-- [While Loops](./../while-loops/): Profiling can be used to optimize loops.
-- [Recursion](./../recursion/): Profiling can be used to optimize recursive functions.
-- [File IO Modes](./../file-io-modes/): Profiling can be used to optimize file input/output operations.
-# [Python 1 Home](./../python-1-home/)
+- [[Functions]]: Profiling is used to measure the performance of functions.
+- [[For Loops]]: Profiling can be used to optimize loops.
+- [[While Loops]]: Profiling can be used to optimize loops.
+- [[Recursion]]: Profiling can be used to optimize recursive functions.
+- [[File IO Modes]]: Profiling can be used to optimize file input/output operations.
+# [[Python 1 Home]]

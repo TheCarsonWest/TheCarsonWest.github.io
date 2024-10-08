@@ -1,8 +1,3 @@
-+++
- title = 'APUSH Home'
-[params]
-	author = 'Carson West'
-+++
-# [nexus](./../nexus/)
+# [[nexus]]
 
-# [ID Home](./../id-home/)
+# [[ID Home]]

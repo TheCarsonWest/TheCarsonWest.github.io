@@ -1,10 +1,5 @@
-+++
- title = 'ID Home'
-[params]
-	author = 'Carson West'
-+++
-# [APUSH Home](./../apush-home/)
+# [[APUSH Home]]
 
-# [IDs unit 2](./../ids-unit-2/)
+# [[IDs unit 2]]
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [[IDS Unit 3]]

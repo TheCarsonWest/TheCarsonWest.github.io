@@ -1,9 +1,4 @@
-+++
- title = 'Map Distortions'
-[params]
-	author = 'Carson West'
-+++
-## [Map Projections](./../map-projections/)
+## [[Map Projections]]
 
 # SADD
 

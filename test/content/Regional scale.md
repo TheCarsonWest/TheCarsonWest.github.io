@@ -1,9 +1,4 @@
-+++
- title = 'Regional scale'
-[params]
-	author = 'Carson West'
-+++
- [Glossary](./../glossary/)
+ [[Glossary]]
 
 
 - The regional scale is an intermediate level of analysis that falls between the local and global scales.

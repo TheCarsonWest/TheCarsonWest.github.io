@@ -1,19 +1,14 @@
-+++
- title = 'Joe Biden'
-[params]
-	author = 'Carson West'
-+++
-**[Joe Biden](./../joe-biden/): AP [United States](./../united-states/) History Rundown**
+**[[Joe Biden]]: AP [[United States]] History Rundown**
 
 **Early Life and Career:**
 
-* Born in Scranton, [Pennsylvania](./../pennsylvania/), on November 20, 1942
-* Graduated from the University of [Delaware](./../delaware/) and Syracuse University Law School
-* Served as a public defender in [Delaware](./../delaware/)
+* Born in Scranton, [[Pennsylvania]], on November 20, 1942
+* Graduated from the University of [[Delaware]] and Syracuse University Law School
+* Served as a public defender in [[Delaware]]
 
 **Political Career:**
 
-**[Delaware](./../delaware/) Senator (1973-2009)**
+**[[Delaware]] Senator (1973-2009)**
 
 * Elected to the Senate at the age of 29, becoming one of the youngest senators in U.S. history
 * Served on the Judiciary Committee and played a key role in drafting the Violent Crime Control and Law Enforcement Act of 1994
@@ -21,13 +16,13 @@
 
 **Vice President (2009-2017)**
 
-* Became [Barack Obama](./../barack-obama/)'s vice president after winning the 2008 election
+* Became [[Barack Obama]]'s vice president after winning the 2008 election
 * Played a significant role in Domestic policy, including healthcare, education, and gun control
 * Oversaw the passage of the Affordable Care Act
 
 **President (2021-present)**
 
-* Inaugurated as the 46th President of the [United States](./../united-states/) on January 20, 2021
+* Inaugurated as the 46th President of the [[United States]] on January 20, 2021
 * His presidency has been marked by the COVID-19 pandemic and its economic impact
 * Signed into law the American Rescue Plan Act, the Infrastructure Investment and Jobs Act, and the Bipartisan Safer Communities Act
 

@@ -1,21 +1,16 @@
-+++
- title = 'Louisiana Purchase'
-[params]
-	author = 'Carson West'
-+++
-**Notecard: [Louisiana](./../louisiana/) Purchase]]**
+**Notecard: [[Louisiana]] Purchase]]**
 
 **WHEN:** April 30, 1803
 
-**WHO:** [United States](./../united-states/) and [France](./../france/)
+**WHO:** [[United States]] and [[France]]
 
-**WHAT:** The [United States](./../united-states/) purchased the [Louisiana](./../louisiana/) Territory from [France](./../france/) for  $ 15 million. The territory extended from the [Mississippi](./../mississippi/) River to the Rocky Mountains and from [Canada](./../canada/) to the Gulf of Mexico.
+**WHAT:** The [[United States]] purchased the [[Louisiana]] Territory from [[France]] for $15 million. The territory extended from the [[Mississippi]] River to the Rocky Mountains and from [[Canada]] to the Gulf of Mexico.
 
 **IMPACT:**
 
-* Doubled the size of the [United States](./../united-states/).
-* Secured American control of the [Mississippi](./../mississippi/) River and the port of New Orleans.
+* Doubled the size of the [[United States]].
+* Secured American control of the [[Mississippi]] River and the port of New Orleans.
 * Opened up new lands for westward expansion.
-* Led to the [Lewis and Clark Expedition](./../lewis-and-clark-expedition/) to explore the new territory.
-* Strengthened the [United States](./../united-states/) as a world power.
-# [IDS Unit 3](./../ids-unit-3/)
+* Led to the [[Lewis and Clark Expedition]] to explore the new territory.
+* Strengthened the [[United States]] as a world power.
+# [[IDS Unit 3]]

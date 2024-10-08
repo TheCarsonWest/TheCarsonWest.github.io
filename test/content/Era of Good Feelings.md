@@ -1,17 +1,12 @@
-+++
- title = 'Era of Good Feelings'
-[params]
-	author = 'Carson West'
-+++
-** [Era of Good Feelings](./../era-of-good-feelings/)**
+** [[Era of Good Feelings]]**
 
 **WHEN:** 1815-1823
 
 **WHO:**
 
-* [James Monroe](./../james-monroe/), President
+* [[James Monroe]], President
 * Henry Clay, Secretary of State
-* [John Quincy Adams](./../john-quincy-adams/), Secretary of State
+* [[John Quincy Adams]], Secretary of State
 
 **WHAT:**
 
@@ -26,4 +21,4 @@
 * Strengthened the national government
 * Boosted American pride and confidence
 * Set the stage for westward expansion and industrialization
-# [IDS Unit 3](./../ids-unit-3/)
+# [[IDS Unit 3]]

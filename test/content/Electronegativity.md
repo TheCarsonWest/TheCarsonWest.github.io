@@ -1,11 +1,6 @@
-+++
- title = 'Electronegativity'
-[params]
-	author = 'Carson West'
-+++
-# [Periodic Trends](./../periodic-trends/)
-![Screenshot 2024-09-09 at 10.27.16 AM.png](./../screenshot-2024-09-09-at-10.27.16-am.png/)
-- [Electronegativity](./../electronegativity/):
+# [[Periodic Trends]]
+![[Screenshot 2024-09-09 at 10.27.16 AM.png]]
+- [[Electronegativity]]:
  - Measure of atom's ability to attract electrons in a chemical bond
  - Dimensionless quantity ranging from 0 to 4
  - Higher values indicate greater electronegativity

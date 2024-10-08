@@ -1,9 +1,4 @@
-+++
- title = 'Data Visualization with Seaborn'
-[params]
-	author = 'Carson West'
-+++
-## [Data Visualization with Seaborn](./../data-visualization-with-seaborn/)
+## [[Data Visualization with Seaborn]]
 
 ### Introduction
 Seaborn is a Python library for data visualization based on Matplotlib that provides a high-level interface for creating statistical graphics. It simplifies the process of generating visually appealing and informative charts and plots.
@@ -19,7 +14,7 @@ import seaborn as sns
 4. Use the appropriate Seaborn function to create the plot. (See below for specific functions and parameters.)
 5. Customize the plot as needed (e.g., add labels, set colors).
 
-### [Functions](./../functions/) and Parameters
+### [[Functions]] and Parameters
 Seaborn provides various functions for different types of plots, each with its own set of parameters. Some commonly used functions include:
 
 - **relplot()**: Create scatter plots, line plots, and bar plots with customizable relationships (e.g., hue, size).
@@ -53,8 +48,8 @@ sns.histplot(data=df, x="x")
 
 ### Related Python Concepts
 
-- [Libraries like Matplotlib](./../libraries-like-matplotlib/): Seaborn is built on top of Matplotlib and provides an easier-to-use interface.
-- [DataFrames in Pandas](./../dataframes-in-pandas/): Pandas DataFrames are commonly used as input data for Seaborn plots.
-- [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): Seaborn plots can be further customized using Matplotlib functions.
-- [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Seaborn plots are mutable and can be modified after creation.
-# [Python 1 Home](./../python-1-home/)
+- [[Libraries like Matplotlib]]: Seaborn is built on top of Matplotlib and provides an easier-to-use interface.
+- [[DataFrames in Pandas]]: Pandas DataFrames are commonly used as input data for Seaborn plots.
+- [[Plot Customization in Matplotlib]]: Seaborn plots can be further customized using Matplotlib functions.
+- [[Mutable vs Immutable Types]]: Seaborn plots are mutable and can be modified after creation.
+# [[Python 1 Home]]

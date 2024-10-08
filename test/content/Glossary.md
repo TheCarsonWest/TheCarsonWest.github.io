@@ -1,22 +1,17 @@
-+++
- title = 'Glossary'
-[params]
-	author = 'Carson West'
-+++
-[APHG Home](./../aphg-home/)
+[[APHG Home]]
 ## Unit 1
 ### Region Types
 
- - [Formal region](./../formal-region/)
- - [Functional Region](./../functional-region/)
- - [Vernacular Region](./../vernacular-region/)
-## [Map Types](./../map-types/)
+ - [[Formal region]]
+ - [[Functional Region]]
+ - [[Vernacular Region]]
+## [[Map Types]]
 
- - [Cloropleth](./../cloropleth/)
- - [Dot distribution](./../dot-distribution/)
- - [Graduated Symbols](./../graduated-symbols/)
- - [Cartogram](./../cartogram/)
+ - [[Cloropleth]]
+ - [[Dot distribution]]
+ - [[Graduated Symbols]]
+ - [[Cartogram]]
 ## Stats 
 
- - [Population Density](./../population-density/)
- - [Ecumene](./../ecumene/)
+ - [[Population Density]]
+ - [[Ecumene]]

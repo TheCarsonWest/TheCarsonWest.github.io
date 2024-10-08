@@ -1,9 +1,4 @@
-+++
- title = 'Grover Cleveland'
-[params]
-	author = 'Carson West'
-+++
-**[Grover Cleveland](./../grover-cleveland/)**
+**[[Grover Cleveland]]**
 
 **Political Affiliation:** Democrat
 
@@ -35,7 +30,7 @@
 * Promoted economic regulation and antitrust laws.
 * Struggled to balance labor and business interests during the Pullman Strike.
 * Took a conservative approach to fiscal policy, which some argue contributed to the Panic of 1893.
-* Defended American interests in the Venezuelan Boundary Dispute, solidifying the [Monroe Doctrine](./../monroe-doctrine/).
+* Defended American interests in the Venezuelan Boundary Dispute, solidifying the [[Monroe Doctrine]].
 * Was the only president to serve two non-consecutive terms.
 
 **Key Policies:**

@@ -1,9 +1,4 @@
-+++
- title = 'The Wealth of Nations'
-[params]
-	author = 'Carson West'
-+++
-**Notecard: [The Wealth of Nations](./../the-wealth-of-nations/)**
+**Notecard: [[The Wealth of Nations]]**
 
 **When:** 1776
 

@@ -1,9 +1,4 @@
-+++
- title = 'Plot Customization in Matplotlib'
-[params]
-	author = 'Carson West'
-+++
-## [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/)
+## [[Plot Customization in Matplotlib]]
 
 
 ### Overview
@@ -142,9 +137,9 @@ plt.savefig('my_plot.png')
 
 ### Related Python Concepts
 
-- [Libraries like Matplotlib](./../libraries-like-matplotlib/): Matplotlib is a library used for data visualization.
-- [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): This page includes additional information on customizing plots in Matplotlib.
-- [Variables and Data Types](./../variables-and-data-types/): Variables and data types are used to store and represent data in Matplotlib.
-- [Operators](./../operators/): [Operators](./../operators/) are used to perform operations on data in Matplotlib.
-- [Functions](./../functions/): [Functions](./../functions/) are used to encapsulate code and perform specific tasks in Matplotlib.
-# [Python 1 Home](./../python-1-home/)
+- [[Libraries like Matplotlib]]: Matplotlib is a library used for data visualization.
+- [[Plot Customization in Matplotlib]]: This page includes additional information on customizing plots in Matplotlib.
+- [[Variables and Data Types]]: Variables and data types are used to store and represent data in Matplotlib.
+- [[Operators]]: [[Operators]] are used to perform operations on data in Matplotlib.
+- [[Functions]]: [[Functions]] are used to encapsulate code and perform specific tasks in Matplotlib.
+# [[Python 1 Home]]
