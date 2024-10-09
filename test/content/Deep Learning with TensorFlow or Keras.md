@@ -1,4 +1,9 @@
-## [[Deep Learning with TensorFlow or Keras]]
++++
+ title = 'Deep Learning with TensorFlow or Keras'
+[params]
+	author = 'Carson West'
++++
+## [Deep Learning with TensorFlow or Keras](./../deep-learning-with-tensorflow-or-keras/)
 
 ### Overview
 Deep learning is a subset of machine learning that deals with artificial neural networks. It is used to solve complex problems such as image recognition, natural language processing, and speech recognition. TensorFlow and Keras are two popular Python libraries for deep learning. TensorFlow is a low-level library that gives you more control over the training process, while Keras is a higher-level library that simplifies the process.
@@ -79,9 +84,9 @@ predictions = model.predict(new_data)
 ```
 
 ### Related Python Concepts
-- [[Libraries like NumPy]]: NumPy is used for numerical operations and multidimensional data manipulation in deep learning.
-- [[Lists]]: [[Lists]] are used to represent sequences of data in deep learning models.
-- [[Dictionaries]]: [[Dictionaries]] are used to store and retrieve data by keys in deep learning models.
-- [[Functions]]: [[Functions]] are used to create custom layers and training methods in deep learning.
-- [[Lambda [[Functions]]: Lambda functions are used to create anonymous functions that can be used as layers or training callbacks in deep learning.
-# [[Python 1 Home]]
+- [Libraries like NumPy](./../libraries-like-numpy/): NumPy is used for numerical operations and multidimensional data manipulation in deep learning.
+- [Lists](./../lists/): [Lists](./../lists/) are used to represent sequences of data in deep learning models.
+- [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are used to store and retrieve data by keys in deep learning models.
+- [Functions](./../functions/): [Functions](./../functions/) are used to create custom layers and training methods in deep learning.
+- [[Lambda [Functions](./../functions/): Lambda functions are used to create anonymous functions that can be used as layers or training callbacks in deep learning.
+# [Python 1 Home](./../python-1-home/)

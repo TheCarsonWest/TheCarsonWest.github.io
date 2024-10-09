@@ -1,3 +1,8 @@
++++
+ title = 'Data Serialization (JSON, XML, Pickle)'
+[params]
+	author = 'Carson West'
++++
 ## Data Serialization
 
 ### What is Data Serialization?
@@ -100,9 +105,9 @@ with open('data.pickle', 'wb') as pickle_file:
 
 ### Related Python Concepts
 
-- [[File Handling]]: Data serialization allows objects to be stored in files.
-- [[Objects and Classes]]: Complex objects can be serialized using Pickle.
-- [[Modules and Packages]]: JSON and XML use modules to provide serialization capabilities.
-- [[Functions]]: Serialization is typically done using functions like `json.dumps` and `pickle.dump`.
-- [[Decorators]]: [[Decorators]] can be used to enhance serialization functionality.
-# [[Python 1 Home]]
+- [File Handling](./../file-handling/): Data serialization allows objects to be stored in files.
+- [Objects and Classes](./../objects-and-classes/): Complex objects can be serialized using Pickle.
+- [Modules and Packages](./../modules-and-packages/): JSON and XML use modules to provide serialization capabilities.
+- [Functions](./../functions/): Serialization is typically done using functions like `json.dumps` and `pickle.dump`.
+- [Decorators](./../decorators/): [Decorators](./../decorators/) can be used to enhance serialization functionality.
+# [Python 1 Home](./../python-1-home/)

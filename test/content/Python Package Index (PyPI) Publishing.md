@@ -1,3 +1,8 @@
++++
+ title = 'Python Package Index (PyPI) Publishing'
+[params]
+	author = 'Carson West'
++++
 ## Python Package Index (PyPI) Publishing
 
 ### Explanation
@@ -33,9 +38,9 @@ setup(
 
 ### Related Python Concepts
 
-- [[Modules and Packages]]: PyPI is used to distribute and manage Python modules and packages.
-- [[Importing Modules]]: PyPI packages can be installed and imported into your Python programs.
-- [[Building and Distributing Python Packages]]: PyPI is the primary platform for distributing Python packages.
-- [[Virtual Environments]]: PyPI packages can be installed into virtual environments to isolate them from other packages.
-- [[Command Line Interface (CLI) Programs]]: PyPI provides a command-line tool (pip) for installing and managing packages.
-# [[Python 1 Home]]
+- [Modules and Packages](./../modules-and-packages/): PyPI is used to distribute and manage Python modules and packages.
+- [Importing Modules](./../importing-modules/): PyPI packages can be installed and imported into your Python programs.
+- [Building and Distributing Python Packages](./../building-and-distributing-python-packages/): PyPI is the primary platform for distributing Python packages.
+- [Virtual Environments](./../virtual-environments/): PyPI packages can be installed into virtual environments to isolate them from other packages.
+- [Command Line Interface (CLI) Programs](./../command-line-interface-(cli)-programs/): PyPI provides a command-line tool (pip) for installing and managing packages.
+# [Python 1 Home](./../python-1-home/)

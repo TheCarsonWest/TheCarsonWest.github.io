@@ -1,12 +1,17 @@
-## [[Bitwise [[Operators]]
++++
+ title = 'Bitwise Operators'
+[params]
+	author = 'Carson West'
++++
+## [Bitwise [[Operators](./../bitwise-[[operators/)
 
-### What are [[Bitwise [[Operators]]?
+### What are [Bitwise [[Operators](./../bitwise-[[operators/)?
 Bitwise operators perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.
 
-### How to Use [[Bitwise [[Operators]]
+### How to Use [Bitwise [[Operators](./../bitwise-[[operators/)
 Bitwise operators are represented by symbols that indicate the specific operation to be performed on the bits of the operands. The operands must be integers or bitwise expressions. The result is a new integer that represents the modified binary value.
 
-### Common [[Bitwise [[Operators]]
+### Common [Bitwise [[Operators](./../bitwise-[[operators/)
 
 | Operator | Name | Description | Example |
 |---|---|---|---|
@@ -19,9 +24,9 @@ Bitwise operators are represented by symbols that indicate the specific operatio
 
 ### Related Python Concepts
 
-- [[Variables and Data Types]]: Bitwise operators operate on integers and bitwise expressions.
-- [[Operators]]: Bitwise operators are a type of operator, distinct from arithmetic and logical operators.
-- [[Lists]]: Bitwise operators can be applied to elements of lists containing integers.
-- [[Tuples]]: Bitwise operators can be applied to elements of tuples containing integers.
-- [[Sets]]: Bitwise operators can be applied to elements of sets containing integers.
-# [[Python 1 Home]]
+- [Variables and Data Types](./../variables-and-data-types/): Bitwise operators operate on integers and bitwise expressions.
+- [Operators](./../operators/): Bitwise operators are a type of operator, distinct from arithmetic and logical operators.
+- [Lists](./../lists/): Bitwise operators can be applied to elements of lists containing integers.
+- [Tuples](./../tuples/): Bitwise operators can be applied to elements of tuples containing integers.
+- [Sets](./../sets/): Bitwise operators can be applied to elements of sets containing integers.
+# [Python 1 Home](./../python-1-home/)

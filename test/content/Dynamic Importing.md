@@ -1,9 +1,14 @@
-## [[Dynamic Importing]]
++++
+ title = 'Dynamic Importing'
+[params]
+	author = 'Carson West'
++++
+## [Dynamic Importing](./../dynamic-importing/)
 
-### What is [[Dynamic Importing]]?
+### What is [Dynamic Importing](./../dynamic-importing/)?
 Dynamic importing is a technique in Python that allows the importing of modules or packages at runtime based on a dynamically determined string. It is different from static importing, which imports modules or packages explicitly at the beginning of a script.
 
-### How to Use [[Dynamic Importing]]
+### How to Use [Dynamic Importing](./../dynamic-importing/)
 The `importlib` module provides functions for dynamic importing:
 
 - `importlib.import_module(module_name)`: Imports a module by its name and returns the module object.
@@ -33,11 +38,11 @@ print(json_data['name']) # Output: John
 
 ### Related Python Concepts
 
-- [[Modules and Packages]]: Dynamic importing provides a way to dynamically load modules and packages.
-- [[Importing Modules]]: Dynamic importing is an alternative to static importing.
-- [[Variables and Data Types]]: Dynamic importing relies on strings to represent module names.
-- [[Functions]]: The `importlib.import_module()` and `importlib.reload()` functions are used for dynamic importing.
-- [[Decorators]]: Dynamic importing can be used in conjunction with decorators to load modules based on runtime conditions.
-- [[Building and Distributing Python Packages]]
+- [Modules and Packages](./../modules-and-packages/): Dynamic importing provides a way to dynamically load modules and packages.
+- [Importing Modules](./../importing-modules/): Dynamic importing is an alternative to static importing.
+- [Variables and Data Types](./../variables-and-data-types/): Dynamic importing relies on strings to represent module names.
+- [Functions](./../functions/): The `importlib.import_module()` and `importlib.reload()` functions are used for dynamic importing.
+- [Decorators](./../decorators/): Dynamic importing can be used in conjunction with decorators to load modules based on runtime conditions.
+- [Building and Distributing Python Packages](./../building-and-distributing-python-packages/)
 - 
-# [[Python 1 Home]]
+# [Python 1 Home](./../python-1-home/)

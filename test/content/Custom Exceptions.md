@@ -1,9 +1,14 @@
-## [[Custom Exceptions]]
++++
+ title = 'Custom Exceptions'
+[params]
+	author = 'Carson West'
++++
+## [Custom Exceptions](./../custom-exceptions/)
 
-### What are [[Custom Exceptions]]?
+### What are [Custom Exceptions](./../custom-exceptions/)?
 Custom exceptions are classes designed to handle specific errors or exceptional conditions encountered during program execution. They extend the built-in `Exception` class and allow developers to create specialized exceptions that can provide more context and tailored handling.
 
-### How to Use [[Custom Exceptions]]
+### How to Use [Custom Exceptions](./../custom-exceptions/)
 To create a custom exception, define a class that inherits from the `Exception` class and optionally provides additional attributes for storing error information. Typically, a custom exception class is defined as follows:
 
 ```python
@@ -46,9 +51,9 @@ except FileNotFoundException as e:
 
 ### Related Python Concepts
 
-- [[Exception Handling]]: Custom exceptions are part of the exception handling mechanism that allows catching and handling specific exceptions.
-- [[Classes and Objects]]: Custom exceptions are defined as classes and can have custom attributes and methods.
-- [[Inheritance]]: Custom exceptions inherit from the `Exception` base class to gain its functionality.
-- [[Function Parameters]]: The constructor of a custom exception class can take additional parameters for error handling.
-- [[Return Values]]: Custom exceptions can return error messages or other relevant information.
-# [[Python 1 Home]]
+- [Exception Handling](./../exception-handling/): Custom exceptions are part of the exception handling mechanism that allows catching and handling specific exceptions.
+- [Classes and Objects](./../classes-and-objects/): Custom exceptions are defined as classes and can have custom attributes and methods.
+- [Inheritance](./../inheritance/): Custom exceptions inherit from the `Exception` base class to gain its functionality.
+- [Function Parameters](./../function-parameters/): The constructor of a custom exception class can take additional parameters for error handling.
+- [Return Values](./../return-values/): Custom exceptions can return error messages or other relevant information.
+# [Python 1 Home](./../python-1-home/)

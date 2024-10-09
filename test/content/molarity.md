@@ -1,9 +1,14 @@
++++
+ title = 'molarity'
+[params]
+	author = 'Carson West'
++++
 
 Molarity is a measure of the concentration of a solution, defined as the number of moles of solute per liter of solution. It is expressed in units of moles per liter (mol/L).
 
 ### **Calculating Molarity**
 
-To calculate the [[molarity]] of a solution, use the following formula:
+To calculate the [molarity](./../molarity/) of a solution, use the following formula:
 
 ```
 Molarity = Moles of Solute / Volume of Solution (in liters)
@@ -11,7 +16,7 @@ Molarity = Moles of Solute / Volume of Solution (in liters)
 
 #### **Example:**
 
-If you have 0.5 moles of NaCl dissolved in 2 liters of water, the [[molarity]] of the solution is:
+If you have 0.5 moles of NaCl dissolved in 2 liters of water, the [molarity](./../molarity/) of the solution is:
 
 ```
 Molarity = 0.5 moles / 2 liters = 0.25 mol/L
@@ -19,28 +24,23 @@ Molarity = 0.5 moles / 2 liters = 0.25 mol/L
 
 ### **Diluting Solutions**
 
-When diluting a solution, the total number of moles of solute remains the same. However, the volume of the solution increases, resulting in a decrease in [[molarity]].
+When diluting a solution, the total number of moles of solute remains the same. However, the volume of the solution increases, resulting in a decrease in [molarity](./../molarity/).
 
 #### **Dilution Formula:**
 
-## $$
-M_1V_1 = M_2V_2
-$$
-* $M_1$ is the initial [[molarity]]
-* $V_1$ is the initial volume
-* $M_2$ is the final [[molarity]]
-* $V_2$ is the final volume
+##  $  $  M_1V_1 = M_2V_2
+ $  $  *  $ M_1 $  is the initial [molarity](./../molarity/)
+*  $ V_1 $  is the initial volume
+*  $ M_2 $  is the final [molarity](./../molarity/)
+*  $ V_2 $  is the final volume
 
 **Example:**
 
-If you have 500 mL of a 1.0 M NaCl solution and want to dilute it to a final volume of 1 liter, the final [[molarity]] will be:
+If you have 500 mL of a 1.0 M NaCl solution and want to dilute it to a final volume of 1 liter, the final [molarity](./../molarity/) will be:
 
-$$
-(1.0 \; M)(500 \; mL) = (M_2)(1000 \; mL)
-$$$$
- M_2 = 0.5\; M
-$$
-
+ $  $  (1.0 \; M)(500 \; mL) = (M_2)(1000 \; mL)
+ $  $  $  $   M_2 = 0.5\; M
+ $  $  
 **Stoichiometry and Molarity**
 
 Molarity can be used in stoichiometric calculations to determine the number of moles of reactants or products involved in a chemical reaction.

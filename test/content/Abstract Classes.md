@@ -1,10 +1,15 @@
-## [[Abstract Classes]]
++++
+ title = 'Abstract Classes'
+[params]
+	author = 'Carson West'
++++
+## [Abstract Classes](./../abstract-classes/)
 
-### What are [[Abstract Classes]]?
+### What are [Abstract Classes](./../abstract-classes/)?
 
 Abstract classes are blueprints for creating other classes. They contain methods that must be implemented (overridden) by the derived classes. Abstract classes cannot be instantiated directly; they are meant to be inherited and extended.
 
-### How to Use [[Abstract Classes]]
+### How to Use [Abstract Classes](./../abstract-classes/)
 
 To create an abstract class, use the `abc` module:
 
@@ -51,9 +56,9 @@ class Square(Shape):
 
 ### Related Python Concepts
 
-- [[Classes and Objects]]: Abstract classes introduce the concept of abstraction in object-oriented programming.
-- [[Inheritance]]: Derived classes inherit the abstract methods from their abstract class.
-- [[Polymorphism]]: Abstract methods encourage polymorphism by allowing derived classes to provide different implementations of the same method.
-- [[Type Hinting]]: Type annotations can be used to specify the expected type of the abstract methods.
-- [[Mutable vs Immutable Types]]: Abstract classes are typically considered immutable, as their methods cannot be modified.
-# [[Python 1 Home]]
+- [Classes and Objects](./../classes-and-objects/): Abstract classes introduce the concept of abstraction in object-oriented programming.
+- [Inheritance](./../inheritance/): Derived classes inherit the abstract methods from their abstract class.
+- [Polymorphism](./../polymorphism/): Abstract methods encourage polymorphism by allowing derived classes to provide different implementations of the same method.
+- [Type Hinting](./../type-hinting/): Type annotations can be used to specify the expected type of the abstract methods.
+- [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Abstract classes are typically considered immutable, as their methods cannot be modified.
+# [Python 1 Home](./../python-1-home/)

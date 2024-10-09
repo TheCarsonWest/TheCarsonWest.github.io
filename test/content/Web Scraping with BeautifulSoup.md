@@ -1,6 +1,11 @@
-## [[Web Scraping with BeautifulSoup]]
++++
+ title = 'Web Scraping with BeautifulSoup'
+[params]
+	author = 'Carson West'
++++
+## [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
 
-### What is [[Web Scraping with BeautifulSoup]]?
+### What is [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)?
 Web scraping with BeautifulSoup is a technique to extract and parse data from web pages. BeautifulSoup is a Python library that specifically focuses on parsing HTML and XML documents, making it an efficient tool for web scraping.
 
 ### How to Use BeautifulSoup
@@ -45,9 +50,9 @@ title = title_element.text
 
 ### Related Python Concepts
 
-- [[Libraries like Requests Library]]: BeautifulSoup is often used in conjunction with libraries like Requests for fetching web pages.
-- [[Regular Expressions]]: BeautifulSoup uses regular expressions for extracting specific patterns from web pages.
-- [[HTML and XML]]: BeautifulSoup specifically parses HTML and XML documents.
-- [[Web Development with Django]]: Web scraping can be used to gather data for web development projects.
-- [[Handling APIs with Requests Library]]: Web scraping can be used to access data from APIs.
-# [[Python 1 Home]]
+- [Libraries like Requests Library](./../libraries-like-requests-library/): BeautifulSoup is often used in conjunction with libraries like Requests for fetching web pages.
+- [Regular Expressions](./../regular-expressions/): BeautifulSoup uses regular expressions for extracting specific patterns from web pages.
+- [HTML and XML](./../html-and-xml/): BeautifulSoup specifically parses HTML and XML documents.
+- [Web Development with Django](./../web-development-with-django/): Web scraping can be used to gather data for web development projects.
+- [Handling APIs with Requests Library](./../handling-apis-with-requests-library/): Web scraping can be used to access data from APIs.
+# [Python 1 Home](./../python-1-home/)

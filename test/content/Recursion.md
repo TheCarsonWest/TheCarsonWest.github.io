@@ -1,9 +1,14 @@
-## [[Recursion]]
++++
+ title = 'Recursion'
+[params]
+	author = 'Carson West'
++++
+## [Recursion](./../recursion/)
 
 ### Explanation
- [[Recursion]] is a programming technique where a function calls itself inside its own body. It is used to break down a problem into smaller subproblems, each of which is a simpler instance of the original problem.
+ [Recursion](./../recursion/) is a programming technique where a function calls itself inside its own body. It is used to break down a problem into smaller subproblems, each of which is a simpler instance of the original problem.
 
-### How to use [[Recursion]]
+### How to use [Recursion](./../recursion/)
 When implementing recursion, it is important to:
 
 - Define a base case: This is the stopping condition that prevents the function from recursing indefinitely.
@@ -36,9 +41,9 @@ def fibonacci(n):
 
 ### Related Python Concepts
 
-- [[Functions]]: [[Recursion]] is a special case of function calls where the function calls itself.
-- [[Function Parameters]]: Recursive functions often use parameters to pass smaller subproblems to the recursive calls.
-- [[Return Values]]: Recursive functions return values that are used to calculate the final result.
-- [[Memoization in [[Recursion]]: Memoization techniques can optimize recursive functions by caching previously calculated results.
-- [[Higher-Order [[Functions]]: [[Recursion]] can be used to implement higher-order functions that accept and return other functions.
-# [[Python 1 Home]]
+- [Functions](./../functions/): [Recursion](./../recursion/) is a special case of function calls where the function calls itself.
+- [Function Parameters](./../function-parameters/): Recursive functions often use parameters to pass smaller subproblems to the recursive calls.
+- [Return Values](./../return-values/): Recursive functions return values that are used to calculate the final result.
+- [[Memoization in [Recursion](./../recursion/): Memoization techniques can optimize recursive functions by caching previously calculated results.
+- [[Higher-Order [Functions](./../functions/): [Recursion](./../recursion/) can be used to implement higher-order functions that accept and return other functions.
+# [Python 1 Home](./../python-1-home/)

@@ -1,21 +1,26 @@
++++
+ title = 'French and Indian War'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 40.2253569,-82.6881395
 ---
-**ID:** [[French and Indian War]]
+**ID:** [French and Indian War](./../french-and-indian-war/)
 
 **When:** 1754-1763
 
 **Who:**
 
 * **Great Britain:** General James Wolfe, William Pitt
-* **[[France]]:** Marquis de Montcalm, Louis XV
+* **[France](./../france/):** Marquis de Montcalm, Louis XV
 * **Native American tribes:** Pontiac, Tecumseh
 
 **What:**
 
-* Conflict between [[France]] and Great Britain over land in North America
+* Conflict between [France](./../france/) and Great Britain over land in North America
 * Colonial rivalry and competition for trade and resources
-* Battles fought in the [[Ohio]] Valley, Great Lakes region, and Canada
+* Battles fought in the [Ohio](./../ohio/) Valley, Great Lakes region, and Canada
 * Ended with the Treaty of Paris (1763)
 
 **Impact:**

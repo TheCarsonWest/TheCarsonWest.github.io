@@ -1,4 +1,9 @@
-## [[Glossary]]
++++
+ title = 'Global scale'
+[params]
+	author = 'Carson West'
++++
+## [Glossary](./../glossary/)
 
 **Global Scale**
 

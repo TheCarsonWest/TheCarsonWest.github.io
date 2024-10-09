@@ -1,3 +1,8 @@
++++
+ title = 'Security and Cryptography (PyCryptodome)'
+[params]
+	author = 'Carson West'
++++
 ## Security and Cryptography (PyCryptodome)
 
 ### What is PyCryptodome?
@@ -53,9 +58,9 @@ print(digest.hex())
 
 ### Related Python Concepts
 
-- [[Variables and Data Types]]: Cryptographic operations involve handling binary data, requiring familiarity with data types like bytes and integers.
-- [[Operators]]: [[Operators]] like `+` and `==` are used to concatenate or compare cryptographic data.
-- [[Functions]]: PyCryptodome provides functions for encryption, decryption, hashing, and digital signatures.
-- [[Modules and Packages]]: PyCryptodome is a third-party module that must be imported to use its functionalities.
-- [[File Handling]]: Cryptographic data can be written to or read from files for storage or transmission.
-# [[Python 1 Home]]
+- [Variables and Data Types](./../variables-and-data-types/): Cryptographic operations involve handling binary data, requiring familiarity with data types like bytes and integers.
+- [Operators](./../operators/): [Operators](./../operators/) like `+` and `==` are used to concatenate or compare cryptographic data.
+- [Functions](./../functions/): PyCryptodome provides functions for encryption, decryption, hashing, and digital signatures.
+- [Modules and Packages](./../modules-and-packages/): PyCryptodome is a third-party module that must be imported to use its functionalities.
+- [File Handling](./../file-handling/): Cryptographic data can be written to or read from files for storage or transmission.
+# [Python 1 Home](./../python-1-home/)

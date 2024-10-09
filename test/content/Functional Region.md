@@ -1,5 +1,10 @@
- [[Glossary]]
-** [[Functional Region]]**
++++
+ title = 'Functional Region'
+[params]
+	author = 'Carson West'
++++
+ [Glossary](./../glossary/)
+** [Functional Region](./../functional-region/)**
 
 - A region linked by one or more activities or functions
 - Can be based on economic, social, or cultural interactions

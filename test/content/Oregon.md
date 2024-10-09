@@ -1,25 +1,30 @@
-**[[Oregon]]: Timeline, Legislation, Court Cases, Industry, and National Impact**
++++
+ title = 'Oregon'
+[params]
+	author = 'Carson West'
++++
+**[Oregon](./../oregon/): Timeline, Legislation, Court Cases, Industry, and National Impact**
 
 **Timeline**
 
-* 1804: Lewis and Clark Expedition explores [[Oregon]]
-* 1818: [[Oregon]] Country becomes a joint occupation of the [[United States]] and Great Britain under the Treaty of 1818
-* 1843: [[Oregon]] Trail established
-* 1846: [[Oregon]] Treaty settles the [[Oregon]] boundary dispute, dividing the territory between the [[United States]] and Great Britain
-* 1848: [[Oregon]] Territory established
-* 1859: [[Oregon]] admitted to the Union as the 33rd state
+* 1804: Lewis and Clark Expedition explores [Oregon](./../oregon/)
+* 1818: [Oregon](./../oregon/) Country becomes a joint occupation of the [United States](./../united-states/) and Great Britain under the Treaty of 1818
+* 1843: [Oregon](./../oregon/) Trail established
+* 1846: [Oregon](./../oregon/) Treaty settles the [Oregon](./../oregon/) boundary dispute, dividing the territory between the [United States](./../united-states/) and Great Britain
+* 1848: [Oregon](./../oregon/) Territory established
+* 1859: [Oregon](./../oregon/) admitted to the Union as the 33rd state
 
 **Important Legislation**
 
-* Homestead Act of 1862: Granted land to settlers in the [[Oregon]] Territory
-* [[Oregon]] Land Fraud Scandal of 1871: Exposed corruption in the sale of public lands in [[Oregon]]
-* [[Oregon]] School Laws of 1922: Required all children between the ages of 8 and 14 to attend public school
-* [[Oregon]] Trail Historic Park Bill of 2006: Established a national historic trail commemorating the [[Oregon]] Trail
+* Homestead Act of 1862: Granted land to settlers in the [Oregon](./../oregon/) Territory
+* [Oregon](./../oregon/) Land Fraud Scandal of 1871: Exposed corruption in the sale of public lands in [Oregon](./../oregon/)
+* [Oregon](./../oregon/) School Laws of 1922: Required all children between the ages of 8 and 14 to attend public school
+* [Oregon](./../oregon/) Trail Historic Park Bill of 2006: Established a national historic trail commemorating the [Oregon](./../oregon/) Trail
 
 **Important Court Cases**
 
-* Scott v. Sanford (1857): Overturned the [[Missouri]] Compromise and declared that African Americans were not citizens and could not own property
-* Pierce v. Society of Sisters (1925): Struck down an [[Oregon]] law requiring children to attend public school, protecting the right to private and religious education
+* Scott v. Sanford (1857): Overturned the [Missouri](./../missouri/) Compromise and declared that African Americans were not citizens and could not own property
+* Pierce v. Society of Sisters (1925): Struck down an [Oregon](./../oregon/) law requiring children to attend public school, protecting the right to private and religious education
 
 **Major Industry**
 
@@ -27,6 +32,6 @@
 
 **National Impact**
 
-* [[Oregon]]'s role in the westward expansion of the [[United States]]
+* [Oregon](./../oregon/)'s role in the westward expansion of the [United States](./../united-states/)
 * Its economic contributions through timber and agriculture
-* Its progressive social and environmental policies, such as the [[Oregon]] Trail Historic Park and the Bottle Bill (1971), which established a statewide recycling program
+* Its progressive social and environmental policies, such as the [Oregon](./../oregon/) Trail Historic Park and the Bottle Bill (1971), which established a statewide recycling program

@@ -1,16 +1,21 @@
++++
+ title = 'Marbury vs. Madison'
+[params]
+	author = 'Carson West'
++++
 **Marbury v. Madison**
 
 **WHEN:** February 24, 1803
 
 **WHO:**
 * William Marbury (petitioner)
-* [[James Madison]] (Secretary of State)
+* [James Madison](./../james-madison/) (Secretary of State)
 * John Marshall (Chief Justice of the Supreme Court)
 
 **WHAT:**
 
-* Marbury sued Madison to force him to deliver a judicial commission that had been signed by President [[John Adams]] but not delivered before Adams left office.
-* The Supreme Court ruled that Marbury was entitled to the commission but that the Court lacked the authority to order Madison to deliver it because the [[Judiciary Act]] of 1789 was unconstitutional.
+* Marbury sued Madison to force him to deliver a judicial commission that had been signed by President [John Adams](./../john-adams/) but not delivered before Adams left office.
+* The Supreme Court ruled that Marbury was entitled to the commission but that the Court lacked the authority to order Madison to deliver it because the [Judiciary Act](./../judiciary-act/) of 1789 was unconstitutional.
 
 **IMPACT:**
 
@@ -18,4 +23,4 @@
 * Strengthened the power of the judiciary.
 * Set a precedent for the Court to limit the powers of the other branches of government.
 * Contributed to the development of the system of checks and balances.
-# [[IDS Unit 3]]
+# [IDS Unit 3](./../ids-unit-3/)

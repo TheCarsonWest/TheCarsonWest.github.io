@@ -96,6 +96,8 @@
   </url><url>
     <loc>http://example.org/cartogram/</loc>
   </url><url>
+    <loc>http://example.org/categories/</loc>
+  </url><url>
     <loc>http://example.org/cengage-home/</loc>
   </url><url>
     <loc>http://example.org/chaining-decorators/</loc>
@@ -204,9 +206,9 @@
   </url><url>
     <loc>http://example.org/era-of-good-feelings/</loc>
   </url><url>
-    <loc>http://example.org/espn-example/</loc>
-  </url><url>
     <loc>http://example.org/espn/</loc>
+  </url><url>
+    <loc>http://example.org/espn-example/</loc>
   </url><url>
     <loc>http://example.org/exception-handling/</loc>
   </url><url>
@@ -380,9 +382,9 @@
   </url><url>
     <loc>http://example.org/local-scale/</loc>
   </url><url>
-    <loc>http://example.org/louisiana-purchase/</loc>
-  </url><url>
     <loc>http://example.org/louisiana/</loc>
+  </url><url>
+    <loc>http://example.org/louisiana-purchase/</loc>
   </url><url>
     <loc>http://example.org/lyndon-b.-johnson/</loc>
   </url><url>
@@ -455,6 +457,8 @@
     <loc>http://example.org/natural-language-processing-with-nltk-or-spacy/</loc>
   </url><url>
     <loc>http://example.org/nebraska/</loc>
+  </url><url>
+    <loc>http://example.org/</loc>
   </url><url>
     <loc>http://example.org/nested-if-statements/</loc>
   </url><url>
@@ -600,6 +604,8 @@
   </url><url>
     <loc>http://example.org/synthesis-reaction/</loc>
   </url><url>
+    <loc>http://example.org/tags/</loc>
+  </url><url>
     <loc>http://example.org/tea-act/</loc>
   </url><url>
     <loc>http://example.org/tennessee/</loc>
@@ -699,11 +705,5 @@
     <loc>http://example.org/xyz-affair/</loc>
   </url><url>
     <loc>http://example.org/zachary-taylor/</loc>
-  </url><url>
-    <loc>http://example.org/categories/</loc>
-  </url><url>
-    <loc>http://example.org/</loc>
-  </url><url>
-    <loc>http://example.org/tags/</loc>
   </url>
 </urlset>

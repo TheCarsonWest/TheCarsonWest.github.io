@@ -1,12 +1,17 @@
-**[[John Quincy Adams]] (1767-1848)**
++++
+ title = 'John Quincy Adams'
+[params]
+	author = 'Carson West'
++++
+**[John Quincy Adams](./../john-quincy-adams/) (1767-1848)**
 
 **Events Associated With:**
 
 * War of 1812 (served as a peace commissioner)
-* [[Treaty of Ghent]] (negotiated the end of the war)
-* Secretary of State under [[James Monroe]]
-* [[Monroe Doctrine]] (helped craft the policy)
-* Election of 1824 (lost to [[Andrew Jackson]])
+* [Treaty of Ghent](./../treaty-of-ghent/) (negotiated the end of the war)
+* Secretary of State under [James Monroe](./../james-monroe/)
+* [Monroe Doctrine](./../monroe-doctrine/) (helped craft the policy)
+* Election of 1824 (lost to [Andrew Jackson](./../andrew-jackson/))
 * Corrupt Bargain (allegations of a deal to make Adams president)
 
 **Important Legislation:**

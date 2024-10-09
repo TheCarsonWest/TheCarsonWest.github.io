@@ -1,4 +1,9 @@
-**[[Barack Obama]]: 44th [[President of the United States]] (2009-2017)**
++++
+ title = 'Barack Obama'
+[params]
+	author = 'Carson West'
++++
+**[Barack Obama](./../barack-obama/): 44th [President of the United States](./../president-of-the-united-states/) (2009-2017)**
 
 **Events Associated with:**
 
@@ -18,13 +23,13 @@
 
 **Groups Associated with:**
 
-* **[[Democratic Party]]:** Obama was a member of the Democratic Party and served as its nominee for president in 2008 and 2012.
-* **[[Illinois]] State Senate:** Obama served in the [[Illinois]] State Senate from 1997 to 2004.
-* **U.S. Senate:** Obama was elected to the U.S. Senate from [[Illinois]] in 2004 and served from 2005 to 2008.
+* **[Democratic Party](./../democratic-party/):** Obama was a member of the Democratic Party and served as its nominee for president in 2008 and 2012.
+* **[Illinois](./../illinois/) State Senate:** Obama served in the [Illinois](./../illinois/) State Senate from 1997 to 2004.
+* **U.S. Senate:** Obama was elected to the U.S. Senate from [Illinois](./../illinois/) in 2004 and served from 2005 to 2008.
 
 **Impact on the Country:**
 
-* Obama's election in 2008 marked a historic moment as he became the first African American [[President of the United States]].
+* Obama's election in 2008 marked a historic moment as he became the first African American [President of the United States](./../president-of-the-united-states/).
 * His policies helped stabilize the economy after the financial crisis and expand healthcare coverage.
 * Obama's foreign policy was characterized by a focus on diplomacy and multilateralism.
 * He played a significant role in promoting social equality and addressing climate change.

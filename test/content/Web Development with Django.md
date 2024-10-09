@@ -1,4 +1,9 @@
-## [[Web Development with Django]]
++++
+ title = 'Web Development with Django'
+[params]
+	author = 'Carson West'
++++
+## [Web Development with Django](./../web-development-with-django/)
 
 ### What is Django?
 Django is a high-level Python web framework that simplifies the development of complex, database-driven websites. It provides a wide range of features, including:
@@ -79,9 +84,9 @@ python manage.py runserver
 
 ### Other Python Concepts
 
-- [[Models and Objects]]: Django's ORM uses models and objects to represent data in the database.
-- [[Inheritance]]: Django models can inherit from other models to create a hierarchy of classes.
-- [[Polymorphism]]: Django models support polymorphism through the use of the `ContentType` model.
-- [[Databases and SQL]]: Django uses a database backend (such as SQLite or PostgreSQL) to store and retrieve data.
-- [[Web Development]]: Django is a framework specifically designed for web development.
-# [[Python 1 Home]]
+- [Models and Objects](./../models-and-objects/): Django's ORM uses models and objects to represent data in the database.
+- [Inheritance](./../inheritance/): Django models can inherit from other models to create a hierarchy of classes.
+- [Polymorphism](./../polymorphism/): Django models support polymorphism through the use of the `ContentType` model.
+- [Databases and SQL](./../databases-and-sql/): Django uses a database backend (such as SQLite or PostgreSQL) to store and retrieve data.
+- [Web Development](./../web-development/): Django is a framework specifically designed for web development.
+# [Python 1 Home](./../python-1-home/)

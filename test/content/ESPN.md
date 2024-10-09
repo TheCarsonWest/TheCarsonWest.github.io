@@ -1,6 +1,11 @@
- [[APHG Unit 2]]
++++
+ title = 'ESPN'
+[params]
+	author = 'Carson West'
++++
+ [APHG Unit 2](./../aphg-unit-2/)
 
-# [[ESPN]]: List of consequences
+# [ESPN](./../espn/): List of consequences
 ## E   = Economics (money, currency, trading, etc.)
 
 ## S = Social (interactions, language, religion, culture, people, etc.)
@@ -9,4 +14,4 @@
 
 ## N   = Nature/ eNvironment (HEI, physical geography)
 
-# [[ESPN]] Example]]
+# [ESPN](./../espn/) Example]]

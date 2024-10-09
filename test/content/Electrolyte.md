@@ -1,4 +1,9 @@
-[[solutions]]
++++
+ title = 'Electrolyte'
+[params]
+	author = 'Carson West'
++++
+[solutions](./../solutions/)
 
 Electrolytes are substances that, when dissolved in water or other solvents, dissociate into ions and become electrically conductive.
 
@@ -10,26 +15,26 @@ Electrolytes are substances that, when dissolved in water or other solvents, dis
 
 **Types of Electrolytes:**
 
-* **Strong Electrolytes:** Ionize completely in solution, producing a high concentration of ions. Examples: $NaCl$, $HCl$, $NaOH$
-* **Weak Electrolytes:** Ionize only partially, producing a lower concentration of ions. Examples: $CH_3COOH$ (acetic acid), $NH_3$ (ammonia)
+* **Strong Electrolytes:** Ionize completely in solution, producing a high concentration of ions. Examples:  $ NaCl $ ,  $ HCl $ ,  $ NaOH $ 
+* **Weak Electrolytes:** Ionize only partially, producing a lower concentration of ions. Examples:  $ CH_3COOH $  (acetic acid),  $ NH_3 $  (ammonia)
 
 **Examples:**
 
 **Strong Electrolytes:**
 
-* Sodium chloride ($NaCl$)
-* Hydrochloric acid ($HCl$)
-* Sodium hydroxide ($NaOH$)
-* Potassium chloride ($KCl$)
-* Calcium chloride ($CaCl_2$)
+* Sodium chloride ( $ NaCl $ )
+* Hydrochloric acid ( $ HCl $ )
+* Sodium hydroxide ( $ NaOH $ )
+* Potassium chloride ( $ KCl $ )
+* Calcium chloride ( $ CaCl_2 $ )
 
 **Weak Electrolytes:**
 
-* Acetic acid ($CH_3CO(OH)$)
-* Ammonia ($NH_3$)
-* Carbonic acid ($H_2CO_3$)
-* Phosphoric acid ($H_3PO_4$)
-* Hydrofluoric acid ($HF$)
+* Acetic acid ( $ CH_3CO(OH) $ )
+* Ammonia ( $ NH_3 $ )
+* Carbonic acid ( $ H_2CO_3 $ )
+* Phosphoric acid ( $ H_3PO_4 $ )
+* Hydrofluoric acid ( $ HF $ )
 
 **Applications:**
 

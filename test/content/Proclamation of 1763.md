@@ -1,7 +1,12 @@
++++
+ title = 'Proclamation of 1763'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 51.5156177,-0.0919983
 ---
-** [[Proclamation of 1763]]**
+** [Proclamation of 1763](./../proclamation-of-1763/)**
 
 **When:** October 7, 1763
 

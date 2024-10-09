@@ -1,104 +1,109 @@
-# [[nexus]]
++++
+ title = 'Python 1 Home'
+[params]
+	author = 'Carson West'
++++
+# [nexus](./../nexus/)
 
 Theres a whole lot of messed up links around here, so dont be suprised
 
 
 
- - [[Variables and Data Types]]
- - [[Operators]]
- - [[Control Flow If Statements]]
- - [[For Loops]]
- - [[While Loops]]
- - [[Functions]]
- - [[Function Parameters]]
- - [[Return Values]]
- - [[Default Parameters]]
- - [[Recursion]]
-- [[Lambda Functions]]
- - [[Lists]]
- - [[Tuples]]
- - [[Dictionaries]]
- - [[Sets]]
- - [[List Comprehension]]
- - [[File Handling]]
- - [[Exception Handling]]
- - [[Classes and Objects]]
- - [[Inheritance]]
- - [[Polymorphism]]
- - [[Encapsulation]]
- - [[Modules and Packages]]
- - [[Importing Modules]]
- - [[Generators]]
- - [[Decorators]]
- - [[Context Managers]]
- - [[Regular Expressions]]
- - [[Libraries like NumPy]]
- - [[Libraries like Pandas]]
- - [[Libraries like Matplotlib]]
- - [[Type Hinting]]
- - [[Mutable vs Immutable Types]]
-- [[Bitwise Operators]]
- - [[Nested If Statements]]
- - [[Nested Loops]]
- - [[Function Overloading]]
-- [[Higher-Order Functions]]
- - [[Closures]]
- - [[Global and Nonlocal Variables]]
-- [[Memoization in Recursion]]
- - [[Map, Filter, and Reduce]]
-- [[Multidimensional Lists]]
- - [[Dictionary Comprehension]]
-- [[Frozen Sets]]
- - [[File IO Modes]]
- - [[Handling Binary Files]]
- - [[Custom Exceptions]]
- - [[Abstract Classes]]
-- [[Multiple Inheritance]]
-- [[Method Resolution Order (MRO)]]
- - [[Private and Protected Members]]
- - [[Dynamic Importing]]
- - [[Virtual Environments]]
-- [[Async Generators]]
- - [[Coroutines]]
-- [[Chaining Decorators]]
-- [[Custom Context Managers]]
- - [[Regex Groups and Backreferences]]
- - [[NumPy Broadcasting]]
- - [[DataFrames in Pandas]]
- - [[Plot Customization in Matplotlib]]
- - [[Metaclasses]]
- - [[Descriptors]]
- - [[Duck Typing]]
- - [[Concurrency and Multithreading]]
- - [[Multiprocessing]]
- - [[Asynchronous Programming]]
- - [[Web Scraping with BeautifulSoup]]
- - [[Building APIs with Flask or Django]]
-- [[Working with Databases (SQLAlchemy, SQLite, MySQL)]]
- - [[Unit Testing and Test-Driven Development]]
- - [[Mocking in Unit Tests]]
- - [[Profiling and Optimization]]
- - [[Memory Management]]
- - [[Garbage Collection]]
- - [[Thread Safety]]
- - [[Pathlib and OS Module]]
-- [[Command Line Interface (CLI) Programs]]
- - [[Creating GUI Applications with Tkinter or PyQt]]
- - [[Web Development with Django]]
- - [[Handling APIs with Requests Library]]
-- [[Data Serialization (JSON, XML, Pickle)]]
- - [[REST APIs with FastAPI]]
- - [[Automating Tasks with Selenium]]
- - [[Handling Large Datasets with Dask]]
- - [[Building Machine Learning Models with Scikit-learn]]
- - [[Deep Learning with TensorFlow or Keras]]
- - [[Natural Language Processing with NLTK or Spacy]]
- - [[Data Visualization with Seaborn]]
- - [[Time Series Analysis]]
- - [[Working with Big Data using PySpark]]
-- [[Security and Cryptography (PyCryptodome)]]
-- [[Network Programming (Sockets)]]
- - [[Building and Distributing Python Packages]]
-- [[Python Package Index (PyPI) Publishing]]
-- [[Continuous Integration or Continuous Deployment (CI or CD) with Python]]
-# [[Python 1 Home]]
+ - [Variables and Data Types](./../variables-and-data-types/)
+ - [Operators](./../operators/)
+ - [Control Flow If Statements](./../control-flow-if-statements/)
+ - [For Loops](./../for-loops/)
+ - [While Loops](./../while-loops/)
+ - [Functions](./../functions/)
+ - [Function Parameters](./../function-parameters/)
+ - [Return Values](./../return-values/)
+ - [Default Parameters](./../default-parameters/)
+ - [Recursion](./../recursion/)
+- [Lambda Functions](./../lambda-functions/)
+ - [Lists](./../lists/)
+ - [Tuples](./../tuples/)
+ - [Dictionaries](./../dictionaries/)
+ - [Sets](./../sets/)
+ - [List Comprehension](./../list-comprehension/)
+ - [File Handling](./../file-handling/)
+ - [Exception Handling](./../exception-handling/)
+ - [Classes and Objects](./../classes-and-objects/)
+ - [Inheritance](./../inheritance/)
+ - [Polymorphism](./../polymorphism/)
+ - [Encapsulation](./../encapsulation/)
+ - [Modules and Packages](./../modules-and-packages/)
+ - [Importing Modules](./../importing-modules/)
+ - [Generators](./../generators/)
+ - [Decorators](./../decorators/)
+ - [Context Managers](./../context-managers/)
+ - [Regular Expressions](./../regular-expressions/)
+ - [Libraries like NumPy](./../libraries-like-numpy/)
+ - [Libraries like Pandas](./../libraries-like-pandas/)
+ - [Libraries like Matplotlib](./../libraries-like-matplotlib/)
+ - [Type Hinting](./../type-hinting/)
+ - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+- [Bitwise Operators](./../bitwise-operators/)
+ - [Nested If Statements](./../nested-if-statements/)
+ - [Nested Loops](./../nested-loops/)
+ - [Function Overloading](./../function-overloading/)
+- [Higher-Order Functions](./../higher-order-functions/)
+ - [Closures](./../closures/)
+ - [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
+- [Memoization in Recursion](./../memoization-in-recursion/)
+ - [Map, Filter, and Reduce](./../map-filter-and-reduce/)
+- [Multidimensional Lists](./../multidimensional-lists/)
+ - [Dictionary Comprehension](./../dictionary-comprehension/)
+- [Frozen Sets](./../frozen-sets/)
+ - [File IO Modes](./../file-io-modes/)
+ - [Handling Binary Files](./../handling-binary-files/)
+ - [Custom Exceptions](./../custom-exceptions/)
+ - [Abstract Classes](./../abstract-classes/)
+- [Multiple Inheritance](./../multiple-inheritance/)
+- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+ - [Private and Protected Members](./../private-and-protected-members/)
+ - [Dynamic Importing](./../dynamic-importing/)
+ - [Virtual Environments](./../virtual-environments/)
+- [Async Generators](./../async-generators/)
+ - [Coroutines](./../coroutines/)
+- [Chaining Decorators](./../chaining-decorators/)
+- [Custom Context Managers](./../custom-context-managers/)
+ - [Regex Groups and Backreferences](./../regex-groups-and-backreferences/)
+ - [NumPy Broadcasting](./../numpy-broadcasting/)
+ - [DataFrames in Pandas](./../dataframes-in-pandas/)
+ - [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/)
+ - [Metaclasses](./../metaclasses/)
+ - [Descriptors](./../descriptors/)
+ - [Duck Typing](./../duck-typing/)
+ - [Concurrency and Multithreading](./../concurrency-and-multithreading/)
+ - [Multiprocessing](./../multiprocessing/)
+ - [Asynchronous Programming](./../asynchronous-programming/)
+ - [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/)
+ - [Building APIs with Flask or Django](./../building-apis-with-flask-or-django/)
+- [Working with Databases (SQLAlchemy, SQLite, MySQL)](./../working-with-databases-(sqlalchemy-sqlite-mysql)/)
+ - [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/)
+ - [Mocking in Unit Tests](./../mocking-in-unit-tests/)
+ - [Profiling and Optimization](./../profiling-and-optimization/)
+ - [Memory Management](./../memory-management/)
+ - [Garbage Collection](./../garbage-collection/)
+ - [Thread Safety](./../thread-safety/)
+ - [Pathlib and OS Module](./../pathlib-and-os-module/)
+- [Command Line Interface (CLI) Programs](./../command-line-interface-(cli)-programs/)
+ - [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/)
+ - [Web Development with Django](./../web-development-with-django/)
+ - [Handling APIs with Requests Library](./../handling-apis-with-requests-library/)
+- [Data Serialization (JSON, XML, Pickle)](./../data-serialization-(json-xml-pickle)/)
+ - [REST APIs with FastAPI](./../rest-apis-with-fastapi/)
+ - [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
+ - [Handling Large Datasets with Dask](./../handling-large-datasets-with-dask/)
+ - [Building Machine Learning Models with Scikit-learn](./../building-machine-learning-models-with-scikit-learn/)
+ - [Deep Learning with TensorFlow or Keras](./../deep-learning-with-tensorflow-or-keras/)
+ - [Natural Language Processing with NLTK or Spacy](./../natural-language-processing-with-nltk-or-spacy/)
+ - [Data Visualization with Seaborn](./../data-visualization-with-seaborn/)
+ - [Time Series Analysis](./../time-series-analysis/)
+ - [Working with Big Data using PySpark](./../working-with-big-data-using-pyspark/)
+- [Security and Cryptography (PyCryptodome)](./../security-and-cryptography-(pycryptodome)/)
+- [Network Programming (Sockets)](./../network-programming-(sockets)/)
+ - [Building and Distributing Python Packages](./../building-and-distributing-python-packages/)
+- [Python Package Index (PyPI) Publishing](./../python-package-index-(pypi)-publishing/)
+- [Continuous Integration or Continuous Deployment (CI or CD) with Python](./../continuous-integration-or-continuous-deployment-(ci-or-cd)-with-python/)
+# [Python 1 Home](./../python-1-home/)

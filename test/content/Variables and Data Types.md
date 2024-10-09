@@ -1,6 +1,11 @@
-## [[Variables and Data Types]]
++++
+ title = 'Variables and Data Types'
+[params]
+	author = 'Carson West'
++++
+## [Variables and Data Types](./../variables-and-data-types/)
 
-### What are [[Variables and Data Types]]?
+### What are [Variables and Data Types](./../variables-and-data-types/)?
 Variables in Python are containers that store data. Each variable is associated with a data type, which defines the type of data it can hold (e.g., integer, float, string, list, etc.).
 
 ### How to Use Variables
@@ -25,7 +30,7 @@ Examples:
 - Booleans `thing = True`
 	- true or false
 ### Non-primitive types
-These are types that are stored as [[Classes and Objects]], you can usually do a few more things. Since you can make your own classes, there are infinite non-primitive types. 
+These are types that are stored as [Classes and Objects](./../classes-and-objects/), you can usually do a few more things. Since you can make your own classes, there are infinite non-primitive types. 
 
 Here are your important built-in non-primitives:
 - Lists
@@ -50,9 +55,9 @@ print(f"Name: {name}") # output: Name: Mary
 
 ### Related Python Concepts
 
-- [[Operators]]: [[Operators]] can be used to perform operations on variables of different data types.
-- [[Control Flow If Statements]]: Variables and data types influence the flow of control in if statements based on the values stored in the variables.
-- [[Functions]]: [[Functions]] can take arguments of specific data types and return values of specific types.
-- [[Lists]]: [[Lists]] are mutable collections that can store a variety of data types.
-- [[Dictionaries]]: [[Dictionaries]] are mutable collections that store key-value pairs, where the keys and values can be of different data types.
-# [[Python 1 Home]]
+- [Operators](./../operators/): [Operators](./../operators/) can be used to perform operations on variables of different data types.
+- [Control Flow If Statements](./../control-flow-if-statements/): Variables and data types influence the flow of control in if statements based on the values stored in the variables.
+- [Functions](./../functions/): [Functions](./../functions/) can take arguments of specific data types and return values of specific types.
+- [Lists](./../lists/): [Lists](./../lists/) are mutable collections that can store a variety of data types.
+- [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are mutable collections that store key-value pairs, where the keys and values can be of different data types.
+# [Python 1 Home](./../python-1-home/)

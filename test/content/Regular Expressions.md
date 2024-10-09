@@ -1,6 +1,11 @@
-## [[Regular Expressions]]
++++
+ title = 'Regular Expressions'
+[params]
+	author = 'Carson West'
++++
+## [Regular Expressions](./../regular-expressions/)
 
-### What are [[Regular Expressions]]?
+### What are [Regular Expressions](./../regular-expressions/)?
 Regular expressions (regex) are a powerful tool for matching and manipulating strings in Python. They provide a concise and expressive way to search for patterns, validate input, and perform complex string transformations.
 
 ### How to Use Regex
@@ -35,9 +40,9 @@ new_string = re.sub(r' ', '_', 'Hello World')
 
 ### Related Python Concepts
 
-- [[Variables and Data Types]]: Regular expressions can be stored in string variables.
-- [[Operators]]: Comparison operators (`==`) can be used to test the result of a regex match.
-- [[Functions]]: Regular expression functions like `re.search()` and `re.findall()` are used to perform string matching and manipulation.
-- [[For Loops]]: Regex patterns can be iterated over using the `re.finditer()` function.
-- [[While Loops]]: Regular expressions can be used to control the execution of while loops based on matching conditions.
-# [[Python 1 Home]]
+- [Variables and Data Types](./../variables-and-data-types/): Regular expressions can be stored in string variables.
+- [Operators](./../operators/): Comparison operators (`==`) can be used to test the result of a regex match.
+- [Functions](./../functions/): Regular expression functions like `re.search()` and `re.findall()` are used to perform string matching and manipulation.
+- [For Loops](./../for-loops/): Regex patterns can be iterated over using the `re.finditer()` function.
+- [While Loops](./../while-loops/): Regular expressions can be used to control the execution of while loops based on matching conditions.
+# [Python 1 Home](./../python-1-home/)

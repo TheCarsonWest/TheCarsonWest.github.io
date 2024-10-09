@@ -1,7 +1,12 @@
-# [[Processes]]
-![[Pasted image 20240909095108.png]]
++++
+ title = 'Photoelectron Spectroscopy'
+[params]
+	author = 'Carson West'
++++
+# [Processes](./../processes/)
+![Pasted image 20240909095108.png](./../pasted-image-20240909095108.png/)
 
-** [[Photoelectron Spectroscopy]]**
+** [Photoelectron Spectroscopy](./../photoelectron-spectroscopy/)**
 Photoelectron spectroscopy is a technique that measures the kinetic energy of electrons emitted from a material when it is irradiated with ultraviolet or X-ray radiation.
 ## How it works
 1. **Irradiation:** A sample is irradiated with photons (UV or X-rays) with known energy.
@@ -11,9 +16,8 @@ Photoelectron spectroscopy is a technique that measures the kinetic energy of el
 * **Element Identification:** By identifying the core-level binding energies of electrons, it can determine the elemental composition of the sample.
 
 # How to read a PES Graph
-![[Pasted image 20240909095201.png]]
+![Pasted image 20240909095201.png](./../pasted-image-20240909095201.png/)
 - A filled S/P/D/F shell will emit the same amount of energy every time
 	- The peak will go up the same height
 - If it is not filled, it will only go up part-way
-- This one, for example, shows 3 full S shell peaks, meaning it is a $$1s^2 2s^2 2p^6 3s^2 3p^6 4s^2$$
-- 
+- This one, for example, shows 3 full S shell peaks, meaning it is a  $  $ 1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 $  $  - 

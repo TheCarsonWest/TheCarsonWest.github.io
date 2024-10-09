@@ -1,11 +1,16 @@
-**Notecard Summary: [[Enlightenment]]**
++++
+ title = 'Enlightenment'
+[params]
+	author = 'Carson West'
++++
+**Notecard Summary: [Enlightenment](./../enlightenment/)**
 
 **When:** 17th and 18th centuries
 
 **Who:**
 * John Locke (England)
-* Jean-Jacques Rousseau ([[France]])
-* Voltaire ([[France]])
+* Jean-Jacques Rousseau ([France](./../france/))
+* Voltaire ([France](./../france/))
 * Immanuel Kant (Germany)
 
 **What:**

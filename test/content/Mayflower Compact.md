@@ -1,7 +1,12 @@
++++
+ title = 'Mayflower Compact'
+[params]
+	author = 'Carson West'
++++
 ---
 location: 42.3788774,-72.032366
 ---
-**ID:** [[Mayflower Compact]]
+**ID:** [Mayflower Compact](./../mayflower-compact/)
 
 **When:** November 11, 1620
 
@@ -18,5 +23,5 @@ location: 42.3788774,-72.032366
 * Established a model for self-governance in North America
 * Provided a legal basis for the Plymouth Colony
 * Influenced the development of colonial government and legal systems
-* Contributed to the growth of democracy and representative government in the [[United States]]
+* Contributed to the growth of democracy and representative government in the [United States](./../united-states/)
 #ids

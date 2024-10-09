@@ -1,3 +1,8 @@
++++
+ title = 'Continuous Integration or Continuous Deployment (CI or CD) with Python'
+[params]
+	author = 'Carson West'
++++
 ## Continuous Integration or Continuous Deployment (CI or CD) with Python
 
 ### What is it?
@@ -12,8 +17,8 @@ CI or CD in Python refers to practices that automate the software development li
  * Create pipelines that define tasks to be executed automatically.
  * Tasks typically include:
  * Code analysis (e.g., [![Lint](Lint.md)](Lint.md))
- * Unit testing (e.g., [![Unit Testing]( [[Unit Testing and Test-Driven Development]].md)]( [[Unit Testing and Test-Driven Development]].md))
- * Integration testing (e.g., [![Selenium]( [[Automating Tasks with Selenium]].md)]( [[Automating Tasks with Selenium]].md))
+ * Unit testing (e.g., [![Unit Testing]( [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/).md)]( [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/).md))
+ * Integration testing (e.g., [![Selenium]( [Automating Tasks with Selenium](./../automating-tasks-with-selenium/).md)]( [Automating Tasks with Selenium](./../automating-tasks-with-selenium/).md))
  * Trigger pipelines automatically on code changes or at scheduled intervals.
 
 **CD (Continuous Deployment)**
@@ -22,9 +27,9 @@ CI or CD in Python refers to practices that automate the software development li
 * **Process:**
  * Extend the CI pipeline to include deployment tasks.
  * Tasks typically include:
- * Building the application (e.g., [! [[Creating GUI Applications with Tkinter or PyQt]]( [[Creating GUI Applications with Tkinter or PyQt]].md)]( [[Creating GUI Applications with Tkinter or PyQt]].md))
+ * Building the application (e.g., [! [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/)( [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/).md)]( [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/).md))
  * Deploying to staging environments (e.g., [![AWS CodePipeline](AWS CodePipeline.md)](AWS CodePipeline.md))
- * Monitoring live deployments (e.g., [! [[Profiling and Optimization]]( [[Profiling and Optimization]].md)]( [[Profiling and Optimization]].md))
+ * Monitoring live deployments (e.g., [! [Profiling and Optimization](./../profiling-and-optimization/)( [Profiling and Optimization](./../profiling-and-optimization/).md)]( [Profiling and Optimization](./../profiling-and-optimization/).md))
  * Automatically deploy changes to live environments once they pass all CI checks.
 
 ### Code Examples
@@ -72,14 +77,14 @@ jobs:
  inputs:
  azureSubscription: 'my-subscription'
  appName: 'my-app'
- package: '$(Build.Artifact)'
+ package: ' $ (Build.Artifact)'
 ```
 
 ### Related Python Concepts
 
-- [[Functions]]: CI/CD pipelines are often implemented using functions.
-- [[Web Scraping with BeautifulSoup]]: CI/CD pipelines can be used to automatically test web applications.
-- [[Building APIs with Flask or Django]]: CI/CD pipelines can be used to deploy APIs.
-- [[Unit Testing and Test-Driven Development]]: CI/CD pipelines typically include unit testing.
-- [[Concurrency and Multithreading]]: CI/CD pipelines can run tests and other tasks concurrently.
-# [[Python 1 Home]]
+- [Functions](./../functions/): CI/CD pipelines are often implemented using functions.
+- [Web Scraping with BeautifulSoup](./../web-scraping-with-beautifulsoup/): CI/CD pipelines can be used to automatically test web applications.
+- [Building APIs with Flask or Django](./../building-apis-with-flask-or-django/): CI/CD pipelines can be used to deploy APIs.
+- [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/): CI/CD pipelines typically include unit testing.
+- [Concurrency and Multithreading](./../concurrency-and-multithreading/): CI/CD pipelines can run tests and other tasks concurrently.
+# [Python 1 Home](./../python-1-home/)

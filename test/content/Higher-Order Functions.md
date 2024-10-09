@@ -1,9 +1,14 @@
-## Higher-Order [[Functions]]
++++
+ title = 'Higher-Order Functions'
+[params]
+	author = 'Carson West'
++++
+## Higher-Order [Functions](./../functions/)
 
 ### Explanation
-Higher-Order [[Functions]] (HOFs) are functions that can take other functions as arguments or return functions as their results. They allow for a powerful level of abstraction and code reuse by enabling the passing of behavior as data.
+Higher-Order [Functions](./../functions/) (HOFs) are functions that can take other functions as arguments or return functions as their results. They allow for a powerful level of abstraction and code reuse by enabling the passing of behavior as data.
 
-### How to Use Higher-Order [[Functions]]
+### How to Use Higher-Order [Functions](./../functions/)
 When using HOFs, there are two main scenarios:
 
 - **Passing a function as an argument:** This is achieved by assigning a function to a variable and passing it to the HOF.
@@ -42,9 +47,9 @@ print(result) # 15
 
 ### Related Python Concepts
 
-- [[Lambda [[Functions]]: Lambda functions are anonymous functions that can be used within HOFs.
-- [[Functions]]: HOFs utilize functions as arguments or return values.
-- [[Map, Filter, and Reduce]]: These are built-in HOFs that perform common operations on iterables.
-- [[Closures]]: [[Closures]] allow HOFs to retain access to variables outside their scope.
-- [[Decorators]]: [[Decorators]] are HOFs that modify the behavior of other functions.
-# [[Python 1 Home]]
+- [[Lambda [Functions](./../functions/): Lambda functions are anonymous functions that can be used within HOFs.
+- [Functions](./../functions/): HOFs utilize functions as arguments or return values.
+- [Map, Filter, and Reduce](./../map-filter-and-reduce/): These are built-in HOFs that perform common operations on iterables.
+- [Closures](./../closures/): [Closures](./../closures/) allow HOFs to retain access to variables outside their scope.
+- [Decorators](./../decorators/): [Decorators](./../decorators/) are HOFs that modify the behavior of other functions.
+# [Python 1 Home](./../python-1-home/)
