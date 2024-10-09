@@ -518,6 +518,8 @@
   </url><url>
     <loc>http://example.org/polymorphism/</loc>
   </url><url>
+    <loc>http://example.org/population-composition/</loc>
+  </url><url>
     <loc>http://example.org/population-density/</loc>
   </url><url>
     <loc>http://example.org/population-distribution/</loc>
