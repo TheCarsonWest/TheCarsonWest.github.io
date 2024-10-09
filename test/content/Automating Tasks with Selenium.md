@@ -1,9 +1,4 @@
-+++
- title = 'Automating Tasks with Selenium'
-[params]
-	author = 'Carson West'
-+++
-## [Automating Tasks with Selenium](./../automating-tasks-with-selenium/)
+## [[Automating Tasks with Selenium]]
 
 ### What is Selenium?
 Selenium is an open-source framework used for web automation. It allows developers to control a web browser like a real user, enabling automated testing and interaction with web applications.
@@ -47,9 +42,9 @@ element = WebDriverWait(driver, 5).until(EC.visibility_of_element_located((By.ID
 ```
 
 ### Related Python Concepts
-- [Variables and Data Types](./../variables-and-data-types/): Variables are used to store WebDriver instances and web elements.
-- [Operators](./../operators/): Comparison operators are used to check conditions in WebDriver methods.
-- [Control Flow If Statements](./../control-flow-if-statements/): If statements can be used to conditionally execute WebDriver actions based on element visibility or other criteria.
-- [For Loops](./../for-loops/): For loops can be used to iterate over multiple web elements on a page.
-- [While Loops](./../while-loops/): While loops can be used to repeatedly perform actions on a page until a certain condition is met.
-# [Python 1 Home](./../python-1-home/)
+- [[Variables and Data Types]]: Variables are used to store WebDriver instances and web elements.
+- [[Operators]]: Comparison operators are used to check conditions in WebDriver methods.
+- [[Control Flow If Statements]]: If statements can be used to conditionally execute WebDriver actions based on element visibility or other criteria.
+- [[For Loops]]: For loops can be used to iterate over multiple web elements on a page.
+- [[While Loops]]: While loops can be used to repeatedly perform actions on a page until a certain condition is met.
+# [[Python 1 Home]]

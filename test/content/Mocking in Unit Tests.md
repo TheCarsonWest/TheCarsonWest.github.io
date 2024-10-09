@@ -1,9 +1,4 @@
-+++
- title = 'Mocking in Unit Tests'
-[params]
-	author = 'Carson West'
-+++
-## [Mocking in Unit Tests](./../mocking-in-unit-tests/)
+## [[Mocking in Unit Tests]]
 
 ### What is Mocking?
 Mocking is a technique in unit testing where a specific class or function is replaced with a substitute (or mock) object that simulates its behavior. The substitute object can be controlled and programmed to provide predictable responses, allowing you to test the code that relies on it without the actual implementation.
@@ -39,9 +34,9 @@ assert result == "Mocked Response"
 
 ### Related Python Concepts
 
-- [Unit Testing and Test-Driven Development](./../unit-testing-and-test-driven-development/): Mocking is a technique used in unit testing to isolate and test individual functions or classes.
-- [Functions](./../functions/): Mocks are used to substitute for other functions or objects.
-- [Classes and Objects](./../classes-and-objects/): Mocks can be used to create substitute objects for testing purposes.
-- [Inheritance](./../inheritance/): Mocks can be used to create subclasses of existing classes with overridden methods for testing.
-- [Polymorphism](./../polymorphism/): Mocks provide a way to create objects that behave like other objects, enabling polymorphism in testing.
-# [Python 1 Home](./../python-1-home/)
+- [[Unit Testing and Test-Driven Development]]: Mocking is a technique used in unit testing to isolate and test individual functions or classes.
+- [[Functions]]: Mocks are used to substitute for other functions or objects.
+- [[Classes and Objects]]: Mocks can be used to create substitute objects for testing purposes.
+- [[Inheritance]]: Mocks can be used to create subclasses of existing classes with overridden methods for testing.
+- [[Polymorphism]]: Mocks provide a way to create objects that behave like other objects, enabling polymorphism in testing.
+# [[Python 1 Home]]

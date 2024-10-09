@@ -1,9 +1,4 @@
-+++
- title = 'Indentured Servitude'
-[params]
-	author = 'Carson West'
-+++
-**ID: [Indentured Servitude](./../indentured-servitude/)**
+**ID: [[Indentured Servitude]]**
 
 **When:** 1619+ (first recorded African captives to America)
 

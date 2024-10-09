@@ -1,9 +1,4 @@
-+++
- title = 'Ulysses S. Grant'
-[params]
-	author = 'Carson West'
-+++
-**[Ulysses S](./../ulysses-s/). Grant**
+**[[Ulysses S]]. Grant**
 
 **Events Associated With:**
 
@@ -22,7 +17,7 @@
 
 * Republican Party
 * Army of the Potomac
-* [United States](./../united-states/) Army
+* [[United States]] Army
 
 **Impact on the Country:**
 
@@ -40,7 +35,7 @@
 **Foreign Policy:**
 
 * Pursued a policy of non-intervention in Latin America.
-* Acquired [Alaska](./../alaska/) (1867).
+* Acquired [[Alaska]] (1867).
 
 **Legacy:**
 

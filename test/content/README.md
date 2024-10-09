@@ -1,11 +1,6 @@
-+++
- title = 'README'
-[params]
-	author = 'Carson West'
-+++
 # My 24-25 Notes
 
-# Start at [nexus](./../nexus/) if you are on web viewer or obsidian
+# Start at [[nexus]] if you are on web viewer or obsidian
 # Go to [here](https://thecarsonwest.github.io/test/public/nexus/) to see the web viewer
 
 ## anyone can use these idc

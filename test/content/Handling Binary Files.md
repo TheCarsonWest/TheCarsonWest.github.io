@@ -1,14 +1,9 @@
-+++
- title = 'Handling Binary Files'
-[params]
-	author = 'Carson West'
-+++
-## [Handling Binary Files](./../handling-binary-files/) in Python
+## [[Handling Binary Files]] in Python
 
-### What is Binary [File Handling](./../file-handling/)?
+### What is Binary [[File Handling]]?
 Binary file handling involves working with files that contain non-textual data, such as images, videos, audio, or executable files. Unlike text files, binary files store data in raw binary form, consisting of sequences of 0s and 1s.
 
-### How to Use Binary [File Handling](./../file-handling/)
+### How to Use Binary [[File Handling]]
 Python provides the `open()` function for handling binary files. The `mode` parameter of `open()` should be set to 'rb' for reading binary files and 'wb' for writing binary files.
 
 **Reading Binary Files:**
@@ -61,9 +56,9 @@ wav_file.close()
 ```
 
 ### Related Python Concepts
-- [File Handling](./../file-handling/): Binary file handling is an extension of general file handling in Python.
-- [File IO Modes](./../file-io-modes/): The 'rb' and 'wb' modes are used specifically for binary file handling.
-- [Bytes and Bytearrays](./../bytes-and-bytearrays/): Binary data is stored in bytearrays, which contain sequences of 0s and 1s.
-- [Streams](./../streams/): Binary file handling often involves working with streams of data as opposed to specific characters.
-- [Images, Videos, and Audio](./../images,-videos,-and-audio/): Binary files commonly store data for these multimedia types.
-# [Python 1 Home](./../python-1-home/)
+- [[File Handling]]: Binary file handling is an extension of general file handling in Python.
+- [[File IO Modes]]: The 'rb' and 'wb' modes are used specifically for binary file handling.
+- [[Bytes and Bytearrays]]: Binary data is stored in bytearrays, which contain sequences of 0s and 1s.
+- [[Streams]]: Binary file handling often involves working with streams of data as opposed to specific characters.
+- [[Images, Videos, and Audio]]: Binary files commonly store data for these multimedia types.
+# [[Python 1 Home]]

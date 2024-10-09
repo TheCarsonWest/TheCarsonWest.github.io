@@ -1,9 +1,4 @@
-+++
- title = 'Labs'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-[Preparing a standard Solution](./../preparing-a-standard-solution/)
-[Acid Versus Hydrogen [[Titration](./../acid-versus-hydrogen-[[titration/)
+[[Preparing a standard Solution]]
+[[Acid Versus Hydrogen [[Titration]]

@@ -1,10 +1,5 @@
-+++
- title = 'Graduated Symbols'
-[params]
-	author = 'Carson West'
-+++
- [Glossary](./../glossary/)
-** [Graduated Symbols](./../graduated-symbols/)**
+ [[Glossary]]
+** [[Graduated Symbols]]**
 
 - **Definition:** A type of thematic map where the size of the symbol representing each data point is proportional to the value of the data.
 - **Purpose:** To show variations in the magnitude of a variable across geographic space.

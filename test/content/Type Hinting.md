@@ -1,17 +1,12 @@
-+++
- title = 'Type Hinting'
-[params]
-	author = 'Carson West'
-+++
-## [Type Hinting](./../type-hinting/)
+## [[Type Hinting]]
 
-### What is [Type Hinting](./../type-hinting/)?
+### What is [[Type Hinting]]?
 Type hinting is a feature of Python that allows developers to include type annotations in their code to specify the expected data types of variables, function parameters, and return values. It is a non-enforced form of type checking that helps improve code readability, consistency, and the potential to detect errors early on.
 
-### How to Use [Type Hinting](./../type-hinting/)
+### How to Use [[Type Hinting]]
 Type hints are added using type annotations, which are special comments written with a colon (:) at the end of a line of code.
 
-#### [Functions](./../functions/)
+#### [[Functions]]
 **Parameters:**
 ```python
 def add_numbers(a: int, b: int) -> int:
@@ -28,7 +23,7 @@ def add_numbers(a: int, b: int) -> int:
  return a + b
 ```
 
-** [Return Values](./../return-values/):**
+** [[Return Values]]:**
 ```python
 def get_max(a: int, b: int) -> int:
  """
@@ -68,9 +63,9 @@ names: list[str] = ["John", "Jane", "Mike"]
 
 ### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Type hints explicitly specify the expected data types.
-- [Functions](./../functions/): Type hints describe the data types of function arguments and return values.
-- [Function Parameters](./../function-parameters/): Type hints provide type information for function parameters.
-- [Return Values](./../return-values/): Type hints indicate the expected return type of functions.
-- [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Type hints can help distinguish between mutable and immutable types.
-# [Python 1 Home](./../python-1-home/)
+- [[Variables and Data Types]]: Type hints explicitly specify the expected data types.
+- [[Functions]]: Type hints describe the data types of function arguments and return values.
+- [[Function Parameters]]: Type hints provide type information for function parameters.
+- [[Return Values]]: Type hints indicate the expected return type of functions.
+- [[Mutable vs Immutable Types]]: Type hints can help distinguish between mutable and immutable types.
+# [[Python 1 Home]]

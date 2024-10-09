@@ -1,13 +1,8 @@
-+++
- title = 'APHG Home'
-[params]
-	author = 'Carson West'
-+++
-# [nexus](./../nexus/)
+# [[nexus]]
 
-- # [Cengage home](./../cengage-home/)
+- # [[Cengage home]]
 
-- ### [APHG Unit 1](./../aphg-unit-1/)
-- ### [APHG Unit 2](./../aphg-unit-2/)
+- ### [[APHG Unit 1]]
+- ### [[APHG Unit 2]]
 
-- ### [Glossary](./../glossary/)
+- ### [[Glossary]]

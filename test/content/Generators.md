@@ -1,14 +1,9 @@
-+++
- title = 'Generators'
-[params]
-	author = 'Carson West'
-+++
-## [Generators](./../generators/)
+## [[Generators]]
 
-### What are [Generators](./../generators/)?
- [Generators](./../generators/) are a special type of function that returns a sequence of values one at a time, without storing the entire sequence in memory. They are created using the `yield` keyword instead of the `return` keyword.
+### What are [[Generators]]?
+ [[Generators]] are a special type of function that returns a sequence of values one at a time, without storing the entire sequence in memory. They are created using the `yield` keyword instead of the `return` keyword.
 
-### How to Use [Generators](./../generators/)
+### How to Use [[Generators]]
 A generator function is defined like a regular function, except that it uses the `yield` keyword instead of `return` to produce values.
 
 ```python
@@ -42,11 +37,11 @@ for number in gen_even():
  print(number)
 ```
 
-### Other Python Concepts Related to [Generators](./../generators/)
+### Other Python Concepts Related to [[Generators]]
 
-- [For Loops](./../for-loops/): [Generators](./../generators/) are commonly used in for loops to iterate over a sequence of values.
-- [Yield](./../yield/): The `yield` keyword is used to create a generator function.
-- [Return Values](./../return-values/): [Generators](./../generators/) return a `generator` object instead of a single value.
-- [Functions](./../functions/): [Generators](./../generators/) are a type of function.
-- [List Comprehension](./../list-comprehension/): [Generators](./../generators/) can be used as an alternative to list comprehensions for creating sequences.
-# [Python 1 Home](./../python-1-home/)
+- [[For Loops]]: [[Generators]] are commonly used in for loops to iterate over a sequence of values.
+- [[Yield]]: The `yield` keyword is used to create a generator function.
+- [[Return Values]]: [[Generators]] return a `generator` object instead of a single value.
+- [[Functions]]: [[Generators]] are a type of function.
+- [[List Comprehension]]: [[Generators]] can be used as an alternative to list comprehensions for creating sequences.
+# [[Python 1 Home]]

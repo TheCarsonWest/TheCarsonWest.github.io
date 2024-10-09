@@ -1,11 +1,6 @@
-+++
- title = 'Processes'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-- # [Mass Spectroscopy](./../mass-spectroscopy/)
-- # [Photoelectron Spectroscopy](./../photoelectron-spectroscopy/)
-- # [Titration](./../titration/)
+- # [[Mass Spectroscopy]]
+- # [[Photoelectron Spectroscopy]]
+- # [[Titration]]
 - 

@@ -1,9 +1,4 @@
-+++
- title = 'Other important AP CHEM things'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-[solutions](./../solutions/)
-[ion concentration](./../ion-concentration/)
+[[solutions]]
+[[ion concentration]]

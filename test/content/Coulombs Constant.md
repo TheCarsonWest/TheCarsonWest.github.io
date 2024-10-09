@@ -1,9 +1,4 @@
-+++
- title = 'Coulombs Constant'
-[params]
-	author = 'Carson West'
-+++
-![Screenshot 2024-09-06 at 10.19.57 AM.png](./../screenshot-2024-09-06-at-10.19.57-am.png/)
-# used in [Coulombs Law](./../coulombs-law/)
+![[Screenshot 2024-09-06 at 10.19.57 AM.png]]
+# used in [[Coulombs Law]]
 
-## E0 = [Electrical constant](./../electrical-constant/)
+## E0 = [[Electrical constant]]

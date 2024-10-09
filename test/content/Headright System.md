@@ -1,13 +1,8 @@
-+++
- title = 'Headright System'
-[params]
-	author = 'Carson West'
-+++
-**ID: [Headright System](./../headright-system/)**
+**ID: [[Headright System]]**
 
 **When:** 1618
 
-**Who:** [Virginia](./../virginia/) Company (operated in [Virginia](./../virginia/), Carolinas, [Maryland](./../maryland/), [Georgia](./../georgia/))
+**Who:** [[Virginia]] Company (operated in [[Virginia]], Carolinas, [[Maryland]], [[Georgia]])
 
 **What:**
 * Legal practice that granted land to settlers for helping populate colonies

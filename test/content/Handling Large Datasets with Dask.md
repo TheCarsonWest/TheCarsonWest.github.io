@@ -1,9 +1,4 @@
-+++
- title = 'Handling Large Datasets with Dask'
-[params]
-	author = 'Carson West'
-+++
-## [Handling Large Datasets with Dask](./../handling-large-datasets-with-dask/)
+## [[Handling Large Datasets with Dask]]
 
 ### What is Dask?
 - A Python library designed specifically for handling large, out-of-core datasets.
@@ -27,9 +22,9 @@ df_grouped = df.groupby('group_column')
 ```
 
 ### Related Python Concepts
-- [Libraries like Pandas](./../libraries-like-pandas/): Dask dataframe objects are similar to Pandas dataframes, but optimized for large datasets.
-- [Distributed Computing](./../distributed-computing/): Dask leverages distributed computing to parallelize operations.
-- [Concurrency and Multithreading](./../concurrency-and-multithreading/): Dask utilizes threads and processes for concurrent execution.
-- [DataFrames in Pandas](./../dataframes-in-pandas/): Dask dataframes extend the functionality of Pandas dataframes for large datasets.
-- [Working with Big Data using PySpark](./../working-with-big-data-using-pyspark/): PySpark and Dask are both frameworks for handling large-scale data.
-# [Python 1 Home](./../python-1-home/)
+- [[Libraries like Pandas]]: Dask dataframe objects are similar to Pandas dataframes, but optimized for large datasets.
+- [[Distributed Computing]]: Dask leverages distributed computing to parallelize operations.
+- [[Concurrency and Multithreading]]: Dask utilizes threads and processes for concurrent execution.
+- [[DataFrames in Pandas]]: Dask dataframes extend the functionality of Pandas dataframes for large datasets.
+- [[Working with Big Data using PySpark]]: PySpark and Dask are both frameworks for handling large-scale data.
+# [[Python 1 Home]]

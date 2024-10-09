@@ -1,8 +1,3 @@
-+++
- title = 'Report on Manufactures'
-[params]
-	author = 'Carson West'
-+++
 **Notecard: Report on Manufactures**
 
 **WHEN:** 5 december, 1791

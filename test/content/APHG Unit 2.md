@@ -1,10 +1,5 @@
-+++
- title = 'APHG Unit 2'
-[params]
-	author = 'Carson West'
-+++
-[APHG Home](./../aphg-home/)
+[[APHG Home]]
 
- [ESPN](./../espn/)
+ [[ESPN]]
  
- [Population Distribution](./../population-distribution/)
+ [[Population Distribution]]

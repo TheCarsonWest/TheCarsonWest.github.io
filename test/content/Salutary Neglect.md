@@ -1,9 +1,4 @@
-+++
- title = 'Salutary Neglect'
-[params]
-	author = 'Carson West'
-+++
-**ID:** [Salutary Neglect](./../salutary-neglect/)
+**ID:** [[Salutary Neglect]]
 
 **When:** c. 1720s - 1760s
 

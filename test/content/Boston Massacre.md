@@ -1,18 +1,13 @@
-+++
- title = 'Boston Massacre'
-[params]
-	author = 'Carson West'
-+++
 ---
 location: 42.3554334,-71.060511
 ---
-**ID:** [Boston Massacre](./../boston-massacre/)
+**ID:** [[Boston Massacre]]
 
 **When:** March 5, 1770
 
 **Who:**
 * British soldiers: Captain Thomas Preston and eight others
-* American colonists: Crispus Attucks (killed), [Samuel Adams](./../samuel-adams/), [John Hancock](./../john-hancock/)
+* American colonists: Crispus Attucks (killed), [[Samuel Adams]], [[John Hancock]]
 
 **What:**
 * British troops fired upon a crowd of protesters in Boston, killing five colonists and wounding others.

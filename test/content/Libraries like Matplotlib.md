@@ -1,8 +1,3 @@
-+++
- title = 'Libraries like Matplotlib'
-[params]
-	author = 'Carson West'
-+++
 ## Python Libraries Like Matplotlib
 
 ### What is Matplotlib?
@@ -33,9 +28,9 @@ ax.plot(x_data, y_data)
 #### Customizing Plots
 Matplotlib offers extensive customization options to control the appearance of plots. Some of the commonly used customization methods include:
 
-- `title()`: [Sets](./../sets/) the plot title.
-- `xlabel()`: [Sets](./../sets/) the x-axis label.
-- `ylabel()`: [Sets](./../sets/) the y-axis label.
+- `title()`: [[Sets]] the plot title.
+- `xlabel()`: [[Sets]] the x-axis label.
+- `ylabel()`: [[Sets]] the y-axis label.
 - `legend()`: Adds a legend to the plot.
 - `show()`: Displays the plot.
 
@@ -66,9 +61,9 @@ plt.show()
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): Matplotlib functions like `plot()` and `title()` are used to create and customize plots.
-- [DataFrames in Pandas](./../dataframes-in-pandas/): Matplotlib can be used in conjunction with Pandas to plot dataframes.
-- [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): Matplotlib has advanced features for customizing plots.
-- [Data Visualization with Seaborn](./../data-visualization-with-seaborn/): Seaborn is a higher-level library built on Matplotlib that provides a more user-friendly interface for creating visualizations.
-- [Libraries like NumPy](./../libraries-like-numpy/): NumPy is a numerical computing library that can be used to process data before plotting.
-# [Python 1 Home](./../python-1-home/)
+- [[Functions]]: Matplotlib functions like `plot()` and `title()` are used to create and customize plots.
+- [[DataFrames in Pandas]]: Matplotlib can be used in conjunction with Pandas to plot dataframes.
+- [[Plot Customization in Matplotlib]]: Matplotlib has advanced features for customizing plots.
+- [[Data Visualization with Seaborn]]: Seaborn is a higher-level library built on Matplotlib that provides a more user-friendly interface for creating visualizations.
+- [[Libraries like NumPy]]: NumPy is a numerical computing library that can be used to process data before plotting.
+# [[Python 1 Home]]

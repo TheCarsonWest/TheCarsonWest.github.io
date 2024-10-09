@@ -1,14 +1,9 @@
-+++
- title = 'Periodic Trends'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
 # [Ptable.com](https://ptable.com/?lang=en#Properties)
 
-# [Ionization Energy](./../ionization-energy/)
-# [Atomic Radius](./../atomic-radius/)
+# [[Ionization Energy]]
+# [[Atomic Radius]]
 
-# [Electronegativity](./../electronegativity/)
-![Pasted image 20240909103243.png](./../pasted-image-20240909103243.png/)
+# [[Electronegativity]]
+![[Pasted image 20240909103243.png]]

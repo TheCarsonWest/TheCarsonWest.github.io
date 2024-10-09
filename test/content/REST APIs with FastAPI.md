@@ -1,9 +1,4 @@
-+++
- title = 'REST APIs with FastAPI'
-[params]
-	author = 'Carson West'
-+++
-## [REST APIs with FastAPI](./../rest-apis-with-fastapi/)
+## [[REST APIs with FastAPI]]
 
 ### What are FastAPI REST APIs?
 FastAPI is a modern, high-performance web framework for building RESTful APIs in Python. It offers features such as automatic type hinting, dependency injection, and support for asynchronous programming. REST APIs are web services that follow the Representational State Transfer (REST) architectural style, using a set of request methods (e.g., GET, POST, PUT) to interact with data.
@@ -30,9 +25,9 @@ async def get_item(item_id: int):
 
 ### Related Python Concepts
 
-- [Modules and Packages](./../modules-and-packages/): FastAPI is a Python module, and you need to import it to use its features.
-- [Functions](./../functions/): FastAPI routes are defined using function decorators.
-- [Type Hinting](./../type-hinting/): FastAPI supports type hinting for data models and function parameters.
-- [Asynchronous Programming](./../asynchronous-programming/): FastAPI supports asynchronous programming, allowing for more efficient and scalable APIs.
-- [Importing Modules](./../importing-modules/): You need to import the FastAPI module to use it in your Python code.
-# [Python 1 Home](./../python-1-home/)
+- [[Modules and Packages]]: FastAPI is a Python module, and you need to import it to use its features.
+- [[Functions]]: FastAPI routes are defined using function decorators.
+- [[Type Hinting]]: FastAPI supports type hinting for data models and function parameters.
+- [[Asynchronous Programming]]: FastAPI supports asynchronous programming, allowing for more efficient and scalable APIs.
+- [[Importing Modules]]: You need to import the FastAPI module to use it in your Python code.
+# [[Python 1 Home]]

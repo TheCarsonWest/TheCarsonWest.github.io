@@ -1,9 +1,4 @@
-+++
- title = 'Creating GUI Applications with Tkinter or PyQt'
-[params]
-	author = 'Carson West'
-+++
-## [Creating GUI Applications with Tkinter or PyQt](./../creating-gui-applications-with-tkinter-or-pyqt/)
+## [[Creating GUI Applications with Tkinter or PyQt]]
 
 ### Explanation
 
@@ -121,9 +116,9 @@ app.exec_()
 
 ### Related Python Concepts
 
-- [Control Flow If Statements](./../control-flow-if-statements/): GUIs often use if statements to control the flow of the application based on user interactions.
-- [Functions](./../functions/): GUI elements can be created using functions that encapsulate the necessary setup and initialization code.
-- [Object-Oriented Programming](./../object-oriented-programming/): Tkinter and PyQt utilize object-oriented programming principles for representing and interacting with GUI components.
-- [Event Handling](./../event-handling/): GUIs handle user interactions through events such as button clicks and mouse movements.
-- [Threading and [[Multiprocessing](./../threading-and-[[multiprocessing/): GUIs often employ threading or multiprocessing to manage multiple tasks concurrently.
-# [Python 1 Home](./../python-1-home/)
+- [[Control Flow If Statements]]: GUIs often use if statements to control the flow of the application based on user interactions.
+- [[Functions]]: GUI elements can be created using functions that encapsulate the necessary setup and initialization code.
+- [[Object-Oriented Programming]]: Tkinter and PyQt utilize object-oriented programming principles for representing and interacting with GUI components.
+- [[Event Handling]]: GUIs handle user interactions through events such as button clicks and mouse movements.
+- [[Threading and [[Multiprocessing]]: GUIs often employ threading or multiprocessing to manage multiple tasks concurrently.
+# [[Python 1 Home]]

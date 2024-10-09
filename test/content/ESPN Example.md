@@ -1,9 +1,4 @@
-+++
- title = 'ESPN Example'
-[params]
-	author = 'Carson West'
-+++
- [ESPN](./../espn/)
+ [[ESPN]]
 ## E   = Economics (money, currency, trading, etc.)
 
 Destroyed Western NC

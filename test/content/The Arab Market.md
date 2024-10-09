@@ -1,9 +1,4 @@
-+++
- title = 'The Arab Market'
-[params]
-	author = 'Carson West'
-+++
-# [Module 1](./../module-1/)
+# [[Module 1]]
 **Arabian Market Characteristics and Goods**
 
 * Items differ in shape, culture, and Arabian style.

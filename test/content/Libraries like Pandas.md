@@ -1,9 +1,4 @@
-+++
- title = 'Libraries like Pandas'
-[params]
-	author = 'Carson West'
-+++
-## [Libraries like Pandas](./../libraries-like-pandas/)
+## [[Libraries like Pandas]]
 
 ### What is Pandas?
 Pandas is an open-source Python library that provides high-performance, data manipulation and analysis tools. It is designed to work with "tabular data," which is data organized in columns and rows. Pandas data structures are called DataFrames, which are similar to tables in relational databases or spreadsheets.
@@ -36,9 +31,9 @@ df.sort_values('age')
 
 ### Related Python Concepts
 
-- [Lists](./../lists/): DataFrames are a specialized type of list that holds data in a tabular format.
-- [Dictionaries](./../dictionaries/): DataFrames can be created from dictionaries, where the keys become column names and the values become rows.
-- [File Handling](./../file-handling/): Pandas functions like `read_csv()` and `to_csv()` allow for reading and writing data from and to files.
-- [DataFrames in Pandas](./../dataframes-in-pandas/): DataFrames are the primary data structure used in Pandas for representing and manipulating tabular data.
-- [NumPy Broadcasting](./../numpy-broadcasting/): Pandas leverages NumPy for efficient data manipulation and numerical operations.
-# [Python 1 Home](./../python-1-home/)
+- [[Lists]]: DataFrames are a specialized type of list that holds data in a tabular format.
+- [[Dictionaries]]: DataFrames can be created from dictionaries, where the keys become column names and the values become rows.
+- [[File Handling]]: Pandas functions like `read_csv()` and `to_csv()` allow for reading and writing data from and to files.
+- [[DataFrames in Pandas]]: DataFrames are the primary data structure used in Pandas for representing and manipulating tabular data.
+- [[NumPy Broadcasting]]: Pandas leverages NumPy for efficient data manipulation and numerical operations.
+# [[Python 1 Home]]
