@@ -28,7 +28,8 @@ There are three main types of double replacement reactions:
 * **Gas-evolution reactions:** These reactions produce a gas as one of the products.
 - ### **Acid-base reactions:** These reactions produce water and a salt. VVVV
 ## Neutralization
-#  $  $  Acid+Base → H_2O + Salt  $  $  - Acid and Base will **neutralize** each other to a pH of 7, if perfectly balanced
+#  $  $  Acid+Base → H_2O + Salt  $  $  
+- Acid and Base will **neutralize** each other to a pH of 7, if perfectly balanced
 - Used in [Titration](./../titration/) to find the [molarity](./../molarity/) of one of the reactants
 
 ### **Example of a Double Replacement Reaction**

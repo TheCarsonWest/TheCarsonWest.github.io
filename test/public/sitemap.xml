@@ -436,6 +436,14 @@
   </url><url>
     <loc>http://example.org/module-1/</loc>
   </url><url>
+    <loc>http://example.org/module-2/</loc>
+  </url><url>
+    <loc>http://example.org/module-2-lesson-1/</loc>
+  </url><url>
+    <loc>http://example.org/module-2-lesson-1-conversation/</loc>
+  </url><url>
+    <loc>http://example.org/module-2-lesson-1-vocabulary/</loc>
+  </url><url>
     <loc>http://example.org/modules-and-packages/</loc>
   </url><url>
     <loc>http://example.org/molarity/</loc>
@@ -655,6 +663,8 @@
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
     <loc>http://example.org/united-states/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

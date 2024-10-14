@@ -5,7 +5,7 @@
 +++
 **WHEN:** December 15, 1791
 
-**WHO:** The First Congress of the [United States](./../united-states/)
+**WHO:** The First Congress of the [United States](./../united-states/), james madinson
 
 **WHAT:** The [Bill of Rights](./../bill-of-rights/) (First Ten Amendments) were proposed.
 
