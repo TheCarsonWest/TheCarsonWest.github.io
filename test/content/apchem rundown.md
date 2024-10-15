@@ -1,0 +1,6 @@
++++
+ title = 'apchem rundown'
+[params]
+	author = 'Carson West'
++++
+write an AP chemstry rundown on {name}, include examples, and use the MathJax notation to depict chemical equations, do NOT use code blocks
