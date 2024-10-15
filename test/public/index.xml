@@ -582,6 +582,13 @@
       <description>&lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt;, known as the &amp;ldquo;First State,&amp;rdquo; played a significant role in the founding and development of the &lt;a href=&#34;./../united-states/&#34;&gt;United States&lt;/a&gt;. It was the first state to ratify the Constitution in 1787.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Timeline of Events&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1638: Swedish settlers establish the first European settlement in &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;1664: &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; comes under British rule.&lt;/li&gt;&#xA;&lt;li&gt;1776: &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; declares independence from Great Britain.&lt;/li&gt;&#xA;&lt;li&gt;1787: &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; becomes the first state to ratify the Constitution.&lt;/li&gt;&#xA;&lt;li&gt;1845: The &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; and Hudson Canal Company is completed, connecting the state to the Great Lakes.&lt;/li&gt;&#xA;&lt;li&gt;1861: &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; remains a slave state and does not secede from the Union during the Civil War.&lt;/li&gt;&#xA;&lt;li&gt;1895: The DuPont Company establishes a gunpowder factory in Wilmington.&lt;/li&gt;&#xA;&lt;li&gt;1913: The 16th Amendment, granting Congress the power to levy an income tax, is passed with the support of &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt;&amp;rsquo;s vote.&lt;/li&gt;&#xA;&lt;li&gt;1954: DuPont becomes the world&amp;rsquo;s largest chemical company.&lt;/li&gt;&#xA;&lt;li&gt;1995: &lt;a href=&#34;./../delaware/&#34;&gt;Delaware&lt;/a&gt; ratifies the 27th Amendment, prohibiting congressional pay raises from taking effect until after the next election.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Important Legislation&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Derivative Rules</title>
+      <link>http://example.org/derivative-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/derivative-rules/</guid>
+      <description>&lt;h1 id=&#34;exponentiallogarithmic-rules&#34;&gt;Exponential/Logarithmic rules&lt;/h1&gt;&#xA;&lt;h2 id=&#34;constant-rule&#34;&gt;Constant rule&lt;/h2&gt;&#xA;&lt;h3 id=&#34;--fracddxc--0-----power-rule&#34;&gt;$$  \frac{d}{dx}[C] = 0  $$  ## Power Rule&lt;/h3&gt;&#xA;&lt;h3 id=&#34;--fracddx-xn--nxn-1--&#34;&gt;$$  \frac{d}{dx} [x^n] = nx^{n-1}  $$&lt;/h3&gt;&#xA;&lt;h2 id=&#34;exponent-rule&#34;&gt;Exponent Rule&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-fracddxbx--bxlnb---hence&#34;&gt;$$ \frac{d}{dx}[b^x] = b^x\ln(b) $$  Hence&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-fracddxex--ex----natural-log-rule&#34;&gt;$$ \frac{d}{dx}[e^x] = e^x $$  ## Natural Log Rule&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-fracddxlnx--frac1x-----log-rule&#34;&gt;$$ \frac{d}{dx}[\ln(x)] = \frac{1}{x}  $$  ## Log Rule&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-fracddxlog-_bx--frac1ln-btimes-frac1x----multi-function-rules&#34;&gt;$$ \frac{d}{dx}[\log _{b}(x)] = \frac{1}{\ln b}\times \frac{1}{x} $$  # Multi function rules&lt;/h3&gt;&#xA;&lt;h2 id=&#34;product-rule&#34;&gt;Product Rule&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-fracddxfxgx--fxgxgxfx----quotient-rule&#34;&gt;$$ \frac{d}{dx}[f(x)g(x)] = f&amp;rsquo;(x)g(x)+g&amp;rsquo;(x)f(x) $$  ## Quotient Rule&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-fracddx-left-fracfxgx-right--fracgxfx-gxfxgx2----chain-rule&#34;&gt;$$ \frac{d}{dx} \left[ \frac{f(x)}{g(x)} \right] = \frac{g(x)f&amp;rsquo;(x)-g&amp;rsquo;(x)f(x)}{g(x)^2} $$  ## Chain Rule&lt;/h3&gt;&#xA;&lt;h3 id=&#34;-fracddxfgx--f-gx-gx-&#34;&gt;$$ \frac{d}{dx}[f(g(x))] = f&amp;rsquo;(\ g(x)\ )g&amp;rsquo;(x) $$&lt;/h3&gt;</description>
+    </item>
+    <item>
       <title>Descriptors</title>
       <link>http://example.org/descriptors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2309,13 +2316,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/united-states/</guid>
       <description>&lt;p&gt;The Greatest country on earth.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Untitled</title>
-      <link>http://example.org/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/untitled/</guid>
-      <description>&lt;p&gt;You should complete your answers in the comment box and your teacher will grade them for you. الْخُبْزِ -  الْأَرُزِّ -  الْحَلَوِيَّاتِ - عليٌّ     Question Blank 1 of 4 يَُعاني مِنَ السِّمْنَةِ لأنَّهُ  يأكُلُ الْكَثِيْرَ  وَالدُّهونِ وَ Question Blank 2 of 4  مِنَ  Question Blank 3 of 4 الْأَبْيَضَ وَ Question Blank 4 of 4&lt;/p&gt;</description>
     </item>
     <item>
       <title>Utah</title>

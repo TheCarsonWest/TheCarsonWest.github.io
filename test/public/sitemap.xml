@@ -170,6 +170,8 @@
   </url><url>
     <loc>http://example.org/delaware/</loc>
   </url><url>
+    <loc>http://example.org/derivative-rules/</loc>
+  </url><url>
     <loc>http://example.org/descriptors/</loc>
   </url><url>
     <loc>http://example.org/dictionaries/</loc>
@@ -667,8 +669,6 @@
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
     <loc>http://example.org/united-states/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
