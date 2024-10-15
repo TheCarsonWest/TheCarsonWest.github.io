@@ -29,11 +29,11 @@
 
 **Example:**
 
-##  $  $  \text{Zn} + \text{2HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2  $  $  
+##  $$  \text{Zn} + \text{2HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2  $$  
 **Oxidation:**  
-##  $  $ \text{Zn} \rightarrow \text{Zn}^{2+} + 2\text{e}^- $  $  
+##  $$ \text{Zn} \rightarrow \text{Zn}^{2+} + 2\text{e}^- $$  
 **Reduction:** 
-##  $  $  2\text{H}^+ + 2\text{e}^- \rightarrow \text{H}_2 $  $  
+##  $$  2\text{H}^+ + 2\text{e}^- \rightarrow \text{H}_2 $$  
 **Balanced Half-Reactions:**
-##  $  $  \text{Zn} \rightarrow \text{Zn}^{2+} + 2\text{e}^- $  $  ##  $  $  2\text{H}^+ + 2\text{e}^- \rightarrow \text{H}_2 $  $  **Overall Equation:**
-##  $  $  \text{Zn} + 2\text{HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2 $  $  
+##  $$  \text{Zn} \rightarrow \text{Zn}^{2+} + 2\text{e}^- $$  ##  $$  2\text{H}^+ + 2\text{e}^- \rightarrow \text{H}_2 $$  **Overall Equation:**
+##  $$  \text{Zn} + 2\text{HCl} \rightarrow \text{ZnCl}_2 + \text{H}_2 $$  

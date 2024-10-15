@@ -28,8 +28,8 @@ When diluting a solution, the total number of moles of solute remains the same. 
 
 #### **Dilution Formula:**
 
-##  $  $  M_1V_1 = M_2V_2
- $  $  *  $ M_1 $  is the initial [molarity](./../molarity/)
+##  $$  M_1V_1 = M_2V_2
+ $$  *  $ M_1 $  is the initial [molarity](./../molarity/)
 *  $ V_1 $  is the initial volume
 *  $ M_2 $  is the final [molarity](./../molarity/)
 *  $ V_2 $  is the final volume
@@ -38,9 +38,9 @@ When diluting a solution, the total number of moles of solute remains the same. 
 
 If you have 500 mL of a 1.0 M NaCl solution and want to dilute it to a final volume of 1 liter, the final [molarity](./../molarity/) will be:
 
- $  $  (1.0 \; M)(500 \; mL) = (M_2)(1000 \; mL)
- $  $  $  $   M_2 = 0.5\; M
- $  $  
+ $$  (1.0 \; M)(500 \; mL) = (M_2)(1000 \; mL)
+ $$  $$   M_2 = 0.5\; M
+ $$  
 **Stoichiometry and Molarity**
 
 Molarity can be used in stoichiometric calculations to determine the number of moles of reactants or products involved in a chemical reaction.
