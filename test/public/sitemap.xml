@@ -40,6 +40,8 @@
   </url><url>
     <loc>http://example.org/apush-place/</loc>
   </url><url>
+    <loc>http://example.org/apush/</loc>
+  </url><url>
     <loc>http://example.org/arabic-home/</loc>
   </url><url>
     <loc>http://example.org/arizona/</loc>
@@ -407,6 +409,8 @@
     <loc>http://example.org/martin-van-buren/</loc>
   </url><url>
     <loc>http://example.org/maryland/</loc>
+  </url><url>
+    <loc>http://example.org/apush/states/massachusetts/</loc>
   </url><url>
     <loc>http://example.org/massachusetts/</loc>
   </url><url>
