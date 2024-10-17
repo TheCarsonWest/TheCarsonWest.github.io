@@ -9,7 +9,7 @@
 
 * **1584:** Sir Walter Raleigh establishes the Roanoke Colony, the first English settlement in North America.
 * **1663:** [North Carolina](./../north-carolina/) becomes a royal colony.
-* **1776:** [North Carolina](./../north-carolina/) declares independence from Great Britain.
+* **1776:** [North Carolina](./../north-carolina/) declares independence from [Great Britain](./../great-britain/).
 * **1789:** [North Carolina](./../north-carolina/) ratifies the U.S. Constitution.
 * **1861:** [North Carolina](./../north-carolina/) secedes from the Union and joins the Confederacy.
 * **1865:** [North Carolina](./../north-carolina/) is readmitted to the Union.
@@ -18,7 +18,7 @@
 * **1973:** Roe v. Wade is decided, legalizing abortion in [North Carolina](./../north-carolina/).
 * **1980:** Jesse Helms is elected to the U.S. Senate, becoming a prominent conservative voice.
 * **1994:** [North Carolina](./../north-carolina/) passes Amendment 1 to its constitution, defining marriage as between one man and one woman.
-* **2008:** [Barack Obama](./../barack-obama/) becomes the first African American [President of the United States](./../president-of-the-united-states/), with strong support from [North Carolina](./../north-carolina/) voters.
+* **2008:** [Barack Obama](./../barack-obama/) becomes the first African American [POTUS](./../potus/), with strong support from [North Carolina](./../north-carolina/) voters.
 
 **Important Legislation:**
 

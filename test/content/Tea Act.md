@@ -21,5 +21,5 @@ location: 51.5074456,-0.1277653
 
 **Impact:**
 * Short-term: Triggered widespread protests and boycotts in the American colonies, leading to the [Boston Tea Party](./../boston-tea-party/)
-* Long-term: Exacerbated tensions between Great Britain and the colonies, contributing to the American Revolution
+* Long-term: Exacerbated tensions between [Great Britain](./../great-britain/) and the colonies, contributing to the American Revolution
 #ids

@@ -10,7 +10,7 @@
 * **1636:** Roger Williams founds Providence as a haven for religious freedom.
 * **1647:** The [Rhode Island](./../rhode-island/) Compact establishes a democratic government.
 * **1663:** [Rhode Island](./../rhode-island/) receives a royal charter from King Charles II.
-* **1776:** [Rhode Island](./../rhode-island/) becomes one of the first colonies to declare independence from Great Britain.
+* **1776:** [Rhode Island](./../rhode-island/) becomes one of the first colonies to declare independence from [Great Britain](./../great-britain/).
 * **1790:** [Rhode Island](./../rhode-island/) ratifies the [United States](./../united-states/) Constitution.
 * **1842:** The Dorr Rebellion, a dispute over voting rights, leads to the suspension of the state's charter.
 * **1843:** A new constitution is adopted, expanding the franchise and abolishing property requirements for voting.

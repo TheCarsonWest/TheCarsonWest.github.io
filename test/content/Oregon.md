@@ -8,9 +8,9 @@
 **Timeline**
 
 * 1804: Lewis and Clark Expedition explores [Oregon](./../oregon/)
-* 1818: [Oregon](./../oregon/) Country becomes a joint occupation of the [United States](./../united-states/) and Great Britain under the Treaty of 1818
+* 1818: [Oregon](./../oregon/) Country becomes a joint occupation of the [United States](./../united-states/) and [Great Britain](./../great-britain/) under the Treaty of 1818
 * 1843: [Oregon](./../oregon/) Trail established
-* 1846: [Oregon](./../oregon/) Treaty settles the [Oregon](./../oregon/) boundary dispute, dividing the territory between the [United States](./../united-states/) and Great Britain
+* 1846: [Oregon](./../oregon/) Treaty settles the [Oregon](./../oregon/) boundary dispute, dividing the territory between the [United States](./../united-states/) and [Great Britain](./../great-britain/)
 * 1848: [Oregon](./../oregon/) Territory established
 * 1859: [Oregon](./../oregon/) admitted to the Union as the 33rd state
 

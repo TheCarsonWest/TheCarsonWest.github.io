@@ -7,7 +7,7 @@
 
 **Presidency (1845-1849):**
 
-* **[Oregon](./../oregon/) Boundary Dispute:** Negotiated the [Oregon](./../oregon/) Treaty (1846) with Great Britain, establishing the border at the 49th parallel.
+* **[Oregon](./../oregon/) Boundary Dispute:** Negotiated the [Oregon](./../oregon/) Treaty (1846) with [Great Britain](./../great-britain/), establishing the border at the 49th parallel.
 * **Mexican-American War:** Launched the war in 1846 after Mexico refused to recognize the annexation of [Texas](./../texas/). The war led to the [United States](./../united-states/)' acquisition of vast territories in the Southwest.
 * **Acquisition of [California](./../california/) and the Southwest:** Signed the Treaty of Guadalupe Hidalgo (1848), which ended the war and gave the [United States](./../united-states/) control of [California](./../california/), [New Mexico](./../new-mexico/), [Arizona](./../arizona/), and [Nevada](./../nevada/).
 

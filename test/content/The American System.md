@@ -7,7 +7,7 @@
 
 **WHO:** Henry Clay, John C. Calhoun, Daniel Webster
 
-**WHAT:** A series of economic policies designed to strengthen the [United States](./../united-states/) after the War of 1812. [The American System](./../the-american-system/) included:
+**WHAT:** A series of economic policies designed to strengthen the [United States](./../united-states/) after the [War of 1812](./../war-of-1812/). [The American System](./../the-american-system/) included:
 
 * High tariffs to protect American industries from foreign competition
 * A national bank to provide credit and regulate the currency

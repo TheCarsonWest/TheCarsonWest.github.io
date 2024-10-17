@@ -10,9 +10,9 @@
 * **1609:** Henry Hudson's voyage establishes Dutch claim to the area
 * **1624:** New Netherland established as a Dutch colony
 * **1664:** English conquer New Netherland and rename it [New York](./../new-york/)
-* **1776:** [New York](./../new-york/) declares independence from Great Britain
+* **1776:** [New York](./../new-york/) declares independence from [Great Britain](./../great-britain/)
 * **1789:** [New York](./../new-york/) ratifies the Constitution
-* **1812:** [New York](./../new-york/) is a major battleground in the War of 1812
+* **1812:** [New York](./../new-york/) is a major battleground in the [War of 1812](./../war-of-1812/)
 * **1825:** Opening of the Erie Canal
 * **1861:** [New York](./../new-york/) joins the Union at the start of the Civil War
 * **1898:** Spanish-American War results in [New York](./../new-york/) becoming a major port of entry for immigrants

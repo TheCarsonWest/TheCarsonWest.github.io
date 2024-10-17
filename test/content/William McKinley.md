@@ -11,7 +11,7 @@
 * Served in the Union Army during the Civil War
 * Republican congressman from [Ohio](./../ohio/) (1876-1891)
 * Governor of [Ohio](./../ohio/) (1892-1896)
-* Elected [President of the United States](./../president-of-the-united-states/) in 1896
+* Elected [POTUS](./../potus/) in 1896
 
 **Key Events Associated With:**
 

@@ -1,5 +1,5 @@
 +++
- title = 'President of the United States'
+ title = 'POTUS'
 [params]
 	author = 'Carson West'
 +++
@@ -52,3 +52,4 @@
 - [Donald Trump](./../donald-trump/) (2017–2021)
 - [Joe Biden](./../joe-biden/) (2021–2025)
 - [Donald Trump](./../donald-trump/) (2025-2029) (non-consecutive term)
+

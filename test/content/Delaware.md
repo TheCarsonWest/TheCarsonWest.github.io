@@ -11,7 +11,7 @@
 
 * 1638: Swedish settlers establish the first European settlement in [Delaware](./../delaware/).
 * 1664: [Delaware](./../delaware/) comes under British rule.
-* 1776: [Delaware](./../delaware/) declares independence from Great Britain.
+* 1776: [Delaware](./../delaware/) declares independence from [Great Britain](./../great-britain/).
 * 1787: [Delaware](./../delaware/) becomes the first state to ratify the Constitution.
 * 1845: The [Delaware](./../delaware/) and Hudson Canal Company is completed, connecting the state to the Great Lakes.
 * 1861: [Delaware](./../delaware/) remains a slave state and does not secede from the Union during the Civil War.

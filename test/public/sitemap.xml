@@ -42,6 +42,8 @@
   </url><url>
     <loc>http://example.org/arabic-home/</loc>
   </url><url>
+    <loc>http://example.org/arabic-plurals-and-duals/</loc>
+  </url><url>
     <loc>http://example.org/arizona/</loc>
   </url><url>
     <loc>http://example.org/arkansas/</loc>
@@ -103,6 +105,8 @@
     <loc>http://example.org/cengage-home/</loc>
   </url><url>
     <loc>http://example.org/chaining-decorators/</loc>
+  </url><url>
+    <loc>http://example.org/chemical-bonds/</loc>
   </url><url>
     <loc>http://example.org/chester-a.-arthur/</loc>
   </url><url>
@@ -170,6 +174,8 @@
   </url><url>
     <loc>http://example.org/delaware/</loc>
   </url><url>
+    <loc>http://example.org/delta/</loc>
+  </url><url>
     <loc>http://example.org/derivative-rules/</loc>
   </url><url>
     <loc>http://example.org/descriptors/</loc>
@@ -177,6 +183,8 @@
     <loc>http://example.org/dictionaries/</loc>
   </url><url>
     <loc>http://example.org/dictionary-comprehension/</loc>
+  </url><url>
+    <loc>http://example.org/dipole/</loc>
   </url><url>
     <loc>http://example.org/donald-trump/</loc>
   </url><url>
@@ -280,6 +288,8 @@
   </url><url>
     <loc>http://example.org/great-awakening/</loc>
   </url><url>
+    <loc>http://example.org/great-britain/</loc>
+  </url><url>
     <loc>http://example.org/great-compromise/</loc>
   </url><url>
     <loc>http://example.org/grover-cleveland/</loc>
@@ -321,6 +331,8 @@
     <loc>http://example.org/indiana/</loc>
   </url><url>
     <loc>http://example.org/inheritance/</loc>
+  </url><url>
+    <loc>http://example.org/intermolecular-forces/</loc>
   </url><url>
     <loc>http://example.org/intolerable-acts/</loc>
   </url><url>
@@ -528,6 +540,8 @@
   </url><url>
     <loc>http://example.org/plot-customization-in-matplotlib/</loc>
   </url><url>
+    <loc>http://example.org/polarity/</loc>
+  </url><url>
     <loc>http://example.org/polymorphism/</loc>
   </url><url>
     <loc>http://example.org/population-composition/</loc>
@@ -536,7 +550,9 @@
   </url><url>
     <loc>http://example.org/population-distribution/</loc>
   </url><url>
-    <loc>http://example.org/president-of-the-united-states/</loc>
+    <loc>http://example.org/population-pyramids/</loc>
+  </url><url>
+    <loc>http://example.org/potus/</loc>
   </url><url>
     <loc>http://example.org/private-and-protected-members/</loc>
   </url><url>
@@ -668,6 +684,8 @@
   </url><url>
     <loc>http://example.org/united-states/</loc>
   </url><url>
+    <loc>http://example.org/untitled/</loc>
+  </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
     <loc>http://example.org/va-and-ky-resolutions/</loc>
@@ -685,6 +703,8 @@
     <loc>http://example.org/virginia/</loc>
   </url><url>
     <loc>http://example.org/virtual-environments/</loc>
+  </url><url>
+    <loc>http://example.org/war-of-1812/</loc>
   </url><url>
     <loc>http://example.org/warren-g.-harding/</loc>
   </url><url>

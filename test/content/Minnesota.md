@@ -19,7 +19,7 @@
 * **1917:** [Minnesota](./../minnesota/) joins the [United States](./../united-states/) in World War I.
 * **1941:** [Minnesota](./../minnesota/) joins the [United States](./../united-states/) in World War II.
 * **1957:** St. Lawrence Seaway opens, connecting the Great Lakes to the Atlantic Ocean.
-* **1965:** Hubert H. Humphrey becomes the first Minnesotan to be nominated for [President of the United States](./../president-of-the-united-states/).
+* **1965:** Hubert H. Humphrey becomes the first Minnesotan to be nominated for [POTUS](./../potus/).
 * **1992:** Paul Wellstone elected to the [United States](./../united-states/) Senate.
 * **2008:** Amy Klobuchar elected to the [United States](./../united-states/) Senate.
 

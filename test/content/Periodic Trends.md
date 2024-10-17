@@ -11,4 +11,4 @@
 # [Atomic Radius](./../atomic-radius/)
 
 # [Electronegativity](./../electronegativity/)
-![Pasted image 20240909103243.png](./../pasted-image-20240909103243.png/)
+

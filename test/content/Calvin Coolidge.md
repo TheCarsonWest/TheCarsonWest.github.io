@@ -6,7 +6,7 @@
 **[Calvin Coolidge](./../calvin-coolidge/)**
 
 **Overview:**
-[Calvin Coolidge](./../calvin-coolidge/) served as the 30th [President of the United States](./../president-of-the-united-states/) from 1923-1929. A Republican, he is known for his frugal policies, pro-business stance, and quiet demeanor.
+[Calvin Coolidge](./../calvin-coolidge/) served as the 30th [POTUS](./../potus/) from 1923-1929. A Republican, he is known for his frugal policies, pro-business stance, and quiet demeanor.
 
 **Events Associated with Coolidge:**
 

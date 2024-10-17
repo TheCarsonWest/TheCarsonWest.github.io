@@ -7,7 +7,7 @@
 
 **WHEN:** September 19, 1796
 
-**WHO:** [George Washington](./../george-washington/), first [apush/President of the United States](./../apush/president-of-the-united-states/)
+**WHO:** [George Washington](./../george-washington/), first [POTUS](./../potus/)
 
 **WHAT:** Farewell Address, a public letter providing advice and guidance to the nation
 

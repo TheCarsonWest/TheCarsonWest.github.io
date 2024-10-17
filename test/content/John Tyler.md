@@ -7,13 +7,13 @@
 
 **Events:**
 
-* **Accession to Presidency:** Became 10th [President of the United States](./../president-of-the-united-states/) in 1841 after the death of [William Henry Harrison](./../william-henry-harrison/)
+* **Accession to Presidency:** Became 10th [POTUS](./../potus/) in 1841 after the death of [William Henry Harrison](./../william-henry-harrison/)
 * **Harrison's Policies:** Continued Harrison's economic policies, including:
  * Establishment of a national bank
  * Protective tariffs
  * Internal improvements
 * **Bank of the [United States](./../united-states/) Veto:** Vetoed the renewal of the charter of the Second Bank of the [United States](./../united-states/), leading to a breakdown with the Whig Party
-* **Webster-Ashburton Treaty:** Negotiated and signed the treaty with Great Britain, resolving border disputes between [Maine](./../maine/) and Canada
+* **Webster-Ashburton Treaty:** Negotiated and signed the treaty with [Great Britain](./../great-britain/), resolving border disputes between [Maine](./../maine/) and Canada
 
 **Important Legislation Signed:**
 
@@ -29,7 +29,7 @@
 
 * **Strengthened Executive Power:** Tyler asserted the power of the presidency, challenging the dominance of Congress
 * **Fiscal and Economic Policies:** His veto of the Bank of the [United States](./../united-states/) and support for tariffs shaped the nation's economic development
-* **Foreign Policy:** Resolved lingering border disputes with Great Britain, maintaining peace and stability
+* **Foreign Policy:** Resolved lingering border disputes with [Great Britain](./../great-britain/), maintaining peace and stability
 * **Party Conflict:** His break with the Whig Party exacerbated divisions and weakened the two-party system
 * **Presidential Succession:** Set a precedent for the vice president to assume the presidency upon the death of the incumbent
 

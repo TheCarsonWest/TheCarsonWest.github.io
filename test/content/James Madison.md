@@ -13,7 +13,7 @@
 **[Virginia](./../virginia/) Convention (1776):**
 
 * Elected as a delegate to [Virginia](./../virginia/)'s convention
-* Advocated for independence from Great Britain
+* Advocated for independence from [Great Britain](./../great-britain/)
 
 **Continental Congress (1780-1783):**
 
@@ -32,8 +32,8 @@
 
 **[War of 1812](./../war-of-1812/):**
 
-* Served as [apush/President of the United States](./../apush/president-of-the-united-states/) from 1809 to 1817
-* Led the country during the War of 1812
+* Served as [POTUS](./../potus/) from 1809 to 1817
+* Led the country during the [War of 1812](./../war-of-1812/)
 
 **Retirement and Later Life:**
 
@@ -50,12 +50,12 @@
 
 * American Revolution
 * [Constitutional Convention](./../constitutional-convention/)
-* War of 1812
+* [War of 1812](./../war-of-1812/)
 
 **People and Groups Associated with Madison:**
 
-* **[George Washington](./../george-washington/):** First [President of the United States](./../president-of-the-united-states/)
+* **[George Washington](./../george-washington/):** First [POTUS](./../potus/)
 * ** [Alexander Hamilton](./../alexander-hamilton/):** Fellow delegate to the [Constitutional Convention](./../constitutional-convention/)
-* ** [Thomas Jefferson](./../thomas-jefferson/):** Third [President of the United States](./../president-of-the-united-states/)
+* ** [Thomas Jefferson](./../thomas-jefferson/):** Third [POTUS](./../potus/)
 * **Federalists:** Political party that supported a strong central government
 * **Democratic-Republicans:** Political party that opposed a strong central government

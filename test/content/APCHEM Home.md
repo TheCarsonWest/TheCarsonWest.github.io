@@ -12,4 +12,6 @@
 # [Labs](./../labs/)
 # [Reactions Types](./../reactions-types/)
 
+# [Chemical Bonds](./../chemical-bonds/)
+
 # [Other important AP CHEM things](./../other-important-ap-chem-things/)

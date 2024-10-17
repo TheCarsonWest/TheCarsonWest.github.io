@@ -16,7 +16,7 @@ location: 42.3554334,-71.060511
 
 **What:**
 * British troops fired upon a crowd of protesters in Boston, killing five colonists and wounding others.
-* The incident escalated tensions between the colonies and Great Britain.
+* The incident escalated tensions between the colonies and [Great Britain](./../great-britain/).
 
 **Impact:**
 * Short-term: Outrage and protests in Boston, leading to the repeal of the Townshend Acts.

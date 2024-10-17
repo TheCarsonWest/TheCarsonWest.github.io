@@ -16,12 +16,12 @@
 
 **APUSH-Related Alumni:**
 
-* **[John Adams](./../john-adams/):** Second [apush/President of the United States](./../apush/president-of-the-united-states/)
-* **[John Quincy Adams](./../john-quincy-adams/):** Sixth [apush/President of the United States](./../apush/president-of-the-united-states/)
-* **[Theodore Roosevelt](./../theodore-roosevelt/):** 26th [apush/President of the United States](./../apush/president-of-the-united-states/)
-* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/):** 32nd [apush/President of the United States](./../apush/president-of-the-united-states/)
-* **[John F. Kennedy](./../john-f.-kennedy/):** 35th [apush/President of the United States](./../apush/president-of-the-united-states/)
-* **[Barack Obama](./../barack-obama/):** 44th [apush/President of the United States](./../apush/president-of-the-united-states/)
+* **[John Adams](./../john-adams/):** Second [POTUS](./../potus/)
+* **[John Quincy Adams](./../john-quincy-adams/):** Sixth [POTUS](./../potus/)
+* **[Theodore Roosevelt](./../theodore-roosevelt/):** 26th [POTUS](./../potus/)
+* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/):** 32nd [POTUS](./../potus/)
+* **[John F. Kennedy](./../john-f.-kennedy/):** 35th [POTUS](./../potus/)
+* **[Barack Obama](./../barack-obama/):** 44th [POTUS](./../potus/)
 * **Henry Wadsworth Longfellow:** Poet and author
 * **Ralph Waldo Emerson:** Transcendentalist philosopher
 * **W.E.B. Du Bois:** Sociologist and civil rights activist
@@ -29,7 +29,7 @@
 
 **Timeline of Major Events in the Harvard Area:**
 
-* **1630:** [apush/states/Massachusetts|Massachusetts](./../apush/states/massachusetts|massachusetts/) Bay Colony founded.
+* **1630:** [Massachusetts|Massachusetts](./../massachusetts|massachusetts/) Bay Colony founded.
 * **1636:** Harvard College founded.
 * **1692:** [Salem Witch Trials](./../salem-witch-trials/).
 * **1775:** [Battles of Lexington and Concord](./../battles-of-lexington-and-concord/).

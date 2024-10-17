@@ -7,7 +7,7 @@
 
 **Events Associated With:**
 
-* War of 1812 (Battle of New Orleans)
+* [War of 1812](./../war-of-1812/) (Battle of New Orleans)
 * Seminole Wars
 * [Indian Removal Act](./../indian-removal-act/)
 * Bank War

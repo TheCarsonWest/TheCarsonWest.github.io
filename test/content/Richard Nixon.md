@@ -14,7 +14,7 @@
 * Representative from [California](./../california/) (1947-1951)
 * Senator from [California](./../california/) (1950-1953)
 * Vice President under Dwight Eisenhower (1953-1961)
-* [President of the United States](./../president-of-the-united-states/) (1969-1974)
+* [POTUS](./../potus/) (1969-1974)
 
 **Events Associated With:**
 * Watergate Scandal

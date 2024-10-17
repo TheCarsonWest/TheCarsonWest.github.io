@@ -9,7 +9,7 @@
 
 * **1609:** Henry Hudson explores the [New Jersey](./../new-jersey/) coastline.
 * **1664:** England acquires [New Jersey](./../new-jersey/) from the Dutch.
-* **1776:** [New Jersey](./../new-jersey/) declares independence from Great Britain.
+* **1776:** [New Jersey](./../new-jersey/) declares independence from [Great Britain](./../great-britain/).
 * **1787:** [New Jersey](./../new-jersey/) ratifies the U.S. Constitution.
 * **1830s-1840s:** Industrialization begins in [New Jersey](./../new-jersey/), focused on textiles, iron, and shipbuilding.
 * **1861-1865:** [New Jersey](./../new-jersey/) contributes significant resources to the Union cause during the Civil War.

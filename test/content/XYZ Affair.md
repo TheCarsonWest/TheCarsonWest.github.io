@@ -8,7 +8,7 @@
 **WHEN:** 1797-1798
 
 **WHO:**
-* [John Adams](./../john-adams/), [apush/President of the United States](./../apush/president-of-the-united-states/)
+* [John Adams](./../john-adams/), [POTUS](./../potus/)
 * Charles Maurice de Talleyrand-Périgord, French Foreign Minister
 
 **WHAT:**

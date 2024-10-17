@@ -9,4 +9,4 @@
 
 # [States list](./../states-list/)
 
-# [President of the United States](./../president-of-the-united-states/)
+# [POTUS](./../potus/)

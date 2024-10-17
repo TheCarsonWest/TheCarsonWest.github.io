@@ -12,13 +12,13 @@ location: 40.2253569,-82.6881395
 
 **Who:**
 
-* **Great Britain:** General James Wolfe, William Pitt
+* **[Great Britain](./../great-britain/):** General James Wolfe, William Pitt
 * **[France](./../france/):** Marquis de Montcalm, Louis XV
 * **Native American tribes:** Pontiac, Tecumseh
 
 **What:**
 
-* Conflict between [France](./../france/) and Great Britain over land in North America
+* Conflict between [France](./../france/) and [Great Britain](./../great-britain/) over land in North America
 * Colonial rivalry and competition for trade and resources
 * Battles fought in the [Ohio](./../ohio/) Valley, Great Lakes region, and Canada
 * Ended with the Treaty of Paris (1763)
@@ -33,7 +33,7 @@ location: 40.2253569,-82.6881395
 
 **Long-term:**
 
-* Increased tensions between Great Britain and its American colonies
+* Increased tensions between [Great Britain](./../great-britain/) and its American colonies
 * Contributed to the American Revolution
 * Shaped the geopolitical landscape of North America
 #ids

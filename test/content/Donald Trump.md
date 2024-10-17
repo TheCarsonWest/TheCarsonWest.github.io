@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Donald Trump](./../donald-trump/)** (born June 14, 1946) served as the 45th [President of the United States](./../president-of-the-united-states/) from 2017 to 2021.
+**[Donald Trump](./../donald-trump/)** (born June 14, 1946) served as the 45th [POTUS](./../potus/) from 2017 to 2021.
 
 **Events Associated**
 

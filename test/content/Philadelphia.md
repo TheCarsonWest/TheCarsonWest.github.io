@@ -9,7 +9,7 @@
 **Major Events Associated with [Philadelphia](./../philadelphia/):**
 
 * ** [First Continental Congress](./../first-continental-congress/) (1774):** Delegates from all 13 colonies met in [Philadelphia](./../philadelphia/) to discuss British policies and coordinate resistance.
-* ** [Declaration of Independence](./../declaration-of-independence/) (1776):** The Continental Congress adopted the [Declaration of Independence](./../declaration-of-independence/) in [Philadelphia](./../philadelphia/), declaring the American colonies' independence from Great Britain.
+* ** [Declaration of Independence](./../declaration-of-independence/) (1776):** The Continental Congress adopted the [Declaration of Independence](./../declaration-of-independence/) in [Philadelphia](./../philadelphia/), declaring the American colonies' independence from [Great Britain](./../great-britain/).
 * ** [Constitutional Convention](./../constitutional-convention/) (1787):** Representatives from 12 states met in [Philadelphia](./../philadelphia/) to draft the [United States](./../united-states/) Constitution.
 * ** [Federalist Papers](./../federalist-papers/) (1787-1788):** A series of essays written by [Alexander Hamilton](./../alexander-hamilton/), [James Madison](./../james-madison/), and John Jay in support of the proposed Constitution were published in [Philadelphia](./../philadelphia/).
 * **First Bank of the [United States](./../united-states/) (1791):** The first national bank of the [United States](./../united-states/) was established in [Philadelphia](./../philadelphia/).

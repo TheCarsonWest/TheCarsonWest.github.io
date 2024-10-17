@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Barack Obama](./../barack-obama/): 44th [President of the United States](./../president-of-the-united-states/) (2009-2017)**
+**[Barack Obama](./../barack-obama/): 44th [POTUS](./../potus/) (2009-2017)**
 
 **Events Associated with:**
 
@@ -29,7 +29,7 @@
 
 **Impact on the Country:**
 
-* Obama's election in 2008 marked a historic moment as he became the first African American [President of the United States](./../president-of-the-united-states/).
+* Obama's election in 2008 marked a historic moment as he became the first African American [POTUS](./../potus/).
 * His policies helped stabilize the economy after the financial crisis and expand healthcare coverage.
 * Obama's foreign policy was characterized by a focus on diplomacy and multilateralism.
 * He played a significant role in promoting social equality and addressing climate change.

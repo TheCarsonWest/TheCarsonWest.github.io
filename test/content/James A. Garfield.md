@@ -15,7 +15,7 @@
 
 * Elected to the U.S. House of Representatives in 1863
 * Served as Speaker of the House from 1877 to 1879
-* Elected [President of the United States](./../president-of-the-united-states/) in 1880
+* Elected [POTUS](./../potus/) in 1880
 
 **Events Associated with Garfield:**
 

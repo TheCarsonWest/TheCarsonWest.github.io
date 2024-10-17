@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Dwight D](./../dwight-d/). Eisenhower: 34th [President of the United States](./../president-of-the-united-states/)**
+**[Dwight D](./../dwight-d/). Eisenhower: 34th [POTUS](./../potus/)**
 
 **Events Associated With:**
 

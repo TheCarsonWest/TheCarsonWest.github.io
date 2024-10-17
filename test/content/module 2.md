@@ -7,3 +7,4 @@
 [Arabic Home](./../arabic-home/)
 
 [module 2 lesson 1](./../module-2-lesson-1/)
+[Arabic Plurals and Duals](./../arabic-plurals-and-duals/)

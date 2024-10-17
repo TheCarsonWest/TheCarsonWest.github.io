@@ -17,7 +17,7 @@
 * **1954:** The Supreme Court rules in Brown v. Board of Education, striking down school segregation.
 * **1960s-1970s:** The civil rights movement gains momentum in [Texas](./../texas/).
 * **1980s-1990s:** [Texas](./../texas/) experiences a period of economic growth and population increase.
-* **2000:** [George W](./../george-w/). Bush becomes [President of the United States](./../president-of-the-united-states/).
+* **2000:** [George W](./../george-w/). Bush becomes [POTUS](./../potus/).
 
 **Important Legislation:**
 

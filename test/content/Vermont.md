@@ -7,7 +7,7 @@
 
 **Timeline of Key Events:**
 
-* **1777:** [Vermont](./../vermont/) declares independence from Great Britain.
+* **1777:** [Vermont](./../vermont/) declares independence from [Great Britain](./../great-britain/).
 * **1791:** [Vermont](./../vermont/) ratifies the U.S. Constitution, becoming the 14th state.
 * **1843:** [Vermont](./../vermont/) prohibits slavery within its borders.
 * **1861-1865:** [Vermont](./../vermont/) sends troops to fight in the Civil War.

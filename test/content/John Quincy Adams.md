@@ -7,7 +7,7 @@
 
 **Events Associated With:**
 
-* War of 1812 (served as a peace commissioner)
+* [War of 1812](./../war-of-1812/) (served as a peace commissioner)
 * [Treaty of Ghent](./../treaty-of-ghent/) (negotiated the end of the war)
 * Secretary of State under [James Monroe](./../james-monroe/)
 * [Monroe Doctrine](./../monroe-doctrine/) (helped craft the policy)

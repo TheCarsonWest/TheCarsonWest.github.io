@@ -5,7 +5,7 @@
 +++
 **Roles:**
 
-* Second [President of the United States](./../president-of-the-united-states/) (1797-1801)
+* Second [POTUS](./../potus/) (1797-1801)
 * Vice President under [George Washington](./../george-washington/) (1789-1797)
 * Diplomat during the American Revolution
 * Founding Father
@@ -13,7 +13,7 @@
 **Accomplishments:**
 
 * Negotiated the [Treaty of Paris 1776](./../treaty-of-paris-1776/) (1783), which ended the American Revolution
-* Served as the first U.S. Minister to Great Britain (1785-1788)
+* Served as the first U.S. Minister to [Great Britain](./../great-britain/) (1785-1788)
 * Helped draft the [Declaration of Independence](./../declaration-of-independence/)
 * Founded the American Academy of Arts and Sciences
 

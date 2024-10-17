@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Bill Clinton](./../bill-clinton/) (42nd [President of the United States](./../president-of-the-united-states/), 1993-2001)**
+**[Bill Clinton](./../bill-clinton/) (42nd [POTUS](./../potus/), 1993-2001)**
 
 **Political Affiliations:**
 * Democratic Party
@@ -14,7 +14,7 @@
 
 **Political Career:**
 * Governor of [Arkansas](./../arkansas/) (1979-1981, 1983-1992)
-* [President of the United States](./../president-of-the-united-states/) (1993-2001)
+* [POTUS](./../potus/) (1993-2001)
 
 **Major Events:**
 

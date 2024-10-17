@@ -7,7 +7,7 @@
 
 **When:** September 3, 1783
 
-**Who:** Great Britain, [United States](./../united-states/), [France](./../france/)
+**Who:** [Great Britain](./../great-britain/), [United States](./../united-states/), [France](./../france/)
 
 **What:** A peace treaty that ended the American Revolutionary War and formally recognized the [United States](./../united-states/) as an independent nation.
 

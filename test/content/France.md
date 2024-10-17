@@ -3,18 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-Create an AP [United States](./../united-states/) History rundown on {[France](./../france/)}. Include American History events they were associated with, and a quick timeline of major things that happened in the area.
 
 
 **[France](./../france/) in American History**
 
 **Events Associated with:**
 
-* ** [French and Indian War](./../french-and-indian-war/) (1754-1763):** [France](./../france/) competed with Great Britain for control of North America. The war ended with British victory, leading to increased British influence in the colonies.
+* ** [French and Indian War](./../french-and-indian-war/) (1754-1763):** [France](./../france/) competed with [Great Britain](./../great-britain/) for control of North America. The war ended with British victory, leading to increased British influence in the colonies.
 * **American Revolution (1775-1783):** [France](./../france/) provided crucial support to the American colonists, including financial aid, military supplies, and troops.
 * ** [Louisiana](./../louisiana/) Purchase (1803):** The [United States](./../united-states/) purchased a vast territory from [France](./../france/), doubling its size.
 * **Haitian Revolution (1791-1804):** A slave revolt in [France](./../france/)'s Saint-Domingue colony inspired anti-slavery sentiments in the [United States](./../united-states/).
-* **War of 1812 (1812-1815):** [France](./../france/) supported the [United States](./../united-states/) against Great Britain, although they did not actively participate in the war.
+* **[War of 1812](./../war-of-1812/) (1812-1815):** [France](./../france/) supported the [United States](./../united-states/) against [Great Britain](./../great-britain/), although they did not actively participate in the war.
 * **Mexican-American War (1846-1848):** [France](./../france/) mediated the Treaty of Guadalupe Hidalgo, which ended the war and resulted in the [United States](./../united-states/) acquiring [California](./../california/) and the Southwest.
 * **World War I (1914-1918):** [France](./../france/) was a major ally of the [United States](./../united-states/) and played a crucial role in the Allied victory.
 * **World War II (1939-1945):** [France](./../france/) was occupied by Nazi Germany but later liberated by Allied forces, including the [United States](./../united-states/) .

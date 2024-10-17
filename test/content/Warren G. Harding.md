@@ -26,7 +26,7 @@
 
 **Foreign Policy:**
 
-* **[Washington](./../washington/) Naval Conference (1921-1922):** Limited the size of naval fleets for the [United States](./../united-states/), Great Britain, Japan, [France](./../france/), and Italy
+* **[Washington](./../washington/) Naval Conference (1921-1922):** Limited the size of naval fleets for the [United States](./../united-states/), [Great Britain](./../great-britain/), Japan, [France](./../france/), and Italy
 * **Four-Power Treaty (1922):** Guaranteed the territorial status of Pacific islands
 
 **Other Events:**

@@ -9,7 +9,7 @@
 
 * 1671: Founding of Fort St. Ignace, the first European settlement in [Michigan](./../michigan/)
 * 1763: [Michigan](./../michigan/) becomes part of the British colony of Quebec
-* 1783: [Michigan](./../michigan/) is ceded to the [United States](./../united-states/) by Great Britain under the Treaty of Paris
+* 1783: [Michigan](./../michigan/) is ceded to the [United States](./../united-states/) by [Great Britain](./../great-britain/) under the Treaty of Paris
 * 1805: [Michigan](./../michigan/) Territory is established
 * 1837: [Michigan](./../michigan/) becomes a state
 * 1854: [Michigan](./../michigan/) passes the Fugitive Slave Law
