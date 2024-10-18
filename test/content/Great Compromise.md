@@ -3,28 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-**Notecard: [Great Compromise](./../great-compromise/)**
+# ID: Great Compromise (Connecticut Compromise)
+## When: July 1787 
+## Who: 
+* **Roger Sherman** and **Oliver Ellsworth** (Connecticut Delegates) proposed the compromise.
+* **William Paterson** proposed the New Jersey Plan, favoring smaller states.
+* **James Madison** proposed the Virginia Plan, favoring larger states.
 
-**WHEN:**
+## What:
+A major compromise reached during the [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/) that resolved the issue of representation in the legislative branch. It combined elements of the **Virginia Plan**, which favored representation based on population (benefiting larger states), and the **New Jersey Plan**, which proposed equal representation for each state regardless of size (benefiting smaller states).
 
-* July 16, 1787
+**Key Features of the Compromise:**
 
-**WHO:**
+* **Bicameral Legislature:**  Created a two-house Congress:
+    * **Senate:** Each state would have equal representation (2 senators per state).
+    * **House of Representatives:** Representation would be based on the population of each state. 
 
-* [James Madison](./../james-madison/) ( [Virginia](./../virginia/))
-* Roger Sherman ( [Connecticut](./../connecticut/))
-* William Paterson ( [New Jersey](./../new-jersey/))
+## Impact? Why Significant?: 
+* **Saved the Convention:** The Great Compromise resolved a major deadlock that threatened the entire [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/).
+* **Shaped the U.S. Government:**  The bicameral legislature with its distinct features remains a cornerstone of the U.S. government today. 
+* **Balance of Power:** It established a balance of power between larger and smaller states, ensuring that both had a voice in the federal government. This balance remains a key characteristic of American democracy. 
+* **Legacy of Compromise:** The Great Compromise demonstrated the importance of compromise in a democracy and set a precedent for resolving future conflicts through negotiation. 
 
-**WHAT:**
-
-* A compromise between large and small states at the [Constitutional Convention](./../constitutional-convention/)
-* Created a bicameral legislature:
- * [House of Representatives](./../house-of-representatives/): Representation based on population
- * [Senate](./../senate/): Each state would have equal representation (two senators)
-
-**IMPACT:**
-
-* Resolved the issue of representation, allowing all states to participate in the new government
-* Strengthened the central government
-* Demonstrated the ability of the delegates to compromise and reach consensus
 # [IDS Unit 3](./../ids-unit-3/)

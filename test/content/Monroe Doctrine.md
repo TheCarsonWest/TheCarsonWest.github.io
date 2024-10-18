@@ -3,17 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-** [Monroe Doctrine](./../monroe-doctrine/)**
+# ID: Monroe Doctrine
 
-**WHEN:** December 2, 1823
+## When: December 2, 1823
 
-**WHO:** President [James Monroe](./../james-monroe/)
+## Who: 
+- **President James Monroe** (The doctrine was written by Secretary of State John Quincy Adams, but it was part of Monroe's annual message to Congress)
 
-**WHAT:** A policy statement by the [United States](./../united-states/) that declared the Western Hemisphere off-limits to further European colonization. It also stated that the [United States](./../united-states/) would not interfere in European affairs.
+## What: 
+A foreign policy statement declaring that:
 
-**IMPACT:**
-* Ended European colonization in the Americas.
-* Protected American security interests.
-* Strengthened the [United States](./../united-states/)' position as a world power.
-* Led to the [United States](./../united-states/) becoming involved in conflicts in Latin America to enforce the doctrine.
+1. **The Americas were closed to further European colonization.**  Any attempts to colonize or interfere in the Western Hemisphere by European powers would be considered a hostile act against the United States.
+2. **The United States would not interfere in the internal affairs of European nations** or their existing colonies. 
+3. **The United States recognized and would not interfere with existing colonies in the Western Hemisphere.**
+
+## Impact? Why Significant?: 
+
+* **Established the U.S. as a dominant power in the Western Hemisphere.** 
+* **Asserted American neutrality in European conflicts,** signaling a departure from its previous involvement in European affairs.
+* **Laid the groundwork for future U.S. interventionism in Latin America.** While initially about protecting the Americas from Europe, the Monroe Doctrine would later be used to justify U.S. interventions in Latin American countries.
+* **Had little impact at the time** as the U.S. lacked the military strength to enforce it. Its significance grew later in the 19th century as the U.S. became a stronger nation. 
+* **Remains a cornerstone of U.S. foreign policy today**, though its interpretation and application have evolved over time. 
+
 # [IDS Unit 3](./../ids-unit-3/)

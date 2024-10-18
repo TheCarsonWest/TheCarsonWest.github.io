@@ -3,22 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-**Notecard: [XYZ Affair](./../xyz-affair/)**
+# ID: XYZ Affair
+## When: 1797-1798
+## Who: 
+* **United States:** President John Adams, Charles Cotesworth Pinckney, John Marshall, Elbridge Gerry (American diplomats)
+* **France:**  Agents of French Foreign Minister Talleyrand (later nicknamed X, Y, and Z)
 
-**WHEN:** 1797-1798
+## What: 
+Diplomatic incident where three low-level French agents (X, Y, and Z) demanded a bribe and a loan from American diplomats in exchange for negotiating a treaty to stop French attacks on American ships.  The Americans refused, leading to public outrage in the U.S.
 
-**WHO:**
-* [John Adams](./../john-adams/), [POTUS](./../potus/)
-* Charles Maurice de Talleyrand-Périgord, French Foreign Minister
+## Impact? Why Significant?: 
+* Fueled anti-French sentiment in the United States, leading to the Quasi-War, an undeclared naval conflict with France. 
+* Increased support for the Federalist Party, who took a hard line against France.
+* Contributed to the passage of the Alien and Sedition Acts, which were aimed at suppressing dissent and limiting the power of the Democratic-Republican Party (seen as sympathetic to France).
+* Represented a significant challenge to the early American republic in terms of foreign policy and internal divisions. 
 
-**WHAT:**
-* A diplomatic incident between the [United States](./../united-states/) and [France](./../france/), triggered by French demands for bribes from American diplomats seeking peaceful relations.
-* American commissioners ("X," "Y," and "Z") were sent to negotiate with Talleyrand but were met with demands for money and bribes.
-
-**IMPACT:**
-* Provoked a wave of anti-French sentiment in the [United States](./../united-states/).
-* Led to the Quasi-War between the [United States](./../united-states/) and [France](./../france/) (1798-1800).
-* Strengthened the [Federalist](./../federalist/) Party and weakened the [Democratic-Republican](./../democratic-republican/) Party.
-* Contributed to the [Alien and Sedition Acts](./../alien-and-sedition-acts/), which suppressed political dissent.
-* Demonstrated the fragility of American neutrality in global affairs.
 # [IDS Unit 3](./../ids-unit-3/)

@@ -2,6 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/1729130129/</loc>
+  </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
     <loc>http://example.org/abstract-classes/</loc>
@@ -16,7 +18,11 @@
   </url><url>
     <loc>http://example.org/alexander-hamilton/</loc>
   </url><url>
-    <loc>http://example.org/alien-and-sedition-acts/</loc>
+    <loc>http://example.org/alloys/</loc>
+  </url><url>
+    <loc>http://example.org/american-colonization-society/</loc>
+  </url><url>
+    <loc>http://example.org/american-temperance-society/</loc>
   </url><url>
     <loc>http://example.org/andrew-jackson/</loc>
   </url><url>
@@ -126,6 +132,8 @@
   </url><url>
     <loc>http://example.org/common-sense/</loc>
   </url><url>
+    <loc>http://example.org/commonwealth-system/</loc>
+  </url><url>
     <loc>http://example.org/concurrency-and-multithreading/</loc>
   </url><url>
     <loc>http://example.org/connecticut/</loc>
@@ -148,7 +156,11 @@
   </url><url>
     <loc>http://example.org/coulombs-law/</loc>
   </url><url>
+    <loc>http://example.org/covalent-bonds/</loc>
+  </url><url>
     <loc>http://example.org/creating-gui-applications-with-tkinter-or-pyqt/</loc>
+  </url><url>
+    <loc>http://example.org/cultural-lag/</loc>
   </url><url>
     <loc>http://example.org/custom-context-managers/</loc>
   </url><url>
@@ -176,6 +188,10 @@
   </url><url>
     <loc>http://example.org/delta/</loc>
   </url><url>
+    <loc>http://example.org/democracy-in-america/</loc>
+  </url><url>
+    <loc>http://example.org/demographic-transition-model/</loc>
+  </url><url>
     <loc>http://example.org/derivative-rules/</loc>
   </url><url>
     <loc>http://example.org/descriptors/</loc>
@@ -201,6 +217,10 @@
     <loc>http://example.org/ecumene/</loc>
   </url><url>
     <loc>http://example.org/election-of-1800/</loc>
+  </url><url>
+    <loc>http://example.org/election-of-1824/</loc>
+  </url><url>
+    <loc>http://example.org/election-of-1828/</loc>
   </url><url>
     <loc>http://example.org/electrical-constant/</loc>
   </url><url>
@@ -418,7 +438,7 @@
   </url><url>
     <loc>http://example.org/map-filter-and-reduce/</loc>
   </url><url>
-    <loc>http://example.org/marbury-vs.-madison/</loc>
+    <loc>http://example.org/marbury-vs-madison/</loc>
   </url><url>
     <loc>http://example.org/martin-van-buren/</loc>
   </url><url>
@@ -448,6 +468,8 @@
   </url><url>
     <loc>http://example.org/missouri/</loc>
   </url><url>
+    <loc>http://example.org/missouri-compromise/</loc>
+  </url><url>
     <loc>http://example.org/mocking-in-unit-tests/</loc>
   </url><url>
     <loc>http://example.org/module-1/</loc>
@@ -476,9 +498,13 @@
   </url><url>
     <loc>http://example.org/mutable-vs-immutable-types/</loc>
   </url><url>
+    <loc>http://example.org/nat-turner-rebellion/</loc>
+  </url><url>
     <loc>http://example.org/national-scale/</loc>
   </url><url>
     <loc>http://example.org/natural-language-processing-with-nltk-or-spacy/</loc>
+  </url><url>
+    <loc>http://example.org/naturalization-alien-and-sedition-acts/</loc>
   </url><url>
     <loc>http://example.org/nebraska/</loc>
   </url><url>
@@ -505,6 +531,8 @@
     <loc>http://example.org/north-carolina/</loc>
   </url><url>
     <loc>http://example.org/north-dakota/</loc>
+  </url><url>
+    <loc>http://example.org/nullification/</loc>
   </url><url>
     <loc>http://example.org/numpy-broadcasting/</loc>
   </url><url>
@@ -590,6 +618,8 @@
   </url><url>
     <loc>http://example.org/report-on-the-public-credit/</loc>
   </url><url>
+    <loc>http://example.org/republican-motherhood/</loc>
+  </url><url>
     <loc>http://example.org/rest-apis-with-fastapi/</loc>
   </url><url>
     <loc>http://example.org/return-values/</loc>
@@ -608,6 +638,8 @@
   </url><url>
     <loc>http://example.org/second-continental-congress/</loc>
   </url><url>
+    <loc>http://example.org/second-great-awakening/</loc>
+  </url><url>
     <loc>http://example.org/security-and-cryptography-pycryptodome/</loc>
   </url><url>
     <loc>http://example.org/sets/</loc>
@@ -622,7 +654,11 @@
   </url><url>
     <loc>http://example.org/south-dakota/</loc>
   </url><url>
+    <loc>http://example.org/spain/</loc>
+  </url><url>
     <loc>http://example.org/speed-of-light/</loc>
+  </url><url>
+    <loc>http://example.org/spoils-system/</loc>
   </url><url>
     <loc>http://example.org/stamp-act/</loc>
   </url><url>
@@ -635,6 +671,8 @@
     <loc>http://example.org/synthesis-reaction/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
+  </url><url>
+    <loc>http://example.org/tariff-of-abominations/</loc>
   </url><url>
     <loc>http://example.org/tea-act/</loc>
   </url><url>
@@ -660,7 +698,11 @@
   </url><url>
     <loc>http://example.org/titration/</loc>
   </url><url>
+    <loc>http://example.org/total-fertility-rate/</loc>
+  </url><url>
     <loc>http://example.org/townshend-act/</loc>
+  </url><url>
+    <loc>http://example.org/transcendentalism/</loc>
   </url><url>
     <loc>http://example.org/treaty-of-ghent/</loc>
   </url><url>
@@ -687,6 +729,8 @@
     <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
+  </url><url>
+    <loc>http://example.org/utopian-societies/</loc>
   </url><url>
     <loc>http://example.org/va-and-ky-resolutions/</loc>
   </url><url>
@@ -729,6 +773,8 @@
     <loc>http://example.org/wisconsin/</loc>
   </url><url>
     <loc>http://example.org/woodrow-wilson/</loc>
+  </url><url>
+    <loc>http://example.org/worcester-v-georgia/</loc>
   </url><url>
     <loc>http://example.org/working-with-big-data-using-pyspark/</loc>
   </url><url>

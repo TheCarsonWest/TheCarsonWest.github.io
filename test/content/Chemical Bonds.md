@@ -8,3 +8,7 @@
 # [intermolecular forces](./../intermolecular-forces/)
 
 # [Polarity](./../polarity/)
+
+# [Alloys](./../alloys/)
+
+# [Covalent Bonds](./../covalent-bonds/)

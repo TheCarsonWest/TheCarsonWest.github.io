@@ -3,15 +3,27 @@
 [params]
 	author = 'Carson West'
 +++
-**WHEN:** 1815-1828
+# ID: The American System
+## WHEN: 1815-1830s (Era of Good Feelings & Antebellum Period)
 
-**WHO:** Henry Clay, John C. Calhoun, Daniel Webster
+## WHO: 
+* **Henry Clay (primary proponent)** - Speaker of the House from Kentucky
+* **John C. Calhoun** - Congressman from South Carolina
+* **John Quincy Adams** - Secretary of State (later President)
+* **President James Monroe** - Generally supportive of the system's aims
 
-**WHAT:** A series of economic policies designed to strengthen the [United States](./../united-states/) after the [War of 1812](./../war-of-1812/). [The American System](./../the-american-system/) included:
+## WHAT: 
+A set of interconnected economic proposals aimed at promoting national economic growth and self-sufficiency. Key components included:
 
-* High tariffs to protect American industries from foreign competition
-* A national bank to provide credit and regulate the currency
-* Internal improvements, such as roads and canals, to promote economic growth
+1. **Protective Tariffs:**  Taxes on imported goods to protect American industries from foreign competition. (Ex: Tariff of 1816)
+2. **National Bank:** A strong central bank to stabilize the national currency and regulate credit. (Second Bank of the United States chartered in 1816) 
+3. **Internal Improvements:**  Federally funded infrastructure projects like roads, canals, and railroads to improve transportation and connect markets.
 
-**IMPACT:** [The American System](./../the-american-system/) promoted economic growth and modernization in the [United States](./../united-states/). It led to the creation of new industries, the expansion of transportation networks, and the rise of a more urban and industrial society. However, the system also created tensions between different regions of the country and contributed to the sectional crisis that led to the Civil War.
+## IMPACT: Why Significant?: 
+
+* **Economic Growth:** The American System contributed to a period of significant economic expansion in the United States, particularly in the North.
+* **Sectionalism:** While the North generally benefited, the South argued that the system favored Northern industries at their expense. This heightened sectional tensions.
+* **Political Debate:** The American System sparked major debates about the role of the federal government in the economy, issues of states' rights vs. national power, and the interpretation of the Constitution. This debate would continue throughout the 19th century. 
+* **Legacy:** Many aspects of the American System, such as support for infrastructure and a national bank, would continue to influence American economic policy for years to come. 
+
 # [IDS Unit 3](./../ids-unit-3/)

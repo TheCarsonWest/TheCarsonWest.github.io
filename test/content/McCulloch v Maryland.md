@@ -3,25 +3,23 @@
 [params]
 	author = 'Carson West'
 +++
-**Topic: "[McCulloch v Maryland](./../mcculloch-v-maryland/)"**
+# ID: McCulloch v. Maryland 
 
-**WHEN:** March 6, 1819
+## WHEN: 1819
 
-**WHO:**
+## WHO: 
+* **Plaintiff:** James McCulloch, cashier of the Second Bank of the United States branch in Baltimore
+* **Defendant:** State of Maryland 
+* **Supreme Court Justices:**  John Marshall (Chief Justice)
 
-* Plaintiff: James McCulloch
-* Defendant: State of [Maryland](./../maryland/)
-* Chief Justice: John Marshall
+## WHAT: 
+A landmark Supreme Court case that centered around the constitutionality of the Second Bank of the United States and whether the state of Maryland could tax the bank's operations within its borders. The case addressed the balance of power between the federal government and state governments. 
 
-**WHAT:**
+## IMPACT: Why Significant?: 
 
-* The case involved the constitutionality of a [Maryland](./../maryland/) law that taxed the Bank of the [United States](./../united-states/) (BUS).
-* McCulloch argued that the BUS was a necessary and proper means for the federal government to exercise its powers under the Constitution.
-* [Maryland](./../maryland/) argued that the BUS was unconstitutional because it was not specifically authorized in the Constitution.
+* **Upheld Implied Powers:** The Supreme Court, under Chief Justice John Marshall, ruled that the establishment of the national bank, while not explicitly stated in the Constitution, was an implied power under the Necessary and Proper Clause (Article I, Section 8). This significantly expanded the scope of the federal government's powers.
+* **Supremacy Clause:** The Court affirmed the Supremacy Clause (Article VI), establishing that the Constitution and federal laws take precedence over state laws when the two are in conflict. 
+* **Strengthened National Government:**  McCulloch v. Maryland tipped the balance of power in favor of the federal government, contributing to the growth of a strong national government. 
+* **Long-Term Impact:**  The principles established in this case continue to influence the relationship between federal and state governments, particularly in areas like taxation, commerce, and regulation. 
 
-**IMPACT:**
-
-* The Supreme Court ruled in favor of the BUS, holding that it was a necessary and proper means for the federal government to exercise its taxing and spending powers.
-* The decision established the principle of implied powers, meaning that the federal government has the authority to exercise powers that are not explicitly stated in the Constitution but are necessary and proper for carrying out its functions.
-* It also strengthened the federal government's power over the states by establishing the supremacy of federal law over state laws.
 # [IDS Unit 3](./../ids-unit-3/)

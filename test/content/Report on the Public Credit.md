@@ -3,18 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-**Notecard**
+# ID: Report on the Public Credit
+## When: January 1790
+## Who: 
+- **Proposed by:** Alexander Hamilton, the first Secretary of the Treasury
+- **Presented to:** Congress
 
-**WHEN:** December 14, 1790
+## What: 
+A plan to address the national debt incurred during the American Revolution.  The key elements were:
+* **Funding the national debt:** The federal government would assume all state debts at face value.
+* **Assumption of state debts:**  States with large debts (mostly in the North) favored this, while Southern states with smaller debts were opposed.
+* **Creating a national bank:**  A central bank would help manage the nation's finances and issue a stable currency.
 
-**WHO:** [Alexander Hamilton](./../alexander-hamilton/), Secretary of the Treasury
+## Impact? Why Significant?: 
+* **Strengthened the national government:**  By taking on state debts, the federal government gained more power and influence.
+* **Promoted economic growth:**  Establishing a stable financial system encouraged investment and trade.
+* **Fueled partisan divisions:** The report sparked intense debate between Federalists (who supported Hamilton's plan) and Democratic-Republicans (who opposed its expansion of federal power), foreshadowing the two-party system. 
+* **Compromise & the "Dinner Table bargain":** Led to a compromise where the South agreed to assumption in exchange for the nation's capital being located in the South (Washington D.C.). This demonstrated the growing sectionalism in the new nation. 
 
-**WHAT:** Issued a report to Congress outlining the financial situation of the newly formed [United States](./../united-states/) government
-
-**IMPACT:**
-
-* Established the national debt and proposed a plan to assume state debts
-* Advocated for a strong national bank and a uniform currency system
-* Laid the foundation for the federal fiscal system in the [United States](./../united-states/)
-* Contributed to the development of the American financial system and the strengthening of the federal government
 # [IDS Unit 3](./../ids-unit-3/)

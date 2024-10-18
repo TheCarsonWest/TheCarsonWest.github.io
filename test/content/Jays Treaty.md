@@ -3,21 +3,25 @@
 [params]
 	author = 'Carson West'
 +++
-** [Jays Treaty](./../jays-treaty/)**
+# ID: Jay's Treaty
+## When: 
+November 19, 1794 (ratified by the Senate June 24, 1795)
 
-**WHEN:** November 19, 1794
+## Who: 
+* **Negotiated by:** John Jay, Chief Justice of the United States (sent by President Washington)
+* **Signed by:**  The United States and Great Britain
 
-**WHO:** John Jay (U.S. Envoy to England), Lord Grenville (British Foreign Secretary)
+## What: 
+A treaty resolving issues left unresolved since the end of the American Revolution. Key provisions included:
 
-**WHAT:** A treaty negotiated between the [United States](./../united-states/) and [Great Britain](./../great-britain/) that resolved outstanding issues from the Revolutionary War.
+* Britain agreed to evacuate forts in the Northwest Territory (which they had continued to occupy illegally).
+* A commission was established to settle boundary disputes and debts owed to British merchants.
+* The U.S. received limited trading rights in the British West Indies.
 
-**IMPACT:** Significance: 
+## Impact? Why Significant?: 
+* **Highly Controversial:**  The treaty was unpopular with many Americans, particularly Democratic-Republicans, who saw it as a betrayal of France (then at war with Great Britain) and a concession to a tyrannical power. 
+* **Strengthened Federalist Party:** The Federalists supported the treaty, arguing it maintained peace and trade with Britain. The controversy surrounding the treaty helped solidify the two-party system in the early United States.
+* **Indirectly Led to Other Agreements:** The treaty paved the way for Pinckney's Treaty (1795) with [Spain](./../spain/), which secured American access to the Mississippi River and New Orleans. It also temporarily eased tensions with Britain, although issues like impressment would continue to cause problems.
+* **Demonstrated Challenges of Neutrality:** Jay's Treaty highlighted the difficulty for the newly formed United States to remain neutral in European conflicts, a recurring theme in early American history. 
 
-- **Avoided War with [Great Britain](./../great-britain/):** The treaty helped to prevent a war between the two countries by addressing British grievances over American debts and the U.S. failure to live up to the Treaty of Paris (1783).
-
-- **Opened British West Indian Ports to American Ships:** The treaty allowed American ships access to British ports in the West Indies, which boosted the American economy.
-
-- **Strengthened Federalist Party:** The treaty's success strengthened the Federalist Party, which supported President [George Washington](./../george-washington/)'s foreign policy.
-
-- **Opposition from Democratic-Republicans:** Many Democratic-Republicans, led by [Thomas Jefferson](./../thomas-jefferson/), opposed the treaty, arguing that it was too favorable to [Great Britain](./../great-britain/).
 # [IDS Unit 3](./../ids-unit-3/)

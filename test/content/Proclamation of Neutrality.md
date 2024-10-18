@@ -3,14 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-**WHEN**: April 22, 1793
+# ID: Proclamation of Neutrality 
+## When: April 22, 1793
+## Who: 
+Issued by President George Washington 
+## What:
+Declared the United States' official neutrality in the conflict between Great Britain and France.  It prohibited Americans from fighting for either side and barred French and British warships from American ports.
+## Impact? Why Significant?: 
+- Established a precedent of American neutrality in foreign wars, a principle largely followed throughout the 19th century. 
+-  Angered pro-French Democratic-Republicans who felt obligated to help France, leading to increased political partisanship between the Federalists and Democratic-Republicans.
+-  Contributed to strained relations with France, ultimately leading to the Quasi-War (an undeclared naval war) between 1798 and 1800. 
 
-**WHO**: President [George Washington](./../george-washington/)
-
-**WHAT**: Declared the [United States](./../united-states/) neutral in the war between [France](./../france/) and [Great Britain](./../great-britain/), following the outbreak of the French Revolution
-
-**IMPACT**:
-* Avoided involvement in a major European conflict and preserved American neutrality
-* Set a precedent for the [United States](./../united-states/)' foreign policy of non-intervention in European affairs
-* Upset many Americans who sympathized with the French Revolution and wanted to support their cause
 # [IDS Unit 3](./../ids-unit-3/)

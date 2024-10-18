@@ -3,19 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-**Notecard: [Louisiana Purchase](./../louisiana-purchase/)**
+# ID: Louisiana Purchase
 
-**WHEN:** April 30, 1803
+## When: April 30, 1803
 
-**WHO:** [United States](./../united-states/) and [France](./../france/)
+## Who: 
+* **United States:** President Thomas Jefferson
+* **France:** First Consul Napoleon Bonaparte
 
-**WHAT:** The [United States](./../united-states/) purchased the [Louisiana](./../louisiana/) Territory from [France](./../france/) for  $ 15 million. The territory extended from the [Mississippi](./../mississippi/) River to the Rocky Mountains and from [Canada](./../canada/) to the Gulf of Mexico.
+## What: 
+The United States purchased approximately 828,000 square miles of land from France for  $ 15 million. This land encompassed a vast territory west of the Mississippi River, doubling the size of the United States. 
 
-**IMPACT:**
+## Impact? Why Significant?:
+* **Westward Expansion:** The Louisiana Purchase opened up vast territories for American settlement and expansion, fueling westward migration and the concept of Manifest Destiny.
+* **Economic Opportunities:** The acquisition provided access to valuable resources, including fertile farmland, navigable rivers, and potential trading routes.
+* **Foreign Policy Shift:** The purchase solidified American control over the Mississippi River and its crucial port in New Orleans, reducing European influence in North America.
+* **Constitutional Debate:** The purchase raised questions about the constitutionality of acquiring such a large territory, sparking debate over the limits of presidential power.
+* **Native American Removal:** The expansion westward inevitably led to increased conflicts with Native American tribes, contributing to their displacement and forced migration. 
 
-* Doubled the size of the [United States](./../united-states/).
-* Secured American control of the [Mississippi](./../mississippi/) River and the port of [New Orleans](./../new-orleans/).
-* Opened up new lands for westward expansion.
-* Led to the [Lewis and Clark Expedition](./../lewis-and-clark-expedition/) to explore the new territory.
-* Strengthened the [United States](./../united-states/) as a world power.
 # [IDS Unit 3](./../ids-unit-3/)

@@ -9,7 +9,7 @@
 
 * **1542:** Juan Rodríguez Cabrillo explores the coast of [California](./../california/).
 * **1769:** Spanish missionaries establish missions in [California](./../california/).
-* **1821:** Mexico gains independence from Spain and [California](./../california/) becomes part of Mexico.
+* **1821:** Mexico gains independence from [Spain](./../spain/) and [California](./../california/) becomes part of Mexico.
 * **1846:** War breaks out between the [United States](./../united-states/) and Mexico (Mexican-American War).
 * **1848:** **Treaty of Guadalupe Hidalgo** cedes [California](./../california/) and other territories to the [United States](./../united-states/).
 * **1850:** [California](./../california/) becomes the 31st state of the Union.

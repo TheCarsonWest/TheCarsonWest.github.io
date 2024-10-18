@@ -3,13 +3,23 @@
 [params]
 	author = 'Carson West'
 +++
-** [Treaty of Greenville](./../treaty-of-greenville/)**
+# ID: Treaty of Greenville 
 
-**WHEN:** August 3, 1795
+## When: August 3, 1795
 
-**WHO:** [United States](./../united-states/) and Native American tribes of the Northwest Territory (present-day [Ohio](./../ohio/), [Indiana](./../indiana/), [Illinois](./../illinois/), [Michigan](./../michigan/), [Wisconsin](./../wisconsin/), and parts of [Minnesota](./../minnesota/))
+## Who: 
+* **United States** represented by General "Mad" Anthony Wayne
+* **Native American tribes** of the Northwest Confederacy (including Miami, Shawnee, Delaware, and others)
 
-**WHAT:** The treaty ended the Northwest Indian War and established the boundary between the [United States](./../united-states/) and the Native American tribes. The Native Americans ceded a large portion of their land to the [United States](./../united-states/), but they retained some land in exchange for guarantees of protection and hunting rights.
+## What:
+A treaty signed after the decisive American victory at the Battle of Fallen Timbers, ending the Northwest Indian War. In the treaty:
+*  Native American tribes ceded a significant portion of their lands in the Northwest Territory (modern-day Ohio, Indiana, Illinois, and parts of Michigan) to the United States. 
+* The treaty established an official boundary between Native American territory and lands open to white settlement.
 
-**IMPACT:** The [Treaty of Greenville](./../treaty-of-greenville/) significantly expanded the territory of the [United States](./../united-states/) and paved the way for the westward expansion of American settlers. It also established a precedent for the [United States](./../united-states/) to negotiate treaties with Native American tribes to acquire their land. The treaty was criticized by some Native American leaders, who argued that it was unfair and forced them to give up too much land. However, it was generally seen as a peaceful and necessary settlement that helped to avoid further conflict.
+## Impact? Why Significant?: 
+* **Opened the Northwest Territory to American settlement:**  Led to a wave of white migration and settlement westward, fueling tensions and future conflicts over land.
+* **Formalized U.S. dominance in the region:** Established American sovereignty over the Northwest Territory and solidified their claims to the land.
+* **Exacerbated tensions with Great Britain:**  The British had supported the Native American tribes against the U.S. The treaty increased tensions that were already high due to disputes over trade and impressment.
+* **Temporary peace, but not a lasting solution:** While it brought an end to immediate violence, the treaty did little to address the underlying issues of land rights and cultural differences, leading to further conflicts in the future. 
+
 # [IDS Unit 3](./../ids-unit-3/)

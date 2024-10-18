@@ -3,25 +3,21 @@
 [params]
 	author = 'Carson West'
 +++
-**Notecard on the [Treaty of Ghent](./../treaty-of-ghent/)**
+# ID: Treaty of Ghent 
 
-**WHEN:** December 24, 1814
+## WHEN: December 24, 1814
 
-**WHO:** [United States](./../united-states/) and [Great Britain](./../great-britain/)
+## WHO: 
+* **United States** represented by John Quincy Adams, Henry Clay, and Albert Gallatin.
+* **Great Britain** 
 
-**WHAT:**
+## WHAT:
+The Treaty of Ghent was signed in Ghent, Belgium, ending the War of 1812. 
 
-* Ended the [War of 1812](./../war-of-1812/)
-* Restored pre-war boundaries
-* Created a commission to settle boundary disputes
-* Established a commission to suppress the slave trade
+## IMPACT? Why Significant?: 
+* **Return to Status Quo Ante Bellum:**  The treaty essentially restored pre-war boundaries and did not address the original causes of the conflict, such as impressment or neutral trading rights.
+* **Preserved American Independence:** Despite not achieving all of its war aims, the treaty solidified the United States' independence and prevented British attempts to reclaim territory. 
+* **Fueled Nationalism:** The war's outcome, despite the treaty's terms, fostered a sense of American national pride and unity, contributing to the Era of Good Feelings. 
+* **Shifted Focus Westward:** With the British threat in the east diminished, the United States was free to expand westward, leading to increased conflict with Native American tribes. 
 
-**IMPACT:**
-
-* Ended the war without a clear victory for either side
-* Restored peace between the US and [Great Britain](./../great-britain/)
-* Laid the groundwork for future diplomatic relations between the two countries
-* Made the US and [Great Britain](./../great-britain/) aware of each other's naval and military strength
-* Boosted American nationalism and patriotism
-* Settled the issue of impressment of American sailors by the British
 # [IDS Unit 3](./../ids-unit-3/)

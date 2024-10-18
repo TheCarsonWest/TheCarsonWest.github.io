@@ -3,22 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-** [Judiciary Act](./../judiciary-act/) of 1789**
+## ID: Judiciary Act of 1789
 
-**WHEN:** September 24, 1789
+## When: September 24, 1789
 
-**WHO:** 1st [United States](./../united-states/) Congress
+## Who: 
+* Proposed by: Congressman Oliver Ellsworth of Connecticut
+* Signed into law by: President George Washington
 
-**WHAT:** Established the first federal court system in the [United States](./../united-states/), consisting of:
+## What: 
+Established a federal court system for the newly formed United States under the Constitution. The Act outlined a three-tiered system:
+* **Supreme Court:**  Comprised of a Chief Justice and five Associate Justices.
+* **Circuit Courts:** Three circuit courts were created to handle appeals from the district courts. 
+* **District Courts:**  Thirteen district courts, one for each state at the time, served as the primary trial courts. 
 
-* [Supreme Court](./../supreme-court/) (with 6 justices)
-* 13 district courts
-* 3 circuit courts
+The Act also granted the Supreme Court the power of judicial review for certain cases, though this power wasn't explicitly defined until the landmark *Marbury v. Madison* case in 1803.
 
-**IMPACT:**
+## Impact? Why Significant?: 
 
-* Created a strong and independent judiciary
-* Provided a check on the power of the executive and legislative branches
-* Established the Supreme Court as the final arbiter of federal law
-* Strengthened the federal government and national unity
+* **Established a Foundation:** Provided a crucial framework for the federal judiciary, outlining its structure, jurisdiction, and procedures. This was essential for the new government to function effectively. 
+* **Strengthened Federal Power:**  By establishing a separate federal court system, the Act contributed to the growth of federal power and influence relative to the states. 
+* **Source of Debate and Evolution:** The Act's provisions, particularly those related to judicial review and the balance of power between state and federal courts, have been the subject of ongoing debate and interpretation throughout American history.  
+
 # [IDS Unit 3](./../ids-unit-3/)
