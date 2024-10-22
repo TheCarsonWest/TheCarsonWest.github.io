@@ -726,8 +726,6 @@
   </url><url>
     <loc>http://example.org/united-states/</loc>
   </url><url>
-    <loc>http://example.org/untitled/</loc>
-  </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
     <loc>http://example.org/utopian-societies/</loc>
@@ -753,6 +751,8 @@
     <loc>http://example.org/warren-g.-harding/</loc>
   </url><url>
     <loc>http://example.org/washington/</loc>
+  </url><url>
+    <loc>http://example.org/we-shall-fight-on-the-beaches/</loc>
   </url><url>
     <loc>http://example.org/web-development-with-django/</loc>
   </url><url>

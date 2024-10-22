@@ -2521,13 +2521,6 @@
       <description>&lt;p&gt;The Greatest country on earth.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Untitled</title>
-      <link>http://example.org/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/untitled/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Utah</title>
       <link>http://example.org/utah/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2617,6 +2610,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/washington/</guid>
       <description>&lt;p&gt;&lt;strong&gt;State of &lt;a href=&#34;./../washington/&#34;&gt;Washington&lt;/a&gt;: AP &lt;a href=&#34;./../united-states/&#34;&gt;United States&lt;/a&gt; History&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Timeline:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1846:&lt;/strong&gt; &lt;a href=&#34;./../oregon/&#34;&gt;Oregon&lt;/a&gt; Territory is established, encompassing present-day &lt;a href=&#34;./../washington/&#34;&gt;Washington&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1853:&lt;/strong&gt; &lt;a href=&#34;./../washington/&#34;&gt;Washington&lt;/a&gt; Territory is created from the northern portion of &lt;a href=&#34;./../oregon/&#34;&gt;Oregon&lt;/a&gt; Territory.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1889:&lt;/strong&gt; &lt;a href=&#34;./../washington/&#34;&gt;Washington&lt;/a&gt; becomes the 42nd state of the Union.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1916:&lt;/strong&gt; The &amp;ldquo;Seattle General Strike&amp;rdquo; (also known as the &amp;ldquo;Red Rebellion&amp;rdquo;) paralyzes the city for five days.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1942:&lt;/strong&gt; The Boeing Company begins production of B-29 Superfortresses in Seattle for World War II.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1962:&lt;/strong&gt; The World&amp;rsquo;s Fair (Century 21 Exposition) is held in Seattle.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1970:&lt;/strong&gt; The environmentalist group Greenpeace is founded in Vancouver, B.C.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1994:&lt;/strong&gt; The World Trade Organization (WTO) is established in Seattle.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2001:&lt;/strong&gt; The Microsoft Corporation moves its headquarters from Seattle to Redmond.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Important Legislation:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>We shall fight on the beaches</title>
+      <link>http://example.org/we-shall-fight-on-the-beaches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/we-shall-fight-on-the-beaches/</guid>
+      <description>&lt;p&gt;Turning once again, and this time more generally, to the question of invasion, I would observe that there has never been a period in all these long centuries of which we boast when an absolute guarantee against invasion, still less against serious raids, could have been given to our people. In the days of Napoleon, of which I was speaking just now, the same wind which would have carried his transports across the Channel might have driven away the blockading fleet. There was always the chance, and it is that chance which has excited and befooled the imaginations of many Continental tyrants. Many are the tales that are told. We are assured that novel methods will be adopted, and when we see the originality of malice, the ingenuity of aggression, which our enemy displays, we may certainly prepare ourselves for every kind of novel stratagem and every kind of brutal and treacherous manœuvre. I think that no idea is so outlandish that it should not be considered and viewed with a searching, but at the same time, I hope, with a steady eye. We must never forget the solid assurances of sea power and those which belong to air power if it can be locally exercised.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Web Development with Django</title>
