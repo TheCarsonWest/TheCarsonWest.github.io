@@ -5,5 +5,8 @@
 +++
 # [APCHEM Home](./../apchem-home/)
 
-[solutions](./../solutions/)
-[ion concentration](./../ion-concentration/)
+- [solutions](./../solutions/)
+- [ion concentration](./../ion-concentration/)
+- [Lewis structures](./../lewis-structures/)
+- [Resonance Structures](./../resonance-structures/)
+- [formal charge](./../formal-charge/)

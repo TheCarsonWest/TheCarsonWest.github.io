@@ -260,6 +260,8 @@
   </url><url>
     <loc>http://example.org/for-loops/</loc>
   </url><url>
+    <loc>http://example.org/formal-charge/</loc>
+  </url><url>
     <loc>http://example.org/formal-region/</loc>
   </url><url>
     <loc>http://example.org/france/</loc>
@@ -400,11 +402,15 @@
   </url><url>
     <loc>http://example.org/king-philips-war/</loc>
   </url><url>
+    <loc>http://example.org/kittens/</loc>
+  </url><url>
     <loc>http://example.org/lambda-functions/</loc>
   </url><url>
     <loc>http://example.org/lees-resolution/</loc>
   </url><url>
     <loc>http://example.org/letters-from-a-farmer-in-pennsylvania/</loc>
+  </url><url>
+    <loc>http://example.org/lewis-structures/</loc>
   </url><url>
     <loc>http://example.org/libraries-like-matplotlib/</loc>
   </url><url>
@@ -619,6 +625,8 @@
     <loc>http://example.org/report-on-the-public-credit/</loc>
   </url><url>
     <loc>http://example.org/republican-motherhood/</loc>
+  </url><url>
+    <loc>http://example.org/resonance-structures/</loc>
   </url><url>
     <loc>http://example.org/rest-apis-with-fastapi/</loc>
   </url><url>
