@@ -11,7 +11,7 @@
 * Seminole Wars
 * [Indian Removal Act](./../indian-removal-act/)
 * Bank War
-* Nullification Crisis
+* [Nullification](./../nullification/) Crisis
 * [Texas](./../texas/) Revolution
 
 **Important Legislation Signed:**
@@ -45,7 +45,7 @@
 * Signed the Deposit and Distribution Act, which decentralized federal deposits, weakening the national bank.
 * Supported states' rights in economic matters, including tariffs.
 
-**Nullification Crisis:**
+**[Nullification](./../nullification/) Crisis:**
 
 * Faced opposition from [South Carolina](./../south-carolina/), which threatened to nullify federal laws it deemed unconstitutional.
 * Signed the Force Bill, authorizing the use of federal force to enforce law.

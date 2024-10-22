@@ -5,11 +5,11 @@
 +++
 # [nexus](./../nexus/)
 
-# [Constants](./../constants/)
+# [Chemistry Constants](./../chemistry-constants/)
 # [Periodic Trends](./../periodic-trends/)
-# [Laws](./../laws/)
+# [Chemistry Laws](./../chemistry-laws/)
 # [Processes](./../processes/)
-# [Labs](./../labs/)
+# [AP Chem Labs](./../ap-chem-labs/)
 # [Reactions Types](./../reactions-types/)
 
 # [Chemical Bonds](./../chemical-bonds/)

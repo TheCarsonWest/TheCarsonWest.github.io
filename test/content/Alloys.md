@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-
+## [Chemical Bonds](./../chemical-bonds/)
 • **Alloys** are metallic, homogeneous mixtures composed of two or more elements.
 • These mixtures include both **pure metals** and **alloys**.
 • **Pure metals** serve as the baseline for understanding metal properties (e.g., malleability, conductivity).

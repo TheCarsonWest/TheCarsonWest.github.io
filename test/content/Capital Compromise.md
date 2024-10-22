@@ -9,15 +9,15 @@
 * **Henry Clay:** Proposed the compromise (though it was ultimately passed in separate bills by Stephen Douglas).
 * **John C. Calhoun:**  Leading Southern voice against compromise.
 * **Daniel Webster:**  Northern voice supporting compromise.
-* **Millard Fillmore:** President who signed the compromise bills into law.
+* **[Millard Fillmore](./../millard-fillmore/):** President who signed the compromise bills into law.
 ## What: 
 A series of five bills passed by Congress to address the issue of slavery in newly acquired territories after the Mexican-American War. 
 **Key Provisions:**
-* California admitted as a free state.
-* New Mexico and Utah territories organized with popular sovereignty (residents decide on slavery).
-* Texas-New Mexico boundary dispute resolved in favor of New Mexico.
+* [California](./../california/) admitted as a free state.
+* [New Mexico](./../new-mexico/) and [Utah](./../utah/) territories organized with popular sovereignty (residents decide on slavery).
+* [Texas](./../texas/)-[New Mexico](./../new-mexico/) boundary dispute resolved in favor of [New Mexico](./../new-mexico/).
 * Stronger Fugitive Slave Act enacted.
-* Slave trade abolished in Washington, D.C. 
+* Slave trade abolished in [Washington](./../washington/), D.C. 
 
 ## Impact? Why Significant?: 
 * **Delayed the Civil War:** The compromise temporarily eased sectional tensions by offering concessions to both the North and South.

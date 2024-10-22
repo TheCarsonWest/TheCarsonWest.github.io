@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Great Compromise (Connecticut Compromise)
+# ID: Great Compromise ([Connecticut](./../connecticut/) Compromise)
 ## When: July 1787 
 ## Who: 
-* **Roger Sherman** and **Oliver Ellsworth** (Connecticut Delegates) proposed the compromise.
-* **William Paterson** proposed the New Jersey Plan, favoring smaller states.
-* **James Madison** proposed the Virginia Plan, favoring larger states.
+* **Roger Sherman** and **Oliver Ellsworth** ([Connecticut](./../connecticut/) Delegates) proposed the compromise.
+* **William Paterson** proposed the [New Jersey](./../new-jersey/) Plan, favoring smaller states.
+* **[James Madison](./../james-madison/)** proposed the [Virginia](./../virginia/) Plan, favoring larger states.
 
 ## What:
-A major compromise reached during the [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/) that resolved the issue of representation in the legislative branch. It combined elements of the **Virginia Plan**, which favored representation based on population (benefiting larger states), and the **New Jersey Plan**, which proposed equal representation for each state regardless of size (benefiting smaller states).
+A major compromise reached during the [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/) that resolved the issue of representation in the legislative branch. It combined elements of the **[Virginia](./../virginia/) Plan**, which favored representation based on population (benefiting larger states), and the **[New Jersey](./../new-jersey/) Plan**, which proposed equal representation for each state regardless of size (benefiting smaller states).
 
 **Key Features of the Compromise:**
 
