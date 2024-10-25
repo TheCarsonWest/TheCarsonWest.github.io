@@ -35,7 +35,7 @@ Lewis dot structures are a simple yet powerful tool in chemistry for visualizing
 
 * **[Formal Charge](./../formal-charge/):** The [formal charge](./../formal-charge/) of an atom in a molecule can be calculated to determine the most stable Lewis structure. ==The [formal charge](./../formal-charge/) is the difference between the number of valence electrons== in the free atom and the number of electrons assigned to the atom in the Lewis structure.
 
-* **[Resonance Structures](./../resonance-structures/):**  Some molecules can be represented by multiple valid Lewis structures, called [resonance structures](./../resonance-structures/). These structures differ in the placement of electrons but have the same overall arrangement of atoms.
+* **[Resonance Structures](./../resonance-structures/):**  Some molecules can be represented by multiple valid Lewis structures, called [Resonance Structures](./../resonance-structures/). These structures differ in the placement of electrons but have the same overall arrangement of atoms.
 
 **Lewis Dot Structures are essential for understanding:**
 

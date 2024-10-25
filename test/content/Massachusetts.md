@@ -45,6 +45,6 @@
 **Impact on the Rest of the Country:**
 
 * **Political leadership:** [Massachusetts](./../massachusetts/) has produced several influential politicians, including [John Adams](./../john-adams/), [John Quincy Adams](./../john-quincy-adams/), and Edward Kennedy.
-* **Cultural impact:** [Massachusetts](./../massachusetts/) is known for its literary tradition, including authors such as Ralph Waldo Emerson, Nathaniel Hawthorne, and Henry David Thoreau.
+* **Cultural impact:** [Massachusetts](./../massachusetts/) is known for its literary tradition, including authors such as Ralph Waldo Emerson, Nathaniel Hawthorne, and [Henry David Thoreau](./../henry-david-thoreau/).
 * **Educational excellence:** [Massachusetts](./../massachusetts/) has a renowned education system, with top universities such as [Harvard](./../harvard/), MIT, and Boston College.
 * **Social activism:** [Massachusetts](./../massachusetts/) has a long history of social reform, including opposing slavery, supporting women's suffrage, and protecting LGBTQ+ rights.

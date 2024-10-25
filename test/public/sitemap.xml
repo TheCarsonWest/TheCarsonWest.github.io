@@ -44,6 +44,8 @@
   </url><url>
     <loc>http://example.org/apush-home/</loc>
   </url><url>
+    <loc>http://example.org/apush-people/</loc>
+  </url><url>
     <loc>http://example.org/apush-person/</loc>
   </url><url>
     <loc>http://example.org/apush-place/</loc>
@@ -334,6 +336,8 @@
   </url><url>
     <loc>http://example.org/headright-system/</loc>
   </url><url>
+    <loc>http://example.org/henry-david-thoreau/</loc>
+  </url><url>
     <loc>http://example.org/herbert-hoover/</loc>
   </url><url>
     <loc>http://example.org/higher-order-functions/</loc>
@@ -584,6 +588,8 @@
   </url><url>
     <loc>http://example.org/population-distribution/</loc>
   </url><url>
+    <loc>http://example.org/population-growth-and-decline/</loc>
+  </url><url>
     <loc>http://example.org/population-pyramids/</loc>
   </url><url>
     <loc>http://example.org/potus/</loc>
@@ -733,6 +739,8 @@
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
     <loc>http://example.org/united-states/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

@@ -11,4 +11,5 @@
  - [Population Composition](./../population-composition/)
  - [Population Pyramids](./../population-pyramids/)
 - [Demographic Transition Model](./../demographic-transition-model/)
+- [population growth and decline](./../population-growth-and-decline/)
 

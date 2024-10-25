@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 
-
+[Glossary](./../glossary/)
 ** [Cartogram](./../cartogram/)**
 
 * A map in which the size of a region is distorted to represent a particular variable, such as population or economic activity.
