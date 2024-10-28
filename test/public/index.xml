@@ -456,13 +456,6 @@
       <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; in AP &lt;a href=&#34;./../united-states/&#34;&gt;United States&lt;/a&gt; History&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Timeline of Events:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;1851:&lt;/strong&gt; Gold discovered in &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt;, leading to a massive influx of settlers during the Pike&amp;rsquo;s Peak Gold Rush.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1858:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; Territory established by Congress.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1859:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; Gold Rush begins.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1861:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; Territory secedes from the Union during the Civil War.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1867:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; readmitted to the Union as a state.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1876:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; becomes the first state to grant women the right to vote.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1893-1894:&lt;/strong&gt; Silver Panic and economic crisis in &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Early 20th century:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; becomes a major mining and agricultural center.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1941:&lt;/strong&gt; Pearl Harbor attack; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; plays a significant role in the war effort.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1951:&lt;/strong&gt; Denver becomes a major center for the aerospace industry.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1960s-1970s:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; experiences rapid population growth and economic development.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1980:&lt;/strong&gt; Denver hosts the Democratic National Convention.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;1992:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; Amendment 2 passed, banning anti-discrimination laws based on sexual orientation.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2000:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; Supreme Court strikes down Amendment 2.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;2012:&lt;/strong&gt; &lt;a href=&#34;./../colorado/&#34;&gt;Colorado&lt;/a&gt; becomes the first state to legalize recreational marijuana.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Important Legislation:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>combined_1729881039_872261</title>
-      <link>http://example.org/combined_1729881039_872261/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/combined_1729881039_872261/</guid>
-      <description>&lt;p&gt;Please provide me with the transcript you&amp;rsquo;d like me to analyze. I&amp;rsquo;m ready to create in-depth notes in Markdown format, following any instructions given in the transcript.  I&amp;rsquo;ll do my best to understand the context and provide comprehensive insights.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Combustion Reaction</title>
       <link>http://example.org/combustion-reaction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1912,6 +1905,13 @@
       <description>&lt;h2 id=&#34;numpy-broadcastingnumpy-broadcasting&#34;&gt;&lt;a href=&#34;./../numpy-broadcasting/&#34;&gt;NumPy Broadcasting&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-is-broadcasting&#34;&gt;What is Broadcasting?&lt;/h3&gt;&#xA;&lt;p&gt;Broadcasting is a mechanism in NumPy that allows arrays of different shapes to perform operations as if they were of the same shape. It automatically aligns and replicates elements of arrays to facilitate element-wise calculations.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-use-broadcasting&#34;&gt;How to Use Broadcasting&lt;/h3&gt;&#xA;&lt;p&gt;Broadcasting occurs when arrays with compatible dimensions are passed to an arithmetic operation (e.g., +, -, *, /). NumPy automatically adjusts the shape of the smaller array to match the shape of the larger array, ensuring that the dimensions match and the operation can be performed element-wise. Dimensions that do not match are broadcast one element at a time.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>octet</title>
+      <link>http://example.org/octet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/octet/</guid>
+      <description>&lt;h1 id=&#34;you-need-8---e----to-fill-your-shell&#34;&gt;You need 8  $ e^- $  to fill your shell&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../lewis-structures/&#34;&gt;Lewis structures&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exceptions-to-the-octet-rule&#34;&gt;Exceptions to the Octet Rule&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Some only need 6&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Al and B&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Some only need 2&#xA;&lt;ul&gt;&#xA;&lt;li&gt;H and He&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Some can have 12&#xA;&lt;ul&gt;&#xA;&lt;li&gt;3rd period&lt;/li&gt;&#xA;&lt;li&gt;$ SF_6 $ , S has 12&lt;/li&gt;&#xA;&lt;li&gt;$ PCl_5 $ , P has 10&lt;/li&gt;&#xA;&lt;li&gt;Pretty common actually&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Odd number of electrons&#xA;&lt;ul&gt;&#xA;&lt;li&gt;These shouldn&amp;rsquo;t even exist really but other rules make it so they do ig&lt;/li&gt;&#xA;&lt;li&gt;NO&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Chatgpted drawn out explanation:&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Ohio</title>
       <link>http://example.org/ohio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1951,7 +1951,7 @@
       <link>http://example.org/other-important-ap-chem-things/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/other-important-ap-chem-things/</guid>
-      <description>&lt;h1 id=&#34;apchem-homeapchem-home&#34;&gt;&lt;a href=&#34;./../apchem-home/&#34;&gt;APCHEM Home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../solutions/&#34;&gt;solutions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../ion-concentration/&#34;&gt;ion concentration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../lewis-structures/&#34;&gt;Lewis structures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../resonance-structures/&#34;&gt;Resonance Structures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../formal-charge/&#34;&gt;formal charge&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h1 id=&#34;apchem-homeapchem-home&#34;&gt;&lt;a href=&#34;./../apchem-home/&#34;&gt;APCHEM Home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../solutions/&#34;&gt;solutions&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../ion-concentration/&#34;&gt;ion concentration&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../lewis-structures/&#34;&gt;Lewis structures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../resonance-structures/&#34;&gt;Resonance Structures&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../formal-charge/&#34;&gt;formal charge&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../octet/&#34;&gt;octet&lt;/a&gt; rule&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../sigma-bond/&#34;&gt;Sigma bond&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../pi-bond/&#34;&gt;Pi Bond&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../hybridization/&#34;&gt;hybridization&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Panic of 1819</title>
@@ -2001,6 +2001,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/photoelectron-spectroscopy/</guid>
       <description>&lt;h1 id=&#34;processesprocesses&#34;&gt;&lt;a href=&#34;./../processes/&#34;&gt;Processes&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./../pasted-image-20240909095108.png/&#34; alt=&#34;Pasted image 20240909095108.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;** &lt;a href=&#34;./../photoelectron-spectroscopy/&#34;&gt;Photoelectron Spectroscopy&lt;/a&gt;**&#xA;Photoelectron spectroscopy is a technique that measures the kinetic energy of electrons emitted from a material when it is irradiated with ultraviolet or X-ray radiation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-it-works&#34;&gt;How it works&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Irradiation:&lt;/strong&gt; A sample is irradiated with photons (UV or X-rays) with known energy.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Photoionization:&lt;/strong&gt; The photons interact with electrons in the sample, causing them to be ejected (photoionization).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Analysis:&lt;/strong&gt; The kinetic energy of the emitted electrons is measured using an electron energy analyzer.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;photoelectron-spectroscopy-provides-information-about-the-electronic-structure-of-the-material-including&#34;&gt;Photoelectron spectroscopy provides information about the electronic structure of the material, including:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Element Identification:&lt;/strong&gt; By identifying the core-level binding energies of electrons, it can determine the elemental composition of the sample.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;how-to-read-a-pes-graph&#34;&gt;How to read a PES Graph&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;./../pasted-image-20240909095201.png/&#34; alt=&#34;Pasted image 20240909095201.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pi Bond</title>
+      <link>http://example.org/pi-bond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/pi-bond/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../other-important-ap-chem-things/&#34;&gt;Other important AP CHEM things&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pi bonds are a type of covalent bond formed by the &lt;strong&gt;sideways overlap of atomic orbitals&lt;/strong&gt;.  Unlike sigma bonds, which are formed by the direct overlap of orbitals along the internuclear axis, pi bonds occur above and below the plane of the sigma bond.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Formation:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Pi bonds are formed when two &lt;strong&gt;p orbitals&lt;/strong&gt; on adjacent atoms align parallel to each other. This alignment allows for electron density to be concentrated above and below the plane of the sigma bond.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Place Names</title>
@@ -2304,6 +2311,13 @@
       <description>&lt;h2 id=&#34;python-setssets&#34;&gt;Python &lt;a href=&#34;./../sets/&#34;&gt;Sets&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;what-are-setssets&#34;&gt;What are &lt;a href=&#34;./../sets/&#34;&gt;Sets&lt;/a&gt;?&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../sets/&#34;&gt;Sets&lt;/a&gt; are an unordered collection of unique, immutable elements that can be used in various situations where you need to work with unique values and perform set operations like union, intersection, and difference. They are mutable, meaning that elements can be added or removed, but the order of elements is not guaranteed, and duplicate values are not allowed.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-to-create-a-set&#34;&gt;How to Create a Set&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../sets/&#34;&gt;Sets&lt;/a&gt; can be created using curly braces ({}) or the &lt;code&gt;set()&lt;/code&gt; constructor.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Sigma bond</title>
+      <link>http://example.org/sigma-bond/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/sigma-bond/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../other-important-ap-chem-things/&#34;&gt;Other important AP CHEM things&lt;/a&gt;&#xA;&lt;img src=&#34;https://miro.medium.com/v2/resize:fit:596/0*JDkSsCRSUrPtumD3.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;sigmas-stay-alone&#34;&gt;Sigmas stay alone&lt;/h1&gt;&#xA;&lt;h3 id=&#34;sigma-bonds-are-when-one-electron-pair-takes-up-two-clouds-for-two-atoms&#34;&gt;Sigma bonds are when one electron pair takes up two clouds for two atoms&lt;/h3&gt;&#xA;&lt;h3 id=&#34;sigma&#34;&gt;Sigma&lt;/h3&gt;&#xA;&lt;h3 id=&#34;when-you-are-mewing-you-have-two---e--yes-electron-with-two-p-orbitals&#34;&gt;When you are mewing you have two  $ e $ yes electron with two p-orbitals&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://preview.redd.it/hokuto-secret-mewing-technique-v0-usls52ccubhc1.jpg?width=640&amp;amp;crop=smart&amp;amp;auto=webp&amp;amp;s=845bd54df42b043bd27a990d9fe4c986de243011&#34; alt=&#34;&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Single Replacement reaction</title>
       <link>http://example.org/single-replacement-reaction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2582,13 +2596,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://example.org/united-states/</guid>
       <description>&lt;p&gt;The Greatest country on earth.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Untitled</title>
-      <link>http://example.org/untitled/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://example.org/untitled/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Fourscore and seven years ago our fathers brought forth, on this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived, and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting-place for those who here gave their lives, that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we cannot dedicate, we cannot consecrate—we cannot hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they here gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Untitled 1</title>

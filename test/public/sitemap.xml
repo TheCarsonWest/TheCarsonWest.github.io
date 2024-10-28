@@ -132,8 +132,6 @@
   </url><url>
     <loc>http://example.org/colorado/</loc>
   </url><url>
-    <loc>http://example.org/combined_1729881039_872261/</loc>
-  </url><url>
     <loc>http://example.org/combustion-reaction/</loc>
   </url><url>
     <loc>http://example.org/command-line-interface-cli-programs/</loc>
@@ -550,6 +548,8 @@
   </url><url>
     <loc>http://example.org/numpy-broadcasting/</loc>
   </url><url>
+    <loc>http://example.org/octet/</loc>
+  </url><url>
     <loc>http://example.org/ohio/</loc>
   </url><url>
     <loc>http://example.org/oklahoma/</loc>
@@ -575,6 +575,8 @@
     <loc>http://example.org/philadelphia/</loc>
   </url><url>
     <loc>http://example.org/photoelectron-spectroscopy/</loc>
+  </url><url>
+    <loc>http://example.org/pi-bond/</loc>
   </url><url>
     <loc>http://example.org/place-names/</loc>
   </url><url>
@@ -662,6 +664,8 @@
   </url><url>
     <loc>http://example.org/sets/</loc>
   </url><url>
+    <loc>http://example.org/sigma-bond/</loc>
+  </url><url>
     <loc>http://example.org/single-replacement-reaction/</loc>
   </url><url>
     <loc>http://example.org/solutions/</loc>
@@ -743,8 +747,6 @@
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>
     <loc>http://example.org/united-states/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/untitled-1/</loc>
   </url><url>
