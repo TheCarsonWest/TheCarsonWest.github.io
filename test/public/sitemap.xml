@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/1729130129/</loc>
-  </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
     <loc>http://example.org/abstract-classes/</loc>
@@ -49,6 +47,8 @@
     <loc>http://example.org/apush-person/</loc>
   </url><url>
     <loc>http://example.org/apush-place/</loc>
+  </url><url>
+    <loc>http://example.org/apush-brainrot/</loc>
   </url><url>
     <loc>http://example.org/arabic-home/</loc>
   </url><url>
@@ -131,6 +131,8 @@
     <loc>http://example.org/closures/</loc>
   </url><url>
     <loc>http://example.org/colorado/</loc>
+  </url><url>
+    <loc>http://example.org/combined_1729881039_872261/</loc>
   </url><url>
     <loc>http://example.org/combustion-reaction/</loc>
   </url><url>
@@ -247,6 +249,8 @@
     <loc>http://example.org/espn/</loc>
   </url><url>
     <loc>http://example.org/espn-example/</loc>
+  </url><url>
+    <loc>http://example.org/etm/</loc>
   </url><url>
     <loc>http://example.org/exception-handling/</loc>
   </url><url>
@@ -741,6 +745,8 @@
     <loc>http://example.org/united-states/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

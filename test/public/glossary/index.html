@@ -59,29 +59,7 @@
 <li><a href="./../population-density/">Population Density</a></li>
 <li><a href="./../ecumene/">Ecumene</a></li>
 </ul>
-<p>how do i do a regex wildcard that can be any number of any length</p>
-<p>You can use the following regex patterns to match any number of any length:</p>
-<p><strong>1. <code>\d+</code></strong></p>
-<ul>
-<li><strong><code>\d</code></strong> matches any single digit (0-9).</li>
-<li><strong><code>+</code></strong> quantifier means &ldquo;one or more&rdquo;.</li>
-</ul>
-<p><strong>Example:</strong></p>
-<pre tabindex="0"><code>&#34;123&#34;  -&gt; Match
-&#34;45678&#34; -&gt; Match
-&#34;0&#34;     -&gt; Match
-&#34;12.3&#34; -&gt; No match (because of the dot)
-</code></pre><p><strong>2. <code>[0-9]+</code></strong></p>
-<ul>
-<li><strong><code>[0-9]</code></strong> is a character class that matches any single digit (0-9).</li>
-<li><strong><code>+</code></strong> quantifier means &ldquo;one or more&rdquo;.</li>
-</ul>
-<p><strong>Example:</strong></p>
-<pre tabindex="0"><code>&#34;123&#34;  -&gt; Match
-&#34;45678&#34; -&gt; Match
-&#34;0&#34;     -&gt; Match
-&#34;12.3&#34; -&gt; No match (because of the dot)
-</code></pre>
+
 </main>
 
   <footer>

@@ -3,36 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
- 
+**Fourscore and seven years ago our fathers brought forth, on this continent, a new nation, conceived in liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived, and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting-place for those who here gave their lives, that that nation might live. It is altogether fitting and proper that we should do this. But, in a larger sense, we cannot dedicate, we cannot consecrate—we cannot hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they here gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom, and that government of the people, by the people, for the people, shall not perish from the earth.**
 
-Question 4 is unpinned. Click to pin. 
+find examples of alliteration in this text
 
-Question at position 4 
 
-You should complete your answers in the comment box and your teacher will grade them for you.
-
-Change the sentences to questions using the correct interrogative pronouns below.
-
-|   |
-|---|
-|**كَمْ -  هل - بماذا -  مَتى - ماذا**|
-
-|   |   |
-|---|---|
-|[Answer1]|**.آكُلُ خَمْسَ مَرَّاتٍ في الْيَوْمِ**|
-|[Answer2]|**.ألْعَبُ التَّمارِينَ الرِّياضِيَةَ في السَّاعَةِ السَّادِسَةِ صَباحًا**|
-|[Answer3]|**.نعم أتناوَلُ الطَّعامَ الغَيرَ صِحيٍّ مِثْلَ الخُبْزَ الأبْيضَ و الدُّهونَ و السُّكَرَ**|
-|[Answer4]|**.أنْصَحُكَ بتناوِلِ الطَّعامَ الصِّحيِّ و لَعِبَ التَّمارِينَ الرِّياضِيةِ**|
-|[Answer5]|**.يُمْكِنُكَ أن تَلْعَبَ السٍّباحةَ أو رُكوبَ الخَيْلِ**|
-
-Here are the sentences changed to questions using the correct interrogative pronouns:
-
-**Answer 1:** **كَمْ** آكُلُ خَمْسَ مَرَّاتٍ في الْيَوْمِ؟  (How many times do I eat in a day?)
-
-**Answer 2:** **مَتى** أَلْعَبُ التَّمارِينَ الرِّياضِيَةَ في السَّاعَةِ السَّادِسَةِ صَباحًا؟ (When do I play sports at 6 am?)
-
-**Answer 3:** **هل** تَنْتَاوِلُ الطَّعامَ الغَيرَ صِحيٍّ مِثْلَ الخُبْزَ الأبْيضَ و الدُّهونَ و السُّكَرَ؟ (Do you eat unhealthy food like white bread, fats, and sugar?)
-
-**Answer 4:** **بماذا** تَنْصَحُنِي؟ (What do you advise me to do?)
-
-**Answer 5:** **ماذا** يُمْكِنُكَ أن تَلْعَبَ؟ (What can you play?) 
+Here are the examples of alliteration in the Gettysburg Address:
