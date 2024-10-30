@@ -45,3 +45,4 @@
 * The Fordney-McCumber Tariff contributed to unemployment in export industries.
 * The [Washington](./../washington/) Naval Conference promoted disarmament and prevented an arms race.
 * Harding's untimely death in 1923 cast a shadow on his legacy, as his successors were overshadowed by the Teapot Dome scandal.
+# [APUSH people](./../apush-people/)

@@ -42,3 +42,4 @@
 * Strengthened the [United States](./../united-states/)' role in international affairs, particularly in promoting democracy and human rights.
 * Increased access to healthcare through the expansion of Medicaid and the creation of the State Children's Health Insurance Program (SCHIP).
 * Signed into law legislation that led to the welfare reform and mass incarceration of the 1990s and 2000s.
+# [APUSH people](./../apush-people/)

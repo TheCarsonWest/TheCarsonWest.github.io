@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
- [The nature of geography 1](./../the-nature-of-geography-1/).1]]
+ [The nature of geography 1.1](./../the-nature-of-geography-1.1/)
  [APHG Unit 1](./../aphg-unit-1/)
 
 ### Different people map different maps

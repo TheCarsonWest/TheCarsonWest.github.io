@@ -4,11 +4,6 @@
 	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
-
 # [ID Home](./../id-home/)
-
 # [States list](./../states-list/)
-
-# [POTUS](./../potus/)
-
 # [APUSH people](./../apush-people/)

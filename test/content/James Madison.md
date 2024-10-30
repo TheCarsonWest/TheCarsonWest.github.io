@@ -59,3 +59,4 @@
 * ** [Thomas Jefferson](./../thomas-jefferson/):** Third [POTUS](./../potus/)
 * **Federalists:** Political party that supported a strong central government
 * **Democratic-Republicans:** Political party that opposed a strong central government
+# [APUSH people](./../apush-people/)

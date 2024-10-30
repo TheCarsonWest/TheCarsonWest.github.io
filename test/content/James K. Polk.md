@@ -28,3 +28,4 @@
 * **Economic Growth:** The war and the acquisition of new territories stimulated economic growth and westward expansion.
 * **Tensions with Mexico:** The Treaty of Guadalupe Hidalgo left unsettled border disputes and contributed to ongoing tensions between the [United States](./../united-states/) and Mexico.
 * **Political Division:** Polk's presidency further polarized the country over issues of slavery and sectionalism.
+# [APUSH people](./../apush-people/)

@@ -33,3 +33,4 @@
 * Van Buren was the first native-born president to not speak English as a first language (Dutch).
 * He is known as the "Sage of Kinderhook" for his political wisdom and experience.
 * Van Buren lost his bid for reelection in 1840 to [William Henry Harrison](./../william-henry-harrison/), marking the end of the Jacksonian Era.
+# [APUSH people](./../apush-people/)

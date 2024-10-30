@@ -45,3 +45,4 @@
 
 * Returned to [Tennessee](./../tennessee/) after his presidency
 * Served in the U.S. Senate from 1875 until his death
+# [APUSH people](./../apush-people/)

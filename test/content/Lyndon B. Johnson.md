@@ -53,3 +53,4 @@
 
 * Remembered for his ambitious domestic agenda and his complex role in the Vietnam War.
 * His Great Society program aimed to eliminate poverty and discrimination and remains a significant legacy of his presidency.
+# [APUSH people](./../apush-people/)

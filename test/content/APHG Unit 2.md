@@ -13,4 +13,5 @@
 - [Demographic Transition Model](./../demographic-transition-model/)
 - [ETM](./../etm/) Epidemiological Transition Model
 - [population growth and decline](./../population-growth-and-decline/)
+- [Natalist Policy](./../natalist-policy/)
 

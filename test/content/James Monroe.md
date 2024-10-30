@@ -34,3 +34,4 @@
 
 * Known as the "Father of American Foreign Policy"
 * His presidency marked a turning point in American history, as the nation emerged as a global power and established its own sphere of influence.
+# [APUSH people](./../apush-people/)

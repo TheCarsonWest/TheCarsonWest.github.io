@@ -32,3 +32,4 @@
 * No significant legislation passed
 * Set a precedent for the vice president assuming office in the event of the president's death
 * Became a symbol of populism and frontier values
+# [APUSH people](./../apush-people/)

@@ -37,3 +37,4 @@
 * **[George Washington](./../george-washington/):** Hancock worked closely with [Washington](./../washington/) during the Revolutionary War
 * ** [Thomas Jefferson](./../thomas-jefferson/):** Hancock had a complex relationship with Jefferson, who was also a signer of the [Declaration of Independence](./../declaration-of-independence/)
 * **Abigail Adams:** Hancock's wife, who was an influential political figure in her own right
+# [APUSH people](./../apush-people/)

@@ -34,3 +34,4 @@
 * Buchanan also sought to acquire Cuba from [Spain](./../spain/), but this plan failed.
 * When Southern states began to secede, Buchanan took no action to prevent them.
 * His inaction contributed to the outbreak of the Civil War.
+# [APUSH people](./../apush-people/)

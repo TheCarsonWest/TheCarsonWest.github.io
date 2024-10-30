@@ -35,3 +35,4 @@
 
 **Legacy:**
 [Alexander Hamilton](./../alexander-hamilton/) is widely regarded as one of the most influential figures in American history. His economic policies and political ideas had a profound impact on the development of the [United States](./../united-states/). His contributions to the Constitution, the financial system, and the foreign policy of the young republic continue to shape American society today.
+# [APUSH people](./../apush-people/)

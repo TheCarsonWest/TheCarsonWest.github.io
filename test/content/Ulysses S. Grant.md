@@ -48,3 +48,4 @@
 * His presidency is often seen as having both successes and failures.
 * Credited with winning the Civil War and preserving the Union.
 * Criticized for his harsh Reconstruction policies.
+# [APUSH people](./../apush-people/)

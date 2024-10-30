@@ -20,4 +20,8 @@
 
  - [Population Density](./../population-density/)
  - [Ecumene](./../ecumene/)
+ - [Total Fertility Rate](./../total-fertility-rate/)
+## Other
+- [ETM](./../etm/)
+- [Demographic Transition Model](./../demographic-transition-model/)
 

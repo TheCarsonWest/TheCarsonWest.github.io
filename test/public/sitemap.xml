@@ -132,6 +132,8 @@
   </url><url>
     <loc>http://example.org/colorado/</loc>
   </url><url>
+    <loc>http://example.org/combined_1730202339_87537/</loc>
+  </url><url>
     <loc>http://example.org/combustion-reaction/</loc>
   </url><url>
     <loc>http://example.org/command-line-interface-cli-programs/</loc>
@@ -512,6 +514,8 @@
   </url><url>
     <loc>http://example.org/nat-turner-rebellion/</loc>
   </url><url>
+    <loc>http://example.org/natalist-policy/</loc>
+  </url><url>
     <loc>http://example.org/national-scale/</loc>
   </url><url>
     <loc>http://example.org/natural-language-processing-with-nltk-or-spacy/</loc>
@@ -748,7 +752,7 @@
   </url><url>
     <loc>http://example.org/united-states/</loc>
   </url><url>
-    <loc>http://example.org/untitled-1/</loc>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

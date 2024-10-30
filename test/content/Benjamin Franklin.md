@@ -34,3 +34,4 @@
 * **American Philosophical Society:** A learned society founded by Franklin to promote scientific and intellectual inquiry.
 * ** [Constitutional Convention](./../constitutional-convention/):** A gathering of delegates from the thirteen colonies that drafted the Constitution of the [United States](./../united-states/).
 * **French Court:** Franklin spent several years in [France](./../france/) as a diplomat, where he gained support for the American cause during the Revolution.
+# [APUSH people](./../apush-people/)
