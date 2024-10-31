@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automating Tasks with Selenium | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Automating Tasks with Selenium</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="automating-tasks-with-seleniumautomating-tasks-with-selenium"><a href="./../automating-tasks-with-selenium/">Automating Tasks with Selenium</a></h2>
+<h3 id="what-is-selenium">What is Selenium?</h3>
+<p>Selenium is an open-source framework used for web automation. It allows developers to control a web browser like a real user, enabling automated testing and interaction with web applications.</p>
+<h3 id="how-to-use-selenium">How to Use Selenium</h3>
+<h4 id="importing-the-selenium-module">Importing the Selenium Module</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> selenium
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium <span style="color:#f92672">import</span> webdriver
+</span></span></code></pre></div><h4 id="creating-a-webdriver-instance">Creating a WebDriver Instance</h4>
+<p>To control a browser, we create a WebDriver instance, which acts as a virtual &ldquo;driver&rdquo; that performs actions on the browser.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver <span style="color:#f92672">=</span> webdriver<span style="color:#f92672">.</span>Chrome() <span style="color:#75715e"># for Chrome browser</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># replace Chrome() with Firefox(), Edge(), or Safari() for other browsers</span>
+</span></span></code></pre></div><h4 id="common-webdriver-methods">Common WebDriver Methods</h4>
+<ul>
+<li><code>get()</code>: Loads a URL in the browser.</li>
+<li><code>find_element()</code>: Locates a web element on the page using various strategies (e.g., by ID, name, CSS selector).</li>
+<li><code>find_elements()</code>: Locates all elements matching a given strategy.</li>
+<li><code>click()</code>: Simulates a click on an element.</li>
+<li><code>send_keys()</code>: Sends text input to a form field.</li>
+</ul>
+<h3 id="code-examples">Code Examples</h3>
+<h4 id="basic-usage">Basic Usage</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>driver<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#34;https://google.com&#34;</span>)
+</span></span><span style="display:flex;"><span>search_field <span style="color:#f92672">=</span> driver<span style="color:#f92672">.</span>find_element(<span style="color:#e6db74">&#34;name&#34;</span>, <span style="color:#e6db74">&#34;q&#34;</span>)
+</span></span><span style="display:flex;"><span>search_field<span style="color:#f92672">.</span>send_keys(<span style="color:#e6db74">&#34;Selenium&#34;</span>)
+</span></span><span style="display:flex;"><span>search_field<span style="color:#f92672">.</span>submit()
+</span></span></code></pre></div><h4 id="more-advanced-example">More Advanced Example</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> selenium.webdriver.common.by <span style="color:#f92672">import</span> By
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># wait for an element to be visible for up to 5 seconds</span>
+</span></span><span style="display:flex;"><span>element <span style="color:#f92672">=</span> WebDriverWait(driver, <span style="color:#ae81ff">5</span>)<span style="color:#f92672">.</span>until(EC<span style="color:#f92672">.</span>visibility_of_element_located((By<span style="color:#f92672">.</span>ID, <span style="color:#e6db74">&#34;example_id&#34;</span>)))
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../variables-and-data-types/">Variables and Data Types</a>: Variables are used to store WebDriver instances and web elements.</li>
+<li><a href="./../operators/">Operators</a>: Comparison operators are used to check conditions in WebDriver methods.</li>
+<li><a href="./../control-flow-if-statements/">Control Flow If Statements</a>: If statements can be used to conditionally execute WebDriver actions based on element visibility or other criteria.</li>
+<li><a href="./../for-loops/">For Loops</a>: For loops can be used to iterate over multiple web elements on a page.</li>
+<li><a href="./../while-loops/">While Loops</a>: While loops can be used to repeatedly perform actions on a page until a certain condition is met.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

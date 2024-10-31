@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decorators | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Decorators</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="python-decoratorsdecorators">Python <a href="./../decorators/">Decorators</a></h2>
+<h3 id="introduction">Introduction</h3>
+<p><a href="./../decorators/">Decorators</a> are a powerful feature of Python that allow you to enhance the behavior of <a href="./../functions/">functions</a>, classes, and other objects. They provide a way to add functionality or modify the behavior of an existing object without modifying its source code.</p>
+<h3 id="how-to-use-decoratorsdecorators">How to Use <a href="./../decorators/">Decorators</a></h3>
+<p><a href="./../decorators/">Decorators</a> are defined using the <code>@</code> symbol followed by the decorator function. The decorator function takes the target object (a function or class) as an argument and returns a modified version of that object.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@decorator_function</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">target_function</span>():
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># code of the target function</span>
+</span></span></code></pre></div><h3 id="example-decorator">Example Decorator</h3>
+<p>Here&rsquo;s an example of a simple decorator function that prints a message before and after the execution of the target function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">debug_decorator</span>(func):
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;Before execution&#34;</span>)
+</span></span><span style="display:flex;"><span> result <span style="color:#f92672">=</span> func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs)
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;After execution&#34;</span>)
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">return</span> wrapper
+</span></span></code></pre></div><h3 id="usage-of-decorator">Usage of Decorator</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@debug_decorator</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_function</span>():
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># code of my_function</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_function()
+</span></span></code></pre></div><h3 id="output">Output:</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>Before execution
+</span></span><span style="display:flex;"><span># code of my_function
+</span></span><span style="display:flex;"><span>After execution
+</span></span></code></pre></div><h3 id="chaining-decoratorsdecorators">Chaining <a href="./../decorators/">Decorators</a></h3>
+<p>Multiple decorators can be applied to the same object. In such cases, the decorators are executed in reverse order, with the innermost decorator being executed first.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#a6e22e">@decorator_2</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@decorator_1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">target_object</span>():
+</span></span><span style="display:flex;"><span> <span style="color:#75715e"># code of the target object</span>
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../functions/">Functions</a>: <a href="./../decorators/">Decorators</a> enhance the functionality of <a href="./../functions/">functions</a>.</li>
+<li><a href="./../classes-and-objects/">Classes and Objects</a>: <a href="./../decorators/">Decorators</a> can be used to modify the behavior of <a href="./../classes-and-objects/">classes and objects</a>.</li>
+<li>[[Higher-Order <a href="./../functions/">Functions</a>: <a href="./../decorators/">Decorators</a> are higher-order <a href="./../functions/">functions</a> that take a function as an argument and return a modified function.</li>
+<li><a href="./../function-parameters/">Function Parameters</a>: Decorator <a href="./../functions/">functions</a> can accept parameters, allowing for customization of the decoration behavior.</li>
+<li>[[Lambda <a href="./../functions/">Functions</a>: Lambda <a href="./../functions/">functions</a> can be used as decorators to define simple inline modifications.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+
