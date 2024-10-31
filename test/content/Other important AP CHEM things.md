@@ -7,12 +7,3 @@
 
 - [solutions](./../solutions/)
 - [ion concentration](./../ion-concentration/)
-- [Lewis structures](./../lewis-structures/)
-- [Resonance Structures](./../resonance-structures/)
-- [formal charge](./../formal-charge/)
-- [octet](./../octet/) rule
-- [Sigma bond](./../sigma-bond/)
-- [Pi Bond](./../pi-bond/)
-- [Polarizability](./../polarizability/)
-- [hybridization](./../hybridization/)
-- 

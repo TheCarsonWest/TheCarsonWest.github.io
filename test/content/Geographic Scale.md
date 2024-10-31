@@ -30,10 +30,10 @@ For example:
 
 ### Scale of Analysis and Decision-Making
 
-Changing the scale of analysis can provide different insights and patterns. As we move from a global to a local scale, we gain more specific information and can make more detailed decisions.
+Changing the scale of analysis can provide different insights and patterns. As we move from a global to a [Local scale](./../local-scale/), we gain more specific information and can make more detailed decisions.
 
 For example:
 
-- When deciding where to build a cancer treatment center, a global scale would provide limited information.
+- When deciding where to build a cancer treatment center, a [Global scale](./../global-scale/) would provide limited information.
 - A [national scale](./../national-scale/) would narrow down the options to specific states with high cancer rates.
-- A local scale would pinpoint the ideal location within a city.
+- A [Local scale](./../local-scale/) would pinpoint the ideal location within a city.

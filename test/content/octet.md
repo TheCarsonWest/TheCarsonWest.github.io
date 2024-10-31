@@ -28,13 +28,13 @@ The octet rule states that atoms tend to gain, lose, or share electrons to achie
 ### 1. Incomplete Octet
 
 * **Elements:**  Group 2 and 3 elements (Be, B, Al) often have fewer than eight electrons in their valence shell.
-* **Explanation:**  These elements have a low electronegativity and readily form bonds by sharing electrons. However, they may not achieve a full octet due to their limited number of valence electrons.
+* **Explanation:**  These elements have a low [Electronegativity](./../electronegativity/) and readily form bonds by sharing electrons. However, they may not achieve a full octet due to their limited number of valence electrons.
 * **Example:** Boron trifluoride ( $ BF_3 $ ). Boron has only three valence electrons, forming three bonds with fluorine atoms. This leaves boron with only six electrons in its valence shell.
 
 ### 2. Expanded Octet
 
 * **Elements:**  Elements in Period 3 and beyond (from P to the right) can accommodate more than eight electrons in their valence shell.
-* **Explanation:**  These elements have available *d* orbitals in their valence shell, which can participate in bonding. This allows them to form more than four covalent bonds and expand their octet.
+* **Explanation:**  These elements have available *d* orbitals in their valence shell, which can participate in bonding. This allows them to form more than four [covalent bonds](./../covalent-bonds/) and expand their octet.
 * **Example:** Sulfur hexafluoride ( $ SF_6 $ ). Sulfur has six valence electrons and forms six bonds with fluorine atoms. This results in 12 electrons around sulfur, exceeding the octet rule.
 
 ### 3. Odd Number of Electrons

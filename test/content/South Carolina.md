@@ -22,7 +22,7 @@
 
 **Important Legislation:**
 
-* **1833:** Nullification Act
+* **1833:** [Nullification](./../nullification/) Act
 * **1860:** Secession Act
 * **1865:** Thirteenth Amendment (abolishing slavery)
 * **1875:** Civil Rights Act of 1875

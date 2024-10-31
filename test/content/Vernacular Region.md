@@ -13,4 +13,4 @@
 - Examples:
  - Catalonia ([Spain](./../spain/))
  - Quebec (Canada)
- - Basque Country ([Spain](./../spain/) and France)
+ - Basque Country ([Spain](./../spain/) and [France](./../france/))

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-### Dipoles are covalent bonds with a high [polarity](./../polarity/)
+### Dipoles are [covalent bonds](./../covalent-bonds/) with a high [polarity](./../polarity/)
 ### used in [intermolecular forces](./../intermolecular-forces/)
 
 ### Dipole Moment formula

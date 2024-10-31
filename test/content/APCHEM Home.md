@@ -4,14 +4,11 @@
 	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
-
+# [Chemical Bonds](./../chemical-bonds/)
 # [Chemistry Constants](./../chemistry-constants/)
 # [Periodic Trends](./../periodic-trends/)
 # [Chemistry Laws](./../chemistry-laws/)
 # [Processes](./../processes/)
 # [AP Chem Labs](./../ap-chem-labs/)
 # [Reactions Types](./../reactions-types/)
-
-# [Chemical Bonds](./../chemical-bonds/)
-
 # [Other important AP CHEM things](./../other-important-ap-chem-things/)
