@@ -21,4 +21,4 @@ used in [intermolecular forces](./../intermolecular-forces/)
 ## Get the [delta](./../delta/) of the [Electronegativity](./../electronegativity/)s of your outward-facing positive and your outward-facing negative atoms(only one)
 - Big number = more polar
 - Small number = not very polar
-Theres also [dipole|Dipole Moments](./../dipole|dipole-moments/) but it literally gives the same information but is more complicated
+Theres also [dipole](./../dipole/) moments but it literally gives the same information but is more complicated

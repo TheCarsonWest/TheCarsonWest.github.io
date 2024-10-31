@@ -432,6 +432,8 @@
   </url><url>
     <loc>http://example.org/local-scale/</loc>
   </url><url>
+    <loc>http://example.org/london-dispersion/</loc>
+  </url><url>
     <loc>http://example.org/louisiana/</loc>
   </url><url>
     <loc>http://example.org/louisiana-purchase/</loc>
@@ -552,6 +554,8 @@
   </url><url>
     <loc>http://example.org/numpy-broadcasting/</loc>
   </url><url>
+    <loc>http://example.org/o/</loc>
+  </url><url>
     <loc>http://example.org/octet/</loc>
   </url><url>
     <loc>http://example.org/ohio/</loc>
@@ -590,6 +594,8 @@
   </url><url>
     <loc>http://example.org/polarity/</loc>
   </url><url>
+    <loc>http://example.org/polarizability/</loc>
+  </url><url>
     <loc>http://example.org/polymorphism/</loc>
   </url><url>
     <loc>http://example.org/population-composition/</loc>
@@ -615,6 +621,8 @@
     <loc>http://example.org/profiling-and-optimization/</loc>
   </url><url>
     <loc>http://example.org/puritans/</loc>
+  </url><url>
+    <loc>http://example.org/push-and-pull-factors/</loc>
   </url><url>
     <loc>http://example.org/python-1-home/</loc>
   </url><url>
@@ -747,6 +755,8 @@
     <loc>http://example.org/types-of-regions/</loc>
   </url><url>
     <loc>http://example.org/ulysses-s.-grant/</loc>
+  </url><url>
+    <loc>http://example.org/unit-2b-migration/</loc>
   </url><url>
     <loc>http://example.org/unit-testing-and-test-driven-development/</loc>
   </url><url>

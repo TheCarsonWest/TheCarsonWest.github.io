@@ -13,4 +13,6 @@
 - [octet](./../octet/) rule
 - [Sigma bond](./../sigma-bond/)
 - [Pi Bond](./../pi-bond/)
+- [Polarizability](./../polarizability/)
 - [hybridization](./../hybridization/)
+- 

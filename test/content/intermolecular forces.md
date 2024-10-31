@@ -4,15 +4,41 @@
 	author = 'Carson West'
 +++
 [Chemical Bonds](./../chemical-bonds/)
-# Uses little delta δ symbol
+# Uses little delta δ symbol(different than [delta](./../delta/))
 
 ## Atoms in molecules have partial charges because electrons are goofy 
-
+## IMFS are never as strong as [chemical bonds](./../chemical-bonds/)
 #  $$ Na^{δ+}\ \ \textemdash\ \ \ Cl^{δ-} $$  - High [Polarity](./../polarity/) molecules will have high intermolecular attraction 
 	-  Things will attract each other a certain amount based on [Electronegativity](./../electronegativity/)
-	- **All Ionic Compounds are polar** because all the positive sides of ionic molecules have low electronegativity
-	- Covalent Compounds get polarity based on the [delta](./../delta/) of their electronegativity
+	- **All Ionic Compounds are polar** because all the positive sides of ionic molecules have low [electronegativity](./../electronegativity/)
+	- Covalent Compounds get [polarity](./../polarity/) based on the [delta](./../delta/) of their [electronegativity](./../electronegativity/)
 	- See [Polarity](./../polarity/)
-# [Dipole Dipole](./../dipole-dipole/): Opposites attract
-# [London Dispersion](./../london-dispersion/): Dipoles randomly form because an electron randomly stepped out of place
-# [Hydrogen Bonds](./../hydrogen-bonds/): Dipole Dipole but with hydrogen
+
+
+# Van Der Waals IMFs
+van der waals is a fancy way of saying these are the ones that exist between **identical molecules**
+## Dipole Dipole: Opposites attract
+- Only occurs in polar molecules
+- HBr is a highly polar molecule, and the Br will be attracted to other molecules' hydrogens
+## [London Dispersion](./../london-dispersion/)
+## Hydrogen Bonds: Dipole Dipole but with hydrogen
+- Only occurs in molecules with:
+	- A Highly electronegative([Electronegativity](./../electronegativity/)) Element
+		- O N or F
+	- Hydrogen
+-  $ H_2O $  has a Oxygen, a very electronegative element, and hydrogen. The oxygen will attract the other molecules hydrogen
+
+# Non Van Der Waals IMFs
+## Ion Dipole: An ion attracts a [dipole](./../dipole/)
+
+# What IMFs do
+## Kinetic energy
+- More IMF means less movement
+- **Things with strong IMFs will typically have a higher boiling point**
+	- Gases: least IMF
+- The existence of IMF creates the states of matter solids and liquid
+## Boiling point
+- More IMF = more boiling
+- Weak attractions increases non-agitated evaporation
+	- A cup of water left open in a dark room at room temperature will fully evaporate in 5 days
+	- A glass of isopropyl will evaporate in the same conditions in 2 days
