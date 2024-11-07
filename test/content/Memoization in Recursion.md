@@ -43,6 +43,6 @@ def fibonacci(n):
 - [Recursion](./../recursion/): Memoization is directly related to [Recursion](./../recursion/), as it optimizes recursive function calls.
 - [Caches](./../caches/): Memoization involves the use of a cache to store the results of function calls.
 - [Decorators](./../decorators/): Memoization is implemented using a decorator function.
-- [Dynamic Programming](./../dynamic-programming/): Memoization is a key technique in dynamic programming, which optimizes recursive [solutions](./../solutions/) by storing intermediate results.
+- [Dynamic Programming](./../dynamic-programming/): Memoization is a key technique in dynamic programming, which optimizes recursive solutions by storing intermediate results.
 - [Optimizations](./../optimizations/): Memoization is a method of optimizing the performance of recursive [Functions](./../functions/).
 # [Python 1 Home](./../python-1-home/)

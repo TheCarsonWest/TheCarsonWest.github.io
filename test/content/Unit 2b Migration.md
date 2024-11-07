@@ -3,4 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-[Push and Pull Factors](./../push-and-pull-factors/)
+# [APHG Home](./../aphg-home/)
+
+- [Push and Pull Factors](./../push-and-pull-factors/)
+- [intervening obstacles](./../intervening-obstacles/)
+- 

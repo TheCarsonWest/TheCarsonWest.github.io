@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Processes](./../processes/)
+# [AP CHEM Experiments](./../ap-chem-experiments/)
 ![Pasted image 20240909095108.png](./../pasted-image-20240909095108.png/)
 
 ** [Photoelectron Spectroscopy](./../photoelectron-spectroscopy/)**
