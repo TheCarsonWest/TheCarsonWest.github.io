@@ -20,7 +20,7 @@
 
 **Groups Part Of:**
 
-* Democratic Party
+* [Democrats](./../democrats/)
 
 **Impact on the Country:**
 
@@ -28,7 +28,7 @@
 
 **Key Points:**
 
-* Buchanan was a moderate Democrat who opposed secession.
+* Buchanan was a moderate [Democrats](./../democrats/) who opposed secession.
 * He believed that the [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act would resolve the slavery issue by allowing popular sovereignty in new territories.
 * However, the act only exacerbated tensions and led to violence in [Kansas](./../kansas/).
 * Buchanan also sought to acquire Cuba from [Spain](./../spain/), but this plan failed.

@@ -7,3 +7,7 @@
 
 ## [Coulombs Law](./../coulombs-law/)
 ## [Aufbau Principle](./../aufbau-principle/)
+
+## [Ideal Gas Laws](./../ideal-gas-laws/)
+
+## [Combined Gas Law](./../combined-gas-law/)

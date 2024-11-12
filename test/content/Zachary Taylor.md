@@ -8,7 +8,7 @@
 **Events Associated With:**
 
 * Mexican-American War (1846-1848)
-* Compromise of 1850 (passed after his death)
+* [Compromise of 1850](./../compromise-of-1850/) (passed after his death)
 * Death of President [William Henry Harrison](./../william-henry-harrison/) (1841)
 
 **Important Legislation Signed:**

@@ -23,7 +23,7 @@
 
 **Groups:**
 
-* **Democratic Party:** Wilson was a prominent member of the Democratic Party and its leader during his presidency.
+* **[Democrats](./../democrats/):** Wilson was a prominent member of the [Democrats](./../democrats/) and its leader during his presidency.
 * **Progressive Movement:** Wilson embraced progressive ideals, such as social justice, economic reform, and expanded government regulation.
 * **League of Nations:** Wilson was a driving force behind the creation of the League of Nations, an international organization aimed at preventing war.
 

@@ -9,8 +9,8 @@
 
 ## Who:
 * **Abraham Lincoln (Republican)** -  Won the election despite not being on the ballot in all states.
-* **Stephen Douglas (Northern Democrat)** - Supported popular sovereignty (allowing territories to decide on slavery). 
-* **John Breckinridge (Southern Democrat)** - Advocated for federal protection of slavery.
+* **Stephen Douglas (Northern [Democrats](./../democrats/))** - Supported popular sovereignty (allowing territories to decide on slavery). 
+* **John Breckinridge (Southern [Democrats](./../democrats/))** - Advocated for federal protection of slavery.
 * **John Bell (Constitutional Union)** - Focused on maintaining the Union, avoiding the issue of slavery.
 
 ## What:
@@ -21,3 +21,5 @@ A highly contested presidential election that marked a turning point in the grow
 * **Civil War:**  The secession and formation of the Confederacy ignited the American Civil War, a devastating conflict over slavery and the future of the nation.
 * **End of Slavery:** The Civil War ultimately led to the abolition of slavery in the United States, transforming the social, economic, and political landscape.
 * **Transformation of the US:** The election and its aftermath marked a dramatic shift in American politics and society, highlighting the deep divisions over slavery and the struggle for national unity. 
+
+# [IDS Unit 4](./../ids-unit-4/)

@@ -19,7 +19,7 @@
 
 **Groups Associated With:**
 
-* Democratic Party: Pierce was a loyal Democrat throughout his career.
+* [Democrats](./../democrats/): Pierce was a loyal [Democrats](./../democrats/) throughout his career.
 * Free Soil Party: Pierce initially opposed the Free Soil Party, but later compromised to appoint some of its members to his cabinet.
 
 **Impact:**

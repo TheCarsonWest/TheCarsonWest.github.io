@@ -23,7 +23,7 @@
 **Groups:**
 
 * Whig Party (initially)
-* Democratic Party (later)
+* [Democrats](./../democrats/) (later)
 
 **Impact on the Country:**
 

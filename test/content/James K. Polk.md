@@ -18,8 +18,8 @@
 
 **Groups:**
 
-* Democratic Party
-* Jacksonian Democrats
+* [Democrats](./../democrats/)
+* Jacksonian [Democrats](./../democrats/)
 
 **Impact on the Country:**
 
@@ -27,5 +27,5 @@
 * **War and Conquest:** Polk's aggressive foreign policy led to the Mexican-American War, which resulted in significant casualties and territorial acquisitions.
 * **Economic Growth:** The war and the acquisition of new territories stimulated economic growth and westward expansion.
 * **Tensions with Mexico:** The Treaty of Guadalupe Hidalgo left unsettled border disputes and contributed to ongoing tensions between the [United States](./../united-states/) and Mexico.
-* **Political Division:** Polk's presidency further polarized the country over issues of slavery and sectionalism.
+* **Political Division:** Polk's presidency further polarized the country over issues of slavery and  [sectionalism](./../sectionalism/) .
 # [APUSH people](./../apush-people/)

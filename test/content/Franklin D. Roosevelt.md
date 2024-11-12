@@ -22,7 +22,7 @@
 
 **Groups Involved With:**
 
-* Democratic Party
+* [Democrats](./../democrats/)
 * American Legion
 * Navy Secretary under [Woodrow Wilson](./../woodrow-wilson/)
 

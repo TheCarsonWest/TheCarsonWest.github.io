@@ -14,7 +14,7 @@
 
 ## Causes of the Civil War
 6. [Free-soldiers](./../free-soldiers/)
-7. [sectionalism](./../sectionalism/)
+7.  [sectionalism](./../sectionalism/) 
 8. [Wilmot Proviso](./../wilmot-proviso/)
 9. [Compromise of 1850](./../compromise-of-1850/)
 10. [Fugitive Slave Act](./../fugitive-slave-act/)

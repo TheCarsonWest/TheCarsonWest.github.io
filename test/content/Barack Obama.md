@@ -23,7 +23,7 @@
 
 **Groups Associated with:**
 
-* **[Democratic Party](./../democratic-party/):** Obama was a member of the Democratic Party and served as its nominee for president in 2008 and 2012.
+* **[Democrats](./../democrats/):** Obama was a member of the Democratic Party and served as its nominee for president in 2008 and 2012.
 * **[Illinois](./../illinois/) State Senate:** Obama served in the [Illinois](./../illinois/) State Senate from 1997 to 2004.
 * **U.S. Senate:** Obama was elected to the U.S. Senate from [Illinois](./../illinois/) in 2004 and served from 2005 to 2008.
 

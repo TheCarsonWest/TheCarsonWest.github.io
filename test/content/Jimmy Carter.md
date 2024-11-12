@@ -33,7 +33,7 @@
 
 **Groups and Affiliations:**
 
-* [Democratic Party](./../democratic-party/)
+* [Democrats](./../democrats/)
 * Southern Baptist Convention
 
 **Impact on the Country:**

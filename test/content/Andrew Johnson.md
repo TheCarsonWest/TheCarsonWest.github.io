@@ -32,7 +32,7 @@
 
 **Groups and Associations:**
 
-* Democratic Party
+* [Democrats](./../democrats/)
 * Mason
 
 **Impact on the Country:**

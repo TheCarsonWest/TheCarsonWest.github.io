@@ -7,4 +7,5 @@
 
 - [Push and Pull Factors](./../push-and-pull-factors/)
 - [intervening obstacles](./../intervening-obstacles/)
+- [Ravensteins Laws of Migration](./../ravensteins-laws-of-migration/)
 - 

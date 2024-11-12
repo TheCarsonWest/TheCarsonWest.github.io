@@ -21,7 +21,7 @@
 
 **Groups:**
 
-* Democratic Party: Member of the Democratic Party
+* [Democrats](./../democrats/): Member of the [Democrats](./../democrats/)
 * Kennedy family: Part of a politically prominent family
 * Cold War advocate: Believed in containing the spread of communism
 

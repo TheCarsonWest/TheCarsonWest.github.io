@@ -31,7 +31,7 @@
 
 * **[Declaration of Independence](./../declaration-of-independence/) (1776)**: [Washington](./../washington/) did not sign the [Declaration of Independence](./../declaration-of-independence/), but he was the commander-in-chief of the Continental Army at the time.
 * ** [Constitutional Convention](./../constitutional-convention/)|Constitution of the [United States](./../united-states/) (1787)]]**: [Washington](./../washington/) presided over the [Constitutional Convention](./../constitutional-convention/) and was unanimously elected as the first president under the new Constitution.
-* **Farewell Address (1796)**: [Washington](./../washington/)'s valedictory address, in which he warned against political parties, foreign entanglements, and the dangers of sectionalism.
+* **Farewell Address (1796)**: [Washington](./../washington/)'s valedictory address, in which he warned against political parties, foreign entanglements, and the dangers of  [sectionalism](./../sectionalism/) .
 
 add a section on george washingotns legacy in a similar format of the other sections
 
