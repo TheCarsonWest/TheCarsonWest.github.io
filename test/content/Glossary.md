@@ -4,7 +4,6 @@
 	author = 'Carson West'
 +++
 [APHG Home](./../aphg-home/)
-## Unit 1
 ### Region Types
 
  - [Formal region](./../formal-region/)
@@ -16,12 +15,14 @@
  - [Dot distribution](./../dot-distribution/)
  - [Graduated Symbols](./../graduated-symbols/)
  - [Cartogram](./../cartogram/)
+
 ## Stats 
 
  - [Population Density](./../population-density/)
  - [Ecumene](./../ecumene/)
  - [Total Fertility Rate](./../total-fertility-rate/)
-## Other
 - [ETM](./../etm/)
 - [Demographic Transition Model](./../demographic-transition-model/)
 
+## People
+- [Refugee](./../refugee/)

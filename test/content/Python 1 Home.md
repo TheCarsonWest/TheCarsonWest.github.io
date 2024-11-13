@@ -23,7 +23,7 @@ Theres a whole lot of messed up links around here, so dont be suprised
  - [Lists](./../lists/)
  - [Tuples](./../tuples/)
  - [Dictionaries](./../dictionaries/)
- - [Sets](./../sets/)
+ - [Python Sets](./../python-sets/)
  - [List Comprehension](./../list-comprehension/)
  - [File Handling](./../file-handling/)
  - [Exception Handling](./../exception-handling/)

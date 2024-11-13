@@ -8,8 +8,6 @@
   </url><url>
     <loc>http://example.org/15th-amendment/</loc>
   </url><url>
-    <loc>http://example.org/1730918640.092157/</loc>
-  </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
     <loc>http://example.org/abstract-classes/</loc>
@@ -43,6 +41,8 @@
     <loc>http://example.org/apchem-home/</loc>
   </url><url>
     <loc>http://example.org/apchem-rundown/</loc>
+  </url><url>
+    <loc>http://example.org/aphg-glossary/</loc>
   </url><url>
     <loc>http://example.org/aphg-home/</loc>
   </url><url>
@@ -372,6 +372,8 @@
   </url><url>
     <loc>http://example.org/global-and-nonlocal-variables/</loc>
   </url><url>
+    <loc>http://example.org/global-migration-through-history/</loc>
+  </url><url>
     <loc>http://example.org/global-scale/</loc>
   </url><url>
     <loc>http://example.org/globalization-and-sustainability/</loc>
@@ -513,8 +515,6 @@
     <loc>http://example.org/lincoln-douglas-debates/</loc>
   </url><url>
     <loc>http://example.org/list-comprehension/</loc>
-  </url><url>
-    <loc>http://example.org/list-of-ap-language-authors/</loc>
   </url><url>
     <loc>http://example.org/lists/</loc>
   </url><url>
@@ -720,6 +720,8 @@
   </url><url>
     <loc>http://example.org/python-package-index-pypi-publishing/</loc>
   </url><url>
+    <loc>http://example.org/python-sets/</loc>
+  </url><url>
     <loc>http://example.org/radical-republicansreconstruction-era/</loc>
   </url><url>
     <loc>http://example.org/ravensteins-laws-of-migration/</loc>
@@ -735,6 +737,8 @@
     <loc>http://example.org/recursion/</loc>
   </url><url>
     <loc>http://example.org/redox/</loc>
+  </url><url>
+    <loc>http://example.org/refugee/</loc>
   </url><url>
     <loc>http://example.org/regex-groups-and-backreferences/</loc>
   </url><url>
@@ -777,8 +781,6 @@
     <loc>http://example.org/sectionalism/</loc>
   </url><url>
     <loc>http://example.org/security-and-cryptography-pycryptodome/</loc>
-  </url><url>
-    <loc>http://example.org/sets/</loc>
   </url><url>
     <loc>http://example.org/sharecroppersreconstruction/</loc>
   </url><url>

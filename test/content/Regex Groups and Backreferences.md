@@ -42,6 +42,6 @@ phone_number = match.group(1)
 - [Regular Expressions](./../regular-expressions/): Groups and backreferences are core components of [Regular Expressions](./../regular-expressions/).
 - [Functions](./../functions/): [Regular Expressions](./../regular-expressions/) often use matching [Functions](./../functions/) like `search` and `findall`.
 - [[Lambda [Functions](./../functions/): [Regular Expressions](./../regular-expressions/) can be used as arguments to [Lambda Functions](./../lambda-functions/).
-- [Sets](./../sets/): Groups can be used to construct [Sets](./../sets/) of matched substrings.
+- [Python Sets](./../python-sets/): Groups can be used to construct [Python Sets](./../python-sets/) of matched substrings.
 - [Tuples](./../tuples/): Backreferences return [Tuples](./../tuples/) containing the captured substrings.
 # [Python 1 Home](./../python-1-home/)

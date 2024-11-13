@@ -16,5 +16,4 @@
 
 # [Calc home](./../calc-home/)
 
-# Secret: [Apush Brainrot project](./../apush-brainrot-project/)
 

@@ -38,6 +38,6 @@ for name, age in students.items():
 - [Variables and Data Types](./../variables-and-data-types/): [Dictionaries](./../dictionaries/) are stored as variables and can contain different data types.
 - [Lists](./../lists/): [Lists](./../lists/) and dictionaries are both sequence data structures, but lists are ordered and mutable while dictionaries are unordered and mutable.
 - [Tuples](./../tuples/): [Tuples](./../tuples/) and dictionaries are both mutable data structures, but tuples are immutable.
-- [Sets](./../sets/): [Sets](./../sets/) are similar to dictionaries but only store unique keys.
+- [Python Sets](./../python-sets/): [Python Sets](./../python-sets/) are similar to dictionaries but only store unique keys.
 - [Functions](./../functions/): [Functions](./../functions/) can be used to create and modify dictionaries.
 # [Python 1 Home](./../python-1-home/)

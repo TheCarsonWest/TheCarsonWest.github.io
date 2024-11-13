@@ -5,7 +5,7 @@
 +++
 # [ID Home](./../id-home/)
 
-## Industrilization
+## Industrialization
 1. [Samuel Slater](./../samuel-slater/)
 2. [Market Revolution](./../market-revolution/)
 3. [Industrial Revolution](./../industrial-revolution/)

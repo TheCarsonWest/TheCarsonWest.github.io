@@ -35,6 +35,6 @@ x, y, z = numbers # equivalent to x = numbers[0], y = numbers[1], z = numbers[2]
 - [Variables and Data Types](./../variables-and-data-types/): [Tuples](./../tuples/) are a data type in Python.
 - [Lists](./../lists/): [Tuples](./../tuples/) are immutable, while [Lists](./../lists/) are mutable.
 - [Dictionaries](./../dictionaries/): [Tuples](./../tuples/) can be used as keys in [Dictionaries](./../dictionaries/).
-- [Sets](./../sets/): [Tuples](./../tuples/) are ordered, while [Sets](./../sets/) are unordered.
+- [Python Sets](./../python-sets/): [Tuples](./../tuples/) are ordered, while [Python Sets](./../python-sets/) are unordered.
 - [Tuple Unpacking](./../tuple-unpacking/): [Tuples](./../tuples/) can be unpacked into variables.
 # [Python 1 Home](./../python-1-home/)
