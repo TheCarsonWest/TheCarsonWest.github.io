@@ -38,6 +38,8 @@
   </url><url>
     <loc>http://example.org/ap-chem-labs/</loc>
   </url><url>
+    <loc>http://example.org/apchem-gasses/</loc>
+  </url><url>
     <loc>http://example.org/apchem-home/</loc>
   </url><url>
     <loc>http://example.org/apchem-rundown/</loc>
@@ -45,6 +47,8 @@
     <loc>http://example.org/aphg-glossary/</loc>
   </url><url>
     <loc>http://example.org/aphg-home/</loc>
+  </url><url>
+    <loc>http://example.org/aphg-strats/</loc>
   </url><url>
     <loc>http://example.org/aphg-unit-1/</loc>
   </url><url>
@@ -141,6 +145,8 @@
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/cengage-home/</loc>
+  </url><url>
+    <loc>http://example.org/cer-strategy/</loc>
   </url><url>
     <loc>http://example.org/chaining-decorators/</loc>
   </url><url>
@@ -245,6 +251,8 @@
     <loc>http://example.org/derivative-rules/</loc>
   </url><url>
     <loc>http://example.org/descriptors/</loc>
+  </url><url>
+    <loc>http://example.org/deviations-from-ideal-behaviorgasses/</loc>
   </url><url>
     <loc>http://example.org/dictionaries/</loc>
   </url><url>
@@ -891,6 +899,8 @@
     <loc>http://example.org/va-and-ky-resolutions/</loc>
   </url><url>
     <loc>http://example.org/valley-forge/</loc>
+  </url><url>
+    <loc>http://example.org/van-der-waals-gas-equation/</loc>
   </url><url>
     <loc>http://example.org/vapor-pressure/</loc>
   </url><url>

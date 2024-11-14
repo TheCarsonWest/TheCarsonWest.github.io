@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[John F](./../john-f/). Kennedy (1961-1963)**
+**[John F. Kennedy](./../john-f.-kennedy/) (1961-1963)**
 
 **Events:**
 
