@@ -16,11 +16,11 @@ import seaborn as sns
 ```
 2. Load and prepare your data.
 3. Choose the type of plot you want to create (e.g., line plot, scatter plot, histogram).
-4. Use the appropriate Seaborn function to create the plot. (See below for specific [functions](./../functions/) and parameters.)
+4. Use the appropriate Seaborn function to create the plot. (See below for specific [Python Functions](./../python-functions/) and parameters.)
 5. Customize the plot as needed (e.g., add labels, set colors).
 
-### [Functions](./../functions/) and Parameters
-Seaborn provides various [functions](./../functions/) for different types of plots, each with its own set of parameters. Some commonly used [functions](./../functions/) include:
+### [Python Functions](./../python-functions/) and Parameters
+Seaborn provides various [Python Functions](./../python-functions/) for different types of plots, each with its own set of parameters. Some commonly used [Python Functions](./../python-functions/) include:
 
 - **relplot()**: Create scatter plots, line plots, and bar plots with customizable relationships (e.g., hue, size).
  - `data`: The data to plot.
@@ -55,6 +55,6 @@ sns.histplot(data=df, x="x")
 
 - [Libraries like Matplotlib](./../libraries-like-matplotlib/): Seaborn is built on top of Matplotlib and provides an easier-to-use interface.
 - [DataFrames in Pandas](./../dataframes-in-pandas/): Pandas DataFrames are commonly used as input data for Seaborn plots.
-- [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): Seaborn plots can be further customized using Matplotlib [functions](./../functions/).
+- [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): Seaborn plots can be further customized using Matplotlib [Python Functions](./../python-functions/).
 - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Seaborn plots are mutable and can be modified after creation.
 # [Python 1 Home](./../python-1-home/)

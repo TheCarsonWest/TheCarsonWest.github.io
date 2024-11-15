@@ -6,7 +6,7 @@
 ## Python [Decorators](./../decorators/)
 
 ### Introduction
- [Decorators](./../decorators/) are a powerful feature of Python that allow you to enhance the behavior of [functions](./../functions/), classes, and other objects. They provide a way to add functionality or modify the behavior of an existing object without modifying its source code.
+ [Decorators](./../decorators/) are a powerful feature of Python that allow you to enhance the behavior of [Python Functions](./../python-functions/), classes, and other objects. They provide a way to add functionality or modify the behavior of an existing object without modifying its source code.
 
 ### How to Use [Decorators](./../decorators/)
  [Decorators](./../decorators/) are defined using the `@` symbol followed by the decorator function. The decorator function takes the target object (a function or class) as an argument and returns a modified version of that object.
@@ -58,9 +58,9 @@ def target_object():
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): [Decorators](./../decorators/) enhance the functionality of [functions](./../functions/).
+- [Python Functions](./../python-functions/): [Decorators](./../decorators/) enhance the functionality of [Python Functions](./../python-functions/).
 - [Classes and Objects](./../classes-and-objects/): [Decorators](./../decorators/) can be used to modify the behavior of [classes and objects](./../classes-and-objects/).
-- [[Higher-Order [Functions](./../functions/): [Decorators](./../decorators/) are higher-order [functions](./../functions/) that take a function as an argument and return a modified function.
-- [Function Parameters](./../function-parameters/): Decorator [functions](./../functions/) can accept parameters, allowing for customization of the decoration behavior.
-- [[Lambda [Functions](./../functions/): Lambda [functions](./../functions/) can be used as decorators to define simple inline modifications.
+- [[Higher-Order [Python Functions](./../python-functions/): [Decorators](./../decorators/) are higher-order [Python Functions](./../python-functions/) that take a function as an argument and return a modified function.
+- [Function Parameters](./../function-parameters/): Decorator [Python Functions](./../python-functions/) can accept parameters, allowing for customization of the decoration behavior.
+- [[Lambda [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) can be used as decorators to define simple inline modifications.
 # [Python 1 Home](./../python-1-home/)

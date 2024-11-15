@@ -6,7 +6,7 @@
 ## Python [Operators](./../operators/)
 
 ### What are [Operators](./../operators/)?
- [Operators](./../operators/) are special symbols or [Functions](./../functions/) that perform specific operations on values. They allow the manipulation, comparison, and modification of data in Python.
+ [Operators](./../operators/) are special symbols or [Python Functions](./../python-functions/) that perform specific operations on values. They allow the manipulation, comparison, and modification of data in Python.
 
 ### How to Use [Operators](./../operators/)
  [Operators](./../operators/) can be used in expressions along with variables, values, and other operators. The result of an operation depends on the types of operands and the operator itself.

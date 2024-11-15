@@ -44,5 +44,5 @@ cat.speak() # prints "Cat meows."
 - [Inheritance](./../inheritance/): Subclasses inherit the properties and methods of their parent class, allowing for method overriding and polymorphism.
 - [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/): Determines the order in which methods are searched within the class hierarchy during polymorphism.
 - [Duck Typing](./../duck-typing/): A variant of polymorphism where objects are classified by methods they implement rather than their class.
-- [Higher-Order [[Functions](./../higher-order-[[functions/): [Functions](./../functions/) that take other [Functions](./../functions/) as arguments or return [Functions](./../functions/) enable polymorphism by allowing runtime customization.
+- [Higher-Order [[Python Functions](./../higher-order-[[python-functions/): [Python Functions](./../python-functions/) that take other [Python Functions](./../python-functions/) as arguments or return [Python Functions](./../python-functions/) enable polymorphism by allowing runtime customization.
 # [Python 1 Home](./../python-1-home/)

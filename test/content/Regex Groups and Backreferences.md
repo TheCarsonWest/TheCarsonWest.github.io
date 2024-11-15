@@ -40,8 +40,8 @@ phone_number = match.group(1)
 ### Related Python Concepts
 
 - [Regular Expressions](./../regular-expressions/): Groups and backreferences are core components of [Regular Expressions](./../regular-expressions/).
-- [Functions](./../functions/): [Regular Expressions](./../regular-expressions/) often use matching [Functions](./../functions/) like `search` and `findall`.
-- [[Lambda [Functions](./../functions/): [Regular Expressions](./../regular-expressions/) can be used as arguments to [Lambda Functions](./../lambda-functions/).
+- [Python Functions](./../python-functions/): [Regular Expressions](./../regular-expressions/) often use matching [Python Functions](./../python-functions/) like `search` and `findall`.
+- [[Lambda [Python Functions](./../python-functions/): [Regular Expressions](./../regular-expressions/) can be used as arguments to [Lambda Functions](./../lambda-functions/).
 - [Python Sets](./../python-sets/): Groups can be used to construct [Python Sets](./../python-sets/) of matched substrings.
 - [Tuples](./../tuples/): Backreferences return [Tuples](./../tuples/) containing the captured substrings.
 # [Python 1 Home](./../python-1-home/)

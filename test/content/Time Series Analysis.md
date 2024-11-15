@@ -10,7 +10,7 @@ Time series analysis involves analyzing data collected at regular time intervals
 
 ### How to Use [Time Series Analysis](./../time-series-analysis/)
 Python provides various libraries for time series analysis. The most popular are:
-- Pandas: A data manipulation and analysis library with dedicated time series [Functions](./../functions/).
+- Pandas: A data manipulation and analysis library with dedicated time series [Python Functions](./../python-functions/).
 - Statsmodels: A statistical modeling library with time series-specific modules.
 - Scikit-learn: A machine learning library with time series preprocessing and forecasting algorithms.
 

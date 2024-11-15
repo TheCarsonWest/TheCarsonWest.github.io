@@ -32,7 +32,7 @@ ages = {name: age for name, age in data}
 ### Related Python Concepts
 - [List Comprehension](./../list-comprehension/): Similar to dictionary comprehension, but used for creating lists.
 - [Generators](./../generators/): Can be used to create iterables for dictionary comprehension.
-- [Functions](./../functions/): Lambda [functions](./../functions/) can be used as expressions for keys and values.
+- [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) can be used as expressions for keys and values.
 - [For Loops](./../for-loops/): Dictionary comprehension can be seen as a concise form of a for loop.
 - [Operators](./../operators/): Conditional and mathematical operators can be used in the key or value expressions.
 # [Python 1 Home](./../python-1-home/)

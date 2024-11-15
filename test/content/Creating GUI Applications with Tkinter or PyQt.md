@@ -122,7 +122,7 @@ app.exec_()
 ### Related Python Concepts
 
 - [Control Flow If Statements](./../control-flow-if-statements/): GUIs often use if statements to control the flow of the application based on user interactions.
-- [Functions](./../functions/): GUI elements can be created using [functions](./../functions/) that encapsulate the necessary setup and initialization code.
+- [Python Functions](./../python-functions/): GUI elements can be created using [Python Functions](./../python-functions/) that encapsulate the necessary setup and initialization code.
 - [Object-Oriented Programming](./../object-oriented-programming/): Tkinter and PyQt utilize object-oriented programming principles for representing and interacting with GUI components.
 - [Event Handling](./../event-handling/): GUIs handle user interactions through events such as button clicks and mouse movements.
 - [Threading and [[Multiprocessing](./../threading-and-[[multiprocessing/): GUIs often employ threading or multiprocessing to manage multiple tasks concurrently.

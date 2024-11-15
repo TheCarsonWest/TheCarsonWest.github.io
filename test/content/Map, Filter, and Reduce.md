@@ -66,8 +66,8 @@ print(product) # Output: 120
 
 ### Related Python Concepts
 
-- [Higher-Order [[Functions](./../higher-order-[[functions/): [Map, Filter, and Reduce](./../map-filter-and-reduce/) are [Higher-Order Functions](./../higher-order-functions/).
-- [Lambda [[Functions](./../lambda-[[functions/): [Lambda Functions](./../lambda-functions/) are commonly used as arguments to Map and Filter.
+- [Higher-Order [[Python Functions](./../higher-order-[[python-functions/): [Map, Filter, and Reduce](./../map-filter-and-reduce/) are [Higher-Order Functions](./../higher-order-functions/).
+- [Lambda [[Python Functions](./../lambda-[[python-functions/): [Lambda Functions](./../lambda-functions/) are commonly used as arguments to Map and Filter.
 - [List Comprehension](./../list-comprehension/): [Map, Filter, and Reduce](./../map-filter-and-reduce/) are alternatives to using list comprehensions for functional programming.
 - [Generators](./../generators/): Map and Filter can be used to create [Generators](./../generators/).
 - [Functional Programming](./../functional-programming/): [Map, Filter, and Reduce](./../map-filter-and-reduce/) are core concepts in functional programming.

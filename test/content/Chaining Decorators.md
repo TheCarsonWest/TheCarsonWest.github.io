@@ -91,8 +91,8 @@ def update_user(self, new_data):
 
 ## Related Python Concepts
 - [Decorators](./../decorators/): Chaining decorators is an advanced technique that builds upon the concept of decorators.
-- [Functions](./../functions/): [Decorators](./../decorators/) are applied to functions to modify their behavior.
-- [[Higher-Order [Functions](./../functions/): [Decorators](./../decorators/) are higher-order [functions](./../functions/) that take a function as an argument and return a new function.
+- [Python Functions](./../python-functions/): [Decorators](./../decorators/) are applied to functions to modify their behavior.
+- [[Higher-Order [Python Functions](./../python-functions/): [Decorators](./../decorators/) are higher-order [Python Functions](./../python-functions/) that take a function as an argument and return a new function.
 - [Closures](./../closures/): [Decorators](./../decorators/) create closures that remember and have access to the variables defined in their scope.
 - [Metaclasses](./../metaclasses/): Chaining decorators can be used to create custom metaclasses that modify the behavior of classes and their instances.
 # [Python 1 Home](./../python-1-home/)

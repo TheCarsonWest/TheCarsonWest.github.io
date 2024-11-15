@@ -29,9 +29,9 @@ closure() # prints 15
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): [Closures](./../closures/) are nested [functions](./../functions/) that retain access to the enclosing function's scope.
+- [Python Functions](./../python-functions/): [Closures](./../closures/) are nested [Python Functions](./../python-functions/) that retain access to the enclosing function's scope.
 - [Function Parameters](./../function-parameters/): Parameters passed to the enclosing function can be accessed by the closure.
 - [Return Values](./../return-values/): The closure is the return value of the enclosing function.
-- [[Higher-Order [Functions](./../functions/): [Closures](./../closures/) are examples of higher-order [functions](./../functions/), which return other [functions](./../functions/).
+- [[Higher-Order [Python Functions](./../python-functions/): [Closures](./../closures/) are examples of higher-order [Python Functions](./../python-functions/), which return other [Python Functions](./../python-functions/).
 - [Global and Nonlocal Variables](./../global-and-nonlocal-variables/): [Closures](./../closures/) access nonlocal variables from the enclosing scope, but not global variables.
 # [Python 1 Home](./../python-1-home/)

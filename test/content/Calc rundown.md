@@ -1,0 +1,6 @@
++++
+ title = 'Calc rundown'
+[params]
+	author = 'Carson West'
++++
+Make a calculus AB rundown on __  in markdown format(make use of headings), use the LaTeX equation library format when writing equations. For any topic that you believe needs its own independent explanation, enclose it in TWO brackets

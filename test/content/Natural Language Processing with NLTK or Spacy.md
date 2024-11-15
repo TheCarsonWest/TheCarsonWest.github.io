@@ -56,6 +56,6 @@ for ent in doc.ents:
 - [Regular Expressions](./../regular-expressions/): Used for complex text matching and tokenization.
 - [Lists](./../lists/): Store sequences of tokens or entities.
 - [Dictionaries](./../dictionaries/): Map words to their POS tags or lemma forms.
-- [Functions](./../functions/): Define custom NLP [Functions](./../functions/) for specialized tasks.
+- [Python Functions](./../python-functions/): Define custom NLP [Python Functions](./../python-functions/) for specialized tasks.
 - [Generators](./../generators/): Yield tokens or entities one at a time for memory efficiency.
 # [Python 1 Home](./../python-1-home/)

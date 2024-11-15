@@ -9,7 +9,7 @@
 
 **Modules:**
 - Self-contained Python code stored in a file (`*.py`).
-- Contain [Functions](./../functions/), classes, or variables that can be imported and used in other Python scripts.
+- Contain [Python Functions](./../python-functions/), classes, or variables that can be imported and used in other Python scripts.
 - Used to organize and reuse code.
 
 **Packages:**
@@ -29,7 +29,7 @@ Imports the specified module, allowing access to its contents.
 ```python
 from module_name import element1, element2
 ```
-Imports specific elements (e.g., [Functions](./../functions/), classes) from a module.
+Imports specific elements (e.g., [Python Functions](./../python-functions/), classes) from a module.
 
 **Importing a Package:**
 ```python
@@ -63,12 +63,12 @@ subpackage.my_function()
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): Modules and packages provide a way to organize and reuse [Functions](./../functions/).
+- [Python Functions](./../python-functions/): Modules and packages provide a way to organize and reuse [Python Functions](./../python-functions/).
 - [Importing Modules](./../importing-modules/): The import statement is used to import modules and packages.
 - [Libraries like NumPy](./../libraries-like-numpy/): NumPy is a package that provides scientific computing capabilities.
 - [Libraries like Pandas](./../libraries-like-pandas/): Pandas is a package that provides data analysis and manipulation tools.
 - [Libraries like Matplotlib](./../libraries-like-matplotlib/): Matplotlib is a package that provides data visualization capabilities. [Dynamic Importing](./../dynamic-importing/)
-- [Functions](./../functions/)
+- [Python Functions](./../python-functions/)
 - [Python Package Index (PyPI) Publishing](./../python-package-index-(pypi)-publishing/)
 - [Virtual Environments](./../virtual-environments/)
 

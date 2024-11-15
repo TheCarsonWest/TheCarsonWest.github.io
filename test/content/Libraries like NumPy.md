@@ -6,7 +6,7 @@
 ## [Libraries like NumPy](./../libraries-like-numpy/)
 
 ### What is NumPy?
-NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of [functions](./../functions/) and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical [functions](./../functions/) for numerical computations.
+NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of [Python Functions](./../python-functions/) and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical [Python Functions](./../python-functions/) for numerical computations.
 
 ### How to Use NumPy
 To use NumPy in your Python programs, you first need to import the library using the following statement:
@@ -15,7 +15,7 @@ To use NumPy in your Python programs, you first need to import the library using
 import numpy as np
 ```
 
-Once imported, you can access the [functions](./../functions/) and classes provided by NumPy.
+Once imported, you can access the [Python Functions](./../python-functions/) and classes provided by NumPy.
 
 **Creating Arrays:**
 - `np.array(object)`: Converts a Python object to a NumPy array.
@@ -30,7 +30,7 @@ Once imported, you can access the [functions](./../functions/) and classes provi
 - `arr * arr2`: Element-wise multiplication of two arrays.
 - `np.sum(arr)`: Computes the sum of all elements in an array.
 
-**Mathematical [Functions](./../functions/):**
+**Mathematical [Python Functions](./../python-functions/):**
 - `np.sin(x)`: Computes the sine of x.
 - `np.cos(x)`: Computes the cosine of x.
 - `np.log(x)`: Computes the natural logarithm of x.
@@ -61,7 +61,7 @@ print(total)
 ### Related Python Concepts
 - [Variables and Data Types](./../variables-and-data-types/): NumPy arrays are stored using NumPy's own data types.
 - [Operators](./../operators/): NumPy provides operators for array operations like element-wise addition and multiplication.
-- [Functions](./../functions/): NumPy provides a rich set of mathematical [functions](./../functions/) for numerical computations.
+- [Python Functions](./../python-functions/): NumPy provides a rich set of mathematical [Python Functions](./../python-functions/) for numerical computations.
 - [Lists](./../lists/): NumPy arrays can be converted to and from Python lists.
 - [Modules and Packages](./../modules-and-packages/): NumPy is a third-party library that is installed as a package.
 # [Python 1 Home](./../python-1-home/)

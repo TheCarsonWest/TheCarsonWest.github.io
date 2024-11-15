@@ -10,7 +10,7 @@ Pandas is an open-source Python library that provides high-performance, data man
 
 ### How to Use Pandas
 
-Pandas provides a wide range of [Functions](./../functions/) and methods for manipulating and analyzing data. Some of the most commonly used [Functions](./../functions/) include:
+Pandas provides a wide range of [Python Functions](./../python-functions/) and methods for manipulating and analyzing data. Some of the most commonly used [Python Functions](./../python-functions/) include:
 
 - `read_csv()`: Reads a Comma-Separated Values (CSV) file into a DataFrame.
 - `head()`: Displays the first few rows of a DataFrame.
@@ -38,7 +38,7 @@ df.sort_values('age')
 
 - [Lists](./../lists/): DataFrames are a specialized type of list that holds data in a tabular format.
 - [Dictionaries](./../dictionaries/): DataFrames can be created from [Dictionaries](./../dictionaries/), where the keys become column names and the values become rows.
-- [File Handling](./../file-handling/): Pandas [Functions](./../functions/) like `read_csv()` and `to_csv()` allow for reading and writing data from and to files.
+- [File Handling](./../file-handling/): Pandas [Python Functions](./../python-functions/) like `read_csv()` and `to_csv()` allow for reading and writing data from and to files.
 - [DataFrames in Pandas](./../dataframes-in-pandas/): DataFrames are the primary data structure used in Pandas for representing and manipulating tabular data.
 - [NumPy Broadcasting](./../numpy-broadcasting/): Pandas leverages NumPy for efficient data manipulation and numerical operations.
 # [Python 1 Home](./../python-1-home/)

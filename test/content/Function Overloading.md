@@ -7,7 +7,7 @@
 
 ## What is [Function Overloading](./../function-overloading/)?
 
-Function overloading is a feature that allows multiple [functions](./../functions/) with the same name to exist in the same scope, but with different parameters. It enables the use of a single function name for different sets of input arguments, with each function performing a specific task based on the types and number of arguments passed.
+Function overloading is a feature that allows multiple [Python Functions](./../python-functions/) with the same name to exist in the same scope, but with different parameters. It enables the use of a single function name for different sets of input arguments, with each function performing a specific task based on the types and number of arguments passed.
 
 ## How to Use [Function Overloading](./../function-overloading/)
 
@@ -46,9 +46,9 @@ print(calculate_average(10, 20, 30)) # 20.0
 
 ## Related Python Concepts
 
-- [Functions](./../functions/): Function overloading mimics the behavior of multiple [functions](./../functions/) with the same name.
-- [Default Parameters](./../default-parameters/): Default parameters permitem [functions](./../functions/) to have optional input arguments.
-- [Function Parameters](./../function-parameters/): Overloaded [functions](./../functions/) require different sets of parameters.
-- [Variable and Data Types](./../variable-and-data-types/): Overloaded [functions](./../functions/) may accept different types of input arguments.
+- [Python Functions](./../python-functions/): Function overloading mimics the behavior of multiple [Python Functions](./../python-functions/) with the same name.
+- [Default Parameters](./../default-parameters/): Default parameters permitem [Python Functions](./../python-functions/) to have optional input arguments.
+- [Function Parameters](./../function-parameters/): Overloaded [Python Functions](./../python-functions/) require different sets of parameters.
+- [Variable and Data Types](./../variable-and-data-types/): Overloaded [Python Functions](./../python-functions/) may accept different types of input arguments.
 - [Polymorphism](./../polymorphism/): Function overloading can be seen as a form of polymorphism.
 # [Python 1 Home](./../python-1-home/)

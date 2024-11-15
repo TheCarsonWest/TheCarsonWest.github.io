@@ -34,6 +34,6 @@ positive_numbers = [x for x in numbers if x > 0]
 - [Lists](./../lists/): List comprehension creates new [Lists](./../lists/).
 - [For Loops](./../for-loops/): List comprehension uses a for loop syntax.
 - [Conditional Statements](./../conditional-statements/): List comprehension uses a conditional statement to filter elements.
-- [Functions](./../functions/): List comprehension can be used inside [Functions](./../functions/) to create and return new [Lists](./../lists/).
-- [Map, Filter, and Reduce](./../map-filter-and-reduce/): List comprehension is similar to the map and filter [Functions](./../functions/).
+- [Python Functions](./../python-functions/): List comprehension can be used inside [Python Functions](./../python-functions/) to create and return new [Lists](./../lists/).
+- [Map, Filter, and Reduce](./../map-filter-and-reduce/): List comprehension is similar to the map and filter [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)

@@ -5,5 +5,5 @@
 +++
 # [APCHEM Home](./../apchem-home/)
 
-- [solutions](./../solutions/)
+- [AP CHEM solutions](./../ap-chem-solutions/)
 - [ion concentration](./../ion-concentration/)

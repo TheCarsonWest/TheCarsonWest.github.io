@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-## Higher-Order [Functions](./../functions/)
+## Higher-Order [Python Functions](./../python-functions/)
 
 ### Explanation
-Higher-Order [Functions](./../functions/) (HOFs) are [functions](./../functions/) that can take other [functions](./../functions/) as arguments or return [functions](./../functions/) as their results. They allow for a powerful level of abstraction and code reuse by enabling the passing of behavior as data.
+Higher-Order [Python Functions](./../python-functions/) (HOFs) are [Python Functions](./../python-functions/) that can take other [Python Functions](./../python-functions/) as arguments or return [Python Functions](./../python-functions/) as their results. They allow for a powerful level of abstraction and code reuse by enabling the passing of behavior as data.
 
-### How to Use Higher-Order [Functions](./../functions/)
+### How to Use Higher-Order [Python Functions](./../python-functions/)
 When using HOFs, there are two main scenarios:
 
 - **Passing a function as an argument:** This is achieved by assigning a function to a variable and passing it to the HOF.
@@ -47,9 +47,9 @@ print(result) # 15
 
 ### Related Python Concepts
 
-- [[Lambda [Functions](./../functions/): Lambda [functions](./../functions/) are anonymous [functions](./../functions/) that can be used within HOFs.
-- [Functions](./../functions/): HOFs utilize [functions](./../functions/) as arguments or return values.
+- [[Lambda [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are anonymous [Python Functions](./../python-functions/) that can be used within HOFs.
+- [Python Functions](./../python-functions/): HOFs utilize [Python Functions](./../python-functions/) as arguments or return values.
 - [Map, Filter, and Reduce](./../map-filter-and-reduce/): These are built-in HOFs that perform common operations on iterables.
 - [Closures](./../closures/): [Closures](./../closures/) allow HOFs to retain access to variables outside their scope.
-- [Decorators](./../decorators/): [Decorators](./../decorators/) are HOFs that modify the behavior of other [functions](./../functions/).
+- [Decorators](./../decorators/): [Decorators](./../decorators/) are HOFs that modify the behavior of other [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)

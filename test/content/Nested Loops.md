@@ -40,6 +40,6 @@ else:
 - [For Loops](./../for-loops/): Nested loops are built using multiple [For Loops](./../for-loops/) (or [While Loops](./../while-loops/)).
 - [Variables](./../variables/): The variables used in the nested loops represent the counters or iterators used to control the flow of execution.
 - [Control Flow If Statements](./../control-flow-if-statements/): Nested loops can be used in conjunction with if statements to conditionally execute code blocks.
-- [Functions](./../functions/): Nested loops can be used to iterate over the elements of a list or dictionary passed as a parameter to a function.
+- [Python Functions](./../python-functions/): Nested loops can be used to iterate over the elements of a list or dictionary passed as a parameter to a function.
 - [List Comprehension](./../list-comprehension/): Nested loops can be used to create multi-dimensional [Lists](./../lists/) using [List Comprehension](./../list-comprehension/).
 # [Python 1 Home](./../python-1-home/)

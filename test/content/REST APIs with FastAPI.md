@@ -31,7 +31,7 @@ async def get_item(item_id: int):
 ### Related Python Concepts
 
 - [Modules and Packages](./../modules-and-packages/): FastAPI is a Python module, and you need to import it to use its features.
-- [Functions](./../functions/): FastAPI routes are defined using function [Decorators](./../decorators/).
+- [Python Functions](./../python-functions/): FastAPI routes are defined using function [Decorators](./../decorators/).
 - [Type Hinting](./../type-hinting/): FastAPI supports [Type Hinting](./../type-hinting/) for data models and [Function Parameters](./../function-parameters/).
 - [Asynchronous Programming](./../asynchronous-programming/): FastAPI supports [Asynchronous Programming](./../asynchronous-programming/), allowing for more efficient and scalable APIs.
 - [Importing Modules](./../importing-modules/): You need to import the FastAPI module to use it in your Python code.

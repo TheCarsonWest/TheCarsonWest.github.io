@@ -7,7 +7,7 @@
 
 ### What is [Importing Modules](./../importing-modules/)?
 
-Importing modules in Python allows you to access and reuse code written in other files. Modules are individual Python files with a `.py` extension that contain defined [functions](./../functions/), classes, and variables. Importing modules enables code reusability, modularity, and organization in larger projects.
+Importing modules in Python allows you to access and reuse code written in other files. Modules are individual Python files with a `.py` extension that contain defined [Python Functions](./../python-functions/), classes, and variables. Importing modules enables code reusability, modularity, and organization in larger projects.
 
 ### How to Use [Importing Modules](./../importing-modules/)
 
@@ -44,7 +44,7 @@ result = sqrt(16)
 ### Related Python Concepts
 
 - [Modules and Packages](./../modules-and-packages/): Modules are the building blocks of packages, which group related modules together.
-- [Functions](./../functions/): Modules can define custom [functions](./../functions/) that can be imported and used in other modules.
+- [Python Functions](./../python-functions/): Modules can define custom [Python Functions](./../python-functions/) that can be imported and used in other modules.
 - [Classes and Objects](./../classes-and-objects/): Modules can define [classes and objects](./../classes-and-objects/) that can be imported and reused across programs.
 - [File Handling](./../file-handling/): Modules can be used to interact with files and manage file operations.
 - [Dynamic Importing](./../dynamic-importing/): Modules can be imported dynamically during runtime using the `importlib` module.

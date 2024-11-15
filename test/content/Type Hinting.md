@@ -11,7 +11,7 @@ Type hinting is a feature of Python that allows developers to include type annot
 ### How to Use [Type Hinting](./../type-hinting/)
 Type hints are added using type annotations, which are special comments written with a colon (:) at the end of a line of code.
 
-#### [Functions](./../functions/)
+#### [Python Functions](./../python-functions/)
 **Parameters:**
 ```python
 def add_numbers(a: int, b: int) -> int:
@@ -69,8 +69,8 @@ names: list[str] = ["John", "Jane", "Mike"]
 ### Related Python Concepts
 
 - [Variables and Data Types](./../variables-and-data-types/): Type hints explicitly specify the expected data types.
-- [Functions](./../functions/): Type hints describe the data types of function arguments and [Return Values](./../return-values/).
+- [Python Functions](./../python-functions/): Type hints describe the data types of function arguments and [Return Values](./../return-values/).
 - [Function Parameters](./../function-parameters/): Type hints provide type information for [Function Parameters](./../function-parameters/).
-- [Return Values](./../return-values/): Type hints indicate the expected return type of [Functions](./../functions/).
+- [Return Values](./../return-values/): Type hints indicate the expected return type of [Python Functions](./../python-functions/).
 - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Type hints can help distinguish between mutable and immutable types.
 # [Python 1 Home](./../python-1-home/)

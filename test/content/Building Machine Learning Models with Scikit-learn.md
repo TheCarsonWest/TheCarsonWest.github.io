@@ -41,7 +41,7 @@ accuracy = accuracy_score(iris.target, predictions)
 ### Other Python Concepts Related to Scikit-learn
 
 - [Variables and Data Types](./../variables-and-data-types/): Scikit-learn uses NumPy arrays for storing and manipulating data.
-- [Functions](./../functions/): Scikit-learn provides various functions for building, training, and evaluating models.
+- [Python Functions](./../python-functions/): Scikit-learn provides various functions for building, training, and evaluating models.
 - [Modules and Packages](./../modules-and-packages/): Scikit-learn is organized into modules, making it easy to import specific functionality.
 - [Libraries like NumPy](./../libraries-like-numpy/): Scikit-learn relies on NumPy for numerical operations.
 - [Libraries like Pandas](./../libraries-like-pandas/): Pandas can be used for data pre-processing before using Scikit-learn.

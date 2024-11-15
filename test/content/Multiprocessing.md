@@ -38,8 +38,8 @@ if __name__ == '__main__':
 
 ### Related Python Concepts
 - [Concurrency and Multithreading](./../concurrency-and-multithreading/): [Multiprocessing](./../multiprocessing/) is an extension of multithreading that allows Processes to run on different CPUs.
-- [Functions](./../functions/): [Multiprocessing](./../multiprocessing/) uses [Functions](./../functions/) as targets for Processes to execute.
-- [Function Parameters](./../function-parameters/): Arguments and keyword arguments can be passed to target [Functions](./../functions/) in multiprocessing.
+- [Python Functions](./../python-functions/): [Multiprocessing](./../multiprocessing/) uses [Python Functions](./../python-functions/) as targets for Processes to execute.
+- [Function Parameters](./../function-parameters/): Arguments and keyword arguments can be passed to target [Python Functions](./../python-functions/) in multiprocessing.
 - [Return Values](./../return-values/): The `join()` method of a `Process` object can be used to retrieve the return value of the target function.
 - [Threading](./../threading/): Multithreading is another way of achieving concurrency in Python, but it operates on a single CPU.
 # [Python 1 Home](./../python-1-home/)

@@ -146,5 +146,5 @@ plt.savefig('my_plot.png')
 - [Plot Customization in Matplotlib](./../plot-customization-in-matplotlib/): This page includes additional information on customizing plots in Matplotlib.
 - [Variables and Data Types](./../variables-and-data-types/): [Variables and Data Types](./../variables-and-data-types/) are used to store and represent data in Matplotlib.
 - [Operators](./../operators/): [Operators](./../operators/) are used to perform operations on data in Matplotlib.
-- [Functions](./../functions/): [Functions](./../functions/) are used to encapsulate code and perform specific tasks in Matplotlib.
+- [Python Functions](./../python-functions/): [Python Functions](./../python-functions/) are used to encapsulate code and perform specific tasks in Matplotlib.
 # [Python 1 Home](./../python-1-home/)

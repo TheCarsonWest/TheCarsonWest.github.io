@@ -57,7 +57,7 @@ print(f"Name: {name}") # output: Name: Mary
 
 - [Operators](./../operators/): [Operators](./../operators/) can be used to perform operations on variables of different data types.
 - [Control Flow If Statements](./../control-flow-if-statements/): Variables and data types influence the flow of control in if statements based on the values stored in the variables.
-- [Functions](./../functions/): [Functions](./../functions/) can take arguments of specific data types and [Return Values](./../return-values/) of specific types.
+- [Python Functions](./../python-functions/): [Python Functions](./../python-functions/) can take arguments of specific data types and [Return Values](./../return-values/) of specific types.
 - [Lists](./../lists/): [Lists](./../lists/) are mutable collections that can store a variety of data types.
 - [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are mutable collections that store key-value pairs, where the keys and values can be of different data types.
 # [Python 1 Home](./../python-1-home/)

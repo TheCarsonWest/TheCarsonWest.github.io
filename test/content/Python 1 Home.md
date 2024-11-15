@@ -14,7 +14,7 @@ Theres a whole lot of messed up links around here, so dont be suprised
  - [Control Flow If Statements](./../control-flow-if-statements/)
  - [For Loops](./../for-loops/)
  - [While Loops](./../while-loops/)
- - [Functions](./../functions/)
+ - [Python Functions](./../python-functions/)
  - [Function Parameters](./../function-parameters/)
  - [Return Values](./../return-values/)
  - [Default Parameters](./../default-parameters/)

@@ -41,9 +41,9 @@ def fibonacci(n):
 
 ### Related Python Concepts
 
-- [Functions](./../functions/): [Recursion](./../recursion/) is a special case of function calls where the function calls itself.
-- [Function Parameters](./../function-parameters/): Recursive [Functions](./../functions/) often use parameters to pass smaller subproblems to the recursive calls.
-- [Return Values](./../return-values/): Recursive [Functions](./../functions/) [Return Values](./../return-values/) that are used to calculate the final result.
-- [[Memoization in [Recursion](./../recursion/): Memoization techniques can optimize recursive [Functions](./../functions/) by caching previously calculated results.
-- [[Higher-Order [Functions](./../functions/): [Recursion](./../recursion/) can be used to implement [Higher-Order Functions](./../higher-order-functions/) that accept and return other [Functions](./../functions/).
+- [Python Functions](./../python-functions/): [Recursion](./../recursion/) is a special case of function calls where the function calls itself.
+- [Function Parameters](./../function-parameters/): Recursive [Python Functions](./../python-functions/) often use parameters to pass smaller subproblems to the recursive calls.
+- [Return Values](./../return-values/): Recursive [Python Functions](./../python-functions/) [Return Values](./../return-values/) that are used to calculate the final result.
+- [[Memoization in [Recursion](./../recursion/): Memoization techniques can optimize recursive [Python Functions](./../python-functions/) by caching previously calculated results.
+- [[Higher-Order [Python Functions](./../python-functions/): [Recursion](./../recursion/) can be used to implement [Higher-Order Functions](./../higher-order-functions/) that accept and return other [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)

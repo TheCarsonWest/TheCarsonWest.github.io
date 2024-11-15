@@ -6,7 +6,7 @@
 ## [Classes and Objects](./../classes-and-objects/)
 
 ### What are [Classes and Objects](./../classes-and-objects/)?
-In Python, classes are blueprints for creating objects. An object is an instance of a class, containing data and methods specific to that object. Classes define the attributes (variables) and methods ([functions](./../functions/)) that objects of that class will have.
+In Python, classes are blueprints for creating objects. An object is an instance of a class, containing data and methods specific to that object. Classes define the attributes (variables) and methods ([Python Functions](./../python-functions/)) that objects of that class will have.
 
 ### How to Use Classes
 **Creating a Class:**
@@ -77,7 +77,7 @@ print(student1.get_student_info()) # Output: Alice is 20 years old and has a gra
 ### Related Python Concepts
 
 - [Variables and Data Types](./../variables-and-data-types/): Classes and objects store data in their attributes.
-- [Functions](./../functions/): Methods are [functions](./../functions/) defined within classes.
+- [Python Functions](./../python-functions/): Methods are [Python Functions](./../python-functions/) defined within classes.
 - [Inheritance](./../inheritance/): Classes can inherit attributes and methods from parent classes.
 - [Modules and Packages](./../modules-and-packages/): Classes and objects can be defined in Python modules.
 - [Data Serialization (JSON, XML, Pickle)](./../data-serialization-(json-xml-pickle)/): Classes and objects can be serialized and deserialized for data exchange.

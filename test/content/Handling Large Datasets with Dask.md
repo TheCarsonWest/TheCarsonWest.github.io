@@ -11,7 +11,7 @@
 - Supports a wide range of operations, including data manipulation, aggregation, and machine learning algorithms.
 
 ### How to Use Dask
-- Dask offers various [functions](./../functions/) and data structures for working with large datasets.
+- Dask offers various [Python Functions](./../python-functions/) and data structures for working with large datasets.
 
 ### Code Examples
 - Creating a Dask dataframe from a local CSV file:

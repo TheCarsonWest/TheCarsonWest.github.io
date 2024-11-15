@@ -6,7 +6,7 @@
 # [APCHEM Home](./../apchem-home/)
 
 ## [Ideal Gas Laws](./../ideal-gas-laws/)
-## [Gas Constant](./../gas-constant/)
+## [Universal Gas Constant](./../universal-gas-constant/)
 # [Combined Gas Law](./../combined-gas-law/)
 
 ## [Deviations from Ideal Behavior(gasses)](./../deviations-from-ideal-behavior(gasses)/)
