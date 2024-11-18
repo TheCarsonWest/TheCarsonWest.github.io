@@ -15,7 +15,7 @@
 
 * **[Compromise of 1850](./../compromise-of-1850/):** Signed into law a series of measures that aimed to resolve sectional tensions over slavery and the expansion of slavery into new territories.
 * **[Fugitive Slave Act](./../fugitive-slave-act/):** Enacted a law that criminalized the aiding and abetting of fugitive slaves and provided incentives for their capture and return.
-* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act:** Passed a law that repealed the [Missouri](./../missouri/) Compromise and allowed for popular sovereignty in [Kansas](./../kansas/) and [Nebraska](./../nebraska/).
+* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act:** Passed a law that repealed the [Missouri](./../missouri/) Compromise and allowed for [popular sovereignty](./../popular-sovereignty/) in [Kansas](./../kansas/) and [Nebraska](./../nebraska/).
 
 **Important Legislation Signed:**
 

@@ -1,5 +1,5 @@
 +++
- title = 'Popular Sovereignty(antebellum)'
+ title = 'Popular Sovereignty'
 [params]
 	author = 'Carson West'
 +++

@@ -1,5 +1,5 @@
 +++
- title = 'Radical Republicans(reconstruction era)'
+ title = 'Radical Republicans'
 [params]
 	author = 'Carson West'
 +++

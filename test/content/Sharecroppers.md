@@ -1,5 +1,5 @@
 +++
- title = 'Sharecroppers(reconstruction)'
+ title = 'Sharecroppers'
 [params]
 	author = 'Carson West'
 +++

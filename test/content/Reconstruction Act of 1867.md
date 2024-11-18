@@ -8,7 +8,7 @@
 ## When: March 2, 1867
 
 ## Who: 
-* **Congress:** The Radical Republicans in Congress, led by figures like Thaddeus Stevens and Charles Sumner, were the primary force behind the act.
+* **Congress:** The [Radical Republicans](./../radical-republicans/) in Congress, led by figures like Thaddeus Stevens and Charles Sumner, were the primary force behind the act.
 * **President [Andrew Johnson](./../andrew-johnson/):** He strongly opposed the act and vetoed it, but Congress overrode his veto.
 
 ## What: 

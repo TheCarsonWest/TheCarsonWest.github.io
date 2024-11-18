@@ -14,7 +14,7 @@
 A series of five bills passed by Congress to address the issue of slavery in newly acquired territories after the Mexican-American War. 
 **Key Provisions:**
 * [California](./../california/) admitted as a free state.
-* [New Mexico](./../new-mexico/) and [Utah](./../utah/) territories organized with popular sovereignty (residents decide on slavery).
+* [New Mexico](./../new-mexico/) and [Utah](./../utah/) territories organized with [popular sovereignty](./../popular-sovereignty/) (residents decide on slavery).
 * [Texas](./../texas/)-[New Mexico](./../new-mexico/) boundary dispute resolved in favor of [New Mexico](./../new-mexico/).
 * Stronger [Fugitive Slave Act](./../fugitive-slave-act/) enacted.
 * Slave trade abolished in [Washington](./../washington/), D.C. 

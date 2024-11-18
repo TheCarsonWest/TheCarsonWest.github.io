@@ -10,10 +10,10 @@
 ## Who: 
 * **Congress:** Passed the act over President [Andrew Johnson](./../andrew-johnson/)'s veto
 * **[Abraham Lincoln](./../abraham-lincoln/):** Although he had passed away, his vision of racial equality strongly influenced the Act's passage. 
-* **Radical Republicans:** Led by Thaddeus Stevens and Charles Sumner, they championed the act as a means of guaranteeing equal rights for African Americans.
+* **[Radical Republicans](./../radical-republicans/):** Led by Thaddeus Stevens and Charles Sumner, they championed the act as a means of guaranteeing equal rights for African Americans.
 
 ## What:
-The Civil Rights Act of 1866 was a landmark piece of legislation that declared all persons born in the [United States](./../united-states/), regardless of race, to be citizens and granted them equal protection of the laws. It also nullified the Black Codes enacted by Southern states to limit the rights of freedmen.
+The Civil Rights Act of 1866 was a landmark piece of legislation that declared all persons born in the [United States](./../united-states/), regardless of race, to be citizens and granted them equal protection of the laws. It also nullified the [Black Codes](./../black-codes/) enacted by Southern states to limit the rights of freedmen.
 
 ## Impact: Why Significant?
 * **Foundation for the [14th amendment](./../14th-amendment/):** The Act served as a blueprint for the Fourteenth Amendment, which later enshrined these rights in the Constitution.

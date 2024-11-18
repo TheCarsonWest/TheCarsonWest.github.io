@@ -1,5 +1,5 @@
 +++
- title = 'Jim Crow Laws(reconstruction)'
+ title = 'Jim Crow Laws'
 [params]
 	author = 'Carson West'
 +++

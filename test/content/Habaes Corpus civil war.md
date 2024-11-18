@@ -1,5 +1,5 @@
 +++
- title = 'Habaes Corpus(civil war)'
+ title = 'Habaes Corpus civil war'
 [params]
 	author = 'Carson West'
 +++

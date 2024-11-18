@@ -1,5 +1,5 @@
 +++
- title = 'Black Codes(reconstruction era)'
+ title = 'Black Codes'
 [params]
 	author = 'Carson West'
 +++

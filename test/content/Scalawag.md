@@ -1,5 +1,5 @@
 +++
- title = 'Scalawag(reconstruction era)'
+ title = 'Scalawag'
 [params]
 	author = 'Carson West'
 +++
