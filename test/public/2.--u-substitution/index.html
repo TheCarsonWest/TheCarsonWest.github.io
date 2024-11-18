@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Calc Rules and theorems | Nerd-Emoji Web</title>
+    <title>2.  u-Substitution | Nerd-Emoji Web</title>
     <style>
       body {
           font-family: 'Open Sans'
@@ -39,21 +39,29 @@
     <hr/>
     </nav>
 <div class="article-meta">
-<h1><span class="title">Calc Rules and theorems</span></h1>
+<h1><span class="title"><ol start="2">
+<li>u-Substitution</li>
+</ol>
+</span></h1>
 <h2 class="author">Carson West</h2>
 
 </div>
 
 <main>
-<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
-<h2 id="derivative-rulesderivative-rules"><a href="./../derivative-rules/">Derivative Rules</a></h2>
-<h2 id="lhopitals-rulelhopitals-rule"><a href="./../lhopitals-rule/">LHopitals Rule</a></h2>
-<h2 id="squeeze-theoremsqueeze-theorem"><a href="./../squeeze-theorem/">Squeeze Theorem</a></h2>
-<h2 id="intermediate-value-theoremintermediate-value-theorem"><a href="./../intermediate-value-theorem/">Intermediate Value Theorem</a></h2>
-<h2 id="mean-value-theoremmean-value-theorem"><a href="./../mean-value-theorem/">Mean Value Theorem</a></h2>
-<h2 id="extreme-value-theoremextreme-value-theorem"><a href="./../extreme-value-theorem/">Extreme Value Theorem</a></h2>
-<h2 id="rolles-theoremrolles-theorem"><a href="./../rolles-theorem/">Rolles Theorem</a></h2>
-<h2 id="fundamental-theorem-of-calculusfundamental-theorem-of-calculus"><a href="./../fundamental-theorem-of-calculus/">Fundamental Theorem of Calculus</a></h2>
+<h2 id="2--u-substitution">2.  u-Substitution</h2>
+<p>This is the most fundamental technique for simplifying integrals.  It involves substituting a part of the integrand with a new variable,  $ u $ , to make the integral easier to solve.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>Choose a suitable substitution,  $ u = g(x) $ , where  $ g(x) $  is a part of the integrand.</li>
+<li>Find  $ du = g&rsquo;(x) dx $ .</li>
+<li>Rewrite the integral in terms of  $ u $  and  $ du $ .</li>
+<li>Integrate with respect to  $ u $ .</li>
+<li>Substitute back  $ x $  for  $ u $  in the result.</li>
+</ol>
+<p><strong>Example:</strong>  $ \int x(x^2 + 1)^3 dx $</p>
+<p>Let  $ u = x^2 + 1 $ , then  $ du = 2x dx $ , so  $ x dx = \frac{1}{2} du $ .</p>
+<p>The integral becomes:  $ \int u^3 \frac{1}{2} du = \frac{1}{8}u^4 + C = \frac{1}{8}(x^2 + 1)^4 + C $</p>
+<h1 id="techniques-of-integrationtechniques-of-integration"><a href="./../techniques-of-integration/">Techniques of Integration</a></h1>
 
 </main>
 

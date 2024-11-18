@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Calc home](./../calc-home/)
-Limits are a fundamental concept in calculus that describe the behavior of a function as its input approaches a certain value. They are essential for understanding [Continuity](./../continuity/), derivatives, and integrals.
+Limits are a fundamental concept in calculus that describe the behavior of a function as its input approaches a certain value. They are essential for understanding [Continuity](./../continuity/), derivatives, and [integrals](./../integrals/).
 
 ### Definition of a Limit
 
@@ -51,11 +51,11 @@ The [Intermediate Value Theorem](./../intermediate-value-theorem/) states that i
 Limits have numerous applications in calculus and other areas of mathematics, including:
 
 * **[Derivative](./../derivative/):** The derivative of a function at a point is defined as the limit of the difference quotient.
-* **[Integrals](./../integrals/):** The definite integral of a function over an interval is defined as the limit of a Riemann sum.
+* **[integrals](./../integrals/):** The definite integral of a function over an interval is defined as the limit of a Riemann sum.
 * **[Continuity](./../continuity/):** Limits are used to define and understand [Continuity](./../continuity/), which is a fundamental concept in calculus and analysis.
 * **Optimization:** Limits can be used to find the maximum or minimum values of a function.
 * **Approximation:** Limits can be used to approximate the value of a function at a point or the area under a curve.
 
 ### Conclusion
 
-Limits are a fundamental concept in calculus that play a crucial role in understanding the behavior of functions and their applications. By understanding limits, we can gain a deeper understanding of [Continuity](./../continuity/), derivatives, integrals, and other important concepts in calculus.
+Limits are a fundamental concept in calculus that play a crucial role in understanding the behavior of functions and their applications. By understanding limits, we can gain a deeper understanding of [Continuity](./../continuity/), derivatives, [integrals](./../integrals/), and other important concepts in calculus.

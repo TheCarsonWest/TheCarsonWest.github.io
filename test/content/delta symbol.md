@@ -1,5 +1,5 @@
 +++
- title = 'delta'
+ title = 'delta symbol'
 [params]
 	author = 'Carson West'
 +++

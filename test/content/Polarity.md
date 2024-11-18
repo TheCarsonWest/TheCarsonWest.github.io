@@ -18,7 +18,7 @@ used in [intermolecular forces](./../intermolecular-forces/)
 				- If yes, then yes
 				- If no, then no
 # How to figure out how polar a polar molecule is
-## Get the [delta](./../delta/) of the [Electronegativity](./../electronegativity/)s of your outward-facing positive and your outward-facing negative atoms(only one)
+## Get the [delta symbol](./../delta-symbol/) of the [Electronegativity](./../electronegativity/)s of your outward-facing positive and your outward-facing negative atoms(only one)
 - Big number = more polar
 - Small number = not very polar
 Theres also [dipole](./../dipole/) moments but it literally gives the same information but is more complicated

@@ -12,3 +12,4 @@
 ## [Mean Value Theorem](./../mean-value-theorem/)
 ## [Extreme Value Theorem](./../extreme-value-theorem/)
 ## [Rolles Theorem](./../rolles-theorem/)
+## [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/)

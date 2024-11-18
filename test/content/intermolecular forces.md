@@ -4,14 +4,14 @@
 	author = 'Carson West'
 +++
 [Chemical Bonds](./../chemical-bonds/)
-# Uses little delta δ symbol(different than [delta](./../delta/))
+# Uses little delta δ symbol(different than [delta symbol](./../delta-symbol/))
 
 ## Atoms in molecules have partial charges because electrons are goofy 
 ## IMFS are never as strong as [chemical bonds](./../chemical-bonds/)
 #  $$ Na^{δ+}\ \ \textemdash\ \ \ Cl^{δ-} $$  - High [Polarity](./../polarity/) molecules will have high intermolecular attraction 
 	-  Things will attract each other a certain amount based on [Electronegativity](./../electronegativity/)
 	- **All Ionic Compounds are polar** because all the positive sides of ionic molecules have low [electronegativity](./../electronegativity/)
-	- Covalent Compounds get [polarity](./../polarity/) based on the [delta](./../delta/) of their [electronegativity](./../electronegativity/)
+	- Covalent Compounds get [polarity](./../polarity/) based on the [delta symbol](./../delta-symbol/) of their [electronegativity](./../electronegativity/)
 	- See [Polarity](./../polarity/)
 
 

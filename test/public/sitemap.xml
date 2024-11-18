@@ -2,11 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://example.org/1.-basic-integration-formulas/</loc>
+  </url><url>
     <loc>http://example.org/13th-amendment/</loc>
   </url><url>
     <loc>http://example.org/14th-amendment/</loc>
   </url><url>
     <loc>http://example.org/15th-amendment/</loc>
+  </url><url>
+    <loc>http://example.org/2.--u-substitution/</loc>
+  </url><url>
+    <loc>http://example.org/3.-integration-by-parts/</loc>
+  </url><url>
+    <loc>http://example.org/4.-trigonometric-integrals/</loc>
+  </url><url>
+    <loc>http://example.org/5.-trigonometric-substitution/</loc>
+  </url><url>
+    <loc>http://example.org/6.-partial-fraction-decomposition/</loc>
+  </url><url>
+    <loc>http://example.org/7.-numerical-integration-approximation-methods/</loc>
   </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
@@ -37,6 +51,8 @@
     <loc>http://example.org/andrew-jackson/</loc>
   </url><url>
     <loc>http://example.org/andrew-johnson/</loc>
+  </url><url>
+    <loc>http://example.org/antiderivatives/</loc>
   </url><url>
     <loc>http://example.org/ap-chem-experiments/</loc>
   </url><url>
@@ -206,6 +222,8 @@
   </url><url>
     <loc>http://example.org/connecticut/</loc>
   </url><url>
+    <loc>http://example.org/constant-of-integration/</loc>
+  </url><url>
     <loc>http://example.org/constant-rule/</loc>
   </url><url>
     <loc>http://example.org/constitution-of-the-united-states/</loc>
@@ -262,7 +280,7 @@
   </url><url>
     <loc>http://example.org/delaware/</loc>
   </url><url>
-    <loc>http://example.org/delta/</loc>
+    <loc>http://example.org/delta-symbol/</loc>
   </url><url>
     <loc>http://example.org/democracy-in-america/</loc>
   </url><url>
@@ -384,6 +402,8 @@
   </url><url>
     <loc>http://example.org/functional-region/</loc>
   </url><url>
+    <loc>http://example.org/fundamental-theorem-of-calculus/</loc>
+  </url><url>
     <loc>http://example.org/garbage-collection/</loc>
   </url><url>
     <loc>http://example.org/generators/</loc>
@@ -487,6 +507,8 @@
     <loc>http://example.org/inflection-points/</loc>
   </url><url>
     <loc>http://example.org/inheritance/</loc>
+  </url><url>
+    <loc>http://example.org/integrals/</loc>
   </url><url>
     <loc>http://example.org/intermediate-value-theorem/</loc>
   </url><url>
@@ -832,6 +854,8 @@
   </url><url>
     <loc>http://example.org/richard-nixon/</loc>
   </url><url>
+    <loc>http://example.org/riemann-sums/</loc>
+  </url><url>
     <loc>http://example.org/rolles-theorem/</loc>
   </url><url>
     <loc>http://example.org/ronald-reagan/</loc>
@@ -900,6 +924,8 @@
   </url><url>
     <loc>http://example.org/tea-act/</loc>
   </url><url>
+    <loc>http://example.org/techniques-of-integration/</loc>
+  </url><url>
     <loc>http://example.org/tenant-farming/</loc>
   </url><url>
     <loc>http://example.org/tennessee/</loc>
@@ -937,6 +963,8 @@
     <loc>http://example.org/townshend-act/</loc>
   </url><url>
     <loc>http://example.org/transcendentalism/</loc>
+  </url><url>
+    <loc>http://example.org/trapezoidal-rule/</loc>
   </url><url>
     <loc>http://example.org/treaty-of-ghent/</loc>
   </url><url>
