@@ -11,7 +11,7 @@ DataFrames are a data structure in the Pandas library that represents tabular da
 ### How to Use DataFrames
 To create a DataFrame, you can use the `pandas.DataFrame()` constructor. The constructor takes a variety of arguments, including:
 
-- `data`: A two-dimensional array, list of dictionaries, or another DataFrame.
+- `data`: A two-dimensional array, list of [Dictionaries](./../dictionaries/), or another DataFrame.
 - `index`: An array-like object to use as the index (row labels).
 - `columns`: An array-like object to use as the columns (column labels).
 
@@ -28,8 +28,8 @@ df = pd.DataFrame(arr)
 
 ### Related Python Concepts
 - [NumPy](./../numpy/): DataFrames rely on NumPy arrays for data storage.
-- [Lists](./../lists/): DataFrames can be created from lists of dictionaries.
-- [Dictionaries](./../dictionaries/): DataFrames can be created from dictionaries.
+- [Lists](./../lists/): DataFrames can be created from [Lists](./../lists/) of [Dictionaries](./../dictionaries/).
+- [Dictionaries](./../dictionaries/): DataFrames can be created from [Dictionaries](./../dictionaries/).
 - [Python Functions](./../python-functions/): Methods on DataFrames are essentially [Python Functions](./../python-functions/) that operate on the data in the DataFrame.
 - [Modules and Packages](./../modules-and-packages/): Pandas is a module that provides the DataFrame data structure.
 # [Python 1 Home](./../python-1-home/)

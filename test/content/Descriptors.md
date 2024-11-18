@@ -15,7 +15,7 @@
 - **__set__(self, instance, value)**: Invoked when the attribute is assigned a new value.
 - **__delete__(self, instance)**: Invoked when the attribute is deleted.
 
-The first parameter (`self`) represents the descriptor instance, the second (`instance`) is the object instance the attribute belongs to, and the third (`owner`) is the class that owns the attribute (may be different from `instance` in inheritance scenarios).
+The first parameter (`self`) represents the descriptor instance, the second (`instance`) is the object instance the attribute belongs to, and the third (`owner`) is the class that owns the attribute (may be different from `instance` in [Inheritance](./../inheritance/) scenarios).
 
 ### Code Examples
 ```python
@@ -40,7 +40,7 @@ print(e.name) # Output: "JOHN DOE"
 
 ### Other Python Concepts Closely Related to [Descriptors](./../descriptors/)
 
-- [Metaclasses](./../metaclasses/): [Descriptors](./../descriptors/) can be used with metaclasses to modify the behavior of classes themselves.
+- [Metaclasses](./../metaclasses/): [Descriptors](./../descriptors/) can be used with [Metaclasses](./../metaclasses/) to modify the behavior of classes themselves.
 - [Properties](./../properties/): Properties provide a way to define getter, setter, and deleter methods for object attributes, similar to descriptors.
 - [Decorators](./../decorators/): [Decorators](./../decorators/) can also be used to modify object attributes, although descriptors offer more flexibility and control.
 - [Class and Objects](./../class-and-objects/): [Descriptors](./../descriptors/) operate on object attributes, providing a means to define custom behavior for these attributes.

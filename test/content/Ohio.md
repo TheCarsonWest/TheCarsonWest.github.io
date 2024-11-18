@@ -15,8 +15,8 @@
 * **1854:** [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act passes, repealing the [Missouri](./../missouri/) Compromise and opening [Ohio](./../ohio/) to slavery.
 * **1857:** Oberlin-Wellington Rescue, a raid on a slave jail.
 * **1861:** [Ohio](./../ohio/) secedes from the Union and joins the Confederacy during the Civil War.
-* **1863:** Emancipation Proclamation issued, freeing slaves in [Ohio](./../ohio/).
-* **1865:** [Ohio](./../ohio/) ratifies the 13th Amendment, abolishing slavery.
+* **1863:** [Emancipation Proclamation](./../emancipation-proclamation/) issued, freeing slaves in [Ohio](./../ohio/).
+* **1865:** [Ohio](./../ohio/) ratifies the [13th amendment](./../13th-amendment/), abolishing slavery.
 * **1912:** Wright brothers make the first successful airplane flight in [Ohio](./../ohio/).
 * **1936:** Congress passes the Soil Conservation and Domestic Allotment Act, providing financial assistance to [Ohio](./../ohio/) farmers.
 * **1954:** Supreme Court rules in Brown v. Board of Education that racial segregation in public schools is unconstitutional.

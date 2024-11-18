@@ -38,11 +38,11 @@ print(json_data['name']) # Output: John
 
 ### Related Python Concepts
 
-- [Modules and Packages](./../modules-and-packages/): Dynamic importing provides a way to dynamically load modules and packages.
+- [Modules and Packages](./../modules-and-packages/): Dynamic importing provides a way to dynamically load [Modules and Packages](./../modules-and-packages/).
 - [Importing Modules](./../importing-modules/): Dynamic importing is an alternative to static importing.
 - [Variables and Data Types](./../variables-and-data-types/): Dynamic importing relies on strings to represent module names.
 - [Python Functions](./../python-functions/): The `importlib.import_module()` and `importlib.reload()` [Python Functions](./../python-functions/) are used for dynamic importing.
-- [Decorators](./../decorators/): Dynamic importing can be used in conjunction with decorators to load modules based on runtime conditions.
+- [Decorators](./../decorators/): Dynamic importing can be used in conjunction with [Decorators](./../decorators/) to load modules based on runtime conditions.
 - [Building and Distributing Python Packages](./../building-and-distributing-python-packages/)
 - 
 # [Python 1 Home](./../python-1-home/)

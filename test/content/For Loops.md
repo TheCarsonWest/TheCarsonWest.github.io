@@ -34,9 +34,9 @@ for number in range(10):
 
 ## Related Python Concepts
 
-- [Lists](./../lists/): For loops are commonly used to iterate over lists of elements.
-- [Tuples](./../tuples/): For loops can also be used to iterate over tuples of elements.
+- [Lists](./../lists/): For loops are commonly used to iterate over [Lists](./../lists/) of elements.
+- [Tuples](./../tuples/): For loops can also be used to iterate over [Tuples](./../tuples/) of elements.
 - [Strings](./../strings/): For loops can be used to iterate over the characters in a string.
-- [List Comprehension](./../list-comprehension/): For loops can be used to generate new lists through list comprehension.
-- [Generators](./../generators/): For loops can be used to iterate over generators, which are objects that yield values one at a time.
+- [List Comprehension](./../list-comprehension/): For loops can be used to generate new [Lists](./../lists/) through [List Comprehension](./../list-comprehension/).
+- [Generators](./../generators/): For loops can be used to iterate over [Generators](./../generators/), which are objects that yield values one at a time.
 # [Python 1 Home](./../python-1-home/)

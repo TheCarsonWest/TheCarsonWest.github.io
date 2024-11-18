@@ -41,7 +41,7 @@ In this example, the `animals` list contains both a `Duck` instance and a `Swan`
 
 - [Variables and Data Types](./../variables-and-data-types/): Duck typing heavily relies on dynamic type checking at runtime, rather than static type checking.
 - [Classes and Objects](./../classes-and-objects/): Duck typing allows objects to be used interchangeably as long as they have similar behaviors, regardless of their class hierarchy.
-- [Inheritance](./../inheritance/): Duck typing can be used in place of inheritance to create polymorphic behavior.
+- [Inheritance](./../inheritance/): Duck typing can be used in place of [Inheritance](./../inheritance/) to create polymorphic behavior.
 - [Polymorphism](./../polymorphism/): Duck typing enables objects to respond differently to the same method calls, based on their actual behavior.
-- [Encapsulation](./../encapsulation/): Duck typing emphasizes the behavior of objects rather than their internal implementation, promoting a level of encapsulation.
+- [Encapsulation](./../encapsulation/): Duck typing emphasizes the behavior of objects rather than their internal implementation, promoting a level of [Encapsulation](./../encapsulation/).
 # [Python 1 Home](./../python-1-home/)

@@ -13,7 +13,7 @@ Function overloading is a feature that allows multiple [Python Functions](./../p
 
 Python does not directly support function overloading. However, there are ways to mimic its behavior:
 
-- ** [Default Parameters](./../default-parameters/)**: Using default parameters allows for variation in the number of input arguments.
+- ** [Default Parameters](./../default-parameters/)**: Using [Default Parameters](./../default-parameters/) allows for variation in the number of input arguments.
  - Example:
  ```python
  def calculate_area(length, width=1):
@@ -47,8 +47,8 @@ print(calculate_average(10, 20, 30)) # 20.0
 ## Related Python Concepts
 
 - [Python Functions](./../python-functions/): Function overloading mimics the behavior of multiple [Python Functions](./../python-functions/) with the same name.
-- [Default Parameters](./../default-parameters/): Default parameters permitem [Python Functions](./../python-functions/) to have optional input arguments.
+- [Default Parameters](./../default-parameters/): [Default Parameters](./../default-parameters/) permitem [Python Functions](./../python-functions/) to have optional input arguments.
 - [Function Parameters](./../function-parameters/): Overloaded [Python Functions](./../python-functions/) require different sets of parameters.
 - [Variable and Data Types](./../variable-and-data-types/): Overloaded [Python Functions](./../python-functions/) may accept different types of input arguments.
-- [Polymorphism](./../polymorphism/): Function overloading can be seen as a form of polymorphism.
+- [Polymorphism](./../polymorphism/): Function overloading can be seen as a form of [Polymorphism](./../polymorphism/).
 # [Python 1 Home](./../python-1-home/)

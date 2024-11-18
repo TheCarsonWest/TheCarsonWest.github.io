@@ -12,7 +12,7 @@
 * **1849:** [California](./../california/) Gold Rush brings thousands of prospectors through [Missouri](./../missouri/).
 * **1861:** [Missouri](./../missouri/) remains in the Union during the Civil War, despite strong Confederate sympathies.
 * **1865:** Slavery is abolished in [Missouri](./../missouri/).
-* **1870:** [Missouri](./../missouri/) Compromise is overturned by the 14th Amendment.
+* **1870:** [Missouri](./../missouri/) Compromise is overturned by the [14th amendment](./../14th-amendment/).
 * **1875:** Grangers' Revolt highlights economic disparities in [Missouri](./../missouri/).
 * **1893:** World's Columbian Exposition held in Chicago, featuring [Missouri](./../missouri/) exhibits.
 * **1904:** [Louisiana](./../louisiana/) Purchase]] Exposition held in St. Louis, showcasing [Missouri](./../missouri/)'s progress.

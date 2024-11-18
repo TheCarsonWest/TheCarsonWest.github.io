@@ -14,7 +14,7 @@
 
 **Important Legislation Signed:**
 
-* Fugitive Slave Act of 1854: Strengthened the federal government's enforcement of the Fugitive Slave Law.
+* [Fugitive Slave Act](./../fugitive-slave-act/) of 1854: Strengthened the federal government's enforcement of the Fugitive Slave Law.
 * [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act (1854): Repealed the [Missouri](./../missouri/) Compromise, setting the stage for the Civil War.
 
 **Groups Associated With:**

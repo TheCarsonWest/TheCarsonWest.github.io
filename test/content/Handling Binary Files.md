@@ -6,7 +6,7 @@
 ## [Handling Binary Files](./../handling-binary-files/) in Python
 
 ### What is Binary [File Handling](./../file-handling/)?
-Binary file handling involves working with files that contain non-textual data, such as images, videos, audio, or executable files. Unlike text files, binary files store data in raw binary form, consisting of sequences of 0s and 1s.
+Binary [File Handling](./../file-handling/) involves working with files that contain non-textual data, such as images, videos, audio, or executable files. Unlike text files, binary files store data in raw binary form, consisting of sequences of 0s and 1s.
 
 ### How to Use Binary [File Handling](./../file-handling/)
 Python provides the `open()` function for handling binary files. The `mode` parameter of `open()` should be set to 'rb' for reading binary files and 'wb' for writing binary files.
@@ -61,9 +61,9 @@ wav_file.close()
 ```
 
 ### Related Python Concepts
-- [File Handling](./../file-handling/): Binary file handling is an extension of general file handling in Python.
-- [File IO Modes](./../file-io-modes/): The 'rb' and 'wb' modes are used specifically for binary file handling.
+- [File Handling](./../file-handling/): Binary [File Handling](./../file-handling/) is an extension of general [File Handling](./../file-handling/) in Python.
+- [File IO Modes](./../file-io-modes/): The 'rb' and 'wb' modes are used specifically for binary [File Handling](./../file-handling/).
 - [Bytes and Bytearrays](./../bytes-and-bytearrays/): Binary data is stored in bytearrays, which contain sequences of 0s and 1s.
-- [Streams](./../streams/): Binary file handling often involves working with streams of data as opposed to specific characters.
+- [Streams](./../streams/): Binary [File Handling](./../file-handling/) often involves working with streams of data as opposed to specific characters.
 - [Images, Videos, and Audio](./../images-videos-and-audio/): Binary files commonly store data for these multimedia types.
 # [Python 1 Home](./../python-1-home/)

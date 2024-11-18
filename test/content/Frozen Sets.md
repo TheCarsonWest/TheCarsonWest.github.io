@@ -29,5 +29,5 @@ names.add("Dave")
 - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Frozen sets are immutable, while sets are mutable.
 - [Variables and Data Types](./../variables-and-data-types/): Frozen sets store unique elements of various types.
 - [Python Functions](./../python-functions/): The `frozenset()` function is used to create frozen sets.
-- [For Loops](./../for-loops/): Frozen sets can be iterated over using for loops.
+- [For Loops](./../for-loops/): Frozen sets can be iterated over using [For Loops](./../for-loops/).
 # [Python 1 Home](./../python-1-home/)

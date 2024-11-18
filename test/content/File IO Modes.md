@@ -6,7 +6,7 @@
 ## [File IO Modes](./../file-io-modes/)
 
 ### Overview
-Python provides file handling modes to specify how the file is opened and how data is accessed. The mode specifies the usage of the file, such as reading, writing, or appending.
+Python provides [File Handling](./../file-handling/) modes to specify how the file is opened and how data is accessed. The mode specifies the usage of the file, such as reading, writing, or appending.
 
 ### File IO Mode Options
 | Mode | Description |
@@ -28,7 +28,7 @@ with open('filename.txt', mode='r') as file:
 ```
 
 ### Related Python Concepts
-- [File Handling](./../file-handling/): File IO modes are part of the Python file handling functionality.
-- [Context Managers](./../context-managers/): Context managers are used in Python to ensure proper resource management, including file handling.
+- [File Handling](./../file-handling/): File IO modes are part of the Python [File Handling](./../file-handling/) functionality.
+- [Context Managers](./../context-managers/): [Context Managers](./../context-managers/) are used in Python to ensure proper resource management, including [File Handling](./../file-handling/).
 - [Exceptions](./../exceptions/): Errors while working with files, such as file not found or permission denied, raise exceptions that need to be handled appropriately.
 # [Python 1 Home](./../python-1-home/)

@@ -19,7 +19,7 @@ A series of five bills passed by Congress to ease tensions between the North and
 
 * **Admission of [California](./../california/) as a free state:** This tipped the balance in the Senate in favor of free states.
 * **Strengthening the [Fugitive Slave Act](./../fugitive-slave-act/):** This required Northern states to return escaped slaves to their owners.
-* **Abolition of the slave trade in Washington D.C.:** However, slavery itself was not banned in the capital.
+* **Abolition of the slave trade in [Washington](./../washington/) D.C.:** However, slavery itself was not banned in the capital.
 * **Establishing a boundary between [Texas](./../texas/) and [New Mexico](./../new-mexico/):** This resolved a territorial dispute and left [New Mexico](./../new-mexico/)'s status open to popular sovereignty.
 * **Popular Sovereignty in the territories:** This allowed residents of territories to decide for themselves whether or not to allow slavery.
 

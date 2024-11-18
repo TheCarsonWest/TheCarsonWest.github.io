@@ -38,6 +38,6 @@ print(numbers) # Output: [2, 4, 1, 3, 5]
 - [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are essentially simplified versions of regular [Python Functions](./../python-functions/).
 - [Function Parameters](./../function-parameters/): Lambda [Python Functions](./../python-functions/) can receive arguments just like regular [Python Functions](./../python-functions/).
 - [[Higher-Order [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are often used as arguments to higher-order [Python Functions](./../python-functions/).
-- [Closures](./../closures/): Lambda [Python Functions](./../python-functions/) can access variables from the enclosing scope, creating closures.
+- [Closures](./../closures/): Lambda [Python Functions](./../python-functions/) can access variables from the enclosing scope, creating [Closures](./../closures/).
 - [Map, Filter, and Reduce](./../map-filter-and-reduce/): Lambda [Python Functions](./../python-functions/) commonly appear in these built-in [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)

@@ -80,8 +80,8 @@ Output:
 ### Python Concepts Most Closely Related
 
 - [Variables and Data Types](./../variables-and-data-types/): CLI programs use variables to store data and data types to define the type of data stored in variables.
-- [Operators](./../operators/): CLI programs use operators to perform mathematical and logical operations on data.
+- [Operators](./../operators/): CLI programs use [Operators](./../operators/) to perform mathematical and logical operations on data.
 - [Control Flow If Statements](./../control-flow-if-statements/): CLI programs use if statements to conditionally execute code based on a given condition.
-- [For Loops](./../for-loops/): CLI programs use for loops to iterate over sequences and perform actions for each element.
+- [For Loops](./../for-loops/): CLI programs use [For Loops](./../for-loops/) to iterate over sequences and perform actions for each element.
 - [Python Functions](./../python-functions/): CLI programs often use [Python Functions](./../python-functions/) to organize code and perform specific tasks.
 # [Python 1 Home](./../python-1-home/)

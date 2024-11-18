@@ -6,10 +6,10 @@
 ## [Bitwise [[Operators](./../bitwise-[[operators/)
 
 ### What are [Bitwise [[Operators](./../bitwise-[[operators/)?
-Bitwise operators perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.
+Bitwise [Operators](./../operators/) perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.
 
 ### How to Use [Bitwise [[Operators](./../bitwise-[[operators/)
-Bitwise operators are represented by symbols that indicate the specific operation to be performed on the bits of the operands. The operands must be integers or bitwise expressions. The result is a new integer that represents the modified binary value.
+Bitwise [Operators](./../operators/) are represented by symbols that indicate the specific operation to be performed on the bits of the operands. The operands must be integers or bitwise expressions. The result is a new integer that represents the modified binary value.
 
 ### Common [Bitwise [[Operators](./../bitwise-[[operators/)
 
@@ -24,9 +24,9 @@ Bitwise operators are represented by symbols that indicate the specific operatio
 
 ### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Bitwise operators operate on integers and bitwise expressions.
-- [Operators](./../operators/): Bitwise operators are a type of operator, distinct from arithmetic and logical operators.
-- [Lists](./../lists/): Bitwise operators can be applied to elements of lists containing integers.
-- [Tuples](./../tuples/): Bitwise operators can be applied to elements of tuples containing integers.
-- [Python Sets](./../python-sets/): Bitwise operators can be applied to elements of sets containing integers.
+- [Variables and Data Types](./../variables-and-data-types/): Bitwise [Operators](./../operators/) operate on integers and bitwise expressions.
+- [Operators](./../operators/): Bitwise [Operators](./../operators/) are a type of operator, distinct from arithmetic and logical [Operators](./../operators/).
+- [Lists](./../lists/): Bitwise [Operators](./../operators/) can be applied to elements of [Lists](./../lists/) containing integers.
+- [Tuples](./../tuples/): Bitwise [Operators](./../operators/) can be applied to elements of [Tuples](./../tuples/) containing integers.
+- [Python Sets](./../python-sets/): Bitwise [Operators](./../operators/) can be applied to elements of sets containing integers.
 # [Python 1 Home](./../python-1-home/)

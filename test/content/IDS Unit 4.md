@@ -20,7 +20,7 @@
 10. [Fugitive Slave Act](./../fugitive-slave-act/)
 11. [Popular Sovereignty(antebellum)](./../popular-sovereignty(antebellum)/)
 12. [Uncle Toms Cabin](./../uncle-toms-cabin/)
-13. [Kansas Nebraska Act](./../kansas-nebraska-act/)
+13. [Kansas-Nebraska Act](./../kansas-nebraska-act/)
 14. [Bleeding Kansas](./../bleeding-kansas/)
 15. [Dred Scott v Sandford](./../dred-scott-v-sandford/)
 16. [New Republican Party 1850](./../new-republican-party-1850/)

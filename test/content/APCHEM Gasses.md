@@ -10,3 +10,5 @@
 # [Combined Gas Law](./../combined-gas-law/)
 
 ## [Deviations from Ideal Behavior(gasses)](./../deviations-from-ideal-behavior(gasses)/)
+
+## [Van Der Waals Calculator](https://www.desmos.com/calculator/dfwqngruiv)

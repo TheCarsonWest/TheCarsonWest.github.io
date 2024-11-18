@@ -54,5 +54,5 @@ my_dog.bark() # Output: Woof!
 - [Polymorphism](./../polymorphism/): Child classes can override methods from the parent class, allowing different behaviors for objects of the same type.
 - [Encapsulation](./../encapsulation/): [Inheritance](./../inheritance/) enables the reuse of protected and public attributes and methods, providing a level of abstraction and data hiding.
 - [Modules and Packages](./../modules-and-packages/): [Inheritance](./../inheritance/) can be used to organize and structure code modules by creating hierarchies of related classes.
-- [Abstract Classes](./../abstract-classes/): Abstract classes can be used as parent classes to define common interfaces that child classes must implement.
+- [Abstract Classes](./../abstract-classes/): [Abstract Classes](./../abstract-classes/) can be used as parent classes to define common interfaces that child classes must implement.
 # [Python 1 Home](./../python-1-home/)

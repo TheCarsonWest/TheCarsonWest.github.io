@@ -6,7 +6,7 @@
 ## [Custom [[Context Managers](./../custom-[[context-managers/)
 
 ### What are [Custom [[Context Managers](./../custom-[[context-managers/)?
-Custom context managers provide a way to define a block of code that should be executed before and after a specific operation. They are used to automate resource management tasks, such as opening and closing files or acquiring and releasing locks.
+Custom [Context Managers](./../context-managers/) provide a way to define a block of code that should be executed before and after a specific operation. They are used to automate resource management tasks, such as opening and closing files or acquiring and releasing locks.
 
 ### How to Use [Custom [[Context Managers](./../custom-[[context-managers/)
 To create a custom context manager, you need to define a class that implements the __enter__ and __exit__ methods. The __enter__ method is called when the context manager is entered, and the __exit__ method is called when the context manager is exited (regardless of whether an exception was raised).
@@ -31,9 +31,9 @@ with MyContextManager() as obj:
 
 ### Related Python Concepts
 
-- [Context Managers](./../context-managers/): Custom context managers extend the functionality of built-in context managers.
-- [File Handling](./../file-handling/): Custom context managers can be used to open and close files automatically.
-- [Exception Handling](./../exception-handling/): Custom context managers can be used to handle exceptions gracefully.
-- [Classes and Objects](./../classes-and-objects/): Custom context managers are implemented as classes.
-- [Decorators](./../decorators/): Custom context managers can be implemented using decorators (@contextmanager).
+- [Context Managers](./../context-managers/): Custom [Context Managers](./../context-managers/) extend the functionality of built-in [Context Managers](./../context-managers/).
+- [File Handling](./../file-handling/): Custom [Context Managers](./../context-managers/) can be used to open and close files automatically.
+- [Exception Handling](./../exception-handling/): Custom [Context Managers](./../context-managers/) can be used to handle exceptions gracefully.
+- [Classes and Objects](./../classes-and-objects/): Custom [Context Managers](./../context-managers/) are implemented as classes.
+- [Decorators](./../decorators/): Custom [Context Managers](./../context-managers/) can be implemented using [Decorators](./../decorators/) (@contextmanager).
 # [Python 1 Home](./../python-1-home/)

@@ -60,5 +60,5 @@ if response.status_code == 201:
 - [HTTP](./../http/): The library is designed for working with HTTP protocols and API endpoints.
 - [JSON](./../json/): The Requests library can parse and handle JSON responses.
 - [Exception Handling](./../exception-handling/): Requests can raise exceptions in case of errors during the request or response handling.
-- [File Handling](./../file-handling/): The response body can be written to a file using file handling concepts.
+- [File Handling](./../file-handling/): The response body can be written to a file using [File Handling](./../file-handling/) concepts.
 # [Python 1 Home](./../python-1-home/)

@@ -31,7 +31,7 @@
 **Major Industry**
 
 * **Agriculture:** [Pennsylvania](./../pennsylvania/) was a major agricultural producer, particularly of wheat, corn, and rye.
-* **Mining:** [Pennsylvania](./../pennsylvania/) had abundant coal and iron ore deposits, making it a center of industry during the Industrial Revolution.
+* **Mining:** [Pennsylvania](./../pennsylvania/) had abundant coal and iron ore deposits, making it a center of industry during the [Industrial Revolution](./../industrial-revolution/).
 * **Manufacturing:** [Pennsylvania](./../pennsylvania/) became a major manufacturing center, producing textiles, iron, steel, and machinery.
 
 **Impact on the Rest of the Country**

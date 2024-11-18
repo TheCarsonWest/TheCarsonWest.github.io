@@ -9,7 +9,7 @@
 
 ## Who:
 * **Samuel J. Tilden:** Democratic Presidential Candidate 
-* **Rutherford B. Hayes:** Republican Presidential Candidate 
+* **[Rutherford B. Hayes](./../rutherford-b.-hayes/):** Republican Presidential Candidate 
 * **The Electoral Commission:** A bipartisan group created by Congress to settle the disputed election results. 
 * **Southern [Democrats](./../democrats/):**  They supported Tilden and made concessions in exchange for the withdrawal of federal troops from the South.
 

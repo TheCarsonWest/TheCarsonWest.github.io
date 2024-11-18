@@ -35,9 +35,9 @@ if user_is_admin():
 ## Related Python Concepts
 
 - [Variables and Data Types](./../variables-and-data-types/): If statements rely on Boolean data types to evaluate conditions.
-- [Operators](./../operators/): Comparison operators like `>` and `==` are used to create conditions in if statements.
+- [Operators](./../operators/): Comparison [Operators](./../operators/) like `>` and `==` are used to create conditions in if statements.
 - [Python Functions](./../python-functions/): If statements can be used to conditionally call [Python Functions](./../python-functions/).
-- [For Loops](./../for-loops/): If statements can be used to control the execution of for loops.
-- [While Loops](./../while-loops/): If statements can be used to terminate or continue the execution of while loops.
+- [For Loops](./../for-loops/): If statements can be used to control the execution of [For Loops](./../for-loops/).
+- [While Loops](./../while-loops/): If statements can be used to terminate or continue the execution of [While Loops](./../while-loops/).
 
 # [Python 1 Home](./../python-1-home/)

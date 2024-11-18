@@ -4,20 +4,29 @@
 	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
+# [Calc Rules and theorems](./../calc-rules-and-theorems/)
 # Unit 1
-## [Calculus Limits](./../calculus-limits/)
-## [Derivative Rules](./../derivative-rules/)
+### [Calculus Limits](./../calculus-limits/)
+### [Indeterminate Forms](./../indeterminate-forms/)
+# Unit 2/3 (derivative stuff)
 
-## [Indeterminate Forms](./../indeterminate-forms/)
+### [Implicit Differentiation](./../implicit-differentiation/)
 
-## [Intermediate Value Theorem](./../intermediate-value-theorem/)
+### [Inverse Differentiation](./../inverse-differentiation/)
 
-# [Implicit Differentiation](./../implicit-differentiation/)
+### [Higher Order Derivatives](./../higher-order-derivatives/)
 
-# [Inverse Differentiation](./../inverse-differentiation/)
+# Unit 4(Applications of derivatives)
+### [Contextual Applications of Derivatives](./../contextual-applications-of-derivatives/)
 
-# [Higher Order Derivatives](./../higher-order-derivatives/)
+### [Straight Line motion](./../straight-line-motion/)
+### [Local Linearity](./../local-linearity/)
+# Unit 5 (Statistical applications of derivatives)
+## [Mean Value Theorem](./../mean-value-theorem/)
+## [Extreme Value Theorem](./../extreme-value-theorem/)
+## [Critical Point](./../critical-point/)
 
-# [Straight Line motion](./../straight-line-motion/)
+## [Analyzing Functions with the first derivative](./../analyzing-functions-with-the-first-derivative/)
+## [Analyzing Functions with the second derivative](./../analyzing-functions-with-the-second-derivative/)
+## [Inflection Points](./../inflection-points/)
 
-# [L'Hopital's Rule](./../lhopitals-rule/)

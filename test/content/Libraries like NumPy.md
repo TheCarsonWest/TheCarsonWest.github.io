@@ -60,8 +60,8 @@ print(total)
 
 ### Related Python Concepts
 - [Variables and Data Types](./../variables-and-data-types/): NumPy arrays are stored using NumPy's own data types.
-- [Operators](./../operators/): NumPy provides operators for array operations like element-wise addition and multiplication.
+- [Operators](./../operators/): NumPy provides [Operators](./../operators/) for array operations like element-wise addition and multiplication.
 - [Python Functions](./../python-functions/): NumPy provides a rich set of mathematical [Python Functions](./../python-functions/) for numerical computations.
-- [Lists](./../lists/): NumPy arrays can be converted to and from Python lists.
+- [Lists](./../lists/): NumPy arrays can be converted to and from Python [Lists](./../lists/).
 - [Modules and Packages](./../modules-and-packages/): NumPy is a third-party library that is installed as a package.
 # [Python 1 Home](./../python-1-home/)

@@ -48,7 +48,7 @@ print(result) # 15
 ### Related Python Concepts
 
 - [[Lambda [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are anonymous [Python Functions](./../python-functions/) that can be used within HOFs.
-- [Python Functions](./../python-functions/): HOFs utilize [Python Functions](./../python-functions/) as arguments or return values.
+- [Python Functions](./../python-functions/): HOFs utilize [Python Functions](./../python-functions/) as arguments or [Return Values](./../return-values/).
 - [Map, Filter, and Reduce](./../map-filter-and-reduce/): These are built-in HOFs that perform common operations on iterables.
 - [Closures](./../closures/): [Closures](./../closures/) allow HOFs to retain access to variables outside their scope.
 - [Decorators](./../decorators/): [Decorators](./../decorators/) are HOFs that modify the behavior of other [Python Functions](./../python-functions/).
