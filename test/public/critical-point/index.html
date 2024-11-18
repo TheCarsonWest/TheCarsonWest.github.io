@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Critical Point | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Critical Point</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<h1 id="tldr-find-where---fx--0----or-is-undefined">TLDR: Find where  $ f&rsquo;(x) = 0 $   or is undefined</h1>
+<p>Critical points are pivotal in understanding the behavior of a function.  They help us find local maxima, local minima, and saddle points, which are key to sketching accurate graphs and solving optimization problems.</p>
+<h2 id="what-are-critical-points">What are Critical Points?</h2>
+<p>A critical point of a function  $ f(x) $  occurs at any  $ x $ -value where either:</p>
+<ol>
+<li>$ f&rsquo;(x) = 0 $  (the <a href="./../derivative/">derivative</a> is zero)</li>
+<li>$ f&rsquo;(x) $  is undefined (the <a href="./../derivative/">derivative</a> doesn&rsquo;t exist)</li>
+</ol>
+<p>In simpler terms, critical points are locations where the function&rsquo;s slope is either zero or undefined.</p>
+<h2 id="finding-critical-points">Finding Critical Points</h2>
+<p>The process involves two steps:</p>
+<ol>
+<li><strong>Find the <a href="./../derivative/">derivative</a>:</strong> Calculate  $ f&rsquo;(x) $ .</li>
+<li><strong>Solve for critical points:</strong>  Set  $ f&rsquo;(x) = 0 $  and solve for  $ x $ .  Also, identify any  $ x $ -values where  $ f&rsquo;(x) $  is undefined (e.g., points of discontinuity or sharp corners).</li>
+</ol>
+<p><strong>Example:</strong></p>
+<p>Let&rsquo;s find the critical points of the function  $ f(x) = x^3 - 3x $ .</p>
+<ol>
+<li>The <a href="./../derivative/">derivative</a> is  $ f&rsquo;(x) = 3x^2 - 3 $ .</li>
+<li>Setting  $ f&rsquo;(x) = 0 $ , we get  $ 3x^2 - 3 = 0 $ , which simplifies to  $ x^2 = 1 $ .  Thus,  $ x = 1 $  and  $ x = -1 $  are critical points.</li>
+<li>$ f&rsquo;(x) $  is defined for all real numbers.</li>
+</ol>
+<p>Therefore, the critical points are  $ x = 1 $  and  $ x = -1 $ .</p>
+<h2 id="classifying-critical-points-the-first-derivativederivative-test">Classifying Critical Points: The First <a href="./../derivative/">Derivative</a> Test</h2>
+<p>The first <a href="./../derivative/">derivative</a> test helps determine whether a critical point is a local maximum, local minimum, or neither.</p>
+<ol>
+<li><strong>Test points:</strong> Choose test points in the intervals created by the critical points.</li>
+<li><strong>Evaluate the <a href="./../derivative/">derivative</a>:</strong>  Evaluate  $ f&rsquo;(x) $  at each test point.</li>
+<li><strong>Interpret the sign:</strong>
+<ul>
+<li>If  $ f&rsquo;(x) $  changes from positive to negative, the critical point is a <strong>local maximum</strong>.</li>
+<li>If  $ f&rsquo;(x) $  changes from negative to positive, the critical point is a <strong>local minimum</strong>.</li>
+<li>If  $ f&rsquo;(x) $  does not change sign, the critical point is neither a local maximum nor a local minimum (it&rsquo;s a saddle point or an inflection point).</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example (continued):</strong></p>
+<p>For  $ f(x) = x^3 - 3x $ , the critical points are  $ x = 1 $  and  $ x = -1 $ .</p>
+<ul>
+<li>For  $ x &lt; -1 $ ,  $ f&rsquo;(x) &gt; 0 $ .</li>
+<li>For  $ -1 &lt; x &lt; 1 $ ,  $ f&rsquo;(x) &lt; 0 $ .</li>
+<li>For  $ x &gt; 1 $ ,  $ f&rsquo;(x) &gt; 0 $ .</li>
+</ul>
+<p>Thus,  $ x = -1 $  is a local maximum, and  $ x = 1 $  is a local minimum.</p>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^3 - 3x
+</code></pre><p><a href="./../first-derivative-test/">First Derivative Test</a></p>
+<p><a href="./../second-derivative-test/">Second Derivative Test</a></p>
+<h2 id="classifying-critical-points-the-second-derivativederivative-test">Classifying Critical Points: The Second <a href="./../derivative/">Derivative</a> Test</h2>
+<p>The second <a href="./../derivative/">derivative</a> test provides an alternative method for classifying critical points.  It&rsquo;s often easier to use than the first <a href="./../derivative/">derivative</a> test, but it only works when the second <a href="./../derivative/">derivative</a> exists.</p>
+<ol>
+<li><strong>Find the second <a href="./../derivative/">derivative</a>:</strong> Calculate  $ f&rsquo;&rsquo;(x) $ .</li>
+<li><strong>Evaluate at critical points:</strong> Evaluate  $ f&rsquo;&rsquo;(x) $  at each critical point.</li>
+<li><strong>Interpret the sign:</strong>
+<ul>
+<li>If  $ f&rsquo;&rsquo;(x) &lt; 0 $ , the critical point is a <strong>local maximum</strong>.</li>
+<li>If  $ f&rsquo;&rsquo;(x) &gt; 0 $ , the critical point is a <strong>local minimum</strong>.</li>
+<li>If  $ f&rsquo;&rsquo;(x) = 0 $ , the test is inconclusive (you need to use the first <a href="./../derivative/">derivative</a> test).</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example (continued):</strong></p>
+<p>For  $ f(x) = x^3 - 3x $ ,  $ f&rsquo;&rsquo;(x) = 6x $ .</p>
+<ul>
+<li>At  $ x = -1 $ ,  $ f&rsquo;&rsquo;(-1) = -6 &lt; 0 $ , so  $ x = -1 $  is a local maximum.</li>
+<li>At  $ x = 1 $ ,  $ f&rsquo;&rsquo;(1) = 6 &gt; 0 $ , so  $ x = 1 $  is a local minimum.</li>
+</ul>
+<h2 id="important-note-local-vs-global-extrema">Important Note: Local vs. Global Extrema</h2>
+<p>Critical points help find local extrema (maxima or minima within a specific interval). To find global extrema (the absolute highest or lowest values over</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

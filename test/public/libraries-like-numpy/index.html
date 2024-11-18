@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libraries like NumPy | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Libraries like NumPy</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="libraries-like-numpylibraries-like-numpy"><a href="./../libraries-like-numpy/">Libraries like NumPy</a></h2>
+<h3 id="what-is-numpy">What is NumPy?</h3>
+<p>NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of <a href="./../python-functions/">Python Functions</a> and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical <a href="./../python-functions/">Python Functions</a> for numerical computations.</p>
+<h3 id="how-to-use-numpy">How to Use NumPy</h3>
+<p>To use NumPy in your Python programs, you first need to import the library using the following statement:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span></code></pre></div><p>Once imported, you can access the <a href="./../python-functions/">Python Functions</a> and classes provided by NumPy.</p>
+<p><strong>Creating Arrays:</strong></p>
+<ul>
+<li><code>np.array(object)</code>: Converts a Python object to a NumPy array.</li>
+<li><code>np.zeros(shape)</code>: Creates a new array filled with zeros.</li>
+<li><code>np.ones(shape)</code>: Creates a new array filled with ones.</li>
+<li><code>np.random.rand(shape)</code>: Creates a new array filled with random values between 0 and 1.</li>
+</ul>
+<p><strong>Array Operations:</strong></p>
+<ul>
+<li><code>arr.shape</code>: Returns the shape of an array.</li>
+<li><code>arr.dtype</code>: Returns the data type of an array.</li>
+<li><code>arr + arr2</code>: Element-wise addition of two arrays.</li>
+<li><code>arr * arr2</code>: Element-wise multiplication of two arrays.</li>
+<li><code>np.sum(arr)</code>: Computes the sum of all elements in an array.</li>
+</ul>
+<p><strong>Mathematical <a href="./../python-functions/">Python Functions</a>:</strong></p>
+<ul>
+<li><code>np.sin(x)</code>: Computes the sine of x.</li>
+<li><code>np.cos(x)</code>: Computes the cosine of x.</li>
+<li><code>np.log(x)</code>: Computes the natural logarithm of x.</li>
+<li><code>np.sqrt(x)</code>: Computes the square root of x.</li>
+</ul>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Create a 3x3 array of zeros</span>
+</span></span><span style="display:flex;"><span>arr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>zeros((<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>))
+</span></span><span style="display:flex;"><span>print(arr)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Compute the element-wise product of two arrays</span>
+</span></span><span style="display:flex;"><span>arr1 <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+</span></span><span style="display:flex;"><span>arr2 <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>])
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> arr1 <span style="color:#f92672">*</span> arr2
+</span></span><span style="display:flex;"><span>print(result)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Compute the sum of all elements in an array</span>
+</span></span><span style="display:flex;"><span>arr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>])
+</span></span><span style="display:flex;"><span>total <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>sum(arr)
+</span></span><span style="display:flex;"><span>print(total)
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../variables-and-data-types/">Variables and Data Types</a>: NumPy arrays are stored using NumPy&rsquo;s own data types.</li>
+<li><a href="./../operators/">Operators</a>: NumPy provides <a href="./../operators/">Operators</a> for array operations like element-wise addition and multiplication.</li>
+<li><a href="./../python-functions/">Python Functions</a>: NumPy provides a rich set of mathematical <a href="./../python-functions/">Python Functions</a> for numerical computations.</li>
+<li><a href="./../lists/">Lists</a>: NumPy arrays can be converted to and from Python <a href="./../lists/">Lists</a>.</li>
+<li><a href="./../modules-and-packages/">Modules and Packages</a>: NumPy is a third-party library that is installed as a package.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

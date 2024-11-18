@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Private and Protected Members | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Private and Protected Members</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="private-and-protected-membersprivate-and-protected-members"><a href="./../private-and-protected-members/">Private and Protected Members</a></h2>
+<h3 id="explanation">Explanation</h3>
+<p>Private and protected members in Python are used to restrict access to certain attributes or methods of a class. Private members are only accessible within the class, while protected members can be accessed from within the class and its subclasses.</p>
+<h3 id="usage">Usage</h3>
+<p><strong>Private Members</strong></p>
+<p>To make a member private, prefix it with two leading underscores (_). For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__private_method</span>(self):
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__private_attribute</span> <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
+</span></span></code></pre></div><p><strong>Protected Members</strong></p>
+<p>To make a member protected, prefix it with a single leading underscore (_). For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_protected_method</span>(self):
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span> _protected_attribute <span style="color:#f92672">=</span> <span style="color:#f92672">...</span>
+</span></span></code></pre></div><h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Private method</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__private_method</span>(self):
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;This is a private method&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Protected method</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">_protected_method</span>(self):
+</span></span><span style="display:flex;"><span> print(<span style="color:#e6db74">&#34;This is a protected method&#34;</span>)
+</span></span></code></pre></div><h2 id="related-python-concepts">Related Python Concepts</h2>
+<ul>
+<li><a href="./../encapsulation/">Encapsulation</a>: Private and protected members are part of the <a href="./../encapsulation/">Encapsulation</a> mechanism in Python.</li>
+<li><a href="./../classes-and-objects/">Classes and Objects</a>: Private and protected members are defined within classes.</li>
+<li><a href="./../inheritance/">Inheritance</a>: Protected members can be accessed from subclasses.</li>
+<li><a href="./../function-parameters/">Function Parameters</a>: Private and protected methods can accept parameters like regular methods.</li>
+<li><a href="./../return-values/">Return Values</a>: Private and protected methods can <a href="./../return-values/">Return Values</a> like regular methods.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

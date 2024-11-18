@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mean Value Theorem | Nerd-Emoji Web</title>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Mean Value Theorem</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-rules-and-theoremscalc-rules-and-theorems"><a href="./../calc-rules-and-theorems/">Calc Rules and theorems</a></h1>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<p>The Mean Value Theorem is a fundamental theorem in calculus that connects the average rate of change of a function to its instantaneous rate of change.  It essentially states that if a function is continuous and differentiable on an interval, there exists at least one point within that interval where the instantaneous rate of change (slope of the tangent line) equals the average rate of change over the entire interval.</p>
+<h2 id="1--statement-of-the-mean-value-theorem">1.  Statement of the Mean Value Theorem</h2>
+<p>Let  $ f $  be a function that satisfies the following two hypotheses:</p>
+<ol>
+<li>$ f $  is continuous on the closed interval  $ [a, b] $ .</li>
+<li>$ f $  is differentiable on the open interval  $ (a, b) $ .</li>
+</ol>
+<p>Then there exists a number  $ c $  in  $ (a, b) $  such that:</p>
+<p>$ f&rsquo;(c) = \frac{f(b) - f(a)}{b - a} $</p>
+<p>This equation states that the instantaneous rate of change at  $ c $  ( $ f&rsquo;(c) $ ) is equal to the average rate of change of  $ f $  over the interval  $ [a, b] $ .  The term  $ \frac{f(b) - f(a)}{b - a} $  represents the slope of the secant line connecting the points  $ (a, f(a)) $  and  $ (b, f(b)) $ .</p>
+<h2 id="2--geometric-interpretation">2.  Geometric Interpretation</h2>
+<p>The Mean Value Theorem has a clear geometric interpretation. The equation  $ f&rsquo;(c) = \frac{f(b) - f(a)}{b - a} $  means there exists a point  $ c $  in the interval  $ (a, b) $  where the tangent line to the graph of  $ f $  at  $ x = c $  is parallel to the secant line connecting the points  $ (a, f(a)) $  and  $ (b, f(b)) $ .</p>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2
+y = (3-0)/(2-0)*(x-0)+0
+y = 1.5x
+</code></pre><p>In the above graph, the curve represents  $ f(x) = x^2 $ , the interval is  $ [0,2] $ . The red line represents the secant line, and the blue line represents the tangent line at the point  $ c $  where the MVT holds.</p>
+<h2 id="3--rolles-theoremrolles-theorem">3.  <a href="./../rolles-theorem/">Rolles Theorem</a></h2>
+<p><a href="./../rolles-theorem/">Rolles Theorem</a> is a special case of the Mean Value Theorem where  $ f(a) = f(b) $ .  In this case, the average rate of change is 0, and the theorem states that there exists at least one point  $ c $  in  $ (a, b) $  such that  $ f&rsquo;(c) = 0 $ .  This means there&rsquo;s a horizontal tangent line somewhere in the interval.</p>
+<p><strong>Statement of <a href="./../rolles-theorem/">Rolles Theorem</a>:</strong></p>
+<p>Let  $ f $  be a function that satisfies the following hypotheses:</p>
+<ol>
+<li>$ f $  is continuous on the closed interval  $ [a, b] $ .</li>
+<li>$ f $  is differentiable on the open interval  $ (a, b) $ .</li>
+<li>$ f(a) = f(b) $</li>
+</ol>
+<p>Then there exists a number  $ c $  in  $ (a, b) $  such that  $ f&rsquo;(c) = 0 $ .</p>
+<h2 id="4--proof-of-the-mean-value-theoremproof-of-the-mean-value-theorem">4.  <a href="./../proof-of-the-mean-value-theorem/">Proof of the Mean Value Theorem</a></h2>
+<p>The Mean Value Theorem can be proven using <a href="./../rolles-theorem/">Rolles Theorem</a>.  The proof involves constructing an auxiliary function that satisfies the conditions of <a href="./../rolles-theorem/">Rolles Theorem</a> and then applying <a href="./../rolles-theorem/">Rolles Theorem</a> to find the point  $ c $ .  The detailed proof is beyond the scope of a concise rundown, but it relies on carefully constructing a line that connects the endpoints of the function and then subtracting that line from the original function to create a new function that satisfies <a href="./../rolles-theorem/">Rolles Theorem</a>.</p>
+<h2 id="5--applications-of-the-mean-value-theorem">5.  Applications of the Mean Value Theorem</h2>
+<p>The Mean Value Theorem has numerous applications in calculus, including:</p>
+<ul>
+<li><strong>Determining the existence of solutions to equations:</strong> It can be used to show that an equation has at least one solution within a given interval.</li>
+<li><strong>Estimating the value of a function:</strong> It can provide bounds on the possible values of a function within an interval.</li>
+<li><strong>Analyzing the behavior of functions:</strong> It helps understand the relationship between the <a href="./../derivative/">derivative</a> and the function itself.</li>
+</ul>
+<h2 id="6--important-note-on-hypotheses">6.  Important Note on Hypotheses</h2>
+<p>It&rsquo;s crucial to remember that both <a href="./../continuity/">continuity</a> on the closed interval  $ [a, b] $  and differentiability on the open interval  $ (a, b) $  are necessary conditions for the Mean Value Theorem to hold.  If either condition is not met, the theorem may not apply.  There might not exist a point  $ c $  satisfying the conclusion.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+
