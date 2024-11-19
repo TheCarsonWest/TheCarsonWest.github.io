@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Modules and Packages | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Modules and Packages</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="modules-and-packagesmodules-and-packages"><a href="./../modules-and-packages/">Modules and Packages</a></h2>
+<h3 id="what-are-modules-and-packagesmodules-and-packages">What are <a href="./../modules-and-packages/">Modules and Packages</a>?</h3>
+<p><strong>Modules:</strong></p>
+<ul>
+<li>Self-contained Python code stored in a file (<code>*.py</code>).</li>
+<li>Contain <a href="./../python-functions/">Python Functions</a>, classes, or variables that can be imported and used in other Python scripts.</li>
+<li>Used to organize and reuse code.</li>
+</ul>
+<p><strong>Packages:</strong></p>
+<ul>
+<li>A collection of related modules organized within a directory structure.</li>
+<li>Packages provide a way to group and distribute modules logically.</li>
+<li>Can contain subpackages and modules within subdirectories.</li>
+</ul>
+<h3 id="how-to-use-modules-and-packagesmodules-and-packages">How to Use <a href="./../modules-and-packages/">Modules and Packages</a></h3>
+<p>** <a href="./../importing-modules/">Importing Modules</a>:**</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> module_name
+</span></span></code></pre></div><p>Imports the specified module, allowing access to its contents.</p>
+<p><strong>Importing Specific Elements from a Module:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> module_name <span style="color:#f92672">import</span> element1, element2
+</span></span></code></pre></div><p>Imports specific elements (e.g., <a href="./../python-functions/">Python Functions</a>, classes) from a module.</p>
+<p><strong>Importing a Package:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> package_name
+</span></span></code></pre></div><p>Imports the entire package, providing access to all its modules and subpackages.</p>
+<h3 id="code-examples">Code Examples</h3>
+<p><strong>Importing and Using a Module:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mymodule
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>mymodule<span style="color:#f92672">.</span>my_function()
+</span></span></code></pre></div><p><strong>Importing and Using a Specific Element from a Module:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> mymodule <span style="color:#f92672">import</span> my_function
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_function()
+</span></span></code></pre></div><p><strong>Importing and Using a Package:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mypackage
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>subpackage <span style="color:#f92672">=</span> mypackage<span style="color:#f92672">.</span>subpackage
+</span></span><span style="display:flex;"><span>subpackage<span style="color:#f92672">.</span>my_function()
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../python-functions/">Python Functions</a>: Modules and packages provide a way to organize and reuse <a href="./../python-functions/">Python Functions</a>.</li>
+<li><a href="./../importing-modules/">Importing Modules</a>: The import statement is used to import modules and packages.</li>
+<li><a href="./../libraries-like-numpy/">Libraries like NumPy</a>: NumPy is a package that provides scientific computing capabilities.</li>
+<li><a href="./../libraries-like-pandas/">Libraries like Pandas</a>: Pandas is a package that provides data analysis and manipulation tools.</li>
+<li><a href="./../libraries-like-matplotlib/">Libraries like Matplotlib</a>: Matplotlib is a package that provides data visualization capabilities. <a href="./../dynamic-importing/">Dynamic Importing</a></li>
+<li><a href="./../python-functions/">Python Functions</a></li>
+<li><a href="./../python-package-index-(pypi)-publishing/">Python Package Index (PyPI) Publishing</a></li>
+<li><a href="./../virtual-environments/">Virtual Environments</a></li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

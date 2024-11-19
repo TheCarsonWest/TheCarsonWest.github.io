@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NumPy Broadcasting | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">NumPy Broadcasting</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="numpy-broadcastingnumpy-broadcasting"><a href="./../numpy-broadcasting/">NumPy Broadcasting</a></h2>
+<h3 id="what-is-broadcasting">What is Broadcasting?</h3>
+<p>Broadcasting is a mechanism in NumPy that allows arrays of different shapes to perform operations as if they were of the same shape. It automatically aligns and replicates elements of arrays to facilitate element-wise calculations.</p>
+<h3 id="how-to-use-broadcasting">How to Use Broadcasting</h3>
+<p>Broadcasting occurs when arrays with compatible dimensions are passed to an arithmetic operation (e.g., +, -, *, /). NumPy automatically adjusts the shape of the smaller array to match the shape of the larger array, ensuring that the dimensions match and the operation can be performed element-wise. Dimensions that do not match are broadcast one element at a time.</p>
+<h3 id="code-examples">Code Examples</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Add two arrays of different shapes</span>
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>], [<span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">7</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>]<span style="color:#f92672">-</span>[<span style="color:#ae81ff">6</span><span style="color:#f92672">-</span><span style="color:#ae81ff">7</span><span style="color:#f92672">/</span>))
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Broadcast result: [5 7] [7 9](./../5-7]-[7-9/)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Multiply a scalar by an array</span>
+</span></span><span style="display:flex;"><span>c <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> c <span style="color:#f92672">*</span> b
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Broadcast result: [ 8 10] [12 14](./../-8-10]-[12-14/)</span>
+</span></span></code></pre></div><h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../operators/">Operators</a>: Broadcasting is used during arithmetic operations such as addition and multiplication.</li>
+<li><a href="./../arrays-in-numpy/">Arrays in NumPy</a>: Broadcasting assumes that the arrays involved are NumPy arrays.</li>
+<li><a href="./../vectorization/">Vectorization</a>: Broadcasting enables the efficient execution of element-wise operations on arrays.</li>
+<li><a href="./../slicing-in-numpy/">Slicing in NumPy</a>: Broadcasting can be used in conjunction with slicing to perform operations on specific subsets of arrays.</li>
+<li><a href="./../dataframes-in-pandas/">DataFrames in Pandas</a>: Pandas DataFrames also support broadcasting operations, allowing for efficient dataframe manipulations.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

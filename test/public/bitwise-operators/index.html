@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bitwise Operators | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Bitwise Operators</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h2 id="bitwise-operatorsbitwise-operators">[Bitwise [<a href="./../bitwise-%5B%5Boperators/">Operators</a></h2>
+<h3 id="what-are-bitwise-operatorsbitwise-operators">What are [Bitwise [<a href="./../bitwise-%5B%5Boperators/">Operators</a>?</h3>
+<p>Bitwise <a href="./../operators/">Operators</a> perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.</p>
+<h3 id="how-to-use-bitwise-operatorsbitwise-operators">How to Use [Bitwise [<a href="./../bitwise-%5B%5Boperators/">Operators</a></h3>
+<p>Bitwise <a href="./../operators/">Operators</a> are represented by symbols that indicate the specific operation to be performed on the bits of the operands. The operands must be integers or bitwise expressions. The result is a new integer that represents the modified binary value.</p>
+<h3 id="common-bitwise-operatorsbitwise-operators">Common [Bitwise [<a href="./../bitwise-%5B%5Boperators/">Operators</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Operator</th>
+          <th style="text-align: left">Name</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><code>&amp;</code></td>
+          <td style="text-align: left">AND</td>
+          <td style="text-align: left">Performs a bitwise AND operation, returning 1 if both bits are 1, and 0 otherwise</td>
+          <td style="text-align: left"><code>5 &amp; 3 = 1</code> (0101 &amp; 0011 = 0001)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">`</td>
+          <td style="text-align: left">`</td>
+          <td style="text-align: left">OR</td>
+          <td style="text-align: left">Performs a bitwise OR operation, returning 1 if either bit is 1</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>^</code></td>
+          <td style="text-align: left">XOR</td>
+          <td style="text-align: left">Performs a bitwise XOR operation, returning 1 if the bits are different, and 0 if they are the same</td>
+          <td style="text-align: left"><code>5 ^ 3 = 6</code> (0101 ^ 0011 = 0110)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>~</code></td>
+          <td style="text-align: left">NOT</td>
+          <td style="text-align: left">Performs a bitwise NOT operation, flipping 0s to 1s and vice versa</td>
+          <td style="text-align: left"><code>~5 = -6</code> (0101 -&gt; 1010)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>&lt;&lt;</code></td>
+          <td style="text-align: left">Left Shift</td>
+          <td style="text-align: left">Shifts the bits to the left, multiplying by 2<!-- raw HTML omitted -->n<!-- raw HTML omitted -->, where n is the number of positions shifted</td>
+          <td style="text-align: left"><code>5 &lt;&lt; 2 = 20</code> (0101 &laquo; 2 = 10100)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>&gt;&gt;</code></td>
+          <td style="text-align: left">Right Shift</td>
+          <td style="text-align: left">Shifts the bits to the right, dividing by 2<!-- raw HTML omitted -->n<!-- raw HTML omitted -->, where n is the number of positions shifted</td>
+          <td style="text-align: left"><code>20 &gt;&gt; 2 = 5</code> (10100 &raquo; 2 = 0101)</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="related-python-concepts">Related Python Concepts</h3>
+<ul>
+<li><a href="./../variables-and-data-types/">Variables and Data Types</a>: Bitwise <a href="./../operators/">Operators</a> operate on integers and bitwise expressions.</li>
+<li><a href="./../operators/">Operators</a>: Bitwise <a href="./../operators/">Operators</a> are a type of operator, distinct from arithmetic and logical <a href="./../operators/">Operators</a>.</li>
+<li><a href="./../lists/">Lists</a>: Bitwise <a href="./../operators/">Operators</a> can be applied to elements of <a href="./../lists/">Lists</a> containing integers.</li>
+<li><a href="./../tuples/">Tuples</a>: Bitwise <a href="./../operators/">Operators</a> can be applied to elements of <a href="./../tuples/">Tuples</a> containing integers.</li>
+<li><a href="./../python-sets/">Python Sets</a>: Bitwise <a href="./../operators/">Operators</a> can be applied to elements of sets containing integers.</li>
+</ul>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  <script src="//instant.page/5.2.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+  </body>
+</html>
+

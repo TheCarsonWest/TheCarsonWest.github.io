@@ -9,15 +9,15 @@ Gas [solubility](./../solubility/) refers to the ability of a gas to dissolve in
 
 ##  Calculating Gas Solubility
 
-Using [Henry's Law](./../henrys-law/), we can calculate the concentration of a dissolved gas given its [partial pressure](./../partial-pressure/) and [Henry's Law](./../henrys-law/) constant.  For example, if the [partial pressure](./../partial-pressure/) of  $ CO_2 $  above a soda is 2 atm and  $ k_H $  for  $ CO_2 $  in water at a given temperature is 0.034 mol/L·atm, the concentration of dissolved  $ CO_2 $  would be:
+Using [Henrys Law](./../henrys-law/), we can calculate the concentration of a dissolved gas given its [partial pressure](./../partial-pressure/) and [Henrys Law](./../henrys-law/) constant.  For example, if the [partial pressure](./../partial-pressure/) of  $ CO_2 $  above a soda is 2 atm and  $ k_H $  for  $ CO_2 $  in water at a given temperature is 0.034 mol/L·atm, the concentration of dissolved  $ CO_2 $  would be:
 
  $ C = k_H P = (0.034 \text{ mol/L·atm}) (2 \text{ atm}) = 0.068 \text{ mol/L} $ 
 
 
-This calculation provides a simplified model.  In reality, deviations from [Henry's Law](./../henrys-law/) can occur at higher pressures or when the gas is highly soluble.
+This calculation provides a simplified model.  In reality, deviations from [Henrys Law](./../henrys-law/) can occur at higher pressures or when the gas is highly soluble.
 ## Factors Affecting Gas Solubility
 
-### 1. Pressure: [Henry's Law](./../henrys-law/)
+### 1. Pressure: [Henrys Law](./../henrys-law/)
 
 ### 2. Temperature
 Generally, the solubility of gases in liquids *decreases* with increasing temperature.  As temperature rises, the kinetic energy of the gas molecules increases, allowing them to overcome the [intermolecular forces](./../intermolecular-forces/) holding them in solution and escape into the gaseous phase.  This is why a warm soda goes flat faster than a cold one.

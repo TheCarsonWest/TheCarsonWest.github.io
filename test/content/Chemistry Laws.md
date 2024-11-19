@@ -13,5 +13,5 @@
 
 ## [Combined Gas Law](./../combined-gas-law/)
 # Solutions
-## [Henry's Law](./../henrys-law/)
-## [Raoult's Law](./../raoults-law/)
+## [Henrys Law](./../henrys-law/)
+## [Raoults Law](./../raoults-law/)
