@@ -8,7 +8,7 @@
 # Unit 1
 ### [Calculus Limits](./../calculus-limits/)
 ### [Indeterminate Forms](./../indeterminate-forms/)
-# Unit 2/3 - derivative stuff
+# Unit 2/3 - [derivative](./../derivative/) stuff
 
 ### [Implicit Differentiation](./../implicit-differentiation/)
 

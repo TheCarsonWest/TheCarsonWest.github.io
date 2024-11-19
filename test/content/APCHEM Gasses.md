@@ -8,7 +8,8 @@
 ## [Ideal Gas Laws](./../ideal-gas-laws/)
 ## [Universal Gas Constant](./../universal-gas-constant/)
 # [Combined Gas Law](./../combined-gas-law/)
+# [partial pressure](./../partial-pressure/) equation
 
-## [Deviations from Ideal Behavior(gasses)](./../deviations-from-ideal-behavior(gasses)/)
+## [Deviations from Ideal Gas Behavior](./../deviations-from-ideal-gas-behavior/)
 
 ## [Van Der Waals Calculator](https://www.desmos.com/calculator/dfwqngruiv)

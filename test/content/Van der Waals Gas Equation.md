@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[Deviations from Ideal Behavior(gasses)](./../deviations-from-ideal-behavior(gasses)/)
+[Deviations from Ideal Gas Behavior](./../deviations-from-ideal-gas-behavior/)
 #  $$ \left[ P+\frac{an^2}{V^2}\right]\left[V-nb\right]=nRT $$  ## P: Pressure
 ## V: Molar Volume (L)
 ## T: Temperature (K)
