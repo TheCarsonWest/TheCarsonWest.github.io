@@ -13,7 +13,7 @@
 5. [Cotton Gin](./../cotton-gin/)
  
 ## Causes of the Civil War
-6. [Free-soldiers](./../free-soldiers/)
+6. [Free-soilers](./../free-soilers/)
 7.  [sectionalism](./../sectionalism/) 
 8. [Wilmot Proviso](./../wilmot-proviso/)
 9. [Compromise of 1850](./../compromise-of-1850/)

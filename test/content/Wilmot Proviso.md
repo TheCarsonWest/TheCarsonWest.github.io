@@ -5,7 +5,7 @@
 +++
 # ID: Wilmot Proviso
 ## When: August 8, 1846 
-## Who: David Wilmot, a Democratic Congressman from [Pennsylvania](./../pennsylvania/). 
+## Who: David Wilmot, a [Democrats](./../democrats/) Congressman from [Pennsylvania](./../pennsylvania/). 
 ## What: 
 A proposed amendment to a bill that would have prohibited slavery in any territory acquired from Mexico as a result of the Mexican-American War. 
 ## Impact: Why Significant?: 

@@ -4,6 +4,8 @@
 	author = 'Carson West'
 +++
 # [AP CHEM solutions](./../ap-chem-solutions/)
+# [Solubility Rules](./../solubility-rules/)
+
 Solubility refers to the ability of a substance (the solute) to dissolve in another substance (the solvent) to form a homogeneous mixture called a solution.  In AP Calculus AB, while we don't directly calculate solubility itself, we can use calculus concepts to analyze related topics like rates of dissolution or changes in concentration over time.
 
 ## Factors Affecting Solubility

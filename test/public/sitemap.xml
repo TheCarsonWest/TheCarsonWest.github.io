@@ -126,6 +126,8 @@
   </url><url>
     <loc>http://example.org/battle-of-yorktown/</loc>
   </url><url>
+    <loc>http://example.org/beer-lambert-law/</loc>
+  </url><url>
     <loc>http://example.org/benjamin-franklin/</loc>
   </url><url>
     <loc>http://example.org/benjamin-harrison/</loc>
@@ -390,7 +392,7 @@
   </url><url>
     <loc>http://example.org/franklin-pierce/</loc>
   </url><url>
-    <loc>http://example.org/free-soldiers/</loc>
+    <loc>http://example.org/free-soilers/</loc>
   </url><url>
     <loc>http://example.org/freedmans-bureau/</loc>
   </url><url>
@@ -908,6 +910,8 @@
   </url><url>
     <loc>http://example.org/solubility/</loc>
   </url><url>
+    <loc>http://example.org/solubility-rules/</loc>
+  </url><url>
     <loc>http://example.org/solution-concentration/</loc>
   </url><url>
     <loc>http://example.org/sons-of-liberty/</loc>
@@ -1015,6 +1019,8 @@
     <loc>http://example.org/united-states/</loc>
   </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
