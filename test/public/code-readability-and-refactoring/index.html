@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Readability and Refactoring | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Code Readability and Refactoring</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="nested-if-statementsnested-if-statements"><a href="./../nested-if-statements/">Nested If Statements</a></h1>
+<h1 id="code-readability-and-refactoring">Code Readability and Refactoring</h1>
+<p><strong>Goal:</strong>  Improve understanding and maintainability of Python code.</p>
+<p><strong>Key Aspects:</strong></p>
+<ul>
+<li><strong>Meaningful Names:</strong> Use descriptive variable, function, and class names. Avoid abbreviations unless widely understood within the context.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Good</span>
+</span></span><span style="display:flex;"><span>user_name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bob&#34;</span>
+</span></span><span style="display:flex;"><span>calculate_average(scores)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bad</span>
+</span></span><span style="display:flex;"><span>un <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Bob&#34;</span>  <span style="color:#75715e"># What does &#39;un&#39; mean?</span>
+</span></span><span style="display:flex;"><span>calcAvg(s) <span style="color:#75715e"># too cryptic</span>
+</span></span></code></pre></div><ul>
+<li><strong>Consistent Formatting:</strong>  Follow PEP 8 style guide (<a href="./../pep-8-style-guide/">PEP 8 Style Guide</a>) for indentation, line length, spacing etc.  Use a linter (like <code>pylint</code> or <code>flake8</code>) to enforce consistency (<a href="./../linters-and-static-analysis/">Linters and Static Analysis</a>)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Good (PEP 8 compliant)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_function</span>(param1, param2):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Docstring explaining the function.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> param1 <span style="color:#f92672">+</span> param2
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bad (inconsistent indentation and naming)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">myfunction</span>(param1,param2):
+</span></span><span style="display:flex;"><span>    result<span style="color:#f92672">=</span>param1<span style="color:#f92672">+</span>param2
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result
+</span></span></code></pre></div><ul>
+<li><strong>Comments:</strong> Add comments to explain complex logic or non-obvious parts of the code, but avoid commenting obvious code.  ( <a href="./../effective-commenting/">Effective Commenting</a>)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Good comment</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># This section handles the complex calculation of the Fibonacci sequence</span>
+</span></span><span style="display:flex;"><span>fibonacci_numbers <span style="color:#f92672">=</span> calculate_fibonacci(n)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bad comment - obvious code</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Add x and y</span>
+</span></span><span style="display:flex;"><span>z <span style="color:#f92672">=</span> x <span style="color:#f92672">+</span> y 
+</span></span></code></pre></div><ul>
+<li><strong>Functions and Modules:</strong> Break down large tasks into smaller, well-defined functions. Organize related functions into modules for better organization. (<a href="./../modular-design-in-python/">Modular Design in Python</a>)</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Good - Modular approach</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># module_a.py</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_a</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># module_b.py</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_b</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># main.py</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> module_a
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> module_b
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>module_a<span style="color:#f92672">.</span>function_a()
+</span></span><span style="display:flex;"><span>module_b<span style="color:#f92672">.</span>function_b()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bad - everything in one file</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_a</span>():
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_b</span>():
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">function_c</span>():
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">pass</span>
+</span></span><span style="display:flex;"><span>function_a()
+</span></span><span style="display:flex;"><span>function_b()
+</span></span><span style="display:flex;"><span>function_c()
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Refactoring Techniques:</strong></p>
+<ul>
+<li><strong>Extract Method:</strong> Move a block of code into a separate function.</li>
+<li><strong>Rename Method/Variable:</strong> Improve clarity of names.</li>
+<li><strong>Move Method:</strong> Relocate a method to a more appropriate class.</li>
+<li><strong>Introduce Explaining Variable:</strong> Create a variable to represent a complex expression.</li>
+<li><strong>Consolidate Conditional Expression:</strong> Simplify nested <code>if/else</code> statements.</li>
+</ul>
+</li>
+<li>
+<p><strong>Testing:</strong> Write unit tests to ensure code correctness and prevent regressions during refactoring (<a href="./../unit-testing-in-python/">Unit Testing in Python</a>)</p>
+</li>
+<li>
+<p><strong>Code Reviews:</strong>  Have another developer review your code for readability and potential issues.</p>
+</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

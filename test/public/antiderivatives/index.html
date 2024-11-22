@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Antiderivatives | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Antiderivatives</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<h2 id="what-is-an-antiderivative">What is an Antiderivative?</h2>
+<p>An antiderivative is the reverse process of differentiation.  If we have a function  $ f(x) $ , its antiderivative, often denoted as  $ F(x) $ , satisfies the equation:</p>
+<p>$ F&rsquo;(x) = f(x) $</p>
+<p>In simpler terms, the derivative of the antiderivative is the original function.  Note that antiderivatives are not unique. If  $ F(x) $  is an antiderivative of  $ f(x) $ , then so is  $ F(x) + C $ , where  $ C $  is any constant. This is because the derivative of a constant is always zero.</p>
+<h2 id="finding-antiderivatives">Finding Antiderivatives</h2>
+<p>Finding antiderivatives often involves reversing the rules of differentiation.  Here are some basic examples:</p>
+<ul>
+<li>
+<p><strong>Power Rule:</strong> If  $ f(x) = x^n $ , then  $ F(x) = \frac{x^{n+1}}{n+1} + C $  for  $ n \neq -1 $ .</p>
+</li>
+<li>
+<p><strong>Constant Multiple Rule:</strong> If  $ F(x) $  is an antiderivative of  $ f(x) $ , then  $ kF(x) $  is an antiderivative of  $ kf(x) $ , where  $ k $  is a constant.</p>
+</li>
+<li>
+<p><strong>Sum/Difference Rule:</strong> If  $ F(x) $  is an antiderivative of  $ f(x) $  and  $ G(x) $  is an antiderivative of  $ g(x) $ , then  $ F(x) + G(x) $  is an antiderivative of  $ f(x) + g(x) $ , and  $ F(x) - G(x) $  is an antiderivative of  $ f(x) - g(x) $ .</p>
+</li>
+<li>
+<p><strong>Exponential Functions:</strong> If  $ f(x) = e^x $ , then  $ F(x) = e^x + C $ .  More generally, if  $ f(x) = e^{kx} $ , then  $ F(x) = \frac{1}{k}e^{kx} + C $ .</p>
+</li>
+<li>
+<p><strong>Trigonometric Functions:</strong></p>
+<ul>
+<li>If  $ f(x) = \sin(x) $ , then  $ F(x) = -\cos(x) + C $ .</li>
+<li>If  $ f(x) = \cos(x) $ , then  $ F(x) = \sin(x) + C $ .</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-indefinite-integralthe-indefinite-integral"><a href="./../the-indefinite-integral/">The Indefinite Integral</a></h2>
+<p>The indefinite integral is a notation used to represent the antiderivative.  It&rsquo;s written as:</p>
+<p>$ \int f(x) , dx = F(x) + C $</p>
+<p>where:</p>
+<ul>
+<li>$ \int $  is the integral symbol.</li>
+<li>$ f(x) $  is the integrand (the function being integrated).</li>
+<li>$ dx $  indicates that the integration is with respect to  $ x $ .</li>
+<li>$ F(x) $  is an antiderivative of  $ f(x) $ .</li>
+<li>$ C $  is the constant of integration.</li>
+</ul>
+<h2 id="initial-value-problemsinitial-value-problems"><a href="./../initial-value-problems/">Initial Value Problems</a></h2>
+<p>An initial value problem provides an initial condition, which allows us to determine the specific value of the constant of integration,  $ C $ .  For example, if we are given that  $ F(0) = 5 $  and  $ F&rsquo;(x) = 2x $ , then we can find the specific antiderivative.</p>
+<p>Since  $ \int 2x , dx = x^2 + C $ , we can use the initial condition:</p>
+<p>$ F(0) = 0^2 + C = 5 $ , so  $ C = 5 $ .  Therefore, the specific antiderivative is  $ F(x) = x^2 + 5 $ .</p>
+<h2 id="examples">Examples</h2>
+<p><strong>Example 1:</strong> Find the antiderivative of  $ f(x) = 3x^2 + 2x - 1 $ .</p>
+<p>$ \int (3x^2 + 2x - 1) , dx = x^3 + x^2 - x + C $</p>
+<p><strong>Example 2:</strong> Find the antiderivative of  $ f(x) = e^{2x} + \cos(x) $ .</p>
+<p>$ \int (e^{2x} + \cos(x)) , dx = \frac{1}{2}e^{2x} + \sin(x) + C $</p>
+<p><strong>Example 3:</strong> Solve the initial value problem:  $ F&rsquo;(x) = 4x^3 - 6x $  and  $ F(1) = 2 $ .</p>
+<p>$ \int (4x^3 - 6x) , dx = x^4 - 3x^2 + C $</p>
+<p>Using the initial condition:  $ F(1) = 1^4 - 3(1)^2 + C = 2 $ , which gives  $ C = 4 $ .</p>
+<p>Therefore,  $ F(x) = x^4 - 3x^2</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

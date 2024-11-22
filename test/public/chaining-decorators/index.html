@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chaining Decorators | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Chaining Decorators</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="decoratorsdecorators"><a href="./../decorators/">Decorators</a></h1>
+<h1 id="chaining-decorators">Chaining Decorators</h1>
+<p>Chaining decorators in Python means applying multiple decorators to a single function.  The order of application matters, as decorators are applied from the inside out (bottom to top).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator_1</span>(func):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Decorator 1 before&#34;</span>)
+</span></span><span style="display:flex;"><span>    func()
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Decorator 1 after&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> wrapper
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator_2</span>(func):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Decorator 2 before&#34;</span>)
+</span></span><span style="display:flex;"><span>    func()
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Decorator 2 after&#34;</span>)
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> wrapper
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@my_decorator_1</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@my_decorator_2</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">say_hello</span>():
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">&#34;Hello!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>say_hello()
+</span></span></code></pre></div><p>This will output:</p>
+<pre tabindex="0"><code>Decorator 1 before
+Decorator 2 before
+Hello!
+Decorator 2 after
+Decorator 1 after
+</code></pre><p>Notice how <code>my_decorator_2</code> is executed first, then <code>my_decorator_1</code>.  This is because the <code>@</code> syntax applies decorators from bottom to top.</p>
+<p><a href="./../decorator-basics/">Decorator Basics</a>  (<a href="./../function-wrappers/">Function Wrappers</a>)</p>
+<p>The above example only shows decorators without arguments.  <a href="./../decorators-with-arguments/">Decorators with Arguments</a>  handle more complex scenarios.  Remember to also review <a href="./../function-scope-and-closures/">Function Scope and Closures</a> as they are fundamental to understanding how decorators work.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

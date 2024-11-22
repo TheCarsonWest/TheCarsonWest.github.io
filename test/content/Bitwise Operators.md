@@ -34,7 +34,7 @@ print(a >> 1) # Output: 5  (Binary: 0101)
 
 ```
 
-**[Two's Complement](./../twos-complement/)**  (This needs a separate explanation)
+**[Twos Complement](./../twos-complement/)**  (This needs a separate explanation)
 
 **[Binary Representation of Numbers](./../binary-representation-of-numbers/)** (This also needs a separate explanation)
 

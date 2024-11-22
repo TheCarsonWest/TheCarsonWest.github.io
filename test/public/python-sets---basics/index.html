@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python Sets - Basics | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Python Sets - Basics</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-sets---examplespython-sets---examples"><a href="./../python-sets---examples/">Python Sets - Examples</a></h1>
+<h1 id="python-sets---basics">Python Sets - Basics</h1>
+<p>Key Features:</p>
+<ul>
+<li>Unordered collections of unique elements.</li>
+<li>Defined using curly braces <code>{}</code> or the <code>set()</code> constructor.</li>
+<li>Mutable (can be changed after creation).</li>
+<li>Do not allow duplicate elements; attempting to add a duplicate has no effect.</li>
+<li>Support mathematical <a href="./../set-operations/">Set Operations</a> (union, intersection, difference, etc.).</li>
+</ul>
+<p><strong>Creating Sets:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Using curly braces</span>
+</span></span><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>} 
+</span></span><span style="display:flex;"><span>print(my_set)  <span style="color:#75715e"># Output: {1, 2, 3, 4} (order may vary)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Using the set() constructor</span>
+</span></span><span style="display:flex;"><span>my_set2 <span style="color:#f92672">=</span> set([<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>, <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">7</span>])  <span style="color:#75715e"># Duplicates are automatically removed</span>
+</span></span><span style="display:flex;"><span>print(my_set2) <span style="color:#75715e"># Output: {5, 6, 7}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_set3 <span style="color:#f92672">=</span> set(<span style="color:#e6db74">&#34;hello&#34;</span>) <span style="color:#75715e">#creating a set from a string.</span>
+</span></span><span style="display:flex;"><span>print(my_set3) <span style="color:#75715e"># Output: {&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;o&#39;}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>empty_set <span style="color:#f92672">=</span> set() <span style="color:#75715e">#creating an empty set.  (Note: {} creates an empty dictionary!)</span>
+</span></span></code></pre></div><p><strong>Basic Operations:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>}
+</span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>add(<span style="color:#ae81ff">4</span>) <span style="color:#75715e"># Adds 4 to the set.</span>
+</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e">#Output: {1, 2, 3, 4}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>remove(<span style="color:#ae81ff">2</span>) <span style="color:#75715e">#removes 2 from the set, raises error if 2 isn&#39;t present.</span>
+</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e">#Output: {1, 3, 4}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>discard(<span style="color:#ae81ff">5</span>) <span style="color:#75715e"># removes 5 if it exists, doesn&#39;t raise an error otherwise.</span>
+</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e">#Output: {1, 3, 4}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>pop() <span style="color:#75715e"># Removes and returns an arbitrary element.  Sets are unordered, so the output is unpredictable</span>
+</span></span><span style="display:flex;"><span>print(my_set)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>clear() <span style="color:#75715e"># Removes all elements.</span>
+</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e">#Output: set()</span>
+</span></span></code></pre></div><p><strong><a href="./../set-operations/">Set Operations</a>:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>set1 <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>}
+</span></span><span style="display:flex;"><span>set2 <span style="color:#f92672">=</span> {<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Union</span>
+</span></span><span style="display:flex;"><span>union_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">|</span> set2 <span style="color:#75715e"># or set1.union(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Union: </span><span style="color:#e6db74">{</span>union_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {1, 2, 3, 4, 5}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Intersection</span>
+</span></span><span style="display:flex;"><span>intersection_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">&amp;</span> set2 <span style="color:#75715e"># or set1.intersection(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Intersection: </span><span style="color:#e6db74">{</span>intersection_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {3}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Difference</span>
+</span></span><span style="display:flex;"><span>difference_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">-</span> set2 <span style="color:#75715e"># or set1.difference(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Difference (set1 - set2): </span><span style="color:#e6db74">{</span>difference_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {1, 2}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Symmetric Difference</span>
+</span></span><span style="display:flex;"><span>symmetric_difference_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">^</span> set2 <span style="color:#75715e"># or set1.symmetric_difference(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Symmetric Difference: </span><span style="color:#e6db74">{</span>symmetric_difference_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {1, 2, 4, 5}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Checking for Subsets and Supersets</span>
+</span></span><span style="display:flex;"><span>set3 <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>}
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Is set3 a subset of set1?: </span><span style="color:#e6db74">{</span>set3<span style="color:#f92672">.</span>issubset(set1)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e">#True</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Is set1 a superset of set3?: </span><span style="color:#e6db74">{</span>set1<span style="color:#f92672">.</span>issuperset(set3)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e">#True</span>
+</span></span></code></pre></div><p><strong>Other Useful Methods:</strong></p>
+<ul>
+<li><code>len(my_set)</code>: Returns the number of elements.</li>
+<li><code>x in my_set</code>: Checks if <code>x</code> is an element of the set.</li>
+<li><code>x not in my_set</code>: Checks if <code>x</code> is not an element of the set.</li>
+</ul>
+<p><a href="./../set-comprehension/">Set Comprehension</a>
+<a href="./../frozen-sets/">Frozen Sets</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twos Complement | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Twos Complement</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="bitwise-operatorsbitwise-operators"><a href="./../bitwise-operators/">Bitwise Operators</a></h1>
+<h1 id="twos-complement">Two&rsquo;s Complement</h1>
+<p>Two&rsquo;s complement is a way to represent signed integers (positive and negative) in binary.  It&rsquo;s the most common method used in computers because it simplifies arithmetic operations, particularly addition and subtraction.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li>
+<p><strong>Sign Bit:</strong> The most significant bit (MSB) represents the sign. 0 indicates positive, 1 indicates negative.</p>
+</li>
+<li>
+<p><strong>Positive Numbers:</strong>  Represented in standard binary.</p>
+</li>
+<li>
+<p><strong>Negative Numbers:</strong> Calculated by inverting all bits (0s become 1s, 1s become 0s) and then adding 1.</p>
+</li>
+</ul>
+<p><strong>Example (8-bit):</strong></p>
+<p>Let&rsquo;s represent 5 and -5:</p>
+<ul>
+<li>
+<p><strong>5:</strong> <code>00000101</code> (Positive, standard binary)</p>
+</li>
+<li>
+<p><strong>-5:</strong></p>
+<ol>
+<li>Invert bits: <code>11111010</code></li>
+<li>Add 1: <code>11111011</code></li>
+</ol>
+</li>
+</ul>
+<p><strong>Python Implementation:</strong></p>
+<p>Python handles this internally, so you don&rsquo;t usually need to worry about the specifics.  However, you can simulate it:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">twos_complement</span>(n, bits):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Represents an integer using two&#39;s complement in a specified number of bits.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(n)[<span style="color:#ae81ff">2</span>:]<span style="color:#f92672">.</span>zfill(bits)  <span style="color:#75715e">#Positive numbers</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>        positive_equivalent <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> bits) <span style="color:#f92672">+</span> n <span style="color:#75715e">#add 2^bits to get the positive equivalent</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(positive_equivalent)[<span style="color:#ae81ff">2</span>:]<span style="color:#f92672">.</span>zfill(bits)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(twos_complement(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">8</span>))  <span style="color:#75715e"># Output: 00000101</span>
+</span></span><span style="display:flex;"><span>print(twos_complement(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">8</span>)) <span style="color:#75715e"># Output: 11111011</span>
+</span></span></code></pre></div><p><strong>Advantages:</strong></p>
+<ul>
+<li><strong>Simplified Arithmetic:</strong> Addition and subtraction can be performed using the same circuitry regardless of the signs of the numbers.  This simplifies hardware design.</li>
+<li><strong>Unique Representation:</strong>  Each integer has a unique representation in two&rsquo;s complement (except for the most negative number in a given number of bits).</li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul>
+<li><strong>Range Limitation:</strong> The range of representable numbers is limited by the number of bits used.  For example, with 8 bits, the range is -128 to 127.</li>
+<li><a href="./../bitwise-operations/">Bitwise Operations</a>  (Need separate explanation)</li>
+<li><a href="./../binary-representation/">Binary Representation</a> (Need separate explanation)</li>
+</ul>
+<p><a href="./../number-systems/">Number Systems</a> (A note on different number systems like decimal, binary, hexadecimal would be useful)</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

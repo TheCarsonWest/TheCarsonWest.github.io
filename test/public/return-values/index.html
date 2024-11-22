@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Return Values | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Return Values</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="return-values">Return Values</h1>
+<p>Return values are the data sent back by a function after it has completed its execution.  A function can return any data type, including <code>None</code> (if no explicit return statement is used).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(x, y):
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;&#34;&#34;This function adds two numbers and returns the sum.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> add(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># result will be 8</span>
+</span></span><span style="display:flex;"><span>print(result)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name):
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;&#34;&#34;This function greets the person passed in as a parameter and returns a string&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Hello, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>greeting <span style="color:#f92672">=</span> greet(<span style="color:#e6db74">&#34;Alice&#34;</span>) <span style="color:#75715e"># greeting will be &#34;Hello, Alice!&#34;</span>
+</span></span><span style="display:flex;"><span>print(greeting)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">no_return</span>():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;This function does not return a value.&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>returned_value <span style="color:#f92672">=</span> no_return() <span style="color:#75715e">#returned_value will be None</span>
+</span></span><span style="display:flex;"><span>print(returned_value)
+</span></span></code></pre></div><p><a href="./../python-functions/">Python Functions</a>  (link to a note about the general concept of <a href="./../python-functions/">Python Functions</a>)
+<a href="./../function-parameters/">Function Parameters</a> (link to a note about <a href="./../function-parameters/">Function Parameters</a>)</p>
+<p>The <code>return</code> statement immediately exits the function and sends the specified value back to the caller.  If a function doesn&rsquo;t have a <code>return</code> statement, it implicitly returns <code>None</code>.  Multiple return values are possible using <a href="./../tuples/">Tuples</a>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">multiple_returns</span>(a, b):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> a, b<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>x, y <span style="color:#f92672">=</span> multiple_returns(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># x will be 5, y will be 6</span>
+</span></span><span style="display:flex;"><span>print(x, y)
+</span></span></code></pre></div><p><a href="./../tuples/">Tuples</a> (link to a note on <a href="./../tuples/">Tuples</a>)</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

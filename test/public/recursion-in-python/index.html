@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recursion in Python | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Recursion in Python</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-functionspython-functions"><a href="./../python-functions/">Python Functions</a></h1>
+<h1 id="recursion-in-python">Recursion in Python</h1>
+<p><a href="./../recursion/">Recursion</a> is a powerful technique where a function calls itself within its own definition.  It&rsquo;s crucial to have a base case to stop the recursion, otherwise, it will lead to a <code>RecursionError</code> (stack overflow).</p>
+<p><strong>Key Components:</strong></p>
+<ul>
+<li><strong>Base Case:</strong> The condition that stops the recursive calls.  Without a base case, the function will call itself infinitely.</li>
+<li><strong>Recursive Step:</strong> The part where the function calls itself with a modified input, moving closer towards the base case.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">factorial</span>(n):
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  Calculates the factorial of a non-negative integer using recursion.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">  &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span> n <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>:  <span style="color:#75715e"># Base case</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> n <span style="color:#f92672">*</span> factorial(n<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>) <span style="color:#75715e"># Recursive step</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(factorial(<span style="color:#ae81ff">5</span>))  <span style="color:#75715e"># Output: 120</span>
+</span></span></code></pre></div><p><strong>Potential Issues:</strong></p>
+<ul>
+<li><strong>Stack Overflow:</strong>  If the recursion goes too deep (too many nested function calls), it can lead to a <code>RecursionError</code>. This happens because each recursive call adds a new frame to the call stack, and the stack has a limited size.</li>
+<li><strong>Inefficiency:</strong> In some cases, <a href="./../recursion/">Recursion</a> can be less efficient than iterative solutions (using loops).  This is especially true for problems that can be easily solved iteratively.</li>
+</ul>
+<p><strong>When to Use Recursion:</strong></p>
+<p>Recursion is particularly well-suited for problems that can be naturally broken down into smaller, self-similar subproblems. Examples include tree traversal, graph algorithms, and certain mathematical problems (like factorial, Fibonacci sequence).</p>
+<p><strong>Alternatives:</strong></p>
+<p>Often, iterative approaches (using loops) can provide a more efficient solution to problems that can be solved recursively.  <a href="./../iteration-vs-recursion/">Iteration vs Recursion</a></p>
+<p><strong>Further Exploration:</strong></p>
+<ul>
+<li><a href="./../tail-recursion/">Tail Recursion</a> (Optimization technique for specific types of recursion)</li>
+<li><a href="./../recursion-examples/">Recursion Examples</a> (More complex examples of recursive functions)</li>
+</ul>
+<p><strong>Note:</strong>  Always carefully consider the base case and potential for stack overflow when using <a href="./../recursion/">Recursion</a>.  For many problems, an iterative solution might be preferred for efficiency and to avoid potential errors.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

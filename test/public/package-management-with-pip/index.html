@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Package Management with Pip | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Package Management with Pip</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="virtual-environmentsvirtual-environments"><a href="./../virtual-environments/">Virtual Environments</a></h1>
+<h1 id="package-management-with-pip">Package Management with Pip</h1>
+<p>Pip is the standard package manager for Python.  It allows you to install, manage, and uninstall packages (libraries) easily.</p>
+<p><strong>Key Commands:</strong></p>
+<ul>
+<li><strong>Installation:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install &lt;package_name&gt;
+</span></span></code></pre></div><ul>
+<li>To install a specific version:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install &lt;package_name&gt;<span style="color:#f92672">==</span>&lt;version&gt;
+</span></span></code></pre></div><ul>
+<li>To install from a requirements file:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install -r requirements.txt
+</span></span></code></pre></div><p>(<a href="./../requirements-files/">Requirements Files</a>)</p>
+<ul>
+<li><strong>Uninstallation:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip uninstall &lt;package_name&gt;
+</span></span></code></pre></div><ul>
+<li><strong>Listing Installed Packages:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip list
+</span></span><span style="display:flex;"><span>pip freeze  <span style="color:#75715e"># Shows installed packages and their versions in requirements format.</span>
+</span></span></code></pre></div><ul>
+<li><strong>Updating Packages:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip install --upgrade &lt;package_name&gt;
+</span></span><span style="display:flex;"><span>pip install --upgrade -r requirements.txt <span style="color:#75715e">#Update all packages from requirements.txt</span>
+</span></span></code></pre></div><ul>
+<li><strong>Searching for Packages:</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>pip search &lt;search_term&gt;
+</span></span></code></pre></div><p><strong>Virtual Environments:</strong>  It&rsquo;s crucial to use virtual environments to isolate project dependencies.  Pip integrates well with <code>venv</code> (or <code>virtualenv</code>).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python3 -m venv .venv  <span style="color:#75715e"># Creates a virtual environment named &#39;.venv&#39;</span>
+</span></span><span style="display:flex;"><span>source .venv/bin/activate  <span style="color:#75715e"># Activates the environment (Linux/macOS)</span>
+</span></span><span style="display:flex;"><span>.venv<span style="color:#ae81ff">\S</span>cripts<span style="color:#ae81ff">\a</span>ctivate  <span style="color:#75715e"># Activates the environment (Windows)</span>
+</span></span><span style="display:flex;"><span>pip install &lt;package_name&gt; <span style="color:#75715e"># Install packages within the virtual environment</span>
+</span></span><span style="display:flex;"><span>deactivate <span style="color:#75715e"># Deactivates the environment</span>
+</span></span></code></pre></div><p>(<a href="./../virtual-environments/">Virtual Environments</a>)</p>
+<p><strong>Other Useful Options:</strong></p>
+<ul>
+<li><code>--user</code>: Installs packages only for the current user.</li>
+<li><code>-t &lt;directory&gt;</code>: Specifies the installation directory.</li>
+<li><code>--index-url &lt;url&gt;</code>: Specifies an alternative PyPI index URL.</li>
+</ul>
+<p><strong>Troubleshooting:</strong></p>
+<ul>
+<li><strong>Permission Errors:</strong> You might need administrator privileges (sudo on Linux/macOS) to install packages globally.  Virtual environments are a better solution to avoid permission issues.</li>
+<li><strong>Network Issues:</strong> Ensure you have a stable internet connection.</li>
+<li><strong>Proxy Settings:</strong> If you&rsquo;re behind a proxy, you&rsquo;ll need to configure pip to use it. (see pip documentation)</li>
+</ul>
+<p><a href="./../pip-configuration/">Pip Configuration</a>
+<a href="./../package-conflicts/">Package Conflicts</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

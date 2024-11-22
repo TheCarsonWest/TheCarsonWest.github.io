@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Getter and Setter Methods | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Getter and Setter Methods</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="private-and-protected-membersprivate-and-protected-members"><a href="./../private-and-protected-members/">Private and Protected Members</a></h1>
+<h1 id="getter-and-setter-methods">Getter and Setter Methods</h1>
+<p>These methods provide controlled access to an object&rsquo;s attributes.  They are crucial for encapsulation and data integrity.</p>
+<p><strong>Why use them?</strong></p>
+<ul>
+<li><strong>Encapsulation:</strong> Hide internal object state.  Prevent direct manipulation of attributes, which can lead to inconsistencies or errors.</li>
+<li><strong>Data Validation:</strong>  Enforce constraints on attribute values before they are assigned.  This ensures data remains valid and prevents unexpected behavior.</li>
+<li><strong>Maintainability:</strong> Makes it easier to modify internal implementation without affecting external code that uses the object.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, age):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>_age <span style="color:#f92672">=</span> age  <span style="color:#75715e"># Using _age indicates a protected attribute (convention, not enforced)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">get_age</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_age
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">set_age</span>(self, new_age):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> new_age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>_age <span style="color:#f92672">=</span> new_age
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">ValueError</span>(<span style="color:#e6db74">&#34;Age cannot be negative&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>person <span style="color:#f92672">=</span> Person(<span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>get_age())  <span style="color:#75715e"># Accessing age using getter</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>person<span style="color:#f92672">.</span>set_age(<span style="color:#ae81ff">35</span>)  <span style="color:#75715e"># Modifying age using setter</span>
+</span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>get_age())
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>set_age(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>    print(e) <span style="color:#75715e"># Handles invalid age using error message</span>
+</span></span></code></pre></div><p><strong>Alternative using <code>@property</code> decorator (Pythonic way):</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, age):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>_age <span style="color:#f92672">=</span> age
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@property</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">age</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>_age
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@age.setter</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">age</span>(self, new_age):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> new_age <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>:
+</span></span><span style="display:flex;"><span>            self<span style="color:#f92672">.</span>_age <span style="color:#f92672">=</span> new_age
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">else</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">ValueError</span>(<span style="color:#e6db74">&#34;Age cannot be negative&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>person <span style="color:#f92672">=</span> Person(<span style="color:#ae81ff">30</span>)
+</span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>age) <span style="color:#75715e"># Access like a normal attribute</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>person<span style="color:#f92672">.</span>age <span style="color:#f92672">=</span> <span style="color:#ae81ff">35</span>
+</span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>age)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>age <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>    print(e)
+</span></span></code></pre></div><p><a href="./../property-decorator-in-python/">Property Decorator in Python</a>  <a href="./../encapsulation-in-oop/">Encapsulation in OOP</a> <a href="./../error-handling-in-python/">Error Handling in Python</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
