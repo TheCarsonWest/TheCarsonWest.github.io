@@ -552,6 +552,8 @@
   </url><url>
     <loc>http://example.org/illinois/</loc>
   </url><url>
+    <loc>http://example.org/immutable-types/</loc>
+  </url><url>
     <loc>http://example.org/immutable-types-deeper-dive/</loc>
   </url><url>
     <loc>http://example.org/implicit-differentiation/</loc>

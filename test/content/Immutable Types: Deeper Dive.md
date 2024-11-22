@@ -9,7 +9,7 @@
 This note expands on the concept of immutability in Python.  Key immutable types include:
 
 * `int` (integers)
-* `float` (floating-point numbers)
+* `float` (floating-point numbers)**
 * `bool` (booleans)
 * `str` (strings)
 * `tuple` (tuples)
