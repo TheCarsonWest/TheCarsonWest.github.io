@@ -1,5 +1,5 @@
 +++
- title = 'Immutable Types: Deeper Dive'
+ title = 'Immutable Types Deeper Dive'
 [params]
 	author = 'Carson West'
 +++
