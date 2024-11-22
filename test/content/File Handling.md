@@ -3,47 +3,70 @@
 [params]
 	author = 'Carson West'
 +++
-## [File Handling](./../file-handling/)
-
-### Explanation
-File handling in Python refers to the process of reading, writing, updating, and managing files on the computer system. It enables programs to perform operations like creating, deleting, opening, closing, and manipulating files.
-
-### How to Use [File Handling](./../file-handling/)
-To perform file operations, you need to open a file using the `open()` function. The `open()` function takes two parameters:
-
-- `filename`: The name of the file to be opened.
-- `mode`: The mode in which the file should be opened. Common modes include:
-
- - 'r' - Read only
- - 'w' - Write only (overwrites existing file)
- - 'a' - Append only (adds to the end of existing file)
-
-Once the file is opened, you can use methods like `read()`, `write()`, and `close()` to perform various operations on the file.
-
-### Code Examples
-```python
-# Open a file for reading
-file = open("myfile.txt", "r")
-# Read the contents of the file
-contents = file.read()
-# Close the file
-file.close()
-```
-
-```python
-# Open a file for writing
-file = open("myfile.txt", "w")
-# Write some data to the file
-file.write("This is a test.")
-# Close the file
-file.close()
-```
-
-### Related Python Concepts
-
-- [Variables and Data Types](./../variables-and-data-types/): File handling operations involve working with strings and file objects.
-- [Operators](./../operators/): File I/O operations use [Operators](./../operators/) like `+` for string concatenation.
-- [Control Flow If Statements](./../control-flow-if-statements/): File handling operations often involve conditional execution.
-- [Python Functions](./../python-functions/): File I/O operations can be encapsulated in [Python Functions](./../python-functions/) for reuse.
-- [File IO Modes](./../file-io-modes/): There are several different modes available for opening files, each with specific behavior.
 # [Python 1 Home](./../python-1-home/)
+# File Handling
+
+Key aspects to remember about file handling in Python:
+
+*   **Opening Files:**  Use the `open()` function.  Specify the filename and the mode ('r' for reading, 'w' for writing, 'a' for appending, 'x' for exclusive creation, 'b' for binary, 't' for text -  'r+' for reading and writing, etc.).
+
+```python
+file = open("my_file.txt", "r") #Opens file for reading
+```
+
+*   **Reading Files:**
+
+    *   `file.read()` : Reads the entire file content as a single string.
+    *   `file.readline()` : Reads a single line at a time.
+    *   `file.readlines()` : Reads all lines into a list of strings.
+    *   Iteration: You can directly iterate over a file object to read line by line.
+
+```python
+file = open("my_file.txt", "r")
+contents = file.read() #reads entire file
+lines = file.readlines() #reads entire file into list of lines
+for line in file: #iterates over lines
+  print(line)
+file.close() #IMPORTANT: Always close the file!
+
+```
+
+*   **Writing to Files:**
+
+    *   `file.write()` : Writes a string to the file.
+    *   Remember to close the file after writing to ensure data is saved.
+
+```python
+file = open("my_file.txt", "w")
+file.write("This is some text.\n")
+file.write("This is another line.\n")
+file.close()
+```
+
+*   **Appending to Files:** Use `"a"` mode to add content to the end of an existing file.
+
+*   **Error Handling:** Use `try...except` blocks to handle potential `FileNotFoundError` exceptions.
+
+```python
+try:
+    file = open("my_file.txt", "r")
+    # ... file operations ...
+except FileNotFoundError:
+    print("File not found!")
+finally:
+    file.close() #This will still execute even if exception occurs.  Best way to ensure file is closed
+```
+
+*   **Context Managers (`with` statement):** The preferred way to handle files, automatically closing them even if errors occur.
+
+```python
+with open("my_file.txt", "r") as file:
+    contents = file.read()
+    # ... process contents ...
+
+# File is automatically closed here.
+```
+
+[File IO Modes](./../file-io-modes/), [Handling Binary Files](./../handling-binary-files/)
+
+

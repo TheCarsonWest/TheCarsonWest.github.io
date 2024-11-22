@@ -3,45 +3,60 @@
 [params]
 	author = 'Carson West'
 +++
-## [Regex Groups and Backreferences](./../regex-groups-and-backreferences/)
+# [Regular Expressions](./../regular-expressions/)
+# Regex Groups and Backreferences
 
-### What are [Regex Groups and Backreferences](./../regex-groups-and-backreferences/)?
-Groups in [Regular Expressions](./../regular-expressions/) are used to capture substrings within the matched pattern. Backreferences allow referencing these captured substrings within the regular expression itself or in subsequent processing.
+These notes cover how to use groups and backreferences in [Regular Expressions](./../regular-expressions/) within Python.
 
-### How to Use Regex Groups
-To create a group in a regular expression, use parentheses:
+The core idea is to create groups within a regex pattern to capture specific parts of the matched string.  These captured parts can then be reused (backreferenced) within the same pattern or accessed after the match is made.
 
-```
-# capture the word "python"
-(python)
-```
+**Creating Groups:**
 
-Backreferences are used by escaping the opening parenthesis of the group:
+Groups are created using parentheses `()` in your regular expression.  Each opening parenthesis starts a new group, and the corresponding closing parenthesis ends it.
 
-```
-# replace "Python" with "Py"
-Python -> (Py)thon
-```
-
-### Code Examples
 ```python
 import re
 
-# find all occurrences of phone numbers
-phone_pattern = re.compile(r"(\d{3}-?\d{3}-?\d{4})")
+text = "My phone number is 123-456-7890 and my zip code is 90210"
+pattern = r"(\d{3})-(\d{3})-(\d{4})"  # Three groups: area code, prefix, line number
 
-# match a string
-match = phone_pattern.search("My phone number is 123-456-7890")
-
-# access the captured group
-phone_number = match.group(1)
+match = re.search(pattern, text)
+if match:
+    print(match.group(0))  # Entire match
+    print(match.group(1))  # First group (area code)
+    print(match.group(2))  # Second group (prefix)
+    print(match.group(3))  # Third group (line number)
 ```
 
-### Related Python Concepts
+**Backreferences:**
 
-- [Regular Expressions](./../regular-expressions/): Groups and backreferences are core components of [Regular Expressions](./../regular-expressions/).
-- [Python Functions](./../python-functions/): [Regular Expressions](./../regular-expressions/) often use matching [Python Functions](./../python-functions/) like `search` and `findall`.
-- [[Lambda [Python Functions](./../python-functions/): [Regular Expressions](./../regular-expressions/) can be used as arguments to [Lambda Functions](./../lambda-functions/).
-- [Python Sets](./../python-sets/): Groups can be used to construct [Python Sets](./../python-sets/) of matched substrings.
-- [Tuples](./../tuples/): Backreferences return [Tuples](./../tuples/) containing the captured substrings.
-# [Python 1 Home](./../python-1-home/)
+Backreferences allow you to refer to previously captured groups within the same regular expression. This is done using backslash followed by the group number. `\1` refers to the first group, `\2` to the second, and so on.
+
+```python
+text = "abababa"
+pattern = r"(a)(b)\1\2\1" # Matches "abababa"  \1 refers to (a), \2 refers to (b)
+
+match = re.search(pattern, text)
+if match:
+    print(match.group(0))
+```
+
+**Named Capture Groups:**
+
+Python also supports named capture groups, making your code more readable. These are defined using the `(?P<name>...)` syntax.
+
+```python
+text = "My email is test@example.com"
+pattern = r"(?P<user>[^@]+)@(?P<domain>[^@]+)"
+
+match = re.search(pattern, text)
+if match:
+    print(match.group("user"))  # Access using name
+    print(match.group("domain"))
+```
+
+
+[Regex Metacharacters](./../regex-metacharacters/)  ([Python's `re` Module](./../pythons-`re`-module/))
+
+
+This is useful for extracting specific parts of a matched string in a structured way.  Refer to [Regex Metacharacters](./../regex-metacharacters/) for more information on the basic building blocks of [Regular Expressions](./../regular-expressions/) used in these examples.  The [Python's `re` Module](./../pythons-`re`-module/) note will cover the different functions available within Python's `re` module for working with [Regular Expressions](./../regular-expressions/).

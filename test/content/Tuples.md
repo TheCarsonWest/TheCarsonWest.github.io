@@ -3,38 +3,49 @@
 [params]
 	author = 'Carson West'
 +++
-## [Tuples](./../tuples/)
-
-### What are [Tuples](./../tuples/)?
- [Tuples](./../tuples/) are immutable data structures in Python that store ordered sequences of elements. Unlike [Lists](./../lists/), tuples cannot be modified after creation. They are represented by parentheses `()`.
-
-### How to Use [Tuples](./../tuples/)
- [Tuples](./../tuples/) are created by enclosing elements in parentheses, separated by commas. Elements can be of any Python data type.
-
-```python
-my_tuple = (1, 2, 3)
-```
-
-### Code Examples
-```python
-# create a tuple of numbers
-numbers = (1, 2, 3, 4, 5)
-
-# create a tuple of mixed data types
-mixed_tuple = ("John", 30, True)
-
-# access elements of a tuple
-print(numbers[0]) # output: 1
-
-# use unpacking to assign tuple elements to variables
-x, y, z = numbers # equivalent to x = numbers[0], y = numbers[1], z = numbers[2]
-```
-
-### Related Python Concepts
-
-- [Variables and Data Types](./../variables-and-data-types/): [Tuples](./../tuples/) are a data type in Python.
-- [Lists](./../lists/): [Tuples](./../tuples/) are immutable, while [Lists](./../lists/) are mutable.
-- [Dictionaries](./../dictionaries/): [Tuples](./../tuples/) can be used as keys in [Dictionaries](./../dictionaries/).
-- [Python Sets](./../python-sets/): [Tuples](./../tuples/) are ordered, while [Python Sets](./../python-sets/) are unordered.
-- [Tuple Unpacking](./../tuple-unpacking/): [Tuples](./../tuples/) can be unpacked into variables.
 # [Python 1 Home](./../python-1-home/)
+# Tuples
+
+Tuples are ordered, immutable [Sequences](./../sequences/) of items.  This immutability is a key difference from [Lists](./../lists/).
+
+* **Creation:**
+```python
+my_tuple = (1, 2, 3, "apple", 4.5)  # Using parentheses
+another_tuple = 1, 2, 3  # Parentheses are optional for simple tuples
+empty_tuple = ()
+single_element_tuple = (1,) #Note the comma for single-element tuples
+
+```
+
+* **Accessing Elements:** Similar to [Lists](./../lists/), use indexing.
+```python
+print(my_tuple[0])  # Output: 1
+print(my_tuple[-1]) # Output: 4.5
+```
+
+* **Immutability:**  Attempting to modify a tuple after creation raises a `TypeError`.
+```python
+my_tuple[0] = 10  # Raises TypeError: 'tuple' object does not support item assignment
+```
+
+* **Methods:** Tuples have fewer methods than [Lists](./../lists/) because they are immutable. Common methods include:
+    * `count()`: Counts the occurrences of an element.
+    * `index()`: Returns the index of the first occurrence of an element.
+
+
+* **Tuple Packing and Unpacking:**
+```python
+packed_tuple = (1, 2, 3)
+a, b, c = packed_tuple  # Unpacking
+print(a, b, c)  # Output: 1 2 3
+
+```
+
+* **Iteration:**  Iterate through tuples using loops (like `for` loops).
+
+* **Use Cases:** Tuples are useful when you need an ordered collection of items that should not be changed.  They're often used to represent records or data that should remain constant.
+
+
+[Lists](./../lists/)
+[Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+

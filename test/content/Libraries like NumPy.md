@@ -3,65 +3,53 @@
 [params]
 	author = 'Carson West'
 +++
-## [Libraries like NumPy](./../libraries-like-numpy/)
+# [Modules and Packages](./../modules-and-packages/)
+# Python Notes: Libraries like NumPy
 
-### What is NumPy?
-NumPy (Numerical Python) is a powerful Python library for scientific computing that provides a comprehensive collection of [Python Functions](./../python-functions/) and data structures for numerical operations and linear algebra. It enables efficient handling of multidimensional arrays and offers a wide range of mathematical [Python Functions](./../python-functions/) for numerical computations.
+**Current String:** Libraries like NumPy
 
-### How to Use NumPy
-To use NumPy in your Python programs, you first need to import the library using the following statement:
+NumPy is a fundamental library for numerical computing in Python.  It provides powerful tools for working with arrays and matrices, significantly speeding up numerical operations compared to using standard Python lists.
+
+Key Features:
+
+* **`ndarray` (n-dimensional array):** The core data structure of NumPy.  Allows for efficient storage and manipulation of large arrays of numerical data.  [NumPy ndarrays](./../numpy-ndarrays/)
+
+* **Broadcasting:** Enables element-wise operations between arrays of different shapes under certain conditions. [NumPy Broadcasting](./../numpy-broadcasting/)
+
+* **Vectorized Operations:**  Allows for applying operations to entire arrays at once, avoiding explicit loops and significantly improving performance.
+
+* **Linear Algebra:** NumPy provides functions for linear algebra operations like matrix multiplication, eigenvalue decomposition, etc. [NumPy Linear Algebra](./../numpy-linear-algebra/)
+
+* **Random Number Generation:**  Provides functions for generating various types of random numbers. [NumPy Random Number Generation](./../numpy-random-number-generation/)
+
+* **Fourier Transforms:**  NumPy offers tools for performing Fourier transforms, useful in signal processing and other applications. [NumPy Fourier Transforms](./../numpy-fourier-transforms/)
+
+
+**Example:**
 
 ```python
 import numpy as np
-```
 
-Once imported, you can access the [Python Functions](./../python-functions/) and classes provided by NumPy.
-
-**Creating Arrays:**
-- `np.array(object)`: Converts a Python object to a NumPy array.
-- `np.zeros(shape)`: Creates a new array filled with zeros.
-- `np.ones(shape)`: Creates a new array filled with ones.
-- `np.random.rand(shape)`: Creates a new array filled with random values between 0 and 1.
-
-**Array Operations:**
-- `arr.shape`: Returns the shape of an array.
-- `arr.dtype`: Returns the data type of an array.
-- `arr + arr2`: Element-wise addition of two arrays.
-- `arr * arr2`: Element-wise multiplication of two arrays.
-- `np.sum(arr)`: Computes the sum of all elements in an array.
-
-**Mathematical [Python Functions](./../python-functions/):**
-- `np.sin(x)`: Computes the sine of x.
-- `np.cos(x)`: Computes the cosine of x.
-- `np.log(x)`: Computes the natural logarithm of x.
-- `np.sqrt(x)`: Computes the square root of x.
-
-### Code Examples
-```python
-# Create a 3x3 array of zeros
-arr = np.zeros((3, 3))
-print(arr)
-```
-
-```python
-# Compute the element-wise product of two arrays
-arr1 = np.array([1, 2, 3])
-arr2 = np.array([4, 5, 6])
-result = arr1 * arr2
-print(result)
-```
-
-```python
-# Compute the sum of all elements in an array
+# Creating a NumPy array
 arr = np.array([1, 2, 3, 4, 5])
-total = np.sum(arr)
-print(total)
+
+# Performing element-wise operations
+squared_arr = arr ** 2 
+
+# Matrix multiplication
+matrix1 = np.array([1, 2], [3, 4](./../1-2]-[3-4/))
+matrix2 = np.array([5, 6], [7, 8](./../5-6]-[7-8/))
+result = np.dot(matrix1, matrix2)
+
+print(arr)
+print(squared_arr)
+print(result)
+
 ```
 
-### Related Python Concepts
-- [Variables and Data Types](./../variables-and-data-types/): NumPy arrays are stored using NumPy's own data types.
-- [Operators](./../operators/): NumPy provides [Operators](./../operators/) for array operations like element-wise addition and multiplication.
-- [Python Functions](./../python-functions/): NumPy provides a rich set of mathematical [Python Functions](./../python-functions/) for numerical computations.
-- [Lists](./../lists/): NumPy arrays can be converted to and from Python [Lists](./../lists/).
-- [Modules and Packages](./../modules-and-packages/): NumPy is a third-party library that is installed as a package.
-# [Python 1 Home](./../python-1-home/)
+**Related Notes:**
+
+* [Python Data Structures](./../python-data-structures/)
+* [Performance Optimization in Python](./../performance-optimization-in-python/)
+
+

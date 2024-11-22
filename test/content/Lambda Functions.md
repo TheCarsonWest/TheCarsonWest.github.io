@@ -3,41 +3,37 @@
 [params]
 	author = 'Carson West'
 +++
-## Lambda [Python Functions](./../python-functions/)
-
-### Explanation
-Lambda [Python Functions](./../python-functions/) in Python are small, anonymous [Python Functions](./../python-functions/) that can be defined without using the `def` keyword. They are often used as inline [Python Functions](./../python-functions/) when passing a function as an argument to another function or as a way to quickly define a simple function.
-
-### How to Use Lambda [Python Functions](./../python-functions/)
-Lambda [Python Functions](./../python-functions/) take the following format:
-
-```python
-lambda arguments: expression
-```
-
-* **arguments**: The input parameters to the function.
-* **expression**: The code to be executed when the function is called.
-
-### Code Examples
-```python
-# define a lambda function to calculate the square of a number
-square = lambda x: x ** 2
-
-# call the lambda function
-print(square(5)) # Output: 25
-```
-Lambda [Python Functions](./../python-functions/) are used as keys for sorting frequently
-```python
-# use a lambda function as an argument to the `sort` function
-numbers = [5, 1, 3, 2, 4]
-numbers.sort(key=lambda x: x % 2) # sort the numbers based on their remainder when divided by 2
-print(numbers) # Output: [2, 4, 1, 3, 5]
-```
-
-### Related Python Concepts
-- [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are essentially simplified versions of regular [Python Functions](./../python-functions/).
-- [Function Parameters](./../function-parameters/): Lambda [Python Functions](./../python-functions/) can receive arguments just like regular [Python Functions](./../python-functions/).
-- [[Higher-Order [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) are often used as arguments to higher-order [Python Functions](./../python-functions/).
-- [Closures](./../closures/): Lambda [Python Functions](./../python-functions/) can access variables from the enclosing scope, creating [Closures](./../closures/).
-- [Map, Filter, and Reduce](./../map-filter-and-reduce/): Lambda [Python Functions](./../python-functions/) commonly appear in these built-in [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)
+# Lambda Functions
+
+Lambda functions are small, anonymous functions defined using the `lambda` keyword.  They are useful for short, simple operations that don't require a full function definition.
+
+```python
+square = lambda x: x**2
+print(square(5))  # Output: 25
+
+add = lambda x, y: x + y
+print(add(3, 4))  # Output: 7
+```
+
+Lambda functions are often used with higher-order functions like `map`, `filter`, and `reduce`. [Higher-Order Functions](./../higher-order-functions/)
+
+**Example with `map`:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x**2, numbers))
+print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
+```
+
+**Example with `filter`:**
+
+```python
+numbers = [1, 2, 3, 4, 5, 6]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)  # Output: [2, 4, 6]
+```
+
+Lambda functions can only contain a single expression, which is implicitly returned.  They cannot have multiple statements or complex logic.  For more complex operations, a regular function definition is preferred. [Python Functions](./../python-functions/)
+
+

@@ -3,52 +3,57 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Virtual Environments](./../virtual-environments/)
+# [Modules and Packages](./../modules-and-packages/)
+# Virtual Environments
 
-### What is a Virtual Environment?
-A Python virtual environment is an isolated and self-contained environment for running Python projects. It allows you to manage different versions of Python installations, install and manage different packages, and avoid conflicts with the system-wide Python installation.
+Python's strength lies in its vast ecosystem of packages.  However, managing dependencies between different projects can become a nightmare without proper tools.  This is where virtual environments shine.
 
-### How to Use [Virtual Environments](./../virtual-environments/)
-To create a virtual environment, use the following command:
+A virtual environment is an isolated space where you can install packages without affecting your system's global Python installation or other projects.  This prevents conflicts and ensures that each project has its own specific set of dependencies.
 
-```bash
-python3 -m venv venv_name
-```
+**Creating a Virtual Environment:**
 
-where `venv_name` is the name of the virtual environment.
-
-To activate the virtual environment, use:
+The most common way is using `venv` (Python 3.3+):
 
 ```bash
-source venv_name/bin/activate
+python3 -m venv .venv  # Creates a virtual environment named '.venv' in the current directory
 ```
 
-To deactivate the virtual environment, use:
+Other tools exist, like `conda` (often used with Anaconda):
+
+```bash
+conda create -n myenv python=3.9  # Creates a conda environment named 'myenv' with Python 3.9
+```
+
+**Activating a Virtual Environment:**
+
+After creation, you need to activate it to use it:
+
+* **venv:**
+    * Linux/macOS:  `source .venv/bin/activate`
+    * Windows:  `.venv\Scripts\activate`
+
+* **conda:**
+    * `conda activate myenv`
+
+
+**Installing Packages:**
+
+Once activated, use `pip` to install packages within the environment:
+
+```bash
+pip install requests numpy pandas
+```
+
+These packages will *only* be available within this specific environment.
+
+
+**Deactivating a Virtual Environment:**
+
+To exit the environment and return to your system's default Python:
 
 ```bash
 deactivate
 ```
 
-### Code Examples
-```bash
-# create a virtual environment named 'myenv'
-python3 -m venv myenv
 
-# activate the 'myenv' virtual environment
-source ./myenv/bin/activate
-
-# install a package in the 'myenv' virtual environment
-pip install numpy
-
-# deactivate the 'myenv' virtual environment
-deactivate
-```
-
-### Related Python Concepts
-
-- [Modules and Packages](./../modules-and-packages/): Virtual environments help manage and isolate different versions of Python [Modules and Packages](./../modules-and-packages/).
-- [Installing and Managing Modules](./../installing-and-managing-modules/): Virtual environments allow you to install and manage packages specific to a project without affecting the system-wide Python installation.
-- [Python Package Index (PyPI) Publishing](./../python-package-index-(pypi)-publishing/): Virtual environments help test and develop packages before publishing them to PyPI.
-- [Building and Distributing Python Packages](./../building-and-distributing-python-packages/): Virtual environments provide a controlled environment for [Building and Distributing Python Packages](./../building-and-distributing-python-packages/).
-- [Concurrency and Multithreading](./../concurrency-and-multithreading/): Virtual environments can be used to create isolated environments for running multithreaded or concurrent applications.
-# [Python 1 Home](./../python-1-home/)
+[Package Management with Pip](./../package-management-with-pip/)  ([Conda Environments](./../conda-environments/))

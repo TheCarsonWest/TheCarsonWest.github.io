@@ -3,73 +3,78 @@
 [params]
 	author = 'Carson West'
 +++
-## [Modules and Packages](./../modules-and-packages/)
+# [Namespaces and Scope](./../namespaces-and-scope/)
+# Modules and Packages
 
-### What are [Modules and Packages](./../modules-and-packages/)?
+Python's modularity is a key strength.  It allows for code reusability and organization.
 
-**Modules:**
-- Self-contained Python code stored in a file (`*.py`).
-- Contain [Python Functions](./../python-functions/), classes, or variables that can be imported and used in other Python scripts.
-- Used to organize and reuse code.
+* **Modules:**  A single Python file (`.py`) containing functions, classes, and variables.  Think of it as a toolbox with specific tools.
 
-**Packages:**
-- A collection of related modules organized within a directory structure.
-- Packages provide a way to group and distribute modules logically.
-- Can contain subpackages and modules within subdirectories.
-
-### How to Use [Modules and Packages](./../modules-and-packages/)
-
-** [Importing Modules](./../importing-modules/):**
 ```python
-import module_name
-```
-Imports the specified module, allowing access to its contents.
+# my_module.py
+def my_function(x):
+  return x * 2
 
-**Importing Specific Elements from a Module:**
-```python
-from module_name import element1, element2
-```
-Imports specific elements (e.g., [Python Functions](./../python-functions/), classes) from a module.
-
-**Importing a Package:**
-```python
-import package_name
-```
-Imports the entire package, providing access to all its modules and subpackages.
-
-### Code Examples
-
-**Importing and Using a Module:**
-```python
-import mymodule
-
-mymodule.my_function()
+my_variable = 10
 ```
 
-**Importing and Using a Specific Element from a Module:**
-```python
-from mymodule import my_function
+To use `my_function` and `my_variable`, you import the module:
 
-my_function()
+```python
+import my_module
+
+result = my_module.my_function(5)  # result will be 10
+print(my_module.my_variable)       # prints 10
 ```
 
-**Importing and Using a Package:**
-```python
-import mypackage
+You can also import specific elements:
 
-subpackage = mypackage.subpackage
-subpackage.my_function()
+```python
+from my_module import my_function, my_variable
+
+result = my_function(5) # result will be 10
+print(my_variable)      # prints 10
 ```
 
-### Related Python Concepts
+Or rename things during import:
 
-- [Python Functions](./../python-functions/): Modules and packages provide a way to organize and reuse [Python Functions](./../python-functions/).
-- [Importing Modules](./../importing-modules/): The import statement is used to import modules and packages.
-- [Libraries like NumPy](./../libraries-like-numpy/): NumPy is a package that provides scientific computing capabilities.
-- [Libraries like Pandas](./../libraries-like-pandas/): Pandas is a package that provides data analysis and manipulation tools.
-- [Libraries like Matplotlib](./../libraries-like-matplotlib/): Matplotlib is a package that provides data visualization capabilities. [Dynamic Importing](./../dynamic-importing/)
-- [Python Functions](./../python-functions/)
-- [Python Package Index (PyPI) Publishing](./../python-package-index-(pypi)-publishing/)
-- [Virtual Environments](./../virtual-environments/)
+```python
+from my_module import my_function as func, my_variable as var
 
-# [Python 1 Home](./../python-1-home/)
+result = func(5) # result will be 10
+print(var)      # prints 10
+```
+
+
+* **Packages:** A collection of modules organized in a directory hierarchy.  The directory must contain an `__init__.py` file (can be empty), which signals to Python that it's a package.  Packages help structure larger projects.
+
+```
+mypackage/
+├── __init__.py
+├── module1.py
+└── module2.py
+```
+
+Importing from a package:
+
+```python
+import mypackage.module1
+
+mypackage.module1.some_function()
+
+from mypackage.module2 import some_other_function
+some_other_function()
+```
+
+[Import Statements](./../import-statements/)
+
+[Standard Library Modules](./../standard-library-modules/)
+
+[Creating Your Own Modules and Packages](./../creating-your-own-modules-and-packages/)
+
+[Namespaces and Scope](./../namespaces-and-scope/)
+
+
+[The `__init__.py` File](./../the-`__init__.py`-file/)  (Explains the purpose and functionality of `__init__.py` in more detail.)
+
+[Package Management with pip](./../package-management-with-pip/) (How to install and manage external packages using pip)

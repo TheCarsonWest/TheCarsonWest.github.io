@@ -3,33 +3,57 @@
 [params]
 	author = 'Carson West'
 +++
-## [Default Parameters](./../default-parameters/)
-
-### What are [Default Parameters](./../default-parameters/)?
-Default parameters are a way to give a value to a function parameter if no argument is passed when calling the function. This helps in providing more flexibility and simplifying the function call.
-
-### How to Use [Default Parameters](./../default-parameters/)
-To define a default parameter in a function, assign a value to the parameter in the function definition. For example:
-
-```python
-def greet(name="World"):
- print(f"Hello, {name}!")
-```
-
-In the above function, `name` is a parameter with a default value of "World". If no argument is passed to the `greet` function, the value of `name` will be "World".
-
-### Code Examples
-```python
-# greet the user with the provided name, or "World" if no name is given
-greet()
-greet("John")
-```
-
-### Other Related Python Concepts
-
-- [Function Parameters](./../function-parameters/): Default parameters extend the functionality of [Function Parameters](./../function-parameters/).
-- [Variables and Data Types](./../variables-and-data-types/): Default parameter values can be of any data type.
-- [Control Flow If Statements](./../control-flow-if-statements/): Default parameters can help simplify conditional statements in some cases.
-- [For Loops](./../for-loops/): Default parameters can reduce the need for explicit checks before entering loops.
-- [While Loops](./../while-loops/): Default parameters can be used to initialize loop conditions.
 # [Python 1 Home](./../python-1-home/)
+# Default Parameters
+
+Default parameters allow you to specify default values for function arguments.  If a caller doesn't provide a value for an argument with a default, the default value is used.
+
+```python
+def greet(name, greeting="Hello"):
+  print(f"{greeting}, {name}!")
+
+greet("Alice")  # Output: Hello, Alice!
+greet("Bob", "Hi")  # Output: Hi, Bob!
+```
+
+**Important Considerations:**
+
+* **Order Matters:** Default parameters must come *after* non-default parameters in the function definition.
+
+```python
+# Correct
+def func(a, b=2):
+    pass
+
+# Incorrect - will raise a SyntaxError
+def func(a=1, b):
+    pass
+```
+
+* **Mutable Default Arguments:** Be cautious when using mutable objects (like lists or dictionaries) as default parameters.  The default is created *once* when the function is defined, not each time it's called. This can lead to unexpected behavior.
+
+```python
+def add_to_list(item, my_list=[]):
+  my_list.append(item)
+  return my_list
+
+print(add_to_list(1))  # Output: [1]
+print(add_to_list(2))  # Output: [1, 2]  <-- Unexpected!  The list persists between calls.
+```
+
+To avoid this, use `None` as the default and create the list inside the function:
+
+```python
+def add_to_list(item, my_list=None):
+  if my_list is None:
+    my_list = []
+  my_list.append(item)
+  return my_list
+
+print(add_to_list(1))  # Output: [1]
+print(add_to_list(2))  # Output: [2]
+```
+
+[Function Parameters](./../function-parameters/)
+[Python Functions](./../python-functions/)
+

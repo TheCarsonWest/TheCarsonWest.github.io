@@ -3,56 +3,71 @@
 [params]
 	author = 'Carson West'
 +++
-## [Inheritance](./../inheritance/) in Python
-
-### What is [Inheritance](./../inheritance/)?
- [Inheritance](./../inheritance/) is a fundamental concept in object-oriented programming that allows a new class (child class) to inherit properties and methods from an existing class (parent class). It enhances code reusability, reduces redundancy, and promotes the principles of "has-a" and "is-a" relationships between objects.
-
-### How to Use [Inheritance](./../inheritance/)
-To create a child class that inherits from a parent class, use the following syntax:
-
-```python
-class ChildClass(ParentClass):
- # Child class definition
-```
-
-**Note:**
-- The `ChildClass` inherits all the attributes and methods defined in the `ParentClass`.
-- The `ChildClass` can define additional attributes and methods specific to it.
-
-### Code Example
-```python
-# Parent class: Animal
-class Animal:
- def __init__(self, name):
- self.name = name
-
- def make_sound(self):
- print("Generic animal sound")
-
-# Child class: Dog, inherits from Animal
-class Dog(Animal):
- def bark(self):
- print("Woof!")
-
-# Create a Dog object
-my_dog = Dog("Buddy")
-
-# Access inherited attribute
-print(my_dog.name) # Output: Buddy
-
-# Call inherited method
-my_dog.make_sound() # Output: Generic animal sound
-
-# Call child class method
-my_dog.bark() # Output: Woof!
-```
-
-### Related Python Concepts
-
-- [Classes and Objects](./../classes-and-objects/): [Inheritance](./../inheritance/) extends the functionality of existing classes by creating subclasses.
-- [Polymorphism](./../polymorphism/): Child classes can override methods from the parent class, allowing different behaviors for objects of the same type.
-- [Encapsulation](./../encapsulation/): [Inheritance](./../inheritance/) enables the reuse of protected and public attributes and methods, providing a level of abstraction and data hiding.
-- [Modules and Packages](./../modules-and-packages/): [Inheritance](./../inheritance/) can be used to organize and structure code modules by creating hierarchies of related classes.
-- [Abstract Classes](./../abstract-classes/): [Abstract Classes](./../abstract-classes/) can be used as parent classes to define common interfaces that child classes must implement.
 # [Python 1 Home](./../python-1-home/)
+# Inheritance
+
+Inheritance is a powerful mechanism in object-oriented programming (OOP) that allows you to create new classes (child classes or subclasses) based on existing classes (parent classes or superclasses).  The child class inherits the attributes (variables) and methods (functions) of the parent class, and can also add its own unique attributes and methods, or override existing ones.
+
+**Benefits of Inheritance:**
+
+* **Code Reusability:** Avoids redundant code by reusing existing functionality.
+* **Extensibility:** Easily extend the functionality of existing classes without modifying them.
+* **Maintainability:**  Changes to the parent class are automatically reflected in the child classes.
+* **Polymorphism:** Enables objects of different classes to be treated as objects of a common type. (See [Polymorphism](./../polymorphism/))
+
+**Example:**
+
+```python
+class Animal:  # Parent class
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print("Generic animal sound")
+
+class Dog(Animal):  # Child class inheriting from Animal
+    def speak(self):
+        print("Woof!")
+
+class Cat(Animal): # Child class inheriting from Animal
+    def speak(self):
+        print("Meow!")
+
+my_dog = Dog("Buddy")
+my_cat = Cat("Whiskers")
+
+my_dog.speak()  # Output: Woof!
+my_cat.speak()  # Output: Meow!
+print(my_dog.name) # Output: Buddy (inherited from Animal)
+
+```
+
+**Types of Inheritance:**
+
+* **Single Inheritance:** A class inherits from only one parent class.  (Example above)
+* [Multiple Inheritance](./../multiple-inheritance/): A class inherits from multiple parent classes.
+* **Multilevel Inheritance:** A class inherits from another class, which in turn inherits from another class.
+* **Hierarchical Inheritance:** Multiple classes inherit from a single parent class.
+
+
+**Method Overriding:**  As shown in the example, the `Dog` and `Cat` classes override the `speak()` method from the `Animal` class. This allows child classes to provide their own specific implementations.
+
+**Super() Function:** The `super()` function is used to call methods of the parent class from within the child class.  This is particularly useful when you want to extend, rather than replace, the functionality of a parent class method.
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name) # Calls the parent class's __init__ method
+        self.breed = breed
+
+    def speak(self):
+        print(f"Woof! My name is {self.name}, and I'm a {self.breed}.")
+
+```
+
+[Classes and Objects](./../classes-and-objects/)
+[Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)

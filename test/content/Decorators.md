@@ -3,64 +3,96 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Decorators](./../decorators/)
+# [Python 1 Home](./../python-1-home/)
+# Decorators
 
-### Introduction
- [Decorators](./../decorators/) are a powerful feature of Python that allow you to enhance the behavior of [Python Functions](./../python-functions/), classes, and other objects. They provide a way to add functionality or modify the behavior of an existing object without modifying its source code.
-
-### How to Use [Decorators](./../decorators/)
- [Decorators](./../decorators/) are defined using the `@` symbol followed by the decorator function. The decorator function takes the target object (a function or class) as an argument and returns a modified version of that object.
+Decorators are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
 
 ```python
-@decorator_function
-def target_function():
- # code of the target function
+def my_decorator(func):
+  def wrapper():
+    print("Something is happening before the function is called.")
+    func()
+    print("Something is happening after the function is called.")
+  return wrapper
+
+@my_decorator
+def say_hello():
+  print("Hello!")
+
+say_hello()
 ```
 
-### Example Decorator
-Here's an example of a simple decorator function that prints a message before and after the execution of the target function:
+This example shows a simple decorator that prints messages before and after the decorated function (`say_hello`) is executed.  The `my_decorator` function takes the function to be decorated as an argument, and returns a new function (`wrapper`) that includes the additional functionality.  The `@` syntax is just syntactic sugar for:
 
 ```python
-def debug_decorator(func):
- def wrapper(*args, **kwargs):
- print("Before execution")
- result = func(*args, **kwargs)
- print("After execution")
- return result
- return wrapper
+say_hello = my_decorator(say_hello)
 ```
 
-### Usage of Decorator
+**Arguments to Decorators:**
+
+Decorators can also accept arguments. This requires a more complex structure:
+
 ```python
-@debug_decorator
+def repeat(num_times):
+    def decorator_repeat(func):
+        def wrapper(*args, **kwargs):
+            for _ in range(num_times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator_repeat
+
+@repeat(num_times=3)
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("World")
+```
+
+Here, `repeat` is a decorator factory – it returns a decorator.
+
+
+**[Decorator Factories](./../decorator-factories/)**
+
+**[Chaining Decorators](./../chaining-decorators/)**
+
+
+**Class Decorators:**
+
+Decorators can also be classes:
+
+
+```python
+class CountCalls:
+    def __init__(self, func):
+        self.func = func
+        self.count = 0
+
+    def __call__(self, *args, **kwargs):
+        self.count += 1
+        print(f"Call count: {self.count}")
+        return self.func(*args, **kwargs)
+
+@CountCalls
 def my_function():
- # code of my_function
+    print("This function is being counted!")
 
+my_function()
 my_function()
 ```
 
-### Output:
-```console
-Before execution
-# code of my_function
-After execution
-```
 
-### Chaining [Decorators](./../decorators/)
-Multiple decorators can be applied to the same object. In such cases, the decorators are executed in reverse order, with the innermost decorator being executed first.
+This uses the `__call__` method to make the class behave like a function.
 
-```python
-@decorator_2
-@decorator_1
-def target_object():
- # code of the target object
-```
 
-### Related Python Concepts
+**Use Cases:**
 
-- [Python Functions](./../python-functions/): [Decorators](./../decorators/) enhance the functionality of [Python Functions](./../python-functions/).
-- [Classes and Objects](./../classes-and-objects/): [Decorators](./../decorators/) can be used to modify the behavior of [classes and objects](./../classes-and-objects/).
-- [[Higher-Order [Python Functions](./../python-functions/): [Decorators](./../decorators/) are higher-order [Python Functions](./../python-functions/) that take a function as an argument and return a modified function.
-- [Function Parameters](./../function-parameters/): Decorator [Python Functions](./../python-functions/) can accept parameters, allowing for customization of the decoration behavior.
-- [[Lambda [Python Functions](./../python-functions/): Lambda [Python Functions](./../python-functions/) can be used as decorators to define simple inline modifications.
-# [Python 1 Home](./../python-1-home/)
+* Logging:  Record function calls and their arguments/return values.
+* Timing: Measure the execution time of a function.
+* Access Control: Restrict access to a function based on certain conditions.
+* Caching: Store the results of expensive function calls to avoid redundant computations.
+* Input Validation: Check the validity of function arguments.
+
+
+Related notes: [Closures](./../closures/), [Higher-Order Functions](./../higher-order-functions/)

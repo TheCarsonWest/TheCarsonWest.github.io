@@ -3,82 +3,46 @@
 [params]
 	author = 'Carson West'
 +++
-## [Classes and Objects](./../classes-and-objects/)
-
-### What are [Classes and Objects](./../classes-and-objects/)?
-In Python, classes are blueprints for creating objects. An object is an instance of a class, containing data and methods specific to that object. Classes define the attributes (variables) and methods ([Python Functions](./../python-functions/)) that objects of that class will have.
-
-### How to Use Classes
-**Creating a Class:**
-```python
-class MyClass:
- # attributes (variables)
- attr1 = None
- attr2 = None
-
- # methods (functions)
- def method1(self):
- # method definition
- 
- def method2(self, arg):
- # method definition with parameter `arg`
-```
-
-**Creating an Object:**
-```python
-my_object = MyClass()
-```
-
-**Accessing Attributes and Methods:**
-```python
-# access attribute
-my_object.attr1
-
-# call method
-my_object.method1()
-```
-
-### Code Examples
-**Example 1: Employee Class**
-```python
-class Employee:
- def __init__(self, name, salary):
- self.name = name
- self.salary = salary
-
- def get_name(self):
- return self.name
-
- def get_salary(self):
- return self.salary
-
-emp1 = Employee("John", 50000)
-
-print(emp1.get_name()) # Output: John
-print(emp1.get_salary()) # Output: 50000
-```
-
-**Example 2: Student Class with Constructor**
-```python
-class Student:
- def __init__(self, name, age, grade):
- self.name = name
- self.age = age
- self.grade = grade
-
- def get_student_info(self):
- return f"{self.name} is {self.age} years old and has a grade of {self.grade}."
-
-student1 = Student("Alice", 20, "A")
-
-print(student1.get_student_info()) # Output: Alice is 20 years old and has a grade of A.
-```
-
-### Related Python Concepts
-
-- [Variables and Data Types](./../variables-and-data-types/): Classes and objects store data in their attributes.
-- [Python Functions](./../python-functions/): Methods are [Python Functions](./../python-functions/) defined within classes.
-- [Inheritance](./../inheritance/): Classes can inherit attributes and methods from parent classes.
-- [Modules and Packages](./../modules-and-packages/): Classes and objects can be defined in Python modules.
-- [Data Serialization (JSON, XML, Pickle)](./../data-serialization-(json-xml-pickle)/): Classes and objects can be serialized and deserialized for data exchange.
 # [Python 1 Home](./../python-1-home/)
+# Classes and Objects
+
+Python uses classes to create user-defined data types.  A class is a blueprint for creating objects.  Objects are instances of a class.
+
+```python
+class Dog:
+    def __init__(self, name, breed): #Constructor
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print("Woof!")
+
+my_dog = Dog("Buddy", "Golden Retriever")  #Creating an object (instance of Dog class)
+print(my_dog.name) # Accessing attributes
+my_dog.bark() # Calling a method
+```
+
+[Constructors](./../constructors/)
+[Methods](./../methods/)
+[Attributes](./../attributes/)
+
+Classes have:
+
+* **Attributes:**  These are variables that hold data associated with an object (e.g., `my_dog.name`, `my_dog.breed`).
+* **Methods:** These are functions that operate on the object's data (e.g., `my_dog.bark()`).  Methods always take `self` as their first parameter, which refers to the instance of the class.
+
+**Key Concepts:**
+
+* **`__init__` method:** This is a special method called the constructor. It's automatically called when you create a new object.  It's used to initialize the object's attributes.
+* **`self` parameter:**  Refers to the instance of the class.  It allows methods to access and modify the object's attributes.
+
+
+Related Notes:
+* [Inheritance](./../inheritance/)
+* [Polymorphism](./../polymorphism/)
+* [Encapsulation](./../encapsulation/)
+* [Abstract Classes](./../abstract-classes/)
+* [Multiple Inheritance](./../multiple-inheritance/)
+* [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+* [Private and Protected Members](./../private-and-protected-members/)
+

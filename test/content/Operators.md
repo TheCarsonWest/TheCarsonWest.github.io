@@ -3,54 +3,98 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Operators](./../operators/)
+# [Control Flow If Statements](./../control-flow-if-statements/)
+# Python Operators
 
-### What are [Operators](./../operators/)?
- [Operators](./../operators/) are special symbols or [Python Functions](./../python-functions/) that perform specific operations on values. They allow the manipulation, comparison, and modification of data in Python.
+This note covers Python operators.  Further notes will be needed for subtopics.
 
-### How to Use [Operators](./../operators/)
- [Operators](./../operators/) can be used in expressions along with variables, values, and other operators. The result of an operation depends on the types of operands and the operator itself.
+**Types of Operators:**
 
-### Types of [Operators](./../operators/)
-
-Python operators can be classified into various types:
-
-- **Arithmetic [Operators](./../operators/):** Perform mathematical operations such as addition (+), subtraction (-), multiplication (*), division (/), and modulo (%).
-- **Assignment [Operators](./../operators/):** Assign values to variables (e.g., =, +=, -=, *=, /=).
-- **Comparison [Operators](./../operators/):** Compare values and return a Boolean (e.g., ==, !=, <, >, <=, >=).
-- **Logical [Operators](./../operators/):** Combine Boolean values using AND (&), OR (|), and NOT (~).
-- **[[Bitwise [Operators](./../operators/):** Perform bitwise operations on integers (e.g., &, |, ^, <<, >>).
-- **Unary [Operators](./../operators/):** Perform operations on a single operand (e.g., +, -, ~).
-- **Membership [Operators](./../operators/):** Check if an element is present in a sequence (e.g., in, not in).
-- **Identity [Operators](./../operators/):** Compare object identities (e.g., is, is not).
-
-### Code Examples
+* **Arithmetic Operators:**  These perform mathematical calculations.
 
 ```python
-# Arithmetic operator: add 10 to x
-x + 10
-```
-
-```python
-# Assignment operator: assign 5 to y
+x = 10
 y = 5
+
+print(x + y)  # Addition
+print(x - y)  # Subtraction
+print(x * y)  # Multiplication
+print(x / y)  # Division
+print(x // y) # Floor Division (integer division)
+print(x % y)  # Modulus (remainder)
+print(x ** y) # Exponentiation
 ```
+
+* **Comparison Operators:** These compare two values and return a Boolean (True or False).
 
 ```python
-# Comparison operator: check if x equals 10
-x == 10
+x = 10
+y = 5
+
+print(x == y) # Equal to
+print(x != y) # Not equal to
+print(x > y)  # Greater than
+print(x < y)  # Less than
+print(x >= y) # Greater than or equal to
+print(x <= y) # Less than or equal to
 ```
+
+* **Logical Operators:** These combine or modify Boolean expressions.
 
 ```python
-# Logical operator: check if x is greater than 0 and y is less than 10
-(x > 0) and (y < 10)
+x = True
+y = False
+
+print(x and y) # Logical AND
+print(x or y)  # Logical OR
+print(not x)   # Logical NOT
 ```
 
-### Related Python Concepts
+* **Assignment Operators:** These assign values to variables.
 
-- [Variables and Data Types](./../variables-and-data-types/): [Operators](./../operators/) work on variables and values of different data types.
-- [Control Flow If Statements](./../control-flow-if-statements/): [Operators](./../operators/) are used in conditions to control the flow of a program.
-- [For Loops](./../for-loops/): [Operators](./../operators/) can be used to modify loop variables.
-- [While Loops](./../while-loops/): [Operators](./../operators/) are used to terminate or continue loops.
-- [Bitwise Operators](./../bitwise-operators/): [Bitwise Operators](./../bitwise-operators/) are specialized operators that perform operations on binary data.
-# [Python 1 Home](./../python-1-home/)
+```python
+x = 10         # Simple assignment
+x += 5         # x = x + 5
+x -= 5         # x = x - 5
+x *= 5         # x = x * 5
+x /= 5         # x = x / 5
+x %= 5         # x = x % 5
+x **= 5        # x = x ** 5
+x //= 5        # x = x // 5
+
+```
+
+* **Bitwise Operators:** These operate on individual bits of integers. [Bitwise Operators](./../bitwise-operators/)
+
+* **Membership Operators:** These test for membership in sequences (e.g., lists, tuples, strings).
+
+```python
+my_list = [1, 2, 3]
+print(1 in my_list)  # True
+print(4 in my_list)  # False
+print(1 not in my_list) # False
+
+```
+
+* **Identity Operators:** These test for object identity (whether two variables refer to the same object in memory).
+
+```python
+x = [1,2,3]
+y = [1,2,3]
+z = x
+
+print(x is y) # False (different objects)
+print(x is z) # True (same object)
+print(x == y) # True (same values)
+
+
+```
+
+**Operator Precedence:**  The order in which operators are evaluated.  [Operator Precedence](./../operator-precedence/)
+
+
+**Further Notes:**
+
+* [Operator Overloading](./../operator-overloading/) (How operators behave differently with different data types.)
+* [Short-circuiting in Logical Operators](./../short-circuiting-in-logical-operators/) (How `and` and `or` can sometimes avoid evaluating all operands.)
+

@@ -3,50 +3,66 @@
 [params]
 	author = 'Carson West'
 +++
-## [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python
+# [Classes and Objects](./../classes-and-objects/)
+# Multiple Inheritance
 
-### What is [Multiple [[Inheritance](./../multiple-[[inheritance/)?
-Multiple [Inheritance](./../inheritance/) is a feature in Python that allows a class to inherit from multiple parent classes, inheriting their attributes and functionalities. It provides a way to combine functionalities from different classes into a single class.
+Multiple inheritance in Python allows a class to inherit from multiple parent classes.  This means a child class can gain attributes and methods from several different sources.
 
-### How to Use [Multiple [[Inheritance](./../multiple-[[inheritance/)
-To implement multiple [Inheritance](./../inheritance/), use the following syntax:
+**Example:**
 
-```python
-class ChildClass(ParentClass1, ParentClass2, ...):
- # body of the child class
-```
-
-where `ChildClass` inherits from `ParentClass1`, `ParentClass2`, and so on.
-
-### Code Examples
 ```python
 class Animal:
- def __init__(self, name):
- self.name = name
+    def __init__(self, name):
+        self.name = name
 
-class Dog(Animal):
- def bark(self):
- print("Woof!")
+    def speak(self):
+        print("Generic animal sound")
 
-class Cat(Animal):
- def meow(self):
- print("Meow!")
+class Mammal(Animal):
+    def __init__(self, name, fur_color):
+        super().__init__(name)  # Call the parent class's constructor
+        self.fur_color = fur_color
 
-class Pet(Dog, Cat): # inherits from both Dog and Cat
- def play(self):
- print(f"{self.name} is playing!")
+    def give_birth(self):
+        print("Giving birth to live young")
 
-my_pet = Pet("Leo")
-my_pet.bark() # inherited from Dog
-my_pet.meow() # inherited from Cat
-my_pet.play() # defined in Pet
+
+class Flyer:
+    def fly(self):
+        print("Flying")
+
+
+class Bat(Mammal, Flyer): #Inherits from Mammal and Flyer
+    def __init__(self, name, fur_color):
+        super().__init__(name, fur_color)
+
+    def speak(self): #Method overriding
+        print("Squeak!")
+
+
+my_bat = Bat("Batman", "Black")
+my_bat.speak()  # Output: Squeak!
+my_bat.give_birth() # Output: Giving birth to live young
+my_bat.fly() #Output: Flying
 ```
 
-### Related Python Concepts
+**Method Resolution Order (MRO):** [MRO](./../mro/)  This determines the order in which methods are searched for when a method call is made. Python uses the C3 linearization algorithm to determine the MRO.  Understanding MRO is crucial to avoid ambiguity and unexpected behavior in multiple inheritance scenarios.
 
-- [Classes and Objects](./../classes-and-objects/): Multiple [Inheritance](./../inheritance/) extends a class by combining characteristics from multiple parent classes.
-- [Inheritance](./../inheritance/): Multiple [Inheritance](./../inheritance/) is a type of [Inheritance](./../inheritance/) where a class can inherit from multiple parent classes.
-- [Polymorphism](./../polymorphism/): Overriding methods from parent classes in the child class demonstrates [Polymorphism](./../polymorphism/).
-- [Encapsulation](./../encapsulation/): Attributes and methods from parent classes can be encapsulated within the child class through multiple [Inheritance](./../inheritance/).
-- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/): Method Resolution Order determines the order in which methods are resolved in the child class when inheriting from multiple parent classes.
-# [Python 1 Home](./../python-1-home/)
+**Diamond Problem:** [Diamond Problem](./../diamond-problem/) A classic problem in multiple inheritance where two parent classes have a common ancestor, and the child class inherits from both.  This can lead to conflicts if both parents implement the same method.
+
+
+**Advantages:**
+
+* Code Reusability:  Avoids repeating code in multiple classes.
+* Flexibility: Allows creation of complex class hierarchies.
+
+
+**Disadvantages:**
+
+* Complexity: Can make code harder to understand and maintain.
+* Ambiguity: Potential for conflicts if parent classes have methods with the same name (see Diamond Problem).
+
+
+**When to use:**
+
+Multiple inheritance should be used cautiously.  It's powerful, but adds significant complexity.  Favor composition over inheritance whenever possible.  Only use multiple inheritance when it clearly simplifies the design and avoids unnecessary complexity.  Consider if a simpler alternative using single inheritance or composition could achieve similar functionality.

@@ -3,62 +3,60 @@
 [params]
 	author = 'Carson West'
 +++
-## [Abstract Classes](./../abstract-classes/)
+# [Classes and Objects](./../classes-and-objects/)
+# Abstract Classes
 
-### What are [Abstract Classes](./../abstract-classes/)?
+Abstract classes are classes that cannot be instantiated directly.  They serve as blueprints for other classes (subclasses).  They often contain one or more abstract methods, which are methods without a concrete implementation. Subclasses *must* provide implementations for these abstract methods.
 
-Abstract classes are blueprints for creating other classes. They contain methods that must be implemented (overridden) by the derived classes. Abstract classes cannot be instantiated directly; they are meant to be inherited and extended.
+Key features:
 
-### How to Use [Abstract Classes](./../abstract-classes/)
+* **Abstract Methods:** Defined using the `@abstractmethod` decorator from the `abc` (Abstract Base Classes) module.  They have a signature but no body (or just a `pass` statement).
 
-To create an abstract class, use the `abc` module:
+* **`abc.ABC`:**  The base class for creating abstract classes.  Your abstract class should inherit from `abc.ABC`.
 
-```python
-from abc import ABC, abstractmethod
-```
+* **Enforcing Implementation:** Abstract classes ensure that subclasses implement specific methods, promoting code consistency and preventing errors.
 
-1. **Define Abstract Methods**:
- Define abstract methods using the `@abstractmethod` decorator:
-
- ```python
- class AbstractClass(ABC):
- @abstractmethod
- def abstract_method(self):
- pass
- ```
-2. **Override Abstract Methods**:
- Derived classes must override the abstract methods of the abstract class:
-
- ```python
- class DerivedClass(AbstractClass):
- def abstract_method(self):
- # Implement the method
- pass
- ```
-
-### Code Examples
 
 ```python
 from abc import ABC, abstractmethod
 
-class Shape(ABC):
- @abstractmethod
- def area(self):
- pass
+class Shape(ABC):  # Inherits from abc.ABC, making it an abstract class
+    @abstractmethod
+    def area(self):
+        pass  # No implementation in the abstract class
+
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14159 * self.radius * self.radius
+
+    def perimeter(self):
+        return 2 * 3.14159 * self.radius
 
 class Square(Shape):
- def __init__(self, side):
- self.side = side
+    def __init__(self, side):
+        self.side = side
 
- def area(self):
- return self.side ** 2
+    def area(self):
+        return self.side * self.side
+
+    def perimeter(self):
+        return 4 * self.side
+
+#Trying to instantiate Shape will raise an error
+#my_shape = Shape() #TypeError: Can't instantiate abstract class Shape with abstract methods area, perimeter
+
+my_circle = Circle(5)
+print(my_circle.area())
+my_square = Square(4)
+print(my_square.perimeter())
+
 ```
 
-### Related Python Concepts
-
-- [Classes and Objects](./../classes-and-objects/): Abstract classes introduce the concept of abstraction in object-oriented programming.
-- [Inheritance](./../inheritance/): Derived classes inherit the abstract methods from their abstract class.
-- [Polymorphism](./../polymorphism/): Abstract methods encourage [Polymorphism](./../polymorphism/) by allowing derived classes to provide different implementations of the same method.
-- [Type Hinting](./../type-hinting/): Type annotations can be used to specify the expected type of the abstract methods.
-- [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): Abstract classes are typically considered immutable, as their methods cannot be modified.
-# [Python 1 Home](./../python-1-home/)
+[ABC Module](./../abc-module/)  ([Method Overriding](./../method-overriding/)) [Polymorphism](./../polymorphism/)

@@ -3,46 +3,42 @@
 [params]
 	author = 'Carson West'
 +++
-## [Polymorphism](./../polymorphism/)
+# [Python 1 Home](./../python-1-home/)
+# Polymorphism
 
-### What is [Polymorphism](./../polymorphism/)?
- [Polymorphism](./../polymorphism/) is a fundamental concept in object-oriented programming (OOP) that allows objects of different classes to be treated as the same type. It enables the code to interact with a common interface, regardless of the specific implementation or class of an object.
+Polymorphism allows objects of different classes to be treated as objects of a common type.  This is particularly useful when dealing with inheritance.
 
-### How to Use [Polymorphism](./../polymorphism/)
- [Polymorphism](./../polymorphism/) is achieved through method overriding, where subclasses define their own implementation of methods inherited from their parent class.
+* **Example:**  Consider a scenario where you have different shapes (circle, square, triangle) each with an `area()` method.  Polymorphism allows you to call `area()` on any shape object without needing to know its specific type.
 
-### Code Examples
 ```python
-# Define a base class Animal with a method speak()
-class Animal:
- def speak(self):
- print("Animal speaks.")
+class Shape:
+    def area(self):
+        raise NotImplementedError
 
-# Create a subclass Dog that overrides the speak() method
-class Dog(Animal):
- def speak(self):
- print("Dog barks.")
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return 3.14159 * self.radius * self.radius
 
-# Create a subclass Cat that overrides the speak() method
-class Cat(Animal):
- def speak(self):
- print("Cat meows.")
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+    def area(self):
+        return self.side * self.side
 
-# Create instances of Animal, Dog, and Cat
-animal = Animal()
-dog = Dog()
-cat = Cat()
-
-# Call the speak() method on all objects
-animal.speak() # prints "Animal speaks."
-dog.speak() # prints "Dog barks."
-cat.speak() # prints "Cat meows."
+shapes = [Circle(5), Square(4)]
+for shape in shapes:
+    print(shape.area()) # Polymorphic call to area()
 ```
 
-### Related Python Concepts
-- [Classes and Objects](./../classes-and-objects/): [Polymorphism](./../polymorphism/) relies heavily on [Inheritance](./../inheritance/) and objects of different classes.
-- [Inheritance](./../inheritance/): Subclasses inherit the properties and methods of their parent class, allowing for method overriding and polymorphism.
-- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/): Determines the order in which methods are searched within the class hierarchy during polymorphism.
-- [Duck Typing](./../duck-typing/): A variant of polymorphism where objects are classified by methods they implement rather than their class.
-- [Higher-Order [[Python Functions](./../higher-order-[[python-functions/): [Python Functions](./../python-functions/) that take other [Python Functions](./../python-functions/) as arguments or return [Python Functions](./../python-functions/) enable polymorphism by allowing runtime customization.
-# [Python 1 Home](./../python-1-home/)
+[Inheritance](./../inheritance/)  (This needs its own note)
+
+[Classes and Objects](./../classes-and-objects/) (This needs its own note)
+
+
+Related notes:
+
+- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+- [Abstract Classes](./../abstract-classes/) (This note should explain abstract base classes and their use in polymorphism)
+

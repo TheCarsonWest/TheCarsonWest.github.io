@@ -3,53 +3,76 @@
 [params]
 	author = 'Carson West'
 +++
-## Async [Generators](./../generators/)
+# [Generators](./../generators/)
+# Async Generators
 
-### Definition
+Async generators are a powerful feature in Python that allows you to create asynchronous iterators.  They are similar to regular generators, but they use the `async` and `await` keywords to handle asynchronous operations. This allows you to yield values asynchronously without blocking the main thread.
 
-Async [Generators](./../generators/) are special types of [Generators](./../generators/) that can be used to lazily generate a sequence of values asynchronously. They allow for the creation of asynchronous iterators, making it possible to handle data asynchronously while maintaining the ability to iterate over the generated sequence.
+Key differences from regular generators:
 
-### How to Use Async [Generators](./../generators/)
+* **`async def`:** Async generators are defined using `async def` instead of `def`.
+* **`await`:**  They can use `await` within the generator function to pause execution while waiting for an asynchronous operation to complete.
+* **`yield`:**  The `yield` keyword is used to produce values asynchronously.
 
-Async [Generators](./../generators/) are defined using the `async def` syntax, similar to regular [Generators](./../generators/). They have a `yield` statement to produce each value in the sequence. However, they use the `async for` syntax to be iterated over asynchronously.
 
-```python
-async def generate_numbers():
- for i in range(10):
- yield i
-```
-
-To iterate over an async generator asynchronously, use the `async for` syntax:
+**Example:**
 
 ```python
-async for number in generate_numbers():
- print(number)
-```
+import asyncio
 
-### Code Examples
+async def async_generator():
+    for i in range(3):
+        await asyncio.sleep(1)  # Simulate an asynchronous operation
+        yield i
 
-#### Generator Example
-
-```python
-async def generate_numbers():
- for i in range(10):
- await asyncio.sleep(1)
- yield i
-```
-
-#### Async For Example
-
-```python
 async def main():
- async for number in generate_numbers():
- print(number)
+    async for value in async_generator():
+        print(f"Received: {value}")
+
+asyncio.run(main())
+
 ```
 
-### Related Python Concepts
+**Important Considerations:**
 
-- [[Async [Generators](./../generators/): Async [Generators](./../generators/) use async iterators to produce values asynchronously.
-- [Coroutines](./../coroutines/): Async [Generators](./../generators/) are closely related to [Coroutines](./../coroutines/), as they allow for asynchronous iteration over a sequence of values.
-- [Generators](./../generators/): Async [Generators](./../generators/) extend the concept of [Generators](./../generators/) by allowing for asynchronous iteration.
-- [Asyncio](./../asyncio/): Async [Generators](./../generators/) are typically used in conjunction with the asyncio library for asynchronous I/O.
-- [Concurrence and Multithreading](./../concurrence-and-multithreading/): Async [Generators](./../generators/) can be used to achieve concurrency in Python applications.
-# [Python 1 Home](./../python-1-home/)
+* **`async for`:**  You must use `async for` to iterate over an async generator.
+* **Error Handling:**  Similar to regular generators, you need to handle potential exceptions within the async generator using `try...except` blocks.
+* [Asyncio](./../asyncio/)  This is heavily reliant on the `asyncio` library.  Understanding `asyncio` is crucial for effectively using async generators.
+* [Coroutine Explained](./../coroutine-explained/)  Async generators are coroutines themselves.  Understanding coroutines is essential.
+
+
+**Use Cases:**
+
+* Streaming large datasets asynchronously.
+* Handling asynchronous I/O operations efficiently (e.g., network requests).
+* Building complex asynchronous pipelines.
+
+
+**Further Exploration:**
+
+* Research the `asynq` library for more advanced async programming techniques.
+* Explore the use of async generators with libraries like `aiohttp` for network programming.
+
+```python
+# Example with error handling:
+
+import asyncio
+
+async def async_generator_with_error_handling():
+    try:
+        for i in range(5):
+            if i == 3:
+                raise ValueError("Something went wrong!")
+            await asyncio.sleep(0.5)
+            yield i
+    except ValueError as e:
+        print(f"Caught an exception: {e}")
+        yield -1 # Yield a special value to signal an error
+
+
+async def main_with_error_handling():
+    async for value in async_generator_with_error_handling():
+        print(f"Received: {value}")
+
+asyncio.run(main_with_error_handling())
+```

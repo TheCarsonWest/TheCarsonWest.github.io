@@ -3,42 +3,55 @@
 [params]
 	author = 'Carson West'
 +++
-## [Context Managers](./../context-managers/)
-
-### What are [Context Managers](./../context-managers/)?
-Context managers are a way to define a scope where certain resources are managed automatically. They are used to ensure that resources are properly acquired, used, and released, even in the presence of exceptions.
-
-### How to Use [Context Managers](./../context-managers/)
-A context manager is defined using the `with` statement. The resource to be managed is assigned to a variable within the `with` block. The context manager's `__enter__()` and `__exit__()` methods are called automatically when entering and exiting the block.
-
-```python
-with context_manager as resource:
- # code using the resource
-```
-
-The `__enter__()` method is called before the code block is executed and returns the resource that should be used within the block. The `__exit__()` method is called after the code block is executed, regardless of whether any exceptions occur.
-
-### Code Examples
-```python
-# open a file for writing
-with open("myfile.txt", "w") as file:
- file.write("Hello world!")
-```
-
-```python
-# create a temporary directory using the `with` statement
-from tempfile import TemporaryDirectory
-
-with TemporaryDirectory() as tmp_dir:
- # do something with the temporary directory
- pass
-```
-
-### Related Python Concepts
-
-- [File Handling](./../file-handling/): Context managers are commonly used for [File Handling](./../file-handling/) operations.
-- [Exception Handling](./../exception-handling/): Context managers can be used to handle exceptions within a specific scope.
-- [Generators](./../generators/): Context managers can be implemented using [Generators](./../generators/).
-- [Decorators](./../decorators/): Context managers can be implemented using [Decorators](./../decorators/).
-- [[Custom [Context Managers](./../context-managers/): You can create your own [Custom Context Managers](./../custom-context-managers/) to manage your resources.
 # [Python 1 Home](./../python-1-home/)
+# Context Managers
+
+Context managers in Python provide a clean and efficient way to manage resources.  They ensure that resources are properly acquired and released, even in the presence of exceptions.  The most common way to use a context manager is with the `with` statement.
+
+```python
+with open("my_file.txt", "r") as f:
+    file_contents = f.read()
+    # ... process file_contents ...
+
+# File automatically closed here, even if exceptions occur.
+```
+
+The `with` statement implicitly calls the context manager's `__enter__` method (to acquire the resource) and `__exit__` method (to release the resource).
+
+
+[Custom Context Managers](./../custom-context-managers/)  //Need to create this note
+
+
+The `contextlib` module provides tools for creating custom context managers:
+
+*   `contextlib.contextmanager`: A decorator that simplifies creating context managers.
+
+
+```python
+from contextlib import contextmanager
+
+@contextmanager
+def my_context_manager(arg):
+    print(f"Entering context with arg: {arg}")
+    try:
+        yield arg  # The code within the 'with' block runs here
+    except Exception as e:
+        print(f"Exception in context: {e}")
+        # Handle the exception, perhaps log it
+    finally:
+        print("Exiting context")
+
+with my_context_manager(10) as value:
+    print(f"Value inside context: {value}")
+    # raise Exception("Something went wrong")
+
+```
+
+This is equivalent to a class-based approach but much more concise.
+
+
+Related Notes:
+
+* [Exception Handling](./../exception-handling/)
+* [File Handling](./../file-handling/)
+

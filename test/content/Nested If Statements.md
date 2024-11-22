@@ -3,54 +3,28 @@
 [params]
 	author = 'Carson West'
 +++
-## [Nested If Statements](./../nested-if-statements/)
+# [Control Flow If Statements](./../control-flow-if-statements/)
+# Nested If Statements
 
-### What are [Nested If Statements](./../nested-if-statements/)?
-Nested if statements involve embedding one or more if statements within another if statement. They enable complex decision-making scenarios and allow for specific code blocks to be executed based on multiple conditions.
-
-### How to Use [Nested If Statements](./../nested-if-statements/)
-The syntax of nested if statements is:
+Nested if statements are if statements placed inside other if statements.  They're used to create complex conditional logic.  The inner `if` statement only executes if the outer `if` statement's condition is true.
 
 ```python
-if outer_condition:
- # code block to be executed if outer_condition is True
- if inner_condition1:
- # code block to be executed if inner_condition1 is True
- elif inner_condition2:
- # code block to be executed if inner_condition2 is True
- else:
- # code block to be executed if none of the inner conditions are True
-```
+x = 10
+y = 5
 
-The outer_condition is the condition of the outer if statement. If it evaluates to True, the execution proceeds to the inner if statements. The inner_condition1 and inner_condition2 are the conditions of the inner if statements. If any of these inner conditions evaluate to True, the corresponding code block will be executed. If none of the inner conditions are True, the else block (if present) will be executed.
-
-### Code Examples
-```python
-# check if the number is positive and even
-if number > 0:
- if number % 2 == 0:
- print("The number is positive and even")
-```
-
-```python
-# decide on a discount based on customer type and purchase amount
-if customer_type == "member":
- if purchase_amount >= 100:
- discount = 15
- else:
- discount = 10
+if x > 5:
+    if y < 10:
+        print("x is greater than 5 and y is less than 10")
+    else:
+        print("x is greater than 5 but y is not less than 10")
 else:
- if purchase_amount >= 150:
- discount = 5
- else:
- discount = 0
+    print("x is not greater than 5")
+
 ```
 
-### Other Related Python Concepts
+This example shows a simple nested `if` structure.  More complex scenarios can involve multiple levels of nesting and `elif` (else if) statements within the nested structure.  However, deeply nested `if` statements can become difficult to read and understand. It's often better to refactor complex conditional logic into functions or use other control flow structures like loops or dictionaries to improve readability and maintainability.
 
-- [Control Flow If Statements](./../control-flow-if-statements/): Nested if statements are an extension of regular if statements.
-- [For Loops](./../for-loops/): Nested if statements can be used within [For Loops](./../for-loops/) to make decisions based on looped elements.
-- [While Loops](./../while-loops/): Similarly, nested if statements can be used within [While Loops](./../while-loops/) to control loop execution.
-- [Python Functions](./../python-functions/): Nested if statements can be used to conditionally call [Python Functions](./../python-functions/) or determine function behavior.
-- [Boolean Logic](./../boolean-logic/): Nested if statements rely on Boolean logic [Operators](./../operators/) (e.g., and, or, not) for conditional evaluations.
-# [Python 1 Home](./../python-1-home/)
+
+[If-elif-else Statements](./../if-elif-else-statements/)  --  This would explain the basics of `if`, `elif`, and `else` in more detail, which is fundamental to understanding nested ifs.
+
+[Code Readability and Refactoring](./../code-readability-and-refactoring/) --  This would cover best practices for writing clean and understandable Python code,  especially for complex conditional logic.  It will discuss refactoring techniques.

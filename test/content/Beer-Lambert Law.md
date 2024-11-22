@@ -3,6 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
+# [AP CHEM solutions](./../ap-chem-solutions/)
+
 The Beer-Lambert Law, also known as the Beer-Lambert-Bouguer law, describes the attenuation of light as it passes through a solution.  It's a fundamental principle in spectroscopy, used to relate the absorbance of light to the properties of the material through which the light is traveling.
 
 ## The Equation

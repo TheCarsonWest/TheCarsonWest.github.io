@@ -3,59 +3,74 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Lists](./../lists/)
-
-### What are [Lists](./../lists/)?
- [Lists](./../lists/) are one of the most versatile data structures in Python. They are ordered collections of elements that can be accessed and modified by index. [Lists](./../lists/) are mutable, which means their contents can be changed during program execution.
-
-### How to Use [Lists](./../lists/)
- [Lists](./../lists/) can be created using square brackets `[]`. The elements of a list are separated by commas.
-
-```python
-my_list = [1, 2, 3, 4, 5]
-```
-
- [Lists](./../lists/) can also be created from other iterables, such as [Tuples](./../tuples/) and strings.
-
-```python
-my_list = list((1, 2, 3, 4, 5))
-my_list = list("Python")
-```
-
-**Accessing List Elements:**
-Individual elements of a list can be accessed by index. The index of the first element is 0, and the index of the last element is the length of the list minus 1.
-
-```python
-print(my_list[0]) # 1
-print(my_list[-1]) # 5
-```
-
-**Modifying List Elements:**
-Elements of a list can be modified by assigning a new value to the corresponding index.
-
-```python
-my_list[0] = 10
-```
-
-### Code Examples
-```python
-# Create a list of numbers
-numbers = [1, 2, 3, 4, 5]
-
-# Add an element to the end of the list
-numbers.append(6)
-
-# Remove an element from the list by index
-del numbers[2]
-
-# Sort the list in ascending order
-numbers.sort()
-```
-
-### Related Python Concepts
-- [Variables and Data Types](./../variables-and-data-types/): [Lists](./../lists/) are a type of data structure that can store multiple values.
-- [Mutable vs Immutable Types](./../mutable-vs-immutable-types/): [Lists](./../lists/) are mutable, meaning their contents can be modified.
-- [For Loops](./../for-loops/): [For Loops](./../for-loops/) can be used to iterate over the elements of a list.
-- [List Comprehension](./../list-comprehension/): List comprehensions provide a concise way to create new lists based on existing lists.
-- [[Multidimensional [Lists](./../lists/): [Lists](./../lists/) can be nested to create multidimensional data structures.
 # [Python 1 Home](./../python-1-home/)
+# Lists
+
+Lists are ordered, mutable (changeable) sequences of items.  They can contain items of different data types.
+
+**Creating Lists:**
+
+```python
+my_list = [1, 2, "hello", 3.14, True]
+empty_list = []
+```
+
+**Accessing Elements:**
+
+Lists are zero-indexed.
+
+```python
+first_element = my_list[0]  # 1
+last_element = my_list[-1] # True
+```
+
+**Slicing:**
+
+```python
+sub_list = my_list[1:4]  # [2, "hello", 3.14] (exclusive of upper bound)
+```
+
+**Methods:**
+
+* `append(item)`: Adds an item to the end.
+* `insert(index, item)`: Inserts an item at a specific index.
+* `remove(item)`: Removes the first occurrence of an item.
+* `pop([index])`: Removes and returns the item at the specified index (default is the last).
+* `index(item)`: Returns the index of the first occurrence of an item.
+* `count(item)`: Counts the occurrences of an item.
+* `sort()`: Sorts the list in place.
+* `reverse()`: Reverses the list in place.
+* `copy()`: Creates a shallow copy of the list.
+* `extend(iterable)`: Extends the list by appending elements from another iterable.
+
+```python
+my_list.append(5)
+my_list.insert(2, "world")
+my_list.remove("hello")
+print(my_list)  # Output will depend on previous operations.
+```
+
+
+**List Comprehensions:** [List Comprehension](./../list-comprehension/)
+
+
+**Iterating through Lists:**
+
+```python
+for item in my_list:
+    print(item)
+
+for i, item in enumerate(my_list):
+    print(f"Item at index {i}: {item}")
+```
+
+**List Operations:**
+
+* Concatenation: `list1 + list2`
+* Repetition: `list * n`
+* Membership: `item in list`, `item not in list`
+
+
+**Nested Lists:** [Multidimensional Lists](./../multidimensional-lists/)
+
+**Mutable vs. Immutable:** [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)

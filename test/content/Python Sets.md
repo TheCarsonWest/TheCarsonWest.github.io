@@ -3,60 +3,72 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Python Sets](./../python-sets/)
-
-### What are [Python Sets](./../python-sets/)?
- [Python Sets](./../python-sets/) are an unordered collection of unique, immutable elements that can be used in various situations where you need to work with unique values and perform set operations like union, intersection, and difference. They are mutable, meaning that elements can be added or removed, but the order of elements is not guaranteed, and duplicate values are not allowed.
-
-### How to Create a Set
- [Python Sets](./../python-sets/) can be created using curly braces ({}) or the `set()` constructor.
-
-```python
-# creating a set from a list
-my_set = {"apple", "banana", "cherry"}
-
-# creating an empty set
-empty_set = set()
-```
-
-### Operations on [Python Sets](./../python-sets/)
-
- [Python Sets](./../python-sets/) support various operations, including:
-
-- **Union (|):** Combines two sets and returns a new set containing all unique elements from both sets.
-- **Intersection (&):** Returns a new set containing only the elements that are common to both sets.
-- **Difference (-):** Returns a new set containing the elements that are in the first set but not in the second set.
-- **Symmetric Difference (^):** Returns a new set containing the elements that are in either set but not in both sets.
-
-### Code Examples
-
-```python
-# create two sets
-set1 = {"apple", "banana", "cherry"}
-set2 = {"google", "microsoft", "apple"}
-
-# union
-set3 = set1 | set2
-print(set3) # output: {'apple', 'banana', 'cherry', 'google', 'microsoft'}
-
-# intersection
-set4 = set1 & set2
-print(set4) # output: {'apple'}
-
-# difference
-set5 = set1 - set2
-print(set5) # output: {'banana', 'cherry'}
-
-# symmetric difference
-set6 = set1 ^ set2
-print(set6) # output: {'banana', 'cherry', 'google', 'microsoft'}
-```
-
-### Related Python Concepts
-
-- [Lists](./../lists/): Similar to sets, [Lists](./../lists/) are also a collection of elements, but they allow duplicates and maintain the order of insertion.
-- [Tuples](./../tuples/): [Tuples](./../tuples/) are immutable collections similar to sets but with a fixed order of elements.
-- [Dictionaries](./../dictionaries/): [Dictionaries](./../dictionaries/) are mappings that associate keys to values, and they do not allow duplicate keys.
-- [[Frozen [Python Sets](./../python-sets/): [Frozen Sets](./../frozen-sets/) are immutable versions of sets, meaning their elements cannot be modified.
-- [Set Comprehension](./../set-comprehension/): Set comprehension provides a concise way to create sets using a similar syntax to [List Comprehension](./../list-comprehension/).
 # [Python 1 Home](./../python-1-home/)
+# Python Sets
+
+Python sets are unordered collections of unique elements.  They are defined using curly braces `{}` or the `set()` constructor.
+
+```python
+my_set = {1, 2, 3, 3, 4}  # Duplicates are automatically removed
+print(my_set)  # Output: {1, 2, 3, 4}
+
+another_set = set([5, 6, 7]) # Creating a set from a list
+print(another_set) # Output: {5, 6, 7}
+
+empty_set = set() #Creating an empty set.  Note: {} creates an empty dictionary.
+print(empty_set) #Output: set()
+```
+
+**Key [Set Operations](./../set-operations/):**
+
+* **`union()` or `|`:** Combines elements from two sets.
+```python
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}
+union_set = set1.union(set2) #or set1 | set2
+print(union_set)  # Output: {1, 2, 3, 4, 5}
+```
+
+* **`intersection()` or `&`:** Returns common elements.
+```python
+intersection_set = set1.intersection(set2) #or set1 & set2
+print(intersection_set)  # Output: {3}
+```
+
+* **`difference()` or `-`:** Returns elements in the first set but not the second.
+```python
+difference_set = set1.difference(set2) #or set1 - set2
+print(difference_set)  # Output: {1, 2}
+```
+
+* **`symmetric_difference()` or `^`:** Returns elements in either set, but not both.
+```python
+symmetric_difference_set = set1.symmetric_difference(set2) #or set1 ^ set2
+print(symmetric_difference_set)  # Output: {1, 2, 4, 5}
+```
+
+* **`add()`:** Adds an element.
+```python
+my_set.add(5)
+print(my_set)
+```
+
+* **`remove()`:** Removes an element; raises KeyError if not present.
+* **`discard()`:** Removes an element; does nothing if not present.
+* **`pop()`:** Removes and returns an arbitrary element.
+* **`clear()`:** Removes all elements.
+* **`issubset()`:** Checks if one set is a subset of another.
+* **`issuperset()`:** Checks if one set is a superset of another.
+* **`isdisjoint()`:** Checks if two sets have no common elements.
+
+
+[Frozen Sets](./../frozen-sets/)
+[Python Sets - Examples](./../python-sets---examples/)
+
+**Set Comprehension:** Similar to [List Comprehension](./../list-comprehension/), but creates a set.
+
+```python
+squares = {x**2 for x in range(5)}
+print(squares)  # Output: {0, 1, 4, 9, 16}
+```
+

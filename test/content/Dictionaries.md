@@ -3,41 +3,48 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Dictionaries](./../dictionaries/)
-
-### Definition
- [Dictionaries](./../dictionaries/) are mutable data structures that store key-value pairs. The keys are unique and immutable, while the values can be of any type. [Dictionaries](./../dictionaries/) provide a convenient way to store and retrieve data associated with specific keys.
-
-### How to Use [Dictionaries](./../dictionaries/)
-```python
-# create a dictionary using the {} syntax
-my_dict = {"key1": "value1", "key2": "value2"}
-
-# access a value using the key
-value = my_dict["key1"]
-```
-
-### Code Examples
-```python
-# create a dictionary of student names and ages
-students = {"Alice": 20, "Bob": 25, "Carol": 22}
-
-# add a new student
-students["Dave"] = 28
-
-# delete a student
-del students["Bob"]
-
-# loop through the dictionary
-for name, age in students.items():
- print(f"{name} is {age} years old.")
-```
-
-### Related Python Concepts
-
-- [Variables and Data Types](./../variables-and-data-types/): [Dictionaries](./../dictionaries/) are stored as variables and can contain different data types.
-- [Lists](./../lists/): [Lists](./../lists/) and dictionaries are both sequence data structures, but [Lists](./../lists/) are ordered and mutable while dictionaries are unordered and mutable.
-- [Tuples](./../tuples/): [Tuples](./../tuples/) and dictionaries are both mutable data structures, but [Tuples](./../tuples/) are immutable.
-- [Python Sets](./../python-sets/): [Python Sets](./../python-sets/) are similar to dictionaries but only store unique keys.
-- [Python Functions](./../python-functions/): [Python Functions](./../python-functions/) can be used to create and modify dictionaries.
 # [Python 1 Home](./../python-1-home/)
+# Dictionaries
+
+Dictionaries are unordered collections of key-value pairs.  Keys must be immutable (like strings, numbers, or tuples), while values can be of any data type.
+
+```python
+my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+print(my_dict["name"])  # Accessing values using keys
+```
+
+Accessing a non-existent key raises a `KeyError`.  Use the `get()` method for safer access:
+
+```python
+print(my_dict.get("country", "Unknown")) # Returns "Unknown" if "country" is not found
+```
+
+Adding and modifying entries:
+
+```python
+my_dict["occupation"] = "Engineer"
+my_dict["age"] = 31
+```
+
+Iterating through dictionaries:
+
+```python
+for key in my_dict:
+    print(key, my_dict[key])
+
+for key, value in my_dict.items():
+    print(key, value)
+```
+
+Other useful methods:
+
+* `keys()`: Returns a view object containing keys.
+* `values()`: Returns a view object containing values.
+* `items()`: Returns a view object containing key-value pairs as tuples.
+* `pop(key)`: Removes and returns the value associated with the key.
+* `popitem()`: Removes and returns an arbitrary key-value pair.
+* `clear()`: Removes all items.
+* `copy()`: Creates a shallow copy.
+
+
+[Dictionary Comprehension](./../dictionary-comprehension/), [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)

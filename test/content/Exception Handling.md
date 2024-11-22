@@ -3,48 +3,64 @@
 [params]
 	author = 'Carson West'
 +++
-## [Exception Handling](./../exception-handling/)
-
-### What is [Exception Handling](./../exception-handling/)?
-Exception handling is a crucial mechanism in Python that allows programmers to gracefully handle errors and exceptions that may occur during program execution. It enables the detection and handling of unexpected or exceptional conditions, preventing the program from crashing or terminating abruptly.
-
-### How to Use [Exception Handling](./../exception-handling/)
-Exception handling is typically achieved using `try` and `except` blocks. The `try` block contains the code that may potentially raise exceptions, while the `except` block is responsible for catching and handling those exceptions. The syntax for exception handling is:
-
-```python
-try:
- # code that may raise an exception
-except ExceptionType1 as e1:
- # code to handle ExceptionType1
-except ExceptionType2 as e2:
- # code to handle ExceptionType2
-```
-- `try`: The `try` block contains the code that may raise an exception. If an exception occurs within this block, control is transferred to the corresponding `except` block.
-- `except`: The `except` block is used to handle the specific exceptions raised within the `try` block. You can specify multiple `except` blocks to handle different types of exceptions.
-- `ExceptionType`: This is the type of exception being handled. It can be a specific exception class or a parent class like `Exception`.
-- `as`: The `as` keyword is used to bind the exception to a variable (`e1` or `e2` in the example). This allows you to access the exception object for further processing or error reporting.
-
-### Code Examples
-```python
-try:
- x = int(input("Enter a number: "))
-except ValueError:
- print("Invalid number entered.")
-```
-
-```python
-try:
- with open("myfile.txt", "r") as f:
- data = f.read()
-except FileNotFoundError:
- print("File not found.")
-```
-
-### Related Python Concepts
-
-- [Variables and Data Types](./../variables-and-data-types/): Exception handling involves identifying and managing exceptions, which are objects that represent errors.
-- [Operators](./../operators/): The `try` and `except` blocks are control flow constructs used for error handling.
-- [Python Functions](./../python-functions/): Exception handling is often used in conjunction with [Python Functions](./../python-functions/) to handle errors that occur during function calls.
-- [For Loops](./../for-loops/): Exception handling can be used to detect and handle errors that occur within loops.
-- [While Loops](./../while-loops/): Similar to [For Loops](./../for-loops/), exception handling can be used to handle errors in [While Loops](./../while-loops/).
 # [Python 1 Home](./../python-1-home/)
+# Exception Handling
+
+Python uses `try`, `except`, `else`, and `finally` blocks to handle exceptions.
+
+```python
+try:
+    # Code that might raise an exception
+    result = 10 / 0
+except ZeroDivisionError:
+    # Handle the specific exception
+    print("Error: Division by zero")
+except Exception as e: # Catches any other exception
+    print(f"An error occurred: {e}")
+else:
+    # Code to execute if no exception occurs
+    print("Division successful:", result)
+finally:
+    # Code that always executes, regardless of exceptions
+    print("This always runs")
+
+```
+
+[Custom Exceptions](./../custom-exceptions/)  ([Exception Handling Examples](./../exception-handling-examples/))
+
+
+**Common Exceptions:**
+
+* `ZeroDivisionError`: Division by zero.
+* `TypeError`:  Operation on incompatible types.
+* `NameError`:  Using an undefined variable.
+* `IndexError`: Accessing a list index out of range.
+* `KeyError`: Accessing a dictionary key that doesn't exist.
+* `FileNotFoundError`: Trying to open a non-existent file.
+* `IOError`: General input/output error.
+
+
+**Raising Exceptions:**
+
+You can raise exceptions using the `raise` keyword:
+
+```python
+def my_function(x):
+    if x < 0:
+        raise ValueError("Input must be non-negative")
+    return x * 2
+```
+
+**Exception Chaining:**
+
+You can chain exceptions to provide more context when an exception is caught and re-raised.
+
+```python
+try:
+    # some code that may raise an exception
+    raise ValueError("Something went wrong")
+except ValueError as e:
+    raise RuntimeError("A ValueError occurred") from e
+```
+
+[File IO Modes](./../file-io-modes/)  [Handling Binary Files](./../handling-binary-files/)

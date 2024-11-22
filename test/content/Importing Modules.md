@@ -3,49 +3,80 @@
 [params]
 	author = 'Carson West'
 +++
-## [Importing Modules](./../importing-modules/)
+# [Python 1 Home](./../python-1-home/)
+# Importing Modules
 
-### What is [Importing Modules](./../importing-modules/)?
+This note covers importing modules in Python.
 
-Importing modules in Python allows you to access and reuse code written in other files. Modules are individual Python files with a `.py` extension that contain defined [Python Functions](./../python-functions/), classes, and variables. Importing modules enables code reusability, modularity, and organization in larger projects.
+Modules are files containing Python definitions and statements.  They provide a way to organize and reuse code.
 
-### How to Use [Importing Modules](./../importing-modules/)
+**Ways to Import:**
 
-To import a module, use the `import` statement followed by the module name:
+*   `import module_name`: Imports the entire module. Access members using `module_name.member`.
+*   `from module_name import member_name`: Imports a specific member (function, class, variable).  Access directly using `member_name`.
+*   `from module_name import member1, member2`: Imports multiple specific members.
+*   `from module_name import *`: Imports all members.  Generally discouraged due to potential naming conflicts.  ([Namespaces and Scope](./../namespaces-and-scope/))
 
-```python
-import module_name
-```
-
-You can also import specific elements from a module using the `from` statement:
-
-```python
-from module_name import specific_element
-```
-
-### Code Examples
+**Example:**
 
 ```python
-# import the entire `math` module
 import math
 
-# print the value of pi from the `math` module
-print(math.pi)
+print(math.sqrt(25))  # Output: 5.0
+
+from random import randint
+
+print(randint(1, 10)) # Output: A random integer between 1 and 10 (inclusive)
+
+from os import path, getcwd
+
+print(getcwd()) #Prints current working directory.  
 ```
+
+**Module Search Path:**
+
+Python searches for modules in a specific order:
+
+1.  The current directory.
+2.  Locations specified by the `PYTHONPATH` environment variable.
+3.  Standard library directories.
+4.  Installation-specific directories (site-packages).
+
+([PYTHONPATH Environment Variable](./../pythonpath-environment-variable/))
+
+**Packages:**
+
+Packages are a way to organize modules into directories. A package directory must contain an `__init__.py` file (can be empty).
 
 ```python
-# import the `sqrt` function from the `math` module
-from math import sqrt
+# mypackage/
+#  __init__.py
+#  module1.py
+#  module2.py
 
-# calculate the square root of a number
-result = sqrt(16)
+import mypackage.module1
+import mypackage.module2 
+from mypackage import module1, module2
 ```
 
-### Related Python Concepts
+([Packages and __init__.py](./../packages-and-__init__.py/))
 
-- [Modules and Packages](./../modules-and-packages/): Modules are the building blocks of packages, which group related modules together.
-- [Python Functions](./../python-functions/): Modules can define custom [Python Functions](./../python-functions/) that can be imported and used in other modules.
-- [Classes and Objects](./../classes-and-objects/): Modules can define [classes and objects](./../classes-and-objects/) that can be imported and reused across programs.
-- [File Handling](./../file-handling/): Modules can be used to interact with files and manage file operations.
-- [Dynamic Importing](./../dynamic-importing/): Modules can be imported dynamically during runtime using the `importlib` module.
-# [Python 1 Home](./../python-1-home/)
+
+**Relative Imports:**
+
+Within a package, you can import modules relative to the current module's location.  Use leading dots to specify the relative path.
+
+
+```python
+# mypackage/module1.py
+from .module2 import my_function # Imports my_function from module2 within mypackage
+```
+
+([Relative Imports](./../relative-imports/))
+
+**Built-in Modules:**
+
+Python comes with many built-in modules (e.g., `math`, `os`, `random`, `sys`).  These are always available without needing to install them.
+
+
+([Standard Library Modules](./../standard-library-modules/))

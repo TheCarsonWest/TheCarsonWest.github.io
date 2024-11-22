@@ -3,6 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
+---
+node_size: "100"
+---
+
+
 # See [README](./../readme/)
 
 # [APHG Home](./../aphg-home/)

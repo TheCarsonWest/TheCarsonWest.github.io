@@ -11,5 +11,6 @@
 # [partial pressure](./../partial-pressure/) equation
 
 ## [Deviations from Ideal Gas Behavior](./../deviations-from-ideal-gas-behavior/)
+## [Effusion Rate](./../effusion-rate/)
 
 ## [Van Der Waals Calculator](https://www.desmos.com/calculator/dfwqngruiv)

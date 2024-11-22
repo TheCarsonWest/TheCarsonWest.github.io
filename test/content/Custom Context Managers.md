@@ -3,37 +3,71 @@
 [params]
 	author = 'Carson West'
 +++
-## [Custom [[Context Managers](./../custom-[[context-managers/)
+# [Context Managers](./../context-managers/)
+# Custom Context Managers
 
-### What are [Custom [[Context Managers](./../custom-[[context-managers/)?
-Custom [Context Managers](./../context-managers/) provide a way to define a block of code that should be executed before and after a specific operation. They are used to automate resource management tasks, such as opening and closing files or acquiring and releasing locks.
+Context managers are a powerful feature in Python that allows you to manage resources efficiently and gracefully.  The `with` statement is the syntax used to work with them.  Built-in context managers like `open()` for files handle opening and closing automatically.  Custom context managers allow you to create your own resource management logic.
 
-### How to Use [Custom [[Context Managers](./../custom-[[context-managers/)
-To create a custom context manager, you need to define a class that implements the __enter__ and __exit__ methods. The __enter__ method is called when the context manager is entered, and the __exit__ method is called when the context manager is exited (regardless of whether an exception was raised).
+There are two primary ways to define custom context managers:
 
-The __enter__ method should return an object that will be bound to the target variable within the context manager block. The __exit__ method takes three arguments: the exception type, value, and traceback, and should handle any necessary cleanup or resource release.
+**1. Using the `contextlib.contextmanager` decorator:**
 
-### Code Examples
+This is generally the preferred and more concise approach for simpler context managers.
+
 ```python
-class MyContextManager:
- def __enter__(self):
- # do something before the operation
- return obj
+from contextlib import contextmanager
 
- def __exit__(self, exc_type, exc_value, exc_traceback):
- # do something after the operation, even if an exception occurred
- pass
+@contextmanager
+def my_context_manager(arg1, arg2):
+    """Example context manager."""
+    print(f"Entering context manager with {arg1}, {arg2}")
+    try:
+        yield  # The yield keyword signifies where the context's 'body' will execute
+    except Exception as e:
+        print(f"Exception in context manager: {e}")
+        # Handle exceptions here, if needed
+    finally:
+        print("Exiting context manager")
 
-with MyContextManager() as obj:
- # do something with obj
- # __exit__ will be called automatically after this block
+with my_context_manager("value1", "value2") as result:
+    print("Inside the context manager")
+    # Do something here
+    # result will be None here unless you yield something
+    # a value from within the with block.
+    # If a value is yielded, it is returned in 'result'
 ```
 
-### Related Python Concepts
 
-- [Context Managers](./../context-managers/): Custom [Context Managers](./../context-managers/) extend the functionality of built-in [Context Managers](./../context-managers/).
-- [File Handling](./../file-handling/): Custom [Context Managers](./../context-managers/) can be used to open and close files automatically.
-- [Exception Handling](./../exception-handling/): Custom [Context Managers](./../context-managers/) can be used to handle exceptions gracefully.
-- [Classes and Objects](./../classes-and-objects/): Custom [Context Managers](./../context-managers/) are implemented as classes.
-- [Decorators](./../decorators/): Custom [Context Managers](./../context-managers/) can be implemented using [Decorators](./../decorators/) (@contextmanager).
-# [Python 1 Home](./../python-1-home/)
+**2. Using a class that implements the context management protocol (__enter__ and __exit__):**
+
+This approach offers more control and flexibility, especially when dealing with complex resource management scenarios or cleanup that requires more than simple `try...finally` logic.
+
+
+```python
+class MyCustomContextManager:
+    def __init__(self, resource):
+        self.resource = resource
+        print(f"Initializing context manager with {resource}")
+
+    def __enter__(self):
+        # Acquire the resource
+        print("Acquiring resource")
+        return self.resource  # or any other value you want to make accessible inside with block
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        # Release the resource, handle exceptions
+        print("Releasing resource")
+        if exc_type:
+            print(f"Exception handled: {exc_type}, {exc_value}")
+        return False #False means exceptions are propagated, True means suppressed.
+
+with MyCustomContextManager("my_resource") as resource:
+    print(f"Using resource: {resource}")
+    # potentially some code that might throw an exception
+
+```
+
+[Exception Handling](./../exception-handling/)  
+[Resource Management](./../resource-management/)
+
+Note: Both methods achieve similar outcomes; the choice depends on complexity and preference.  The `@contextmanager` decorator is often simpler for straightforward scenarios.  The class-based approach provides more control, particularly for handling exceptions within `__exit__`.

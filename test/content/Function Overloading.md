@@ -3,52 +3,53 @@
 [params]
 	author = 'Carson West'
 +++
-# Python [Function Overloading](./../function-overloading/)
+# [Python Functions](./../python-functions/)
+# Function Overloading
 
-## What is [Function Overloading](./../function-overloading/)?
+Python does **not** support function overloading in the same way as some other languages (like C++ or Java).  In those languages, you can have multiple functions with the same name but different parameter lists.  The compiler/interpreter chooses the correct function based on the arguments passed.
 
-Function overloading is a feature that allows multiple [Python Functions](./../python-functions/) with the same name to exist in the same scope, but with different parameters. It enables the use of a single function name for different sets of input arguments, with each function performing a specific task based on the types and number of arguments passed.
-
-## How to Use [Function Overloading](./../function-overloading/)
-
-Python does not directly support function overloading. However, there are ways to mimic its behavior:
-
-- ** [Default Parameters](./../default-parameters/)**: Using [Default Parameters](./../default-parameters/) allows for variation in the number of input arguments.
- - Example:
- ```python
- def calculate_area(length, width=1):
- return length * width
- ```
-
-- **Variable-Length Arguments**: The `*args` and `**kwargs` notation can be used to handle an arbitrary number of input arguments.
- - Example:
- ```python
- def sum_numbers(*numbers):
- return sum(numbers)
- ```
-
-## Code Examples
+Python's approach is different.  If you define multiple functions with the same name, the later definition will simply overwrite the earlier one.  The last definition is the one that will be used.
 
 ```python
-# Using default parameters
-def greet(name, greeting="Hello"):
- return f"{greeting}, {name}!"
+def my_function(x, y):
+  return x + y
 
-print(greet("John")) # Hello, John!
-print(greet("Mary", "Good morning")) # Good morning, Mary!
+def my_function(x, y, z):
+  return x + y + z
 
-# Using variable-length arguments
-def calculate_average(*numbers):
- return sum(numbers) / len(numbers)
-
-print(calculate_average(10, 20, 30)) # 20.0
+print(my_function(1, 2, 3)) # Output: 6
+#print(my_function(1,2)) #This will throw an error because the first definition is overwritten.
 ```
 
-## Related Python Concepts
+To achieve similar functionality to function overloading in Python, you can use:
 
-- [Python Functions](./../python-functions/): Function overloading mimics the behavior of multiple [Python Functions](./../python-functions/) with the same name.
-- [Default Parameters](./../default-parameters/): [Default Parameters](./../default-parameters/) permitem [Python Functions](./../python-functions/) to have optional input arguments.
-- [Function Parameters](./../function-parameters/): Overloaded [Python Functions](./../python-functions/) require different sets of parameters.
-- [Variable and Data Types](./../variable-and-data-types/): Overloaded [Python Functions](./../python-functions/) may accept different types of input arguments.
-- [Polymorphism](./../polymorphism/): Function overloading can be seen as a form of [Polymorphism](./../polymorphism/).
-# [Python 1 Home](./../python-1-home/)
+1. **Default Arguments:**  Provide default values for parameters. This allows a single function to handle different numbers of arguments.
+
+```python
+def my_function(x, y=0, z=0):
+  return x + y + z
+
+print(my_function(1, 2, 3))  # Output: 6
+print(my_function(1, 2))    # Output: 3
+print(my_function(1))      # Output: 1
+```
+
+2. **Variable-Length Arguments (*args and **kwargs):** Use `*args` to accept a variable number of positional arguments and `**kwargs` to accept a variable number of keyword arguments. This provides maximum flexibility.
+
+```python
+def my_function(*args, **kwargs):
+  sum = 0
+  for num in args:
+    sum += num
+  print(kwargs)
+  return sum
+
+print(my_function(1, 2, 3, 4, 5)) # Output: 15
+print(my_function(a=1, b=2, c=3)) # Output: 0, {'a': 1, 'b': 2, 'c': 3}
+
+```
+
+3. **Method Overriding ([Polymorphism](./../polymorphism/))**: If working with classes and inheritance, you can override methods in subclasses to provide different implementations for the same method name. This is a form of polymorphism, not strictly function overloading, but it achieves similar results.
+
+
+Therefore, while Python doesn't directly support function overloading, using default arguments, variable-length arguments, or method overriding can provide comparable functionality.  Choosing the right approach depends on the specific needs of your program. [Default Arguments](./../default-arguments/), [Variable-Length Arguments](./../variable-length-arguments/), [Polymorphism](./../polymorphism/)

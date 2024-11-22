@@ -3,28 +3,32 @@
 [params]
 	author = 'Carson West'
 +++
-## Python [Encapsulation](./../encapsulation/)
+# [Python 1 Home](./../python-1-home/)
+# Encapsulation
 
-### What is [Encapsulation](./../encapsulation/)?
- [Encapsulation](./../encapsulation/) is a concept in object-oriented programming that bundles data and methods together into a single unit, known as a class. It restricts direct access to certain attributes and methods of an object, making them only accessible through well-defined interfaces.
+Encapsulation is one of the fundamental principles of object-oriented programming (OOP).  It's all about bundling data (attributes) and methods (functions) that operate on that data within a single unit – a class.  The goal is to protect the data from outside access and misuse, and to control how that data is modified.
 
-### How to Use [Encapsulation](./../encapsulation/)
-To encapsulate data in a class, use private or protected attributes. To encapsulate methods, use private or protected methods. Private attributes are only accessible within the class itself, while protected attributes are accessible within the class and its subclasses.
+This is achieved primarily through access modifiers (although Python doesn't have strict private/public keywords like Java or C++).  We use naming conventions to indicate the intended level of access:
 
-### Code Examples
+* **Public members:**  Accessible from anywhere (no special naming).
+* **Protected members:**  Intended for internal use within the class and its subclasses.  Indicated by a single leading underscore (`_`).
+* **Private members:**  Intended for exclusive use within the class itself. Indicated by a double leading underscore (`__`).  (Note:  Even "private" members in Python can still be accessed with name mangling, but it's discouraged).
+
 ```python
-class Person:
- def __init__(self, name):
- self.__name = name # private attribute
+class MyClass:
+    def __init__(self, value):
+        self.public_var = value  # Public
+        self._protected_var = value * 2 # Protected
+        self.__private_var = value * 3 # Private
 
- def get_name(self):
- return self.__name # public method accessing private attribute
+    def get_private_var(self):
+        return self.__private_var
+
+my_instance = MyClass(5)
+print(my_instance.public_var)       # Accessing public member - OK
+print(my_instance._protected_var)   # Accessing protected member - Generally OK, but discouraged from outside the class
+print(my_instance.get_private_var()) # Accessing private member through a getter method - Recommended
+#print(my_instance.__private_var)  # Direct access to private member - will result in AttributeError
 ```
 
-### Related Python Concepts
-- [Classes and Objects](./../classes-and-objects/): [Encapsulation](./../encapsulation/) is a fundamental aspect of object-oriented programming.
-- [Private and Protected Members](./../private-and-protected-members/): [Encapsulation](./../encapsulation/) is achieved by using [Private and Protected Members](./../private-and-protected-members/).
-- [Inheritance](./../inheritance/): [Encapsulation](./../encapsulation/) ensures that private attributes are not inherited by subclasses.
-- [Polymorphism](./../polymorphism/): Encapsulated methods can be overridden in subclasses, allowing for polymorphic behavior.
-- [Descriptors](./../descriptors/): [Encapsulation](./../encapsulation/) can be implemented using [Descriptors](./../descriptors/) to control attribute access.
-# [Python 1 Home](./../python-1-home/)
+[Classes and Objects](./../classes-and-objects/)  [Private and Protected Members](./../private-and-protected-members/)

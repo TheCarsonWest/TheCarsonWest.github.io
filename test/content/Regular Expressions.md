@@ -3,46 +3,51 @@
 [params]
 	author = 'Carson West'
 +++
-## [Regular Expressions](./../regular-expressions/)
+# [Python 1 Home](./../python-1-home/)
+# Regular Expressions
 
-### What are [Regular Expressions](./../regular-expressions/)?
-Regular expressions (regex) are a powerful tool for matching and manipulating strings in Python. They provide a concise and expressive way to search for patterns, validate input, and perform complex string transformations.
+Regular expressions (regex or regexp) are powerful tools for pattern matching within strings.  They are incredibly useful for tasks like data validation, text manipulation, and searching.
 
-### How to Use Regex
-To use regex in Python, you can import the `re` module and create a regular expression object:
+Key Concepts:
+
+* **Metacharacters:** Special characters that have specific meanings in regex (e.g., `.` for any character, `*` for zero or more repetitions, `+` for one or more repetitions, `?` for zero or one repetition, `[]` for character sets, `()` for grouping, `^` for beginning of string, ` $ ` for end of string). [Regex Metacharacters](./../regex-metacharacters/)
+* **Quantifiers:**  Specify how many times a character or group should appear (e.g., `*`, `+`, `?`, `{n}`, `{n,}`, `{n,m}`). [Regex Quantifiers](./../regex-quantifiers/)
+* **Anchors:**  Match positions within a string, not characters (e.g., `^`, ` $ `).
+* **Character Sets:** Define a set of characters to match (e.g., `[abc]`, `[a-z]`, `[^abc]`). [Regex Character Sets](./../regex-character-sets/)
+* **Grouping and Capturing:** Use parentheses `()` to group parts of a regex and capture matched substrings. [Regex Grouping and Capturing](./../regex-grouping-and-capturing/)
+* **Alternation:** Use the pipe symbol `|` to specify alternative patterns.
+* **Flags:** Modify the behavior of the regex engine (e.g., `re.IGNORECASE` for case-insensitive matching). [Regex Flags](./../regex-flags/)
+
+Python's `re` module provides functions for working with regular expressions:
 
 ```python
 import re
-pattern = re.compile(r'pattern')
+
+text = "My phone number is 123-456-7890 and email is test@example.com"
+
+# Find phone number
+phone_number_match = re.search(r"\d{3}-\d{3}-\d{4}", text)
+if phone_number_match:
+    print(f"Phone number: {phone_number_match.group(0)}")
+
+# Find all email addresses (this assumes a simple email format)
+email_matches = re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", text)
+print(f"Email addresses: {email_matches}")
+
+# Replace phone number with ***-***-****
+new_text = re.sub(r"\d{3}-\d{3}-\d{4}", "***-***-****", text)
+print(f"New text: {new_text}")
+
 ```
 
-The `pattern` is a string that specifies the matching rules. Regular expressions use a special syntax to represent different types of patterns, such as:
+Related Notes:
 
-- **Character classes**: `[abc]` matches any of the characters within the brackets.
-- **Metacharacters**: `.` matches any single character, `*` matches zero or more occurrences of the preceding expression.
-- **Quantifiers**: `{n}` matches exactly `n` occurrences, `{m,n}` matches between `m` and `n` occurrences.
+- [Regex Groups and Backreferences](./../regex-groups-and-backreferences/)
 
-### Code Examples
-```python
-# search for the word "Python" in a string
-match = re.search(r'Python', 'This is a Python program')
-```
 
-```python
-# find all occurrences of the digit 5 in a string
-matches = re.findall(r'[5]', 'The number is 123456789')
-```
+Further Exploration:
 
-```python
-# replace all spaces with underscores in a string
-new_string = re.sub(r' ', '_', 'Hello World')
-```
+*  Practice writing regexes for different scenarios.  Online regex testers can be helpful.
+* Learn about more advanced techniques like lookahead and lookbehind assertions.
 
-### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Regular expressions can be stored in string variables.
-- [Operators](./../operators/): Comparison [Operators](./../operators/) (`==`) can be used to test the result of a regex match.
-- [Python Functions](./../python-functions/): Regular expression [Python Functions](./../python-functions/) like `re.search()` and `re.findall()` are used to perform string matching and manipulation.
-- [For Loops](./../for-loops/): Regex patterns can be iterated over using the `re.finditer()` function.
-- [While Loops](./../while-loops/): Regular expressions can be used to control the execution of [While Loops](./../while-loops/) based on matching conditions.
-# [Python 1 Home](./../python-1-home/)

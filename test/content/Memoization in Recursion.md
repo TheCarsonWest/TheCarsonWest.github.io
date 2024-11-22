@@ -3,46 +3,74 @@
 [params]
 	author = 'Carson West'
 +++
-## [Memoization in [[Recursion](./../memoization-in-[[recursion/)
+# [Recursion](./../recursion/)
+# Memoization in Recursion
 
-### What is Memoization?
-Memoization is a technique used in [Recursion](./../recursion/) to optimize performance by storing the results of function calls in a cache. This prevents the function from recomputing the same values multiple times, resulting in significantly faster execution times.
+Memoization is an optimization technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.  This is particularly useful in recursive functions where the same subproblems are calculated repeatedly.
 
-### How to Use Memoization
-Memoization can be implemented using a decorator function, which wraps the original function and checks the cache for existing results before executing the function again.
+**How it works:**
 
-The decorator typically has a parameter `cache` to store the cached results. If the result for the current function call is not present in the cache, the function is executed and the result is added to the cache before being returned.
+A memoized function maintains a cache (usually a dictionary) to store the results of previous calls. Before computing a result, it checks the cache:
 
-### Code Examples
+* **Cache Hit:** If the input is already in the cache, the stored result is returned directly.
+* **Cache Miss:** If the input is not in the cache, the function computes the result, stores it in the cache, and then returns it.
+
+
+**Example:**
+
+Let's consider a recursive Fibonacci sequence calculation:
+
 ```python
-# memoization decorator
-def memoize(cache=None):
- if cache is None:
- cache = {}
+def fibonacci_recursive(n):
+  if n <= 1:
+    return n
+  else:
+    return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
 
- def wrapper(func):
- def memoized_func(*args):
- key = args
- if key not in cache:
- cache[key] = func(*args)
- return cache[key]
- return memoized_func
- return wrapper
-
-# example function to calculate the Fibonacci number
-@memoize
-def fibonacci(n):
- if n < 2:
- return n
- else:
- return fibonacci(n-1) + fibonacci(n-2)
 ```
 
-### Related Python Concepts
+This is inefficient because it recalculates many Fibonacci numbers multiple times.  A memoized version would be:
 
-- [Recursion](./../recursion/): Memoization is directly related to [Recursion](./../recursion/), as it optimizes recursive function calls.
-- [Caches](./../caches/): Memoization involves the use of a cache to store the results of function calls.
-- [Decorators](./../decorators/): Memoization is implemented using a decorator function.
-- [Dynamic Programming](./../dynamic-programming/): Memoization is a key technique in dynamic programming, which optimizes recursive solutions by storing intermediate results.
-- [Optimizations](./../optimizations/): Memoization is a method of optimizing the performance of recursive [Python Functions](./../python-functions/).
-# [Python 1 Home](./../python-1-home/)
+```python
+cache = {}  # Initialize cache
+
+def fibonacci_memoized(n):
+  if n in cache:
+    return cache[n]  # Cache hit
+  else:
+    if n <= 1:
+      result = n
+    else:
+      result = fibonacci_memoized(n-1) + fibonacci_memoized(n-2)
+    cache[n] = result  # Cache miss, store result
+    return result
+
+```
+
+`fibonacci_memoized` significantly improves performance for larger values of `n`.
+
+
+**[Python Dictionaries](./../python-dictionaries/)**  (Note: This needs its own explanation about Python dictionaries and their use in caching.)
+
+**[Recursive Function Design](./../recursive-function-design/)** (Note:  This note should cover best practices for writing efficient recursive functions.)
+
+
+**Advantages of Memoization:**
+
+* **Improved Performance:**  Significantly reduces computation time for repeated subproblems.
+* **Reduced Redundancy:** Avoids unnecessary recalculations.
+
+**Disadvantages of Memoization:**
+
+* **Increased Memory Usage:** The cache consumes memory to store results.  This can be a concern for very large inputs or complex functions.
+* **Implementation Complexity:** Requires additional code to manage the cache.  Not always worth the effort for simple functions or cases where the performance gain is small.
+
+
+**When to use Memoization:**
+
+Memoization is most beneficial when:
+
+* The function is recursive.
+* The same subproblems are computed multiple times.
+* The function's inputs are relatively small and the outputs are relatively large.
+* The cost of computation is high and/or the number of repeated subproblems is significant.

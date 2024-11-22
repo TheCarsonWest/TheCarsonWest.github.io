@@ -3,43 +3,53 @@
 [params]
 	author = 'Carson West'
 +++
-## [While Loops](./../while-loops/)
-
-### What are [While Loops](./../while-loops/)?
-While loops are a control flow construct that allows the execution of a code block repeatedly as long as a specified condition remains True. They provide a way to iterate through a sequence of operations or execute a block of code an indefinite number of times.
-
-### How to Use [While Loops](./../while-loops/)
-The syntax of a while loop in Python is:
-
-```python
-while condition:
- # code block to be executed while condition is True
-```
-
-The `condition` is typically a comparison expression that evaluates to either True or False. As long as the condition remains True, the code block under the while loop will continue to execute. Once the condition becomes False, the execution will proceed to the next statement after the while loop.
-
-### Code Examples
-```python
-# print numbers from 1 to 10
-i = 1
-while i <= 10:
- print(i)
- i += 1
-```
-
-```python
-# read input from the user until they enter "quit"
-while True:
- user_input = input("Enter a command (or 'quit' to exit): ")
- if user_input == "quit":
- break
-```
-
-### Other Python Concepts Related to [While Loops](./../while-loops/)
-
-- [Variables and Data Types](./../variables-and-data-types/): Variables are used to store and manipulate data within while loops.
-- [Operators](./../operators/): Comparison [Operators](./../operators/) like `>` and `==` are used to create conditions in while loops.
-- [Control Flow If Statements](./../control-flow-if-statements/): If statements can be used to control the flow of execution within while loops.
-- [For Loops](./../for-loops/): While loops can be used to implement the same functionality as [For Loops](./../for-loops/), but they provide more flexibility in controlling the iteration.
-- [Recursion](./../recursion/): While loops can be used as the base case in recursive [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)
+# While Loops
+
+While loops in Python execute a block of code repeatedly as long as a given condition is true.
+
+```python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+The loop continues until `count` is no longer less than 5.  We must ensure the condition eventually becomes false to avoid an infinite loop.
+
+[Infinite Loops](./../infinite-loops/)
+
+**Important Considerations:**
+
+* **[Infinite Loops](./../infinite-loops/):**  If the condition never evaluates to `False`, the loop will run indefinitely.  This is a common error.
+* **Break Statement:** The `break` statement can be used to exit a `while` loop prematurely, regardless of the condition.
+* **Continue Statement:** The `continue` statement skips the rest of the current iteration and proceeds to the next iteration.
+
+
+**Example with `break`:**
+
+```python
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+```
+
+**Example with `continue`:**
+
+```python
+count = 0
+while count < 5:
+    count += 1
+    if count == 3:
+        continue  # Skip printing 3
+    print(count)
+```
+
+**Related Notes:**
+
+* [Control Flow If Statements](./../control-flow-if-statements/)
+* [For Loops](./../for-loops/)
+

@@ -3,37 +3,57 @@
 [params]
 	author = 'Carson West'
 +++
-## [List Comprehension](./../list-comprehension/)
-
-### What is [List Comprehension](./../list-comprehension/)?
-List comprehension is a concise and readable syntax in Python that allows you to create a new list based on the elements of an existing list. It combines a for loop and a conditional statement into a single line of code.
-
-### How to Use [List Comprehension](./../list-comprehension/)
-The syntax of a list comprehension is:
-
-```python
-[expression for item in iterable if condition]
-```
-
-- `expression`: The expression to evaluate for each item in the iterable.
-- `item`: The variable that represents each item in the iterable.
-- `iterable`: The sequence or collection to iterate over.
-- `condition` (optional): The condition to filter the elements of the iterable.
-
-### Code Examples
-```python
-# create a new list with the squares of the numbers from 1 to 10
-squares = [x**2 for x in range(1, 11)]
-
-# create a new list with the positive numbers from a list
-positive_numbers = [x for x in numbers if x > 0]
-```
-
-### Related Python Concepts
-
-- [Lists](./../lists/): List comprehension creates new [Lists](./../lists/).
-- [For Loops](./../for-loops/): List comprehension uses a for loop syntax.
-- [Conditional Statements](./../conditional-statements/): List comprehension uses a conditional statement to filter elements.
-- [Python Functions](./../python-functions/): List comprehension can be used inside [Python Functions](./../python-functions/) to create and return new [Lists](./../lists/).
-- [Map, Filter, and Reduce](./../map-filter-and-reduce/): List comprehension is similar to the map and filter [Python Functions](./../python-functions/).
 # [Python 1 Home](./../python-1-home/)
+# List Comprehension
+
+List comprehension provides a concise way to create lists in Python. It's a powerful tool for creating lists based on existing iterables.
+
+**Basic Syntax:**
+
+```python
+new_list = [expression for item in iterable if condition]
+```
+
+*   `expression`: What you want to do with each item.
+*   `item`: The variable representing each element in the iterable.
+*   `iterable`:  The sequence (list, tuple, string, etc.) you're working with.
+*   `condition` (optional): A filter to include only certain items.
+
+
+**Examples:**
+
+1.  Squaring numbers:
+
+    ```python
+    numbers = [1, 2, 3, 4, 5]
+    squares = [x**2 for x in numbers]  # [1, 4, 9, 16, 25]
+    ```
+
+2.  Filtering even numbers:
+
+    ```python
+    numbers = [1, 2, 3, 4, 5, 6]
+    even_numbers = [x for x in numbers if x % 2 == 0] # [2, 4, 6]
+    ```
+
+3.  String manipulation:
+
+    ```python
+    words = ["hello", "world", "python"]
+    uppercase_words = [word.upper() for word in words] # ['HELLO', 'WORLD', 'PYTHON']
+    ```
+
+4.  Nested loops (equivalent to nested for loops):
+
+    ```python
+    matrix = [1, 2], [3, 4](./../1-2]-[3-4/)
+    flattened_matrix = [num for row in matrix for num in row] # [1, 2, 3, 4]
+    ```
+
+
+**[Nested Loops](./../nested-loops/)**
+
+**[For Loops](./../for-loops/)**
+
+
+List comprehension offers a more readable and efficient alternative to traditional `for` loops when creating lists.  It's important to understand its syntax and usage to write more concise and Pythonic code.

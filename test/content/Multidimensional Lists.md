@@ -3,31 +3,65 @@
 [params]
 	author = 'Carson West'
 +++
-## [Multidimensional [[Lists](./../multidimensional-[[lists/)
+# [Lists](./../lists/)
+# Multidimensional Lists
 
-### What are [Multidimensional [[Lists](./../multidimensional-[[lists/)?
-Multidimensional [Lists](./../lists/) are data structures in Python that can store elements in multiple dimensions. They allow for the organization and representation of data with hierarchical structures. Unlike one-dimensional [Lists](./../lists/), which only have one level of elements, multidimensional [Lists](./../lists/) have multiple levels or dimensions.
+Multidimensional lists in Python are lists within lists, creating a structure that can represent matrices, tables, or other higher-dimensional data.  The number of dimensions is limited only by memory and practicality.
 
-### How to Use [Multidimensional [[Lists](./../multidimensional-[[lists/)
-Multidimensional [Lists](./../lists/) are created using nested square brackets `[]`. Each dimension of the list is represented by a pair of square brackets, and elements are separated by commas. To access elements within a multidimensional list, use square brackets for each dimension of the list.
+**Example:**
 
-### Code Examples
 ```python
-# create a 2-dimensional list
-my_list = [1, 2, 3], [4, 5, 6](./../1-2-3]-[4-5-6/)
+# A 2D list (matrix)
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
-# Access an element from the first dimension
-print(my_list[0][1]) # Output: 2
+# Accessing elements:
+print(matrix[0][0])  # Output: 1 (first row, first column)
+print(matrix[1][2])  # Output: 6 (second row, third column)
 
-# Access an element from the second dimension
-print(my_list[1][2]) # Output: 6
+
+# A 3D list (e.g., a cube of data)
+cube = [
+    [1, 2], [3, 4](./../1-2]-[3-4/),
+    [5, 6], [7, 8](./../5-6]-[7-8/),
+    [9, 10], [11, 12](./../9-10]-[11-12/)
+]
+
+print(cube[1][0][1]) #Output: 6
+
 ```
 
-### Related Python Concepts
+**Common Use Cases:**
 
-- [Lists](./../lists/): Multidimensional [Lists](./../lists/) inherit properties and operations from one-dimensional [Lists](./../lists/).
-- [Tuples](./../tuples/): Multidimensional [Lists](./../lists/) can be nested with [Tuples](./../tuples/) for more complex data structures.
-- [Dictionaries](./../dictionaries/): Multidimensional [Lists](./../lists/) can be used in conjunction with [Dictionaries](./../dictionaries/) to create [Dictionaries](./../dictionaries/) with multidimensional values.
-- [List Comprehension](./../list-comprehension/): [List Comprehension](./../list-comprehension/) can be used to create multidimensional [Lists](./../lists/) concisely.
-- [Generators](./../generators/): [Generators](./../generators/) can be used to create multidimensional [Lists](./../lists/) lazily, reducing memory usage.
-# [Python 1 Home](./../python-1-home/)
+* Representing matrices for mathematical operations.
+* Storing tabular data (like spreadsheets).
+* Implementing game boards or other grid-based structures.
+
+
+**Important Considerations:**
+
+* **Memory Efficiency:**  Multidimensional lists can consume significant memory, especially with large dimensions. Consider using NumPy arrays for better performance and memory management with large datasets. [NumPy Arrays](./../numpy-arrays/)
+* **Nested Loops:** Accessing and manipulating elements often requires nested loops.  
+* **List Comprehension:**  List comprehensions can be used to create and manipulate multidimensional lists concisely.  [List Comprehensions](./../list-comprehensions/)
+
+
+**Example using List Comprehension to create a 2D list:**
+
+```python
+rows = 3
+cols = 4
+matrix = [[i * cols + j for j in range(cols)] for i in range(rows)]
+print(matrix)
+```
+
+**Example of accessing elements using nested loops:**
+
+```python
+for row in matrix:
+    for element in row:
+        print(element, end=" ")
+    print()
+```

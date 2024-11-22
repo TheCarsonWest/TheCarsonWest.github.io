@@ -3,36 +3,65 @@
 [params]
 	author = 'Carson West'
 +++
-## Method Resolution Order (MRO)
+# [Classes and Objects](./../classes-and-objects/)
+# Method Resolution Order (MRO)
 
-### Explanation
-MRO in Python refers to the order in which methods are searched and inherited by subclasses. It determines which implementation of a method from a superclass will be used when a subclass has multiple possible implementations.
+Python's MRO determines the order in which methods are searched for during inheritance.  It's crucial for avoiding ambiguity when a class inherits from multiple parent classes that might define the same method. Python uses the C3 linearization algorithm to ensure a consistent and predictable MRO.
 
-### How to Use It
-Python calculates the MRO automatically based on the class hierarchy. There is no direct way to modify or override it.
-
-### Code Examples
-Consider the following class hierarchy:
+The `mro()` method provides a way to inspect the MRO of a class.
 
 ```python
 class A:
- def method(self):
- print("Method from class A")
+    def method(self):
+        print("A")
 
 class B(A):
- def method(self):
- print("Method from class B")
+    def method(self):
+        print("B")
 
-class C(B):
- pass
+class C(A):
+    def method(self):
+        print("C")
+
+class D(B, C):
+    pass
+
+print(D.mro()) # Output: [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
+d = D()
+d.method() # Output: B (because B is listed before C in the MRO)
+
 ```
 
-In this example, the MRO for class `C` is `[C, B, A]` (from most derived to least derived). When calling `method` on an instance of class `C`, the interpreter will first look for a `method` method in `C`. If it's not found, it will proceed up the MRO, checking `B` and then `A`. This ensures that the most specific implementation of the method is used.
+**Key aspects to remember:**
 
-### Related Python Concepts
-- [Classes and Objects](./../classes-and-objects/): MRO is used to resolve method [Inheritance](./../inheritance/) in class hierarchies.
-- [Inheritance](./../inheritance/): MRO defines the order in which inherited methods are searched.
-- [Polymorphism](./../polymorphism/): MRO enables the use of different implementations of the same method in subclasses.
-- [[Multiple [Inheritance](./../inheritance/): MRO is particularly important in managing method conflicts in [Multiple Inheritance](./../multiple-inheritance/) scenarios.
-- [Method Overloading](./../method-overloading/): MRO helps resolve ambiguity when multiple methods have the same name but different parameters.
-# [Python 1 Home](./../python-1-home/)
+*   **Depth-First, Left-to-Right:**  The algorithm prioritizes the inheritance chain from left to right.  It exhausts all parent classes of a branch before moving to the next.
+*   **Linearization:**  The C3 algorithm ensures that the MRO is a linear sequence, eliminating any ambiguity in method lookup.
+*   **Diamond Problem:** The MRO elegantly solves the "diamond problem," where a class inherits from two classes that share a common ancestor, avoiding duplicated method calls in the way that some other multiple inheritance schemes might cause.  [Diamond Problem Example](./../diamond-problem-example/)
+
+**Related Notes:**
+
+* [Inheritance in Python](./../inheritance-in-python/)
+* [Multiple Inheritance in Python](./../multiple-inheritance-in-python/)
+* [C3 Linearization Algorithm](./../c3-linearization-algorithm/)
+
+**Example demonstrating the Diamond Problem solution**
+
+```python
+class A:
+    def method(self):
+        print("A")
+
+class B(A):
+    pass
+
+class C(A):
+    pass
+
+class D(B,C):
+    pass
+
+print(D.mro()) # Output: [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
+
+d = D()
+d.method() # Prints 'A', as it's resolved correctly in the MRO
+```

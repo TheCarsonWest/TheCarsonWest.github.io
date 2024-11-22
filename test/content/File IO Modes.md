@@ -3,32 +3,50 @@
 [params]
 	author = 'Carson West'
 +++
-## [File IO Modes](./../file-io-modes/)
+# [File Handling](./../file-handling/)
+# File IO Modes
 
-### Overview
-Python provides [File Handling](./../file-handling/) modes to specify how the file is opened and how data is accessed. The mode specifies the usage of the file, such as reading, writing, or appending.
+Python's built-in `open()` function allows for various file access modes, influencing how the file is handled during operations.  These modes are specified as a second argument to `open()`.
 
-### File IO Mode Options
-| Mode | Description |
-|---|---|
-| `'r'` | Opens a file for reading. The file must exist, or an `OSError` will be raised. |
-| `'w'` | Opens a file for writing. If the file exists, it will be overwritten. If it doesn't, a new file will be created. |
-| `'a'` | Opens a file for appending. Data is written to the end of the file without overwriting the existing content. If the file doesn't exist, a new file will be created. |
-| `'r+'` | Opens a file for both reading and writing. The file must exist, or an `OSError` will be raised. |
-| `'w+'` | Opens a file for both writing and reading. If the file exists, it will be overwritten. If it doesn't, a new file will be created. |
-| `'a+'` | Opens a file for both appending and reading. Data is written to the end of the file without overwriting the existing content. If the file doesn't exist, a new file will be created. |
-| `'x'` | Opens a file for exclusive creation and writing. If the file already exists, an `OSError` will be raised. |
+Common Modes:
 
-### How to Use [File IO Modes](./../file-io-modes/)
-When opening a file using the `open()` function, the mode is specified as the second parameter:
+*   `'r'` (read): Opens the file for reading.  This is the default mode.  An error occurs if the file does not exist.
+*   `'w'` (write): Opens the file for writing.  If the file exists, its contents are overwritten. If the file does not exist, a new file is created.
+*   `'x'` (exclusive creation): Opens the file for writing, but only if the file does not already exist.  If the file exists, an error is raised.
+*   `'a'` (append): Opens the file for writing.  If the file exists, new data is appended to the end of the file. If the file does not exist, a new file is created.
+*   `'b'` (binary):  Used in conjunction with other modes (`'rb'`, `'wb'`, `'ab'`, `'xb'`). Opens the file in binary mode.  Crucial for working with non-text files (images, executables, etc.).  Data is read and written as bytes.
+*   `'t'` (text): Used in conjunction with other modes (`'rt'`, `'wt'`, `'at'`). Opens the file in text mode (this is the default). Data is read and written as strings.  Handles newline characters according to the system's convention.
+*   `'+'` (update): Used with other modes (`'r+'`, `'w+'`, `'a+'`, `'x+'`). Opens the file for both reading and writing.
+
+
+Example Usage:
 
 ```python
-with open('filename.txt', mode='r') as file:
- # reading operations
+# Reading a file
+f = open("my_file.txt", "r")
+contents = f.read()
+f.close()
+
+# Writing to a file
+f = open("my_file.txt", "w")
+f.write("Hello, world!")
+f.close()
+
+# Appending to a file
+f = open("my_file.txt", "a")
+f.write("\nThis is appended text.")
+f.close()
+
+#Binary read
+f = open("image.jpg","rb")
+image_data = f.read()
+f.close()
+
+# safer way to handle files: using 'with' statement. Auto closes file for you.
+with open("my_file.txt", "r") as file:
+    contents = file.read()
+    print(contents)
+
 ```
 
-### Related Python Concepts
-- [File Handling](./../file-handling/): File IO modes are part of the Python [File Handling](./../file-handling/) functionality.
-- [Context Managers](./../context-managers/): [Context Managers](./../context-managers/) are used in Python to ensure proper resource management, including [File Handling](./../file-handling/).
-- [Exceptions](./../exceptions/): Errors while working with files, such as file not found or permission denied, raise exceptions that need to be handled appropriately.
-# [Python 1 Home](./../python-1-home/)
+[File Handling Best Practices](./../file-handling-best-practices/)  [Error Handling with Files](./../error-handling-with-files/) [Context Managers](./../context-managers/)

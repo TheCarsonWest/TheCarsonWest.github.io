@@ -3,30 +3,48 @@
 [params]
 	author = 'Carson West'
 +++
-## [Bitwise [[Operators](./../bitwise-[[operators/)
+# [Operators](./../operators/)
+# Bitwise Operators
 
-### What are [Bitwise [[Operators](./../bitwise-[[operators/)?
-Bitwise [Operators](./../operators/) perform operations on the binary representations of integers. They allow manipulation of individual bits, providing precise control over the binary-level details of data.
+Bitwise operators work directly on the individual bits of integers.  They are rarely used in typical Python programming but are essential for low-level programming, working with hardware, or specific optimization scenarios.
 
-### How to Use [Bitwise [[Operators](./../bitwise-[[operators/)
-Bitwise [Operators](./../operators/) are represented by symbols that indicate the specific operation to be performed on the bits of the operands. The operands must be integers or bitwise expressions. The result is a new integer that represents the modified binary value.
 
-### Common [Bitwise [[Operators](./../bitwise-[[operators/)
+**Types of Bitwise Operators:**
 
-| Operator | Name | Description | Example |
-|---|---|---|---|
-| `&` | AND | Performs a bitwise AND operation, returning 1 if both bits are 1, and 0 otherwise | `5 & 3 = 1` (0101 & 0011 = 0001) |
-| `|` | OR | Performs a bitwise OR operation, returning 1 if either bit is 1 | `5 | 3 = 7` (0101 | 0011 = 0111) |
-| `^` | XOR | Performs a bitwise XOR operation, returning 1 if the bits are different, and 0 if they are the same | `5 ^ 3 = 6` (0101 ^ 0011 = 0110) |
-| `~` | NOT | Performs a bitwise NOT operation, flipping 0s to 1s and vice versa | `~5 = -6` (0101 -> 1010) |
-| `<<` | Left Shift | Shifts the bits to the left, multiplying by 2<sup>n</sup>, where n is the number of positions shifted | `5 << 2 = 20` (0101 << 2 = 10100) |
-| `>>` | Right Shift | Shifts the bits to the right, dividing by 2<sup>n</sup>, where n is the number of positions shifted | `20 >> 2 = 5` (10100 >> 2 = 0101) |
+*   `&` (AND):  Returns 1 if both bits are 1, otherwise 0.
+*   `|` (OR): Returns 1 if at least one bit is 1, otherwise 0.
+*   `^` (XOR): Returns 1 if the bits are different, otherwise 0.
+*   `~` (NOT): Inverts all bits (0 becomes 1, 1 becomes 0).
+*   `<<` (Left Shift): Shifts bits to the left by a specified number of positions, filling with 0s on the right.
+*   `>>` (Right Shift): Shifts bits to the right by a specified number of positions.  The behavior of the leftmost bit depends on the signedness of the integer (generally filled with the sign bit in two's complement).
 
-### Related Python Concepts
 
-- [Variables and Data Types](./../variables-and-data-types/): Bitwise [Operators](./../operators/) operate on integers and bitwise expressions.
-- [Operators](./../operators/): Bitwise [Operators](./../operators/) are a type of operator, distinct from arithmetic and logical [Operators](./../operators/).
-- [Lists](./../lists/): Bitwise [Operators](./../operators/) can be applied to elements of [Lists](./../lists/) containing integers.
-- [Tuples](./../tuples/): Bitwise [Operators](./../operators/) can be applied to elements of [Tuples](./../tuples/) containing integers.
-- [Python Sets](./../python-sets/): Bitwise [Operators](./../operators/) can be applied to elements of sets containing integers.
-# [Python 1 Home](./../python-1-home/)
+**Examples:**
+
+```python
+a = 10  # Binary: 1010
+b = 4   # Binary: 0100
+
+print(a & b)  # Output: 0 (Binary: 0000)
+print(a | b)  # Output: 14 (Binary: 1110)
+print(a ^ b)  # Output: 14 (Binary: 1110)
+print(~a)   # Output: -11 (depends on system's representation of negative numbers)
+print(a << 2) # Output: 40 (Binary: 101000)
+print(a >> 1) # Output: 5  (Binary: 0101)
+
+```
+
+**[Two's Complement](./../twos-complement/)**  (This needs a separate explanation)
+
+**[Binary Representation of Numbers](./../binary-representation-of-numbers/)** (This also needs a separate explanation)
+
+
+**Use Cases:**
+
+*   **Flags and bit fields:**  Representing multiple boolean states within a single integer.
+*   **Low-level programming:** Interfacing with hardware or embedded systems.
+*   **Cryptography:** Certain cryptographic algorithms utilize bitwise operations.
+*   **Data compression/manipulation:**  Efficiently packing and unpacking data.
+
+
+**Important Note:**  Bitwise operators only work on integers. Applying them to other data types will result in a `TypeError`.

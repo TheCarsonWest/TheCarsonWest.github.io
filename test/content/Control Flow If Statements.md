@@ -3,41 +3,46 @@
 [params]
 	author = 'Carson West'
 +++
-# [Control Flow If Statements](./../control-flow-if-statements/)
+# [While Loops](./../while-loops/)
+# Control Flow If Statements
 
-## What are If Statements?
-If statements are a foundational control flow construct in Python that allow the conditional execution of one or more code blocks based on a Boolean condition. They enable decisions and alter the flow of a program.
+Python's `if` statements control the execution flow based on conditions.
 
-## How to Use If Statements
-The syntax of an if statement in Python is:
+Basic Syntax:
 
 ```python
 if condition:
- # code block to be executed if condition is True
+    # Code to execute if condition is True
+elif condition2: #Optional
+    # Code to execute if condition2 is True and condition is False
+else: #Optional
+    # Code to execute if all above conditions are False
+
 ```
 
-The `condition` is typically a comparison expression that evaluates to either True or False. If the condition is True, the code block under the if statement will be executed. Otherwise, the execution will skip to the next statement after the if statement.
+**Example:**
 
-## Code Examples
 ```python
-# check if the value of x is greater than 5
+x = 10
 if x > 5:
- print("x is greater than 5")
+    print("x is greater than 5")
+elif x == 5:
+    print("x is equal to 5")
+else:
+    print("x is less than 5")
+
 ```
 
-```python
-# check if the user is an administrator
-if user_is_admin():
- # allow access to sensitive data
- pass
-```
+**Important Notes:**
 
-## Related Python Concepts
+* Conditions are evaluated as boolean values (True or False).
+* Indentation is crucial; it defines the code blocks within each `if`, `elif`, and `else` branch.
+* You can have multiple `elif` blocks.
+* The `else` block is optional.
 
-- [Variables and Data Types](./../variables-and-data-types/): If statements rely on Boolean data types to evaluate conditions.
-- [Operators](./../operators/): Comparison [Operators](./../operators/) like `>` and `==` are used to create conditions in if statements.
-- [Python Functions](./../python-functions/): If statements can be used to conditionally call [Python Functions](./../python-functions/).
-- [For Loops](./../for-loops/): If statements can be used to control the execution of [For Loops](./../for-loops/).
-- [While Loops](./../while-loops/): If statements can be used to terminate or continue the execution of [While Loops](./../while-loops/).
 
-# [Python 1 Home](./../python-1-home/)
+[Boolean Logic](./../boolean-logic/)  -  This needs a separate note explaining boolean operators (and, or, not) and truth tables.
+
+[Comparison Operators](./../comparison-operators/) - This should cover operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
+
+[Nested If Statements](./../nested-if-statements/) -  Explaining how to have `if` statements inside other `if` statements.
