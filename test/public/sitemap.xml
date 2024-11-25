@@ -30,6 +30,8 @@
   </url><url>
     <loc>http://example.org/adams-onis-treaty/</loc>
   </url><url>
+    <loc>http://example.org/adherents/</loc>
+  </url><url>
     <loc>http://example.org/alabama/</loc>
   </url><url>
     <loc>http://example.org/alaska/</loc>
@@ -101,6 +103,8 @@
     <loc>http://example.org/array-creation-methods/</loc>
   </url><url>
     <loc>http://example.org/articles-of-confederation/</loc>
+  </url><url>
+    <loc>http://example.org/artifacts/</loc>
   </url><url>
     <loc>http://example.org/async-generators/</loc>
   </url><url>
@@ -185,6 +189,10 @@
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/cengage-home/</loc>
+  </url><url>
+    <loc>http://example.org/centrifugal-force/</loc>
+  </url><url>
+    <loc>http://example.org/centripetal-force/</loc>
   </url><url>
     <loc>http://example.org/cer-strategy/</loc>
   </url><url>
@@ -278,6 +286,16 @@
   </url><url>
     <loc>http://example.org/cultural-lag/</loc>
   </url><url>
+    <loc>http://example.org/cultural-landscape/</loc>
+  </url><url>
+    <loc>http://example.org/cultural-norms/</loc>
+  </url><url>
+    <loc>http://example.org/cultural-relativism/</loc>
+  </url><url>
+    <loc>http://example.org/cultural-trait/</loc>
+  </url><url>
+    <loc>http://example.org/culture/</loc>
+  </url><url>
     <loc>http://example.org/custom-context-managers/</loc>
   </url><url>
     <loc>http://example.org/data-cleaning-in-pandas/</loc>
@@ -318,11 +336,15 @@
   </url><url>
     <loc>http://example.org/demographic-transition-model/</loc>
   </url><url>
+    <loc>http://example.org/denominations/</loc>
+  </url><url>
     <loc>http://example.org/derivative/</loc>
   </url><url>
     <loc>http://example.org/derivative-rules/</loc>
   </url><url>
     <loc>http://example.org/deviations-from-ideal-gas-behavior/</loc>
+  </url><url>
+    <loc>http://example.org/dialects/</loc>
   </url><url>
     <loc>http://example.org/diamond-problem-example/</loc>
   </url><url>
@@ -393,6 +415,12 @@
     <loc>http://example.org/espn/</loc>
   </url><url>
     <loc>http://example.org/espn-example/</loc>
+  </url><url>
+    <loc>http://example.org/ethnic-neighborhoods/</loc>
+  </url><url>
+    <loc>http://example.org/ethnicity/</loc>
+  </url><url>
+    <loc>http://example.org/ethnocentrism/</loc>
   </url><url>
     <loc>http://example.org/etm/</loc>
   </url><url>
@@ -466,7 +494,13 @@
   </url><url>
     <loc>http://example.org/gas-solubility/</loc>
   </url><url>
+    <loc>http://example.org/gendered-identity/</loc>
+  </url><url>
+    <loc>http://example.org/gendered-spaces/</loc>
+  </url><url>
     <loc>http://example.org/generators/</loc>
+  </url><url>
+    <loc>http://example.org/gentrification/</loc>
   </url><url>
     <loc>http://example.org/geographic-scale/</loc>
   </url><url>
@@ -541,6 +575,8 @@
     <loc>http://example.org/idaho/</loc>
   </url><url>
     <loc>http://example.org/ideal-gas-laws/</loc>
+  </url><url>
+    <loc>http://example.org/identity/</loc>
   </url><url>
     <loc>http://example.org/ids-unit-2/</loc>
   </url><url>
@@ -650,6 +686,8 @@
   </url><url>
     <loc>http://example.org/lambda-functions/</loc>
   </url><url>
+    <loc>http://example.org/language/</loc>
+  </url><url>
     <loc>http://example.org/lattice-energy/</loc>
   </url><url>
     <loc>http://example.org/lees-resolution/</loc>
@@ -725,6 +763,8 @@
     <loc>http://example.org/memoization-in-recursion/</loc>
   </url><url>
     <loc>http://example.org/memory-mapped-files/</loc>
+  </url><url>
+    <loc>http://example.org/mentifacts/</loc>
   </url><url>
     <loc>http://example.org/method-overriding/</loc>
   </url><url>
@@ -878,7 +918,11 @@
   </url><url>
     <loc>http://example.org/pi-bond/</loc>
   </url><url>
+    <loc>http://example.org/pilgrimage/</loc>
+  </url><url>
     <loc>http://example.org/place-names/</loc>
+  </url><url>
+    <loc>http://example.org/placemaking/</loc>
   </url><url>
     <loc>http://example.org/planck-constant/</loc>
   </url><url>
@@ -887,6 +931,8 @@
     <loc>http://example.org/polarizability/</loc>
   </url><url>
     <loc>http://example.org/polymorphism/</loc>
+  </url><url>
+    <loc>http://example.org/popular-culture/</loc>
   </url><url>
     <loc>http://example.org/popular-sovereignty/</loc>
   </url><url>
@@ -899,6 +945,8 @@
     <loc>http://example.org/population-growth-and-decline/</loc>
   </url><url>
     <loc>http://example.org/population-pyramids/</loc>
+  </url><url>
+    <loc>http://example.org/postmodern-architecture/</loc>
   </url><url>
     <loc>http://example.org/potus/</loc>
   </url><url>
@@ -986,6 +1034,8 @@
   </url><url>
     <loc>http://example.org/relative-vs.-absolute-imports/</loc>
   </url><url>
+    <loc>http://example.org/religion/</loc>
+  </url><url>
     <loc>http://example.org/report-on-manufactures/</loc>
   </url><url>
     <loc>http://example.org/report-on-the-public-credit/</loc>
@@ -1012,6 +1062,8 @@
   </url><url>
     <loc>http://example.org/rutherford-b.-hayes/</loc>
   </url><url>
+    <loc>http://example.org/safe-spaces/</loc>
+  </url><url>
     <loc>http://example.org/salutary-neglect/</loc>
   </url><url>
     <loc>http://example.org/samuel-adams/</loc>
@@ -1026,9 +1078,15 @@
   </url><url>
     <loc>http://example.org/second-great-awakening/</loc>
   </url><url>
+    <loc>http://example.org/sect/</loc>
+  </url><url>
     <loc>http://example.org/sectionalism/</loc>
   </url><url>
+    <loc>http://example.org/sense-of-place/</loc>
+  </url><url>
     <loc>http://example.org/sequences/</loc>
+  </url><url>
+    <loc>http://example.org/sequent-occupance/</loc>
   </url><url>
     <loc>http://example.org/set-operations/</loc>
   </url><url>
@@ -1041,6 +1099,8 @@
     <loc>http://example.org/sigma-bond/</loc>
   </url><url>
     <loc>http://example.org/single-replacement-reaction/</loc>
+  </url><url>
+    <loc>http://example.org/sociofacts/</loc>
   </url><url>
     <loc>http://example.org/solid-south/</loc>
   </url><url>
@@ -1116,13 +1176,21 @@
   </url><url>
     <loc>http://example.org/theodore-roosevelt/</loc>
   </url><url>
+    <loc>http://example.org/third-place/</loc>
+  </url><url>
     <loc>http://example.org/thomas-jefferson/</loc>
   </url><url>
     <loc>http://example.org/titration/</loc>
   </url><url>
+    <loc>http://example.org/toponyms/</loc>
+  </url><url>
     <loc>http://example.org/total-fertility-rate/</loc>
   </url><url>
     <loc>http://example.org/townshend-act/</loc>
+  </url><url>
+    <loc>http://example.org/traditional-architecture/</loc>
+  </url><url>
+    <loc>http://example.org/traditional-culture/</loc>
   </url><url>
     <loc>http://example.org/transcendentalism/</loc>
   </url><url>

@@ -1,0 +1,14 @@
++++
+ title = 'Dialects'
+[params]
+	author = 'Carson West'
++++
+# [Glossary](./../glossary/)
+
+# Dialects
+
+**Definition:** Regional variations of a language distinguished by distinctive vocabulary, spelling, and pronunciation.
+
+**Example:**  Southern American English, British English.
+
+# [Glossary](./../glossary/)
