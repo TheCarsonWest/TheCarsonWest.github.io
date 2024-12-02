@@ -8,7 +8,7 @@ Integrals are the cornerstone of integral calculus, essentially the inverse oper
 
 # 1. Indefinite Integrals
 
-The indefinite integral, denoted by  $ \int f(x) \, dx $ , represents the *family* of functions whose derivative is  $ f(x) $ .  The " $ dx $ " indicates that we are integrating with respect to the variable  $ x $ .  The constant of integration,  $ C $ , is crucial because the derivative of a constant is zero.
+The indefinite integral, denoted by  $ \int f(x) \, dx $ , represents the *family* of functions whose [derivative](./../derivative/) is  $ f(x) $ .  The " $ dx $ " indicates that we are integrating with respect to the variable  $ x $ .  The [constant of integration](./../constant-of-integration/),  $ C $ , is crucial because the [derivative](./../derivative/) of a constant is zero.
 
 #  $$ \int f(x) \, dx = F(x) + C, \text{ where } F'(x) = f(x) $$  
 **Example:**  $$ \int 2x \, dx = x^2 + C $$  
@@ -23,7 +23,7 @@ The definite integral can be approximated using [Riemann Sums](./../riemann-sums
 
 [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/)
 
-The Fundamental Theorem of Calculus connects differentiation and integration.  It states:
+The [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/) connects differentiation and integration.  It states:
 
 * **Part 1:** If  $ F(x) = \int_a^x f(t) \, dt $ , then  $ F'(x) = f(x) $ .
 * **Part 2:**  $ \int_a^b f(x) \, dx = F(b) - F(a) $ , where  $ F(x) $  is an antiderivative of  $ f(x) $ .

@@ -7,3 +7,4 @@
 
 - [AP CHEM solutions](./../ap-chem-solutions/)
 - [ion concentration](./../ion-concentration/)
+- [Maxwell-Boltzmann Distribution](./../maxwell-boltzmann-distribution/)

@@ -28,6 +28,8 @@
   </url><url>
     <loc>http://example.org/abstract-classes/</loc>
   </url><url>
+    <loc>http://example.org/activation-energy/</loc>
+  </url><url>
     <loc>http://example.org/adams-onis-treaty/</loc>
   </url><url>
     <loc>http://example.org/adherents/</loc>
@@ -201,6 +203,8 @@
     <loc>http://example.org/chaining-decorators/</loc>
   </url><url>
     <loc>http://example.org/chemical-bonds/</loc>
+  </url><url>
+    <loc>http://example.org/chemical-reactions/</loc>
   </url><url>
     <loc>http://example.org/chemistry-constants/</loc>
   </url><url>
@@ -432,6 +436,8 @@
   </url><url>
     <loc>http://example.org/extreme-value-theorem/</loc>
   </url><url>
+    <loc>http://example.org/factors-affecting-rate-of-reaction/</loc>
+  </url><url>
     <loc>http://example.org/federalist-papers/</loc>
   </url><url>
     <loc>http://example.org/file-handling/</loc>
@@ -443,6 +449,8 @@
     <loc>http://example.org/first-continental-congress/</loc>
   </url><url>
     <loc>http://example.org/florida/</loc>
+  </url><url>
+    <loc>http://example.org/folk-and-pop-culture/</loc>
   </url><url>
     <loc>http://example.org/for-loop-examples/</loc>
   </url><url>
@@ -754,6 +762,8 @@
   </url><url>
     <loc>http://example.org/massachusetts/</loc>
   </url><url>
+    <loc>http://example.org/maxwell-boltzmann-distribution/</loc>
+  </url><url>
     <loc>http://example.org/mayflower-compact/</loc>
   </url><url>
     <loc>http://example.org/mcculloch-v-maryland/</loc>
@@ -992,7 +1002,11 @@
   </url><url>
     <loc>http://example.org/raoults-law/</loc>
   </url><url>
+    <loc>http://example.org/rate-laws/</loc>
+  </url><url>
     <loc>http://example.org/ravensteins-laws-of-migration/</loc>
+  </url><url>
+    <loc>http://example.org/reaction-rates/</loc>
   </url><url>
     <loc>http://example.org/reactions-types/</loc>
   </url><url>
@@ -1220,11 +1234,15 @@
   </url><url>
     <loc>http://example.org/unit-2b-migration/</loc>
   </url><url>
+    <loc>http://example.org/unit-3/</loc>
+  </url><url>
     <loc>http://example.org/united-states/</loc>
   </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
