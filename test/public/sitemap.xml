@@ -358,6 +358,8 @@
   </url><url>
     <loc>http://example.org/differentiability/</loc>
   </url><url>
+    <loc>http://example.org/diffusion-of-culture/</loc>
+  </url><url>
     <loc>http://example.org/dilution-calculations/</loc>
   </url><url>
     <loc>http://example.org/dipole/</loc>
@@ -446,7 +448,11 @@
   </url><url>
     <loc>http://example.org/file-io-modes/</loc>
   </url><url>
+    <loc>http://example.org/finding-reaction-order/</loc>
+  </url><url>
     <loc>http://example.org/first-continental-congress/</loc>
+  </url><url>
+    <loc>http://example.org/first-derivative-test/</loc>
   </url><url>
     <loc>http://example.org/florida/</loc>
   </url><url>
@@ -892,6 +898,8 @@
   </url><url>
     <loc>http://example.org/operators/</loc>
   </url><url>
+    <loc>http://example.org/order-of-reaction/</loc>
+  </url><url>
     <loc>http://example.org/oregon/</loc>
   </url><url>
     <loc>http://example.org/other-important-ap-chem-things/</loc>
@@ -1239,8 +1247,6 @@
     <loc>http://example.org/united-states/</loc>
   </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/untitled-1/</loc>
   </url><url>

@@ -30,7 +30,7 @@
 - [Mentifacts](./../mentifacts/)
 - [Popular Culture](./../popular-culture/)
 - [Traditional Culture](./../traditional-culture/)
-- [Cultural Norms](./../cultural-norms/)
+- [APHG/Cultural Norms](./../aphg/cultural-norms/)
 - [Ethnocentrism](./../ethnocentrism/)
 - [Cultural Relativism](./../cultural-relativism/)
 - [Cultural Landscape](./../cultural-landscape/)

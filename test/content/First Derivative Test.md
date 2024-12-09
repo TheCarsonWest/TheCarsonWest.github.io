@@ -1,6 +1,5 @@
 +++
- title = 'Untitled 1'
+ title = 'First Derivative Test'
 [params]
 	author = 'Carson West'
 +++
- 
