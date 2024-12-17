@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Proclamation of Neutrality 
+# ID: [Proclamation of Neutrality](./../proclamation-of-neutrality/) 
 ## When: April 22, 1793
 ## Who: 
 Issued by President George [Washington](./../washington/) 

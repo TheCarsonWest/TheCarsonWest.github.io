@@ -5,8 +5,7 @@
 +++
 # [Glossary](./../glossary/)
 
-# Traditional Architecture
-
+# [Traditional Architecture](./../traditional-architecture/) 
 **Definition:**  Building styles that reflect local traditions, materials, and cultural values.
 
 **Example:**  Pueblo-style architecture in the American Southwest.

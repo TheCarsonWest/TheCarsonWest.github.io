@@ -4,9 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Dictionaries
-
-Dictionaries are unordered collections of key-value pairs.  Keys must be immutable (like strings, numbers, or tuples), while values can be of any data type.
+# [Dictionaries](./../dictionaries/)  [Dictionaries](./../dictionaries/) are unordered collections of key-value pairs.  Keys must be immutable (like strings, numbers, or tuples), while values can be of any data type.
 
 ```python
 my_dict = {"name": "Alice", "age": 30, "city": "New York"}

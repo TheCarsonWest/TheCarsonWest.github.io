@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Handling Binary Files](./../handling-binary-files/)
-# Memory-Mapped Files
-
+# [Memory-Mapped Files](./../memory-mapped-files/) 
 Python's `mmap` module allows for memory-mapping files. This means treating a file on disk as if it were directly accessible in your program's memory.  This can offer significant performance advantages for large files, especially when dealing with random access.
 
 

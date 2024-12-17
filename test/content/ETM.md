@@ -9,7 +9,7 @@ The Epidemiological Transition Model (ETM) describes the changing patterns of di
 
 **Where it fits in the [Demographic Transition Model](./../demographic-transition-model/):**
 
-The ETM is considered a **sub-model** of the DTM. It complements the DTM's focus on population growth and age structure by explaining the **corresponding changes in disease profiles**.  
+The [ETM](./../etm/) is considered a **sub-model** of the DTM. It complements the DTM's focus on population growth and age structure by explaining the **corresponding changes in disease profiles**.  
 
 **Stages of the Epidemiological Transition Model:**
 
@@ -58,6 +58,6 @@ The ETM is considered a **sub-model** of the DTM. It complements the DTM's focus
 
 **Key Points:**
 
-* The ETM highlights the dynamic nature of disease patterns and the importance of public health interventions.
+* The [ETM](./../etm/) highlights the dynamic nature of disease patterns and the importance of public health interventions.
 * The stages are not always linear and can vary between countries and populations.
 * Factors like economic development, access to healthcare, and environmental conditions influence the transition process.

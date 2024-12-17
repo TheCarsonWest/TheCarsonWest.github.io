@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Libraries like NumPy](./../libraries-like-numpy/)
-# NumPy ndarrays
-
+# [NumPy ndarrays](./../numpy-ndarrays/) 
 NumPy's core data structure is the ndarray (N-dimensional array).  It's a powerful tool for numerical computation because it provides efficient storage and manipulation of large arrays of homogeneous data.
 
 Key features:

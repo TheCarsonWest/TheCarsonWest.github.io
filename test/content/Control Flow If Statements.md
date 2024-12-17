@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [While Loops](./../while-loops/)
-# Control Flow If Statements
-
+# [Control Flow If Statements](./../control-flow-if-statements/) 
 Python's `if` statements control the execution flow based on conditions.
 
 Basic Syntax:

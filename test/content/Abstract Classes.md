@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Classes and Objects](./../classes-and-objects/)
-# Abstract Classes
-
+# [Abstract Classes](./../abstract-classes/) 
 Abstract classes are classes that cannot be instantiated directly.  They serve as blueprints for other classes (subclasses).  They often contain one or more abstract methods, which are methods without a concrete implementation. Subclasses *must* provide implementations for these abstract methods.
 
 Key features:

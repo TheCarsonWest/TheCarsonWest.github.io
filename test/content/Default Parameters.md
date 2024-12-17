@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Default Parameters
-
+# [Default Parameters](./../default-parameters/) 
 Default parameters allow you to specify default values for function arguments.  If a caller doesn't provide a value for an argument with a default, the default value is used.
 
 ```python

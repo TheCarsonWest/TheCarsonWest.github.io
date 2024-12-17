@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Function Overloading](./../function-overloading/)
-# Variable-Length Arguments in Python
+# [Variable-Length Arguments](./../variable-length-arguments/) in Python
 
 Python offers flexibility in [Function Definitions](./../function-definitions/) by allowing variable-length arguments. This means you can define functions that accept a varying number of arguments, without needing to specify the exact number beforehand.  There are two main ways to achieve this:
 
@@ -41,8 +41,7 @@ Output:
 ```
 name: Alice
 age: 30
-city: New York
-```
+city: [New York](./../new-york/) ```
 
 * **Combining `*args` and `**kwargs`:**
 

@@ -4,9 +4,7 @@
 	author = 'Carson West'
 +++
 [APUSH Home](./../apush-home/)
-
-States list
-- [Alabama](./../alabama/)
+ [States list](./../states-list/) - [Alabama](./../alabama/)
 - [Alaska](./../alaska/)
 - [Arizona](./../arizona/)
 - [Arkansas](./../arkansas/)

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Function Parameters
-
+# [Function Parameters](./../function-parameters/) 
 Python function parameters allow you to pass data into functions, making them reusable and flexible.  There are several types of parameters:
 
 * **Positional Parameters:**  These are matched based on their position in the function definition and the function call.

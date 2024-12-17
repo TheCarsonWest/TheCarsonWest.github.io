@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# While Loops
-
+# [While Loops](./../while-loops/) 
 While loops in Python execute a block of code repeatedly as long as a given condition is true.
 
 ```python

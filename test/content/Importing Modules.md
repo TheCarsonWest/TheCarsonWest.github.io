@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Importing Modules
-
+# [Importing Modules](./../importing-modules/) 
 This note covers importing modules in Python.
 
 Modules are files containing Python definitions and statements.  They provide a way to organize and reuse code.

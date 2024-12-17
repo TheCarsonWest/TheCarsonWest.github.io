@@ -46,14 +46,14 @@
 <main>
 <h1 id="mutable-vs-immutable-typesmutable-vs-immutable-types"><a href="./../mutable-vs-immutable-types/">Mutable vs Immutable Types</a></h1>
 <h1 id="immutable-types-deeper-dive">Immutable Types: Deeper Dive</h1>
-<p>This note expands on the concept of immutability in Python.  Key immutable types include:</p>
+<p>This note expands on the concept of immutability in Python.  Key <a href="./../immutable-types/">Immutable Types</a> include:</p>
 <ul>
 <li><code>int</code> (integers)</li>
 <li><code>float</code> (floating-point numbers)**</li>
 <li><code>bool</code> (booleans)</li>
 <li><code>str</code> (strings)</li>
-<li><code>tuple</code> (tuples)</li>
-<li><code>frozenset</code> (frozen sets)</li>
+<li><code>tuple</code> (<a href="./../tuples/">Tuples</a>)</li>
+<li><code>frozenset</code> (<a href="./../frozen-sets/">Frozen Sets</a>)</li>
 </ul>
 <p><strong>What does immutability mean?</strong></p>
 <p>It means that once an immutable object is created, its value cannot be changed.  Any operation that appears to modify an immutable object actually creates a new object with the modified value.</p>
@@ -65,7 +65,7 @@
 </span></span><span style="display:flex;"><span>print(id(my_string2)) <span style="color:#75715e"># shows that it is the same memory location as my_string.</span>
 </span></span><span style="display:flex;"><span>print(my_string)  <span style="color:#75715e"># Output: hello world</span>
 </span></span><span style="display:flex;"><span>print(id(my_string)) <span style="color:#75715e"># shows a new memory location, because we created a new string.</span>
-</span></span></code></pre></div><p><strong>Example (Tuples):</strong></p>
+</span></span></code></pre></div><p><strong>Example (<a href="./../tuples/">Tuples</a>):</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_tuple <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># my_tuple[0] = 4  # This will raise a TypeError: &#39;tuple&#39; object does not support item assignment.</span>
 </span></span><span style="display:flex;"><span>new_tuple <span style="color:#f92672">=</span> my_tuple <span style="color:#f92672">+</span> (<span style="color:#ae81ff">4</span>,) <span style="color:#75715e"># creates a new tuple with value 4 concatenated.</span>
@@ -74,11 +74,11 @@
 <ul>
 <li><strong>Thread safety:</strong> Immutable objects can be safely shared between multiple threads without the risk of data corruption. <a href="./../thread-safety/">Thread Safety</a></li>
 <li><strong>Data integrity:</strong>  You can be confident that the value of an immutable object will not change unexpectedly.</li>
-<li><strong>Hashing:</strong>  Immutable objects can be used as keys in dictionaries because their hash value remains constant. <a href="./../hashing-in-python/">Hashing in Python</a></li>
+<li><strong>Hashing:</strong>  Immutable objects can be used as keys in <a href="./../dictionaries/">Dictionaries</a> because their hash value remains constant. <a href="./../hashing-in-python/">Hashing in Python</a></li>
 <li><strong>Performance:</strong> While creating new objects might seem inefficient, Python&rsquo;s memory management often optimizes this.  However, frequent modifications to large immutable objects can impact performance.</li>
 </ul>
 <p><strong>Contrast with Mutable Types:</strong></p>
-<p>Mutable types, like lists and dictionaries, can be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. <a href="./../mutable-types-in-python/">Mutable Types in Python</a></p>
+<p>Mutable types, like <a href="./../lists/">Lists</a> and <a href="./../dictionaries/">Dictionaries</a>, can be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. <a href="./../mutable-types-in-python/">Mutable Types in Python</a></p>
 <p><strong>Further Exploration:</strong></p>
 <ul>
 <li>Deep vs. shallow copying with immutable and mutable objects. <a href="./../deep-vs.-shallow-copy/">Deep vs. Shallow Copy</a></li>

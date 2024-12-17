@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Tenant Farming
-
+## ID: [Tenant Farming](./../tenant-farming/) 
 ## When:  Late 19th Century, especially after the Civil War (1865)
 
 ## Who:  

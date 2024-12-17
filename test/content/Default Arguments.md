@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Function Overloading](./../function-overloading/)
-# Default Arguments
-
+# [Default Arguments](./../default-arguments/) 
 Default arguments allow you to specify a default value for a function parameter. If the caller doesn't provide a value for that parameter, the default value is used.
 
 ```python

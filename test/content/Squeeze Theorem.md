@@ -43,7 +43,7 @@ Since  $ -x^2 \leq x^2 \sin(\frac{1}{x}) \leq x^2 $  and both  $ -x^2 $  and  $ 
 
 ### Applications
 
-The Squeeze Theorem is particularly useful when dealing with functions that are difficult to evaluate directly. It is often used to:
+The [Squeeze Theorem](./../squeeze-theorem/) is particularly useful when dealing with functions that are difficult to evaluate directly. It is often used to:
 
 *  Find limits involving trigonometric functions.
 *  Prove the limit of a sequence.
@@ -51,8 +51,8 @@ The Squeeze Theorem is particularly useful when dealing with functions that are 
 
 ### Key Points
 
-*  The Squeeze Theorem only works if the bounding functions have the same limit.
+*  The [Squeeze Theorem](./../squeeze-theorem/) only works if the bounding functions have the same limit.
 *  The inequality  $ g(x) \leq f(x) \leq h(x) $  must hold for all values of  $ x $  in the interval, except possibly at  $ x=a $ .
-*  The Squeeze Theorem can be used to find limits of functions that are otherwise difficult to evaluate.
+*  The [Squeeze Theorem](./../squeeze-theorem/) can be used to find limits of functions that are otherwise difficult to evaluate.
 
 By understanding the Squeeze Theorem, you gain a valuable tool for solving a variety of calculus problems.

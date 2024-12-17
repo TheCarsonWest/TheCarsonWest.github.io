@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [List Comprehension](./../list-comprehension/)
-# Python: Conditional Statements
-
+# Python: [Conditional Statements](./../conditional-statements/) 
 Conditional statements control the flow of execution in a program based on certain conditions.  Python uses `if`, `elif` (else if), and `else` keywords to implement these.
 
 **Basic Syntax:**

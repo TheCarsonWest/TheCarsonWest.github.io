@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Return Values
-
+# [Return Values](./../return-values/) 
 Return values are the data sent back by a function after it has completed its execution.  A function can return any data type, including `None` (if no explicit return statement is used).
 
 ```python

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [File Handling](./../file-handling/)
-# Handling Binary Files
-
+# [Handling Binary Files](./../handling-binary-files/) 
 This note covers reading and writing binary data in Python.  Crucially, it differs from text file handling because we're dealing with raw bytes rather than human-readable characters.
 
 Key functions:

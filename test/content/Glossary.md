@@ -21,8 +21,7 @@
 - [Demographic Transition Model](./../demographic-transition-model/)
 ## People
 - [Refugee](./../refugee/)
-## Unit 3
-
+## [Unit 3](./../unit-3/) 
 - [Culture](./../culture/)
 - [Cultural Trait](./../cultural-trait/)
 - [Artifacts](./../artifacts/)

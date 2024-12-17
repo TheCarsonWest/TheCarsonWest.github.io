@@ -4,9 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Lists
-
-Lists are ordered, mutable (changeable) sequences of items.  They can contain items of different data types.
+# [Lists](./../lists/)  [Lists](./../lists/) are ordered, mutable (changeable) sequences of items.  They can contain items of different data types.
 
 **Creating Lists:**
 
@@ -16,8 +14,7 @@ empty_list = []
 ```
 
 **Accessing Elements:**
-
-Lists are zero-indexed.
+ [Lists](./../lists/) are zero-indexed.
 
 ```python
 first_element = my_list[0]  # 1

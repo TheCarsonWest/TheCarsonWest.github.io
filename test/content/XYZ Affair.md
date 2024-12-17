@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: XYZ Affair
-## When: 1797-1798
+# ID: [XYZ Affair](./../xyz-affair/) ## When: 1797-1798
 ## Who: 
 * **[United States](./../united-states/):** President [John Adams](./../john-adams/), Charles Cotesworth Pinckney, John Marshall, Elbridge Gerry (American diplomats)
 * **[France](./../france/):**  Agents of French Foreign Minister Talleyrand (later nicknamed X, Y, and Z)

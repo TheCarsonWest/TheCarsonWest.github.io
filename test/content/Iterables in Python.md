@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [List Comprehension](./../list-comprehension/)
-# Iterables in Python
-
+# [Iterables in Python](./../iterables-in-python/) 
 An iterable is an object capable of returning its members one at a time, permitting iteration over its contents.  They are fundamental to Python's looping constructs and support many built-in functions.
 
 Key characteristics:

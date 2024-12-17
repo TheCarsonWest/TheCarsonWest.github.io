@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Function Parameters](./../function-parameters/)
-# Python Functions
-
+# [Python Functions](./../python-functions/) 
 These notes cover the basics of Python functions.
 
 **Defining Functions:**

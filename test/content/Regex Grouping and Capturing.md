@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Regex Metacharacters](./../regex-metacharacters/)
-# Regex Grouping and Capturing
-
+# [Regex Grouping and Capturing](./../regex-grouping-and-capturing/) 
 This note covers grouping and capturing in [Regular Expressions](./../regular-expressions/) using Python's `re` module.
 
 **Core Concepts:**

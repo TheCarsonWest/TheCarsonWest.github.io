@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Sets](./../python-sets/)
-# Frozen Sets
-
+# [Frozen Sets](./../frozen-sets/) 
 Frozen sets are immutable versions of Python's built-in `set` type.  This means once a frozen set is created, its elements cannot be added or removed.  They are hashable, unlike regular sets, which makes them suitable as keys in dictionaries or elements of other sets.
 
 **Key Characteristics:**

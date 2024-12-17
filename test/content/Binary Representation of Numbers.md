@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Bitwise Operators](./../bitwise-operators/)
-# Binary Representation of Numbers
-
+# [Binary Representation of Numbers](./../binary-representation-of-numbers/) 
 Python, like most programming languages, handles numbers internally using binary representation.  This means that numbers are stored as sequences of 0s and 1s. Understanding this is crucial for efficient programming and debugging, especially when dealing with bitwise operations or low-level programming.
 
 Key concepts:

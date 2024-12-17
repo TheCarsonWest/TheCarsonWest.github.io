@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-### 1. Demographic Transition Model 
+### 1. [Demographic Transition Model](./../demographic-transition-model/) 
 
 ![](https://populationeducation.org/wp-content/uploads/2014/10/dtm.png)
 

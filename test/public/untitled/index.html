@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Untitled</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p>make a python program that scans an entire folder and subfolder for its .md files, and every tiem the name(not the path or extension, just the name) of another .md file is found(with spaces on either side so it can&rsquo;t be within a word),  it adds two brackets around it (like <a href="./../this/">this</a>). Also check every name of the .md file to see if its name is within another name, and move those two the back, and add protection so that if something already has two brackets arround it, it wont add more, or if one of those names that is contained inside another name will not do [something [<a href="./../something-%5B%5Blike/">like</a> this]]</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> re
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">process_markdown_files</span>(folder_path):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Scans a folder and its subfolders for .md files, adding double brackets around filenames
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    found within other filenames.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    Args:
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">        folder_path: The path to the folder to scan.
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    &#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    md_files <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> root, _, files <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>walk(folder_path):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> file <span style="color:#f92672">in</span> files:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> file<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74">&#34;.md&#34;</span>):
+</span></span><span style="display:flex;"><span>                md_files<span style="color:#f92672">.</span>append(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(root, file))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    filenames <span style="color:#f92672">=</span> [os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>splitext(os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>basename(file))[<span style="color:#ae81ff">0</span>] <span style="color:#66d9ef">for</span> file <span style="color:#f92672">in</span> md_files]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Prioritize files containing other filenames</span>
+</span></span><span style="display:flex;"><span>    filenames_to_move <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(filenames)):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(len(filenames)):
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> i <span style="color:#f92672">!=</span> j <span style="color:#f92672">and</span> filenames[i] <span style="color:#f92672">in</span> filenames[j]:
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> filenames[i] <span style="color:#f92672">not</span> <span style="color:#f92672">in</span> filenames_to_move :  <span style="color:#75715e"># Avoid duplicates</span>
+</span></span><span style="display:flex;"><span>                    filenames_to_move<span style="color:#f92672">.</span>append(filenames[i])
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> name <span style="color:#f92672">in</span> filenames_to_move:
+</span></span><span style="display:flex;"><span>        filenames<span style="color:#f92672">.</span>remove(name)
+</span></span><span style="display:flex;"><span>        filenames<span style="color:#f92672">.</span>append(name)  <span style="color:#75715e"># Move to the back</span>
+</span></span><span style="display:flex;"><span>                
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> i, file <span style="color:#f92672">in</span> enumerate(md_files):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(file, <span style="color:#e6db74">&#39;r&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> f:  <span style="color:#75715e"># Handle potential encoding issues</span>
+</span></span><span style="display:flex;"><span>            content <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        new_content <span style="color:#f92672">=</span> content
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> j, name <span style="color:#f92672">in</span> enumerate(filenames):
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Check for exact match with spaces on both sides</span>
+</span></span><span style="display:flex;"><span>            pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(?&lt;!\[)\[\[?\s*&#34;</span> <span style="color:#f92672">+</span> re<span style="color:#f92672">.</span>escape(name) <span style="color:#f92672">+</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\s*\]?\]?(?!\])&#34;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> name <span style="color:#f92672">in</span> new_content <span style="color:#f92672">and</span> <span style="color:#f92672">not</span> re<span style="color:#f92672">.</span>search(pattern, new_content):
+</span></span><span style="display:flex;"><span>                new_content <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\s&#34;</span> <span style="color:#f92672">+</span> re<span style="color:#f92672">.</span>escape(name) <span style="color:#f92672">+</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\s&#34;</span>, <span style="color:#e6db74">&#34; [</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">](./../</span><span style="color:#e6db74">{}</span><span style="color:#e6db74">/) &#34;</span><span style="color:#f92672">.</span>format(name), new_content)
+</span></span><span style="display:flex;"><span>                <span style="color:#75715e">#new_content = new_content.replace(&#34; &#34; + name + &#34; &#34;, &#34; [{}](./../{}/) &#34;.format(name))</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> new_content <span style="color:#f92672">!=</span> content:
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">with</span> open(file, <span style="color:#e6db74">&#39;w&#39;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;utf-8&#39;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>                f<span style="color:#f92672">.</span>write(new_content)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example usage:</span>
+</span></span><span style="display:flex;"><span>folder_path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/path/to/your/folder&#34;</span>  <span style="color:#75715e"># Replace with the actual path to your folder</span>
+</span></span><span style="display:flex;"><span>process_markdown_files(folder_path) 
+</span></span></code></pre></div><p>Key improvements:</p>
+<ul>
+<li><strong>Handles Subfolders:</strong> Uses <code>os.walk</code> to recursively process all subfolders.</li>
+<li><strong>Regex for Exact Matching:</strong> Uses a regular expression with <code>\s</code> (whitespace) to ensure that only whole filename matches are bracketed. The negative lookarounds <code>(?&lt;!\[)</code> and <code>(?!\])</code> prevent adding extra brackets to already bracketed names.  <code>re.escape()</code> handles potential special characters in filenames.</li>
+<li><strong>Prioritizes contained filenames:</strong>  Moves filenames that are contained within others to the back of the processing list. This addresses the &ldquo;[something [<a href="./../something-%5B%5Blike/">like</a> this]]&rdquo; issue.</li>
+<li><strong>UTF-8 Encoding:</strong>  Uses <code>encoding='utf-8'</code> when opening files to handle a wider range of characters.</li>
+<li><strong>More Robust Bracketing Logic:</strong> The regex now checks if the name is already correctly bracketed (with optional spaces inside) before attempting to add brackets. This avoids issues like <code>[[[name](./../[[name/)]]</code>.</li>
+<li><strong>Clears up edge cases:</strong>  The code ensures that contained filenames aren&rsquo;t moved multiple times, and the regex prevents adding brackets to already bracketed names.</li>
+</ul>
+<p>Remember to replace <code>/path/to/your/folder</code> with the actual path to the folder you want to process.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

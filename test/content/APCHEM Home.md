@@ -4,6 +4,7 @@
 	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
+# [chemical reactions](./../chemical-reactions/)
 # [AP CHEM solutions](./../ap-chem-solutions/)
 # [APCHEM Gasses](./../apchem-gasses/)
 # [Chemical Bonds](./../chemical-bonds/)

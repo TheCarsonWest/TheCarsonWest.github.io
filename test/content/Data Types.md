@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Variable Naming Conventions](./../variable-naming-conventions/)
-# Data Types
-
+# [Data Types](./../data-types/) 
 Python has several built-in data types.  Here's a breakdown:
 
 * **Numeric Types:**

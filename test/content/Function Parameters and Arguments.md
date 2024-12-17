@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# Function Parameters and Arguments
-
+# [Function Parameters and Arguments](./../function-parameters-and-arguments/) 
 Python functions utilize parameters to receive input and arguments to provide that input during function calls.  There's a subtle but important distinction.
 
 * **Parameters:** These are defined within the function's definition. They act as placeholders for the values that will be passed in.

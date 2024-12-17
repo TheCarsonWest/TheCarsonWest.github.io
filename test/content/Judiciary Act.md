@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Judiciary Act of 1789
+## ID: [Judiciary Act](./../judiciary-act/) of 1789
 
 ## When: September 24, 1789
 

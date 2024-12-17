@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Function Parameters](./../function-parameters/)
-# Iterable Unpacking
-
+# [Iterable Unpacking](./../iterable-unpacking/) 
 Iterable unpacking is a powerful Python feature that allows you to assign elements of an iterable (like a list, tuple, or string) to multiple variables in a single line of code.  This is particularly useful for:
 
 * **Simplifying code:**  Avoids the need for explicit indexing or iteration.

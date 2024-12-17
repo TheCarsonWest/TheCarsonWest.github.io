@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Operators](./../operators/)
-# Bitwise Operators
-
+# [Bitwise Operators](./../bitwise-operators/) 
 Bitwise operators work directly on the individual bits of integers.  They are rarely used in typical Python programming but are essential for low-level programming, working with hardware, or specific optimization scenarios.
 
 

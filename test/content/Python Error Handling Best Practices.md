@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Exception Handling Examples](./../exception-handling-examples/)
-# Python Error Handling Best Practices
-
+# [Python [[Error Handling](./../python-[[error-handling/) Best Practices]] 
 These notes cover best practices for handling errors in Python.  The goal is to write robust and user-friendly code that gracefully handles unexpected situations.
 
 **Key Concepts:**

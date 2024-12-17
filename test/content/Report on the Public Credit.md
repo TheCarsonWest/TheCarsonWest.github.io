@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Report on the Public Credit
-## When: January 1790
+# ID: [Report on the Public Credit](./../report-on-the-public-credit/) ## When: January 1790
 ## Who: 
 - **Proposed by:** [Alexander Hamilton](./../alexander-hamilton/), the first Secretary of the Treasury
 - **Presented to:** Congress

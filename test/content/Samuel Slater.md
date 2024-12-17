@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Samuel Slater
-
+# ID: [Samuel Slater](./../samuel-slater/) 
 ## When: 1789
 
 ## Who: Samuel Slater, a British textile worker

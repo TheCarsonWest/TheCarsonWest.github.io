@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Regular Expressions](./../regular-expressions/)
-# Regex Groups and Backreferences
-
+# [Regex Groups and Backreferences](./../regex-groups-and-backreferences/) 
 These notes cover how to use groups and backreferences in [Regular Expressions](./../regular-expressions/) within Python.
 
 The core idea is to create groups within a regex pattern to capture specific parts of the matched string.  These captured parts can then be reused (backreferenced) within the same pattern or accessed after the match is made.

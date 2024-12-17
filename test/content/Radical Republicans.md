@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Radical Republicans 
+# ID: [Radical Republicans](./../radical-republicans/) 
 
 ## When: 1864-1877 (Reconstruction Era) 
 

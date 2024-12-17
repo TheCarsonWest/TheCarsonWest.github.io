@@ -5,10 +5,9 @@
 +++
 # [Glossary](./../glossary/)
 
-# Adherents
+# [Adherents](./../adherents/) 
+**Definition:**  Followers or believers in a particular [religion](./../religion/) or ideology.
 
-**Definition:**  Followers or believers in a particular religion or ideology.
-
-**Example:**  Adherents of Christianity, Islam, or Buddhism.
+**Example:**  [Adherents](./../adherents/) of Christianity, Islam, or Buddhism.
 
 # [Glossary](./../glossary/)

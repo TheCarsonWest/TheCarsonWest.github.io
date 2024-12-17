@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Nested If Statements](./../nested-if-statements/)
-# Code Readability and Refactoring
-
+# [Code Readability and Refactoring](./../code-readability-and-refactoring/) 
 **Goal:**  Improve understanding and maintainability of Python code.
 
 **Key Aspects:**

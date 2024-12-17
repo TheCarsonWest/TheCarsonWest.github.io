@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [While Loops](./../while-loops/)
-# Break and Continue Statements
-
+# [Break and Continue Statements](./../break-and-continue-statements/) 
 These statements alter the flow of control within loops ( `for` and `while`).
 
 * **`break`:** Terminates the loop entirely.  Execution jumps to the statement immediately following the loop.

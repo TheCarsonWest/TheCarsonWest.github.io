@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
-# Data Structures in Python
-
+# [Data Structures in Python](./../data-structures-in-python/) 
 This note covers the fundamental data structures in Python.  I'll need to expand on several of these in separate notes.
 
 **1. Built-in Data Structures:**

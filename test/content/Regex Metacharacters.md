@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Regular Expressions](./../regular-expressions/)
-# Regex Metacharacters
-
+# [Regex Metacharacters](./../regex-metacharacters/) 
 These characters have special meaning within [Regular Expressions](./../regular-expressions/) and are not treated literally.  They modify the behavior of other characters or patterns.  It's crucial to understand them for effective regex use.
 
 **List of Common Metacharacters:**

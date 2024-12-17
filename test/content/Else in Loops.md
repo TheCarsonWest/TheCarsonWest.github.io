@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [While Loops](./../while-loops/)
-# Else in Loops
-
+# [Else in Loops](./../else-in-loops/) 
 The `else` keyword in Python's `for` and `while` loops is often misunderstood. It doesn't mean "if the loop doesn't execute".  Instead, the `else` block executes only if the loop completes *normally*, meaning it ran through all its iterations without encountering a `break` statement.
 
 ```python

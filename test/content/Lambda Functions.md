@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Lambda Functions
-
+# [Lambda Functions](./../lambda-functions/) 
 Lambda functions are small, anonymous functions defined using the `lambda` keyword.  They are useful for short, simple operations that don't require a full function definition.
 
 ```python

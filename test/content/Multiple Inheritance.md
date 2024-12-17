@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Classes and Objects](./../classes-and-objects/)
-# Multiple Inheritance
-
+# [Multiple Inheritance](./../multiple-inheritance/) 
 Multiple inheritance in Python allows a class to inherit from multiple parent classes.  This means a child class can gain attributes and methods from several different sources.
 
 **Example:**

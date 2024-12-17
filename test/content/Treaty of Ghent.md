@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Treaty of Ghent 
+# ID: [Treaty of Ghent](./../treaty-of-ghent/) 
 
 ## WHEN: December 24, 1814
 
@@ -12,7 +12,7 @@
 * **[Great Britain](./../great-britain/)** 
 
 ## WHAT:
-The Treaty of Ghent was signed in Ghent, Belgium, ending the [War of 1812](./../war-of-1812/). 
+The [Treaty of Ghent](./../treaty-of-ghent/) was signed in Ghent, Belgium, ending the [War of 1812](./../war-of-1812/). 
 
 ## IMPACT? Why Significant?: 
 * **Return to Status Quo Ante Bellum:**  The treaty essentially restored pre-war boundaries and did not address the original causes of the conflict, such as impressment or neutral trading rights.

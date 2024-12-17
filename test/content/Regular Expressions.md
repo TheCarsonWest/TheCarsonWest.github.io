@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Regular Expressions
-
+# [Regular Expressions](./../regular-expressions/) 
 Regular expressions (regex or regexp) are powerful tools for pattern matching within strings.  They are incredibly useful for tasks like data validation, text manipulation, and searching.
 
 Key Concepts:

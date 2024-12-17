@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Carpetbagger
-
+## ID: [Carpetbagger](./../carpetbagger/) 
 ## When:  1865-1877 (Reconstruction Era)
 
 ## Who: 

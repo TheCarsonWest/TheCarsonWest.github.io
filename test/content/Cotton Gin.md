@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Cotton Gin 
+# ID: [Cotton Gin](./../cotton-gin/) 
 ## When: 1793 
 ## Who: Eli Whitney 
 ## What: A machine that quickly and efficiently separated cotton seeds from cotton fibers, making cotton production much more profitable and widespread.

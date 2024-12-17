@@ -18,8 +18,7 @@ A function is **concave up** if its graph is shaped like a cup ( $ \cup $ ), and
 [Analyzing Functions with the second derivative](./../analyzing-functions-with-the-second-derivative/)
 
 
-## Finding Inflection Points
-
+## Finding [Inflection Points](./../inflection-points/) 
 Inflection points occur where the concavity of a function changes.  This means the second [derivative](./../derivative/),  $ f''(x) $ , changes sign.  To find inflection points, we follow these steps:
 
 1. **Find the second [derivative](./../derivative/):**  $ f''(x) $ 

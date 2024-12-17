@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Constructors](./../constructors/)
-# Special Methods
-
+# [Special Methods](./../special-methods/) 
 These are methods in Python classes that begin and end with double underscores (`__`), also known as "dunder" methods. They define how objects of the class behave in certain contexts.  They're crucial for creating classes that interact seamlessly with built-in Python features and other libraries.
 
 **Examples and Functionality:**

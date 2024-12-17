@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Great Compromise ([Connecticut](./../connecticut/) Compromise)
+# ID: [Great Compromise](./../great-compromise/) ([Connecticut](./../connecticut/) Compromise)
 ## When: July 1787 
 ## Who: 
 * **Roger Sherman** and **Oliver Ellsworth** ([Connecticut](./../connecticut/) Delegates) proposed the compromise.
@@ -20,9 +20,9 @@ A major compromise reached during the [Constitutional Convention|Constitutional 
     * **House of Representatives:** Representation would be based on the population of each state. 
 
 ## Impact? Why Significant?: 
-* **Saved the Convention:** The Great Compromise resolved a major deadlock that threatened the entire [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/).
+* **Saved the Convention:** The [Great Compromise](./../great-compromise/) resolved a major deadlock that threatened the entire [Constitutional Convention|Constitutional Convention](./../constitutional-convention|constitutional-convention/).
 * **Shaped the U.S. Government:**  The bicameral legislature with its distinct features remains a cornerstone of the U.S. government today. 
 * **Balance of Power:** It established a balance of power between larger and smaller states, ensuring that both had a voice in the federal government. This balance remains a key characteristic of American democracy. 
-* **Legacy of Compromise:** The Great Compromise demonstrated the importance of compromise in a democracy and set a precedent for resolving future conflicts through negotiation. 
+* **Legacy of Compromise:** The [Great Compromise](./../great-compromise/) demonstrated the importance of compromise in a democracy and set a precedent for resolving future conflicts through negotiation. 
 
 # [IDS Unit 3](./../ids-unit-3/)

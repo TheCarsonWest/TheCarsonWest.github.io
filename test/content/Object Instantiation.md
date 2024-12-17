@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Constructors](./../constructors/)
-# Object Instantiation
-
+# [Object Instantiation](./../object-instantiation/) 
 Object instantiation is the process of creating an instance of a class.  An instance is a specific object created from a class's blueprint.  The class defines the structure (attributes) and behavior (methods) of the object, while the instance is a concrete realization of that blueprint with its own specific data.
 
 

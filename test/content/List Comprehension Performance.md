@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [List Comprehension](./../list-comprehension/)
-# List Comprehension Performance
-
+# [List Comprehension Performance](./../list-comprehension-performance/) 
 List comprehensions are a concise way to create lists in Python, but their performance characteristics are worth understanding.
 
 Generally, list comprehensions are faster than equivalent `for` loops. This is because list comprehensions are implemented in optimized C code within the Python interpreter, whereas `for` loops involve more Python interpreter overhead.

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Data Type Conversions](./../data-type-conversions/)
-# JSON Conversion
-
+# [JSON Conversion](./../json-conversion/) 
 This note covers JSON conversion in Python.
 
 Key modules:  `json`

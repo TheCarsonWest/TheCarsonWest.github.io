@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Dictionary Comprehension](./../dictionary-comprehension/)
-# Zip Function
-
+# [Zip Function](./../zip-function/) 
 The `zip()` function in Python takes [Iterables](./../iterables/) (like [Lists](./../lists/), [Tuples](./../tuples/), or strings) as input and returns an iterator of [Tuples](./../tuples/).  Each tuple contains the i-th element from each of the input [Iterables](./../iterables/).  The iterator stops when the shortest input iterable is exhausted.
 
 ```python

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Sets](./../python-sets/)
-# Python Sets - Examples
-
+# [Python Sets - Examples](./../python-sets---examples/) 
 This note covers examples of using [Python Sets](./../python-sets/).  Remember to consult [Python Sets - Basics](./../python-sets---basics/) for foundational information.
 
 **Creating Sets:**

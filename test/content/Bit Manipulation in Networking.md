@@ -4,13 +4,12 @@
 	author = 'Carson West'
 +++
 # [Bitwise Operators](./../bitwise-operators/)
-# Bit Manipulation in Networking
-
+# [Bit Manipulation in Networking](./../bit-manipulation-in-networking/) 
 This topic is vast and needs breaking down.
 
 * **Core Concepts:**
     * [Binary Numbers and their Representation](./../binary-numbers-and-their-representation/)
-    * [Bitwise Operators in Python](./../bitwise-operators-in-python/)  (AND, OR, XOR, NOT, left/right shift)
+    * [Bitwise [[Operators](./../bitwise-[[operators/) in Python]]  (AND, OR, XOR, NOT, left/right shift)
     * [Boolean Algebra and Logic Gates](./../boolean-algebra-and-logic-gates/) (Underlying principles)
 
 * **Networking Applications:**

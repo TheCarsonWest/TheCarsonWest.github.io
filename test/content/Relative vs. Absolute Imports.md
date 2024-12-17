@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Packages and __init__.py](./../packages-and-__init__.py/)
-# Relative vs. Absolute Imports
-
+# [Relative vs. Absolute Imports](./../relative-vs.-absolute-imports/) 
 These notes cover the differences and best practices for using relative and absolute imports in Python.
 
 **Absolute Imports:**

@@ -23,14 +23,12 @@ y = x^2
 y = -x^2
 ```
 
-## Inflection Points
-
+## [Inflection Points](./../inflection-points/) 
 An **inflection point** is a point on the graph where the concavity changes.  This means the function transitions from concave up to concave down, or vice versa.  To find inflection points:
 
 1. **Find the second [derivative](./../derivative/):**  $ f''(x) $ .
 2. **Solve for  $ f''(x) = 0 $  or where  $ f''(x) $  is undefined.**  These are potential inflection points.
-3. **Test the concavity on intervals around the potential inflection points.** If the concavity changes across a potential inflection point, it is an inflection point. If it doesn't change, it's not an inflection point. Second [Derivative](./../derivative/) Test for Inflection Points
-
+3. **Test the concavity on intervals around the potential inflection points.** If the concavity changes across a potential inflection point, it is an inflection point. If it doesn't change, it's not an inflection point. Second [Derivative](./../derivative/) Test for [Inflection Points](./../inflection-points/) 
 **Example:**
 
 Let's consider the function  $ f(x) = x^3 - 3x $ .

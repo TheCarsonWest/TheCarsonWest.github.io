@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# Variable Scope and Lifetime
-
+# [Variable Scope and Lifetime](./../variable-scope-and-lifetime/) 
 Python's variable scope determines where a variable is accessible within your code.  A variable's lifetime is how long it exists in memory.  These two concepts are closely related.
 
 

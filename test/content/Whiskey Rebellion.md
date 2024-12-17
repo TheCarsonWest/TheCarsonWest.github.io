@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Whiskey Rebellion 
+# ID: [Whiskey Rebellion](./../whiskey-rebellion/) 
 
 ## WHEN: 1791-1794 (rebellion itself mainly in 1794)
 

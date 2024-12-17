@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Constitutional Convention 
+# ID: [Constitutional Convention](./../constitutional-convention/) 
 ## WHEN: May 25 - September 17, 1787 
 ## WHO: 55 delegates (from 12 states, [Rhode Island](./../rhode-island/) did not participate) including:
 * **[James Madison](./../james-madison/)** ("Father of the Constitution" for his role in drafting and promoting the document)

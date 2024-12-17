@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# File Handling
-
+# [File Handling](./../file-handling/) 
 Key aspects to remember about file handling in Python:
 
 *   **Opening Files:**  Use the `open()` function.  Specify the filename and the mode ('r' for reading, 'w' for writing, 'a' for appending, 'x' for exclusive creation, 'b' for binary, 't' for text -  'r+' for reading and writing, etc.).

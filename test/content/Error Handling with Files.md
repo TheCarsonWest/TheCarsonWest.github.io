@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [File IO Modes](./../file-io-modes/)
-# Error Handling with Files
-
+# [Error Handling with Files](./../error-handling-with-files/) 
 This note covers error handling specifically when working with files in Python.  Crucially, it focuses on anticipating and gracefully managing potential issues that might arise during file operations.
 
 Key potential errors:

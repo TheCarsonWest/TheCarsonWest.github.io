@@ -5,8 +5,7 @@
 +++
 # [Glossary](./../glossary/)
 
-# Cultural Trait
-
+# [Cultural Trait](./../cultural-trait/) 
 **Definition:** A single element of normal practice in a culture, such as the wearing of a turban.
 
 **Example:** Bowing as a greeting in Japan.

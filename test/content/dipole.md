@@ -11,5 +11,5 @@
 #  $$  µ = Qr  $$  - µ: Strength
 - Q: Quantity of charge(magnitude of charges)
 - R: distance
-basically a high dipole strength is a result of the atoms pulling each other in and having a lot of charge. Just look at [Electronegativity](./../electronegativity/) it gives the same info
+basically a high [dipole](./../dipole/) strength is a result of the atoms pulling each other in and having a lot of charge. Just look at [Electronegativity](./../electronegativity/) it gives the same info
 

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Importing Modules](./../importing-modules/)
-# Module Search Path
-
+# [Module Search Path](./../module-search-path/) 
 The Python interpreter searches for modules in a specific order, defined by the `sys.path` variable.  This is crucial for importing modules correctly.
 
 `sys.path` is a list of strings, each representing a directory.  The interpreter searches these directories in order until it finds the module being imported.

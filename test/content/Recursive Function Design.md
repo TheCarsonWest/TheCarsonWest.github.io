@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Memoization in Recursion](./../memoization-in-recursion/)
-# Recursive Function Design
-
+# [Recursive Function Design](./../recursive-function-design/) 
 Recursive functions call themselves within their own definition.  This allows for elegant solutions to problems that can be broken down into smaller, self-similar subproblems.
 
 **Key Components:**

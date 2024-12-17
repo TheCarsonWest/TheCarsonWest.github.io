@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Regex Flags](./../regex-flags/)
-# Regex Special Characters
-
+# [Regex Special Characters](./../regex-special-characters/) 
 These notes cover special characters used in [Regular Expressions](./../regular-expressions/) within Python.  Remember to import the `re` module before using any regex functions.  `import re`
 
 [Regex Metacharacters](./../regex-metacharacters/)  These are symbols with special meanings in regex.

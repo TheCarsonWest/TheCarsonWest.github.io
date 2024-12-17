@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Missouri Compromise
-
+# ID: [Missouri Compromise](./../missouri-compromise/) 
 ## When: March 1820
 
 ## Who: 

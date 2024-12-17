@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# Recursion in Python
-
+# [Recursion in Python](./../recursion-in-python/) 
 [Recursion](./../recursion/) is a powerful technique where a function calls itself within its own definition.  It's crucial to have a base case to stop the recursion, otherwise, it will lead to a `RecursionError` (stack overflow).
 
 **Key Components:**

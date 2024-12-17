@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [List Comprehension](./../list-comprehension/)
-# For Loops in Python
-
+# [For Loops in Python](./../for-loops-in-python/) 
 Basic Syntax:
 
 ```python

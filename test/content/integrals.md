@@ -45,4 +45,4 @@ y = x
 ```
 
 * **Average value of a function:** The average value of  $ f(x) $  on the interval  $ [a, b] $  is 
-###  $$ \frac{1}{b-a} \int_a^b f(x) \, dx $$  This rundown provides a concise overview of integrals in Calculus AB.  Remember to practice extensively to master these concepts and techniques.
+###  $$ \frac{1}{b-a} \int_a^b f(x) \, dx $$  This rundown provides a concise overview of [integrals](./../integrals/) in Calculus AB.  Remember to practice extensively to master these concepts and techniques.

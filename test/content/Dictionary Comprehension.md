@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Dictionaries](./../dictionaries/)
-# Dictionary Comprehension
-
+# [Dictionary Comprehension](./../dictionary-comprehension/) 
 Dictionary comprehension provides a concise way to create dictionaries in Python.  It follows a similar syntax to list comprehension, but creates key-value pairs instead of a list of items.
 
 **Basic Syntax:**
@@ -37,7 +36,7 @@ even_squares = {x: x*x for x in range(1, 11) if x % 2 == 0}
 print(even_squares) # Output: {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
 ```
 
-3. **Dictionary Comprehension from Two Iterables (using `zip`)**:
+3. **Dictionary Comprehension from Two [Iterables](./../iterables/) (using `zip`)**:
 
 ```python
 keys = ['a', 'b', 'c']

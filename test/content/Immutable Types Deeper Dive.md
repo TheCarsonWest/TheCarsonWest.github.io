@@ -6,14 +6,14 @@
 # [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 # Immutable Types: Deeper Dive
 
-This note expands on the concept of immutability in Python.  Key immutable types include:
+This note expands on the concept of immutability in Python.  Key [Immutable Types](./../immutable-types/) include:
 
 * `int` (integers)
 * `float` (floating-point numbers)**
 * `bool` (booleans)
 * `str` (strings)
-* `tuple` (tuples)
-* `frozenset` (frozen sets)
+* `tuple` ([Tuples](./../tuples/))
+* `frozenset` ([Frozen Sets](./../frozen-sets/))
 
 
 **What does immutability mean?**
@@ -32,7 +32,7 @@ print(my_string)  # Output: hello world
 print(id(my_string)) # shows a new memory location, because we created a new string.
 ```
 
-**Example (Tuples):**
+**Example ([Tuples](./../tuples/)):**
 
 ```python
 my_tuple = (1, 2, 3)
@@ -45,13 +45,13 @@ print(new_tuple) # Output: (1, 2, 3, 4)
 
 * **Thread safety:** Immutable objects can be safely shared between multiple threads without the risk of data corruption. [Thread Safety](./../thread-safety/)
 * **Data integrity:**  You can be confident that the value of an immutable object will not change unexpectedly.
-* **Hashing:**  Immutable objects can be used as keys in dictionaries because their hash value remains constant. [Hashing in Python](./../hashing-in-python/)
+* **Hashing:**  Immutable objects can be used as keys in [Dictionaries](./../dictionaries/) because their hash value remains constant. [Hashing in Python](./../hashing-in-python/)
 * **Performance:** While creating new objects might seem inefficient, Python's memory management often optimizes this.  However, frequent modifications to large immutable objects can impact performance.
 
 
 **Contrast with Mutable Types:**
 
-Mutable types, like lists and dictionaries, *can* be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [Mutable Types in Python](./../mutable-types-in-python/)
+Mutable types, like [Lists](./../lists/) and [Dictionaries](./../dictionaries/), *can* be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [Mutable Types in Python](./../mutable-types-in-python/)
 
 
 **Further Exploration:**

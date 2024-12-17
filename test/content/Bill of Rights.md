@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Bill of Rights
-## When: December 15, 1791
+# ID: [Bill of Rights](./../bill-of-rights/) ## When: December 15, 1791
 ## Who: 
 * **Authored by:** [James Madison](./../james-madison/) 
 * **Proposed by:**  The First [United States](./../united-states/) Congress
@@ -12,7 +11,7 @@
 
 ## What:
 The first ten amendments to the [United States](./../united-states/) Constitution. They guarantee essential rights and civil liberties to all citizens, including: 
-* Freedom of religion, speech, press, assembly, and petition (First Amendment)
+* Freedom of [religion](./../religion/), speech, press, assembly, and petition (First Amendment)
 * Right to bear arms (Second Amendment)
 * Protection from unreasonable searches and seizures (Fourth Amendment)
 * Rights of the accused in criminal proceedings (Fifth, Sixth, Seventh, and Eighth Amendments)

@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Battle of Bull Run
-
+## ID: [Battle of Bull Run](./../battle-of-bull-run/) 
 ## When: July 21, 1861
 
 ## Who:

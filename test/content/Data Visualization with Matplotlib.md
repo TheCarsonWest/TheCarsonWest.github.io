@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Libraries like Pandas](./../libraries-like-pandas/)
-# Data Visualization with Matplotlib
-
+# [Data Visualization with Matplotlib](./../data-visualization-with-matplotlib/) 
 This note covers the basics of data visualization using the Matplotlib library in Python.
 
 Key aspects to cover:

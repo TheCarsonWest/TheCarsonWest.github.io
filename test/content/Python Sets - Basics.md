@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Sets - Examples](./../python-sets---examples/)
-# Python Sets - Basics
-
+# [Python Sets - Basics](./../python-sets---basics/) 
 Key Features:
 
 * Unordered collections of unique elements.

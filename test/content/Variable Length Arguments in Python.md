@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# Variable Length Arguments in Python
-
+# [Variable Length Arguments in Python](./../variable-length-arguments-in-python/) 
 Python offers flexibility in defining functions that can accept a variable number of arguments. This is achieved using two special syntaxes: `*args` and `**kwargs`.
 
 *   `*args`:  This allows a function to accept a variable number of positional arguments. These arguments are collected into a tuple.
@@ -37,8 +36,7 @@ Output:
 ```
 name: Alice
 age: 30
-city: New York
-```
+city: [New York](./../new-york/) ```
 
 You can combine `*args` and `**kwargs` in a single function definition:
 

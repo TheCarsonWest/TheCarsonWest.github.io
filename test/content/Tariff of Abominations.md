@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Tariff of Abominations
-## When: 1828
+# ID: [Tariff of Abominations](./../tariff-of-abominations/) ## When: 1828
 ## Who:  
 * **[Andrew Jackson](./../andrew-jackson/):** President at the time, though he opposed the tariff.
 * **Henry Clay:** Architect of the tariff and Secretary of State.

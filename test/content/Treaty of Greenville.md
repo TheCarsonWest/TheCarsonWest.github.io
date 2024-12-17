@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Treaty of Greenville 
+# ID: [Treaty of Greenville](./../treaty-of-greenville/) 
 
 ## When: August 3, 1795
 

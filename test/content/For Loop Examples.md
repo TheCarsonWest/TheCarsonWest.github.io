@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [For Loops](./../for-loops/)
-# For Loop Examples
-
+# [For Loop Examples](./../for-loop-examples/) 
 This note covers examples of using `for` loops in Python.
 
 * **Basic Iteration:**

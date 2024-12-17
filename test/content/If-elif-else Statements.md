@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Nested If Statements](./../nested-if-statements/)
-# If-elif-else Statements
-
+# [If-elif-else Statements](./../if-elif-else-statements/) 
 Python's `if-elif-else` statements provide a way to control the flow of execution based on multiple conditions.  They're an extension of the basic `if` statement, allowing for more complex decision-making.
 
 **Basic Syntax:**

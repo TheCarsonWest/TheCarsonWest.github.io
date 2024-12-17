@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Frozen Sets](./../frozen-sets/)
-# Set Operations
-
+# [Set Operations](./../set-operations/) 
 Set operations in Python leverage the power of the `set` data structure for efficient manipulation of unique elements.  Key operations include:
 
 * **Union:** Combines elements from two or more sets.

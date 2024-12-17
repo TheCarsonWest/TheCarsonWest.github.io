@@ -22,7 +22,7 @@
 * **1793:** [Cotton Gin](./../cotton-gin/) Act, promoting cotton production
 * **1868:** Ku Klux Klan Act, punishing white supremacist groups
 * **1956:** Brown v. Board of Education ([Georgia](./../georgia/) was one of the states involved in this landmark Supreme Court case that declared school segregation unconstitutional)
-* **1964:** Civil Rights Act of 1964, prohibiting discrimination based on race, color, religion, sex, or national origin
+* **1964:** Civil Rights Act of 1964, prohibiting discrimination based on race, color, [Religion](./../religion/), sex, or national origin
 
 **Important Court Cases**
 

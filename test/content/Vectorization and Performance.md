@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [ndarray Explained](./../ndarray-explained/)
-# Vectorization and Performance
-
+# [Vectorization and Performance](./../vectorization-and-performance/) 
 Vectorization is a powerful technique in Python (especially when working with [Libraries like NumPy](./../libraries-like-numpy/)) that significantly boosts performance by performing operations on entire arrays at once, rather than iterating through individual elements. This avoids the overhead of explicit loops, leading to substantial speed improvements.
 
 **Key Concepts:**

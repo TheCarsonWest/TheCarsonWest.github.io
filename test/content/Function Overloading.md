@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# Function Overloading
-
+# [Function Overloading](./../function-overloading/) 
 Python does **not** support function overloading in the same way as some other languages (like C++ or Java).  In those languages, you can have multiple functions with the same name but different parameter lists.  The compiler/interpreter chooses the correct function based on the arguments passed.
 
 Python's approach is different.  If you define multiple functions with the same name, the later definition will simply overwrite the earlier one.  The last definition is the one that will be used.

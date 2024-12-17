@@ -5,8 +5,7 @@
 +++
 # [Glossary](./../glossary/)
 
-# Sense of Place
-
+# [Sense of Place](./../sense-of-place/) 
 **Definition:** The feeling of connection and meaning that individuals or groups associate with a particular location.
 
 **Example:**  A childhood home holding sentimental value.

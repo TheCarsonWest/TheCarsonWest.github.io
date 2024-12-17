@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Libraries like NumPy](./../libraries-like-numpy/)
-# NumPy Random Number Generation
-
+# [NumPy Random Number Generation](./../numpy-random-number-generation/) 
 NumPy's `random` module (now deprecated; use `numpy.random` directly) provides functions for generating various random numbers and distributions.  It's significantly faster than Python's built-in `random` module, especially for large arrays.
 
 

@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Virtual Environments](./../virtual-environments/)
-# Conda Environments
-
+# [Conda Environments](./../conda-environments/) 
 Conda environments are isolated spaces that allow you to manage different project dependencies without conflicts.  This is crucial when working on multiple projects that require different versions of Python or packages.
 
 Key features:

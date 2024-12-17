@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Operators](./../operators/)
-# Operator Overloading
-
+# [Operator Overloading](./../operator-overloading/) 
 Operator overloading allows you to define the behavior of built-in operators (like `+`, `-`, `*`, `/`, etc.) for user-defined types (classes).  This makes your classes more intuitive and Pythonic.
 
 **How it works:**

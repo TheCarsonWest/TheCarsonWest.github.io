@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Surrender at Appomattox Courthouse 
+## ID: [Surrender at Appomattox Courthouse](./../surrender-at-appomattox-courthouse/) 
 
 ## When: April 9, 1865
 

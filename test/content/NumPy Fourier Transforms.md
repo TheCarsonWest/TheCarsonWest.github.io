@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Libraries like NumPy](./../libraries-like-numpy/)
-# NumPy Fourier Transforms
-
+# [NumPy Fourier Transforms](./../numpy-fourier-transforms/) 
 These notes cover the use of NumPy's functions for performing Fourier Transforms.  NumPy provides efficient implementations for these crucial signal processing operations.
 
 Key functions:

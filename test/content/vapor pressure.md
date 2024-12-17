@@ -6,8 +6,7 @@
 # [Chemical Bonds](./../chemical-bonds/)
 
 ## TLDR: More Vapor pressure = more evaporates without boiling 
-## Less IMF = more vapor pressure
-
+## Less IMF = more [vapor pressure](./../vapor-pressure/) 
 ## Vapor Pressure
 
 Vapor pressure is a fundamental concept in chemistry, describing the pressure exerted by a vapor in equilibrium with its condensed phase (liquid or solid) at a given temperature. It's a measure of the tendency of a substance to evaporate.
@@ -29,18 +28,18 @@ where:
 *  $ \Delta H_{vap} $  is the enthalpy of vaporization.
 * R is the ideal gas constant.
 
-* **[intermolecular forces](./../intermolecular-forces/):** Stronger [intermolecular forces](./../intermolecular-forces/) (like hydrogen bonding) require more energy to overcome, resulting in lower vapor pressure at a given temperature. For example, water has a higher boiling point and lower vapor pressure than diethyl ether due to its strong hydrogen bonding.
+* **[intermolecular forces](./../intermolecular-forces/):** Stronger [intermolecular forces](./../intermolecular-forces/) (like hydrogen bonding) require more energy to overcome, resulting in lower [vapor pressure](./../vapor-pressure/) at a given temperature. For example, water has a higher boiling point and lower [vapor pressure](./../vapor-pressure/) than diethyl ether due to its strong hydrogen bonding.
 
 * **Surface Area:** A larger surface area of the liquid exposes more molecules to the vapor phase, leading to a higher vapor pressure.
 
 **Examples**
 
 * **Evaporation of Water:** At room temperature, water molecules constantly escape from the liquid surface, creating a small vapor pressure. This is why a puddle of water eventually dries up.
-* **Boiling Point:** The boiling point of a liquid is the temperature at which its vapor pressure equals the external atmospheric pressure. For example, water boils at 100°C at standard atmospheric pressure (1 atm).
+* **Boiling Point:** The boiling point of a liquid is the temperature at which its [vapor pressure](./../vapor-pressure/) equals the external atmospheric pressure. For example, water boils at 100°C at standard atmospheric pressure (1 atm).
 * **Volatile Liquids:** Liquids with high vapor pressures at room temperature are called volatile liquids. Examples include acetone, ethanol, and gasoline.
 
 **Applications**
 
 * **[Distillation](./../distillation/):** Vapor pressure differences are used in [Distillation](./../distillation/) to separate components of a mixture based on their boiling points.
-* **Refrigeration:** Refrigerants utilize the vapor pressure of a fluid to absorb heat and cool a system.
+* **Refrigeration:** Refrigerants utilize the [vapor pressure](./../vapor-pressure/) of a fluid to absorb heat and cool a system.
 * **Atmospheric Chemistry:** Vapor pressure plays a crucial role in understanding the behavior of volatile organic compounds in the atmosphere.

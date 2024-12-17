@@ -6,18 +6,18 @@
 # [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 # Mutable Types: Deeper Dive
 
-Mutable objects in Python are those whose internal state can be changed after creation.  This contrasts with immutable objects, where the value remains constant throughout its lifetime.  Understanding mutability is crucial for avoiding unexpected behavior and writing efficient code.
+[Mutable Objects in Python](./../mutable-objects-in-python/) are those whose internal state can be changed after creation.  This contrasts with immutable objects, where the value remains constant throughout its lifetime.  Understanding mutability is crucial for avoiding unexpected behavior and writing efficient code.
 
 Key Mutable Types:
 
-* **Lists:**  `[]`
+* **[Lists](./../lists/):**  `[]`
     ```python
     my_list = [1, 2, 3]
     my_list.append(4)  # Modifies the list in place
     print(my_list)  # Output: [1, 2, 3, 4]
     ```
 
-* **Dictionaries:** `{}`
+* **[Dictionaries](./../dictionaries/):** `{}`
     ```python
     my_dict = {"a": 1, "b": 2}
     my_dict["c"] = 3  # Adds a new key-value pair
@@ -31,10 +31,10 @@ Key Mutable Types:
     print(my_set)  # Output: {1, 2, 3, 4}
     ```
 
-* [List Comprehensions](./../list-comprehensions/) -  A concise way to create lists, often involving manipulation of mutable objects.
+* [List Comprehensions](./../list-comprehensions/) -  A concise way to create [Lists](./../lists/), often involving manipulation of mutable objects.
 
 
-* [Dictionary Comprehensions](./../dictionary-comprehensions/) - Similar to list comprehensions, but for dictionaries.
+* [Dictionary Comprehensions](./../dictionary-comprehensions/) - Similar to [List Comprehensions](./../list-comprehensions/), but for [Dictionaries](./../dictionaries/).
 
 
 * [Set Comprehensions](./../set-comprehensions/) -  Similar to list and dictionary comprehensions, but for sets.
@@ -67,6 +67,6 @@ modify_list(my_list)
 print(my_list) # Output: [1,2,3,4]. The original list is changed!
 ```
 
-[Immutable Types](./../immutable-types/) - A comparison to help solidify the concept of mutability.  This will cover strings, tuples, numbers, etc.
+[Immutable Types](./../immutable-types/) - A comparison to help solidify the concept of mutability.  This will cover strings, [Tuples](./../tuples/), numbers, etc.
 
 [Copying Objects](./../copying-objects/) -  Methods for creating independent copies of mutable objects to avoid aliasing problems.

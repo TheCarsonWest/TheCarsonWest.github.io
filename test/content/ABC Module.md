@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Abstract Classes](./../abstract-classes/)
-# Python Notes: ABC Module
-
+# Python Notes: [ABC Module](./../abc-module/) 
 **Current String:** `ABC Module`
 
 **Full List:** `['ABC Module']`

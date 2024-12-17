@@ -79,8 +79,7 @@ The Fundamental Theorem of Calculus connects differentiation and integration.  I
 This theorem provides a powerful method for evaluating definite integrals.
 
 
-## 3. Techniques of Integration
-
+## 3. [Techniques of Integration](./../techniques-of-integration/) 
 Calculus AB primarily focuses on these basic integration techniques:
 
 * **[Power Rule](./../power-rule/):**  $ \int x^n \, dx = \frac{x^{n+1}}{n+1} + C $   (for  $ n \neq -1 $ )

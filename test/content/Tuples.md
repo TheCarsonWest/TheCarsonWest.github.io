@@ -4,9 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Tuples
-
-Tuples are ordered, immutable [Sequences](./../sequences/) of items.  This immutability is a key difference from [Lists](./../lists/).
+# [Tuples](./../tuples/)  [Tuples](./../tuples/) are ordered, immutable [Sequences](./../sequences/) of items.  This immutability is a key difference from [Lists](./../lists/).
 
 * **Creation:**
 ```python
@@ -28,7 +26,7 @@ print(my_tuple[-1]) # Output: 4.5
 my_tuple[0] = 10  # Raises TypeError: 'tuple' object does not support item assignment
 ```
 
-* **Methods:** Tuples have fewer methods than [Lists](./../lists/) because they are immutable. Common methods include:
+* **Methods:** [Tuples](./../tuples/) have fewer methods than [Lists](./../lists/) because they are immutable. Common methods include:
     * `count()`: Counts the occurrences of an element.
     * `index()`: Returns the index of the first occurrence of an element.
 
@@ -43,7 +41,7 @@ print(a, b, c)  # Output: 1 2 3
 
 * **Iteration:**  Iterate through tuples using loops (like `for` loops).
 
-* **Use Cases:** Tuples are useful when you need an ordered collection of items that should not be changed.  They're often used to represent records or data that should remain constant.
+* **Use Cases:** [Tuples](./../tuples/) are useful when you need an ordered collection of items that should not be changed.  They're often used to represent records or data that should remain constant.
 
 
 [Lists](./../lists/)

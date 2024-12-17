@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Control Flow If Statements](./../control-flow-if-statements/)
-# Boolean Expressions
-
+# [Boolean Expressions](./../boolean-expressions/) 
 Boolean expressions are expressions that evaluate to either `True` or `False`.  They are fundamental to controlling the flow of execution in Python programs through conditional statements (`if`, `elif`, `else`) and loops.
 
 **Key Components:**

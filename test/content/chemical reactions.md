@@ -9,3 +9,5 @@
 - [Activation Energy](./../activation-energy/)
 - [Rate Laws](./../rate-laws/)
 - [Factors affecting rate of reaction](./../factors-affecting-rate-of-reaction/)
+- [Reaction Mechanisms](./../reaction-mechanisms/)
+- 

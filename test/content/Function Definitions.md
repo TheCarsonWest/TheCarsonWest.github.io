@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Return Values](./../return-values/)
-# Function Definitions
-
+# [Function Definitions](./../function-definitions/) 
 Python functions are defined using the `def` keyword, followed by the function name, parentheses `()`, and a colon `:`.  The function body is indented.
 
 ```python

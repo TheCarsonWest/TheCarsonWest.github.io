@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Control Flow If Statements](./../control-flow-if-statements/)
-# Python Operators
-
+# Python [Operators](./../operators/) 
 This note covers Python operators.  Further notes will be needed for subtopics.
 
 **Types of Operators:**

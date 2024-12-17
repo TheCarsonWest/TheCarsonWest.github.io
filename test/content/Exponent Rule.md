@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## Exponent Rule
-###  $$ \frac{d}{dx}[b^x] = b^x\ln(b) $$  Hence
+## [Exponent Rule](./../exponent-rule/) ###  $$ \frac{d}{dx}[b^x] = b^x\ln(b) $$  Hence
 ###  $$ \frac{d}{dx}[e^x] = e^x $$  
 
 

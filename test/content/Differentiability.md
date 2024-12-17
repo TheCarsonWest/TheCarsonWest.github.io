@@ -49,16 +49,14 @@ y = x
 * **Oscillating Function:** The function oscillates infinitely rapidly near the point.
 
 
-## 4.  Differentiability and Smoothness
-
-Differentiability implies smoothness.  A differentiable function will have a smooth, continuous curve without any sharp corners, cusps, or vertical tangents. However, the converse is not always true (a function can be smooth but not differentiable everywhere).
+## 4.  [Differentiability](./../differentiability/) and Smoothness
+ [Differentiability](./../differentiability/) implies smoothness.  A differentiable function will have a smooth, continuous curve without any sharp corners, cusps, or vertical tangents. However, the converse is not always true (a function can be smooth but not differentiable everywhere).
 
 [Higher Order Derivatives](./../higher-order-derivatives/)
 
 
 ## 5.  Practical Applications
-
-Differentiability is crucial for many applications in Calculus AB, including:
+ [Differentiability](./../differentiability/) is crucial for many applications in Calculus AB, including:
 
 * **Finding instantaneous rates of change:** The [derivative](./../derivative/) gives the instantaneous rate of change of a function at a specific point.
 * **Optimization problems:** Finding maximum and minimum values of a function often involves analyzing its [derivative](./../derivative/).
@@ -66,8 +64,7 @@ Differentiability is crucial for many applications in Calculus AB, including:
 * **Curve sketching:**  The [derivative](./../derivative/) helps determine the increasing/decreasing intervals and concavity of a function.
 
 
-## 6.  Checking for Differentiability
-
+## 6.  Checking for [Differentiability](./../differentiability/) 
 To determine if a function is differentiable at a point, you typically:
 
 1. Check for [continuity](./../continuity/) at the point.

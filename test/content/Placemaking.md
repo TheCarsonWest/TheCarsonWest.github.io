@@ -5,8 +5,7 @@
 +++
 # [Glossary](./../glossary/)
 
-# Placemaking
-
+# [Placemaking](./../placemaking/) 
 **Definition:**  The process of creating or enhancing places that are meaningful and engaging for people.
 
 **Example:**  Designing a public park with community input.

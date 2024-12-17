@@ -7,8 +7,7 @@
 # [Analyzing Functions with the second derivative](./../analyzing-functions-with-the-second-derivative/)
 Concavity describes the curvature of a function's graph.  A function is concave up if its graph curves upward, like a smile, and concave down if its graph curves downward, like a frown.  We determine concavity using the second [derivative](./../derivative/) of the function.
 
-## The Second [Derivative](./../derivative/) Test for Concavity
-
+## The Second [Derivative](./../derivative/) [Test for Concavity](./../test-for-concavity/) 
 The concavity of a function  $ f(x) $  at a point  $ x=c $  is determined by the sign of its second [derivative](./../derivative/),  $ f''(c) $ :
 
 * **Concave Up:** If  $ f''(c) > 0 $ , then the graph of  $ f(x) $  is concave up at  $ x=c $ .

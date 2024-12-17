@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Embargo Act of 1807
-## When: December 22, 1807
+# ID: [Embargo Act of 1807](./../embargo-act-of-1807/) ## When: December 22, 1807
 ## Who: 
 * **Proposed by:** President [Thomas Jefferson](./../thomas-jefferson/)
 * **Passed by:** U.S. Congress

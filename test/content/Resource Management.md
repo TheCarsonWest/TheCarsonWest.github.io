@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Custom Context Managers](./../custom-context-managers/)
-# Resource Management in Python
+# [Resource Management](./../resource-management/) in Python
 
 This note covers resource management in Python, focusing on efficient and safe handling of system resources.
 

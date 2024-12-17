@@ -21,8 +21,7 @@
 
 **Important Legislation:**
 
-* **1836:** The [Texas](./../texas/) Declaration of Independence
-* **1845:** The Joint Resolution for the Annexation of [Texas](./../texas/)
+* **1836:** The [Texas](./../texas/) [Declaration of Independence](./../declaration-of-independence/) * **1845:** The Joint Resolution for the Annexation of [Texas](./../texas/)
 * **1957:** The [Texas](./../texas/) Education Agency Act
 * **1964:** The Civil Rights Act
 * **1973:** The Roe v. Wade decision

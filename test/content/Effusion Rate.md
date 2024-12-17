@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [APCHEM Gasses](./../apchem-gasses/)
-# Effusion Rate (AP Chemistry Rundown)
+# [Effusion Rate](./../effusion-rate/) (AP Chemistry Rundown)
 
 ## Introduction
 

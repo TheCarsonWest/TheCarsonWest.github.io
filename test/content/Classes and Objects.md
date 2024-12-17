@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Classes and Objects
-
+# [Classes and Objects](./../classes-and-objects/) 
 Python uses classes to create user-defined data types.  A class is a blueprint for creating objects.  Objects are instances of a class.
 
 ```python

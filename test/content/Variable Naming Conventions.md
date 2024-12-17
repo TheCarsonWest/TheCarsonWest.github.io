@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Variables and Data Types](./../variables-and-data-types/)
-# Variable Naming Conventions
-
+# [Variable Naming Conventions](./../variable-naming-conventions/) 
 Python's variable naming follows specific conventions for readability and maintainability.  Inconsistent naming can lead to errors and make code harder to understand.
 
 

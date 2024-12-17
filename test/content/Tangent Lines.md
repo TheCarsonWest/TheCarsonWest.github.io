@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 
-## Tangent Lines in Calculus AB
+## [Tangent Lines](./../tangent-lines/) in Calculus AB
 
 ### Introduction
 
@@ -35,8 +35,7 @@ Let's find the equation of the tangent line to the curve  $ y = x^2 $  at the po
      $$ y = 4x - 4 $$  
 Therefore, the equation of the tangent line to the curve  $ y = x^2 $  at the point  $ (2, 4) $  is  $ y = 4x - 4 $ .
 
-### Derivatives and Tangent Lines
-
+### Derivatives and [Tangent Lines](./../tangent-lines/) 
 The [derivative](./../derivative/) of a function at a point gives the slope of the tangent line to the function's graph at that point. This connection between derivatives and tangent lines is crucial in calculus.
 
 For example, if the [derivative](./../derivative/) of a function is positive at a point, the tangent line at that point will have a positive slope, indicating that the function is increasing at that point. Similarly, if the [derivative](./../derivative/) is negative, the tangent line will have a negative slope, indicating that the function is decreasing.

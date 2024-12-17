@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Adams-Onis Treaty 
+# ID: [Adams-Onis Treaty](./../adams-onis-treaty/) 
 ## When: February 22, 1819
 ## Who: 
 * **[John Quincy Adams](./../john-quincy-adams/):** [United States](./../united-states/) Secretary of State 

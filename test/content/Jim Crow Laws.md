@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Jim Crow Laws
-## When: 1877-1965 (Post-Reconstruction Era) 
+# ID: [Jim Crow Laws](./../jim-crow-laws/) ## When: 1877-1965 (Post-Reconstruction Era) 
 ## Who:  
 Southern White [Democrats](./../democrats/) (primarily, but some Black people were involved in the system as well) 
 ## What:

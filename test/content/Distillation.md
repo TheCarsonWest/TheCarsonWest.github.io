@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP CHEM solutions](./../ap-chem-solutions/)
-Distillation is a separation technique used to purify liquids based on differences in their boiling points.  It leverages the fact that in a mixture, each component will exert its own [vapor pressure](./../vapor-pressure/), and the more volatile component (the one with the lower boiling point) will have a higher [vapor pressure](./../vapor-pressure/).
+# [AP CHEM solutions](./../ap-chem-solutions/) [Distillation](./../distillation/) is a separation technique used to purify liquids based on differences in their boiling points.  It leverages the fact that in a mixture, each component will exert its own [vapor pressure](./../vapor-pressure/), and the more volatile component (the one with the lower boiling point) will have a higher [vapor pressure](./../vapor-pressure/).
 
 ## Basic Principles
 
@@ -20,20 +19,17 @@ where:
 *  $ x_A $  is the mole fraction of component A in the liquid phase
 *  $ P_A^* $  is the [vapor pressure](./../vapor-pressure/) of pure component A
 
-## Simple Distillation
-
+## Simple [Distillation](./../distillation/) 
 Simple distillation is effective for separating liquids with significantly different boiling points (generally a difference of at least 25°C).  The mixture is heated, and the more volatile component vaporizes first.  The vapor is then cooled and condensed back into a liquid, which is collected separately.
 
-## Fractional Distillation
-
+## Fractional [Distillation](./../distillation/) 
 Fractional distillation is used to separate liquids with closer boiling points.  It employs a fractionating column, which provides a large surface area for multiple condensation and vaporization cycles. As the vapor rises through the column, it repeatedly condenses and re-vaporizes.  With each cycle, the vapor becomes richer in the more volatile component.  This process effectively creates a temperature gradient along the column, allowing for finer separation. 
 Used in making that sweet dino juice
 ![](https://www.chemicals.co.uk/wp-content/uploads/2021/11/Fractional-Distillation-1-1.png)
-## Limitations of Distillation
-
+## Limitations of [Distillation](./../distillation/) 
 * **[Azeotropes](./../azeotropes/):** [Azeotropes](./../azeotropes/) Some mixtures form [Azeotropes](./../azeotropes/), which are constant boiling mixtures that cannot be separated by simple distillation.
 * **Heat sensitive compounds:**  Some compounds decompose at high temperatures, making distillation unsuitable.
-* **Energy intensive:** Distillation can be an energy-intensive process, especially for large-scale operations.
+* **Energy intensive:** [Distillation](./../distillation/) can be an energy-intensive process, especially for large-scale operations.
 
 
 ---

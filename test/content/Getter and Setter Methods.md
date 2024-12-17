@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Private and Protected Members](./../private-and-protected-members/)
-# Getter and Setter Methods
-
+# [Getter and Setter Methods](./../getter-and-setter-methods/) 
 These methods provide controlled access to an object's attributes.  They are crucial for encapsulation and data integrity.
 
 **Why use them?**

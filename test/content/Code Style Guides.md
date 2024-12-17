@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Variable Naming Conventions](./../variable-naming-conventions/)
-# Python: Code Style Guides
-
+# Python: [Code Style Guides](./../code-style-guides/) 
 These notes cover Python code style guides, focusing on best practices and tools for ensuring consistent and readable code.
 
 

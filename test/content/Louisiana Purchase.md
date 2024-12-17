@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: Louisiana Purchase
-
+# ID: [Louisiana Purchase](./../louisiana-purchase/) 
 ## When: April 30, 1803
 
 ## Who: 

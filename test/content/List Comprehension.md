@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# List Comprehension
-
+# [List Comprehension](./../list-comprehension/) 
 List comprehension provides a concise way to create lists in Python. It's a powerful tool for creating lists based on existing iterables.
 
 **Basic Syntax:**

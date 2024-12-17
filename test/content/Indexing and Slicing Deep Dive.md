@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [ndarray Explained](./../ndarray-explained/)
-# Indexing and Slicing Deep Dive
-
+# [Indexing and Slicing Deep Dive](./../indexing-and-slicing-deep-dive/) 
 This note covers advanced techniques and nuances of indexing and slicing in Python sequences (lists, tuples, strings).
 
 **Basic Indexing:**

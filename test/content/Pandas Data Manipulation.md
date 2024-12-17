@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Libraries like Pandas](./../libraries-like-pandas/)
-# Pandas Data Manipulation
-
+# [Pandas Data Manipulation](./../pandas-data-manipulation/) 
 This note covers data manipulation using the Pandas library in Python.
 
 Key functionalities:

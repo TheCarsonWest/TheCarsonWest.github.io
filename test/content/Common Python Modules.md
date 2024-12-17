@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Importing Modules](./../importing-modules/)
-# Common Python Modules
-
+# [Common Python Modules](./../common-python-modules/) 
 These notes cover commonly used Python modules.  Further details on specific modules will be in separate notes.
 
 **Key Modules & Functionality:**

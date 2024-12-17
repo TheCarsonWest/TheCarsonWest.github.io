@@ -4,9 +4,9 @@
 	author = 'Carson West'
 +++
 [Calc home](./../calc-home/)
-## Intermediate Value Theorem (IVT)
+## [Intermediate Value Theorem](./../intermediate-value-theorem/) (IVT)
 
-The Intermediate Value Theorem (IVT) is a fundamental theorem in calculus that helps us understand the behavior of continuous functions. It essentially states that if a continuous function takes on two values, then it must also take on all the values in between.
+The [Intermediate Value Theorem](./../intermediate-value-theorem/) (IVT) is a fundamental theorem in calculus that helps us understand the behavior of continuous functions. It essentially states that if a continuous function takes on two values, then it must also take on all the values in between.
 
 # Statement of the IVT
 

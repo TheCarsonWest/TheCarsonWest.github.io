@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Context Managers](./../context-managers/)
-# Custom Context Managers
-
+# [Custom Context Managers](./../custom-context-managers/) 
 Context managers are a powerful feature in Python that allows you to manage resources efficiently and gracefully.  The `with` statement is the syntax used to work with them.  Built-in context managers like `open()` for files handle opening and closing automatically.  Custom context managers allow you to create your own resource management logic.
 
 There are two primary ways to define custom context managers:

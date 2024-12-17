@@ -34,8 +34,7 @@ The overall reaction order is the sum of the individual orders (m + n).  The rea
 ![](https://www.chadsprep.com/wp-content/uploads/2020/02/2nd-Order-Integrated-Rate-Law-Plots.png)
 
 
-## Determining Rate Laws
-
+## Determining [Rate Laws](./../rate-laws/) 
 There are several methods to determine rate laws experimentally:
 
 * **Method of Initial Rates:** [Method of Initial Rates](./../method-of-initial-rates/) This method uses initial [Reaction Rates](./../reaction-rates/) measured under different initial reactant concentrations.  By comparing the changes in rate with changes in concentration, the reaction orders can be determined.

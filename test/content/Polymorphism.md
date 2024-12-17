@@ -4,11 +4,9 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Polymorphism
+# [Polymorphism](./../polymorphism/)  [Polymorphism](./../polymorphism/) allows objects of different classes to be treated as objects of a common type.  This is particularly useful when dealing with inheritance.
 
-Polymorphism allows objects of different classes to be treated as objects of a common type.  This is particularly useful when dealing with inheritance.
-
-* **Example:**  Consider a scenario where you have different shapes (circle, square, triangle) each with an `area()` method.  Polymorphism allows you to call `area()` on any shape object without needing to know its specific type.
+* **Example:**  Consider a scenario where you have different shapes (circle, square, triangle) each with an `area()` method.  [Polymorphism](./../polymorphism/) allows you to call `area()` on any shape object without needing to know its specific type.
 
 ```python
 class Shape:

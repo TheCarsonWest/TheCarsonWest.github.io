@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Lists](./../lists/)
-# Mutable vs Immutable Types
-
+# [Mutable vs Immutable Types](./../mutable-vs-immutable-types/) 
 This refers to the ability of an object to change its value after it's created.
 
 * **Immutable Types:**  Once created, their value cannot be changed.  If you perform an operation that seems to modify them, you're actually creating a *new* object.

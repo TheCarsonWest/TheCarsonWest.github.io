@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Popular Sovereignty (Antebellum)
+## ID: [Popular Sovereignty](./../popular-sovereignty/) (Antebellum)
 
 ## When: 1840s-1860s
 

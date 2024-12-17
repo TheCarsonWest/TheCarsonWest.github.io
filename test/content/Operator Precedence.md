@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Operators](./../operators/)
-# Operator Precedence
-
+# [Operator Precedence](./../operator-precedence/) 
 Python, like other programming languages, follows specific rules for the order in which operations are performed in an expression. This is called **operator precedence**.  Operators with higher precedence are evaluated before operators with lower precedence.  When operators have the same precedence, the expression is evaluated from left to right (except for a few exceptions, like exponentiation).
 
 

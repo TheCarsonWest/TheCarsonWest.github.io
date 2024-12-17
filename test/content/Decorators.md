@@ -4,9 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# Decorators
-
-Decorators are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
+# [Decorators](./../decorators/)  [Decorators](./../decorators/) are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
 
 ```python
 def my_decorator(func):
@@ -30,8 +28,7 @@ say_hello = my_decorator(say_hello)
 ```
 
 **Arguments to Decorators:**
-
-Decorators can also accept arguments. This requires a more complex structure:
+ [Decorators](./../decorators/) can also accept arguments. This requires a more complex structure:
 
 ```python
 def repeat(num_times):
@@ -59,8 +56,7 @@ Here, `repeat` is a decorator factory – it returns a decorator.
 
 
 **Class Decorators:**
-
-Decorators can also be classes:
+ [Decorators](./../decorators/) can also be classes:
 
 
 ```python

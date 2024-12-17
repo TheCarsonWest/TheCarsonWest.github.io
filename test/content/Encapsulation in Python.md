@@ -4,14 +4,12 @@
 	author = 'Carson West'
 +++
 # [Private and Protected Members](./../private-and-protected-members/)
-# Encapsulation in Python
-
+# [Encapsulation in Python](./../encapsulation-in-python/) 
 Encapsulation is one of the four fundamental principles of object-oriented programming (OOP).  It aims to bundle data (attributes) and the methods (functions) that operate on that data within a single unit (a class), protecting the data from outside access and misuse.  This is achieved primarily through access modifiers.
 
 Python doesn't have strict access modifiers like `public`, `private`, and `protected` found in languages like Java or C++. However, it achieves a similar effect through naming conventions and techniques.
 
-##  Achieving Encapsulation in Python
-
+##  Achieving [Encapsulation in Python](./../encapsulation-in-python/) 
 * **Name Mangling:**  Prefixing attribute names with double underscores (`__`) signals to Python to "mangle" the name, making it harder (but not impossible) to access directly from outside the class. This is often used to simulate private attributes.
 
 ```python

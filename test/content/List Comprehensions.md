@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [For Loop Examples](./../for-loop-examples/)
-# List Comprehensions
-
+# [List Comprehensions](./../list-comprehensions/) 
 List comprehensions provide a concise way to create lists in Python.  They're essentially a shorthand for a `for` loop combined with an optional conditional statement.
 
 **Basic Syntax:**

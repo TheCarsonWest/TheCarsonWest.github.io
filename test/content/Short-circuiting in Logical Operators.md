@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Operators](./../operators/)
-# Short-circuiting in Logical Operators
-
+# [Short-circuiting in Logical Operators](./../short-circuiting-in-logical-operators/) 
 Python's logical [Operators](./../operators/) (`and`, `or`) employ short-circuiting.  This means that the evaluation of the expression stops as soon as the final outcome is known.
 
 * **`and`:**  If the left operand is falsy (evaluates to `False`), the entire expression is falsy, and the right operand is *not* evaluated.

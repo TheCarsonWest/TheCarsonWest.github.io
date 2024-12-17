@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Control Flow If Statements](./../control-flow-if-statements/)
-# Comparison Operators
-
+# [Comparison Operators](./../comparison-operators/) 
 Python's comparison operators are used to compare values and return a Boolean result (`True` or `False`).
 
 ```python

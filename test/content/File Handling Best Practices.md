@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [File IO Modes](./../file-io-modes/)
-# File Handling Best Practices
-
+# [File Handling Best Practices](./../file-handling-best-practices/) 
 These notes cover best practices for file handling in Python.
 
 **Key Areas:**

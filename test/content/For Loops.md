@@ -4,8 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python 1 Home](./../python-1-home/)
-# For Loops
-
+# [For Loops](./../for-loops/) 
 Python's `for` loop iterates over a sequence (like a list, tuple, string, or range) or other iterable object.
 
 ```python

@@ -10,6 +10,10 @@
   </url><url>
     <loc>http://example.org/15th-amendment/</loc>
   </url><url>
+    <loc>http://example.org/1733834341.6100469/</loc>
+  </url><url>
+    <loc>http://example.org/1733834473.4178078/</loc>
+  </url><url>
     <loc>http://example.org/2.--u-substitution/</loc>
   </url><url>
     <loc>http://example.org/3.-integration-by-parts/</loc>
@@ -226,6 +230,8 @@
   </url><url>
     <loc>http://example.org/code-style-guides/</loc>
   </url><url>
+    <loc>http://example.org/collision-reaction-theory/</loc>
+  </url><url>
     <loc>http://example.org/colorado/</loc>
   </url><url>
     <loc>http://example.org/combined-gas-law/</loc>
@@ -288,11 +294,15 @@
   </url><url>
     <loc>http://example.org/critical-point/</loc>
   </url><url>
+    <loc>http://example.org/cultural-diversion/</loc>
+  </url><url>
     <loc>http://example.org/cultural-lag/</loc>
   </url><url>
     <loc>http://example.org/cultural-landscape/</loc>
   </url><url>
     <loc>http://example.org/cultural-norms/</loc>
+  </url><url>
+    <loc>http://example.org/cultural-norms-1/</loc>
   </url><url>
     <loc>http://example.org/cultural-relativism/</loc>
   </url><url>
@@ -702,6 +712,8 @@
   </url><url>
     <loc>http://example.org/language/</loc>
   </url><url>
+    <loc>http://example.org/languages/</loc>
+  </url><url>
     <loc>http://example.org/lattice-energy/</loc>
   </url><url>
     <loc>http://example.org/lees-resolution/</loc>
@@ -1010,9 +1022,13 @@
   </url><url>
     <loc>http://example.org/raoults-law/</loc>
   </url><url>
+    <loc>http://example.org/rate-from-reaction-mechanism/</loc>
+  </url><url>
     <loc>http://example.org/rate-laws/</loc>
   </url><url>
     <loc>http://example.org/ravensteins-laws-of-migration/</loc>
+  </url><url>
+    <loc>http://example.org/reaction-mechanisms/</loc>
   </url><url>
     <loc>http://example.org/reaction-rates/</loc>
   </url><url>
@@ -1121,6 +1137,8 @@
     <loc>http://example.org/sigma-bond/</loc>
   </url><url>
     <loc>http://example.org/single-replacement-reaction/</loc>
+  </url><url>
+    <loc>http://example.org/smartphone-debate/</loc>
   </url><url>
     <loc>http://example.org/sociofacts/</loc>
   </url><url>
@@ -1246,9 +1264,11 @@
   </url><url>
     <loc>http://example.org/united-states/</loc>
   </url><url>
+    <loc>http://example.org/units-of-reaction-constant/</loc>
+  </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
-    <loc>http://example.org/untitled-1/</loc>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
