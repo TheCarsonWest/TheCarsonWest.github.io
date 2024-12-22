@@ -706,8 +706,6 @@
   </url><url>
     <loc>http://example.org/kittens/</loc>
   </url><url>
-    <loc>http://example.org/scripts/kittens/</loc>
-  </url><url>
     <loc>http://example.org/lambda-functions/</loc>
   </url><url>
     <loc>http://example.org/language/</loc>
@@ -1101,8 +1099,6 @@
     <loc>http://example.org/saturation/</loc>
   </url><url>
     <loc>http://example.org/scalawag/</loc>
-  </url><url>
-    <loc>http://example.org/scripts/</loc>
   </url><url>
     <loc>http://example.org/second-continental-congress/</loc>
   </url><url>
