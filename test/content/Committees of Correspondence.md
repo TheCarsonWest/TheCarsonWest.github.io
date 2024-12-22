@@ -3,24 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-**ID:** [Committees of Correspondence](./../committees-of-correspondence/)
+## ID: [Committees of Correspondence](./../committees-of-correspondence/) 
+## When: 1764-1776 (intensified after the [Stamp Act](./../stamp-act/) of 1765)
 
-**When:** Fall of 1772
+## Who: 
+* Colonial leaders and merchants in various colonies (e.g., [Samuel Adams](./../samuel-adams/) in Massachusetts)
+* Initially local, then expanded into intercolonial networks
 
-**Who:**
-* [Samuel Adams](./../samuel-adams/)
-* Thomas Cushing
-* James Warren
-* Joseph Warren
-* [John Hancock](./../john-hancock/)
+## What: 
+Networks of communication established by patriot leaders in the thirteen American colonies.  These committees exchanged letters and information about British policies and colonial grievances, fostering a sense of unity and collective action against British rule.  They organized boycotts, disseminated propaganda, and coordinated resistance efforts.
 
-**What:**
-* Networks of committees formed in British North America to coordinate opposition to British policies
-* Facilitated communication and a sense of unity among the colonies
-* Submitted petitions, printed propaganda, and organized protests against taxation and other grievances
+## Impact: Why Significant?:
+* **Increased Colonial Unity:** Facilitated communication and cooperation among the colonies, fostering a shared sense of identity and purpose in opposition to British policies.
+* **Spread of Propaganda:**  Disseminated information and pamphlets that fueled anti-British sentiment and mobilized colonial resistance.
+* **Coordination of Resistance:**  Organized boycotts of British goods and coordinated colonial responses to British actions.
+* **Early Steps Towards Revolution:**  Played a crucial role in escalating tensions with Britain and laying the groundwork for the American Revolution.  Their actions helped create a sense of shared grievance and collective purpose that proved essential in the eventual decision to declare independence.
+* **Foundation of Revolutionary Organization:** The committees served as a precursor to the Continental Congress, demonstrating the capacity for colonial cooperation on a larger scale.
 
-**Impact:**
-* Strengthened colonial solidarity and resistance to British authority
-* Played a key role in mobilizing support for the American Revolution
-* Provided a foundation for the future [United States](./../united-states/) Congress
-#ids
+
+# [IDS Unit 4](./../ids-unit-4/)

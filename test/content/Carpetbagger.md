@@ -7,7 +7,7 @@
 ## When:  1865-1877 (Reconstruction Era)
 
 ## Who: 
-- Northerners who moved to the South after the Civil War. 
+- Northerners who moved to the South after the [Civil War](./../civil-war/). 
 - Many were white, some were Black.
 - Many were involved in politics, business, or education.
 

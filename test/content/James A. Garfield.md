@@ -9,8 +9,7 @@
 
 * Born on November 19, 1831, in Moreland Hills, [Ohio](./../ohio/)
 * Attended Hiram College and Western Reserve College
-* Served as a Union general in the Civil War
-
+* Served as a Union general in the [Civil War](./../civil-war/) 
 **Political Career:**
 
 * Elected to the U.S. House of Representatives in 1863

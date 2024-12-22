@@ -12,7 +12,7 @@
 4. [Lowell Textile Mill](./../lowell-textile-mill/)
 5. [Cotton Gin](./../cotton-gin/)
  
-## Causes of the Civil War
+## Causes of the [Civil War](./../civil-war/) 
 6. [Free-soilers](./../free-soilers/)
 7.  [sectionalism](./../sectionalism/) 
 8. [Wilmot Proviso](./../wilmot-proviso/)
@@ -29,7 +29,7 @@
 19. [Harpers Ferry Raid](./../harpers-ferry-raid/)
 20. [Election of 1860](./../election-of-1860/)
 
-## Civil War
+## [Civil War](./../civil-war/) 
 21. [Fort Sumter](./../fort-sumter/)
 22. [Anaconda Plan](./../anaconda-plan/)
 23. [Battle of Bull Run](./../battle-of-bull-run/)

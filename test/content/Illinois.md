@@ -11,8 +11,7 @@
 * **1818:** [Illinois](./../illinois/) admitted to the Union as the 21st state
 * **1833:** Black Hawk War fought between settlers and Native Americans
 * **1854:** [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act, passed in part by [Illinois](./../illinois/) Senator Stephen Douglas, which allowed slavery in the territories
-* **1861:** [Illinois](./../illinois/) sends a record number of troops to fight in the Civil War
-* **1868:** University of [Illinois](./../illinois/) at Urbana-Champaign founded
+* **1861:** [Illinois](./../illinois/) sends a record number of troops to fight in the [Civil War](./../civil-war/) * **1868:** University of [Illinois](./../illinois/) at Urbana-Champaign founded
 * **1886:** Haymarket Massacre, a labor protest that turned violent, results in the deaths of several workers and police officers
 * **1893:** Columbian Exposition (World's Fair) held in Chicago
 * **1911:** University of Chicago Law School founded
@@ -42,7 +41,7 @@
 
 **Impact on the Rest of the Country:**
 
-* [Illinois](./../illinois/) was a key battleground in the Civil War and contributed significantly to the Union cause.
+* [Illinois](./../illinois/) was a key battleground in the [Civil War](./../civil-war/) and contributed significantly to the Union cause.
 * [Illinois](./../illinois/) played a major role in the development of the American labor movement and the fight for civil rights.
 * Chicago became a major economic and cultural center in the late 19th and early 20th centuries.
 * [Illinois](./../illinois/) remains a pivotal state in American politics and is often a bellwether for national elections.

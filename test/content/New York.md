@@ -14,8 +14,7 @@
 * **1789:** [New York](./../new-york/) ratifies the Constitution
 * **1812:** [New York](./../new-york/) is a major battleground in the [War of 1812](./../war-of-1812/)
 * **1825:** Opening of the Erie Canal
-* **1861:** [New York](./../new-york/) joins the Union at the start of the Civil War
-* **1898:** Spanish-American War results in [New York](./../new-york/) becoming a major port of entry for immigrants
+* **1861:** [New York](./../new-york/) joins the Union at the start of the [Civil War](./../civil-war/) * **1898:** Spanish-American War results in [New York](./../new-york/) becoming a major port of entry for immigrants
 * **1929:** Stock market crash in [New York](./../new-york/) leads to the Great Depression
 * **1954:** Brown v. Board of Education (case originating in [New York](./../new-york/)) ends school segregation
 * **1973:** [New York](./../new-york/) City fiscal crisis

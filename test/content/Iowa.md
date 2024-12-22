@@ -10,8 +10,7 @@
 * **1838:** [Iowa](./../iowa/) Territory established
 * **1846:** [Iowa](./../iowa/) becomes the 29th state
 * **1850:** Fugitive Slave Law passed, forcing [Iowa](./../iowa/) to assist in the capture of enslaved individuals
-* **1861:** [Iowa](./../iowa/) joins the Union in the Civil War
-* **1869:** Transcontinental Railroad completed, connecting [Iowa](./../iowa/) to the West Coast
+* **1861:** [Iowa](./../iowa/) joins the Union in the [Civil War](./../civil-war/) * **1869:** Transcontinental Railroad completed, connecting [Iowa](./../iowa/) to the West Coast
 * **1919:** [Iowa](./../iowa/) adopts prohibition
 * **1933:** Repeal of prohibition
 * **1954:** Brown v. Board of Education, landmark Supreme Court case ending segregation in public schools

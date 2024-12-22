@@ -17,8 +17,7 @@
 * **1788:** [Massachusetts](./../massachusetts/) ratifies the U.S. Constitution
 * **1820:** [Missouri](./../missouri/) Compromise ( [Massachusetts](./../massachusetts/) opposed slavery)
 * **1857:** Dred Scott v. Sandford ( [Massachusetts](./../massachusetts/) opposed the decision)
-* **1861:** [Massachusetts](./../massachusetts/) sends volunteer regiments to fight in the Civil War
-* **1919:** Boston Police Strike
+* **1861:** [Massachusetts](./../massachusetts/) sends volunteer regiments to fight in the [Civil War](./../civil-war/) * **1919:** Boston Police Strike
 * **1954:** Brown v. Board of Education ( [Massachusetts](./../massachusetts/) had already desegregated its schools)
 * **1961:** Kennedy administration
 * **1974:** Busing crisis in Boston

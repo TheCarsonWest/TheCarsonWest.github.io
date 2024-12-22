@@ -98,10 +98,6 @@
   </url><url>
     <loc>http://example.org/apush-place/</loc>
   </url><url>
-    <loc>http://example.org/arabic-home/</loc>
-  </url><url>
-    <loc>http://example.org/arabic-plurals-and-duals/</loc>
-  </url><url>
     <loc>http://example.org/arizona/</loc>
   </url><url>
     <loc>http://example.org/arkansas/</loc>
@@ -221,6 +217,8 @@
     <loc>http://example.org/chromatography/</loc>
   </url><url>
     <loc>http://example.org/civil-rights-act-of-1866/</loc>
+  </url><url>
+    <loc>http://example.org/civil-war/</loc>
   </url><url>
     <loc>http://example.org/classes-and-objects/</loc>
   </url><url>
@@ -730,6 +728,8 @@
   </url><url>
     <loc>http://example.org/lincoln-douglas-debates/</loc>
   </url><url>
+    <loc>http://example.org/lingua-franca/</loc>
+  </url><url>
     <loc>http://example.org/list-comprehension/</loc>
   </url><url>
     <loc>http://example.org/list-comprehension-performance/</loc>
@@ -757,8 +757,6 @@
     <loc>http://example.org/lowell-textile-mill/</loc>
   </url><url>
     <loc>http://example.org/lyndon-b.-johnson/</loc>
-  </url><url>
-    <loc>http://example.org/m1l1-grammar/</loc>
   </url><url>
     <loc>http://example.org/magnetic-constant/</loc>
   </url><url>
@@ -809,16 +807,6 @@
     <loc>http://example.org/missouri/</loc>
   </url><url>
     <loc>http://example.org/missouri-compromise/</loc>
-  </url><url>
-    <loc>http://example.org/module-1/</loc>
-  </url><url>
-    <loc>http://example.org/module-2/</loc>
-  </url><url>
-    <loc>http://example.org/module-2-lesson-1/</loc>
-  </url><url>
-    <loc>http://example.org/module-2-lesson-1-conversation/</loc>
-  </url><url>
-    <loc>http://example.org/module-2-lesson-1-vocabulary/</loc>
   </url><url>
     <loc>http://example.org/module-search-path/</loc>
   </url><url>
@@ -1206,8 +1194,6 @@
   </url><url>
     <loc>http://example.org/the-american-system/</loc>
   </url><url>
-    <loc>http://example.org/the-arab-market/</loc>
-  </url><url>
     <loc>http://example.org/the-assassination-of-abraham-lincoln/</loc>
   </url><url>
     <loc>http://example.org/the-nature-of-geography-1.1/</loc>
@@ -1267,8 +1253,6 @@
     <loc>http://example.org/units-of-reaction-constant/</loc>
   </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

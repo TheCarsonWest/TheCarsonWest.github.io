@@ -10,8 +10,7 @@
 * Born in Raleigh, [North Carolina](./../north-carolina/) to a poor family
 * Self-educated; became a successful tailor and politician
 * Served in the [Tennessee](./../tennessee/) legislature and U.S. House of Representatives
-* Governor of [Tennessee](./../tennessee/) during the Civil War
-
+* Governor of [Tennessee](./../tennessee/) during the [Civil War](./../civil-war/) 
 **Civil War and Reconstruction:**
 
 * Military governor of [Tennessee](./../tennessee/) after its capture by Union forces

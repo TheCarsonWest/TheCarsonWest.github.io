@@ -36,6 +36,6 @@
 
 * [Virginia](./../virginia/) played a key role in the founding of the [United States](./../united-states/).
 * Its Declaration of Rights influenced the U.S. Constitution.
-* Its role in the Civil War had a profound impact on the nation's history.
+* Its role in the [Civil War](./../civil-war/) had a profound impact on the nation's history.
 * [Virginia](./../virginia/)'s agricultural industry contributed significantly to the nation's economy.
 * The state has been home to many notable historical figures, including George [Washington](./../washington/), [Thomas Jefferson](./../thomas-jefferson/), and Robert E. Lee.

@@ -34,4 +34,4 @@
 
 * West [Virginia](./../virginia/)'s coal industry has played a vital role in the nation's energy supply.
 * The state's commitment to social welfare and labor rights has shaped national policies.
-* West [Virginia](./../virginia/)'s participation in the Civil War contributed to the preservation of the Union and the abolition of slavery.
+* West [Virginia](./../virginia/)'s participation in the [Civil War](./../civil-war/) contributed to the preservation of the Union and the abolition of slavery.

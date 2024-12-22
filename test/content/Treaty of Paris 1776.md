@@ -3,18 +3,24 @@
 [params]
 	author = 'Carson West'
 +++
-**Topic:** Treaty of Paris 1783
+## ID: Treaty of Paris (1783)
 
-**When:** September 3, 1783
+## When: September 3, 1783
 
-**Who:** [Great Britain](./../great-britain/), [United States](./../united-states/), [France](./../france/)
+## Who:
+* **Great Britain:** Represented by David Hartley
+* **United States:** Represented by John Adams, Benjamin Franklin, John Jay
 
-**What:** A peace treaty that ended the American Revolutionary War and formally recognized the [United States](./../united-states/) as an independent nation.
+## What: 
+A treaty formally ending the American Revolutionary War between [Great Britain](./../great-britain/) and the United States.  It officially recognized the independence of the thirteen colonies and defined the boundaries of the new nation.
 
-**Impact:**
+## Impact: Why Significant?:
+* **American Independence:**  Officially recognized the sovereignty and independence of the United States.
+* **Territorial Gains:** Granted the [United States](./../united-states/) vast territories, encompassing land east of the [Mississippi](./../mississippi/) River,  including much of present-day Canada and the [Florida](./../florida/) Panhandle.  (Specific boundaries were a subject of later disputes).
+* **Fishing Rights:** Secured fishing rights for Americans off the coast of Newfoundland.
+* **Return of Loyalists' Property:**  While the treaty addressed the issue of the return of Loyalist property, this provision was largely unenforced.
+* **End of Hostilities:** Formal conclusion of the war, bringing an end to fighting between the two nations.
+* **Impact on Native Americans:** The treaty largely ignored the rights of Native Americans who had allied with Great Britain, leading to continued conflict and westward expansion.  British cession of western lands to the US led to displacement and conflict with Native American populations.
 
-* Established the boundaries of the [United States](./../united-states/), granting it significant territory west of the Appalachian Mountains.
-* Solidified American independence and marked the end of British colonial rule in North America.
-* Set the stage for the development of a new American nation, free from British influence.
- [IDs unit 2](./../ids-unit-2/)
-#ids
+
+# [IDS Unit 4](./../ids-unit-4/)

@@ -3,20 +3,21 @@
 [params]
 	author = 'Carson West'
 +++
-**ID:** [Salutary Neglect](./../salutary-neglect/)
+## ID: [Salutary Neglect](./../salutary-neglect/) 
+## When: Roughly 1607-1763 (Beginning with Jamestown settlement, ending with the French and Indian War)
 
-**When:** c. 1720s - 1760s
+## Who:
+* **Great Britain:**  The British government and its appointed officials in the American colonies.
+* **American Colonists:**  The thirteen colonies, developing increasingly distinct regional identities and economies.
 
-**Who:** British government, American colonies
+## What: 
+A period of British colonial policy characterized by relaxed enforcement of laws and regulations in the American colonies.  This informal policy allowed the colonists a significant degree of autonomy in managing their own affairs. While still nominally under British rule, the colonies experienced less direct interference from the Crown. This included lax enforcement of mercantilist policies (Navigation Acts, etc.), allowing colonists to engage in more profitable (albeit illegal) trade with other nations.
 
-**What:**
+## Impact: Why Significant?:
+* **Colonial Self-Governance:** Salutary neglect fostered the growth of self-governance and representative institutions within the colonies. Colonists developed their own political systems and traditions relatively free from direct interference, which would contribute to a sense of colonial identity separate from Britain.
+* **Economic Development:**  Relaxed enforcement of trade regulations allowed the colonial economy to flourish, particularly through triangular trade and the development of various industries.
+* **Growth of Colonial Identity:** The relative autonomy bred a distinct American identity and culture, increasingly different from that of Britain. This growing sense of independence would contribute to tensions leading up to the American Revolution.
+* **End of Salutary Neglect:** The [French and Indian War](./../french-and-indian-war/) (1754-1763) marked a turning point.  The war's expense led Britain to reassert greater control over the colonies, implementing stricter policies and taxes that ultimately fueled colonial resentment and resistance, paving the way for the American Revolution.
 
-* British policy of deliberately ignoring minor colonial laws and regulations to allow for economic growth and self-governance in the colonies.
-* Allowed colonies to develop their own industries, trade, and political systems with limited British interference.
 
-**Impact:**
-
-* Stimulated economic growth in the colonies.
-* Fostered a sense of independence and self-reliance among colonists.
-* Laid the groundwork for the American Revolution as it contributed to the development of a separate American identity and the perception that Britain was not providing adequate support.
-#ids
+# [IDS Unit 4](./../ids-unit-4/)

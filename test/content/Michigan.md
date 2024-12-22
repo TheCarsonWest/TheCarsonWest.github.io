@@ -13,8 +13,7 @@
 * 1805: [Michigan](./../michigan/) Territory is established
 * 1837: [Michigan](./../michigan/) becomes a state
 * 1854: [Michigan](./../michigan/) passes the Fugitive Slave Law
-* 1861-1865: [Michigan](./../michigan/) contributes over 90,000 troops to the Union Army during the Civil War
-* 1870s-1880s: [Michigan](./../michigan/) experiences a period of rapid industrial growth, particularly in the automotive industry
+* 1861-1865: [Michigan](./../michigan/) contributes over 90,000 troops to the Union Army during the [Civil War](./../civil-war/) * 1870s-1880s: [Michigan](./../michigan/) experiences a period of rapid industrial growth, particularly in the automotive industry
 * 1913: [Michigan](./../michigan/) passes the [Michigan](./../michigan/) Mother's Pension Act, one of the first laws in the [United States](./../united-states/) to provide financial assistance to single mothers
 * 1935: [Michigan](./../michigan/) signs the Social Security Act
 * 1941-1945: [Michigan](./../michigan/)'s economy booms during World War II due to the production of war materials

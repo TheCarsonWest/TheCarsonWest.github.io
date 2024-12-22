@@ -8,8 +8,7 @@
 **Timeline**
 
 * **1848:** [Wisconsin](./../wisconsin/) becomes the 30th state
-* **1861-1865:** [Wisconsin](./../wisconsin/) contributes over 91,000 troops to the Union Army during the Civil War
-* **1870s:** [Wisconsin](./../wisconsin/) becomes a major center for farming, lumber, and mining
+* **1861-1865:** [Wisconsin](./../wisconsin/) contributes over 91,000 troops to the Union Army during the [Civil War](./../civil-war/) * **1870s:** [Wisconsin](./../wisconsin/) becomes a major center for farming, lumber, and mining
 * **1903:** Robert M. La Follette Sr. is elected governor, beginning a progressive era in [Wisconsin](./../wisconsin/)
 * **1911:** [Wisconsin](./../wisconsin/) passes the "La Follette Code," a series of progressive reforms
 * **1924:** [Wisconsin](./../wisconsin/) enacts the first unemployment insurance law in the [United States](./../united-states/)
@@ -39,6 +38,5 @@
 **Impact on the Rest of the Country**
 
 * [Wisconsin](./../wisconsin/)'s progressive reforms in the early 20th century served as a model for other states
-* [Wisconsin](./../wisconsin/) was a major contributor to the Union victory in the Civil War
-* [Wisconsin](./../wisconsin/)'s agricultural and manufacturing industries have played a significant role in the nation's economy
+* [Wisconsin](./../wisconsin/) was a major contributor to the Union victory in the [Civil War](./../civil-war/) * [Wisconsin](./../wisconsin/)'s agricultural and manufacturing industries have played a significant role in the nation's economy
 * [Wisconsin](./../wisconsin/)'s court cases have had a major impact on the development of constitutional law in the [United States](./../united-states/)
