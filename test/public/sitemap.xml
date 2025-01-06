@@ -98,6 +98,8 @@
   </url><url>
     <loc>http://example.org/apush-place/</loc>
   </url><url>
+    <loc>http://example.org/arabic-vocab-lists/</loc>
+  </url><url>
     <loc>http://example.org/arizona/</loc>
   </url><url>
     <loc>http://example.org/arkansas/</loc>
@@ -758,6 +760,30 @@
   </url><url>
     <loc>http://example.org/lyndon-b.-johnson/</loc>
   </url><url>
+    <loc>http://example.org/m1l1-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m1l2-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m1l3-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m2l1-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m2l2-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m2l3-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m3l1-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m3l2-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m3l3-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m4l1-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m4l2-vocab/</loc>
+  </url><url>
+    <loc>http://example.org/m4l3-vocab/</loc>
+  </url><url>
     <loc>http://example.org/magnetic-constant/</loc>
   </url><url>
     <loc>http://example.org/maine/</loc>
@@ -1253,6 +1279,10 @@
     <loc>http://example.org/units-of-reaction-constant/</loc>
   </url><url>
     <loc>http://example.org/universal-gas-constant/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>

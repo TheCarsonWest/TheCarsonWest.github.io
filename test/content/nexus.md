@@ -19,4 +19,5 @@ node_size: "100"
 
 # [Calc home](./../calc-home/)
 
+[arabic vocab lists](./../arabic-vocab-lists/)
 
