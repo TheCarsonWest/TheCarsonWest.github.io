@@ -58,6 +58,8 @@
   </url><url>
     <loc>http://example.org/analyzing-functions-with-the-second-derivative/</loc>
   </url><url>
+    <loc>http://example.org/andrew-carnegie/</loc>
+  </url><url>
     <loc>http://example.org/andrew-jackson/</loc>
   </url><url>
     <loc>http://example.org/andrew-johnson/</loc>
@@ -144,9 +146,13 @@
   </url><url>
     <loc>http://example.org/benjamin-harrison/</loc>
   </url><url>
+    <loc>http://example.org/bessemer-process/</loc>
+  </url><url>
     <loc>http://example.org/bill-clinton/</loc>
   </url><url>
     <loc>http://example.org/bill-of-rights/</loc>
+  </url><url>
+    <loc>http://example.org/bimetallism/</loc>
   </url><url>
     <loc>http://example.org/binary-representation-of-numbers/</loc>
   </url><url>
@@ -296,6 +302,8 @@
   </url><url>
     <loc>http://example.org/critical-point/</loc>
   </url><url>
+    <loc>http://example.org/cross-of-gold-speech/</loc>
+  </url><url>
     <loc>http://example.org/cultural-diversion/</loc>
   </url><url>
     <loc>http://example.org/cultural-lag/</loc>
@@ -325,6 +333,8 @@
     <loc>http://example.org/data-types/</loc>
   </url><url>
     <loc>http://example.org/data-visualization-with-matplotlib/</loc>
+  </url><url>
+    <loc>http://example.org/dawes-severalty-act-of-1887/</loc>
   </url><url>
     <loc>http://example.org/declaration-of-independence/</loc>
   </url><url>
@@ -556,6 +566,8 @@
   </url><url>
     <loc>http://example.org/gettysburg-address/</loc>
   </url><url>
+    <loc>http://example.org/gilded-age/</loc>
+  </url><url>
     <loc>http://example.org/global-migration-through-history/</loc>
   </url><url>
     <loc>http://example.org/global-scale/</loc>
@@ -566,7 +578,11 @@
   </url><url>
     <loc>http://example.org/glossary/</loc>
   </url><url>
+    <loc>http://example.org/gold-standard/</loc>
+  </url><url>
     <loc>http://example.org/graduated-symbols/</loc>
+  </url><url>
+    <loc>http://example.org/granger-laws/</loc>
   </url><url>
     <loc>http://example.org/great-awakening/</loc>
   </url><url>
@@ -620,6 +636,8 @@
   </url><url>
     <loc>http://example.org/ids-unit-4/</loc>
   </url><url>
+    <loc>http://example.org/ids-unit-5/</loc>
+  </url><url>
     <loc>http://example.org/if-elif-else-statements/</loc>
   </url><url>
     <loc>http://example.org/illinois/</loc>
@@ -656,6 +674,8 @@
   </url><url>
     <loc>http://example.org/intermolecular-forces/</loc>
   </url><url>
+    <loc>http://example.org/interstate-commerce-act-1887/</loc>
+  </url><url>
     <loc>http://example.org/intervening-obstacles/</loc>
   </url><url>
     <loc>http://example.org/intolerable-acts/</loc>
@@ -678,6 +698,8 @@
   </url><url>
     <loc>http://example.org/iterators/</loc>
   </url><url>
+    <loc>http://example.org/j.p.-morgan/</loc>
+  </url><url>
     <loc>http://example.org/james-a.-garfield/</loc>
   </url><url>
     <loc>http://example.org/james-buchanan/</loc>
@@ -697,6 +719,8 @@
     <loc>http://example.org/joe-biden/</loc>
   </url><url>
     <loc>http://example.org/john-adams/</loc>
+  </url><url>
+    <loc>http://example.org/john-d.-rockefeller/</loc>
   </url><url>
     <loc>http://example.org/john-f.-kennedy/</loc>
   </url><url>
@@ -720,6 +744,10 @@
   </url><url>
     <loc>http://example.org/kittens/</loc>
   </url><url>
+    <loc>http://example.org/labor-unions/</loc>
+  </url><url>
+    <loc>http://example.org/laissez-faire-government/</loc>
+  </url><url>
     <loc>http://example.org/lambda-functions/</loc>
   </url><url>
     <loc>http://example.org/language/</loc>
@@ -741,6 +769,8 @@
     <loc>http://example.org/libraries-like-numpy/</loc>
   </url><url>
     <loc>http://example.org/libraries-like-pandas/</loc>
+  </url><url>
+    <loc>http://example.org/lilliputians/</loc>
   </url><url>
     <loc>http://example.org/lincoln-douglas-debates/</loc>
   </url><url>
@@ -934,6 +964,8 @@
   </url><url>
     <loc>http://example.org/olive-branch-petition/</loc>
   </url><url>
+    <loc>http://example.org/omaha-platform/</loc>
+  </url><url>
     <loc>http://example.org/operator-overloading/</loc>
   </url><url>
     <loc>http://example.org/operator-precedence/</loc>
@@ -964,6 +996,8 @@
   </url><url>
     <loc>http://example.org/particulate-diagrams-of-solutions/</loc>
   </url><url>
+    <loc>http://example.org/pendleton-act/</loc>
+  </url><url>
     <loc>http://example.org/pennsylvania/</loc>
   </url><url>
     <loc>http://example.org/pequot-war/</loc>
@@ -990,6 +1024,8 @@
   </url><url>
     <loc>http://example.org/polarizability/</loc>
   </url><url>
+    <loc>http://example.org/political-machines/</loc>
+  </url><url>
     <loc>http://example.org/polymorphism/</loc>
   </url><url>
     <loc>http://example.org/popular-culture/</loc>
@@ -1006,11 +1042,17 @@
   </url><url>
     <loc>http://example.org/population-pyramids/</loc>
   </url><url>
+    <loc>http://example.org/populist-party/</loc>
+  </url><url>
+    <loc>http://example.org/populists/</loc>
+  </url><url>
     <loc>http://example.org/postmodern-architecture/</loc>
   </url><url>
     <loc>http://example.org/potus/</loc>
   </url><url>
     <loc>http://example.org/power-rule/</loc>
+  </url><url>
+    <loc>http://example.org/presidential-election-of-1896/</loc>
   </url><url>
     <loc>http://example.org/private-and-protected-members/</loc>
   </url><url>
@@ -1124,6 +1166,8 @@
   </url><url>
     <loc>http://example.org/riemann-sums/</loc>
   </url><url>
+    <loc>http://example.org/robber-barons/</loc>
+  </url><url>
     <loc>http://example.org/rolles-theorem/</loc>
   </url><url>
     <loc>http://example.org/ronald-reagan/</loc>
@@ -1214,6 +1258,8 @@
   </url><url>
     <loc>http://example.org/tags/</loc>
   </url><url>
+    <loc>http://example.org/tammany-hall/</loc>
+  </url><url>
     <loc>http://example.org/tangent-lines/</loc>
   </url><url>
     <loc>http://example.org/tariff-of-abominations/</loc>
@@ -1252,6 +1298,8 @@
   </url><url>
     <loc>http://example.org/thomas-jefferson/</loc>
   </url><url>
+    <loc>http://example.org/thomas-nast/</loc>
+  </url><url>
     <loc>http://example.org/titration/</loc>
   </url><url>
     <loc>http://example.org/toponyms/</loc>
@@ -1265,6 +1313,8 @@
     <loc>http://example.org/traditional-culture/</loc>
   </url><url>
     <loc>http://example.org/transcendentalism/</loc>
+  </url><url>
+    <loc>http://example.org/transcontinental-railroad/</loc>
   </url><url>
     <loc>http://example.org/trapezoidal-rule/</loc>
   </url><url>
@@ -1361,6 +1411,8 @@
     <loc>http://example.org/worcester-v-georgia/</loc>
   </url><url>
     <loc>http://example.org/wyoming/</loc>
+  </url><url>
+    <loc>http://example.org/xenophobia/</loc>
   </url><url>
     <loc>http://example.org/xyz-affair/</loc>
   </url><url>
