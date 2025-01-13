@@ -3,6 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
+# [nexus](./../nexus/)
+
+- [non programming things about python](./../non-programming-things-about-python/)
+
 - [Variables and Data Types](./../variables-and-data-types/)
  - [Operators](./../operators/)
  - [Control Flow If Statements](./../control-flow-if-statements/)

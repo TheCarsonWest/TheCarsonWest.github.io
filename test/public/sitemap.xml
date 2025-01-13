@@ -124,6 +124,8 @@
   </url><url>
     <loc>http://example.org/barack-obama/</loc>
   </url><url>
+    <loc>http://example.org/basic-programming/</loc>
+  </url><url>
     <loc>http://example.org/battle-of-antietam/</loc>
   </url><url>
     <loc>http://example.org/battle-of-bull-run/</loc>
@@ -420,7 +422,13 @@
   </url><url>
     <loc>http://example.org/encapsulation-in-python/</loc>
   </url><url>
+    <loc>http://example.org/endothermic/</loc>
+  </url><url>
     <loc>http://example.org/enlightenment/</loc>
+  </url><url>
+    <loc>http://example.org/enthalpy/</loc>
+  </url><url>
+    <loc>http://example.org/entropy/</loc>
   </url><url>
     <loc>http://example.org/era-of-good-feelings/</loc>
   </url><url>
@@ -443,6 +451,8 @@
     <loc>http://example.org/exception-handling/</loc>
   </url><url>
     <loc>http://example.org/exception-handling-examples/</loc>
+  </url><url>
+    <loc>http://example.org/exothermic/</loc>
   </url><url>
     <loc>http://example.org/exponent-rule/</loc>
   </url><url>
@@ -580,6 +590,8 @@
   </url><url>
     <loc>http://example.org/headright-system/</loc>
   </url><url>
+    <loc>http://example.org/heat/</loc>
+  </url><url>
     <loc>http://example.org/henry-david-thoreau/</loc>
   </url><url>
     <loc>http://example.org/henrys-law/</loc>
@@ -715,6 +727,8 @@
     <loc>http://example.org/languages/</loc>
   </url><url>
     <loc>http://example.org/lattice-energy/</loc>
+  </url><url>
+    <loc>http://example.org/laws-of-conservation/</loc>
   </url><url>
     <loc>http://example.org/lees-resolution/</loc>
   </url><url>
@@ -891,6 +905,8 @@
     <loc>http://example.org/new-york/</loc>
   </url><url>
     <loc>http://example.org/nexus/</loc>
+  </url><url>
+    <loc>http://example.org/non-programming-things-about-python/</loc>
   </url><url>
     <loc>http://example.org/north-carolina/</loc>
   </url><url>
@@ -1206,6 +1222,8 @@
   </url><url>
     <loc>http://example.org/techniques-of-integration/</loc>
   </url><url>
+    <loc>http://example.org/temperature/</loc>
+  </url><url>
     <loc>http://example.org/tenant-farming/</loc>
   </url><url>
     <loc>http://example.org/tennessee/</loc>
@@ -1227,6 +1245,8 @@
     <loc>http://example.org/the-wealth-of-nations/</loc>
   </url><url>
     <loc>http://example.org/theodore-roosevelt/</loc>
+  </url><url>
+    <loc>http://example.org/thermodynamics/</loc>
   </url><url>
     <loc>http://example.org/third-place/</loc>
   </url><url>
@@ -1281,8 +1301,6 @@
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
-  </url><url>
-    <loc>http://example.org/untitled-1/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
   </url><url>
