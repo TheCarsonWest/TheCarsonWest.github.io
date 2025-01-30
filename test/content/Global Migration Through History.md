@@ -10,9 +10,9 @@
 ### **Effects of Colonization:**
 
 * **Increased Migration:** European exploration led to a dramatic increase in migration across the globe.
-* **Cultural Diffusion:** European culture spread worldwide, impacting indigenous populations.
+* **Cultural Diffusion:** European [Culture](./../culture/) spread worldwide, impacting indigenous populations.
 * **Indigenous Displacement:** European diseases decimated indigenous populations, leading to their cultural replacement.
-* **Dominant [Languages](./../languages/) and [Religion](./../religion/):** European languages and Christianity became dominant in the Western Hemisphere.
+* **Dominant [Languages](./../languages/) and [Religion](./../religion/):** European [Languages](./../languages/) and Christianity became dominant in the Western Hemisphere.
 * **Columbian Exchange:** Exchange of goods and ideas between Europeans and their colonies.
 
 ### **Forced Migration:**

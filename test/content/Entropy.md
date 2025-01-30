@@ -14,6 +14,6 @@ where:
 
 * ΔS = change in entropy
 * q<sub>rev</sub> = heat transferred reversibly
-* T = absolute temperature
+* T = absolute [Temperature](./../temperature/)
 
 # [Thermodynamics](./../thermodynamics/)

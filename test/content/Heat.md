@@ -7,7 +7,7 @@
 
 ## Heat
 
-Heat (q) is the transfer of thermal energy between objects at different temperatures.  Heat flows spontaneously from a hotter object to a colder object until thermal equilibrium is reached.  Heat is measured in Joules (J) or calories (cal).  The relationship between heat and temperature change is given by:
+Heat (q) is the transfer of thermal energy between objects at different temperatures.  Heat flows spontaneously from a hotter object to a colder object until thermal equilibrium is reached.  Heat is measured in Joules (J) or calories (cal).  The relationship between heat and [Temperature](./../temperature/) change is given by:
 
  $$ q = mc\Delta T $$  
 where:

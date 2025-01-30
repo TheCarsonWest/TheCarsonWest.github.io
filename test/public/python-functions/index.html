@@ -64,20 +64,20 @@
 <ul>
 <li><strong>Positional Arguments:</strong> Arguments passed in the order they are defined in the function definition.</li>
 <li><strong>Keyword Arguments:</strong> Arguments passed using the <code>keyword=value</code> syntax.  This allows for flexibility in argument order.</li>
-<li><strong>Default Arguments:</strong> Arguments that have a default value specified in the function definition.  If not provided during the function call, the default value is used.</li>
-<li><strong>Variable-Length Arguments (<code>*args</code>, <code>**kwargs</code>):</strong>  Used to handle a variable number of positional or keyword arguments, respectively. <a href="./../variable-length-arguments-in-python/">Variable Length Arguments in Python</a></li>
+<li><strong><a href="./../default-arguments/">Default Arguments</a>:</strong> Arguments that have a default value specified in the function definition.  If not provided during the function call, the default value is used.</li>
+<li><strong><a href="./../variable-length-arguments/">Variable-Length Arguments</a> (<code>*args</code>, <code>**kwargs</code>):</strong>  Used to handle a variable number of positional or keyword arguments, respectively. <a href="./../variable-length-arguments-in-python/">Variable Length Arguments in Python</a></li>
 </ul>
 <p><strong>Scope and Lifetime of Variables:</strong></p>
 <ul>
 <li><strong>Local Variables:</strong> Variables defined inside a function are local to that function.</li>
 <li><strong>Global Variables:</strong> Variables defined outside any function.  They can be accessed from within functions, but modifying them requires the <code>global</code> keyword. <a href="./../variable-scope-and-lifetime/">Variable Scope and Lifetime</a></li>
 </ul>
-<p><strong>Lambda Functions (Anonymous Functions):</strong></p>
+<p><strong><a href="./../lambda-functions/">Lambda Functions</a> (Anonymous Functions):</strong></p>
 <p>These are small, anonymous functions defined using the <code>lambda</code> keyword. They are often used for short, simple operations.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>square <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">*</span>x
 </span></span><span style="display:flex;"><span>print(square(<span style="color:#ae81ff">5</span>)) <span style="color:#75715e"># Prints 25</span>
 </span></span></code></pre></div><p><strong>Recursive Functions:</strong></p>
-<p>Functions that call themselves.  They must have a base case to avoid infinite recursion. <a href="./../recursion-in-python/">Recursion in Python</a></p>
+<p>Functions that call themselves.  They must have a base case to avoid infinite <a href="./../recursion/">Recursion</a>. <a href="./../recursion-in-python/">Recursion in Python</a></p>
 <p><strong>Decorators:</strong></p>
 <p>A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the <code>@</code> symbol. <a href="./../python-decorators/">Python Decorators</a></p>
 <p><strong>Higher-Order Functions:</strong></p>

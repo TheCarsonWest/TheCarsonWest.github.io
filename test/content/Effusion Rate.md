@@ -24,7 +24,7 @@ Where:
 *  $ M_1 $  is the molar mass of gas 1
 *  $ M_2 $  is the molar mass of gas 2
 
-This relationship makes intuitive sense.  Lighter molecules, on average, move faster than heavier molecules at the same temperature. [Kinetic Molecular Theory](./../kinetic-molecular-theory/) Therefore, they are more likely to encounter and pass through the small opening.
+This relationship makes intuitive sense.  Lighter molecules, on average, move faster than heavier molecules at the same [Temperature](./../temperature/). [Kinetic Molecular Theory](./../kinetic-molecular-theory/) Therefore, they are more likely to encounter and pass through the small opening.
 
 ## Example Calculations
 

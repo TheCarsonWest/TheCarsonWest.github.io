@@ -8,6 +8,6 @@
 # [Centripetal Force](./../centripetal-force/) 
 **Definition:**  A force that unites people and promotes national unity.
 
-**Example:**  A shared language, national holidays, a common enemy.
+**Example:**  A shared [Language](./../language/), national holidays, a common enemy.
 
 # [Glossary](./../glossary/)

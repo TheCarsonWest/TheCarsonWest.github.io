@@ -14,11 +14,11 @@ Higher concentrations generally lead to faster [reaction rates](./../reaction-ra
 
 ## 2. Temperature
 
-Increasing the temperature significantly accelerates most reactions.  Higher temperatures provide reactant particles with greater kinetic energy, leading to more frequent and more energetic collisions.  The fraction of collisions with sufficient energy to overcome the [activation energy](./../activation-energy/) ( $ E_a $ ) increases exponentially with temperature. This relationship is often described by the Arrhenius equation:
+Increasing the [Temperature](./../temperature/) significantly accelerates most reactions.  Higher temperatures provide reactant particles with greater kinetic energy, leading to more frequent and more energetic collisions.  The fraction of collisions with sufficient energy to overcome the [activation energy](./../activation-energy/) ( $ E_a $ ) increases exponentially with [Temperature](./../temperature/). This relationship is often described by the Arrhenius equation:
 
  $ k = Ae^{\frac{-E_a}{RT}} $ 
 
-where  $ k $  is the rate constant,  $ A $  is the pre-exponential factor,  $ E_a $  is the [activation energy](./../activation-energy/),  $ R $  is the ideal gas constant, and  $ T $  is the temperature in Kelvin.  [Arrhenius Equation Derivation](./../arrhenius-equation-derivation/)
+where  $ k $  is the rate constant,  $ A $  is the pre-exponential factor,  $ E_a $  is the [activation energy](./../activation-energy/),  $ R $  is the ideal gas constant, and  $ T $  is the [Temperature](./../temperature/) in Kelvin.  [Arrhenius Equation Derivation](./../arrhenius-equation-derivation/)
 
 ## 3. Surface Area
 

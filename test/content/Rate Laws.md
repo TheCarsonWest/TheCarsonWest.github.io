@@ -7,7 +7,7 @@
 ## Introduction
 
 Chemical kinetics is the study of [Reaction Rates](./../reaction-rates/).  A rate law expresses the relationship between the rate of a reaction and the concentrations of reactants.  The rate law provides crucial information about the mechanism of a reaction.
-
+# [units of reaction constant](./../units-of-reaction-constant/)
 ## General Form of a Rate Law
 
 For a generic reaction:
@@ -18,7 +18,7 @@ The rate law is expressed as:
 #  $$ Rate = k[A]^m[B]^n \dots $$  
 Where:
 
-*  *k* is the rate constant (temperature dependent).
+*  *k* is the rate constant ([Temperature](./../temperature/) dependent).
 *  *[A]* and *[B]* are the molar concentrations of reactants A and B.
 *  *m* and *[n]* are the reaction orders with respect to A and B, respectively.  These are *not* necessarily the same as the stoichiometric coefficients (a and b).  They must be determined experimentally.
 

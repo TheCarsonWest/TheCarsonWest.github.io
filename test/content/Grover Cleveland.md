@@ -36,7 +36,7 @@
 * Struggled to balance labor and business interests during the Pullman Strike.
 * Took a conservative approach to fiscal policy, which some argue contributed to the Panic of 1893.
 * Defended American interests in the Venezuelan Boundary Dispute, solidifying the [Monroe Doctrine](./../monroe-doctrine/).
-* # Was the ~~only~~  FIRST president to serve two non-consecutive terms. [Donald Trump](./../donald-trump/)
+* ### Was the ~~only~~  FIRST president to serve two non-consecutive terms. [Donald Trump](./../donald-trump/)
 
 **Key Policies:**
 

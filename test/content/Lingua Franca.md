@@ -8,7 +8,7 @@
 # TLDR: ENGLISH IS THE MOST IMPORTANT LANGUAGE IN THE WORLD
 
 # Globalization
-- Multinational corporations need a common language
+- Multinational corporations need a common [Language](./../language/)
 	- speak English
 - Films are created all over the place and everyone like film
 	- better learn English
@@ -17,7 +17,7 @@
 - Research and scholarly studies need to be shared all over the world
 	- Write it in English so that other people can read it
 # What is a lingua franca
-- a lingua franca is a language that everyone in a place knows
+- a lingua franca is a [Language](./../language/) that everyone in a place knows
 - Arabic dialects are all ridiculously different
 	- But they all speak Modern Standard Arabic
 Thats abouit it

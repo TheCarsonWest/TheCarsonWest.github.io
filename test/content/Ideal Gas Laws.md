@@ -11,4 +11,4 @@
 - n = Moles
 - R = [Universal Gas Constant](./../universal-gas-constant/)
 	- 
-- T = Temperature (Kelvin)
+- T = [Temperature](./../temperature/) (Kelvin)
