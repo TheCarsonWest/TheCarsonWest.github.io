@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calcs on Nerd-Emoji Web</title>
+    <link>http://example.org/calc/</link>
+    <description>Recent content in Calcs on Nerd-Emoji Web</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/calc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Basic Integration Formulas</title>
+      <link>http://example.org/calc/1.-basic-integration-formulas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/1.-basic-integration-formulas/</guid>
+      <description>&lt;h2 id=&#34;1-basic-integration-formulas1-basic-integration-formulas&#34;&gt;&lt;a href=&#34;./../1.-basic-integration-formulas/&#34;&gt;1. Basic Integration Formulas&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;These are the fundamental building blocks for more complex integrations.  You should memorize these:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Power Rule:&lt;/strong&gt;  $ \int x^n dx = \frac{x^{n+1}}{n+1} + C $ , where  $ n \neq -1 $&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Exponential Rule:&lt;/strong&gt;  $ \int e^x dx = e^x + C $&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Logarithmic Rule:&lt;/strong&gt;  $ \int \frac{1}{x} dx = \ln|x| + C $&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Trigonometric Rules:&lt;/strong&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$ \int \sin x dx = -\cos x + C $&lt;/li&gt;&#xA;&lt;li&gt;$ \int \cos x dx = \sin x + C $&lt;/li&gt;&#xA;&lt;li&gt;$ \int \sec^2 x dx = \tan x + C $&lt;/li&gt;&#xA;&lt;li&gt;$ \int \csc^2 x dx = -\cot x + C $&lt;/li&gt;&#xA;&lt;li&gt;$ \int \sec x \tan x dx = \sec x + C $&lt;/li&gt;&#xA;&lt;li&gt;$ \int \csc x \cot x dx = -\csc x + C $&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;techniques-of-integrationtechniques-of-integration&#34;&gt;&lt;a href=&#34;./../techniques-of-integration/&#34;&gt;Techniques of Integration&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>2.  u-Substitution</title>
+      <link>http://example.org/calc/2.--u-substitution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/2.--u-substitution/</guid>
+      <description>&lt;h2 id=&#34;2--u-substitution2--u-substitution&#34;&gt;&lt;a href=&#34;./../2.--u-substitution/&#34;&gt;2.  u-Substitution&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is the most fundamental technique for simplifying integrals.  It involves substituting a part of the integrand with a new variable,  $ u $ , to make the integral easier to solve.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Steps:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Choose a suitable substitution,  $ u = g(x) $ , where  $ g(x) $  is a part of the integrand.&lt;/li&gt;&#xA;&lt;li&gt;Find  $ du = g&amp;rsquo;(x) dx $ .&lt;/li&gt;&#xA;&lt;li&gt;Rewrite the integral in terms of  $ u $  and  $ du $ .&lt;/li&gt;&#xA;&lt;li&gt;Integrate with respect to  $ u $ .&lt;/li&gt;&#xA;&lt;li&gt;Substitute back  $ x $  for  $ u $  in the result.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;  $ \int x(x^2 + 1)^3 dx $&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3. Integration by Parts</title>
+      <link>http://example.org/calc/3.-integration-by-parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/3.-integration-by-parts/</guid>
+      <description>&lt;h2 id=&#34;3-integration-by-parts3-integration-by-parts&#34;&gt;&lt;a href=&#34;./../3.-integration-by-parts/&#34;&gt;3. Integration by Parts&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This technique is used when the integrand is a product of two functions.  It&amp;rsquo;s based on the product rule for differentiation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;  $ \int u dv = uv - \int v du $&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Choosing u and dv:&lt;/strong&gt;  The choice of  $ u $  and  $ dv $  is crucial and often involves using the &amp;ldquo;LIATE&amp;rdquo; rule (Logarithmic, Inverse Trigonometric, Algebraic, Trigonometric, Exponential).  Prioritize choosing  $ u $  according to this order.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4. Trigonometric Integrals</title>
+      <link>http://example.org/calc/4.-trigonometric-integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/4.-trigonometric-integrals/</guid>
+      <description>&lt;h2 id=&#34;4-trigonometric-integrals4-trigonometric-integrals&#34;&gt;&lt;a href=&#34;./../4.-trigonometric-integrals/&#34;&gt;4. Trigonometric Integrals&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;These involve &lt;a href=&#34;./../integrals/&#34;&gt;integrals&lt;/a&gt; of trigonometric functions.  Techniques often involve using trigonometric identities to simplify the integrand.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../trigonometric-identities/&#34;&gt;Trigonometric Identities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Examples:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$ \int \sin^2 x dx $  (Use the power-reducing formula)&lt;/li&gt;&#xA;&lt;li&gt;$ \int \sin x \cos x dx $  (Use u-substitution)&lt;/li&gt;&#xA;&lt;li&gt;$ \int \tan^3 x \sec^4 x dx $  (Use u-substitution and trigonometric identities)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;techniques-of-integrationtechniques-of-integration&#34;&gt;&lt;a href=&#34;./../techniques-of-integration/&#34;&gt;Techniques of Integration&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>5. Trigonometric Substitution</title>
+      <link>http://example.org/calc/5.-trigonometric-substitution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/5.-trigonometric-substitution/</guid>
+      <description>&lt;h2 id=&#34;5-trigonometric-substitution5-trigonometric-substitution&#34;&gt;&lt;a href=&#34;./../5.-trigonometric-substitution/&#34;&gt;5. Trigonometric Substitution&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This technique is used when the integrand involves expressions of the form  $ \sqrt{a^2 - x^2} $ ,  $ \sqrt{a^2 + x^2} $ , or  $ \sqrt{x^2 - a^2} $ .  It involves substituting  $ x $  with a trigonometric function to simplify the expression.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../trigonometric-substitutions/&#34;&gt;Trigonometric Substitutions&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;techniques-of-integrationtechniques-of-integration&#34;&gt;&lt;a href=&#34;./../techniques-of-integration/&#34;&gt;Techniques of Integration&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>6. Partial Fraction Decomposition</title>
+      <link>http://example.org/calc/6.-partial-fraction-decomposition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/6.-partial-fraction-decomposition/</guid>
+      <description>&lt;h2 id=&#34;6-partial-fraction-decomposition6-partial-fraction-decomposition&#34;&gt;&lt;a href=&#34;./../6.-partial-fraction-decomposition/&#34;&gt;6. Partial Fraction Decomposition&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This technique is used to integrate rational functions (fractions where the numerator and denominator are polynomials).  It involves decomposing the rational function into simpler fractions that are easier to integrate.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../partial-fraction-decomposition/&#34;&gt;Partial Fraction Decomposition&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;techniques-of-integrationtechniques-of-integration&#34;&gt;&lt;a href=&#34;./../techniques-of-integration/&#34;&gt;Techniques of Integration&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>7. Numerical Integration (Approximation Methods)</title>
+      <link>http://example.org/calc/7.-numerical-integration-approximation-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/7.-numerical-integration-approximation-methods/</guid>
+      <description>&lt;h2 id=&#34;7-numerical-integration-approximation-methods7-numerical-integration-approximation-methods&#34;&gt;&lt;a href=&#34;./../7.-numerical-integration-(approximation-methods)/&#34;&gt;7. Numerical Integration (Approximation Methods)&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;When an integral is difficult or impossible to solve analytically, numerical methods can be used to approximate its value.  Common methods include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;./../trapezoidal-rule/&#34;&gt;Trapezoidal Rule&lt;/a&gt;:&lt;/strong&gt; Approximates the area under the curve using trapezoids.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;./../simpsons-rule/&#34;&gt;Simpson&amp;rsquo;s Rule&lt;/a&gt;:&lt;/strong&gt; Approximates the area under the curve using parabolas.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;techniques-of-integrationtechniques-of-integration&#34;&gt;&lt;a href=&#34;./../techniques-of-integration/&#34;&gt;Techniques of Integration&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Analyzing Functions with the first derivative</title>
+      <link>http://example.org/calc/analyzing-functions-with-the-first-derivative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/analyzing-functions-with-the-first-derivative/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;This rundown covers using the first &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; to analyze the behavior of a function.  We&amp;rsquo;ll focus on finding &lt;a href=&#34;./../critical-point/&#34;&gt;Critical Point&lt;/a&gt;, increasing/decreasing intervals, and local extrema.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-finding-critical-points&#34;&gt;1. Finding Critical Points&lt;/h2&gt;&#xA;&lt;p&gt;Critical points are points in the domain of a function where the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; is either zero or undefined.  These points are potential locations for local maxima, local minima, or neither.&lt;/p&gt;&#xA;&lt;p&gt;To find critical points:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Find the first &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt;:&lt;/strong&gt;  $ f&amp;rsquo;(x) $&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Set the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; equal to zero:&lt;/strong&gt;  $ f&amp;rsquo;(x) = 0 $  and solve for  $ x $ .  These are the critical points where the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; is zero.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Find where the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; is undefined:&lt;/strong&gt; Determine if there are any points in the domain of  $ f(x) $  where  $ f&amp;rsquo;(x) $  is undefined (e.g., division by zero, square root of a negative number). These are also critical points.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Analyzing Functions with the second derivative</title>
+      <link>http://example.org/calc/analyzing-functions-with-the-second-derivative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/analyzing-functions-with-the-second-derivative/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The second &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt;, denoted as  $ f&amp;rsquo;&amp;rsquo;(x) $  or  $ \frac{d^2y}{dx^2} $ , provides crucial information about the shape and behavior of a function.  It helps us understand concavity and inflection points.&lt;/p&gt;&#xA;&lt;h2 id=&#34;concavity&#34;&gt;Concavity&lt;/h2&gt;&#xA;&lt;p&gt;The second &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; reveals the concavity of a function.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;** $ f&amp;rsquo;&amp;rsquo;(x) &amp;gt; 0 $  on an interval:** The function is &lt;strong&gt;concave up&lt;/strong&gt; (or &amp;ldquo;holds water&amp;rdquo;) on that interval.  The graph curves upwards like a smile.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;** $ f&amp;rsquo;&amp;rsquo;(x) &amp;lt; 0 $  on an interval:** The function is &lt;strong&gt;concave down&lt;/strong&gt; (or &amp;ldquo;spills water&amp;rdquo;) on that interval. The graph curves downwards like a frown.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Antiderivatives</title>
+      <link>http://example.org/calc/antiderivatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/antiderivatives/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;what-is-an-antiderivative&#34;&gt;What is an Antiderivative?&lt;/h2&gt;&#xA;&lt;p&gt;An antiderivative is the reverse process of differentiation.  If we have a function  $ f(x) $ , its antiderivative, often denoted as  $ F(x) $ , satisfies the equation:&lt;/p&gt;&#xA;&lt;p&gt;$ F&amp;rsquo;(x) = f(x) $&lt;/p&gt;&#xA;&lt;p&gt;In simpler terms, the derivative of the antiderivative is the original function.  Note that antiderivatives are not unique. If  $ F(x) $  is an antiderivative of  $ f(x) $ , then so is  $ F(x) + C $ , where  $ C $  is any constant. This is because the derivative of a constant is always zero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calc home</title>
+      <link>http://example.org/calc/calc-home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/calc-home/</guid>
+      <description>&lt;h1 id=&#34;nexusnexus&#34;&gt;&lt;a href=&#34;./../nexus/&#34;&gt;nexus&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;calc-rules-and-theoremscalc-rules-and-theorems&#34;&gt;&lt;a href=&#34;./../calc-rules-and-theorems/&#34;&gt;Calc Rules and theorems&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;unit-1&#34;&gt;Unit 1&lt;/h1&gt;&#xA;&lt;h3 id=&#34;calculus-limitscalculus-limits&#34;&gt;&lt;a href=&#34;./../calculus-limits/&#34;&gt;Calculus Limits&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;indeterminate-formsindeterminate-forms&#34;&gt;&lt;a href=&#34;./../indeterminate-forms/&#34;&gt;Indeterminate Forms&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;unit-23---derivativederivative-stuff&#34;&gt;Unit 2/3 - &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; stuff&lt;/h1&gt;&#xA;&lt;h3 id=&#34;implicit-differentiationimplicit-differentiation&#34;&gt;&lt;a href=&#34;./../implicit-differentiation/&#34;&gt;Implicit Differentiation&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;inverse-differentiationinverse-differentiation&#34;&gt;&lt;a href=&#34;./../inverse-differentiation/&#34;&gt;Inverse Differentiation&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;higher-order-derivativeshigher-order-derivatives&#34;&gt;&lt;a href=&#34;./../higher-order-derivatives/&#34;&gt;Higher Order Derivatives&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;unit-4---applications-of-derivatives&#34;&gt;Unit 4 - Applications of derivatives&lt;/h1&gt;&#xA;&lt;h3 id=&#34;contextual-applications-of-derivativescontextual-applications-of-derivatives&#34;&gt;&lt;a href=&#34;./../contextual-applications-of-derivatives/&#34;&gt;Contextual Applications of Derivatives&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;straight-line-motionstraight-line-motion&#34;&gt;&lt;a href=&#34;./../straight-line-motion/&#34;&gt;Straight Line motion&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;local-linearitylocal-linearity&#34;&gt;&lt;a href=&#34;./../local-linearity/&#34;&gt;Local Linearity&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;unit-5---statistical-applications-of-derivatives&#34;&gt;Unit 5 - Statistical applications of derivatives&lt;/h1&gt;&#xA;&lt;h3 id=&#34;mean-value-theoremmean-value-theorem&#34;&gt;&lt;a href=&#34;./../mean-value-theorem/&#34;&gt;Mean Value Theorem&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;extreme-value-theoremextreme-value-theorem&#34;&gt;&lt;a href=&#34;./../extreme-value-theorem/&#34;&gt;Extreme Value Theorem&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;critical-pointcritical-point&#34;&gt;&lt;a href=&#34;./../critical-point/&#34;&gt;Critical Point&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;analyzing-functions-with-the-first-derivativeanalyzing-functions-with-the-first-derivative&#34;&gt;&lt;a href=&#34;./../analyzing-functions-with-the-first-derivative/&#34;&gt;Analyzing Functions with the first derivative&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;analyzing-functions-with-the-second-derivativeanalyzing-functions-with-the-second-derivative&#34;&gt;&lt;a href=&#34;./../analyzing-functions-with-the-second-derivative/&#34;&gt;Analyzing Functions with the second derivative&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;inflection-pointsinflection-points&#34;&gt;&lt;a href=&#34;./../inflection-points/&#34;&gt;Inflection Points&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h1 id=&#34;unit-5---integration-and-accumulation-of-change&#34;&gt;Unit 5 - Integration and Accumulation of Change&lt;/h1&gt;&#xA;&lt;h3 id=&#34;riemann-sumsriemann-sums&#34;&gt;&lt;a href=&#34;./../riemann-sums/&#34;&gt;Riemann Sums&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;trapezoidal-ruletrapezoidal-rule&#34;&gt;&lt;a href=&#34;./../trapezoidal-rule/&#34;&gt;Trapezoidal Rule&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;antiderivativesantiderivatives&#34;&gt;&lt;a href=&#34;./../antiderivatives/&#34;&gt;Antiderivatives&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;constant-of-integrationconstant-of-integration&#34;&gt;&lt;a href=&#34;./../constant-of-integration/&#34;&gt;Constant of Integration&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;integralsintegrals&#34;&gt;&lt;a href=&#34;./../integrals/&#34;&gt;integrals&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Calc Rules and theorems</title>
+      <link>http://example.org/calc/calc-rules-and-theorems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/calc-rules-and-theorems/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;lhopitals-rulelhopitals-rule&#34;&gt;&lt;a href=&#34;./../lhopitals-rule/&#34;&gt;LHopitals Rule&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;squeeze-theoremsqueeze-theorem&#34;&gt;&lt;a href=&#34;./../squeeze-theorem/&#34;&gt;Squeeze Theorem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;intermediate-value-theoremintermediate-value-theorem&#34;&gt;&lt;a href=&#34;./../intermediate-value-theorem/&#34;&gt;Intermediate Value Theorem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;mean-value-theoremmean-value-theorem&#34;&gt;&lt;a href=&#34;./../mean-value-theorem/&#34;&gt;Mean Value Theorem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;extreme-value-theoremextreme-value-theorem&#34;&gt;&lt;a href=&#34;./../extreme-value-theorem/&#34;&gt;Extreme Value Theorem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;rolles-theoremrolles-theorem&#34;&gt;&lt;a href=&#34;./../rolles-theorem/&#34;&gt;Rolles Theorem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;fundamental-theorem-of-calculusfundamental-theorem-of-calculus&#34;&gt;&lt;a href=&#34;./../fundamental-theorem-of-calculus/&#34;&gt;Fundamental Theorem of Calculus&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Calculus Limits</title>
+      <link>http://example.org/calc/calculus-limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/calculus-limits/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Limits are a fundamental concept in calculus that describe the behavior of a function as its input approaches a certain value. They are essential for understanding &lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt;, derivatives, and &lt;a href=&#34;./../integrals/&#34;&gt;integrals&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;definition-of-a-limit&#34;&gt;Definition of a Limit&lt;/h3&gt;&#xA;&lt;p&gt;The limit of a function  $ f(x) $  as  $ x $  approaches  $ a $ , denoted by&lt;/p&gt;&#xA;&lt;h2 id=&#34;-lim_x-to-a-fx--l-&#34;&gt;$$ \lim_{x \to a} f(x) = L $$&lt;/h2&gt;&#xA;&lt;p&gt;means that the value of  $ f(x) $  gets arbitrarily close to  $ L $  as  $ x $  gets arbitrarily close to  $ a $ , without necessarily being equal to  $ a $ .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chain Rule</title>
+      <link>http://example.org/calc/chain-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/chain-rule/</guid>
+      <description>&lt;h2 id=&#34;chain-rulechain-rule&#34;&gt;&lt;a href=&#34;./../chain-rule/&#34;&gt;Chain Rule&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-fracddxfgx--f-gx-gx-&#34;&gt;$$ \frac{d}{dx}[f(g(x))] = f&amp;rsquo;(\ g(x)\ )g&amp;rsquo;(x) $$&lt;/h3&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Constant of Integration</title>
+      <link>http://example.org/calc/constant-of-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/constant-of-integration/</guid>
+      <description>&lt;h1 id=&#34;integralsintegrals&#34;&gt;&lt;a href=&#34;./../integrals/&#34;&gt;integrals&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The constant of integration is a crucial concept in integral calculus.  It arises because the derivative of a constant is always zero.  This means that when we find an antiderivative (also called an indefinite integral), we can&amp;rsquo;t uniquely determine the original function.  There&amp;rsquo;s always a family of functions that could have yielded the same derivative.&lt;/p&gt;&#xA;&lt;h2 id=&#34;understanding-the-problem&#34;&gt;Understanding the Problem&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s consider a simple example.  The derivative of  $ f(x) = x^2 + 5 $  is  $ f&amp;rsquo;(x) = 2x $ .  Similarly, the derivative of  $ g(x) = x^2 + 10 $  is also  $ g&amp;rsquo;(x) = 2x $ .  In fact, the derivative of  $ h(x) = x^2 + C $ , where  $ C $  is any constant, is  $ h&amp;rsquo;(x) = 2x $ .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Constant rule</title>
+      <link>http://example.org/calc/constant-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/constant-rule/</guid>
+      <description>&lt;h2 id=&#34;constant-ruleconstant-rule-----fracddxc--0--&#34;&gt;&lt;a href=&#34;./../constant-rule/&#34;&gt;Constant rule&lt;/a&gt; ###  $$  \frac{d}{dx}[C] = 0  $$&lt;/h2&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Contextual Applications of Derivatives</title>
+      <link>http://example.org/calc/contextual-applications-of-derivatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/contextual-applications-of-derivatives/</guid>
+      <description>&lt;p&gt;Derivatives represent the &lt;strong&gt;instantaneous rate of change&lt;/strong&gt; of a function.  This has various applications in real-world scenarios.&lt;/p&gt;&#xA;&lt;h2 id=&#34;steps-to-solve-contextual-problems-involving-derivatives&#34;&gt;Steps to Solve Contextual Problems Involving Derivatives&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Identify the function:&lt;/strong&gt; Determine the function that describes the relationship between the variables involved.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Identify the variable you want to differentiate:&lt;/strong&gt; This will depend on the question being asked.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Calculate the derivative:&lt;/strong&gt; Use the appropriate differentiation rules to find the derivative of the function.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Interpret the result:&lt;/strong&gt; Explain the meaning of the derivative in the context of the problem.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;implicit-differentiationimplicit-differentiation&#34;&gt;&lt;a href=&#34;./../implicit-differentiation/&#34;&gt;Implicit Differentiation&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../implicit-differentiation/&#34;&gt;Implicit Differentiation&lt;/a&gt; is a technique used to find the derivative of a function that is not explicitly defined as  $ y = f(x) $ . Instead, the function is defined by an equation that implicitly relates  $ x $  and  $ y $ , or any other variable you may see.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Continuity</title>
+      <link>http://example.org/calc/continuity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/continuity/</guid>
+      <description>&lt;p&gt;Make a calculus AB rundown on &lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt; in markdown format(make use of headings), use the LaTeX equation library format when writing equations. For any topic that you believe needs its own independent explanation, enclose it in TWO brackets&lt;/p&gt;&#xA;&lt;h2 id=&#34;continuitycontinuity-in-calculus-ab&#34;&gt;&lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt; in Calculus AB&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt; is a fundamental concept in calculus that describes the &amp;ldquo;smoothness&amp;rdquo; of a function.  A continuous function is one that can be drawn without lifting your pen from the paper. In other words, there are no breaks or jumps in the graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Critical Point</title>
+      <link>http://example.org/calc/critical-point/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/critical-point/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;tldr-find-where---fx--0----or-is-undefined&#34;&gt;TLDR: Find where  $ f&amp;rsquo;(x) = 0 $   or is undefined&lt;/h1&gt;&#xA;&lt;p&gt;Critical points are pivotal in understanding the behavior of a function.  They help us find local maxima, local minima, and saddle points, which are key to sketching accurate graphs and solving optimization problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-are-critical-points&#34;&gt;What are Critical Points?&lt;/h2&gt;&#xA;&lt;p&gt;A critical point of a function  $ f(x) $  occurs at any  $ x $ -value where either:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;$ f&amp;rsquo;(x) = 0 $  (the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; is zero)&lt;/li&gt;&#xA;&lt;li&gt;$ f&amp;rsquo;(x) $  is undefined (the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; doesn&amp;rsquo;t exist)&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;In simpler terms, critical points are locations where the function&amp;rsquo;s slope is either zero or undefined.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Derivative</title>
+      <link>http://example.org/calc/derivative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/derivative/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The derivative of a function measures the instantaneous rate of change of the function.  It is a fundamental concept in calculus and has applications in many fields, including physics, engineering, economics, and biology.&lt;/p&gt;&#xA;&lt;h3 id=&#34;definition&#34;&gt;Definition&lt;/h3&gt;&#xA;&lt;p&gt;The derivative of a function  $ f(x) $  at a point  $ x=a $ , denoted by  $ f&amp;rsquo;(a) $ , is defined as the limit:&lt;/p&gt;&#xA;&lt;p&gt;$$ f&amp;rsquo;(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h} $$  provided the limit exists.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Derivative Rules</title>
+      <link>http://example.org/calc/derivative-rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/derivative-rules/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;exponentiallogarithmic-rules&#34;&gt;Exponential/Logarithmic rules&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../constant-rule/&#34;&gt;Constant rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../power-rule/&#34;&gt;Power Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../exponent-rule/&#34;&gt;Exponent Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../natural-log-rule/&#34;&gt;Natural Log Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../log-rule/&#34;&gt;Log Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;multi-function-rules&#34;&gt;Multi function rules&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../product-rule/&#34;&gt;Product Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../quotient-rule/&#34;&gt;Quotient Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../chain-rule/&#34;&gt;Chain Rule&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;trigonometric-derivativestrigonometric-derivatives&#34;&gt;&lt;a href=&#34;./../trigonometric-derivatives/&#34;&gt;Trigonometric Derivatives&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;inverse-ruleinverse-rule&#34;&gt;&lt;a href=&#34;./../inverse-rule/&#34;&gt;Inverse rule&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Differentiability</title>
+      <link>http://example.org/calc/differentiability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/differentiability/</guid>
+      <description>&lt;p&gt;Differentiability, a cornerstone concept in Calculus AB, essentially describes whether a function has a well-defined &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; at a specific point.  It&amp;rsquo;s closely tied to the idea of a smooth, continuous curve.  A function is differentiable at a point if its graph has a tangent line at that point.  This means the function must be both continuous and smooth at that point. Let&amp;rsquo;s break down the key aspects:&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-the-definition-of-the-derivativederivative&#34;&gt;1. The Definition of the &lt;a href=&#34;./../derivative/&#34;&gt;Derivative&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of a function  $ f(x) $  at a point  $ x=a $ , denoted as  $ f&amp;rsquo;(a) $ , is defined as:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exponent Rule</title>
+      <link>http://example.org/calc/exponent-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/exponent-rule/</guid>
+      <description>&lt;h2 id=&#34;exponent-ruleexponent-rule----fracddxbx--bxlnb---hence&#34;&gt;&lt;a href=&#34;./../exponent-rule/&#34;&gt;Exponent Rule&lt;/a&gt; ###  $$ \frac{d}{dx}[b^x] = b^x\ln(b) $$  Hence&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-fracddxex--ex-&#34;&gt;$$ \frac{d}{dx}[e^x] = e^x $$&lt;/h3&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Extreme Value Theorem</title>
+      <link>http://example.org/calc/extreme-value-theorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/extreme-value-theorem/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../extreme-value-theorem/&#34;&gt;Extreme Value Theorem&lt;/a&gt; is a fundamental concept in calculus that guarantees the existence of maximum and minimum values for a continuous function over a closed interval.&lt;/p&gt;&#xA;&lt;h2 id=&#34;theorem-statement&#34;&gt;Theorem Statement&lt;/h2&gt;&#xA;&lt;h4 id=&#34;let---f---be-a-continuous-function-on-a-closed-interval---a-b---then---f---attains-both-an-absolute-maximum-value---fc---and-an-absolute-minimum-value---fd---at-some-numbers---c---and---d---in---a-b--&#34;&gt;Let  $ f $  be a continuous function on a closed interval  $ [a, b] $ . Then  $ f $  attains both an absolute maximum value  $ f(c) $  and an absolute minimum value  $ f(d) $  at some numbers  $ c $  and  $ d $  in  $ [a, b] $ .&lt;/h4&gt;&#xA;&lt;h2 id=&#34;key-concepts&#34;&gt;Key Concepts&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Continuous Function:&lt;/strong&gt;  A function is continuous on an interval if its graph can be drawn without lifting your pen.  Formally, a function  $ f(x) $  is continuous at a point  $ x=c $  if  $ \lim_{x \to c} f(x) = f(c) $ .  &lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Closed Interval:&lt;/strong&gt; A closed interval  $ [a, b] $  includes its endpoints,  $ a $  and  $ b $ .  Open intervals  $ (a, b) $  do not include the endpoints.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Absolute Maximum/Minimum:&lt;/strong&gt; The absolute maximum (or minimum) is the largest (or smallest) value of the function over the entire interval.  It&amp;rsquo;s also sometimes called the global maximum/minimum.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Local Maximum/Minimum:&lt;/strong&gt; A local maximum (or minimum) is the largest (or smallest) value of the function within a small neighborhood around a point. &lt;a href=&#34;./../local-vs.-absolute-extrema/&#34;&gt;Local vs. Absolute Extrema&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;finding-extrema&#34;&gt;Finding Extrema&lt;/h2&gt;&#xA;&lt;p&gt;To find the absolute maximum and minimum values of a continuous function  $ f(x) $  on a closed interval  $ [a, b] $ :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First Derivative Test</title>
+      <link>http://example.org/calc/first-derivative-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/first-derivative-test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fundamental Theorem of Calculus</title>
+      <link>http://example.org/calc/fundamental-theorem-of-calculus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/fundamental-theorem-of-calculus/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;calc-rules-and-theoremscalc-rules-and-theorems&#34;&gt;&lt;a href=&#34;./../calc-rules-and-theorems/&#34;&gt;Calc Rules and theorems&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../fundamental-theorem-of-calculus/&#34;&gt;Fundamental Theorem of Calculus&lt;/a&gt; connects the seemingly disparate concepts of derivatives and integrals. It essentially states that differentiation and integration are inverse operations.  It&amp;rsquo;s broken down into two parts:&lt;/p&gt;&#xA;&lt;h2 id=&#34;part-1-the-ftc-and-accumulation-functions&#34;&gt;Part 1: The FTC and Accumulation Functions&lt;/h2&gt;&#xA;&lt;p&gt;Part 1 of the FTC deals with the derivative of an integral.  It states that if we have a function  $ F(x) $  defined as the integral of another function  $ f(t) $  from a constant  $ a $  to  $ x $ :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Higher Order Derivatives</title>
+      <link>http://example.org/calc/higher-order-derivatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/higher-order-derivatives/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;first-derivative---fx---or---fracdfdx-&#34;&gt;First Derivative:  $ f&amp;rsquo;(x) $  or  $ \frac{df}{dx} $&lt;/h3&gt;&#xA;&lt;p&gt;The first derivative,  $ f&amp;rsquo;(x) $  or  $ \frac{df}{dx} $ , tells us the instantaneous slope of the tangent line to the graph of  $ f(x) $  at a given point.&lt;/p&gt;&#xA;&lt;h3 id=&#34;second-derivative---fx---or---fracd2fdx2-&#34;&gt;Second Derivative:  $ f&amp;rsquo;&amp;rsquo;(x) $  or  $ \frac{d^2f}{dx^2} $&lt;/h3&gt;&#xA;&lt;p&gt;The second derivative,  $ f&amp;rsquo;&amp;rsquo;(x) $  or  $ \frac{d^2f}{dx^2} $ , is the derivative of the first derivative.  It tells us the rate of change of the slope of the tangent line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Implicit Differentiation</title>
+      <link>http://example.org/calc/implicit-differentiation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/implicit-differentiation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;implicit-differentiationimplicit-differentiation&#34;&gt;&lt;a href=&#34;./../implicit-differentiation/&#34;&gt;Implicit Differentiation&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Implicit differentiation is a technique used to find the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of a function that is defined implicitly, meaning that it is not explicitly solved for one variable in terms of the other.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-basics&#34;&gt;The Basics&lt;/h3&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s consider an equation relating  $ x $  and  $ y $ , such as:&lt;/p&gt;&#xA;&lt;h1 id=&#34;-x2--y2--25---we-cant-easily-solve-this-equation-for---y---in-terms-of---x---however-we-can-still-find-the-derivativederivative---fracdydx---by-using-implicit-differentiation&#34;&gt;$$ x^2 + y^2 = 25 $$  We can&amp;rsquo;t easily solve this equation for  $ y $  in terms of  $ x $ . However, we can still find the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt;  $ \frac{dy}{dx} $  by using implicit differentiation.&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;The key idea is to differentiate both sides of the equation with respect to  $ x $ , treating  $ y $  as a function of  $ x $ .&lt;/strong&gt; This means we&amp;rsquo;ll use the &lt;a href=&#34;./../chain-rule/&#34;&gt;chain rule&lt;/a&gt; whenever we encounter a term involving  $ y $ .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Indeterminate Forms</title>
+      <link>http://example.org/calc/indeterminate-forms/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/indeterminate-forms/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;indeterminate-formsindeterminate-forms&#34;&gt;&lt;a href=&#34;./../indeterminate-forms/&#34;&gt;Indeterminate Forms&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;An indeterminate form is a limit expression that cannot be determined directly. These forms include:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;0/0:&lt;/strong&gt;  The limit of a fraction where both the numerator and denominator approach zero.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;∞/∞:&lt;/strong&gt; The limit of a fraction where both the numerator and denominator approach infinity.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When encountering these indeterminate forms, we can&amp;rsquo;t simply substitute the value the variable is approaching because the result is undefined. This is where &lt;a href=&#34;./../lhopitals-rule/&#34;&gt;LHopitals Rule&lt;/a&gt; comes in.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inflection Points</title>
+      <link>http://example.org/calc/inflection-points/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/inflection-points/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Inflection points represent a change in the concavity of a function.  Understanding them requires a grasp of both the first and second derivatives.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-concavity&#34;&gt;What is Concavity?&lt;/h2&gt;&#xA;&lt;p&gt;A function is &lt;strong&gt;concave up&lt;/strong&gt; if its graph is shaped like a cup ( $ \cup $ ), and &lt;strong&gt;concave down&lt;/strong&gt; if its graph is shaped like a cap ( $ \cap $ ).  More formally:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Concave Up:&lt;/strong&gt;  The function&amp;rsquo;s slope is increasing.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Concave Down:&lt;/strong&gt; The function&amp;rsquo;s slope is decreasing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;./../analyzing-functions-with-the-first-derivative/&#34;&gt;Analyzing Functions with the first derivative&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>integrals</title>
+      <link>http://example.org/calc/integrals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/integrals/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Integrals are the cornerstone of integral calculus, essentially the inverse operation of differentiation.  They allow us to calculate areas under curves, volumes of solids, and much more.  This rundown covers the key concepts for Calculus AB.&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-indefinite-integrals&#34;&gt;1. Indefinite Integrals&lt;/h1&gt;&#xA;&lt;p&gt;The indefinite integral, denoted by  $ \int f(x) , dx $ , represents the &lt;em&gt;family&lt;/em&gt; of functions whose &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; is  $ f(x) $ .  The &amp;quot; $ dx $ &amp;quot; indicates that we are integrating with respect to the variable  $ x $ .  The &lt;a href=&#34;./../constant-of-integration/&#34;&gt;constant of integration&lt;/a&gt;,  $ C $ , is crucial because the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of a constant is zero.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Intermediate Value Theorem</title>
+      <link>http://example.org/calc/intermediate-value-theorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/intermediate-value-theorem/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;intermediate-value-theoremintermediate-value-theorem-ivt&#34;&gt;&lt;a href=&#34;./../intermediate-value-theorem/&#34;&gt;Intermediate Value Theorem&lt;/a&gt; (IVT)&lt;/h2&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../intermediate-value-theorem/&#34;&gt;Intermediate Value Theorem&lt;/a&gt; (IVT) is a fundamental theorem in calculus that helps us understand the behavior of continuous functions. It essentially states that if a continuous function takes on two values, then it must also take on all the values in between.&lt;/p&gt;&#xA;&lt;h1 id=&#34;statement-of-the-ivt&#34;&gt;Statement of the IVT&lt;/h1&gt;&#xA;&lt;p&gt;Let  $ f $  be a continuous function on the closed interval  $ [a,b] $ . If  $ f(a) \neq f(b) $ , then for any value  $ k $  between  $ f(a) $  and  $ f(b) $ , there exists a value  $ c $  in the interval  $ (a,b) $  such that  $ f(c) = k $ .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inverse Differentiation</title>
+      <link>http://example.org/calc/inverse-differentiation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/inverse-differentiation/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;differentiating-inverse-functions-in-calculus-ab&#34;&gt;Differentiating Inverse Functions in Calculus AB&lt;/h2&gt;&#xA;&lt;p&gt;This rundown explores the concept of differentiating inverse functions in Calculus AB, focusing on the essential understanding and application of the technique.&lt;/p&gt;&#xA;&lt;h3 id=&#34;understanding-inverse-functions&#34;&gt;Understanding Inverse Functions&lt;/h3&gt;&#xA;&lt;p&gt;An inverse function &amp;ldquo;undoes&amp;rdquo; the action of the original function.  If we have a function  $ f(x) $  and its inverse  $ f^{-1}(x) $ , then:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;$ f(f^{-1}(x)) = x $  for all  $ x $  in the domain of  $ f^{-1}(x) $&lt;/li&gt;&#xA;&lt;li&gt;$ f^{-1}(f(x)) = x $  for all  $ x $  in the domain of  $ f(x) $&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For example, consider the function  $ f(x) = 2x + 1 $ . Its inverse is  $ f^{-1}(x) = \frac{x-1}{2} $ .  Notice that:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inverse rule</title>
+      <link>http://example.org/calc/inverse-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/inverse-rule/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;--fracddx-f-1x--frac1ff-1x--&#34;&gt;$$  \frac{d}{dx} f^{-1}(x) = \frac{1}{f&amp;rsquo;(f^{-1}(x))}  $$&lt;/h1&gt;&#xA;&lt;p&gt;where  $ f^{-1}(x) $  is the inverse function of  $ f(x) $ .&lt;/p&gt;&#xA;&lt;p&gt;This is used to get your Inverse &lt;a href=&#34;./../trigonometric-derivatives/&#34;&gt;Trigonometric Derivatives&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LHopitals Rule</title>
+      <link>http://example.org/calc/lhopitals-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/lhopitals-rule/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;Hopital&amp;rsquo;s Rule is a powerful tool for evaluating limits involving &lt;a href=&#34;./../indeterminate-forms/&#34;&gt;Indeterminate Forms&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;lhopitals-rule-statement&#34;&gt;L&amp;rsquo;Hopital&amp;rsquo;s Rule Statement&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;If the limit of a fraction as  $ x $  approaches  $ a $  results in an indeterminate form (0/0 or ∞/∞), then:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;$$ \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f&amp;rsquo;(x)}{g&amp;rsquo;(x)} $$&lt;br&gt;&#xA;&lt;strong&gt;provided that the limit on the right-hand side exists or is  $ \pm \infty $ .&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;In simpler terms:&lt;/strong&gt;  To evaluate the limit of a fraction that results in an indeterminate form, take the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of both the numerator and denominator separately, and then evaluate the limit again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Local Linear Approximation</title>
+      <link>http://example.org/calc/local-linear-approximation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/local-linear-approximation/</guid>
+      <description>&lt;h3 id=&#34;local-linear-approximationlocal-linear-approximation&#34;&gt;&lt;a href=&#34;./../local-linear-approximation/&#34;&gt;Local Linear Approximation&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The concept of &lt;a href=&#34;./../local-linearity/&#34;&gt;Local Linearity&lt;/a&gt; allows us to approximate the value of a function near a point using the tangent line at that point. This is called the &lt;strong&gt;local linear approximation&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Idea:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;If we zoom in sufficiently close to a point on the graph of a function, the graph starts to look more and more like a straight line. This straight line is the tangent line.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Formula:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The local linear approximation of  $ f(x) $  at  $ x=a $  is given by:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Local Linearity</title>
+      <link>http://example.org/calc/local-linearity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/local-linearity/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Local linearity is a fundamental concept in calculus that describes how a function can be approximated by a line in a small neighborhood around a point. This concept is crucial for understanding derivatives and their applications.&lt;/p&gt;&#xA;&lt;h1 id=&#34;local-linear-approximationlocal-linear-approximation&#34;&gt;&lt;a href=&#34;./../local-linear-approximation/&#34;&gt;Local Linear Approximation&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;tangent-linestangent-lines&#34;&gt;&lt;a href=&#34;./../tangent-lines/&#34;&gt;Tangent Lines&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A tangent line to a curve at point is a line that &amp;ldquo;touches&amp;rdquo; the curve at that point and has the same slope as the curve at that point.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Log Rule</title>
+      <link>http://example.org/calc/log-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/log-rule/</guid>
+      <description>&lt;h2 id=&#34;log-rulelog-rule&#34;&gt;&lt;a href=&#34;./../log-rule/&#34;&gt;Log Rule&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-fracddxlog-_bx--frac1ln-btimes-frac1x-&#34;&gt;$$ \frac{d}{dx}[\log _{b}(x)] = \frac{1}{\ln b}\times \frac{1}{x} $$&lt;/h3&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Mean Value Theorem</title>
+      <link>http://example.org/calc/mean-value-theorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/mean-value-theorem/</guid>
+      <description>&lt;h1 id=&#34;calc-rules-and-theoremscalc-rules-and-theorems&#34;&gt;&lt;a href=&#34;./../calc-rules-and-theorems/&#34;&gt;Calc Rules and theorems&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../mean-value-theorem/&#34;&gt;Mean Value Theorem&lt;/a&gt; is a fundamental theorem in calculus that connects the average rate of change of a function to its instantaneous rate of change.  It essentially states that if a function is continuous and differentiable on an interval, there exists at least one point within that interval where the instantaneous rate of change (slope of the tangent line) equals the average rate of change over the entire interval.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natural Log Rule</title>
+      <link>http://example.org/calc/natural-log-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/natural-log-rule/</guid>
+      <description>&lt;h2 id=&#34;natural-log-rulenatural-log-rule----fracddxlnx--frac1x--&#34;&gt;&lt;a href=&#34;./../natural-log-rule/&#34;&gt;Natural Log Rule&lt;/a&gt; ###  $$ \frac{d}{dx}[\ln(x)] = \frac{1}{x}  $$&lt;/h2&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Power Rule</title>
+      <link>http://example.org/calc/power-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/power-rule/</guid>
+      <description>&lt;h2 id=&#34;power-rulepower-rule&#34;&gt;&lt;a href=&#34;./../power-rule/&#34;&gt;Power Rule&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;--fracddx-xn--nxn-1--&#34;&gt;$$  \frac{d}{dx} [x^n] = nx^{n-1}  $$&lt;/h3&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Product Rule</title>
+      <link>http://example.org/calc/product-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/product-rule/</guid>
+      <description>&lt;h2 id=&#34;product-ruleproduct-rule----fracddxfxgx--fxgxgxfx-&#34;&gt;&lt;a href=&#34;./../product-rule/&#34;&gt;Product Rule&lt;/a&gt; ###  $$ \frac{d}{dx}[f(x)g(x)] = f&amp;rsquo;(x)g(x)+g&amp;rsquo;(x)f(x) $$&lt;/h2&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Quotient Rule</title>
+      <link>http://example.org/calc/quotient-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/quotient-rule/</guid>
+      <description>&lt;h2 id=&#34;quotient-rulequotient-rule----fracddx-left-fracfxgx-right--fracgxfx-gxfxgx2-&#34;&gt;&lt;a href=&#34;./../quotient-rule/&#34;&gt;Quotient Rule&lt;/a&gt; ###  $$ \frac{d}{dx} \left[ \frac{f(x)}{g(x)} \right] = \frac{g(x)f&amp;rsquo;(x)-g&amp;rsquo;(x)f(x)}{g(x)^2} $$&lt;/h2&gt;&#xA;&lt;h1 id=&#34;derivative-rulesderivative-rules&#34;&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
+    <item>
+      <title>Riemann Sums</title>
+      <link>http://example.org/calc/riemann-sums/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/riemann-sums/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Riemann sums are used to approximate the definite integral of a function, which represents the area under the curve.  They provide a foundational understanding of integration before moving on to more sophisticated techniques.&lt;/p&gt;&#xA;&lt;h2 id=&#34;types-of-riemann-sumsriemann-sums&#34;&gt;Types of &lt;a href=&#34;./../riemann-sums/&#34;&gt;Riemann Sums&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;There are three main types of Riemann sums, each differing in how the rectangle heights are determined:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Left Riemann Sum: The height of each rectangle is determined by the function&amp;rsquo;s value at the &lt;em&gt;left endpoint&lt;/em&gt; of the subinterval.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rolles Theorem</title>
+      <link>http://example.org/calc/rolles-theorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/rolles-theorem/</guid>
+      <description>&lt;p&gt;Rolle&amp;rsquo;s Theorem is a foundational result in calculus that provides a condition under which a function is guaranteed to have a horizontal tangent line.  It serves as a stepping stone to understanding the more general Mean Value Theorem.&lt;/p&gt;&#xA;&lt;h2 id=&#34;statement-of-rolles-theorem&#34;&gt;Statement of Rolle&amp;rsquo;s Theorem&lt;/h2&gt;&#xA;&lt;p&gt;Let  $ f $  be a function that satisfies the following three hypotheses:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;** $ f $  is continuous on the closed interval  $ [a, b] $ **:  This means the function has no breaks or jumps within the interval.  &lt;a href=&#34;./../continuity/&#34;&gt;Continuity&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Squeeze Theorem</title>
+      <link>http://example.org/calc/squeeze-theorem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/squeeze-theorem/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Squeeze Theorem, also known as the Sandwich Theorem, is a powerful tool in calculus for determining the limit of a function. It states that if two functions &amp;ldquo;squeeze&amp;rdquo; a third function between them, and the two outer functions have the same limit at a point, then the middle function must also have the same limit at that point.&lt;/p&gt;&#xA;&lt;h3 id=&#34;formal-statement&#34;&gt;Formal Statement&lt;/h3&gt;&#xA;&lt;p&gt;Let  $ f(x) $ ,  $ g(x) $ , and  $ h(x) $  be functions defined on an open interval containing  $ a $ , except possibly at  $ a $  itself. If:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Straight Line motion</title>
+      <link>http://example.org/calc/straight-line-motion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/straight-line-motion/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h3 id=&#34;1-position-velocity-and-acceleration&#34;&gt;1. Position, Velocity, and Acceleration&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Position Function:&lt;/strong&gt;  The position function, denoted by  $ s(t) $ , describes the location of an object at a given time  $ t $ .&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-st--textthe-position-of-an-object-at-time-t-text-on-a-single-axis----velocity-function-the-velocity-function-denoted-by---vt---represents-the-rate-of-change-of-the-objects-position-with-respect-to-time-mathematically&#34;&gt;$$ s(t) = \text{The position of an object at time }t \text{ on a single axis} $$  * &lt;strong&gt;Velocity Function:&lt;/strong&gt; The velocity function, denoted by  $ v(t) $ , represents the rate of change of the object&amp;rsquo;s position with respect to time. Mathematically:&lt;/h2&gt;&#xA;&lt;h1 id=&#34;-vt--fracdstdt---since-velocity-is-speed-and-direction-and-the-sign-is-a-direction-----or-------the-absolute-value-is-the-speed-of-the-object&#34;&gt;$$ v(t) = \frac{ds(t)}{dt} $$  Since velocity is speed and direction, and the sign is a direction( $ + $  or  $ - $ ), the absolute value is the speed of the object&lt;/h1&gt;&#xA;&lt;h1 id=&#34;-speed--vt-&#34;&gt;$$ Speed = |v(t)| $$&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Acceleration Function:&lt;/strong&gt; The acceleration function, denoted by  $ a(t) $ , represents the rate of change of the object&amp;rsquo;s velocity with respect to time. Mathematically:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;-at--fracdvtdt--fracd2stdt2-&#34;&gt;$$ a(t) = \frac{dv(t)}{dt} = \frac{d^2s(t)}{dt^2} $$&lt;/h1&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;$ a(t)&amp;gt;0 $&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;$ a(t)&amp;lt;0 $&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;$ a(t)=0 $&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;$ v(t)&amp;gt;0 $&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;speeding up&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;slowing down&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;constant speed&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;$ v(t)&amp;lt;0 $&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;slowing down&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;speeding up&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;constant speed&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;$ v(t)=0 $&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;stopped&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;stopped&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;stopped&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Tangent Lines</title>
+      <link>http://example.org/calc/tangent-lines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/tangent-lines/</guid>
+      <description>&lt;h2 id=&#34;tangent-linestangent-lines-in-calculus-ab&#34;&gt;&lt;a href=&#34;./../tangent-lines/&#34;&gt;Tangent Lines&lt;/a&gt; in Calculus AB&lt;/h2&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;A tangent line is a line that touches a curve at a single point and has the same slope as the curve at that point. Tangent lines are fundamental concepts in calculus because they allow us to approximate the behavior of a function near a specific point.&lt;/p&gt;&#xA;&lt;h3 id=&#34;finding-the-equation-of-a-tangent-line&#34;&gt;Finding the Equation of a Tangent Line&lt;/h3&gt;&#xA;&lt;p&gt;To find the equation of a tangent line to a curve  $ y=f(x) $  at a point  $ (a, f(a)) $ , we follow these steps:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Techniques of Integration</title>
+      <link>http://example.org/calc/techniques-of-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/techniques-of-integration/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;integralsintegrals&#34;&gt;&lt;a href=&#34;./../integrals/&#34;&gt;integrals&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../1.-basic-integration-formulas/&#34;&gt;1. Basic Integration Formulas&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../2.--u-substitution/&#34;&gt;2.  u-Substitution&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../3.-integration-by-parts/&#34;&gt;3. Integration by Parts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../4.-trigonometric-integrals/&#34;&gt;4. Trigonometric Integrals&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../5.-trigonometric-substitution/&#34;&gt;5. Trigonometric Substitution&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../6.-partial-fraction-decomposition/&#34;&gt;6. Partial Fraction Decomposition&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;./../7.-numerical-integration-(approximation-methods)/&#34;&gt;7. Numerical Integration (Approximation Methods)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Test for Concavity</title>
+      <link>http://example.org/calc/test-for-concavity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/test-for-concavity/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;analyzing-functions-with-the-second-derivativeanalyzing-functions-with-the-second-derivative&#34;&gt;&lt;a href=&#34;./../analyzing-functions-with-the-second-derivative/&#34;&gt;Analyzing Functions with the second derivative&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Concavity describes the curvature of a function&amp;rsquo;s graph.  A function is concave up if its graph curves upward, like a smile, and concave down if its graph curves downward, like a frown.  We determine concavity using the second &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of the function.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-second-derivativederivative-test-for-concavitytest-for-concavity&#34;&gt;The Second &lt;a href=&#34;./../derivative/&#34;&gt;Derivative&lt;/a&gt; &lt;a href=&#34;./../test-for-concavity/&#34;&gt;Test for Concavity&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The concavity of a function  $ f(x) $  at a point  $ x=c $  is determined by the sign of its second &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt;,  $ f&amp;rsquo;&amp;rsquo;(c) $ :&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test for the Accuracy of Local Linearity</title>
+      <link>http://example.org/calc/test-for-the-accuracy-of-local-linearity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/test-for-the-accuracy-of-local-linearity/</guid>
+      <description>&lt;h1 id=&#34;local-linearitylocal-linearity&#34;&gt;&lt;a href=&#34;./../local-linearity/&#34;&gt;Local Linearity&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s consider the polynomial&lt;/p&gt;&#xA;&lt;h1 id=&#34;-fx--x3---2x--1---we-want-to-find-an-interval-around---x1---where-the-tangent-line-approximation-is-within-01-of-the-actual-function-value&#34;&gt;$$ f(x) = x^3 - 2x + 1 $$  We want to find an interval around  $ x=1 $  where the tangent line approximation is within 0.1 of the actual function value.&lt;/h1&gt;&#xA;&lt;h3 id=&#34;find-the-tangent-line&#34;&gt;Find the tangent line:&lt;/h3&gt;&#xA;&lt;p&gt;First, we find the &lt;a href=&#34;./../derivative/&#34;&gt;derivative&lt;/a&gt; of  $ f(x) $ :&#xA;$ f&amp;rsquo;(x) = 3x^2 - 2 $&lt;/p&gt;&#xA;&lt;p&gt;At  $ x=1 $ , the function value is  $ f(1) = 1^3 - 2(1) + 1 = 0 $ , and the slope of the tangent line is  $ f&amp;rsquo;(1) = 3(1)^2 - 2 = 1 $ .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trapezoidal Rule</title>
+      <link>http://example.org/calc/trapezoidal-rule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/trapezoidal-rule/</guid>
+      <description>&lt;h1 id=&#34;calc-homecalc-home&#34;&gt;&lt;a href=&#34;./../calc-home/&#34;&gt;Calc home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;calc-rules-and-theoremscalc-rules-and-theorems&#34;&gt;&lt;a href=&#34;./../calc-rules-and-theorems/&#34;&gt;Calc Rules and theorems&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;./../trapezoidal-rule/&#34;&gt;Trapezoidal Rule&lt;/a&gt; is a numerical integration technique used to approximate the definite integral of a function.  It&amp;rsquo;s particularly useful when finding the exact integral is difficult or impossible.  Instead of using rectangles to approximate the area under a curve (like in &lt;a href=&#34;./../riemann-sums/&#34;&gt;Riemann Sums&lt;/a&gt;), the &lt;a href=&#34;./../trapezoidal-rule/&#34;&gt;Trapezoidal Rule&lt;/a&gt; uses trapezoids.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-idea-behind-the-trapezoidal-ruletrapezoidal-rule&#34;&gt;The Idea Behind the &lt;a href=&#34;./../trapezoidal-rule/&#34;&gt;Trapezoidal Rule&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Imagine the area under a curve divided into several thin vertical strips. Instead of approximating each strip with a rectangle, we approximate it with a trapezoid.  The top of each trapezoid connects two points on the curve, while the bottom is a segment on the x-axis. The area of each trapezoid is easier to calculate than the area under a curve, and the sum of the areas of all trapezoids provides a better approximation of the integral.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trigonometric Derivatives</title>
+      <link>http://example.org/calc/trigonometric-derivatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/calc/trigonometric-derivatives/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;./../derivative-rules/&#34;&gt;Derivative Rules&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;-fracddx-sinx--cosx------fracddx-cosx---sinx------fracddx-tanx--sec2x------fracddx-cscx---cscx-cotx------fracddx-secx--secx-tanx------fracddx-cotx---csc2x-&#34;&gt;$$ \frac{d}{dx} \sin(x) = \cos(x) $$  ##  $$ \frac{d}{dx} \cos(x) = -\sin(x) $$  ##  $$ \frac{d}{dx} \tan(x) = \sec^2(x) $$  ##  $$ \frac{d}{dx} \csc(x) = -\csc(x) \cot(x) $$  ##  $$ \frac{d}{dx} \sec(x) = \sec(x) \tan(x) $$  ##  $$ \frac{d}{dx} \cot(x) = -\csc^2(x) $$&lt;/h2&gt;&#xA;&lt;h2 id=&#34;inverse-trigonometric-derivativestrigonometric-derivatives&#34;&gt;Inverse &lt;a href=&#34;./../trigonometric-derivatives/&#34;&gt;Trigonometric Derivatives&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h1 id=&#34;-fracddx-arcsinx--frac1sqrt1-x2------fracddx-arccosx---frac1sqrt1-x2------fracddx-arctanx--frac11x2------fracddx-operatornamearcsecx--frac1x-sqrtx2-1------fracddx-operatornamearccscx---frac1x-sqrtx2-1-----fracddx-operatornamearccotx---frac11x2-&#34;&gt;$$ \frac{d}{dx} \arcsin(x) = \frac{1}{\sqrt{1-x^2}} $$  #  $$ \frac{d}{dx} \arccos(x) = -\frac{1}{\sqrt{1-x^2}} $$  #  $$ \frac{d}{dx} \arctan(x) = \frac{1}{1+x^2} $$  #  $$ \frac{d}{dx} \operatorname{arcsec}(x) = \frac{1}{|x| \sqrt{x^2-1}} $$  #  $$ \frac{d}{dx} \operatorname{arccsc}(x) = -\frac{1}{|x| \sqrt{x^2-1}} $$ #  $$ \frac{d}{dx} \operatorname{arccot}(x) = -\frac{1}{1+x^2} $$&lt;/h1&gt;</description>
+    </item>
+  </channel>
+</rss>

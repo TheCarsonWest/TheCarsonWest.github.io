@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Untitled</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p>find ./TheCarsonWest.github.io/test/content/ -mindepth 2 -type f -exec mv -i &lsquo;{}&rsquo; ./TheCarsonWest.github.io/test/content/ ;
+how do i make this command say yes to any prompts this gives</p>
+<p>The issue isn&rsquo;t that the command needs to answer &ldquo;yes&rdquo; to prompts.  The problem is the command itself. You&rsquo;re using <code>find</code> to locate files and then <code>mv</code> to move them&hellip; to the same directory they&rsquo;re already in.  That&rsquo;s why you&rsquo;re getting prompts: <code>mv</code> is asking if you want to overwrite the files with themselves.</p>
+<p>The command <code>mv -i '{}' ./TheCarsonWest.github.io/test/content/</code> attempts to move each file found by <code>find</code> back into the <code>./TheCarsonWest.github.io/test/content/</code> directory. Since the files are already in that directory (or a subdirectory within it), <code>mv -i</code> prompts you before overwriting.</p>
+<p><strong>You likely intended to move all files from subdirectories directly into the <code>content</code> directory, flattening the directory structure.</strong></p>
+<p>Here&rsquo;s how you can do that:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>find ./TheCarsonWest.github.io/test/content/ -mindepth <span style="color:#ae81ff">2</span> -type f -exec mv -t ./TheCarsonWest.github.io/test/content/ <span style="color:#e6db74">&#39;{}&#39;</span> +
+</span></span></code></pre></div><p>Explanation of changes:</p>
+<ul>
+<li><strong><code>-t ./TheCarsonWest.github.io/test/content/</code>:</strong>  This is the key.  The <code>-t</code> option for <code>mv</code> specifies the target directory first, then lists the files to be moved. This avoids the looping behavior and the unnecessary prompts.</li>
+<li><strong><code>{} +</code>:</strong> This improvement (compared to <code>'{}' \;</code>) builds a single <code>mv</code> command with as many filenames as possible, improving efficiency.  Using <code>\;</code> runs <code>mv</code> separately for each file found.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<p>Let&rsquo;s say your directory structure looks like this:</p>
+<pre tabindex="0"><code>TheCarsonWest.github.io/test/content/
+├── folder1
+│   └── file1.txt
+└── folder2
+    └── file2.txt
+</code></pre><p>The corrected command will move <code>file1.txt</code> and <code>file2.txt</code> directly into the <code>content</code> directory, resulting in:</p>
+<pre tabindex="0"><code>TheCarsonWest.github.io/test/content/
+├── file1.txt
+├── file2.txt
+├── folder1
+└── folder2
+</code></pre><p><strong>Important Note on <code>-i</code> (Interactive):</strong></p>
+<p>The <code>-i</code> option (interactive) is specifically designed to prevent accidental overwrites. Removing it entirely (<code>mv -f</code>) is generally discouraged unless you are absolutely certain you want to overwrite files without any warning.  With the corrected command using <code>-t</code>, the <code>-i</code> option becomes unnecessary and can be safely omitted.  If files with the same name exist in the destination, they will be overwritten without prompt using the above command.  If you want to preserve newer versions of files during the flattening process, consider using <code>rsync</code>.</p>
+<p>If you have a different intended outcome, please describe what you&rsquo;re trying to achieve with the <code>mv</code> command.  Knowing your goal will help provide the most accurate and helpful solution.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
