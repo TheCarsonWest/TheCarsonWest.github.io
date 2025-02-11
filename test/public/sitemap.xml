@@ -48,6 +48,8 @@
   </url><url>
     <loc>http://example.org/apush/people/alexander-hamilton/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/allied-powers/</loc>
+  </url><url>
     <loc>http://example.org/apchem/alloys/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u3/result/american-colonization-society/</loc>
@@ -154,6 +156,8 @@
   </url><url>
     <loc>http://example.org/python/asyncio/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/atlanta-compromise/</loc>
+  </url><url>
     <loc>http://example.org/apchem/atomic-radius/</loc>
   </url><url>
     <loc>http://example.org/aplang/audience-analysis/</loc>
@@ -216,6 +220,8 @@
   </url><url>
     <loc>http://example.org/apchem/bond-angle/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/booker-t-washington/</loc>
+  </url><url>
     <loc>http://example.org/python/boolean-expressions/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u2/boston-massacre/</loc>
@@ -229,6 +235,10 @@
     <loc>http://example.org/aplang/building-a-strong-logical-argument/</loc>
   </url><url>
     <loc>http://example.org/aplang/building-ethos/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/bull-moose-party/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/bully-pulpit.md/</loc>
   </url><url>
     <loc>http://example.org/python/byte-order-and-endianness/</loc>
   </url><url>
@@ -258,6 +268,8 @@
   </url><url>
     <loc>http://example.org/aphg/cengage-home/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/central-powers/</loc>
+  </url><url>
     <loc>http://example.org/aphg/centrifugal-force/</loc>
   </url><url>
     <loc>http://example.org/aphg/centripetal-force/</loc>
@@ -280,6 +292,8 @@
   </url><url>
     <loc>http://example.org/aplang/chicago-citation-style/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/chinese-exclusion-act/</loc>
+  </url><url>
     <loc>http://example.org/python/choosing-descriptive-variable-names/</loc>
   </url><url>
     <loc>http://example.org/apchem/chromatography/</loc>
@@ -293,6 +307,8 @@
     <loc>http://example.org/apush/civil-war/</loc>
   </url><url>
     <loc>http://example.org/python/classes-and-objects/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/clayton-antitrust-act/</loc>
   </url><url>
     <loc>http://example.org/aplang/clean-code-summary/</loc>
   </url><url>
@@ -508,6 +524,8 @@
   </url><url>
     <loc>http://example.org/apush/ids/u4/election-of-1860/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/election-of-1912/</loc>
+  </url><url>
     <loc>http://example.org/apchem/electrical-conductivity-of-molecules/</loc>
   </url><url>
     <loc>http://example.org/apchem/electrical-constant/</loc>
@@ -616,6 +634,8 @@
   </url><url>
     <loc>http://example.org/apush/ids/u4/fort-sumter/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/fourteen-points/</loc>
+  </url><url>
     <loc>http://example.org/apush/places/france/</loc>
   </url><url>
     <loc>http://example.org/apush/people/franklin-d.-roosevelt/</loc>
@@ -708,7 +728,13 @@
   </url><url>
     <loc>http://example.org/apush/places/great-britain/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/great-chicago-fire/</loc>
+  </url><url>
     <loc>http://example.org/apush/ids/u3/result/great-compromise/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/great-migration/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/great-white-fleet/</loc>
   </url><url>
     <loc>http://example.org/greece-insights/</loc>
   </url><url>
@@ -744,6 +770,10 @@
   </url><url>
     <loc>http://example.org/apush/ids/u2/house-of-burgesses/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/how-the-other-half-lives/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/hull-house/</loc>
+  </url><url>
     <loc>http://example.org/apchem/hybridization/</loc>
   </url><url>
     <loc>http://example.org/apchem/hydrogen-bonds/</loc>
@@ -768,6 +798,8 @@
   </url><url>
     <loc>http://example.org/apush/ids-unit-5/</loc>
   </url><url>
+    <loc>http://example.org/scripts/ids-unit-6/</loc>
+  </url><url>
     <loc>http://example.org/python/if-elif-else-statements/</loc>
   </url><url>
     <loc>http://example.org/apush/states/illinois/</loc>
@@ -777,6 +809,8 @@
     <loc>http://example.org/python/immutable-types/</loc>
   </url><url>
     <loc>http://example.org/python/immutable-types-deeper-dive/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/imperialism-1890s-1950s/</loc>
   </url><url>
     <loc>http://example.org/calc/implicit-differentiation/</loc>
   </url><url>
@@ -896,6 +930,8 @@
   </url><url>
     <loc>http://example.org/apchem/laws-of-conservation/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/league-of-nations/</loc>
+  </url><url>
     <loc>http://example.org/apush/ids/u2/lees-resolution/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u2/letters-from-a-farmer-in-pennsylvania/</loc>
@@ -999,6 +1035,8 @@
     <loc>http://example.org/apush/ids/u3/result/mcculloch-v-maryland/</loc>
   </url><url>
     <loc>http://example.org/calc/mean-value-theorem/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/meat-inspection-act/</loc>
   </url><url>
     <loc>http://example.org/python/memoization-in-recursion/</loc>
   </url><url>
@@ -1114,9 +1152,13 @@
   </url><url>
     <loc>http://example.org/apush/states/oklahoma/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/old-immigration-vs-new-immigration/</loc>
+  </url><url>
     <loc>http://example.org/apush/ids/u2/olive-branch-petition/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u5/omaha-platform/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/open-door-policy/</loc>
   </url><url>
     <loc>http://example.org/python/operator-overloading/</loc>
   </url><url>
@@ -1135,6 +1177,8 @@
     <loc>http://example.org/python/packages-and-__init__.py/</loc>
   </url><url>
     <loc>http://example.org/python/packages-in-python/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/panama-canal/</loc>
   </url><url>
     <loc>http://example.org/python/pandas-data-manipulation/</loc>
   </url><url>
@@ -1177,6 +1221,10 @@
     <loc>http://example.org/aphg/placemaking/</loc>
   </url><url>
     <loc>http://example.org/apchem/planck-constant/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/platt-amendment/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/plessy-v-ferguson/</loc>
   </url><url>
     <loc>http://example.org/apchem/polarity/</loc>
   </url><url>
@@ -1228,7 +1276,13 @@
   </url><url>
     <loc>http://example.org/calc/product-rule/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/progressive-amendments-16-19.md/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/progressivism/</loc>
+  </url><url>
     <loc>http://example.org/aplang/prompt-analysis-techniques/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/pure-food-and-drug-act/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u2/puritans/</loc>
   </url><url>
@@ -1267,6 +1321,8 @@
     <loc>http://example.org/calc/quotient-rule/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u4/radical-republicans/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/ragtime-music/</loc>
   </url><url>
     <loc>http://example.org/python/range-function/</loc>
   </url><url>
@@ -1376,6 +1432,8 @@
   </url><url>
     <loc>http://example.org/apush/people/ronald-reagan/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/roosevelt-corollary-to-monroe-doctrine/</loc>
+  </url><url>
     <loc>http://example.org/apush/people/rutherford-b.-hayes/</loc>
   </url><url>
     <loc>http://example.org/aphg/safe-spaces/</loc>
@@ -1424,11 +1482,17 @@
   </url><url>
     <loc>http://example.org/python/short-circuiting-in-logical-operators/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/sierra-club/</loc>
+  </url><url>
     <loc>http://example.org/apchem/sigma-bond/</loc>
   </url><url>
     <loc>http://example.org/apchem/single-replacement-reaction/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/sinking-of-the-lusitania/</loc>
+  </url><url>
     <loc>http://example.org/arabic/smartphone-debate/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/social-gospel-movement/</loc>
   </url><url>
     <loc>http://example.org/aphg/sociofacts/</loc>
   </url><url>
@@ -1456,6 +1520,8 @@
   </url><url>
     <loc>http://example.org/apush/places/spain/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/spanish-american-war/</loc>
+  </url><url>
     <loc>http://example.org/python/special-methods/</loc>
   </url><url>
     <loc>http://example.org/apchem/speed-of-light/</loc>
@@ -1463,6 +1529,8 @@
     <loc>http://example.org/aplang/spelling-and-commonly-confused-words/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u3/result/spoils-system/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/square-deal/</loc>
   </url><url>
     <loc>http://example.org/calc/squeeze-theorem/</loc>
   </url><url>
@@ -1485,6 +1553,8 @@
     <loc>http://example.org/apush/ids/u2/sugar-act/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u4/surrender-at-appomattox-courthouse/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/sussex-pledge/</loc>
   </url><url>
     <loc>http://example.org/aplang/synthesis-essay/</loc>
   </url><url>
@@ -1510,11 +1580,17 @@
   </url><url>
     <loc>http://example.org/calc/techniques-of-integration/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/teddy-roosevelt-as-president/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/teller-amendment/</loc>
+  </url><url>
     <loc>http://example.org/apchem/temperature/</loc>
   </url><url>
     <loc>http://example.org/templates/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u4/tenant-farming/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/tenement-housing/</loc>
   </url><url>
     <loc>http://example.org/apush/states/tennessee/</loc>
   </url><url>
@@ -1531,6 +1607,8 @@
     <loc>http://example.org/apush/ids/u3/result/the-american-system/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u4/the-assassination-of-abraham-lincoln/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/the-jungle/</loc>
   </url><url>
     <loc>http://example.org/aphg/the-nature-of-geography-1.1/</loc>
   </url><url>
@@ -1582,9 +1660,15 @@
   </url><url>
     <loc>http://example.org/apush/ids/u2/treaty-of-paris-1776/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/treaty-of-versailles/</loc>
+  </url><url>
     <loc>http://example.org/apush/ids/u2/triangular-trade/</loc>
   </url><url>
     <loc>http://example.org/calc/trigonometric-derivatives/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/triple-alliance/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/triple-entente/</loc>
   </url><url>
     <loc>http://example.org/python/tuples/</loc>
   </url><url>
@@ -1610,7 +1694,11 @@
   </url><url>
     <loc>http://example.org/apchem/universal-gas-constant/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/unrestricted-submarine-warfare/</loc>
+  </url><url>
     <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/urbanization/</loc>
   </url><url>
     <loc>http://example.org/aplang/useful-websites-and-articles/</loc>
   </url><url>
@@ -1660,11 +1748,15 @@
   </url><url>
     <loc>http://example.org/apush/states/washington/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/web-dubois/</loc>
+  </url><url>
     <loc>http://example.org/apush/states/west-virginia/</loc>
   </url><url>
     <loc>http://example.org/python/while-loops/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u3/result/whiskey-rebellion/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/white-mans-burden/</loc>
   </url><url>
     <loc>http://example.org/apush/people/william-henry-harrison/</loc>
   </url><url>
@@ -1676,6 +1768,8 @@
   </url><url>
     <loc>http://example.org/apush/states/wisconsin/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/wisconsin-idea-robert-lafollete/</loc>
+  </url><url>
     <loc>http://example.org/apush/people/woodrow-wilson/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u3/result/worcester-v-georgia/</loc>
@@ -1686,7 +1780,11 @@
   </url><url>
     <loc>http://example.org/apush/ids/u3/result/xyz-affair/</loc>
   </url><url>
+    <loc>http://example.org/apush/ids/u6/yellow-journalism/</loc>
+  </url><url>
     <loc>http://example.org/apush/people/zachary-taylor/</loc>
+  </url><url>
+    <loc>http://example.org/apush/ids/u6/zimmerman-telegram/</loc>
   </url><url>
     <loc>http://example.org/python/zip-function/</loc>
   </url>

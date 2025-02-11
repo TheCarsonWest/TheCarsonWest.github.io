@@ -5,6 +5,8 @@
 +++
 # [APUSH Home](./../apush-home/)
 
+# [IDS Unit 6](./../ids-unit-6/)
+
 # [IDs unit 2](./../ids-unit-2/)
 
 # [IDS Unit 3](./../ids-unit-3/)
