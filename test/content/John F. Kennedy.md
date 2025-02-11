@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[John F. Kennedy](./../john-f.-kennedy/) (1961-1963)**
+**[[John F. Kennedy]] (1961-1963)**
 
 **Events:**
 
@@ -21,7 +21,7 @@
 
 **Groups:**
 
-* [Democrats](./../democrats/): Member of the [Democrats](./../democrats/)
+* [[Democrats]]: Member of the [[Democrats]]
 * Kennedy family: Part of a politically prominent family
 * Cold War advocate: Believed in containing the spread of communism
 
@@ -33,9 +33,9 @@
 * **Foreign Policy:**
  * Heightened Cold War tensions with the Soviet Union
  * Improved relations with Latin America and Europe
- * Committed the [United States](./../united-states/) to the defense of South Vietnam
+ * Committed the [[United States]] to the defense of South Vietnam
 * **Legacy:**
  * Remembered as a charismatic and inspiring leader
  * His assassination in 1963 cast a shadow over the rest of his presidency
  * His policies and vision continue to shape American politics and society
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

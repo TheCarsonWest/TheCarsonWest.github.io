@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Memory-Mapped Files | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Memory-Mapped Files</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="handling-binary-files">[[Handling Binary Files]]</h1>
+<h1 id="memory-mapped-files">[[Memory-Mapped Files]]</h1>
+<p>Python&rsquo;s <code>mmap</code> module allows for memory-mapping files. This means treating a file on disk as if it were directly accessible in your program&rsquo;s memory.  This can offer significant performance advantages for large files, especially when dealing with random access.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Efficiency:</strong>  Avoids the overhead of repeatedly reading and writing to the file from disk. Changes made in memory are reflected on disk (and vice-versa, depending on the mode).</li>
+<li><strong>Shared Memory:</strong> Multiple processes can access and modify the same memory-mapped file simultaneously, enabling inter-process communication (IPC). [[Inter-Process Communication (IPC)]]</li>
+<li><strong>Synchronization:</strong> Because multiple processes can access the same memory, proper synchronization mechanisms (like locks) are crucial to prevent race conditions and data corruption. [[Synchronization Primitives]]</li>
+<li><strong>File Modes:</strong>  Different modes affect how the mapped file behaves (read-only, read-write, copy-on-write, etc.).</li>
+<li><strong>[[Error Handling]]:</strong>  Properly handle exceptions like <code>mmap.error</code> for scenarios where the mapping fails.</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mmap
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>filename <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;my_large_file.dat&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a large file for demonstration (optional)</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(filename, <span style="color:#e6db74">&#34;wb&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>    f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;A&#34;</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">1024</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">1024</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">10</span>)) <span style="color:#75715e"># 10MB file</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(filename, <span style="color:#e6db74">&#34;r+b&#34;</span>) <span style="color:#66d9ef">as</span> f:  <span style="color:#75715e"># Open in read-write binary mode</span>
+</span></span><span style="display:flex;"><span>        mm <span style="color:#f92672">=</span> mmap<span style="color:#f92672">.</span>mmap(f<span style="color:#f92672">.</span>fileno(), <span style="color:#ae81ff">0</span>) <span style="color:#75715e"># Map the entire file</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Access and modify the file&#39;s contents directly through mm</span>
+</span></span><span style="display:flex;"><span>        print(mm[:<span style="color:#ae81ff">10</span>]) <span style="color:#75715e"># Read the first 10 bytes</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        mm[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">10</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;Hello, world!&#34;</span> <span style="color:#75715e"># Write to the first 10 bytes</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        mm<span style="color:#f92672">.</span>close()  <span style="color:#75715e"># Close the mapped file</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">OSError</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error mapping file: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">finally</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Ensure the file is closed and resources are released.</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># If the file was newly created, you might need to delete it here</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># if os.path.exists(filename):</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">#   os.remove(filename)</span>
+</span></span></code></pre></div><p><strong>Further Exploration:</strong></p>
+<ul>
+<li>[[Memory Management in Python]]</li>
+<li>[[File I/O in Python]]</li>
+</ul>
+<p><strong>Important Notes:</strong></p>
+<ul>
+<li>Memory-mapped files consume memory. For extremely large files that exceed available RAM, this approach can lead to performance issues (swapping).</li>
+<li>Always close the <code>mmap</code> object (<code>mm.close()</code>) to release resources.  Using <code>with</code> statement is recommended for automatic cleanup.</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

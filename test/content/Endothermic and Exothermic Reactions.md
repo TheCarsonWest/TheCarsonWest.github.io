@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Le Chatelier's Principle]]
+# [[Le Chateliers Principle]]
 # [[Endothermic and Exothermic Reactions]]
 
 **Definition:**

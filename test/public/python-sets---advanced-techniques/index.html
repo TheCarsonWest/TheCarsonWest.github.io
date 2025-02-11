@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python Sets - Advanced Techniques | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Python Sets - Advanced Techniques</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-sets---examples">[[Python Sets - Examples]]</h1>
+<h1 id="python-sets---advanced-techniques">[[Python Sets - Advanced Techniques]]</h1>
+<p>This note covers advanced techniques related to [[Python Sets]] beyond basic creation and operations.  We&rsquo;ll assume basic set understanding (see [[Python Sets - Basics]]).</p>
+<h2 id="set-comprehensions">Set Comprehensions</h2>
+<p>Similar to [[List Comprehensions]], set comprehensions provide a concise way to create sets.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Create a set of squares of even numbers</span>
+</span></span><span style="display:flex;"><span>even_squares <span style="color:#f92672">=</span> {x<span style="color:#f92672">**</span>[[<span style="color:#ae81ff">2</span>]] <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">10</span>) <span style="color:#66d9ef">if</span> x <span style="color:#f92672">%</span> [[<span style="color:#ae81ff">2</span>]] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>}
+</span></span><span style="display:flex;"><span>print(even_squares)  <span style="color:#75715e"># Output: {0, [[4]], 16, 36, 64}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a set from a string, removing duplicates</span>
+</span></span><span style="display:flex;"><span>unique_chars <span style="color:#f92672">=</span> {char <span style="color:#66d9ef">for</span> char <span style="color:#f92672">in</span> <span style="color:#e6db74">&#34;abracadabra&#34;</span>}
+</span></span><span style="display:flex;"><span>print(unique_chars)  <span style="color:#75715e"># Output: {&#39;a&#39;, &#39;b&#39;, &#39;r&#39;, &#39;c&#39;, &#39;d&#39;}</span>
+</span></span></code></pre></div><h2 id="set-operations-on-multiple-sets">[[Set Operations]] on Multiple Sets</h2>
+<p>Python supports efficient operations on multiple sets.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>set1 <span style="color:#f92672">=</span> {[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">3</span>]]}
+</span></span><span style="display:flex;"><span>set2 <span style="color:#f92672">=</span> {[[<span style="color:#ae81ff">3</span>]], [[<span style="color:#ae81ff">4</span>]], [[<span style="color:#ae81ff">5</span>]]}
+</span></span><span style="display:flex;"><span>set3 <span style="color:#f92672">=</span> {[[<span style="color:#ae81ff">5</span>]], [[<span style="color:#ae81ff">6</span>]], [[<span style="color:#ae81ff">7</span>]]}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Union: combines all elements from all sets</span>
+</span></span><span style="display:flex;"><span>union_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">|</span> set2 <span style="color:#f92672">|</span> set3  <span style="color:#75715e"># or set1.union(set2, set3)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Union: </span><span style="color:#e6db74">{</span>union_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {[[1]], [[2]], [[3]], [[4]], [[5]], [[6]], [[7]]}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Intersection: elements common to all sets</span>
+</span></span><span style="display:flex;"><span>intersection_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">&amp;</span> set2 <span style="color:#f92672">&amp;</span> set3 <span style="color:#75715e"># or set1.intersection(set2, set3)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Intersection: </span><span style="color:#e6db74">{</span>intersection_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: set()</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Difference: elements in set1 but not in set2</span>
+</span></span><span style="display:flex;"><span>difference_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">-</span> set2 <span style="color:#75715e"># or set1.difference(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Difference (set1 - set2): </span><span style="color:#e6db74">{</span>difference_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {[[1]], [[2]]}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Symmetric Difference: elements in either set1 or set2, but not both</span>
+</span></span><span style="display:flex;"><span>symmetric_difference_set <span style="color:#f92672">=</span> set1 <span style="color:#f92672">^</span> set2 <span style="color:#75715e"># or set1.symmetric_difference(set2)</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Symmetric Difference: </span><span style="color:#e6db74">{</span>symmetric_difference_set<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) <span style="color:#75715e"># Output: {[[1]], [[2]], [[4]], [[5]]}</span>
+</span></span></code></pre></div><h2 id="frozen-sets">[[Frozen Sets]]</h2>
+<p>[[Frozen Sets]] are immutable versions of sets.  Once created, their elements cannot be added or removed.  Useful when a set needs to be used as a key in a dictionary or as an element in another set.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>frozen_set1 <span style="color:#f92672">=</span> frozenset({[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">3</span>]]})
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># frozen_set1.add([[4]])  # This will raise an AttributeError</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>dictionary <span style="color:#f92672">=</span> {frozen_set1: <span style="color:#e6db74">&#34;value&#34;</span>} <span style="color:#75715e">#  Can be used as dictionary keys</span>
+</span></span></code></pre></div><h2 id="set-methods-for-advanced-manipulation">Set Methods for Advanced Manipulation</h2>
+<p>Explore the following methods for more complex set manipulations (refer to Python documentation for detailed explanations):</p>
+<ul>
+<li><code>set.issubset()</code>: Checks if one set is a subset of another.</li>
+<li><code>set.issuperset()</code>: Checks if one set is a superset of another.</li>
+<li><code>set.discard()</code>: Removes an element if it exists (doesn&rsquo;t raise an error if not present).</li>
+<li><code>set.remove()</code>: Removes an element; raises an error if not present.</li>
+<li><code>set.pop()</code>: Removes and returns an arbitrary element. Raises KeyError if set is empty.</li>
+<li><code>set.clear()</code>: Removes all elements from the set.</li>
+<li><code>set.copy()</code>: Creates a shallow copy of the set.</li>
+</ul>
+<p>[[Python Sets - Basics]]</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

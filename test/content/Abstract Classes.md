@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Classes and Objects](./../classes-and-objects/)
-# [Abstract Classes](./../abstract-classes/) 
+# [[Classes and Objects]]
+# [[Abstract Classes]] 
 Abstract classes are classes that cannot be instantiated directly.  They serve as blueprints for other classes (subclasses).  They often contain one or more abstract methods, which are methods without a concrete implementation. Subclasses *must* provide implementations for these abstract methods.
 
 Key features:
@@ -33,10 +33,10 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return [3](./../3/).14159 * self.radius * self.radius
+        return [[3]].14159 * self.radius * self.radius
 
     def perimeter(self):
-        return [2](./../2/) * [3](./../3/).14159 * self.radius
+        return [[2]] * [[3]].14159 * self.radius
 
 class Square(Shape):
     def __init__(self, side):
@@ -46,16 +46,16 @@ class Square(Shape):
         return self.side * self.side
 
     def perimeter(self):
-        return [4](./../4/) * self.side
+        return [[4]] * self.side
 
 #Trying to instantiate Shape will raise an error
 #my_shape = Shape() #TypeError: Can't instantiate abstract class Shape with abstract methods area, perimeter
 
-my_circle = Circle([5](./../5/))
+my_circle = Circle([[5]])
 print(my_circle.area())
-my_square = Square([4](./../4/))
+my_square = Square([[4]])
 print(my_square.perimeter())
 
 ```
 
-[ABC Module](./../abc-module/)  ([Method Overriding](./../method-overriding/)) [Polymorphism](./../polymorphism/)
+[[ABC Module]]  ([[Method Overriding]]) [[Polymorphism]]

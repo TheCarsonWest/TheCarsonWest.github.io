@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Cultural Landscape](./../cultural-landscape/) 
-**Definition:** The visible imprint of human activity and [Culture](./../culture/) on the environment.
+# [[Cultural Landscape]] 
+**Definition:** The visible imprint of human activity and [[Culture]] on the environment.
 
 **Example:** Terraced rice paddies in Southeast Asia, skyscrapers in a city.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

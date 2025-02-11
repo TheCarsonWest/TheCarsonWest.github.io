@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Code Style Guides | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Code Style Guides</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="variable-naming-conventions">[[Variable Naming Conventions]]</h1>
+<h1 id="python-code-style-guides">Python: [[Code Style Guides]]</h1>
+<p>These notes cover Python code style guides, focusing on best practices and tools for ensuring consistent and readable code.</p>
+<p>Key aspects:</p>
+<ul>
+<li>
+<p><strong>Consistency:</strong>  The most important aspect.  Choose a style and stick to it throughout your project.</p>
+</li>
+<li>
+<p><strong>Readability:</strong>  Code should be easy to understand and maintain.  This includes using meaningful names, adding comments where necessary, and following consistent formatting.</p>
+</li>
+</ul>
+<p><strong>Main Style Guides:</strong></p>
+<ul>
+<li>
+<p><strong>PEP 8:</strong>  The official Python Enhancement Proposal for style.  It&rsquo;s the de facto standard and widely adopted.  Consider this your starting point.  See the detailed explanation in [[PEP 8 Deep Dive]].</p>
+<ul>
+<li><strong>Indentation:</strong>  Use [[4]] spaces, never tabs.</li>
+<li><strong>Line Length:</strong> Aim for 79 characters per line.</li>
+<li><strong>Naming Conventions:</strong>  <code>snake_case</code> for variables and functions, <code>CamelCase</code> for classes.</li>
+<li><strong>Blank Lines:</strong> Use blank lines to separate logical sections of code.</li>
+</ul>
+</li>
+<li>
+<p><strong>Google Python Style Guide:</strong>  A stricter, more comprehensive guide often used in larger projects. It builds on PEP 8, adding further details and rules. [[Google Style Guide Details]]</p>
+</li>
+<li>
+<p><strong>Other Guides:</strong>  Various organizations and companies have their own style guides (e.g., internal standards).  These often extend or modify PEP 8.</p>
+</li>
+</ul>
+<p><strong>Tools for Enforcing Style:</strong></p>
+<ul>
+<li>
+<p><strong><code>pylint</code>:</strong> A popular tool for static code analysis that checks for style violations, as well as other potential problems.  [[Pylint Usage]]</p>
+</li>
+<li>
+<p><strong><code>flake8</code>:</strong> Combines <code>pycodestyle</code> (PEP 8 checker), <code>pyflakes</code> (finds errors), and <code>mccabe</code> (complexity checker). Often preferred for its speed and comprehensive coverage. [[Flake8 Usage]]</p>
+</li>
+<li>
+<p><strong>IDE Integration:</strong>  Most IDEs (e.g., VS Code, PyCharm) have built-in support for PEP 8 and other linters, providing real-time feedback and automatic code formatting.</p>
+</li>
+</ul>
+<p><strong>Example (Illustrative):</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Good Example (PEP 8 Compliant):</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calculate_sum</span>(a, b):
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Calculates the sum of two numbers.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    total <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> total
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Bad Example (Violates PEP 8):</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">CalculateSum</span>(a,b):<span style="color:#75715e">#no spaces, poor naming</span>
+</span></span><span style="display:flex;"><span>    total<span style="color:#f92672">=</span>a<span style="color:#f92672">+</span>b  <span style="color:#75715e">#no spaces</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> total <span style="color:#75715e">#missing blank line before return</span>
+</span></span></code></pre></div><p><strong>Further Considerations:</strong></p>
+<ul>
+<li>
+<p><strong>Docstrings:</strong>  Write clear and concise docstrings to explain the purpose of functions, classes, and modules.  See [[Docstring Best Practices]].</p>
+</li>
+<li>
+<p><strong>Comments:</strong>  Use comments to explain complex logic or non-obvious code sections.  Avoid over-commenting.</p>
+</li>
+</ul>
+<p>This is a summary.  Refer to the linked notes for more detailed explanations.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

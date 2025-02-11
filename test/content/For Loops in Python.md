@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [List Comprehension](./../list-comprehension/)
-# [For Loops in Python](./../for-loops-in-python/) 
+# [[List Comprehension]]
+# [[For Loops in Python]] 
 Basic Syntax:
 
 ```python
@@ -26,13 +26,13 @@ for fruit in my_list:
 **Example with a range:**
 
 ```python
-for i in range([5](./../5/)):  # iterates from 0 to [4](./../4/)
+for i in range([[5]]):  # iterates from 0 to [[4]]
     print(i)
 
-for i in range([1](./../1/),[6](./../6/)): #iterates from [1](./../1/) to [5](./../5/)
+for i in range([[1]],[[6]]): #iterates from [[1]] to [[5]]
     print(i)
 
-for i in range([1](./../1/),10,[2](./../2/)): #iterates from [1](./../1/) to 9 stepping by [2](./../2/)
+for i in range([[1]],10,[[2]]): #iterates from [[1]] to 9 stepping by [[2]]
     print(i)
 
 ```
@@ -48,7 +48,7 @@ for char in my_string:
 **Iterating through dictionaries:**
 
 ```python
-my_dict = {"a": [1](./../1/), "b": [2](./../2/), "c": [3](./../3/)}
+my_dict = {"a": [[1]], "b": [[2]], "c": [[3]]}
 for key in my_dict:  # iterates through keys
     print(key, my_dict[key])
 
@@ -59,12 +59,12 @@ for key, value in my_dict.items(): #iterates through key-value pairs
 **Nested Loops:**
 
 ```python
-for i in range([3](./../3/)):
-    for j in range([2](./../2/)):
+for i in range([[3]]):
+    for j in range([[2]]):
         print(f"i = {i}, j = {j}")
 ```
 
-**[Loop Control Statements](./../loop-control-statements/):**
+**[[Loop Control Statements]]:**
 
 * `break`:  Terminates the loop prematurely.
 * `continue`: Skips the rest of the current iteration and proceeds to the next.
@@ -73,8 +73,8 @@ for i in range([3](./../3/)):
 **Example with `break`:**
 
 ```python
-for i in range([5](./../5/)):
-    if i == [3](./../3/):
+for i in range([[5]]):
+    if i == [[3]]:
         break
     print(i)
 ```
@@ -82,10 +82,10 @@ for i in range([5](./../5/)):
 **Example with `continue`:**
 
 ```python
-for i in range([5](./../5/)):
-    if i == [3](./../3/):
+for i in range([[5]]):
+    if i == [[3]]:
         continue
     print(i)
 ```
 
-[List Comprehensions](./../list-comprehensions/)  ([Range Function](./../range-function/)) [Break and Continue Statements](./../break-and-continue-statements/)
+[[List Comprehensions]]  ([[Range Function]]) [[Break and Continue Statements]]

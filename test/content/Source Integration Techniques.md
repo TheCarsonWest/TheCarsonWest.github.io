@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/)
-# [Source Integration Techniques](./../source-integration-techniques/)
+# [[Synthesis Essay]]
+# [[Source Integration Techniques]]
 
 This document outlines various techniques for integrating sources into a written work.  Focus is on proper attribution and avoiding plagiarism.
 
-## [Citation Management](./../citation-management/)
+## [[Citation Management]]
 
-*   Different citation styles (MLA, APA, Chicago, etc.)  [Citation Styles](./../citation-styles/)
-*   Software tools (Zotero, Mendeley, EndNote) [Citation Management Software](./../citation-management-software/)
+*   Different citation styles (MLA, APA, Chicago, etc.)  [[Citation Styles]]
+*   Software tools (Zotero, Mendeley, EndNote) [[Citation Management Software]]
 
 
 ## Direct Quotations
@@ -46,32 +46,32 @@ Example:  The study's findings support the hypothesis that... (Smith et al., 202
 
 *   Combining information from multiple sources to support your argument.
 *   Show how sources relate to each other.
-*   Avoid simply listing sources; create a cohesive narrative.  [Synthesis Techniques](./../synthesis-techniques/)
+*   Avoid simply listing sources; create a cohesive narrative.  [[Synthesis Techniques]]
 
 
-## [Avoiding Plagiarism](./../avoiding-plagiarism/)
+## [[Avoiding Plagiarism]]
 
 *   Proper citation is crucial.
 *   Paraphrase and summarize effectively.
 *   Use quotation marks correctly.
-*   Understand your institution's plagiarism policy. [Academic Honesty](./../academic-honesty/)
+*   Understand your institution's plagiarism policy. [[Academic Honesty]]
 
 
 ##  Mathematical Formula Integration (Example)
 
-Suppose we have a function  $ f(x) = x^[2](./../2/) $ .  The integral of this function from  $ a $  to  $ b $  is given by:
+Suppose we have a function  $ f(x) = x^[[2]] $ .  The integral of this function from  $ a $  to  $ b $  is given by:
 
- $$  \int_a^b x^[2](./../2/) dx = \left[ \frac{x^[3](./../3/)}{[3](./../3/)} \right]_a^b = \frac{b^[3](./../3/)}{[3](./../3/)} - \frac{a^[3](./../3/)}{[3](./../3/)}  $$  
-This needs to be cited if taken from a source.  Remember to cite the source of the formula if it's not common knowledge.  [Mathematical Citation](./../mathematical-citation/)
+ $$  \int_a^b x^[[2]] dx = \left[ \frac{x^[[3]]}{[[3]]} \right]_a^b = \frac{b^[[3]]}{[[3]]} - \frac{a^[[3]]}{[[3]]}  $$  
+This needs to be cited if taken from a source.  Remember to cite the source of the formula if it's not common knowledge.  [[Mathematical Citation]]
 
 
 ##  Image and Figure Integration
 
-*   Always cite the source of images and figures, even if they are from the public domain. [Image Attribution](./../image-attribution/)
+*   Always cite the source of images and figures, even if they are from the public domain. [[Image Attribution]]
 
 
 ##  Data Integration
 
 *   Clearly state the source of data.
-*   Explain any transformations or manipulations performed on the data. [Data Handling and Citation](./../data-handling-and-citation/)
+*   Explain any transformations or manipulations performed on the data. [[Data Handling and Citation]]
 

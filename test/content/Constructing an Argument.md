@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-# [Evidence Evaluation & Citation](./../evidence-evaluation-&-citation/)
-# [Constructing an Argument](./../constructing-an-argument/)
+# [[Evidence Evaluation & Citation]]
+# [[Constructing an Argument]]
 
 **I. Core Components:**
 
 * **Claim:** The main point or assertion you are trying to prove.  Must be clear, concise, and arguable.  Example:  "The death penalty is ineffective as a deterrent."
 
-* **Evidence:**  Facts, statistics, examples, expert opinions, or other data used to support the claim.  Must be credible and relevant.  Consider different types of evidence: [Types of Evidence](./../types-of-evidence/)
+* **Evidence:**  Facts, statistics, examples, expert opinions, or other data used to support the claim.  Must be credible and relevant.  Consider different types of evidence: [[Types of Evidence]]
 
-* **Reasoning:** The logical connection between the evidence and the claim. Explains *why* the evidence supports the claim. This often involves using logical fallacies to your advantage,  but you must avoid committing them yourself. [Logical Fallacies](./../logical-fallacies/)
+* **Reasoning:** The logical connection between the evidence and the claim. Explains *why* the evidence supports the claim. This often involves using logical fallacies to your advantage,  but you must avoid committing them yourself. [[Logical Fallacies]]
 
 * **Warrant:** (Often implicit) The underlying assumption or principle that connects the evidence to the claim.  For example, in arguing that the death penalty is ineffective because murder rates are high in states with it, the warrant is the assumption that a correlation between death penalty and murder rate indicates causation.
 
@@ -20,10 +20,10 @@
 
 There are several ways to structure an argument, but a common and effective method is:
 
-[1](./../1/). **Introduction:** State your claim clearly.
-[2](./../2/). **Body Paragraphs:** Each paragraph should focus on a single piece of evidence and explain how it supports the claim through reasoning.  Consider using the Toulmin model for structure in each paragraph.  [Toulmin Model](./../toulmin-model/)
-[3](./../3/). **Counterarguments:** Acknowledge and address potential objections or opposing viewpoints.  This shows a nuanced understanding of the topic and strengthens your argument. [Addressing Counterarguments](./../addressing-counterarguments/)
-[4](./../4/). **Conclusion:** Restate your claim and summarize your main points.
+[[1]]. **Introduction:** State your claim clearly.
+[[2]]. **Body Paragraphs:** Each paragraph should focus on a single piece of evidence and explain how it supports the claim through reasoning.  Consider using the Toulmin model for structure in each paragraph.  [[Toulmin Model]]
+[[3]]. **Counterarguments:** Acknowledge and address potential objections or opposing viewpoints.  This shows a nuanced understanding of the topic and strengthens your argument. [[Addressing Counterarguments]]
+[[4]]. **Conclusion:** Restate your claim and summarize your main points.
 
 **III.  Types of Arguments:**
 
@@ -31,7 +31,7 @@ There are several ways to structure an argument, but a common and effective meth
 * **Inductive Reasoning:** Starts with specific observations and draws a general conclusion.  The conclusion is probable, but not guaranteed.  Example: Every swan I have ever seen is white. Therefore, all swans are white. (This is famously false).
 * **Abductive Reasoning:**  Starts with an observation and seeks the simplest and most likely explanation.  Example: The grass is wet.  The simplest explanation is that it rained.
 
-**IV.  Avoiding Fallacies:**  Critically examine your argument for logical fallacies.  [Logical Fallacies](./../logical-fallacies/)
+**IV.  Avoiding Fallacies:**  Critically examine your argument for logical fallacies.  [[Logical Fallacies]]
 
 
 **V.  Evaluating Arguments:**
@@ -44,8 +44,8 @@ There are several ways to structure an argument, but a common and effective meth
 
 **VI.  Related Notes:**
 
-* [Types of Evidence](./../types-of-evidence/)
-* [Logical Fallacies](./../logical-fallacies/)
-* [Toulmin Model](./../toulmin-model/)
-* [Addressing Counterarguments](./../addressing-counterarguments/)
+* [[Types of Evidence]]
+* [[Logical Fallacies]]
+* [[Toulmin Model]]
+* [[Addressing Counterarguments]]
 

@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-**[William Howard Taft](./../william-howard-taft/)**
+**[[William Howard Taft]]**
 
 **Overview:**
 
-* 27th [POTUS](./../potus/) (1909-1913)
+* 27th [[POTUS]] (1909-1913)
 * Republican Party
 * Known as a "Progressive Conservative"
 
@@ -29,10 +29,10 @@
 
 **Impact on the Country:**
 
-* Continued the Progressive agenda of his predecessor, [Theodore Roosevelt](./../theodore-roosevelt/), but with a more conservative approach
+* Continued the Progressive agenda of his predecessor, [[Theodore Roosevelt]], but with a more conservative approach
 * Strengthened the federal regulatory system
 * Expanded social welfare programs
 * Reduced tariffs, but not to the extent desired by reformers
 * Faced criticism for his support of business interests
-* Laid the groundwork for the Federal Reserve System, which was established under his successor, [Woodrow Wilson](./../woodrow-wilson/)
-# [APUSH people](./../apush-people/)
+* Laid the groundwork for the Federal Reserve System, which was established under his successor, [[Woodrow Wilson]]
+# [[APUSH people]]

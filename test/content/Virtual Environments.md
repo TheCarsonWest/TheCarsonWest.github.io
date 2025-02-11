@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [Modules and Packages](./../modules-and-packages/)
-# [Virtual Environments](./../virtual-environments/) 
+# [[Modules and Packages]]
+# [[Virtual Environments]] 
 Python's strength lies in its vast ecosystem of packages.  However, managing dependencies between different projects can become a nightmare without proper tools.  This is where virtual environments shine.
 
 A virtual environment is an isolated space where you can install packages without affecting your system's global Python installation or other projects.  This prevents conflicts and ensures that each project has its own specific set of dependencies.
 
 **Creating a Virtual Environment:**
 
-The most common way is using `venv` (Python [3](./../3/).[3](./../3/)+):
+The most common way is using `venv` (Python [[3]].[[3]]+):
 
 ```bash
 python3 -m venv .venv  # Creates a virtual environment named '.venv' in the current directory
@@ -20,7 +20,7 @@ python3 -m venv .venv  # Creates a virtual environment named '.venv' in the curr
 Other tools exist, like `conda` (often used with Anaconda):
 
 ```bash
-conda create -n myenv python=[3](./../3/).9  # Creates a conda environment named 'myenv' with Python [3](./../3/).9
+conda create -n myenv python=[[3]].9  # Creates a conda environment named 'myenv' with Python [[3]].9
 ```
 
 **Activating a Virtual Environment:**
@@ -55,4 +55,4 @@ deactivate
 ```
 
 
-[Package Management with Pip](./../package-management-with-pip/)  ([Conda Environments](./../conda-environments/))
+[[Package Management with Pip]]  ([[Conda Environments]])

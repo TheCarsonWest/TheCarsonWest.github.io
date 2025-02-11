@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khan Academy Linear Algebra Notes | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Khan Academy Linear Algebra Notes</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="useful-websites-and-articles">[[Useful Websites and Articles]]</h1>
+<h1 id="khan-academy-linear-algebra-notes">[[Khan Academy Linear Algebra Notes]]</h1>
+<p><strong>I. Vectors:</strong></p>
+<ul>
+<li>
+<p><strong>Definition:</strong> A quantity with both magnitude and direction.  Represented graphically as arrows.  Can be represented algebraically as ordered tuples (e.g.,  $ \begin{bmatrix} [[2]] \ [[3]] \end{bmatrix} $  in  $ \mathbb{R}^[[2]] $ ).</p>
+</li>
+<li>
+<p><strong>Vector Addition:</strong>  Geometrically, the tail-to-head method. Algebraically, component-wise addition:   $ \begin{bmatrix} a \ b \end{bmatrix} + \begin{bmatrix} c \ d \end{bmatrix} = \begin{bmatrix} a+c \ b+d \end{bmatrix} $ .</p>
+</li>
+<li>
+<p><strong>Scalar Multiplication:</strong>  Scaling the magnitude of a vector by a scalar value. Algebraically, multiplying each component by the scalar:  $ k\begin{bmatrix} a \ b \end{bmatrix} = \begin{bmatrix} ka \ kb \end{bmatrix} $ .</p>
+</li>
+<li>
+<p><strong>Linear Combinations:</strong>  A sum of scalar multiples of vectors.   $ c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + &hellip; + c_n\mathbf{v}_n $ , where  $ c_i $  are scalars and  $ \mathbf{v}_i $  are vectors. [[Linear Combinations and Span]]</p>
+</li>
+</ul>
+<p><strong>II. Matrices:</strong></p>
+<ul>
+<li>
+<p><strong>Definition:</strong> A rectangular array of numbers.  Dimensions are given as  $ m \times n $  (rows x columns).</p>
+</li>
+<li>
+<p><strong>Matrix Addition:</strong> Component-wise addition (only possible for matrices of the same dimensions).</p>
+</li>
+<li>
+<p><strong>Scalar Multiplication:</strong> Multiplying each element of the matrix by the scalar.</p>
+</li>
+<li>
+<p><strong>Matrix Multiplication:</strong> [[Matrix Multiplication]]</p>
+</li>
+</ul>
+<p><strong>III. Systems of Linear Equations:</strong></p>
+<ul>
+<li>
+<p><strong>Row Reduction (Gaussian Elimination):</strong>  A systematic method for solving systems of linear equations using elementary row operations (swap rows, multiply a row by a non-zero scalar, add a multiple of one row to another).  Goal is to obtain row-echelon form or reduced row-echelon form.</p>
+</li>
+<li>
+<p><strong>Augmented Matrix:</strong> A matrix formed by combining the coefficient matrix and the constant vector of a system of linear equations.</p>
+</li>
+<li>
+<p><strong>Solutions:</strong>  A system can have one unique solution, infinitely many solutions, or no solution. [[Systems of Linear Equations: Solutions]]</p>
+</li>
+</ul>
+<p><strong>IV. Vector Spaces:</strong></p>
+<ul>
+<li>
+<p><strong>Definition:</strong> A set of vectors that is closed under vector addition and scalar multiplication.  Must contain a zero vector.</p>
+</li>
+<li>
+<p><strong>Subspaces:</strong>  A subset of a vector space that is itself a vector space.</p>
+</li>
+<li>
+<p><strong>Basis:</strong> A set of linearly independent vectors that span the vector space.  [[Basis and Dimension]]</p>
+</li>
+</ul>
+<p><strong>V. Linear Transformations:</strong></p>
+<ul>
+<li><strong>Definition:</strong> A function that maps vectors from one vector space to another, preserving vector addition and scalar multiplication.  Can be represented by a matrix. [[Linear Transformations and Matrices]]</li>
+</ul>
+<p><strong>VI. Eigenvalues and Eigenvectors:</strong></p>
+<ul>
+<li><strong>Definition:</strong>  An eigenvector of a matrix is a non-zero vector that, when multiplied by the matrix, only changes in scale (i.e.,  $ A\mathbf{v} = \lambda\mathbf{v} $ , where  $ \lambda $  is the eigenvalue and  $ \mathbf{v} $  is the eigenvector). [[Eigenvalues and Eigenvectors: Calculation and Applications]]</li>
+</ul>
+<p><strong>VII.  Determinants:</strong></p>
+<ul>
+<li><strong>Definition:</strong> A scalar value associated with a square matrix.  Used to determine invertibility, and other properties. [[Determinants and their properties]]</li>
+</ul>
+<p><strong>VIII.  Inner Product (Dot Product):</strong></p>
+<ul>
+<li>Definition: A way to multiply two vectors to produce a scalar value.   $ u \cdot v = \sum_{i=[[1]]}^n u_i v_i $ .   Useful for finding angles between vectors and projections. [[Inner Product and Orthogonality]]</li>
+</ul>
+<p><strong>IX. Orthogonality:</strong></p>
+<ul>
+<li>Definition: Two vectors are orthogonal if their dot product is zero.  [[Inner Product and Orthogonality]]</li>
+</ul>
+<p><strong>X. Gram-Schmidt Process:</strong>  A method to transform a set of linearly independent vectors into an orthonormal set. [[Gram-Schmidt Process]]</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

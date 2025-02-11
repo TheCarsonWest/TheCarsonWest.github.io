@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-## [Chemistry Constants](./../chemistry-constants/)
+## [[Chemistry Constants]]
 
 # c = 299,790,000 meters/second
-## commonly just 3e8 or [2](./../2/).99e8
+## commonly just 3e8 or [[2]].99e8
 
 ## Used in:
-- ## [Magnetic Constant](./../magnetic-constant/)
+- ## [[Magnetic Constant]]

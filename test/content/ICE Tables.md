@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium](./../equilibrium/)
-# [ICE Tables](./../ice-tables/)
+# [[Equilibrium]]
+# [[ICE Tables]]
 
 ICE tables are used to solve equilibrium problems.  They stand for **I**nitial, **C**hange, and **E**quilibrium.
 
@@ -47,11 +47,11 @@ Therefore, the equilibrium concentrations are:
 
 *   The stoichiometric coefficients are crucial in determining the changes in concentration.
 *   The change in concentration is always negative for reactants and positive for products.
-*   The equilibrium constant ( $ K $ ) expression can be used to solve for unknown values in the ICE table. [Equilibrium Constants](./../equilibrium-constants/)
-*   For problems involving small  $ K $  values, we can often use approximations to simplify the calculations. [Approximations in Equilibrium Calculations](./../approximations-in-equilibrium-calculations/)]]
+*   The equilibrium constant ( $ K $ ) expression can be used to solve for unknown values in the ICE table. [[Equilibrium Constants]]
+*   For problems involving small  $ K $  values, we can often use approximations to simplify the calculations. [[Approximations in Equilibrium Calculations]]]]
 
 
-[Equilibrium Calculations](./../equilibrium-calculations/)]]
-[Le Chatelier's Principle](./../le-chateliers-principle/)
+[[Equilibrium Calculations]]]]
+[[Le Chateliers Principle]]
 
 

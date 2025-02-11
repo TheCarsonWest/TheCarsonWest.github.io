@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Asyncio | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Asyncio</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="async-generators">[[Async Generators]]</h1>
+<h1 id="asyncio-notes">[[Asyncio]] Notes</h1>
+<p>[[Asyncio]] is Python&rsquo;s built-in library for asynchronous programming.  It allows you to write concurrent code using the <code>async</code> and <code>await</code> keywords.  This is particularly useful for I/O-bound operations (like network requests or file operations) where you don&rsquo;t want your program to block while waiting for a response.</p>
+<p>Key Concepts:</p>
+<ul>
+<li><strong><code>async</code> and <code>await</code>:</strong> These keywords are fundamental to asyncio.  <code>async</code> defines a coroutine function, and <code>await</code> pauses execution of the coroutine until a future (an object representing an ongoing operation) completes.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> asyncio
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_coroutine</span>():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Coroutine started&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep([[<span style="color:#ae81ff">1</span>]])  <span style="color:#75715e"># Simulate an I/O operation</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Coroutine finished&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> my_coroutine()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>asyncio<span style="color:#f92672">.</span>run(main())
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Event Loop:</strong> The event loop is the heart of asyncio. It manages the execution of coroutines, switching between them as they wait for I/O operations to complete.  This allows for efficient concurrency without the overhead of threads.</p>
+</li>
+<li>
+<p><strong>Futures and Tasks:</strong>  Futures represent the eventual result of an asynchronous operation.  Tasks are futures that are scheduled to run on the event loop.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fetch_data</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Simulate fetching data from a network resource</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep([[<span style="color:#ae81ff">2</span>]])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Data fetched!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>    task <span style="color:#f92672">=</span> asyncio<span style="color:#f92672">.</span>create_task(fetch_data()) <span style="color:#75715e">#schedule a task </span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;Fetching data...&#34;</span>)
+</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> task <span style="color:#75715e"># wait for the task to complete</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result: </span><span style="color:#e6db74">{</span>result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>asyncio<span style="color:#f92672">.</span>run(main())
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Concurrency vs. Parallelism:</strong>  [[Asyncio]] achieves concurrency (multiple tasks seemingly running at the same time), but not necessarily parallelism (multiple tasks running simultaneously on multiple CPU cores).  It&rsquo;s particularly efficient for I/O-bound operations where waiting dominates CPU usage. For CPU-bound operations, multiprocessing might be more appropriate. [[Concurrency vs Parallelism]]</p>
+</li>
+<li>
+<p><strong>[[Error Handling]]:</strong>  Use <code>try...except</code> blocks within your coroutines to handle potential exceptions.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">might_fail</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># some operation that might fail</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> <span style="color:#a6e22e">Exception</span>(<span style="color:#e6db74">&#34;Something went wrong!&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Error: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">await</span> might_fail()
+</span></span><span style="display:flex;"><span>asyncio<span style="color:#f92672">.</span>run(main())
+</span></span></code></pre></div><ul>
+<li><strong><code>asyncio.gather</code>:</strong> This function runs multiple coroutines concurrently and returns their results in a list.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">coroutine1</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep([[<span style="color:#ae81ff">1</span>]])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [[<span style="color:#ae81ff">1</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">coroutine2</span>():
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep([[<span style="color:#ae81ff">2</span>]])
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> [[<span style="color:#ae81ff">2</span>]]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">main</span>():
+</span></span><span style="display:flex;"><span>  results <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>gather(coroutine1(), coroutine2())
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Results: </span><span style="color:#e6db74">{</span>results<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>asyncio<span style="color:#f92672">.</span>run(main())
+</span></span></code></pre></div><p>[[Advanced Asyncio Techniques]]  [[Asyncio and Databases]] [[Asyncio and Web Servers]]</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

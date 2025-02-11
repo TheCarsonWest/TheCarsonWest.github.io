@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python Functions](./../python-functions/)
-# [Variable Scope and Lifetime](./../variable-scope-and-lifetime/) 
+# [[Python Functions]]
+# [[Variable Scope and Lifetime]] 
 Python's variable scope determines where a variable is accessible within your code.  A variable's lifetime is how long it exists in memory.  These two concepts are closely related.
 
 
@@ -33,7 +33,7 @@ another_function() # prints 20
 print(y) # prints 20
 ```
 
-* **Enclosing Function Locals ([Nested Functions](./../nested-functions/)):**  If you have [Nested Functions](./../nested-functions/), inner functions can access variables from their enclosing (outer) functions, but not vice-versa.  This is called *closure*.
+* **Enclosing Function Locals ([[Nested Functions]]):**  If you have [[Nested Functions]], inner functions can access variables from their enclosing (outer) functions, but not vice-versa.  This is called *closure*.
 
 ```python
 def outer_function():
@@ -62,7 +62,7 @@ modify_global()
 print(global_var)  # Output: 100
 ```
 
-* **`nonlocal` keyword:** Similar to `global`, but for variables in enclosing functions ([Nested Functions](./../nested-functions/)).
+* **`nonlocal` keyword:** Similar to `global`, but for variables in enclosing functions ([[Nested Functions]]).
 
 
 ```python
@@ -82,7 +82,7 @@ outer()
 A variable's lifetime is directly related to its scope. A variable's lifetime begins when it is created (assigned a value) and ends when it's no longer referenced and garbage collected. In local scope, this happens when the function completes.  In global scope, it's at program termination.
 
 
-[Garbage Collection](./../garbage-collection/)
+[[Garbage Collection]]
 
 
-[LEGB Rule](./../legb-rule/) (This will explain the order of scope searching: Local, Enclosing function locals, Global, Built-in)
+[[LEGB Rule]] (This will explain the order of scope searching: Local, Enclosing function locals, Global, Built-in)

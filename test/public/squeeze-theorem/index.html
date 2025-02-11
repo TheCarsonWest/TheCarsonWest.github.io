@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Squeeze Theorem | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Squeeze Theorem</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p>[[Calc home]]</p>
+<p>The [[Squeeze Theorem]], also known as the Sandwich Theorem, is a powerful tool in calculus for determining the limit of a function. It states that if two functions &ldquo;squeeze&rdquo; a third function between them, and the two outer functions have the same limit at a point, then the middle function must also have the same limit at that point.</p>
+<h3 id="formal-statement">Formal Statement</h3>
+<p>Let  $ f(x) $ ,  $ g(x) $ , and  $ h(x) $  be functions defined on an open interval containing  $ a $ , except possibly at  $ a $  itself. If:</p>
+<p>[[1]].   $ g(x) \leq f(x) \leq h(x) $  for all  $ x $  in the interval (except possibly at  $ x=a $ )
+[[2]].   $ \lim_{x \to a} g(x) = L $  and  $ \lim_{x \to a} h(x) = L $</p>
+<p>Then:</p>
+<p>$ \lim_{x \to a} f(x) = L $</p>
+<h3 id="desmos-examplehttpswwwdesmoscomcalculators7ztp99uvn"><a href="https://www.desmos.com/calculator/s7ztp99uvn">Desmos example</a></h3>
+<h3 id="example">Example</h3>
+<p>Let&rsquo;s find the limit of the function  $ f(x) = x^[[2]] \sin(\frac{[[1]]}{x}) $  as  $ x $  approaches 0.</p>
+<p><strong>[[1]]. Find bounding functions:</strong></p>
+<p>We know that  $ -[[1]] \leq \sin(\frac{[[1]]}{x}) \leq [[1]] $  for all  $ x $  (except  $ x=0 $ ).  Multiplying this inequality by  $ x^[[2]] $ , we get:</p>
+<p>$ -x^[[2]] \leq x^[[2]] \sin(\frac{[[1]]}{x}) \leq x^[[2]] $</p>
+<p><strong>[[2]]. Find the limits of the bounding functions:</strong></p>
+<p>$ \lim_{x \to 0} -x^[[2]] = 0 $  and  $ \lim_{x \to 0} x^[[2]] = 0 $</p>
+<p><strong>[[3]]. Apply the [[Squeeze Theorem]]:</strong></p>
+<p>Since  $ -x^[[2]] \leq x^[[2]] \sin(\frac{[[1]]}{x}) \leq x^[[2]] $  and both  $ -x^[[2]] $  and  $ x^[[2]] $  approach 0 as  $ x $  approaches 0, we can conclude that:</p>
+<p>$ \lim_{x \to 0} x^[[2]] \sin(\frac{[[1]]}{x}) = 0 $</p>
+<h3 id="applications">Applications</h3>
+<p>The [[Squeeze Theorem]] is particularly useful when dealing with functions that are difficult to evaluate directly. It is often used to:</p>
+<ul>
+<li>Find limits involving trigonometric functions.</li>
+<li>Prove the limit of a sequence.</li>
+<li>Determine the convergence of a series.</li>
+</ul>
+<h3 id="key-points">Key Points</h3>
+<ul>
+<li>The [[Squeeze Theorem]] only works if the bounding functions have the same limit.</li>
+<li>The inequality  $ g(x) \leq f(x) \leq h(x) $  must hold for all values of  $ x $  in the interval, except possibly at  $ x=a $ .</li>
+<li>The [[Squeeze Theorem]] can be used to find limits of functions that are otherwise difficult to evaluate.</li>
+</ul>
+<p>By understanding the [[Squeeze Theorem]], you gain a valuable tool for solving a variety of calculus problems.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP CHEM solutions](./../ap-chem-solutions/)
+# [[AP CHEM solutions]]
 Several methods can express the concentration of a solute in a solution.  Here are some of the most common:
 
-* **[Molarity](./../molarity/) (M):**  Moles of solute per liter of solution.
+* **[[Molarity]] (M):**  Moles of solute per liter of solution.
 
      $ M = \frac{\text{moles of solute}}{\text{liters of solution}} $ 
 
@@ -24,11 +24,11 @@ Several methods can express the concentration of a solute in a solution.  Here a
 
 * **Parts Per Million (ppm) and Parts Per Billion (ppb):**  Used for very dilute solutions.
 
-     $ \text{ppm} = \frac{\text{mass of solute}}{\text{mass of solution}} \times 10^[6](./../6/) $ 
+     $ \text{ppm} = \frac{\text{mass of solute}}{\text{mass of solution}} \times 10^[[6]] $ 
 
      $ \text{ppb} = \frac{\text{mass of solute}}{\text{mass of solution}} \times 10^9 $ 
 
-[Dilution Calculations](./../dilution-calculations/)
+[[Dilution Calculations]]
 
-[Solution Stoichiometry](./../solution-stoichiometry/)
+[[Solution Stoichiometry]]
 

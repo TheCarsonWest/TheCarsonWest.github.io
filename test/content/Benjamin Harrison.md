@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-**[Benjamin Harrison](./../benjamin-harrison/) (23rd [POTUS](./../potus/))**
+**[[Benjamin Harrison]] (23rd [[POTUS]])**
 
 **Political Career:**
-* Republican Senator from [Indiana](./../indiana/) (1881-1887)
-* [POTUS](./../potus/) (1889-1893)
+* Republican Senator from [[Indiana]] (1881-1887)
+* [[POTUS]] (1889-1893)
 
 **Major Events:**
 * **Sherman Antitrust Act (1890):** Prohibited monopolies and cartels.
 * **McKinley Tariff (1890):** Raised protective tariffs on imported goods.
-* **Bering Sea Dispute:** Resolved a territorial dispute with [Great Britain](./../great-britain/) over seal hunting rights.
+* **Bering Sea Dispute:** Resolved a territorial dispute with [[Great Britain]] over seal hunting rights.
 * **Pan-American Conference (1889-1890):** Promoted cooperation among the nations of the Western Hemisphere.
 
 **Important Legislation Signed:**
@@ -36,9 +36,9 @@
 
 **Foreign Policy:**
 * Harrison cautiously expanded American influence in the Western Hemisphere.
-* He resolved the Bering Sea Dispute with [Great Britain](./../great-britain/) through diplomacy.
+* He resolved the Bering Sea Dispute with [[Great Britain]] through diplomacy.
 * He convened the Pan-American Conference to foster closer ties with Latin America.
 
 **Legacy:**
 Harrison's presidency was marked by incremental reforms and a focus on economic issues. He is remembered for his support of antitrust laws and the expansion of American power. Despite his limited achievements during his term, Harrison set the stage for future economic and foreign policy initiatives.
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

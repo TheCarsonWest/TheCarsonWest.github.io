@@ -3,35 +3,35 @@
 [params]
 	author = 'Carson West'
 +++
-# [Recommended Reading List](./../recommended-reading-list/)
-# [Topic Refinement](./../topic-refinement/) Notes
+# [[Recommended Reading List]]
+# [[Topic Refinement]] Notes
 
-**Goal:**  Refine the topic "[Topic Refinement](./../topic-refinement/)" into a manageable and researchable scope.
+**Goal:**  Refine the topic "[[Topic Refinement]]" into a manageable and researchable scope.
 
 **Current Status:**  Too broad.  Needs significant narrowing.
 
 **Possible Refinement Approaches:**
 
-[1](./../1/). **Focus on a specific methodology:**
-    * [Topic Refinement Methodologies](./../topic-refinement-methodologies/)  (This will be a separate note)
+[[1]]. **Focus on a specific methodology:**
+    * [[Topic Refinement Methodologies]]  (This will be a separate note)
     *  Examples:  Keyword analysis, mind mapping, literature review, stakeholder interviews.  Consider focusing on *one* specific methodology.
 
-[2](./../2/). **Focus on a specific application area:**
-    * [Topic Refinement in Scientific Research](./../topic-refinement-in-scientific-research/) (This will be a separate note)
-    * [Topic Refinement in Project Management](./../topic-refinement-in-project-management/) (This will be a separate note)
-    * [Topic Refinement in Marketing](./../topic-refinement-in-marketing/) (This will be a separate note)
+[[2]]. **Focus on a specific application area:**
+    * [[Topic Refinement in Scientific Research]] (This will be a separate note)
+    * [[Topic Refinement in Project Management]] (This will be a separate note)
+    * [[Topic Refinement in Marketing]] (This will be a separate note)
     * Choosing a specific field will provide a more concrete context.
 
 
-[3](./../3/). **Focus on a specific problem related to topic refinement:**
+[[3]]. **Focus on a specific problem related to topic refinement:**
     * For example,  the problem of identifying biases in topic selection, or overcoming writer's block during the refinement process.
-    * [Bias in Topic Selection](./../bias-in-topic-selection/) (This will be a separate note)
-    * [Overcoming Writer's Block in Topic Refinement](./../overcoming-writers-block-in-topic-refinement/) (This will be a separate note)
+    * [[Bias in Topic Selection]] (This will be a separate note)
+    * [[Overcoming Writer's Block in Topic Refinement]] (This will be a separate note)
 
 
-[4](./../4/). **Consider the scope of the research:**
+[[4]]. **Consider the scope of the research:**
     * Will this be a short, focused piece, or a long, in-depth analysis?  This will significantly influence the level of refinement needed.
-    * [Scope and Depth of Research](./../scope-and-depth-of-research/) (This will be a separate note)
+    * [[Scope and Depth of Research]] (This will be a separate note)
 
 
 **Evaluation Metrics:**
@@ -55,7 +55,7 @@ Further refinement will require choosing ONE of the above approaches and further
 
 **Next Steps:**
 
-[1](./../1/). Choose ONE refinement approach from the list above.
-[2](./../2/). Create a detailed outline for the chosen approach, referencing other relevant notes (created from the list above).
-[3](./../3/). Begin literature review and research.
+[[1]]. Choose ONE refinement approach from the list above.
+[[2]]. Create a detailed outline for the chosen approach, referencing other relevant notes (created from the list above).
+[[3]]. Begin literature review and research.
 

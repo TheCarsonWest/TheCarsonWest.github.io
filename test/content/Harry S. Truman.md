@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-**[Harry S. Truman](./../harry-s.-truman/) (1884-1972)**
+**[[Harry S. Truman]] (1884-1972)**
 
 **Early Life and Career:**
-* Born in Lamar, [Missouri](./../missouri/), on May 8, 1884
-* Served in the [Missouri](./../missouri/) National Guard during World War I
-* Elected as Jackson County Judge and [United States](./../united-states/) Senator from [Missouri](./../missouri/)
+* Born in Lamar, [[Missouri]], on May 8, 1884
+* Served in the [[Missouri]] National Guard during World War I
+* Elected as Jackson County Judge and [[United States]] Senator from [[Missouri]]
 
 **Presidency (1945-1953)**
 
@@ -25,7 +25,7 @@
 * Marshall Plan (1948)
 
 **Groups Associated With:**
-* [Democrats](./../democrats/)
+* [[Democrats]]
 * Freemasons
 * American Legion
 
@@ -43,7 +43,7 @@
 * Signed the Executive Order 9981, desegregating the armed forces
 
 **Legacy:**
-* Remembered as a strong and decisive leader who guided the [United States](./../united-states/) through a period of major challenges
+* Remembered as a strong and decisive leader who guided the [[United States]] through a period of major challenges
 * Faced criticism for his controversial policies, including the atomic bombings and the Korean War
 * His presidency is generally viewed as successful, and he is ranked among the top 10 presidents in historical surveys
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-**[Calvin Coolidge](./../calvin-coolidge/)**
+**[[Calvin Coolidge]]**
 
 **Overview:**
-[Calvin Coolidge](./../calvin-coolidge/) served as the 30th [POTUS](./../potus/) from 1923-1929. A Republican, he is known for his frugal policies, pro-business stance, and quiet demeanor.
+[[Calvin Coolidge]] served as the 30th [[POTUS]] from 1923-1929. A Republican, he is known for his frugal policies, pro-business stance, and quiet demeanor.
 
 **Events Associated with Coolidge:**
 
-* **Boston Police Strike (1919):** As Governor of [Massachusetts](./../massachusetts/), Coolidge supported the police during a strike and deployed the National Guard to break it up.
+* **Boston Police Strike (1919):** As Governor of [[Massachusetts]], Coolidge supported the police during a strike and deployed the National Guard to break it up.
 * **Teapot Dome Scandal (1923-1924):** Coolidge's administration was investigated for corruption, but he was not personally implicated.
 
 **Important Legislation Signed:**
@@ -31,4 +31,4 @@
 * **Conservative Values:** Coolidge promoted traditional conservative values, such as low taxes, a balanced budget, and a strong military.
 * **Silent Cal:** Coolidge was known for his taciturn nature and reluctance to speak publicly. This contributed to his image as a quiet and reserved leader.
 * **Political Legacy:** Coolidge's presidency is often viewed positively for its economic prosperity. However, his limited government approach and conservative policies have been criticized as exacerbating economic inequality and social problems.
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

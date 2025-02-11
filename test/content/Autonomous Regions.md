@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG unit 4](./../aphg-unit-4/)
+# [[APHG unit 4]]
 
-# [Autonomous Regions](./../autonomous-regions/)
+# [[Autonomous Regions]]
 - Area within a state 
 - Has its own laws and stuff
 - Still owned by the state

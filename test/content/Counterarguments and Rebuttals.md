@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
-# [Counterarguments and Rebuttals](./../counterarguments-and-rebuttals/)
+# [[AP English Language and Composition]]
+# [[Counterarguments and Rebuttals]]
 
 **Goal:**  Develop effective strategies for addressing opposing viewpoints and strengthening arguments.
 
 **Key Concepts:**
 
-* **Identifying Counterarguments:**  Brainstorm potential objections to your main argument.  Consider different perspectives and potential weaknesses. [Identifying Weaknesses in Arguments](./../identifying-weaknesses-in-arguments/)
+* **Identifying Counterarguments:**  Brainstorm potential objections to your main argument.  Consider different perspectives and potential weaknesses. [[Identifying Weaknesses in Arguments]]
 
 * **Types of Counterarguments:**
     * **Empirical:** Based on evidence or data.   $ P(A|B) = \frac{P(B|A)P(A)}{P(B)} $  (Bayes' Theorem example – probability related counterargument)
@@ -26,15 +26,15 @@
 
 
 * **Structure of a Rebuttal:**
-    [1](./../1/). **Acknowledge the Counterargument:**  Clearly state the opposing viewpoint.
-    [2](./../2/). **Present Your Rebuttal:**  Offer your response with evidence and reasoning.
-    [3](./../3/). **Transition:**  Smoothly connect your rebuttal back to your main argument.
+    [[1]]. **Acknowledge the Counterargument:**  Clearly state the opposing viewpoint.
+    [[2]]. **Present Your Rebuttal:**  Offer your response with evidence and reasoning.
+    [[3]]. **Transition:**  Smoothly connect your rebuttal back to your main argument.
 
 
 * **Examples:**
 
     * **Counterargument:**  "Increased minimum wage leads to job losses."
-    * **Rebuttal:**  "Studies have shown that while some job losses may occur in low-skill sectors, the overall effect on employment is minimal, and the positive effects on worker morale and consumer spending outweigh the negative impacts.  [Economic Studies on Minimum Wage](./../economic-studies-on-minimum-wage/)"
+    * **Rebuttal:**  "Studies have shown that while some job losses may occur in low-skill sectors, the overall effect on employment is minimal, and the positive effects on worker morale and consumer spending outweigh the negative impacts.  [[Economic Studies on Minimum Wage]]"
 
 
 ##  $$  \text{Effectiveness} = \frac{\text{Strength of Rebuttal}}{\text{Strength of Counterargument}}  $$  
@@ -43,10 +43,10 @@ This is a simplified model, but illustrates the importance of strong rebuttals t
 
 **Related Notes:**
 
-* [Argumentation Structures](./../argumentation-structures/)
-* [Evidence and Reasoning](./../evidence-and-reasoning/)
-* [Logical Fallacies](./../logical-fallacies/)  (to avoid committing fallacies in your rebuttals)
-* [Ethical Considerations in Argumentation](./../ethical-considerations-in-argumentation/)
+* [[Argumentation Structures]]
+* [[Evidence and Reasoning]]
+* [[Logical Fallacies]]  (to avoid committing fallacies in your rebuttals)
+* [[Ethical Considerations in Argumentation]]
 
 **Further Research:**
 

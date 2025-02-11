@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LHopitals Rule | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">LHopitals Rule</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p>L&rsquo;Hopital&rsquo;s Rule is a powerful tool for evaluating limits involving [[Indeterminate Forms]].</p>
+<h3 id="lhopitals-rule-statement">L&rsquo;Hopital&rsquo;s Rule Statement</h3>
+<p><strong>If the limit of a fraction as  $ x $  approaches  $ a $  results in an indeterminate form (0/0 or ∞/∞), then:</strong></p>
+<p>$$ \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f&rsquo;(x)}{g&rsquo;(x)} $$<br>
+<strong>provided that the limit on the right-hand side exists or is  $ \pm \infty $ .</strong></p>
+<p><strong>In simpler terms:</strong>  To evaluate the limit of a fraction that results in an indeterminate form, take the [[derivative]] of both the numerator and denominator separately, and then evaluate the limit again.</p>
+<h3 id="important-notes">Important Notes</h3>
+<ul>
+<li>
+<h3 id="lhopitals-rule-only-applies-to-indeterminate-forms-00-or--dont-use-it-for-other-forms-like-0-or-0"><strong>L&rsquo;Hopital&rsquo;s Rule only applies to [[Indeterminate Forms]] (0/0 or ∞/∞).</strong> Don&rsquo;t use it for other forms like 0/∞ or ∞/0.</h3>
+</li>
+<li><strong>The rule can be applied repeatedly</strong> if the limit of the derivatives still results in an indeterminate form.</li>
+<li><strong>L&rsquo;Hopital&rsquo;s Rule is not always the easiest method</strong> to evaluate a limit. Sometimes, algebraic manipulation or other techniques may be more efficient.</li>
+</ul>
+<h3 id="example">Example</h3>
+<p>Let&rsquo;s say we want to evaluate the limit:</p>
+<h3 id="-lim_x-to-0-fracsinxx---1-indeterminate-form--substituting---x--0---directly-gives-us---fracsin00--frac00---which-is-an-indeterminate-form">$$ \lim_{x \to 0} \frac{\sin(x)}{x} $$  <strong>[[1]]. Indeterminate Form:</strong>  Substituting  $ x = 0 $  directly gives us  $ \frac{\sin(0)}{0} = \frac{0}{0} $ , which is an indeterminate form.</h3>
+<p><strong>[[2]]. Apply L&rsquo;Hopital&rsquo;s Rule:</strong></p>
+<ul>
+<li>$ f(x) = \sin(x) $</li>
+<li>$ g(x) = x $</li>
+<li>$ f&rsquo;(x) = \cos(x) $</li>
+<li>$ g&rsquo;(x) = [[1]] $</li>
+</ul>
+<p>Therefore, we have:</p>
+<p>$$ \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{[[1]]} $$<br>
+<strong>[[3]]. Evaluate the Limit:</strong></p>
+<p>$$ \lim_{x \to 0} \frac{\cos(x)}{[[1]]} = \frac{\cos(0)}{[[1]]} = [[1]] $$<br>
+<strong>So,  $ \lim_{x \to 0} \frac{\sin(x)}{x} = [[1]] $ .</strong></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

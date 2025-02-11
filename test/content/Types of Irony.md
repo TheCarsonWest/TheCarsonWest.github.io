@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Devices](./../rhetorical-devices/)
-# [Types of Irony](./../types-of-irony/)
+# [[Rhetorical Devices]]
+# [[Types of Irony]]
 
 There are three main types of irony:  verbal, situational, and dramatic.  Each has subtle differences.
 
@@ -20,19 +20,19 @@ There are three main types of irony:  verbal, situational, and dramatic.  Each h
 
     * Example: In a horror movie, the audience sees the killer hiding in the closet, but the character in the movie doesn't.
 
-[Verbal Irony Examples](./../verbal-irony-examples/)  
-[Situational Irony Examples](./../situational-irony-examples/)
-[Dramatic Irony Examples](./../dramatic-irony-examples/)
+[[Verbal Irony Examples]]  
+[[Situational Irony Examples]]
+[[Dramatic Irony Examples]]
 
 Further considerations:
 
-* **Cosmic Irony:**  Sometimes considered a subtype of situational irony, this refers to the irony of fate or the universe seemingly working against a character or group. [Cosmic Irony and Fate](./../cosmic-irony-and-fate/)
+* **Cosmic Irony:**  Sometimes considered a subtype of situational irony, this refers to the irony of fate or the universe seemingly working against a character or group. [[Cosmic Irony and Fate]]
 
-* **Socratic Irony:** A form of verbal irony where someone pretends to be ignorant to draw out information from another. This often involves leading questions. [Socratic Irony and its Uses](./../socratic-irony-and-its-uses/)
+* **Socratic Irony:** A form of verbal irony where someone pretends to be ignorant to draw out information from another. This often involves leading questions. [[Socratic Irony and its Uses]]
 
-* **Ironic Tone:**  The overall feeling or attitude conveyed through the use of irony.  This can be humorous, tragic, or even satirical. [Ironic Tone Analysis](./../ironic-tone-analysis/)
+* **Ironic Tone:**  The overall feeling or attitude conveyed through the use of irony.  This can be humorous, tragic, or even satirical. [[Ironic Tone Analysis]]
 
-* **Relationships between Irony Types:**  Sometimes, there's overlap between these types.  For example, a situation can be both dramatically and situationally ironic. [Overlapping Irony Types](./../overlapping-irony-types/)
+* **Relationships between Irony Types:**  Sometimes, there's overlap between these types.  For example, a situation can be both dramatically and situationally ironic. [[Overlapping Irony Types]]
 
 * **Mathematical equations related to irony (just kidding!):**   $  \text{Irony} = \frac{\text{Expectation}}{\text{Reality}}  $   (This is a joke, not a real equation)
 

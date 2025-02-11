@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Source Analysis Techniques](./../source-analysis-techniques/)
-# [Secondary Source Evaluation](./../secondary-source-evaluation/)
+# [[Source Analysis Techniques]]
+# [[Secondary Source Evaluation]]
 
 **Goal:** To develop a systematic approach for critically evaluating secondary sources used in research.
 
@@ -12,16 +12,16 @@
 
 * **Authority:**
     * Author's credentials:  $ expertise = f(education, experience, publications) $ 
-    * Publisher reputation: [Publisher Reputation](./../publisher-reputation/)
+    * Publisher reputation: [[Publisher Reputation]]
     * Publication date:  How recent is the information?  Is it still relevant given the field's advancements?  Consider the half-life of knowledge in the specific field.
 * **Accuracy:**
     * Evidence of factual accuracy:  Are claims supported by evidence?  Are sources cited appropriately?  Are there any inconsistencies or contradictions?
-    * Methodology (if applicable):  Is the methodology clearly explained and appropriate to the research question?  [Research Methodologies](./../research-methodologies/)
-    * Corroboration: Does the information align with other credible sources? [Cross-referencing Sources](./../cross-referencing-sources/)
+    * Methodology (if applicable):  Is the methodology clearly explained and appropriate to the research question?  [[Research Methodologies]]
+    * Corroboration: Does the information align with other credible sources? [[Cross-referencing Sources]]
 * **Objectivity:**
     * Bias detection:  Is there evidence of bias (political, ideological, personal)?  What is the author's perspective?
     * Tone and language:  Is the language neutral and objective, or is it emotional or persuasive?
-    * Funding sources:  Were there any potential conflicts of interest due to funding sources? [Funding and Conflict of Interest](./../funding-and-conflict-of-interest/)
+    * Funding sources:  Were there any potential conflicts of interest due to funding sources? [[Funding and Conflict of Interest]]
 * **Currency:**
     * Publication date: As mentioned above, how recent is the source?
     * Timeliness of information: Is the information still current and relevant in the context of the research?
@@ -31,12 +31,12 @@
 
 **Process:**
 
-[1](./../1/). **Identify source characteristics:** Author, publisher, publication date.
-[2](./../2/). **Assess authority and credibility:** Check credentials and publisher reputation.
-[3](./../3/). **Evaluate accuracy:** Look for evidence and citations; check for inconsistencies.
-[4](./../4/). **Analyze objectivity:** Identify potential biases and conflicts of interest.
-[5](./../5/). **Determine currency:** Assess the timeliness of the information.
-[6](./../6/). **Consider coverage:** Evaluate the scope and depth of the information.
+[[1]]. **Identify source characteristics:** Author, publisher, publication date.
+[[2]]. **Assess authority and credibility:** Check credentials and publisher reputation.
+[[3]]. **Evaluate accuracy:** Look for evidence and citations; check for inconsistencies.
+[[4]]. **Analyze objectivity:** Identify potential biases and conflicts of interest.
+[[5]]. **Determine currency:** Assess the timeliness of the information.
+[[6]]. **Consider coverage:** Evaluate the scope and depth of the information.
 
 **Example Questions:**
 
@@ -58,7 +58,7 @@
 
 **Further Notes:**
 
-* [Evaluating Websites](./../evaluating-websites/)
-* [Qualitative vs Quantitative Sources](./../qualitative-vs-quantitative-sources/)
+* [[Evaluating Websites]]
+* [[Qualitative vs Quantitative Sources]]
 
 

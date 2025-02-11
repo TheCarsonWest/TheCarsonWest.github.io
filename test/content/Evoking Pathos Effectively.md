@@ -3,21 +3,21 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Devices in Argumentation](./../rhetorical-devices-in-argumentation/)
-# [Evoking Pathos Effectively](./../evoking-pathos-effectively/)
+# [[Rhetorical Devices in Argumentation]]
+# [[Evoking Pathos Effectively]]
 
 **Goal:** To understand and utilize pathos (emotional appeal) effectively in writing and communication.
 
 **Key Components:**
 
-* **Identifying Target Emotions:**  What specific emotions do I want to evoke in my audience?  (e.g., sadness, anger, joy, fear, hope).  Consider the context and the desired response. [Target Audience Analysis](./../target-audience-analysis/)
+* **Identifying Target Emotions:**  What specific emotions do I want to evoke in my audience?  (e.g., sadness, anger, joy, fear, hope).  Consider the context and the desired response. [[Target Audience Analysis]]
 
-* **Choosing the Right Emotional [Language](./../language/):**
+* **Choosing the Right Emotional [[Language]]:**
     * **Strong Verbs & Adjectives:** Use vivid and evocative language that directly appeals to the senses.  Avoid clichés.
-    * **Figurative [Language](./../language/):** Metaphors, similes, and analogies can create powerful emotional connections.  Example:  " $ The city was a concrete jungle, suffocating under a blanket of smog $ "
-    * **Anecdotes & Storytelling:** Personal stories and relatable examples are incredibly powerful for connecting with the audience on an emotional level. [Storytelling Techniques](./../storytelling-techniques/)
+    * **Figurative [[Language]]:** Metaphors, similes, and analogies can create powerful emotional connections.  Example:  " $ The city was a concrete jungle, suffocating under a blanket of smog $ "
+    * **Anecdotes & Storytelling:** Personal stories and relatable examples are incredibly powerful for connecting with the audience on an emotional level. [[Storytelling Techniques]]
 
-* **Using Visual Aids (if applicable):** Images, videos, or even music can greatly enhance the emotional impact. [Visual Communication Strategies](./../visual-communication-strategies/)
+* **Using Visual Aids (if applicable):** Images, videos, or even music can greatly enhance the emotional impact. [[Visual Communication Strategies]]
 
 * **Ethical Considerations:**  It's crucial to use pathos responsibly.  Manipulating emotions unethically is harmful and should be avoided.  Authenticity is key.
 
@@ -45,7 +45,7 @@
 
 * **Overdoing it:** Too much emotion can be overwhelming and ineffective.  Strive for balance.
 * **Being Insincere:**  Authenticity is essential.  Forced emotion will be transparent.
-* **Ignoring Logic:** While pathos is important, it shouldn't replace logos (logical reasoning).  A balanced approach is vital. [Logos & Pathos Balance](./../logos-&-pathos-balance/)
+* **Ignoring Logic:** While pathos is important, it shouldn't replace logos (logical reasoning).  A balanced approach is vital. [[Logos & Pathos Balance]]
 
 
 **Further Research:**
@@ -53,4 +53,4 @@
 * Aristotle's Rhetoric
 *  Cognitive psychology of emotion
 
-[Emotional Response Theory](./../emotional-response-theory/)
+[[Emotional Response Theory]]

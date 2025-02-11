@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Evidence Evaluation & Citation](./../evidence-evaluation-&-citation/)
-# [Completeness and Counterarguments](./../completeness-and-counterarguments/)
+# [[Evidence Evaluation & Citation]]
+# [[Completeness and Counterarguments]]
 
 This note covers the concept of completeness in a system (likely a logical or axiomatic system) and how counterarguments challenge that completeness.
 
@@ -13,7 +13,7 @@ This note covers the concept of completeness in a system (likely a logical or ax
 
 A system is considered complete if every true statement within the system can be proven within the system.  Formally, if a statement is true, then it is provable.  This can be expressed as:   $  \forall A (A \implies \vdash A)  $   where A represents a statement, and  $ \vdash $  denotes provability.
 
-[Formal Systems](./../formal-systems/)  This note needs an independent explanation of formal systems, including syntax, semantics, and examples (like propositional logic, predicate logic).
+[[Formal Systems]]  This note needs an independent explanation of formal systems, including syntax, semantics, and examples (like propositional logic, predicate logic).
 
 
 **II.  Gödel's Incompleteness Theorems:**
@@ -24,7 +24,7 @@ Gödel's incompleteness theorems are central to understanding the limitations of
 
 * **Second Incompleteness Theorem:**  A consistent formal system capable of expressing basic arithmetic cannot prove its own consistency. This implies that we cannot prove the consistency of a sufficiently complex system from within that system itself.
 
-[Gödel's Incompleteness Theorems](./../gödels-incompleteness-theorems/)  This needs a detailed breakdown of both theorems, including proofs (at least outlines of proofs) and implications.
+[[Gödel's Incompleteness Theorems]]  This needs a detailed breakdown of both theorems, including proofs (at least outlines of proofs) and implications.
 
 
 **III. Counterarguments and their Role:**
@@ -39,13 +39,13 @@ Counterarguments are used to challenge the completeness of a system or argument 
 
 **IV. Examples:**
 
-* **Russell's Paradox:**  A classic example demonstrating incompleteness (or inconsistency) in naive set theory. [Russell's Paradox](./../russells-paradox/)
-* **ZFC Set Theory:** While ZFC is widely accepted, it too has unprovable statements, highlighting the implications of Gödel's theorems.  For example, the Continuum Hypothesis. [ZFC Set Theory](./../zfc-set-theory/)
+* **Russell's Paradox:**  A classic example demonstrating incompleteness (or inconsistency) in naive set theory. [[Russell's Paradox]]
+* **ZFC Set Theory:** While ZFC is widely accepted, it too has unprovable statements, highlighting the implications of Gödel's theorems.  For example, the Continuum Hypothesis. [[ZFC Set Theory]]
 
 
 **V.  Further Exploration:**
 
-* The relationship between completeness and consistency. [Completeness and Consistency](./../completeness-and-consistency/)
+* The relationship between completeness and consistency. [[Completeness and Consistency]]
 *  The implications of incompleteness for various fields like mathematics, computer science, and philosophy.
 
 

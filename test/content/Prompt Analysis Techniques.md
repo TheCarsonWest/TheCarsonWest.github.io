@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay Strategies](./../synthesis-essay-strategies/)
-# [Prompt Analysis Techniques](./../prompt-analysis-techniques/)
+# [[Synthesis Essay Strategies]]
+# [[Prompt Analysis Techniques]]
 
 These notes detail various techniques for analyzing prompts, particularly for large language models (LLMs).  The goal is to understand the nuances of a prompt to better control the LLM's output.
 
@@ -31,15 +31,15 @@ Often, a prompt contains implicit information that requires inference:
 Several techniques aid in breaking down complex prompts:
 
 * **Keyword Extraction:** Identifying the most important terms.
-* **Semantic Parsing:** Understanding the meaning and relationships between keywords. [Semantic Parsing Techniques](./../semantic-parsing-techniques/)
-* **Dependency Parsing:** Analyzing the grammatical structure of the prompt. [Dependency Parsing Explained](./../dependency-parsing-explained/)
+* **Semantic Parsing:** Understanding the meaning and relationships between keywords. [[Semantic Parsing Techniques]]
+* **Dependency Parsing:** Analyzing the grammatical structure of the prompt. [[Dependency Parsing Explained]]
 
 
 **IV.  Prompt Engineering Strategies (Related Notes):**
 
-* **Few-Shot Learning:** Providing examples in the prompt to guide the LLM. [Few-Shot Prompt Engineering](./../few-shot-prompt-engineering/)
-* **Chain-of-Thought Prompting:** Guiding the LLM through a step-by-step reasoning process. [Chain-of-Thought Prompting Techniques](./../chain-of-thought-prompting-techniques/)
-* **Zero-Shot Prompting:**  Prompting the LLM without any examples. [Zero-Shot Prompting Strategies](./../zero-shot-prompting-strategies/)
+* **Few-Shot Learning:** Providing examples in the prompt to guide the LLM. [[Few-Shot Prompt Engineering]]
+* **Chain-of-Thought Prompting:** Guiding the LLM through a step-by-step reasoning process. [[Chain-of-Thought Prompting Techniques]]
+* **Zero-Shot Prompting:**  Prompting the LLM without any examples. [[Zero-Shot Prompting Strategies]]
 
 
 **V. Evaluating Prompt Effectiveness:**
@@ -47,7 +47,7 @@ Several techniques aid in breaking down complex prompts:
 Measuring how well a prompt elicits the desired response:
 
 * **Qualitative Evaluation:** Human judgment of the response quality.
-* **Quantitative Evaluation:** Using metrics like BLEU score or ROUGE score (for text generation tasks).  [Evaluation Metrics for LLMs](./../evaluation-metrics-for-llms/)
+* **Quantitative Evaluation:** Using metrics like BLEU score or ROUGE score (for text generation tasks).  [[Evaluation Metrics for LLMs]]
 
 
 **VI. Equations for Prompt Analysis (Illustrative):**
@@ -74,8 +74,8 @@ This equation highlights the need for more complex modeling to capture the inter
 
 **VII.  Further Research Areas:**
 
-* [Prompt Bias Detection](./../prompt-bias-detection/)
-* [Adversarial Prompting](./../adversarial-prompting/)
+* [[Prompt Bias Detection]]
+* [[Adversarial Prompting]]
 
 
 This document serves as a living note, to be updated as new techniques and insights are developed.

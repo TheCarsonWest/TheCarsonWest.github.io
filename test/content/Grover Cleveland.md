@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-**[Grover Cleveland](./../grover-cleveland/)**
+**[[Grover Cleveland]]**
 
-**Political Affiliation:** [Democrats](./../democrats/)
+**Political Affiliation:** [[Democrats]]
 
 **Terms in Office:** Two non-consecutive terms (1885-1889, 1893-1897)
 
@@ -25,8 +25,8 @@
 
 **Groups Associated With:**
 
-* [Democrats](./../democrats/)
-* Bourbon [Democrats](./../democrats/) (fiscally conservative [Democrats](./../democrats/))
+* [[Democrats]]
+* Bourbon [[Democrats]] (fiscally conservative [[Democrats]])
 * Civil Service Reform Movement
 
 **Impact on the Country:**
@@ -35,8 +35,8 @@
 * Promoted economic regulation and antitrust laws.
 * Struggled to balance labor and business interests during the Pullman Strike.
 * Took a conservative approach to fiscal policy, which some argue contributed to the Panic of 1893.
-* Defended American interests in the Venezuelan Boundary Dispute, solidifying the [Monroe Doctrine](./../monroe-doctrine/).
-* ### Was the ~~only~~  FIRST president to serve two non-consecutive terms. [Donald Trump](./../donald-trump/)
+* Defended American interests in the Venezuelan Boundary Dispute, solidifying the [[Monroe Doctrine]].
+* ### Was the ~~only~~  FIRST president to serve two non-consecutive terms. [[Donald Trump]]
 
 **Key Policies:**
 
@@ -48,4 +48,4 @@
 **Legacy:**
 
 Cleveland was a complex and enigmatic figure who navigated a politically tumultuous era. His legacy is mixed, with some historians praising his fiscal conservatism and others criticizing his handling of the Pullman Strike and economic downturns. Nevertheless, he remains an important figure in American history, known for his integrity and commitment to limited government.
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

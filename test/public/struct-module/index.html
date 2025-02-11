@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Struct Module | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Struct Module</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="handling-binary-files">[[Handling Binary Files]]</h1>
+<h1 id="struct-module-notes">[[Struct Module]] Notes</h1>
+<p>The <code>struct</code> module in Python is used for packing and unpacking data in binary format.  It&rsquo;s particularly useful when dealing with binary files, network communication, or interacting with C code or libraries.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Formats:</strong>  Format strings define how data is represented in bytes.  They use a specific syntax (see below). [[Format String Syntax]]</li>
+<li><strong>Packing:</strong> Converting Python data (integers, floats, etc.) into a byte string using <code>struct.pack()</code>.</li>
+<li><strong>Unpacking:</strong>  Converting a byte string back into Python data using <code>struct.unpack()</code>.</li>
+<li><strong>Byte Order:</strong>  Specifies the order of bytes (big-endian or little-endian).  This is crucial for interoperability. [[Byte Order and Endianness]]</li>
+<li><strong>Alignment:</strong>  Controls how data is aligned in memory (can impact performance and compatibility with other systems).</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> struct
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Pack a single integer and a float</span>
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#39;if&#39;</span>, <span style="color:#ae81ff">10</span>, [[<span style="color:#ae81ff">3</span>]]<span style="color:#ae81ff">.14</span>)  <span style="color:#75715e"># &#39;i&#39; for integer, &#39;f&#39; for float</span>
+</span></span><span style="display:flex;"><span>print(data) <span style="color:#75715e"># Output: b&#39;\n\x00\x00\x00\x9a\x99\x99\x99&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Unpack the data</span>
+</span></span><span style="display:flex;"><span>unpacked_data <span style="color:#f92672">=</span> struct<span style="color:#f92672">.</span>unpack(<span style="color:#e6db74">&#39;if&#39;</span>, data)
+</span></span><span style="display:flex;"><span>print(unpacked_data) <span style="color:#75715e"># Output: (10, [[3]].140000104367573)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Example with byte order specification</span>
+</span></span><span style="display:flex;"><span>packed_data_big_endian <span style="color:#f92672">=</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;&gt;i&#34;</span>, <span style="color:#ae81ff">10</span>) <span style="color:#75715e"># &gt; indicates big-endian</span>
+</span></span><span style="display:flex;"><span>packed_data_little_endian <span style="color:#f92672">=</span> struct<span style="color:#f92672">.</span>pack(<span style="color:#e6db74">&#34;&lt;i&#34;</span>,<span style="color:#ae81ff">10</span>) <span style="color:#75715e"># &lt; indicates little-endian</span>
+</span></span><span style="display:flex;"><span>print(packed_data_big_endian)
+</span></span><span style="display:flex;"><span>print(packed_data_little_endian)
+</span></span></code></pre></div><p><strong>Common Format Characters:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Character</th>
+          <th style="text-align: left">C Type</th>
+          <th style="text-align: left">Python Type(s)</th>
+          <th style="text-align: left">Size (bytes)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><code>x</code></td>
+          <td style="text-align: left">pad byte</td>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">[[1]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>c</code></td>
+          <td style="text-align: left">char</td>
+          <td style="text-align: left">bytes (length [[1]])</td>
+          <td style="text-align: left">[[1]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>b</code></td>
+          <td style="text-align: left">signed char</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[1]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>B</code></td>
+          <td style="text-align: left">unsigned char</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[1]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>h</code></td>
+          <td style="text-align: left">short</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[2]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>H</code></td>
+          <td style="text-align: left">unsigned short</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[2]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>i</code></td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[4]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>I</code></td>
+          <td style="text-align: left">unsigned int</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[4]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>l</code></td>
+          <td style="text-align: left">long</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[4]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>L</code></td>
+          <td style="text-align: left">unsigned long</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">[[4]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>q</code></td>
+          <td style="text-align: left">long long</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>Q</code></td>
+          <td style="text-align: left">unsigned long long</td>
+          <td style="text-align: left">int</td>
+          <td style="text-align: left">8</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>f</code></td>
+          <td style="text-align: left">float</td>
+          <td style="text-align: left">float</td>
+          <td style="text-align: left">[[4]]</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><code>d</code></td>
+          <td style="text-align: left">double</td>
+          <td style="text-align: left">float</td>
+          <td style="text-align: left">8</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>[[Error Handling]]:</strong></p>
+<p><code>struct.error</code> is raised if there&rsquo;s an issue with the format string or data.</p>
+<p><strong>Related Notes:</strong></p>
+<ul>
+<li>[[Format String Syntax]]</li>
+<li>[[Byte Order and Endianness]]</li>
+<li>[[Python Data Types]]</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
