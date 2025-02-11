@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Analysis](./../rhetorical-analysis/)
-# [Authorial Purpose](./../authorial-purpose/)
+# [[Rhetorical Analysis]]
+# [[Authorial Purpose]]
 
 The author's purpose is the reason an author writes a text.  It's the main goal or intention behind the creation of the work. This can be multifaceted and complex, but usually falls under a few key categories.
 
-**Key Categories of [Authorial Purpose](./../authorial-purpose/):**
+**Key Categories of [[Authorial Purpose]]:**
 
 * **To inform:**  The author aims to educate the reader, provide factual information, or explain a concept.  Examples include textbooks, news articles, and scientific papers.
 * **To persuade:** The author attempts to convince the reader to adopt a particular viewpoint or take a specific action.  Examples include political speeches, advertisements, and opinion pieces.
@@ -16,7 +16,7 @@ The author's purpose is the reason an author writes a text.  It's the main goal 
 * **To express:** The author shares personal feelings, experiences, or thoughts. Examples include poems, memoirs, and personal essays.
 
 
-**Identifying [Authorial Purpose](./../authorial-purpose/):**
+**Identifying [[Authorial Purpose]]:**
 
 Analyzing authorial purpose requires close reading and critical thinking.  Consider the following:
 
@@ -46,6 +46,6 @@ While not directly quantifiable, we can represent the influence of different pur
 Then the overall authorial purpose ( $ A $ ) could be represented as a weighted sum:
 
  $$ A = w_I I + w_P P + w_E E + w_X X $$  
-where  $ w_I $ ,  $ w_P $ ,  $ w_E $ , and  $ w_X $  are weights representing the relative importance of each purpose (0 ≤  $ w_i $  ≤ [1](./../1/) and  $ \sum w_i = [1](./../1/) $ ).
+where  $ w_I $ ,  $ w_P $ ,  $ w_E $ , and  $ w_X $  are weights representing the relative importance of each purpose (0 ≤  $ w_i $  ≤ [[1]] and  $ \sum w_i = [[1]] $ ).
 
-[Analyzing Tone](./../analyzing-tone/)  [Literary Devices](./../literary-devices/) [Identifying Target Audience](./../identifying-target-audience/)
+[[Analyzing Tone]]  [[Literary Devices]] [[Identifying Target Audience]]

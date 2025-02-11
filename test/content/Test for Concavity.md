@@ -43,6 +43,6 @@ Let's consider the function  $ f(x) = x^[3](./../3/) - 3x^[2](./../2/) + [2](./.
 y = x^[3](./../3/) - 3x^[2](./../2/) + [2](./../2/)
 ```
 
-[[Second [Derivative](./../derivative/) Test]]
+[Second Derivative Test](./../second-derivative-test/)
 
 This example demonstrates how to find intervals of concavity and identify inflection points. Remember to always check for changes in concavity when the second [derivative](./../derivative/) is zero.  A sign chart can be very helpful in organizing your work.

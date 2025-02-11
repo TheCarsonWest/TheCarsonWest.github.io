@@ -26,4 +26,4 @@ An armed rebellion in the [Virginia](./../virginia/) Colony led by Nathaniel Bac
 * **Development of a more structured colonial government:** In response to the rebellion, the [Virginia](./../virginia/) government became more centralized and efficient to prevent future uprisings.
 * **Long-term impact on labor systems in the colonies:** The rebellion demonstrated the inherent instability of the system of indentured servitude and paved the way for the rise of chattel slavery.
 
-# [IDs unit [[2](./../ids-unit-[[2/)
+# [IDs unit 2](./../ids-unit-2/)

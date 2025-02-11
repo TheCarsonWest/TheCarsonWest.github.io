@@ -5,8 +5,8 @@
 +++
 # My 24-25 Notes
 
-# Start at [nexus](./../nexus/) if you are on web viewer or obsidian
-# Go to [here](https://thecarsonwest.github.io/test/public/[nexus](./../nexus/)/) to see the web viewer
+# Start at [[nexus]] if you are on web viewer or obsidian
+# Go to [here](https://thecarsonwest.github.io/test/public/[[nexus]]/) to see the web viewer
 
 ## [Obsidian vault github](https://github.com/TheCarsonWest/nerd-emoji)
 ## [Website github(held together by spaghetti code)](https://github.com/TheCarsonWest/TheCarsonWest.github.io)
@@ -23,9 +23,9 @@ By June 2025 there will be a [full obsidian vault](https://obsidian.md/), (and n
 	- Bro doesnt let me use my macbook in class
 - AP Human Geography (Yes)
 	- Whatever we cover in class
-- AP English [Language](./../language/) and Composition (Not Really)
+- AP English [[Language]] and Composition (Not Really)
 	- Some speeches and debates copy pasted so i have quick access to them myself
-- Arabic [2](./../2/)(Kinda)
+- Arabic [[2]](Kinda)
 	- Only when I feel like it
 
 
@@ -33,7 +33,7 @@ By June 2025 there will be a [full obsidian vault](https://obsidian.md/), (and n
 	- yt2gpt.py: makes notes off of video transcripts
 	- voiceAi.py: lets you talk to your microphone to make notes
 		- (wip as of 10/22/24)
-		- see [kittens](./../kittens/) for an example
+		- see [[kittens]] for an example
 	- filemaker.py: makes a bunch of .md files with a set prompt and a title(useful for making APUSH flashcards)
 		- prompts.py: where all the various prompts ive used for filemaker.py are stored
 	- append.py: appends a string to all .md files in a folder and subfolders
@@ -46,7 +46,7 @@ By June 2025 there will be a [full obsidian vault](https://obsidian.md/), (and n
 Once I'm done with the year I'll post the grades I got on everything(and AP Test Sores once those come out)
 
 [Past Test Scores](./past-test-scores.png)
-- AP ES: [5](./../5/)
-- AP CS A: [5](./../5/)
-- AP Gov: [4](./../4/)
-- AP CS P: [4](./../4/)
+- AP ES: [[5]]
+- AP CS A: [[5]]
+- AP Gov: [[4]]
+- AP CS P: [[4]]

@@ -25,4 +25,4 @@ The [Market Revolution](./../market-revolution/) was a period of rapid economic 
 * **Regional Differences:** The [Market Revolution](./../market-revolution/) deepened economic and social differences between the North and South, contributing to the growing tensions that eventually led to the [Civil War](./../civil-war/). 
 * **Expansion Westward:** The need for resources, markets, and new land fueled westward expansion and the settlement of the American West. 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Namespaces and Scope](./../namespaces-and-scope/)
-# [Modules and Packages](./../modules-and-packages/) 
+# [[Namespaces and Scope]]
+# [[Modules and Packages]] 
 Python's modularity is a key strength.  It allows for code reusability and organization.
 
 * **Modules:**  A single Python file (`.py`) containing functions, classes, and variables.  Think of it as a toolbox with specific tools.
@@ -12,7 +12,7 @@ Python's modularity is a key strength.  It allows for code reusability and organ
 ```python
 # my_module.py
 def my_function(x):
-  return x * [2](./../2/)
+  return x * [[2]]
 
 my_variable = 10
 ```
@@ -22,7 +22,7 @@ To use `my_function` and `my_variable`, you import the module:
 ```python
 import my_module
 
-result = my_module.my_function([5](./../5/))  # result will be 10
+result = my_module.my_function([[5]])  # result will be 10
 print(my_module.my_variable)       # prints 10
 ```
 
@@ -31,7 +31,7 @@ You can also import specific elements:
 ```python
 from my_module import my_function, my_variable
 
-result = my_function([5](./../5/)) # result will be 10
+result = my_function([[5]]) # result will be 10
 print(my_variable)      # prints 10
 ```
 
@@ -40,7 +40,7 @@ Or rename things during import:
 ```python
 from my_module import my_function as func, my_variable as var
 
-result = func([5](./../5/)) # result will be 10
+result = func([[5]]) # result will be 10
 print(var)      # prints 10
 ```
 
@@ -65,15 +65,15 @@ from mypackage.module2 import some_other_function
 some_other_function()
 ```
 
-[Import Statements](./../import-statements/)
+[[Import Statements]]
 
-[Standard Library Modules](./../standard-library-modules/)
+[[Standard Library Modules]]
 
-[[Creating Your Own [Modules and Packages](./../modules-and-packages/)
+[[Creating Your Own Modules and Packages]]
 
-[Namespaces and Scope](./../namespaces-and-scope/)
+[[Namespaces and Scope]]
 
 
-[The `__init__.py` File](./../the-`__init__.py`-file/)  (Explains the purpose and functionality of `__init__.py` in more detail.)
+[[The `__init__.py` File]]  (Explains the purpose and functionality of `__init__.py` in more detail.)
 
-[Package Management with pip](./../package-management-with-pip/) (How to install and manage external packages using pip)
+[[Package Management with pip]] (How to install and manage external packages using pip)

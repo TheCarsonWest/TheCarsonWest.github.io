@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Exam Prep Schedule](./../exam-prep-schedule/)
 
 **Goal:** Achieve a score of 85% or higher on the final exam.

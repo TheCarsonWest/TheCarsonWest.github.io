@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/)
-# [Thesis Statement Development](./../thesis-statement-development/)
+# [[Synthesis Essay]]
+# [[Thesis Statement Development]]
 
 **Definition:** A thesis statement is a concise summary of the main point or claim of an essay, research paper, or other written work.  It typically appears at the end of the introductory paragraph and provides a roadmap for the reader, outlining the key arguments that will be developed in the body paragraphs.
 
@@ -19,11 +19,11 @@
 
 **Formulating a Thesis Statement:**
 
-[1](./../1/). **Brainstorming:** [Brainstorming Techniques](./../brainstorming-techniques/)
-[2](./../2/). **Identifying the main argument:** What is the central point you want to make?
-[3](./../3/). **Developing a working thesis:** Start with a preliminary statement and refine it as you research and write.
-[4](./../4/). **Refining the thesis:** Ensure clarity, focus, and arguability. Consider using the "because" method to state your claim and your reason for supporting it:  *Claim* because *reason*.  For example: "Shakespeare's Hamlet is a tragedy because of the protagonist's indecisiveness and the overwhelming forces of fate."
-[5](./../5/). **Testing the thesis:** Does it address the prompt? Can it be supported with evidence?  Will it guide the development of your paper?
+[[1]]. **Brainstorming:** [[Brainstorming Techniques]]
+[[2]]. **Identifying the main argument:** What is the central point you want to make?
+[[3]]. **Developing a working thesis:** Start with a preliminary statement and refine it as you research and write.
+[[4]]. **Refining the thesis:** Ensure clarity, focus, and arguability. Consider using the "because" method to state your claim and your reason for supporting it:  *Claim* because *reason*.  For example: "Shakespeare's Hamlet is a tragedy because of the protagonist's indecisiveness and the overwhelming forces of fate."
+[[5]]. **Testing the thesis:** Does it address the prompt? Can it be supported with evidence?  Will it guide the development of your paper?
 
 
 **Types of Thesis Statements:**
@@ -49,14 +49,14 @@
 
 **Further Considerations:**
 
-* [Research Methods](./../research-methods/)
-* [Evidence Gathering and Evaluation](./../evidence-gathering-and-evaluation/)
-* [Argumentation and Counterarguments](./../argumentation-and-counterarguments/)
-* [Essay Structure](./../essay-structure/)
+* [[Research Methods]]
+* [[Evidence Gathering and Evaluation]]
+* [[Argumentation and Counterarguments]]
+* [[Essay Structure]]
 
 
 **Related Notes:**
 
-* [Developing a Research Question](./../developing-a-research-question/)
-* [Outlining your Paper](./../outlining-your-paper/)
+* [[Developing a Research Question]]
+* [[Outlining your Paper]]
 

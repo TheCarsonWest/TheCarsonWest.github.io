@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/) Strategies]]
+# [Synthesis Essay Strategies](./../synthesis-essay-strategies/)
 # [Comparative Analysis](./../comparative-analysis/)
 
 This note covers methods and considerations for comparative analysis.
@@ -11,7 +11,7 @@ This note covers methods and considerations for comparative analysis.
 **I. Types of [Comparative Analysis](./../comparative-analysis/):**
 
 * **Qualitative [Comparative Analysis](./../comparative-analysis/) (QCA):**  Useful for exploring causal relationships in small-N cases.  Focuses on configurations of conditions leading to outcomes.  [QCA Methods](./../qca-methods/)
-* **Quantitative [Comparative Analysis](./../comparative-analysis/):** Uses statistical methods to compare groups or variables across multiple cases.  Allows for broader generalizations but may require larger datasets and strong assumptions. [[Statistical Methods in [Comparative Analysis](./../comparative-analysis/)
+* **Quantitative [Comparative Analysis](./../comparative-analysis/):** Uses statistical methods to compare groups or variables across multiple cases.  Allows for broader generalizations but may require larger datasets and strong assumptions. [Statistical Methods in Comparative Analysis](./../statistical-methods-in-comparative-analysis/)
 * **Most Similar Systems Design (MSSD):** Compares similar cases to isolate the impact of a specific variable.  Helps control for confounding factors. [MSSD Example](./../mssd-example/)
 * **Most Different Systems Design (MDSD):** Compares dissimilar cases that share a common outcome to identify necessary conditions.  Helps establish causal mechanisms. [MDSD Example](./../mdsd-example/)
 * **Within-Case Comparison:** Examining different aspects or periods within a single case to understand causal processes. [Within-Case Analysis](./../within-case-analysis/)
@@ -24,7 +24,7 @@ This note covers methods and considerations for comparative analysis.
 * **Generalizability:** The extent to which findings can be generalized depends on the representativeness of the selected cases.  Consider limitations of small-N studies. [Generalizability and External Validity](./../generalizability-and-external-validity/)
 
 
-**III.  Statistical Techniques (Linked to [[Statistical Methods in [Comparative Analysis](./../comparative-analysis/)):**
+**III.  Statistical Techniques (Linked to [Statistical Methods in Comparative Analysis](./../statistical-methods-in-comparative-analysis/)):**
 
 * **Regression Analysis:**   $ Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \epsilon $   where  $ Y $  is the dependent variable and  $ X_i $  are independent variables.
 * **t-tests:** Used to compare the means of two groups.

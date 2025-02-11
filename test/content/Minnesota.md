@@ -9,7 +9,7 @@
 
 * **1680:** French explorer Daniel Greysolon, Sieur du Lhut, visits the area.
 * **1763:** Ojibwe and Dakota Native Americans capture Fort St. Anthony from the British.
-* **1803:** [Louisiana](./../louisiana/) Purchase]] includes present-day [Minnesota](./../minnesota/).
+* **1803:** [Louisiana Purchase](./../louisiana-purchase/) includes present-day [Minnesota](./../minnesota/).
 * **1819:** Fort Snelling established at the confluence of the [Minnesota](./../minnesota/) and [Mississippi](./../mississippi/) Rivers.
 * **1849:** [Minnesota](./../minnesota/) Territory created.
 * **1858:** [Minnesota](./../minnesota/) becomes a state.

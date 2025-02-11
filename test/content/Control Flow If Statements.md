@@ -42,6 +42,6 @@ else:
 
 [Boolean Logic](./../boolean-logic/)  -  This needs a separate note explaining boolean operators (and, or, not) and truth tables.
 
-[Comparison [[Operators](./../comparison-[[operators/) - This should cover operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
+[Comparison Operators](./../comparison-operators/) - This should cover operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
 
 [Nested If Statements](./../nested-if-statements/) -  Explaining how to have `if` statements inside other `if` statements.

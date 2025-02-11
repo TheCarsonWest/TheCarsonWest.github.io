@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Bitwise [[Operators](./../bitwise-[[operators/)
+# [Bitwise Operators](./../bitwise-operators/)
 # Two's Complement
 
 Two's complement is a way to represent signed integers (positive and negative) in binary.  It's the most common method used in computers because it simplifies arithmetic operations, particularly addition and subtraction.

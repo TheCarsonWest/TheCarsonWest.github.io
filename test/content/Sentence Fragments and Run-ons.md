@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Grammar and Mechanics](./../grammar-and-mechanics/)
-# [Sentence Fragments and Run-ons](./../sentence-fragments-and-run-ons/)
+# [[Grammar and Mechanics]]
+# [[Sentence Fragments and Run-ons]]
 
 These notes cover identifying and correcting sentence fragments and run-on sentences.
 
@@ -13,7 +13,7 @@ These notes cover identifying and correcting sentence fragments and run-on sente
 A sentence fragment is an incomplete sentence; it lacks a subject, a verb, or both, or it doesn't express a complete thought.
 
 * **Types of Fragments:**
-    * **Dependent Clause Fragments:** These begin with subordinating conjunctions (e.g., *because, although, since, if, while*) or relative pronouns (e.g., *who, whom, which, that*).  Example: *Because it was raining.*  ([Dependent Clauses](./../dependent-clauses/))
+    * **Dependent Clause Fragments:** These begin with subordinating conjunctions (e.g., *because, although, since, if, while*) or relative pronouns (e.g., *who, whom, which, that*).  Example: *Because it was raining.*  ([[Dependent Clauses]])
     * **Phrase Fragments:** These are groups of words that lack a subject and a verb. Example: *Running down the street.*
     * **Missing Subject Fragments:** The verb is present, but the subject is missing. Example: *Ate all the cookies.*
     * **Missing Verb Fragments:** The subject is present, but the verb is missing. Example: *The dog in the yard.*
@@ -40,22 +40,22 @@ A run-on sentence (also called a fused sentence or a comma splice) occurs when t
 
 **III.  Practice Exercises:**
 
-([Sentence Fragment Exercises](./../sentence-fragment-exercises/))
-([Run-on Sentence Exercises](./../run-on-sentence-exercises/))
+([[Sentence Fragment Exercises]])
+([[Run-on Sentence Exercises]])
 
 
 **IV. Further Reading:**
 
-* [Grammar Handbooks](./../grammar-handbooks/)
-* [Style Guides](./../style-guides/)
+* [[Grammar Handbooks]]
+* [[Style Guides]]
 
 
 **V. Key Equations (Illustrative -  not directly related to grammar, but helpful in related fields like NLP):**
 
 * Probability of a sentence being a fragment:  $ P(Fragment) = \frac{Number\ of\ fragments}{Total\ number\ of\ sentences} $  (This is a simplified example)
-*  N-gram models can be used in sentence analysis to predict the likelihood of certain sentence structures. [N-gram Models](./../n-gram-models/)
+*  N-gram models can be used in sentence analysis to predict the likelihood of certain sentence structures. [[N-gram Models]]
 
 
 **VI.  Note Relationships:**
 
-* This note is connected to: [Dependent Clauses](./../dependent-clauses/), [Sentence Fragment Exercises](./../sentence-fragment-exercises/), [Run-on Sentence Exercises](./../run-on-sentence-exercises/), [Grammar Handbooks](./../grammar-handbooks/), [Style Guides](./../style-guides/), [N-gram Models](./../n-gram-models/)
+* This note is connected to: [[Dependent Clauses]], [[Sentence Fragment Exercises]], [[Run-on Sentence Exercises]], [[Grammar Handbooks]], [[Style Guides]], [[N-gram Models]]

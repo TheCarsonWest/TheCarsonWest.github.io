@@ -3,26 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-# [Argumentative Essay](./../argumentative-essay/)
-# [Research and Citation](./../research-and-citation/) Notes
+# [[Argumentative Essay]]
+# [[Research and Citation]] Notes
 
-**I. [Research Strategies](./../research-strategies/):**
+**I. [[Research Strategies]]:**
 
 *   **Finding Relevant Sources:**
-    *   Utilize library databases (e.g., JSTOR, PubMed, IEEE Xplore).  [Database Search Strategies](./../database-search-strategies/)
-    *   Employ effective keyword searching. [Keyword Research Techniques](./../keyword-research-techniques/)
+    *   Utilize library databases (e.g., JSTOR, PubMed, IEEE Xplore).  [[Database Search Strategies]]
+    *   Employ effective keyword searching. [[Keyword Research Techniques]]
     *   Refine searches using Boolean operators (AND, OR, NOT).
     *   Explore Google Scholar and other academic search engines.
 *   **Evaluating Sources:**
-    *   Assess the credibility of sources: author expertise, publication date, publisher reputation, bias detection. [Source Credibility](./../source-credibility/) Assessment]]
-    *   Identify primary vs. secondary sources. [Primary vs. Secondary Sources](./../primary-vs.-secondary-sources/)
+    *   Assess the credibility of sources: author expertise, publication date, publisher reputation, bias detection. [[Source Credibility Assessment]]
+    *   Identify primary vs. secondary sources. [[Primary vs. Secondary Sources]]
     *   Check for peer review.
 
 
-**II. [Citation Styles](./../citation-styles/):**
+**II. [[Citation Styles]]:**
 
 *   **Common Styles:**
-    *   MLA (Modern [Language](./../language/) Association): Primarily used in humanities.
+    *   MLA (Modern [[Language]] Association): Primarily used in humanities.
     *   APA (American Psychological Association): Commonly used in social sciences.
     *   Chicago: Versatile style with various formats (notes-bibliography, author-date).
     *   IEEE (Institute of Electrical and Electronics Engineers): Used in engineering and computer science.
@@ -36,38 +36,38 @@
 *   **Works Cited/Bibliography:** A complete list of all sources cited in the research paper, formatted according to the chosen style guide.
 
 
-**III. [Avoiding Plagiarism](./../avoiding-plagiarism/):**
+**III. [[Avoiding Plagiarism]]:**
 
-*   **Proper paraphrasing and summarizing:**  [Paraphrasing and Summarizing Techniques](./../paraphrasing-and-summarizing-techniques/)  Don't just change a few words; restate the information in your own words.
+*   **Proper paraphrasing and summarizing:**  [[Paraphrasing and Summarizing Techniques]]  Don't just change a few words; restate the information in your own words.
 *   **Quoting responsibly:** Use quotation marks for direct quotes and cite the source properly.  Keep quotes brief and only use them when necessary.  Over-quoting is a sign of poor writing.
 *   **Understanding plagiarism consequences:**  Academic dishonesty can lead to severe penalties, including failing grades and expulsion.
-*   **Using citation management tools:** Tools like Zotero or Mendeley can help organize sources and generate citations automatically. [Citation Management Tools](./../citation-management-tools/)
+*   **Using citation management tools:** Tools like Zotero or Mendeley can help organize sources and generate citations automatically. [[Citation Management Tools]]
 
 
 **IV.  Data and Statistical Analysis:** (If applicable to research)
 
-*   [Data collection](./../data-collection/) methods:  Surveys, experiments, observations, etc. [Data Collection Methods](./../data-collection-methods/)
-*   Statistical analysis techniques: Depending on the data and research question.  [Statistical Analysis Techniques](./../statistical-analysis-techniques/)
-*   Data visualization: Charts, graphs, etc. to present findings effectively. [Data Visualization Methods](./../data-visualization-methods/)
+*   [[Data collection]] methods:  Surveys, experiments, observations, etc. [[Data Collection Methods]]
+*   Statistical analysis techniques: Depending on the data and research question.  [[Statistical Analysis Techniques]]
+*   Data visualization: Charts, graphs, etc. to present findings effectively. [[Data Visualization Methods]]
 
 
 **V. Ethical Considerations:**
 
 *   Research integrity:  Honesty, transparency, and responsible conduct of research.
 *   Informed consent (if applicable):  Ensuring participants understand the research and agree to participate.
-*   Data privacy and confidentiality: Protecting sensitive information.  [Data Privacy and Confidentiality](./../data-privacy-and-confidentiality/)
+*   Data privacy and confidentiality: Protecting sensitive information.  [[Data Privacy and Confidentiality]]
 
 
 **VI. Note Templates:**
 
-* [Database Search Strategies](./../database-search-strategies/)
-* [Keyword Research Techniques](./../keyword-research-techniques/)
-* [Source Credibility](./../source-credibility/) Assessment]]
-* [Primary vs. Secondary Sources](./../primary-vs.-secondary-sources/)
-* [Paraphrasing and Summarizing Techniques](./../paraphrasing-and-summarizing-techniques/)
-* [Citation Management Tools](./../citation-management-tools/)
-* [Data Collection Methods](./../data-collection-methods/)
-* [Statistical Analysis Techniques](./../statistical-analysis-techniques/)
-* [Data Visualization Methods](./../data-visualization-methods/)
-* [Data Privacy and Confidentiality](./../data-privacy-and-confidentiality/)
+* [[Database Search Strategies]]
+* [[Keyword Research Techniques]]
+* [[Source Credibility Assessment]]
+* [[Primary vs. Secondary Sources]]
+* [[Paraphrasing and Summarizing Techniques]]
+* [[Citation Management Tools]]
+* [[Data Collection Methods]]
+* [[Statistical Analysis Techniques]]
+* [[Data Visualization Methods]]
+* [[Data Privacy and Confidentiality]]
 

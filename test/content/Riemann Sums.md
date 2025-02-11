@@ -55,7 +55,7 @@ As the number of subintervals ( $ n $ ) approaches infinity, the Riemann sum con
 This is the fundamental theorem of calculus, connecting the concept of Riemann sums to the process of integration.
 
 
-## [[Applications of [Riemann Sums](./../riemann-sums/)
+## [Applications of Riemann Sums](./../applications-of-riemann-sums/)
 
 Riemann sums are not just theoretical tools; they have practical applications in various fields, including:
 

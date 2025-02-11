@@ -6,7 +6,7 @@
 **[Missouri](./../missouri/)**
 
 **Timeline of Historical Events**
-* **1803:** Purchased by the [United States](./../united-states/) as part of the [Louisiana](./../louisiana/) Purchase]].
+* **1803:** Purchased by the [United States](./../united-states/) as part of the [Louisiana Purchase](./../louisiana-purchase/).
 * **1820:** Admitted to the Union as a slave state under the [Missouri](./../missouri/) Compromise.
 * **1836:** Mormons settle in [Missouri](./../missouri/), leading to conflict with local settlers.
 * **1849:** [California](./../california/) Gold Rush brings thousands of prospectors through [Missouri](./../missouri/).
@@ -15,7 +15,7 @@
 * **1870:** [Missouri](./../missouri/) Compromise is overturned by the [14th amendment](./../14th-amendment/).
 * **1875:** Grangers' Revolt highlights economic disparities in [Missouri](./../missouri/).
 * **1893:** World's Columbian Exposition held in Chicago, featuring [Missouri](./../missouri/) exhibits.
-* **1904:** [Louisiana](./../louisiana/) Purchase]] Exposition held in St. Louis, showcasing [Missouri](./../missouri/)'s progress.
+* **1904:** [Louisiana Purchase](./../louisiana-purchase/) Exposition held in St. Louis, showcasing [Missouri](./../missouri/)'s progress.
 * **1914:** [Theodore Roosevelt](./../theodore-roosevelt/) establishes the National Park Service, which includes [Missouri](./../missouri/)'s Gateway Arch.
 * **1929:** Great Depression hits [Missouri](./../missouri/), leading to widespread unemployment.
 * **1941:** [Missouri](./../missouri/) enters World War II, supplying troops and resources.

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG unit [[4](./../aphg-unit-[[4/)
+# [APHG unit 4](./../aphg-unit-4/)
 
 # [Autonomous Regions](./../autonomous-regions/)
 - Area within a state 

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Devices](./../rhetorical-devices/)
-# [Common Fallacies](./../common-fallacies/)
+# [[Rhetorical Devices]]
+# [[Common Fallacies]]
 
 These notes cover common logical fallacies.  Referencing them will improve argumentation and critical thinking skills.
 
@@ -12,9 +12,9 @@ These notes cover common logical fallacies.  Referencing them will improve argum
 
 * **Ad hominem:** Attacking the person making the argument instead of the argument itself.  Example: "You can't believe anything he says; he's a liar!"  This doesn't address the validity of his statement.
 
-* **Appeal to authority:** Claiming something is true simply because an authority figure said it, without further evidence. Example: "My doctor said it, so it must be true." [Appeal to Authority Fallacy](./../appeal-to-authority-fallacy/)
+* **Appeal to authority:** Claiming something is true simply because an authority figure said it, without further evidence. Example: "My doctor said it, so it must be true." [[Appeal to Authority Fallacy]]
 
-* **Appeal to emotion:** Manipulating emotions instead of using logic.  Example:  "Think of the children!" used to justify a policy without evidence of its effectiveness. [Appeal to Emotion Fallacy](./../appeal-to-emotion-fallacy/)
+* **Appeal to emotion:** Manipulating emotions instead of using logic.  Example:  "Think of the children!" used to justify a policy without evidence of its effectiveness. [[Appeal to Emotion Fallacy]]
 
 * **Red herring:** Introducing an irrelevant topic to divert attention from the main issue. Example: "You're criticizing my environmental policy, but what about the national debt?"
 
@@ -36,7 +36,7 @@ These notes cover common logical fallacies.  Referencing them will improve argum
 
 * **Hasty generalization:** Drawing a conclusion based on insufficient evidence. Example: "I met two rude people from that city, so everyone from there must be rude."
 
-* **Post hoc ergo propter hoc (false cause):** Assuming that because one event followed another, the first event caused the second. Example: "I wore my lucky socks, and we won the game; therefore, my socks caused us to win."  $ P(A|B) \neq P(B|A) $  [Correlation vs. Causation](./../correlation-vs.-causation/)
+* **Post hoc ergo propter hoc (false cause):** Assuming that because one event followed another, the first event caused the second. Example: "I wore my lucky socks, and we won the game; therefore, my socks caused us to win."  $ P(A|B) \neq P(B|A) $  [[Correlation vs. Causation]]
 
 * **Slippery slope:** Arguing that one event will inevitably lead to a series of negative consequences without sufficient evidence. Example: "If we legalize marijuana, then everyone will become addicted to heroin."
 
@@ -50,7 +50,7 @@ These notes cover common logical fallacies.  Referencing them will improve argum
 
 **V.  Further Reading:**
 
-* [Logical Fallacies - Full List](./../logical-fallacies---full-list/)  (A more comprehensive list with detailed examples)
+* [[Logical Fallacies - Full List]]  (A more comprehensive list with detailed examples)
 
 
 **VI.  Practice Exercises:**

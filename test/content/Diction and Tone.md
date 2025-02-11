@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
-# [Diction and Tone](./../diction-and-tone/)
+# [[AP English Language and Composition]]
+# [[Diction and Tone]]
 
 **Diction:**  Word choice.  Impacts tone and meaning significantly.
 
@@ -16,7 +16,7 @@
     * **Technical:**  Specialized vocabulary related to a particular field.  Example:  "The algorithm converged after 10 iterations."
     * **Archaic:**  Words or phrases no longer in common use. Example: "Hark!"
 
-* **Effect of Diction:**  Diction choices directly influence the reader's perception of the speaker/writer and the overall message.  [Diction Examples](./../diction-examples/)
+* **Effect of Diction:**  Diction choices directly influence the reader's perception of the speaker/writer and the overall message.  [[Diction Examples]]
 
 
 **Tone:** The author's attitude toward the subject matter and audience.  Tone is conveyed through diction, imagery, syntax, and other literary devices.
@@ -36,16 +36,16 @@
     * Sad
 
 
-* **Relationship between [Diction and Tone](./../diction-and-tone/):**  Diction is a *tool* used to create tone.  The specific words chosen directly impact the overall feeling or attitude conveyed. For example, using formal diction often creates a formal tone, while slang creates an informal tone.
+* **Relationship between [[Diction and Tone]]:**  Diction is a *tool* used to create tone.  The specific words chosen directly impact the overall feeling or attitude conveyed. For example, using formal diction often creates a formal tone, while slang creates an informal tone.
 
-* **[Identifying Tone](./../identifying-tone/):**  Consider the overall effect of the piece on the reader. What feeling does the writing evoke? [Analyzing Tone](./../analyzing-tone/)
+* **[[Identifying Tone]]:**  Consider the overall effect of the piece on the reader. What feeling does the writing evoke? [[Analyzing Tone]]
 
-* **Analyzing Tone and Diction:** Look for patterns in word choice. Are the words positive, negative, or neutral?  Are they simple or complex? Are there any figures of speech used?  How do these choices contribute to the overall effect?  [Tone and Diction Analysis Examples](./../tone-and-diction-analysis-examples/)
+* **Analyzing Tone and Diction:** Look for patterns in word choice. Are the words positive, negative, or neutral?  Are they simple or complex? Are there any figures of speech used?  How do these choices contribute to the overall effect?  [[Tone and Diction Analysis Examples]]
 
-* **Formula for Tone:**  $ Tone = f(Diction, Syntax, Imagery, Figurative [Language](./../language/)) $   This is a simplified representation; other factors can contribute as well.
+* **Formula for Tone:**  $ Tone = f(Diction, Syntax, Imagery, Figurative [[Language]]) $   This is a simplified representation; other factors can contribute as well.
 
-##  $$ Tone = f(Diction, Syntax, Imagery, Figurative [Language](./../language/)) $$  
+##  $$ Tone = f(Diction, Syntax, Imagery, Figurative [[Language]]) $$  
 
-[Diction Examples](./../diction-examples/)
-[Analyzing Tone](./../analyzing-tone/)
-[Tone and Diction Analysis Examples](./../tone-and-diction-analysis-examples/)
+[[Diction Examples]]
+[[Analyzing Tone]]
+[[Tone and Diction Analysis Examples]]

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[APHG Unit [[2](./../aphg-unit-[[2/)
+[APHG Unit 2](./../aphg-unit-2/)
 
 # [Population Composition](./../population-composition/): What a population is made of 
 

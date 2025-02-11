@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Imagery and Sensory Details](./../imagery-and-sensory-details/)
 
 This note covers the use of imagery and sensory details in writing.  The goal is to create vivid and engaging descriptions that appeal to the reader's senses.
@@ -43,7 +43,7 @@ This note covers the use of imagery and sensory details in writing.  The goal is
 
 **Further Notes:**
 
-* [Figurative [[Language](./../figurative-[[language/)
+* [Figurative Language](./../figurative-language/)
 * [Mood and Atmosphere](./../mood-and-atmosphere/)
 * [Character Development](./../character-development/)
 

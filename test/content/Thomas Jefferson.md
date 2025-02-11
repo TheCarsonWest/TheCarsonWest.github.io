@@ -23,12 +23,12 @@
  * Represented the [United States](./../united-states/) in Paris
  * Negotiated the [Treaty of Paris 1776](./../treaty-of-paris-1776/) (1783)
 * **Secretary of State (1789-1793):**
- * Served under President [George [[Washington](./../george-[[washington/)
+ * Served under President [George Washington](./../george-washington/)
  * Drafted the [Bill of Rights](./../bill-of-rights/)
 * **Vice President (1797-1801):**
  * Served under President [John Adams](./../john-adams/)
 * **[POTUS](./../potus/) (1801-1809):**
- * Expanded the nation's territory with the [Louisiana](./../louisiana/) Purchase]] (1803)
+ * Expanded the nation's territory with the [Louisiana Purchase](./../louisiana-purchase/) (1803)
  * Embarked on the Lewis and Clark Expedition
  * Established the [United States](./../united-states/) Military Academy at West Point
 
@@ -39,7 +39,7 @@
 * **Architect of the Republic:**
  * His leadership during the Revolutionary War and his presidency helped establish the [United States](./../united-states/) as a sovereign nation.
 * **Advocate for Expansion:**
- * The [Louisiana](./../louisiana/) Purchase]] doubled the size of the [United States](./../united-states/) and opened up new frontiers for settlement.
+ * The [Louisiana Purchase](./../louisiana-purchase/) doubled the size of the [United States](./../united-states/) and opened up new frontiers for settlement.
 * **Champion of Education:**
  * Founded the University of [Virginia](./../virginia/) and supported public education.
 * **Intellectual Giant:**

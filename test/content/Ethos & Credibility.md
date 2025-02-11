@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
-# [Ethos & Credibility](./../ethos-&-credibility/)
+# [[Rhetorical Analysis Techniques]]
+# [[Ethos & Credibility]]
 
 This note covers the concept of ethos and credibility in persuasive communication.
 
@@ -17,7 +17,7 @@ This note covers the concept of ethos and credibility in persuasive communicatio
 **Components of Credibility:**
 
 * **Competence:**  The audience's perception of the speaker's knowledge, skill, and expertise on the subject matter.  This can be demonstrated through:
-    *  Demonstrating relevant experience and education ( $ E = mc^[2](./../2/) $ ).
+    *  Demonstrating relevant experience and education ( $ E = mc^[[2]] $ ).
     *  Citing credible sources and evidence.
     *  Using accurate and precise language.
     *  Presenting a well-structured and logical argument.
@@ -35,7 +35,7 @@ This note covers the concept of ethos and credibility in persuasive communicatio
     *  Demonstrating a genuine commitment to the issue at hand.
 
 
-**Strategies for [Building Ethos](./../building-ethos/):**
+**Strategies for [[Building Ethos]]:**
 
 * **Establish expertise:**  Clearly state your qualifications and experience.
 * **Cite credible sources:** Support your claims with evidence from reputable sources.
@@ -44,7 +44,7 @@ This note covers the concept of ethos and credibility in persuasive communicatio
 * **Show respect for your audience:** Use inclusive language and demonstrate empathy.
 * **Maintain a consistent and professional image:** Be mindful of your tone and presentation style.
 
-**[Types of Credibility](./../types-of-credibility/)**  ([Examples of Ethos in Speeches](./../examples-of-ethos-in-speeches/))
+**[[Types of Credibility]]**  ([[Examples of Ethos in Speeches]])
 
 
 **Further Considerations:**
@@ -56,9 +56,9 @@ This note covers the concept of ethos and credibility in persuasive communicatio
 
 **Related Notes:**
 
-* [Rhetorical Appeals](./../rhetorical-appeals/)
-* [Logical Fallacies](./../logical-fallacies/)  (To avoid undermining your ethos)
-* [Audience Analysis](./../audience-analysis/) (Understanding your audience is crucial for tailoring your approach to building ethos.)
+* [[Rhetorical Appeals]]
+* [[Logical Fallacies]]  (To avoid undermining your ethos)
+* [[Audience Analysis]] (Understanding your audience is crucial for tailoring your approach to building ethos.)
 
 
 **Example:**

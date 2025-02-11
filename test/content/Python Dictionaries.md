@@ -3,26 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-# [Memoization in [[Recursion](./../memoization-in-[[recursion/)
-# [Python [[Dictionaries](./../python-[[dictionaries/) 
+# [[Memoization in Recursion]]
+# [[Python Dictionaries]] 
 Python dictionaries are unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), while values can be of any data type.
 
 **Key Features:**
 
 * **Key-Value Pairs:**  Data is stored as key-value pairs, allowing for efficient lookups using keys.
-* **Mutability:** [Dictionaries](./../dictionaries/) are mutable, meaning you can add, remove, or modify elements after creation.
-* **Unordered:**  Prior to Python [3](./../3/).[7](./../7/), dictionaries were unordered.  While they appear ordered in later versions, relying on this order is not recommended for code portability.
-* **Hashing:** [Dictionaries](./../dictionaries/) utilize hashing for efficient key lookups.  This means that accessing a value by its key is typically very fast, O([1](./../1/)) on average.
+* **Mutability:** [[Dictionaries]] are mutable, meaning you can add, remove, or modify elements after creation.
+* **Unordered:**  Prior to Python [[3]].[[7]], dictionaries were unordered.  While they appear ordered in later versions, relying on this order is not recommended for code portability.
+* **Hashing:** [[Dictionaries]] utilize hashing for efficient key lookups.  This means that accessing a value by its key is typically very fast, O([[1]]) on average.
 
 
-**Creating [Dictionaries](./../dictionaries/):**
+**Creating [[Dictionaries]]:**
 
 There are several ways to create dictionaries:
 
 * Using curly braces `{}`:
 
 ```python
-my_dict = {"name": "Alice", "age": 30, "city": "[New York](./../new-york/)"}
+my_dict = {"name": "Alice", "age": 30, "city": "[[New York]]"}
 ```
 
 * Using the `dict()` constructor:
@@ -67,7 +67,7 @@ popped_value = my_dict.pop("age") #Removes and returns the value associated with
 my_dict.popitem() #Removes and returns an arbitrary key-value pair
 ```
 
-**Iterating through [Dictionaries](./../dictionaries/):**
+**Iterating through [[Dictionaries]]:**
 
 ```python
 #Iterating through keys
@@ -85,12 +85,12 @@ for key, value in my_dict.items():
 
 **Dictionary Methods:**
 
-[Dictionary Methods](./../dictionary-methods/)  (This will be a separate note)
+[[Dictionary Methods]]  (This will be a separate note)
 
 **Common Use Cases:**
- [Dictionaries](./../dictionaries/) are frequently used to represent structured data, such as configurations, data from JSON or other APIs, and more.
+ [[Dictionaries]] are frequently used to represent structured data, such as configurations, data from JSON or other APIs, and more.
 
-[Dictionary vs. [[Lists](./../dictionary-vs.-[[lists/) and [Tuples](./../tuples/) (This will be a separate note)
+[[Dictionary vs. Lists]] and [[Tuples]] (This will be a separate note)
 
 
 **Example:**

@@ -3,29 +3,29 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/) Strategies]]
-# [Source Evaluation Criteria](./../source-evaluation-criteria/)
+# [[Synthesis Essay Strategies]]
+# [[Source Evaluation Criteria]]
 
 These notes outline criteria for evaluating information sources.  The goal is to determine the credibility, reliability, and authority of a source before using it in research or decision-making.
 
 **I. Authority:**
 
-* **Author Expertise:**  What are the author's credentials?   $ expertise = f(education, experience, publications) $   Are they recognized experts in the field? [Author Expertise Evaluation](./../author-expertise-evaluation/)
-* **Publisher Reputation:** Is the source published by a reputable organization or journal?  Consider the publisher's history, mission, and peer-review processes. [Publisher Reputation](./../publisher-reputation/)
-* **Source Type:** What type of source is it (e.g., scholarly article, website, book, government document)? Different source types have different levels of credibility. [Source Type Credibility](./../source-type-credibility/)
+* **Author Expertise:**  What are the author's credentials?   $ expertise = f(education, experience, publications) $   Are they recognized experts in the field? [[Author Expertise Evaluation]]
+* **Publisher Reputation:** Is the source published by a reputable organization or journal?  Consider the publisher's history, mission, and peer-review processes. [[Publisher Reputation]]
+* **Source Type:** What type of source is it (e.g., scholarly article, website, book, government document)? Different source types have different levels of credibility. [[Source Type Credibility]]
 
 
 **II. Accuracy:**
 
-* **Factual Accuracy:**  Is the information presented accurate and verifiable?  Are there citations or references supporting the claims? [Fact Verification Methods](./../fact-verification-methods/)
-* **Objectivity:** Is the information presented objectively, or does it show bias or a particular point of view?  Look for evidence of bias, such as loaded language or selective use of evidence. [Identifying Bias in Sources](./../identifying-bias-in-sources/)
-* **Currency:** How recent is the information?  Is it up-to-date and relevant to the current context?  For some topics, older information may still be relevant, while for others, it may be outdated. [Evaluating Source Currency](./../evaluating-source-currency/)
+* **Factual Accuracy:**  Is the information presented accurate and verifiable?  Are there citations or references supporting the claims? [[Fact Verification Methods]]
+* **Objectivity:** Is the information presented objectively, or does it show bias or a particular point of view?  Look for evidence of bias, such as loaded language or selective use of evidence. [[Identifying Bias in Sources]]
+* **Currency:** How recent is the information?  Is it up-to-date and relevant to the current context?  For some topics, older information may still be relevant, while for others, it may be outdated. [[Evaluating Source Currency]]
 
 
 **III. Purpose:**
 
 * **Intended Audience:** Who is the intended audience of the source?  Does this affect the information presented?
-* **Purpose of Creation:** What was the author's purpose in creating this source? To inform, persuade, entertain, or something else?  Understanding the purpose can help to evaluate the credibility of the information. [Authorial Intent](./../authorial-intent/)
+* **Purpose of Creation:** What was the author's purpose in creating this source? To inform, persuade, entertain, or something else?  Understanding the purpose can help to evaluate the credibility of the information. [[Authorial Intent]]
 
 
 **IV. Coverage:**
@@ -40,13 +40,13 @@ After considering the above criteria, make an overall judgment about the source'
 
 **Related Notes:**
 
-* [Author Expertise Evaluation](./../author-expertise-evaluation/)
-* [Publisher Reputation](./../publisher-reputation/)
-* [Source Type Credibility](./../source-type-credibility/)
-* [Fact Verification Methods](./../fact-verification-methods/)
-* [Identifying Bias in Sources](./../identifying-bias-in-sources/)
-* [Evaluating Source Currency](./../evaluating-source-currency/)
-* [Authorial Intent](./../authorial-intent/)
+* [[Author Expertise Evaluation]]
+* [[Publisher Reputation]]
+* [[Source Type Credibility]]
+* [[Fact Verification Methods]]
+* [[Identifying Bias in Sources]]
+* [[Evaluating Source Currency]]
+* [[Authorial Intent]]
 
 
 **Example Equation:**  A simple model for source credibility could be:

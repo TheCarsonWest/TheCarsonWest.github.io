@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-21# [APHG Home](./../aphg-home/)
-# [Folk and Pop culture](./../folk-and-pop-culture/)
+21# [[APHG Home]]
+# [[Folk and Pop culture]]
 
-# [Diffusion of [[Culture](./../diffusion-of-[[culture/)
-# [Cultural Diversion](./../cultural-diversion/)
+# [[Diffusion of Culture]]
+# [[Cultural Diversion]]
 
 
-# [Language](./../language/)
-- [Languages](./../languages/)
-- [Lingua Franca](./../lingua-franca/)
+# [[Language]]
+- [[Languages]]
+- [[Lingua Franca]]

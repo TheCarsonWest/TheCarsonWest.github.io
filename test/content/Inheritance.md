@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
+# [Python 1 Home](./../python-1-home/)
 # [Inheritance](./../inheritance/)  [Inheritance](./../inheritance/) is a powerful mechanism in object-oriented programming (OOP) that allows you to create new classes (child classes or subclasses) based on existing classes (parent classes or superclasses).  The child class inherits the attributes (variables) and methods (functions) of the parent class, and can also add its own unique attributes and methods, or override existing ones.
 
 **Benefits of [Inheritance](./../inheritance/):**
@@ -43,7 +43,7 @@ print(my_dog.name) # Output: Buddy (inherited from Animal)
 **Types of [Inheritance](./../inheritance/):**
 
 * **Single [Inheritance](./../inheritance/):** A class inherits from only one parent class.  (Example above)
-* [[Multiple [Inheritance](./../inheritance/): A class inherits from multiple parent classes.
+* [Multiple Inheritance](./../multiple-inheritance/): A class inherits from multiple parent classes.
 * **Multilevel [Inheritance](./../inheritance/):** A class inherits from another class, which in turn inherits from another class.
 * **Hierarchical [Inheritance](./../inheritance/):** Multiple classes inherit from a single parent class.
 
@@ -68,4 +68,4 @@ class Dog(Animal):
 ```
 
 [Classes and Objects](./../classes-and-objects/)
-[Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
+[Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)

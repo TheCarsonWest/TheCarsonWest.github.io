@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Importing Modules](./../importing-modules/)
+# [[Importing Modules]]
 # Packages and `__init__.py`
 
 Python packages are a way of organizing related modules into a hierarchical structure.  This helps manage complexity in larger projects.  The key to creating a package is the `__init__.py` file.
@@ -49,7 +49,7 @@ mypackage/
 ```
 
 
-- [Namespaces and Scope](./../namespaces-and-scope/)  (Linked Note:  This would discuss how packages create their own namespaces.)
-- [Relative vs](./../relative-vs/). Absolute Imports]] (Linked Note: This would compare and contrast these types of import statements.)
-- [Circular Imports](./../circular-imports/) (Linked Note: This is a common problem when working with packages - this note would describe them and offer solutions.)
+- [[Namespaces and Scope]]  (Linked Note:  This would discuss how packages create their own namespaces.)
+- [[Relative vs. Absolute Imports]] (Linked Note: This would compare and contrast these types of import statements.)
+- [[Circular Imports]] (Linked Note: This is a common problem when working with packages - this note would describe them and offer solutions.)
 

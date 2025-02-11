@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Exception Handling](./../exception-handling/) Examples]]
-# [Python [[Error Handling](./../python-[[error-handling/) Best Practices]] 
+# [Exception Handling Examples](./../exception-handling-examples/)
+# [Python Error Handling Best Practices](./../python-error-handling-best-practices/) 
 These notes cover best practices for handling errors in Python.  The goal is to write robust and user-friendly code that gracefully handles unexpected situations.
 
 **Key Concepts:**
@@ -62,7 +62,7 @@ with open("myfile.txt", "r") as f:
 **Related Notes:**
 
 * [Python Exception Hierarchy](./../python-exception-hierarchy/)
-* [Common [[Python Exceptions](./../common-[[python-exceptions/)
+* [Common Python Exceptions](./../common-python-exceptions/)
 
 
 

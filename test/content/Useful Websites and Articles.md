@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Useful Websites and Articles](./../useful-websites-and-articles/)
 
 This note serves as a central hub for websites and articles I find useful.  I will categorize them for easier access.

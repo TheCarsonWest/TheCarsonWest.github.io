@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Lists](./../lists/)
-# [[Multidimensional [Lists](./../lists/) 
+# [Multidimensional Lists](./../multidimensional-lists/) 
 Multidimensional lists in Python are lists within lists, creating a structure that can represent matrices, tables, or other higher-dimensional data.  The number of dimensions is limited only by memory and practicality.
 
 **Example:**
@@ -25,7 +25,7 @@ print(matrix[[1](./../[1/)][[2](./../2/)])  # Output: [6](./../6/) (second row, 
 # A 3D list (e.g., a cube of data)
 cube = [
     [1](./../1/), [2](./../2/)], [[3](./../3/), [4](./../4/),
-    [5](./../5/), [6](./../6/)], [[7](./../[7/), 8]],
+    [5](./../5/), [6](./../6/)], [[7, 8](./../[7-8/),
     [9, 10], [11, 12](./../9-10]-[11-12/)
 ]
 

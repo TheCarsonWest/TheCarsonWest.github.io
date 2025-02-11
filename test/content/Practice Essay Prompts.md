@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Practice Essay Prompts](./../practice-essay-prompts/)
 
 These notes are for brainstorming and organizing ideas for practice essay prompts.  I'll categorize them by type and difficulty.
@@ -32,7 +32,7 @@ These notes are for brainstorming and organizing ideas for practice essay prompt
 
 * **Prompt [2](./../2/):**  Discuss the development of a particular character in [Specific Literary Work]. (Requires specifying a work) [Character Development in [Literary Work](./../character-development-in-[literary-work/)]
 
-* **Prompt [3](./../3/):**  Compare and contrast the themes of [Literary Work [1](./../1/)] and [Literary Work [2](./../2/)]. (Requires specifying two works) [[Comparing Themes: [Literary Work [1](./../1/)] and [Literary Work [2](./../2/)]
+* **Prompt [3](./../3/):**  Compare and contrast the themes of [Literary Work [1](./../1/)] and [Literary Work [2](./../2/)]. (Requires specifying two works) [Comparing Themes: [Literary Work 1](./../comparing-themes:-[literary-work-1/)] and [Literary Work [2](./../2/)]
 
 
 **IV.  Synthesis Essays:**

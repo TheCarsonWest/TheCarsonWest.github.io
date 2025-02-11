@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
+# [Python 1 Home](./../python-1-home/)
 
 
 # Programming is writing in a language a computer can read

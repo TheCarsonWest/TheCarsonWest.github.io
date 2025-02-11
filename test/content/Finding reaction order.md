@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rate Laws](./../rate-laws/)
-# [Order of Reaction](./../order-of-reaction/)
+# [[Rate Laws]]
+# [[Order of Reaction]]
 
 # Look at the 

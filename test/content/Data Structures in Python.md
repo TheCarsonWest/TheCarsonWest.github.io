@@ -3,50 +3,50 @@
 [params]
 	author = 'Carson West'
 +++
-# [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
-# [Data Structures in Python](./../data-structures-in-python/) 
+# [[Mutable vs Immutable Types]]
+# [[Data Structures in Python]] 
 This note covers the fundamental data structures in Python.  I'll need to expand on several of these in separate notes.
 
-**[1](./../1/). Built-in Data Structures:**
+**[[1]]. Built-in Data Structures:**
 
 Python offers several built-in data structures:
 
-* **[Lists](./../lists/):** Ordered, mutable (changeable) sequences of items.  Allow duplicate elements.
+* **[[Lists]]:** Ordered, mutable (changeable) sequences of items.  Allow duplicate elements.
 
 ```python
-my_list = [[1](./../1/), [2](./../2/), "hello", [3](./../3/).14, True]
+my_list = [[[1]], [[2]], "hello", [[3]].14, True]
 ```
 
-* **[Tuples](./../tuples/):** Ordered, immutable (unchangeable) sequences of items. Allow duplicate elements.  Useful for representing fixed collections of data.
+* **[[Tuples]]:** Ordered, immutable (unchangeable) sequences of items. Allow duplicate elements.  Useful for representing fixed collections of data.
 
 ```python
-my_tuple = ([1](./../1/), [2](./../2/), "hello", [3](./../3/).14, True)
+my_tuple = ([[1]], [[2]], "hello", [[3]].14, True)
 ```
 
 * **Sets:** Unordered collections of unique items.  Useful for membership testing and eliminating duplicates.
 
 ```python
-my_set = {[1](./../1/), [2](./../2/), [3](./../3/), [3](./../3/), [4](./../4/)} # {[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/)}
+my_set = {[[1]], [[2]], [[3]], [[3]], [[4]]} # {[[1]], [[2]], [[3]], [[4]]}
 ```
 
-* **[Dictionaries](./../dictionaries/):**  Unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), values can be any data type.  Provides efficient lookups by key.
+* **[[Dictionaries]]:**  Unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), values can be any data type.  Provides efficient lookups by key.
 
 ```python
-my_dict = {"name": "Alice", "age": 30, "city": "[New York](./../new-york/)"}
+my_dict = {"name": "Alice", "age": 30, "city": "[[New York]]"}
 ```
 
 
-**[2](./../2/).  Data Structure Operations:**
+**[[2]].  Data Structure Operations:**
 
 Each data structure has its own set of operations (methods):
 
-* **[Lists](./../lists/):**  `append()`, `insert()`, `remove()`, `pop()`, `sort()`, `reverse()`, `index()`, `count()` etc.  ([List Methods](./../list-methods/))
-* **[Tuples](./../tuples/):**  Limited operations due to immutability.  `index()`, `count()`. ([Tuple Methods](./../tuple-methods/))
-* **Sets:** `add()`, `remove()`, `union()`, `intersection()`, `difference()` etc. ([Set Methods](./../set-methods/))
-* **[Dictionaries](./../dictionaries/):** `get()`, `items()`, `keys()`, `values()`, `update()`, `pop()`, `popitem()` etc. ([Dictionary Methods](./../dictionary-methods/))
+* **[[Lists]]:**  `append()`, `insert()`, `remove()`, `pop()`, `sort()`, `reverse()`, `index()`, `count()` etc.  ([[List Methods]])
+* **[[Tuples]]:**  Limited operations due to immutability.  `index()`, `count()`. ([[Tuple Methods]])
+* **Sets:** `add()`, `remove()`, `union()`, `intersection()`, `difference()` etc. ([[Set Methods]])
+* **[[Dictionaries]]:** `get()`, `items()`, `keys()`, `values()`, `update()`, `pop()`, `popitem()` etc. ([[Dictionary Methods]])
 
 
-**[3](./../3/). Choosing the Right Data Structure:**
+**[[3]]. Choosing the Right Data Structure:**
 
 The choice of data structure depends on the specific needs of your program:
 
@@ -56,20 +56,20 @@ The choice of data structure depends on the specific needs of your program:
 * Use dictionaries when you need to store data in key-value pairs for efficient lookups.
 
 
-**[4](./../4/).  More Advanced Data Structures ([Advanced Data Structures](./../advanced-data-structures/))**
+**[[4]].  More Advanced Data Structures ([[Advanced Data Structures]])**
 
 This section will cover more advanced data structures, like:
 
 * **Deque (double-ended queue):**  Efficient for adding and removing elements from both ends.
 * **Namedtuple:**  Similar to tuples, but with named fields for better readability.
 * **Counter:**  A dictionary subclass for counting hashable objects.
-* **OrderedDict (deprecated in Python [3](./../3/).[7](./../7/)+):**  Maintained order of insertion. (Use `collections.OrderedDict` if needed for older Python versions).
+* **OrderedDict (deprecated in Python [[3]].[[7]]+):**  Maintained order of insertion. (Use `collections.OrderedDict` if needed for older Python versions).
 
 
-**[5](./../5/).  Further Reading:**
+**[[5]].  Further Reading:**
 
 * Python documentation on built-in types.
 * Relevant chapters in a Python textbook.
 
 
-**Linked Notes:** [List Methods](./../list-methods/), [Tuple Methods](./../tuple-methods/), [Set Methods](./../set-methods/), [Dictionary Methods](./../dictionary-methods/), [Advanced Data Structures](./../advanced-data-structures/)
+**Linked Notes:** [[List Methods]], [[Tuple Methods]], [[Set Methods]], [[Dictionary Methods]], [[Advanced Data Structures]]

@@ -18,4 +18,4 @@ John Brown, with a small group of followers, seized the federal arsenal at Harpe
 * **Southern Fears:** The raid fueled Southern fears of a Northern conspiracy to overthrow slavery and led to a surge in pro-slavery sentiment.
 * **Prelude to War:** The Harpers Ferry raid contributed to the growing polarization and helped set the stage for the [Civil War](./../civil-war/). 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

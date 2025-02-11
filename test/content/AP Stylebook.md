@@ -51,7 +51,7 @@ Block equation:
 **References:**
 
 * [AP Stylebook](./../ap-stylebook/) (latest edition)
-* [[Online [AP Stylebook](./../ap-stylebook/) Resources]]
+* [Online AP Stylebook Resources](./../online-ap-stylebook-resources/)
 
 
 **To-Do:**
@@ -67,5 +67,5 @@ Block equation:
 [State Name Abbreviations](./../state-name-abbreviations/)
 [Titles and Names](./../titles-and-names/)
 [Attribution and Verbs](./../attribution-and-verbs/)
-[[Online [AP Stylebook](./../ap-stylebook/) Resources]]
+[Online AP Stylebook Resources](./../online-ap-stylebook-resources/)
 

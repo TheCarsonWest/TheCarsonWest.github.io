@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Regex Metacharacters](./../regex-metacharacters/)
-# [Regex Grouping and Capturing](./../regex-grouping-and-capturing/) 
-This note covers grouping and capturing in [Regular Expressions](./../regular-expressions/) using Python's `re` module.
+# [[Regex Metacharacters]]
+# [[Regex Grouping and Capturing]] 
+This note covers grouping and capturing in [[Regular Expressions]] using Python's `re` module.
 
 **Core Concepts:**
 
@@ -22,19 +22,19 @@ import re
 text = "My phone number is 123-456-7890, and my zip code is 90210."
 
 # Grouping and capturing phone number
-match = re.search(r"(\d{[3](./../3/)})-(\d{[3](./../3/)})-(\d{[4](./../4/)})", text) 
+match = re.search(r"(\d{[[3]]})-(\d{[[3]]})-(\d{[[4]]})", text) 
 
 if match:
     area_code, exchange, line_number = match.groups()
     print(f"Area Code: {area_code}, Exchange: {exchange}, Line Number: {line_number}")
 
 #Capturing multiple matches with findall
-matches = re.findall(r"(\d{[5](./../5/)})", text) #finds all [5](./../5/) digit numbers
+matches = re.findall(r"(\d{[[5]]})", text) #finds all [[5]] digit numbers
 print(f"Zip codes found: {matches}")
 
 
-#Named capturing groups (Python [3](./../3/).[6](./../6/)+)
-match = re.search(r"(?P<area_code>\d{[3](./../3/)})-(?P<exchange>\d{[3](./../3/)})-(?P<line_number>\d{[4](./../4/)})", text)
+#Named capturing groups (Python [[3]].[[6]]+)
+match = re.search(r"(?P<area_code>\d{[[3]]})-(?P<exchange>\d{[[3]]})-(?P<line_number>\d{[[4]]})", text)
 if match:
     print(f"Area Code: {match.group('area_code')}, Exchange: {match.group('exchange')}, Line Number: {match.group('line_number')}")
 
@@ -51,4 +51,4 @@ if match:
 
 
 
-[Regex `re.sub()` function](./../regex-`re.sub()`-function/)  ([Regex `re.findall()` function](./../regex-`re.findall()`-function/)) [Python's `re` Module](./../pythons-`re`-module/)
+[[Regex `re.sub()` function]]  ([[Regex `re.findall()` function]]) [[Python's `re` Module]]

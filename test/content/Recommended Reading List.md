@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Recommended Reading List](./../recommended-reading-list/) Notes
 
 This note covers creating a recommended reading list.
@@ -42,7 +42,7 @@ This note covers creating a recommended reading list.
 
 **Important Considerations:**
 
-* **Target Audience:** Who is this reading list for? Beginners? Experts? Students?  This dictates the difficulty and scope of the books included. [Target [[Audience Analysis](./../target-[[audience-analysis/)
+* **Target Audience:** Who is this reading list for? Beginners? Experts? Students?  This dictates the difficulty and scope of the books included. [Target Audience Analysis](./../target-audience-analysis/)
 * **Topic Specificity:** How focused is the topic?  A broad topic requires a more diverse and extensive list. [Topic Refinement](./../topic-refinement/)
 * **Bias:** Strive for a balanced and diverse selection of books.  Avoid favoring a particular viewpoint unless explicitly stated. [Bias Mitigation](./../bias-mitigation/)
 

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/) Strategies]]
-# [Synthesis Essay](./../synthesis-essay/) Examples]]
+# [Synthesis Essay Strategies](./../synthesis-essay-strategies/)
+# [Synthesis Essay Examples](./../synthesis-essay-examples/)
 
 **Goal:** Understand the structure and components of effective synthesis essays.  This will involve analyzing examples and identifying key features.
 
@@ -27,7 +27,7 @@
 
 * **Example [2](./../2/):**  Find an essay on a literary topic, perhaps analyzing a recurring theme across multiple works.  Focus on how the writer compares and contrasts different interpretations and supports their own analysis. [Literary Analysis Essay Example](./../literary-analysis-essay-example/)
 
-* **Example [3](./../3/):**  Find an essay that takes a position on a current event.  Examine how the writer uses evidence from news articles, expert opinions, and potentially statistical data to support their claim.  [[Current Events [Synthesis Essay](./../synthesis-essay/) Example]]
+* **Example [3](./../3/):**  Find an essay that takes a position on a current event.  Examine how the writer uses evidence from news articles, expert opinions, and potentially statistical data to support their claim.  [Current Events Synthesis Essay Example](./../current-events-synthesis-essay-example/)
 
 
 **Note-Taking Template:**

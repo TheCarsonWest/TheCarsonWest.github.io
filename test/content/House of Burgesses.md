@@ -18,4 +18,4 @@ The [House of Burgesses](./../house-of-burgesses/) was the first legislative ass
 * **Precedents for later conflicts:**  The gradual increase in the House of Burgess' influence, and their increasing confrontation with royal governors, laid the groundwork for future colonial resistance to British policies, culminating in the American Revolution.
 * **Limited Representation:** It's important to acknowledge that the [House of Burgesses](./../house-of-burgesses/) did not represent all colonists; only landowning white men could vote or hold office. This unequal representation is key to understanding the limitations of colonial democracy.
 
-# [IDS Unit [[3](./../ids-unit-[[3/)
+# [IDS Unit 3](./../ids-unit-3/)

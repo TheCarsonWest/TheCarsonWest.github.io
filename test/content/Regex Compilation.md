@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Regex Flags](./../regex-flags/)
-# [Regex Compilation](./../regex-compilation/) 
+# [[Regex Flags]]
+# [[Regex Compilation]] 
 Regex compilation is the process of transforming a regular expression string into a compiled pattern object. This object can then be used for efficient matching against multiple strings.  This is generally faster than repeatedly compiling the same regex string.
 
 
@@ -12,10 +12,10 @@ Regex compilation is the process of transforming a regular expression string int
 import re
 
 # Uncompiled regex - slower for repeated use
-pattern_string = r"\b\w{[5](./../5/)}\b"  # Matches [5](./../5/)-letter words
+pattern_string = r"\b\w{[[5]]}\b"  # Matches [[5]]-letter words
 
 # Compiled regex - faster for repeated use
-compiled_pattern = re.compile(r"\b\w{[5](./../5/)}\b") 
+compiled_pattern = re.compile(r"\b\w{[[5]]}\b") 
 
 text = "This is a test string with some five letter words."
 
@@ -46,4 +46,4 @@ print(f"All matches (compiled): {matches}")
 * Consider compilation even for single use if the regex is complex and performance is critical.
 
 
-**[Regex Methods](./../regex-methods/)**  ([Regex Metacharacters](./../regex-metacharacters/))  ([Python Modules](./../python-modules/))
+**[[Regex Methods]]**  ([[Regex Metacharacters]])  ([[Python Modules]])

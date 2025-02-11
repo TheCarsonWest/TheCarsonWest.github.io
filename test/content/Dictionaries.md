@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
+# [Python 1 Home](./../python-1-home/)
 # [Dictionaries](./../dictionaries/)  [Dictionaries](./../dictionaries/) are unordered collections of key-value pairs.  Keys must be immutable (like strings, numbers, or tuples), while values can be of any data type.
 
 ```python
@@ -45,4 +45,4 @@ Other useful methods:
 * `copy()`: Creates a shallow copy.
 
 
-[Dictionary Comprehension](./../dictionary-comprehension/), [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
+[Dictionary Comprehension](./../dictionary-comprehension/), [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)

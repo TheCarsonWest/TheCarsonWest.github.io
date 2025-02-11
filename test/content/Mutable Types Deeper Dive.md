@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
+# [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 # Mutable Types: Deeper Dive
 
 [Mutable Objects in Python](./../mutable-objects-in-python/) are those whose internal state can be changed after creation.  This contrasts with immutable objects, where the value remains constant throughout its lifetime.  Understanding mutability is crucial for avoiding unexpected behavior and writing efficient code.

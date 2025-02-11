@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python Sets](./../python-sets/) - Examples]]
-# [Python Sets](./../python-sets/) - Basics]] 
+# [Python Sets - Examples](./../python-sets---examples/)
+# [Python Sets - Basics](./../python-sets---basics/) 
 Key Features:
 
 * Unordered collections of unique elements.

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
-# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [Rhetorical Analysis Techniques](./../rhetorical-analysis-techniques/)
 
 These notes outline key techniques for analyzing rhetoric.  Remember to consider the *context* of the text always!
 
@@ -22,7 +22,7 @@ These notes outline key techniques for analyzing rhetoric.  Remember to consider
 
 **III. Analyzing [Rhetorical Devices](./../rhetorical-devices/):**
 
-* **Figurative [Language](./../language/):** Metaphors, similes, analogies, personification, hyperbole, etc.  What effect do these create? How do they enhance the message? [[Figurative [Language](./../language/) Analysis]]
+* **Figurative [Language](./../language/):** Metaphors, similes, analogies, personification, hyperbole, etc.  What effect do these create? How do they enhance the message? [Figurative Language Analysis](./../figurative-language-analysis/)
 * **Sentence Structure:** Consider the length and complexity of sentences.  Short, declarative sentences can create a sense of urgency, while long, complex sentences can convey detail and sophistication.  [Sentence Structure & Effect](./../sentence-structure-&-effect/)
 * **Repetition:**  The repetition of words, phrases, or sounds.  What is the effect of this repetition? Does it emphasize a point, create rhythm, or evoke emotion?
 * **Tone:** What is the overall attitude or feeling conveyed by the speaker/writer?  Is it formal, informal, serious, humorous, sarcastic, etc.? [Identifying Tone](./../identifying-tone/)

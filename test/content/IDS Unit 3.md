@@ -3,48 +3,48 @@
 [params]
 	author = 'Carson West'
 +++
-# [ID Home](./../id-home/)
+# [[ID Home]]
 
-[1](./../1/). [Constitutional Convention](./../constitutional-convention/)
-[2](./../2/). [Great Compromise](./../great-compromise/)
-[3](./../3/). [Judiciary Act](./../judiciary-act/)
-[4](./../4/). [Bill of Rights](./../bill-of-rights/)
-[5](./../5/). [Report on the Public Credit](./../report-on-the-public-credit/)
-[6](./../6/). [Report on Manufactures](./../report-on-manufactures/)
-[7](./../7/). [Proclamation of Neutrality](./../proclamation-of-neutrality/)
-8. [Capital Compromise](./../capital-compromise/)
-9. [Whiskey Rebellion](./../whiskey-rebellion/)
-10. [Jays Treaty](./../jays-treaty/)
-11. [George Washingtons Farewell Address](./../george-washingtons-farewell-address/)
-12. [Election of 1800](./../election-of-1800/)
-13. [XYZ Affair](./../xyz-affair/)
-14. [Naturalization Alien and Sedition Acts](./../naturalization-alien-and-sedition-acts/)
-15. [VA and KY Resolutions](./../va-and-ky-resolutions/)
-16. [Treaty of Greenville](./../treaty-of-greenville/)
-17. [Marbury vs Madison](./../marbury-vs-madison/)
-18. [Louisiana](./../louisiana/) Purchase]]
-19. [Embargo Act of 1807](./../embargo-act-of-1807/)
-20. [Treaty of Ghent](./../treaty-of-ghent/)
-21. [McCulloch v [[Maryland](./../mcculloch-v-[[maryland/)
-22. [Adams-Onis Treaty](./../adams-onis-treaty/)
-23. [Era of Good Feelings](./../era-of-good-feelings/)
-24. [Monroe Doctrine](./../monroe-doctrine/)
-25. [Panic of 1819](./../panic-of-1819/)
-26. [The American System](./../the-american-system/)
-### Part [2](./../2/)
-27. [Commonwealth System](./../commonwealth-system/)
-28. [Republican Motherhood](./../republican-motherhood/)
-29. [American Colonization Society](./../american-colonization-society/)
-30. [Missouri](./../missouri/) Compromise]]
-31. [Second [[Great Awakening](./../second-[[great-awakening/)
-32. [American Temperance Society](./../american-temperance-society/)
-33. [Utopian Societies](./../utopian-societies/)
-34. [Transcendentalism](./../transcendentalism/)
-35. [Democracy in America](./../democracy-in-america/)
-36. [Nat Turner Rebellion](./../nat-turner-rebellion/)
-37. [Election of 1824](./../election-of-1824/)
-38. [Election of 1828](./../election-of-1828/)
-39. [Spoils System](./../spoils-system/)
-40. [Nullification](./../nullification/)
-41. [Tariff of Abominations](./../tariff-of-abominations/)
-42. [Worcester v [[Georgia](./../worcester-v-[[georgia/)
+[[1]]. [[Constitutional Convention]]
+[[2]]. [[Great Compromise]]
+[[3]]. [[Judiciary Act]]
+[[4]]. [[Bill of Rights]]
+[[5]]. [[Report on the Public Credit]]
+[[6]]. [[Report on Manufactures]]
+[[7]]. [[Proclamation of Neutrality]]
+8. [[Capital Compromise]]
+9. [[Whiskey Rebellion]]
+10. [[Jays Treaty]]
+11. [[George Washingtons Farewell Address]]
+12. [[Election of 1800]]
+13. [[XYZ Affair]]
+14. [[Naturalization Alien and Sedition Acts]]
+15. [[VA and KY Resolutions]]
+16. [[Treaty of Greenville]]
+17. [[Marbury vs Madison]]
+18. [[Louisiana Purchase]]
+19. [[Embargo Act of 1807]]
+20. [[Treaty of Ghent]]
+21. [[McCulloch v Maryland]]
+22. [[Adams-Onis Treaty]]
+23. [[Era of Good Feelings]]
+24. [[Monroe Doctrine]]
+25. [[Panic of 1819]]
+26. [[The American System]]
+### Part [[2]]
+27. [[Commonwealth System]]
+28. [[Republican Motherhood]]
+29. [[American Colonization Society]]
+30. [[Missouri Compromise]]
+31. [[Second Great Awakening]]
+32. [[American Temperance Society]]
+33. [[Utopian Societies]]
+34. [[Transcendentalism]]
+35. [[Democracy in America]]
+36. [[Nat Turner Rebellion]]
+37. [[Election of 1824]]
+38. [[Election of 1828]]
+39. [[Spoils System]]
+40. [[Nullification]]
+41. [[Tariff of Abominations]]
+42. [[Worcester v Georgia]]

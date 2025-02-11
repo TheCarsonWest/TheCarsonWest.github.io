@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
-# [Figurative [[Language](./../figurative-[[language/) Analysis]]
+# [Rhetorical Analysis Techniques](./../rhetorical-analysis-techniques/)
+# [Figurative Language Analysis](./../figurative-language-analysis/)
 
 This note covers the analysis of figurative language, focusing on identifying and interpreting different types of figures of speech.  
 

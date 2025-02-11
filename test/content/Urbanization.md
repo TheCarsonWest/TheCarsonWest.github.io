@@ -26,4 +26,4 @@ Rapid growth of cities due to industrialization and immigration.  This led to ov
 * **Technological Advancements:** [Urbanization](./../urbanization/) spurred technological innovations in transportation (subways, streetcars), sanitation, and building construction.
 * **Shift in Demographics:**  A dramatic shift in the population from rural areas to urban centers, fundamentally altering the American identity.  This impacted voting patterns and political power significantly.
 
-# [IDS Unit [[6](./../ids-unit-[[6/)
+# [IDS Unit 6](./../ids-unit-6/)

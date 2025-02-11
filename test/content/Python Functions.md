@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Function Parameters](./../function-parameters/)
-# [Python Functions](./../python-functions/) 
+# [[Function Parameters]]
+# [[Python Functions]] 
 These notes cover the basics of Python functions.
 
 **Defining Functions:**
@@ -20,16 +20,16 @@ def my_function(param1, param2):
 
 ```
 
-[Function Parameters](./../function-parameters/) and Arguments]]
+[[Function Parameters and Arguments]]
 
-[Function [[Return Values](./../function-[[return-values/)
+[[Function Return Values]]
 
 **Calling Functions:**
 
 Functions are called by using their name followed by parentheses containing any necessary arguments.
 
 ```python
-result = my_function([5](./../5/), [3](./../3/))  # Calls my_function with arguments [5](./../5/) and [3](./../3/)
+result = my_function([[5]], [[3]])  # Calls my_function with arguments [[5]] and [[3]]
 print(result)  # Prints 8
 ```
 
@@ -37,46 +37,46 @@ print(result)  # Prints 8
 
 * **Positional Arguments:** Arguments passed in the order they are defined in the function definition.
 * **Keyword Arguments:** Arguments passed using the `keyword=value` syntax.  This allows for flexibility in argument order.
-* **[Default Arguments](./../default-arguments/):** Arguments that have a default value specified in the function definition.  If not provided during the function call, the default value is used.
-* **[Variable-Length Arguments](./../variable-length-arguments/) (`*args`, `**kwargs`):**  Used to handle a variable number of positional or keyword arguments, respectively. [Variable Length Arguments in Python](./../variable-length-arguments-in-python/)
+* **[[Default Arguments]]:** Arguments that have a default value specified in the function definition.  If not provided during the function call, the default value is used.
+* **[[Variable-Length Arguments]] (`*args`, `**kwargs`):**  Used to handle a variable number of positional or keyword arguments, respectively. [[Variable Length Arguments in Python]]
 
 
 **Scope and Lifetime of Variables:**
 
 * **Local Variables:** Variables defined inside a function are local to that function.
-* **Global Variables:** Variables defined outside any function.  They can be accessed from within functions, but modifying them requires the `global` keyword. [Variable Scope and Lifetime](./../variable-scope-and-lifetime/)
+* **Global Variables:** Variables defined outside any function.  They can be accessed from within functions, but modifying them requires the `global` keyword. [[Variable Scope and Lifetime]]
 
 
-**[Lambda Functions](./../lambda-functions/) (Anonymous Functions):**
+**[[Lambda Functions]] (Anonymous Functions):**
 
 These are small, anonymous functions defined using the `lambda` keyword. They are often used for short, simple operations.
 
 ```python
 square = lambda x: x*x
-print(square([5](./../5/))) # Prints 25
+print(square([[5]])) # Prints 25
 ```
 
 **Recursive Functions:**
 
-Functions that call themselves.  They must have a base case to avoid infinite [Recursion](./../recursion/). [Recursion](./../recursion/) in Python]]
+Functions that call themselves.  They must have a base case to avoid infinite [[Recursion]]. [[Recursion in Python]]
 
 
-**[Decorators](./../decorators/):**
+**[[Decorators]]:**
 
-A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the `@` symbol. [[Python [Decorators](./../decorators/)
+A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the `@` symbol. [[Python Decorators]]
 
 **Higher-Order Functions:**
 
-Functions that take other functions as arguments or return functions as results.  `map`, `filter`, and `reduce` are examples. [Higher-Order Functions](./../higher-order-functions/)
+Functions that take other functions as arguments or return functions as results.  `map`, `filter`, and `reduce` are examples. [[Higher-Order Functions]]
 
 
 **Pre-existing Notes:**
 
-* [Function Parameters](./../function-parameters/) and Arguments]]
-* [Function [[Return Values](./../function-[[return-values/)
-* [Variable Length Arguments in Python](./../variable-length-arguments-in-python/)
-* [Variable Scope and Lifetime](./../variable-scope-and-lifetime/)
-* [Recursion](./../recursion/) in Python]]
-* [[Python [Decorators](./../decorators/)
-* [Higher-Order Functions](./../higher-order-functions/)
+* [[Function Parameters and Arguments]]
+* [[Function Return Values]]
+* [[Variable Length Arguments in Python]]
+* [[Variable Scope and Lifetime]]
+* [[Recursion in Python]]
+* [[Python Decorators]]
+* [[Higher-Order Functions]]
 

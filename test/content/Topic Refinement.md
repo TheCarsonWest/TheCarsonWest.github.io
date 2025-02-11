@@ -13,20 +13,20 @@
 **Possible Refinement Approaches:**
 
 [1](./../1/). **Focus on a specific methodology:**
-    * [Topic Refinement](./../topic-refinement/) Methodologies]]  (This will be a separate note)
+    * [Topic Refinement Methodologies](./../topic-refinement-methodologies/)  (This will be a separate note)
     *  Examples:  Keyword analysis, mind mapping, literature review, stakeholder interviews.  Consider focusing on *one* specific methodology.
 
 [2](./../2/). **Focus on a specific application area:**
-    * [Topic Refinement](./../topic-refinement/) in Scientific Research]] (This will be a separate note)
-    * [Topic Refinement](./../topic-refinement/) in Project Management]] (This will be a separate note)
-    * [Topic Refinement](./../topic-refinement/) in Marketing]] (This will be a separate note)
+    * [Topic Refinement in Scientific Research](./../topic-refinement-in-scientific-research/) (This will be a separate note)
+    * [Topic Refinement in Project Management](./../topic-refinement-in-project-management/) (This will be a separate note)
+    * [Topic Refinement in Marketing](./../topic-refinement-in-marketing/) (This will be a separate note)
     * Choosing a specific field will provide a more concrete context.
 
 
 [3](./../3/). **Focus on a specific problem related to topic refinement:**
     * For example,  the problem of identifying biases in topic selection, or overcoming writer's block during the refinement process.
     * [Bias in Topic Selection](./../bias-in-topic-selection/) (This will be a separate note)
-    * [[Overcoming Writer's Block in [Topic Refinement](./../topic-refinement/) (This will be a separate note)
+    * [Overcoming Writer's Block in Topic Refinement](./../overcoming-writers-block-in-topic-refinement/) (This will be a separate note)
 
 
 [4](./../4/). **Consider the scope of the research:**

@@ -23,4 +23,4 @@ The [Anaconda Plan](./../anaconda-plan/) significantly impacted the course of th
 
 The [Anaconda Plan](./../anaconda-plan/), though initially criticized for its slow pace, proved highly effective in bringing about the Union victory in the [Civil War](./../civil-war/). 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

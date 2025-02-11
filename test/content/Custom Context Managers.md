@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [Context Managers](./../context-managers/)
-# [[Custom [Context Managers](./../context-managers/) 
+# [[Context Managers]]
+# [[Custom Context Managers]] 
 Context managers are a powerful feature in Python that allows you to manage resources efficiently and gracefully.  The `with` statement is the syntax used to work with them.  Built-in context managers like `open()` for files handle opening and closing automatically.  Custom context managers allow you to create your own resource management logic.
 
 There are two primary ways to define custom context managers:
 
-**[1](./../1/). Using the `contextlib.contextmanager` decorator:**
+**[[1]]. Using the `contextlib.contextmanager` decorator:**
 
 This is generally the preferred and more concise approach for simpler context managers.
 
@@ -37,7 +37,7 @@ with my_context_manager("value1", "value2") as result:
 ```
 
 
-**[2](./../2/). Using a class that implements the context management protocol (__enter__ and __exit__):**
+**[[2]]. Using a class that implements the context management protocol (__enter__ and __exit__):**
 
 This approach offers more control and flexibility, especially when dealing with complex resource management scenarios or cleanup that requires more than simple `try...finally` logic.
 
@@ -66,7 +66,7 @@ with MyCustomContextManager("my_resource") as resource:
 
 ```
 
-[Exception Handling](./../exception-handling/)  
-[Resource Management](./../resource-management/)
+[[Exception Handling]]  
+[[Resource Management]]
 
 Note: Both methods achieve similar outcomes; the choice depends on complexity and preference.  The `@contextmanager` decorator is often simpler for straightforward scenarios.  The class-based approach provides more control, particularly for handling exceptions within `__exit__`.

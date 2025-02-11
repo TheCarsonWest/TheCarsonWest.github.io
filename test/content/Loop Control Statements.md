@@ -57,7 +57,7 @@ else:
 ```
 
 [Nested Loops](./../nested-loops/)  
-[Break and Continue Statements](./../break-and-continue-statements/) Detailed]]
+[Break and Continue Statements Detailed](./../break-and-continue-statements-detailed/)
 [For Loop Syntax](./../for-loop-syntax/)
 [While Loop Syntax](./../while-loop-syntax/)
 

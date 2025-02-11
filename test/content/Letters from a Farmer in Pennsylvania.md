@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Letters from a Farmer in [[Pennsylvania](./../letters-from-a-farmer-in-[[pennsylvania/) 
+## ID: [Letters from a Farmer in Pennsylvania](./../letters-from-a-farmer-in-pennsylvania/) 
 ## When: 1767-1768
 
 ## Who: 
@@ -20,4 +20,4 @@ A series of twelve essays published anonymously in the *[Pennsylvania](./../penn
 * **Precursor to Revolution:** While advocating for peaceful means, the essays contributed significantly to the growing tensions between [Great Britain](./../great-britain/) and its American colonies, paving the way for the American Revolution.
 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

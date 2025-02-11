@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Evidence Evaluation & Citation](./../evidence-evaluation-&-citation/)
-# [Chicago Citation Style](./../chicago-citation-style/) Notes
+# [[Evidence Evaluation & Citation]]
+# [[Chicago Citation Style]] Notes
 
 **Key Differences from other styles:**  Chicago has two main citation systems:  Notes and Bibliography and Author-Date.  This document focuses on Notes and Bibliography.
 
@@ -14,22 +14,22 @@
 
 **Basic Note Format (Footnote/Endnote):**
 
-[1](./../1/).  For books: Author's Last Name, *Title of Work*, (City of Publication: Publisher, Year), Page Number.  
-    *Example:* Smith, John, *A History of Cats*, ([New York](./../new-york/): Meow Press, 2023), 12.
+[[1]].  For books: Author's Last Name, *Title of Work*, (City of Publication: Publisher, Year), Page Number.  
+    *Example:* Smith, John, *A History of Cats*, ([[New York]]: Meow Press, 2023), 12.
 
 
-[2](./../2/). For journal articles: Author's Last Name, "Article Title," *Journal Title* Volume Number, No. Issue Number (Year): Pages.
-    *Example:* Jones, Mary, "The Psychology of Purring," *Feline Studies* 15, no. [2](./../2/) (2022): 55-78.
+[[2]]. For journal articles: Author's Last Name, "Article Title," *Journal Title* Volume Number, No. Issue Number (Year): Pages.
+    *Example:* Jones, Mary, "The Psychology of Purring," *Feline Studies* 15, no. [[2]] (2022): 55-78.
 
 
-[3](./../3/).  For websites: Author's Name (if available), "Title of Page," Website Name, URL, Accessed Date.
+[[3]].  For websites: Author's Name (if available), "Title of Page," Website Name, URL, Accessed Date.
     *Example:*  "Cats and Dogs," American Kennel Club, [https://www.akc.org/](https://www.akc.org/), accessed October 26, 2023.
 
 
 **Bibliography Format:**  The bibliography lists all cited works alphabetically by author's last name.  Format largely mirrors the note format but without page numbers.
 
-* **Book Example:** Smith, John. *A History of Cats*. [New York](./../new-york/): Meow Press, 2023.
-* **Journal Article Example:** Jones, Mary. "The Psychology of Purring." *Feline Studies* 15, no. [2](./../2/) (2022): 55-78.
+* **Book Example:** Smith, John. *A History of Cats*. [[New York]]: Meow Press, 2023.
+* **Journal Article Example:** Jones, Mary. "The Psychology of Purring." *Feline Studies* 15, no. [[2]] (2022): 55-78.
 * **Website Example:** "Cats and Dogs." American Kennel Club.  [https://www.akc.org/](https://www.akc.org/). Accessed October 26, 2023.
 
 
@@ -46,24 +46,24 @@ After the first citation of a source, use shortened forms in subsequent notes (e
 
 **Equations (Example):**
 
-The Pythagorean theorem is represented as:  $ a^[2](./../2/) + b^[2](./../2/) = c^[2](./../2/) $ .
+The Pythagorean theorem is represented as:  $ a^[[2]] + b^[[2]] = c^[[2]] $ .
 
 
 **More complex equations:**
 
- $$  \int_0^\infty e^{-x^[2](./../2/)} dx = \frac{\sqrt{\pi}}{[2](./../2/)}  $$  
+ $$  \int_0^\infty e^{-x^[[2]]} dx = \frac{\sqrt{\pi}}{[[2]]}  $$  
 
-[Formatting Variations](./../formatting-variations/)
+[[Formatting Variations]]
 
-[Multiple Author Citations](./../multiple-author-citations/)
+[[Multiple Author Citations]]
 
-[Website Citations](./../website-citations/)
+[[Website Citations]]
 
-[Subsequent Citations](./../subsequent-citations/)
+[[Subsequent Citations]]
 
 
-[Specific Publication Types](./../specific-publication-types/)  (e.g.,  [Books](./../books/), [Journal Articles](./../journal-articles/), [Websites](./../websites/), [Government Documents](./../government-documents/))
+[[Specific Publication Types]]  (e.g.,  [[Books]], [[Journal Articles]], [[Websites]], [[Government Documents]])
 
-[Example Papers](./../example-papers/) (This note will contain examples of complete papers formatted in Chicago style)
+[[Example Papers]] (This note will contain examples of complete papers formatted in Chicago style)
 
-[Comparison with other citation styles](./../comparison-with-other-citation-styles/) (e.g., [MLA](./../mla/), [APA](./../apa/))
+[[Comparison with other citation styles]] (e.g., [[MLA]], [[APA]])

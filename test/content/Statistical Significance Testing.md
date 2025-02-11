@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Source Analysis Techniques](./../source-analysis-techniques/)
-# [Statistical Significance](./../statistical-significance/) Testing]]
+# [Statistical Significance Testing](./../statistical-significance-testing/)
 
 **Goal:** Determine if observed results are likely due to chance or a real effect.
 

@@ -3,29 +3,29 @@
 [params]
 	author = 'Carson West'
 +++
-# [Variable Naming Conventions](./../variable-naming-conventions/)
-# [Data Types](./../data-types/) 
+# [[Variable Naming Conventions]]
+# [[Data Types]] 
 Python has several built-in data types.  Here's a breakdown:
 
 * **Numeric Types:**
-    * `int`: Integers (e.g., 10, -[5](./../5/), 0)
-    * `float`: Floating-point numbers (e.g., [3](./../3/).14, -[2](./../2/).[5](./../5/), 0.0)
-    * `complex`: Complex numbers (e.g., [2](./../2/)+3j)
+    * `int`: Integers (e.g., 10, -[[5]], 0)
+    * `float`: Floating-point numbers (e.g., [[3]].14, -[[2]].[[5]], 0.0)
+    * `complex`: Complex numbers (e.g., [[2]]+3j)
 
 * **Text Type:**
     * `str`: Strings (e.g., "hello", 'Python', """multiline string""")
 
 * **Sequence Types:**
-    * `list`: Ordered, mutable sequence of items (e.g., `[[1](./../[1/), [2](./../2/), "apple", [3](./../3/).14]`)
-    * `tuple`: Ordered, immutable sequence of items (e.g., `([1](./../1/), [2](./../2/), "apple", [3](./../3/).14)`)
+    * `list`: Ordered, mutable sequence of items (e.g., `[[[1]], [[2]], "apple", [[3]].14]`)
+    * `tuple`: Ordered, immutable sequence of items (e.g., `([[1]], [[2]], "apple", [[3]].14)`)
     * `range`: Represents a sequence of numbers (e.g., `range(10)`)
 
 * **Mapping Type:**
     * `dict`: Unordered collection of key-value pairs (e.g., `{"name": "Alice", "age": 30}`)
 
 * **Set Types:**
-    * `set`: Unordered collection of unique items (e.g., `{[1](./../1/), [2](./../2/), [3](./../3/)}`)
-    * `frozenset`: Immutable set (e.g., `frozenset({[1](./../1/), [2](./../2/), [3](./../3/)})`)
+    * `set`: Unordered collection of unique items (e.g., `{[[1]], [[2]], [[3]]}`)
+    * `frozenset`: Immutable set (e.g., `frozenset({[[1]], [[2]], [[3]]})`)
 
 * **Boolean Type:**
     * `bool`: Represents truth values (`True` or `False`)
@@ -40,12 +40,12 @@ Python has several built-in data types.  Here's a breakdown:
 
 ```python
 my_int = 10
-my_float = [3](./../3/).14
+my_float = [[3]].14
 my_string = "Hello, world!"
-my_list = [[1](./../[1/), [2](./../2/), [3](./../3/)]
-my_tuple = ([4](./../4/), [5](./../5/), [6](./../6/))
-my_dict = {"a": [1](./../1/), "b": [2](./../2/)}
-my_set = {[1](./../1/), [2](./../2/), [3](./../3/)}
+my_list = [[[1]], [[2]], [[3]]]
+my_tuple = ([[4]], [[5]], [[6]])
+my_dict = {"a": [[1]], "b": [[2]]}
+my_set = {[[1]], [[2]], [[3]]}
 my_bool = True
 ```
 
@@ -59,4 +59,4 @@ y = float(x)  # convert to float
 z = str(x)   # convert to string
 ```
 
-[Type Conversion](./../type-conversion/)  [Mutability](./../mutability/)  [Immutability](./../immutability/) [Sequence Types in Detail](./../sequence-types-in-detail/) [Dictionary Methods](./../dictionary-methods/)
+[[Type Conversion]]  [[Mutability]]  [[Immutability]] [[Sequence Types in Detail]] [[Dictionary Methods]]

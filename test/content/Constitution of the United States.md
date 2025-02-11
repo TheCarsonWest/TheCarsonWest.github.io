@@ -22,7 +22,7 @@
 
 The Constitution was drafted by a group of delegates at the [Constitutional Convention](./../constitutional-convention/) in [Philadelphia](./../philadelphia/) in 1787. Key delegates included:
 
-* [George [[Washington](./../george-[[washington/) (President of the Convention)
+* [George Washington](./../george-washington/) (President of the Convention)
 * [James Madison](./../james-madison/) (Father of the Constitution)
 * [Alexander Hamilton](./../alexander-hamilton/)
 * [Benjamin Franklin](./../benjamin-franklin/)

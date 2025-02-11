@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Argumentative Essay](./../argumentative-essay/) Structure]]
-# [Counterargument Strategies](./../counterargument-strategies/)
+# [[Argumentative Essay Structure]]
+# [[Counterargument Strategies]]
 
 These notes outline strategies for addressing counterarguments effectively in argumentative writing and debate.
 
@@ -23,7 +23,7 @@ Before formulating a response, it's crucial to accurately understand the opposin
 Several approaches can be used to address counterarguments, depending on the nature of the argument and the strength of the opposing viewpoint.
 
 * **A. Refutation:** Directly challenging the validity of the counterargument. This involves showing flaws in the logic, evidence, or assumptions.  Examples:
-    * **Logical fallacies:** Pointing out logical fallacies (e.g., straw man, ad hominem, false dilemma) in the counterargument. [Logical Fallacies](./../logical-fallacies/)
+    * **Logical fallacies:** Pointing out logical fallacies (e.g., straw man, ad hominem, false dilemma) in the counterargument. [[Logical Fallacies]]
     * **Weak evidence:** Demonstrating that the evidence presented is insufficient, outdated, or irrelevant.
     * **Contradictory evidence:** Presenting evidence that directly contradicts the counterargument.
     * **Counterexamples:** Providing examples that refute the counterargument's claims.
@@ -41,23 +41,23 @@ Several approaches can be used to address counterarguments, depending on the nat
 
 Regardless of the strategy employed, your response should be structured logically and clearly.  A common approach is:
 
-[1](./../1/). **State the counterargument:** Clearly summarize the opposing viewpoint.
-[2](./../2/). **Address the counterargument:** Use one of the strategies above to address the counterargument.
-[3](./../3/). **Transition back to your main argument:** Show how your response strengthens your overall argument.
+[[1]]. **State the counterargument:** Clearly summarize the opposing viewpoint.
+[[2]]. **Address the counterargument:** Use one of the strategies above to address the counterargument.
+[[3]]. **Transition back to your main argument:** Show how your response strengthens your overall argument.
 
 
 **IV. Examples:**
 
-* **Example [1](./../1/) (Refutation):**  Counterargument: "Raising the minimum wage will hurt small businesses."  Refutation: "Studies show that a modest increase in the minimum wage has little to no negative impact on employment, and can actually stimulate economic growth by increasing consumer spending."
+* **Example [[1]] (Refutation):**  Counterargument: "Raising the minimum wage will hurt small businesses."  Refutation: "Studies show that a modest increase in the minimum wage has little to no negative impact on employment, and can actually stimulate economic growth by increasing consumer spending."
 
-* **Example [2](./../2/) (Concession and Rebuttal):** Counterargument: "Climate change is a natural phenomenon, not caused by human activity." Concession and Rebuttal: "While it's true that the Earth's climate has naturally fluctuated in the past, the rate of warming observed in recent decades is unprecedented and directly correlates with increased greenhouse gas emissions from human activities."
+* **Example [[2]] (Concession and Rebuttal):** Counterargument: "Climate change is a natural phenomenon, not caused by human activity." Concession and Rebuttal: "While it's true that the Earth's climate has naturally fluctuated in the past, the rate of warming observed in recent decades is unprecedented and directly correlates with increased greenhouse gas emissions from human activities."
 
 
 **V.  Related Notes:**
 
-* [Argumentative Essay](./../argumentative-essay/) Structure]]
-* [Evidence Evaluation](./../evidence-evaluation/)
-* [Logical Fallacies](./../logical-fallacies/)
+* [[Argumentative Essay Structure]]
+* [[Evidence Evaluation]]
+* [[Logical Fallacies]]
 
 
 **VI. Further Research:**

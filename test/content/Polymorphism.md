@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
+# [Python 1 Home](./../python-1-home/)
 # [Polymorphism](./../polymorphism/)  [Polymorphism](./../polymorphism/) allows objects of different classes to be treated as objects of a common type.  This is particularly useful when dealing with inheritance.
 
 * **Example:**  Consider a scenario where you have different shapes (circle, square, triangle) each with an `area()` method.  [Polymorphism](./../polymorphism/) allows you to call `area()` on any shape object without needing to know its specific type.
@@ -37,6 +37,6 @@ for shape in shapes:
 
 Related notes:
 
-- [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
+- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
 - [Abstract Classes](./../abstract-classes/) (This note should explain abstract base classes and their use in polymorphism)
 

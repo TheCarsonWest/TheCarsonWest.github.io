@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Lists](./../lists/)
-# [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/) 
+# [Mutable vs Immutable Types](./../mutable-vs-immutable-types/) 
 This refers to the ability of an object to change its value after it's created.
 
 * **[Immutable Types](./../immutable-types/):**  Once created, their value cannot be changed.  If you perform an operation that seems to modify them, you're actually creating a *new* object.
@@ -17,7 +17,7 @@ This refers to the ability of an object to change its value after it's created.
     my_tuple = ([1](./../1/), [2](./../2/), [3](./../3/))
     #my_tuple[0] = [4](./../4/)  # This will raise a TypeError because tuples are immutable.
     ```
-    [Immutable Types](./../immutable-types/) Deeper Dive]]
+    [Immutable Types Deeper Dive](./../immutable-types-deeper-dive/)
 
 
 * **Mutable Types:** Their value can be changed after creation.

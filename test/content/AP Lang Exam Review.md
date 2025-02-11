@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
-# [AP Lang Exam Review](./../ap-lang-exam-review/)
+# [[AP English Language and Composition]]
+# [[AP Lang Exam Review]]
 
-**I. [Rhetorical Analysis](./../rhetorical-analysis/) (40% of Exam):**
+**I. [[Rhetorical Analysis]] (40% of Exam):**
 
 * **Understanding the Prompt:** Carefully analyze the assignment to understand the specific requirements. Identify the task (analyze, evaluate, compare, etc.) and the focus (rhetorical strategies, purpose, audience, effect).
 
@@ -14,10 +14,10 @@
     * **Ethos (credibility):** How does the author establish their authority and trustworthiness?  Consider their background, tone, use of evidence, etc.
     * **Pathos (emotion):** How does the author appeal to the reader's emotions?  Identify the specific emotions evoked and the techniques used (e.g., imagery, figurative language, anecdotes).
     * **Logos (logic):** How does the author use reason and evidence to support their claims?  Examine the types of evidence used (e.g., statistics, examples, analogies) and the strength of the reasoning.
-    * **Diction:** Word choice and its effect on tone and meaning. [Diction Analysis](./../diction-analysis/)
-    * **Syntax:** Sentence structure and its impact on rhythm, pace, and emphasis. [Sentence Structure Analysis](./../sentence-structure-analysis/)
+    * **Diction:** Word choice and its effect on tone and meaning. [[Diction Analysis]]
+    * **Syntax:** Sentence structure and its impact on rhythm, pace, and emphasis. [[Sentence Structure Analysis]]
     * **Tone:** The author's attitude towards the subject matter.
-    * **Figurative [Language](./../language/):**  Metaphors, similes, personification, etc. and their effect. [[Figurative [Language](./../language/)
+    * **Figurative [[Language]]:**  Metaphors, similes, personification, etc. and their effect. [[Figurative Language]]
     * **Imagery:**  Vivid descriptions that appeal to the senses.
     * **Organization:**  Structure of the argument (e.g., chronological, spatial, compare/contrast).
     * **Audience:** Who is the intended audience? How does the author tailor their message to this audience?
@@ -39,14 +39,14 @@
 * **Writing the Essay:**
     * **Organization:** Structure your argument logically. Consider using a chronological, compare/contrast, or cause-and-effect structure.
     * **Style and Tone:** Maintain a formal and objective tone.  Use precise language and avoid generalizations.
-    * **[Grammar and Mechanics](./../grammar-and-mechanics/):**  Ensure your essay is free of grammatical errors and typos.
+    * **[[Grammar and Mechanics]]:**  Ensure your essay is free of grammatical errors and typos.
 
 
-**III. [Synthesis Essay](./../synthesis-essay/) (20% of Exam):**
+**III. [[Synthesis Essay]] (20% of Exam):**
 
 * **Understanding the Sources:** Carefully read and analyze the provided source materials. Identify the main ideas and supporting evidence in each source. Note the relationship between the sources.
 
-* **Developing your Argument:**  Use the provided sources to develop a well-supported argument. Integrate quotes and paraphrases from the sources into your essay.  Cite sources appropriately. [Synthesis Essay](./../synthesis-essay/) Strategies]]
+* **Developing your Argument:**  Use the provided sources to develop a well-supported argument. Integrate quotes and paraphrases from the sources into your essay.  Cite sources appropriately. [[Synthesis Essay Strategies]]
 
 * **Writing the Essay:**
     * **Thesis Statement:**  Clearly state your position on the issue, using evidence from the sources.
@@ -54,10 +54,10 @@
     * **Conclusion:**  Summarize your main points and restate your thesis.
 
 
-**[Practice Essays](./../practice-essays/)**
+**[[Practice Essays]]**
 
-**[AP Lang Exam Tips](./../ap-lang-exam-tips/)**
+**[[AP Lang Exam Tips]]**
 
-**[Time Management Strategies](./../time-management-strategies/)**
+**[[Time Management Strategies]]**
 
 

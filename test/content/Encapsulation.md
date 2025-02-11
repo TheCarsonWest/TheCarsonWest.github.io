@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
-# [Encapsulation](./../encapsulation/)  [Encapsulation](./../encapsulation/) is one of the fundamental principles of object-oriented programming (OOP).  It's all about bundling data (attributes) and methods (functions) that operate on that data within a single unit – a class.  The goal is to protect the data from outside access and misuse, and to control how that data is modified.
+# [[Python 1 Home]]
+# [[Encapsulation]]  [[Encapsulation]] is one of the fundamental principles of object-oriented programming (OOP).  It's all about bundling data (attributes) and methods (functions) that operate on that data within a single unit – a class.  The goal is to protect the data from outside access and misuse, and to control how that data is modified.
 
 This is achieved primarily through access modifiers (although Python doesn't have strict private/public keywords like Java or C++).  We use naming conventions to indicate the intended level of access:
 
@@ -16,17 +16,17 @@ This is achieved primarily through access modifiers (although Python doesn't hav
 class MyClass:
     def __init__(self, value):
         self.public_var = value  # Public
-        self._protected_var = value * [2](./../2/) # Protected
-        self.__private_var = value * [3](./../3/) # Private
+        self._protected_var = value * [[2]] # Protected
+        self.__private_var = value * [[3]] # Private
 
     def get_private_var(self):
         return self.__private_var
 
-my_instance = MyClass([5](./../5/))
+my_instance = MyClass([[5]])
 print(my_instance.public_var)       # Accessing public member - OK
 print(my_instance._protected_var)   # Accessing protected member - Generally OK, but discouraged from outside the class
 print(my_instance.get_private_var()) # Accessing private member through a getter method - Recommended
 #print(my_instance.__private_var)  # Direct access to private member - will result in AttributeError
 ```
 
-[Classes and Objects](./../classes-and-objects/)  [Private and Protected Members](./../private-and-protected-members/)
+[[Classes and Objects]]  [[Private and Protected Members]]

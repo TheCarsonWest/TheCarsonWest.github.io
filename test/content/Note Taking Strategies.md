@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Synthesis Essay](./../synthesis-essay/)
-# [Note Taking Strategies](./../note-taking-strategies/)
+# [[Synthesis Essay]]
+# [[Note Taking Strategies]]
 
 **Goal:** Develop efficient and effective note-taking methods for optimal learning and retention.
 
@@ -12,20 +12,20 @@
 
 * **Cornell Notes:**
     * Divide paper into three sections: main notes, cues, and summary.
-    * [Cornell Notes Detailed Explanation](./../cornell-notes-detailed-explanation/)  
+    * [[Cornell Notes Detailed Explanation]]  
     * Best for: lectures, readings with clear structure.
 
 * **Mind Mapping:**
     * Central idea branches into related subtopics and details.  
     * Visual representation aids in understanding connections.
     * Best for: brainstorming, complex topics, generating ideas.
-    * [Mind Mapping Techniques](./../mind-mapping-techniques/)
+    * [[Mind Mapping Techniques]]
 
 * **Sketchnoting:**
     * Combines drawings, symbols, and keywords to create visual notes.
     * Improves engagement and memory.
     * Best for: lectures, meetings, creative brainstorming.
-    * [Sketchnoting Examples and Tips](./../sketchnoting-examples-and-tips/)
+    * [[Sketchnoting Examples and Tips]]
 
 * **Linear Note Taking:**
     * Traditional method of writing down information in a linear fashion.
@@ -40,14 +40,14 @@ This equation highlights the importance of optimizing both information retention
 
 **Factors Affecting Efficiency:**
 
-* **Active listening/reading:** [Active Learning Strategies](./../active-learning-strategies/)
-* **Note organization and structure:** [Note Organization Methods](./../note-organization-methods/)
+* **Active listening/reading:** [[Active Learning Strategies]]
+* **Note organization and structure:** [[Note Organization Methods]]
 * **Review and revision:** Regular review is crucial for long-term retention.  $ Retention \propto Frequency \; of \; Review $   (Retention is proportional to the frequency of review)
 
 **Tools:**
 
 * Pen and paper (classic and reliable)
-* Note-taking apps (Evernote, OneNote, Google Keep)  [Digital Note-Taking Apps Comparison](./../digital-note-taking-apps-comparison/)
+* Note-taking apps (Evernote, OneNote, Google Keep)  [[Digital Note-Taking Apps Comparison]]
 
 
 ##  $$ Retention = f(Understanding, Engagement, Review) $$  

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[Unit [[3](./../unit-[[3/)
+[Unit 3](./../unit-3/)
 
 # [Languages](./../languages/) are cool
 # Major Earth [Languages](./../languages/):

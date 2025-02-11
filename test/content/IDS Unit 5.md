@@ -15,9 +15,9 @@
 [7](./../7/). [Dawes Severalty Act of 1887](./../dawes-severalty-act-of-1887/)
 8. [Laissez-Faire Government](./../laissez-faire-government/)
 9. [Bessemer Process](./../bessemer-process/)
-10. [John D](./../john-d/). Rockefeller]]
+10. [John D. Rockefeller](./../john-d.-rockefeller/)
 11. [Andrew Carnegie](./../andrew-carnegie/)
-12. [J](./../j/).P. Morgan]]
+12. [J.P. Morgan](./../j.p.-morgan/)
 13. [Transcontinental Railroad](./../transcontinental-railroad/)
 14. [Granger Laws](./../granger-laws/)
 15. [Interstate Commerce Act 1887](./../interstate-commerce-act-1887/)

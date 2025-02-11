@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [While Loops](./../while-loops/)
-# [Else in Loops](./../else-in-loops/) 
+# [[While Loops]]
+# [[Else in Loops]] 
 The `else` keyword in Python's `for` and `while` loops is often misunderstood. It doesn't mean "if the loop doesn't execute".  Instead, the `else` block executes only if the loop completes *normally*, meaning it ran through all its iterations without encountering a `break` statement.
 
 ```python
-numbers = [[1](./../[1/), [3](./../3/), [5](./../5/), [7](./../7/)]
+numbers = [[[1]], [[3]], [[5]], [[7]]]
 target = 10
 
 for number in numbers:
@@ -19,7 +19,7 @@ else:
     print(f"{target} not found in the list.")
 
 
-numbers = [[1](./../[1/), [3](./../3/), [5](./../5/), [7](./../7/), 10]
+numbers = [[[1]], [[3]], [[5]], [[7]], 10]
 target = 10
 
 for number in numbers:
@@ -38,4 +38,4 @@ else:
 *   Useful for indicating when a loop completes without finding a specific condition.
 
 
-[Break Statement](./../break-statement/)  [While Loops](./../while-loops/) [For Loops](./../for-loops/)
+[[Break Statement]]  [[While Loops]] [[For Loops]]

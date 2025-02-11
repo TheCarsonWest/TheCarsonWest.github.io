@@ -7,4 +7,4 @@
 ###  $$  \frac{d}{dx} [x^n] = nx^{n-[1](./../1/)}  $$  
 
 
-# [Derivative](./../derivative/) Rules]]
+# [Derivative Rules](./../derivative-rules/)

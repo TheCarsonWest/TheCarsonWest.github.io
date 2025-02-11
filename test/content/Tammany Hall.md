@@ -21,4 +21,4 @@ A powerful political machine in [New York](./../new-york/) City.  It used patron
 * **Public Backlash and Reform:** The excesses of [Tammany Hall](./../tammany-hall/) eventually led to public outrage and investigative journalism (e.g., [Thomas Nast](./../thomas-nast/)'s cartoons), contributing to the progressive reform movements that aimed to curb political corruption.
 * **Immigration and Urban Politics:**  [Tammany Hall](./../tammany-hall/)'s history highlights the complex relationship between immigrant communities, urban politics, and the challenges of rapid urbanization in the late 19th century.  It provided services but also exploited vulnerable populations.
 
-# [IDS Unit [[5](./../ids-unit-[[5/)
+# [IDS Unit 5](./../ids-unit-5/)

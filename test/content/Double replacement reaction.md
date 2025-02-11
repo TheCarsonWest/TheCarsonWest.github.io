@@ -4,14 +4,14 @@
 	author = 'Carson West'
 +++
 
-### [Reactions Types](./../reactions-types/)
-Double replacement reactions, also known as metathesis reactions, are [chemical reactions](./../chemical-reactions/) in which the cations and anions of two ionic compounds exchange places to form two new ionic compounds. The general equation for a double replacement reaction is:
+### [[Reactions Types]]
+Double replacement reactions, also known as metathesis reactions, are [[chemical reactions]] in which the cations and anions of two ionic compounds exchange places to form two new ionic compounds. The general equation for a double replacement reaction is:
 
  $$  AB + CD → AD + CB
  $$  
 where A and C are cations and B and D are anions.
 
-### **Conditions for Double Replacement [Reactions Types](./../reactions-types/)**
+### **Conditions for Double Replacement [[Reactions Types]]**
 
 Double replacement reactions occur when:
 
@@ -20,7 +20,7 @@ Double replacement reactions occur when:
 * The products are insoluble in water (precipitation reaction).
 * The products are gases.
 
-### **Types of Double Replacement [Reactions Types](./../reactions-types/)**
+### **Types of Double Replacement [[Reactions Types]]**
 
 There are three main types of double replacement reactions:
 
@@ -30,8 +30,8 @@ There are three main types of double replacement reactions:
 ## Neutralization
 #  $$  Acid+Base → H_2O + Salt  $$  
 
-- Acid and Base will **neutralize** each other to a pH of [7](./../7/), if perfectly balanced
-- Used in [Titration](./../titration/) to find the [molarity](./../molarity/) of one of the reactants
+- Acid and Base will **neutralize** each other to a pH of [[7]], if perfectly balanced
+- Used in [[Titration]] to find the [[molarity]] of one of the reactants
 
 ### **Example of a Double Replacement Reaction**
 

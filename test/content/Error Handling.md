@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Data Type Conversions](./../data-type-conversions/)
-# [Error Handling](./../error-handling/) 
+# [[Data Type Conversions]]
+# [[Error Handling]] 
 Python uses `try-except` blocks to handle errors gracefully.  This prevents your program from crashing when unexpected situations occur.
 
 ```python
@@ -23,7 +23,7 @@ finally: # Always executes, regardless of exceptions
 
 ```
 
-[Exception Handling](./../exception-handling/) Specifics]]  (This will be a separate note detailing different exception types, best practices, and custom exceptions)
+[[Exception Handling Specifics]]  (This will be a separate note detailing different exception types, best practices, and custom exceptions)
 
 Common Exceptions:
 
@@ -52,10 +52,10 @@ finally:
 ```
 
 
-[Custom Exceptions](./../custom-exceptions/) (This note will explain how to define your own exception classes to manage specific error conditions in your code)
+[[Custom Exceptions]] (This note will explain how to define your own exception classes to manage specific error conditions in your code)
 
 
 Related Notes:
 
-* [File Handling](./../file-handling/) (This will discuss file I/O operations and related error handling)
+* [[File Handling]] (This will discuss file I/O operations and related error handling)
 

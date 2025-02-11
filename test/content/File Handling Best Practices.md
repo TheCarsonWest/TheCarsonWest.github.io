@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [File IO Modes](./../file-io-modes/)
-# [File Handling](./../file-handling/) Best Practices]] 
+# [File Handling Best Practices](./../file-handling-best-practices/) 
 These notes cover best practices for file handling in Python.
 
 **Key Areas:**
@@ -49,7 +49,7 @@ import os
 file_path = os.path.join("my_directory", "my_file.txt")
 ```
 
-* **Large Files:** For extremely large files, consider processing them in chunks to avoid loading the entire file into memory at once.  See [[Large [File Handling](./../file-handling/).
+* **Large Files:** For extremely large files, consider processing them in chunks to avoid loading the entire file into memory at once.  See [Large File Handling](./../large-file-handling/).
 
 * **Temporary Files:** Use the `tempfile` module to create temporary files safely and automatically delete them when finished. See [Temporary Files](./../temporary-files/).
 
@@ -60,7 +60,7 @@ file_path = os.path.join("my_directory", "my_file.txt")
 [File Modes](./../file-modes/)
 [Buffering](./../buffering/)
 [os.path Module](./../os.path-module/)
-[[Large [File Handling](./../file-handling/)
+[Large File Handling](./../large-file-handling/)
 [Temporary Files](./../temporary-files/)
 [File Security](./../file-security/)
 

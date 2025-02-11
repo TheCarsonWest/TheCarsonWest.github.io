@@ -53,6 +53,6 @@ result6 = True and (False or True) # True and (False or True) = True
 To ensure a specific order of operations, use parentheses `()`. Parentheses have the highest precedence.
 
 [Operator Associativity](./../operator-associativity/)
-[[Logical [Operators](./../operators/)
-[[Bitwise [Operators](./../operators/)
+[Logical Operators](./../logical-operators/)
+[Bitwise Operators](./../bitwise-operators/)
 

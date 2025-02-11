@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Ethnic Neighborhoods](./../ethnic-neighborhoods/) 
-**Definition:**  Areas within a city where people of the same [Ethnicity](./../ethnicity/) tend to cluster and maintain their cultural traditions.
+# [[Ethnic Neighborhoods]] 
+**Definition:**  Areas within a city where people of the same [[Ethnicity]] tend to cluster and maintain their cultural traditions.
 
 **Example:**  Chinatown, Little Italy.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

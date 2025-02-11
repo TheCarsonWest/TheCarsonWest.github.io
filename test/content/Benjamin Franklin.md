@@ -8,7 +8,7 @@
 
 * [Thomas Jefferson](./../thomas-jefferson/)
 * [John Adams](./../john-adams/)
-* [George [[Washington](./../george-[[washington/)
+* [George Washington](./../george-washington/)
 * Voltaire
 * David Hume
 
@@ -17,7 +17,7 @@
 * [Declaration of Independence](./../declaration-of-independence/)
 * [Articles of Confederation](./../articles-of-confederation/)
 * [Treaty of Paris 1776](./../treaty-of-paris-1776/) (1783)
-* [Constitution of the [[United States](./../constitution-of-the-[[united-states/)
+* [Constitution of the United States](./../constitution-of-the-united-states/)
 * Poor Richard's Almanac
 
 **Impact on American Society:**

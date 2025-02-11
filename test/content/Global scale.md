@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## [Glossary](./../glossary/)
+## [[Glossary]]
 
 **Global Scale**
 

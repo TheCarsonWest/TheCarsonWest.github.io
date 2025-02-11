@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# [Recursion](./../recursion/) in Python]] 
+# [Recursion in Python](./../recursion-in-python/) 
 [Recursion](./../recursion/) is a powerful technique where a function calls itself within its own definition.  It's crucial to have a base case to stop the [Recursion](./../recursion/), otherwise, it will lead to a `RecursionError` (stack overflow).
 
 **Key Components:**
@@ -39,12 +39,12 @@ print(factorial([5](./../5/)))  # Output: 120
 
 **Alternatives:**
 
-Often, iterative approaches (using loops) can provide a more efficient solution to problems that can be solved recursively.  [[Iteration vs [Recursion](./../recursion/)
+Often, iterative approaches (using loops) can provide a more efficient solution to problems that can be solved recursively.  [Iteration vs Recursion](./../iteration-vs-recursion/)
 
 
 **Further Exploration:**
 
-* [[Tail [Recursion](./../recursion/) (Optimization technique for specific types of [Recursion](./../recursion/))
-* [Recursion](./../recursion/) Examples]] (More complex examples of recursive functions)
+* [Tail Recursion](./../tail-recursion/) (Optimization technique for specific types of [Recursion](./../recursion/))
+* [Recursion Examples](./../recursion-examples/) (More complex examples of recursive functions)
 
 **Note:**  Always carefully consider the base case and potential for stack overflow when using [Recursion](./../recursion/).  For many problems, an iterative solution might be preferred for efficiency and to avoid potential errors.

@@ -20,4 +20,4 @@ A slave rebellion in [South Carolina](./../south-carolina/).  Enslaved Africans,
 * **Highlighted the brutality of slavery:**  The rebellion demonstrated the desperation of enslaved people and their willingness to risk their lives for freedom.
 * **Impact on relations with [Spain](./../spain/):** The Spanish promise of freedom fueled the rebellion and increased tensions between the British colonies and [Spain](./../spain/).
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

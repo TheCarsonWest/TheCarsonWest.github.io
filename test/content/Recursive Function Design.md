@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Memoization in [[Recursion](./../memoization-in-[[recursion/)
+# [Memoization in Recursion](./../memoization-in-recursion/)
 # [Recursive Function Design](./../recursive-function-design/) 
 Recursive functions call themselves within their own definition.  This allows for elegant solutions to problems that can be broken down into smaller, self-similar subproblems.
 
@@ -52,6 +52,6 @@ print(factorial([5](./../5/)))  # Output: 120
 
 **Further Exploration:**
 
-* Tail [Recursion](./../recursion/) ([[Tail [Recursion](./../recursion/) Optimization]]) - a special form of [Recursion](./../recursion/) that can be optimized by some compilers or interpreters.
+* Tail [Recursion](./../recursion/) ([Tail Recursion Optimization](./../tail-recursion-optimization/)) - a special form of [Recursion](./../recursion/) that can be optimized by some compilers or interpreters.
 * Memoization ([Memoization](./../memoization/)) - a technique to improve the performance of recursive functions by caching previously computed results.
 

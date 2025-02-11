@@ -6,7 +6,7 @@
 **[Nebraska](./../nebraska/): A Timeline of Key Events**
 
 **Pre-1867**
-* 1803: [Louisiana](./../louisiana/) Purchase]] includes [Nebraska](./../nebraska/)
+* 1803: [Louisiana Purchase](./../louisiana-purchase/) includes [Nebraska](./../nebraska/)
 * 1804: Lewis and Clark Expedition explores [Nebraska](./../nebraska/)
 * 1820: [Missouri](./../missouri/) Compromise designates [Nebraska](./../nebraska/) as a slave territory
 * 1854: [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act creates [Nebraska](./../nebraska/) Territory

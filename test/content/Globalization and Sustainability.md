@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
- [Cengage home](./../cengage-home/)
+ [[Cengage home]]
 ## Globalization: the process by which the nations of the world become more interconnected
 
 ## Major factors leading to globalization
@@ -13,8 +13,8 @@
 - Advances in transportation make moving things long distances pretty cheap
 	- Buy the cheapest cotton in Brazil
 	- Use an American factory to turn it into cloth
-	- send it off for Xiang Zhang(age [7](./../7/)) to make into a shirt at the Shein factory in China
-	- Sell it in [France](./../france/)
+	- send it off for Xiang Zhang(age [[7]]) to make into a shirt at the Shein factory in China
+	- Sell it in [[France]]
 - Paying fees for crossing borders and transporting it is cheaper than doing the whole thing in one country
 ### The Internet
 - I can talk to محمد بن ابدلازيز اشتري شورما مع بابسي in Saudi Arabia right now on social media
@@ -24,7 +24,7 @@
 	- Seeing Ukrainian iphone footage of their house getting exploded makes you care more about it than if you saw it from a news helicopter
 - **The media is democratic now**
 	- Tank Man should have never been recorded in its time, but if it happened today there would be 300 videos of it released by everyone around it
-	- The mainstream media [1](./../1/)) doesn't matter anymore [2](./../2/)) can't push their agenda without someone pointing out they are lying anymore.
+	- The mainstream media [[1]]) doesn't matter anymore [[2]]) can't push their agenda without someone pointing out they are lying anymore.
 ### Government Policies
 #### Globalization is only possible if governments make it profitable(which it is right now)
 - **NAFTA**

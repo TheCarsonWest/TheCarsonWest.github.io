@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-- # [Photoelectron Spectroscopy](./../photoelectron-spectroscopy/)
-- # [Titration](./../titration/)
+- # [[Photoelectron Spectroscopy]]
+- # [[Titration]]
 - 

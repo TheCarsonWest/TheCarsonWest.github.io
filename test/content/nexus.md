@@ -15,8 +15,8 @@ node_size: "100"
 
 # [APCHEM Home](./../apchem-home/)
 
-# [Python [[1](./../python-[[1/) Home]]
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [Python 1 Home](./../python-1-home/)
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 
 # [Calc home](./../calc-home/)
 

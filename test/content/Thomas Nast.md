@@ -21,4 +21,4 @@ A German-born American caricaturist and editorial cartoonist who is considered t
 * **Development of Political Cartooning:** His work advanced the art of political cartooning, establishing it as a powerful tool for social and political commentary.
 * **Influence on Reform Movements:**  Nast's work contributed to the growth of reform movements during the [Gilded Age](./../gilded-age/), inspiring calls for greater government accountability and transparency.
 
-# [IDS Unit [[5](./../ids-unit-[[5/)
+# [IDS Unit 5](./../ids-unit-5/)

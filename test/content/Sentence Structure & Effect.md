@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
-# [Sentence Structure & Effect](./../sentence-structure-&-effect/)
+# [[Rhetorical Analysis Techniques]]
+# [[Sentence Structure & Effect]]
 
 **I. Basic Sentence Structures:**
 
@@ -22,26 +22,26 @@
 
 **III. Sentence Length & Effect:**
 
-* **Short sentences:**  Effect:  Create a sense of urgency, simplicity, or impact.  ([Short Sentence Effects](./../short-sentence-effects/))
-* **Long sentences:** Effect: Can create a more complex or flowing rhythm, building suspense or conveying detailed information. [Long Sentence Effects](./../long-sentence-effects/)
+* **Short sentences:**  Effect:  Create a sense of urgency, simplicity, or impact.  ([[Short Sentence Effects]])
+* **Long sentences:** Effect: Can create a more complex or flowing rhythm, building suspense or conveying detailed information. [[Long Sentence Effects]]
 
 **IV. Sentence Structure & Tone:**
 
 * **Loose Sentence:** Main clause comes first, followed by modifiers. Effect: Casual, conversational tone.
 * **Periodic Sentence:** Main clause comes last, building suspense. Effect: Formal, emphatic tone.
-* **Balanced Sentence:** Two parallel structures of equal length and importance. Effect: Creates a sense of symmetry, elegance, or emphasis. [Sentence Balance and Parallelism](./../sentence-balance-and-parallelism/)
+* **Balanced Sentence:** Two parallel structures of equal length and importance. Effect: Creates a sense of symmetry, elegance, or emphasis. [[Sentence Balance and Parallelism]]
 
 
 **V. Figures of Speech & Sentence Structure:**
 
 * **Anaphora:** Repetition of a word or phrase at the beginning of successive clauses. Effect: Creates emphasis, rhythm, and memorability.  Example:  "I have a dream... I have a dream..."
 * **Epistrophe:** Repetition of a word or phrase at the end of successive clauses. Effect: Similar to anaphora, but with a different emphasis.
-* **Parallelism:** Use of similar grammatical structures in a series. Effect:  Creates balance, rhythm, and clarity. [Sentence Balance and Parallelism](./../sentence-balance-and-parallelism/)
+* **Parallelism:** Use of similar grammatical structures in a series. Effect:  Creates balance, rhythm, and clarity. [[Sentence Balance and Parallelism]]
 
 **VI.  Further Exploration:**
 
-* [Sentence Fragments and Their Use](./../sentence-fragments-and-their-use/)
-* [Run-on Sentences and How to Avoid Them](./../run-on-sentences-and-how-to-avoid-them/)
-* [Active vs. Passive Voice and Their Effects](./../active-vs.-passive-voice-and-their-effects/)
+* [[Sentence Fragments and Their Use]]
+* [[Run-on Sentences and How to Avoid Them]]
+* [[Active vs. Passive Voice and Their Effects]]
 
 

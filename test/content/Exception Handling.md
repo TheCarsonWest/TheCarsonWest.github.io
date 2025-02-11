@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
+# [Python 1 Home](./../python-1-home/)
 # [Exception Handling](./../exception-handling/)
 
 Python uses `try`, `except`, `else`, and `finally` blocks to handle exceptions.
@@ -26,7 +26,7 @@ finally:
 
 ```
 
-[Custom Exceptions](./../custom-exceptions/)  ([Exception Handling](./../exception-handling/) Examples]])
+[Custom Exceptions](./../custom-exceptions/)  ([Exception Handling Examples](./../exception-handling-examples/))
 
 
 **Common Exceptions:**

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 # [Counterarguments and Rebuttals](./../counterarguments-and-rebuttals/)
 
 **Goal:**  Develop effective strategies for addressing opposing viewpoints and strengthening arguments.

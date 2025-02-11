@@ -18,4 +18,4 @@ A short, but powerful speech delivered by President Lincoln at the dedication of
 * **Set a Foundation for Reconstruction:** The address laid the groundwork for the future of the [United States](./../united-states/), emphasizing the principles of equality and a united nation, which would later inform the policies of Reconstruction.
 * **Became a Cornerstone of American Rhetoric:** The [Gettysburg Address](./../gettysburg-address/) has become one of the most iconic and powerful speeches in American history, celebrated for its eloquence, brevity, and timeless message. It continues to be studied and cited for its profound impact on American identity and values. 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

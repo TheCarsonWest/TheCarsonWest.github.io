@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
-# [Logos & Logic](./../logos-&-logic/)
+# [[Rhetorical Analysis Techniques]]
+# [[Logos & Logic]]
 
 This note covers the principles of logos and logic in argumentation.
 
@@ -13,8 +13,8 @@ This note covers the principles of logos and logic in argumentation.
 Logos refers to the appeal to reason and logic in an argument.  It's about using evidence, facts, and logical reasoning to persuade the audience.  A strong logos-based argument is built on:
 
 * **Sound Premises:**  The starting points of your argument must be true or highly probable.  $ P \implies Q $ 
-* **Valid Reasoning:** The connection between premises and conclusion must be logically sound.  For example, using deductive reasoning, if the premises are true, the conclusion *must* be true. [Deductive Reasoning](./../deductive-reasoning/)
-* **Strong Evidence:** Supporting claims with credible evidence, such as statistics, research findings, expert opinions, and examples. [Types of Evidence](./../types-of-evidence/)
+* **Valid Reasoning:** The connection between premises and conclusion must be logically sound.  For example, using deductive reasoning, if the premises are true, the conclusion *must* be true. [[Deductive Reasoning]]
+* **Strong Evidence:** Supporting claims with credible evidence, such as statistics, research findings, expert opinions, and examples. [[Types of Evidence]]
 
 **II. Logic:**
 
@@ -27,26 +27,26 @@ Logic is the study of valid reasoning.  It provides frameworks and tools to anal
     *  $ \implies $  (implies) - conditional
     *  $ \iff $  (if and only if) - biconditional
     *  $ \neg $  (not) - negation
-* **Truth Tables:** Used to determine the truth value of compound propositions based on the truth values of their component propositions. [Truth Tables](./../truth-tables/)
-* **Arguments:** A set of propositions, where one (the conclusion) is claimed to follow from the others (the premises). [Argument Structure](./../argument-structure/)
-* **Fallacies:** Errors in reasoning that make an argument invalid or unsound. [Logical Fallacies](./../logical-fallacies/)
+* **Truth Tables:** Used to determine the truth value of compound propositions based on the truth values of their component propositions. [[Truth Tables]]
+* **Arguments:** A set of propositions, where one (the conclusion) is claimed to follow from the others (the premises). [[Argument Structure]]
+* **Fallacies:** Errors in reasoning that make an argument invalid or unsound. [[Logical Fallacies]]
 
 **III. Relationship between Logos and Logic:**
 
 Logos relies heavily on logic.  To construct a strong, persuasive argument based on logos, you must use sound logic.  A lack of logical rigor weakens the persuasive power of the argument, even if the premises are factually correct.  For example:
 
-Premise [1](./../1/): All men are mortal.
-Premise [2](./../2/): Socrates is a man.
+Premise [[1]]: All men are mortal.
+Premise [[2]]: Socrates is a man.
 Conclusion: Therefore, Socrates is mortal.
 
 This is a valid deductive argument, a strong example of logos.
 
 **IV.  Further Exploration:**
 
-* [Inductive Reasoning](./../inductive-reasoning/)
-* [Abductive Reasoning](./../abductive-reasoning/)
-* [Formal Logic](./../formal-logic/)
-* [Informal Logic](./../informal-logic/)
+* [[Inductive Reasoning]]
+* [[Abductive Reasoning]]
+* [[Formal Logic]]
+* [[Informal Logic]]
 
 
 **Example:**

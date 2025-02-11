@@ -4,11 +4,11 @@
 	author = 'Carson West'
 +++
 # [Operators](./../operators/)
-# [[Bitwise [Operators](./../operators/) 
+# [Bitwise Operators](./../bitwise-operators/) 
 Bitwise operators work directly on the individual bits of integers.  They are rarely used in typical Python programming but are essential for low-level programming, working with hardware, or specific optimization scenarios.
 
 
-**Types of [[Bitwise [Operators](./../operators/):**
+**Types of [Bitwise Operators](./../bitwise-operators/):**
 
 *   `&` (AND):  Returns [1](./../1/) if both bits are [1](./../1/), otherwise 0.
 *   `|` (OR): Returns [1](./../1/) if at least one bit is [1](./../1/), otherwise 0.

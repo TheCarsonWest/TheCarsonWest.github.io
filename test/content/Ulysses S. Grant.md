@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Ulysses S](./../ulysses-s/). Grant**
+**[[Ulysses S]]. Grant**
 
 **Events Associated With:**
 
@@ -22,13 +22,13 @@
 
 * Republican Party
 * Army of the Potomac
-* [United States](./../united-states/) Army
+* [[United States]] Army
 
 **Impact on the Country:**
 
 **Military Success:**
 
-* Orchestrated the Union victory in the [Civil War](./../civil-war/), earning the nickname "Unconditional Surrender" Grant.
+* Orchestrated the Union victory in the [[Civil War]], earning the nickname "Unconditional Surrender" Grant.
 * Recognized for his strategic brilliance and determination.
 
 **Reconstruction:**
@@ -40,12 +40,12 @@
 **Foreign Policy:**
 
 * Pursued a policy of non-intervention in Latin America.
-* Acquired [Alaska](./../alaska/) (1867).
+* Acquired [[Alaska]] (1867).
 
 **Legacy:**
 
 * Regarded as one of the greatest military commanders in American history.
 * His presidency is often seen as having both successes and failures.
-* Credited with winning the [Civil War](./../civil-war/) and preserving the Union.
+* Credited with winning the [[Civil War]] and preserving the Union.
 * Criticized for his harsh Reconstruction policies.
-# [APUSH people](./../apush-people/)
+# [[APUSH people]]

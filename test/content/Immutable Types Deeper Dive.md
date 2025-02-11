@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
-# [Immutable Types](./../immutable-types/): Deeper Dive
+# [[Mutable vs Immutable Types]]
+# [[Immutable Types]]: Deeper Dive
 
-This note expands on the concept of immutability in Python.  Key [Immutable Types](./../immutable-types/) include:
+This note expands on the concept of immutability in Python.  Key [[Immutable Types]] include:
 
 * `int` (integers)
 * `float` (floating-point numbers)**
 * `bool` (booleans)
 * `str` (strings)
-* `tuple` ([Tuples](./../tuples/))
-* `frozenset` ([Frozen Sets](./../frozen-sets/))
+* `tuple` ([[Tuples]])
+* `frozenset` ([[Frozen Sets]])
 
 
 **What does immutability mean?**
@@ -32,30 +32,30 @@ print(my_string)  # Output: hello world
 print(id(my_string)) # shows a new memory location, because we created a new string.
 ```
 
-**Example ([Tuples](./../tuples/)):**
+**Example ([[Tuples]]):**
 
 ```python
-my_tuple = ([1](./../1/), [2](./../2/), [3](./../3/))
-# my_tuple[0] = [4](./../4/)  # This will raise a TypeError: 'tuple' object does not support item assignment.
-new_tuple = my_tuple + ([4](./../4/),) # creates a new tuple with value [4](./../4/) concatenated.
-print(new_tuple) # Output: ([1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/))
+my_tuple = ([[1]], [[2]], [[3]])
+# my_tuple[0] = [[4]]  # This will raise a TypeError: 'tuple' object does not support item assignment.
+new_tuple = my_tuple + ([[4]],) # creates a new tuple with value [[4]] concatenated.
+print(new_tuple) # Output: ([[1]], [[2]], [[3]], [[4]])
 ```
 
 **Implications of Immutability:**
 
-* **Thread safety:** Immutable objects can be safely shared between multiple threads without the risk of data corruption. [Thread Safety](./../thread-safety/)
+* **Thread safety:** Immutable objects can be safely shared between multiple threads without the risk of data corruption. [[Thread Safety]]
 * **Data integrity:**  You can be confident that the value of an immutable object will not change unexpectedly.
-* **Hashing:**  Immutable objects can be used as keys in [Dictionaries](./../dictionaries/) because their hash value remains constant. [Hashing in Python](./../hashing-in-python/)
+* **Hashing:**  Immutable objects can be used as keys in [[Dictionaries]] because their hash value remains constant. [[Hashing in Python]]
 * **Performance:** While creating new objects might seem inefficient, Python's memory management often optimizes this.  However, frequent modifications to large immutable objects can impact performance.
 
 
 **Contrast with Mutable Types:**
 
-Mutable types, like [Lists](./../lists/) and [Dictionaries](./../dictionaries/), *can* be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [Mutable Types in Python](./../mutable-types-in-python/)
+Mutable types, like [[Lists]] and [[Dictionaries]], *can* be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [[Mutable Types in Python]]
 
 
 **Further Exploration:**
 
-* Deep vs. shallow copying with immutable and mutable objects. [Deep vs. Shallow Copy](./../deep-vs.-shallow-copy/)
-* Understanding how Python's garbage collector handles immutable objects. [Python Garbage Collection](./../python-garbage-collection/)
+* Deep vs. shallow copying with immutable and mutable objects. [[Deep vs. Shallow Copy]]
+* Understanding how Python's garbage collector handles immutable objects. [[Python Garbage Collection]]
 

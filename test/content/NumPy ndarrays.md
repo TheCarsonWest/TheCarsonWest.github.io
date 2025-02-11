@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Libraries like NumPy](./../libraries-like-numpy/)
-# [NumPy ndarrays](./../numpy-ndarrays/) 
+# [[Libraries like NumPy]]
+# [[NumPy ndarrays]] 
 NumPy's core data structure is the ndarray (N-dimensional array).  It's a powerful tool for numerical computation because it provides efficient storage and manipulation of large arrays of homogeneous data.
 
 Key features:
@@ -15,9 +15,9 @@ Key features:
 
 * **Vectorized operations:**  NumPy allows for performing operations on entire arrays at once, rather than iterating element by element. This significantly improves performance.
 
-* **Broadcasting:**  NumPy's broadcasting rules allow for operations between arrays of different shapes under certain conditions, simplifying code and improving efficiency. [Broadcasting in NumPy](./../broadcasting-in-numpy/)
+* **Broadcasting:**  NumPy's broadcasting rules allow for operations between arrays of different shapes under certain conditions, simplifying code and improving efficiency. [[Broadcasting in NumPy]]
 
-* **Slicing and indexing:**  Powerful slicing and indexing mechanisms enable accessing and manipulating portions of ndarrays efficiently. [NumPy Array Indexing and Slicing](./../numpy-array-indexing-and-slicing/)
+* **Slicing and indexing:**  Powerful slicing and indexing mechanisms enable accessing and manipulating portions of ndarrays efficiently. [[NumPy Array Indexing and Slicing]]
 
 * **Memory efficiency:** ndarrays store data in contiguous memory locations, improving performance and reducing memory overhead compared to Python lists.
 
@@ -27,16 +27,16 @@ Key features:
 import numpy as np
 
 # Creating a 2D array
-arr = np.array([1](./../1/), [2](./../2/), [3](./../3/)], [[4](./../[4/), [5](./../5/), [6](./../6/))
+arr = np.array([[1]], [[2]], [[3]]], [[[4]], [[5]], [[6]])
 
 # Accessing elements
-print(arr[0, [1](./../1/)])  # Output: [2](./../2/)
+print(arr[0, [[1]]])  # Output: [[2]]
 
 # Performing vectorized operations
-print(arr * [2](./../2/))  # Output: [[ [2](./../2/)  [4](./../4/)  [6](./../6/)], [ 8 10 12]]
+print(arr * [[2]])  # Output: [[ 2]]  [[4]]  [[6]]], [ 8 10 12]]
 
 # Array shape
-print(arr.shape)  # Output: ([2](./../2/), [3](./../3/))
+print(arr.shape)  # Output: ([[2]], [[3]])
 
 # Array data type
 print(arr.dtype)  # Output: int64 (or similar, depending on your system)
@@ -44,8 +44,8 @@ print(arr.dtype)  # Output: int64 (or similar, depending on your system)
 
 **Related Notes:**
 
-* [NumPy Array Creation](./../numpy-array-creation/)
-* [NumPy Array Manipulation](./../numpy-array-manipulation/)
-* [NumPy Linear Algebra](./../numpy-linear-algebra/)
+* [[NumPy Array Creation]]
+* [[NumPy Array Manipulation]]
+* [[NumPy Linear Algebra]]
 
 

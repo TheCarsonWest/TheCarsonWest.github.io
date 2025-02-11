@@ -29,4 +29,4 @@ y = x^[2](./../2/)
 y - [1](./../1/) = [2](./../2/)(x-[1](./../1/))
 ```
 
-# [Test for the Accuracy of [[Local Linearity](./../test-for-the-accuracy-of-[[local-linearity/)
+# [Test for the Accuracy of Local Linearity](./../test-for-the-accuracy-of-local-linearity/)

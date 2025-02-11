@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python [[1](./../python-[[1/) Home]]
-# [List Comprehension](./../list-comprehension/) 
+# [[Python 1 Home]]
+# [[List Comprehension]] 
 List comprehension provides a concise way to create lists in Python. It's a powerful tool for creating lists based on existing iterables.
 
 **Basic Syntax:**
@@ -21,38 +21,38 @@ new_list = [expression for item in iterable if condition]
 
 **Examples:**
 
-[1](./../1/).  Squaring numbers:
+[[1]].  Squaring numbers:
 
     ```python
-    numbers = [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/)]
-    squares = [x**[2](./../2/) for x in numbers]  # [[1](./../1/), [4](./../4/), 9, 16, 25]
+    numbers = [[[1]], [[2]], [[3]], [[4]], [[5]]]
+    squares = [x**[[2]] for x in numbers]  # [[[1]], [[4]], 9, 16, 25]
     ```
 
-[2](./../2/).  Filtering even numbers:
+[[2]].  Filtering even numbers:
 
     ```python
-    numbers = [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/), [6](./../6/)]
-    even_numbers = [x for x in numbers if x % [2](./../2/) == 0] # [[2](./../2/), [4](./../4/), [6](./../6/)]
+    numbers = [[[1]], [[2]], [[3]], [[4]], [[5]], [[6]]]
+    even_numbers = [x for x in numbers if x % [[2]] == 0] # [[[2]], [[4]], [[6]]]
     ```
 
-[3](./../3/).  String manipulation:
+[[3]].  String manipulation:
 
     ```python
     words = ["hello", "world", "python"]
     uppercase_words = [word.upper() for word in words] # ['HELLO', 'WORLD', 'PYTHON']
     ```
 
-[4](./../4/).  Nested loops (equivalent to nested for loops):
+[[4]].  Nested loops (equivalent to nested for loops):
 
     ```python
-    matrix = [1](./../1/), [2](./../2/)], [[3](./../3/), [4](./../4/)
-    flattened_matrix = [num for row in matrix for num in row] # [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/)]
+    matrix = [[1]], [[2]]], [[[3]], [[4]]
+    flattened_matrix = [num for row in matrix for num in row] # [[[1]], [[2]], [[3]], [[4]]]
     ```
 
 
-**[Nested Loops](./../nested-loops/)**
+**[[Nested Loops]]**
 
-**[For Loops](./../for-loops/)**
+**[[For Loops]]**
 
 
 List comprehension offers a more readable and efficient alternative to traditional `for` loops when creating lists.  It's important to understand its syntax and usage to write more concise and Pythonic code.

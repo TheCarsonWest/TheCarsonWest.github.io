@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[Harry S](./../harry-s/). Truman]] (1884-1972)**
+**[Harry S. Truman](./../harry-s.-truman/) (1884-1972)**
 
 **Early Life and Career:**
 * Born in Lamar, [Missouri](./../missouri/), on May 8, 1884

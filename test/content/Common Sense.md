@@ -20,4 +20,4 @@ A pamphlet written by Thomas Paine advocating for American independence from [Gr
 * **[Declaration of Independence](./../declaration-of-independence/):** Its influence is evident in the [Declaration of Independence](./../declaration-of-independence/), which followed later that same year.
 
 
-# [IDS Unit [[4](./../ids-unit-[[4/)
+# [IDS Unit 4](./../ids-unit-4/)

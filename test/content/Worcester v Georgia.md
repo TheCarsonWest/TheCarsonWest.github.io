@@ -21,4 +21,4 @@ The Supreme Court case in which the court ruled that [Georgia](./../georgia/) ha
 * **Contributed to the Trail of Tears:**  [Georgia](./../georgia/)'s defiance of the court's ruling contributed to the forced removal of the Cherokee Nation from their lands, a traumatic event known as the Trail of Tears.
 * **Highlighting federal-state conflict:** The case further revealed the tension between the federal government's authority over Native American affairs and the states' desire to control land and resources. 
 
-# [IDS Unit [[3](./../ids-unit-[[3/)
+# [IDS Unit 3](./../ids-unit-3/)

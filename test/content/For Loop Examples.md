@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [For Loops](./../for-loops/)
-# [For Loop Examples](./../for-loop-examples/) 
+# [[For Loops]]
+# [[For Loop Examples]] 
 This note covers examples of using `for` loops in Python.
 
 * **Basic Iteration:**
 
 ```python
-my_list = [[1](./../[1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/)]
+my_list = [[[1]], [[2]], [[3]], [[4]], [[5]]]
 for item in my_list:
     print(item)
 ```
@@ -26,7 +26,7 @@ for char in my_string:
 * **Iterating through dictionaries:**
 
 ```python
-my_dict = {"a": [1](./../1/), "b": [2](./../2/), "c": [3](./../3/)}
+my_dict = {"a": [[1]], "b": [[2]], "c": [[3]]}
 for key in my_dict:
     print(f"Key: {key}, Value: {my_dict[key]}")
 
@@ -39,10 +39,10 @@ for key, value in my_dict.items():
 * **Iterating with `range()`:**
 
 ```python
-for i in range([5](./../5/)):  #Prints 0 to [4](./../4/)
+for i in range([[5]]):  #Prints 0 to [[4]]
     print(i)
 
-for i in range([2](./../2/), 10, [2](./../2/)): #Starts at [2](./../2/), goes up to (but not including) 10, incrementing by [2](./../2/).
+for i in range([[2]], 10, [[2]]): #Starts at [[2]], goes up to (but not including) 10, incrementing by [[2]].
   print(i)
 ```
 
@@ -50,27 +50,27 @@ for i in range([2](./../2/), 10, [2](./../2/)): #Starts at [2](./../2/), goes up
 * **Nested Loops:**
 
 ```python
-for i in range([3](./../3/)):
-    for j in range([2](./../2/)):
+for i in range([[3]]):
+    for j in range([[2]]):
         print(f"i: {i}, j: {j}")
 ```
 
-* **[Loop Control Statements](./../loop-control-statements/):**
+* **[[Loop Control Statements]]:**
 
     * `break`: Terminates the loop prematurely.
     * `continue`: Skips the current iteration and proceeds to the next.
 
 ```python
-for i in range([5](./../5/)):
-    if i == [3](./../3/):
-        break  # Exit the loop when i is [3](./../3/)
+for i in range([[5]]):
+    if i == [[3]]:
+        break  # Exit the loop when i is [[3]]
     print(i)
 
-for i in range([5](./../5/)):
-    if i == [2](./../2/):
-        continue # Skip the iteration when i is [2](./../2/)
+for i in range([[5]]):
+    if i == [[2]]:
+        continue # Skip the iteration when i is [[2]]
     print(i)
 
 ```
 
-[List Comprehensions](./../list-comprehensions/)  ([Loop Control Statements](./../loop-control-statements/)) [Range Function](./../range-function/)
+[[List Comprehensions]]  ([[Loop Control Statements]]) [[Range Function]]

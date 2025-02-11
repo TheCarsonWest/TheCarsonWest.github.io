@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
+# [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
 # [Common Pitfalls with Mutability and Immutability](./../common-pitfalls-with-mutability-and-immutability/) 
 Mutable vs. Immutable types:  A core concept in Python. Understanding this is crucial to avoid unexpected behavior.
 

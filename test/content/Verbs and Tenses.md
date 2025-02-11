@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Grammar and Mechanics](./../grammar-and-mechanics/)
-# [Verbs and Tenses](./../verbs-and-tenses/)
+# [[Grammar and Mechanics]]
+# [[Verbs and Tenses]]
 
 This note covers verb conjugation and tense usage in English.
 
@@ -33,16 +33,16 @@ This note covers verb conjugation and tense usage in English.
     * Future Perfect Continuous: I  $ will $   $ have $   $ been $   $ walking $  to school for a week by next Friday.
 
 
-**Irregular Verbs:** [Irregular Verbs List](./../irregular-verbs-list/)  These verbs don't follow regular past tense and past participle patterns (e.g., *go*, *went*, *gone*).
+**Irregular Verbs:** [[Irregular Verbs List]]  These verbs don't follow regular past tense and past participle patterns (e.g., *go*, *went*, *gone*).
 
 
-**Aspect:**  This grammatical category expresses the way an action unfolds over time (e.g., completion, duration, repetition).  We see this expressed by the different forms of the perfect and continuous tenses.  [Aspects of Verbs](./../aspects-of-verbs/)
+**Aspect:**  This grammatical category expresses the way an action unfolds over time (e.g., completion, duration, repetition).  We see this expressed by the different forms of the perfect and continuous tenses.  [[Aspects of Verbs]]
 
 
-**Mood:**  This grammatical category expresses the speaker's attitude towards the action (e.g., indicative, imperative, subjunctive). [Verb Moods](./../verb-moods/)
+**Mood:**  This grammatical category expresses the speaker's attitude towards the action (e.g., indicative, imperative, subjunctive). [[Verb Moods]]
 
 
-**Voice:**  This grammatical category indicates whether the subject performs the action (active voice) or receives the action (passive voice).  [Active and Passive Voice](./../active-and-passive-voice/)
+**Voice:**  This grammatical category indicates whether the subject performs the action (active voice) or receives the action (passive voice).  [[Active and Passive Voice]]
 
 
 **Examples of Tense Usage:**
@@ -55,9 +55,9 @@ This note covers verb conjugation and tense usage in English.
 
 Further notes:
 
-* [Perfect Tense Usage Examples](./../perfect-tense-usage-examples/)
-* [Continuous Tense Usage Examples](./../continuous-tense-usage-examples/)
-* [Advanced Tense Usage: Conditionals](./../advanced-tense-usage:-conditionals/)
+* [[Perfect Tense Usage Examples]]
+* [[Continuous Tense Usage Examples]]
+* [[Advanced Tense Usage: Conditionals]]
 
 
 This is a starting point; more detail is needed for each tense and its uses.

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG Home](./../aphg-home/)
+# [[APHG Home]]
 
-- [Push and Pull Factors](./../push-and-pull-factors/)
-- [intervening obstacles](./../intervening-obstacles/)
-- [Ravensteins Laws of Migration](./../ravensteins-laws-of-migration/)
-- [Do We Need to Change the Asylum System](./../do-we-need-to-change-the-asylum-system/)
+- [[Push and Pull Factors]]
+- [[intervening obstacles]]
+- [[Ravensteins Laws of Migration]]
+- [[Do We Need to Change the Asylum System]]
 - 
