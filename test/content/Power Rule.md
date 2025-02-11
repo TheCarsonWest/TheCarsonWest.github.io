@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-## [[Power Rule]] 
-###  $$  \frac{d}{dx} [x^n] = nx^{n-[[1]]}  $$  
+## [Power Rule](./../power-rule/) 
+###  $$  \frac{d}{dx} [x^n] = nx^{n-[1](./../1/)}  $$  
 
 
-# [[Derivative Rules]]
+# [Derivative Rules](./../derivative-rules/)

@@ -5,4 +5,4 @@
 +++
 The Greatest country on earth.
 
-[[APUSH Home]]
+[APUSH Home](./../apush-home/)

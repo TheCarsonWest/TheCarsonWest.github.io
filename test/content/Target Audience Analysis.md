@@ -3,22 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Recommended Reading List]]
-# Target [[Audience Analysis]]
+# [Recommended Reading List](./../recommended-reading-list/)
+# Target [Audience Analysis](./../audience-analysis/)
 
 **Goal:** Define the ideal customer for a product or service.  This informs marketing, product development, and overall strategy.
 
 **Key Aspects:**
 
-* **Demographics:** Age, gender, location, income, education, occupation, family status, etc.   $ Age \in [18, 65] $  (example range).  [[Demographics Deep Dive]]
+* **Demographics:** Age, gender, location, income, education, occupation, family status, etc.   $ Age \in [18, 65] $  (example range).  [Demographics Deep Dive](./../demographics-deep-dive/)
 
-* **Psychographics:** Values, attitudes, interests, lifestyle, personality traits.  This is often more important than demographics. [[Psychographics Analysis]]
+* **Psychographics:** Values, attitudes, interests, lifestyle, personality traits.  This is often more important than demographics. [Psychographics Analysis](./../psychographics-analysis/)
 
-* **Behavioral:** Purchasing habits, brand loyalty, media consumption, online behavior (e.g., social media usage).  Analysis of website traffic and engagement metrics is crucial here. [[Behavioral Data Analysis]]
+* **Behavioral:** Purchasing habits, brand loyalty, media consumption, online behavior (e.g., social media usage).  Analysis of website traffic and engagement metrics is crucial here. [Behavioral Data Analysis](./../behavioral-data-analysis/)
 
-* **Needs & Pain Points:** What problems does the target audience face? What are their unmet needs?  Understanding these is critical for effective product positioning and marketing messaging. [[Needs & Pain Point Identification]]
+* **Needs & Pain Points:** What problems does the target audience face? What are their unmet needs?  Understanding these is critical for effective product positioning and marketing messaging. [Needs & Pain Point Identification](./../needs-&-pain-point-identification/)
 
-* **Segmentation:** Dividing the target audience into smaller, more manageable groups based on shared characteristics.  This allows for more targeted marketing efforts. [[Market Segmentation Strategies]]
+* **Segmentation:** Dividing the target audience into smaller, more manageable groups based on shared characteristics.  This allows for more targeted marketing efforts. [Market Segmentation Strategies](./../market-segmentation-strategies/)
 
 
 **Data Sources:**
@@ -38,14 +38,14 @@
 
 **Output:**
 
-* **Buyer Personas:** Detailed profiles representing ideal customer segments.  These should be actionable and inform marketing and product decisions.  [[Buyer Persona Development]]
+* **Buyer Personas:** Detailed profiles representing ideal customer segments.  These should be actionable and inform marketing and product decisions.  [Buyer Persona Development](./../buyer-persona-development/)
 * **Market Sizing:** Estimating the total size and potential of the target market.
 * **Marketing Strategy:** Developing targeted marketing campaigns based on the characteristics of the target audience.
 
 **Related Notes:**
 
-* [[Competitive Analysis]]  Understanding the competition's target audience can inform your own strategy.
-* [[Marketing Plan]] The target audience analysis directly feeds into the marketing plan.
+* [Competitive Analysis](./../competitive-analysis/)  Understanding the competition's target audience can inform your own strategy.
+* [Marketing Plan](./../marketing-plan/) The target audience analysis directly feeds into the marketing plan.
 
 
 **Example Equation (Market Share):**

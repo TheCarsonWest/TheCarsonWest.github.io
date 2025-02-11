@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Argumentative Essay Structure]]
-# [[Transition Words and Phrases]]
+# [Argumentative Essay Structure](./../argumentative-essay-structure/)
+# [Transition Words and Phrases](./../transition-words-and-phrases/)
 
-These notes cover various transition words and phrases, categorized by their function.  Remember to [[Review Punctuation with Transitions]] for proper sentence structure.
+These notes cover various transition words and phrases, categorized by their function.  Remember to [Review Punctuation with Transitions](./../review-punctuation-with-transitions/) for proper sentence structure.
 
 **I. Showing Addition:**
 
@@ -69,7 +69,7 @@ A complex sentence could then be represented as a combination of these sets.  Fo
 Where  $ S_i $  represents the set of transition types used in a sentence, and  $ |\bigcup_{i} S_i| $  represents the cardinality (number of elements) of the union of all transition type sets.  This equation suggests that sentence complexity increases with the number of different transition types used.
 
 
-[[Sentence Structure and Transition Words]]
-[[Advanced Transition Usage]]
-[[Punctuation with Transitions]]
+[Sentence Structure and Transition Words](./../sentence-structure-and-transition-words/)
+[Advanced Transition Usage](./../advanced-transition-usage/)
+[Punctuation with Transitions](./../punctuation-with-transitions/)
 

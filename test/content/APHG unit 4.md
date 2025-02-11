@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APHG Home]]
+# [APHG Home](./../aphg-home/)
 
-# [[Autonomous Regions]]
+# [Autonomous Regions](./../autonomous-regions/)
 # 

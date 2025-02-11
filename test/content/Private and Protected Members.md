@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Classes and Objects]]
-# [[Private and Protected Members]] 
+# [Classes and Objects](./../classes-and-objects/)
+# [Private and Protected Members](./../private-and-protected-members/) 
 Python doesn't have true private members in the same way as some other languages (like Java or C++).  Instead, it uses a naming convention to indicate that an attribute or method should be treated as private or protected.
 
 **Name Mangling:**  Python uses name mangling to achieve a form of privacy.  If you prefix an attribute or method name with double underscores (`__`),  it undergoes name mangling. This makes it harder (but not impossible) to access it from outside the class.
@@ -48,6 +48,6 @@ print(my_instance._protected_var) # Access directly; no error
 * Use `_` (single underscore) to signal that an attribute/method is intended for internal use within the class and its subclasses.  Remember that it's not truly protected, only a convention.
 * Avoid directly accessing mangled names (`_ClassName__attributeName`).
 
-[[Getter and Setter Methods]]
-[[Encapsulation in Python]]
+[Getter and Setter Methods](./../getter-and-setter-methods/)
+[Encapsulation in Python](./../encapsulation-in-python/)
 

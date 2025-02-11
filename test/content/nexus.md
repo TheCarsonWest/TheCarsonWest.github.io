@@ -8,17 +8,17 @@ node_size: "100"
 ---
 
 
-# See [[README]]
+# See [README](./../readme/)
 
-# [[APHG Home]]
-# [[APUSH Home]]
+# [APHG Home](./../aphg-home/)
+# [APUSH Home](./../apush-home/)
 
-# [[APCHEM Home]]
+# [APCHEM Home](./../apchem-home/)
 
-# [[Python 1 Home]]
-# [[AP English Language and Composition]]
+# [Python 1 Home](./../python-1-home/)
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 
-# [[Calc home]]
+# [Calc home](./../calc-home/)
 
-[[arabic vocab lists]]
+[arabic vocab lists](./../arabic-vocab-lists/)
 

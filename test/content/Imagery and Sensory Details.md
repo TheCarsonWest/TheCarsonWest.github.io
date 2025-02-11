@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP English Language and Composition]]
-# [[Imagery and Sensory Details]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [Imagery and Sensory Details](./../imagery-and-sensory-details/)
 
 This note covers the use of imagery and sensory details in writing.  The goal is to create vivid and engaging descriptions that appeal to the reader's senses.
 
@@ -24,7 +24,7 @@ This note covers the use of imagery and sensory details in writing.  The goal is
 * **Tactile Imagery:** Appeals to the sense of touch. *Example:* "The rough bark of the tree scraped against my skin."
 
 
-**Effective Use of [[Imagery and Sensory Details]]:**
+**Effective Use of [Imagery and Sensory Details](./../imagery-and-sensory-details/):**
 
 * **Show, Don't Tell:** Instead of stating a feeling directly, use imagery and sensory details to *show* the reader what it's like.  For example, instead of saying "I was scared," you might write, "My heart hammered against my ribs like a trapped bird, and my hands were slick with sweat."
 
@@ -43,16 +43,16 @@ This note covers the use of imagery and sensory details in writing.  The goal is
 
 **Further Notes:**
 
-* [[Figurative Language]]
-* [[Mood and Atmosphere]]
-* [[Character Development]]
+* [Figurative Language](./../figurative-language/)
+* [Mood and Atmosphere](./../mood-and-atmosphere/)
+* [Character Development](./../character-development/)
 
 
 **Equations (Illustrative, not directly related to the core topic):**
 
-The area of a circle is given by:   $ A = \pi r^[[2]] $ 
+The area of a circle is given by:   $ A = \pi r^[2](./../2/) $ 
 
-The Pythagorean theorem states:   $$ a^[[2]] + b^[[2]] = c^[[2]] $$  
+The Pythagorean theorem states:   $$ a^[2](./../2/) + b^[2](./../2/) = c^[2](./../2/) $$  
 Where:
 
 *  $ A $  = Area

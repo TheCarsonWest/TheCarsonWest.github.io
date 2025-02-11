@@ -3,36 +3,36 @@
 [params]
 	author = 'Carson West'
 +++
-# [[nexus]]
-# [[Calc Rules and theorems]]
-# Unit [[1]]
-### [[Calculus Limits]]
-### [[Indeterminate Forms]]
-# Unit [[2]]/[[3]] - [[derivative]] stuff
+# [nexus](./../nexus/)
+# [Calc Rules and theorems](./../calc-rules-and-theorems/)
+# Unit [1](./../1/)
+### [Calculus Limits](./../calculus-limits/)
+### [Indeterminate Forms](./../indeterminate-forms/)
+# Unit [2](./../2/)/[3](./../3/) - [derivative](./../derivative/) stuff
 
-### [[Implicit Differentiation]]
+### [Implicit Differentiation](./../implicit-differentiation/)
 
-### [[Inverse Differentiation]]
+### [Inverse Differentiation](./../inverse-differentiation/)
 
-### [[Higher Order Derivatives]]
+### [Higher Order Derivatives](./../higher-order-derivatives/)
 
-# Unit [[4]] - Applications of derivatives
-### [[Contextual Applications of Derivatives]]
+# Unit [4](./../4/) - Applications of derivatives
+### [Contextual Applications of Derivatives](./../contextual-applications-of-derivatives/)
 
-### [[Straight Line motion]]
-### [[Local Linearity]]
-# Unit [[5]] - Statistical applications of derivatives
-### [[Mean Value Theorem]]
-### [[Extreme Value Theorem]]
-### [[Critical Point]]
+### [Straight Line motion](./../straight-line-motion/)
+### [Local Linearity](./../local-linearity/)
+# Unit [5](./../5/) - Statistical applications of derivatives
+### [Mean Value Theorem](./../mean-value-theorem/)
+### [Extreme Value Theorem](./../extreme-value-theorem/)
+### [Critical Point](./../critical-point/)
 
-### [[Analyzing Functions with the first derivative]]
-### [[Analyzing Functions with the second derivative]]
-### [[Inflection Points]]
-# Unit [[5]] - Integration and Accumulation of Change
+### [Analyzing Functions with the first derivative](./../analyzing-functions-with-the-first-derivative/)
+### [Analyzing Functions with the second derivative](./../analyzing-functions-with-the-second-derivative/)
+### [Inflection Points](./../inflection-points/)
+# Unit [5](./../5/) - Integration and Accumulation of Change
 
-### [[Riemann Sums]]
-### [[Trapezoidal Rule]]
-### [[Antiderivatives]]
-### [[Constant of Integration]]
-## [[integrals]]
+### [Riemann Sums](./../riemann-sums/)
+### [Trapezoidal Rule](./../trapezoidal-rule/)
+### [Antiderivatives](./../antiderivatives/)
+### [Constant of Integration](./../constant-of-integration/)
+## [integrals](./../integrals/)

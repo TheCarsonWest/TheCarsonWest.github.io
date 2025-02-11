@@ -44,8 +44,8 @@
 </div>
 
 <main>
-<h1 id="libraries-like-numpy">[[Libraries like NumPy]]</h1>
-<h1 id="performance-optimization-in-python">[[Performance Optimization in Python]]</h1>
+<h1 id="libraries-like-numpylibraries-like-numpy"><a href="./../libraries-like-numpy/">Libraries like NumPy</a></h1>
+<h1 id="performance-optimization-in-pythonperformance-optimization-in-python"><a href="./../performance-optimization-in-python/">Performance Optimization in Python</a></h1>
 <p><strong>Goal:</strong>  Understand and apply techniques to improve Python code performance.</p>
 <p><strong>Key Areas:</strong></p>
 <ul>
@@ -55,37 +55,37 @@
 </span></span><span style="display:flex;"><span>cProfile<span style="color:#f92672">.</span>run(<span style="color:#e6db74">&#39;my_slow_function()&#39;</span>) 
 </span></span></code></pre></div><ul>
 <li>
-<p><strong>Algorithmic Optimization:</strong> Often the biggest performance gains come from choosing better algorithms.  [[Algorithm Complexity Analysis]]</p>
+<p><strong>Algorithmic Optimization:</strong> Often the biggest performance gains come from choosing better algorithms.  <a href="./../algorithm-complexity-analysis/">Algorithm Complexity Analysis</a></p>
 </li>
 <li>
-<p><strong>Data Structures:</strong>  Using the right data structure can drastically impact speed.  [[Dictionaries]] (<code>dict</code>) for fast lookups, sets for membership testing, etc.  [[Python Data Structures: Performance Tradeoffs]]</p>
+<p><strong>Data Structures:</strong>  Using the right data structure can drastically impact speed.  <a href="./../dictionaries/">Dictionaries</a> (<code>dict</code>) for fast lookups, sets for membership testing, etc.  <a href="./../python-data-structures:-performance-tradeoffs/">Python Data Structures: Performance Tradeoffs</a></p>
 </li>
 <li>
-<p><strong>[[List Comprehensions]] and Generator Expressions:</strong>  Often faster than explicit loops.</p>
+<p><strong><a href="./../list-comprehensions/">List Comprehensions</a> and Generator Expressions:</strong>  Often faster than explicit loops.</p>
 </li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># List comprehension</span>
-</span></span><span style="display:flex;"><span>squares <span style="color:#f92672">=</span> [x<span style="color:#f92672">**</span>[[<span style="color:#ae81ff">2</span>]] <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>)]
+</span></span><span style="display:flex;"><span>squares <span style="color:#f92672">=</span> [x<span style="color:#f92672">**</span>[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>) <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>)]
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Generator expression (memory efficient for large datasets)</span>
-</span></span><span style="display:flex;"><span>squares_gen <span style="color:#f92672">=</span> (x<span style="color:#f92672">**</span>[[<span style="color:#ae81ff">2</span>]] <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>)) 
+</span></span><span style="display:flex;"><span>squares_gen <span style="color:#f92672">=</span> (x<span style="color:#f92672">**</span>[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>) <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000</span>)) 
 </span></span></code></pre></div><ul>
-<li><strong>Numpy:</strong> For numerical computation, Numpy arrays are significantly faster than Python lists due to vectorization and optimized C implementation. [[NumPy for Performance]]</li>
+<li><strong>Numpy:</strong> For numerical computation, Numpy arrays are significantly faster than Python lists due to vectorization and optimized C implementation. <a href="./../numpy-for-performance/">NumPy for Performance</a></li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Numpy array operations are much faster than equivalent Python list operations.</span>
 </span></span></code></pre></div><ul>
 <li>
-<p><strong>Cython/JIT Compilers (e.g., Numba):</strong> For computationally intensive parts of your code, consider using Cython to write C extensions or Numba for just-in-time compilation to machine code. [[Cython and Numba]]</p>
+<p><strong>Cython/JIT Compilers (e.g., Numba):</strong> For computationally intensive parts of your code, consider using Cython to write C extensions or Numba for just-in-time compilation to machine code. <a href="./../cython-and-numba/">Cython and Numba</a></p>
 </li>
 <li>
-<p><strong>Multiprocessing/Multithreading:</strong> For CPU-bound tasks, leverage multiple cores using the <code>multiprocessing</code> module.  Be mindful of the Global Interpreter Lock (GIL) limitations for multithreading. [[Concurrency in Python]]</p>
+<p><strong>Multiprocessing/Multithreading:</strong> For CPU-bound tasks, leverage multiple cores using the <code>multiprocessing</code> module.  Be mindful of the Global Interpreter Lock (GIL) limitations for multithreading. <a href="./../concurrency-in-python/">Concurrency in Python</a></p>
 </li>
 <li>
-<p><strong>Memory Management:</strong> Avoid unnecessary object creation and copying. Use techniques like <code>del</code> to explicitly delete large objects when no longer needed.  Understand memory profiling tools. [[Memory Profiling in Python]]</p>
+<p><strong>Memory Management:</strong> Avoid unnecessary object creation and copying. Use techniques like <code>del</code> to explicitly delete large objects when no longer needed.  Understand memory profiling tools. <a href="./../memory-profiling-in-python/">Memory Profiling in Python</a></p>
 </li>
 <li>
-<p><strong>Code Style and Readability:</strong> While not directly performance-related, clean, well-structured code is easier to optimize and debug. [[Pythonic Code Style]]</p>
+<p><strong>Code Style and Readability:</strong> While not directly performance-related, clean, well-structured code is easier to optimize and debug. <a href="./../pythonic-code-style/">Pythonic Code Style</a></p>
 </li>
 </ul>
 <p><strong>Example: Inefficient vs. Efficient Code</strong></p>

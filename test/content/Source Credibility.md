@@ -3,35 +3,35 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Evidence Evaluation & Citation]]
-# [[Source Credibility]]
+# [Evidence Evaluation & Citation](./../evidence-evaluation-&-citation/)
+# [Source Credibility](./../source-credibility/)
 
 **Definition:** The extent to which a source of information is considered trustworthy and believable.  This is crucial for evaluating the validity and reliability of information used in research, decision-making, and everyday life.
 
-**Factors Affecting [[Source Credibility]]:**
+**Factors Affecting [Source Credibility](./../source-credibility/):**
 
 * **Expertise:**  Does the source possess the necessary knowledge and skills to speak authoritatively on the topic?   $ Expertise \propto Knowledge + Skills $ 
-* **Trustworthiness:** Is the source unbiased, objective, and free from conflicts of interest? [[Bias Detection]]
+* **Trustworthiness:** Is the source unbiased, objective, and free from conflicts of interest? [Bias Detection](./../bias-detection/)
 * **Reputation:** What is the source's track record?  Have they been accurate and reliable in the past?  This can be assessed through reputation analysis and reviews.
-* **Objectivity:** Does the source present information fairly and without personal opinions or agendas? [[Objectivity vs. Subjectivity]]
+* **Objectivity:** Does the source present information fairly and without personal opinions or agendas? [Objectivity vs. Subjectivity](./../objectivity-vs.-subjectivity/)
 * **Timeliness:** Is the information up-to-date and relevant?  Outdated information may be inaccurate or misleading.
 * **Consistency:** Does the information align with other credible sources?  Conflicting information warrants further investigation.
-* **Evidence:** Does the source provide supporting evidence for its claims?  This could include data, statistics, citations, etc. [[Evidence Evaluation]]
-* **Source Type:**  The type of source (e.g., peer-reviewed journal article, news website, blog post) influences its inherent credibility. [[Source Types]]
+* **Evidence:** Does the source provide supporting evidence for its claims?  This could include data, statistics, citations, etc. [Evidence Evaluation](./../evidence-evaluation/)
+* **Source Type:**  The type of source (e.g., peer-reviewed journal article, news website, blog post) influences its inherent credibility. [Source Types](./../source-types/)
 
 
-**Assessing [[Source Credibility]]:**
+**Assessing [Source Credibility](./../source-credibility/):**
 
 A structured approach is needed:
 
-[[1]]. **Identify the source:** Who is providing the information? What are their credentials?
-[[2]]. **Examine the source's purpose:** What is the goal of the source?  Are they trying to persuade, inform, or entertain?
-[[3]]. **Evaluate the evidence:**  What evidence is presented to support the claims? Is the evidence sufficient and credible?
-[[4]]. **Check for bias:** Does the source show any bias or partiality? [[Bias Detection]]
-[[5]]. **Compare to other sources:** Does the information align with what other credible sources say?
-[[6]]. **Consider the context:**  What is the overall context of the information?  Does it fit within a broader narrative?
+[1](./../1/). **Identify the source:** Who is providing the information? What are their credentials?
+[2](./../2/). **Examine the source's purpose:** What is the goal of the source?  Are they trying to persuade, inform, or entertain?
+[3](./../3/). **Evaluate the evidence:**  What evidence is presented to support the claims? Is the evidence sufficient and credible?
+[4](./../4/). **Check for bias:** Does the source show any bias or partiality? [Bias Detection](./../bias-detection/)
+[5](./../5/). **Compare to other sources:** Does the information align with what other credible sources say?
+[6](./../6/). **Consider the context:**  What is the overall context of the information?  Does it fit within a broader narrative?
 
-**Consequences of Low [[Source Credibility]]:**
+**Consequences of Low [Source Credibility](./../source-credibility/):**
 
 * Misinformation and disinformation
 * Poor decision-making
@@ -48,8 +48,8 @@ where  $ w_i $  are weights representing the relative importance of each factor.
 
 **Further Notes:**
 
-* [[Information Literacy]]
-* [[Evaluating Online Sources]]
-* [[Fake News Detection]]
+* [Information Literacy](./../information-literacy/)
+* [Evaluating Online Sources](./../evaluating-online-sources/)
+* [Fake News Detection](./../fake-news-detection/)
 
 

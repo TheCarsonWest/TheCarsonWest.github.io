@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-[[APHG Unit 2]]
+[APHG Unit 2](./../aphg-unit-2/)
 
-# [[Population Composition]]: What a population is made of 
+# [Population Composition](./../population-composition/): What a population is made of 
 
 ## Things populations are made of
-### [[Ethnicity]] - You get Chinatowns and little italies everywhere
+### [Ethnicity](./../ethnicity/) - You get Chinatowns and little italies everywhere
 - You get your black neighborhoods and your white neighborhoods
 - Basically people just like to cluster with people who are similar to them
 ### Scales and distribution
-[[Population Distribution]] 
+[Population Distribution](./../population-distribution/) 
 
 ### Age Structure
-[[Population Pyramids]]
+[Population Pyramids](./../population-pyramids/)
 - If you have a lot of kids you won't have the taxes to support them
 ![](https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdqJc9ZjzeRV74M8Cm7n1tLzBNRpM5H0z5ETCwlzAupi_wl2GJ6BsYbl94plvOSn9NaaH-1rVzIUZO6kNSFjXJTB9tVSct1A3Re1fl1XQI8NqVUux_vRPOGWQ5DLizLkzDhDsL-KRbsO_mMbhfpAGE0WKH3JA=s2048?key=B659LZ_lNi3daDyxDVX5ew)
 - This map has many direct correlations to the child conscription

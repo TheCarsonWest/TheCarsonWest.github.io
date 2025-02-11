@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Grammar and Mechanics]]
-# [[Quotation Marks]]
+# [Grammar and Mechanics](./../grammar-and-mechanics/)
+# [Quotation Marks](./../quotation-marks/)
 
 **Purpose:** To indicate direct speech, titles of works, or special emphasis.
 
@@ -12,7 +12,7 @@
 
 * **Double quotes ("..."):**  Most common in American English.  Used for direct quotations.   $ Example: "The quick brown fox jumps over the lazy dog."  $ 
 * **Single quotes ('...'):** Commonly used in British English, and often for quotations *within* quotations.  $ Example:  He said, 'She replied, "I understand."' $ .  In American English, often used to denote titles of articles or chapters within a larger work.
-    * [[Nested Quotations]]
+    * [Nested Quotations](./../nested-quotations/)
 * **Guillemets («...»):** Used in many European languages.  Often used for direct quotations.  They are visually distinct from double quotes.   $ Example: «Le renard brun saute par-dessus le chien paresseux.» $ 
 
 **Rules:**
@@ -25,13 +25,13 @@
 
 **Special Cases:**
 
-* **Quotations within quotations:** Use alternating single and double quotes. See [[Nested Quotations]].
-* **Titles:**  Use quotation marks for shorter works (articles, poems, songs), and italics for longer works (books, movies, albums). [[Title Formatting]]
-* **Irony or sarcasm:** Quotation marks can sometimes be used to signal irony, but this usage should be employed sparingly to avoid ambiguity. [[Irony and Sarcasm in Writing]]
+* **Quotations within quotations:** Use alternating single and double quotes. See [Nested Quotations](./../nested-quotations/).
+* **Titles:**  Use quotation marks for shorter works (articles, poems, songs), and italics for longer works (books, movies, albums). [Title Formatting](./../title-formatting/)
+* **Irony or sarcasm:** Quotation marks can sometimes be used to signal irony, but this usage should be employed sparingly to avoid ambiguity. [Irony and Sarcasm in Writing](./../irony-and-sarcasm-in-writing/)
 
 **Related Notes:**
 
-* [[Punctuation Rules]]
-* [[Style Guides]] (e.g., Chicago, MLA, APA)
+* [Punctuation Rules](./../punctuation-rules/)
+* [Style Guides](./../style-guides/) (e.g., Chicago, MLA, APA)
 
 

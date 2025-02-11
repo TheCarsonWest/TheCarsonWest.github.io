@@ -6,7 +6,7 @@
 
 A **combustion reaction** is a chemical process where  a hydrocarbon) reacts rapidly with oxygen (**O₂**) to produce energy in the form of heat and light. The most common products of complete combustion are carbon dioxide (**CO₂**) and water (**H₂O**). 
 
-#### General Form of a [[Combustion Reaction]] 
+#### General Form of a [Combustion Reaction](./../combustion-reaction/) 
 The general form of a combustion reaction for a hydrocarbon can be represented as:
 
  $$  C_xH_y + O_2 \rightarrow CO_2 + H_2O
@@ -19,9 +19,9 @@ This equation must be balanced to account for the conservation of mass, meaning 
  $$  #### Balancing Combustion Reactions
 
 When balancing combustion reactions:
-[[1]]. **Start with carbon (C)**: Balance the number of carbon atoms by adjusting the number of **CO₂** molecules.
-[[2]]. **Next, balance hydrogen (H)**: Balance the hydrogen atoms by adjusting the number of **H₂O** molecules.
-[[3]]. **Finally, balance oxygen (O)**: Adjust the number of **O₂** molecules to account for the total number of oxygen atoms on the right-hand side of the equation.
+[1](./../1/). **Start with carbon (C)**: Balance the number of carbon atoms by adjusting the number of **CO₂** molecules.
+[2](./../2/). **Next, balance hydrogen (H)**: Balance the hydrogen atoms by adjusting the number of **H₂O** molecules.
+[3](./../3/). **Finally, balance oxygen (O)**: Adjust the number of **O₂** molecules to account for the total number of oxygen atoms on the right-hand side of the equation.
 
 #### Example: Combustion of Propane
 

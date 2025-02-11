@@ -3,18 +3,18 @@
 [params]
 	author = 'Carson West'
 +++
-**[[George W]]. Bush**
+**[George W](./../george-w/). Bush**
 
 **Background:**
 
-* Born July [[6]], 1946, in New Haven, [[Connecticut]]
-* Son of former President [[George H]]. W. Bush
-* Graduated from Yale University and [[Harvard]] Business School
+* Born July [6](./../6/), 1946, in New Haven, [Connecticut](./../connecticut/)
+* Son of former President [George H](./../george-h/). W. Bush
+* Graduated from Yale University and [Harvard](./../harvard/) Business School
 
 **Political Career:**
 
-* Elected Governor of [[Texas]] in 1994 and reelected in 1998
-* Elected [[POTUS]] in 2000 after a close and controversial election
+* Elected Governor of [Texas](./../texas/) in 1994 and reelected in 1998
+* Elected [POTUS](./../potus/) in 2000 after a close and controversial election
 * Reelected in 2004
 
 **Major Events:**
@@ -41,11 +41,11 @@
 * Republican Party
 * Council on Foreign Relations
 * Yale University
-* [[Harvard]] Business School
+* [Harvard](./../harvard/) Business School
 
 **Impact:**
 
 * His presidency was largely defined by the transformative events of 9/11 and the subsequent wars in Afghanistan and Iraq.
 * His policies on education, taxation, and health care had significant impacts on American society.
 * His legacy remains controversial, with his supporters praising his leadership during times of crisis and his critics criticizing his foreign policy decisions and domestic policies.
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

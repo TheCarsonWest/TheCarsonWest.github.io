@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-**[[Andrew Jackson]]**
+**[Andrew Jackson](./../andrew-jackson/)**
 
 **Events Associated With:**
 
-* [[War of 1812]] (Battle of New Orleans)
+* [War of 1812](./../war-of-1812/) (Battle of New Orleans)
 * Seminole Wars
-* [[Indian Removal Act]]
+* [Indian Removal Act](./../indian-removal-act/)
 * Bank War
-* [[Nullification]] Crisis
-* [[Texas]] Revolution
+* [Nullification](./../nullification/) Crisis
+* [Texas](./../texas/) Revolution
 
 **Important Legislation Signed:**
 
@@ -22,8 +22,8 @@
 
 **Groups Associated With:**
 
-* [[Democratic-Republican]] Party
-* National [[Republicans]]
+* [Democratic-Republican](./../democratic-republican/) Party
+* National [Republicans](./../republicans/)
 * Nullifier Party
 
 **Impact on the Country:**
@@ -36,27 +36,27 @@
 
 **Indian Removal:**
 
-* Signed the Indian Removal Act, which forced Native American tribes to relocate west of the [[Mississippi]] River.
+* Signed the Indian Removal Act, which forced Native American tribes to relocate west of the [Mississippi](./../mississippi/) River.
 * Oversaw the forced removal of thousands of Native Americans, leading to the Trail of Tears.
 
 **Economic Policies:**
 
-* Vetoed the renewal of the Second Bank of the [[United States]], triggering the Bank War.
+* Vetoed the renewal of the Second Bank of the [United States](./../united-states/), triggering the Bank War.
 * Signed the Deposit and Distribution Act, which decentralized federal deposits, weakening the national bank.
 * Supported states' rights in economic matters, including tariffs.
 
-**[[Nullification]] Crisis:**
+**[Nullification](./../nullification/) Crisis:**
 
-* Faced opposition from [[South Carolina]], which threatened to nullify federal laws it deemed unconstitutional.
+* Faced opposition from [South Carolina](./../south-carolina/), which threatened to nullify federal laws it deemed unconstitutional.
 * Signed the Force Bill, authorizing the use of federal force to enforce law.
 
 **Foreign Policy:**
 
 * Pursued an assertive foreign policy, intervening in Latin America and expanding U.S. territory.
-* Supported the annexation of [[Texas]].
+* Supported the annexation of [Texas](./../texas/).
 
 **Legacy:**
 
-* Remembered as a populist leader who expanded executive power and played a controversial role in the expansion of the [[United States]] and the displacement of Native American tribes.
+* Remembered as a populist leader who expanded executive power and played a controversial role in the expansion of the [United States](./../united-states/) and the displacement of Native American tribes.
 * His policies shaped the development of political parties, the balance between federal and state governments, and the nation's westward expansion.
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
+# [Calc home](./../calc-home/)
 
-## [[Derivative Rules]]
-## [[LHopitals Rule]]
-## [[Squeeze Theorem]]
-## [[Intermediate Value Theorem]]
-## [[Mean Value Theorem]]
-## [[Extreme Value Theorem]]
-## [[Rolles Theorem]]
-## [[Fundamental Theorem of Calculus]]
+## [Derivative Rules](./../derivative-rules/)
+## [LHopitals Rule](./../lhopitals-rule/)
+## [Squeeze Theorem](./../squeeze-theorem/)
+## [Intermediate Value Theorem](./../intermediate-value-theorem/)
+## [Mean Value Theorem](./../mean-value-theorem/)
+## [Extreme Value Theorem](./../extreme-value-theorem/)
+## [Rolles Theorem](./../rolles-theorem/)
+## [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/)
