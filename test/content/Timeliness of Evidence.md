@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Evidence Evaluation & Citation]]
-# [[Timeliness of Evidence]]
+# [Evidence Evaluation & Citation](./../evidence-evaluation-&-citation/)
+# [Timeliness of Evidence](./../timeliness-of-evidence/)
 
 The timeliness of evidence is crucial for its reliability and relevance in any investigation or decision-making process.  Stale or outdated evidence can lead to inaccurate conclusions and ineffective actions.  The acceptable timeframe for "timely" evidence varies drastically depending on the context.
 
-[[Data Decay]] -  How quickly does information become unreliable?  Factors include data storage methods, data types, and environmental conditions.
+[Data Decay](./../data-decay/) -  How quickly does information become unreliable?  Factors include data storage methods, data types, and environmental conditions.
 
-[[Context-Specific Timeframes]] -  What constitutes timely evidence in different fields?  Examples:
+[Context-Specific Timeframes](./../context-specific-timeframes/) -  What constitutes timely evidence in different fields?  Examples:
 * **Medical diagnosis:**  Real-time data (e.g., vital signs) vs. historical medical records.
 * **Legal proceedings:**  Evidence admissibility rules based on timelines and chain of custody.
 * **Financial analysis:**  The relevance of quarterly reports vs. annual reports.
@@ -35,8 +35,8 @@ Defining a precise measure of timeliness is often difficult and context-dependen
 This formula suggests that timeliness is directly proportional to relevance and inversely proportional to age. However, the exact relationship is complex and needs careful consideration of the specific context.
 
 
-[[Relevance and Timeliness]] -  How does the relevance of evidence change over time?  This involves analyzing the decay of information and the impact of new information.
+[Relevance and Timeliness](./../relevance-and-timeliness/) -  How does the relevance of evidence change over time?  This involves analyzing the decay of information and the impact of new information.
 
-[[Methods for Assessing Timeliness]] - How can we objectively measure timeliness in different applications?  This would involve exploring various metrics and techniques, potentially incorporating statistical methods.
+[Methods for Assessing Timeliness](./../methods-for-assessing-timeliness/) - How can we objectively measure timeliness in different applications?  This would involve exploring various metrics and techniques, potentially incorporating statistical methods.
 
-[[Case Studies: Timeliness in Different Fields]] -  Detailed examples of how timeliness affects evidence in various domains (e.g., a medical malpractice case, a financial fraud investigation, a scientific study).
+[Case Studies: Timeliness in Different Fields](./../case-studies:-timeliness-in-different-fields/) -  Detailed examples of how timeliness affects evidence in various domains (e.g., a medical malpractice case, a financial fraud investigation, a scientific study).

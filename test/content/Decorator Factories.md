@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Decorators]]
-# [[Decorator Factories]] 
+# [Decorators](./../decorators/)
+# [Decorator Factories](./../decorator-factories/) 
 Decorator factories are functions that return decorators.  They allow for creating decorators with parameters.  This is useful when you need a decorator that can be configured at runtime.
 
 
@@ -18,7 +18,7 @@ def repeat(num_times):
         return wrapper
     return decorator_repeat
 
-@repeat(num_times=[[3]])
+@repeat(num_times=[3](./../3/))
 def say_hello(name):
     print(f"Hello, {name}!")
 
@@ -38,7 +38,7 @@ This example shows `repeat` as a decorator factory. It takes `num_times` as a pa
 
 **Related Notes:**
 
-*   [[Decorators]]
-*   [[Higher-Order Functions]]
-*   [[Closures]] (because the inner functions in a decorator factory use closures)
+*   [Decorators](./../decorators/)
+*   [Higher-Order Functions](./../higher-order-functions/)
+*   [Closures](./../closures/) (because the inner functions in a decorator factory use closures)
 

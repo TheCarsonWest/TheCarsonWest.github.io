@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[[Gerald Ford]] (1974-1977)**
+**[Gerald Ford](./../gerald-ford/) (1974-1977)**
 
 # The only unelected president ever
 * Watergate scandal and Nixon's resignation
@@ -19,7 +19,7 @@
 **Groups Affiliated With:**
 
 * Republican Party
-* **The warren commission(The people who 'investigated' the [[John F. Kennedy]] asssaination)**
+* **The warren commission(The people who 'investigated' the [John F. Kennedy](./../john-f.-kennedy/) asssaination)**
 * House of Representatives (1949-1973)
 * House Minority Leader (1965-1973)
 
@@ -47,7 +47,7 @@
 
 **Legacy:**
 
-* [[Gerald Ford]] is often remembered as a pragmatic and non-charismatic leader who inherited a difficult period in American history.
+* [Gerald Ford](./../gerald-ford/) is often remembered as a pragmatic and non-charismatic leader who inherited a difficult period in American history.
 * His presidency was marked by the challenges of Watergate, the Vietnam War, and economic recession.
 * He played a key role in ending the Vietnam War, signing important legislation, and pursuing détente with the Soviet Union.
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

@@ -3,32 +3,32 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Argumentative Essay Structure]]
-# [[Argumentative Essay Examples]]
+# [Argumentative Essay Structure](./../argumentative-essay-structure/)
+# [Argumentative Essay Examples](./../argumentative-essay-examples/)
 
 **Goal:**  Compile examples and analyze their structure, strengths, and weaknesses.  This will inform my own essay writing.
 
 **Types of Arguments to Explore:**
 
-* **Classical Argument:**  Thesis statement, background, lines of argumentation (with evidence and refutation of counterarguments), conclusion.  [[Classical Argument Structure]]
-* **Rogerian Argument:** Finding common ground, acknowledging opposing viewpoints, then presenting your own perspective as a reasonable compromise. [[Rogerian Argument Examples]]
-* **Toulmin Argument:**  Claim, data, warrant, backing, qualifier, rebuttal.  [[Toulmin Model Deep Dive]]
+* **Classical Argument:**  Thesis statement, background, lines of argumentation (with evidence and refutation of counterarguments), conclusion.  [Classical Argument Structure](./../classical-argument-structure/)
+* **Rogerian Argument:** Finding common ground, acknowledging opposing viewpoints, then presenting your own perspective as a reasonable compromise. [Rogerian Argument Examples](./../rogerian-argument-examples/)
+* **Toulmin Argument:**  Claim, data, warrant, backing, qualifier, rebuttal.  [Toulmin Model Deep Dive](./../toulmin-model-deep-dive/)
 
 **Examples to Analyze:**
 
-* **Example [[1]]:  The ethics of artificial intelligence.**  Focus on specific ethical dilemmas (job displacement, algorithmic bias) and their societal impact.  Need to find strong sources on this. [[AI Ethics Sources]]
-* **Example [[2]]: The effectiveness of different learning styles.**  Compare and contrast visual, auditory, and kinesthetic learning; analyze research studies supporting/refuting their relative effectiveness.  [[Learning Styles Research]]
-* **Example [[3]]:  The impact of social media on mental health.** This requires a nuanced approach, acknowledging both positive and negative aspects.  Correlations vs. Causation must be carefully addressed. [[Social Media & Mental Health - Data]]
+* **Example [1](./../1/):  The ethics of artificial intelligence.**  Focus on specific ethical dilemmas (job displacement, algorithmic bias) and their societal impact.  Need to find strong sources on this. [AI Ethics Sources](./../ai-ethics-sources/)
+* **Example [2](./../2/): The effectiveness of different learning styles.**  Compare and contrast visual, auditory, and kinesthetic learning; analyze research studies supporting/refuting their relative effectiveness.  [Learning Styles Research](./../learning-styles-research/)
+* **Example [3](./../3/):  The impact of social media on mental health.** This requires a nuanced approach, acknowledging both positive and negative aspects.  Correlations vs. Causation must be carefully addressed. [Social Media & Mental Health - Data](./../social-media-&-mental-health---data/)
 
 
 **Elements to Analyze in Each Example:**
 
 * **Thesis Statement:** Is it clear, concise, and arguable?  Is it directly supported by the essay's content?
-* **Evidence:**  Is the evidence relevant, credible, and sufficient to support the claims? What types of evidence are used (statistical data, expert opinions, anecdotal evidence)?  [[Evidence Evaluation Checklist]]
+* **Evidence:**  Is the evidence relevant, credible, and sufficient to support the claims? What types of evidence are used (statistical data, expert opinions, anecdotal evidence)?  [Evidence Evaluation Checklist](./../evidence-evaluation-checklist/)
 * **Counterarguments:** Are opposing viewpoints acknowledged and addressed effectively? Is the refutation logical and persuasive?
 * **Structure and Organization:** Is the essay logically organized?  Are transitions smooth and clear?
-* **Style and Tone:** Is the writing style clear, concise, and engaging? Is the tone appropriate for the audience and purpose?  [[Essay Style Guide]]
-* **Logical Fallacies:** Are there any logical fallacies present (e.g., straw man, ad hominem, appeal to emotion)? [[Logical Fallacies Reference]]
+* **Style and Tone:** Is the writing style clear, concise, and engaging? Is the tone appropriate for the audience and purpose?  [Essay Style Guide](./../essay-style-guide/)
+* **Logical Fallacies:** Are there any logical fallacies present (e.g., straw man, ad hominem, appeal to emotion)? [Logical Fallacies Reference](./../logical-fallacies-reference/)
 
 
 **Equations (Illustrative –  May be irrelevant to examples but useful generally):**
@@ -42,7 +42,7 @@ This represents the definite integral of a function  $ f(x) $  from  $ a $  to  
 
 **Future Tasks:**
 
-* Find and read at least [[3]] strong argumentative essays from reputable sources.
+* Find and read at least [3](./../3/) strong argumentative essays from reputable sources.
 * Create detailed analyses of each essay using the elements listed above.
 * Write my own argumentative essay based on this analysis.
 

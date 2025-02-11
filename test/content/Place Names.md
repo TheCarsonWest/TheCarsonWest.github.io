@@ -15,11 +15,11 @@
 
 ## Named after a person
 
-- **[[Washington]], D.C.:** The capital of the [[United States]], named after George [[Washington]]
-- **Jefferson City, [[Missouri]]:** The capital of [[Missouri]], named after [[Thomas Jefferson]]
-- **Lincoln, [[Nebraska]]:** The capital of [[Nebraska]], named after [[Abraham Lincoln]]
+- **[Washington](./../washington/), D.C.:** The capital of the [United States](./../united-states/), named after George [Washington](./../washington/)
+- **Jefferson City, [Missouri](./../missouri/):** The capital of [Missouri](./../missouri/), named after [Thomas Jefferson](./../thomas-jefferson/)
+- **Lincoln, [Nebraska](./../nebraska/):** The capital of [Nebraska](./../nebraska/), named after [Abraham Lincoln](./../abraham-lincoln/)
 - **Victoria, British Columbia:** The capital of British Columbia, named after Queen Victoria
-- **Elizabethtown, [[Kentucky]]:** A city named after Elizabeth Hardwick
+- **Elizabethtown, [Kentucky](./../kentucky/):** A city named after Elizabeth Hardwick
 
 ## Name has cultural meaning
 

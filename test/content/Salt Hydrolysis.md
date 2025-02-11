@@ -3,24 +3,24 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Acids and Bases]]
-# [[Salt Hydrolysis]]
+# [Acids and Bases](./../acids-and-bases/)
+# [Salt Hydrolysis](./../salt-hydrolysis/)
 
 Salt hydrolysis is the reaction of a salt with water to produce an acidic or basic solution.  The pH of the resulting solution depends on the nature of the cation and anion of the salt.
 
-**Types of [[Salt Hydrolysis]]:**
+**Types of [Salt Hydrolysis](./../salt-hydrolysis/):**
 
 1. **Salt of a strong acid and a strong base:**  These salts do not undergo hydrolysis. The resulting solution is neutral ( $ pH = 7 $ ).  Example: NaCl (sodium chloride)
 
 2. **Salt of a strong acid and a weak base:** The anion does not react with water, but the cation will react with water to produce hydronium ions ( $ H_3O^+ $ ), resulting in an acidic solution ( $ pH < 7 $ ).
 
    Example:  $ NH_4Cl $  (ammonium chloride)
-   ##  $$ NH_4^+ + H_2O \rightleftharpoons NH_3 + H_3O^+ $$     [[Weak Acid/Base Equilibria]]  (This will cover  $ K_a $ ,  $ K_b $ , and ICE tables)
+   ##  $$ NH_4^+ + H_2O \rightleftharpoons NH_3 + H_3O^+ $$     [Weak Acid/Base Equilibria](./../weak-acid/base-equilibria/)  (This will cover  $ K_a $ ,  $ K_b $ , and ICE tables)
 
 3. **Salt of a weak acid and a strong base:** The cation does not react with water, but the anion will react with water to produce hydroxide ions ( $ OH^- $ ), resulting in a basic solution ( $ pH > 7 $ ).
 
    Example:  $ NaCH_3COO $  (sodium acetate)
-   ##  $$ CH_3COO^- + H_2O \rightleftharpoons CH_3COOH + OH^- $$     [[Weak Acid/Base Equilibria]]
+   ##  $$ CH_3COO^- + H_2O \rightleftharpoons CH_3COOH + OH^- $$     [Weak Acid/Base Equilibria](./../weak-acid/base-equilibria/)
 
 4. **Salt of a weak acid and a weak base:** Both the cation and anion will react with water. The pH of the resulting solution depends on the relative strengths of the conjugate acid and conjugate base.  This requires a more detailed analysis and often requires considering the  $ K_a $  and  $ K_b $  values.
 
@@ -32,7 +32,7 @@ Salt hydrolysis is the reaction of a salt with water to produce an acidic or bas
 
 Calculating the pH of solutions resulting from salt hydrolysis often involves using ICE tables and equilibrium expressions ( $ K_a $ ,  $ K_b $ ,  $ K_w $ ).  The specific method depends on the type of salt.
 
-[[ICE Tables and Equilibrium]] Calculations]]]]
+[ICE Tables and Equilibrium](./../ice-tables-and-equilibrium/) Calculations]]]]
 
 **Relationship to  $ K_a $  and  $ K_b $ **:
 
@@ -44,6 +44,6 @@ The extent of hydrolysis is related to the strength of the weak acid or weak bas
 Similarly,  $ K_h $  for a salt of a weak base and strong acid is related to  $ K_b $  and  $ K_w $  by:
  $ K_h = \frac{K_w}{K_b} $ 
 
-[[Acid-Base Constants and Equilibrium]]
+[Acid-Base Constants and Equilibrium](./../acid-base-constants-and-equilibrium/)
 
 

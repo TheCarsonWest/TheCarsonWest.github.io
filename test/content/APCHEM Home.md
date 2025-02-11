@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [[nexus]]
-# [[Thermodynamics]]
-# [[chemical reactions]]
-# [[AP CHEM solutions]]
-# [[APCHEM Gasses]]
-# [[Chemical Bonds]]
-# [[Chemistry Constants]]
-# [[Periodic Trends]]
-# [[Chemistry Laws]]
-# [[Reactions Types]]
-# [[Other important AP CHEM things]]
-# [[AP CHEM solutions]]
+# [nexus](./../nexus/)
+# [Thermodynamics](./../thermodynamics/)
+# [chemical reactions](./../chemical-reactions/)
+# [AP CHEM solutions](./../ap-chem-solutions/)
+# [APCHEM Gasses](./../apchem-gasses/)
+# [Chemical Bonds](./../chemical-bonds/)
+# [Chemistry Constants](./../chemistry-constants/)
+# [Periodic Trends](./../periodic-trends/)
+# [Chemistry Laws](./../chemistry-laws/)
+# [Reactions Types](./../reactions-types/)
+# [Other important AP CHEM things](./../other-important-ap-chem-things/)
+# [AP CHEM solutions](./../ap-chem-solutions/)

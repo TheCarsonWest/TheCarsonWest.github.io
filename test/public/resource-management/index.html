@@ -44,13 +44,13 @@
 </div>
 
 <main>
-<h1 id="custom-context-managers">[[Custom Context Managers]]</h1>
-<h1 id="resource-management-in-python">[[Resource Management]] in Python</h1>
+<h1 id="custom-context-managerscustom-context-managers"><a href="./../custom-context-managers/">Custom Context Managers</a></h1>
+<h1 id="resource-managementresource-management-in-python"><a href="./../resource-management/">Resource Management</a> in Python</h1>
 <p>This note covers resource management in Python, focusing on efficient and safe handling of system resources.</p>
 <p>Key aspects include:</p>
 <ul>
 <li>
-<p><strong>[[File Handling]]:</strong></p>
+<p><strong><a href="./../file-handling/">File Handling</a>:</strong></p>
 <ul>
 <li>Always close files explicitly using <code>with</code> statements or <code>file.close()</code>.  This ensures resources are released promptly, preventing resource leaks.</li>
 </ul>
@@ -59,13 +59,13 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Process contents</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># File automatically closed here</span>
 </span></span></code></pre></div><ul>
-<li>[[File Handling Best Practices]]  (This will be a separate note).</li>
+<li><a href="./../file-handling-best-practices/">File Handling Best Practices</a>  (This will be a separate note).</li>
 </ul>
 </li>
 <li>
 <p><strong>Network Connections:</strong></p>
 <ul>
-<li>Similar to files, network sockets should be closed after use.  Use <code>with</code> statements or explicit <code>socket.close()</code> calls.  [[Context Managers]] ensure cleanup even if exceptions occur.</li>
+<li>Similar to files, network sockets should be closed after use.  Use <code>with</code> statements or explicit <code>socket.close()</code> calls.  <a href="./../context-managers/">Context Managers</a> ensure cleanup even if exceptions occur.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> socket
 </span></span><span style="display:flex;"><span>
@@ -74,15 +74,15 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ... network operations ...</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Socket automatically closed</span>
 </span></span></code></pre></div><ul>
-<li>[[Network Programming in Python]] (This will be a separate note).</li>
+<li><a href="./../network-programming-in-python/">Network Programming in Python</a> (This will be a separate note).</li>
 </ul>
 </li>
 <li>
 <p><strong>Memory Management:</strong></p>
 <ul>
 <li>Python&rsquo;s garbage collector automatically reclaims memory, but understanding how it works is important for avoiding memory leaks.  Be mindful of large data structures and circular references.</li>
-<li>Techniques to aid the garbage collector include deleting large objects explicitly using <code>del</code> when done with them.  Using [[Generators]] to yield data instead of creating large [[Lists]] can also greatly reduce memory use.</li>
-<li>[[Python Garbage Collection]] (This will be a separate note).</li>
+<li>Techniques to aid the garbage collector include deleting large objects explicitly using <code>del</code> when done with them.  Using <a href="./../generators/">Generators</a> to yield data instead of creating large <a href="./../lists/">Lists</a> can also greatly reduce memory use.</li>
+<li><a href="./../python-garbage-collection/">Python Garbage Collection</a> (This will be a separate note).</li>
 </ul>
 </li>
 <li>
@@ -98,27 +98,27 @@
 </span></span><span style="display:flex;"><span>cursor<span style="color:#f92672">.</span>close()
 </span></span><span style="display:flex;"><span>conn<span style="color:#f92672">.</span>close()
 </span></span></code></pre></div><ul>
-<li>[[Database Interaction in Python]] (This will be a separate note)</li>
+<li><a href="./../database-interaction-in-python/">Database Interaction in Python</a> (This will be a separate note)</li>
 </ul>
 </li>
 <li>
-<p><strong>[[Context Managers]] (<code>with</code> statement):</strong></p>
+<p><strong><a href="./../context-managers/">Context Managers</a> (<code>with</code> statement):</strong></p>
 <ul>
-<li>The <code>with</code> statement is crucial for resource management.  It ensures that resources (files, network connections, database connections, etc.) are properly released, even if errors occur.  It&rsquo;s the recommended way to handle resources that require explicit cleanup.  Learn about creating [[Custom Context Managers]] using the <code>contextlib</code> module.</li>
-<li>[[Context Managers in Python]] (This will be a separate note)</li>
+<li>The <code>with</code> statement is crucial for resource management.  It ensures that resources (files, network connections, database connections, etc.) are properly released, even if errors occur.  It&rsquo;s the recommended way to handle resources that require explicit cleanup.  Learn about creating <a href="./../custom-context-managers/">Custom Context Managers</a> using the <code>contextlib</code> module.</li>
+<li><a href="./../context-managers-in-python/">Context Managers in Python</a> (This will be a separate note)</li>
 </ul>
 </li>
 <li>
 <p><strong>Process and Thread Management:</strong></p>
 <ul>
 <li>Properly manage processes and threads to avoid deadlocks and resource contention. Use libraries like <code>multiprocessing</code> and <code>threading</code> carefully, ensuring proper synchronization and cleanup.</li>
-<li>[[Concurrency and Parallelism in Python]] (This will be a separate note)</li>
+<li><a href="./../concurrency-and-parallelism-in-python/">Concurrency and Parallelism in Python</a> (This will be a separate note)</li>
 </ul>
 </li>
 <li>
-<p><strong>[[Exception Handling]]:</strong></p>
+<p><strong><a href="./../exception-handling/">Exception Handling</a>:</strong></p>
 <ul>
-<li>Robust [[Error Handling]] is essential to release resources safely in case of exceptions. Use <code>try...except...finally</code> blocks to ensure resources are cleaned up even if exceptions occur.  The <code>finally</code> block guarantees execution of cleanup code.</li>
+<li>Robust <a href="./../error-handling/">Error Handling</a> is essential to release resources safely in case of exceptions. Use <code>try...except...finally</code> blocks to ensure resources are cleaned up even if exceptions occur.  The <code>finally</code> block guarantees execution of cleanup code.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># Code that might raise exceptions</span>
@@ -130,7 +130,7 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> <span style="color:#e6db74">&#39;file&#39;</span> <span style="color:#f92672">in</span> locals() <span style="color:#f92672">and</span> file:
 </span></span><span style="display:flex;"><span>        file<span style="color:#f92672">.</span>close()
 </span></span></code></pre></div><ul>
-<li>[[Python Exception Handling]] (This will be a separate note)</li>
+<li><a href="./../python-exception-handling/">Python Exception Handling</a> (This will be a separate note)</li>
 </ul>
 </li>
 </ul>

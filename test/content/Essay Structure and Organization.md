@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP English Language and Composition]]
-# [[Essay Structure and Organization]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [Essay Structure and Organization](./../essay-structure-and-organization/)
 
 **I. Introduction**
 
@@ -16,7 +16,7 @@
 
 *   Each paragraph should focus on a single supporting point related to your thesis.
 *   **Topic Sentence:** Begin each paragraph with a clear topic sentence that states the main idea of that paragraph.
-*   **Evidence:** Support your claims with evidence such as examples, statistics, quotes from credible sources, and logical reasoning. [[Evidence Gathering and Citation]]
+*   **Evidence:** Support your claims with evidence such as examples, statistics, quotes from credible sources, and logical reasoning. [Evidence Gathering and Citation](./../evidence-gathering-and-citation/)
 *   **Analysis:** Analyze and interpret the evidence.  Don't just present the evidence; explain how it supports your argument.
 *   **Transitions:** Use transitions to smoothly connect ideas between sentences and paragraphs.  Examples include: *however, furthermore, in addition, consequently, therefore*.
 
@@ -29,10 +29,10 @@
 
 **IV. Essay Types and Structures**
 
-*   **[[Argumentative Essay]]:** Presents a clear argument and supports it with evidence. [[Argumentative Essay Structure]]
-*   **Expository Essay:** Explains or informs the reader about a topic. [[Expository Essay Structure]]
-*   **Narrative Essay:** Tells a story. [[Narrative Essay Structure]]
-*   **Compare and Contrast Essay:** Examines the similarities and differences between two or more things. [[Compare and Contrast Essay Structure]]
+*   **[Argumentative Essay](./../argumentative-essay/):** Presents a clear argument and supports it with evidence. [Argumentative Essay Structure](./../argumentative-essay-structure/)
+*   **Expository Essay:** Explains or informs the reader about a topic. [Expository Essay Structure](./../expository-essay-structure/)
+*   **Narrative Essay:** Tells a story. [Narrative Essay Structure](./../narrative-essay-structure/)
+*   **Compare and Contrast Essay:** Examines the similarities and differences between two or more things. [Compare and Contrast Essay Structure](./../compare-and-contrast-essay-structure/)
 
 
 **V.  Organization Techniques**
@@ -46,10 +46,10 @@
 **VI.  Style and Tone**
 
 *   Maintain a consistent and appropriate tone throughout your essay.
-*   Use clear and concise language.  Avoid jargon or overly complex sentence structures. [[Style Guide]]
+*   Use clear and concise language.  Avoid jargon or overly complex sentence structures. [Style Guide](./../style-guide/)
 *   Proofread carefully for grammar, spelling, and punctuation errors.
 
 
 **VII.  Outlining**
 
-Before writing, create a detailed outline to organize your thoughts and ensure a logical flow.  This will help to avoid rambling and ensure your essay stays focused on your thesis. [[Essay Outlining Techniques]]
+Before writing, create a detailed outline to organize your thoughts and ensure a logical flow.  This will help to avoid rambling and ensure your essay stays focused on your thesis. [Essay Outlining Techniques](./../essay-outlining-techniques/)

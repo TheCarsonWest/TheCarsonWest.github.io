@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[[APHG Home]]
+[APHG Home](./../aphg-home/)
 ## Africa
 there are cell phones in africa no way
 heres some cities that are in africa

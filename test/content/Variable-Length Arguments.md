@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Function Overloading]]
-# [[Variable-Length Arguments]] in Python
+# [Function Overloading](./../function-overloading/)
+# [Variable-Length Arguments](./../variable-length-arguments/) in Python
 
-Python offers flexibility in [[Function Definitions]] by allowing variable-length arguments. This means you can define functions that accept a varying number of arguments, without needing to specify the exact number beforehand.  There are two main ways to achieve this:
+Python offers flexibility in [Function Definitions](./../function-definitions/) by allowing variable-length arguments. This means you can define functions that accept a varying number of arguments, without needing to specify the exact number beforehand.  There are two main ways to achieve this:
 
 * **`*args` (Arbitrary Positional Arguments):**
 
@@ -19,7 +19,7 @@ def my_sum(*args):
     total += num
   return total
 
-print(my_sum([[1]], [[2]], [[3]]))  # Output: [[6]]
+print(my_sum([1](./../1/), [2](./../2/), [3](./../3/)))  # Output: [6](./../6/)
 print(my_sum(10, 20, 30, 40)) # Output: 100
 print(my_sum()) # Output: 0
 ```
@@ -33,7 +33,7 @@ def print_details(**kwargs):
   for key, value in kwargs.items():
     print(f"{key}: {value}")
 
-print_details(name="Alice", age=30, city="[[New York]]")
+print_details(name="Alice", age=30, city="[New York](./../new-york/)")
 ```
 
 Output:
@@ -41,7 +41,7 @@ Output:
 ```
 name: Alice
 age: 30
-city: [[New York]] ```
+city: [New York](./../new-york/) ```
 
 * **Combining `*args` and `**kwargs`:**
 
@@ -52,18 +52,18 @@ def combined_example(*args, **kwargs):
     print("Positional arguments:", args)
     print("Keyword arguments:", kwargs)
 
-combined_example([[1]], [[2]], [[3]], name="Bob", age=25)
+combined_example([1](./../1/), [2](./../2/), [3](./../3/), name="Bob", age=25)
 ```
 
 Output:
 
 ```
-Positional arguments: ([[1]], [[2]], [[3]])
+Positional arguments: ([1](./../1/), [2](./../2/), [3](./../3/))
 Keyword arguments: {'name': 'Bob', 'age': 25}
 ```
 
 
-[[Tuple Unpacking]]
-[[Dictionary Manipulation]]
+[Tuple Unpacking](./../tuple-unpacking/)
+[Dictionary Manipulation](./../dictionary-manipulation/)
 
 These are essential for understanding how to fully utilize `*args` and `**kwargs`.

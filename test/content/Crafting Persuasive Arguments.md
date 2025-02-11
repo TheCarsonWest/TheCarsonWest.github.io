@@ -3,32 +3,32 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Rhetorical Devices in Argumentation]]
-# [[Crafting Persuasive Arguments]]
+# [Rhetorical Devices in Argumentation](./../rhetorical-devices-in-argumentation/)
+# [Crafting Persuasive Arguments](./../crafting-persuasive-arguments/)
 
 **I. Core Principles:**
 
-* **Understanding your audience:**  [[Audience Analysis]]  -  Crucial for tailoring your argument effectively. Consider demographics, pre-existing beliefs, and potential biases.  What motivates them? What are their concerns?
+* **Understanding your audience:**  [Audience Analysis](./../audience-analysis/)  -  Crucial for tailoring your argument effectively. Consider demographics, pre-existing beliefs, and potential biases.  What motivates them? What are their concerns?
 
 * **Developing a strong thesis statement:** This is the central claim you're arguing. It should be clear, concise, and arguable.  Example:  "The implementation of a nationwide carbon tax is the most effective solution to combat climate change."
 
-* **Gathering evidence:**  [[Evidence Gathering and Evaluation]] -  Support your claims with credible and relevant evidence. This includes statistics, examples, expert opinions, and logical reasoning.  Avoid fallacies.
+* **Gathering evidence:**  [Evidence Gathering and Evaluation](./../evidence-gathering-and-evaluation/) -  Support your claims with credible and relevant evidence. This includes statistics, examples, expert opinions, and logical reasoning.  Avoid fallacies.
 
 * **Structuring your argument:**  A common structure:
     * **Introduction:**  Hook, background information, thesis statement.
     * **Body Paragraphs:** Each paragraph focuses on a single supporting point, with evidence and analysis.
     * **Conclusion:** Restate thesis, summarize main points, call to action (if applicable).
 
-* **Addressing counterarguments:**  Acknowledge and refute opposing viewpoints. This strengthens your credibility and shows a comprehensive understanding of the issue.  [[Counterargument Strategies]]
+* **Addressing counterarguments:**  Acknowledge and refute opposing viewpoints. This strengthens your credibility and shows a comprehensive understanding of the issue.  [Counterargument Strategies](./../counterargument-strategies/)
 
 
-**II. [[Rhetorical Devices]]:**
+**II. [Rhetorical Devices](./../rhetorical-devices/):**
 
 * **Ethos (credibility):** Establish your authority and trustworthiness.  Use credible sources, present yourself as knowledgeable and fair.
 
 * **Pathos (emotion):** Connect with your audience's emotions. Use storytelling, vivid language, and relatable examples to evoke empathy or concern.
 
-* **Logos (logic):** Use reason and evidence to support your claims.  Employ deductive and inductive reasoning.  Avoid logical fallacies. [[Logical Fallacies]]
+* **Logos (logic):** Use reason and evidence to support your claims.  Employ deductive and inductive reasoning.  Avoid logical fallacies. [Logical Fallacies](./../logical-fallacies/)
 
 
 **III. Argumentative Techniques:**
@@ -42,9 +42,9 @@
 * **Examples:**  Using specific instances to support a general claim.
 
 
-**IV.  [[Common Fallacies]] to Avoid:**
+**IV.  [Common Fallacies](./../common-fallacies/) to Avoid:**
 
-This section will be expanded upon in the [[Logical Fallacies]] note.
+This section will be expanded upon in the [Logical Fallacies](./../logical-fallacies/) note.
 
 
 **V.  Types of Persuasive Arguments:**
@@ -56,12 +56,12 @@ This section will be expanded upon in the [[Logical Fallacies]] note.
 
 **VI.  Visual Aids:**
 
-Using charts, graphs, and images can significantly enhance the persuasiveness of your argument. [[Visual Argumentation]]
+Using charts, graphs, and images can significantly enhance the persuasiveness of your argument. [Visual Argumentation](./../visual-argumentation/)
 
 
 **VII.  Examples of Persuasive Arguments:**
 
-*  Analyze successful persuasive speeches or essays.  [[Case Studies of Persuasion]]
+*  Analyze successful persuasive speeches or essays.  [Case Studies of Persuasion](./../case-studies-of-persuasion/)
 
 
 **Mathematical Models (Optional):**

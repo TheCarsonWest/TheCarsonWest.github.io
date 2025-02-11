@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Useful Websites and Articles]]
-# [[Clean Code Summary]]
+# [Useful Websites and Articles](./../useful-websites-and-articles/)
+# [Clean Code Summary](./../clean-code-summary/)
 
 **Key Principles:**
 
@@ -23,7 +23,7 @@
     * **Consistency:**  Maintain consistent indentation, spacing, and line breaks throughout the codebase.  This improves readability.
     * **Vertical Formatting:** Separate logical sections of code with blank lines.
 
-* **[[Error Handling]]:**
+* **[Error Handling](./../error-handling/):**
     * **Use exceptions appropriately:** Avoid excessive exception handling that clutters the code.  Use exceptions for genuine exceptional conditions.
     * **Handle errors gracefully:** Provide informative error messages to the user and log errors appropriately for debugging.
 
@@ -36,7 +36,7 @@
     * **Dependency Inversion Principle (DIP):** High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
 
 
-* **SOLID Principles:** [[SOLID Principles Explained]]
+* **SOLID Principles:** [SOLID Principles Explained](./../solid-principles-explained/)
 
 
 * **Testing:**
@@ -51,10 +51,10 @@
     * **Use automated tests:**  Automated tests help ensure that your refactoring doesn't break existing functionality.
 
 
-* **Code Smells:** [[Code Smells Catalog]]
+* **Code Smells:** [Code Smells Catalog](./../code-smells-catalog/)
 
 
-* **Design Patterns:** [[Common Design Patterns]]
+* **Design Patterns:** [Common Design Patterns](./../common-design-patterns/)
 
 
 * **Estimating Code Complexity:**  $  cyclomatic \ complexity = E - N + 2P  $  where  $ E $  is the number of edges,  $ N $  is the number of nodes, and  $ P $  is the number of connected components.  This equation helps assess complexity; higher values indicate more complex code.  A low cyclomatic complexity generally means a simpler, more maintainable function.

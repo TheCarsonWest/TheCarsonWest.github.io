@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Grammar and Mechanics]]
-# [[Verb Tense Consistency]]
+# [Grammar and Mechanics](./../grammar-and-mechanics/)
+# [Verb Tense Consistency](./../verb-tense-consistency/)
 
 Maintaining consistent verb tense throughout a piece of writing is crucial for clarity and readability.  Inconsistent tenses can confuse the reader and make the text seem disjointed.
 
@@ -30,8 +30,8 @@ Maintaining consistent verb tense throughout a piece of writing is crucial for c
 * **Consistent (Present Tense):** "He walks to the store. He buys milk."
 
 
-**[[Perfect Tenses]]**  ([[Past Tense]] , [[Present Tense]], [[Future Tense]])
+**[Perfect Tenses](./../perfect-tenses/)**  ([Past Tense](./../past-tense/) , [Present Tense](./../present-tense/), [Future Tense](./../future-tense/))
 
-**[[Narrative Voice]]**
+**[Narrative Voice](./../narrative-voice/)**
 
-**[[Direct and Indirect Speech]]**
+**[Direct and Indirect Speech](./../direct-and-indirect-speech/)**

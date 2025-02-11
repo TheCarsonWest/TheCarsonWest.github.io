@@ -44,8 +44,8 @@
 </div>
 
 <main>
-<h1 id="python-1-home">[[Python 1 Home]]</h1>
-<h1 id="list-comprehension">[[List Comprehension]]</h1>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="list-comprehensionlist-comprehension"><a href="./../list-comprehension/">List Comprehension</a></h1>
 <p>List comprehension provides a concise way to create lists in Python. It&rsquo;s a powerful tool for creating lists based on existing iterables.</p>
 <p><strong>Basic Syntax:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>new_list <span style="color:#f92672">=</span> [expression <span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> iterable <span style="color:#66d9ef">if</span> condition]
@@ -56,32 +56,32 @@
 <li><code>condition</code> (optional): A filter to include only certain items.</li>
 </ul>
 <p><strong>Examples:</strong></p>
-<p>[[1]].  Squaring numbers:</p>
+<p><a href="./../1/">1</a>.  Squaring numbers:</p>
 <pre><code>```python
-numbers = [[[1]], [[2]], [[3]], [[4]], [[5]]]
-squares = [x**[[2]] for x in numbers]  # [[[1]], [[4]], 9, 16, 25]
+numbers = [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/)]
+squares = [x**[2](./../2/) for x in numbers]  # [[1](./../1/), [4](./../4/), 9, 16, 25]
 ```
 </code></pre>
-<p>[[2]].  Filtering even numbers:</p>
+<p><a href="./../2/">2</a>.  Filtering even numbers:</p>
 <pre><code>```python
-numbers = [[[1]], [[2]], [[3]], [[4]], [[5]], [[6]]]
-even_numbers = [x for x in numbers if x % [[2]] == 0] # [[[2]], [[4]], [[6]]]
+numbers = [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/), [6](./../6/)]
+even_numbers = [x for x in numbers if x % [2](./../2/) == 0] # [[2](./../2/), [4](./../4/), [6](./../6/)]
 ```
 </code></pre>
-<p>[[3]].  String manipulation:</p>
+<p><a href="./../3/">3</a>.  String manipulation:</p>
 <pre><code>```python
 words = [&quot;hello&quot;, &quot;world&quot;, &quot;python&quot;]
 uppercase_words = [word.upper() for word in words] # ['HELLO', 'WORLD', 'PYTHON']
 ```
 </code></pre>
-<p>[[4]].  Nested loops (equivalent to nested for loops):</p>
+<p><a href="./../4/">4</a>.  Nested loops (equivalent to nested for loops):</p>
 <pre><code>```python
-matrix = [[1]], [[2]]], [[[3]], [[4]]
-flattened_matrix = [num for row in matrix for num in row] # [[[1]], [[2]], [[3]], [[4]]]
+matrix = [1](./../1/), [2](./../2/)], [[3](./../3/), [4](./../4/)
+flattened_matrix = [num for row in matrix for num in row] # [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/)]
 ```
 </code></pre>
-<p><strong>[[Nested Loops]]</strong></p>
-<p><strong>[[For Loops]]</strong></p>
+<p><strong><a href="./../nested-loops/">Nested Loops</a></strong></p>
+<p><strong><a href="./../for-loops/">For Loops</a></strong></p>
 <p>List comprehension offers a more readable and efficient alternative to traditional <code>for</code> loops when creating lists.  It&rsquo;s important to understand its syntax and usage to write more concise and Pythonic code.</p>
 
 </main>

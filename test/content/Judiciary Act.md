@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [[Judiciary Act]] of 1789
+## ID: [Judiciary Act](./../judiciary-act/) of 1789
 
 ## When: September 24, 1789
 
 ## Who: 
-* Proposed by: Congressman Oliver Ellsworth of [[Connecticut]]
-* Signed into law by: President [[George Washington]]
+* Proposed by: Congressman Oliver Ellsworth of [Connecticut](./../connecticut/)
+* Signed into law by: President [George Washington](./../george-washington/)
 
 ## What: 
-Established a federal court system for the newly formed [[United States]] under the Constitution. The Act outlined a three-tiered system:
+Established a federal court system for the newly formed [United States](./../united-states/) under the Constitution. The Act outlined a three-tiered system:
 * **Supreme Court:**  Comprised of a Chief Justice and five Associate Justices.
 * **Circuit Courts:** Three circuit courts were created to handle appeals from the district courts. 
 * **District Courts:**  Thirteen district courts, one for each state at the time, served as the primary trial courts. 
@@ -25,4 +25,4 @@ The Act also granted the Supreme Court the power of judicial review for certain 
 * **Strengthened Federal Power:**  By establishing a separate federal court system, the Act contributed to the growth of federal power and influence relative to the states. 
 * **Source of Debate and Evolution:** The Act's provisions, particularly those related to judicial review and the balance of power between state and federal courts, have been the subject of ongoing debate and interpretation throughout American history.  
 
-# [[IDS Unit 3]]
+# [IDS Unit 3](./../ids-unit-3/)

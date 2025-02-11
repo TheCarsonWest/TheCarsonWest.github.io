@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Grammar and Mechanics]]
-# [[Spelling and Commonly Confused Words]]
+# [Grammar and Mechanics](./../grammar-and-mechanics/)
+# [Spelling and Commonly Confused Words](./../spelling-and-commonly-confused-words/)
 
 This note covers common spelling errors and words frequently confused.  Will need to cross-reference with grammar notes.
 
 **Common Spelling Errors:**
 
 * **i before e, except after c:**  This rule has exceptions, but is a good starting point.  Examples:  believe, receive, weird.
-* **Silent letters:**  Many words contain silent letters (e.g., 'gh' in 'though', 'k' in 'knife'). [[Silent Letters]]
-* **Double consonants:**  Knowing when to double consonants (e.g., 'running', 'shipping') is crucial. [[Double Consonants]]
-* **Suffixes:** Adding suffixes often changes the root word's spelling (e.g., 'hope' becomes 'hoping'). [[Suffixes and Spelling Changes]]
+* **Silent letters:**  Many words contain silent letters (e.g., 'gh' in 'though', 'k' in 'knife'). [Silent Letters](./../silent-letters/)
+* **Double consonants:**  Knowing when to double consonants (e.g., 'running', 'shipping') is crucial. [Double Consonants](./../double-consonants/)
+* **Suffixes:** Adding suffixes often changes the root word's spelling (e.g., 'hope' becomes 'hoping'). [Suffixes and Spelling Changes](./../suffixes-and-spelling-changes/)
 
 
 **Commonly Confused Words:**
@@ -31,7 +31,7 @@ This note covers common spelling errors and words frequently confused.  Will nee
 * **To/Too/Two:**
     * To:  Indicates direction or purpose. Example: I'm going *to* the store.
     * Too:  Means "also" or "excessively." Example: I want to go *too*. It's *too* hot.
-    * Two: The number [[2]]. Example: I have *two* apples.
+    * Two: The number [2](./../2/). Example: I have *two* apples.
 * **Affect/Effect:**
     * Affect: Usually a verb meaning "to influence." Example: The weather will *affect* our plans.  ( $ Affect \implies Verb $ )
     * Effect: Usually a noun meaning "result." Example: The *effect* of the rain was flooding. ( $ Effect \implies Noun $ )  Exceptions exist; effect can be a verb meaning "to bring about."
@@ -45,13 +45,13 @@ This note covers common spelling errors and words frequently confused.  Will nee
 
 **Resources:**
 
-* [[Online Spelling Dictionaries]]
-* [[Grammar and Style Guides]]
+* [Online Spelling Dictionaries](./../online-spelling-dictionaries/)
+* [Grammar and Style Guides](./../grammar-and-style-guides/)
 
 
 **Further Notes:**
 
-* [[Homophones]]  (Words that sound alike but have different meanings and spellings)
-* [[Homonyms]] (Words that are spelled the same but have different meanings)
+* [Homophones](./../homophones/)  (Words that sound alike but have different meanings and spellings)
+* [Homonyms](./../homonyms/) (Words that are spelled the same but have different meanings)
 
 This is a living document.  Add more words and examples as needed.

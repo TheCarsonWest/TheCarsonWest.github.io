@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-**[[Ronald Reagan]] (1981-1989)**
+**[Ronald Reagan](./../ronald-reagan/) (1981-1989)**
 
 **Events Associated With:**
 
@@ -44,4 +44,4 @@
 **Legacy:**
 
 Reagan is remembered as a polarizing figure who had a significant impact on American society and politics. He is credited with revitalizing the American economy, strengthening the military, and standing up to Soviet aggression. However, his policies also led to increased income inequality, the escalation of the War on Drugs, and the Iran-Contra scandal.
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

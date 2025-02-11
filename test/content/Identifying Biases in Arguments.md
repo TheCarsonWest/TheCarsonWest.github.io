@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Developing Counterarguments]]
-# [[Identifying Biases in Arguments]]
+# [Developing Counterarguments](./../developing-counterarguments/)
+# [Identifying Biases in Arguments](./../identifying-biases-in-arguments/)
 
 **Goal:** Develop a framework for recognizing and analyzing biases in arguments to improve critical thinking and argument evaluation.
 
 **Key Concepts:**
 
 * **Bias:** A systematic error in thinking that affects our judgments and decisions.  It's not necessarily intentional; it can be unconscious.
-* **Cognitive Biases:**  [[Cognitive Biases]]
-* **Motivated Reasoning:** The tendency to process information in a way that confirms existing beliefs and values.  [[Motivated Reasoning]]
-* **Logical Fallacies:** Errors in reasoning that undermine the validity of an argument. [[Logical Fallacies]]  These are often *indicators* of bias, but not always *direct* evidence of it.
+* **Cognitive Biases:**  [Cognitive Biases](./../cognitive-biases/)
+* **Motivated Reasoning:** The tendency to process information in a way that confirms existing beliefs and values.  [Motivated Reasoning](./../motivated-reasoning/)
+* **Logical Fallacies:** Errors in reasoning that undermine the validity of an argument. [Logical Fallacies](./../logical-fallacies/)  These are often *indicators* of bias, but not always *direct* evidence of it.
 
 
 **Types of Biases (with examples):**
@@ -29,13 +29,13 @@
 
 **Analyzing Arguments for Bias:**
 
-[[1]]. **Identify the conclusion:** What is the main point the arguer is trying to make?
-[[2]]. **Examine the premises:** What evidence or reasons are offered to support the conclusion?
-[[3]]. **Look for unsupported assertions:** Are there claims made without sufficient evidence?
-[[4]]. **Check for logical fallacies:** [[Logical Fallacies]] Are there flaws in the reasoning?
-[[5]]. **Consider the source:** Is the source credible and unbiased?  What are their potential motivations?
-[[6]]. **Consider alternative explanations:** Could the evidence be interpreted differently?
-[[7]]. **Identify potential biases:**  Which of the biases listed above might be influencing the argument?
+[1](./../1/). **Identify the conclusion:** What is the main point the arguer is trying to make?
+[2](./../2/). **Examine the premises:** What evidence or reasons are offered to support the conclusion?
+[3](./../3/). **Look for unsupported assertions:** Are there claims made without sufficient evidence?
+[4](./../4/). **Check for logical fallacies:** [Logical Fallacies](./../logical-fallacies/) Are there flaws in the reasoning?
+[5](./../5/). **Consider the source:** Is the source credible and unbiased?  What are their potential motivations?
+[6](./../6/). **Consider alternative explanations:** Could the evidence be interpreted differently?
+[7](./../7/). **Identify potential biases:**  Which of the biases listed above might be influencing the argument?
 
 
 **Example Analysis:**
@@ -44,9 +44,9 @@ Let's say an argument claims that a certain type of food is unhealthy because a 
 
 **Further Research:**
 
-* [[Cognitive Biases Detection Techniques]]
-* [[Bias in Scientific Research]]
-* [[Media Bias Detection]]
+* [Cognitive Biases Detection Techniques](./../cognitive-biases-detection-techniques/)
+* [Bias in Scientific Research](./../bias-in-scientific-research/)
+* [Media Bias Detection](./../media-bias-detection/)
 
 
 **Equations (Illustrative, may require further context):**
@@ -59,6 +59,6 @@ The strength of an argument ( $ S $ ) could be (hypothetically) modeled as:
 *  $ L $  = Logical soundness
 *  $ B $  = Bias level (lower is better)
 
-##  $$ S = \frac{E \times L}{[[1]] + B} $$ ##
+##  $$ S = \frac{E \times L}{[1](./../1/) + B} $$ ##
 
 This is a simplified representation; the actual relationship is likely much more complex.

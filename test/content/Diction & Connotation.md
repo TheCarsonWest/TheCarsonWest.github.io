@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Rhetorical Analysis Techniques]]
-# [[Diction & Connotation]]
+# [Rhetorical Analysis Techniques](./../rhetorical-analysis-techniques/)
+# [Diction & Connotation](./../diction-&-connotation/)
 
 Diction refers to the choice and use of words and phrases in speech or writing.  It significantly impacts the tone, style, and effectiveness of communication.
 
@@ -17,7 +17,7 @@ Connotation refers to the implied meaning of a word, beyond its literal definiti
 
 * **Abstract vs. Concrete:** Abstract diction uses words that refer to concepts or ideas (e.g., love, justice), while concrete diction uses words that refer to tangible things (e.g., table, tree).  The balance between the two impacts the imagery and understanding.
 
-* **Denotation vs. Connotation:** [[Denotation vs. Connotation]]  (This will be a separate note)
+* **Denotation vs. Connotation:** [Denotation vs. Connotation](./../denotation-vs.-connotation/)  (This will be a separate note)
 
 
 **Impact of Connotation:**
@@ -33,9 +33,9 @@ The connotation of a word can drastically alter the meaning and effect of a sent
 
 To effectively analyze diction and connotation, consider:
 
-[[1]]. **The author's purpose:** What message is the author trying to convey? How does their word choice contribute to this?
-[[2]]. **The target audience:** Who is the author writing for? How does the diction cater to this audience?
-[[3]]. **The overall tone:** What feeling or atmosphere does the text create? How is this achieved through diction and connotation?
+[1](./../1/). **The author's purpose:** What message is the author trying to convey? How does their word choice contribute to this?
+[2](./../2/). **The target audience:** Who is the author writing for? How does the diction cater to this audience?
+[3](./../3/). **The overall tone:** What feeling or atmosphere does the text create? How is this achieved through diction and connotation?
 
 
 **Examples:**
@@ -45,9 +45,9 @@ To effectively analyze diction and connotation, consider:
 
 **Further Exploration:**
 
-* [[Figurative Language]] (This will be a separate note, focusing on how figures of speech impact connotation and diction)
-* [[Tone and Mood in Writing]] (Another separate note, exploring the relationship between diction, connotation, and the overall tone/mood)
-* [[Analyzing Literary Texts]] (A more broad note covering various analytical techniques, including diction and connotation analysis).
+* [Figurative Language](./../figurative-language/) (This will be a separate note, focusing on how figures of speech impact connotation and diction)
+* [Tone and Mood in Writing](./../tone-and-mood-in-writing/) (Another separate note, exploring the relationship between diction, connotation, and the overall tone/mood)
+* [Analyzing Literary Texts](./../analyzing-literary-texts/) (A more broad note covering various analytical techniques, including diction and connotation analysis).
 
 
 **Equations (Illustrative, not directly related to the core topic):**

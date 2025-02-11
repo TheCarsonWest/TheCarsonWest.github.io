@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Libraries like Pandas]]
-# [[Pandas Data Manipulation]] 
+# [Libraries like Pandas](./../libraries-like-pandas/)
+# [Pandas Data Manipulation](./../pandas-data-manipulation/) 
 This note covers data manipulation using the Pandas library in Python.
 
 Key functionalities:
@@ -13,61 +13,61 @@ Key functionalities:
     * `.loc` (label-based indexing)
     ```python
     import pandas as pd
-    data = {'col1': [[[1]], [[2]], [[3]]], 'col2': [[[4]], [[5]], [[6]]]}
+    data = {'col1': [[1](./../[1/), [2](./../2/), [3](./../3/)], 'col2': [[4](./../[4/), [5](./../5/), [6](./../6/)]}
     df = pd.DataFrame(data)
     print(df.loc[0, 'col1'])  # Accesses value at row 0, column 'col1'
     print(df.loc[:, 'col2'])  # Accesses all rows of column 'col2'
     ```
     * `.iloc` (integer-based indexing)
     ```python
-    print(df.iloc[[[1]], 0]) # Accesses value at row [[1]], column 0
+    print(df.iloc[[1](./../[1/), 0]) # Accesses value at row [1](./../1/), column 0
     ```
     * Boolean indexing
     ```python
-    print(df[df['col1'] > [[1]]]) # Selects rows where 'col1' > [[1]]
+    print(df[df['col1'] > [1](./../1/)]) # Selects rows where 'col1' > [1](./../1/)
     ```
-    * [[Data Selection with Pandas]]
+    * [Data Selection with Pandas](./../data-selection-with-pandas/)
 
 
 * **Data Cleaning:**
     * Handling missing values: `.dropna()`, `.fillna()`
     ```python
-    df_with_nan = pd.DataFrame({'A': [[[1]], [[2]], None], 'B': [[[4]], None, [[6]]]})
+    df_with_nan = pd.DataFrame({'A': [[1](./../[1/), [2](./../2/), None], 'B': [[4](./../[4/), None, [6](./../6/)]})
     print(df_with_nan.dropna()) # Drops rows with NaN values
     print(df_with_nan.fillna(0)) # Fills NaN values with 0
     ```
     * Removing duplicates: `.drop_duplicates()`
     ```python
-    df_with_duplicates = pd.DataFrame({'A': [[[1]], [[1]], [[2]], [[2]]], 'B': [[[4]], [[4]], [[5]], [[5]]]})
+    df_with_duplicates = pd.DataFrame({'A': [[1](./../[1/), [1](./../1/), [2](./../2/), [2](./../2/)], 'B': [[4](./../[4/), [4](./../4/), [5](./../5/), [5](./../5/)]})
     print(df_with_duplicates.drop_duplicates())
     ```
-    [[Data Cleaning Techniques]]
+    [Data Cleaning Techniques](./../data-cleaning-techniques/)
 
 
 * **Data Transformation:**
     * Applying functions: `.apply()`, `.map()`
     ```python
-    df['col1_squared'] = df['col1'].apply(lambda x: x**[[2]]) #Applies a lambda function
+    df['col1_squared'] = df['col1'].apply(lambda x: x**[2](./../2/)) #Applies a lambda function
     ```
     * Grouping and aggregation: `.groupby()`, `.agg()`
     ```python
-    data = {'group': ['A', 'A', 'B', 'B'], 'value': [[[1]], [[2]], [[3]], [[4]]]}
+    data = {'group': ['A', 'A', 'B', 'B'], 'value': [[1](./../[1/), [2](./../2/), [3](./../3/), [4](./../4/)]}
     df = pd.DataFrame(data)
     print(df.groupby('group')['value'].agg(['sum', 'mean'])) #Groups by 'group' and calculates sum and mean of 'value'
     ```
     * Pivoting and melting: `.pivot()`, `.melt()`
     ```python
-    #Example requires more elaborate data, see [[Data Reshaping with Pandas]]
+    #Example requires more elaborate data, see [Data Reshaping with Pandas](./../data-reshaping-with-pandas/)
     ```
-    [[Data Transformation Methods]]
+    [Data Transformation Methods](./../data-transformation-methods/)
 
 
 * **Data Joining/Merging:**
     * `pd.merge()` (different types of joins)
     ```python
-    # Example requires creating two dataframes first, see [[Data Merging Techniques]]
+    # Example requires creating two dataframes first, see [Data Merging Techniques](./../data-merging-techniques/)
     ```
-    [[Data Merging Techniques]]
+    [Data Merging Techniques](./../data-merging-techniques/)
 
 
 * **Data Visualization (brief):**
@@ -75,6 +75,6 @@ Key functionalities:
     ```python
     df.plot.bar(x='col1', y='col2') #Requires matplotlib to be installed
     ```
-    [[Pandas Visualization]]
+    [Pandas Visualization](./../pandas-visualization/)
 
 This is a high-level overview. Each bullet point above could be expanded into a more detailed note.  Refer to the linked notes for more in-depth explanations.

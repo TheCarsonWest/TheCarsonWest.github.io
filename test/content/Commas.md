@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Grammar and Mechanics]]
-# [[Commas]]
+# [Grammar and Mechanics](./../grammar-and-mechanics/)
+# [Commas](./../commas/)
 
 Notes on comma usage.
 
@@ -25,24 +25,24 @@ Notes on comma usage.
 
 **Advanced Rules & Exceptions:**
 
-* **Comma Splices:**  Avoid comma splices – joining two independent clauses with only a comma.  This is a grammatical error. [[Comma Splice Examples]]
+* **Comma Splices:**  Avoid comma splices – joining two independent clauses with only a comma.  This is a grammatical error. [Comma Splice Examples](./../comma-splice-examples/)
 
-* **Serial [[Commas]] (Oxford Comma):**  The debate over the Oxford comma. [[Oxford Comma Debate]]
+* **Serial [Commas](./../commas/) (Oxford Comma):**  The debate over the Oxford comma. [Oxford Comma Debate](./../oxford-comma-debate/)
 
-* **[[Commas]] with coordinating adjectives:** Use commas between coordinating adjectives (adjectives that equally modify the noun). Example:  The tall, dark stranger entered the room.  (But *not* "the tall dark brown horse"—the adjectives are not equally modifying the noun)
+* **[Commas](./../commas/) with coordinating adjectives:** Use commas between coordinating adjectives (adjectives that equally modify the noun). Example:  The tall, dark stranger entered the room.  (But *not* "the tall dark brown horse"—the adjectives are not equally modifying the noun)
 
-* **[[Commas]] and quotations:** Comma placement with direct quotations. [[Commas and Quotations]]
+* **[Commas](./../commas/) and quotations:** Comma placement with direct quotations. [Commas and Quotations](./../commas-and-quotations/)
 
-* **[[Commas]] in complex sentences:**  [[Commas]] with multiple clauses and phrases. [[Complex Sentence Commas]]
+* **[Commas](./../commas/) in complex sentences:**  [Commas](./../commas/) with multiple clauses and phrases. [Complex Sentence Commas](./../complex-sentence-commas/)
 
 
 **Equations (Illustrative, not directly related to commas):**
 
-The equation for the area of a circle is:   $ A = \pi r^[[2]] $ 
+The equation for the area of a circle is:   $ A = \pi r^[2](./../2/) $ 
 
 The quadratic formula is:
-##  $$ x = \frac{-b \pm \sqrt{b^[[2]] - 4ac}}{2a} $$  
+##  $$ x = \frac{-b \pm \sqrt{b^[2](./../2/) - 4ac}}{2a} $$  
 
-[[Further comma rules]]
-[[Comma Practice Exercises]]
+[Further comma rules](./../further-comma-rules/)
+[Comma Practice Exercises](./../comma-practice-exercises/)
 

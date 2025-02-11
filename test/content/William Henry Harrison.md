@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-**[[William Henry Harrison]]**
+**[William Henry Harrison](./../william-henry-harrison/)**
 
 **Presidency (1841)**
 
-* Inaugurated March [[4]], 1841, with [[John Tyler]] as Vice President
-* Died of pneumonia just 31 days into his presidency on April [[4]], 1841
+* Inaugurated March [4](./../4/), 1841, with [John Tyler](./../john-tyler/) as Vice President
+* Died of pneumonia just 31 days into his presidency on April [4](./../4/), 1841
 
 **Events Associated With**
 
-* [[War of 1812]]: Commander of the Northwest Army, victory at the Battle of Tippecanoe (1811)
+* [War of 1812](./../war-of-1812/): Commander of the Northwest Army, victory at the Battle of Tippecanoe (1811)
 * Indian Removal Act (1830): Enforced the Act, leading to the Trail of Tears
 * Log Cabin and Hard Cider Campaign (1840): Ran as a populist candidate, capitalizing on his frontier image
 
@@ -32,4 +32,4 @@
 * No significant legislation passed
 * Set a precedent for the vice president assuming office in the event of the president's death
 * Became a symbol of populism and frontier values
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

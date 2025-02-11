@@ -44,16 +44,16 @@
 </div>
 
 <main>
-<h1 id="chaining-decorators">[[Chaining Decorators]]</h1>
-<h1 id="function-scope-and-closures">[[Function Scope and Closures]]</h1>
+<h1 id="chaining-decoratorschaining-decorators"><a href="./../chaining-decorators/">Chaining Decorators</a></h1>
+<h1 id="function-scope-and-closuresfunction-scope-and-closures"><a href="./../function-scope-and-closures/">Function Scope and Closures</a></h1>
 <p>Python&rsquo;s scope rules determine where a variable is accessible within your code.  Understanding this is crucial for writing clean and predictable functions.</p>
 <ul>
 <li>
 <p><strong>LEGB Rule:</strong> Python uses the LEGB rule to search for a variable:</p>
-<p>[[1]]. <strong>L</strong>ocal: Inside the current function or block of code.
-[[2]]. <strong>E</strong>nclosing function locals: If the variable isn&rsquo;t found locally, Python searches the local scope of any enclosing functions. This is relevant for nested functions.
-[[3]]. <strong>G</strong>lobal: Variables declared at the module level (outside any function).
-[[4]]. <strong>B</strong>uilt-in: Predefined functions and constants available in Python (e.g., <code>len</code>, <code>print</code>).</p>
+<p><a href="./../1/">1</a>. <strong>L</strong>ocal: Inside the current function or block of code.
+<a href="./../2/">2</a>. <strong>E</strong>nclosing function locals: If the variable isn&rsquo;t found locally, Python searches the local scope of any enclosing functions. This is relevant for nested functions.
+<a href="./../3/">3</a>. <strong>G</strong>lobal: Variables declared at the module level (outside any function).
+<a href="./../4/">4</a>. <strong>B</strong>uilt-in: Predefined functions and constants available in Python (e.g., <code>len</code>, <code>print</code>).</p>
 </li>
 <li>
 <p><strong>Example illustrating LEGB:</strong></p>
@@ -75,7 +75,7 @@
 </span></span></code></pre></div><ul>
 <li><strong><code>global</code> keyword:</strong> To modify a global variable from within a function, you must use the <code>global</code> keyword:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>global_var <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">5</span>]]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>global_var <span style="color:#f92672">=</span> [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">modify_global</span>():
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">global</span> global_var  <span style="color:#75715e"># Declare that we are modifying the global variable</span>
@@ -87,7 +87,7 @@
 <li><strong><code>nonlocal</code> keyword:</strong>  Similar to <code>global</code>, but for modifying variables in enclosing functions:</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">outer</span>():
-</span></span><span style="display:flex;"><span>    enclosing_var <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">5</span>]]
+</span></span><span style="display:flex;"><span>    enclosing_var <span style="color:#f92672">=</span> [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">inner</span>():
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">nonlocal</span> enclosing_var <span style="color:#75715e">#Declare that we are modifying a variable in the enclosing scope</span>
 </span></span><span style="display:flex;"><span>        enclosing_var <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
@@ -108,11 +108,11 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> x <span style="color:#f92672">+</span> y
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> inner_function
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>closure <span style="color:#f92672">=</span> outer_function([[<span style="color:#ae81ff">5</span>]])  <span style="color:#75715e"># &#39;closure&#39; now holds a reference to &#39;inner_function&#39; with x=[[5]]</span>
-</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> closure([[<span style="color:#ae81ff">3</span>]])  <span style="color:#75715e"># result will be [[5]] + [[3]] = 8</span>
+</span></span><span style="display:flex;"><span>closure <span style="color:#f92672">=</span> outer_function([<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># &#39;closure&#39; now holds a reference to &#39;inner_function&#39; with x=[5](./../5/)</span>
+</span></span><span style="display:flex;"><span>result <span style="color:#f92672">=</span> closure([<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># result will be [5](./../5/) + [3](./../3/) = 8</span>
 </span></span><span style="display:flex;"><span>print(result)  <span style="color:#75715e"># Output: 8</span>
-</span></span></code></pre></div><p>[[Nested Functions]]
-[[Variable Scope]]</p>
+</span></span></code></pre></div><p><a href="./../nested-functions/">Nested Functions</a>
+<a href="./../variable-scope/">Variable Scope</a></p>
 
 </main>
 

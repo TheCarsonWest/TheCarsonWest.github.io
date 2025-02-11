@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Source Analysis Techniques]]
-# [[Primary Source Evaluation]]
+# [Source Analysis Techniques](./../source-analysis-techniques/)
+# [Primary Source Evaluation](./../primary-source-evaluation/)
 
 **Definition:**  Assessing the credibility, reliability, and authenticity of a primary source.  This involves critically examining the source's origin, author, context, and content to determine its value and limitations.
 
@@ -38,10 +38,10 @@
 
 **Evaluating Different Source Types:**
 
-* [[Evaluating Letters and Diaries]]:  Focus on the author's emotional state, personal experiences, and potential biases.
-* [[Evaluating Government Documents]]: Consider the political context and potential for propaganda.
-* [[Evaluating Photographs]]:  Analyze composition, context, and potential manipulation.
-* [[Evaluating Oral Histories]]: Account for memory biases and potential changes in narrative over time.
+* [Evaluating Letters and Diaries](./../evaluating-letters-and-diaries/):  Focus on the author's emotional state, personal experiences, and potential biases.
+* [Evaluating Government Documents](./../evaluating-government-documents/): Consider the political context and potential for propaganda.
+* [Evaluating Photographs](./../evaluating-photographs/):  Analyze composition, context, and potential manipulation.
+* [Evaluating Oral Histories](./../evaluating-oral-histories/): Account for memory biases and potential changes in narrative over time.
 
 
 **Methods for Corroboration:**
@@ -68,9 +68,9 @@ Where:
 
 **Further Notes:**
 
-* [[Bias Detection Techniques]]
-* [[Source Citation and Documentation]]
-* [[Historical Context Analysis]]
+* [Bias Detection Techniques](./../bias-detection-techniques/)
+* [Source Citation and Documentation](./../source-citation-and-documentation/)
+* [Historical Context Analysis](./../historical-context-analysis/)
 
 
 This is a framework; the specific questions and methods will vary depending on the type of primary source and the research question.

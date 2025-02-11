@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-- [[Other important AP CHEM things]]
-- # [[London Dispersion]]
-- [[intermolecular forces]]
+- [Other important AP CHEM things](./../other-important-ap-chem-things/)
+- # [London Dispersion](./../london-dispersion/)
+- [intermolecular forces](./../intermolecular-forces/)
 
 ## More polarizability = more london dispersion = more clumping = higher bp
- [[Polarizability]] refers to ==a molecule's tendency to develop a [[dipole]] moment when exposed to an electric field==, essentially meaning how easily its electron cloud can be distorted by an external electric field; the greater the polarizability, the more readily the electron cloud can be displaced, creating a temporary [[dipole]] moment. 
+ [Polarizability](./../polarizability/) refers to ==a molecule's tendency to develop a [dipole](./../dipole/) moment when exposed to an electric field==, essentially meaning how easily its electron cloud can be distorted by an external electric field; the greater the polarizability, the more readily the electron cloud can be displaced, creating a temporary [dipole](./../dipole/) moment. 
 
 Key points about polarizability:
 
 - **Concept:**
-    When an electric field is applied, the negatively charged electrons in a molecule are pulled in one direction while the positively charged nucleus is pulled in the opposite direction, leading to a temporary separation of charge and creating a [[dipole]] moment. 
+    When an electric field is applied, the negatively charged electrons in a molecule are pulled in one direction while the positively charged nucleus is pulled in the opposite direction, leading to a temporary separation of charge and creating a [dipole](./../dipole/) moment. 
 
 - **Factors affecting polarizability:**
     - **Electron cloud size:** Larger electron clouds are more easily distorted, resulting in higher polarizability. 
-    - **[[Atomic Radius]]:** Larger atoms generally have higher polarizability due to their larger electron clouds. 
+    - **[Atomic Radius](./../atomic-radius/):** Larger atoms generally have higher polarizability due to their larger electron clouds. 
     - **Molecular shape:** Elongated molecules tend to be more polarizable than spherical ones.

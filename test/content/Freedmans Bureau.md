@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: Freedmen's Bureau 
-## When: March [[3]], 1865 - 1872
+## When: March [3](./../3/), 1865 - 1872
 ## Who: 
 Established by Congress during Reconstruction, headed by General Oliver O. Howard
 ## What: 
@@ -15,4 +15,4 @@ The Freedmen's Bureau played a crucial role in the lives of millions of formerly
 * **Limited Success:** While impactful, it was underfunded and hampered by white Southern resistance.
 * **Legacy:**  It contributed to the development of African American communities and institutions.  It remains a symbol of the federal government's attempts to aid formerly enslaved people, and a reminder of the challenges of Reconstruction. 
 
-# [[IDS Unit 4]]
+# [IDS Unit 4](./../ids-unit-4/)

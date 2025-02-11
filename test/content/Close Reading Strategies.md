@@ -3,28 +3,28 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP English Language and Composition]]
-# [[Close Reading Strategies]]
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [Close Reading Strategies](./../close-reading-strategies/)
 
 **Goal:** To deeply understand a text by carefully analyzing its meaning and structure.
 
 **Key Strategies:**
 
-* **Annotate:**  Actively engage with the text.  Mark up the text itself (physical copy) or a digital version.  Use symbols, highlighting, and notes to identify key ideas,  unclear sections, and interesting word choices. [[Annotation Techniques]]
+* **Annotate:**  Actively engage with the text.  Mark up the text itself (physical copy) or a digital version.  Use symbols, highlighting, and notes to identify key ideas,  unclear sections, and interesting word choices. [Annotation Techniques](./../annotation-techniques/)
 
-* **Identify the Main Idea:** What is the central argument or point of the text?  What is the author trying to convey? [[Identifying Main Ideas]]
+* **Identify the Main Idea:** What is the central argument or point of the text?  What is the author trying to convey? [Identifying Main Ideas](./../identifying-main-ideas/)
 
 * **Analyze Structure:** How is the text organized?  Are there distinct sections or paragraphs? How do these sections relate to each other? Consider the use of headings, subheadings, and transitions.
 
-* **Examine [[Diction and Tone]]:** Pay close attention to the author's word choice.  What kind of language is used (formal, informal, technical)?  What is the overall tone (serious, humorous, sarcastic)?  How does diction contribute to the meaning and effect of the text? [[Diction and Tone Analysis]]
+* **Examine [Diction and Tone](./../diction-and-tone/):** Pay close attention to the author's word choice.  What kind of language is used (formal, informal, technical)?  What is the overall tone (serious, humorous, sarcastic)?  How does diction contribute to the meaning and effect of the text? [Diction and Tone Analysis](./../diction-and-tone-analysis/)
 
-* **Contextualize:** Understand the historical, social, and cultural context in which the text was written. This includes considering the author's background and intended audience. [[Contextual Analysis]]
-
-
-* **Identify Figurative [[Language]]:** Look for metaphors, similes, personification, etc.  What effect do these literary devices have on the meaning and impact of the text?  $ metaphor = \frac{A}{B} $  where A is the subject and B is the object of comparison [[Figurative Language]]
+* **Contextualize:** Understand the historical, social, and cultural context in which the text was written. This includes considering the author's background and intended audience. [Contextual Analysis](./../contextual-analysis/)
 
 
-* **Analyze Argumentation:** If the text presents an argument, analyze the evidence and reasoning used to support it. Is the argument convincing? What are the strengths and weaknesses of the argument? [[Argument Analysis]]
+* **Identify Figurative [Language](./../language/):** Look for metaphors, similes, personification, etc.  What effect do these literary devices have on the meaning and impact of the text?  $ metaphor = \frac{A}{B} $  where A is the subject and B is the object of comparison [Figurative Language](./../figurative-language/)
+
+
+* **Analyze Argumentation:** If the text presents an argument, analyze the evidence and reasoning used to support it. Is the argument convincing? What are the strengths and weaknesses of the argument? [Argument Analysis](./../argument-analysis/)
 
 * **Consider Multiple Interpretations:**  Recognize that texts can have multiple valid interpretations.  Be open to different perspectives and support your interpretations with evidence from the text.
 
@@ -47,6 +47,6 @@
 
 **Further Notes:**
 
-* [[Close Reading Example]]
-* [[Different Text Types]]
+* [Close Reading Example](./../close-reading-example/)
+* [Different Text Types](./../different-text-types/)
 

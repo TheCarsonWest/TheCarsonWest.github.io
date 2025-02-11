@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Equilibrium Constant Calculations]]]]
+# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)]]
 # Kp and Kc Relationship
 
 The relationship between  $ K_p $  (the equilibrium constant in terms of partial pressures) and  $ K_c $  (the equilibrium constant in terms of concentrations) is given by:
@@ -34,8 +34,8 @@ where:
 * **For a reaction where  $ \Delta n < 0 $ **:  $ K_p < K_c $ . More gaseous reactants than products.
 
 
-[[Ideal Gas Law]]  (This note will explain the Ideal Gas Law and its relevance to the Kp and Kc relationship)
+[Ideal Gas Law](./../ideal-gas-law/)  (This note will explain the Ideal Gas Law and its relevance to the Kp and Kc relationship)
 
-[[Equilibrium Constants]] (This note will cover a more general overview of equilibrium constants including Kc and other types)
+[Equilibrium Constants](./../equilibrium-constants/) (This note will cover a more general overview of equilibrium constants including Kc and other types)
 
-[[Chemical Equilibrium]] (This note will provide a foundational understanding of chemical equilibrium and the factors that influence it)
+[Chemical Equilibrium](./../chemical-equilibrium/) (This note will provide a foundational understanding of chemical equilibrium and the factors that influence it)

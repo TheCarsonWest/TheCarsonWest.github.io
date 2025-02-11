@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## [[Map Projections]]
+## [Map Projections](./../map-projections/)
 
 # SADD
 

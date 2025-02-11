@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Endothermic and Exothermic Reactions]]
-# [[Reaction Kinetics]]
+# [Endothermic and Exothermic Reactions](./../endothermic-and-exothermic-reactions/)
+# [Reaction Kinetics](./../reaction-kinetics/)
 
 **Key Concepts:**
 
@@ -15,14 +15,14 @@
     *  $ [A] $  and  $ [B] $  are the concentrations of reactants.
     *  $ m $  and  $ n $  are the reaction orders with respect to A and B, respectively (determined experimentally).  The overall reaction order is  $ m + n $ .
 
-* **Reaction Order:**  The exponent of a reactant's concentration in the rate law.  It indicates how the rate changes as the concentration of that reactant changes.  [[Reaction Orders Explained]]
+* **Reaction Order:**  The exponent of a reactant's concentration in the rate law.  It indicates how the rate changes as the concentration of that reactant changes.  [Reaction Orders Explained](./../reaction-orders-explained/)
 
 * **Rate Constant (k):**  A proportionality constant relating the rate of a reaction to the concentrations of reactants. Its value depends on temperature and the activation energy of the reaction.  The Arrhenius equation describes this relationship:  $ k = Ae^{-Ea/RT} $ , where:
     *  $ A $  is the frequency factor (pre-exponential factor)
     *  $ E_a $  is the activation energy
     *  $ R $  is the gas constant
     *  $ T $  is the temperature in Kelvin
-    [[Arrhenius Equation and Activation Energy]]
+    [Arrhenius Equation and Activation Energy](./../arrhenius-equation-and-activation-energy/)
 
 
 * **Integrated Rate Laws:** Equations that relate the concentration of a reactant to time.  The form of the integrated rate law depends on the reaction order:
@@ -31,7 +31,7 @@
     * **First-order:**  $ \ln[A]_t = -kt + \ln[A]_0 $   or  $ [A]_t = [A]_0e^{-kt} $ 
     * **Second-order:**  $ \frac{1}{[A]_t} = kt + \frac{1}{[A]_0} $ 
 
-    [[Integrated Rate Laws and Half-life]]
+    [Integrated Rate Laws and Half-life](./../integrated-rate-laws-and-half-life/)
 
 * **Half-life ( $ t_{1/2} $ ):** The time it takes for the concentration of a reactant to decrease to half its initial value.  The expression for half-life depends on the reaction order:
 
@@ -41,14 +41,14 @@
 
 * **Collision Theory:**  A theory that explains reaction rates in terms of the collisions between reactant molecules.  Only collisions with sufficient energy (greater than the activation energy) and proper orientation lead to a reaction.
 
-* **Reaction Mechanisms:** A series of elementary steps that describe the overall reaction. [[Reaction Mechanisms and Elementary Steps]]
+* **Reaction Mechanisms:** A series of elementary steps that describe the overall reaction. [Reaction Mechanisms and Elementary Steps](./../reaction-mechanisms-and-elementary-steps/)
 
 
 * **Rate-Determining Step:** The slowest step in a reaction mechanism. It determines the overall rate of the reaction.
 
-* **Catalysts:** Substances that increase the rate of a reaction without being consumed in the reaction. They lower the activation energy by providing an alternative reaction pathway. [[Catalysts and Catalysis]]
+* **Catalysts:** Substances that increase the rate of a reaction without being consumed in the reaction. They lower the activation energy by providing an alternative reaction pathway. [Catalysts and Catalysis](./../catalysts-and-catalysis/)
 
 
-* **Experimental Determination of Rate Laws:**  Techniques like initial rates method and isolation method are used to determine the rate law experimentally. [[Determining Rate Laws Experimentally]]
+* **Experimental Determination of Rate Laws:**  Techniques like initial rates method and isolation method are used to determine the rate law experimentally. [Determining Rate Laws Experimentally](./../determining-rate-laws-experimentally/)
 
 

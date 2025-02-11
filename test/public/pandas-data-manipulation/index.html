@@ -44,8 +44,8 @@
 </div>
 
 <main>
-<h1 id="libraries-like-pandas">[[Libraries like Pandas]]</h1>
-<h1 id="pandas-data-manipulation">[[Pandas Data Manipulation]]</h1>
+<h1 id="libraries-like-pandaslibraries-like-pandas"><a href="./../libraries-like-pandas/">Libraries like Pandas</a></h1>
+<h1 id="pandas-data-manipulationpandas-data-manipulation"><a href="./../pandas-data-manipulation/">Pandas Data Manipulation</a></h1>
 <p>This note covers data manipulation using the Pandas library in Python.</p>
 <p>Key functionalities:</p>
 <ul>
@@ -55,20 +55,20 @@
 <li><code>.loc</code> (label-based indexing)</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
-</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;col1&#39;</span>: [[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">3</span>]]], <span style="color:#e6db74">&#39;col2&#39;</span>: [[[<span style="color:#ae81ff">4</span>]], [[<span style="color:#ae81ff">5</span>]], [[<span style="color:#ae81ff">6</span>]]]}
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;col1&#39;</span>: [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)], <span style="color:#e6db74">&#39;col2&#39;</span>: [[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">6</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">6</span><span style="color:#f92672">/</span>)]}
 </span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(data)
 </span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>loc[<span style="color:#ae81ff">0</span>, <span style="color:#e6db74">&#39;col1&#39;</span>])  <span style="color:#75715e"># Accesses value at row 0, column &#39;col1&#39;</span>
 </span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>loc[:, <span style="color:#e6db74">&#39;col2&#39;</span>])  <span style="color:#75715e"># Accesses all rows of column &#39;col2&#39;</span>
 </span></span></code></pre></div><ul>
 <li><code>.iloc</code> (integer-based indexing)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>iloc[[[<span style="color:#ae81ff">1</span>]], <span style="color:#ae81ff">0</span>]) <span style="color:#75715e"># Accesses value at row [[1]], column 0</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>iloc[[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), <span style="color:#ae81ff">0</span>]) <span style="color:#75715e"># Accesses value at row [1](./../1/), column 0</span>
 </span></span></code></pre></div><ul>
 <li>Boolean indexing</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(df[df[<span style="color:#e6db74">&#39;col1&#39;</span>] <span style="color:#f92672">&gt;</span> [[<span style="color:#ae81ff">1</span>]]]) <span style="color:#75715e"># Selects rows where &#39;col1&#39; &gt; [[1]]</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(df[df[<span style="color:#e6db74">&#39;col1&#39;</span>] <span style="color:#f92672">&gt;</span> [<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>)]) <span style="color:#75715e"># Selects rows where &#39;col1&#39; &gt; [1](./../1/)</span>
 </span></span></code></pre></div><ul>
-<li>[[Data Selection with Pandas]]</li>
+<li><a href="./../data-selection-with-pandas/">Data Selection with Pandas</a></li>
 </ul>
 </li>
 <li>
@@ -76,47 +76,47 @@
 <ul>
 <li>Handling missing values: <code>.dropna()</code>, <code>.fillna()</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df_with_nan <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame({<span style="color:#e6db74">&#39;A&#39;</span>: [[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], <span style="color:#66d9ef">None</span>], <span style="color:#e6db74">&#39;B&#39;</span>: [[[<span style="color:#ae81ff">4</span>]], <span style="color:#66d9ef">None</span>, [[<span style="color:#ae81ff">6</span>]]]})
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df_with_nan <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame({<span style="color:#e6db74">&#39;A&#39;</span>: [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), <span style="color:#66d9ef">None</span>], <span style="color:#e6db74">&#39;B&#39;</span>: [[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>), <span style="color:#66d9ef">None</span>, [<span style="color:#ae81ff">6</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">6</span><span style="color:#f92672">/</span>)]})
 </span></span><span style="display:flex;"><span>print(df_with_nan<span style="color:#f92672">.</span>dropna()) <span style="color:#75715e"># Drops rows with NaN values</span>
 </span></span><span style="display:flex;"><span>print(df_with_nan<span style="color:#f92672">.</span>fillna(<span style="color:#ae81ff">0</span>)) <span style="color:#75715e"># Fills NaN values with 0</span>
 </span></span></code></pre></div><ul>
 <li>Removing duplicates: <code>.drop_duplicates()</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df_with_duplicates <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame({<span style="color:#e6db74">&#39;A&#39;</span>: [[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">2</span>]]], <span style="color:#e6db74">&#39;B&#39;</span>: [[[<span style="color:#ae81ff">4</span>]], [[<span style="color:#ae81ff">4</span>]], [[<span style="color:#ae81ff">5</span>]], [[<span style="color:#ae81ff">5</span>]]]})
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df_with_duplicates <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame({<span style="color:#e6db74">&#39;A&#39;</span>: [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)], <span style="color:#e6db74">&#39;B&#39;</span>: [[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)]})
 </span></span><span style="display:flex;"><span>print(df_with_duplicates<span style="color:#f92672">.</span>drop_duplicates())
-</span></span></code></pre></div><p>[[Data Cleaning Techniques]]</p>
+</span></span></code></pre></div><p><a href="./../data-cleaning-techniques/">Data Cleaning Techniques</a></p>
 </li>
 <li>
 <p><strong>Data Transformation:</strong></p>
 <ul>
 <li>Applying functions: <code>.apply()</code>, <code>.map()</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;col1_squared&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;col1&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">**</span>[[<span style="color:#ae81ff">2</span>]]) <span style="color:#75715e">#Applies a lambda function</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df[<span style="color:#e6db74">&#39;col1_squared&#39;</span>] <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;col1&#39;</span>]<span style="color:#f92672">.</span>apply(<span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">**</span>[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)) <span style="color:#75715e">#Applies a lambda function</span>
 </span></span></code></pre></div><ul>
 <li>Grouping and aggregation: <code>.groupby()</code>, <code>.agg()</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;group&#39;</span>: [<span style="color:#e6db74">&#39;A&#39;</span>, <span style="color:#e6db74">&#39;A&#39;</span>, <span style="color:#e6db74">&#39;B&#39;</span>, <span style="color:#e6db74">&#39;B&#39;</span>], <span style="color:#e6db74">&#39;value&#39;</span>: [[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">3</span>]], [[<span style="color:#ae81ff">4</span>]]]}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;group&#39;</span>: [<span style="color:#e6db74">&#39;A&#39;</span>, <span style="color:#e6db74">&#39;A&#39;</span>, <span style="color:#e6db74">&#39;B&#39;</span>, <span style="color:#e6db74">&#39;B&#39;</span>], <span style="color:#e6db74">&#39;value&#39;</span>: [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)]}
 </span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(data)
 </span></span><span style="display:flex;"><span>print(df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;group&#39;</span>)[<span style="color:#e6db74">&#39;value&#39;</span>]<span style="color:#f92672">.</span>agg([<span style="color:#e6db74">&#39;sum&#39;</span>, <span style="color:#e6db74">&#39;mean&#39;</span>])) <span style="color:#75715e">#Groups by &#39;group&#39; and calculates sum and mean of &#39;value&#39;</span>
 </span></span></code></pre></div><ul>
 <li>Pivoting and melting: <code>.pivot()</code>, <code>.melt()</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Example requires more elaborate data, see [[Data Reshaping with Pandas]]</span>
-</span></span></code></pre></div><p>[[Data Transformation Methods]]</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e">#Example requires more elaborate data, see [Data Reshaping with Pandas](./../data-reshaping-with-pandas/)</span>
+</span></span></code></pre></div><p><a href="./../data-transformation-methods/">Data Transformation Methods</a></p>
 </li>
 <li>
 <p><strong>Data Joining/Merging:</strong></p>
 <ul>
 <li><code>pd.merge()</code> (different types of joins)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example requires creating two dataframes first, see [[Data Merging Techniques]]</span>
-</span></span></code></pre></div><p>[[Data Merging Techniques]]</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example requires creating two dataframes first, see [Data Merging Techniques](./../data-merging-techniques/)</span>
+</span></span></code></pre></div><p><a href="./../data-merging-techniques/">Data Merging Techniques</a></p>
 </li>
 <li>
 <p><strong>Data Visualization (brief):</strong>
 Pandas integrates well with Matplotlib for basic visualizations.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>df<span style="color:#f92672">.</span>plot<span style="color:#f92672">.</span>bar(x<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;col1&#39;</span>, y<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;col2&#39;</span>) <span style="color:#75715e">#Requires matplotlib to be installed</span>
-</span></span></code></pre></div><p>[[Pandas Visualization]]</p>
+</span></span></code></pre></div><p><a href="./../pandas-visualization/">Pandas Visualization</a></p>
 </li>
 </ul>
 <p>This is a high-level overview. Each bullet point above could be expanded into a more detailed note.  Refer to the linked notes for more in-depth explanations.</p>

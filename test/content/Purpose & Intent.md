@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Rhetorical Analysis Techniques]]
-# [[Purpose & Intent]]
+# [Rhetorical Analysis Techniques](./../rhetorical-analysis-techniques/)
+# [Purpose & Intent](./../purpose-&-intent/)
 
 **Purpose:**  The overall goal or objective. What is the desired outcome?  What problem are we trying to solve?
 
@@ -17,18 +17,18 @@
 **Examples:**
 
 * **Purpose:** Increase website traffic.
-* **Intent:** Implement an SEO strategy focusing on keyword research, content marketing, and social media promotion.  [[SEO Strategy]] [[Content Marketing]] [[Social Media Marketing]]
+* **Intent:** Implement an SEO strategy focusing on keyword research, content marketing, and social media promotion.  [SEO Strategy](./../seo-strategy/) [Content Marketing](./../content-marketing/) [Social Media Marketing](./../social-media-marketing/)
 
 
 * **Purpose:** Improve customer satisfaction.
-* **Intent:** Conduct customer satisfaction surveys, implement a customer relationship management (CRM) system, and provide additional customer support training to staff. [[Customer Satisfaction Surveys]] [[CRM Implementation]] [[Staff Training]]
+* **Intent:** Conduct customer satisfaction surveys, implement a customer relationship management (CRM) system, and provide additional customer support training to staff. [Customer Satisfaction Surveys](./../customer-satisfaction-surveys/) [CRM Implementation](./../crm-implementation/) [Staff Training](./../staff-training/)
 
 
 * **Purpose:** Launch a new product.
-* **Intent:** Develop a detailed marketing plan, establish distribution channels, and secure funding. [[Marketing Plan]] [[Distribution Channels]] [[Funding]]
+* **Intent:** Develop a detailed marketing plan, establish distribution channels, and secure funding. [Marketing Plan](./../marketing-plan/) [Distribution Channels](./../distribution-channels/) [Funding](./../funding/)
 
 
-**Measuring Success:**  How will we know if we've achieved our purpose and successfully executed our intent?  This requires defining key performance indicators (KPIs). [[KPIs]]
+**Measuring Success:**  How will we know if we've achieved our purpose and successfully executed our intent?  This requires defining key performance indicators (KPIs). [KPIs](./../kpis/)
 
 **Formulating Purpose and Intent:**
 
@@ -45,4 +45,4 @@ Consider using the following formula to ensure clarity:
 "Our purpose is to  $ achieve \ X $  by  $ Y $  date. Our intent is to achieve this by  $ doing \ Z $ ."  For example: "Our purpose is to increase website traffic by 20% by the end of the year. Our intent is to achieve this by implementing an SEO strategy, focusing on keyword research, content marketing and social media promotion."
 
 
-**Note:** [[SMART Goals]] [[Goal Setting]]
+**Note:** [SMART Goals](./../smart-goals/) [Goal Setting](./../goal-setting/)

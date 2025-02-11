@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[nexus]]
-# [[Le Chateliers Principle]] Notes
+# [nexus](./../nexus/)
+# [Le Chateliers Principle](./../le-chateliers-principle/) Notes
 
-[[Le Chateliers Principle]] states that if a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress.  This applies to changes in concentration, pressure, volume, and temperature.
+[Le Chateliers Principle](./../le-chateliers-principle/) states that if a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress.  This applies to changes in concentration, pressure, volume, and temperature.
 
 **Types of Stress and System Response:**
 
@@ -39,9 +39,9 @@ The equilibrium constant,  $ K_{eq} $ , remains constant at a given temperature.
     * Increasing the temperature will shift the equilibrium to the left (favoring reactants as heat is a product).
 
 
-**[[Equilibrium]]**  (For a detailed explanation of equilibrium constants,  $ K_{eq} $ ,  $ K_p $ ,  $ K_c $ , etc.)
+**[Equilibrium](./../equilibrium/)**  (For a detailed explanation of equilibrium constants,  $ K_{eq} $ ,  $ K_p $ ,  $ K_c $ , etc.)
 
-**[[Acids and Bases]]** (For how Le Chatelier's Principle]] applies to buffer systems)
+**[Acids and Bases](./../acids-and-bases/)** (For how Le Chatelier's Principle]] applies to buffer systems)
 
-**[[Endothermic and Exothermic Reactions]]** (A deeper look at enthalpy and its effect on equilibrium)
+**[Endothermic and Exothermic Reactions](./../endothermic-and-exothermic-reactions/)** (A deeper look at enthalpy and its effect on equilibrium)
 

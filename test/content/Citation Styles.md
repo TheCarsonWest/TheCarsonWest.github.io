@@ -3,20 +3,20 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Argumentative Essay Structure]]
-# [[Citation Styles]]
+# [Argumentative Essay Structure](./../argumentative-essay-structure/)
+# [Citation Styles](./../citation-styles/)
 
 This note covers different citation styles and their applications.
 
 **Key Styles:**
 
-* **MLA (Modern [[Language]] Association):** Primarily used in the humanities.  Emphasizes author-page citations within the text ( $ e.g., $  (Smith 123)).  A "Works Cited" page lists full bibliographic information.
+* **MLA (Modern [Language](./../language/) Association):** Primarily used in the humanities.  Emphasizes author-page citations within the text ( $ e.g., $  (Smith 123)).  A "Works Cited" page lists full bibliographic information.
 
-* **APA (American Psychological Association):** Commonly used in social sciences.  Author-date citations are used in-text ( $ e.g., $  (Smith, 2023)).  A "References" page provides complete bibliographic details.  [[APA Style Guide]]
+* **APA (American Psychological Association):** Commonly used in social sciences.  Author-date citations are used in-text ( $ e.g., $  (Smith, 2023)).  A "References" page provides complete bibliographic details.  [APA Style Guide](./../apa-style-guide/)
 
-* **Chicago/Turabian:** Offers both a notes-bibliography and author-date system.  The notes-bibliography style uses footnotes or endnotes for citations, with a bibliography listing all sources. The author-date system is similar to APA. [[Chicago Manual of Style]]
+* **Chicago/Turabian:** Offers both a notes-bibliography and author-date system.  The notes-bibliography style uses footnotes or endnotes for citations, with a bibliography listing all sources. The author-date system is similar to APA. [Chicago Manual of Style](./../chicago-manual-of-style/)
 
-* **IEEE (Institute of Electrical and Electronics Engineers):** Used frequently in engineering and computer science.  Numerical citations are used in-text, referencing a numbered list of sources at the end of the document. [[IEEE Citation Guide]]
+* **IEEE (Institute of Electrical and Electronics Engineers):** Used frequently in engineering and computer science.  Numerical citations are used in-text, referencing a numbered list of sources at the end of the document. [IEEE Citation Guide](./../ieee-citation-guide/)
 
 
 **Choosing a Style:**
@@ -41,7 +41,7 @@ Several software tools and citation managers can assist in creating citations an
 
 **Common Issues:**
 
-* **Plagiarism:** Improper citation constitutes plagiarism.  Always cite your sources properly. [[Plagiarism and Academic Integrity]]
+* **Plagiarism:** Improper citation constitutes plagiarism.  Always cite your sources properly. [Plagiarism and Academic Integrity](./../plagiarism-and-academic-integrity/)
 * **In-text vs. Bibliography:**  Make sure in-text citations correctly correspond to entries in the bibliography/references/works cited.
 * **Formatting:** Pay close attention to formatting details, such as capitalization, punctuation, and spacing, as these vary across citation styles.
 
@@ -58,10 +58,10 @@ where:
 *  $ \alpha $  and  $ \beta $  are parameters that depend on the field and writing style.
 
 
-This is a very basic model; the actual relationship is much more complex.  For a more accurate representation, a more sophisticated model would need to be developed, taking into account various factors such as the complexity of the subject matter, the number of sources used, and the citation style employed. [[Citation Modeling]]
+This is a very basic model; the actual relationship is much more complex.  For a more accurate representation, a more sophisticated model would need to be developed, taking into account various factors such as the complexity of the subject matter, the number of sources used, and the citation style employed. [Citation Modeling](./../citation-modeling/)
 
 **Further Notes:**
 
-* [[Bibliography Management]]
-* [[Common Citation Errors]]
+* [Bibliography Management](./../bibliography-management/)
+* [Common Citation Errors](./../common-citation-errors/)
 

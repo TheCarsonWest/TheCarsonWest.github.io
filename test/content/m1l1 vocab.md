@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 
-[[arabic vocab lists]]
+[arabic vocab lists](./../arabic-vocab-lists/)
 
 
 | **English Translation**                 | **Arabic word / phrase**                   |
@@ -59,9 +59,9 @@
 | The amount                              | المَبْلَغ                                  |
 | But                                     | وَلَكِن                                    |
 | I carry                                 | أَحْمِلُ                                   |
-| Dollars ( word number [[2]])                | دُوْلارات                                  |
+| Dollars ( word number [2](./../2/))                | دُوْلارات                                  |
 | I take                                  | آخُذُ                                      |
-| Dollars  (word number [[1]])                | دولاراً                                    |
+| Dollars  (word number [1](./../1/))                | دولاراً                                    |
 | Also/too                                | أَيْضَاً                                   |
 | Around/approximately                    | حَوَالِي                                   |
 | Sixty-two 62                            | إِثْنَان وَ سِتُّون ٦٢                     |

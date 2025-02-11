@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-**[[Lyndon B]]. Johnson (1908-1973)**
+**[Lyndon B](./../lyndon-b/). Johnson (1908-1973)**
 
 **Early Life and Career:**
 
-* Born on August 27, 1908, in Stonewall, [[Texas]]
-* Graduated from Southwest [[Texas]] State Teachers College
+* Born on August 27, 1908, in Stonewall, [Texas](./../texas/)
+* Graduated from Southwest [Texas](./../texas/) State Teachers College
 * Elected to the U.S. House of Representatives (1937-1949)
 * Served in the U.S. Senate (1949-1961)
 * Majority Leader of the U.S. Senate (1955-1961)
 
 **Vice Presidency (1961-1963):**
 
-* Elected as Vice President under President [[John F]]. Kennedy
+* Elected as Vice President under President [John F](./../john-f/). Kennedy
 * Served as Chairman of the National Aeronautics and Space Council
 
 **Presidency (1963-1969):**
@@ -28,7 +28,7 @@
 
 **Important Legislation Signed:**
 
-* Civil Rights Act of 1964: Outlawed discrimination based on race, color, [[religion]], sex, or national origin.
+* Civil Rights Act of 1964: Outlawed discrimination based on race, color, [religion](./../religion/), sex, or national origin.
 * Voting Rights Act of 1965: Prohibited racial discrimination in voting.
 * Medicare and Medicaid Act of 1965: Provided health insurance to the elderly and poor.
 * Elementary and Secondary Education Act of 1965: Expanded federal aid to education.
@@ -37,7 +37,7 @@
 
 **Groups Associated With:**
 
-* [[Democrats]]
+* [Democrats](./../democrats/)
 * New Deal Coalition (alliance of Southern whites, African Americans, and labor unions)
 * National Association for the Advancement of Colored People (NAACP)
 * Southern Christian Leadership Conference (SCLC)
@@ -53,4 +53,4 @@
 
 * Remembered for his ambitious domestic agenda and his complex role in the Vietnam War.
 * His Great Society program aimed to eliminate poverty and discrimination and remains a significant legacy of his presidency.
-# [[APUSH people]]
+# [APUSH people](./../apush-people/)

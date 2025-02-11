@@ -3,22 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Argumentative Essay]]
-# [[Rhetorical Devices in Argumentation]]
+# [Argumentative Essay](./../argumentative-essay/)
+# [Rhetorical Devices in Argumentation](./../rhetorical-devices-in-argumentation/)
 
 This note covers various rhetorical devices and their applications in crafting persuasive arguments.  
 
 **I. Core Concepts:**
 
 * **Ethos:** Appeal to credibility and authority.  Examples include citing expert opinions, showcasing personal experience, and establishing a trustworthy tone.  This relates directly to the audience's perception of the speaker/writer.
-    * [[Building Ethos]]
+    * [Building Ethos](./../building-ethos/)
 * **Pathos:** Appeal to emotion.  This involves using vivid language, storytelling, and emotional appeals (e.g., fear, joy, anger) to connect with the audience on an emotional level.  The goal is to evoke a feeling that supports the argument.
-    * [[Evoking Pathos Effectively]]
+    * [Evoking Pathos Effectively](./../evoking-pathos-effectively/)
 * **Logos:** Appeal to logic and reason.  This relies on presenting factual evidence, logical reasoning (deductive and inductive), and well-structured arguments to persuade the audience through rational means.
-    * [[Logical Fallacies to Avoid]]  
-    * [[Building a Strong Logical Argument]]
+    * [Logical Fallacies to Avoid](./../logical-fallacies-to-avoid/)  
+    * [Building a Strong Logical Argument](./../building-a-strong-logical-argument/)
 
-**II. Specific [[Rhetorical Devices]]:**
+**II. Specific [Rhetorical Devices](./../rhetorical-devices/):**
 
 * **Anaphora:** Repetition of a word or phrase at the beginning of successive clauses or sentences.  Example:  *"I have a dream... I have a dream... I have a dream..."*  This creates emphasis and rhythm.
 * **Epistrophe:** Repetition of a word or phrase at the end of successive clauses or sentences.  Example:  *"Government of the people, by the people, for the people."* This creates a sense of closure and emphasis.
@@ -37,11 +37,11 @@ When analyzing arguments, consider:
 * The *intended audience*.
 * The *purpose* of the argument.
 * The *effectiveness* of the rhetorical devices used.
-* Identification of potential *logical fallacies* [[Logical Fallacies to Avoid]].
+* Identification of potential *logical fallacies* [Logical Fallacies to Avoid](./../logical-fallacies-to-avoid/).
 
 **IV. Further Exploration:**
 
-* [[Analyzing Persuasive Texts]]
-* [[Crafting Persuasive Arguments]]
+* [Analyzing Persuasive Texts](./../analyzing-persuasive-texts/)
+* [Crafting Persuasive Arguments](./../crafting-persuasive-arguments/)
 
 This is a working document – add more notes and examples as needed.

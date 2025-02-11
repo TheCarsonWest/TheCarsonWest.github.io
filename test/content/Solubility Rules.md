@@ -3,6 +3,6 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Solubility]]
+# [Solubility](./../solubility/)
 
-![](https://sciencenotes.org/wp-content/uploads/2021/08/[[Solubility]]-Rules.png)
+![](https://sciencenotes.org/wp-content/uploads/2021/08/[Solubility](./../solubility/)-Rules.png)

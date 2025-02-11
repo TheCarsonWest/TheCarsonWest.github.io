@@ -44,8 +44,8 @@
 </div>
 
 <main>
-<h1 id="list-comprehension">[[List Comprehension]]</h1>
-<h1 id="iterables-in-python">[[Iterables in Python]]</h1>
+<h1 id="list-comprehensionlist-comprehension"><a href="./../list-comprehension/">List Comprehension</a></h1>
+<h1 id="iterables-in-pythoniterables-in-python"><a href="./../iterables-in-python/">Iterables in Python</a></h1>
 <p>An iterable is an object capable of returning its members one at a time, permitting iteration over its contents.  They are fundamental to Python&rsquo;s looping constructs and support many built-in functions.</p>
 <p>Key characteristics:</p>
 <ul>
@@ -55,17 +55,17 @@
 </ul>
 <p>Examples of iterables:</p>
 <ul>
-<li>[[Lists]]:  <code>[[[1]], [[2]], [[3]]]</code></li>
-<li>[[Tuples]]: <code>([[1]], [[2]], [[3]])</code></li>
+<li><a href="./../lists/">Lists</a>:  <code>[[1](./../[1/), [2](./../2/), [3](./../3/)]</code></li>
+<li><a href="./../tuples/">Tuples</a>: <code>([1](./../1/), [2](./../2/), [3](./../3/))</code></li>
 <li>Strings: <code>&quot;hello&quot;</code></li>
-<li>Sets: <code>{[[1]], [[2]], [[3]]}</code></li>
-<li>[[Dictionaries]]: <code>{&quot;a&quot;: [[1]], &quot;b&quot;: [[2]]}</code> (iterates over keys by default)</li>
+<li>Sets: <code>{[1](./../1/), [2](./../2/), [3](./../3/)}</code></li>
+<li><a href="./../dictionaries/">Dictionaries</a>: <code>{&quot;a&quot;: [1](./../1/), &quot;b&quot;: [2](./../2/)}</code> (iterates over keys by default)</li>
 <li>Files (opened in read mode)</li>
 <li>Custom classes implementing <code>__iter__</code></li>
 </ul>
-<p>Iteration vs. [[Iterators]]: [[Iterators]] vs. [[Iterables]]</p>
+<p>Iteration vs. <a href="./../iterators/">Iterators</a>: <a href="./../iterators/">Iterators</a> vs. <a href="./../iterables/">Iterables</a></p>
 <p>Using iterables in <code>for</code> loops:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[[<span style="color:#ae81ff">1</span>]], [[<span style="color:#ae81ff">2</span>]], [[<span style="color:#ae81ff">3</span>]], [[<span style="color:#ae81ff">4</span>]], [[<span style="color:#ae81ff">5</span>]]]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)]
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> item <span style="color:#f92672">in</span> my_list:
 </span></span><span style="display:flex;"><span>    print(item)
 </span></span><span style="display:flex;"><span>
@@ -89,14 +89,14 @@
 <li><code>tuple()</code> (converts iterable to a tuple)</li>
 <li><code>set()</code> (converts iterable to a set)</li>
 </ul>
-<p>Creating custom iterables: [[Custom Iterables]]</p>
+<p>Creating custom iterables: <a href="./../custom-iterables/">Custom Iterables</a></p>
 <p>Generating iterables:</p>
 <ul>
 <li>List comprehensions</li>
-<li>Generator expressions [[Generator Expressions]]</li>
+<li>Generator expressions <a href="./../generator-expressions/">Generator Expressions</a></li>
 </ul>
-<p>Important Note: [[Iterables]] are consumed when iterated through, which means that after one iteration, they might need to be regenerated if you want to iterate over the same elements again.  This is a core difference with [[Sequences]] and how they handle iterators.</p>
-<p>Related Notes: [[Iterators]] vs. [[Iterables]], [[Custom Iterables]], [[Generator Expressions]], [[Sequences]]</p>
+<p>Important Note: <a href="./../iterables/">Iterables</a> are consumed when iterated through, which means that after one iteration, they might need to be regenerated if you want to iterate over the same elements again.  This is a core difference with <a href="./../sequences/">Sequences</a> and how they handle iterators.</p>
+<p>Related Notes: <a href="./../iterators/">Iterators</a> vs. <a href="./../iterables/">Iterables</a>, <a href="./../custom-iterables/">Custom Iterables</a>, <a href="./../generator-expressions/">Generator Expressions</a>, <a href="./../sequences/">Sequences</a></p>
 
 </main>
 

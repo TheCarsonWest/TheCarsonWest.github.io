@@ -44,8 +44,8 @@
 </div>
 
 <main>
-<h1 id="constructors">[[Constructors]]</h1>
-<h1 id="special-methods">[[Special Methods]]</h1>
+<h1 id="constructorsconstructors"><a href="./../constructors/">Constructors</a></h1>
+<h1 id="special-methodsspecial-methods"><a href="./../special-methods/">Special Methods</a></h1>
 <p>These are methods in Python classes that begin and end with double underscores (<code>__</code>), also known as &ldquo;dunder&rdquo; methods. They define how objects of the class behave in certain contexts.  They&rsquo;re crucial for creating classes that interact seamlessly with built-in Python features and other libraries.</p>
 <p><strong>Examples and Functionality:</strong></p>
 <ul>
@@ -84,28 +84,28 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __len__(self):
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> len(self<span style="color:#f92672">.</span>data)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> MyList([[[<span style="color:#ae81ff">1</span>]],[[<span style="color:#ae81ff">2</span>]],[[<span style="color:#ae81ff">3</span>]]])
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> MyList([[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span>[<span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)])
 </span></span><span style="display:flex;"><span>print(len(my_list))
 </span></span></code></pre></div><ul>
 <li>
-<p><code>__add__(self, other)</code>: Defines the behavior of the <code>+</code> operator for objects of your class. [[Operator Overloading]]</p>
+<p><code>__add__(self, other)</code>: Defines the behavior of the <code>+</code> operator for objects of your class. <a href="./../operator-overloading/">Operator Overloading</a></p>
 </li>
 <li>
-<p><code>__eq__(self, other)</code>: Defines the behavior of the <code>==</code> operator. [[Operator Overloading]]</p>
+<p><code>__eq__(self, other)</code>: Defines the behavior of the <code>==</code> operator. <a href="./../operator-overloading/">Operator Overloading</a></p>
 </li>
 <li>
-<p><code>__iter__(self)</code>:  Makes your class iterable (using <code>for</code> loops).  Needs to return an iterator object. [[Iterators]] and [[Generators]]</p>
+<p><code>__iter__(self)</code>:  Makes your class iterable (using <code>for</code> loops).  Needs to return an iterator object. <a href="./../iterators/">Iterators</a> and <a href="./../generators/">Generators</a></p>
 </li>
 <li>
-<p><code>__getitem__(self, key)</code>: Allows accessing items using indexing (<code>my_object[index]</code>). [[Context Managers]]</p>
+<p><code>__getitem__(self, key)</code>: Allows accessing items using indexing (<code>my_object[index]</code>). <a href="./../context-managers/">Context Managers</a></p>
 </li>
 </ul>
 <p><strong>Further Exploration:</strong></p>
 <ul>
-<li>[[Operator Overloading]]:  Focuses on <code>__add__</code>, <code>__eq__</code>, <code>__mul__</code>, etc.  How to customize arithmetic and comparison [[Operators]].</li>
-<li>[[Iterators]] and [[Generators]]:  Detailed explanation of how to create iterable classes using <code>__iter__</code> and <code>__next__</code>.</li>
-<li>[[Context Managers]]: Explanation of <code>__enter__</code> and <code>__exit__</code> methods for managing resources.</li>
-<li>[[Object Lifecycle]]:  A deeper dive into object creation, destruction, and garbage collection.  How these special methods interact with the Python interpreter.</li>
+<li><a href="./../operator-overloading/">Operator Overloading</a>:  Focuses on <code>__add__</code>, <code>__eq__</code>, <code>__mul__</code>, etc.  How to customize arithmetic and comparison <a href="./../operators/">Operators</a>.</li>
+<li><a href="./../iterators/">Iterators</a> and <a href="./../generators/">Generators</a>:  Detailed explanation of how to create iterable classes using <code>__iter__</code> and <code>__next__</code>.</li>
+<li><a href="./../context-managers/">Context Managers</a>: Explanation of <code>__enter__</code> and <code>__exit__</code> methods for managing resources.</li>
+<li><a href="./../object-lifecycle/">Object Lifecycle</a>:  A deeper dive into object creation, destruction, and garbage collection.  How these special methods interact with the Python interpreter.</li>
 </ul>
 <p>This is not an exhaustive list, but covers some of the most frequently used special methods.  The Python documentation provides a complete reference.</p>
 

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Synthesis Essay Strategies]]
-# [[Thesis Statement Construction]]
+# [Synthesis Essay Strategies](./../synthesis-essay-strategies/)
+# [Thesis Statement Construction](./../thesis-statement-construction/)
 
 **Definition:** A thesis statement is a concise summary of the main point or claim of an essay, research paper, or other written work.  It typically appears at the end of the introductory paragraph and acts as a roadmap for the entire piece.
 
@@ -24,11 +24,11 @@
 
 **Formulating a Strong Thesis:**
 
-[[1]]. **Identify your topic:** What are you writing about? [[Topic Selection]]
-[[2]]. **Develop a central claim:** What is your main argument or point about this topic?
-[[3]]. **Refine your claim:** Is it specific enough? Is it debatable?  Avoid vague language.
-[[4]]. **Outline supporting points:** What evidence will you use to support your claim?  [[Evidence Gathering and Analysis]]
-[[5]]. **Write your thesis:** Combine your claim and supporting points into a concise statement.
+[1](./../1/). **Identify your topic:** What are you writing about? [Topic Selection](./../topic-selection/)
+[2](./../2/). **Develop a central claim:** What is your main argument or point about this topic?
+[3](./../3/). **Refine your claim:** Is it specific enough? Is it debatable?  Avoid vague language.
+[4](./../4/). **Outline supporting points:** What evidence will you use to support your claim?  [Evidence Gathering and Analysis](./../evidence-gathering-and-analysis/)
+[5](./../5/). **Write your thesis:** Combine your claim and supporting points into a concise statement.
 
 
 **Examples:**
@@ -49,15 +49,15 @@ It's crucial to revise your thesis statement as you write.  Your initial thesis 
 
 **Related Notes:**
 
-* [[Argumentation and Persuasion]]
-* [[Essay Structure]]
-* [[Research Methods]]
+* [Argumentation and Persuasion](./../argumentation-and-persuasion/)
+* [Essay Structure](./../essay-structure/)
+* [Research Methods](./../research-methods/)
 
 
 **Formula (for argumentative thesis):**
 
- $  \text{Claim} + \text{Because} + \text{Reason [[1]]} + \text{Reason [[2]]} + \text{Reason [[3]]}  $ 
+ $  \text{Claim} + \text{Because} + \text{Reason [1](./../1/)} + \text{Reason [2](./../2/)} + \text{Reason [3](./../3/)}  $ 
 
-##  $$  \text{Claim} + \text{Because} + \text{Reason [[1]]}, \text{Reason [[2]]}, \text{and Reason [[3]]}  $$  
+##  $$  \text{Claim} + \text{Because} + \text{Reason [1](./../1/)}, \text{Reason [2](./../2/)}, \text{and Reason [3](./../3/)}  $$  
 
 This formula provides a basic framework, but the structure will adapt depending on the complexity of your argument.

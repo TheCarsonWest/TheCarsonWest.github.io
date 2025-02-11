@@ -11,9 +11,9 @@
 * **General William Tecumseh Sherman:**  Union Army General who led the march. 
 
 ## What:
-* A devastating military campaign conducted by Union forces, led by General Sherman, during the American [[Civil War]]. 
-* The march began in Atlanta, [[Georgia]], and proceeded across the state to Savannah on the Atlantic coast.
-* Sherman's objective was to destroy the Confederate Army's ability to wage war in [[Georgia]], targeting military and civilian infrastructure.  
+* A devastating military campaign conducted by Union forces, led by General Sherman, during the American [Civil War](./../civil-war/). 
+* The march began in Atlanta, [Georgia](./../georgia/), and proceeded across the state to Savannah on the Atlantic coast.
+* Sherman's objective was to destroy the Confederate Army's ability to wage war in [Georgia](./../georgia/), targeting military and civilian infrastructure.  
 * This included railroads, bridges, factories, and farms. The march also included the destruction of private property and the displacement of civilians.
 
 ## Impact: Why Significant?:
@@ -22,4 +22,4 @@
 * **Speeding the End of the War:** The march is considered a major factor in the Confederacy's ultimate defeat, as it crippled their ability to sustain the war effort.
 * **Controversial Legacy:**  The march continues to be a topic of debate due to its destructive nature and its impact on civilian populations. 
 
-# [[IDS Unit 4]]
+# [IDS Unit 4](./../ids-unit-4/)
