@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hess Law | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Hess Law</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="thermodynamicsthermodynamics"><a href="./../thermodynamics/">Thermodynamics</a></h1>
+<h1 id="hesss-law">Hess&rsquo;s Law</h1>
+<p>Hess&rsquo;s Law states that the total enthalpy change for a reaction is independent of the pathway taken.  In other words, if a reaction can be carried out in a series of steps, the sum of the enthalpy changes ( $ \Delta H $ ) for the individual steps will be equal to the overall enthalpy change for the direct reaction. This is a consequence of enthalpy being a state function. <a href="./../state-functions/">State Functions</a></p>
+<h2 id="applying-hesss-law">Applying Hess&rsquo;s Law</h2>
+<p>Hess&rsquo;s Law is incredibly useful for determining the enthalpy change of reactions that are difficult or impossible to measure directly. We can manipulate known reactions and their enthalpy changes to calculate the unknown enthalpy change of a target reaction.  Here&rsquo;s the general process:</p>
+<ol>
+<li>
+<p><strong>Identify the Target Reaction:</strong> Clearly define the reaction for which you want to determine  $ \Delta H $ .</p>
+</li>
+<li>
+<p><strong>Gather Known Reactions:</strong> Find reactions with known  $ \Delta H $  values that involve the reactants and products of your target reaction.</p>
+</li>
+<li>
+<p><strong>Manipulate Known Reactions:</strong>  Adjust the known reactions so that, when combined, they produce the target reaction.  Allowed manipulations include:</p>
+<ul>
+<li>
+<p><strong>Reversing Reactions:</strong> If you reverse a reaction, change the sign of  $ \Delta H $ .  For example, if  $ A \rightarrow B $  has  $ \Delta H = +100 \text{ kJ} $ , then  $ B \rightarrow A $  has  $ \Delta H = -100 \text{ kJ} $ .</p>
+</li>
+<li>
+<p><strong>Multiplying Reactions:</strong> If you multiply a reaction by a coefficient, multiply  $ \Delta H $  by the same coefficient. For example, if  $ A \rightarrow B $  has  $ \Delta H = +100 \text{ kJ} $ , then  $ 2A \rightarrow 2B $  has  $ \Delta H = +200 \text{ kJ} $ .</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Add Reactions and Enthalpies:</strong> Add the manipulated reactions together, canceling out any species that appear on both sides of the equations.  The sum of the  $ \Delta H $  values for the manipulated reactions will be the  $ \Delta H $  for the target reaction.</p>
+</li>
+</ol>
+<h2 id="example">Example</h2>
+<p>Let&rsquo;s say we want to find the enthalpy change ( $ \Delta H $ ) for the formation of carbon dioxide from carbon monoxide:</p>
+<p><strong>Target Reaction:</strong>  $ CO(g) + \frac{1}{2}O_2(g) \rightarrow CO_2(g) \quad \Delta H = ? $</p>
+<p>We are given the following reactions and their enthalpy changes:</p>
+<ul>
+<li><strong>Reaction 1:</strong>  $ C(s) + O_2(g) \rightarrow CO_2(g) \quad \Delta H_1 = -393.5 \text{ kJ} $</li>
+<li><strong>Reaction 2:</strong>  $ C(s) + \frac{1}{2}O_2(g) \rightarrow CO(g) \quad \Delta H_2 = -110.5 \text{ kJ} $</li>
+</ul>
+<p>To obtain the target reaction, we need to reverse Reaction 2 and then add it to Reaction 1:</p>
+<ul>
+<li><strong>Reversed Reaction 2:</strong>  $ CO(g) \rightarrow C(s) + \frac{1}{2}O_2(g) \quad \Delta H_2&rsquo; = +110.5 \text{ kJ} $</li>
+</ul>
+<p>Now, add Reaction 1 and the reversed Reaction 2:</p>
+<p>$ C(s) + O_2(g) + CO(g) \rightarrow CO_2(g) + C(s) + \frac{1}{2}O_2(g) $</p>
+<p>Canceling out the common species ( $ C(s) $  and  $ \frac{1}{2}O_2(g) $ ) gives us the target reaction:</p>
+<p>$ CO(g) + \frac{1}{2}O_2(g) \rightarrow CO_2(g) $</p>
+<p>Finally, add the enthalpy changes:</p>
+<p>$ \Delta H = \Delta H_1 + \Delta H_2&rsquo; = -393.5 \text{ kJ} + 110.5 \text{ kJ} = -283.0 \text{ kJ} $</p>
+<p>Therefore, the enthalpy change for the target reaction is -283.0 kJ.</p>
+<h2 id="connection-to-standard-enthalpies-of-formation">Connection to Standard Enthalpies of Formation</h2>
+<p>Hess&rsquo;s Law is closely related to <a href="./../standard-enthalpies-of-formation/">Standard Enthalpies of Formation</a>.  The standard enthalpy of formation ( $ \Delta H_f^\circ $ ) of a compound is the enthalpy change for the formation of one mole of the compound from its elements in their standard states.  Hess&rsquo;s Law can be used to calculate the standard enthalpy change of any reaction using the standard enthalpies of formation of the reactants and products:</p>
+<p>$ \Delta H^\circ_{rxn} = \sum n\Delta H_f^\circ (\text{products}) - \sum m\Delta H_f^\circ (\text{reactants}) $</p>
+<p>where n and m are the stoichiometric coefficients of the products and reactants, respectively.</p>
+<h2 id="bond-enthalpies-and-hesss-law">Bond Enthalpies and Hess&rsquo;s Law</h2>
+<p>Hess&rsquo;s Law can also be applied using <a href="./../bond-enthalpies/">Bond Enthalpies</a> to estimate reaction enthalpies.  This involves considering the energy required to break bonds in the reactants and the energy released when bonds are formed in the products.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

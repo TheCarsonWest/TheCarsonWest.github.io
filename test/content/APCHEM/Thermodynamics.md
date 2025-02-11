@@ -13,3 +13,4 @@
 - [Endothermic](./../endothermic/)
 - [Exothermic](./../exothermic/)
 # [Heat of Vaporization](./../heat-of-vaporization/)
+# [Hess Law](./../hess-law/)

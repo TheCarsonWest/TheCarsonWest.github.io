@@ -738,6 +738,8 @@
   </url><url>
     <loc>http://example.org/apush/people/herbert-hoover/</loc>
   </url><url>
+    <loc>http://example.org/hess-law/</loc>
+  </url><url>
     <loc>http://example.org/calc/higher-order-derivatives/</loc>
   </url><url>
     <loc>http://example.org/apush/ids/u2/house-of-burgesses/</loc>
@@ -1607,8 +1609,6 @@
     <loc>http://example.org/apchem/units-of-reaction-constant/</loc>
   </url><url>
     <loc>http://example.org/apchem/universal-gas-constant/</loc>
-  </url><url>
-    <loc>http://example.org/untitled-2/</loc>
   </url><url>
     <loc>http://example.org/aplang/useful-websites-and-articles/</loc>
   </url><url>
