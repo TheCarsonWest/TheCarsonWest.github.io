@@ -12,5 +12,5 @@
 - [Laws of Conservation](./../laws-of-conservation/)
 - [Endothermic](./../endothermic/)
 - [Exothermic](./../exothermic/)
-# [Heat of Vaporization](./../heat-of-vaporization/)
+# [Heat](./../heat/) of Vaporization]]
 # [Hess Law](./../hess-law/)

@@ -20,16 +20,16 @@ def my_function(param1, param2):
 
 ```
 
-[Function Parameters and Arguments](./../function-parameters-and-arguments/)
+[Function Parameters](./../function-parameters/) and Arguments]]
 
-[Function Return Values](./../function-return-values/)
+[Function [[Return Values](./../function-[[return-values/)
 
 **Calling Functions:**
 
 Functions are called by using their name followed by parentheses containing any necessary arguments.
 
 ```python
-result = my_function(5, 3)  # Calls my_function with arguments 5 and 3
+result = my_function([5](./../5/), [3](./../3/))  # Calls my_function with arguments [5](./../5/) and [3](./../3/)
 print(result)  # Prints 8
 ```
 
@@ -53,17 +53,17 @@ These are small, anonymous functions defined using the `lambda` keyword. They ar
 
 ```python
 square = lambda x: x*x
-print(square(5)) # Prints 25
+print(square([5](./../5/))) # Prints 25
 ```
 
 **Recursive Functions:**
 
-Functions that call themselves.  They must have a base case to avoid infinite [Recursion](./../recursion/). [Recursion in Python](./../recursion-in-python/)
+Functions that call themselves.  They must have a base case to avoid infinite [Recursion](./../recursion/). [Recursion](./../recursion/) in Python]]
 
 
-**Decorators:**
+**[Decorators](./../decorators/):**
 
-A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the `@` symbol. [Python Decorators](./../python-decorators/)
+A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the `@` symbol. [[Python [Decorators](./../decorators/)
 
 **Higher-Order Functions:**
 
@@ -72,11 +72,11 @@ Functions that take other functions as arguments or return functions as results.
 
 **Pre-existing Notes:**
 
-* [Function Parameters and Arguments](./../function-parameters-and-arguments/)
-* [Function Return Values](./../function-return-values/)
+* [Function Parameters](./../function-parameters/) and Arguments]]
+* [Function [[Return Values](./../function-[[return-values/)
 * [Variable Length Arguments in Python](./../variable-length-arguments-in-python/)
 * [Variable Scope and Lifetime](./../variable-scope-and-lifetime/)
-* [Recursion in Python](./../recursion-in-python/)
-* [Python Decorators](./../python-decorators/)
+* [Recursion](./../recursion/) in Python]]
+* [[Python [Decorators](./../decorators/)
 * [Higher-Order Functions](./../higher-order-functions/)
 

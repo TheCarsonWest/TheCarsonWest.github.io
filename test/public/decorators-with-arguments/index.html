@@ -44,9 +44,9 @@
 </div>
 
 <main>
-<h1 id="chaining-decoratorschaining-decorators"><a href="./../chaining-decorators/">Chaining Decorators</a></h1>
-<h1 id="decorators-with-argumentsdecorators-with-arguments"><a href="./../decorators-with-arguments/">Decorators with Arguments</a></h1>
-<p>Decorators are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  Standard decorators work by taking a function as input and returning a modified version. However, sometimes you need to pass arguments to the decorator itself to customize its behavior. This is where decorators with arguments come in.</p>
+<h1 id="chaining-decoratorschaining-decorators">[Chaining [<a href="./../chaining-%5B%5Bdecorators/">Decorators</a></h1>
+<h1 id="decoratorsdecorators-with-arguments"><a href="./../decorators/">Decorators</a> with Arguments]]</h1>
+<p><a href="./../decorators/">Decorators</a> are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  Standard decorators work by taking a function as input and returning a modified version. However, sometimes you need to pass arguments to the decorator itself to customize its behavior. This is where decorators with arguments come in.</p>
 <p>Instead of a simple decorator function, you create a decorator factory – a function that returns a decorator function.  This factory function accepts the arguments you need and uses them to create a tailored decorator.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator</span>(arg1, arg2):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator</span>(func):
@@ -70,7 +70,7 @@
 <p><strong>Key Points:</strong></p>
 <ul>
 <li><strong>Decorator Factory:</strong> The outer function (<code>my_decorator</code>) is the factory.</li>
-<li><strong>Nested Functions:</strong>  The structure uses nested functions (<code>decorator</code> and <code>wrapper</code>).</li>
+<li><strong><a href="./../nested-functions/">Nested Functions</a>:</strong>  The structure uses nested functions (<code>decorator</code> and <code>wrapper</code>).</li>
 <li><strong>Argument Passing:</strong> Arguments are passed to the factory, and these arguments are accessible within the <code>wrapper</code> function (via closure).</li>
 </ul>
 <p><a href="./../decorator-basics/">Decorator Basics</a>  (<a href="./../closure-in-python/">Closure in Python</a>)</p>

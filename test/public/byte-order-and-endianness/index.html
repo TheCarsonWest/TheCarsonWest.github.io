@@ -91,7 +91,7 @@ Byte:     0x78    0x56    0x34    0x12
 </span></span><span style="display:flex;"><span>unpacked_little <span style="color:#f92672">=</span> struct<span style="color:#f92672">.</span>unpack(<span style="color:#e6db74">&#34;&lt;I&#34;</span>, little_endian_data)[<span style="color:#ae81ff">0</span>]
 </span></span><span style="display:flex;"><span>print(hex(unpacked_big)) <span style="color:#75715e"># Output: 0x12345678</span>
 </span></span><span style="display:flex;"><span>print(hex(unpacked_little)) <span style="color:#75715e"># Output: 0x12345678</span>
-</span></span></code></pre></div><p><strong><a href="./../python-struct-module/">Python Struct Module</a></strong>  (<a href="./../byte-order-in-network-programming/">Byte Order in Network Programming</a>)</p>
+</span></span></code></pre></div><p><strong>[Python [<a href="./../python-%5B%5Bstruct-module/">Struct Module</a></strong>  (<a href="./../byte-order-in-network-programming/">Byte Order in Network Programming</a>)</p>
 <p><strong>Determining Your System&rsquo;s Endianness:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
 </span></span><span style="display:flex;"><span>print(sys<span style="color:#f92672">.</span>byteorder) <span style="color:#75715e"># Output: &#39;little&#39; (on most modern systems)</span>

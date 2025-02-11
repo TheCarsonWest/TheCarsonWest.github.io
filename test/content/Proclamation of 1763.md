@@ -4,13 +4,13 @@
 	author = 'Carson West'
 +++
 ## ID: [Proclamation of 1763](./../proclamation-of-1763/) 
-## When: October 7, 1763
+## When: October [7](./../7/), 1763
 
 ## Who:
 * **Issued by:** King George III of [Great Britain](./../great-britain/) * **Affected:** American colonists, especially those west of the Appalachian Mountains, and Native American tribes.
 
 ## What:
-A royal proclamation issued by the British government following Great Britain's victory in the French and Indian War.  It forbade colonial settlement west of a line drawn along the Appalachian Mountains.  This was intended to avoid further conflicts with Native Americans and to better control colonial expansion.  It also established a system of Indian reserves and regulated trade with Native American tribes.
+A royal proclamation issued by the British government following [Great Britain](./../great-britain/)'s victory in the [French and Indian War](./../french-and-indian-war/).  It forbade colonial settlement west of a line drawn along the Appalachian Mountains.  This was intended to avoid further conflicts with Native Americans and to better control colonial expansion.  It also established a system of Indian reserves and regulated trade with Native American tribes.
 
 ## Impact: Why Significant?:
 * **Colonial resentment:** The Proclamation angered many colonists who had hoped to acquire land west of the Appalachians, fueling resentment towards British authority and contributing to growing tensions that would eventually lead to the American Revolution.  It limited colonial economic expansion and opportunities.
@@ -20,4 +20,4 @@ A royal proclamation issued by the British government following Great Britain's 
 * **Westward expansion delayed, not stopped:** Although intended to limit westward expansion, the Proclamation ultimately proved ineffective in stopping it. It merely delayed the process, setting the stage for future conflicts and struggles over land.
 
 
-# [IDS Unit 4](./../ids-unit-4/)
+# [IDS Unit [[4](./../ids-unit-[[4/)

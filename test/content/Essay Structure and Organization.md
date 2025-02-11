@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Essay Structure and Organization](./../essay-structure-and-organization/)
 
 **I. Introduction**

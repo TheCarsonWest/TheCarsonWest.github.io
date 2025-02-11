@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Black Codes](./../black-codes/) 
-## When: 1865-1866 (immediately following the Civil War)
+## When: 1865-1866 (immediately following the [Civil War](./../civil-war/))
 
 ## Who: 
 * Southern State Legislatures 
@@ -26,4 +26,4 @@
 * **Led to Federal Intervention:** The [Black Codes](./../black-codes/) prompted Congress to pass the [Civil Rights Act of 1866](./../civil-rights-act-of-1866/) and the [14th amendment](./../14th-amendment/), which sought to protect Black citizens from discriminatory state laws.
 * **Shaped the Future of Race Relations:** The [Black Codes](./../black-codes/) set a dangerous precedent for racial discrimination and segregation, which would continue to plague the [United States](./../united-states/) for decades to come. 
 
-# [IDS Unit 4](./../ids-unit-4/)
+# [IDS Unit [[4](./../ids-unit-[[4/)

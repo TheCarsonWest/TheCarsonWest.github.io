@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Cross of Gold Speech
+## ID: [Cross of Gold Speech](./../cross-of-gold-speech/)
 
 ## When: July 8, 1896
 
@@ -16,8 +16,8 @@ A speech delivered by William Jennings Bryan at the Democratic National Conventi
 ## Impact: Why Significant?:
 * **Captured Public Imagination:** Bryan's passionate oratory and populist message resonated deeply with a large segment of the American population, particularly farmers and laborers struggling under economic hardship.
 * **Democratic Party Platform:** The speech secured Bryan the Democratic presidential nomination.  The adoption of the bimetallism platform significantly shifted the party's focus toward agrarian and working-class interests.
-* **1896 Election:** Although Bryan lost the 1896 presidential election to William McKinley, the speech and the subsequent campaign dramatically reshaped the political landscape, highlighting the growing tension between urban industrialists and rural agrarian interests.  It marked a high point of Populism.
-* **Symbol of Populism:** The Cross of Gold speech remains a powerful symbol of the Populist movement and its fight against the perceived injustices of the Gilded Age economic system.
+* **1896 Election:** Although Bryan lost the 1896 presidential election to [William McKinley](./../william-mckinley/), the speech and the subsequent campaign dramatically reshaped the political landscape, highlighting the growing tension between urban industrialists and rural agrarian interests.  It marked a high point of Populism.
+* **Symbol of Populism:** The Cross of Gold speech remains a powerful symbol of the Populist movement and its fight against the perceived injustices of the [Gilded Age](./../gilded-age/) economic system.
 * **Shift in Political Alignment:** The election and the rhetoric surrounding it solidified a new political alignment, setting the stage for decades of debate over monetary policy and the role of government in the economy.
 
-# [IDS Unit 5](./../ids-unit-5/)
+# [IDS Unit [[5](./../ids-unit-[[5/)

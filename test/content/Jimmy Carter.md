@@ -22,7 +22,7 @@
 **Foreign Policy:**
 
 * **Camp David Accords (1978):** Facilitated a peace treaty between Israel and Egypt
-* **Panama Canal Treaty (1978):** Agreed to transfer control of the Panama Canal to Panama by 2000
+* **[Panama Canal](./../panama-canal/) Treaty (1978):** Agreed to transfer control of the [Panama Canal](./../panama-canal/) to Panama by 2000
 * **Human Rights:** Emphasized human rights in foreign policy, alienating some allies
 
 **Other Key Events:**

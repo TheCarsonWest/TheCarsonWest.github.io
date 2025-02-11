@@ -27,10 +27,10 @@ string = "Hello, World! 123"
 match = re.findall(r"[aeiou]", string)  # Output: ['e', 'o', 'o']
 
 # Match any digit
-match = re.findall(r"[0-9]", string)  # Output: ['1', '2', '3']
+match = re.findall(r"[0-9]", string)  # Output: ['[1](./../1/)', '[2](./../2/)', '[3](./../3/)']
 
 # Match any character except a space
-match = re.findall(r"[^ ]", string) #Output: ['H', 'e', 'l', 'l', 'o', ',', 'W', 'o', 'r', 'l', 'd', '!', '1', '2', '3']
+match = re.findall(r"[^ ]", string) #Output: ['H', 'e', 'l', 'l', 'o', ',', 'W', 'o', 'r', 'l', 'd', '!', '[1](./../1/)', '[2](./../2/)', '[3](./../3/)']
 
 # Match any uppercase or lowercase letter
 match = re.findall(r"[a-zA-Z]", string) # Output: ['H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd']
@@ -46,4 +46,4 @@ match = re.findall(r"[^abc]", "abc^def") #Output: ['^']
 
 ```
 
-[Character Classes](./../character-classes/)  ([Escape Sequences](./../escape-sequences/)) [Regex Quantifiers](./../regex-quantifiers/)
+[Character Classes](./../character-classes/)  ([Escape [[Sequences](./../escape-[[sequences/)) [Regex Quantifiers](./../regex-quantifiers/)

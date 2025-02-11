@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Analysis](./../[[rhetorical-analysis/) Techniques]]
+# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
 # [Sentence Structure & Effect](./../sentence-structure-&-effect/)
 
 **I. Basic Sentence Structures:**

@@ -22,7 +22,7 @@
 **II. [Citation Styles](./../citation-styles/):**
 
 *   **Common Styles:**
-    *   MLA (Modern Language Association): Primarily used in humanities.
+    *   MLA (Modern [Language](./../language/) Association): Primarily used in humanities.
     *   APA (American Psychological Association): Commonly used in social sciences.
     *   Chicago: Versatile style with various formats (notes-bibliography, author-date).
     *   IEEE (Institute of Electrical and Electronics Engineers): Used in engineering and computer science.
@@ -46,7 +46,7 @@
 
 **IV.  Data and Statistical Analysis:** (If applicable to research)
 
-*   Data collection methods:  Surveys, experiments, observations, etc. [Data Collection Methods](./../data-collection-methods/)
+*   [Data collection](./../data-collection/) methods:  Surveys, experiments, observations, etc. [Data Collection Methods](./../data-collection-methods/)
 *   Statistical analysis techniques: Depending on the data and research question.  [Statistical Analysis Techniques](./../statistical-analysis-techniques/)
 *   Data visualization: Charts, graphs, etc. to present findings effectively. [Data Visualization Methods](./../data-visualization-methods/)
 

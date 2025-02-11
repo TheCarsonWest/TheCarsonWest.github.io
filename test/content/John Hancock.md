@@ -30,11 +30,11 @@
 **Key Documents:**
 * ** [Declaration of Independence](./../declaration-of-independence/) (1776):** Signed by Hancock as its first signer
 * ** [Articles of Confederation](./../articles-of-confederation/) (1781):** Signed by Hancock as President of the Continental Congress
-* **[Constitution of the United States](./../constitution-of-the-united-states/) (1787):** Hancock supported its ratification
+* **[Constitution of the [[United States](./../constitution-of-the-[[united-states/) (1787):** Hancock supported its ratification
 
 **Key People:**
 * ** [Samuel Adams](./../samuel-adams/):** A close associate and fellow member of the [Sons of Liberty](./../sons-of-liberty/)
-* **[George Washington](./../george-washington/):** Hancock worked closely with [Washington](./../washington/) during the Revolutionary War
+* **[George [[Washington](./../george-[[washington/):** Hancock worked closely with [Washington](./../washington/) during the Revolutionary War
 * ** [Thomas Jefferson](./../thomas-jefferson/):** Hancock had a complex relationship with Jefferson, who was also a signer of the [Declaration of Independence](./../declaration-of-independence/)
 * **Abigail Adams:** Hancock's wife, who was an influential political figure in her own right
 # [APUSH people](./../apush-people/)

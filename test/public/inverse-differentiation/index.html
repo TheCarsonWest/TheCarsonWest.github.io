@@ -48,40 +48,36 @@
 <h2 id="differentiating-inverse-functions-in-calculus-ab">Differentiating Inverse Functions in Calculus AB</h2>
 <p>This rundown explores the concept of differentiating inverse functions in Calculus AB, focusing on the essential understanding and application of the technique.</p>
 <h3 id="understanding-inverse-functions">Understanding Inverse Functions</h3>
-<p>An inverse function &ldquo;undoes&rdquo; the action of the original function.  If we have a function  $ f(x) $  and its inverse  $ f^{-1}(x) $ , then:</p>
+<p>An inverse function &ldquo;undoes&rdquo; the action of the original function.  If we have a function  $ f(x) $  and its inverse  $ f^{-<a href="./../1/">1</a>}(x) $ , then:</p>
 <ul>
-<li>$ f(f^{-1}(x)) = x $  for all  $ x $  in the domain of  $ f^{-1}(x) $</li>
-<li>$ f^{-1}(f(x)) = x $  for all  $ x $  in the domain of  $ f(x) $</li>
+<li>$ f(f^{-<a href="./../1/">1</a>}(x)) = x $  for all  $ x $  in the domain of  $ f^{-<a href="./../1/">1</a>}(x) $</li>
+<li>$ f^{-<a href="./../1/">1</a>}(f(x)) = x $  for all  $ x $  in the domain of  $ f(x) $</li>
 </ul>
-<p>For example, consider the function  $ f(x) = 2x + 1 $ . Its inverse is  $ f^{-1}(x) = \frac{x-1}{2} $ .  Notice that:</p>
+<p>For example, consider the function  $ f(x) = 2x + <a href="./../1/">1</a> $ . Its inverse is  $ f^{-<a href="./../1/">1</a>}(x) = \frac{x-<a href="./../1/">1</a>}{<a href="./../2/">2</a>} $ .  Notice that:</p>
 <ul>
-<li>$ f(f^{-1}(x)) = f\left(\frac{x-1}{2}\right) = 2\left(\frac{x-1}{2}\right) + 1 = x $</li>
-<li>$ f^{-1}(f(x)) = f^{-1}(2x + 1) = \frac{(2x+1)-1}{2} = x $</li>
+<li>$ f(f^{-<a href="./../1/">1</a>}(x)) = f\left(\frac{x-<a href="./../1/">1</a>}{<a href="./../2/">2</a>}\right) = <a href="./../2/">2</a>\left(\frac{x-<a href="./../1/">1</a>}{<a href="./../2/">2</a>}\right) + <a href="./../1/">1</a> = x $</li>
+<li>$ f^{-<a href="./../1/">1</a>}(f(x)) = f^{-<a href="./../1/">1</a>}(2x + <a href="./../1/">1</a>) = \frac{(2x+<a href="./../1/">1</a>)-<a href="./../1/">1</a>}{<a href="./../2/">2</a>} = x $</li>
 </ul>
 <h1 id="the-derivativederivative-of-an-inverse-function">The <a href="./../derivative/">Derivative</a> of an Inverse Function</h1>
 <p>The derivative of an inverse function can be found using the following formula:</p>
-<p>$ \qquad \boxed{\frac{d}{dx} f^{-1}(x) = \frac{1}{f&rsquo;(f^{-1}(x))}} $</p>
+<p>$ \qquad \boxed{\frac{d}{dx} f^{-<a href="./../1/">1</a>}(x) = \frac{<a href="./../1/">1</a>}{f&rsquo;(f^{-<a href="./../1/">1</a>}(x))}} $</p>
 <p><strong>Explanation:</strong></p>
-<ol>
-<li><strong>Finding the Inverse:</strong>  First, determine the inverse function  $ f^{-1}(x) $ .</li>
-<li><strong>Evaluating the Original Function:</strong>  Evaluate the original function  $ f(x) $  at the inverse function,  $ f^{-1}(x) $ . This gives us  $ f(f^{-1}(x)) $ .</li>
-<li><strong>Finding the Derivative:</strong>  Calculate the derivative of the original function,  $ f&rsquo;(x) $ .</li>
-<li><strong>Evaluating the Derivative:</strong>  Evaluate the derivative of the original function at the inverse function,  $ f&rsquo;(f^{-1}(x)) $ .</li>
-<li><strong>Taking the Reciprocal:</strong>  Take the reciprocal of the result from step 4.</li>
-</ol>
+<p><a href="./../1/">1</a>. <strong>Finding the Inverse:</strong>  First, determine the inverse function  $ f^{-<a href="./../1/">1</a>}(x) $ .
+<a href="./../2/">2</a>. <strong>Evaluating the Original Function:</strong>  Evaluate the original function  $ f(x) $  at the inverse function,  $ f^{-<a href="./../1/">1</a>}(x) $ . This gives us  $ f(f^{-<a href="./../1/">1</a>}(x)) $ .
+<a href="./../3/">3</a>. <strong>Finding the <a href="./../derivative/">Derivative</a>:</strong>  Calculate the derivative of the original function,  $ f&rsquo;(x) $ .
+<a href="./../4/">4</a>. <strong>Evaluating the <a href="./../derivative/">Derivative</a>:</strong>  Evaluate the derivative of the original function at the inverse function,  $ f&rsquo;(f^{-<a href="./../1/">1</a>}(x)) $ .
+<a href="./../5/">5</a>. <strong>Taking the Reciprocal:</strong>  Take the reciprocal of the result from step <a href="./../4/">4</a>.</p>
 <h3 id="example-differentiating-an-inverse-function">Example: Differentiating an Inverse Function</h3>
-<p>Let&rsquo;s find the derivative of the inverse of the function  $ f(x) = x^3 + 2x $ .</p>
-<ol>
-<li><strong>Finding the Inverse:</strong>  Finding the inverse function explicitly can be challenging. For this example, we&rsquo;ll assume we know the inverse exists and focus on the differentiation process.</li>
-<li><strong>Evaluating the Original Function:</strong>  We need to find  $ f(f^{-1}(x)) $ . Since  $ f^{-1}(x) $  &ldquo;undoes&rdquo;  $ f(x) $ , we know that  $ f(f^{-1}(x)) = x $ .</li>
-<li><strong>Finding the Derivative:</strong>  The derivative of the original function is  $ f&rsquo;(x) = 3x^2 + 2 $ .</li>
-<li><strong>Evaluating the Derivative:</strong>  We need to find  $ f&rsquo;(f^{-1}(x)) $ . Since we don&rsquo;t have an explicit form for  $ f^{-1}(x) $ , we leave it as is:  $ f&rsquo;(f^{-1}(x)) = 3(f^{-1}(x))^2 + 2 $ .</li>
-<li><strong>Taking the Reciprocal:</strong>  The derivative of the inverse function is:</li>
-</ol>
-<p>$ \qquad \frac{d}{dx} f^{-1}(x) = \frac{1}{f&rsquo;(f^{-1}(x))} = \boxed{\frac{1}{3(f^{-1}(x))^2 + 2}} $</p>
+<p>Let&rsquo;s find the derivative of the inverse of the function  $ f(x) = x^<a href="./../3/">3</a> + 2x $ .</p>
+<p><a href="./../1/">1</a>. <strong>Finding the Inverse:</strong>  Finding the inverse function explicitly can be challenging. For this example, we&rsquo;ll assume we know the inverse exists and focus on the differentiation process.
+<a href="./../2/">2</a>. <strong>Evaluating the Original Function:</strong>  We need to find  $ f(f^{-<a href="./../1/">1</a>}(x)) $ . Since  $ f^{-<a href="./../1/">1</a>}(x) $  &ldquo;undoes&rdquo;  $ f(x) $ , we know that  $ f(f^{-<a href="./../1/">1</a>}(x)) = x $ .
+<a href="./../3/">3</a>. <strong>Finding the <a href="./../derivative/">Derivative</a>:</strong>  The derivative of the original function is  $ f&rsquo;(x) = 3x^<a href="./../2/">2</a> + <a href="./../2/">2</a> $ .
+<a href="./../4/">4</a>. <strong>Evaluating the <a href="./../derivative/">Derivative</a>:</strong>  We need to find  $ f&rsquo;(f^{-<a href="./../1/">1</a>}(x)) $ . Since we don&rsquo;t have an explicit form for  $ f^{-<a href="./../1/">1</a>}(x) $ , we leave it as is:  $ f&rsquo;(f^{-<a href="./../1/">1</a>}(x)) = <a href="./../3/">3</a>(f^{-<a href="./../1/">1</a>}(x))^<a href="./../2/">2</a> + <a href="./../2/">2</a> $ .
+<a href="./../5/">5</a>. <strong>Taking the Reciprocal:</strong>  The derivative of the inverse function is:</p>
+<p>$ \qquad \frac{d}{dx} f^{-<a href="./../1/">1</a>}(x) = \frac{<a href="./../1/">1</a>}{f&rsquo;(f^{-<a href="./../1/">1</a>}(x))} = \boxed{\frac{<a href="./../1/">1</a>}{<a href="./../3/">3</a>(f^{-<a href="./../1/">1</a>}(x))^<a href="./../2/">2</a> + <a href="./../2/">2</a>}} $</p>
 <h3 id="important-considerations">Important Considerations</h3>
 <ul>
-<li><strong>Domain and Range:</strong> When working with inverse functions, be mindful of their domains and ranges. The domain of  $ f^{-1}(x) $  is the range of  $ f(x) $ , and vice versa.</li>
+<li><strong>Domain and Range:</strong> When working with inverse functions, be mindful of their domains and ranges. The domain of  $ f^{-<a href="./../1/">1</a>}(x) $  is the range of  $ f(x) $ , and vice versa.</li>
 <li><strong>Existence of the Inverse:</strong> Not all functions have inverses. A function must be one-to-one (meaning each output corresponds to a unique input) to have an inverse.</li>
 </ul>
 <h3 id="applications-of-inverse-functions">Applications of Inverse Functions</h3>

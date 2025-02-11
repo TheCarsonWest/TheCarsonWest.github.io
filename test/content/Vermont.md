@@ -10,7 +10,7 @@
 * **1777:** [Vermont](./../vermont/) declares independence from [Great Britain](./../great-britain/).
 * **1791:** [Vermont](./../vermont/) ratifies the U.S. Constitution, becoming the 14th state.
 * **1843:** [Vermont](./../vermont/) prohibits slavery within its borders.
-* **1861-1865:** [Vermont](./../vermont/) sends troops to fight in the Civil War.
+* **1861-1865:** [Vermont](./../vermont/) sends troops to fight in the [Civil War](./../civil-war/).
 * **1911:** [Vermont](./../vermont/) adopts the first workers' compensation law in the nation.
 * **1970:** [Vermont](./../vermont/) becomes the first state to legalize abortion.
 * **1990:** [Vermont](./../vermont/) passes the first universal health care law in the [United States](./../united-states/).

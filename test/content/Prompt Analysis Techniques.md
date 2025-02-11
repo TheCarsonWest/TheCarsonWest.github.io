@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Synthesis Essay](./../[[synthesis-essay/) Strategies]]
+# [Synthesis Essay](./../synthesis-essay/) Strategies]]
 # [Prompt Analysis Techniques](./../prompt-analysis-techniques/)
 
 These notes detail various techniques for analyzing prompts, particularly for large language models (LLMs).  The goal is to understand the nuances of a prompt to better control the LLM's output.

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Imagery and Sensory Details](./../imagery-and-sensory-details/)
 
 This note covers the use of imagery and sensory details in writing.  The goal is to create vivid and engaging descriptions that appeal to the reader's senses.
@@ -43,16 +43,16 @@ This note covers the use of imagery and sensory details in writing.  The goal is
 
 **Further Notes:**
 
-* [Figurative Language](./../figurative-language/)
+* [Figurative [[Language](./../figurative-[[language/)
 * [Mood and Atmosphere](./../mood-and-atmosphere/)
 * [Character Development](./../character-development/)
 
 
 **Equations (Illustrative, not directly related to the core topic):**
 
-The area of a circle is given by:   $ A = \pi r^2 $ 
+The area of a circle is given by:   $ A = \pi r^[2](./../2/) $ 
 
-The Pythagorean theorem states:   $$ a^2 + b^2 = c^2 $$  
+The Pythagorean theorem states:   $$ a^[2](./../2/) + b^[2](./../2/) = c^[2](./../2/) $$  
 Where:
 
 *  $ A $  = Area

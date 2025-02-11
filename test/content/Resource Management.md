@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Custom Context Managers](./../custom-context-managers/)
+# [Custom [[Context Managers](./../custom-[[context-managers/)
 # [Resource Management](./../resource-management/) in Python
 
 This note covers resource management in Python, focusing on efficient and safe handling of system resources.
@@ -18,7 +18,7 @@ Key aspects include:
         # Process contents
     # File automatically closed here
     ```
-    * [File Handling Best Practices](./../file-handling-best-practices/)  (This will be a separate note).
+    * [File Handling](./../file-handling/) Best Practices]]  (This will be a separate note).
 
 * **Network Connections:**
     * Similar to files, network sockets should be closed after use.  Use `with` statements or explicit `socket.close()` calls.  [Context Managers](./../context-managers/) ensure cleanup even if exceptions occur.
@@ -52,8 +52,8 @@ Key aspects include:
 
 
 * **[Context Managers](./../context-managers/) (`with` statement):**
-    * The `with` statement is crucial for resource management.  It ensures that resources (files, network connections, database connections, etc.) are properly released, even if errors occur.  It's the recommended way to handle resources that require explicit cleanup.  Learn about creating [Custom Context Managers](./../custom-context-managers/) using the `contextlib` module.
-    * [Context Managers in Python](./../context-managers-in-python/) (This will be a separate note)
+    * The `with` statement is crucial for resource management.  It ensures that resources (files, network connections, database connections, etc.) are properly released, even if errors occur.  It's the recommended way to handle resources that require explicit cleanup.  Learn about creating [Custom [[Context Managers](./../custom-[[context-managers/) using the `contextlib` module.
+    * [Context Managers](./../context-managers/) in Python]] (This will be a separate note)
 
 
 * **Process and Thread Management:**
@@ -73,4 +73,4 @@ Key aspects include:
         if 'file' in locals() and file:
             file.close()
     ```
-    * [Python Exception Handling](./../python-exception-handling/) (This will be a separate note)
+    * [[Python [Exception Handling](./../exception-handling/) (This will be a separate note)

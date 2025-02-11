@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Bitwise Operators](./../bitwise-operators/)
+# [Bitwise [[Operators](./../bitwise-[[operators/)
 # [Binary Representation of Numbers](./../binary-representation-of-numbers/) 
 Python, like most programming languages, handles numbers internally using binary representation.  This means that numbers are stored as sequences of 0s and 1s. Understanding this is crucial for efficient programming and debugging, especially when dealing with bitwise operations or low-level programming.
 
@@ -28,13 +28,13 @@ To convert a binary string back to decimal:
 
 ```python
 binary_string = "1010"
-decimal_number = int(binary_string, 2) # The 2 indicates base 2 (binary)
+decimal_number = int(binary_string, [2](./../2/)) # The [2](./../2/) indicates base [2](./../2/) (binary)
 print(f"The decimal representation of {binary_string} is {decimal_number}") # Output: 10
 ```
 
-[Bitwise Operators](./../bitwise-operators/)  These operators manipulate the individual bits of numbers.  This will be covered in a separate note.
+[Bitwise [[Operators](./../bitwise-[[operators/)  These operators manipulate the individual bits of numbers.  This will be covered in a separate note.
 
-[Data Types and Memory Management](./../data-types-and-memory-management/)  How Python handles different data types and allocates memory is related to the underlying binary representation.  This will require a separate note.
+[Data Types](./../data-types/) and Memory Management]]  How Python handles different data types and allocates memory is related to the underlying binary representation.  This will require a separate note.
 
 
 [Number Systems](./../number-systems/)  A broader overview of number systems (decimal, binary, hexadecimal, octal) would be useful context.

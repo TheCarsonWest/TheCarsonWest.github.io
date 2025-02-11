@@ -7,4 +7,4 @@
 ###  $$ \frac{d}{dx}[e^x] = e^x $$  
 
 
-# [Derivative Rules](./../derivative-rules/)
+# [Derivative](./../derivative/) Rules]]

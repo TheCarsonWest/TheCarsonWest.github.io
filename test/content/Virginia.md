@@ -12,7 +12,7 @@
 * 1624: The [Virginia](./../virginia/) Company of London is dissolved, and [Virginia](./../virginia/) becomes a royal colony.
 * 1776: [Virginia](./../virginia/) adopts a Declaration of Rights written by George Mason, which influences the drafting of the U.S. [Declaration of Independence](./../declaration-of-independence/).
 * 1788: [Virginia](./../virginia/) ratifies the U.S. Constitution, becoming the 10th state.
-* 1861: [Virginia](./../virginia/) secedes from the Union, triggering the American Civil War.
+* 1861: [Virginia](./../virginia/) secedes from the Union, triggering the American [Civil War](./../civil-war/).
 * 1865: [Virginia](./../virginia/) is readmitted to the Union after the war ends.
 
 **Important Legislation:**

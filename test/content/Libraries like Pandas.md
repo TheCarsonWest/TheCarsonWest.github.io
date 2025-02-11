@@ -5,7 +5,7 @@
 +++
 # [Modules and Packages](./../modules-and-packages/)
 # Python Note: [Libraries like Pandas](./../libraries-like-pandas/) 
-The term "Libraries like Pandas" refers to powerful Python libraries that provide high-level data manipulation and analysis capabilities. Pandas, in particular, is a cornerstone of data science in Python.  This note will focus on Pandas, but the concept extends to other libraries with similar functionalities.
+The term "[Libraries like Pandas](./../libraries-like-pandas/)" refers to powerful Python libraries that provide high-level data manipulation and analysis capabilities. Pandas, in particular, is a cornerstone of data science in Python.  This note will focus on Pandas, but the concept extends to other libraries with similar functionalities.
 
 Key features of libraries like Pandas include:
 
@@ -28,7 +28,7 @@ import pandas as pd
 # Create a DataFrame
 data = {'Name': ['Alice', 'Bob', 'Charlie'],
         'Age': [25, 30, 28],
-        'City': ['New York', 'London', 'Paris']}
+        'City': ['[New York](./../new-york/)', 'London', 'Paris']}
 df = pd.DataFrame(data)
 
 # Display the DataFrame

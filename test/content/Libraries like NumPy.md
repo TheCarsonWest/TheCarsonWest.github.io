@@ -29,14 +29,14 @@ Key Features:
 import numpy as np
 
 # Creating a NumPy array
-arr = np.array([1, 2, 3, 4, 5])
+arr = np.array([[1](./../[1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/)])
 
 # Performing element-wise operations
-squared_arr = arr ** 2 
+squared_arr = arr ** [2](./../2/) 
 
 # Matrix multiplication
-matrix1 = np.array([1, 2], [3, 4](./../1-2]-[3-4/))
-matrix2 = np.array([5, 6], [7, 8](./../5-6]-[7-8/))
+matrix1 = np.array([1](./../1/), [2](./../2/)], [[3](./../3/), [4](./../4/))
+matrix2 = np.array([5](./../5/), [6](./../6/)], [[7](./../[7/), 8]])
 result = np.dot(matrix1, matrix2)
 
 print(arr)

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
-# [Vocabulary Lists](./../vocabulary-lists/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [Vocabulary [[Lists](./../vocabulary-[[lists/)
 
 **Goal:** Create effective and efficient vocabulary learning systems.
 
@@ -29,7 +29,7 @@
     * Anki
     * Memrise
     * Flashcard apps
-    * Online dictionaries (e.g., Merriam-Webster, Oxford Dictionaries)
+    * Online dictionaries (e.g., Merriam-Webster, Oxford [Dictionaries](./../dictionaries/))
 
 
 * **Evaluation:** Track progress using metrics like words learned per day/week, retention rate after a specific period, and overall vocabulary size. [Progress Tracking & Metrics](./../progress-tracking-&-metrics/)

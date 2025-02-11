@@ -10,7 +10,7 @@
 * **1513:** Juan Ponce de León explores the [Florida](./../florida/) coast.
 * **1565:** Pedro Menéndez de Avilés establishes the first permanent European settlement in [Florida](./../florida/), St. Augustine.
 * **1763:** [Great Britain](./../great-britain/) acquires [Florida](./../florida/) from [Spain](./../spain/) in the Treaty of Paris.
-* **1783:** [Spain](./../spain/) regains control of [Florida](./../florida/) in the Treaty of Versailles.
+* **1783:** [Spain](./../spain/) regains control of [Florida](./../florida/) in the [Treaty of Versailles](./../treaty-of-versailles/).
 * **1819:** [Spain](./../spain/) cedes [Florida](./../florida/) to the [United States](./../united-states/) in the Adams-Onís Treaty.
 * **1822:** [Florida](./../florida/) becomes a territory of the [United States](./../united-states/).
 * **1845:** [Florida](./../florida/) becomes the 27th state of the [United States](./../united-states/).
@@ -37,7 +37,7 @@
 * **1964:** The Civil Rights Act of 1964 prohibits discrimination based on race, color, [Religion](./../religion/), sex, or national origin.
 * **1972:** The [Florida](./../florida/) Comprehensive Growth Management Act establishes a framework for regulating growth in the state.
 * **2000:** The [Florida](./../florida/) Supreme Court orders a recount in the 2000 presidential election, but the U.S. Supreme Court halts the recount and declares [George W](./../george-w/). Bush the winner.
-* **2018:** The [Florida](./../florida/) Constitution Amendment 4 restores voting rights to felons who have completed their sentences.
+* **2018:** The [Florida](./../florida/) Constitution Amendment [4](./../4/) restores voting rights to felons who have completed their sentences.
 
 **Important Court Cases:**
 

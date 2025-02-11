@@ -23,7 +23,7 @@ A deep-seated division in the [United States](./../united-states/) based on geog
 * **Territorial expansion:** Debate over slavery in new territories
 
 ## Impact: Why Significant?:
-* **Increased tension and conflict:** [Sectionalism](./../sectionalism/) fueled debates over slavery, westward expansion, and the role of the federal government, ultimately leading to the Civil War. 
+* **Increased tension and conflict:** [Sectionalism](./../sectionalism/) fueled debates over slavery, westward expansion, and the role of the federal government, ultimately leading to the [Civil War](./../civil-war/). 
 * **Compromises and political maneuvering:** To maintain unity, political leaders attempted to forge compromises, such as the [Missouri](./../missouri/) Compromise (1820) and the [Compromise of 1850](./../compromise-of-1850/). However, these often proved temporary and only deepened the divisions.
 * **Rise of sectional political parties:** The rise of the Whig and Democratic parties reflected the growing divide between the North and South. 
 * **Formation of the Confederate States of America:** [Sectionalism](./../sectionalism/) ultimately led to the secession of Southern states in 1860-1861 and the formation of the Confederacy.
@@ -32,7 +32,7 @@ A deep-seated division in the [United States](./../united-states/) based on geog
 * **[Nullification](./../nullification/) Crisis (1832-1833)**: [South Carolina](./../south-carolina/)'s attempt to nullify the federal tariff.
 * **Mexican-American War (1846-1848)**: Debate over the expansion of slavery into new territories.
 * **[Compromise of 1850](./../compromise-of-1850/):** A temporary solution to the issue of slavery in the territories, but further fueled tensions.
-* **[Kansas-Nebraska Act](./../kansas-nebraska-act/) (1854):** Allowed for [popular sovereignty](./../popular-sovereignty/) to decide on the issue of slavery in the territories, leading to violence and bloodshed in [Kansas](./../kansas/).
+* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act]] (1854):** Allowed for [popular sovereignty](./../popular-sovereignty/) to decide on the issue of slavery in the territories, leading to violence and bloodshed in [Kansas](./../kansas/).
 * **Dred Scott v. Sandford (1857):** Supreme Court decision that ruled that slaves were not citizens and had no rights, further dividing the nation. 
 
-# [IDS Unit 4](./../ids-unit-4/)
+# [IDS Unit [[4](./../ids-unit-[[4/)

@@ -5,14 +5,14 @@
 +++
 # [ID Home](./../id-home/)
 
-## I: Immigration/Urbanization
-1. [Great Chicago Fire](./../great-chicago-fire/)
-2. [Chinese Exclusion Act](./../chinese-exclusion-act/)
-3. [Old Immigration vs New Immigration](./../old-immigration-vs-new-immigration/)
-4. [Plessy v Ferguson](./../plessy-v-ferguson/)
-5. [Urbanization](./../urbanization/)
-6. [Tenement Housing](./../tenement-housing/)
-7. [Social Gospel Movement](./../social-gospel-movement/)
+## I: Immigration/[Urbanization](./../urbanization/)
+[1](./../1/). [Great Chicago Fire](./../great-chicago-fire/)
+[2](./../2/). [Chinese Exclusion Act](./../chinese-exclusion-act/)
+[3](./../3/). [Old Immigration vs New Immigration](./../old-immigration-vs-new-immigration/)
+[4](./../4/). [Plessy v Ferguson](./../plessy-v-ferguson/)
+[5](./../5/). [Urbanization](./../urbanization/)
+[6](./../6/). [Tenement Housing](./../tenement-housing/)
+[7](./../7/). [Social Gospel Movement](./../social-gospel-movement/)
 8. [How the Other Half Lives](./../how-the-other-half-lives/)
 9. [Hull House](./../hull-house/)
 10. [Ragtime Music](./../ragtime-music/)
@@ -25,19 +25,19 @@
 16. [Spanish-American War](./../spanish-american-war/)
 17. [Teller Amendment](./../teller-amendment/)
 18. [Platt Amendment](./../platt-amendment/)
-19. [Roosevelt Corollary (to Monroe Doctrine)](./../roosevelt-corollary-(to-monroe-doctrine)/)
+19. [Roosevelt Corollary (to [[Monroe Doctrine](./../roosevelt-corollary-(to-[[monroe-doctrine/))]]
 20. [Panama Canal](./../panama-canal/)
-## III: Progressivism
-21. [Wisconsin Idea (Robert LaFollete)](./../wisconsin-idea-(robert-lafollete)/)
+## III: [Progressivism](./../progressivism/)
+21. [Wisconsin](./../wisconsin/) Idea (Robert LaFollete)]]
 22. [Progressive Amendments (16-19).md](./../progressive-amendments-(16-19).md/)
 23. [Teddy Roosevelt (as President)](./../teddy-roosevelt-(as-president)/)
-24. [Bully Pulpit.md](./../bully-pulpit.md/)
+24. [Bully Pulpit](./../bully-pulpit/).md]]
 25. [Square Deal](./../square-deal/)
 26. [The Jungle](./../the-jungle/)
 27. [Meat Inspection Act](./../meat-inspection-act/)
 28. [Pure Food and Drug Act](./../pure-food-and-drug-act/)
 29. [Sierra Club](./../sierra-club/)
-30. [Booker T Washington](./../booker-t-washington/)
+30. [Booker T [[Washington](./../booker-t-[[washington/)
 31. [WEB Dubois](./../web-dubois/)
 32. [Atlanta Compromise](./../atlanta-compromise/)
 33. [Bull Moose Party](./../bull-moose-party/)

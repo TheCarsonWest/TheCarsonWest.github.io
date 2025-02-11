@@ -22,14 +22,14 @@ Hybridization is a theoretical concept in chemistry that explains the bonding pa
 
 **Examples:**
 
-1. **Methane ( $ CH_4 $ ):**
-    * Carbon has an electronic configuration of  $ 1s^22s^22p^2 $ .
-    * During hybridization, the 2s orbital and three 2p orbitals mix to form four sp³ hybrid orbitals.
+[1](./../1/). **Methane ( $ CH_4 $ ):**
+    * Carbon has an electronic configuration of  $ 1s^22s^22p^[2](./../2/) $ .
+    * During [hybridization](./../hybridization/), the 2s orbital and three 2p orbitals mix to form four sp³ hybrid orbitals.
     * Each sp³ hybrid orbital forms a [sigma bond](./../sigma-bond/) with a hydrogen atom, resulting in a tetrahedral geometry.
-    * The [bond angle](./../bond-angle/) in methane is approximately 109.5°.
+    * The [bond angle](./../bond-angle/) in methane is approximately 109.[5](./../5/)°.
 
-2. **Ethene ( $ C_2H_4 $ ):**
-    * Each carbon atom undergoes sp² hybridization, forming three sp² hybrid orbitals.
+[2](./../2/). **Ethene ( $ C_2H_4 $ ):**
+    * Each carbon atom undergoes sp² [hybridization](./../hybridization/), forming three sp² hybrid orbitals.
     * Two sp² hybrid orbitals from each carbon atom form sigma bonds with two hydrogen atoms.
     * The remaining sp² hybrid orbitals from each carbon atom form a [sigma bond](./../sigma-bond/) between the two carbon atoms.
     * The unhybridized p orbitals on each carbon atom overlap side-by-side to form a [pi bond](./../pi-bond/), resulting in a double bond between the carbon atoms.

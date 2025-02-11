@@ -6,4 +6,4 @@
 ## [Constant rule](./../constant-rule/) ###  $$  \frac{d}{dx}[C] = 0  $$  
 
 
-# [Derivative Rules](./../derivative-rules/)
+# [Derivative](./../derivative/) Rules]]

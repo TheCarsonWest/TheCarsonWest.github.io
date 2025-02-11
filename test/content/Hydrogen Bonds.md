@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 [intermolecular forces](./../intermolecular-forces/)
-## Hydrogen Bonds: Dipole Dipole but with hydrogen
+## [Hydrogen Bonds](./../hydrogen-bonds/): Dipole Dipole but with hydrogen
 - Only occurs in molecules with:
 	- A Highly electronegative([Electronegativity](./../electronegativity/)) Element
 		- O N or F

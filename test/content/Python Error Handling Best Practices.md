@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Exception Handling Examples](./../exception-handling-examples/)
+# [Exception Handling](./../exception-handling/) Examples]]
 # [Python [[Error Handling](./../python-[[error-handling/) Best Practices]] 
 These notes cover best practices for handling errors in Python.  The goal is to write robust and user-friendly code that gracefully handles unexpected situations.
 
@@ -45,7 +45,7 @@ def process_data(data):
     # ... rest of the function ...
 ```
 
-* **Context Managers (`with` statement):**  Useful for managing resources that need to be properly released (e.g., files, network connections).  The `with` statement ensures that resources are cleaned up even if exceptions occur.
+* **[Context Managers](./../context-managers/) (`with` statement):**  Useful for managing resources that need to be properly released (e.g., files, network connections).  The `with` statement ensures that resources are cleaned up even if exceptions occur.
 
 ```python
 with open("myfile.txt", "r") as f:
@@ -62,7 +62,7 @@ with open("myfile.txt", "r") as f:
 **Related Notes:**
 
 * [Python Exception Hierarchy](./../python-exception-hierarchy/)
-* [Common Python Exceptions](./../common-python-exceptions/)
+* [Common [[Python Exceptions](./../common-[[python-exceptions/)
 
 
 

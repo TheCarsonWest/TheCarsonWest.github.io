@@ -4,12 +4,12 @@
 	author = 'Carson West'
 +++
 # [File IO Modes](./../file-io-modes/)
-# [File Handling Best Practices](./../file-handling-best-practices/) 
+# [File Handling](./../file-handling/) Best Practices]] 
 These notes cover best practices for file handling in Python.
 
 **Key Areas:**
 
-* **Error Handling:**  Always use `try...except` blocks to gracefully handle potential errors like `FileNotFoundError`, `IOError`, etc.  This prevents your program from crashing.
+* **[Error Handling](./../error-handling/):**  Always use `try...except` blocks to gracefully handle potential errors like `FileNotFoundError`, `IOError`, etc.  This prevents your program from crashing.
 
 ```python
 try:
@@ -22,7 +22,7 @@ except IOError as e:
     print(f"An IO error occurred: {e}")
 ```
 
-* **Context Managers (`with` statement):**  The `with` statement ensures files are automatically closed, even if errors occur. This prevents resource leaks and ensures data integrity.  See [Context Managers](./../context-managers/).
+* **[Context Managers](./../context-managers/) (`with` statement):**  The `with` statement ensures files are automatically closed, even if errors occur. This prevents resource leaks and ensures data integrity.  See [Context Managers](./../context-managers/).
 
 ```python
 with open("my_file.txt", "w") as f:
@@ -49,7 +49,7 @@ import os
 file_path = os.path.join("my_directory", "my_file.txt")
 ```
 
-* **Large Files:** For extremely large files, consider processing them in chunks to avoid loading the entire file into memory at once.  See [Large File Handling](./../large-file-handling/).
+* **Large Files:** For extremely large files, consider processing them in chunks to avoid loading the entire file into memory at once.  See [[Large [File Handling](./../file-handling/).
 
 * **Temporary Files:** Use the `tempfile` module to create temporary files safely and automatically delete them when finished. See [Temporary Files](./../temporary-files/).
 
@@ -60,7 +60,7 @@ file_path = os.path.join("my_directory", "my_file.txt")
 [File Modes](./../file-modes/)
 [Buffering](./../buffering/)
 [os.path Module](./../os.path-module/)
-[Large File Handling](./../large-file-handling/)
+[[Large [File Handling](./../file-handling/)
 [Temporary Files](./../temporary-files/)
 [File Security](./../file-security/)
 

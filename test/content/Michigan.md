@@ -40,6 +40,6 @@
 **Impact on the Rest of the Country**
 
 * [Michigan](./../michigan/) has been a major center of automotive manufacturing for over a century, and its industry has had a significant impact on the U.S. economy.
-* [Michigan](./../michigan/) was a battleground state in the Civil War, and its contributions to the Union Army helped to ensure the preservation of the Union.
+* [Michigan](./../michigan/) was a battleground state in the [Civil War](./../civil-war/), and its contributions to the Union Army helped to ensure the preservation of the Union.
 * [Michigan](./../michigan/)'s Brown v. Board of Education case was a landmark decision in the fight for civil rights, and it helped to pave the way for the desegregation of schools.
 * [Michigan](./../michigan/) has been a leader in the development of social welfare programs, such as the [Michigan](./../michigan/) Mother's Pension Act and the Social Security Act.

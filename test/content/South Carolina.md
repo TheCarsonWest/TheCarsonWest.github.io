@@ -14,7 +14,7 @@
 * **1783:** End of the Revolutionary War; [South Carolina](./../south-carolina/) becomes part of the [United States](./../united-states/)
 * **1832:** Nullifies the Tariff of 1833
 * **1860:** Secedes from the Union
-* **1861:** Attacks [Fort Sumter](./../fort-sumter/), sparking the [Civil War](./../civil-war/) * **1865:** End of the Civil War; [South Carolina](./../south-carolina/) rejoins the Union
+* **1861:** Attacks [Fort Sumter](./../fort-sumter/), sparking the [Civil War](./../civil-war/) * **1865:** End of the [Civil War](./../civil-war/); [South Carolina](./../south-carolina/) rejoins the Union
 * **1877:** End of Reconstruction
 * **1954:** Brown v. Board of Education desegregates schools
 * **1960s-1970s:** Civil Rights Movement
@@ -44,6 +44,6 @@
 * The Revolutionary War
 * The [Civil War](./../civil-war/) * The Civil Rights Movement
 
-[South Carolina](./../south-carolina/)'s secession and the battle at [Fort Sumter](./../fort-sumter/) triggered the start of the Civil War, which fundamentally altered the course of American history.
+[South Carolina](./../south-carolina/)'s secession and the battle at [Fort Sumter](./../fort-sumter/) triggered the start of the [Civil War](./../civil-war/), which fundamentally altered the course of American history.
 
 The state's tourism industry is a major economic driver, attracting visitors from across the country and abroad.

@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [File IO Modes](./../file-io-modes/)
-# [Error Handling with Files](./../error-handling-with-files/) 
+# [Error Handling](./../error-handling/) with Files]] 
 This note covers error handling specifically when working with files in Python.  Crucially, it focuses on anticipating and gracefully managing potential issues that might arise during file operations.
 
 Key potential errors:
@@ -36,7 +36,7 @@ except Exception as e: #Catch any other possible errors
 
 [File I/O Basics](./../file-i/o-basics/)  (This note will detail fundamental file operations like opening, reading, writing, and closing files.)
 
-[Exception Handling in Python](./../exception-handling-in-python/) (This note will provide a broader overview of Python's exception handling mechanisms beyond file I/O.)
+[Exception Handling](./../exception-handling/) in Python]] (This note will provide a broader overview of Python's exception handling mechanisms beyond file I/O.)
 
 
 Example demonstrating context manager (`with` statement):  The `with` statement ensures that the file is automatically closed even if exceptions occur. This prevents resource leaks and improves code robustness.

@@ -22,4 +22,4 @@ The first ten amendments to the [United States](./../united-states/) Constitutio
 * **Condition for Ratification:** Addressed Anti-Federalist concerns about the potential for tyranny under a strong central government. Their support was crucial for the Constitution's ratification.
 * **Enduring Relevance:** Remains a cornerstone of American democracy, influencing legal interpretations, social movements, and political discourse to this day.  
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS Unit [[3](./../ids-unit-[[3/)

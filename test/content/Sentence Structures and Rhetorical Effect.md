@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Sentence Structures and Rhetorical Effect](./../sentence-structures-and-rhetorical-effect/)
 
 **I. Sentence Structures:**

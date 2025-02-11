@@ -4,22 +4,22 @@
 	author = 'Carson West'
 +++
 # [Decorators](./../decorators/)
-# [Chaining Decorators](./../chaining-decorators/) 
+# [[Chaining [Decorators](./../decorators/) 
 Chaining decorators in Python means applying multiple decorators to a single function.  The order of application matters, as decorators are applied from the inside out (bottom to top).
 
 ```python
 def my_decorator_1(func):
   def wrapper():
-    print("Decorator 1 before")
+    print("Decorator [1](./../1/) before")
     func()
-    print("Decorator 1 after")
+    print("Decorator [1](./../1/) after")
   return wrapper
 
 def my_decorator_2(func):
   def wrapper():
-    print("Decorator 2 before")
+    print("Decorator [2](./../2/) before")
     func()
-    print("Decorator 2 after")
+    print("Decorator [2](./../2/) after")
   return wrapper
 
 @my_decorator_1
@@ -33,11 +33,11 @@ say_hello()
 This will output:
 
 ```
-Decorator 1 before
-Decorator 2 before
+Decorator [1](./../1/) before
+Decorator [2](./../2/) before
 Hello!
-Decorator 2 after
-Decorator 1 after
+Decorator [2](./../2/) after
+Decorator [1](./../1/) after
 ```
 
 Notice how `my_decorator_2` is executed first, then `my_decorator_1`.  This is because the `@` syntax applies decorators from bottom to top.
@@ -45,4 +45,4 @@ Notice how `my_decorator_2` is executed first, then `my_decorator_1`.  This is b
 
 [Decorator Basics](./../decorator-basics/)  ([Function Wrappers](./../function-wrappers/))
 
-The above example only shows decorators without arguments.  [Decorators with Arguments](./../decorators-with-arguments/)  handle more complex scenarios.  Remember to also review [Function Scope and Closures](./../function-scope-and-closures/) as they are fundamental to understanding how decorators work.
+The above example only shows decorators without arguments.  [Decorators](./../decorators/) with Arguments]]  handle more complex scenarios.  Remember to also review [Function Scope and Closures](./../function-scope-and-closures/) as they are fundamental to understanding how decorators work.

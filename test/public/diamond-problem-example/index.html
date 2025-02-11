@@ -44,10 +44,10 @@
 </div>
 
 <main>
-<h1 id="method-resolution-order-mromethod-resolution-order-mro"><a href="./../method-resolution-order-(mro)/">Method Resolution Order (MRO)</a></h1>
+<h1 id="method-resolution-order-mromethod-resolution-order-mro">[Method Resolution Order ([<a href="./../method-resolution-order-(%5B%5Bmro/)">MRO</a>]]</h1>
 <h1 id="diamond-problem-examplediamond-problem-example"><a href="./../diamond-problem-example/">Diamond Problem Example</a></h1>
 <p>The diamond problem arises in multiple inheritance when a class inherits from two classes that have a common ancestor, and both ancestor and descendant classes implement the same method.  This creates ambiguity: which version of the method should the inheriting class use?</p>
-<p>Python resolves this using Method Resolution Order (MRO).</p>
+<p>Python resolves this using Method Resolution Order (<a href="./../mro/">MRO</a>).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">A</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">method</span>(self):
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">&#34;A&#39;s method&#34;</span>)
@@ -68,7 +68,7 @@
 </span></span></code></pre></div><p>In this example, <code>D</code> inherits from <code>B</code> and <code>C</code>, both of which inherit from <code>A</code>. All three classes have a <code>method</code>.  Python&rsquo;s <a href="./../mro/">MRO</a> determines the order in which methods are searched (Depth-First, Left-to-Right).  Because <code>B</code> is listed before <code>C</code> in <code>D</code>&rsquo;s inheritance, <code>B</code>&rsquo;s version of <code>method</code> is used.</p>
 <p>To understand this fully, you need to grasp:</p>
 <ul>
-<li><a href="./../method-resolution-order-(mro)/">Method Resolution Order (MRO)</a></li>
+<li>[Method Resolution Order ([<a href="./../method-resolution-order-(%5B%5Bmro/)">MRO</a>]]</li>
 <li>[Multiple [<a href="./../multiple-%5B%5Binheritance/">Inheritance</a> in Python]]</li>
 </ul>
 <p>You can check the <a href="./../mro/">MRO</a> using <code>D.__mro__</code> or <code>help(D)</code>:</p>

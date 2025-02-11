@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Synthesis Essay](./../[[synthesis-essay/) Strategies]]
+# [Synthesis Essay](./../synthesis-essay/) Strategies]]
 # [Synthesis Essay](./../synthesis-essay/) Examples]]
 
 **Goal:** Understand the structure and components of effective synthesis essays.  This will involve analyzing examples and identifying key features.
@@ -23,21 +23,21 @@
 
 **Examples to Analyze:**
 
-* **Example 1:**  Find an essay focusing on the impact of social media on mental health.  Analyze how the writer synthesizes different studies and perspectives to support their argument.  Pay attention to the use of evidence and the overall structure. [Social Media & Mental Health Essay Example](./../social-media-&-mental-health-essay-example/)
+* **Example [1](./../1/):**  Find an essay focusing on the impact of social media on mental health.  Analyze how the writer synthesizes different studies and perspectives to support their argument.  Pay attention to the use of evidence and the overall structure. [Social Media & Mental Health Essay Example](./../social-media-&-mental-health-essay-example/)
 
-* **Example 2:**  Find an essay on a literary topic, perhaps analyzing a recurring theme across multiple works.  Focus on how the writer compares and contrasts different interpretations and supports their own analysis. [Literary Analysis Essay Example](./../literary-analysis-essay-example/)
+* **Example [2](./../2/):**  Find an essay on a literary topic, perhaps analyzing a recurring theme across multiple works.  Focus on how the writer compares and contrasts different interpretations and supports their own analysis. [Literary Analysis Essay Example](./../literary-analysis-essay-example/)
 
-* **Example 3:**  Find an essay that takes a position on a current event.  Examine how the writer uses evidence from news articles, expert opinions, and potentially statistical data to support their claim.  [[Current Events [Synthesis Essay](./../synthesis-essay/) Example]]
+* **Example [3](./../3/):**  Find an essay that takes a position on a current event.  Examine how the writer uses evidence from news articles, expert opinions, and potentially statistical data to support their claim.  [[Current Events [Synthesis Essay](./../synthesis-essay/) Example]]
 
 
 **Note-Taking Template:**
 
 For each example:
 
-1. **Thesis Statement:** Write down the essay's main argument.
-2. **Key Sources:** List the sources used and briefly describe their main points.
-3. **Synthesis Techniques:** Identify how the writer weaves together the sources (comparison, contrast, identifying common themes, etc.).
-4. **Strengths & Weaknesses:**  Critique the essay's effectiveness.  What works well? Where could it be improved?
+[1](./../1/). **Thesis Statement:** Write down the essay's main argument.
+[2](./../2/). **Key Sources:** List the sources used and briefly describe their main points.
+[3](./../3/). **Synthesis Techniques:** Identify how the writer weaves together the sources (comparison, contrast, identifying common themes, etc.).
+[4](./../4/). **Strengths & Weaknesses:**  Critique the essay's effectiveness.  What works well? Where could it be improved?
 
 
 **Related Notes:**

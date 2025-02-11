@@ -9,7 +9,7 @@ Conda environments are isolated spaces that allow you to manage different projec
 
 Key features:
 
-* **Isolation:** Prevents dependency conflicts between projects.  If project A needs `pandas==1.0` and project B needs `pandas==2.0`, you can create separate environments to satisfy both.
+* **Isolation:** Prevents dependency conflicts between projects.  If project A needs `pandas==[1](./../1/).0` and project B needs `pandas==[2](./../2/).0`, you can create separate environments to satisfy both.
 
 * **Reproducibility:**  Easily recreate the exact environment used for a specific project, ensuring consistent results across different machines.  This is done via environment files (usually `.yml`).
 
@@ -18,9 +18,9 @@ Key features:
 **Creating an environment:**
 
 ```bash
-conda create -n myenv python=3.9 pandas numpy
+conda create -n myenv python=[3](./../3/).9 pandas numpy
 ```
-This creates an environment named `myenv` with Python 3.9, pandas, and numpy.  `-n` specifies the environment name.
+This creates an environment named `myenv` with Python [3](./../3/).9, pandas, and numpy.  `-n` specifies the environment name.
 
 **Activating an environment:**
 
@@ -59,4 +59,4 @@ conda env create -f environment.yml
 conda env remove -n myenv
 ```
 
-[Conda Environment YAML Files](./../conda-environment-yaml-files/)  ([Python Package Management](./../python-package-management/)) [Virtual Environments vs Conda Environments](./../virtual-environments-vs-conda-environments/)
+[Conda Environment YAML Files](./../conda-environment-yaml-files/)  ([Python Package Management](./../python-package-management/)) [Virtual Environments](./../virtual-environments/) vs [Conda Environments](./../conda-environments/)

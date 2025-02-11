@@ -4,10 +4,10 @@
 	author = 'Carson West'
 +++
 # [Exception Handling](./../exception-handling/)
-# [Exception Handling Examples](./../exception-handling-examples/) 
+# [Exception Handling](./../exception-handling/) Examples]] 
 This note covers examples of exception handling in Python.  The core concept is using `try...except` blocks to gracefully handle errors that might occur during program execution.  Refer to [Python Exceptions](./../python-exceptions/) for a comprehensive list of built-in exceptions.
 
-**Example 1: Handling `FileNotFoundError`**
+**Example [1](./../1/): Handling `FileNotFoundError`**
 
 ```python
 try:
@@ -21,7 +21,7 @@ except Exception as e: #Generic Exception handler.  Always keep as last except b
 
 ```
 
-**Example 2: Handling `ZeroDivisionError`**
+**Example [2](./../2/): Handling `ZeroDivisionError`**
 
 ```python
 try:
@@ -32,11 +32,11 @@ except Exception as e:
     print(f"An unexpected error occurred: {e}")
 ```
 
-**Example 3: Handling `TypeError`**
+**Example [3](./../3/): Handling `TypeError`**
 
 ```python
 try:
-    result = "hello" + 5
+    result = "hello" + [5](./../5/)
 except TypeError:
     print("Cannot concatenate string and integer")
 except Exception as e:
@@ -44,7 +44,7 @@ except Exception as e:
 
 ```
 
-**Example 4: Using `else` and `finally` clauses**
+**Example [4](./../4/): Using `else` and `finally` clauses**
 
 The `else` block executes if no exception occurs in the `try` block. The `finally` block *always* executes, regardless of whether an exception occurred or not. This is often used for cleanup actions (e.g., closing files).
 
@@ -62,7 +62,7 @@ finally:
 
 ```
 
-**Example 5: Raising custom exceptions**
+**Example [5](./../5/): Raising custom exceptions**
 
 You can define your own exceptions by creating classes that inherit from the `Exception` class or one of its subclasses. [Custom Exceptions](./../custom-exceptions/)
 

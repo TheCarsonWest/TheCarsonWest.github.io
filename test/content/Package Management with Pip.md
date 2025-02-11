@@ -46,7 +46,7 @@ pip search <search_term>
 ```
 
 
-**Virtual Environments:**  It's crucial to use virtual environments to isolate project dependencies.  Pip integrates well with `venv` (or `virtualenv`).
+**[Virtual Environments](./../virtual-environments/):**  It's crucial to use virtual environments to isolate project dependencies.  Pip integrates well with `venv` (or `virtualenv`).
 
 ```bash
 python3 -m venv .venv  # Creates a virtual environment named '.venv'

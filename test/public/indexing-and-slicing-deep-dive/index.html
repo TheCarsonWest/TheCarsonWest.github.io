@@ -49,48 +49,48 @@
 <p>This note covers advanced techniques and nuances of indexing and slicing in Python sequences (lists, tuples, strings).</p>
 <p><strong>Basic Indexing:</strong></p>
 <ul>
-<li>Python uses zero-based indexing.  The first element is at index 0, the second at index 1, and so on.</li>
-<li>Negative indexing allows access from the end of the sequence: -1 refers to the last element, -2 to the second to last, etc.</li>
+<li>Python uses zero-based indexing.  The first element is at index 0, the second at index <a href="./../1/">1</a>, and so on.</li>
+<li>Negative indexing allows access from the end of the sequence: -<a href="./../1/">1</a> refers to the last element, -<a href="./../2/">2</a> to the second to last, etc.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">40</span>, <span style="color:#ae81ff">50</span>]
 </span></span><span style="display:flex;"><span>print(my_list[<span style="color:#ae81ff">0</span>])  <span style="color:#75715e"># Output: 10</span>
-</span></span><span style="display:flex;"><span>print(my_list[<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]) <span style="color:#75715e"># Output: 50</span>
+</span></span><span style="display:flex;"><span>print(my_list[<span style="color:#f92672">-</span>[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>)]) <span style="color:#75715e"># Output: 50</span>
 </span></span></code></pre></div><p><strong>Slicing:</strong></p>
 <ul>
 <li>Slicing extracts a portion of a sequence using <code>[start:stop:step]</code>.</li>
 <li><code>start</code> is the index of the first element to include (inclusive). Defaults to 0.</li>
 <li><code>stop</code> is the index of the element to stop before (exclusive). Defaults to the length of the sequence.</li>
-<li><code>step</code> is the increment between indices. Defaults to 1.</li>
+<li><code>step</code> is the increment between indices. Defaults to <a href="./../1/">1</a>.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;abcdefg&#34;</span>
-</span></span><span style="display:flex;"><span>print(my_string[<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">4</span>])  <span style="color:#75715e"># Output: &#34;bcd&#34; (indices 1, 2, 3)</span>
-</span></span><span style="display:flex;"><span>print(my_string[::<span style="color:#ae81ff">2</span>])  <span style="color:#75715e"># Output: &#34;aceg&#34; (every other element)</span>
-</span></span><span style="display:flex;"><span>print(my_string[::<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]) <span style="color:#75715e"># Output: &#34;gfedcba&#34; (reversed string)</span>
+</span></span><span style="display:flex;"><span>print(my_string[[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>):[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)])  <span style="color:#75715e"># Output: &#34;bcd&#34; (indices [1](./../1/), [2](./../2/), [3](./../3/))</span>
+</span></span><span style="display:flex;"><span>print(my_string[::[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)])  <span style="color:#75715e"># Output: &#34;aceg&#34; (every other element)</span>
+</span></span><span style="display:flex;"><span>print(my_string[::<span style="color:#f92672">-</span>[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>)]) <span style="color:#75715e"># Output: &#34;gfedcba&#34; (reversed string)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> list(range(<span style="color:#ae81ff">10</span>))
-</span></span><span style="display:flex;"><span>print(my_list[<span style="color:#ae81ff">2</span>:<span style="color:#ae81ff">7</span>:<span style="color:#ae81ff">2</span>]) <span style="color:#75715e">#Output: [2, 4, 6]</span>
+</span></span><span style="display:flex;"><span>print(my_list[[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>):[<span style="color:#ae81ff">7</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">7</span><span style="color:#f92672">/</span>):[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)]) <span style="color:#75715e">#Output: [[2](./../2/), [4](./../4/), [6](./../6/)]</span>
 </span></span></code></pre></div><p><strong>Advanced Slicing Techniques:</strong></p>
 <ul>
 <li><strong>Omitting <code>start</code>, <code>stop</code>, or <code>step</code>:</strong>  Provides flexibility.  For example, <code>[:]</code> creates a copy of the entire sequence.</li>
 <li><strong>Slicing with negative indices:</strong> Allows for flexible selection from the end.</li>
 <li><strong>Slicing and mutability:</strong> Slices create views of the original sequence; modifying a slice modifies the original.  This is different from creating a copy with <code>[:]</code>.  This is particularly relevant for mutable sequences like lists.  (<a href="./../mutability-and-immutability/">Mutability and Immutability</a>)</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
-</span></span><span style="display:flex;"><span>sliced_list <span style="color:#f92672">=</span> my_list[<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">4</span>]
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>),[<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)]
+</span></span><span style="display:flex;"><span>sliced_list <span style="color:#f92672">=</span> my_list[[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>):[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)]
 </span></span><span style="display:flex;"><span>sliced_list[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
-</span></span><span style="display:flex;"><span>print(my_list) <span style="color:#75715e">#Output: [1, 10, 3, 4, 5] - original list modified</span>
+</span></span><span style="display:flex;"><span>print(my_list) <span style="color:#75715e">#Output: [[1](./../1/), 10, [3](./../3/), [4](./../4/), [5](./../5/)] - original list modified</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>copied_list <span style="color:#f92672">=</span> my_list[:]
 </span></span><span style="display:flex;"><span>copied_list[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>
-</span></span><span style="display:flex;"><span>print(my_list) <span style="color:#75715e">#Output: [1, 10, 3, 4, 5] - original list unchanged</span>
+</span></span><span style="display:flex;"><span>print(my_list) <span style="color:#75715e">#Output: [[1](./../1/), 10, [3](./../3/), [4](./../4/), [5](./../5/)] - original list unchanged</span>
 </span></span></code></pre></div><p><strong>Slicing and Strings:</strong></p>
 <ul>
 <li>String slicing works similarly, but produces new strings (strings are immutable).</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>
-</span></span><span style="display:flex;"><span>new_string <span style="color:#f92672">=</span> my_string[<span style="color:#ae81ff">1</span>:<span style="color:#ae81ff">4</span>]
+</span></span><span style="display:flex;"><span>new_string <span style="color:#f92672">=</span> my_string[[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>):[<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)]
 </span></span><span style="display:flex;"><span>print(new_string) <span style="color:#75715e">#Output: &#34;ell&#34;</span>
-</span></span></code></pre></div><p><strong>Error Handling:</strong></p>
+</span></span></code></pre></div><p><strong><a href="./../error-handling/">Error Handling</a>:</strong></p>
 <ul>
 <li>IndexError: Occurs when accessing an index outside the valid range.</li>
 <li>This can be avoided by using bounds checking or exception handling.</li>

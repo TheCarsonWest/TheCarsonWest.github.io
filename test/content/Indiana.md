@@ -13,10 +13,10 @@
 * **1836:** The Indian Removal Act is implemented, forcing many Native American tribes to relocate west.
 * **1840:** [Indiana](./../indiana/)'s first railroad, the Madison and Indianapolis Railroad, is built.
 * **1854:** The [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act repeals the [Missouri](./../missouri/) Compromise, which prohibited slavery in the northern territories.
-* **1861:** [Indiana](./../indiana/) joins the Union during the American Civil War.
+* **1861:** [Indiana](./../indiana/) joins the Union during the American [Civil War](./../civil-war/).
 * **1893:** The World's Columbian Exposition is held in Chicago, [Illinois](./../illinois/), bringing industry and tourism to [Indiana](./../indiana/).
 * **1908:** The [Indiana](./../indiana/) State Teachers College (now [Indiana](./../indiana/) State University) is founded.
-* **1914:** The Panama Canal opens, connecting the Atlantic and Pacific Oceans, benefiting [Indiana](./../indiana/)'s trade.
+* **1914:** The [Panama Canal](./../panama-canal/) opens, connecting the Atlantic and Pacific Oceans, benefiting [Indiana](./../indiana/)'s trade.
 * **1968:** [Indiana](./../indiana/) University wins its first NCAA basketball championship.
 
 **Important Legislation**

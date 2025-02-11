@@ -15,19 +15,19 @@ Lewis dot structures are a simple yet powerful tool in chemistry for visualizing
 
 ## **Steps to Draw Lewis Dot Structures:**
 
-1. **Determine the number of valence electrons:** Use the group number of the element on the periodic table (except for transition metals). For example, Oxygen (Group 16) has 6 valence electrons.
+[1](./../1/). **Determine the number of valence electrons:** Use the group number of the element on the periodic table (except for transition metals). For example, Oxygen (Group 16) has [6](./../6/) valence electrons.
 
-2. **Arrange the dots around the symbol:** Place the dots one at a time, moving clockwise around the symbol, until all valence electrons are represented.  
+[2](./../2/). **Arrange the dots around the symbol:** Place the dots one at a time, moving clockwise around the symbol, until all valence electrons are represented.  
 
-3. **Form bonds:**  To achieve a stable [octet](./../octet/) (8 valence electrons) or a duet (2 valence electrons) for each atom, share electrons to form [covalent bonds](./../covalent-bonds/).  
+[3](./../3/). **Form bonds:**  To achieve a stable [octet](./../octet/) (8 valence electrons) or a duet ([2](./../2/) valence electrons) for each atom, share electrons to form [covalent bonds](./../covalent-bonds/).  
 
 **Examples:**
 
-* **Hydrogen ( $ H $ ):**  Hydrogen has 1 valence electron. Its Lewis dot structure is simply  $ H\cdot $ .
+* **Hydrogen ( $ H $ ):**  Hydrogen has [1](./../1/) valence electron. Its Lewis dot structure is simply  $ H\cdot $ .
 
-* **Water ( $ H_2O $ ):**  Each hydrogen has 1 valence electron, and oxygen has 6.  To form a stable [octet](./../octet/), oxygen shares two electrons with each hydrogen, forming two [covalent bonds](./../covalent-bonds/). 
+* **Water ( $ H_2O $ ):**  Each hydrogen has [1](./../1/) valence electron, and oxygen has [6](./../6/).  To form a stable [octet](./../octet/), oxygen shares two electrons with each hydrogen, forming two [covalent bonds](./../covalent-bonds/). 
 
-* **Methane ( $ CH_4 $ ):**  Carbon has 4 valence electrons, and each hydrogen has 1. Carbon shares one electron with each of the four hydrogen atoms, forming four single bonds. 
+* **Methane ( $ CH_4 $ ):**  Carbon has [4](./../4/) valence electrons, and each hydrogen has [1](./../1/). Carbon shares one electron with each of the four hydrogen atoms, forming four single bonds. 
 
 **Important Considerations:**
 
@@ -35,7 +35,7 @@ Lewis dot structures are a simple yet powerful tool in chemistry for visualizing
 
 * **[Formal Charge](./../formal-charge/):** The [formal charge](./../formal-charge/) of an atom in a molecule can be calculated to determine the most stable Lewis structure. ==The [formal charge](./../formal-charge/) is the difference between the number of valence electrons== in the free atom and the number of electrons assigned to the atom in the Lewis structure.
 
-* **[Resonance Structures](./../resonance-structures/):**  Some molecules can be represented by multiple valid Lewis structures, called [Resonance Structures](./../resonance-structures/). These structures differ in the placement of electrons but have the same overall arrangement of atoms.
+* **[Resonance Structures](./../resonance-structures/):**  Some molecules can be represented by multiple valid [Lewis structures](./../lewis-structures/), called [Resonance Structures](./../resonance-structures/). These structures differ in the placement of electrons but have the same overall arrangement of atoms.
 
 **Lewis Dot Structures are essential for understanding:**
 

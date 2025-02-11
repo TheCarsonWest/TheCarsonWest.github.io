@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Counterarguments and Rebuttals](./../counterarguments-and-rebuttals/)
 
 **Goal:**  Develop effective strategies for addressing opposing viewpoints and strengthening arguments.
@@ -26,9 +26,9 @@
 
 
 * **Structure of a Rebuttal:**
-    1. **Acknowledge the Counterargument:**  Clearly state the opposing viewpoint.
-    2. **Present Your Rebuttal:**  Offer your response with evidence and reasoning.
-    3. **Transition:**  Smoothly connect your rebuttal back to your main argument.
+    [1](./../1/). **Acknowledge the Counterargument:**  Clearly state the opposing viewpoint.
+    [2](./../2/). **Present Your Rebuttal:**  Offer your response with evidence and reasoning.
+    [3](./../3/). **Transition:**  Smoothly connect your rebuttal back to your main argument.
 
 
 * **Examples:**

@@ -9,7 +9,7 @@
 - [Constant rule](./../constant-rule/)
 - [Power Rule](./../power-rule/)
 - [Exponent Rule](./../exponent-rule/)
-- [Natural Log Rule](./../natural-log-rule/)
+- [Natural [[Log Rule](./../natural-[[log-rule/)
 - [Log Rule](./../log-rule/)
 # Multi function rules
 - [Product Rule](./../product-rule/)

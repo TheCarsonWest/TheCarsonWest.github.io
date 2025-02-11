@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [AP Lang Exam Review](./../ap-lang-exam-review/)
 
 **I. [Rhetorical Analysis](./../rhetorical-analysis/) (40% of Exam):**
@@ -17,7 +17,7 @@
     * **Diction:** Word choice and its effect on tone and meaning. [Diction Analysis](./../diction-analysis/)
     * **Syntax:** Sentence structure and its impact on rhythm, pace, and emphasis. [Sentence Structure Analysis](./../sentence-structure-analysis/)
     * **Tone:** The author's attitude towards the subject matter.
-    * **Figurative Language:**  Metaphors, similes, personification, etc. and their effect. [Figurative Language](./../figurative-language/)
+    * **Figurative [Language](./../language/):**  Metaphors, similes, personification, etc. and their effect. [[Figurative [Language](./../language/)
     * **Imagery:**  Vivid descriptions that appeal to the senses.
     * **Organization:**  Structure of the argument (e.g., chronological, spatial, compare/contrast).
     * **Audience:** Who is the intended audience? How does the author tailor their message to this audience?

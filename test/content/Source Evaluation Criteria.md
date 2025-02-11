@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Synthesis Essay](./../[[synthesis-essay/) Strategies]]
+# [Synthesis Essay](./../synthesis-essay/) Strategies]]
 # [Source Evaluation Criteria](./../source-evaluation-criteria/)
 
 These notes outline criteria for evaluating information sources.  The goal is to determine the credibility, reliability, and authority of a source before using it in research or decision-making.

@@ -10,7 +10,7 @@
 * 1792: [Kentucky](./../kentucky/) becomes the 15th state to join the Union.
 * 1800: Aaron Burr kills [Alexander Hamilton](./../alexander-hamilton/) in a duel in [Kentucky](./../kentucky/).
 * 1812: [Kentucky](./../kentucky/) troops play a significant role in the Battle of Tippecanoe.
-* 1861: [Kentucky](./../kentucky/) declares neutrality in the Civil War.
+* 1861: [Kentucky](./../kentucky/) declares neutrality in the [Civil War](./../civil-war/).
 * 1862: Confederate forces invade and occupy [Kentucky](./../kentucky/).
 * 1863: Union forces regain control of [Kentucky](./../kentucky/).
 * 1891: The [Kentucky](./../kentucky/) Derby is first held.

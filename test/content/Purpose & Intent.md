@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Analysis](./../[[rhetorical-analysis/) Techniques]]
+# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
 # [Purpose & Intent](./../purpose-&-intent/)
 
 **Purpose:**  The overall goal or objective. What is the desired outcome?  What problem are we trying to solve?

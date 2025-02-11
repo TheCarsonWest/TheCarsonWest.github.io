@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Unit 3](./../unit-3/)
-# Folk Culture = Local
+# [Unit [[3](./../unit-[[3/)
+# Folk [Culture](./../culture/) = Local
 # Pop culture = globalized
 
 | Feature      | Folk [Culture](./../culture/)                                                                                                                                                                                                        | Pop [Culture](./../culture/)                                                                                                                                  |

@@ -10,21 +10,21 @@ Implicit differentiation is a technique used to find the [derivative](./../deriv
 ### The Basics
 
 Let's consider an equation relating  $ x $  and  $ y $ , such as:
-#  $$ x^2 + y^2 = 25 $$  We can't easily solve this equation for  $ y $  in terms of  $ x $ . However, we can still find the [derivative](./../derivative/)  $ \frac{dy}{dx} $  by using implicit differentiation.
+#  $$ x^[2](./../2/) + y^[2](./../2/) = 25 $$  We can't easily solve this equation for  $ y $  in terms of  $ x $ . However, we can still find the [derivative](./../derivative/)  $ \frac{dy}{dx} $  by using implicit differentiation.
 
 **The key idea is to differentiate both sides of the equation with respect to  $ x $ , treating  $ y $  as a function of  $ x $ .** This means we'll use the [chain rule](./../chain-rule/) whenever we encounter a term involving  $ y $ .
 
 # Steps for [Implicit Differentiation](./../implicit-differentiation/) 
-1. **Differentiate both sides of the equation with respect to  $ x $ .** Remember to use the [chain rule](./../chain-rule/) when differentiating terms involving  $ y $ . 
-2. **Solve the resulting equation for  $ \frac{dy}{dx} $ .** This may involve algebraic manipulation.
+[1](./../1/). **Differentiate both sides of the equation with respect to  $ x $ .** Remember to use the [chain rule](./../chain-rule/) when differentiating terms involving  $ y $ . 
+[2](./../2/). **Solve the resulting equation for  $ \frac{dy}{dx} $ .** This may involve algebraic manipulation.
 
 ### Example
 
-Let's find  $ \frac{dy}{dx} $  for the equation  $ x^2 + y^2 = 25 $ .
+Let's find  $ \frac{dy}{dx} $  for the equation  $ x^[2](./../2/) + y^[2](./../2/) = 25 $ .
 
-1. **Differentiate both sides:**
-    $$ \frac{d}{dx}(x^2 + y^2) = \frac{d}{dx}(25) $$      $$ 2x + 2y \frac{dy}{dx} = 0 $$  
-2. **Solve for  $ \frac{dy}{dx} $ :**
+[1](./../1/). **Differentiate both sides:**
+    $$ \frac{d}{dx}(x^[2](./../2/) + y^[2](./../2/)) = \frac{d}{dx}(25) $$      $$ 2x + 2y \frac{dy}{dx} = 0 $$  
+[2](./../2/). **Solve for  $ \frac{dy}{dx} $ :**
     $$ 2y \frac{dy}{dx} = -2x $$      $$ \frac{dy}{dx} = \frac{-2x}{2y} = \boxed{-\frac{x}{y}} $$  
 ### [Chain Rule](./../chain-rule/)
 
@@ -32,10 +32,10 @@ The [chain rule](./../chain-rule/) is essential for implicit differentiation. It
 
 **In the context of implicit differentiation, the inner function is often  $ y $ , which is a function of  $ x $ .** 
 
-For example, if we have a term like  $ y^3 $ , we differentiate it as follows:
+For example, if we have a term like  $ y^[3](./../3/) $ , we differentiate it as follows:
 
- $$ \frac{d}{dx}(y^3) = 3y^2 \cdot \frac{dy}{dx} $$  
-Here,  $ y^3 $  is the outer function,  $ y $  is the inner function, and  $ \frac{dy}{dx} $  represents the [derivative](./../derivative/) of the inner function.
+ $$ \frac{d}{dx}(y^[3](./../3/)) = 3y^[2](./../2/) \cdot \frac{dy}{dx} $$  
+Here,  $ y^[3](./../3/) $  is the outer function,  $ y $  is the inner function, and  $ \frac{dy}{dx} $  represents the [derivative](./../derivative/) of the inner function.
 ### Applications of [Implicit Differentiation](./../implicit-differentiation/) 
 Implicit differentiation has various applications, including:
 

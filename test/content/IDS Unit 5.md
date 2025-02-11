@@ -6,18 +6,18 @@
 
 # [ID Home](./../id-home/)
 
-1. [Gilded Age](./../gilded-age/)
-2. [Xenophobia](./../xenophobia/)
-3. [Lilliputians](./../lilliputians/)
-4. [Robber Barons](./../robber-barons/)
-5. [Populists](./../populists/)
-6. [Labor Unions](./../labor-unions/)
-7. [Dawes Severalty Act of 1887](./../dawes-severalty-act-of-1887/)
+[1](./../1/). [Gilded Age](./../gilded-age/)
+[2](./../2/). [Xenophobia](./../xenophobia/)
+[3](./../3/). [Lilliputians](./../lilliputians/)
+[4](./../4/). [Robber Barons](./../robber-barons/)
+[5](./../5/). [Populists](./../populists/)
+[6](./../6/). [Labor Unions](./../labor-unions/)
+[7](./../7/). [Dawes Severalty Act of 1887](./../dawes-severalty-act-of-1887/)
 8. [Laissez-Faire Government](./../laissez-faire-government/)
 9. [Bessemer Process](./../bessemer-process/)
-10. [John D. Rockefeller](./../john-d.-rockefeller/)
+10. [John D](./../john-d/). Rockefeller]]
 11. [Andrew Carnegie](./../andrew-carnegie/)
-12. [J.P. Morgan](./../j.p.-morgan/)
+12. [J](./../j/).P. Morgan]]
 13. [Transcontinental Railroad](./../transcontinental-railroad/)
 14. [Granger Laws](./../granger-laws/)
 15. [Interstate Commerce Act 1887](./../interstate-commerce-act-1887/)

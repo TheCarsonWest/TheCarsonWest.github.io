@@ -22,36 +22,36 @@ Dictionary comprehension provides a concise way to create dictionaries in Python
 
 **Examples:**
 
-1. **Simple Dictionary Comprehension:**
+[1](./../1/). **Simple [Dictionary Comprehension](./../dictionary-comprehension/):**
 
 ```python
-squares = {x: x*x for x in range(1, 6)} 
-print(squares)  # Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+squares = {x: x*x for x in range([1](./../1/), [6](./../6/))} 
+print(squares)  # Output: {[1](./../1/): [1](./../1/), [2](./../2/): [4](./../4/), [3](./../3/): 9, [4](./../4/): 16, [5](./../5/): 25}
 ```
 
-2. **Dictionary Comprehension with Conditional Logic:**
+[2](./../2/). **[Dictionary Comprehension](./../dictionary-comprehension/) with Conditional Logic:**
 
 ```python
-even_squares = {x: x*x for x in range(1, 11) if x % 2 == 0}
-print(even_squares) # Output: {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+even_squares = {x: x*x for x in range([1](./../1/), 11) if x % [2](./../2/) == 0}
+print(even_squares) # Output: {[2](./../2/): [4](./../4/), [4](./../4/): 16, [6](./../6/): 36, 8: 64, 10: 100}
 ```
 
-3. **Dictionary Comprehension from Two [Iterables](./../iterables/) (using `zip`)**:
+[3](./../3/). **[Dictionary Comprehension](./../dictionary-comprehension/) from Two [Iterables](./../iterables/) (using `zip`)**:
 
 ```python
 keys = ['a', 'b', 'c']
-values = [1, 2, 3]
+values = [[1](./../1/), [2](./../2/), [3](./../3/)]
 my_dict = {k: v for k, v in zip(keys, values)}
-print(my_dict) # Output: {'a': 1, 'b': 2, 'c': 3}
+print(my_dict) # Output: {'a': [1](./../1/), 'b': [2](./../2/), 'c': [3](./../3/)}
 
 ```
 
-4. **Dictionary Comprehension with Nested Loops (for more complex scenarios):**
+[4](./../4/). **[Dictionary Comprehension](./../dictionary-comprehension/) with Nested Loops (for more complex scenarios):**
 
 ```python
-matrix = [1, 2], [3, 4](./../1-2]-[3-4/)
+matrix = [1](./../1/), [2](./../2/)], [[3](./../3/), [4](./../4/)
 flattened_dict = { (i, j): matrix[i][j] for i in range(len(matrix)) for j in range(len(matrix[0]))}
-print(flattened_dict) # Output: {(0, 0): 1, (0, 1): 2, (1, 0): 3, (1, 1): 4}
+print(flattened_dict) # Output: {(0, 0): [1](./../1/), (0, [1](./../1/)): [2](./../2/), ([1](./../1/), 0): [3](./../3/), ([1](./../1/), [1](./../1/)): [4](./../4/)}
 ```
 
 [List Comprehension](./../list-comprehension/)  ([This will be a separate note about list comprehensions](./../this-will-be-a-separate-note-about-list-comprehensions/))

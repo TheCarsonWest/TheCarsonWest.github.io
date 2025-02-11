@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Labor Unions in the [Gilded Age](./../gilded-age/)
+## ID: [Labor Unions](./../labor-unions/) in the [Gilded Age](./../gilded-age/)
 
 ## When: 1865-1900 (Peak activity in the late 19th century,  with significant events occurring throughout this period.  Specific union actions and legislation will have more precise dates.)
 
 ## Who:
 * **Workers:** Unskilled and skilled laborers in various industries (e.g., mining, railroads, factories).  Immigrants formed a large part of the workforce and union membership.
 * **Union Leaders:**  Figures like Samuel Gompers (AFL), Terence V. Powderly (Knights of Labor).
-* **Employers/Business Owners:**  Powerful industrialists (e.g., [Andrew Carnegie](./../andrew-carnegie/), [John D. Rockefeller](./../john-d.-rockefeller/)) who often resisted unionization.
+* **Employers/Business Owners:**  Powerful industrialists (e.g., [Andrew Carnegie](./../andrew-carnegie/), [John D](./../john-d/). Rockefeller]]) who often resisted unionization.
 * **Government:**  Initially largely laissez-faire, but later became more involved in regulating labor relations (though often siding with business interests).
 
 ## What:
@@ -26,4 +26,4 @@ The rise of labor unions in response to harsh working conditions during the [Gil
 
 
 
-# [IDS Unit 5](./../ids-unit-5/)
+# [IDS Unit [[5](./../ids-unit-[[5/)

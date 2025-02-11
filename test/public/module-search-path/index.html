@@ -51,11 +51,9 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
 </span></span><span style="display:flex;"><span>print(sys<span style="color:#f92672">.</span>path) 
 </span></span></code></pre></div><p>The <code>sys.path</code> list typically includes:</p>
-<ol>
-<li>The directory containing the script being run (or the current directory if no script is specified).</li>
-<li>The directories specified by the <code>PYTHONPATH</code> environment variable (if set).</li>
-<li>Installation-dependent default locations (e.g., site-packages directories).</li>
-</ol>
+<p><a href="./../1/">1</a>. The directory containing the script being run (or the current directory if no script is specified).
+<a href="./../2/">2</a>. The directories specified by the <code>PYTHONPATH</code> environment variable (if set).
+<a href="./../3/">3</a>. Installation-dependent default locations (e.g., site-packages directories).</p>
 <p><a href="./../pythonpath-environment-variable/">PYTHONPATH Environment Variable</a></p>
 <p><a href="./../site-packages-directories/">Site-packages Directories</a></p>
 <p>If a module is not found in any of these directories, an <code>ImportError</code> is raised.</p>
@@ -76,7 +74,7 @@
 <li><strong>Security:</strong>  Avoid arbitrarily adding directories to <code>sys.path</code> from untrusted sources, as this could expose your system to malicious code.  Be especially cautious with dynamically constructed paths.</li>
 </ul>
 <p><a href="./../module-importing-in-python/">Module Importing in Python</a>
-<a href="./../error-handling:-importerror/">Error Handling: ImportError</a></p>
+<a href="./../error-handling/">Error Handling</a>: ImportError]]</p>
 
 </main>
 

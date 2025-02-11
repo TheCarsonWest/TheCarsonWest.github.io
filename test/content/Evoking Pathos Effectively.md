@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Devices](./../[[rhetorical-devices/) in Argumentation]]
+# [Rhetorical Devices](./../rhetorical-devices/) in Argumentation]]
 # [Evoking Pathos Effectively](./../evoking-pathos-effectively/)
 
 **Goal:** To understand and utilize pathos (emotional appeal) effectively in writing and communication.
@@ -12,9 +12,9 @@
 
 * **Identifying Target Emotions:**  What specific emotions do I want to evoke in my audience?  (e.g., sadness, anger, joy, fear, hope).  Consider the context and the desired response. [Target [[Audience Analysis](./../target-[[audience-analysis/)
 
-* **Choosing the Right Emotional Language:**
+* **Choosing the Right Emotional [Language](./../language/):**
     * **Strong Verbs & Adjectives:** Use vivid and evocative language that directly appeals to the senses.  Avoid clichés.
-    * **Figurative Language:** Metaphors, similes, and analogies can create powerful emotional connections.  Example:  " $ The city was a concrete jungle, suffocating under a blanket of smog $ "
+    * **Figurative [Language](./../language/):** Metaphors, similes, and analogies can create powerful emotional connections.  Example:  " $ The city was a concrete jungle, suffocating under a blanket of smog $ "
     * **Anecdotes & Storytelling:** Personal stories and relatable examples are incredibly powerful for connecting with the audience on an emotional level. [Storytelling Techniques](./../storytelling-techniques/)
 
 * **Using Visual Aids (if applicable):** Images, videos, or even music can greatly enhance the emotional impact. [Visual Communication Strategies](./../visual-communication-strategies/)

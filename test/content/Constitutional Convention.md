@@ -7,7 +7,7 @@
 ## WHEN: May 25 - September 17, 1787 
 ## WHO: 55 delegates (from 12 states, [Rhode Island](./../rhode-island/) did not participate) including:
 * **[James Madison](./../james-madison/)** ("Father of the Constitution" for his role in drafting and promoting the document)
-* **[George Washington](./../george-washington/)** (presided over the Convention, lending legitimacy and authority)
+* **[George [[Washington](./../george-[[washington/)** (presided over the Convention, lending legitimacy and authority)
 * **[Alexander Hamilton](./../alexander-hamilton/)** (advocated for a strong central government)
 * **[Benjamin Franklin](./../benjamin-franklin/)** (elder statesman, helped forge compromises)
 * **Roger Sherman**  (proposed the [Connecticut](./../connecticut/) Compromise)
@@ -26,4 +26,4 @@ Key Issues and Compromises:
 * **Left some issues unresolved**, such as slavery, which would continue to cause tension and ultimately lead to the [Civil War](./../civil-war/). 
 * **Debates over ratification** led to the development of the **Federalist** and **Anti-Federalist** factions, shaping early American political thought. 
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS Unit [[3](./../ids-unit-[[3/)

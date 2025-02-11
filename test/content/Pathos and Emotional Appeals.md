@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Pathos and Emotional Appeals](./../pathos-and-emotional-appeals/)
 
 **Definition:** Pathos refers to the use of emotional appeals to persuade an audience.  It's about connecting with the reader or listener on a human level, evoking feelings that make them more receptive to the argument.  It's not about manipulating emotions, but about using them ethically and effectively to strengthen a persuasive message.
@@ -12,9 +12,9 @@
 
 * **Identifying the Target Audience:** Understanding the audience's values, beliefs, and experiences is crucial for choosing the right emotional appeals.  $ Audience \implies Emotional \; Response $ 
 * **Selecting Appropriate Emotions:** Different emotions can be used depending on the goal.  For example, using sadness to generate empathy or anger to inspire action.
-* **Using Vivid Language and Imagery:**  Strong verbs, evocative adjectives, and detailed descriptions help paint a picture in the audience's mind and create a stronger emotional impact.
+* **Using Vivid [Language](./../language/) and Imagery:**  Strong verbs, evocative adjectives, and detailed descriptions help paint a picture in the audience's mind and create a stronger emotional impact.
 * **Telling Compelling Stories:**  Narratives are particularly powerful tools for connecting with an audience on an emotional level.  Anecdotes, case studies, and personal experiences can all be used effectively.
-* **Using Figurative Language:** Metaphors, similes, and other figures of speech can add depth and impact to emotional appeals.
+* **Using Figurative [Language](./../language/):** Metaphors, similes, and other figures of speech can add depth and impact to emotional appeals.
 
 
 **Ethical Considerations:** [Ethical Use of Pathos](./../ethical-use-of-pathos/)
@@ -34,7 +34,7 @@
 **Techniques:**
 
 * [Using Anecdotes Effectively](./../using-anecdotes-effectively/)
-* [Employing Vivid Language](./../employing-vivid-language/)
+* [[Employing Vivid [Language](./../language/)
 * [Creating a Sense of Urgency](./../creating-a-sense-of-urgency/)
 * [Evoking Nostalgia](./../evoking-nostalgia/)
 

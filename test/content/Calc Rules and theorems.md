@@ -5,7 +5,7 @@
 +++
 # [Calc home](./../calc-home/)
 
-## [Derivative Rules](./../derivative-rules/)
+## [Derivative](./../derivative/) Rules]]
 ## [LHopitals Rule](./../lhopitals-rule/)
 ## [Squeeze Theorem](./../squeeze-theorem/)
 ## [Intermediate Value Theorem](./../intermediate-value-theorem/)

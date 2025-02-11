@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [Decorators](./../decorators/)  [Decorators](./../decorators/) are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
 
 ```python
@@ -27,7 +27,7 @@ This example shows a simple decorator that prints messages before and after the 
 say_hello = my_decorator(say_hello)
 ```
 
-**Arguments to Decorators:**
+**Arguments to [Decorators](./../decorators/):**
  [Decorators](./../decorators/) can also accept arguments. This requires a more complex structure:
 
 ```python
@@ -40,7 +40,7 @@ def repeat(num_times):
         return wrapper
     return decorator_repeat
 
-@repeat(num_times=3)
+@repeat(num_times=[3](./../3/))
 def greet(name):
     print(f"Hello, {name}!")
 
@@ -52,10 +52,10 @@ Here, `repeat` is a decorator factory – it returns a decorator.
 
 **[Decorator Factories](./../decorator-factories/)**
 
-**[Chaining Decorators](./../chaining-decorators/)**
+**[[Chaining [Decorators](./../decorators/)**
 
 
-**Class Decorators:**
+**Class [Decorators](./../decorators/):**
  [Decorators](./../decorators/) can also be classes:
 
 
@@ -66,7 +66,7 @@ class CountCalls:
         self.count = 0
 
     def __call__(self, *args, **kwargs):
-        self.count += 1
+        self.count += [1](./../1/)
         print(f"Call count: {self.count}")
         return self.func(*args, **kwargs)
 

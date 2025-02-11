@@ -7,4 +7,4 @@
 ###  $$ \frac{d}{dx}[f(g(x))] = f'(\ g(x)\ )g'(x) $$  
 
 
-# [Derivative Rules](./../derivative-rules/)
+# [Derivative](./../derivative/) Rules]]

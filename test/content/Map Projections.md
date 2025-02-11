@@ -5,7 +5,7 @@
 +++
 # [APHG Home](./../aphg-home/)
 
-There are 4 common map projections. they are all distorted
+There are [4](./../4/) common map projections. they are all distorted
 ## [Map Distortions](./../map-distortions/)
 # [Map Types](./../map-types/)
 ## Robinson 

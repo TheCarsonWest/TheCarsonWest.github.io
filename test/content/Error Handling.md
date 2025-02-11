@@ -23,7 +23,7 @@ finally: # Always executes, regardless of exceptions
 
 ```
 
-[Exception Handling Specifics](./../exception-handling-specifics/)  (This will be a separate note detailing different exception types, best practices, and custom exceptions)
+[Exception Handling](./../exception-handling/) Specifics]]  (This will be a separate note detailing different exception types, best practices, and custom exceptions)
 
 Common Exceptions:
 

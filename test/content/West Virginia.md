@@ -7,7 +7,7 @@
 
 **Timeline:**
 
-* **1861:** West [Virginia](./../virginia/) seceded from [Virginia](./../virginia/) and joined the Union during the Civil War.
+* **1861:** West [Virginia](./../virginia/) seceded from [Virginia](./../virginia/) and joined the Union during the [Civil War](./../civil-war/).
 * **1863:** West [Virginia](./../virginia/) became a state.
 * **1873:** The Railroad Strike temporarily halted the transportation of coal.
 * **1921:** The Battle of Blair Mountain, a labor uprising between coal miners and mine owners, resulted in the suppression of the union.

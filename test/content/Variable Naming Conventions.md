@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Variables and Data Types](./../variables-and-data-types/)
+# [Variables and [[Data Types](./../variables-and-[[data-types/)
 # [Variable Naming Conventions](./../variable-naming-conventions/) 
 Python's variable naming follows specific conventions for readability and maintainability.  Inconsistent naming can lead to errors and make code harder to understand.
 
@@ -28,13 +28,13 @@ Python's variable naming follows specific conventions for readability and mainta
 user_name = "Alice"
 product_price = 99.99
 is_active = True
-MAX_ATTEMPTS = 3
+MAX_ATTEMPTS = [3](./../3/)
 
 # Bad examples
 usrnm = "Bob"       # Too short and cryptic
 productPrice = 10  # Inconsistent casing
-2items = 2        # Starts with a number (invalid)
-if = 1             # Uses a reserved keyword (invalid)
+2items = [2](./../2/)        # Starts with a number (invalid)
+if = [1](./../1/)             # Uses a reserved keyword (invalid)
 
 ```
 

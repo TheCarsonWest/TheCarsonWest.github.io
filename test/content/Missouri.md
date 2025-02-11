@@ -10,7 +10,7 @@
 * **1820:** Admitted to the Union as a slave state under the [Missouri](./../missouri/) Compromise.
 * **1836:** Mormons settle in [Missouri](./../missouri/), leading to conflict with local settlers.
 * **1849:** [California](./../california/) Gold Rush brings thousands of prospectors through [Missouri](./../missouri/).
-* **1861:** [Missouri](./../missouri/) remains in the Union during the Civil War, despite strong Confederate sympathies.
+* **1861:** [Missouri](./../missouri/) remains in the Union during the [Civil War](./../civil-war/), despite strong Confederate sympathies.
 * **1865:** Slavery is abolished in [Missouri](./../missouri/).
 * **1870:** [Missouri](./../missouri/) Compromise is overturned by the [14th amendment](./../14th-amendment/).
 * **1875:** Grangers' Revolt highlights economic disparities in [Missouri](./../missouri/).
@@ -37,7 +37,7 @@
 **Impact on the Rest of the Country**
 
 * [Missouri](./../missouri/) played a key role in the westward expansion of the [United States](./../united-states/).
-* It was a battleground state during the Civil War, and its decision to remain in the Union helped secure victory for the North.
+* It was a battleground state during the [Civil War](./../civil-war/), and its decision to remain in the Union helped secure victory for the North.
 * [Missouri](./../missouri/)'s fight against segregation was a major step towards civil rights in the [United States](./../united-states/).
 * The state's food and agricultural products have been vital to the nation's economy.
 * [Missouri](./../missouri/)'s Gateway Arch is a national symbol of westward expansion and American achievement.

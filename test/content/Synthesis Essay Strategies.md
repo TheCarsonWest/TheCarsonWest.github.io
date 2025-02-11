@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Synthesis Essay](./../synthesis-essay/) Strategies]]
 
 **I. Understanding the Prompt:**
@@ -34,7 +34,7 @@
 
 * **Body Paragraphs:** Each body paragraph should focus on a specific aspect of your argument, supported by evidence from multiple sources.  Use signal phrases to introduce quotes and paraphrases.  Analyze the evidence and explain how it supports your thesis.  Consider using a method like compare/contrast or argumentation. [Argumentation Strategies](./../argumentation-strategies/) [Comparative Analysis](./../comparative-analysis/)
 
-* **Synthesis:**  Don't just summarize sources; synthesize them. Show how they relate to each other and build your argument.  Identify points of agreement, disagreement, and nuance.   $ synthesis = \sum_{i=1}^{n} weight_i \times source_i $  (where  $ weight_i $  represents the importance of each source and  $ source_i $  represents the information from each source).  This is a simplified representation; actual synthesis is more nuanced.
+* **Synthesis:**  Don't just summarize sources; synthesize them. Show how they relate to each other and build your argument.  Identify points of agreement, disagreement, and nuance.   $ synthesis = \sum_{i=[1](./../1/)}^{n} weight_i \times source_i $  (where  $ weight_i $  represents the importance of each source and  $ source_i $  represents the information from each source).  This is a simplified representation; actual synthesis is more nuanced.
 
 
 * **Conclusion:** Restate your thesis in a new way and summarize your main points. Offer final thoughts or implications of your argument.  Avoid introducing new evidence.
@@ -54,4 +54,4 @@
 * Practice writing synthesis essays using different prompts and sources.  Seek feedback from peers and instructors to improve your writing skills. [Practice Prompts](./../practice-prompts/)
 
 
-[[[Synthesis Essay](./../synthesis-essay/) Examples]]
+[Synthesis Essay](./../synthesis-essay/) Examples]]

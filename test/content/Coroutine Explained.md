@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Async Generators](./../async-generators/)
+# [Async [[Generators](./../async-[[generators/)
 # [Coroutine Explained](./../coroutine-explained/) 
-A coroutine is a specialized type of function that can be paused and resumed at various points.  Unlike regular functions which run to completion, coroutines can yield control back to the caller, and later resume execution from where they left off.  This is achieved using the `async` and `await` keywords (introduced in Python 3.5).
+A coroutine is a specialized type of function that can be paused and resumed at various points.  Unlike regular functions which run to completion, coroutines can yield control back to the caller, and later resume execution from where they left off.  This is achieved using the `async` and `await` keywords (introduced in Python [3](./../3/).[5](./../5/)).
 
 Key features:
 
@@ -24,7 +24,7 @@ import asyncio
 
 async def my_coroutine(name):
     print(f"Coroutine {name} started")
-    await asyncio.sleep(1)  # Simulate some asynchronous operation
+    await asyncio.sleep([1](./../1/))  # Simulate some asynchronous operation
     print(f"Coroutine {name} finished")
     return f"Result from {name}"
 
@@ -35,14 +35,14 @@ async def main():
     result1 = await coro1
     result2 = await coro2
 
-    print(f"Result 1: {result1}")
-    print(f"Result 2: {result2}")
+    print(f"Result [1](./../1/): {result1}")
+    print(f"Result [2](./../2/): {result2}")
 
 if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-[Asyncio Explained](./../asyncio-explained/)  This example uses `asyncio.sleep`, which is an asynchronous version of `time.sleep`.  The `asyncio` library is fundamental to working with coroutines effectively.  More details should be in [Asyncio Explained](./../asyncio-explained/).
+[Asyncio](./../asyncio/) Explained]]  This example uses `asyncio.sleep`, which is an asynchronous version of `time.sleep`.  The `asyncio` library is fundamental to working with coroutines effectively.  More details should be in [Asyncio](./../asyncio/) Explained]].
 
 [await Explained](./../await-explained/)  Further explanation of the `await` keyword and its behaviour, particularly the implications of using it with different kinds of asynchronous objects is needed in [await Explained](./../await-explained/).
 

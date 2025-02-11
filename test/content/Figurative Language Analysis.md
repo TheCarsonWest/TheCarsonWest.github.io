@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Analysis](./../[[rhetorical-analysis/) Techniques]]
-# [Figurative Language Analysis](./../figurative-language-analysis/)
+# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
+# [Figurative [[Language](./../figurative-[[language/) Analysis]]
 
 This note covers the analysis of figurative language, focusing on identifying and interpreting different types of figures of speech.  
 
@@ -42,7 +42,7 @@ Frequency of figurative language can be calculated:
 This can be used to compare the density of figurative language across different texts.
 
 
-##  $$  \text{Figurative Language Density} = \frac{\sum_{i=1}^{n} F_i}{W}  $$  
+##  $$  \text{Figurative [Language](./../language/) Density} = \frac{\sum_{i=[1](./../1/)}^{n} F_i}{W}  $$  
 Where:
 
 *  $ F_i $  is the frequency of each type of figurative language.

@@ -3,43 +3,43 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Practice Essay Prompts](./../practice-essay-prompts/)
 
 These notes are for brainstorming and organizing ideas for practice essay prompts.  I'll categorize them by type and difficulty.
 
 **I. Argumentative Essays:**
 
-* **Prompt 1:**  Should the government prioritize funding for space exploration over addressing pressing social issues such as poverty and healthcare?  ([Arguments for Space Exploration](./../arguments-for-space-exploration/), [Arguments Against Space Exploration](./../arguments-against-space-exploration/), [Prioritizing Government Spending](./../prioritizing-government-spending/))
+* **Prompt [1](./../1/):**  Should the government prioritize funding for space exploration over addressing pressing social issues such as poverty and healthcare?  ([Arguments for Space Exploration](./../arguments-for-space-exploration/), [Arguments Against Space Exploration](./../arguments-against-space-exploration/), [Prioritizing Government Spending](./../prioritizing-government-spending/))
 
-* **Prompt 2:**  Is social media a net positive or negative influence on society?  ([Positive Impacts of Social Media](./../positive-impacts-of-social-media/), [Negative Impacts of Social Media](./../negative-impacts-of-social-media/), [Social Media and Mental Health](./../social-media-and-mental-health/))
+* **Prompt [2](./../2/):**  Is social media a net positive or negative influence on society?  ([Positive Impacts of Social Media](./../positive-impacts-of-social-media/), [Negative Impacts of Social Media](./../negative-impacts-of-social-media/), [Social Media and Mental Health](./../social-media-and-mental-health/))
 
-* **Prompt 3:** To what extent should artistic expression be subject to censorship?  $  \text{Consider the balance between freedom of speech and societal norms.} $  [Censorship and Artistic Expression](./../censorship-and-artistic-expression/)
+* **Prompt [3](./../3/):** To what extent should artistic expression be subject to censorship?  $  \text{Consider the balance between freedom of speech and societal norms.} $  [Censorship and Artistic Expression](./../censorship-and-artistic-expression/)
 
 
 **II. Expository Essays:**
 
-* **Prompt 1:** Explain the causes and consequences of climate change.  ([Causes of Climate Change](./../causes-of-climate-change/), [Consequences of Climate Change](./../consequences-of-climate-change/), [Climate Change Mitigation](./../climate-change-mitigation/))
+* **Prompt [1](./../1/):** Explain the causes and consequences of climate change.  ([Causes of Climate Change](./../causes-of-climate-change/), [Consequences of Climate Change](./../consequences-of-climate-change/), [Climate Change Mitigation](./../climate-change-mitigation/))
 
-* **Prompt 2:** Describe the impact of technology on interpersonal relationships. [Technology and Relationships](./../technology-and-relationships/)
+* **Prompt [2](./../2/):** Describe the impact of technology on interpersonal relationships. [Technology and Relationships](./../technology-and-relationships/)
 
-* **Prompt 3:** Analyze the factors contributing to the success or failure of a specific historical event (e.g., the American Revolution, the French Revolution). [Factors of Success/Failure in Revolutions](./../factors-of-success/failure-in-revolutions/)
+* **Prompt [3](./../3/):** Analyze the factors contributing to the success or failure of a specific historical event (e.g., the American Revolution, the French Revolution). [Factors of Success/Failure in Revolutions](./../factors-of-success/failure-in-revolutions/)
 
 
 **III. Literary Analysis Essays:**
 
-* **Prompt 1:** Analyze the use of symbolism in [Specific Literary Work].  (Requires specifying a work;  e.g., *The Great Gatsby*, *Hamlet*)  ([Symbolism in [Literary Work](./../symbolism-in-[literary-work/)])
+* **Prompt [1](./../1/):** Analyze the use of symbolism in [Specific Literary Work].  (Requires specifying a work;  e.g., *The Great Gatsby*, *Hamlet*)  ([Symbolism in [Literary Work](./../symbolism-in-[literary-work/)])
 
-* **Prompt 2:**  Discuss the development of a particular character in [Specific Literary Work]. (Requires specifying a work) [Character Development in [Literary Work](./../character-development-in-[literary-work/)]
+* **Prompt [2](./../2/):**  Discuss the development of a particular character in [Specific Literary Work]. (Requires specifying a work) [Character Development in [Literary Work](./../character-development-in-[literary-work/)]
 
-* **Prompt 3:**  Compare and contrast the themes of [Literary Work 1] and [Literary Work 2]. (Requires specifying two works) [Comparing Themes: [Literary Work 1] and [Literary Work 2](./../comparing-themes:-[literary-work-1]-and-[literary-work-2/)]
+* **Prompt [3](./../3/):**  Compare and contrast the themes of [Literary Work [1](./../1/)] and [Literary Work [2](./../2/)]. (Requires specifying two works) [[Comparing Themes: [Literary Work [1](./../1/)] and [Literary Work [2](./../2/)]
 
 
 **IV.  Synthesis Essays:**
 
-* **Prompt 1:** Synthesize information from multiple sources to argue a position on a contemporary issue (e.g., the ethics of artificial intelligence, the impact of globalization). [Ethical Considerations of AI](./../ethical-considerations-of-ai/), [Impact of Globalization](./../impact-of-globalization/)
+* **Prompt [1](./../1/):** Synthesize information from multiple sources to argue a position on a contemporary issue (e.g., the ethics of artificial intelligence, the impact of globalization). [Ethical Considerations of AI](./../ethical-considerations-of-ai/), [Impact of Globalization](./../impact-of-globalization/)
 
-* **Prompt 2:**  Compare and contrast the perspectives of different authors on a specific topic. (Requires specifying sources) [Comparing Authorial Perspectives](./../comparing-authorial-perspectives/)
+* **Prompt [2](./../2/):**  Compare and contrast the perspectives of different authors on a specific topic. (Requires specifying sources) [Comparing Authorial Perspectives](./../comparing-authorial-perspectives/)
 
 
 **V.  Tips for Essay Writing:**

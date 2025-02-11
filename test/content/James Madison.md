@@ -43,7 +43,7 @@
 **Documents Associated with Madison:**
 
 * [Articles of Confederation](./../articles-of-confederation/)
-* [Constitution of the United States](./../constitution-of-the-united-states/)
+* [Constitution of the [[United States](./../constitution-of-the-[[united-states/)
 * [Bill of Rights](./../bill-of-rights/)
 
 **Events Associated with Madison:**
@@ -54,9 +54,9 @@
 
 **People and Groups Associated with Madison:**
 
-* **[George Washington](./../george-washington/):** First [POTUS](./../potus/)
+* **[George [[Washington](./../george-[[washington/):** First [POTUS](./../potus/)
 * ** [Alexander Hamilton](./../alexander-hamilton/):** Fellow delegate to the [Constitutional Convention](./../constitutional-convention/)
 * ** [Thomas Jefferson](./../thomas-jefferson/):** Third [POTUS](./../potus/)
 * **Federalists:** Political party that supported a strong central government
-* **Democratic-Republicans:** Political party that opposed a strong central government
+* **Democratic-[Republicans](./../republicans/):** Political party that opposed a strong central government
 # [APUSH people](./../apush-people/)

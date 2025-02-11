@@ -6,7 +6,7 @@
 # ID: [Samuel Slater](./../samuel-slater/) 
 ## When: 1789
 
-## Who: Samuel Slater, a British textile worker
+## Who: [Samuel Slater](./../samuel-slater/), a British textile worker
 
 ## What:
 Slater emigrated to the [United States](./../united-states/) and built the first successful water-powered textile mill in Pawtucket, [Rhode Island](./../rhode-island/). He memorized the designs of British textile machinery and recreated them in America, sparking the [Industrial Revolution](./../industrial-revolution/) in the U.S.
@@ -18,4 +18,4 @@ Slater emigrated to the [United States](./../united-states/) and built the first
 * **Development of Northern Manufacturing Centers:** The success of Slater's mill led to the establishment of more textile mills in New England, creating a foundation for the region's dominance in manufacturing.
 * **Impact on Society:** The [Industrial Revolution](./../industrial-revolution/) brought about significant social changes, including the growth of cities, the rise of a middle class, and the emergence of new social problems associated with factory work, such as child labor and worker exploitation. 
 
-# [IDS Unit 4](./../ids-unit-4/)
+# [IDS Unit [[4](./../ids-unit-[[4/)

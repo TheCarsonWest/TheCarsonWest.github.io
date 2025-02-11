@@ -48,4 +48,4 @@ with open("my_file.txt", "r") as file:
 
 ```
 
-[File Handling Best Practices](./../file-handling-best-practices/)  [Error Handling with Files](./../error-handling-with-files/) [Context Managers](./../context-managers/)
+[File Handling](./../file-handling/) Best Practices]]  [Error Handling](./../error-handling/) with Files]] [Context Managers](./../context-managers/)

@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
-# [Inheritance in Python](./../inheritance-in-python/) 
-**Definition:** Inheritance is a mechanism that allows a class (the *child class* or *subclass*) to inherit attributes and methods from another class (the *parent class* or *superclass*).  This promotes code reusability and establishes an "is-a" relationship between classes.
+# [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
+# [Inheritance](./../inheritance/) in Python]] 
+**Definition:** [Inheritance](./../inheritance/) is a mechanism that allows a class (the *child class* or *subclass*) to inherit attributes and methods from another class (the *parent class* or *superclass*).  This promotes code reusability and establishes an "is-a" relationship between classes.
 
 **Syntax:**
 
@@ -31,13 +31,13 @@ child_object.child_method() # Accesses child method
 
 ```
 
-**Types of Inheritance:**
+**Types of [Inheritance](./../inheritance/):**
 
-* **Single Inheritance:** A child class inherits from only one parent class.  (Example shown above)
-* **Multiple Inheritance:** A child class inherits from multiple parent classes.  ([Multiple Inheritance in Python](./../multiple-inheritance-in-python/))
-* **Multilevel Inheritance:**  A child class inherits from a parent class, which in turn inherits from another parent class. (([Multilevel Inheritance in Python](./../multilevel-inheritance-in-python/))
-* **Hierarchical Inheritance:** Multiple child classes inherit from a single parent class. (([Hierarchical Inheritance in Python](./../hierarchical-inheritance-in-python/))
-* **Hybrid Inheritance:** A combination of multiple inheritance and multilevel inheritance. (([Hybrid Inheritance in Python](./../hybrid-inheritance-in-python/))
+* **Single [Inheritance](./../inheritance/):** A child class inherits from only one parent class.  (Example shown above)
+* **[[Multiple [Inheritance](./../inheritance/):** A child class inherits from multiple parent classes.  ([[Multiple [Inheritance](./../inheritance/) in Python]])
+* **Multilevel [Inheritance](./../inheritance/):**  A child class inherits from a parent class, which in turn inherits from another parent class. (([[Multilevel [Inheritance](./../inheritance/) in Python]])
+* **Hierarchical [Inheritance](./../inheritance/):** Multiple child classes inherit from a single parent class. (([[Hierarchical [Inheritance](./../inheritance/) in Python]])
+* **Hybrid [Inheritance](./../inheritance/):** A combination of multiple inheritance and multilevel inheritance. (([[Hybrid [Inheritance](./../inheritance/) in Python]])
 
 
 **`super()` function:**
@@ -45,18 +45,18 @@ child_object.child_method() # Accesses child method
 The `super()` function is used to call methods of the parent class from within the child class.  This is particularly useful when you want to extend or modify the behavior of a parent class method without rewriting it entirely.  ([super() function](./../super()-function/))
 
 
-**Method Overriding:**
+**[Method Overriding](./../method-overriding/):**
 
-When a child class provides a method with the same name and signature as a method in the parent class, it *overrides* the parent class method.  The child class method will be called instead of the parent class method. ([Method Overriding in Python](./../method-overriding-in-python/))
-
-
-**Method Resolution Order (MRO):**
-
-In multiple inheritance, the [MRO](./../mro/) determines the order in which methods are searched for when called. Python uses the C3 linearization algorithm to determine the MRO.  ([Method Resolution Order (MRO)](./../method-resolution-order-(mro)/))
+When a child class provides a method with the same name and signature as a method in the parent class, it *overrides* the parent class method.  The child class method will be called instead of the parent class method. ([Method Overriding](./../method-overriding/) in Python]])
 
 
+**Method Resolution Order ([MRO](./../mro/)):**
 
-**Advantages of Inheritance:**
+In multiple inheritance, the [MRO](./../mro/) determines the order in which methods are searched for when called. Python uses the C3 linearization algorithm to determine the [MRO](./../mro/).  ([Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]])
+
+
+
+**Advantages of [Inheritance](./../inheritance/):**
 
 * **Code Reusability:** Avoids redundant code by inheriting attributes and methods.
 * **Extensibility:** Easily extend functionality by adding new methods or overriding existing ones.
@@ -64,7 +64,7 @@ In multiple inheritance, the [MRO](./../mro/) determines the order in which meth
 * **Organization:** Creates a clear hierarchy and structure in your code.
 
 
-**Disadvantages of Inheritance:**
+**Disadvantages of [Inheritance](./../inheritance/):**
 
 * **Tight Coupling:** Changes in the parent class can affect child classes.
 * **Complexity:** Can lead to complex class hierarchies, especially with multiple inheritance.

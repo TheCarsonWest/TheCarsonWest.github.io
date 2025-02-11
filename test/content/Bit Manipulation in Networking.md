@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Bitwise Operators](./../bitwise-operators/)
+# [Bitwise [[Operators](./../bitwise-[[operators/)
 # [Bit Manipulation in Networking](./../bit-manipulation-in-networking/) 
 This topic is vast and needs breaking down.
 
@@ -20,7 +20,7 @@ This topic is vast and needs breaking down.
     * **Encryption/Decryption:** Bitwise operations are foundational to many encryption algorithms. [Cryptography Basics](./../cryptography-basics/)
 
 * **Python Libraries:**
-    * The `struct` module for packing and unpacking binary data.  [Python Struct Module](./../python-struct-module/)
+    * The `struct` module for packing and unpacking binary data.  [Python [[Struct Module](./../python-[[struct-module/)
 
 * **Examples:**
     * Simple examples showing how to set, clear, or toggle individual bits in an integer.

@@ -45,7 +45,7 @@
 
 **Impact on the Rest of the Country**
 
-* [Maryland](./../maryland/) was a key player in the American Revolution and played a significant role in the Civil War.
+* [Maryland](./../maryland/) was a key player in the American Revolution and played a significant role in the [Civil War](./../civil-war/).
 * The state's port of Baltimore was a major center of commerce and trade.
 * [Maryland](./../maryland/) is home to the National Security Agency, a vital part of the nation's intelligence apparatus.
 * The state's universities and research institutions make it a hub of innovation and technological advancement.

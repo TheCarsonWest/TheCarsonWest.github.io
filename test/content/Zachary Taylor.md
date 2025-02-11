@@ -22,7 +22,7 @@
 **Impact on the Country:**
 
 * **Expansion of the [United States](./../united-states/):** Taylor's successful military campaigns during the Mexican-American War led to the expansion of U.S. territory, including the acquisition of land that would later become [California](./../california/), [New Mexico](./../new-mexico/), and parts of [Arizona](./../arizona/), [Nevada](./../nevada/), and [Utah](./../utah/).
-* **Heightened Sectional Tensions:** The Mexican-American War and the subsequent debate over the expansion of slavery into newly acquired territories deepened divisions between the North and South, contributing to the growing tension that would ultimately lead to the Civil War.
+* **Heightened Sectional Tensions:** The Mexican-American War and the subsequent debate over the expansion of slavery into newly acquired territories deepened divisions between the North and South, contributing to the growing tension that would ultimately lead to the [Civil War](./../civil-war/).
 * **National Hero:** Taylor's military victories made him a national hero and contributed to his election as president in 1848.
 * **Caretaker President:** Taylor's presidency was short-lived, as he died in office just 16 months after his inauguration. He is often seen as a caretaker president who helped maintain stability during a period of national transition and division.
 

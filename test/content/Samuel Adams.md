@@ -13,7 +13,7 @@
 
 **[Boston Tea Party](./../boston-tea-party/):**
 
-* Led the [Sons of Liberty](./../sons-of-liberty/) in the [Boston Tea Party](./../boston-tea-party/) on December 16, 1773, in protest against [Tea Act|British tea taxes](./../tea-act|british-tea-taxes/).
+* Led the [Sons of Liberty](./../sons-of-liberty/) in the [Boston Tea Party](./../boston-tea-party/) on December 16, 1773, in protest against [Tea Act](./../tea-act/)|British tea taxes]].
 
 **[Intolerable Acts](./../intolerable-acts/):**
 
@@ -63,5 +63,5 @@
 
 * Known as the "Father of the American Revolution" for his leadership in the movement for independence.
 * His radical ideas and organizing abilities played a crucial role in rallying support for the Revolution.
-* Died in Boston on October 2, 1803, at the age of 81.
+* Died in Boston on October [2](./../2/), 1803, at the age of 81.
 # [APUSH people](./../apush-people/)

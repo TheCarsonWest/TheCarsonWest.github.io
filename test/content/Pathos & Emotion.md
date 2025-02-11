@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Analysis](./../[[rhetorical-analysis/) Techniques]]
+# [Rhetorical Analysis](./../rhetorical-analysis/) Techniques]]
 # [Pathos & Emotion](./../pathos-&-emotion/)
 
 This note covers the rhetorical appeal of pathos and its connection to emotion in persuasive communication.

@@ -14,7 +14,7 @@
 * **1850:** First Women's Rights Convention held in [Ohio](./../ohio/).
 * **1854:** [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act passes, repealing the [Missouri](./../missouri/) Compromise and opening [Ohio](./../ohio/) to slavery.
 * **1857:** Oberlin-Wellington Rescue, a raid on a slave jail.
-* **1861:** [Ohio](./../ohio/) secedes from the Union and joins the Confederacy during the Civil War.
+* **1861:** [Ohio](./../ohio/) secedes from the Union and joins the Confederacy during the [Civil War](./../civil-war/).
 * **1863:** [Emancipation Proclamation](./../emancipation-proclamation/) issued, freeing slaves in [Ohio](./../ohio/).
 * **1865:** [Ohio](./../ohio/) ratifies the [13th amendment](./../13th-amendment/), abolishing slavery.
 * **1912:** Wright brothers make the first successful airplane flight in [Ohio](./../ohio/).
@@ -42,6 +42,6 @@
 **Impact on the Rest of the Country:**
 
 * [Ohio](./../ohio/) was a key state in the settlement of the West.
-* [Ohio](./../ohio/) was a major battleground during the Civil War.
+* [Ohio](./../ohio/) was a major battleground during the [Civil War](./../civil-war/).
 * [Ohio](./../ohio/) has played a significant role in the development of aviation and space exploration.
 * [Ohio](./../ohio/) is a major agricultural producer that supplies food to the rest of the [United States](./../united-states/).

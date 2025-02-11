@@ -48,39 +48,31 @@
 <h1 id="broadcasting-explainedbroadcasting-explained"><a href="./../broadcasting-explained/">Broadcasting Explained</a></h1>
 <p>Broadcasting is a powerful feature in NumPy that allows for efficient operations between arrays of different shapes.  It avoids explicit looping and significantly speeds up computations.  The core idea is that NumPy attempts to stretch smaller arrays to match the shape of larger arrays before performing element-wise operations.</p>
 <p><strong>Rules of Broadcasting:</strong></p>
-<ol>
-<li>
-<p><strong>Shape Alignment:</strong> NumPy compares the dimensions of the arrays from right to left.  If dimensions are equal or one of them is 1, broadcasting is possible.</p>
-</li>
-<li>
-<p><strong>Dimension Expansion:</strong> Dimensions of size 1 are stretched (or &ldquo;expanded&rdquo;) to match the corresponding dimension of the other array.</p>
-</li>
-<li>
-<p><strong>Incompatibility:</strong> If dimensions are neither equal nor one of them is 1,  a <code>ValueError</code> is raised, indicating that broadcasting is not possible.</p>
-</li>
-</ol>
+<p><a href="./../1/">1</a>. <strong>Shape Alignment:</strong> NumPy compares the dimensions of the arrays from right to left.  If dimensions are equal or one of them is <a href="./../1/">1</a>, broadcasting is possible.</p>
+<p><a href="./../2/">2</a>. <strong>Dimension Expansion:</strong> Dimensions of size <a href="./../1/">1</a> are stretched (or &ldquo;expanded&rdquo;) to match the corresponding dimension of the other array.</p>
+<p><a href="./../3/">3</a>. <strong>Incompatibility:</strong> If dimensions are neither equal nor one of them is <a href="./../1/">1</a>,  a <code>ValueError</code> is raised, indicating that broadcasting is not possible.</p>
 <p><strong>Examples:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example 1:  Simple Broadcasting</span>
-</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])  <span style="color:#75715e"># Shape (3,)</span>
-</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>  <span style="color:#75715e"># Scalar (treated as an array with shape ())</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example [1](./../1/):  Simple Broadcasting</span>
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)])  <span style="color:#75715e"># Shape ([3](./../3/),)</span>
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> [<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)  <span style="color:#75715e"># Scalar (treated as an array with shape ())</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>c <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b  <span style="color:#75715e"># Broadcasting b to (3,) and adding element-wise</span>
-</span></span><span style="display:flex;"><span>print(c)  <span style="color:#75715e"># Output: [6 7 8]</span>
+</span></span><span style="display:flex;"><span>c <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b  <span style="color:#75715e"># Broadcasting b to ([3](./../3/),) and adding element-wise</span>
+</span></span><span style="display:flex;"><span>print(c)  <span style="color:#75715e"># Output: [[6](./../[6/) [7](./../7/) 8]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example 2:  More Complex Broadcasting</span>
-</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>], [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">-</span>[<span style="color:#ae81ff">3</span><span style="color:#f92672">-</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># Shape (2, 2)</span>
-</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>])  <span style="color:#75715e"># Shape (2,)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Example [2](./../2/):  More Complex Broadcasting</span>
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)], [[<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># Shape ([2](./../2/), [2](./../2/))</span>
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>])  <span style="color:#75715e"># Shape ([2](./../2/),)</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>c <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b  <span style="color:#75715e"># b is broadcasted to (2,2) --&gt; [10,20],[10,20](./../1020][1020/)</span>
+</span></span><span style="display:flex;"><span>c <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b  <span style="color:#75715e"># b is broadcasted to ([2](./../2/),[2](./../2/)) --&gt; [10,20],[10,20](./../1020][1020/)</span>
 </span></span><span style="display:flex;"><span>print(c)  <span style="color:#75715e"># Output: [11 22]  [13 24](./../11-22]--[13-24/)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#Example 3: Incompatible Shapes - Error</span>
-</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>], [<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>]<span style="color:#f92672">-</span>[<span style="color:#ae81ff">3</span><span style="color:#f92672">-</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)) <span style="color:#75715e"># Shape (2,2)</span>
-</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>]) <span style="color:#75715e"># Shape (3,)</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#Example [3](./../3/): Incompatible Shapes - Error</span>
+</span></span><span style="display:flex;"><span>a <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)], [[<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>)) <span style="color:#75715e"># Shape ([2](./../2/),[2](./../2/))</span>
+</span></span><span style="display:flex;"><span>b <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)]) <span style="color:#75715e"># Shape ([3](./../3/),)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#c = a + b # This will raise a ValueError</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#print(c) </span>

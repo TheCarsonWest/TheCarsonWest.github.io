@@ -4,14 +4,14 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# [Function Return Values](./../function-return-values/) 
+# [Function [[Return Values](./../function-[[return-values/) 
 Python functions can return values using the `return` statement.  The returned value can be of any data type (integer, string, list, dictionary, another function, etc.), or it can be `None` if no explicit return statement is provided.
 
 ```python
 def add(x, y):
   return x + y
 
-result = add(5, 3)
+result = add([5](./../5/), [3](./../3/))
 print(result)  # Output: 8
 
 def greet(name):
@@ -29,9 +29,9 @@ print(no_return_result) # Output: None
 
 [Return Statement Details](./../return-statement-details/)  //This will be a separate note detailing edge cases and nuances of the `return` statement.
 
-[Data Types and Return Values](./../data-types-and-return-values/) //This will be a separate note describing how different data types are handled as return values.  (e.g., mutability, copying vs. referencing)
+[Data Types](./../data-types/) and [Return Values](./../return-values/) //This will be a separate note describing how different data types are handled as return values.  (e.g., mutability, copying vs. referencing)
 
-[Multiple Return Values](./../multiple-return-values/) //This will explain how functions can return multiple values (often as tuples).
+[[Multiple [Return Values](./../return-values/) //This will explain how functions can return multiple values (often as tuples).
 
 Related Notes:
 - [Function Definitions](./../function-definitions/)

@@ -16,9 +16,9 @@ print(sys.path)
 
 The `sys.path` list typically includes:
 
-1. The directory containing the script being run (or the current directory if no script is specified).
-2. The directories specified by the `PYTHONPATH` environment variable (if set).
-3. Installation-dependent default locations (e.g., site-packages directories).
+[1](./../1/). The directory containing the script being run (or the current directory if no script is specified).
+[2](./../2/). The directories specified by the `PYTHONPATH` environment variable (if set).
+[3](./../3/). Installation-dependent default locations (e.g., site-packages directories).
 
 
 [PYTHONPATH Environment Variable](./../pythonpath-environment-variable/)
@@ -51,5 +51,5 @@ import my_module  # now you can import your module
 
 
 [Module Importing in Python](./../module-importing-in-python/)
-[Error Handling: ImportError](./../error-handling:-importerror/)
+[Error Handling](./../error-handling/): ImportError]]
 

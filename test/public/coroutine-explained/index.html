@@ -44,9 +44,9 @@
 </div>
 
 <main>
-<h1 id="async-generatorsasync-generators"><a href="./../async-generators/">Async Generators</a></h1>
+<h1 id="async-generatorsasync-generators">[Async [<a href="./../async-%5B%5Bgenerators/">Generators</a></h1>
 <h1 id="coroutine-explainedcoroutine-explained"><a href="./../coroutine-explained/">Coroutine Explained</a></h1>
-<p>A coroutine is a specialized type of function that can be paused and resumed at various points.  Unlike regular functions which run to completion, coroutines can yield control back to the caller, and later resume execution from where they left off.  This is achieved using the <code>async</code> and <code>await</code> keywords (introduced in Python 3.5).</p>
+<p>A coroutine is a specialized type of function that can be paused and resumed at various points.  Unlike regular functions which run to completion, coroutines can yield control back to the caller, and later resume execution from where they left off.  This is achieved using the <code>async</code> and <code>await</code> keywords (introduced in Python <a href="./../3/">3</a>.<a href="./../5/">5</a>).</p>
 <p>Key features:</p>
 <ul>
 <li>
@@ -64,7 +64,7 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_coroutine</span>(name):
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Coroutine </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74"> started&#34;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep(<span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Simulate some asynchronous operation</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">await</span> asyncio<span style="color:#f92672">.</span>sleep([<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># Simulate some asynchronous operation</span>
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Coroutine </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74"> finished&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result from </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
 </span></span><span style="display:flex;"><span>
@@ -75,12 +75,12 @@
 </span></span><span style="display:flex;"><span>    result1 <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> coro1
 </span></span><span style="display:flex;"><span>    result2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> coro2
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result 1: </span><span style="color:#e6db74">{</span>result1<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result 2: </span><span style="color:#e6db74">{</span>result2<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result [1](./../1/): </span><span style="color:#e6db74">{</span>result1<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Result [2](./../2/): </span><span style="color:#e6db74">{</span>result2<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
 </span></span><span style="display:flex;"><span>    asyncio<span style="color:#f92672">.</span>run(main())
-</span></span></code></pre></div><p><a href="./../asyncio-explained/">Asyncio Explained</a>  This example uses <code>asyncio.sleep</code>, which is an asynchronous version of <code>time.sleep</code>.  The <code>asyncio</code> library is fundamental to working with coroutines effectively.  More details should be in <a href="./../asyncio-explained/">Asyncio Explained</a>.</p>
+</span></span></code></pre></div><p><a href="./../asyncio/">Asyncio</a> Explained]]  This example uses <code>asyncio.sleep</code>, which is an asynchronous version of <code>time.sleep</code>.  The <code>asyncio</code> library is fundamental to working with coroutines effectively.  More details should be in <a href="./../asyncio/">Asyncio</a> Explained]].</p>
 <p><a href="./../await-explained/">await Explained</a>  Further explanation of the <code>await</code> keyword and its behaviour, particularly the implications of using it with different kinds of asynchronous objects is needed in <a href="./../await-explained/">await Explained</a>.</p>
 <p><a href="./../async-def-explained/">async def Explained</a>  A more detailed examination of the <code>async def</code> syntax and its unique characteristics, such as how it interacts with other function types and decorators could go in <a href="./../async-def-explained/">async def Explained</a>.</p>
 <p>Important points to remember:</p>

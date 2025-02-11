@@ -40,7 +40,7 @@
 
 **V.  Quantitative Analysis (Applicable to some sources)**
 
-*   If dealing with numerical data, analyze for statistical significance, potential outliers, and data biases.   $ p < 0.05 $  indicates statistical significance.  [[[Statistical Significance](./../[[statistical-significance/) Testing]]
+*   If dealing with numerical data, analyze for statistical significance, potential outliers, and data biases.   $ p < 0.05 $  indicates statistical significance.  [Statistical Significance](./../statistical-significance/) Testing]]
 *   Consider data visualization techniques to better understand trends and patterns. [Data Visualization Techniques](./../data-visualization-techniques/)
 
 

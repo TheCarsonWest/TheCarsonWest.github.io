@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Exception Handling Examples](./../exception-handling-examples/)
+# [Exception Handling](./../exception-handling/) Examples]]
 # [Python Exceptions](./../python-exceptions/)  [Python Exceptions](./../python-exceptions/) are events that occur during the execution of a program that disrupt the normal flow of instructions.  They are a way for Python to signal that something unexpected or erroneous has happened.  Handling exceptions gracefully is crucial for writing robust and reliable code.
 
 Key Concepts:
@@ -48,7 +48,7 @@ def validate_age(age):
 * **Custom Exceptions:** You can create your own exception classes by inheriting from the built-in `Exception` class or its subclasses. This allows you to define specific exception types for your application's needs.  ([Custom Exception Classes](./../custom-exception-classes/))
 
 
-* **Exception Handling Best Practices:**
+* **[Exception Handling](./../exception-handling/) Best Practices:**
     * Be specific in your `except` blocks. Catch only the exceptions you expect and know how to handle. Avoid a bare `except:` clause unless absolutely necessary.
     * Use `try...except...finally` to ensure cleanup actions (like closing files) are always performed.
     * Log exceptions for debugging purposes.  ([Logging in Python](./../logging-in-python/))
@@ -59,6 +59,6 @@ Related Notes:
 
 * [Custom Exception Classes](./../custom-exception-classes/)
 * [Logging in Python](./../logging-in-python/)
-* [Error Handling Strategies](./../error-handling-strategies/)
+* [Error Handling](./../error-handling/) Strategies]]
 
 

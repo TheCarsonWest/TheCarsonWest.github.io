@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Multidimensional Lists](./../multidimensional-lists/)
+# [Multidimensional [[Lists](./../multidimensional-[[lists/)
 # [NumPy Arrays](./../numpy-arrays/) 
 NumPy arrays are the fundamental data structure for numerical computation in Python.  They provide efficient storage and manipulation of numerical data.  Key advantages over standard Python lists include:
 
@@ -13,7 +13,7 @@ NumPy arrays are the fundamental data structure for numerical computation in Pyt
 * **Efficient memory layout:** NumPy arrays store data in contiguous memory locations, improving memory access speed.
 
 
-**Creating NumPy Arrays:**
+**Creating [NumPy Arrays](./../numpy-arrays/):**
 
 NumPy arrays are created using the `numpy.array()` function.
 
@@ -21,15 +21,15 @@ NumPy arrays are created using the `numpy.array()` function.
 import numpy as np
 
 # From a list
-arr1 = np.array([1, 2, 3, 4, 5]) 
+arr1 = np.array([[1](./../[1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/)]) 
 
 # From a list of lists (creates a 2D array)
-arr2 = np.array([1, 2, 3], [4, 5, 6](./../1-2-3]-[4-5-6/))
+arr2 = np.array([1](./../1/), [2](./../2/), [3](./../3/)], [[4](./../4/), [5](./../5/), [6](./../6/))
 
 # Using other functions like arange, zeros, ones, etc.
 arr3 = np.arange(10) # Creates an array from 0 to 9
-arr4 = np.zeros((2,3)) # Creates a 2x3 array filled with zeros
-arr5 = np.ones((3,2)) # Creates a 3x2 array filled with ones
+arr4 = np.zeros(([2](./../2/),[3](./../3/))) # Creates a 2x3 array filled with zeros
+arr5 = np.ones(([3](./../3/),[2](./../2/))) # Creates a 3x2 array filled with ones
 
 print(arr1)
 print(arr2)
@@ -55,14 +55,14 @@ NumPy provides a rich set of functions for array manipulation and computation:
 
 ```python
 # Arithmetic operations
-arr6 = arr1 + 2 # Adds 2 to each element
+arr6 = arr1 + [2](./../2/) # Adds [2](./../2/) to each element
 arr7 = arr1 * arr1 # Element-wise multiplication
 
 # Array slicing
-arr8 = arr2[:2, :2] # Selects a subarray
+arr8 = arr2[:[2](./../2/), :[2](./../2/)] # Selects a subarray
 
 # Reshaping arrays
-arr9 = arr1.reshape(5,1) # Reshapes arr1 into a 5x1 array
+arr9 = arr1.reshape([5](./../5/),[1](./../1/)) # Reshapes arr1 into a 5x1 array
 
 # Linear algebra operations ([NumPy Linear Algebra](./../numpy-linear-algebra/))
 # ...
@@ -75,6 +75,6 @@ print(arr9)
 
 
 [NumPy Indexing and Slicing](./../numpy-indexing-and-slicing/)
-[NumPy Data Types](./../numpy-data-types/)
+[NumPy [[Data Types](./../numpy-[[data-types/)
 
 

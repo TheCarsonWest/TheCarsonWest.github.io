@@ -23,7 +23,7 @@
 **Groups Associated With:**
 
 * [Democratic-Republican](./../democratic-republican/) Party
-* National Republicans
+* National [Republicans](./../republicans/)
 * Nullifier Party
 
 **Impact on the Country:**

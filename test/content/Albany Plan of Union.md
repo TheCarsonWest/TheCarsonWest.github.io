@@ -7,7 +7,7 @@
 ## When: June 1754
 
 ## Who:
-* **Benjamin Franklin:** Primary author and proponent.
+* **[Benjamin Franklin](./../benjamin-franklin/):** Primary author and proponent.
 * **Representatives from seven colonies:**  Attended the Albany Congress.
 
 ## What: 
@@ -20,4 +20,4 @@ A proposal by [Benjamin Franklin](./../benjamin-franklin/) for a unified governm
 * **Precursor to later union efforts:** The Albany Plan's ideas about representation, taxation, and shared governance prefigured similar discussions that would take place during and after the American Revolution, ultimately leading to the creation of the [Articles of Confederation](./../articles-of-confederation/) and the [United States](./../united-states/) Constitution.
 
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS Unit [[3](./../ids-unit-[[3/)

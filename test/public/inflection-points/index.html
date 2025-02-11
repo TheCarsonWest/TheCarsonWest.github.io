@@ -56,35 +56,23 @@
 <p><a href="./../analyzing-functions-with-the-second-derivative/">Analyzing Functions with the second derivative</a></p>
 <h2 id="finding-inflection-pointsinflection-points">Finding <a href="./../inflection-points/">Inflection Points</a></h2>
 <p>Inflection points occur where the concavity of a function changes.  This means the second <a href="./../derivative/">derivative</a>,  $ f&rsquo;&rsquo;(x) $ , changes sign.  To find inflection points, we follow these steps:</p>
-<ol>
-<li><strong>Find the second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) $</li>
-<li><strong>Find critical points of the second <a href="./../derivative/">derivative</a>:</strong> Set  $ f&rsquo;&rsquo;(x) = 0 $  or find where  $ f&rsquo;&rsquo;(x) $  is undefined.  These are potential inflection points.</li>
-<li><strong>Analyze the sign of  $ f&rsquo;&rsquo;(x) $  around the critical points:</strong>  If the sign of  $ f&rsquo;&rsquo;(x) $  changes from positive to negative (or vice-versa) as  $ x $  passes through a <a href="./../critical-point/">Critical Point</a>, then that point is an inflection point.  If the sign does not change, it&rsquo;s not an inflection point.</li>
-<li><strong>Verify that the point is in the domain of the original function.</strong></li>
-</ol>
+<p><a href="./../1/">1</a>. <strong>Find the second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) $
+<a href="./../2/">2</a>. <strong>Find critical points of the second <a href="./../derivative/">derivative</a>:</strong> Set  $ f&rsquo;&rsquo;(x) = 0 $  or find where  $ f&rsquo;&rsquo;(x) $  is undefined.  These are potential inflection points.
+<a href="./../3/">3</a>. <strong>Analyze the sign of  $ f&rsquo;&rsquo;(x) $  around the critical points:</strong>  If the sign of  $ f&rsquo;&rsquo;(x) $  changes from positive to negative (or vice-versa) as  $ x $  passes through a <a href="./../critical-point/">Critical Point</a>, then that point is an inflection point.  If the sign does not change, it&rsquo;s not an inflection point.
+<a href="./../4/">4</a>. <strong>Verify that the point is in the domain of the original function.</strong></p>
 <p><strong>Important Note:</strong>  A <a href="./../critical-point/">Critical Point</a> of the second <a href="./../derivative/">derivative</a> ( $ f&rsquo;&rsquo;(x) = 0 $  or  $ f&rsquo;&rsquo;(x) $  is undefined) is not automatically an inflection point. The concavity must actually change at that point.</p>
 <h2 id="example">Example</h2>
-<p>Let&rsquo;s find the inflection points of the function  $ f(x) = x^3 - 3x^2 + 2x $ .</p>
-<ol>
-<li>
-<p><strong>First <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;(x) = 3x^2 - 6x + 2 $</p>
-</li>
-<li>
-<p><strong>Second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) = 6x - 6 $</p>
-</li>
-<li>
-<p><strong>Critical points:</strong> Set  $ f&rsquo;&rsquo;(x) = 0 $ :   $ 6x - 6 = 0 \implies x = 1 $</p>
-</li>
-<li>
-<p><strong>Sign analysis:</strong></p>
+<p>Let&rsquo;s find the inflection points of the function  $ f(x) = x^<a href="./../3/">3</a> - 3x^<a href="./../2/">2</a> + 2x $ .</p>
+<p><a href="./../1/">1</a>. <strong>First <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;(x) = 3x^<a href="./../2/">2</a> - 6x + <a href="./../2/">2</a> $
+<a href="./../2/">2</a>. <strong>Second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) = 6x - <a href="./../6/">6</a> $
+<a href="./../3/">3</a>. <strong>Critical points:</strong> Set  $ f&rsquo;&rsquo;(x) = 0 $ :   $ 6x - <a href="./../6/">6</a> = 0 \implies x = <a href="./../1/">1</a> $
+<a href="./../4/">4</a>. <strong>Sign analysis:</strong></p>
 <ul>
-<li>For  $ x &lt; 1 $ ,  $ f&rsquo;&rsquo;(x) &lt; 0 $  (concave down)</li>
-<li>For  $ x &gt; 1 $ ,  $ f&rsquo;&rsquo;(x) &gt; 0 $  (concave up)</li>
+<li>For  $ x &lt; <a href="./../1/">1</a> $ ,  $ f&rsquo;&rsquo;(x) &lt; 0 $  (concave down)</li>
+<li>For  $ x &gt; <a href="./../1/">1</a> $ ,  $ f&rsquo;&rsquo;(x) &gt; 0 $  (concave up)</li>
 </ul>
-</li>
-</ol>
-<p>Since the concavity changes from down to up at  $ x = 1 $ , there is an inflection point at  $ x = 1 $ .  To find the  $ y $ -coordinate, substitute  $ x = 1 $  into the original function:  $ f(1) = 1^3 - 3(1)^2 + 2(1) = 0 $ .  Therefore, the inflection point is  $ (1, 0) $ .</p>
-<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^3 - 3x^2 + 2x
+<p>Since the concavity changes from down to up at  $ x = <a href="./../1/">1</a> $ , there is an inflection point at  $ x = <a href="./../1/">1</a> $ .  To find the  $ y $ -coordinate, substitute  $ x = <a href="./../1/">1</a> $  into the original function:  $ f(<a href="./../1/">1</a>) = <a href="./../1/">1</a>^<a href="./../3/">3</a> - <a href="./../3/">3</a>(<a href="./../1/">1</a>)^<a href="./../2/">2</a> + <a href="./../2/">2</a>(<a href="./../1/">1</a>) = 0 $ .  Therefore, the inflection point is  $ (<a href="./../1/">1</a>, 0) $ .</p>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^[3](./../3/) - 3x^[2](./../2/) + 2x
 </code></pre><h2 id="cases-where---fx---is-undefined">Cases where  $ f&rsquo;&rsquo;(x) $  is undefined</h2>
 <p>If the second <a href="./../derivative/">derivative</a> is undefined at a point, you still need to check for a sign change in the concavity around that point to determine if it&rsquo;s an inflection point.  This often happens with functions involving absolute values or fractional exponents.</p>
 

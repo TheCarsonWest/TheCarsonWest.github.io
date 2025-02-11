@@ -53,7 +53,7 @@
 <li><strong>Shared Memory:</strong> Multiple processes can access and modify the same memory-mapped file simultaneously, enabling inter-process communication (IPC). <a href="./../inter-process-communication-(ipc)/">Inter-Process Communication (IPC)</a></li>
 <li><strong>Synchronization:</strong> Because multiple processes can access the same memory, proper synchronization mechanisms (like locks) are crucial to prevent race conditions and data corruption. <a href="./../synchronization-primitives/">Synchronization Primitives</a></li>
 <li><strong>File Modes:</strong>  Different modes affect how the mapped file behaves (read-only, read-write, copy-on-write, etc.).</li>
-<li><strong>Error Handling:</strong>  Properly handle exceptions like <code>mmap.error</code> for scenarios where the mapping fails.</li>
+<li><strong><a href="./../error-handling/">Error Handling</a>:</strong>  Properly handle exceptions like <code>mmap.error</code> for scenarios where the mapping fails.</li>
 </ul>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mmap

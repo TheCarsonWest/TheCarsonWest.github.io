@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# [Python Decorators](./../python-decorators/) 
+# [Python [[Decorators](./../python-[[decorators/) 
 Python decorators are a powerful and expressive feature that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name, placed above the function definition.
 
 **Basic Syntax:**
@@ -40,7 +40,7 @@ def repeat(num_times):
         return wrapper
     return decorator_repeat
 
-@repeat(num_times=3)
+@repeat(num_times=[3](./../3/))
 def greet(name):
     print(f"Hello, {name}!")
 
@@ -52,15 +52,15 @@ Here, `repeat` is a decorator factory – it returns a decorator.  The inner fun
 
 **Use Cases:**
 
-* **Logging:**  Track function calls and their arguments/return values. [Logging with Decorators](./../logging-with-decorators/)
+* **Logging:**  Track function calls and their arguments/return values. [[Logging with [Decorators](./../decorators/)
 * **Timing:** Measure the execution time of functions. [Timing Functions](./../timing-functions/)
-* **Access Control:** Restrict access to certain functions based on user roles or permissions. [Access Control Decorators](./../access-control-decorators/)
-* **Caching:** Store the results of expensive function calls to avoid redundant computations. [Caching Decorators](./../caching-decorators/)
+* **Access Control:** Restrict access to certain functions based on user roles or permissions. [[Access Control [Decorators](./../decorators/)
+* **Caching:** Store the results of expensive function calls to avoid redundant computations. [[Caching [Decorators](./../decorators/)
 
 
 **Advanced Topics:**
 
-* **Class Decorators:** [Decorators](./../decorators/) can also be applied to classes. [Class Decorators](./../class-decorators/)
+* **Class [Decorators](./../decorators/):** [Decorators](./../decorators/) can also be applied to classes. [[Class [Decorators](./../decorators/)
 * **Decorator Arguments and Order:** Understanding how arguments are passed and the order of multiple decorators is crucial. [Decorator Arguments and Order](./../decorator-arguments-and-order/)
 
 **Further Reading:**
@@ -71,4 +71,4 @@ Here, `repeat` is a decorator factory – it returns a decorator.  The inner fun
 **Related Notes:**
 
 * [Function Arguments and Keyword Arguments](./../function-arguments-and-keyword-arguments/)
-* [Closures in Python](./../closures-in-python/)  (Decorators heavily rely on closures.)
+* [Closures in Python](./../closures-in-python/)  ([Decorators](./../decorators/) heavily rely on closures.)

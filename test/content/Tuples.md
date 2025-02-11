@@ -3,22 +3,22 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [Tuples](./../tuples/)  [Tuples](./../tuples/) are ordered, immutable [Sequences](./../sequences/) of items.  This immutability is a key difference from [Lists](./../lists/).
 
 * **Creation:**
 ```python
-my_tuple = (1, 2, 3, "apple", 4.5)  # Using parentheses
-another_tuple = 1, 2, 3  # Parentheses are optional for simple tuples
+my_tuple = ([1](./../1/), [2](./../2/), [3](./../3/), "apple", [4](./../4/).[5](./../5/))  # Using parentheses
+another_tuple = [1](./../1/), [2](./../2/), [3](./../3/)  # Parentheses are optional for simple tuples
 empty_tuple = ()
-single_element_tuple = (1,) #Note the comma for single-element tuples
+single_element_tuple = ([1](./../1/),) #Note the comma for single-element tuples
 
 ```
 
 * **Accessing Elements:** Similar to [Lists](./../lists/), use indexing.
 ```python
-print(my_tuple[0])  # Output: 1
-print(my_tuple[-1]) # Output: 4.5
+print(my_tuple[0])  # Output: [1](./../1/)
+print(my_tuple[-[1](./../1/)]) # Output: [4](./../4/).[5](./../5/)
 ```
 
 * **Immutability:**  Attempting to modify a tuple after creation raises a `TypeError`.
@@ -33,9 +33,9 @@ my_tuple[0] = 10  # Raises TypeError: 'tuple' object does not support item assig
 
 * **Tuple Packing and Unpacking:**
 ```python
-packed_tuple = (1, 2, 3)
+packed_tuple = ([1](./../1/), [2](./../2/), [3](./../3/))
 a, b, c = packed_tuple  # Unpacking
-print(a, b, c)  # Output: 1 2 3
+print(a, b, c)  # Output: [1](./../1/) [2](./../2/) [3](./../3/)
 
 ```
 
@@ -45,5 +45,5 @@ print(a, b, c)  # Output: 1 2 3
 
 
 [Lists](./../lists/)
-[Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+[Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)
 

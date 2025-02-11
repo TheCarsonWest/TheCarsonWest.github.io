@@ -23,12 +23,12 @@
 
 **Civil Service Reform:**
 
-* Arthur's support for the Pendleton Act marked a significant step in reforming the [Spoils System](./../spoils-system/) and promoting meritocratic government.
+* Arthur's support for the [Pendleton Act](./../pendleton-act/) marked a significant step in reforming the [Spoils System](./../spoils-system/) and promoting meritocratic government.
 * It helped to reduce corruption and improve the efficiency of the civil service.
 
 **Chinese Exclusion:**
 
-* The Edmunds-Tucker Act further extended the Chinese Exclusion Act of 1882, which prohibited Chinese laborers from immigrating to the [United States](./../united-states/).
+* The Edmunds-Tucker Act further extended the [Chinese Exclusion Act](./../chinese-exclusion-act/) of 1882, which prohibited Chinese laborers from immigrating to the [United States](./../united-states/).
 * This policy had a lasting impact on the Chinese American community.
 
 **Other Policies:**

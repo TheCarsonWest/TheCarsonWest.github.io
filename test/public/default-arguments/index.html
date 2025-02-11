@@ -57,15 +57,15 @@
 <li><strong>Order Matters:</strong> Default arguments must come after non-default arguments in the function definition.  This is because Python matches arguments based on their position.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Correct</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a, b<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a, b<span style="color:#f92672">=</span>[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>)):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Incorrect - will raise a SyntaxError</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, b):
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a<span style="color:#f92672">=</span>[<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>), b):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span></code></pre></div><ul>
 <li>
-<p><strong>Mutability:</strong> Be cautious when using mutable objects (like lists or dictionaries) as default arguments. The default value is created only once when the function is defined. Subsequent calls will modify the same object. <a href="./../mutable-default-arguments/">Mutable Default Arguments</a></p>
+<p><strong>Mutability:</strong> Be cautious when using mutable objects (like lists or dictionaries) as default arguments. The default value is created only once when the function is defined. Subsequent calls will modify the same object. [[Mutable <a href="./../default-arguments/">Default Arguments</a></p>
 </li>
 <li>
 <p><strong>None as a Default:</strong>  <code>None</code> is a good choice as a default for parameters that might not always be needed, avoiding the mutability issues mentioned above.</p>

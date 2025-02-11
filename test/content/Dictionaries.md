@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [Dictionaries](./../dictionaries/)  [Dictionaries](./../dictionaries/) are unordered collections of key-value pairs.  Keys must be immutable (like strings, numbers, or tuples), while values can be of any data type.
 
 ```python
-my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+my_dict = {"name": "Alice", "age": 30, "city": "[New York](./../new-york/)"}
 print(my_dict["name"])  # Accessing values using keys
 ```
 
@@ -45,4 +45,4 @@ Other useful methods:
 * `copy()`: Creates a shallow copy.
 
 
-[Dictionary Comprehension](./../dictionary-comprehension/), [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+[Dictionary Comprehension](./../dictionary-comprehension/), [Mutable vs [[Immutable Types](./../mutable-vs-[[immutable-types/)

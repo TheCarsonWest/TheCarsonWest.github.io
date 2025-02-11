@@ -12,7 +12,7 @@
 **Key Aspects:**
 
 * **Data Sources:** [Data Source Evaluation](./../data-source-evaluation/)  -  Identify potential biases and inaccuracies inherent in different data sources (e.g., surveys, sensors, databases).  Consider factors like sampling methods, measurement errors, and data collection procedures.
-* **Data Cleaning:** [Data Cleaning Techniques](./../data-cleaning-techniques/) - Techniques to handle missing values ( $$  \text{Missing Data Percentage} = \frac{\text{Number of Missing Values}}{\text{Total Number of Values}} \times 100  $$ ), outliers ( $$  \text{Outlier Detection using IQR: } \text{Upper Bound} = Q_3 + 1.5 \times IQR; \text{Lower Bound} = Q_1 - 1.5 \times IQR  $$ ), and inconsistencies. This might involve imputation, smoothing, or removal of problematic data points.
+* **Data Cleaning:** [Data Cleaning Techniques](./../data-cleaning-techniques/) - Techniques to handle missing values ( $$  \text{Missing Data Percentage} = \frac{\text{Number of Missing Values}}{\text{Total Number of Values}} \times 100  $$ ), outliers ( $$  \text{Outlier Detection using IQR: } \text{Upper Bound} = Q_3 + [1](./../1/).[5](./../5/) \times IQR; \text{Lower Bound} = Q_1 - [1](./../1/).[5](./../5/) \times IQR  $$ ), and inconsistencies. This might involve imputation, smoothing, or removal of problematic data points.
 * **Data Validation:** [Data Validation Rules](./../data-validation-rules/) - Define rules and constraints to ensure data conforms to expected formats and ranges.  Examples include:
     * **Range checks:**   $ x \ge 0 $   for a variable representing age.
     * **Format checks:** Ensuring date fields adhere to YYYY-MM-DD format.
@@ -25,7 +25,7 @@
     * **Accuracy:** The ratio of correctly classified instances to the total number of instances.
     * **Completeness:** The percentage of non-missing values.
     * **Consistency:** The degree to which data conforms to predefined rules and constraints.
-* **Error Handling:** [Error Handling Strategies](./../error-handling-strategies/)  - Develop procedures for identifying, reporting, and correcting data errors. Establish a process for tracking and resolving data quality issues.  A workflow diagram might be helpful here.
+* **[Error Handling](./../error-handling/):** [Error Handling](./../error-handling/) Strategies]]  - Develop procedures for identifying, reporting, and correcting data errors. Establish a process for tracking and resolving data quality issues.  A workflow diagram might be helpful here.
 
 
 **Related Notes:**

@@ -44,7 +44,7 @@
 </div>
 
 <main>
-<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="python-1python-1-home">[Python [<a href="./../python-%5B%5B1/">1</a> Home]]</h1>
 <h1 id="decoratorsdecorators--decoratorsdecorators-are-a-powerful-and-expressive-feature-in-python-that-allows-you-to-modify-or-enhance-functions-and-methods-in-a-clean-and-readable-way--they-use-the--symbol-followed-by-the-decorator-function-name-placed-above-the-function-definition"><a href="./../decorators/">Decorators</a>  <a href="./../decorators/">Decorators</a> are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the <code>@</code> symbol followed by the decorator function name placed above the function definition.</h1>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator</span>(func):
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>():
@@ -60,7 +60,7 @@
 </span></span><span style="display:flex;"><span>say_hello()
 </span></span></code></pre></div><p>This example shows a simple decorator that prints messages before and after the decorated function (<code>say_hello</code>) is executed.  The <code>my_decorator</code> function takes the function to be decorated as an argument, and returns a new function (<code>wrapper</code>) that includes the additional functionality.  The <code>@</code> syntax is just syntactic sugar for:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>say_hello <span style="color:#f92672">=</span> my_decorator(say_hello)
-</span></span></code></pre></div><p><strong>Arguments to Decorators:</strong>
+</span></span></code></pre></div><p><strong>Arguments to <a href="./../decorators/">Decorators</a>:</strong>
 <a href="./../decorators/">Decorators</a> can also accept arguments. This requires a more complex structure:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">repeat</span>(num_times):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator_repeat</span>(func):
@@ -71,15 +71,15 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> wrapper
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> decorator_repeat
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@repeat</span>(num_times<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">@repeat</span>(num_times<span style="color:#f92672">=</span>[<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>))
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name):
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Hello, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;World&#34;</span>)
 </span></span></code></pre></div><p>Here, <code>repeat</code> is a decorator factory – it returns a decorator.</p>
 <p><strong><a href="./../decorator-factories/">Decorator Factories</a></strong></p>
-<p><strong><a href="./../chaining-decorators/">Chaining Decorators</a></strong></p>
-<p><strong>Class Decorators:</strong>
+<p><strong>[[Chaining <a href="./../decorators/">Decorators</a></strong></p>
+<p><strong>Class <a href="./../decorators/">Decorators</a>:</strong>
 <a href="./../decorators/">Decorators</a> can also be classes:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">CountCalls</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, func):
@@ -87,7 +87,7 @@
 </span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __call__(self, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
-</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>count <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>count <span style="color:#f92672">+=</span> [<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>)
 </span></span><span style="display:flex;"><span>        print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Call count: </span><span style="color:#e6db74">{</span>self<span style="color:#f92672">.</span>count<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>func(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs)
 </span></span><span style="display:flex;"><span>

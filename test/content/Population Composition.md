@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-[APHG Unit 2](./../aphg-unit-2/)
+[APHG Unit [[2](./../aphg-unit-[[2/)
 
-# Population Composition: What a population is made of 
+# [Population Composition](./../population-composition/): What a population is made of 
 
 ## Things populations are made of
 ### [Ethnicity](./../ethnicity/) - You get Chinatowns and little italies everywhere

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
-# [Figurative Language Examples](./../figurative-language-examples/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
+# [Figurative [[Language](./../figurative-[[language/) Examples]]
 
 This note covers examples of various types of figurative language.  I'll use examples to illustrate each type and potentially link to more detailed explanations in separate notes.
 
@@ -48,7 +48,7 @@ This note covers examples of various types of figurative language.  I'll use exa
     * Example: "All hands on deck!" ("Hands" representing sailors)  ([Synecdoche Examples](./../synecdoche-examples/))
 
 
-**Mathematical Representation of Figurative Language (Conceptual):**
+**Mathematical Representation of Figurative [Language](./../language/) (Conceptual):**
 
 While not directly applicable, we could conceptually represent the effect of figurative language on understanding using a function.  Let's say:
 

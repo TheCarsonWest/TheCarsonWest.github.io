@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-Create an AP [United States](./../united-states/) History rundown on {Spain}. Include American History events they were associated with, and a quick timeline of major things that happened with them
+Create an AP [United States](./../united-states/) History rundown on {[Spain](./../spain/)}. Include American History events they were associated with, and a quick timeline of major things that happened with them
 **Timeline of Major Events:**
 
 * **1492:** Columbus reaches the Americas
@@ -16,15 +16,15 @@ Create an AP [United States](./../united-states/) History rundown on {Spain}. In
 
 **Early Exploration and Colonization:**
 
-* **1492:** Christopher Columbus, funded by Spain, reaches the Americas, marking the beginning of European colonization in the Western Hemisphere.
-* **1513:** Juan Ponce de León claims [Florida](./../florida/) for Spain, establishing the first European claim in what is now the continental [United States](./../united-states/).
-* **1565:** St. Augustine, [Florida](./../florida/), is founded by Spain, becoming the oldest continuously inhabited European-established settlement in the continental U.S.
+* **1492:** Christopher Columbus, funded by [Spain](./../spain/), reaches the Americas, marking the beginning of European colonization in the Western Hemisphere.
+* **1513:** Juan Ponce de León claims [Florida](./../florida/) for [Spain](./../spain/), establishing the first European claim in what is now the continental [United States](./../united-states/).
+* **1565:** St. Augustine, [Florida](./../florida/), is founded by [Spain](./../spain/), becoming the oldest continuously inhabited European-established settlement in the continental U.S.
 * **16th-18th Centuries:** [Spain](./../spain/) establishes missions and settlements throughout the Southwest ([California](./../california/), [Arizona](./../arizona/), [New Mexico](./../new-mexico/), [Texas](./../texas/)), influencing the development of these regions with their culture, language, and [religion](./../religion/).
 
 **Conflict and Shifting Power:**
 
 * **1763:**  Following the Seven Years' War, [Spain](./../spain/) cedes [Florida](./../florida/) to [Great Britain](./../great-britain/) in exchange for Cuba. This marks the beginning of a decline in Spanish influence in North America.
-* **1783:** The Treaty of Paris, ending the American Revolutionary War, returns [Florida](./../florida/) to Spanish control. However, Spain's hold on the region weakens due to internal struggles and pressure from the newly formed [United States](./../united-states/).
+* **1783:** The Treaty of Paris, ending the American Revolutionary War, returns [Florida](./../florida/) to Spanish control. However, [Spain](./../spain/)'s hold on the region weakens due to internal struggles and pressure from the newly formed [United States](./../united-states/).
 * **1800:** [Spain](./../spain/) cedes [Louisiana](./../louisiana/) back to [France](./../france/) in a secret treaty. This sets the stage for the [Louisiana](./../louisiana/) Purchase in 1803, which dramatically expands the territory of the [United States](./../united-states/).
 
 **The End of Spanish Rule and Lasting Legacy:**

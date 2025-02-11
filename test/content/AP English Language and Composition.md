@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Rhetorical Analysis](./../rhetorical-analysis/)
-# [AP English Language and Composition](./../ap-english-language-and-composition/) Notes
+# [AP English [[Language](./../ap-english-[[language/) and Composition]] Notes
 
 **I. Core Components:**
 
@@ -16,7 +16,7 @@
     * **Syntax:** Sentence structure and its effect on rhythm and emphasis.  [Sentence Structures and Rhetorical Effect](./../sentence-structures-and-rhetorical-effect/)
     * **Tone:** The author's attitude towards the subject matter.
     * **Imagery:** Vivid descriptions that appeal to the senses. [Imagery and Sensory Details](./../imagery-and-sensory-details/)
-    * **Figurative Language:** Metaphors, similes, personification, etc. [Figurative Language Examples](./../figurative-language-examples/)
+    * **Figurative [Language](./../language/):** Metaphors, similes, personification, etc. [[Figurative [Language](./../language/) Examples]]
 
 * **Argumentation:** Constructing and evaluating arguments.
     * **Claims:** Stating a position clearly.
@@ -42,7 +42,7 @@
 
 * **Practice Essays:** Write multiple practice essays to improve writing skills and time management. [Practice Essay Prompts](./../practice-essay-prompts/)
 * **Review Materials:** Use past exams and practice materials to familiarize yourself with the exam format and question types. [AP Lang Exam Review](./../ap-lang-exam-review/)
-* **Vocabulary Building:** Expand vocabulary to improve reading and writing comprehension. [Vocabulary Lists](./../vocabulary-lists/)
+* **Vocabulary Building:** Expand vocabulary to improve reading and writing comprehension. [Vocabulary [[Lists](./../vocabulary-[[lists/)
 
 
 **IV.  Key Terms and Concepts:**

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Political Machines of the [Gilded Age](./../gilded-age/)
+## ID: [Political Machines](./../political-machines/) of the [Gilded Age](./../gilded-age/)
 
 ## When: 1870s-1900s (roughly, with peak influence in the late 19th century)
 
@@ -26,4 +26,4 @@ Highly organized political organizations that controlled city and state governme
 * **Increased Political Participation (ironically):** Though corrupt, machines did increase political participation among immigrant and working-class populations, offering them a voice (albeit a controlled one) in the political system.
 
 
-# [IDS Unit 5](./../ids-unit-5/)
+# [IDS Unit [[5](./../ids-unit-[[5/)

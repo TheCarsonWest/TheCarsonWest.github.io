@@ -23,7 +23,7 @@
     * **Consistency:**  Maintain consistent indentation, spacing, and line breaks throughout the codebase.  This improves readability.
     * **Vertical Formatting:** Separate logical sections of code with blank lines.
 
-* **Error Handling:**
+* **[Error Handling](./../error-handling/):**
     * **Use exceptions appropriately:** Avoid excessive exception handling that clutters the code.  Use exceptions for genuine exceptional conditions.
     * **Handle errors gracefully:** Provide informative error messages to the user and log errors appropriately for debugging.
 

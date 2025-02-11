@@ -50,6 +50,6 @@ mypackage/
 
 
 - [Namespaces and Scope](./../namespaces-and-scope/)  (Linked Note:  This would discuss how packages create their own namespaces.)
-- [Relative vs. Absolute Imports](./../relative-vs.-absolute-imports/) (Linked Note: This would compare and contrast these types of import statements.)
+- [Relative vs](./../relative-vs/). Absolute Imports]] (Linked Note: This would compare and contrast these types of import statements.)
 - [Circular Imports](./../circular-imports/) (Linked Note: This is a common problem when working with packages - this note would describe them and offer solutions.)
 

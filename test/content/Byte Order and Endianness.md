@@ -61,7 +61,7 @@ print(hex(unpacked_little)) # Output: 0x12345678
 
 ```
 
-**[Python Struct Module](./../python-struct-module/)**  ([Byte Order in Network Programming](./../byte-order-in-network-programming/))
+**[Python [[Struct Module](./../python-[[struct-module/)**  ([Byte Order in Network Programming](./../byte-order-in-network-programming/))
 
 
 **Determining Your System's Endianness:**

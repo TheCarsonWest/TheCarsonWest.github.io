@@ -16,4 +16,4 @@ The 13th Amendment abolished slavery and involuntary servitude in the [United St
 * **Reconstruction Era:** It paved the way for the Reconstruction era, a period of political, social, and economic change aimed at integrating formerly enslaved people into American society. 
 * **Legal Foundation:**  The amendment remains the legal foundation for prohibiting slavery and involuntary servitude in the [United States](./../united-states/). 
 
-# [IDS Unit 4](./../ids-unit-4/)
+# [IDS Unit [[4](./../ids-unit-[[4/)

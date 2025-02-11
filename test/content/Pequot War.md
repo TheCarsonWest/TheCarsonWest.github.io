@@ -7,7 +7,7 @@
 ## When: 1636-1638
 
 ## Who:
-* **Pequot Tribe:**  A powerful Native American tribe inhabiting present-day southeastern Connecticut.
+* **Pequot Tribe:**  A powerful Native American tribe inhabiting present-day southeastern [Connecticut](./../connecticut/).
 * **English Colonists:** Primarily from the [Massachusetts](./../massachusetts/) Bay Colony and [Connecticut](./../connecticut/) Colony, including militia forces and allied Narragansett and Mohegan tribes.
 
 ## What:
@@ -21,4 +21,4 @@ A series of violent conflicts between the Pequot tribe and English colonists in 
 * **Legal Precedents:** The war contributed to the development of colonial legal structures concerning land ownership and relations with Indigenous populations.
 
 
-# [IDS Unit 1](./../ids-unit-1/)
+# [IDS Unit [[1](./../ids-unit-[[1/)

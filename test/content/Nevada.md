@@ -9,7 +9,7 @@
 
 * **1859:** [Nevada](./../nevada/) Territory created
 * **1864:** [Nevada](./../nevada/) admitted to the Union as the 36th state
-* **1869:** Transcontinental Railroad completed at Promontory Summit, [Utah](./../utah/)
+* **1869:** [Transcontinental Railroad](./../transcontinental-railroad/) completed at Promontory Summit, [Utah](./../utah/)
 * **1871:** University of [Nevada](./../nevada/), Reno founded
 * **1900:** Tonopah mining boom begins
 * **1917:** [Nevada](./../nevada/) Highway Department established
@@ -24,7 +24,7 @@
 **Important Legislation:**
 
 * **1865:** [Nevada](./../nevada/) Legalizes Gambling
-* **1905:** [Nevada](./../nevada/) Passes Pure Food and Drug Act
+* **1905:** [Nevada](./../nevada/) Passes [Pure Food and Drug Act](./../pure-food-and-drug-act/)
 * **1953:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Test Site Act
 * **1974:** [Nevada](./../nevada/) Passes Equal Rights Amendment
 * **1987:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Gaming Control Act
@@ -51,6 +51,6 @@
 **Impact on the Rest of the Country:**
 
 * [Nevada](./../nevada/) has been a major center of gambling and entertainment since the 1950s.
-* The [Nevada](./../nevada/) Test Site was the site of over 1,000 nuclear tests from 1951 to 1992.
+* The [Nevada](./../nevada/) Test Site was the site of over [1](./../1/),000 nuclear tests from 1951 to 1992.
 * [Nevada](./../nevada/)'s legalization of recreational marijuana in 2017 has made the state a pioneer in the legalization movement.
 * [Nevada](./../nevada/) is a swing state in presidential elections and has voted for both Democratic and Republican candidates in recent years.

@@ -17,15 +17,15 @@ import json
 data = {
     'name': 'John Doe',
     'age': 30,
-    'city': 'New York'
+    'city': '[New York](./../new-york/)'
 }
 
-json_data = json.dumps(data, indent=4) # indent for pretty printing
+json_data = json.dumps(data, indent=[4](./../4/)) # indent for pretty printing
 print(json_data)
 
 #writing to a file
 with open('data.json', 'w') as f:
-    json.dump(data, f, indent=4)
+    json.dump(data, f, indent=[4](./../4/))
 ```
 
 **Decoding (JSON to Python objects):**
@@ -59,7 +59,7 @@ except json.JSONDecodeError as e:
 
 ```
 
-[Error Handling in Python](./../error-handling-in-python/)  ([JSON Data Structures](./../json-data-structures/))
+[Error Handling](./../error-handling/) in Python]]  ([JSON Data Structures](./../json-data-structures/))
 
 
 **Special Considerations:**

@@ -5,7 +5,7 @@
 +++
 ## ID: White Man's Burden
 
-## When: February 4, 1899
+## When: February [4](./../4/), 1899
 
 ## Who:  Rudyard Kipling (author)
 
@@ -20,4 +20,4 @@ A poem published in *McClure's Magazine*, expressing the belief that it was the 
 * **Shaped Public Opinion:** The poem's widespread dissemination significantly shaped public opinion about America's role in the world, influencing how the American public perceived the acquisition of overseas territories.
 * **Lasting Legacy:** The phrase "White Man's Burden" continues to be used to describe the justification of colonialism and other forms of imperialism, highlighting the negative legacy of such ideologies.  It serves as a reminder of the harmful effects of racial prejudice and the exploitative nature of empire-building.
 
-# [IDS Unit 6](./../ids-unit-6/)
+# [IDS Unit [[6](./../ids-unit-[[6/)

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Close Reading Strategies](./../close-reading-strategies/)
 
 **Goal:** To deeply understand a text by carefully analyzing its meaning and structure.
@@ -21,7 +21,7 @@
 * **Contextualize:** Understand the historical, social, and cultural context in which the text was written. This includes considering the author's background and intended audience. [Contextual Analysis](./../contextual-analysis/)
 
 
-* **Identify Figurative Language:** Look for metaphors, similes, personification, etc.  What effect do these literary devices have on the meaning and impact of the text?  $ metaphor = \frac{A}{B} $  where A is the subject and B is the object of comparison [Figurative Language](./../figurative-language/)
+* **Identify Figurative [Language](./../language/):** Look for metaphors, similes, personification, etc.  What effect do these literary devices have on the meaning and impact of the text?  $ metaphor = \frac{A}{B} $  where A is the subject and B is the object of comparison [[Figurative [Language](./../language/)
 
 
 * **Analyze Argumentation:** If the text presents an argument, analyze the evidence and reasoning used to support it. Is the argument convincing? What are the strengths and weaknesses of the argument? [Argument Analysis](./../argument-analysis/)

@@ -5,7 +5,7 @@
 +++
 
 # [Unit 2b Migration](./../unit-2b-migration/)
-## Global Migration Through History: Bullet Notes
+## [Global Migration Through History](./../global-migration-through-history/): Bullet Notes
 
 ### **Effects of Colonization:**
 
@@ -18,7 +18,7 @@
 ### **Forced Migration:**
 
 * **Atlantic Slave Trade:** The largest forced migration in history, with millions of Africans enslaved and transported to the Americas.
-* **15th-19th Centuries:** 12.5 million Africans were forcibly moved from Africa to the Americas.
+* **15th-19th Centuries:** 12.[5](./../5/) million Africans were forcibly moved from Africa to the Americas.
 
 ### **[Slavery](./../slavery/) Today:**
 

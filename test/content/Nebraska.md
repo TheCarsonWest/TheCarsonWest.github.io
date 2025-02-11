@@ -17,7 +17,7 @@
 **Post-1867**
 * 1869: First transcontinental railroad completed in [Nebraska](./../nebraska/)
 * 1877: Homestead Act encourages settlement in [Nebraska](./../nebraska/)
-* 1892: Populist Party holds its national convention in Omaha
+* 1892: [Populist Party](./../populist-party/) holds its national convention in Omaha
 * 1920: [Nebraska](./../nebraska/) passes the 19th Amendment, granting women the right to vote
 * 1930s: Great Depression impacts [Nebraska](./../nebraska/) agriculture
 * 1941: Strategic Air Command established in [Nebraska](./../nebraska/)

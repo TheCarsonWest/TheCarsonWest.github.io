@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+# [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
 # [Diamond Problem Example](./../diamond-problem-example/) 
 The diamond problem arises in multiple inheritance when a class inherits from two classes that have a common ancestor, and both ancestor and descendant classes implement the same method.  This creates ambiguity: which version of the method should the inheriting class use?
 
-Python resolves this using Method Resolution Order (MRO).
+Python resolves this using Method Resolution Order ([MRO](./../mro/)).
 
 ```python
 class A:
@@ -33,7 +33,7 @@ In this example, `D` inherits from `B` and `C`, both of which inherit from `A`. 
 
 To understand this fully, you need to grasp:
 
-- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+- [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
 - [Multiple [[Inheritance](./../multiple-[[inheritance/) in Python]]
 
 

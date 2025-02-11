@@ -19,7 +19,7 @@
 
 **Groups:**
 
-* Democratic-Republicans
+* Democratic-[Republicans](./../republicans/)
 * American Philosophical Society
 
 **Impact on the Country:**

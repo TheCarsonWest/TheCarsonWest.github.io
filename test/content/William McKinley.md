@@ -14,14 +14,14 @@
 
 **Key Events Associated With:**
 
-* **Spanish-American War (1898):** McKinley led the country into war against [Spain](./../spain/) over Cuba.
+* **[Spanish-American War](./../spanish-american-war/) (1898):** McKinley led the country into war against [Spain](./../spain/) over Cuba.
 * **Annexation of [Hawaii](./../hawaii/) (1898):** McKinley signed the Newlands Resolution, annexing [Hawaii](./../hawaii/) as a territory.
-* **Open Door Policy (1899-1900):** McKinley pursued a policy of equal trade access to China for all nations.
+* **[Open Door Policy](./../open-door-policy/) (1899-1900):** McKinley pursued a policy of equal trade access to China for all nations.
 
 **Important Legislation Signed:**
 
 * **Dingley Tariff (1897):** Increased tariffs on imported goods, leading to a decline in imports.
-* **Gold Standard Act (1900):** Established the gold standard as the basis for the U.S. currency.
+* **[Gold Standard](./../gold-standard/) Act (1900):** Established the gold standard as the basis for the U.S. currency.
 
 **Groups Associated With:**
 

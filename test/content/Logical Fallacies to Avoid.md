@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[[Rhetorical Devices](./../[[rhetorical-devices/) in Argumentation]]
+# [Rhetorical Devices](./../rhetorical-devices/) in Argumentation]]
 # [Logical Fallacies to Avoid](./../logical-fallacies-to-avoid/)
 
 These notes detail common logical fallacies to avoid in arguments and reasoning.  Referencing these will improve the clarity and persuasiveness of my own arguments and help me identify fallacies in others' arguments.
@@ -45,7 +45,7 @@ These notes detail common logical fallacies to avoid in arguments and reasoning.
 
 **IV.  Other Fallacies:**
 
-* **Texas Sharpshooter:** Cherry-picking data to support a pre-conceived conclusion.  [Texas Sharpshooter Fallacy](./../texas-sharpshooter-fallacy/)
+* **[Texas](./../texas/) Sharpshooter:** Cherry-picking data to support a pre-conceived conclusion.  [Texas](./../texas/) Sharpshooter Fallacy]]
 
 * **Correlation vs. Causation:** Mistaking correlation for causation. Just because two things happen together doesn't mean one caused the other. [Correlation vs. Causation Fallacy](./../correlation-vs.-causation-fallacy/)
 

@@ -4,8 +4,8 @@
 	author = 'Carson West'
 +++
 # [Classes and Objects](./../classes-and-objects/)
-# [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/) 
-Python's [MRO](./../mro/) determines the order in which methods are searched for during inheritance.  It's crucial for avoiding ambiguity when a class inherits from multiple parent classes that might define the same method. Python uses the C3 linearization algorithm to ensure a consistent and predictable MRO.
+# [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]] 
+Python's [MRO](./../mro/) determines the order in which methods are searched for during inheritance.  It's crucial for avoiding ambiguity when a class inherits from multiple parent classes that might define the same method. Python uses the C3 linearization algorithm to ensure a consistent and predictable [MRO](./../mro/).
 
 The `mro()` method provides a way to inspect the [MRO](./../mro/) of a class.
 
@@ -27,7 +27,7 @@ class D(B, C):
 
 print(D.mro()) # Output: [<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>]
 d = D()
-d.method() # Output: B (because B is listed before C in the MRO)
+d.method() # Output: B (because B is listed before C in the [MRO](./../mro/))
 
 ```
 
@@ -39,8 +39,8 @@ d.method() # Output: B (because B is listed before C in the MRO)
 
 **Related Notes:**
 
-* [Inheritance in Python](./../inheritance-in-python/)
-* [Multiple Inheritance in Python](./../multiple-inheritance-in-python/)
+* [Inheritance](./../inheritance/) in Python]]
+* [[Multiple [Inheritance](./../inheritance/) in Python]]
 * [C3 Linearization Algorithm](./../c3-linearization-algorithm/)
 
 **Example demonstrating the Diamond Problem solution**

@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python Sets - Examples](./../python-sets---examples/)
-# [Python Sets - Advanced Techniques](./../python-sets---advanced-techniques/) 
-This note covers advanced techniques related to [Python Sets](./../python-sets/) beyond basic creation and operations.  We'll assume basic set understanding (see [Python Sets - Basics](./../python-sets---basics/)).
+# [Python Sets](./../python-sets/) - Examples]]
+# [Python Sets](./../python-sets/) - Advanced Techniques]] 
+This note covers advanced techniques related to [Python Sets](./../python-sets/) beyond basic creation and operations.  We'll assume basic set understanding (see [Python Sets](./../python-sets/) - Basics]]).
 
 ## Set Comprehensions
 
@@ -13,8 +13,8 @@ Similar to [List Comprehensions](./../list-comprehensions/), set comprehensions 
 
 ```python
 # Create a set of squares of even numbers
-even_squares = {x**2 for x in range(10) if x % 2 == 0}
-print(even_squares)  # Output: {0, 4, 16, 36, 64}
+even_squares = {x**[2](./../2/) for x in range(10) if x % [2](./../2/) == 0}
+print(even_squares)  # Output: {0, [4](./../4/), 16, 36, 64}
 
 # Create a set from a string, removing duplicates
 unique_chars = {char for char in "abracadabra"}
@@ -26,13 +26,13 @@ print(unique_chars)  # Output: {'a', 'b', 'r', 'c', 'd'}
 Python supports efficient operations on multiple sets.
 
 ```python
-set1 = {1, 2, 3}
-set2 = {3, 4, 5}
-set3 = {5, 6, 7}
+set1 = {[1](./../1/), [2](./../2/), [3](./../3/)}
+set2 = {[3](./../3/), [4](./../4/), [5](./../5/)}
+set3 = {[5](./../5/), [6](./../6/), [7](./../7/)}
 
 # Union: combines all elements from all sets
 union_set = set1 | set2 | set3  # or set1.union(set2, set3)
-print(f"Union: {union_set}") # Output: {1, 2, 3, 4, 5, 6, 7}
+print(f"Union: {union_set}") # Output: {[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/), [6](./../6/), [7](./../7/)}
 
 # Intersection: elements common to all sets
 intersection_set = set1 & set2 & set3 # or set1.intersection(set2, set3)
@@ -40,11 +40,11 @@ print(f"Intersection: {intersection_set}") # Output: set()
 
 # Difference: elements in set1 but not in set2
 difference_set = set1 - set2 # or set1.difference(set2)
-print(f"Difference (set1 - set2): {difference_set}") # Output: {1, 2}
+print(f"Difference (set1 - set2): {difference_set}") # Output: {[1](./../1/), [2](./../2/)}
 
 # Symmetric Difference: elements in either set1 or set2, but not both
 symmetric_difference_set = set1 ^ set2 # or set1.symmetric_difference(set2)
-print(f"Symmetric Difference: {symmetric_difference_set}") # Output: {1, 2, 4, 5}
+print(f"Symmetric Difference: {symmetric_difference_set}") # Output: {[1](./../1/), [2](./../2/), [4](./../4/), [5](./../5/)}
 ```
 
 
@@ -52,8 +52,8 @@ print(f"Symmetric Difference: {symmetric_difference_set}") # Output: {1, 2, 4, 5
 [Frozen Sets](./../frozen-sets/) are immutable versions of sets.  Once created, their elements cannot be added or removed.  Useful when a set needs to be used as a key in a dictionary or as an element in another set.
 
 ```python
-frozen_set1 = frozenset({1, 2, 3})
-# frozen_set1.add(4)  # This will raise an AttributeError
+frozen_set1 = frozenset({[1](./../1/), [2](./../2/), [3](./../3/)})
+# frozen_set1.add([4](./../4/))  # This will raise an AttributeError
 
 dictionary = {frozen_set1: "value"} #  Can be used as dictionary keys
 ```
@@ -72,5 +72,5 @@ Explore the following methods for more complex set manipulations (refer to Pytho
 * `set.copy()`: Creates a shallow copy of the set.
 
 
-[Python Sets - Basics](./../python-sets---basics/)
+[Python Sets](./../python-sets/) - Basics]]
 

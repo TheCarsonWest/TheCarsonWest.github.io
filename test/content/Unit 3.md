@@ -6,7 +6,7 @@
 21# [APHG Home](./../aphg-home/)
 # [Folk and Pop culture](./../folk-and-pop-culture/)
 
-# [Diffusion of Culture](./../diffusion-of-culture/)
+# [Diffusion of [[Culture](./../diffusion-of-[[culture/)
 # [Cultural Diversion](./../cultural-diversion/)
 
 

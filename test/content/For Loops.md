@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [For Loops](./../for-loops/) 
 Python's `for` loop iterates over a sequence (like a list, tuple, string, or range) or other iterable object.
 
@@ -12,7 +12,7 @@ fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
   print(fruit)
 
-for i in range(5): # range(5) generates 0, 1, 2, 3, 4
+for i in range([5](./../5/)): # range([5](./../5/)) generates 0, [1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/)
   print(i)
 
 for i, fruit in enumerate(fruits): # enumerate gives both index and value
@@ -22,12 +22,12 @@ for i, fruit in enumerate(fruits): # enumerate gives both index and value
 [For Loop Examples](./../for-loop-examples/)  ([Range Function](./../range-function/)) [Iterables](./../iterables/)
 
 
-**Looping through Dictionaries:**
+**Looping through [Dictionaries](./../dictionaries/):**
 
 You can iterate through dictionaries using `.items()`, `.keys()`, or `.values()`.
 
 ```python
-person = {"name": "Alice", "age": 30, "city": "New York"}
+person = {"name": "Alice", "age": 30, "city": "[New York](./../new-york/)"}
 
 for key, value in person.items():
   print(f"{key}: {value}")
@@ -43,20 +43,20 @@ for value in person.values():
 
 [Nested Loops](./../nested-loops/)
 
-**Loop Control Statements:**
+**[Loop Control Statements](./../loop-control-statements/):**
 
 * `break`: Exits the loop entirely.
 * `continue`: Skips the current iteration and proceeds to the next.
 
 ```python
 for i in range(10):
-  if i == 5:
-    break  # Stops the loop when i is 5
+  if i == [5](./../5/):
+    break  # Stops the loop when i is [5](./../5/)
   print(i)
 
 for i in range(10):
-  if i == 5:
-    continue # Skips 5
+  if i == [5](./../5/):
+    continue # Skips [5](./../5/)
   print(i)
 ```
 

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
+# [AP English [[Language](./../ap-english-[[language/) and Composition]]
 # [Useful Websites and Articles](./../useful-websites-and-articles/)
 
 This note serves as a central hub for websites and articles I find useful.  I will categorize them for easier access.
@@ -42,12 +42,12 @@ This note serves as a central hub for websites and articles I find useful.  I wi
 
 **Equations:**
 
-The area of a circle with radius  $ r $  is given by  $ A = \pi r^2 $ .
+The area of a circle with radius  $ r $  is given by  $ A = \pi r^[2](./../2/) $ .
 
-The Pythagorean theorem states that in a right-angled triangle,  $ a^2 + b^2 = c^2 $ , where  $ a $  and  $ b $  are the lengths of the legs and  $ c $  is the length of the hypotenuse.
+The Pythagorean theorem states that in a right-angled triangle,  $ a^[2](./../2/) + b^[2](./../2/) = c^[2](./../2/) $ , where  $ a $  and  $ b $  are the lengths of the legs and  $ c $  is the length of the hypotenuse.
 
 
-##  $$ E = mc^2 $$  
+##  $$ E = mc^[2](./../2/) $$  
 
 This equation represents Einstein's famous mass-energy equivalence.
 

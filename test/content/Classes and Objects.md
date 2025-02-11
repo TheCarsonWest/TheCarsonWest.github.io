@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [Classes and Objects](./../classes-and-objects/) 
 Python uses classes to create user-defined data types.  A class is a blueprint for creating objects.  Objects are instances of a class.
 
@@ -41,7 +41,7 @@ Related Notes:
 * [Polymorphism](./../polymorphism/)
 * [Encapsulation](./../encapsulation/)
 * [Abstract Classes](./../abstract-classes/)
-* [Multiple Inheritance](./../multiple-inheritance/)
-* [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+* [[Multiple [Inheritance](./../inheritance/)
+* [Method Resolution Order ([[MRO](./../method-resolution-order-([[mro/))]]
 * [Private and Protected Members](./../private-and-protected-members/)
 

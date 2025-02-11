@@ -27,13 +27,13 @@ The value of  $ k_H $  is crucial in understanding the [solubility](./../solubil
 
 ## Factors Affecting Henry's Law
 
-While [Temperature](./../temperature/) is implicitly held constant in the equation, it significantly impacts [Gas Solubility](./../gas-solubility/) and thus the applicability of Henry's Law.  [Temperature](./../temperature/) Dependence of [Gas Solubility](./../gas-solubility/) The nature of both the gas and the solvent also influence the [Solubility](./../solubility/).  Polar gases tend to be more soluble in polar solvents (like water), while nonpolar gases are more soluble in nonpolar solvents.  [Intermolecular Forces](./../intermolecular-forces/) and [Gas Solubility](./../gas-solubility/)
+While [Temperature](./../temperature/) is implicitly held constant in the equation, it significantly impacts [[Gas [Solubility](./../solubility/) and thus the applicability of Henry's Law.  [Temperature](./../temperature/) Dependence of [[Gas [Solubility](./../solubility/) The nature of both the gas and the solvent also influence the [Solubility](./../solubility/).  Polar gases tend to be more soluble in polar solvents (like water), while nonpolar gases are more soluble in nonpolar solvents.  [Intermolecular Forces](./../intermolecular-forces/) and [[Gas [Solubility](./../solubility/)
 ## Applications of Henry's Law
 
 Henry's Law has numerous applications, including:
 
 * **Carbonated beverages:** The high pressure of CO₂ above the liquid in a soda bottle keeps a significant amount of CO₂ dissolved.  When the bottle is opened, the pressure decreases, and CO₂ escapes from the solution, resulting in fizz.
-* **Scuba diving:**  At greater depths, the [partial pressure](./../partial-pressure/) of gases (like nitrogen) increases, leading to increased [Gas Solubility](./../gas-solubility/) in the blood.  This can cause decompression sickness if the diver ascends too quickly, allowing dissolved gases to form bubbles in the bloodstream.
+* **Scuba diving:**  At greater depths, the [partial pressure](./../partial-pressure/) of gases (like nitrogen) increases, leading to increased [[Gas [Solubility](./../solubility/) in the blood.  This can cause decompression sickness if the diver ascends too quickly, allowing dissolved gases to form bubbles in the bloodstream.
 * **Environmental science:** Henry's Law is used to model the exchange of gases between the atmosphere and water bodies (e.g., oxygen and carbon dioxide).
 ## Limitations of Henry's Law
 Henry's Law is most accurate at low gas pressures and concentrations. At high pressures or concentrations, the interactions between dissolved gas molecules become significant, deviating from the ideal behavior assumed by the law.  Moreover, the law is only applicable to gases that do not react with the solvent.  

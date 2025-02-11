@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-[Unit 3](./../unit-3/)
+[Unit [[3](./../unit-[[3/)
 
 # [Languages](./../languages/) are cool
-# Major Earth Languages:
+# Major Earth [Languages](./../languages/):
 - English
 - Spanish
 - Arabic
@@ -14,7 +14,7 @@
 - Mandarin
 - Hindi
 - Russian
-Probably around 95% of the worlds population speak one of these 7 languages
+Probably around 95% of the worlds population speak one of these [7](./../7/) languages
 
 # [Languages](./../languages/) show parts of cultures
 - Hawaiian has 50 words for fishing net

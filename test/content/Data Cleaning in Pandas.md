@@ -43,7 +43,7 @@ import pandas as pd
 import numpy as np
 
 # Sample DataFrame with missing values and outliers
-data = {'A': [1, 2, np.nan, 4, 5, 100], 
+data = {'A': [[1](./../[1/), [2](./../2/), np.nan, [4](./../4/), [5](./../5/), 100], 
         'B': ['apple', 'banana', 'orange', 'apple', 'banana', 'Apple']}
 df = pd.DataFrame(data)
 

@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # [Python Functions](./../python-functions/)
-# [Recursion in Python](./../recursion-in-python/) 
+# [Recursion](./../recursion/) in Python]] 
 [Recursion](./../recursion/) is a powerful technique where a function calls itself within its own definition.  It's crucial to have a base case to stop the [Recursion](./../recursion/), otherwise, it will lead to a `RecursionError` (stack overflow).
 
 **Key Components:**
@@ -21,11 +21,11 @@ def factorial(n):
   Calculates the factorial of a non-negative integer using recursion.
   """
   if n == 0:  # Base case
-    return 1
+    return [1](./../1/)
   else:
-    return n * factorial(n-1) # Recursive step
+    return n * factorial(n-[1](./../1/)) # Recursive step
 
-print(factorial(5))  # Output: 120
+print(factorial([5](./../5/)))  # Output: 120
 ```
 
 **Potential Issues:**
@@ -39,12 +39,12 @@ print(factorial(5))  # Output: 120
 
 **Alternatives:**
 
-Often, iterative approaches (using loops) can provide a more efficient solution to problems that can be solved recursively.  [Iteration vs Recursion](./../iteration-vs-recursion/)
+Often, iterative approaches (using loops) can provide a more efficient solution to problems that can be solved recursively.  [[Iteration vs [Recursion](./../recursion/)
 
 
 **Further Exploration:**
 
-* [Tail Recursion](./../tail-recursion/) (Optimization technique for specific types of [Recursion](./../recursion/))
-* [Recursion Examples](./../recursion-examples/) (More complex examples of recursive functions)
+* [[Tail [Recursion](./../recursion/) (Optimization technique for specific types of [Recursion](./../recursion/))
+* [Recursion](./../recursion/) Examples]] (More complex examples of recursive functions)
 
 **Note:**  Always carefully consider the base case and potential for stack overflow when using [Recursion](./../recursion/).  For many problems, an iterative solution might be preferred for efficiency and to avoid potential errors.

@@ -55,6 +55,6 @@ print(re.findall(r"(quick) (brown)", text)) #Output:[('quick', 'brown')]
 [Regex Character Sets](./../regex-character-sets/)  
 [Regex Quantifiers](./../regex-quantifiers/)
 [Regex Grouping and Capturing](./../regex-grouping-and-capturing/)
-[Regex Special Sequences](./../regex-special-sequences/)
+[Regex Special [[Sequences](./../regex-special-[[sequences/)
 
 

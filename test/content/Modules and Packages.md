@@ -12,7 +12,7 @@ Python's modularity is a key strength.  It allows for code reusability and organ
 ```python
 # my_module.py
 def my_function(x):
-  return x * 2
+  return x * [2](./../2/)
 
 my_variable = 10
 ```
@@ -22,7 +22,7 @@ To use `my_function` and `my_variable`, you import the module:
 ```python
 import my_module
 
-result = my_module.my_function(5)  # result will be 10
+result = my_module.my_function([5](./../5/))  # result will be 10
 print(my_module.my_variable)       # prints 10
 ```
 
@@ -31,7 +31,7 @@ You can also import specific elements:
 ```python
 from my_module import my_function, my_variable
 
-result = my_function(5) # result will be 10
+result = my_function([5](./../5/)) # result will be 10
 print(my_variable)      # prints 10
 ```
 
@@ -40,7 +40,7 @@ Or rename things during import:
 ```python
 from my_module import my_function as func, my_variable as var
 
-result = func(5) # result will be 10
+result = func([5](./../5/)) # result will be 10
 print(var)      # prints 10
 ```
 
@@ -69,7 +69,7 @@ some_other_function()
 
 [Standard Library Modules](./../standard-library-modules/)
 
-[Creating Your Own Modules and Packages](./../creating-your-own-modules-and-packages/)
+[[Creating Your Own [Modules and Packages](./../modules-and-packages/)
 
 [Namespaces and Scope](./../namespaces-and-scope/)
 

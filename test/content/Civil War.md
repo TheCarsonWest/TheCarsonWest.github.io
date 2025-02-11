@@ -11,7 +11,7 @@
 - [Battle of Bull Run](./../battle-of-bull-run/)
 - [Battle of Gettsyburg](./../battle-of-gettsyburg/)
 - [Black Codes](./../black-codes/)
-- [Bleeding Kansas](./../bleeding-kansas/)
+- [Bleeding [[Kansas](./../bleeding-[[kansas/)
 - [California](./../california/)
 - [Capital Compromise](./../capital-compromise/)
 - [Carpetbagger](./../carpetbagger/)
@@ -29,11 +29,11 @@
 - [Fugitive Slave Act](./../fugitive-slave-act/)
 - [Habaes Corpus civil war](./../habaes-corpus-civil-war/)
 - [Harpers Ferry Raid](./../harpers-ferry-raid/)
-- [IDS Unit 4](./../ids-unit-4/)
-- [Kansas-Nebraska Act](./../kansas-nebraska-act/)
+- [IDS Unit [[4](./../ids-unit-[[4/)
+- [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act]]
 - [Lincoln Douglas Debates](./../lincoln-douglas-debates/)
 - [Market Revolution](./../market-revolution/)
-- [Missouri Compromise](./../missouri-compromise/)
+- [Missouri](./../missouri/) Compromise]]
 - [Nat Turner Rebellion](./../nat-turner-rebellion/)
 - [New Republican Party 1850](./../new-republican-party-1850/)
 - [Popular Sovereignty](./../popular-sovereignty/)
@@ -42,7 +42,7 @@
 - [Shermans March to Sea](./../shermans-march-to-sea/)
 - [Surrender at Appomattox Courthouse](./../surrender-at-appomattox-courthouse/)
 - [Tenant Farming](./../tenant-farming/)
-- [The Assassination of Abraham Lincoln](./../the-assassination-of-abraham-lincoln/)
+- [[The Assassination of [Abraham Lincoln](./../abraham-lincoln/)
 - [Uncle Toms Cabin](./../uncle-toms-cabin/)
-- [Ulysses S. Grant](./../ulysses-s.-grant/)
+- [Ulysses S](./../ulysses-s/). Grant]]
 - [Wilmot Proviso](./../wilmot-proviso/)

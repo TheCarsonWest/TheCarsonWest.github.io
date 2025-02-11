@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
+# [Python [[1](./../python-[[1/) Home]]
 # [Return Values](./../return-values/) 
 Return values are the data sent back by a function after it has completed its execution.  A function can return any data type, including `None` (if no explicit return statement is used).
 
@@ -12,7 +12,7 @@ def add(x, y):
   """This function adds two numbers and returns the sum."""
   return x + y
 
-result = add(5, 3)  # result will be 8
+result = add([5](./../5/), [3](./../3/))  # result will be 8
 print(result)
 
 def greet(name):
@@ -37,9 +37,9 @@ The `return` statement immediately exits the function and sends the specified va
 
 ```python
 def multiple_returns(a, b):
-  return a, b*2
+  return a, b*[2](./../2/)
 
-x, y = multiple_returns(5, 3)  # x will be 5, y will be 6
+x, y = multiple_returns([5](./../5/), [3](./../3/))  # x will be [5](./../5/), y will be [6](./../6/)
 print(x, y)
 
 ```
