@@ -7,7 +7,7 @@
 
 **Timeline:**
 
-* **1867:** [United States](./../united-states/) purchases [Alaska](./../alaska/) from Russia for  $ [7](./../7/).[2](./../2/) million.
+* **1867:** [United States](./../united-states/) purchases [Alaska](./../alaska/) from Russia for  $ 7.2 million.
 * **1898:** [Alaska](./../alaska/) becomes a military district.
 * **1912:** [Alaska](./../alaska/) becomes a territory.
 * **1959:** [Alaska](./../alaska/) becomes the 49th state.

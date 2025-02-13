@@ -5,7 +5,7 @@
 +++
 ## ID: [Presidential Election of 1896](./../presidential-election-of-1896/)
 
-## When: November [3](./../3/), 1896
+## When: November 3, 1896
 
 ## Who:
 * **Republican:** [William McKinley](./../william-mckinley/) (won)

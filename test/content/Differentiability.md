@@ -7,7 +7,7 @@
 [Differentiability](./../differentiability/), a cornerstone concept in Calculus AB, essentially describes whether a function has a well-defined [derivative](./../derivative/) at a specific point.  It's closely tied to the idea of a smooth, continuous curve.  A function is differentiable at a point if its graph has a tangent line at that point.  This means the function must be both continuous and smooth at that point. Let's break down the key aspects:
 
 
-## [1](./../1/). The Definition of the [Derivative](./../derivative/)
+## [1. The Definition of the [[Derivative](./../1.-the-definition-of-the-[[derivative/)
 
 The [derivative](./../derivative/) of a function  $ f(x) $  at a point  $ x=a $ , denoted as  $ f'(a) $ , is defined as:
 
@@ -16,14 +16,14 @@ The [derivative](./../derivative/) of a function  $ f(x) $  at a point  $ x=a $ 
 This limit represents the slope of the tangent line to the graph of  $ f(x) $  at  $ x=a $ .  If this limit exists, the function is differentiable at  $ x=a $ .
 
 
-## [2](./../2/).  Relationship to [Continuity](./../continuity/)
+## 2.  Relationship to [Continuity](./../continuity/)
 
 [Continuity](./../continuity/)
 
 A function must be continuous at a point to be differentiable at that point. However, [continuity](./../continuity/) alone is not sufficient for differentiability.  A function can be continuous at a point but not differentiable there.
 
 
-## [3](./../3/). Conditions for Non-[Differentiability](./../differentiability/)
+## 3. Conditions for Non-[Differentiability](./../differentiability/)
 
 A function is *not* differentiable at a point if any of the following occur:
 
@@ -38,24 +38,24 @@ y = abs(x)
 * **Discontinuity:** The function is discontinuous (has a jump, hole, or asymptote) at the point.
 
 ```desmos-graph
-y = [1](./../1/)/(x-[1](./../1/))
-{x>[1](./../1/)}
-y = [2](./../2/)
-{x=[1](./../1/)}
+y = [[1/(x-[[1)
+{x>[[1}
+y = 2
+{x=[[1}
 y = x
-{x<[1](./../1/)}
+{x<[[1}
 ```
 
 * **Oscillating Function:** The function oscillates infinitely rapidly near the point.
 
 
-## [4](./../4/).  [Differentiability](./../differentiability/) and Smoothness
+## 4.  [Differentiability](./../differentiability/) and Smoothness
  [Differentiability](./../differentiability/) implies smoothness.  A differentiable function will have a smooth, continuous curve without any sharp corners, cusps, or vertical tangents. However, the converse is not always true (a function can be smooth but not differentiable everywhere).
 
 [Higher Order Derivatives](./../higher-order-derivatives/)
 
 
-## [5](./../5/).  Practical Applications
+## 5.  Practical Applications
  [Differentiability](./../differentiability/) is crucial for many applications in Calculus AB, including:
 
 * **Finding instantaneous rates of change:** The [derivative](./../derivative/) gives the instantaneous rate of change of a function at a specific point.
@@ -64,12 +64,12 @@ y = x
 * **Curve sketching:**  The [derivative](./../derivative/) helps determine the increasing/decreasing intervals and concavity of a function.
 
 
-## [6](./../6/).  Checking for [Differentiability](./../differentiability/) 
+## 6.  Checking for [Differentiability](./../differentiability/) 
 To determine if a function is differentiable at a point, you typically:
 
-[1](./../1/). Check for [continuity](./../continuity/) at the point.
-[2](./../2/). Calculate the left-hand and right-hand derivatives using the limit definition.
-[3](./../3/). If the left-hand and right-hand derivatives are equal and finite, the function is differentiable at the point.
+[[1. Check for [continuity](./../continuity/) at the point.
+2. Calculate the left-hand and right-hand derivatives using the limit definition.
+3. If the left-hand and right-hand derivatives are equal and finite, the function is differentiable at the point.
 
 
 In summary, differentiability is a crucial concept in Calculus AB that connects the idea of a function's slope to its smoothness and [continuity](./../continuity/). Understanding the conditions for differentiability and non-differentiability is essential for mastering many important calculus concepts and applications.

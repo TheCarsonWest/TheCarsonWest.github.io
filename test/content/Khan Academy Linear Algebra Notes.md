@@ -8,7 +8,7 @@
 
 **I. Vectors:**
 
-* **Definition:** A quantity with both magnitude and direction.  Represented graphically as arrows.  Can be represented algebraically as ordered tuples (e.g.,  $ \begin{bmatrix} [2](./../2/) \\ [3](./../3/) \end{bmatrix} $  in  $ \mathbb{R}^[2](./../2/) $ ).
+* **Definition:** A quantity with both magnitude and direction.  Represented graphically as arrows.  Can be represented algebraically as ordered tuples (e.g.,  $ \begin{bmatrix} 2 \\ 3 \end{bmatrix} $  in  $ \mathbb{R}^2 $ ).
 
 * **Vector Addition:**  Geometrically, the tail-to-head method. Algebraically, component-wise addition:   $ \begin{bmatrix} a \\ b \end{bmatrix} + \begin{bmatrix} c \\ d \end{bmatrix} = \begin{bmatrix} a+c \\ b+d \end{bmatrix} $ .
 
@@ -63,7 +63,7 @@
 
 **VIII.  Inner Product (Dot Product):**
 
-* Definition: A way to multiply two vectors to produce a scalar value.   $ u \cdot v = \sum_{i=[1](./../1/)}^n u_i v_i $ .   Useful for finding angles between vectors and projections. [Inner Product and Orthogonality](./../inner-product-and-orthogonality/)
+* Definition: A way to multiply two vectors to produce a scalar value.   $ u \cdot v = \sum_{i=[1}^n u_i v_i $ .   Useful for finding angles between vectors and projections. [[Inner Product and Orthogonality](./../1}^n-u_i-v_i-$-.---useful-for-finding-angles-between-vectors-and-projections.-[[inner-product-and-orthogonality/)
 
 
 **IX. Orthogonality:**

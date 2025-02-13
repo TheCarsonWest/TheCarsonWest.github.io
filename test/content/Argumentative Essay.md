@@ -19,10 +19,10 @@
 
 **II. Structure:**
 
-[1](./../1/). **Introduction:**  Hook, background information, thesis statement.
-[2](./../2/). **Body Paragraphs (multiple):** Each paragraph should focus on one specific piece of evidence and its analysis.  Use the TEEL structure (Topic Sentence, Evidence, Explanation, Link back to thesis).
-[3](./../3/). **Counterargument Paragraph (optional but recommended):**  Address opposing viewpoints and refute them.
-[4](./../4/). **Conclusion:** Restate thesis, summarize main points, concluding thoughts.
+[[1. **Introduction:**  Hook, background information, thesis statement.
+2. **Body Paragraphs (multiple):** Each paragraph should focus on one specific piece of evidence and its analysis.  Use the TEEL structure (Topic Sentence, Evidence, Explanation, Link back to thesis).
+3. **Counterargument Paragraph (optional but recommended):**  Address opposing viewpoints and refute them.
+4. **Conclusion:** Restate thesis, summarize main points, concluding thoughts.
 
 **III.  [Rhetorical Devices](./../rhetorical-devices/):** [Rhetorical Devices in Argumentation](./../rhetorical-devices-in-argumentation/)  (Links to another note)
 

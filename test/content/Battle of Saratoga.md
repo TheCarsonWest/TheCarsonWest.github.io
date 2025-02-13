@@ -4,14 +4,14 @@
 	author = 'Carson West'
 +++
 ## ID: [Battle of Saratoga](./../battle-of-saratoga/) 
-## When: September 19 & October [7](./../7/), 1777 (two battles)
+## When: September 19 & October 7, 1777 (two battles)
 
 ## Who:
 * **British:** General John Burgoyne (British Army)
 * **American:**  General Horatio Gates (American Continental Army), Benedict Arnold (key role in the second battle)
 
 ## What:
-Two decisive battles of the American Revolutionary War fought near Saratoga, [New York](./../new-york/).  The first battle, the Battle of Freeman's Farm (September 19), was a tactical British victory but at a high cost. The second battle, the Battle of Bemis Heights (October [7](./../7/)), resulted in a significant American victory, trapping Burgoyne's army.
+Two decisive battles of the American Revolutionary War fought near Saratoga, [New York](./../new-york/).  The first battle, the Battle of Freeman's Farm (September 19), was a tactical British victory but at a high cost. The second battle, the Battle of Bemis Heights (October 7), resulted in a significant American victory, trapping Burgoyne's army.
 
 ## Impact: Why Significant?:
 

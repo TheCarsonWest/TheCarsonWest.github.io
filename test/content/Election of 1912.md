@@ -5,7 +5,7 @@
 +++
 ## ID: [Election of 1912](./../election-of-1912/)
 
-## When: November [5](./../5/), 1912
+## When: November 5, 1912
 
 ## Who:
 * **[William Howard Taft](./../william-howard-taft/):** Republican incumbent President.

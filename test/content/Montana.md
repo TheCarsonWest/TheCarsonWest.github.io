@@ -17,7 +17,7 @@
 * **1914:** Ku Klux Klan founded in Great Falls.
 * **1941:** [Montana](./../montana/) joins the [United States](./../united-states/) in World War II.
 * **1959:** First nuclear missile silo installed in [Montana](./../montana/).
-* **1964:** Wilderness Act protects over [1](./../1/) million acres of land in [Montana](./../montana/).
+* **1964:** Wilderness Act protects over [[1 million acres of land in [Montana](./../montana/).
 * **1972:** Yellowstone National Park established in [Montana](./../montana/).
 * **1983:** Malheur National Forest fire burns over 160,000 acres in eastern [Montana](./../montana/).
 
@@ -27,7 +27,7 @@
 * **1889:** [Montana](./../montana/) Statehood Act admits [Montana](./../montana/) as a state.
 * **1902:** Northern Pacific Railroad Land Grant Act grants land to the Northern Pacific Railroad in [Montana](./../montana/).
 * **1914:** Ku Klux Klan Act prohibits the Ku Klux Klan in [Montana](./../montana/).
-* **1964:** Wilderness Act sets aside over [1](./../1/) million acres of land in [Montana](./../montana/) for protection.
+* **1964:** Wilderness Act sets aside over [[1 million acres of land in [Montana](./../montana/) for protection.
 * **1972:** Yellowstone National Park Act establishes Yellowstone National Park in [Montana](./../montana/).
 
 ### Important Court Cases

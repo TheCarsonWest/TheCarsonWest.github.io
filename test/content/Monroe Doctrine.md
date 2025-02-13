@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: [Monroe Doctrine](./../monroe-doctrine/) 
-## When: December [2](./../2/), 1823
+## When: December 2, 1823
 
 ## Who: 
 - **President [James Monroe](./../james-monroe/)** (The doctrine was written by Secretary of State [John Quincy Adams](./../john-quincy-adams/), but it was part of Monroe's annual message to Congress)
@@ -12,9 +12,9 @@
 ## What: 
 A foreign policy statement declaring that:
 
-[1](./../1/). **The Americas were closed to further European colonization.**  Any attempts to colonize or interfere in the Western Hemisphere by European powers would be considered a hostile act against the [United States](./../united-states/).
-[2](./../2/). **The [United States](./../united-states/) would not interfere in the internal affairs of European nations** or their existing colonies. 
-[3](./../3/). **The [United States](./../united-states/) recognized and would not interfere with existing colonies in the Western Hemisphere.**
+[1. **The Americas were closed to further European colonization.**  Any attempts to colonize or interfere in the Western Hemisphere by European powers would be considered a hostile act against the [[United States](./../1.-**the-americas-were-closed-to-further-european-colonization.**--any-attempts-to-colonize-or-interfere-in-the-western-hemisphere-by-european-powers-would-be-considered-a-hostile-act-against-the-[[united-states/).
+2. **The [United States](./../united-states/) would not interfere in the internal affairs of European nations** or their existing colonies. 
+3. **The [United States](./../united-states/) recognized and would not interfere with existing colonies in the Western Hemisphere.**
 
 ## Impact? Why Significant?: 
 

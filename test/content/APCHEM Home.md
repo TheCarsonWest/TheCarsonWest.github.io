@@ -5,6 +5,7 @@
 +++
 # [nexus](./../nexus/)
 # [Thermodynamics](./../thermodynamics/)
+# [Equilibrium](./../equilibrium/)
 # [chemical reactions](./../chemical-reactions/)
 # [AP CHEM solutions](./../ap-chem-solutions/)
 # [APCHEM Gasses](./../apchem-gasses/)

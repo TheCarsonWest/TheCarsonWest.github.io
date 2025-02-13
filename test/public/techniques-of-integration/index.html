@@ -49,21 +49,21 @@
 <p>These notes cover various methods for evaluating indefinite and definite <a href="./../integrals/">integrals</a>.</p>
 <p><strong>I. Basic Integrals:</strong></p>
 <ul>
-<li><a href="./../power-rule/">Power Rule</a>:  $ \int x^n dx = \frac{x^{n+<a href="./../1/">1</a>}}{n+<a href="./../1/">1</a>} + C $ ,   $ n \neq -<a href="./../1/">1</a> $</li>
+<li><a href="./../power-rule/">Power Rule</a>:  $ \int x^n dx = \frac{x^{n+[[1}}{n+[[1} + C $ ,   $ n \neq -[[1 $</li>
 <li>Exponential Rule:  $ \int e^x dx = e^x + C $</li>
-<li>Logarithmic Rule:  $ \int \frac{<a href="./../1/">1</a>}{x} dx = \ln|x| + C $</li>
+<li>Logarithmic Rule:  $ \int \frac{[[1}{x} dx = \ln|x| + C $</li>
 <li>Trigonometric Integrals:  <a href="./../trigonometric-integrals/">Trigonometric Integrals</a> (This will be a separate note)</li>
 </ul>
 <p><strong>II. Advanced Techniques:</strong></p>
 <ul>
 <li>
-<p><strong>Substitution (u-substitution):</strong>  Let  $ u = g(x) $ , then  $ du = g&rsquo;(x)dx $ .   $ \int f(g(x))g&rsquo;(x)dx = \int f(u)du $ .  Example:  $ \int 2x \cos(x^<a href="./../2/">2</a>) dx $ . Let  $ u = x^<a href="./../2/">2</a> $ ,  $ du = 2x dx $ . Then  $ \int \cos(u) du = \sin(u) + C = \sin(x^<a href="./../2/">2</a>) + C $ .</p>
+<p><strong>Substitution (u-substitution):</strong>  Let  $ u = g(x) $ , then  $ du = g&rsquo;(x)dx $ .   $ \int f(g(x))g&rsquo;(x)dx = \int f(u)du $ .  Example:  $ \int 2x \cos(x^2) dx $ . Let  $ u = x^2 $ ,  $ du = 2x dx $ . Then  $ \int \cos(u) du = \sin(u) + C = \sin(x^2) + C $ .</p>
 </li>
 <li>
 <p><strong>Integration by Parts:</strong>  $ \int u dv = uv - \int v du $ .  Choosing appropriate  $ u $  and  $ dv $  is crucial.  <a href="./../choosing-u-and-dv/">Choosing u and dv</a> (This will be a separate note focusing on strategies for selecting u and dv)</p>
 </li>
 <li>
-<p><strong>Trigonometric Substitution:</strong> Used for <a href="./../integrals/">integrals</a> involving  $ \sqrt{a^<a href="./../2/">2</a> - x^<a href="./../2/">2</a>} $ ,  $ \sqrt{a^<a href="./../2/">2</a> + x^<a href="./../2/">2</a>} $ , or  $ \sqrt{x^<a href="./../2/">2</a> - a^<a href="./../2/">2</a>} $ .  This involves substituting  $ x $  with a trigonometric function. <a href="./../trigonometric-substitution-examples/">Trigonometric Substitution Examples</a> (This will be a separate note)</p>
+<p><strong>Trigonometric Substitution:</strong> Used for <a href="./../integrals/">integrals</a> involving  $ \sqrt{a^2 - x^2} $ ,  $ \sqrt{a^2 + x^2} $ , or  $ \sqrt{x^2 - a^2} $ .  This involves substituting  $ x $  with a trigonometric function. <a href="./../trigonometric-substitution-examples/">Trigonometric Substitution Examples</a> (This will be a separate note)</p>
 </li>
 <li>
 <p><strong>Partial Fraction Decomposition:</strong> Used for <a href="./../integrals/">integrals</a> of rational functions (where the degree of the numerator is less than the degree of the denominator).  The rational function is decomposed into simpler fractions that are easier to integrate. <a href="./../partial-fraction-decomposition-techniques/">Partial Fraction Decomposition Techniques</a> (This will be a separate note)</p>
@@ -71,14 +71,14 @@
 <li>
 <p><strong>Improper Integrals:</strong> Integrals with infinite limits or discontinuous integrands. <a href="./../improper-integrals-types-and-solutions/">Improper Integrals Types and Solutions</a> (This will be a separate note).  We need to consider:</p>
 <ul>
-<li>Type <a href="./../1/">1</a>:  $ \int_a^{\infty} f(x) dx = \lim_{t \to \infty} \int_a^t f(x) dx $</li>
-<li>Type <a href="./../2/">2</a>:  $ \int_{-\infty}^b f(x) dx = \lim_{t \to -\infty} \int_t^b f(x) dx $</li>
-<li>Type <a href="./../3/">3</a>:  $ \int_{-\infty}^{\infty} f(x) dx = \int_{-\infty}^c f(x) dx + \int_c^{\infty} f(x) dx $   where  $ c $  is any real number.</li>
+<li>Type [[1:  $ \int_a^{\infty} f(x) dx = \lim_{t \to \infty} \int_a^t f(x) dx $</li>
+<li>Type 2:  $ \int_{-\infty}^b f(x) dx = \lim_{t \to -\infty} \int_t^b f(x) dx $</li>
+<li>Type 3:  $ \int_{-\infty}^{\infty} f(x) dx = \int_{-\infty}^c f(x) dx + \int_c^{\infty} f(x) dx $   where  $ c $  is any real number.</li>
 </ul>
 </li>
 </ul>
 <p><strong>III. Tables of Integrals:</strong></p>
-<p>While we aim to master the techniques above, it&rsquo;s useful to have a table of <a href="./../integrals/">integrals</a> for quick reference.  Many textbooks and online resources provide comprehensive tables.  $  \int \frac{<a href="./../1/">1</a>}{x^<a href="./../2/">2</a> + a^<a href="./../2/">2</a>} dx = \frac{<a href="./../1/">1</a>}{a} \arctan(\frac{x}{a}) + C $  is a common example.</p>
+<p>While we aim to master the techniques above, it&rsquo;s useful to have a table of <a href="./../integrals/">integrals</a> for quick reference.  Many textbooks and online resources provide comprehensive tables.  $  \int \frac{[[1}{x^2 + a^2} dx = \frac{[[1}{a} \arctan(\frac{x}{a}) + C $  is a common example.</p>
 <p><strong>IV. Numerical Integration:</strong></p>
 <p>For <a href="./../integrals/">integrals</a> that cannot be solved analytically, numerical methods (like the <a href="./../trapezoidal-rule/">Trapezoidal Rule</a> or Simpson&rsquo;s Rule) can approximate the value of the definite integral. <a href="./../numerical-integration-methods/">Numerical Integration Methods</a> (This will be a separate note)</p>
 <p><strong>V. Applications:</strong></p>

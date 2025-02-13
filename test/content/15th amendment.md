@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: 15th Amendment
-## When:  February [3](./../3/), 1870
+## When:  February 3, 1870
 ## Who:  
 * **Proposed:**  39th [United States](./../united-states/) Congress
 * **Ratified:**  States of the Union 

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
- [APHG Unit 1](./../aphg-unit-1/)
+ [[APHG Unit 1
 
 * Information linked to specific places
 * Includes locations, human activities, and traits

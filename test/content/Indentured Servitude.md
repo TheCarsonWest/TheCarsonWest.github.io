@@ -12,7 +12,7 @@
 * **Planters/Merchants:** Wealthy colonists in the Chesapeake ([Virginia](./../virginia/), [Maryland](./../maryland/)) and Southern colonies who needed labor for tobacco, rice, and other cash crops.
 
 ## What:
-A system of labor in which individuals agreed to work for a specified number of years (typically [4](./../4/)-[7](./../7/)) in exchange for passage to the colonies, food, shelter, and sometimes land or tools upon completion of their service.  Conditions varied greatly, but often involved harsh treatment, long hours, and limited rights.
+A system of labor in which individuals agreed to work for a specified number of years (typically 4-7) in exchange for passage to the colonies, food, shelter, and sometimes land or tools upon completion of their service.  Conditions varied greatly, but often involved harsh treatment, long hours, and limited rights.
 
 ## Impact: Why Significant?:
 * **Colonial Economy:** Provided the crucial labor force that fueled the economic growth of the Southern colonies, particularly in agriculture.

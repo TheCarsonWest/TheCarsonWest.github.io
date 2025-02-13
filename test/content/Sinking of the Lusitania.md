@@ -5,7 +5,7 @@
 +++
 ## ID: [Sinking of the Lusitania](./../sinking-of-the-lusitania/)
 
-## When: May [7](./../7/), 1915
+## When: May 7, 1915
 
 ## Who:
 * **Victim:** Passengers and crew of the British passenger liner *Lusitania* (including 128 Americans)

@@ -10,9 +10,9 @@ This section covers calculations involving equilibrium constants ( $ K $ ).  We'
 
 **1.  $ K_c $  ([Equilibrium](./../equilibrium/) Constant in terms of concentration):**
 
-*   **Definition:**  $ K_c = \frac{[Products]}{[Reactants]} $   where the bracketed terms represent the equilibrium concentrations raised to the power of their stoichiometric coefficients.
-*   **Example:** For the reaction  $ aA + bB \rightleftharpoons cC + dD $ ,   $ K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b} $ 
-*   **[ICE Tables:**  Use ICE (Initial, Change, Equilibrium](./../ice-tables:**--use-ice-(initial-change-equilibrium/)) tables to organize information and solve for equilibrium concentrations when some are known.  (ICE Table Examples]]]])
+*   **Definition:**  $ K_c = \frac{[Products]]}{[Reactants]]} $   where the bracketed terms represent the equilibrium concentrations raised to the power of their stoichiometric coefficients.
+*   **Example:** For the reaction  $ aA + bB \rightleftharpoons cC + dD $ ,   $ K_c = \frac{[C]]^c[D]]^d}{[A]]^a[B]]^b} $ 
+*   **[ICE Tables:**  Use ICE (Initial, Change, Equilibrium](./../ice-tables:**--use-ice-(initial-change-equilibrium/)) tables to organize information and solve for equilibrium concentrations when some are known.  (ICE Table Examples]])
 *   **Calculations:** Often involve solving quadratic or cubic equations.  Approximations can be made if  $ K $  is very small or very large. ([Approximation Techniques](./../approximation-techniques/))
 *   **Units:**  $ K_c $  has units that depend on the stoichiometry of the reaction.  Usually omitted for simplicity.
 
@@ -25,7 +25,7 @@ This section covers calculations involving equilibrium constants ( $ K $ ).  We'
 
 **3.   $ K_w $  (Ion-Product Constant for Water):**
 
-*   **Definition:**  $ K_w = [H_3O^+][OH^-] = 1.0 \times 10^{-14} $  at 25°C.  ([Water Autoionization](./../water-autoionization/))
+*   **Definition:**  $ K_w = [H_3O^+]][OH^-]] = 1.0 \times 10^{-14} $  at 25°C.  ([Water Autoionization](./../water-autoionization/))
 *   **pH and pOH:** Related to  $ K_w $  by:  $ pH + pOH = 14 $  at 25°C.  ([pH and pOH Calculations](./../ph-and-poh-calculations/))
 
 

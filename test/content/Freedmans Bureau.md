@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: Freedmen's Bureau 
-## When: March [3](./../3/), 1865 - 1872
+## When: March 3, 1865 - 1872
 ## Who: 
 Established by Congress during Reconstruction, headed by General Oliver O. Howard
 ## What: 

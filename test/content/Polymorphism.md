@@ -17,7 +17,7 @@ class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
     def area(self):
-        return [3](./../3/).14159 * self.radius * self.radius
+        return 3.14159 * self.radius * self.radius
 
 class Square(Shape):
     def __init__(self, side):
@@ -25,7 +25,7 @@ class Square(Shape):
     def area(self):
         return self.side * self.side
 
-shapes = [Circle([5](./../5/)), Square([4](./../4/))]
+shapes = [Circle(5), Square(4)]]
 for shape in shapes:
     print(shape.area()) # Polymorphic call to area()
 ```

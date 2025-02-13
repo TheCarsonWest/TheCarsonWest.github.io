@@ -25,7 +25,7 @@ Simple distillation is effective for separating liquids with significantly diffe
 ## Fractional [Distillation](./../distillation/) 
 Fractional distillation is used to separate liquids with closer boiling points.  It employs a fractionating column, which provides a large surface area for multiple condensation and vaporization cycles. As the vapor rises through the column, it repeatedly condenses and re-vaporizes.  With each cycle, the vapor becomes richer in the more volatile component.  This process effectively creates a temperature gradient along the column, allowing for finer separation. 
 Used in making that sweet dino juice
-![](https://www.chemicals.co.uk/wp-content/uploads/2021/11/Fractional-[Distillation](./../distillation/)-[1](./../1/)-[1](./../1/).png)
+!1(https://www.chemicals.co.uk/wp-content/uploads/2021/11/Fractional-[Distillation](./../distillation/)-[[1-[[1.png)
 ## Limitations of [Distillation](./../distillation/) 
 * **[Azeotropes](./../azeotropes/):** [Azeotropes](./../azeotropes/) Some mixtures form [Azeotropes](./../azeotropes/), which are constant boiling mixtures that cannot be separated by simple distillation.
 * **[Heat](./../heat/) sensitive compounds:**  Some compounds decompose at high temperatures, making distillation unsuitable.

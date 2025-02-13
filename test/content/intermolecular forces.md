@@ -34,5 +34,5 @@ van der waals is a fancy way of saying these are the ones that exist between **i
 ## Boiling point
 - More IMF = more boiling
 - Weak attractions increases non-agitated evaporation
-	- A cup of water left open in a dark room at room [Temperature](./../temperature/) will fully evaporate in [5](./../5/) days
-	- A glass of isopropyl will evaporate in the same conditions in [2](./../2/) days
+	- A cup of water left open in a dark room at room [Temperature](./../temperature/) will fully evaporate in 5 days
+	- A glass of isopropyl will evaporate in the same conditions in 2 days

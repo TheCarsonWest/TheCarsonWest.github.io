@@ -5,7 +5,7 @@
 +++
 ## ID: [Chinese Exclusion Act](./../chinese-exclusion-act/)
 
-## When: May [6](./../6/), 1882
+## When: May 6, 1882
 
 ## Who: 
 * **Congress:** Passed the act.  

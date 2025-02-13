@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG Unit 1](./../aphg-unit-1/)
+# [[APHG Unit 1
 
 ### Geography etymology
 - Geo- (earth) 

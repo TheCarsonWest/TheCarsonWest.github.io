@@ -5,7 +5,7 @@
 +++
 ## ID: White Man's Burden
 
-## When: February [4](./../4/), 1899
+## When: February 4, 1899
 
 ## Who:  Rudyard Kipling (author)
 

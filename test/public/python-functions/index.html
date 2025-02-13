@@ -58,7 +58,7 @@
 <p><a href="./../function-return-values/">Function Return Values</a></p>
 <p><strong>Calling Functions:</strong></p>
 <p>Functions are called by using their name followed by parentheses containing any necessary arguments.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> my_function([<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>))  <span style="color:#75715e"># Calls my_function with arguments [5](./../5/) and [3](./../3/)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> my_function(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># Calls my_function with arguments 5 and 3</span>
 </span></span><span style="display:flex;"><span>print(result)  <span style="color:#75715e"># Prints 8</span>
 </span></span></code></pre></div><p><strong>Types of Arguments:</strong></p>
 <ul>
@@ -75,7 +75,7 @@
 <p><strong><a href="./../lambda-functions/">Lambda Functions</a> (Anonymous Functions):</strong></p>
 <p>These are small, anonymous functions defined using the <code>lambda</code> keyword. They are often used for short, simple operations.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>square <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">*</span>x
-</span></span><span style="display:flex;"><span>print(square([<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>))) <span style="color:#75715e"># Prints 25</span>
+</span></span><span style="display:flex;"><span>print(square(<span style="color:#ae81ff">5</span>)) <span style="color:#75715e"># Prints 25</span>
 </span></span></code></pre></div><p><strong>Recursive Functions:</strong></p>
 <p>Functions that call themselves.  They must have a base case to avoid infinite <a href="./../recursion/">Recursion</a>. <a href="./../recursion-in-python/">Recursion in Python</a></p>
 <p><strong><a href="./../decorators/">Decorators</a>:</strong></p>

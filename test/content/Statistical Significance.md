@@ -18,7 +18,7 @@
 
 **Type II Error (False Negative):** Failing to reject the null hypothesis when it is actually false. The probability of a Type II error is denoted by  $ \beta $  (beta).
 
-**Power ([1](./../1/) -  $ \beta $ ):** The probability of correctly rejecting the null hypothesis when it is false.  High power is desirable. [Power Analysis](./../power-analysis/)
+**Power ([1 -  $ \beta $ ):** The probability of correctly rejecting the null hypothesis when it is false.  High power is desirable. [[Power Analysis](./../1----$-\beta-$-):**-the-probability-of-correctly-rejecting-the-null-hypothesis-when-it-is-false.--high-power-is-desirable.-[[power-analysis/)
 
 **Factors Affecting [Statistical Significance](./../statistical-significance/):**
 

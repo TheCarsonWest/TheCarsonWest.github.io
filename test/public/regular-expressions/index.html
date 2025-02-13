@@ -49,10 +49,10 @@
 <p>Regular expressions (regex or regexp) are powerful tools for pattern matching within strings.  They are incredibly useful for tasks like data validation, text manipulation, and searching.</p>
 <p>Key Concepts:</p>
 <ul>
-<li><strong>Metacharacters:</strong> Special characters that have specific meanings in regex (e.g., <code>.</code> for any character, <code>*</code> for zero or more repetitions, <code>+</code> for one or more repetitions, <code>?</code> for zero or one repetition, <code>[]</code> for character sets, <code>()</code> for grouping, <code>^</code> for beginning of string, <code>$</code> for end of string). <a href="./../regex-metacharacters/">Regex Metacharacters</a></li>
+<li><strong>Metacharacters:</strong> Special characters that have specific meanings in regex (e.g., <code>.</code> for any character, <code>*</code> for zero or more repetitions, <code>+</code> for one or more repetitions, <code>?</code> for zero or one repetition, <code>1</code> for character sets, <code>()</code> for grouping, <code>^</code> for beginning of string, <code>$</code> for end of string). <a href="./../regex-metacharacters/">Regex Metacharacters</a></li>
 <li><strong>Quantifiers:</strong>  Specify how many times a character or group should appear (e.g., <code>*</code>, <code>+</code>, <code>?</code>, <code>{n}</code>, <code>{n,}</code>, <code>{n,m}</code>). <a href="./../regex-quantifiers/">Regex Quantifiers</a></li>
 <li><strong>Anchors:</strong>  Match positions within a string, not characters (e.g., <code>^</code>, <code>$</code>).</li>
-<li><strong>Character Sets:</strong> Define a set of characters to match (e.g., <code>[abc]</code>, <code>[a-z]</code>, <code>[^abc]</code>). <a href="./../regex-character-sets/">Regex Character Sets</a></li>
+<li><strong>Character Sets:</strong> Define a set of characters to match (e.g., <code>[abc]]</code>, <code>[a-z]]</code>, <code>[^abc]]</code>). <a href="./../regex-character-sets/">Regex Character Sets</a></li>
 <li><strong>Grouping and Capturing:</strong> Use parentheses <code>()</code> to group parts of a regex and capture matched substrings. <a href="./../regex-grouping-and-capturing/">Regex Grouping and Capturing</a></li>
 <li><strong>Alternation:</strong> Use the pipe symbol <code>|</code> to specify alternative patterns.</li>
 <li><strong>Flags:</strong> Modify the behavior of the regex engine (e.g., <code>re.IGNORECASE</code> for case-insensitive matching). <a href="./../regex-flags/">Regex Flags</a></li>
@@ -63,16 +63,16 @@
 </span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;My phone number is 123-456-7890 and email is test@example.com&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Find phone number</span>
-</span></span><span style="display:flex;"><span>phone_number_match <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d{[3](./../3/)}-\d{[3](./../3/)}-\d{[4](./../4/)}&#34;</span>, text)
+</span></span><span style="display:flex;"><span>phone_number_match <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d</span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">-\d</span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">-\d</span><span style="color:#e6db74">{4}</span><span style="color:#e6db74">&#34;</span>, text)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> phone_number_match:
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Phone number: </span><span style="color:#e6db74">{</span>phone_number_match<span style="color:#f92672">.</span>group(<span style="color:#ae81ff">0</span>)<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Find all email addresses (this assumes a simple email format)</span>
-</span></span><span style="display:flex;"><span>email_matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{[2](./../2/),}&#34;</span>, text)
+</span></span><span style="display:flex;"><span>email_matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;[a-zA-Z0-9._%+-]]+@[a-zA-Z0-9.-]]+\.[a-zA-Z]]{2,}&#34;</span>, text)
 </span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Email addresses: </span><span style="color:#e6db74">{</span>email_matches<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Replace phone number with ***-***-****</span>
-</span></span><span style="display:flex;"><span>new_text <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d{[3](./../3/)}-\d{[3](./../3/)}-\d{[4](./../4/)}&#34;</span>, <span style="color:#e6db74">&#34;***-***-****&#34;</span>, text)
+</span></span><span style="display:flex;"><span>new_text <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>sub(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\d</span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">-\d</span><span style="color:#e6db74">{3}</span><span style="color:#e6db74">-\d</span><span style="color:#e6db74">{4}</span><span style="color:#e6db74">&#34;</span>, <span style="color:#e6db74">&#34;***-***-****&#34;</span>, text)
 </span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;New text: </span><span style="color:#e6db74">{</span>new_text<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span></code></pre></div><p>Related Notes:</p>
 <ul>

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)]]
+# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)
 # Kp and Kc Relationship
 
 The relationship between  $ K_p $  (the equilibrium constant in terms of partial pressures) and  $ K_c $  (the equilibrium constant in terms of concentrations) is given by:

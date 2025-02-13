@@ -5,7 +5,7 @@
 +++
 ## ID: [Sussex Pledge](./../sussex-pledge/)
 
-## When: May [4](./../4/), 1916
+## When: May 4, 1916
 
 ## Who: 
 * **Germany:**  German government

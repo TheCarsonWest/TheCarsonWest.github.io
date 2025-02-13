@@ -5,7 +5,7 @@
 +++
 ## ID: Roosevelt Corollary to the [Monroe Doctrine](./../monroe-doctrine/)
 
-## When: December [6](./../6/), 1904
+## When: December 6, 1904
 
 ## Who:  President [Theodore Roosevelt](./../theodore-roosevelt/)
 

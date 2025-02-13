@@ -4,13 +4,13 @@
 	author = 'Carson West'
 +++
 ## ID: [Second Continental Congress](./../second-continental-congress/) 
-## When: May 10, 1775 – March [1](./../1/), 1781
+## When: May 10, 1775 – March [[1, 1781
 
 ## Who:  Delegates from thirteen colonies (eventually)
 
 ## What:  A meeting of colonial delegates that initially aimed to organize colonial resistance against [Great Britain](./../great-britain/).  It evolved into the governing body of the newly independent [United States](./../united-states/).  Key actions included:
 
-* **[Declaration of Independence](./../declaration-of-independence/) (July [4](./../4/), 1776):** Declared the thirteen colonies independent from [Great Britain](./../great-britain/).
+* **[Declaration of Independence](./../declaration-of-independence/) (July 4, 1776):** Declared the thirteen colonies independent from [Great Britain](./../great-britain/).
 * **[Articles of Confederation](./../articles-of-confederation/) (November 15, 1777):**  Created the first government of the [United States](./../united-states/), although it was weak and ultimately replaced by the Constitution.  (Note:  Ratified by states in 1781)
 * **Appointing George [Washington](./../washington/) as Commander-in-Chief (June 15, 1775):**  A crucial step in unifying the Continental Army.
 * **Raising and equipping a Continental Army:**  Organizing and funding the military effort against the British.

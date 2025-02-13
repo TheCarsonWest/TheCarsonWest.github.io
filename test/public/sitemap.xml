@@ -2,8 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/1.-basic-integration-formulas/</loc>
-  </url><url>
     <loc>http://example.org/13th-amendment/</loc>
   </url><url>
     <loc>http://example.org/14th-amendment/</loc>
@@ -16,17 +14,11 @@
   </url><url>
     <loc>http://example.org/1738757914.781034/</loc>
   </url><url>
-    <loc>http://example.org/2.--u-substitution/</loc>
+    <loc>http://example.org/1739065052.7092896/</loc>
   </url><url>
-    <loc>http://example.org/3.-integration-by-parts/</loc>
+    <loc>http://example.org/1739065065.9226332/</loc>
   </url><url>
-    <loc>http://example.org/4.-trigonometric-integrals/</loc>
-  </url><url>
-    <loc>http://example.org/5.-trigonometric-substitution/</loc>
-  </url><url>
-    <loc>http://example.org/6.-partial-fraction-decomposition/</loc>
-  </url><url>
-    <loc>http://example.org/7.-numerical-integration-approximation-methods/</loc>
+    <loc>http://example.org/aaaa/</loc>
   </url><url>
     <loc>http://example.org/abc-module/</loc>
   </url><url>
@@ -183,6 +175,8 @@
     <loc>http://example.org/base-dissociation-constant/</loc>
   </url><url>
     <loc>http://example.org/base-strength-and-conjugate-acid-strength/</loc>
+  </url><url>
+    <loc>http://example.org/basic-integration-formulas/</loc>
   </url><url>
     <loc>http://example.org/basic-programming/</loc>
   </url><url>
@@ -572,6 +566,8 @@
   </url><url>
     <loc>http://example.org/equilibrium-calculations/</loc>
   </url><url>
+    <loc>http://example.org/equilibrium-concentrations/</loc>
+  </url><url>
     <loc>http://example.org/equilibrium-constant-calculations/</loc>
   </url><url>
     <loc>http://example.org/era-of-good-feelings/</loc>
@@ -857,6 +853,10 @@
     <loc>http://example.org/inheritance-in-python/</loc>
   </url><url>
     <loc>http://example.org/integrals/</loc>
+  </url><url>
+    <loc>http://example.org/integration-by-parts/</loc>
+  </url><url>
+    <loc>http://example.org/integration-by-parts-examples/</loc>
   </url><url>
     <loc>http://example.org/intermediate-value-theorem/</loc>
   </url><url>
@@ -1162,6 +1162,8 @@
   </url><url>
     <loc>http://example.org/nullification/</loc>
   </url><url>
+    <loc>http://example.org/numerical-integration-approximation-methods/</loc>
+  </url><url>
     <loc>http://example.org/numpy-arrays/</loc>
   </url><url>
     <loc>http://example.org/numpy-broadcasting/</loc>
@@ -1215,6 +1217,8 @@
     <loc>http://example.org/panic-of-1819/</loc>
   </url><url>
     <loc>http://example.org/parameter-ordering/</loc>
+  </url><url>
+    <loc>http://example.org/partial-fraction-decomposition/</loc>
   </url><url>
     <loc>http://example.org/partial-pressure/</loc>
   </url><url>
@@ -1692,6 +1696,10 @@
   </url><url>
     <loc>http://example.org/trigonometric-derivatives/</loc>
   </url><url>
+    <loc>http://example.org/trigonometric-integrals/</loc>
+  </url><url>
+    <loc>http://example.org/trigonometric-substitution/</loc>
+  </url><url>
     <loc>http://example.org/triple-alliance/</loc>
   </url><url>
     <loc>http://example.org/triple-entente/</loc>
@@ -1705,6 +1713,8 @@
     <loc>http://example.org/types-of-irony/</loc>
   </url><url>
     <loc>http://example.org/types-of-regions/</loc>
+  </url><url>
+    <loc>http://example.org/u-substitution/</loc>
   </url><url>
     <loc>http://example.org/ulysses-s.-grant/</loc>
   </url><url>
@@ -1723,6 +1733,10 @@
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-2/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>

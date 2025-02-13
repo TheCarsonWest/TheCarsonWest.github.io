@@ -27,16 +27,16 @@ Key features:
 import numpy as np
 
 # Creating a 2D array
-arr = np.array([1](./../1/), [2](./../2/), [3](./../3/)], [[4](./../[4/), [5](./../5/), [6](./../6/))
+arr = np.array([[1, 2, 3, 4, 5, 6)
 
 # Accessing elements
-print(arr[0, [1](./../1/)])  # Output: [2](./../2/)
+print(arr[0, 1)  # Output: 2
 
 # Performing vectorized operations
-print(arr * [2](./../2/))  # Output: [ 2](./../-2/)  [4](./../4/)  [6](./../6/)], [ 8 10 12]]
+print(arr * 2)  # Output: [ 2](./../-2/)  4  6, [ 8 10 12]]
 
 # Array shape
-print(arr.shape)  # Output: ([2](./../2/), [3](./../3/))
+print(arr.shape)  # Output: (2, 3)
 
 # Array data type
 print(arr.dtype)  # Output: int64 (or similar, depending on your system)

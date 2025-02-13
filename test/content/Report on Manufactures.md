@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Report on Manufactures](./../report-on-manufactures/) 
-## When: December [5](./../5/), 1791
+## When: December 5, 1791
 
 ## Who: 
 - **Authored by:** [Alexander Hamilton](./../alexander-hamilton/), the first Secretary of the Treasury

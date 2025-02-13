@@ -5,7 +5,7 @@
 +++
 ## ID: [Platt Amendment](./../platt-amendment/)
 
-## When: March [2](./../2/), 1901
+## When: March 2, 1901
 
 ## Who: 
 * **[United States](./../united-states/):**  Influenced its creation and implementation.

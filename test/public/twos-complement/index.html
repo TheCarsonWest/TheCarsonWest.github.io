@@ -50,25 +50,25 @@
 <p><strong>Key Concepts:</strong></p>
 <ul>
 <li>
-<p><strong>Sign Bit:</strong> The most significant bit (MSB) represents the sign. 0 indicates positive, <a href="./../1/">1</a> indicates negative.</p>
+<p><strong>Sign Bit:</strong> The most significant bit (MSB) represents the sign. 0 indicates positive, [[1 indicates negative.</p>
 </li>
 <li>
 <p><strong>Positive Numbers:</strong>  Represented in standard binary.</p>
 </li>
 <li>
-<p><strong>Negative Numbers:</strong> Calculated by inverting all bits (0s become 1s, 1s become 0s) and then adding <a href="./../1/">1</a>.</p>
+<p><strong>Negative Numbers:</strong> Calculated by inverting all bits (0s become 1s, 1s become 0s) and then adding [[1.</p>
 </li>
 </ul>
 <p><strong>Example (8-bit):</strong></p>
-<p>Let&rsquo;s represent <a href="./../5/">5</a> and -<a href="./../5/">5</a>:</p>
+<p>Let&rsquo;s represent 5 and -5:</p>
 <ul>
 <li>
-<p><strong><a href="./../5/">5</a>:</strong> <code>00000101</code> (Positive, standard binary)</p>
+<p><strong>5:</strong> <code>00000101</code> (Positive, standard binary)</p>
 </li>
 <li>
-<p><strong>-<a href="./../5/">5</a>:</strong>
-<a href="./../1/">1</a>. Invert bits: <code>11111010</code>
-<a href="./../2/">2</a>. Add <a href="./../1/">1</a>: <code>11111011</code></p>
+<p><strong>-5:</strong>
+[[1. Invert bits: <code>11111010</code>
+2. Add [[1: <code>11111011</code></p>
 </li>
 </ul>
 <p><strong>Python Implementation:</strong></p>
@@ -76,13 +76,13 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">twos_complement</span>(n, bits):
 </span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;Represents an integer using two&#39;s complement in a specified number of bits.&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> n <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>:
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(n)[[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>):]<span style="color:#f92672">.</span>zfill(bits)  <span style="color:#75715e">#Positive numbers</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(n)<span style="color:#ae81ff">2</span>:]]<span style="color:#f92672">.</span>zfill(bits)  <span style="color:#75715e">#Positive numbers</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span>:
-</span></span><span style="display:flex;"><span>        positive_equivalent <span style="color:#f92672">=</span> ([<span style="color:#ae81ff">1</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">/</span>) <span style="color:#f92672">&lt;&lt;</span> bits) <span style="color:#f92672">+</span> n <span style="color:#75715e">#add [2](./../2/)^bits to get the positive equivalent</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(positive_equivalent)[[<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>):]<span style="color:#f92672">.</span>zfill(bits)
+</span></span><span style="display:flex;"><span>        positive_equivalent <span style="color:#f92672">=</span> ([[<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> bits) <span style="color:#f92672">+</span> n <span style="color:#75715e">#add 2^bits to get the positive equivalent</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> bin(positive_equivalent)<span style="color:#ae81ff">2</span>:]]<span style="color:#f92672">.</span>zfill(bits)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(twos_complement([<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>), <span style="color:#ae81ff">8</span>))  <span style="color:#75715e"># Output: 00000101</span>
-</span></span><span style="display:flex;"><span>print(twos_complement(<span style="color:#f92672">-</span>[<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>), <span style="color:#ae81ff">8</span>)) <span style="color:#75715e"># Output: 11111011</span>
+</span></span><span style="display:flex;"><span>print(twos_complement(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">8</span>))  <span style="color:#75715e"># Output: 00000101</span>
+</span></span><span style="display:flex;"><span>print(twos_complement(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">8</span>)) <span style="color:#75715e"># Output: 11111011</span>
 </span></span></code></pre></div><p><strong>Advantages:</strong></p>
 <ul>
 <li><strong>Simplified Arithmetic:</strong> Addition and subtraction can be performed using the same circuitry regardless of the signs of the numbers.  This simplifies hardware design.</li>

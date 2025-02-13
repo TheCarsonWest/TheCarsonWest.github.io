@@ -6,7 +6,7 @@
 **[Rutherford B](./../rutherford-b/). Hayes**
 
 **Background:**
-- Born: October [4](./../4/), 1822, [Delaware](./../delaware/), [Ohio](./../ohio/)
+- Born: October 4, 1822, [Delaware](./../delaware/), [Ohio](./../ohio/)
 - Lawyer and politician
 - Union general during the [Civil War](./../civil-war/) 
 **Election of 1876:**

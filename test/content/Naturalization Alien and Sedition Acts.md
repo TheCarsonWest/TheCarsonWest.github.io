@@ -10,7 +10,7 @@
 * **Democratic-[Republicans](./../republicans/)** led by [Thomas Jefferson](./../thomas-jefferson/) and [James Madison](./../james-madison/) vehemently opposed the acts. 
 ## What:
 A series of four laws passed by the Federalist-controlled Congress:
-* **Naturalization Act:** Increased the residency requirement for U.S. citizenship from [5](./../5/) to 14 years. 
+* **Naturalization Act:** Increased the residency requirement for U.S. citizenship from 5 to 14 years. 
 * **Alien Friends Act:** Allowed the president to deport any non-citizen considered "dangerous to the peace and safety of the [United States](./../united-states/)."
 * **Alien Enemies Act:** Allowed the president to deport or imprison any male citizen of a hostile nation during wartime.
 * **Sedition Act:** Made it illegal to publish "false, scandalous, and malicious writing" against the government or its officials. 

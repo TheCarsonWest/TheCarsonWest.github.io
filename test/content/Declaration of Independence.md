@@ -23,7 +23,7 @@
 
 **Historical Context:**
 
-* The Declaration was adopted on July [4](./../4/), 1776, during the American Revolutionary War.
+* The Declaration was adopted on July 4, 1776, during the American Revolutionary War.
 * It served as a rallying cry for independence and a justification for the colonies' actions.
 
 **Immediate Impact:**

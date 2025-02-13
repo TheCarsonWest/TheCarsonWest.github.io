@@ -46,6 +46,6 @@ While not directly quantifiable, we can represent the influence of different pur
 Then the overall authorial purpose ( $ A $ ) could be represented as a weighted sum:
 
  $$ A = w_I I + w_P P + w_E E + w_X X $$  
-where  $ w_I $ ,  $ w_P $ ,  $ w_E $ , and  $ w_X $  are weights representing the relative importance of each purpose (0 ≤  $ w_i $  ≤ [1](./../1/) and  $ \sum w_i = [1](./../1/) $ ).
+where  $ w_I $ ,  $ w_P $ ,  $ w_E $ , and  $ w_X $  are weights representing the relative importance of each purpose (0 ≤  $ w_i $  ≤ [[1 and  $ \sum w_i = [[1 $ ).
 
 [Analyzing Tone](./../analyzing-tone/)  [Literary Devices](./../literary-devices/) [Identifying Target Audience](./../identifying-target-audience/)

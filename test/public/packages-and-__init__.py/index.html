@@ -51,7 +51,7 @@
 <li><strong><code>__init__.py</code>:</strong> This file (even if it&rsquo;s empty!) signals to Python that a directory should be treated as a package.  Without it, Python treats the directory as just a directory, not a package.  It can also contain initialization code for the package, for example, importing specific modules or defining variables to be used throughout the package.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># mypackage/__init__.py</span>
-</span></span><span style="display:flex;"><span>__all__ <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;module1&#34;</span>, <span style="color:#e6db74">&#34;module2&#34;</span>] <span style="color:#75715e"># This line controls what gets imported with `from mypackage import *`</span>
+</span></span><span style="display:flex;"><span>__all__ <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;module1&#34;</span>, <span style="color:#e6db74">&#34;module2&#34;</span>]] <span style="color:#75715e"># This line controls what gets imported with `from mypackage import *`</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Or, you can explicitly import modules to make them available:</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> .module1 <span style="color:#f92672">import</span> <span style="color:#f92672">*</span>

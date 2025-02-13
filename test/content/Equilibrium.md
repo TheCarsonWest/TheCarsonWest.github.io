@@ -3,6 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
+
+#chem #equilibrium
 # [Le Chateliers Principle](./../le-chateliers-principle/)
 # [Equilibrium](./../equilibrium/)
 
@@ -12,7 +14,7 @@
 
 * **[Equilibrium](./../equilibrium/) Constant ( $ K $ ):**  A quantitative measure of the relative amounts of reactants and products at equilibrium.  For the generic reaction:  $ aA + bB \rightleftharpoons cC + dD $ , the equilibrium constant expression is:
 
- ##  $$ K = \frac{[C]^c[D]^d}{[A]^a[B]^b} $$  
+ ##  $$ K = \frac{[C]]^c[D]]^d}{[A]]^a[B]]^b} $$  
 * ** $ K_c $  vs  $ K_p $ **:  $ K_c $  uses molar concentrations, while  $ K_p $  uses partial pressures (for gaseous reactions).  The relationship between them is given by:
 
  ##  $$ K_p = K_c(RT)^{\Delta n} $$  
@@ -32,12 +34,12 @@
         * **Endothermic reactions ( $  \Delta H > 0 $ ):** Increasing temperature shifts right, decreasing temperature shifts left.
 
 
-* **Calculating [Equilibrium Concentrations:**  Often involves setting up an ICE (Initial, Change, Equilibrium](./../equilibrium-concentrations:**--often-involves-setting-up-an-ice-(initial-change-equilibrium/)) table and solving for unknown concentrations using the equilibrium constant expression.
+* **Calculating [Equilibrium Concentrations](./../equilibrium-concentrations/):  Often involves setting up an ICE (Initial, Change, Equilibrium]]) table and solving for unknown concentrations using the equilibrium constant expression.
 
 
-[Equilibrium Calculations](./../equilibrium-calculations/)]]
+[Equilibrium Calculations](./../equilibrium-calculations/)
 
-[Le Chateliers Principle Examples](./../le-chateliers-principle-examples/)]]
+[Le Chateliers Principle Examples](./../le-chateliers-principle-examples/)
 
 [Acid-Base Equilibria](./../acid-base-equilibria/)  (This will cover weak acids/bases,  $ K_a $ ,  $ K_b $ , pH calculations, buffers, etc.)
 

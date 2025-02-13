@@ -6,4 +6,4 @@
 [hybridization](./../hybridization/)
 
 ### Cheat sheet
-![](https://sansona.github.io/images/molecular-geometry.png)
+!1(https://sansona.github.io/images/molecular-geometry.png)

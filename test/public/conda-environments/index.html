@@ -50,7 +50,7 @@
 <p>Key features:</p>
 <ul>
 <li>
-<p><strong>Isolation:</strong> Prevents dependency conflicts between projects.  If project A needs <code>pandas==[1](./../1/).0</code> and project B needs <code>pandas==[2](./../2/).0</code>, you can create separate environments to satisfy both.</p>
+<p><strong>Isolation:</strong> Prevents dependency conflicts between projects.  If project A needs <code>pandas==[[1.0</code> and project B needs <code>pandas==2.0</code>, you can create separate environments to satisfy both.</p>
 </li>
 <li>
 <p><strong>Reproducibility:</strong>  Easily recreate the exact environment used for a specific project, ensuring consistent results across different machines.  This is done via environment files (usually <code>.yml</code>).</p>
@@ -60,8 +60,8 @@
 </li>
 </ul>
 <p><strong>Creating an environment:</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda create -n myenv python<span style="color:#f92672">=[</span>3<span style="color:#f92672">](</span>./../3/<span style="color:#f92672">)</span>.9 pandas numpy
-</span></span></code></pre></div><p>This creates an environment named <code>myenv</code> with Python <a href="./../3/">3</a>.9, pandas, and numpy.  <code>-n</code> specifies the environment name.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda create -n myenv python<span style="color:#f92672">=</span>3.9 pandas numpy
+</span></span></code></pre></div><p>This creates an environment named <code>myenv</code> with Python 3.9, pandas, and numpy.  <code>-n</code> specifies the environment name.</p>
 <p><strong>Activating an environment:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda activate myenv
 </span></span></code></pre></div><p><strong>Deactivating an environment:</strong></p>

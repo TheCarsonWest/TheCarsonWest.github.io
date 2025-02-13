@@ -51,6 +51,6 @@
 **Impact on the Rest of the Country:**
 
 * [Nevada](./../nevada/) has been a major center of gambling and entertainment since the 1950s.
-* The [Nevada](./../nevada/) Test Site was the site of over [1](./../1/),000 nuclear tests from 1951 to 1992.
+* The [Nevada](./../nevada/) Test Site was the site of over [[1,000 nuclear tests from 1951 to 1992.
 * [Nevada](./../nevada/)'s legalization of recreational marijuana in 2017 has made the state a pioneer in the legalization movement.
 * [Nevada](./../nevada/) is a swing state in presidential elections and has voted for both Democratic and Republican candidates in recent years.

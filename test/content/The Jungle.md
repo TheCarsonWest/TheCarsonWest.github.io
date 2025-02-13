@@ -5,7 +5,7 @@
 +++
 ## ID: Upton Sinclair's *[The Jungle](./../the-jungle/)*
 
-## When: Published November [4](./../4/), 1905
+## When: Published November 4, 1905
 
 ## Who: Upton Sinclair, a muckraking journalist and novelist.
 

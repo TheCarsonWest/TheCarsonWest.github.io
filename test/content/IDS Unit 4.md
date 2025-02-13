@@ -6,15 +6,15 @@
 # [ID Home](./../id-home/)
 
 ## Industrialization
-[1](./../1/). [Samuel Slater](./../samuel-slater/) 
-[2](./../2/). [Market Revolution](./../market-revolution/)
-[3](./../3/). [Industrial Revolution](./../industrial-revolution/)
-[4](./../4/). [Lowell Textile Mill](./../lowell-textile-mill/)
-[5](./../5/). [Cotton Gin](./../cotton-gin/)
+[1. [[Samuel Slater](./../1.-[[samuel-slater/) 
+2. [Market Revolution](./../market-revolution/)
+3. [Industrial Revolution](./../industrial-revolution/)
+4. [Lowell Textile Mill](./../lowell-textile-mill/)
+5. [Cotton Gin](./../cotton-gin/)
  
 ## Causes of the [Civil War](./../civil-war/) 
-[6](./../6/). [Free-soilers](./../free-soilers/)
-[7](./../7/).  [sectionalism](./../sectionalism/) 
+6. [Free-soilers](./../free-soilers/)
+7.  [sectionalism](./../sectionalism/) 
 8. [Wilmot Proviso](./../wilmot-proviso/)
 9. [Compromise of 1850](./../compromise-of-1850/)
 10. [Fugitive Slave Act](./../fugitive-slave-act/)

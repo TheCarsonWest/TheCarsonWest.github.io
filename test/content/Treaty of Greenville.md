@@ -5,7 +5,7 @@
 +++
 # ID: [Treaty of Greenville](./../treaty-of-greenville/) 
 
-## When: August [3](./../3/), 1795
+## When: August 3, 1795
 
 ## Who: 
 * **[United States](./../united-states/)** represented by General "Mad" Anthony Wayne

@@ -5,7 +5,7 @@
 +++
 ## ID: [Reconstruction Act of 1867](./../reconstruction-act-of-1867/) 
 
-## When: March [2](./../2/), 1867
+## When: March 2, 1867
 
 ## Who: 
 * **Congress:** The [Radical Republicans](./../radical-republicans/) in Congress, led by figures like Thaddeus Stevens and Charles Sumner, were the primary force behind the act.

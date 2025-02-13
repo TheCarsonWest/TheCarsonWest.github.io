@@ -30,8 +30,8 @@ These notes cover the usage of semicolons and colons in writing.
     * Example: The professor stated: "The exam will be difficult."
 
 * **Between numbers (time, ratios, etc.):** Colons are used to separate numbers in certain contexts.
-    * Example:  The race starts at [2](./../2/):00 PM.
-    * Example: The ratio of boys to girls was [3](./../3/):[2](./../2/).
+    * Example:  The race starts at 2:00 PM.
+    * Example: The ratio of boys to girls was 3:2.
 
 
 **Distinguishing between [Semicolons and Colons](./../semicolons-and-colons/):**

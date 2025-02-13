@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# ID: [Tenure of Office Act](./../tenure-of-office-act/) ## When: March [2](./../2/), 1867 
+# ID: [Tenure of Office Act](./../tenure-of-office-act/) ## When: March 2, 1867 
 ## Who: 
 * **President [Andrew Johnson](./../andrew-johnson/):**  Vetoed the bill, but Congress overrode his veto. 
 * **Radical [Republicans](./../republicans/):**  Led the push for the act as part of their Reconstruction plans.

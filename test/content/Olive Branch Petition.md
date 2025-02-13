@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Olive Branch Petition](./../olive-branch-petition/) 
-## When: July [5](./../5/), 1775
+## When: July 5, 1775
 
 ## Who:
 * **Authors:** The Continental Congress

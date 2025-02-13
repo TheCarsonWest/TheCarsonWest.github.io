@@ -14,7 +14,7 @@
 - Mandarin
 - Hindi
 - Russian
-Probably around 95% of the worlds population speak one of these [7](./../7/) languages
+Probably around 95% of the worlds population speak one of these 7 languages
 
 # [Languages](./../languages/) show parts of cultures
 - Hawaiian has 50 words for fishing net

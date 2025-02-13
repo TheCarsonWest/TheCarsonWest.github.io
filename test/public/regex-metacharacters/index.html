@@ -55,8 +55,8 @@
 <li><code>*</code>: Matches zero or more occurrences of the preceding character or group.</li>
 <li><code>+</code>: Matches one or more occurrences of the preceding character or group.</li>
 <li><code>?</code>: Matches zero or one occurrence of the preceding character or group.</li>
-<li><code>[]</code>: Defines a character set.  Matches any single character within the brackets.  <code>[a-z]</code> matches any lowercase letter. <code>[0-9]</code> matches any digit.</li>
-<li><code>[^]</code>:  Negates a character set. Matches any character not within the brackets.</li>
+<li><code>1</code>: Defines a character set.  Matches any single character within the brackets.  <code>[a-z]]</code> matches any lowercase letter. <code>[0-9]]</code> matches any digit.</li>
+<li><code>[^]]</code>:  Negates a character set. Matches any character not within the brackets.</li>
 <li><code>()</code>: Creates a capturing group. Allows you to extract specific parts of a matched string.  Also used for grouping in quantifiers (e.g., <code>(ab)+</code>).</li>
 <li><code>|</code>: Acts as an &ldquo;or&rdquo; operator. Matches either the expression before or after the pipe.  <code>cat|dog</code> matches either &ldquo;cat&rdquo; or &ldquo;dog&rdquo;.</li>
 <li><code>\</code>: Escapes a metacharacter, treating it as a literal character.  <code>\.</code> matches a literal dot.  <code>\*</code> matches a literal asterisk.</li>
@@ -67,25 +67,25 @@
 </span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;The quick brown fox jumps over the lazy dog.&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches any character followed by a &#39;o&#39;</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;.o&#34;</span>, text))  <span style="color:#75715e"># Output: [&#39;Th&#39;, &#39;o&#39;, &#39;o&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;.o&#34;</span>, text))  <span style="color:#75715e"># Output: [&#39;Th&#39;, &#39;o&#39;, &#39;o&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches the string only if it starts with &#39;The&#39;</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;^The&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;The&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;^The&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;The&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches the string only if it ends with &#39;.&#39;</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\. $ &#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;.&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\. $ &#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;.&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches &#39;o&#39; followed by zero or more &#39;x&#39; characters</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;ox*&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;o&#39;, &#39;ox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;ox*&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;o&#39;, &#39;ox&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches one or more occurrences of &#39;l&#39; followed by &#39;o&#39;</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;l+o&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;lo&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;l+o&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;lo&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Matches either &#39;fox&#39; or &#39;dog&#39;</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;fox|dog&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;dog&#39;]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;fox|dog&#34;</span>, text)) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;dog&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#Using capturing group</span>
-</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(quick) (brown)&#34;</span>, text)) <span style="color:#75715e">#Output:[(&#39;quick&#39;, &#39;brown&#39;)]</span>
+</span></span><span style="display:flex;"><span>print(re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;(quick) (brown)&#34;</span>, text)) <span style="color:#75715e">#Output:[(&#39;quick&#39;, &#39;brown&#39;)]]</span>
 </span></span></code></pre></div><p><a href="./../regex-character-sets/">Regex Character Sets</a><br>
 <a href="./../regex-quantifiers/">Regex Quantifiers</a>
 <a href="./../regex-grouping-and-capturing/">Regex Grouping and Capturing</a>

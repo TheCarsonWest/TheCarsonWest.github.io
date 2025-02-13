@@ -5,7 +5,7 @@
 +++
 ## ID: Treaty of Paris (1783)
 
-## When: September [3](./../3/), 1783
+## When: September 3, 1783
 
 ## Who:
 * **[Great Britain](./../great-britain/):** Represented by David Hartley

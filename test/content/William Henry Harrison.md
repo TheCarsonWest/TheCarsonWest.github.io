@@ -7,8 +7,8 @@
 
 **Presidency (1841)**
 
-* Inaugurated March [4](./../4/), 1841, with [John Tyler](./../john-tyler/) as Vice President
-* Died of pneumonia just 31 days into his presidency on April [4](./../4/), 1841
+* Inaugurated March 4, 1841, with [John Tyler](./../john-tyler/) as Vice President
+* Died of pneumonia just 31 days into his presidency on April 4, 1841
 
 **Events Associated With**
 

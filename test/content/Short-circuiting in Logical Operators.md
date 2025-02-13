@@ -11,7 +11,7 @@ Python's logical [Operators](./../operators/) (`and`, `or`) employ short-circuit
 
 ```python
 x = 0
-y = [1](./../1/)/0  # This will cause an error if executed
+y = [[1/0  # This will cause an error if executed
 
 result = x and y 
 print(result) # Output: 0 (no ZeroDivisionError)
@@ -20,11 +20,11 @@ print(result) # Output: 0 (no ZeroDivisionError)
 * **`or`:** If the left operand is truthy (evaluates to `True`), the entire expression is truthy, and the right operand is *not* evaluated.
 
 ```python
-x = [1](./../1/)
-y = [1](./../1/)/0 # This will cause an error if executed
+x = [[1
+y = [[1/0 # This will cause an error if executed
 
 result = x or y
-print(result) # Output: [1](./../1/) (no ZeroDivisionError)
+print(result) # Output: [[1 (no ZeroDivisionError)
 ```
 
 **Practical Implications:**

@@ -16,7 +16,7 @@ A major compromise reached during the [Constitutional Convention](./../constitut
 **Key Features of the Compromise:**
 
 * **Bicameral Legislature:**  Created a two-house Congress:
-    * **Senate:** Each state would have equal representation ([2](./../2/) senators per state).
+    * **Senate:** Each state would have equal representation (2 senators per state).
     * **House of Representatives:** Representation would be based on the population of each state. 
 
 ## Impact? Why Significant?: 

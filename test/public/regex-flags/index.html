@@ -55,7 +55,7 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">match</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>search(<span style="color:#e6db74">&#34;world&#34;</span>, text, re<span style="color:#f92672">.</span>IGNORECASE)
-</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># &lt;re.Match object; span=([6](./../6/), 11), match=&#39;World&#39;&gt;</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># &lt;re.Match object; span=(6, 11), match=&#39;World&#39;&gt;</span>
 </span></span></code></pre></div><ul>
 <li><code>re.MULTILINE</code> (or <code>re.M</code>):  Makes <code>^</code> and <code>$</code> match the beginning and end of each line (instead of the entire string).</li>
 </ul>
@@ -65,7 +65,7 @@
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">line two
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">line three&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;^line&#34;</span>, text, re<span style="color:#f92672">.</span>MULTILINE)
-</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># [&#39;line&#39;, &#39;line&#39;, &#39;line&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># [&#39;line&#39;, &#39;line&#39;, &#39;line&#39;]]</span>
 </span></span></code></pre></div><ul>
 <li><code>re.DOTALL</code> (or <code>re.S</code>): Makes the <code>.</code> special character match any character, including newline characters (<code>\n</code>).  Without this flag, <code>.</code> will not match newlines.</li>
 </ul>
@@ -83,9 +83,9 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello 世界&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">match</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\w+&#34;</span>, text) <span style="color:#75715e">#Without ASCII flag</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># [&#39;Hello&#39;, &#39;世界&#39;]</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># [&#39;Hello&#39;, &#39;世界&#39;]]</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">match</span> <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\w+&#34;</span>, text, re<span style="color:#f92672">.</span>ASCII) <span style="color:#75715e">#With ASCII flag</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># [&#39;Hello&#39;]</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#66d9ef">match</span>) <span style="color:#75715e"># [&#39;Hello&#39;]]</span>
 </span></span></code></pre></div><ul>
 <li><code>re.VERBOSE</code> (or <code>re.X</code>): Allows you to write more readable <a href="./../regular-expressions/">Regular Expressions</a> by ignoring whitespace and adding comments.</li>
 </ul>
@@ -94,7 +94,7 @@
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>compile(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;&#34;&#34;
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    \d+         # one or more digits
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    \s+         # one or more whitespace characters
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    [a-zA-Z]+   # one or more letters
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">    [a-zA-Z]]+   # one or more letters
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">&#34;&#34;&#34;</span>, re<span style="color:#f92672">.</span>VERBOSE)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>text <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;123 abc&#34;</span>

@@ -35,8 +35,8 @@ In this equation:
     * As a base:  $ H_2O + H^+ \rightleftharpoons H_3O^+ $  (conjugate acid is  $ H_3O^+ $ )
 
 
-[Amphoteric Substances](./../amphoteric-substances/)  (Water as an Acid and Base]]]])
+[Amphoteric Substances](./../amphoteric-substances/)  (Water as an Acid and Base]])
 
-[Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/)  (Base Strength and Conjugate Acid Strength]]]])
+[Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/)  (Base Strength and Conjugate Acid Strength]])
 
 [Ka and Kb Relationships](./../ka-and-kb-relationships/)

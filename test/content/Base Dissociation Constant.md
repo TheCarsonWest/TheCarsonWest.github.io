@@ -13,12 +13,12 @@ For a generic weak base, B, reacting with water:
 ##  $$ B(aq) + H_2O(l) \rightleftharpoons BH^+(aq) + OH^-(aq) $$  
 The expression for  $ K_b $  is:
 
-##  $$ K_b = \frac{[BH^+][OH^-]}{[B]} $$  
+##  $$ K_b = \frac{[BH^+]][OH^-]]}{[B]]} $$  
 where:
 
-*  $ [BH^+] $  is the concentration of the conjugate acid
-*  $ [OH^-] $  is the concentration of hydroxide ions
-*  $ [B] $  is the concentration of the base
+*  $ [BH^+]] $  is the concentration of the conjugate acid
+*  $ [OH^-]] $  is the concentration of hydroxide ions
+*  $ [B]] $  is the concentration of the base
 
 **A larger  $ K_b $  value indicates a stronger base.**  A stronger base will dissociate more completely in water, producing a higher concentration of hydroxide ions.
 
@@ -26,7 +26,7 @@ where:
 
 [Calculating  $ pK_b $ ](./../calculating--$-pk_b-$-/)  This explains how to calculate  $ pK_b $  from  $ K_b $ , analogous to  $ pH $  and  $ pK_a $ .
 
-[Weak Base Equilibria Calculations](./../weak-base-equilibria-calculations/)  This will cover examples and practice problems involving calculating  $ [OH^-] $ ,  $ [BH^+] $ , and  $ [B] $  at equilibrium, given  $ K_b $  and initial concentration.
+[Weak Base Equilibria Calculations](./../weak-base-equilibria-calculations/)  This will cover examples and practice problems involving calculating  $ [OH^-]] $ ,  $ [BH^+]] $ , and  $ [B]] $  at equilibrium, given  $ K_b $  and initial concentration.
 
 [Titration of Weak Bases  This note would discuss the titration curve of a weak base with a strong acid, and how to calculate the pH at different points in the titration.  This will use knowledge from Weak Base Equilibria Calculations](./../titration-of-weak-bases--this-note-would-discuss-the-titration-curve-of-a-weak-base-with-a-strong-acid-and-how-to-calculate-the-ph-at-different-points-in-the-titration.--this-will-use-knowledge-from-weak-base-equilibria-calculations/).
 

@@ -20,10 +20,10 @@
 
 There are several ways to structure an argument, but a common and effective method is:
 
-[1](./../1/). **Introduction:** State your claim clearly.
-[2](./../2/). **Body Paragraphs:** Each paragraph should focus on a single piece of evidence and explain how it supports the claim through reasoning.  Consider using the Toulmin model for structure in each paragraph.  [Toulmin Model](./../toulmin-model/)
-[3](./../3/). **Counterarguments:** Acknowledge and address potential objections or opposing viewpoints.  This shows a nuanced understanding of the topic and strengthens your argument. [Addressing Counterarguments](./../addressing-counterarguments/)
-[4](./../4/). **Conclusion:** Restate your claim and summarize your main points.
+[[1. **Introduction:** State your claim clearly.
+2. **Body Paragraphs:** Each paragraph should focus on a single piece of evidence and explain how it supports the claim through reasoning.  Consider using the Toulmin model for structure in each paragraph.  [Toulmin Model](./../toulmin-model/)
+3. **Counterarguments:** Acknowledge and address potential objections or opposing viewpoints.  This shows a nuanced understanding of the topic and strengthens your argument. [Addressing Counterarguments](./../addressing-counterarguments/)
+4. **Conclusion:** Restate your claim and summarize your main points.
 
 **III.  Types of Arguments:**
 

@@ -34,17 +34,17 @@ The derivative of a function can be differentiated again to find the second deri
 
 ## [Implicit Differentiation](./../implicit-differentiation/)
 
-[Implicit differentiation](./../implicit-differentiation/) is a technique used to find the derivative of a function that is defined implicitly by an equation.  For example, the equation  $ x^[2](./../2/) + y^[2](./../2/) = [1](./../1/) $  defines a circle. To find the derivative of  $ y $  with respect to  $ x $ , we differentiate both sides of the equation implicitly.
+[Implicit differentiation](./../implicit-differentiation/) is a technique used to find the derivative of a function that is defined implicitly by an equation.  For example, the equation  $ x^2 + y^2 = [[1 $  defines a circle. To find the derivative of  $ y $  with respect to  $ x $ , we differentiate both sides of the equation implicitly.
 
 ## [Trigonometric Derivatives](./../trigonometric-derivatives/)
 
 ### Examples
 
-* **Example [1](./../1/):** Find the derivative of  $ f(x) = x^[3](./../3/) + 2x $ .
+* **Example [[1:** Find the derivative of  $ f(x) = x^3 + 2x $ .
 
    Using the [power rule](./../power-rule/) and the sum rule, we get:
 
-    $$ f'(x) = 3x^[2](./../2/) + [2](./../2/) $$  
-* **Example [2](./../2/):** Find the derivative of  $ g(x) = \sin(x^[2](./../2/)) $ .
+    $$ f'(x) = 3x^2 + 2 $$  
+* **Example 2:** Find the derivative of  $ g(x) = \sin(x^2) $ .
    Using the [chain rule](./../chain-rule/), we get:
-    $$ g'(x) = \cos(x^[2](./../2/)) \cdot 2x = 2x \cos(x^[2](./../2/)) $$  
+    $$ g'(x) = \cos(x^2) \cdot 2x = 2x \cos(x^2) $$  

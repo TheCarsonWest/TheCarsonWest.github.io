@@ -5,7 +5,7 @@
 +++
 ## ID: [Allied Powers](./../allied-powers/)' Entry into WWI
 
-## When: September [5](./../5/), 1914 (and ongoing)
+## When: September 5, 1914 (and ongoing)
 
 ## Who:
 * **[Allied Powers](./../allied-powers/):** Primarily [Great Britain](./../great-britain/), [France](./../france/), and Russia (later joined by the [United States](./../united-states/), Italy, Japan, and others).

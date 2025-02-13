@@ -69,24 +69,24 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a DataFrame</span>
-</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;Name&#39;</span>: [<span style="color:#e6db74">&#39;Alice&#39;</span>, <span style="color:#e6db74">&#39;Bob&#39;</span>, <span style="color:#e6db74">&#39;Charlie&#39;</span>],
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Age&#39;</span>: [<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">28</span>],
-</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;City&#39;</span>: [<span style="color:#e6db74">&#39;[New York](./../new-york/)&#39;</span>, <span style="color:#e6db74">&#39;London&#39;</span>, <span style="color:#e6db74">&#39;Paris&#39;</span>]}
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;Name&#39;</span>: [<span style="color:#e6db74">&#39;Alice&#39;</span>, <span style="color:#e6db74">&#39;Bob&#39;</span>, <span style="color:#e6db74">&#39;Charlie&#39;</span>]],
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Age&#39;</span>: [<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">28</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;City&#39;</span>: [<span style="color:#e6db74">&#39;[New York](./../new-york/)&#39;</span>, <span style="color:#e6db74">&#39;London&#39;</span>, <span style="color:#e6db74">&#39;Paris&#39;</span>]]}
 </span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(data)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Display the DataFrame</span>
 </span></span><span style="display:flex;"><span>print(df)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Calculate the average age</span>
-</span></span><span style="display:flex;"><span>average_age <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;Age&#39;</span>]<span style="color:#f92672">.</span>mean()
+</span></span><span style="display:flex;"><span>average_age <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;Age&#39;</span>]]<span style="color:#f92672">.</span>mean()
 </span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Average age: </span><span style="color:#e6db74">{</span>average_age<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Filter for people older than 28</span>
-</span></span><span style="display:flex;"><span>older_than_28 <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74">&#39;Age&#39;</span>] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">28</span>]
+</span></span><span style="display:flex;"><span>older_than_28 <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74">&#39;Age&#39;</span>]] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">28</span>
 </span></span><span style="display:flex;"><span>print(older_than_28)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Group by city and calculate the average age for each city</span>
-</span></span><span style="display:flex;"><span>grouped <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;City&#39;</span>)[<span style="color:#e6db74">&#39;Age&#39;</span>]<span style="color:#f92672">.</span>mean()
+</span></span><span style="display:flex;"><span>grouped <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;City&#39;</span>)[<span style="color:#e6db74">&#39;Age&#39;</span>]]<span style="color:#f92672">.</span>mean()
 </span></span><span style="display:flex;"><span>print(grouped)
 </span></span></code></pre></div><p><a href="./../pandas-data-structures/">Pandas Data Structures</a>  (<a href="./../pandas-data-manipulation/">Pandas Data Manipulation</a>) <a href="./../data-visualization-with-matplotlib/">Data Visualization with Matplotlib</a> <a href="./../data-cleaning-in-pandas/">Data Cleaning in Pandas</a></p>
 

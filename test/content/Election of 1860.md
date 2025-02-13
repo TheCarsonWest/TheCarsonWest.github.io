@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Election of 1860](./../election-of-1860/) 
-## When: November [6](./../6/), 1860
+## When: November 6, 1860
 
 ## Who:
 * **[Abraham Lincoln](./../abraham-lincoln/) (Republican)** -  Won the election despite not being on the ballot in all states.

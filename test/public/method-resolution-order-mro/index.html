@@ -63,7 +63,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">D</span>(B, C):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(D<span style="color:#f92672">.</span>mro()) <span style="color:#75715e"># Output: [&lt;class &#39;__main__.D&#39;&gt;, &lt;class &#39;__main__.B&#39;&gt;, &lt;class &#39;__main__.C&#39;&gt;, &lt;class &#39;__main__.A&#39;&gt;, &lt;class &#39;object&#39;&gt;]</span>
+</span></span><span style="display:flex;"><span>print(D<span style="color:#f92672">.</span>mro()) <span style="color:#75715e"># Output: [&lt;class &#39;__main__.D&#39;&gt;, &lt;class &#39;__main__.B&#39;&gt;, &lt;class &#39;__main__.C&#39;&gt;, &lt;class &#39;__main__.A&#39;&gt;, &lt;class &#39;object&#39;&gt;]]</span>
 </span></span><span style="display:flex;"><span>d <span style="color:#f92672">=</span> D()
 </span></span><span style="display:flex;"><span>d<span style="color:#f92672">.</span>method() <span style="color:#75715e"># Output: B (because B is listed before C in the [MRO](./../mro/))</span>
 </span></span></code></pre></div><p><strong>Key aspects to remember:</strong></p>
@@ -92,7 +92,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">D</span>(B,C):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print(D<span style="color:#f92672">.</span>mro()) <span style="color:#75715e"># Output: [&lt;class &#39;__main__.D&#39;&gt;, &lt;class &#39;__main__.B&#39;&gt;, &lt;class &#39;__main__.C&#39;&gt;, &lt;class &#39;__main__.A&#39;&gt;, &lt;class &#39;object&#39;&gt;]</span>
+</span></span><span style="display:flex;"><span>print(D<span style="color:#f92672">.</span>mro()) <span style="color:#75715e"># Output: [&lt;class &#39;__main__.D&#39;&gt;, &lt;class &#39;__main__.B&#39;&gt;, &lt;class &#39;__main__.C&#39;&gt;, &lt;class &#39;__main__.A&#39;&gt;, &lt;class &#39;object&#39;&gt;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>d <span style="color:#f92672">=</span> D()
 </span></span><span style="display:flex;"><span>d<span style="color:#f92672">.</span>method() <span style="color:#75715e"># Prints &#39;A&#39;, as it&#39;s resolved correctly in the [MRO](./../mro/) ```</span>

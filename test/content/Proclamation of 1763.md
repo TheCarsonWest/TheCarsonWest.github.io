@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Proclamation of 1763](./../proclamation-of-1763/) 
-## When: October [7](./../7/), 1763
+## When: October 7, 1763
 
 ## Who:
 * **Issued by:** King George III of [Great Britain](./../great-britain/) * **Affected:** American colonists, especially those west of the Appalachian Mountains, and Native American tribes.

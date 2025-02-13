@@ -37,7 +37,7 @@
 * **1964:** The Civil Rights Act of 1964 prohibits discrimination based on race, color, [Religion](./../religion/), sex, or national origin.
 * **1972:** The [Florida](./../florida/) Comprehensive Growth Management Act establishes a framework for regulating growth in the state.
 * **2000:** The [Florida](./../florida/) Supreme Court orders a recount in the 2000 presidential election, but the U.S. Supreme Court halts the recount and declares [George W](./../george-w/). Bush the winner.
-* **2018:** The [Florida](./../florida/) Constitution Amendment [4](./../4/) restores voting rights to felons who have completed their sentences.
+* **2018:** The [Florida](./../florida/) Constitution Amendment 4 restores voting rights to felons who have completed their sentences.
 
 **Important Court Cases:**
 

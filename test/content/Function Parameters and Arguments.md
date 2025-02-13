@@ -42,7 +42,7 @@ def my_function(a, b, *args, **kwargs):
     print(f"args: {args}")
     print(f"kwargs: {kwargs}")
 
-my_function([1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/), [5](./../5/), name="Alice", age=30)
+my_function([[1, 2, 3, 4, 5, name="Alice", age=30)
 ```
 
 [Variable-Length Arguments](./../variable-length-arguments/)
@@ -60,11 +60,11 @@ Python uses pass-by-object-reference.  This means that when you pass a mutable o
 
 ```python
 def modify_list(my_list):
-    my_list.append([4](./../4/))
+    my_list.append(4)
 
-my_list = [[1](./../1/), [2](./../2/), [3](./../3/)]
+my_list = [[1, 2, 3
 modify_list(my_list)
-print(my_list)  # Output: [[1](./../1/), [2](./../2/), [3](./../3/), [4](./../4/)]  (List modified)
+print(my_list)  # Output: [[1, 2, 3, 4  (List modified)
 
 
 def modify_string(my_string):

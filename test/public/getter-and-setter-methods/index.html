@@ -74,7 +74,7 @@
 </span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>get_age())
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
-</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>set_age(<span style="color:#f92672">-</span>[<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>))
+</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>set_age(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
 </span></span><span style="display:flex;"><span>    print(e) <span style="color:#75715e"># Handles invalid age using error message</span>
 </span></span></code></pre></div><p><strong>Alternative using <code>@property</code> decorator (Pythonic way):</strong></p>
@@ -100,7 +100,7 @@
 </span></span><span style="display:flex;"><span>print(person<span style="color:#f92672">.</span>age)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
-</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>age <span style="color:#f92672">=</span> <span style="color:#f92672">-</span>[<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>)
+</span></span><span style="display:flex;"><span>    person<span style="color:#f92672">.</span>age <span style="color:#f92672">=</span> <span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">ValueError</span> <span style="color:#66d9ef">as</span> e:
 </span></span><span style="display:flex;"><span>    print(e)
 </span></span></code></pre></div><p><a href="./../property-decorator-in-python/">Property Decorator in Python</a>  <a href="./../encapsulation-in-oop/">Encapsulation in OOP</a> <a href="./../error-handling-in-python/">Error Handling in Python</a></p>

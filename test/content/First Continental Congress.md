@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [First Continental Congress](./../first-continental-congress/) 
-## When: September [5](./../5/) – October 26, 1774
+## When: September 5 – October 26, 1774
 
 ## Who:
 * Delegates from twelve of the thirteen colonies ([Georgia](./../georgia/) did not attend).  Represented a broad spectrum of colonial society, including merchants, lawyers, planters, and some artisans.  Key figures included Patrick Henry, [Samuel Adams](./../samuel-adams/), [John Adams](./../john-adams/), George [Washington](./../washington/), and Joseph Galloway.

@@ -70,9 +70,9 @@
 </span></span><span style="display:flex;"><span>        mm <span style="color:#f92672">=</span> mmap<span style="color:#f92672">.</span>mmap(f<span style="color:#f92672">.</span>fileno(), <span style="color:#ae81ff">0</span>) <span style="color:#75715e"># Map the entire file</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Access and modify the file&#39;s contents directly through mm</span>
-</span></span><span style="display:flex;"><span>        print(mm[:<span style="color:#ae81ff">10</span>]) <span style="color:#75715e"># Read the first 10 bytes</span>
+</span></span><span style="display:flex;"><span>        print(mm[:<span style="color:#ae81ff">10</span>]]) <span style="color:#75715e"># Read the first 10 bytes</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        mm[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">10</span>] <span style="color:#f92672">=</span> <span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;Hello, world!&#34;</span> <span style="color:#75715e"># Write to the first 10 bytes</span>
+</span></span><span style="display:flex;"><span>        mm[<span style="color:#ae81ff">0</span>:<span style="color:#ae81ff">10</span>]] <span style="color:#f92672">=</span> <span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;Hello, world!&#34;</span> <span style="color:#75715e"># Write to the first 10 bytes</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        mm<span style="color:#f92672">.</span>close()  <span style="color:#75715e"># Close the mapped file</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">OSError</span> <span style="color:#66d9ef">as</span> e:

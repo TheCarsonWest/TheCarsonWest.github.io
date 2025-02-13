@@ -5,7 +5,7 @@
 +++
 ## ID: [Clayton Antitrust Act](./../clayton-antitrust-act/)
 
-## When: June [5](./../5/), 1914
+## When: June 5, 1914
 
 ## Who:  President [Woodrow Wilson](./../woodrow-wilson/) and the 63rd Congress
 

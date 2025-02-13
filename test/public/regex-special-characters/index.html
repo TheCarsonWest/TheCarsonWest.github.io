@@ -68,7 +68,7 @@
 <p><strong><code>?</code> (Question Mark):</strong> Matches zero or one occurrence of the preceding character or group.</p>
 </li>
 <li>
-<p><strong><code>[]</code> (Square Brackets):</strong> Defines a character set.  e.g., <code>[abc]</code> matches &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  Ranges are possible: <code>[a-z]</code> matches any lowercase letter.  <code>[^abc]</code> negates the set (matches anything except a, b, or c).</p>
+<p><strong><code>1</code> (Square Brackets):</strong> Defines a character set.  e.g., <code>[abc]]</code> matches &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  Ranges are possible: <code>[a-z]]</code> matches any lowercase letter.  <code>[^abc]]</code> negates the set (matches anything except a, b, or c).</p>
 </li>
 <li>
 <p><strong><code>()</code> (Parentheses):</strong> Creates a capturing group.  Used for extracting specific parts of a matched string.  Also useful for grouping parts of the regex for applying quantifiers.</p>
@@ -108,23 +108,23 @@
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;fox&#34;</span>  <span style="color:#75715e"># Matches the literal string &#34;fox&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern, text)
-</span></span><span style="display:flex;"><span>print(matches)  <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches)  <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;.ox&#34;</span> <span style="color:#75715e"># Matches any character followed by &#34;ox&#34;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern, text)
-</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;f.x&#34;</span> <span style="color:#75715e"># Matches &#39;f&#39; followed by any character followed by &#39;x&#39;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern, text)
-</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;The.*fox&#34;</span> <span style="color:#75715e"># Matches &#39;The&#39; followed by any characters (except newline) followed by &#39;fox&#39;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern, text)
-</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;The quick brown fox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;The quick brown fox&#39;]]</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\bf\w+\b&#34;</span> <span style="color:#75715e">#Matches whole words starting with &#39;f&#39;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern,text)
-</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]</span>
+</span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]]</span>
 </span></span></code></pre></div><p><a href="./../regex-escape-sequences/">Regex Escape Sequences</a>  Details on <code>\d</code>, <code>\w</code>, <code>\s</code>, etc.</p>
 <p><a href="./../python-re-module/">Python re Module</a>  Functions like <code>re.findall</code>, <code>re.search</code>, <code>re.match</code>, <code>re.sub</code>, etc.</p>
 

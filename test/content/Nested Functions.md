@@ -11,7 +11,7 @@ Nested functions are functions defined inside other functions.  They have access
 ```python
 def outer_function(x):
   """This is the outer function."""
-  y = [5](./../5/)  # Variable in outer function's scope
+  y = 5  # Variable in outer function's scope
 
   def inner_function(z):
     """This is the nested function."""
@@ -20,8 +20,8 @@ def outer_function(x):
   return inner_function
 
 # Example usage:
-my_function = outer_function([2](./../2/))  #Creates a closure
-result = my_function([3](./../3/))  #inner_function accesses x and y from the outer function even after outer_function has completed
+my_function = outer_function(2)  #Creates a closure
+result = my_function(3)  #inner_function accesses x and y from the outer function even after outer_function has completed
 print(result)  # Output: 10
 
 ```

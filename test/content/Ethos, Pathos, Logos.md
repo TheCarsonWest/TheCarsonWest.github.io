@@ -41,7 +41,7 @@ These three appeals are not mutually exclusive; they often work together to crea
 
 **Example Scenarios:**
 
-* [Ethos, Pathos, Logos](./../ethos-pathos-logos/) Scenario [1](./../1/)  (Example of a persuasive speech emphasizing different appeals)
-* [Ethos, Pathos, Logos](./../ethos-pathos-logos/) Scenario [2](./../2/) (Another example scenario)
+* [Ethos, Pathos, Logos](./../ethos-pathos-logos/) Scenario [[1  (Example of a persuasive speech emphasizing different appeals)
+* [Ethos, Pathos, Logos](./../ethos-pathos-logos/) Scenario 2 (Another example scenario)
 
 

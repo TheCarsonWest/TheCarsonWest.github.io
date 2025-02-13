@@ -38,9 +38,9 @@ Since we know the equilibrium concentration of  $ NH_3 $  is 0.6 M, we can solve
 
 Therefore, the equilibrium concentrations are:
 
- $ [N_2] = 1.0 - 0.3 = 0.7 M $ 
- $ [H_2] = 1.5 - 3(0.3) = 0.6 M $ 
- $ [NH_3] = 0.6 M $ 
+ $ [N_2 = 1.0 - 0.3 = 0.7 M $ 
+ $ [H_2 = 1.5 - 3(0.3) = 0.6 M $ 
+ $ [NH_3 = 0.6 M $ 
 
 
 **Important Considerations:**
@@ -48,10 +48,10 @@ Therefore, the equilibrium concentrations are:
 *   The stoichiometric coefficients are crucial in determining the changes in concentration.
 *   The change in concentration is always negative for reactants and positive for products.
 *   The equilibrium constant ( $ K $ ) expression can be used to solve for unknown values in the ICE table. [Equilibrium Constants](./../equilibrium-constants/)
-*   For problems involving small  $ K $  values, we can often use approximations to simplify the calculations. [Approximations in Equilibrium Calculations](./../approximations-in-equilibrium-calculations/)]]
+*   For problems involving small  $ K $  values, we can often use approximations to simplify the calculations. [Approximations in Equilibrium Calculations](./../approximations-in-equilibrium-calculations/)
 
 
-[Equilibrium Calculations](./../equilibrium-calculations/)]]
+[Equilibrium Calculations](./../equilibrium-calculations/)
 [Le Chateliers Principle](./../le-chateliers-principle/)
 
 

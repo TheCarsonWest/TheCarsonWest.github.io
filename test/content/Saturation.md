@@ -42,7 +42,7 @@ For a general ionic compound  $ A_mB_n $ , the dissolution reaction is:
 
 The  $ K_{sp} $  expression is:
 
- $ K_{sp} = [A^+]^m[B^-]^n $ 
+ $ K_{sp} = [A^+]]^m[B^-]]^n $ 
 
 The  $ K_{sp} $  value is a constant at a given temperature and indicates the relative solubility of the ionic compound. A larger  $ K_{sp} $  value indicates higher solubility.  [Equilibrium and Ksp Calculations](./../equilibrium-and-ksp-calculations/)
 

@@ -75,10 +75,10 @@
 </span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>radius <span style="color:#f92672">=</span> radius
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">area</span>(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)<span style="color:#ae81ff">.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">3.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">perimeter</span>(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> [<span style="color:#ae81ff">2</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">2</span><span style="color:#f92672">/</span>) <span style="color:#f92672">*</span> [<span style="color:#ae81ff">3</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">3</span><span style="color:#f92672">/</span>)<span style="color:#ae81ff">.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">3.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Square</span>(Shape):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, side):
@@ -88,14 +88,14 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>side <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>side
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">perimeter</span>(self):
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> [<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>) <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>side
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>side
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#Trying to instantiate Shape will raise an error</span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#my_shape = Shape() #TypeError: Can&#39;t instantiate abstract class Shape with abstract methods area, perimeter</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>my_circle <span style="color:#f92672">=</span> Circle([<span style="color:#ae81ff">5</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">5</span><span style="color:#f92672">/</span>))
+</span></span><span style="display:flex;"><span>my_circle <span style="color:#f92672">=</span> Circle(<span style="color:#ae81ff">5</span>)
 </span></span><span style="display:flex;"><span>print(my_circle<span style="color:#f92672">.</span>area())
-</span></span><span style="display:flex;"><span>my_square <span style="color:#f92672">=</span> Square([<span style="color:#ae81ff">4</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">4</span><span style="color:#f92672">/</span>))
+</span></span><span style="display:flex;"><span>my_square <span style="color:#f92672">=</span> Square(<span style="color:#ae81ff">4</span>)
 </span></span><span style="display:flex;"><span>print(my_square<span style="color:#f92672">.</span>perimeter())
 </span></span></code></pre></div><p><a href="./../abc-module/">ABC Module</a>  (<a href="./../method-overriding/">Method Overriding</a>) <a href="./../polymorphism/">Polymorphism</a></p>
 

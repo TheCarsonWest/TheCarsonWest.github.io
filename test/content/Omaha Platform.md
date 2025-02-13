@@ -5,7 +5,7 @@
 +++
 ## ID: [Omaha Platform](./../omaha-platform/)
 
-## When: July [4](./../4/), 1892
+## When: July 4, 1892
 
 ## Who:
 * **[Populist Party](./../populist-party/):**  The platform was drafted and adopted by the People's Party ([Populists](./../populists/)) at their national convention in Omaha, [Nebraska](./../nebraska/).  Key figures included Ignatius Donnelly, Mary Elizabeth Lease, and James B. Weaver.

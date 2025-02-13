@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: [Election of 1800](./../election-of-1800/) 
-## When: December [3](./../3/), 1800
+## When: December 3, 1800
 
 ## Who: 
 - **Candidates:** 

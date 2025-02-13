@@ -10,13 +10,13 @@ This section covers various calculations related to chemical equilibrium.  Key c
 
 **1. [Equilibrium](./../equilibrium/) Constant ( $ K $ )**
 
-*    $ K_c $ : [Equilibrium](./../equilibrium/) constant expressed in terms of molar concentrations.  For the generic reaction:  $ aA + bB \rightleftharpoons cC + dD $ ,   $ K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b} $ 
+*    $ K_c $ : [Equilibrium](./../equilibrium/) constant expressed in terms of molar concentrations.  For the generic reaction:  $ aA + bB \rightleftharpoons cC + dD $ ,   $ K_c = \frac{[C]]^c[D]]^d}{[A]]^a[B]]^b} $ 
 *    $ K_p $ : [Equilibrium](./../equilibrium/) constant expressed in terms of partial pressures.  Used for gaseous reactions.   $ K_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b} $ 
 *   Relationship between  $ K_p $  and  $ K_c $ :  $ K_p = K_c(RT)^{\Delta n} $ , where  $ \Delta n $  is the change in the number of moles of gas (moles of gaseous products - moles of gaseous reactants), R is the ideal gas constant, and T is the temperature in Kelvin.
 
 **2. [ICE Tables](./../ice-tables/)**
 
-ICE tables (Initial, Change, [Equilibrium) are used to organize information and solve equilibrium problems.  They are essential for calculating equilibrium concentrations. ICE Table Examples](./../equilibrium)-are-used-to-organize-information-and-solve-equilibrium-problems.--they-are-essential-for-calculating-equilibrium-concentrations.-ice-table-examples/)]]
+ICE tables (Initial, Change, [Equilibrium](./../equilibrium/)) are used to organize information and solve equilibrium problems.  They are essential for calculating equilibrium concentrations. ICE Table Examples
 
 **3. Calculating [Equilibrium](./../equilibrium/) Concentrations**
 

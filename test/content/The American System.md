@@ -14,9 +14,9 @@
 ## WHAT: 
 A set of interconnected economic proposals aimed at promoting national economic growth and self-sufficiency. Key components included:
 
-[1](./../1/). **Protective Tariffs:**  Taxes on imported goods to protect American industries from foreign competition. (Ex: Tariff of 1816)
-[2](./../2/). **National Bank:** A strong central bank to stabilize the national currency and regulate credit. (Second Bank of the [United States](./../united-states/) chartered in 1816) 
-[3](./../3/). **Internal Improvements:**  Federally funded infrastructure projects like roads, canals, and railroads to improve transportation and connect markets.
+[[1. **Protective Tariffs:**  Taxes on imported goods to protect American industries from foreign competition. (Ex: Tariff of 1816)
+2. **National Bank:** A strong central bank to stabilize the national currency and regulate credit. (Second Bank of the [United States](./../united-states/) chartered in 1816) 
+3. **Internal Improvements:**  Federally funded infrastructure projects like roads, canals, and railroads to improve transportation and connect markets.
 
 ## IMPACT: Why Significant?: 
 

@@ -15,7 +15,7 @@
 **Common Source Types & Formats:**
 
 * **Journal Article:**  Author, A. A. (Year). Title of article. *Title of Periodical*, *volume*(issue), pages. https://doi.org/xx.xxx/yyyy  
-    *Example:*  Smith, [J](./../j/). (2024). The impact of social media. *Journal of Psychology*, *12*([3](./../3/)), 15-28. https://doi.org/10.1234/example
+    *Example:*  Smith, [J](./../j/). (2024). The impact of social media. *Journal of Psychology*, *12*(3), 15-28. https://doi.org/10.1234/example
 
 * **Book:** Author, A. A. (Year). *Title of work*. Publisher.
     *Example:*  Jones, B. (2023). *Introduction to Sociology*. Pearson.
@@ -38,11 +38,11 @@
 
 The following is an example of calculating the mean:
 
- $ Mean = \frac{\sum_{i=[1](./../1/)}^{n} x_i}{n} $ 
+ $ Mean = \frac{\sum_{i=[[1}^{n} x_i}{n} $ 
 
 The variance can be calculated using the following equation:
 
-##  $$ Variance = \frac{\sum_{i=[1](./../1/)}^{n}(x_i - \bar{x})^[2](./../2/)}{n-[1](./../1/)} $$  
+##  $$ Variance = \frac{\sum_{i=[[1}^{n}(x_i - \bar{x})^2}{n-[[1} $$  
 [Formatting APA References](./../formatting-apa-references/)  ([Specific APA Styles](./../specific-apa-styles/), [Common APA Errors](./../common-apa-errors/))
 
 

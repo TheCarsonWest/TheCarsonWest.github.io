@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Boston Massacre](./../boston-massacre/) 
-## When: March [5](./../5/), 1770
+## When: March 5, 1770
 
 ## Who:
 * **British Soldiers:**  Part of the 29th Regiment of Foot, under the command of Captain Thomas Preston.

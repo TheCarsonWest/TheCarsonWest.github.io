@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 # ID: [Emancipation Proclamation](./../emancipation-proclamation/) 
-## When: January [1](./../1/), 1863
+## When: January [[1, 1863
 
 ## Who: President [Abraham Lincoln](./../abraham-lincoln/) 
 ## What: 

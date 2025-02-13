@@ -25,13 +25,13 @@
 
 **Relationship to [Enthalpy](./../enthalpy/):**
 
-[Enthalpy ( $ H $ ) is a state function representing the heat content of a system at constant pressure.  The change in enthalpy ( $ \Delta H $ ) is the difference between the enthalpy of the products and the enthalpy of the reactants:   $ \Delta H = H_{products} - H_{reactants} $ .  Enthalpy](./../enthalpy-(-$-h-$-)-is-a-state-function-representing-the-heat-content-of-a-system-at-constant-pressure.--the-change-in-enthalpy-(-$-\delta-h-$-)-is-the-difference-between-the-enthalpy-of-the-products-and-the-enthalpy-of-the-reactants:---$-\delta-h-=-h_{products}---h_{reactants}-$-.--enthalpy/)]]
+[Enthalpy ( $ H $ ) is a state function representing the heat content of a system at constant pressure.  The change in enthalpy ( $ \Delta H $ ) is the difference between the enthalpy of the products and the enthalpy of the reactants:   $ \Delta H = H_{products} - H_{reactants} $ .  Enthalpy](./../enthalpy-(-$-h-$-)-is-a-state-function-representing-the-heat-content-of-a-system-at-constant-pressure.--the-change-in-enthalpy-(-$-\delta-h-$-)-is-the-difference-between-the-enthalpy-of-the-products-and-the-enthalpy-of-the-reactants:---$-\delta-h-=-h_{products}---h_{reactants}-$-.--enthalpy/)
 
-**Relationship to [Entropy:** Entropy](./../entropy:**-entropy/)]]
+**Relationship to [Entropy:** Entropy](./../entropy:**-entropy/)
 
 **Factors Affecting Reaction Rate:**  [Reaction Kinetics](./../reaction-kinetics/)  These factors (temperature, concentration, surface area, catalysts) affect *how quickly* a reaction reaches equilibrium, but do not change whether the reaction is endothermic or exothermic.
 
-**[Calorimetry:**  Calorimetry](./../calorimetry:**--calorimetry/)]]  This is a technique used to measure the heat changes in reactions, allowing us to determine whether a reaction is endothermic or exothermic and to quantify the amount of heat transferred.
+**[Calorimetry:**  Calorimetry](./../calorimetry:**--calorimetry/)  This is a technique used to measure the heat changes in reactions, allowing us to determine whether a reaction is endothermic or exothermic and to quantify the amount of heat transferred.
 
 
 **Spontaneity:**  [Gibbs Free Energy](./../gibbs-free-energy/)  Whether a reaction will occur spontaneously depends not only on enthalpy but also on entropy and temperature, as described by the Gibbs Free Energy equation.

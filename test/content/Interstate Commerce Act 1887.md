@@ -5,7 +5,7 @@
 +++
 ## ID: Interstate Commerce Act
 
-## When: February [4](./../4/), 1887
+## When: February 4, 1887
 
 ## Who:
 * **Congress:** Passed the act.

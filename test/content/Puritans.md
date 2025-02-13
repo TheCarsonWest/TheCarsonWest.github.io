@@ -22,4 +22,4 @@ A group of English Protestants who sought to "purify" the Church of England from
 * **Education:**  Established [Harvard](./../harvard/) College (1636) to train ministers, demonstrating a commitment to education and literacy.
 
 
-# [IDS Unit 1](./../ids-unit-1/)
+# [[IDS Unit 1

@@ -13,9 +13,9 @@
     * Event: A subset of the sample space.
     * Probability of an event A:  $ P(A) = \frac{\text{number of favorable outcomes}}{\text{total number of outcomes}} $   (for equally likely outcomes).
     * Axioms of probability:
-        *  $ 0 \le P(A) \le [1](./../1/) $  for any event A.
-        *  $ P(\Omega) = [1](./../1/) $ 
-        * If  $ A_1, A_2, ... $  are mutually exclusive events, then  $ P(\bigcup_{i=[1](./../1/)}^{\infty} A_i) = \sum_{i=[1](./../1/)}^{\infty} P(A_i) $ .
+        *  $ 0 \le P(A) \le [[1 $  for any event A.
+        *  $ P(\Omega) = [[1 $ 
+        * If  $ A_1, A_2, ... $  are mutually exclusive events, then  $ P(\bigcup_{i=[[1}^{\infty} A_i) = \sum_{i=[[1}^{\infty} P(A_i) $ .
     * Conditional probability:  $ P(A|B) = \frac{P(A \cap B)}{P(B)} $  if  $ P(B) > 0 $ .
     * Bayes' Theorem:  $ P(A|B) = \frac{P(B|A)P(A)}{P(B)} $ 
     * Independence: Two events A and B are independent if  $ P(A \cap B) = P(A)P(B) $ .
@@ -23,16 +23,16 @@
 
 * **Discrete Random Variables:**
     * Probability Mass Function (PMF):  $ P(X=x) = p(x) $ 
-    * Expected Value:  $ E[X] = \sum_x x p(x) $ 
-    * Variance:  $ Var(X) = E[(X - E[X])^[2](./../2/)] = E[X^[2](./../2/)] - (E[X])^[2](./../2/) $ 
+    * Expected Value:  $ E[X]] = \sum_x x p(x) $ 
+    * Variance:  $ Var(X) = E[(X - E[X]])^2 = E[X^2 - (E[X]])^2 $ 
     * [Discrete Probability Distributions](./../discrete-probability-distributions/)  (Binomial, Poisson, Geometric, etc.)
 
 
 * **Continuous Random Variables:**
     * Probability Density Function (PDF):  $ f(x) $  such that  $ P(a \le X \le b) = \int_a^b f(x) dx $ .
     * Cumulative Distribution Function (CDF):  $ F(x) = P(X \le x) = \int_{-\infty}^x f(t) dt $ 
-    * Expected Value:  $ E[X] = \int_{-\infty}^{\infty} x f(x) dx $ 
-    * Variance:  $ Var(X) = E[(X - E[X])^[2](./../2/)] = \int_{-\infty}^{\infty} (x - E[X])^[2](./../2/) f(x) dx $ 
+    * Expected Value:  $ E[X]] = \int_{-\infty}^{\infty} x f(x) dx $ 
+    * Variance:  $ Var(X) = E[(X - E[X]])^2 = \int_{-\infty}^{\infty} (x - E[X]])^2 f(x) dx $ 
     * [Continuous Probability Distributions](./../continuous-probability-distributions/) (Normal, Exponential, Uniform, etc.)
 
 

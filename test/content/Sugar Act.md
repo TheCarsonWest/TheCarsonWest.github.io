@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 ## ID: [Sugar Act](./../sugar-act/) 
-## When: April [5](./../5/), 1764
+## When: April 5, 1764
 
 ## Who:
 * **British Parliament:**  Passed the act.

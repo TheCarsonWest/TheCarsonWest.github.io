@@ -21,11 +21,11 @@ greet("Bob", "Good morning")  # Output: Good morning, Bob!
 
 ```python
 # Correct
-def func(a, b=[2](./../2/)):
+def func(a, b=2):
     pass
 
 # Incorrect - will raise a SyntaxError
-def func(a=[1](./../1/), b):
+def func(a=[[1, b):
     pass
 ```
 
@@ -36,7 +36,7 @@ def func(a=[1](./../1/), b):
 ```python
 def process_data(data=None):
   if data is None:
-      data = [] #Create a new list if none is provided
+      data = 1 #Create a new list if none is provided
   # ... process data ...
 ```
 

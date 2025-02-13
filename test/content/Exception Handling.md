@@ -48,7 +48,7 @@ You can raise exceptions using the `raise` keyword:
 def my_function(x):
     if x < 0:
         raise ValueError("Input must be non-negative")
-    return x * [2](./../2/)
+    return x * 2
 ```
 
 **Exception Chaining:**
