@@ -13,7 +13,7 @@ Make a calculus AB rundown on [Continuity](./../continuity/) in markdown format(
 ### Definition of [Continuity](./../continuity/) 
 A function  $ f(x) $  is **continuous at a point**  $ x = a $  if the following three conditions are met:
 
-[[1. ** $ f(a) $  is defined:** The function must have a value at  $ x = a $ .
+1. ** $ f(a) $  is defined:** The function must have a value at  $ x = a $ .
 
 2. ** $ \lim_{x \to a} f(x) $  exists:** The limit of the function as  $ x $  approaches  $ a $  must exist.
 
@@ -25,7 +25,7 @@ A function is **continuous on an interval** if it is continuous at every point i
 
 If a function fails to meet one or more of the conditions for continuity at a point, it has a **discontinuity** at that point. There are three main types of discontinuities:
 
-[[1. **Removable discontinuity:** This occurs when the limit of the function exists as  $ x $  approaches the point of discontinuity, but the function is not defined at that point, or the value of the function at that point is different from the limit.
+1. **Removable discontinuity:** This occurs when the limit of the function exists as  $ x $  approaches the point of discontinuity, but the function is not defined at that point, or the value of the function at that point is different from the limit.
 
 2. **Jump discontinuity:** This occurs when the limit of the function as  $ x $  approaches the point of discontinuity from the left is different from the limit as  $ x $  approaches from the right.
 
@@ -34,7 +34,7 @@ If a function fails to meet one or more of the conditions for continuity at a po
 
 Continuous functions have several important properties:
 
-[1. **[[Intermediate Value Theorem](./../1.-**[[intermediate-value-theorem/):** If  $ f(x) $  is continuous on the closed interval  $ [a, b]] $ , and  $ k $  is any number between  $ f(a) $  and  $ f(b) $ , then there exists at least one number  $ c $  in the interval  $ [a, b]] $  such that  $ f(c) = k $ .
+1. **[Intermediate Value Theorem](./../intermediate-value-theorem/):** If  $ f(x) $  is continuous on the closed interval  $ [a, b]] $ , and  $ k $  is any number between  $ f(a) $  and  $ f(b) $ , then there exists at least one number  $ c $  in the interval  $ [a, b]] $  such that  $ f(c) = k $ .
 
 2. **[Extreme Value Theorem](./../extreme-value-theorem/):** If  $ f(x) $  is continuous on the closed interval  $ [a, b]] $ , then  $ f(x) $  has both an absolute maximum and an absolute minimum on that interval.
 

@@ -23,7 +23,7 @@
 
 **Strategies for [Avoiding Plagiarism](./../avoiding-plagiarism/):**
 
-[1. **Proper Note-Taking:** [[Note-Taking Strategies](./../1.-**proper-note-taking:**-[[note-taking-strategies/)  Keep track of your sources meticulously.  Use a consistent method (e.g., notecards, a dedicated notebook, a citation manager like Zotero or Mendeley).  Clearly distinguish between your ideas and those you've gathered from other sources.
+1. **Proper Note-Taking:** [Note-Taking Strategies](./../note-taking-strategies/)  Keep track of your sources meticulously.  Use a consistent method (e.g., notecards, a dedicated notebook, a citation manager like Zotero or Mendeley).  Clearly distinguish between your ideas and those you've gathered from other sources.
 
 2. **Paraphrasing and Summarizing:**  Don't just change a few words;  restate the information in your own words, focusing on understanding the core concepts.  Then cite the original source.
 

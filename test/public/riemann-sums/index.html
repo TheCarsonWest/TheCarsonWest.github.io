@@ -48,8 +48,10 @@
 <p>Riemann sums are used to approximate the definite integral of a function, which represents the area under the curve.  They provide a foundational understanding of integration before moving on to more sophisticated techniques.</p>
 <h2 id="types-of-riemann-sumsriemann-sums">Types of <a href="./../riemann-sums/">Riemann Sums</a></h2>
 <p>There are three main types of Riemann sums, each differing in how the rectangle heights are determined:</p>
-<p>[[1. Left Riemann Sum: The height of each rectangle is determined by the function&rsquo;s value at the left endpoint of the subinterval.</p>
-<ol start="2">
+<ol>
+<li>
+<p>Left Riemann Sum: The height of each rectangle is determined by the function&rsquo;s value at the left endpoint of the subinterval.</p>
+</li>
 <li>
 <p>Right Riemann Sum: The height of each rectangle is determined by the function&rsquo;s value at the right endpoint of the subinterval.</p>
 </li>
@@ -68,9 +70,9 @@
 <h3 id="-x_i--x_i--a--idelta-x----midpoint-riemann-sum">$$ x_i^* = x_i = a + i\Delta x $$  * Midpoint Riemann Sum:</h3>
 <h3 id="-x_i--fracx_i-1--x_i2--a--i---frac12delta-x----example-approximate-the-area-under-the-curve---fx--x2---from---x0---to---x2---using-a-right-riemann-sum-with---n4---subintervals">$$ x_i^* = \frac{x_{i-[[1} + x_i}{2} = a + (i - \frac{[[1}{2})\Delta x $$  ### Example: Approximate the area under the curve  $ f(x) = x^2 $  from  $ x=0 $  to  $ x=2 $  using a right Riemann sum with  $ n=4 $  subintervals.</h3>
 <p>$ \Delta x = \frac{2-0}{4} = 0.5 $</p>
-<p>The subintervals are  $ [0, 0.5 $ ,  $ [0.5, 1 $ ,  $ [[1, [[1.5 $ ,  $ [[1.5, 2 $ .</p>
+<p>The subintervals are  $ [0, 0.5 $ ,  $ [0.5, 1 $ ,  $ [[1, 1.5 $ ,  $ 1.5, 2 $ .</p>
 <p>The right Riemann sum is:
-$ R_4 = f(0.5)(0.5) + f([[1)(0.5) + f([[1.5)(0.5) + f(2)(0.5) = 0.5(0.5^2 + [[1^2 + [[1.5^2 + 2^2) = 0.5(0.25 + [[1 + 2.25 + 4) = 3.75 $</p>
+$ R_4 = f(0.5)(0.5) + f([[1)(0.5) + f(1.5)(0.5) + f(2)(0.5) = 0.5(0.5^2 + [[1^2 + 1.5^2 + 2^2) = 0.5(0.25 + [[1 + 2.25 + 4) = 3.75 $</p>
 <pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2
 y = 0
 x = 0

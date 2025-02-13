@@ -22,7 +22,7 @@ print(my_function([[1, 2, 3)) # Output: 6
 
 To achieve similar functionality to function overloading in Python, you can use:
 
-[1. **[[Default Arguments](./../1.-**[[default-arguments/):**  Provide default values for parameters. This allows a single function to handle different numbers of arguments.
+1. **[Default Arguments](./../default-arguments/):**  Provide default values for parameters. This allows a single function to handle different numbers of arguments.
 
 ```python
 def my_function(x, y=0, z=0):

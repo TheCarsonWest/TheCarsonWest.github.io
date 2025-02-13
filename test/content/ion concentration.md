@@ -11,7 +11,7 @@
 
 ### Steps to Calculate Ion Concentration
 
-[[1. **Determine the moles of solute present in the solution.** This can be done by using the formula:
+1. **Determine the moles of solute present in the solution.** This can be done by using the formula:
  $$  \text{Moles Of Solute} = \frac{\text{mass of solute (g)} }{\text{molar mass of solute (g/mol)}}
  $$  2. **Convert the moles of solute to moles of ions.** This is done by multiplying the moles of solute by the number of ions produced by each molecule of solute. For example, if the solute is NaCl, then each molecule of NaCl produces one Na+ ion and one Cl- ion. Therefore, the moles of ions would be twice the moles of solute.
 3. **Calculate the volume of the solution in liters.**

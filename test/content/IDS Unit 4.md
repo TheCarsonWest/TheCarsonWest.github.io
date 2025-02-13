@@ -6,7 +6,7 @@
 # [ID Home](./../id-home/)
 
 ## Industrialization
-[1. [[Samuel Slater](./../1.-[[samuel-slater/) 
+1. [Samuel Slater](./../samuel-slater/) 
 2. [Market Revolution](./../market-revolution/)
 3. [Industrial Revolution](./../industrial-revolution/)
 4. [Lowell Textile Mill](./../lowell-textile-mill/)

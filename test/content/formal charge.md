@@ -28,7 +28,7 @@ Formal Charge = (Number of Valence Electrons in Free Atom) - (Number of Bonds + 
 * **Valence Electrons:** Oxygen (Group 6A) has 6 valence electrons.
 * **Bonds and Dots:** Oxygen has [[1 bond and 6 dots (3 lone pairs).
 * **Calculation:** 6 - ([[1 + 6) = -[[1
-* **Formal Charge:** Oxygen has a [formal charge](./../formal-charge/) of -[[1.
+* **Formal Charge:** Oxygen has a [formal charge](./../formal-charge/) of -1.
 
 **Example 2: Carbocation**
 
@@ -44,7 +44,7 @@ Formal Charge = (Number of Valence Electrons in Free Atom) - (Number of Bonds + 
 * **Valence Electrons:** Bromine (Group 7A) has 7 valence electrons.
 * **Bonds and Dots:** Bromine has 2 bonds and 4 dots (2 lone pairs).
 * **Calculation:** 7 - (2 + 4) = +[[1
-* **Formal Charge:** Bromine has a [formal charge](./../formal-charge/) of +[[1.
+* **Formal Charge:** Bromine has a [formal charge](./../formal-charge/) of +1.
 
 **Example 4: Nitrogen with Four Methyl Groups**
 
@@ -53,7 +53,7 @@ Formal Charge = (Number of Valence Electrons in Free Atom) - (Number of Bonds + 
 * **Valence Electrons:** Nitrogen (Group 5A) has 5 valence electrons.
 * **Bonds and Dots:** Nitrogen has 4 bonds and 0 dots.
 * **Calculation:** 5 - (4 + 0) = +[[1
-* **Formal Charge:** Nitrogen has a [formal charge](./../formal-charge/) of +[[1.
+* **Formal Charge:** Nitrogen has a [formal charge](./../formal-charge/) of +1.
 
 **Example 5: Carbon in a Double Bond with a Lone Pair**
 
@@ -62,4 +62,4 @@ Formal Charge = (Number of Valence Electrons in Free Atom) - (Number of Bonds + 
 * **Valence Electrons:** Carbon (Group 4A) has 4 valence electrons.
 * **Bonds and Dots:** The second carbon has 3 bonds ([[1 single + [[1 double) and 2 dots ([[1 lone pair).
 * **Calculation:** 4 - (3 + 2) = -[[1
-* **Formal Charge:** The second carbon has a [formal charge](./../formal-charge/) of -[[1. 
+* **Formal Charge:** The second carbon has a [formal charge](./../formal-charge/) of -1. 

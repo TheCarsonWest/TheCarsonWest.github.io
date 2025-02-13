@@ -47,8 +47,10 @@
 <p>Rolle&rsquo;s Theorem is a foundational result in calculus that provides a condition under which a function is guaranteed to have a horizontal tangent line.  It serves as a stepping stone to understanding the more general <a href="./../mean-value-theorem/">Mean Value Theorem</a>.</p>
 <h2 id="statement-of-rolles-theorem">Statement of Rolle&rsquo;s Theorem</h2>
 <p>Let  $ f $  be a function that satisfies the following three hypotheses:</p>
-<p>[1. ** $ f $  is continuous on the closed interval  $ <a href="./../1.-**-$-f-$--is-continuous-on-the-closed-interval--$-%5Ba-b/">a, b</a> $ **:  This means the function has no breaks or jumps within the interval.  <a href="./../continuity/">Continuity</a></p>
-<ol start="2">
+<ol>
+<li>
+<p>** $ f $  is continuous on the closed interval  $ [a, b]] $ **:  This means the function has no breaks or jumps within the interval.  <a href="./../continuity/">Continuity</a></p>
+</li>
 <li>
 <p>** $ f $  is differentiable on the open interval  $ (a, b) $ **: This means the function is smooth and has a <a href="./../derivative/">derivative</a> at every point within the interval.  <a href="./../differentiability/">Differentiability</a></p>
 </li>
@@ -61,7 +63,7 @@
 <p>Imagine the graph of a function. Rolle&rsquo;s Theorem states that if the function is continuous and differentiable on an interval, and the function values at the endpoints of the interval are the same, then there must be at least one point within the interval where the tangent line is horizontal (i.e., the slope is zero).</p>
 <pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^3 - 4x
 y = 0
-</code></pre><p>In the graph above, the function  $ y = x^3 - 4x $  satisfies Rolle&rsquo;s Theorem on the interval  $ [-2, 2 $  because  $ f(-2) = f(2) = 0 $ .  Notice there are horizontal tangents at approximately  $ x \approx -[[1.15 $  and  $ x \approx [[1.15 $ .</p>
+</code></pre><p>In the graph above, the function  $ y = x^3 - 4x $  satisfies Rolle&rsquo;s Theorem on the interval  $ [-2, 2 $  because  $ f(-2) = f(2) = 0 $ .  Notice there are horizontal tangents at approximately  $ x \approx -1.15 $  and  $ x \approx 1.15 $ .</p>
 <h2 id="proof-sketch">Proof (Sketch)</h2>
 <p>The proof relies on the <a href="./../extreme-value-theorem/">Extreme Value Theorem</a>. Since  $ f $  is continuous on the closed interval  $ [a, b]] $ , it must attain both a maximum and a minimum value on that interval.</p>
 <ul>
@@ -74,8 +76,10 @@ y = 0
 </ul>
 <h2 id="example">Example</h2>
 <p>Let  $ f(x) = x^2 - 4x + 3 $  on the interval  $ [[1, 3 $ .</p>
-<p>[[1.  $ f(x) $  is a polynomial, so it&rsquo;s continuous and differentiable everywhere.
-2.  $ f([[1) = 0 $  and  $ f(3) = 0 $ .</p>
+<ol>
+<li>$ f(x) $  is a polynomial, so it&rsquo;s continuous and differentiable everywhere.</li>
+<li>$ f([[1) = 0 $  and  $ f(3) = 0 $ .</li>
+</ol>
 <p>Therefore, Rolle&rsquo;s Theorem guarantees the existence of at least one  $ c $  in  $ ([[1, 3) $  such that  $ f&rsquo;(c) = 0 $ .  We can find this by calculating the <a href="./../derivative/">derivative</a>:  $ f&rsquo;(x) = 2x - 4 $ . Setting  $ f&rsquo;(c) = 0 $ , we get  $ 2c - 4 = 0 $ , which gives  $ c = 2 $ .  Note that  $ 2 $  is in the interval  $ ([[1, 3) $ .</p>
 <h2 id="important-note">Important Note</h2>
 <p>Rolle&rsquo;s Theorem only guarantees the existence of at least one  $ c $  such that  $ f&rsquo;(c) = 0 $ .  There may be more than one such point.  The theorem doesn&rsquo;t provide a method for finding all such points, only that at least one exists under the given conditions.</p>

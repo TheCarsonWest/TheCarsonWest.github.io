@@ -48,8 +48,10 @@
 <h1 id="broadcasting-explainedbroadcasting-explained"><a href="./../broadcasting-explained/">Broadcasting Explained</a></h1>
 <p>Broadcasting is a powerful feature in NumPy that allows for efficient operations between arrays of different shapes.  It avoids explicit looping and significantly speeds up computations.  The core idea is that NumPy attempts to stretch smaller arrays to match the shape of larger arrays before performing element-wise operations.</p>
 <p><strong>Rules of Broadcasting:</strong></p>
-<p>[[1. <strong>Shape Alignment:</strong> NumPy compares the dimensions of the arrays from right to left.  If dimensions are equal or one of them is [[1, broadcasting is possible.</p>
-<ol start="2">
+<ol>
+<li>
+<p><strong>Shape Alignment:</strong> NumPy compares the dimensions of the arrays from right to left.  If dimensions are equal or one of them is [[1, broadcasting is possible.</p>
+</li>
 <li>
 <p><strong>Dimension Expansion:</strong> Dimensions of size [[1 are stretched (or &ldquo;expanded&rdquo;) to match the corresponding dimension of the other array.</p>
 </li>

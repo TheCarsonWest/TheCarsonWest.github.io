@@ -8,7 +8,7 @@
 ## When: 1870s-1900s (roughly, with significant shifts in policy occurring later)
 
 ## Who: 
-* **Business Leaders:**  Industrialists like [Andrew Carnegie](./../andrew-carnegie/), [John D](./../john-d/). Rockefeller, [J](./../j/).P. Morgan, etc., who benefited from minimal government regulation.
+* **Business Leaders:**  Industrialists like [Andrew Carnegie](./../andrew-carnegie/), [John D. Rockefeller](./../john-d.-rockefeller/), [J](./../j/).P. Morgan, etc., who benefited from minimal government regulation.
 * **Politicians:**  Many politicians, particularly at the federal level, adopted a largely hands-off approach to the economy.
 * **Workers:**  Workers often suffered under the conditions enabled by laissez-faire policies, leading to labor movements and unrest.
 

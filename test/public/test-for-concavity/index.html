@@ -57,19 +57,26 @@
 <p><strong>Important Note:</strong>  $ f&rsquo;&rsquo;(c) = 0 $  does not guarantee an inflection point.  The concavity must actually change at  $ x=c $ .  Consider the function  $ f(x) = x^4 $ .   $ f&rsquo;&rsquo;(x) = 12x^2 $ , and  $ f&rsquo;&rsquo;(0) = 0 $ , but the function is concave up on both sides of  $ x=0 $ , so there&rsquo;s no inflection point at  $ x=0 $ .</p>
 <h2 id="finding-intervals-of-concavity">Finding Intervals of Concavity</h2>
 <p>To find the intervals where a function is concave up or concave down, we follow these steps:</p>
-<p>[[1. <strong>Find the second <a href="./../derivative/">derivative</a>:</strong> Calculate  $ f&rsquo;&rsquo;(x) $ .
-2. <strong>Find critical points of the second <a href="./../derivative/">derivative</a>:</strong> Solve the equation  $ f&rsquo;&rsquo;(x) = 0 $  or find where  $ f&rsquo;&rsquo;(x) $  is undefined. These points are potential boundaries for intervals of concavity.
-3. <strong>Test intervals:</strong> Choose test points in the intervals determined by the critical points of  $ f&rsquo;&rsquo;(x) $ .  Evaluate  $ f&rsquo;&rsquo;(x) $  at each test point.
-4. <strong>Determine concavity:</strong>  If  $ f&rsquo;&rsquo;(x) &gt; 0 $  in an interval, the function is concave up in that interval. If  $ f&rsquo;&rsquo;(x) &lt; 0 $ , the function is concave down.</p>
+<ol>
+<li><strong>Find the second <a href="./../derivative/">derivative</a>:</strong> Calculate  $ f&rsquo;&rsquo;(x) $ .</li>
+<li><strong>Find critical points of the second <a href="./../derivative/">derivative</a>:</strong> Solve the equation  $ f&rsquo;&rsquo;(x) = 0 $  or find where  $ f&rsquo;&rsquo;(x) $  is undefined. These points are potential boundaries for intervals of concavity.</li>
+<li><strong>Test intervals:</strong> Choose test points in the intervals determined by the critical points of  $ f&rsquo;&rsquo;(x) $ .  Evaluate  $ f&rsquo;&rsquo;(x) $  at each test point.</li>
+<li><strong>Determine concavity:</strong>  If  $ f&rsquo;&rsquo;(x) &gt; 0 $  in an interval, the function is concave up in that interval. If  $ f&rsquo;&rsquo;(x) &lt; 0 $ , the function is concave down.</li>
+</ol>
 <h2 id="example">Example</h2>
 <p>Let&rsquo;s consider the function  $ f(x) = x^3 - 3x^2 + 2 $ .</p>
-<p>[[1. <strong>First <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;(x) = 3x^2 - 6x $
-2. <strong>Second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) = 6x - 6 $
-3. <strong>Critical points of  $ f&rsquo;&rsquo;(x) $ :</strong>  $ f&rsquo;&rsquo;(x) = 0 $  when  $ 6x - 6 = 0 $ , which means  $ x = [[1 $ .
-4. <strong>Test intervals:</strong> We test the intervals  $ (-\infty, [[1) $  and  $ ([[1, \infty) $ .
-* For  $ x = 0 $  (in  $ (-\infty, [[1) $ ):  $ f&rsquo;&rsquo;(0) = -6 &lt; 0 $ , so  $ f(x) $  is concave down on  $ (-\infty, [[1) $ .
-* For  $ x = 2 $  (in  $ ([[1, \infty) $ ):  $ f&rsquo;&rsquo;(2) = 6 &gt; 0 $ , so  $ f(x) $  is concave up on  $ ([[1, \infty) $ .
-5. <strong>Inflection Point:</strong> Since the concavity changes at  $ x=[[1 $ , there is an inflection point at  $ x=[[1 $ .</p>
+<ol>
+<li><strong>First <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;(x) = 3x^2 - 6x $</li>
+<li><strong>Second <a href="./../derivative/">derivative</a>:</strong>  $ f&rsquo;&rsquo;(x) = 6x - 6 $</li>
+<li><strong>Critical points of  $ f&rsquo;&rsquo;(x) $ :</strong>  $ f&rsquo;&rsquo;(x) = 0 $  when  $ 6x - 6 = 0 $ , which means  $ x = [[1 $ .</li>
+<li><strong>Test intervals:</strong> We test the intervals  $ (-\infty, [[1) $  and  $ ([[1, \infty) $ .
+<ul>
+<li>For  $ x = 0 $  (in  $ (-\infty, [[1) $ ):  $ f&rsquo;&rsquo;(0) = -6 &lt; 0 $ , so  $ f(x) $  is concave down on  $ (-\infty, [[1) $ .</li>
+<li>For  $ x = 2 $  (in  $ ([[1, \infty) $ ):  $ f&rsquo;&rsquo;(2) = 6 &gt; 0 $ , so  $ f(x) $  is concave up on  $ ([[1, \infty) $ .</li>
+</ul>
+</li>
+<li><strong>Inflection Point:</strong> Since the concavity changes at  $ x=[[1 $ , there is an inflection point at  $ x=[[1 $ .</li>
+</ol>
 <pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^3 - 3x^2 + 2
 </code></pre><p><a href="./../second-derivative-test/">Second Derivative Test</a></p>
 <p>This example demonstrates how to find intervals of concavity and identify inflection points. Remember to always check for changes in concavity when the second <a href="./../derivative/">derivative</a> is zero.  A sign chart can be very helpful in organizing your work.</p>

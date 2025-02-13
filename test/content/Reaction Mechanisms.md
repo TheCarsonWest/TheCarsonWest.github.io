@@ -32,7 +32,7 @@ The reaction between hydrogen and bromine to form hydrogen bromide is a classic 
 
 A simplified mechanism is:
 
-[[1. **Initiation:**  $ Br_2(g) \rightarrow 2Br\cdot(g) $  (slow, unimolecular)
+1. **Initiation:**  $ Br_2(g) \rightarrow 2Br\cdot(g) $  (slow, unimolecular)
 2. **Propagation:**
     *  $ Br\cdot(g) + H_2(g) \rightarrow HBr(g) + H\cdot(g) $ 
     *  $ H\cdot(g) + Br_2(g) \rightarrow HBr(g) + Br\cdot(g) $ 

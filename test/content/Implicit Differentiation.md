@@ -15,14 +15,14 @@ Let's consider an equation relating  $ x $  and  $ y $ , such as:
 **The key idea is to differentiate both sides of the equation with respect to  $ x $ , treating  $ y $  as a function of  $ x $ .** This means we'll use the [chain rule](./../chain-rule/) whenever we encounter a term involving  $ y $ .
 
 # Steps for [Implicit Differentiation](./../implicit-differentiation/) 
-[[1. **Differentiate both sides of the equation with respect to  $ x $ .** Remember to use the [chain rule](./../chain-rule/) when differentiating terms involving  $ y $ . 
+1. **Differentiate both sides of the equation with respect to  $ x $ .** Remember to use the [chain rule](./../chain-rule/) when differentiating terms involving  $ y $ . 
 2. **Solve the resulting equation for  $ \frac{dy}{dx} $ .** This may involve algebraic manipulation.
 
 ### Example
 
 Let's find  $ \frac{dy}{dx} $  for the equation  $ x^2 + y^2 = 25 $ .
 
-[[1. **Differentiate both sides:**
+1. **Differentiate both sides:**
     $$ \frac{d}{dx}(x^2 + y^2) = \frac{d}{dx}(25) $$      $$ 2x + 2y \frac{dy}{dx} = 0 $$  
 2. **Solve for  $ \frac{dy}{dx} $ :**
     $$ 2y \frac{dy}{dx} = -2x $$      $$ \frac{dy}{dx} = \frac{-2x}{2y} = \boxed{-\frac{x}{y}} $$  

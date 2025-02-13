@@ -9,7 +9,7 @@
 
 ## Who: 
 * **Immigrants:**  Large influx of immigrants from Southern and Eastern Europe.
-* **Industrialists:**  Figures like [Andrew Carnegie](./../andrew-carnegie/) and [John D](./../john-d/). Rockefeller, whose industries fueled urban growth.
+* **Industrialists:**  Figures like [Andrew Carnegie](./../andrew-carnegie/) and [John D. Rockefeller](./../john-d.-rockefeller/), whose industries fueled urban growth.
 * **Progressive reformers:**  Individuals and organizations advocating for urban improvements and social justice (e.g., Jane Addams, Jacob Riis).
 * **City bosses/political machines:**  Controlled urban politics and services, often through corruption.
 

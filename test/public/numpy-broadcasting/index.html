@@ -49,9 +49,13 @@
 <p>NumPy broadcasting is a powerful mechanism that allows NumPy to perform operations on arrays of different shapes, under certain conditions.  It avoids explicit looping and significantly speeds up computations.</p>
 <p><strong>Core Idea:</strong> Broadcasting allows binary operations (like +, -, *, /) to be applied between arrays of different shapes, provided that certain rules are met.  The smaller array is implicitly &ldquo;stretched&rdquo; or &ldquo;copied&rdquo; to match the shape of the larger array before the operation is performed.</p>
 <p><strong>Rules for Broadcasting:</strong></p>
-<p>[[1. <strong>Shape Compatibility:</strong> Two arrays are compatible if they have the same number of dimensions, or if one array has a dimension of size [[1 where the other has a dimension of size greater than [[1.</p>
-<ol start="2">
-<li><strong>Dimension Alignment:</strong>  Arrays are aligned from right to left (i.e., least significant dimension first).  If dimensions are not compatible, an error will occur.</li>
+<ol>
+<li>
+<p><strong>Shape Compatibility:</strong> Two arrays are compatible if they have the same number of dimensions, or if one array has a dimension of size [[1 where the other has a dimension of size greater than 1.</p>
+</li>
+<li>
+<p><strong>Dimension Alignment:</strong>  Arrays are aligned from right to left (i.e., least significant dimension first).  If dimensions are not compatible, an error will occur.</p>
+</li>
 </ol>
 <p><strong>Examples:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np

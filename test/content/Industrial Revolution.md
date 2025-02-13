@@ -5,7 +5,7 @@
 +++
 ## ID: [Industrial Revolution](./../industrial-revolution/) ## When:  Late 18th Century to Early 20th Century (c. 1760-1914) 
 ## Who: 
-* **Innovators:** Eli Whitney, [Samuel Slater](./../samuel-slater/), Robert Fulton, Henry Ford, [Andrew Carnegie](./../andrew-carnegie/), [John D](./../john-d/). Rockefeller, etc.
+* **Innovators:** Eli Whitney, [Samuel Slater](./../samuel-slater/), Robert Fulton, Henry Ford, [Andrew Carnegie](./../andrew-carnegie/), [John D. Rockefeller](./../john-d.-rockefeller/), etc.
 * **Workers:**  Immigrants, women, and children (especially in factories)
 ## What: 
 A period of rapid technological advancement, primarily in [Great Britain](./../great-britain/), that transitioned societies from agrarian economies to industrial ones. Key developments included:

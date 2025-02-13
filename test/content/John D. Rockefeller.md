@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [John D](./../john-d/). Rockefeller
+## ID: [John D. Rockefeller](./../john-d.-rockefeller/)
 
 ## When: 1839-1937 (Life Span);  1870s-1911 (Peak of Standard Oil)
 
 ## Who: 
-* **[John D](./../john-d/). Rockefeller:** Founder of Standard Oil Company.
+* **[John D. Rockefeller](./../john-d.-rockefeller/):** Founder of Standard Oil Company.
 
 ## What: 
-[John D](./../john-d/). Rockefeller was a prominent American industrialist and philanthropist.  He built his wealth through Standard Oil, using ruthless business tactics such as horizontal and vertical integration to establish a near-monopoly on the oil industry. His practices exemplified the excesses and controversies of the [Gilded Age](./../gilded-age/).
+[John D. Rockefeller](./../john-d.-rockefeller/) was a prominent American industrialist and philanthropist.  He built his wealth through Standard Oil, using ruthless business tactics such as horizontal and vertical integration to establish a near-monopoly on the oil industry. His practices exemplified the excesses and controversies of the [Gilded Age](./../gilded-age/).
 
 ## Impact: Why Significant?:
 * **Horizontal Integration:**  Rockefeller bought out competing oil refineries, eliminating competition and controlling a vast majority of oil production.

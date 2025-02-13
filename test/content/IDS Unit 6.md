@@ -6,7 +6,7 @@
 # [ID Home](./../id-home/)
 
 ## I: Immigration/[Urbanization](./../urbanization/)
-[1. [[Great Chicago Fire](./../1.-[[great-chicago-fire/)
+1. [Great Chicago Fire](./../great-chicago-fire/)
 2. [Chinese Exclusion Act](./../chinese-exclusion-act/)
 3. [Old Immigration vs New Immigration](./../old-immigration-vs-new-immigration/)
 4. [Plessy v Ferguson](./../plessy-v-ferguson/)

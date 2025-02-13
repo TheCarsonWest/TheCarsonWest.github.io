@@ -7,7 +7,7 @@
 [Differentiability](./../differentiability/), a cornerstone concept in Calculus AB, essentially describes whether a function has a well-defined [derivative](./../derivative/) at a specific point.  It's closely tied to the idea of a smooth, continuous curve.  A function is differentiable at a point if its graph has a tangent line at that point.  This means the function must be both continuous and smooth at that point. Let's break down the key aspects:
 
 
-## [1. The Definition of the [[Derivative](./../1.-the-definition-of-the-[[derivative/)
+## 1. The Definition of the [Derivative](./../derivative/)
 
 The [derivative](./../derivative/) of a function  $ f(x) $  at a point  $ x=a $ , denoted as  $ f'(a) $ , is defined as:
 
@@ -67,7 +67,7 @@ y = x
 ## 6.  Checking for [Differentiability](./../differentiability/) 
 To determine if a function is differentiable at a point, you typically:
 
-[[1. Check for [continuity](./../continuity/) at the point.
+1. Check for [continuity](./../continuity/) at the point.
 2. Calculate the left-hand and right-hand derivatives using the limit definition.
 3. If the left-hand and right-hand derivatives are equal and finite, the function is differentiable at the point.
 

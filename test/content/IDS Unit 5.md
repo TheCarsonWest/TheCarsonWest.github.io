@@ -6,7 +6,7 @@
 
 # [ID Home](./../id-home/)
 
-[1. [[Gilded Age](./../1.-[[gilded-age/)
+1. [Gilded Age](./../gilded-age/)
 2. [Xenophobia](./../xenophobia/)
 3. [Lilliputians](./../lilliputians/)
 4. [Robber Barons](./../robber-barons/)

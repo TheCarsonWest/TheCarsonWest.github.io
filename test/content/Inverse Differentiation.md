@@ -28,7 +28,7 @@ The derivative of an inverse function can be found using the following formula:
 
 **Explanation:**
 
-[[1. **Finding the Inverse:**  First, determine the inverse function  $ f^{-[[1}(x) $ .
+1. **Finding the Inverse:**  First, determine the inverse function  $ f^{-[[1}(x) $ .
 2. **Evaluating the Original Function:**  Evaluate the original function  $ f(x) $  at the inverse function,  $ f^{-[[1}(x) $ . This gives us  $ f(f^{-[[1}(x)) $ .
 3. **Finding the [Derivative](./../derivative/):**  Calculate the derivative of the original function,  $ f'(x) $ .
 4. **Evaluating the [Derivative](./../derivative/):**  Evaluate the derivative of the original function at the inverse function,  $ f'(f^{-[[1}(x)) $ .
@@ -38,7 +38,7 @@ The derivative of an inverse function can be found using the following formula:
 
 Let's find the derivative of the inverse of the function  $ f(x) = x^3 + 2x $ .
 
-[[1. **Finding the Inverse:**  Finding the inverse function explicitly can be challenging. For this example, we'll assume we know the inverse exists and focus on the differentiation process. 
+1. **Finding the Inverse:**  Finding the inverse function explicitly can be challenging. For this example, we'll assume we know the inverse exists and focus on the differentiation process. 
 2. **Evaluating the Original Function:**  We need to find  $ f(f^{-[[1}(x)) $ . Since  $ f^{-[[1}(x) $  "undoes"  $ f(x) $ , we know that  $ f(f^{-[[1}(x)) = x $ .
 3. **Finding the [Derivative](./../derivative/):**  The derivative of the original function is  $ f'(x) = 3x^2 + 2 $ .
 4. **Evaluating the [Derivative](./../derivative/):**  We need to find  $ f'(f^{-[[1}(x)) $ . Since we don't have an explicit form for  $ f^{-[[1}(x) $ , we leave it as is:  $ f'(f^{-[[1}(x)) = 3(f^{-[[1}(x))^2 + 2 $ .

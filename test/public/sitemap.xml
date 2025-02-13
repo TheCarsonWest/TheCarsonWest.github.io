@@ -24,6 +24,8 @@
   </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
   </url><url>
+    <loc>http://example.org/absolute-entropy-and-entropy-change/</loc>
+  </url><url>
     <loc>http://example.org/abstract-classes/</loc>
   </url><url>
     <loc>http://example.org/acid-dissociation-constant/</loc>
@@ -221,6 +223,8 @@
     <loc>http://example.org/body-paragraph-structure/</loc>
   </url><url>
     <loc>http://example.org/bond-angle/</loc>
+  </url><url>
+    <loc>http://example.org/bond-enthalpies/</loc>
   </url><url>
     <loc>http://example.org/booker-t-washington/</loc>
   </url><url>
@@ -718,6 +722,8 @@
   </url><url>
     <loc>http://example.org/gettysburg-address/</loc>
   </url><url>
+    <loc>http://example.org/gibbs-free-energy/</loc>
+  </url><url>
     <loc>http://example.org/gilded-age/</loc>
   </url><url>
     <loc>http://example.org/global-migration-through-history/</loc>
@@ -1071,6 +1077,8 @@
     <loc>http://example.org/memory-mapped-files/</loc>
   </url><url>
     <loc>http://example.org/mentifacts/</loc>
+  </url><url>
+    <loc>http://example.org/mentions/</loc>
   </url><url>
     <loc>http://example.org/method-overriding/</loc>
   </url><url>

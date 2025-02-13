@@ -55,10 +55,12 @@
 <li><strong>Enclosing function locals:</strong> If a nested function references a variable not in its local namespace, Python searches the namespaces of enclosing functions.</li>
 </ul>
 <p>Scope determines the accessibility of names.  It&rsquo;s the region of code where a particular name is visible and can be accessed.  Python uses the LEGB rule to search for names:</p>
-<p>[[1. <strong>L</strong>ocal: The innermost scope, where the name is defined.
-2. <strong>E</strong>nclosing function locals:  If not found locally, Python searches outwards to enclosing functions.
-3. <strong>G</strong>lobal:  The module&rsquo;s namespace.
-4. <strong>B</strong>uilt-in: The namespace containing pre-defined functions and constants.</p>
+<ol>
+<li><strong>L</strong>ocal: The innermost scope, where the name is defined.</li>
+<li><strong>E</strong>nclosing function locals:  If not found locally, Python searches outwards to enclosing functions.</li>
+<li><strong>G</strong>lobal:  The module&rsquo;s namespace.</li>
+<li><strong>B</strong>uilt-in: The namespace containing pre-defined functions and constants.</li>
+</ol>
 <p>Example:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>  <span style="color:#75715e"># Global scope</span>
 </span></span><span style="display:flex;"><span>

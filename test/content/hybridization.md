@@ -22,7 +22,7 @@ Hybridization is a theoretical concept in chemistry that explains the bonding pa
 
 **Examples:**
 
-[[1. **Methane ( $ CH_4 $ ):**
+1. **Methane ( $ CH_4 $ ):**
     * Carbon has an electronic configuration of  $ 1s^22s^22p^2 $ .
     * During [hybridization](./../hybridization/), the 2s orbital and three 2p orbitals mix to form four sp³ hybrid orbitals.
     * Each sp³ hybrid orbital forms a [sigma bond](./../sigma-bond/) with a hydrogen atom, resulting in a tetrahedral geometry.

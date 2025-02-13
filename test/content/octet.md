@@ -25,7 +25,7 @@ Chatgpted drawn out explanation:
 
 The [octet](./../octet/) rule states that atoms tend to gain, lose, or share electrons to achieve a stable configuration with eight electrons in their valence shell. While a useful guideline, there are notable exceptions to this rule.
 
-### [[1. Incomplete Octet
+### 1. Incomplete Octet
 
 * **Elements:**  Group 2 and 3 elements (Be, B, Al) often have fewer than eight electrons in their valence shell.
 * **Explanation:**  These elements have a low [Electronegativity](./../electronegativity/) and readily form bonds by sharing electrons. However, they may not achieve a full [octet](./../octet/) due to their limited number of valence electrons.

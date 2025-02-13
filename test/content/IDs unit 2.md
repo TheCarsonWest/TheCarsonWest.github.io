@@ -5,7 +5,7 @@
 +++
 # [ID Home](./../id-home/)
 
-[1. [[Headright System](./../1.-[[headright-system/) 
+1. [Headright System](./../headright-system/) 
 2. [House of Burgesses](./../house-of-burgesses/) 
 3. [Indentured Servitude](./../indentured-servitude/)
 4. [Puritans](./../puritans/)

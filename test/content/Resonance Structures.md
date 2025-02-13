@@ -18,7 +18,7 @@ Resonance structures are multiple [Lewis structures](./../lewis-structures/) tha
 
 **Examples:**
 
-**[[1. Ozone ( $ O_3 $ )**
+**1. Ozone ( $ O_3 $ )**
 
 * **Resonance Structure [[1:**  $ O=O^+ - O^- $ 
 * **Resonance Structure 2:**  $ O^- - O^+ = O $ 

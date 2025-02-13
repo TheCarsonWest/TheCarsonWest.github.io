@@ -15,7 +15,7 @@ Using [Henrys Law](./../henrys-law/), we can calculate the concentration of a di
 
 This calculation provides a simplified model.  In reality, deviations from [Henrys Law](./../henrys-law/) can occur at higher pressures or when the gas is highly soluble.
 ## Factors Affecting [Gas Solubility](./../gas-solubility/) 
-### [[1. Pressure: [Henrys Law](./../henrys-law/)
+### 1. Pressure: [Henrys Law](./../henrys-law/)
 
 ### 2. [Temperature](./../temperature/)
 Generally, the [Solubility](./../solubility/) of gases in liquids *decreases* with increasing [Temperature](./../temperature/).  As [Temperature](./../temperature/) rises, the kinetic energy of the gas molecules increases, allowing them to overcome the [intermolecular forces](./../intermolecular-forces/) holding them in solution and escape into the gaseous phase.  This is why a warm soda goes flat faster than a cold one.
