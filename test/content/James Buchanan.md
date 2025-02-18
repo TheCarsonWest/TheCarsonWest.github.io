@@ -15,7 +15,7 @@
 
 **Important Legislation Signed:**
 
-* [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act (1854)
+* [Kansas-Nebraska Act](./../kansas-nebraska-act/) (1854)
 * Ostend Manifesto (1854)
 
 **Groups Part Of:**
@@ -29,7 +29,7 @@
 **Key Points:**
 
 * Buchanan was a moderate [Democrats](./../democrats/) who opposed secession.
-* He believed that the [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act would resolve the slavery issue by allowing [popular sovereignty](./../popular-sovereignty/) in new territories.
+* He believed that the [Kansas-Nebraska Act](./../kansas-nebraska-act/) would resolve the slavery issue by allowing [popular sovereignty](./../popular-sovereignty/) in new territories.
 * However, the act only exacerbated tensions and led to violence in [Kansas](./../kansas/).
 * Buchanan also sought to acquire Cuba from [Spain](./../spain/), but this plan failed.
 * When Southern states began to secede, Buchanan took no action to prevent them.

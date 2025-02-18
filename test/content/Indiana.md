@@ -12,7 +12,7 @@
 * **1816:** [Indiana](./../indiana/) becomes the 19th state of the Union.
 * **1836:** The Indian Removal Act is implemented, forcing many Native American tribes to relocate west.
 * **1840:** [Indiana](./../indiana/)'s first railroad, the Madison and Indianapolis Railroad, is built.
-* **1854:** The [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act repeals the [Missouri](./../missouri/) Compromise, which prohibited slavery in the northern territories.
+* **1854:** The [Kansas-Nebraska Act](./../kansas-nebraska-act/) repeals the [Missouri](./../missouri/) Compromise, which prohibited slavery in the northern territories.
 * **1861:** [Indiana](./../indiana/) joins the Union during the American [Civil War](./../civil-war/).
 * **1893:** The World's Columbian Exposition is held in Chicago, [Illinois](./../illinois/), bringing industry and tourism to [Indiana](./../indiana/).
 * **1908:** The [Indiana](./../indiana/) State Teachers College (now [Indiana](./../indiana/) State University) is founded.

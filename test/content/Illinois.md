@@ -10,7 +10,7 @@
 * **1787:** [Illinois](./../illinois/) Territory created as part of the Northwest Territory
 * **1818:** [Illinois](./../illinois/) admitted to the Union as the 21st state
 * **1833:** Black Hawk War fought between settlers and Native Americans
-* **1854:** [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act, passed in part by [Illinois](./../illinois/) Senator Stephen Douglas, which allowed slavery in the territories
+* **1854:** [Kansas-Nebraska Act](./../kansas-nebraska-act/), passed in part by [Illinois](./../illinois/) Senator Stephen Douglas, which allowed slavery in the territories
 * **1861:** [Illinois](./../illinois/) sends a record number of troops to fight in the [Civil War](./../civil-war/) * **1868:** University of [Illinois](./../illinois/) at Urbana-Champaign founded
 * **1886:** Haymarket Massacre, a labor protest that turned violent, results in the deaths of several workers and police officers
 * **1893:** Columbian Exposition (World's Fair) held in Chicago

@@ -8,7 +8,7 @@
 **Timeline of Events**
 
 * 1803: [Kansas](./../kansas/) Territory acquired by the [Louisiana Purchase](./../louisiana-purchase/)
-* 1854: [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act allows for [popular sovereignty](./../popular-sovereignty/) in the territories over the issue of slavery
+* 1854: [Kansas-Nebraska Act](./../kansas-nebraska-act/) allows for [popular sovereignty](./../popular-sovereignty/) in the territories over the issue of slavery
 * 1855-1861: "Bleeding [Kansas](./../kansas/)" era marked by violence and turmoil over slavery
 * 1861: [Kansas](./../kansas/) becomes a free state
 * 1863: Quantrill's Raid on Lawrence, [Kansas](./../kansas/)
@@ -22,7 +22,7 @@
 
 **Important Legislation**
 
-* [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act (1854)
+* [Kansas-Nebraska Act](./../kansas-nebraska-act/) (1854)
 * [Kansas](./../kansas/) Constitution (1859)
 * [Populist Party](./../populist-party/) Platform (1892)
 * Brown v. Board of Education (1954)

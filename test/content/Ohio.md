@@ -12,7 +12,7 @@
 * **1812:** Battle of Tippecanoe fought in [Ohio](./../ohio/).
 * **1835:** Toledo War with [Michigan](./../michigan/).
 * **1850:** First Women's Rights Convention held in [Ohio](./../ohio/).
-* **1854:** [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act passes, repealing the [Missouri](./../missouri/) Compromise and opening [Ohio](./../ohio/) to slavery.
+* **1854:** [Kansas-Nebraska Act](./../kansas-nebraska-act/) passes, repealing the [Missouri](./../missouri/) Compromise and opening [Ohio](./../ohio/) to slavery.
 * **1857:** Oberlin-Wellington Rescue, a raid on a slave jail.
 * **1861:** [Ohio](./../ohio/) secedes from the Union and joins the Confederacy during the [Civil War](./../civil-war/).
 * **1863:** [Emancipation Proclamation](./../emancipation-proclamation/) issued, freeing slaves in [Ohio](./../ohio/).
@@ -26,7 +26,7 @@
 
 * **Northwest Ordinance (1787):** Created the [Ohio](./../ohio/) Territory.
 * **[Missouri](./../missouri/) Compromise (1820):** Prohibited slavery in [Ohio](./../ohio/).
-* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act (1854):** Repealed the [Missouri](./../missouri/) Compromise, opening [Ohio](./../ohio/) to slavery.
+* **[Kansas-Nebraska Act](./../kansas-nebraska-act/) (1854):** Repealed the [Missouri](./../missouri/) Compromise, opening [Ohio](./../ohio/) to slavery.
 * **Soil Conservation and Domestic Allotment Act (1936):** Provided financial assistance to [Ohio](./../ohio/) farmers.
 * **Brown v. Board of Education (1954):** Ruled that racial segregation in public schools is unconstitutional.
 

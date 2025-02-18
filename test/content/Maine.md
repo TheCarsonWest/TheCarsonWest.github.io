@@ -14,7 +14,7 @@
 * 1812: [Maine](./../maine/) fails to ratify the Hartford Convention, which sought to amend the Constitution and weaken the federal government.
 * 1820: [Maine](./../maine/) separates from [Massachusetts](./../massachusetts/) and becomes the 23rd state.
 * 1832: [Maine](./../maine/) passes the first prohibition law in the [United States](./../united-states/).
-* 1854: [Maine](./../maine/) passes the [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act, which repeals the [Missouri](./../missouri/) Compromise and allows slavery in the western territories.
+* 1854: [Maine](./../maine/) passes the [Kansas-Nebraska Act](./../kansas-nebraska-act/), which repeals the [Missouri](./../missouri/) Compromise and allows slavery in the western territories.
 * 1861: [Maine](./../maine/) sends troops to fight in the [Civil War](./../civil-war/).
 * 1914: [Maine](./../maine/) passes the Seventeenth Amendment, which provides for the direct election of senators.
 * 1930s: [Maine](./../maine/) experiences economic decline during the Great Depression.
@@ -23,7 +23,7 @@
 **Important Legislation**
 
 * **[Maine](./../maine/) Law of 1851:** The first prohibition law in the [United States](./../united-states/).
-* **[Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act of 1854:** Repealed the [Missouri](./../missouri/) Compromise and allowed slavery in the western territories.
+* **[Kansas-Nebraska Act](./../kansas-nebraska-act/) of 1854:** Repealed the [Missouri](./../missouri/) Compromise and allowed slavery in the western territories.
 * **Seventeenth Amendment of 1914:** Provided for the direct election of senators.
 
 **Important Court Cases**

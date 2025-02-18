@@ -13,7 +13,8 @@
 * **Target Population:** Chinese immigrants in the [United States](./../united-states/).
 
 ## What: 
-The [Chinese Exclusion Act](./../chinese-exclusion-act/) was a [United States](./../united-states/) federal law that prohibited all immigration of Chinese laborers.  It was initially enacted for ten years, and was periodically renewed until its repeal in 1943.  The act also barred Chinese from becoming naturalized citizens.
+# 10 years 
+The [Chinese Exclusion Act](./../chinese-exclusion-act/) was a [United States](./../united-states/) federal law that prohibited all immigration of Chinese laborers.  It was initially enacted for ten years, and was periodically renewed until its repeal in 1943.  The act also barred Chinese from becoming naturalized citizens. 
 
 ## Impact: Why Significant?:
 * **Nativism and [Xenophobia](./../xenophobia/):** The act exemplified growing nativism and anti-immigrant sentiment in the late 19th century [United States](./../united-states/).  It reflected fears about competition for jobs and cultural differences.
