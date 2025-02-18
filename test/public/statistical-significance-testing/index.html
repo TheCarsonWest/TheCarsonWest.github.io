@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Statistical Significance Testing | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Statistical Significance Testing</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="source-analysis-techniquessource-analysis-techniques"><a href="./../source-analysis-techniques/">Source Analysis Techniques</a></h1>
+<h1 id="statistical-significance-testingstatistical-significance-testing"><a href="./../statistical-significance-testing/">Statistical Significance Testing</a></h1>
+<p><strong>Goal:</strong> Determine if observed results are likely due to chance or a real effect.</p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Null Hypothesis ( $ H_0 $ ):</strong>  There is no effect (e.g., no difference between groups, no relationship between variables).  We aim to reject or fail to reject this hypothesis, not &ldquo;prove&rdquo; it.</li>
+<li><strong>Alternative Hypothesis ( $ H_1 $  or  $ H_a $ ):</strong> There is an effect (e.g., there is a difference, there is a relationship).  This is what we hope to find evidence for.</li>
+<li><strong>Significance Level ( $ \alpha $ ):</strong> The probability of rejecting the null hypothesis when it is actually true (Type I error). Commonly set at 0.05 (5%).  <a href="./../type-i-and-type-ii-errors/">Type I and Type II Errors</a></li>
+<li><strong>p-value:</strong> The probability of observing results as extreme as, or more extreme than, the ones obtained, assuming the null hypothesis is true. A small p-value suggests evidence against the null hypothesis.</li>
+<li><strong>Test Statistic:</strong> A value calculated from the sample data that is used to assess the evidence against the null hypothesis.  The specific test statistic depends on the type of test being used.</li>
+<li><strong>Critical Region:</strong> The range of values of the test statistic that lead to rejection of the null hypothesis.  This is determined by the significance level and the distribution of the test statistic under the null hypothesis.</li>
+<li><strong>Degrees of Freedom (df):</strong>  A parameter that influences the shape of the sampling distribution of the test statistic.  Often related to sample size and the number of groups being compared.</li>
+</ul>
+<p><strong>Types of Tests:</strong></p>
+<ul>
+<li><strong>t-test:</strong> Used to compare the means of two groups.  <a href="./../t-test-variations/">t-test variations</a></li>
+<li><strong>ANOVA (Analysis of Variance):</strong> Used to compare the means of three or more groups. <a href="./../anova-details/">ANOVA Details</a></li>
+<li><strong>Chi-squared test:</strong> Used to analyze categorical data and assess the association between categorical variables. <a href="./../chi-squared-test-details/">Chi-squared Test Details</a></li>
+<li><strong>Correlation test:</strong> Used to measure the strength and direction of the linear relationship between two continuous variables. <a href="./../correlation/">Correlation</a></li>
+</ul>
+<p><strong>Steps in Hypothesis Testing:</strong></p>
+<ol>
+<li>State the null and alternative hypotheses.</li>
+<li>Set the significance level ( $ \alpha $ ).</li>
+<li>Select an appropriate statistical test.</li>
+<li>Calculate the test statistic and p-value.</li>
+<li>Make a decision: Reject or fail to reject the null hypothesis based on the p-value and significance level.</li>
+<li>Interpret the results in the context of the research question.</li>
+</ol>
+<p><strong>Important Considerations:</strong></p>
+<ul>
+<li><strong>Statistical significance vs. practical significance:</strong> A statistically significant result may not always be practically meaningful.  <a href="./../practical-significance/">Practical Significance</a></li>
+<li><strong>Assumptions of different tests:</strong>  Different tests have different assumptions about the data (e.g., normality, independence).  Violation of these assumptions can affect the validity of the results.</li>
+<li><strong>Effect size:</strong>  Measures the magnitude of the effect, providing additional information beyond statistical significance. <a href="./../effect-size-measures/">Effect Size Measures</a></li>
+<li>$ p-value &lt; \alpha \implies \text{Reject } H_0 $</li>
+<li>$ p-value \ge \alpha \implies \text{Fail to reject } H_0 $</li>
+</ul>
+<p><strong>Example:</strong>  Suppose we want to test if a new drug lowers blood pressure.</p>
+<p>$ H_0 $ : The new drug has no effect on blood pressure.
+$ H_1 $ : The new drug lowers blood pressure.</p>
+<p>We could use a t-test to compare the average blood pressure of patients who received the drug to the average blood pressure of patients who received a placebo.  If the p-value is less than 0.05, we would reject the null hypothesis and conclude that the drug is effective in lowering blood pressure.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

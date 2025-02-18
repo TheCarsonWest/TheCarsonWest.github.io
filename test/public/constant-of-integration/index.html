@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Constant of Integration | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Constant of Integration</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="integralsintegrals"><a href="./../integrals/">integrals</a></h1>
+<p>The constant of integration is a crucial concept in integral calculus.  It arises because the derivative of a constant is always zero.  This means that when we find an antiderivative (also called an indefinite integral), we can&rsquo;t uniquely determine the original function.  There&rsquo;s always a family of functions that could have yielded the same derivative.</p>
+<h2 id="understanding-the-problem">Understanding the Problem</h2>
+<p>Let&rsquo;s consider a simple example.  The derivative of  $ f(x) = x^2 + 5 $  is  $ f&rsquo;(x) = 2x $ .  Similarly, the derivative of  $ g(x) = x^2 + 10 $  is also  $ g&rsquo;(x) = 2x $ .  In fact, the derivative of  $ h(x) = x^2 + C $ , where  $ C $  is any constant, is  $ h&rsquo;(x) = 2x $ .</p>
+<p>This illustrates that many functions can share the same derivative.  When we find the antiderivative of  $ 2x $ , we are essentially trying to reverse the differentiation process.  Since we lose information about the constant during differentiation, we need to account for this lost information when we integrate.</p>
+<h2 id="the-constant-of-integrationconstant-of-integration---c-">The <a href="./../constant-of-integration/">Constant of Integration</a>:  $ C $</h2>
+<p>To represent this ambiguity, we introduce the constant of integration, denoted by  $ C $ .  When we find the indefinite integral of a function, we always add this constant.</p>
+<p>For example, the indefinite integral of  $ 2x $  is given by:</p>
+<p>$ \int 2x , dx = x^2 + C $</p>
+<p>This expression represents the entire family of functions whose derivative is  $ 2x $ .  Each value of  $ C $  yields a different function in this family.</p>
+<p><a href="./../integrals/">integrals</a></p>
+<h2 id="determining-the-constant-of-integrationconstant-of-integration">Determining the <a href="./../constant-of-integration/">Constant of Integration</a></h2>
+<p>The constant of integration,  $ C $ , is an arbitrary constant.  Its value can only be determined if we have additional information about the original function. This additional information usually comes in the form of an initial condition, which specifies the value of the function at a particular point.</p>
+<p>For example, if we know that the function passes through the point  $ ([[1, 6) $ , and we have found the antiderivative to be  $ x^2 + C $ , we can solve for  $ C $ :</p>
+<p>$ 6 = ([[1)^2 + C $
+$ C = 5 $</p>
+<p>So, the specific function is  $ f(x) = x^2 + 5 $ .</p>
+<h2 id="visualizing-the-family-of-functions">Visualizing the Family of Functions</h2>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2 + [[1
+y = x^2 + 2
+y = x^2 + 3
+y = x^2
+y = x^2 -[[1
+y = x^2 -2
+</code></pre><p>The graph above shows several functions of the family  $ y = x^2 + C $  for different values of  $ C $ .  They are all parallel curves, differing only by a vertical shift.</p>
+<p><a href="./../initial-value-problems/">Initial Value Problems</a></p>
+<h2 id="importance-of-the-constant-of-integrationconstant-of-integration">Importance of the <a href="./../constant-of-integration/">Constant of Integration</a></h2>
+<p>While seemingly minor, forgetting the constant of integration can lead to significant errors in solving differential equations and other applications of calculus.  It&rsquo;s a crucial detail that ensures we capture the complete solution and not just a specific case.  Always remember to include the  $ +C $  when finding indefinite <a href="./../integrals/">integrals</a>.</p>
+<h1 id="constant-of-integrationconstant-of-integration"><a href="./../constant-of-integration/">Constant of Integration</a></h1>
+<h2 id="2-definite-integrals">2. Definite Integrals</h2>
+<p>The definite integral, denoted by  $ \int_a^b f(x) , dx $ , represents the signed area between the curve  $ y = f(x) $  and the x-axis, from  $ x = a $  to  $ x = b $ .  The area above the x-axis is positive, and the area below is negative.</p>
+<h2 id="riemann-sumsriemann-sums"><a href="./../riemann-sums/">Riemann Sums</a></h2>
+<p>The definite integral can be approximated using <a href="./../riemann-sums/">Riemann Sums</a> (left, right, midpoint).  These sums divide the area into rectangles and sum their areas.  As the number of rectangles increases, the approximation becomes more accurate.</p>
+<p><a href="./../fundamental-theorem-of-calculus/">Fundamental Theorem of Calculus</a></p>
+<p>The <a href="./../fundamental-theorem-of-calculus/">Fundamental Theorem of Calculus</a> connects differentiation and integration.  It states:</p>
+<ul>
+<li><strong>Part [[1:</strong> If  $ F(x) = \int_a^x f(t) , dt $ , then  $ F&rsquo;(x) = f(x) $ .</li>
+<li><strong>Part 2:</strong>  $ \int_a^b f(x) , dx = F(b) - F(a) $ , where  $ F(x) $  is an antiderivative of  $ f(x) $ .</li>
+</ul>
+<p>This theorem provides a powerful method for evaluating definite <a href="./../integrals/">integrals</a>.</p>
+<h2 id="3-techniques-of-integrationtechniques-of-integration">3. <a href="./../techniques-of-integration/">Techniques of Integration</a></h2>
+<p>Calculus AB primarily focuses on these basic integration techniques:</p>
+<ul>
+<li><strong><a href="./../power-rule/">Power Rule</a>:</strong>  $ \int x^n , dx = \frac{x^{n+[[1}}{n+[[1} + C $   (for  $ n \neq -[[1 $ )</li>
+<li><strong>Constant Multiple Rule:</strong>  $ \int kf(x) , dx = k \int f(x) , dx $</li>
+<li><strong>Sum/Difference Rule:</strong>  $ \int [f(x) \pm g(x)]] , dx = \int f(x) , dx \pm \int g(x) , dx $</li>
+<li><strong>Integration by Substitution (u-substitution):</strong> A technique for simplifying <a href="./../integrals/">integrals</a> by substituting a new variable,  $ u $ , for a part of the integrand.</li>
+</ul>
+<p><strong>Example (u-substitution):</strong></p>
+<p>To evaluate  $ \int 2x(x^2 + [[1)^3 , dx $ , let  $ u = x^2 + [[1 $ , so  $ du = 2x , dx $ .  Then the integral becomes  $ \int u^3 , du = \frac{u^4}{4} + C = \frac{(x^2 + [[1)^4}{4} + C $ .</p>
+<h2 id="4-applications-of-integrals">4. Applications of Integrals</h2>
+<p>Integrals have numerous applications in Calculus AB, including:</p>
+<ul>
+<li><strong>Area between curves:</strong>  The area between two curves  $ y = f(x) $  and  $ y = g(x) $  from  $ x = a $  to  $ x = b $  is given by</li>
+</ul>
+<h3 id="-int_ab-fx---gx--dx-">$$ \int_a^b |f(x) - g(x)| , dx $$</h3>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2
+y = x
+</code></pre><ul>
+<li><strong>Average value of a function:</strong> The average value of  $ f(x) $  on the interval  $ [a, b]] $  is</li>
+</ul>
+<h3 id="-frac1b-a-int_ab-fx--dx---this-rundown-provides-a-concise-overview-of-integralsintegrals-in-calculus-ab--remember-to-practice-extensively-to-master-these-concepts-and-techniques">$$ \frac{[[1}{b-a} \int_a^b f(x) , dx $$  This rundown provides a concise overview of <a href="./../integrals/">integrals</a> in Calculus AB.  Remember to practice extensively to master these concepts and techniques.</h3>
+<h1 id="integralsintegrals-1"><a href="./../integrals/">integrals</a></h1>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

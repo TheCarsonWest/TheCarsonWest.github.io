@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Common Pitfalls with Mutability and Immutability | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Common Pitfalls with Mutability and Immutability</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="mutable-vs-immutable-typesmutable-vs-immutable-types"><a href="./../mutable-vs-immutable-types/">Mutable vs Immutable Types</a></h1>
+<h1 id="common-pitfalls-with-mutability-and-immutabilitycommon-pitfalls-with-mutability-and-immutability"><a href="./../common-pitfalls-with-mutability-and-immutability/">Common Pitfalls with Mutability and Immutability</a></h1>
+<p>Mutable vs. Immutable types:  A core concept in Python. Understanding this is crucial to avoid unexpected behavior.</p>
+<ul>
+<li>
+<p><strong>Immutable:</strong>  These objects cannot be changed after creation.  Changes create a new object. Examples include:</p>
+<ul>
+<li><code>int</code>, <code>float</code>, <code>bool</code>, <code>str</code>, <code>tuple</code></li>
+<li><code>frozenset</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Mutable:</strong> These objects can be modified in place. Examples include:</p>
+<ul>
+<li><code>list</code>, <code>dict</code>, <code>set</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Pitfalls:</strong></p>
+<ol>
+<li>
+<p><strong>Modifying lists within loops:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> sublist <span style="color:#f92672">in</span> my_list:
+</span></span><span style="display:flex;"><span>    sublist<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">5</span>)  <span style="color:#75715e"># Modifies the original list in place!</span>
+</span></span><span style="display:flex;"><span>print(my_list)  <span style="color:#75715e"># Output: [[1, 2, 5, 3, 4, 5</span>
+</span></span></code></pre></div><p>This is often unexpected.  If you need to create new lists, use list comprehension or a loop that creates new objects:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>new_list <span style="color:#f92672">=</span> [sublist <span style="color:#f92672">+</span> <span style="color:#ae81ff">5</span> <span style="color:#66d9ef">for</span> sublist <span style="color:#f92672">in</span> my_list]]  <span style="color:#75715e"># Creates new sublists</span>
+</span></span><span style="display:flex;"><span>print(new_list) <span style="color:#75715e">#Output: [[1, 2, 5, 3, 4, 5</span>
+</span></span><span style="display:flex;"><span>print(my_list) <span style="color:#75715e">#Output: [[1, 2, 3, 4</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Default mutable arguments in functions:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_to_list</span>(item, my_list<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>): <span style="color:#75715e"># Default argument is a mutable list!</span>
+</span></span><span style="display:flex;"><span>    my_list<span style="color:#f92672">.</span>append(item)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> my_list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(add_to_list([[<span style="color:#ae81ff">1</span>))  <span style="color:#75715e"># Output: 1</span>
+</span></span><span style="display:flex;"><span>print(add_to_list(<span style="color:#ae81ff">2</span>))  <span style="color:#75715e"># Output: [[1, 2  Unexpected!  The list persists across calls.</span>
+</span></span></code></pre></div><p>The default list is created only once when the function is defined.  To fix this, use <code>None</code> as the default and create a new list inside the function:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_to_list</span>(item, my_list<span style="color:#f92672">=</span><span style="color:#66d9ef">None</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> my_list <span style="color:#f92672">is</span> <span style="color:#66d9ef">None</span>:
+</span></span><span style="display:flex;"><span>        my_list <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>    my_list<span style="color:#f92672">.</span>append(item)
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> my_list
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(add_to_list([[<span style="color:#ae81ff">1</span>))  <span style="color:#75715e"># Output: 1</span>
+</span></span><span style="display:flex;"><span>print(add_to_list(<span style="color:#ae81ff">2</span>))  <span style="color:#75715e"># Output: 2</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Shallow vs. Deep Copying:</strong> <a href="./../shallow-vs-deep-copy/">Shallow vs Deep Copy</a>  This is especially relevant when dealing with nested mutable objects.  A shallow copy only copies the references, not the objects themselves. A deep copy creates entirely new copies.</p>
+</li>
+<li>
+<p><strong>Tuple containing mutable objects:</strong></p>
+<p><a href="./../tuples/">Tuples</a> themselves are immutable, but they can contain mutable objects.  Modifying the contained mutable object still changes the tuple&rsquo;s content (because the tuple only holds a reference to the object).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_tuple <span style="color:#f92672">=</span> ([[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
+</span></span><span style="display:flex;"><span>my_tuple[<span style="color:#ae81ff">0</span>]]<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">3</span>) <span style="color:#75715e"># Modifies the list *inside* the tuple</span>
+</span></span><span style="display:flex;"><span>print(my_tuple) <span style="color:#75715e">#Output: ([[1, 2, 3, 3)</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Aliasing:</strong> When two variables refer to the same object (especially a mutable object), changes through one variable affect the other.</p>
+</li>
+</ol>
+<p><a href="./../list-comprehensions/">List Comprehensions</a>
+<a href="./../function-arguments/">Function Arguments</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Visualization Techniques | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Data Visualization Techniques</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="source-analysis-techniquessource-analysis-techniques"><a href="./../source-analysis-techniques/">Source Analysis Techniques</a></h1>
+<h1 id="data-visualization-techniquesdata-visualization-techniques"><a href="./../data-visualization-techniques/">Data Visualization Techniques</a></h1>
+<p>This document outlines various data visualization techniques.  I&rsquo;ll need to expand on several of these with dedicated notes.</p>
+<p><strong>I. Choosing the Right Visualization:</strong></p>
+<p>The choice of visualization depends heavily on the type of data and the message you want to convey.  Consider:</p>
+<ul>
+<li><strong>Data Type:</strong>  Categorical, numerical, temporal, geographical.</li>
+<li><strong>Question Being Asked:</strong> What story are you trying to tell?  What insights are you highlighting?</li>
+<li><strong>Audience:</strong>  Who is the intended recipient of this visualization?  Adjust complexity accordingly.</li>
+</ul>
+<p><strong>II.  Types of Visualizations:</strong></p>
+<ul>
+<li>
+<p><strong>A. For Showing Distributions:</strong></p>
+<ul>
+<li><strong>Histograms:</strong>  Good for showing the distribution of a single numerical variable.  (<a href="./../histograms/">Histograms</a>)</li>
+<li><strong>Density Plots:</strong>  A smoother version of a histogram. <a href="./../density-plots/">Density Plots</a></li>
+<li><strong>Box Plots:</strong> Show the median, quartiles, and outliers of a numerical variable. Useful for comparing distributions across groups. <a href="./../box-plots/">Box Plots</a></li>
+<li><strong>Violin Plots:</strong> Combine a box plot with a kernel density estimation.  <a href="./../violin-plots/">Violin Plots</a></li>
+</ul>
+</li>
+<li>
+<p><strong>B. For Showing Relationships:</strong></p>
+<ul>
+<li><strong>Scatter Plots:</strong> Show the relationship between two numerical variables.  (<a href="./../scatter-plots/">Scatter Plots</a>)</li>
+<li><strong>Line Charts:</strong> Show trends over time or other continuous variables. <a href="./../line-charts/">Line Charts</a></li>
+<li><strong>Heatmaps:</strong> Show the relationship between two categorical variables or a numerical variable across two categorical variables. <a href="./../heatmaps/">Heatmaps</a></li>
+<li><strong>Correlation Matrix:</strong>  Visual representation of correlation coefficients between multiple variables.  (<a href="./../correlation-matrix/">Correlation Matrix</a>)</li>
+</ul>
+</li>
+<li>
+<p><strong>C. For Showing Composition:</strong></p>
+<ul>
+<li><strong>Pie Charts:</strong> Show the proportion of different categories within a whole.  Use sparingly, as they can be difficult to interpret for many categories.  (<a href="./../pie-charts/">Pie Charts</a>)</li>
+<li><strong>Bar Charts:</strong> Show the comparison of different categories.  <a href="./../bar-charts/">Bar Charts</a></li>
+<li><strong>Stacked Bar Charts:</strong>  Show the composition of categories within different groups. <a href="./../stacked-bar-charts/">Stacked Bar Charts</a></li>
+<li><strong>Treemaps:</strong> Show hierarchical data using nested rectangles. <a href="./../treemaps/">Treemaps</a></li>
+</ul>
+</li>
+<li>
+<p><strong>D. For Showing Geographic Data:</strong></p>
+<ul>
+<li><strong>Maps:</strong>  Various types exist, depending on the data and desired emphasis (choropleth, dot density, etc.). <a href="./../geographic-data-visualization/">Geographic Data Visualization</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>III.  Key Considerations:</strong></p>
+<ul>
+<li><strong>Clear and Concise Labels:</strong> Axes, titles, legends should be clear and unambiguous.</li>
+<li><strong>Appropriate Scale and Range:</strong> Choose scales that accurately represent the data without distorting the message.</li>
+<li><strong>Color Palette:</strong> Use a color palette that is both visually appealing and accessible (consider colorblindness).</li>
+<li><strong>Avoid Chartjunk:</strong> Remove unnecessary elements that distract from the data.</li>
+</ul>
+<p><strong>IV.  Software and Tools:</strong></p>
+<ul>
+<li>Python (Matplotlib, Seaborn, Plotly)</li>
+<li>R (ggplot2)</li>
+<li>Tableau</li>
+<li>Power BI</li>
+</ul>
+<p><strong>V. Equations (Example):</strong></p>
+<ul>
+<li>Linear Regression:   $ y = mx + b $</li>
+<li>Standard Deviation:   $ \sigma = \sqrt{\frac{[[1}{N} \sum_{i=[[1}^{N}(x_i - \mu)^2} $</li>
+</ul>
+<h2 id="--textmean--fracsum_i1n-x_in--">$$  \text{Mean} = \frac{\sum_{i=[[1}^{n} x_i}{n}  $$</h2>
+<p>This is a basic framework.  I need to flesh out the individual visualization types with more detail in the linked notes.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

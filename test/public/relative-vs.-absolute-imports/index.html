@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Relative vs. Absolute Imports | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Relative vs. Absolute Imports</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="packages-and-__init__pypackages-and-__init__py"><a href="./../packages-and-__init__.py/">Packages and <strong>init</strong>.py</a></h1>
+<h1 id="relative-vs-absolute-importsrelative-vs-absolute-imports"><a href="./../relative-vs.-absolute-imports/">Relative vs. Absolute Imports</a></h1>
+<p>These notes cover the differences and best practices for using relative and absolute imports in Python.</p>
+<p><strong>Absolute Imports:</strong></p>
+<p>These imports specify the full path to a module from the root of your project.  They are generally preferred for their clarity and avoid ambiguity.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> mypackage.moduleA
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> mypackage.moduleB <span style="color:#f92672">import</span> functionB
+</span></span></code></pre></div><p>Advantages:</p>
+<ul>
+<li><strong>Clearer and more readable:</strong>  The import path explicitly shows the module&rsquo;s location within the project.</li>
+<li><strong>Less prone to errors:</strong>  Avoids confusion caused by relative path changes.</li>
+<li><strong>Easier refactoring:</strong>  Module restructuring is less likely to break absolute imports.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>Can be slightly more verbose, especially for deeply nested modules.</li>
+</ul>
+<p><strong>Relative Imports:</strong></p>
+<p>These imports specify the module&rsquo;s location relative to the current module&rsquo;s location.  They use a dot (<code>.</code>) to indicate the relative position.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> .moduleC <span style="color:#f92672">import</span> functionC  <span style="color:#75715e"># Imports moduleC from the same directory</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> ..moduleD <span style="color:#f92672">import</span> functionD <span style="color:#75715e"># Imports moduleD from the parent directory</span>
+</span></span></code></pre></div><p>Advantages:</p>
+<ul>
+<li>Can be more concise for modules within the same package.</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>More prone to errors as the relative path is dependent on the current file&rsquo;s location.</li>
+<li>Can become confusing and difficult to maintain in larger projects.</li>
+<li>Can break easily if the project structure changes.</li>
+</ul>
+<p><strong>Best Practices:</strong></p>
+<ul>
+<li>Generally prefer absolute imports for better readability and maintainability, especially in larger projects.</li>
+<li>Use relative imports sparingly and only when absolutely necessary, often within the same package.</li>
+<li>Avoid using too many levels of relative imports (<code>.</code>, <code>..</code>, <code>...</code>).</li>
+<li>Always consider the clarity and maintainability of your imports.  Choosing clarity is generally superior to brevity.</li>
+</ul>
+<p><a href="./../package-structure/">Package Structure</a>  (<a href="./../circular-imports/">Circular Imports</a>)</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

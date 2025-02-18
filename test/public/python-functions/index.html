@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Python Functions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Python Functions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="function-parametersfunction-parameters"><a href="./../function-parameters/">Function Parameters</a></h1>
+<h1 id="python-functionspython-functions"><a href="./../python-functions/">Python Functions</a></h1>
+<p>These notes cover the basics of Python functions.</p>
+<p><strong>Defining Functions:</strong></p>
+<p>Functions are defined using the <code>def</code> keyword, followed by the function name, parentheses <code>()</code>, and a colon <code>:</code>.  The function body is indented.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_function</span>(param1, param2):
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">&#34;&#34;&#34;This is a docstring describing the function.&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># Function body</span>
+</span></span><span style="display:flex;"><span>  result <span style="color:#f92672">=</span> param1 <span style="color:#f92672">+</span> param2
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> result
+</span></span></code></pre></div><p><a href="./../function-parameters-and-arguments/">Function Parameters and Arguments</a></p>
+<p><a href="./../function-return-values/">Function Return Values</a></p>
+<p><strong>Calling Functions:</strong></p>
+<p>Functions are called by using their name followed by parentheses containing any necessary arguments.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result <span style="color:#f92672">=</span> my_function(<span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># Calls my_function with arguments 5 and 3</span>
+</span></span><span style="display:flex;"><span>print(result)  <span style="color:#75715e"># Prints 8</span>
+</span></span></code></pre></div><p><strong>Types of Arguments:</strong></p>
+<ul>
+<li><strong>Positional Arguments:</strong> Arguments passed in the order they are defined in the function definition.</li>
+<li><strong>Keyword Arguments:</strong> Arguments passed using the <code>keyword=value</code> syntax.  This allows for flexibility in argument order.</li>
+<li><strong><a href="./../default-arguments/">Default Arguments</a>:</strong> Arguments that have a default value specified in the function definition.  If not provided during the function call, the default value is used.</li>
+<li><strong><a href="./../variable-length-arguments/">Variable-Length Arguments</a> (<code>*args</code>, <code>**kwargs</code>):</strong>  Used to handle a variable number of positional or keyword arguments, respectively. <a href="./../variable-length-arguments-in-python/">Variable Length Arguments in Python</a></li>
+</ul>
+<p><strong>Scope and Lifetime of Variables:</strong></p>
+<ul>
+<li><strong>Local Variables:</strong> Variables defined inside a function are local to that function.</li>
+<li><strong>Global Variables:</strong> Variables defined outside any function.  They can be accessed from within functions, but modifying them requires the <code>global</code> keyword. <a href="./../variable-scope-and-lifetime/">Variable Scope and Lifetime</a></li>
+</ul>
+<p><strong><a href="./../lambda-functions/">Lambda Functions</a> (Anonymous Functions):</strong></p>
+<p>These are small, anonymous functions defined using the <code>lambda</code> keyword. They are often used for short, simple operations.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>square <span style="color:#f92672">=</span> <span style="color:#66d9ef">lambda</span> x: x<span style="color:#f92672">*</span>x
+</span></span><span style="display:flex;"><span>print(square(<span style="color:#ae81ff">5</span>)) <span style="color:#75715e"># Prints 25</span>
+</span></span></code></pre></div><p><strong>Recursive Functions:</strong></p>
+<p>Functions that call themselves.  They must have a base case to avoid infinite <a href="./../recursion/">Recursion</a>. <a href="./../recursion-in-python/">Recursion in Python</a></p>
+<p><strong><a href="./../decorators/">Decorators</a>:</strong></p>
+<p>A powerful technique for modifying or enhancing functions without changing their core functionality.  They use the <code>@</code> symbol. <a href="./../python-decorators/">Python Decorators</a></p>
+<p><strong>Higher-Order Functions:</strong></p>
+<p>Functions that take other functions as arguments or return functions as results.  <code>map</code>, <code>filter</code>, and <code>reduce</code> are examples. <a href="./../higher-order-functions/">Higher-Order Functions</a></p>
+<p><strong>Pre-existing Notes:</strong></p>
+<ul>
+<li><a href="./../function-parameters-and-arguments/">Function Parameters and Arguments</a></li>
+<li><a href="./../function-return-values/">Function Return Values</a></li>
+<li><a href="./../variable-length-arguments-in-python/">Variable Length Arguments in Python</a></li>
+<li><a href="./../variable-scope-and-lifetime/">Variable Scope and Lifetime</a></li>
+<li><a href="./../recursion-in-python/">Recursion in Python</a></li>
+<li><a href="./../python-decorators/">Python Decorators</a></li>
+<li><a href="./../higher-order-functions/">Higher-Order Functions</a></li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

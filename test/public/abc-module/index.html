@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ABC Module | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">ABC Module</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="abstract-classesabstract-classes"><a href="./../abstract-classes/">Abstract Classes</a></h1>
+<h1 id="python-notes-abc-moduleabc-module">Python Notes: <a href="./../abc-module/">ABC Module</a></h1>
+<p><strong>Current String:</strong> <code>[ABC Module](./../abc-module/)</code></p>
+<p><strong>Full List:</strong> <code>['[ABC Module](./../abc-module/)']]</code></p>
+<p>The <code>ABC</code> module in Python stands for <strong>Abstract Base Classes</strong>.  It&rsquo;s used to define interfaces for classes.  This means you specify what methods a class must have, without specifying how those methods are implemented.</p>
+<p>Key Concepts:</p>
+<ul>
+<li>
+<p><strong>Abstract Base Classes (ABCs):</strong>  These are classes that cannot be instantiated directly. They serve as blueprints for other classes.  They define a common interface that subclasses must adhere to.</p>
+</li>
+<li>
+<p><strong><code>abstractmethod</code>:</strong> A decorator used to mark methods within an ABC as abstract.  Subclasses must provide implementations for these methods.  If they don&rsquo;t, a <code>TypeError</code> is raised at runtime.</p>
+</li>
+</ul>
+<p>Example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> abc <span style="color:#f92672">import</span> ABC, abstractmethod
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Shape</span>(ABC): <span style="color:#75715e"># Declare Shape as an abstract base class</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@abstractmethod</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">area</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">pass</span>  <span style="color:#75715e"># Abstract method - no implementation needed here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">@abstractmethod</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">perimeter</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">pass</span> <span style="color:#75715e"># Abstract method - no implementation needed here</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Circle</span>(Shape):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, radius):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>radius <span style="color:#f92672">=</span> radius
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">area</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">3.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">perimeter</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">*</span> <span style="color:#ae81ff">3.14159</span> <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>radius
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Rectangle</span>(Shape):
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self,width, height):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>width <span style="color:#f92672">=</span> width
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>height <span style="color:#f92672">=</span> height
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">area</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> self<span style="color:#f92672">.</span>width <span style="color:#f92672">*</span> self<span style="color:#f92672">.</span>height
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">perimeter</span>(self):
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">*</span>(self<span style="color:#f92672">.</span>width <span style="color:#f92672">+</span> self<span style="color:#f92672">.</span>height)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#This will raise a TypeError because Shape is an abstract class</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#shape = Shape()</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>circle <span style="color:#f92672">=</span> Circle(<span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Circle Area: </span><span style="color:#e6db74">{</span>circle<span style="color:#f92672">.</span>area()<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Circle Perimeter: </span><span style="color:#e6db74">{</span>circle<span style="color:#f92672">.</span>perimeter()<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>rectangle <span style="color:#f92672">=</span> Rectangle(<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">6</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Rectangle Area: </span><span style="color:#e6db74">{</span>rectangle<span style="color:#f92672">.</span>area()<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Rectangle Perimeter: </span><span style="color:#e6db74">{</span>rectangle<span style="color:#f92672">.</span>perimeter()<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>Related Notes:</p>
+<ul>
+<li><a href="./../abstract-methods/">Abstract Methods</a></li>
+<li><a href="./../decorators/">Decorators</a></li>
+<li><a href="./../inheritance/">Inheritance</a></li>
+</ul>
+<p>Further points to consider:</p>
+<ul>
+<li><a href="./../error-handling/">Error Handling</a>:  How to handle situations where subclasses fail to implement required abstract methods.</li>
+<li>Benefits of using ABCs:  Improved code organization, maintainability, and extensibility.  Enforcing a consistent interface across different classes.</li>
+<li>Use Cases:  Examples of when using ABCs is particularly beneficial (e.g., designing APIs, working with polymorphic behavior).</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

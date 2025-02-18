@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Differentiability | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Differentiability</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p><a href="./../differentiability/">Differentiability</a>, a cornerstone concept in Calculus AB, essentially describes whether a function has a well-defined <a href="./../derivative/">derivative</a> at a specific point.  It&rsquo;s closely tied to the idea of a smooth, continuous curve.  A function is differentiable at a point if its graph has a tangent line at that point.  This means the function must be both continuous and smooth at that point. Let&rsquo;s break down the key aspects:</p>
+<h2 id="1-the-definition-of-the-derivativederivative">1. The Definition of the <a href="./../derivative/">Derivative</a></h2>
+<p>The <a href="./../derivative/">derivative</a> of a function  $ f(x) $  at a point  $ x=a $ , denoted as  $ f&rsquo;(a) $ , is defined as:</p>
+<p>$ f&rsquo;(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h} $</p>
+<p>This limit represents the slope of the tangent line to the graph of  $ f(x) $  at  $ x=a $ .  If this limit exists, the function is differentiable at  $ x=a $ .</p>
+<h2 id="2--relationship-to-continuitycontinuity">2.  Relationship to <a href="./../continuity/">Continuity</a></h2>
+<p><a href="./../continuity/">Continuity</a></p>
+<p>A function must be continuous at a point to be differentiable at that point. However, <a href="./../continuity/">continuity</a> alone is not sufficient for differentiability.  A function can be continuous at a point but not differentiable there.</p>
+<h2 id="3-conditions-for-non-differentiabilitydifferentiability">3. Conditions for Non-<a href="./../differentiability/">Differentiability</a></h2>
+<p>A function is not differentiable at a point if any of the following occur:</p>
+<ul>
+<li><strong>Sharp Corner/Cusp:</strong> The function has a sharp turn or cusp at the point.  The slope of the tangent line approaches different values from the left and right.</li>
+</ul>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = abs(x)
+</code></pre><ul>
+<li>
+<p><strong>Vertical Tangent:</strong> The function has a vertical tangent line at the point. The slope of the tangent line approaches infinity.</p>
+</li>
+<li>
+<p><strong>Discontinuity:</strong> The function is discontinuous (has a jump, hole, or asymptote) at the point.</p>
+</li>
+</ul>
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = [[1/(x-[[1)
+{x&gt;[[1}
+y = 2
+{x=[[1}
+y = x
+{x&lt;[[1}
+</code></pre><ul>
+<li><strong>Oscillating Function:</strong> The function oscillates infinitely rapidly near the point.</li>
+</ul>
+<h2 id="4--differentiabilitydifferentiability-and-smoothness">4.  <a href="./../differentiability/">Differentiability</a> and Smoothness</h2>
+<p><a href="./../differentiability/">Differentiability</a> implies smoothness.  A differentiable function will have a smooth, continuous curve without any sharp corners, cusps, or vertical tangents. However, the converse is not always true (a function can be smooth but not differentiable everywhere).</p>
+<p><a href="./../higher-order-derivatives/">Higher Order Derivatives</a></p>
+<h2 id="5--practical-applications">5.  Practical Applications</h2>
+<p><a href="./../differentiability/">Differentiability</a> is crucial for many applications in Calculus AB, including:</p>
+<ul>
+<li><strong>Finding instantaneous rates of change:</strong> The <a href="./../derivative/">derivative</a> gives the instantaneous rate of change of a function at a specific point.</li>
+<li><strong>Optimization problems:</strong> Finding maximum and minimum values of a function often involves analyzing its <a href="./../derivative/">derivative</a>.</li>
+<li><strong>Related rates problems:</strong>  Using derivatives to relate the rates of change of different variables.</li>
+<li><strong>Curve sketching:</strong>  The <a href="./../derivative/">derivative</a> helps determine the increasing/decreasing intervals and concavity of a function.</li>
+</ul>
+<h2 id="6--checking-for-differentiabilitydifferentiability">6.  Checking for <a href="./../differentiability/">Differentiability</a></h2>
+<p>To determine if a function is differentiable at a point, you typically:</p>
+<ol>
+<li>Check for <a href="./../continuity/">continuity</a> at the point.</li>
+<li>Calculate the left-hand and right-hand derivatives using the limit definition.</li>
+<li>If the left-hand and right-hand derivatives are equal and finite, the function is differentiable at the point.</li>
+</ol>
+<p>In summary, differentiability is a crucial concept in Calculus AB that connects the idea of a function&rsquo;s slope to its smoothness and <a href="./../continuity/">continuity</a>. Understanding the conditions for differentiability and non-differentiability is essential for mastering many important calculus concepts and applications.</p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

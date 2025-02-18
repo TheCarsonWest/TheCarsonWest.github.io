@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linear Algebra Review | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Linear Algebra Review</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="exam-prep-scheduleexam-prep-schedule"><a href="./../exam-prep-schedule/">Exam Prep Schedule</a></h1>
+<h1 id="linear-algebra-reviewlinear-algebra-review"><a href="./../linear-algebra-review/">Linear Algebra Review</a></h1>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><strong>Vectors:</strong>  Ordered lists of numbers.  Represented as column vectors:   $  \begin{bmatrix} x_1 \ x_2 \ \vdots \ x_n \end{bmatrix}  $   or row vectors:  $  \begin{bmatrix} x_1 &amp; x_2 &amp; \cdots &amp; x_n \end{bmatrix}  $ .  <a href="./../vector-operations/">Vector Operations</a></li>
+<li><strong>Matrices:</strong> Rectangular arrays of numbers.   $ A = \begin{bmatrix} a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1n} \ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2n} \ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \ a_{m1} &amp; a_{m2} &amp; \cdots &amp; a_{mn} \end{bmatrix} $  <a href="./../matrix-operations/">Matrix Operations</a></li>
+<li><strong>Linear Transformations:</strong> Functions that map vectors to vectors in a linear way.   $ T(\mathbf{x} + \mathbf{y}) = T(\mathbf{x}) + T(\mathbf{y}) $  and  $ T(c\mathbf{x}) = cT(\mathbf{x}) $  for scalars  $ c $ .  Represented by matrices. <a href="./../linear-transformations-and-matrices/">Linear Transformations and Matrices</a></li>
+<li><strong>Vector Spaces:</strong>  A collection of vectors that is closed under vector addition and scalar multiplication. <a href="./../vector-spaces/">Vector Spaces</a></li>
+<li><strong>Linear Independence:</strong> A set of vectors is linearly independent if no vector can be written as a linear combination of the others.   $ c_1\mathbf{v}_1 + c_2\mathbf{v}_2 + \cdots + c_n\mathbf{v}_n = \mathbf{0} $  implies  $ c_1 = c_2 = \cdots = c_n = 0 $ . <a href="./../linear-independence-and-dependence/">Linear Independence and Dependence</a></li>
+<li><strong>Span:</strong> The set of all possible linear combinations of a set of vectors. <a href="./../span-of-vectors/">Span of Vectors</a></li>
+<li><strong>Basis:</strong> A linearly independent set of vectors that spans the entire vector space. <a href="./../basis-and-dimension/">Basis and Dimension</a></li>
+<li><strong>Dimension:</strong> The number of vectors in a basis.</li>
+<li><strong>Eigenvalues and Eigenvectors:</strong>  For a square matrix  $ A $ , an eigenvector  $ \mathbf{v} $  satisfies  $ A\mathbf{v} = \lambda\mathbf{v} $ , where  $ \lambda $  is the corresponding eigenvalue.  <a href="./../eigenvalues-and-eigenvectors/">Eigenvalues and Eigenvectors</a></li>
+<li><strong>Determinant:</strong> A scalar value associated with a square matrix.   $ det(A) = 0 $  if and only if the matrix is singular (non-invertible).  <a href="./../determinants/">Determinants</a></li>
+<li><strong>Rank:</strong> The dimension of the column space (or row space) of a matrix.  <a href="./../rank-of-a-matrix/">Rank of a Matrix</a></li>
+<li><strong>Null Space (Kernel):</strong> The set of all vectors  $ \mathbf{x} $  such that  $ A\mathbf{x} = \mathbf{0} $ . <a href="./../null-space/">Null Space</a></li>
+<li><strong>Column Space (Range):</strong> The span of the column vectors of a matrix. <a href="./../column-space/">Column Space</a></li>
+<li><strong>Row Space:</strong> The span of the row vectors of a matrix. <a href="./../row-space/">Row Space</a></li>
+<li><strong>Orthogonality:</strong> Two vectors  $ \mathbf{u} $  and  $ \mathbf{v} $  are orthogonal if their dot product is zero:  $ \mathbf{u} \cdot \mathbf{v} = 0 $ . <a href="./../orthogonality-and-orthonormal-bases/">Orthogonality and Orthonormal Bases</a></li>
+<li><strong>Gram-Schmidt Process:</strong> A method for orthonormalizing a set of linearly independent vectors. <a href="./../gram-schmidt-process/">Gram-Schmidt Process</a></li>
+<li><strong>Inner Product:</strong> A generalization of the dot product to more abstract vector spaces. <a href="./../inner-product-spaces/">Inner Product Spaces</a></li>
+<li><strong>Singular Value Decomposition (SVD):</strong> A factorization of a matrix into three matrices with special properties. <a href="./../singular-value-decomposition/">Singular Value Decomposition</a></li>
+</ul>
+<p><strong>Important Theorems:</strong></p>
+<ul>
+<li><strong>Rank-Nullity Theorem:</strong>  For a matrix A,  $ rank(A) + nullity(A) = number\ of\ columns\ in\ A $ .</li>
+</ul>
+<p><strong>Applications:</strong></p>
+<ul>
+<li><a href="./../linear-algebra-applications-in-machine-learning/">Linear Algebra Applications in Machine Learning</a></li>
+<li><a href="./../linear-algebra-applications-in-computer-graphics/">Linear Algebra Applications in Computer Graphics</a></li>
+<li><a href="./../linear-algebra-applications-in-physics/">Linear Algebra Applications in Physics</a></li>
+</ul>
+<p><strong>References:</strong></p>
+<ul>
+<li>Linear Algebra and its Applications by David C. Lay</li>
+</ul>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

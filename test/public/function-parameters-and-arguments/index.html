@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Function Parameters and Arguments | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Function Parameters and Arguments</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-functionspython-functions"><a href="./../python-functions/">Python Functions</a></h1>
+<h1 id="function-parameters-and-argumentsfunction-parameters-and-arguments"><a href="./../function-parameters-and-arguments/">Function Parameters and Arguments</a></h1>
+<p>Python functions utilize parameters to receive input and arguments to provide that input during function calls.  There&rsquo;s a subtle but important distinction.</p>
+<ul>
+<li>
+<p><strong>Parameters:</strong> These are defined within the function&rsquo;s definition. They act as placeholders for the values that will be passed in.</p>
+</li>
+<li>
+<p><strong>Arguments:</strong> These are the actual values passed to the function when it&rsquo;s called.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name, greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hello&#34;</span>): <span style="color:#75715e"># &#39;name&#39; and &#39;greeting&#39; are parameters</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>greeting<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Alice&#34;</span>) <span style="color:#75715e"># &#34;Alice&#34; is an argument for &#39;name&#39;, &#34;Hello&#34; is the default argument for &#39;greeting&#39;</span>
+</span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Bob&#34;</span>, <span style="color:#e6db74">&#34;Good morning&#34;</span>) <span style="color:#75715e"># &#34;Bob&#34; and &#34;Good morning&#34; are arguments</span>
+</span></span></code></pre></div><p><strong>Types of Parameters:</strong></p>
+<ul>
+<li>
+<p><strong>Positional Parameters:</strong>  The order matters.  Arguments are matched to parameters based on their position in the function call.</p>
+</li>
+<li>
+<p><strong>Keyword Arguments:</strong>  Arguments are explicitly assigned to parameters using the parameter name. Order doesn&rsquo;t matter.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>greet(greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hi&#34;</span>, name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Charlie&#34;</span>) <span style="color:#75715e">#Keyword Arguments</span>
+</span></span></code></pre></div><ul>
+<li>
+<p><strong><a href="./../default-parameters/">Default Parameters</a>:</strong>  Parameters can have default values. If an argument isn&rsquo;t provided for a parameter with a default, the default is used.  Default parameters must come after non-default parameters in the function definition.</p>
+</li>
+<li>
+<p><strong><a href="./../variable-length-arguments/">Variable-Length Arguments</a> (Arbitrary Arguments):</strong></p>
+<ul>
+<li><code>*args</code>:  Collects any number of positional arguments into a tuple.</li>
+<li><code>**kwargs</code>: Collects any number of keyword arguments into a dictionary.</li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_function</span>(a, b, <span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;args: </span><span style="color:#e6db74">{</span>args<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;kwargs: </span><span style="color:#e6db74">{</span>kwargs<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_function([[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Alice&#34;</span>, age<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>)
+</span></span></code></pre></div><p><a href="./../variable-length-arguments/">Variable-Length Arguments</a></p>
+<p><strong>Argument Passing:</strong></p>
+<p>Python uses pass-by-object-reference.  This means that when you pass a mutable object (like a list or dictionary) to a function, the function can modify the original object.  If you pass an immutable object (like an integer or string), the original object is not modified within the function.</p>
+<p><a href="./../pass-by-object-reference/">Pass-by-Object-Reference</a></p>
+<p><strong>Scope and Lifetime of Variables:</strong>  Parameters have local scope within the function.  <a href="./../scope-and-lifetime-of-variables/">Scope and Lifetime of Variables</a></p>
+<p><strong>Example illustrating mutability and immutability in argument passing:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">modify_list</span>(my_list):
+</span></span><span style="display:flex;"><span>    my_list<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">4</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>modify_list(my_list)
+</span></span><span style="display:flex;"><span>print(my_list)  <span style="color:#75715e"># Output: [[1, 2, 3, 4  (List modified)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">modify_string</span>(my_string):
+</span></span><span style="display:flex;"><span>    my_string <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;!&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>
+</span></span><span style="display:flex;"><span>modify_string(my_string)
+</span></span><span style="display:flex;"><span>print(my_string)  <span style="color:#75715e"># Output: hello (String not modified in place)</span>
+</span></span></code></pre></div>
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

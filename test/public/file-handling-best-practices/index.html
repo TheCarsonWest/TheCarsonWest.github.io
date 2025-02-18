@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>File Handling Best Practices | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">File Handling Best Practices</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="file-io-modesfile-io-modes"><a href="./../file-io-modes/">File IO Modes</a></h1>
+<h1 id="file-handling-best-practicesfile-handling-best-practices"><a href="./../file-handling-best-practices/">File Handling Best Practices</a></h1>
+<p>These notes cover best practices for file handling in Python.</p>
+<p><strong>Key Areas:</strong></p>
+<ul>
+<li><strong><a href="./../error-handling/">Error Handling</a>:</strong>  Always use <code>try...except</code> blocks to gracefully handle potential errors like <code>FileNotFoundError</code>, <code>IOError</code>, etc.  This prevents your program from crashing.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;my_file.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>        contents <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Process the file contents</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">FileNotFoundError</span>:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;File not found!&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">IOError</span> <span style="color:#66d9ef">as</span> e:
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;An IO error occurred: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong><a href="./../context-managers/">Context Managers</a> (<code>with</code> statement):</strong>  The <code>with</code> statement ensures files are automatically closed, even if errors occur. This prevents resource leaks and ensures data integrity.  See <a href="./../context-managers/">Context Managers</a>.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;my_file.txt&#34;</span>, <span style="color:#e6db74">&#34;w&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>    f<span style="color:#f92672">.</span>write(<span style="color:#e6db74">&#34;This is some text.&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># File automatically closed here</span>
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>File Modes:</strong> Understand the different file modes (<code>&quot;r&quot;</code>, <code>&quot;w&quot;</code>, <code>&quot;a&quot;</code>, <code>&quot;x&quot;</code>, <code>&quot;b&quot;</code>, <code>&quot;+&quot;</code>) and choose the appropriate one for your task.  See <a href="./../file-modes/">File Modes</a>.</p>
+</li>
+<li>
+<p><strong>Encoding:</strong> Specify the encoding (e.g., <code>&quot;utf-8&quot;</code>) when opening files to handle text files correctly, especially those containing non-ASCII characters.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;my_file.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>, encoding<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>) <span style="color:#66d9ef">as</span> f:
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ...</span>
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Buffering:</strong> Consider using buffered I/O for improved performance, especially when dealing with large files.  This can significantly speed up your file operations.  See <a href="./../buffering/">Buffering</a>.</p>
+</li>
+<li>
+<p><strong>Path Management:</strong> Use the <code>os.path</code> module for robust path manipulation, avoiding platform-specific issues.  See <a href="./../os.path-module/">os.path Module</a>.</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
+</span></span><span style="display:flex;"><span>file_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(<span style="color:#e6db74">&#34;my_directory&#34;</span>, <span style="color:#e6db74">&#34;my_file.txt&#34;</span>)
+</span></span></code></pre></div><ul>
+<li>
+<p><strong>Large Files:</strong> For extremely large files, consider processing them in chunks to avoid loading the entire file into memory at once.  See <a href="./../large-file-handling/">Large File Handling</a>.</p>
+</li>
+<li>
+<p><strong>Temporary Files:</strong> Use the <code>tempfile</code> module to create temporary files safely and automatically delete them when finished. See <a href="./../temporary-files/">Temporary Files</a>.</p>
+</li>
+<li>
+<p><strong>Security:</strong>  Be mindful of file permissions and avoid hardcoding sensitive file paths directly in your code. Consider using environment variables or configuration files to store sensitive information. See <a href="./../file-security/">File Security</a>.</p>
+</li>
+</ul>
+<p><a href="./../context-managers/">Context Managers</a>
+<a href="./../file-modes/">File Modes</a>
+<a href="./../buffering/">Buffering</a>
+<a href="./../os.path-module/">os.path Module</a>
+<a href="./../large-file-handling/">Large File Handling</a>
+<a href="./../temporary-files/">Temporary Files</a>
+<a href="./../file-security/">File Security</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data Structures in Python | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Data Structures in Python</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="mutable-vs-immutable-typesmutable-vs-immutable-types"><a href="./../mutable-vs-immutable-types/">Mutable vs Immutable Types</a></h1>
+<h1 id="data-structures-in-pythondata-structures-in-python"><a href="./../data-structures-in-python/">Data Structures in Python</a></h1>
+<p>This note covers the fundamental data structures in Python.  I&rsquo;ll need to expand on several of these in separate notes.</p>
+<p><strong>1. Built-in Data Structures:</strong></p>
+<p>Python offers several built-in data structures:</p>
+<ul>
+<li><strong><a href="./../lists/">Lists</a>:</strong> Ordered, mutable (changeable) sequences of items.  Allow duplicate elements.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#34;hello&#34;</span>, <span style="color:#ae81ff">3.14</span>, <span style="color:#66d9ef">True</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span><span style="color:#ae81ff">2</span><span style="color:#f92672">-</span><span style="color:#e6db74">&#34;hello&#34;</span><span style="color:#f92672">-</span><span style="color:#ae81ff">3.14</span><span style="color:#f92672">-</span>true<span style="color:#f92672">/</span>)
+</span></span></code></pre></div><ul>
+<li><strong><a href="./../tuples/">Tuples</a>:</strong> Ordered, immutable (unchangeable) sequences of items. Allow duplicate elements.  Useful for representing fixed collections of data.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_tuple <span style="color:#f92672">=</span> ([[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#34;hello&#34;</span>, <span style="color:#ae81ff">3.14</span>, <span style="color:#66d9ef">True</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Sets:</strong> Unordered collections of unique items.  Useful for membership testing and eliminating duplicates.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {[[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>} <span style="color:#75715e"># {[[1, 2, 3, 4}</span>
+</span></span></code></pre></div><ul>
+<li><strong><a href="./../dictionaries/">Dictionaries</a>:</strong>  Unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), values can be any data type.  Provides efficient lookups by key.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Alice&#34;</span>, <span style="color:#e6db74">&#34;age&#34;</span>: <span style="color:#ae81ff">30</span>, <span style="color:#e6db74">&#34;city&#34;</span>: <span style="color:#e6db74">&#34;[New York](./../new-york/)&#34;</span>}
+</span></span></code></pre></div><p><strong>2.  Data Structure Operations:</strong></p>
+<p>Each data structure has its own set of operations (methods):</p>
+<ul>
+<li><strong><a href="./../lists/">Lists</a>:</strong>  <code>append()</code>, <code>insert()</code>, <code>remove()</code>, <code>pop()</code>, <code>sort()</code>, <code>reverse()</code>, <code>index()</code>, <code>count()</code> etc.  (<a href="./../list-methods/">List Methods</a>)</li>
+<li><strong><a href="./../tuples/">Tuples</a>:</strong>  Limited operations due to immutability.  <code>index()</code>, <code>count()</code>. (<a href="./../tuple-methods/">Tuple Methods</a>)</li>
+<li><strong>Sets:</strong> <code>add()</code>, <code>remove()</code>, <code>union()</code>, <code>intersection()</code>, <code>difference()</code> etc. (<a href="./../set-methods/">Set Methods</a>)</li>
+<li><strong><a href="./../dictionaries/">Dictionaries</a>:</strong> <code>get()</code>, <code>items()</code>, <code>keys()</code>, <code>values()</code>, <code>update()</code>, <code>pop()</code>, <code>popitem()</code> etc. (<a href="./../dictionary-methods/">Dictionary Methods</a>)</li>
+</ul>
+<p><strong>3. Choosing the Right Data Structure:</strong></p>
+<p>The choice of data structure depends on the specific needs of your program:</p>
+<ul>
+<li>Use lists when you need an ordered, mutable sequence.</li>
+<li>Use tuples when you need an ordered, immutable sequence.</li>
+<li>Use sets when you need to store unique items and perform set operations.</li>
+<li>Use dictionaries when you need to store data in key-value pairs for efficient lookups.</li>
+</ul>
+<p><strong>4.  More Advanced Data Structures (<a href="./../advanced-data-structures/">Advanced Data Structures</a>)</strong></p>
+<p>This section will cover more advanced data structures, like:</p>
+<ul>
+<li><strong>Deque (double-ended queue):</strong>  Efficient for adding and removing elements from both ends.</li>
+<li><strong>Namedtuple:</strong>  Similar to tuples, but with named fields for better readability.</li>
+<li><strong>Counter:</strong>  A dictionary subclass for counting hashable objects.</li>
+<li><strong>OrderedDict (deprecated in Python 3.7+):</strong>  Maintained order of insertion. (Use <code>collections.OrderedDict</code> if needed for older Python versions).</li>
+</ul>
+<p><strong>5.  Further Reading:</strong></p>
+<ul>
+<li>Python documentation on built-in types.</li>
+<li>Relevant chapters in a Python textbook.</li>
+</ul>
+<p><strong>Linked Notes:</strong> <a href="./../list-methods/">List Methods</a>, <a href="./../tuple-methods/">Tuple Methods</a>, <a href="./../set-methods/">Set Methods</a>, <a href="./../dictionary-methods/">Dictionary Methods</a>, <a href="./../advanced-data-structures/">Advanced Data Structures</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+

@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module Search Path | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+  </script>
+    
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Module Search Path</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="importing-modulesimporting-modules"><a href="./../importing-modules/">Importing Modules</a></h1>
+<h1 id="module-search-pathmodule-search-path"><a href="./../module-search-path/">Module Search Path</a></h1>
+<p>The Python interpreter searches for modules in a specific order, defined by the <code>sys.path</code> variable.  This is crucial for importing modules correctly.</p>
+<p><code>sys.path</code> is a list of strings, each representing a directory.  The interpreter searches these directories in order until it finds the module being imported.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>print(sys<span style="color:#f92672">.</span>path) 
+</span></span></code></pre></div><p>The <code>sys.path</code> list typically includes:</p>
+<ol>
+<li>The directory containing the script being run (or the current directory if no script is specified).</li>
+<li>The directories specified by the <code>PYTHONPATH</code> environment variable (if set).</li>
+<li>Installation-dependent default locations (e.g., site-packages directories).</li>
+</ol>
+<p><a href="./../pythonpath-environment-variable/">PYTHONPATH Environment Variable</a></p>
+<p><a href="./../site-packages-directories/">Site-packages Directories</a></p>
+<p>If a module is not found in any of these directories, an <code>ImportError</code> is raised.</p>
+<p><strong>Modifying <code>sys.path</code>:</strong></p>
+<p>You can modify <code>sys.path</code> programmatically to add or remove directories from the search path.  This is useful for:</p>
+<ul>
+<li>Importing modules from custom locations.</li>
+<li>Managing different versions of modules.</li>
+</ul>
+<p>Example: adding a custom directory:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
+</span></span><span style="display:flex;"><span>sys<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>append(<span style="color:#e6db74">&#39;/path/to/my/modules&#39;</span>) <span style="color:#75715e"># replace with your path</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> my_module  <span style="color:#75715e"># now you can import your module</span>
+</span></span></code></pre></div><p><strong>Important Considerations:</strong></p>
+<ul>
+<li><strong>Order Matters:</strong> The order of directories in <code>sys.path</code> is significant.  The interpreter will find the first occurrence of the module.</li>
+<li><strong>Namespace Conflicts:</strong> Modifying <code>sys.path</code> can lead to namespace conflicts if you have multiple modules with the same name in different directories.</li>
+<li><strong>Security:</strong>  Avoid arbitrarily adding directories to <code>sys.path</code> from untrusted sources, as this could expose your system to malicious code.  Be especially cautious with dynamically constructed paths.</li>
+</ul>
+<p><a href="./../module-importing-in-python/">Module Importing in Python</a>
+<a href="./../error-handling:-importerror/">Error Handling: ImportError</a></p>
+
+</main>
+
+  <footer>
+  
+  
+  </footer>
+  </body>
+</html>
+
