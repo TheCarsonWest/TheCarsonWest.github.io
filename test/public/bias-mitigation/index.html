@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -76,7 +76,7 @@
 </ul>
 <p><strong>Mathematical Formalism (example):</strong></p>
 <p>Suppose we have a binary classification problem with protected attribute  $ A $  (e.g., gender) and outcome  $ Y $ .  We want to ensure that the model&rsquo;s predictions are fair across different values of  $ A $ .  One metric of fairness is <strong>Equal Opportunity</strong>, which requires:</p>
-<p>$ P(Y = [[1 | \hat{Y} = [[1, A = a) = P(Y = [[1 | \hat{Y} = [[1, A = a&rsquo;) $   for all  $ a, a&rsquo; $ ,</p>
+<p>$ P(Y = 1 | \hat{Y} = 1, A = a) = P(Y = 1 | \hat{Y} = 1, A = a&rsquo;) $   for all  $ a, a&rsquo; $ ,</p>
 <p>where  $ \hat{Y} $  represents the model&rsquo;s prediction.</p>
 <p><strong>Further Research:</strong></p>
 <ul>

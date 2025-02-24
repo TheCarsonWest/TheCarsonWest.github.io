@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -46,7 +46,7 @@
 <main>
 <h1 id="useful-websites-and-articlesuseful-websites-and-articles"><a href="./../useful-websites-and-articles/">Useful Websites and Articles</a></h1>
 <h1 id="isl-book-notesisl-book-notes"><a href="./../isl-book-notes/">ISL Book Notes</a></h1>
-<p><strong>Chapter [[1: Introduction to Statistical Learning</strong></p>
+<p><strong>Chapter 1: Introduction to Statistical Learning</strong></p>
 <ul>
 <li>
 <p><strong>What is Statistical Learning?</strong>  The goal is to build a model relating a response variable  $ Y $  to a set of predictor variables  $ X_1, X_2, &hellip;, X_p $ .  We can use this model to:</p>
@@ -97,7 +97,7 @@
 <p><strong>Chapter 3:  Classification</strong></p>
 <ul>
 <li>
-<p><strong>Logistic Regression:</strong> Modeling the probability of a binary outcome using a logistic function:  $ P(Y=[1|X) = \frac{[[1}{[[1 + exp(-\beta_0 - \beta_1X)} $ . [<a href="./../1%7Cx">Logistic Regression Details</a>-=-\frac{[[1}{[[1-+-exp(-\beta_0&mdash;\beta_1x)}-$-.-[[logistic-regression-details/)</p>
+<p><strong>Logistic Regression:</strong> Modeling the probability of a binary outcome using a logistic function:  $ P(Y=1|X) = \frac{1}{1 + exp(-\beta_0 - \beta_1X)} $ . <a href="./../logistic-regression-details/">Logistic Regression Details</a></p>
 </li>
 <li>
 <p><strong>K-Nearest Neighbors:</strong> Classifying a new observation based on the majority class among its  $ k $  nearest neighbors in the feature space. <a href="./../knn-algorithm/">KNN Algorithm</a></p>

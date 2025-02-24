@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -49,15 +49,15 @@
 <p>NumPy&rsquo;s <code>random</code> module (now deprecated; use <code>numpy.random</code> directly) provides functions for generating various random numbers and distributions.  It&rsquo;s significantly faster than Python&rsquo;s built-in <code>random</code> module, especially for large arrays.</p>
 <p><strong>Key Functions &amp; Concepts:</strong></p>
 <ul>
-<li><strong><code>numpy.random.rand(d0, d1, ..., dn)</code>:</strong> Creates an array of the given shape and fills it with random floats sampled from a uniform distribution over <code>[0, [[1)</code>.</li>
+<li><strong><code>numpy.random.rand(d0, d1, ..., dn)</code>:</strong> Creates an array of the given shape and fills it with random floats sampled from a uniform distribution over <code>[0, 1)</code>.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 3x3 array of random floats between 0 and [[1</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 3x3 array of random floats between 0 and 1</span>
 </span></span><span style="display:flex;"><span>random_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>rand(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>)
 </span></span><span style="display:flex;"><span>print(random_array)
 </span></span></code></pre></div><ul>
-<li><strong><code>numpy.random.randn(d0, d1, ..., dn)</code>:</strong> Creates an array of the given shape and fills it with random floats sampled from a standard normal (Gaussian) distribution (mean=0, standard deviation=[[1).</li>
+<li><strong><code>numpy.random.randn(d0, d1, ..., dn)</code>:</strong> Creates an array of the given shape and fills it with random floats sampled from a standard normal (Gaussian) distribution (mean=0, standard deviation=1).</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 2x2 array of random floats from a standard normal distribution</span>
 </span></span><span style="display:flex;"><span>normal_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randn(<span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">2</span>)
@@ -65,20 +65,20 @@
 </span></span></code></pre></div><ul>
 <li><strong><code>numpy.random.randint(low, high=None, size=None, dtype=int)</code>:</strong> Returns random integers from <code>low</code> (inclusive) to <code>high</code> (exclusive).  If <code>high</code> is <code>None</code>, then results are from 0 to <code>low</code>.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 5 random integers between [[1 and 10 (inclusive)</span>
-</span></span><span style="display:flex;"><span>random_integers <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randint([[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">5</span>) <span style="color:#75715e"># 11 is exclusive</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 5 random integers between 1 and 10 (inclusive)</span>
+</span></span><span style="display:flex;"><span>random_integers <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>randint(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">5</span>) <span style="color:#75715e"># 11 is exclusive</span>
 </span></span><span style="display:flex;"><span>print(random_integers)
 </span></span></code></pre></div><ul>
 <li><strong><code>numpy.random.choice(a, size=None, replace=True, p=None)</code>:</strong> Generates a random sample from a given array <code>a</code>.  <code>replace=True</code> allows sampling with replacement (same element can be selected multiple times). <code>p</code> specifies probabilities for each element in <code>a</code>.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Sample 3 elements from an array with replacement</span>
-</span></span><span style="display:flex;"><span>my_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>)
+</span></span><span style="display:flex;"><span>my_array <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>)
 </span></span><span style="display:flex;"><span>sample <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>choice(my_array, size<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, replace<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>)
 </span></span><span style="display:flex;"><span>print(sample)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Sample with probabilities</span>
-</span></span><span style="display:flex;"><span>probabilities <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">0.</span>[[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">0.3</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">0.2</span>) <span style="color:#75715e"># must sum to [[1</span>
+</span></span><span style="display:flex;"><span>probabilities <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array([<span style="color:#ae81ff">0.1</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">0.3</span>, <span style="color:#ae81ff">0.2</span>, <span style="color:#ae81ff">0.2</span>) <span style="color:#75715e"># must sum to 1</span>
 </span></span><span style="display:flex;"><span>weighted_sample <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>random<span style="color:#f92672">.</span>choice(my_array, size<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, replace<span style="color:#f92672">=</span><span style="color:#66d9ef">True</span>, p<span style="color:#f92672">=</span>probabilities)
 </span></span><span style="display:flex;"><span>print(weighted_sample)
 </span></span></code></pre></div><ul>

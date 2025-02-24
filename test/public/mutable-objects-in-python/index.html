@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -57,21 +57,21 @@
 <ul>
 <li><strong><a href="./../lists/">Lists</a>:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>my_list<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">4</span>)  <span style="color:#75715e"># Modifies the original list</span>
-</span></span><span style="display:flex;"><span>print(my_list)  <span style="color:#75715e"># Output: [[1, 2, 3, 4</span>
+</span></span><span style="display:flex;"><span>print(my_list)  <span style="color:#75715e"># Output: 1, 2, 3, 4</span>
 </span></span></code></pre></div><ul>
 <li><strong><a href="./../dictionaries/">Dictionaries</a>:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;a&#39;</span>: [[<span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;b&#39;</span>: <span style="color:#ae81ff">2</span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;a&#39;</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#39;b&#39;</span>: <span style="color:#ae81ff">2</span>}
 </span></span><span style="display:flex;"><span>my_dict[<span style="color:#e6db74">&#39;c&#39;</span>]] <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>  <span style="color:#75715e"># Modifies the original dictionary</span>
-</span></span><span style="display:flex;"><span>print(my_dict)  <span style="color:#75715e"># Output: {&#39;a&#39;: [[1, &#39;b&#39;: 2, &#39;c&#39;: 3}</span>
+</span></span><span style="display:flex;"><span>print(my_dict)  <span style="color:#75715e"># Output: {&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3}</span>
 </span></span></code></pre></div><ul>
 <li><strong>Sets:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {[[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>}
 </span></span><span style="display:flex;"><span>my_set<span style="color:#f92672">.</span>add(<span style="color:#ae81ff">4</span>) <span style="color:#75715e"># Modifies the original set</span>
-</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e"># Output: {[[1, 2, 3, 4}</span>
+</span></span><span style="display:flex;"><span>print(my_set) <span style="color:#75715e"># Output: {1, 2, 3, 4}</span>
 </span></span></code></pre></div><ul>
 <li>
 <p><a href="./../sets-in-python/">Sets in Python</a> (Note: This will be a seperate note)</p>
@@ -84,10 +84,10 @@
 <ul>
 <li><strong>Aliasing:</strong> When you assign a mutable object to multiple variables, they all refer to the same object in memory. Changes made through one variable are visible through all others.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>list1 <span style="color:#f92672">=</span> [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>list1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>list2 <span style="color:#f92672">=</span> list1  <span style="color:#75715e"># list2 is an alias for list1</span>
 </span></span><span style="display:flex;"><span>list1<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">4</span>)
-</span></span><span style="display:flex;"><span>print(list2)  <span style="color:#75715e"># Output: [[1, 2, 3, 4  (list2 is also modified)</span>
+</span></span><span style="display:flex;"><span>print(list2)  <span style="color:#75715e"># Output: 1, 2, 3, 4  (list2 is also modified)</span>
 </span></span></code></pre></div><ul>
 <li><strong>Copying:</strong> To avoid unintended side effects from aliasing, you can create a copy of a mutable object using techniques like slicing (<code>[:]]</code>) for lists or the <code>copy()</code> method for more complex objects.  See <a href="./../shallow-vs-deep-copying/">Shallow vs Deep Copying</a> for more details.</li>
 </ul>

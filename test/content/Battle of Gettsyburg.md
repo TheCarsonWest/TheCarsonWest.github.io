@@ -5,7 +5,7 @@
 +++
 ## ID: Battle of Gettysburg
 
-## When: July [[1-3, 1863
+## When: July 1-3, 1863
 
 ## Who: 
 * **Union:**  General George Meade and the Army of the Potomac

@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -47,9 +47,9 @@
 <h2 id="basic-integration-formulasbasic-integration-formulas"><a href="./../basic-integration-formulas/">Basic Integration Formulas</a></h2>
 <p>These are the fundamental building blocks for more complex integrations.  You should memorize these:</p>
 <ul>
-<li><strong><a href="./../power-rule/">Power Rule</a>:</strong>  $ \int x^n dx = \frac{x^{n+[[1}}{n+[[1} + C $ , where  $ n \neq -[[1 $</li>
+<li><strong><a href="./../power-rule/">Power Rule</a>:</strong>  $ \int x^n dx = \frac{x^{n+1}}{n+1} + C $ , where  $ n \neq -1 $</li>
 <li><strong>Exponential Rule:</strong>  $ \int e^x dx = e^x + C $</li>
-<li><strong>Logarithmic Rule:</strong>  $ \int \frac{[[1}{x} dx = \ln|x| + C $</li>
+<li><strong>Logarithmic Rule:</strong>  $ \int \frac{1}{x} dx = \ln|x| + C $</li>
 <li><strong>Trigonometric Rules:</strong>
 <ul>
 <li>$ \int \sin x dx = -\cos x + C $</li>

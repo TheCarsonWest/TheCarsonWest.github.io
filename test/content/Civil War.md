@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-- [15th amendment](./../15th-amendment/)
+- 15th amendment]]
 - [Abraham Lincoln](./../abraham-lincoln/)
 - [Anaconda Plan](./../anaconda-plan/)
 - [Andrew Johnson](./../andrew-johnson/)

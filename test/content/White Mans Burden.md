@@ -1,5 +1,5 @@
 +++
- title = 'White Man’s Burden'
+ title = 'White Mans Burden'
 [params]
 	author = 'Carson West'
 +++

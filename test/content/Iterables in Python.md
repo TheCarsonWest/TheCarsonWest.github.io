@@ -16,11 +16,11 @@ Key characteristics:
 
 Examples of iterables:
 
-*   [Lists](./../lists/):  `[[1, 2, 3`
-*   [Tuples](./../tuples/): `([[1, 2, 3)`
+*   [Lists](./../lists/):  `1, 2, 3`
+*   [Tuples](./../tuples/): `(1, 2, 3)`
 *   Strings: `"hello"`
-*   Sets: `{[[1, 2, 3}`
-*   [Dictionaries](./../dictionaries/): `{"a": [[1, "b": 2}` (iterates over keys by default)
+*   Sets: `{1, 2, 3}`
+*   [Dictionaries](./../dictionaries/): `{"a": 1, "b": 2}` (iterates over keys by default)
 *   Files (opened in read mode)
 *   Custom classes implementing `__iter__`
 
@@ -31,7 +31,7 @@ Iteration vs. [Iterators](./../iterators/): [Iterators](./../iterators/) vs. [It
 Using iterables in `for` loops:
 
 ```python
-my_list = [[1, 2, 3, 4, 5
+my_list = 1, 2, 3, 4, 5
 for item in my_list:
     print(item)
 

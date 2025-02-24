@@ -10,6 +10,7 @@
 # [Acids and Bases](./../acids-and-bases/)
 # [Solving Equilibrium Equations](./../solving-equilibrium-equations/)
 # [ICE Tables](./../ice-tables/)
+# [Equilibrium Calculations](./../equilibrium-calculations/)
 # [Approximations in Equilibrium Calculations](./../approximations-in-equilibrium-calculations/)
 # [Base Dissociation Constant](./../base-dissociation-constant/)
 # [Salt Hydrolysis](./../salt-hydrolysis/)

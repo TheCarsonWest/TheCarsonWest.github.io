@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -90,7 +90,7 @@
 <li>$ L $  = Logical soundness</li>
 <li>$ B $  = Bias level (lower is better)</li>
 </ul>
-<h2 id="-s--frace-times-l1--b-">$$ S = \frac{E \times L}{[[1 + B} $$</h2>
+<h2 id="-s--frace-times-l1--b-">$$ S = \frac{E \times L}{1 + B} $$</h2>
 <p>This is a simplified representation; the actual relationship is likely much more complex.</p>
 
 </main>

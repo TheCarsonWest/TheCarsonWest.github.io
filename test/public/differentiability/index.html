@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -66,12 +66,12 @@
 <p><strong>Discontinuity:</strong> The function is discontinuous (has a jump, hole, or asymptote) at the point.</p>
 </li>
 </ul>
-<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = [[1/(x-[[1)
-{x&gt;[[1}
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = 1/(x-1)
+{x&gt;1}
 y = 2
-{x=[[1}
+{x=1}
 y = x
-{x&lt;[[1}
+{x&lt;1}
 </code></pre><ul>
 <li><strong>Oscillating Function:</strong> The function oscillates infinitely rapidly near the point.</li>
 </ul>

@@ -23,13 +23,13 @@ Then:
 
 ### Example
 
-Let's find the limit of the function  $ f(x) = x^2 \sin(\frac{[[1}{x}) $  as  $ x $  approaches 0.
+Let's find the limit of the function  $ f(x) = x^2 \sin(\frac{1}{x}) $  as  $ x $  approaches 0.
 
 **1. Find bounding functions:**
 
-We know that  $ -[[1 \leq \sin(\frac{[[1}{x}) \leq [[1 $  for all  $ x $  (except  $ x=0 $ ).  Multiplying this inequality by  $ x^2 $ , we get:
+We know that  $ -1 \leq \sin(\frac{1}{x}) \leq 1 $  for all  $ x $  (except  $ x=0 $ ).  Multiplying this inequality by  $ x^2 $ , we get:
 
- $ -x^2 \leq x^2 \sin(\frac{[[1}{x}) \leq x^2 $ 
+ $ -x^2 \leq x^2 \sin(\frac{1}{x}) \leq x^2 $ 
 
 **2. Find the limits of the bounding functions:**
 
@@ -37,9 +37,9 @@ We know that  $ -[[1 \leq \sin(\frac{[[1}{x}) \leq [[1 $  for all  $ x $  (excep
 
 **3. Apply the [Squeeze Theorem](./../squeeze-theorem/):**
 
-Since  $ -x^2 \leq x^2 \sin(\frac{[[1}{x}) \leq x^2 $  and both  $ -x^2 $  and  $ x^2 $  approach 0 as  $ x $  approaches 0, we can conclude that:
+Since  $ -x^2 \leq x^2 \sin(\frac{1}{x}) \leq x^2 $  and both  $ -x^2 $  and  $ x^2 $  approach 0 as  $ x $  approaches 0, we can conclude that:
 
- $ \lim_{x \to 0} x^2 \sin(\frac{[[1}{x}) = 0 $ 
+ $ \lim_{x \to 0} x^2 \sin(\frac{1}{x}) = 0 $ 
 
 ### Applications
 

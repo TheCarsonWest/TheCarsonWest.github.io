@@ -20,14 +20,14 @@ Resonance structures are multiple [Lewis structures](./../lewis-structures/) tha
 
 **1. Ozone ( $ O_3 $ )**
 
-* **Resonance Structure [[1:**  $ O=O^+ - O^- $ 
+* **Resonance Structure 1:**  $ O=O^+ - O^- $ 
 * **Resonance Structure 2:**  $ O^- - O^+ = O $ 
 
 The actual structure of ozone is a resonance hybrid of these two structures, with the double bond delocalized over both oxygen-oxygen bonds.
 
 **2. Carbonate Ion ( $ CO_3^{2-} $ ) **
 
-* **Resonance Structure [[1:** 
+* **Resonance Structure 1:** 
  $ O=C - O^- - O^- $ 
 * **Resonance Structure 2:** 
  $ O^- - C = O - O^- $ 
@@ -38,7 +38,7 @@ The resonance hybrid of the carbonate ion shows a delocalized double bond over a
 
 **3. Benzene ( $ C_6H_6 $ )**
 
-* **Resonance Structure [[1:** 
+* **Resonance Structure 1:** 
  $ H-C=C-C=C-C=C-H $ 
 * **Resonance Structure 2:** 
  $ H-C-C=C-C=C-C-H $ 

@@ -20,7 +20,7 @@
 ## II: Imperialism
 12. [Imperialism 1890s-1950s](./../imperialism-1890s-1950s/)
 13. [Great White Fleet](./../great-white-fleet/)
-14. [White Man’s Burden](./../white-man’s-burden/)
+14. [White Mans Burden](./../white-mans-burden/)
 15. [Open Door Policy](./../open-door-policy/)
 16. [Spanish-American War](./../spanish-american-war/)
 17. [Teller Amendment](./../teller-amendment/)

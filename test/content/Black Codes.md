@@ -23,7 +23,7 @@
 ## Impact: Why Significant?: 
 * **Undermined Reconstruction:** The [Black Codes](./../black-codes/) directly contradicted the goals of Reconstruction, which sought to establish equal rights for Black Americans.
 * **Fueled Racial Tensions:** The codes intensified racial tensions and contributed to the rise of white supremacy.
-* **Led to Federal Intervention:** The [Black Codes](./../black-codes/) prompted Congress to pass the [Civil Rights Act of 1866](./../civil-rights-act-of-1866/) and the [14th amendment](./../14th-amendment/), which sought to protect Black citizens from discriminatory state laws.
+* **Led to Federal Intervention:** The [Black Codes](./../black-codes/) prompted Congress to pass the [Civil Rights Act of 1866](./../civil-rights-act-of-1866/) and the 14th amendment]], which sought to protect Black citizens from discriminatory state laws.
 * **Shaped the Future of Race Relations:** The [Black Codes](./../black-codes/) set a dangerous precedent for racial discrimination and segregation, which would continue to plague the [United States](./../united-states/) for decades to come. 
 
 # [IDS Unit 4](./../ids-unit-4/)

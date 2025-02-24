@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -57,16 +57,16 @@
 <p><a href="./../integrals/">integrals</a></p>
 <h2 id="determining-the-constant-of-integrationconstant-of-integration">Determining the <a href="./../constant-of-integration/">Constant of Integration</a></h2>
 <p>The constant of integration,  $ C $ , is an arbitrary constant.  Its value can only be determined if we have additional information about the original function. This additional information usually comes in the form of an initial condition, which specifies the value of the function at a particular point.</p>
-<p>For example, if we know that the function passes through the point  $ ([[1, 6) $ , and we have found the antiderivative to be  $ x^2 + C $ , we can solve for  $ C $ :</p>
-<p>$ 6 = ([[1)^2 + C $
+<p>For example, if we know that the function passes through the point  $ (1, 6) $ , and we have found the antiderivative to be  $ x^2 + C $ , we can solve for  $ C $ :</p>
+<p>$ 6 = (1)^2 + C $
 $ C = 5 $</p>
 <p>So, the specific function is  $ f(x) = x^2 + 5 $ .</p>
 <h2 id="visualizing-the-family-of-functions">Visualizing the Family of Functions</h2>
-<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2 + [[1
+<pre tabindex="0"><code class="language-desmos-graph" data-lang="desmos-graph">y = x^2 + 1
 y = x^2 + 2
 y = x^2 + 3
 y = x^2
-y = x^2 -[[1
+y = x^2 -1
 y = x^2 -2
 </code></pre><p>The graph above shows several functions of the family  $ y = x^2 + C $  for different values of  $ C $ .  They are all parallel curves, differing only by a vertical shift.</p>
 <p><a href="./../initial-value-problems/">Initial Value Problems</a></p>
@@ -80,20 +80,20 @@ y = x^2 -2
 <p><a href="./../fundamental-theorem-of-calculus/">Fundamental Theorem of Calculus</a></p>
 <p>The <a href="./../fundamental-theorem-of-calculus/">Fundamental Theorem of Calculus</a> connects differentiation and integration.  It states:</p>
 <ul>
-<li><strong>Part [[1:</strong> If  $ F(x) = \int_a^x f(t) , dt $ , then  $ F&rsquo;(x) = f(x) $ .</li>
+<li><strong>Part 1:</strong> If  $ F(x) = \int_a^x f(t) , dt $ , then  $ F&rsquo;(x) = f(x) $ .</li>
 <li><strong>Part 2:</strong>  $ \int_a^b f(x) , dx = F(b) - F(a) $ , where  $ F(x) $  is an antiderivative of  $ f(x) $ .</li>
 </ul>
 <p>This theorem provides a powerful method for evaluating definite <a href="./../integrals/">integrals</a>.</p>
 <h2 id="3-techniques-of-integrationtechniques-of-integration">3. <a href="./../techniques-of-integration/">Techniques of Integration</a></h2>
 <p>Calculus AB primarily focuses on these basic integration techniques:</p>
 <ul>
-<li><strong><a href="./../power-rule/">Power Rule</a>:</strong>  $ \int x^n , dx = \frac{x^{n+[[1}}{n+[[1} + C $   (for  $ n \neq -[[1 $ )</li>
+<li><strong><a href="./../power-rule/">Power Rule</a>:</strong>  $ \int x^n , dx = \frac{x^{n+1}}{n+1} + C $   (for  $ n \neq -1 $ )</li>
 <li><strong>Constant Multiple Rule:</strong>  $ \int kf(x) , dx = k \int f(x) , dx $</li>
 <li><strong>Sum/Difference Rule:</strong>  $ \int [f(x) \pm g(x)]] , dx = \int f(x) , dx \pm \int g(x) , dx $</li>
 <li><strong>Integration by Substitution (u-substitution):</strong> A technique for simplifying <a href="./../integrals/">integrals</a> by substituting a new variable,  $ u $ , for a part of the integrand.</li>
 </ul>
 <p><strong>Example (u-substitution):</strong></p>
-<p>To evaluate  $ \int 2x(x^2 + [[1)^3 , dx $ , let  $ u = x^2 + [[1 $ , so  $ du = 2x , dx $ .  Then the integral becomes  $ \int u^3 , du = \frac{u^4}{4} + C = \frac{(x^2 + [[1)^4}{4} + C $ .</p>
+<p>To evaluate  $ \int 2x(x^2 + 1)^3 , dx $ , let  $ u = x^2 + 1 $ , so  $ du = 2x , dx $ .  Then the integral becomes  $ \int u^3 , du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C $ .</p>
 <h2 id="4-applications-of-integrals">4. Applications of Integrals</h2>
 <p>Integrals have numerous applications in Calculus AB, including:</p>
 <ul>
@@ -105,7 +105,7 @@ y = x
 </code></pre><ul>
 <li><strong>Average value of a function:</strong> The average value of  $ f(x) $  on the interval  $ [a, b]] $  is</li>
 </ul>
-<h3 id="-frac1b-a-int_ab-fx--dx---this-rundown-provides-a-concise-overview-of-integralsintegrals-in-calculus-ab--remember-to-practice-extensively-to-master-these-concepts-and-techniques">$$ \frac{[[1}{b-a} \int_a^b f(x) , dx $$  This rundown provides a concise overview of <a href="./../integrals/">integrals</a> in Calculus AB.  Remember to practice extensively to master these concepts and techniques.</h3>
+<h3 id="-frac1b-a-int_ab-fx--dx---this-rundown-provides-a-concise-overview-of-integralsintegrals-in-calculus-ab--remember-to-practice-extensively-to-master-these-concepts-and-techniques">$$ \frac{1}{b-a} \int_a^b f(x) , dx $$  This rundown provides a concise overview of <a href="./../integrals/">integrals</a> in Calculus AB.  Remember to practice extensively to master these concepts and techniques.</h3>
 <h1 id="integralsintegrals-1"><a href="./../integrals/">integrals</a></h1>
 
 </main>

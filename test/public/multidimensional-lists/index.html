@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -50,19 +50,19 @@
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># A 2D list (matrix)</span>
 </span></span><span style="display:flex;"><span>matrix <span style="color:#f92672">=</span> [
-</span></span><span style="display:flex;"><span>    [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>,
 </span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>,
 </span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">8</span>, <span style="color:#ae81ff">9</span>]]
 </span></span><span style="display:flex;"><span>]]
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># Accessing elements:</span>
-</span></span><span style="display:flex;"><span>print(matrix[<span style="color:#ae81ff">0</span>]][<span style="color:#ae81ff">0</span>]])  <span style="color:#75715e"># Output: [[1 (first row, first column)</span>
+</span></span><span style="display:flex;"><span>print(matrix[<span style="color:#ae81ff">0</span>]][<span style="color:#ae81ff">0</span>]])  <span style="color:#75715e"># Output: 1 (first row, first column)</span>
 </span></span><span style="display:flex;"><span>print(matrix12)  <span style="color:#75715e"># Output: 6 (second row, third column)</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># A 3D list (e.g., a cube of data)</span>
 </span></span><span style="display:flex;"><span>cube <span style="color:#f92672">=</span> [
-</span></span><span style="display:flex;"><span>    [[<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>,
 </span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>, [<span style="color:#ae81ff">7</span>, <span style="color:#ae81ff">8</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">7</span><span style="color:#f92672">-</span><span style="color:#ae81ff">8</span><span style="color:#f92672">/</span>),
 </span></span><span style="display:flex;"><span>    [<span style="color:#ae81ff">9</span>, <span style="color:#ae81ff">10</span>](<span style="color:#f92672">./../</span><span style="color:#ae81ff">9</span><span style="color:#f92672">-</span><span style="color:#ae81ff">10</span><span style="color:#f92672">/</span>), [<span style="color:#ae81ff">11</span>, <span style="color:#ae81ff">12</span>]]
 </span></span><span style="display:flex;"><span>]]

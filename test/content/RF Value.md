@@ -19,7 +19,7 @@ The Rf value is calculated using the following formula:
 
 ## Interpretation
 
-* **Rf values range from 0 to 1.**  An Rf value of 0 indicates that the component did not move from the origin, while an Rf value of [[1 indicates that the component traveled with the solvent front.
+* **Rf values range from 0 to 1.**  An Rf value of 0 indicates that the component did not move from the origin, while an Rf value of 1 indicates that the component traveled with the solvent front.
 * **A specific component will ideally have a consistent Rf value** under the same chromatographic conditions ([Stationary Phase](./../stationary-phase/), [Mobile Phase](./../mobile-phase/), temperature).  This makes Rf values useful for identifying unknown substances by comparing their Rf values to known standards.
 * **Different components in a mixture will ideally have different Rf values**, allowing for separation and identification.  If two components have very similar or identical Rf values, it may indicate that they are the same substance or that the chromatographic system is not suitable for separating them effectively.
 

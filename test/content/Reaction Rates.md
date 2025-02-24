@@ -49,7 +49,7 @@ Integrated [Rate Laws](./../rate-laws/) relate the concentration of a reactant t
 
 ## Half-Life
 
-Half-life ( $ t_{[[1/2} $ ) is the time required for the concentration of a reactant to decrease to half its initial value.  It is a useful concept for understanding the rate of decay processes, including radioactive decay and first-order [chemical reactions](./../chemical-reactions/).  [Half-Life Calculations](./../half-life-calculations/)
+Half-life ( $ t_{1/2} $ ) is the time required for the concentration of a reactant to decrease to half its initial value.  It is a useful concept for understanding the rate of decay processes, including radioactive decay and first-order [chemical reactions](./../chemical-reactions/).  [Half-Life Calculations](./../half-life-calculations/)
 
 ## [Reaction Mechanisms](./../reaction-mechanisms/)
 

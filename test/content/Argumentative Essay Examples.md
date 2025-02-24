@@ -16,7 +16,7 @@
 
 **Examples to Analyze:**
 
-* **Example [1:  The ethics of artificial intelligence.**  Focus on specific ethical dilemmas (job displacement, algorithmic bias) and their societal impact.  Need to find strong sources on this. [[AI Ethics Sources](./../1:--the-ethics-of-artificial-intelligence.**--focus-on-specific-ethical-dilemmas-(job-displacement-algorithmic-bias)-and-their-societal-impact.--need-to-find-strong-sources-on-this.-[[ai-ethics-sources/)
+* **Example 1:  The ethics of artificial intelligence.**  Focus on specific ethical dilemmas (job displacement, algorithmic bias) and their societal impact.  Need to find strong sources on this. [AI Ethics Sources](./../ai-ethics-sources/)
 * **Example 2: The effectiveness of different learning styles.**  Compare and contrast visual, auditory, and kinesthetic learning; analyze research studies supporting/refuting their relative effectiveness.  [Learning Styles Research](./../learning-styles-research/)
 * **Example 3:  The impact of social media on mental health.** This requires a nuanced approach, acknowledging both positive and negative aspects.  Correlations vs. Causation must be carefully addressed. [Social Media & Mental Health - Data](./../social-media-&-mental-health---data/)
 

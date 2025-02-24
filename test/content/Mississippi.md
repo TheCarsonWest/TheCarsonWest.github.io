@@ -11,7 +11,7 @@
 * **1833:** [Mississippi](./../mississippi/) Secession Convention rejects the Tariff of 1832.
 * **1861:** [Mississippi](./../mississippi/) secedes from the Union and joins the Confederate States of America.
 * **1863:** Vicksburg Campaign culminates in the surrender of Confederate forces, giving the Union control of the [Mississippi](./../mississippi/) River.
-* **1865:** [Mississippi](./../mississippi/) readmitted to the Union after ratifying the [13th amendment](./../13th-amendment/).
+* **1865:** [Mississippi](./../mississippi/) readmitted to the Union after ratifying the 13th amendment]].
 * **1870:** Hiram Rhodes Revels becomes the first African American to serve in the U.S. Senate from [Mississippi](./../mississippi/).
 * **1890:** [Mississippi](./../mississippi/) adopts a poll tax and literacy test, restricting African American voting rights.
 * **1954:** Brown v. Board of Education, a landmark Supreme Court case, declares racial segregation in public schools unconstitutional.

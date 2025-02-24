@@ -18,14 +18,14 @@ Lattice energy ( $ U $ ) is the **enthalpy change** associated with the **format
 The Born-Haber cycle is a thermodynamic cycle that allows us to calculate lattice energy indirectly. It involves a series of steps, including:
 
 1. **Sublimation of the metal:**  $ M(s) \rightarrow M(g) $ 
-2. **Dissociation of the nonmetal:**  $ \frac{[[1}{2} X_2(g) \rightarrow X(g) $ 
+2. **Dissociation of the nonmetal:**  $ \frac{1}{2} X_2(g) \rightarrow X(g) $ 
 3. **Ionization of the metal:**  $ M(g) \rightarrow M^+(g) + e^- $ 
 4. **[Electron affinity](./../electron-affinity/) of the nonmetal:**  $ X(g) + e^- \rightarrow X^-(g) $ 
 5. **Formation of the ionic compound:**  $ M^+(g) + X^-(g) \rightarrow MX(s) $ 
 
 The [Enthalpy](./../enthalpy/) changes for each step are known, and lattice energy can be calculated using Hess's Law:
 
- $ U = \Delta H_{sub} + \frac{[[1}{2} \Delta H_{diss} + IE + EA - \Delta H_f $ 
+ $ U = \Delta H_{sub} + \frac{1}{2} \Delta H_{diss} + IE + EA - \Delta H_f $ 
 
 where:
 

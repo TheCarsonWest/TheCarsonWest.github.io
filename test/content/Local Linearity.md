@@ -21,12 +21,12 @@ The tangent line to the graph of  $ y=f(x) $  at the point  $ (a,f(a)) $  is the
 
 Using the point-slope form of a line, the equation of the tangent line is given by:
 #  $$ y - f(a) = f'(a)(x-a) $$  **Example:**
-Consider the function  $ f(x) = x^2 $ . The [Derivative](./../derivative/) of  $ f(x) $  is  $ f'(x) = 2x $ . At the point  $ ([[1,[[1) $ , the slope of the tangent line is  $ f'([[1) = 2 $ . 
+Consider the function  $ f(x) = x^2 $ . The [Derivative](./../derivative/) of  $ f(x) $  is  $ f'(x) = 2x $ . At the point  $ (1,1) $ , the slope of the tangent line is  $ f'(1) = 2 $ . 
 Therefore, the equation of the tangent line is:
- $$ y - [[1 = 2(x-[[1) $$  
+ $$ y - 1 = 2(x-1) $$  
 ```desmos-graph
 y = x^2
-y - [[1 = 2(x-[[1)
+y - 1 = 2(x-1)
 ```
 
 # [Test for the Accuracy of Local Linearity](./../test-for-the-accuracy-of-local-linearity/)

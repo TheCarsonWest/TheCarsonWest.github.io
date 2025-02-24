@@ -59,6 +59,6 @@ The strength of an argument ( $ S $ ) could be (hypothetically) modeled as:
 *  $ L $  = Logical soundness
 *  $ B $  = Bias level (lower is better)
 
-##  $$ S = \frac{E \times L}{[[1 + B} $$ ##
+##  $$ S = \frac{E \times L}{1 + B} $$ ##
 
 This is a simplified representation; the actual relationship is likely much more complex.

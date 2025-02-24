@@ -38,11 +38,11 @@
 
 The following is an example of calculating the mean:
 
- $ Mean = \frac{\sum_{i=[[1}^{n} x_i}{n} $ 
+ $ Mean = \frac{\sum_{i=1}^{n} x_i}{n} $ 
 
 The variance can be calculated using the following equation:
 
-##  $$ Variance = \frac{\sum_{i=[[1}^{n}(x_i - \bar{x})^2}{n-[[1} $$  
+##  $$ Variance = \frac{\sum_{i=1}^{n}(x_i - \bar{x})^2}{n-1} $$  
 [Formatting APA References](./../formatting-apa-references/)  ([Specific APA Styles](./../specific-apa-styles/), [Common APA Errors](./../common-apa-errors/))
 
 

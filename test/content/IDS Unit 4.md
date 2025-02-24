@@ -43,9 +43,9 @@
 31. [The Assassination of Abraham Lincoln](./../the-assassination-of-abraham-lincoln/)
 
 ## Reconstruction
-32. [13th amendment](./../13th-amendment/)
-33. [14th amendment](./../14th-amendment/)
-34. [15th amendment](./../15th-amendment/)
+32. 13th amendment]]
+33. 14th amendment]]
+34. 15th amendment]]
 35. [Radical Republicans](./../radical-republicans/)
 36. [Black Codes](./../black-codes/)
 37. [Civil Rights Act of 1866](./../civil-rights-act-of-1866/)

@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -52,7 +52,7 @@
 <li><strong>Key-Value Pairs:</strong>  Data is stored as key-value pairs, allowing for efficient lookups using keys.</li>
 <li><strong>Mutability:</strong> <a href="./../dictionaries/">Dictionaries</a> are mutable, meaning you can add, remove, or modify elements after creation.</li>
 <li><strong>Unordered:</strong>  Prior to Python 3.7, dictionaries were unordered.  While they appear ordered in later versions, relying on this order is not recommended for code portability.</li>
-<li><strong>Hashing:</strong> <a href="./../dictionaries/">Dictionaries</a> utilize hashing for efficient key lookups.  This means that accessing a value by its key is typically very fast, O([[1) on average.</li>
+<li><strong>Hashing:</strong> <a href="./../dictionaries/">Dictionaries</a> utilize hashing for efficient key lookups.  This means that accessing a value by its key is typically very fast, O(1) on average.</li>
 </ul>
 <p><strong>Creating <a href="./../dictionaries/">Dictionaries</a>:</strong></p>
 <p>There are several ways to create dictionaries:</p>

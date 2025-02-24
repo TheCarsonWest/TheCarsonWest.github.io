@@ -19,9 +19,9 @@ Mathematically, this can be expressed as:
 #  $$ \frac{Rate_1}{Rate_2} = \sqrt{\frac{M_2}{M_1}} $$  
 Where:
 
-*  $ Rate_1 $  is the rate of effusion of gas [[1
+*  $ Rate_1 $  is the rate of effusion of gas 1
 *  $ Rate_2 $  is the rate of effusion of gas 2
-*  $ M_1 $  is the molar mass of gas [[1
+*  $ M_1 $  is the molar mass of gas 1
 *  $ M_2 $  is the molar mass of gas 2
 
 This relationship makes intuitive sense.  Lighter molecules, on average, move faster than heavier molecules at the same [Temperature](./../temperature/). [Kinetic Molecular Theory](./../kinetic-molecular-theory/) Therefore, they are more likely to encounter and pass through the small opening.
@@ -30,7 +30,7 @@ This relationship makes intuitive sense.  Lighter molecules, on average, move fa
 
 Let's work through a couple of examples to solidify our understanding.
 
-**Example [[1:** Compare the effusion rates of hydrogen gas (H₂) and oxygen gas (O₂).
+**Example 1:** Compare the effusion rates of hydrogen gas (H₂) and oxygen gas (O₂).
 
 * Molar mass of H₂ = 2.02 g/mol
 * Molar mass of O₂ = 32.00 g/mol
@@ -40,7 +40,7 @@ This means hydrogen gas effuses approximately 3.98 times faster than oxygen gas.
 
 **Example 2:** An unknown gas effuses 1.42 times faster than oxygen gas. What is the molar mass of the unknown gas?
 
-Let the unknown gas be gas [[1 and oxygen gas be gas 2.
+Let the unknown gas be gas 1 and oxygen gas be gas 2.
 
  $$  \frac{Rate_1}{Rate_2} = 1.42  $$   $$  M_2 = 32.00 \, g/mol  $$  
  $$  1.42 = \sqrt{\frac{32.00}{M_1}}  $$   $$  1.42^2 = \frac{32.00}{M_1}  $$   $$  M_1 = \frac{32.00}{1.42^2} \approx 15.9 \, g/mol  $$  

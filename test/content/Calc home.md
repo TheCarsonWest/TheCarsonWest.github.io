@@ -5,7 +5,7 @@
 +++
 # [nexus](./../nexus/)
 # [Calc Rules and theorems](./../calc-rules-and-theorems/)
-# Unit [[1
+# Unit 1
 ### [Calculus Limits](./../calculus-limits/)
 ### [Indeterminate Forms](./../indeterminate-forms/)
 # Unit 2/3 - [derivative](./../derivative/) stuff

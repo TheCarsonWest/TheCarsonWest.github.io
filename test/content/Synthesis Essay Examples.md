@@ -23,7 +23,7 @@
 
 **Examples to Analyze:**
 
-* **Example [1:**  Find an essay focusing on the impact of social media on mental health.  Analyze how the writer synthesizes different studies and perspectives to support their argument.  Pay attention to the use of evidence and the overall structure. [[Social Media & Mental Health Essay Example](./../1:**--find-an-essay-focusing-on-the-impact-of-social-media-on-mental-health.--analyze-how-the-writer-synthesizes-different-studies-and-perspectives-to-support-their-argument.--pay-attention-to-the-use-of-evidence-and-the-overall-structure.-[[social-media-&-mental-health-essay-example/)
+* **Example 1:**  Find an essay focusing on the impact of social media on mental health.  Analyze how the writer synthesizes different studies and perspectives to support their argument.  Pay attention to the use of evidence and the overall structure. [Social Media & Mental Health Essay Example](./../social-media-&-mental-health-essay-example/)
 
 * **Example 2:**  Find an essay on a literary topic, perhaps analyzing a recurring theme across multiple works.  Focus on how the writer compares and contrasts different interpretations and supports their own analysis. [Literary Analysis Essay Example](./../literary-analysis-essay-example/)
 

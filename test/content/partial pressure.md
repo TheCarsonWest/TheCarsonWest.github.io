@@ -10,7 +10,7 @@
 # Very simple equation
 
 #  $$ P_{t}=\sum P_{n} $$  ### Or for dummies:
-  $$ P_{t} = P_{[1}+P_{2}+\ ...\ + P_{n} $$  # To find one element's [[partial pressure](./../1}+p_{2}+\-...\-+-p_{n}-$$--#-to-find-one-elements-[[partial-pressure/)
+  $$ P_{t} = P_{1}+P_{2}+\ ...\ + P_{n} $$  # To find one element's [partial pressure](./../partial-pressure/)
 #  $$ P_A = x_A P_A^* $$  where:
 
 *  $ P_A $  is the [partial pressure](./../partial-pressure/) of component A

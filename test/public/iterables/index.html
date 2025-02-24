@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -60,11 +60,11 @@
 </ul>
 <p><strong>Examples:</strong></p>
 <ul>
-<li><a href="./../lists/">Lists</a>: <code>my_list = [[1, 2, 3</code></li>
-<li><a href="./../tuples/">Tuples</a>: <code>my_tuple = ([[1, 2, 3)</code></li>
+<li><a href="./../lists/">Lists</a>: <code>my_list = 1, 2, 3</code></li>
+<li><a href="./../tuples/">Tuples</a>: <code>my_tuple = (1, 2, 3)</code></li>
 <li>Strings: <code>my_string = &quot;abc&quot;</code></li>
-<li>Sets: <code>my_set = {[[1, 2, 3}</code></li>
-<li><a href="./../dictionaries/">Dictionaries</a> (keys or values): <code>my_dict = {&quot;a&quot;: [[1, &quot;b&quot;: 2}</code></li>
+<li>Sets: <code>my_set = {1, 2, 3}</code></li>
+<li><a href="./../dictionaries/">Dictionaries</a> (keys or values): <code>my_dict = {&quot;a&quot;: 1, &quot;b&quot;: 2}</code></li>
 <li><a href="./../generators/">Generators</a>:  These are special iterable objects that generate values on demand.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Example with a list (iterable)</span>

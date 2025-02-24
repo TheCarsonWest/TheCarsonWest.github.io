@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -49,10 +49,10 @@
 <p>Bitwise operators work directly on the individual bits of integers.  They are rarely used in typical Python programming but are essential for low-level programming, working with hardware, or specific optimization scenarios.</p>
 <p><strong>Types of <a href="./../bitwise-operators/">Bitwise Operators</a>:</strong></p>
 <ul>
-<li><code>&amp;</code> (AND):  Returns [[1 if both bits are [[1, otherwise 0.</li>
-<li><code>|</code> (OR): Returns [[1 if at least one bit is [[1, otherwise 0.</li>
-<li><code>^</code> (XOR): Returns [[1 if the bits are different, otherwise 0.</li>
-<li><code>~</code> (NOT): Inverts all bits (0 becomes [[1, [[1 becomes 0).</li>
+<li><code>&amp;</code> (AND):  Returns 1 if both bits are 1, otherwise 0.</li>
+<li><code>|</code> (OR): Returns 1 if at least one bit is 1, otherwise 0.</li>
+<li><code>^</code> (XOR): Returns 1 if the bits are different, otherwise 0.</li>
+<li><code>~</code> (NOT): Inverts all bits (0 becomes 1, 1 becomes 0).</li>
 <li><code>&lt;&lt;</code> (Left Shift): Shifts bits to the left by a specified number of positions, filling with 0s on the right.</li>
 <li><code>&gt;&gt;</code> (Right Shift): Shifts bits to the right by a specified number of positions.  The behavior of the leftmost bit depends on the signedness of the integer (generally filled with the sign bit in two&rsquo;s complement).</li>
 </ul>
@@ -65,7 +65,7 @@
 </span></span><span style="display:flex;"><span>print(a <span style="color:#f92672">^</span> b)  <span style="color:#75715e"># Output: 14 (Binary: 1110)</span>
 </span></span><span style="display:flex;"><span>print(<span style="color:#f92672">~</span>a)   <span style="color:#75715e"># Output: -11 (depends on system&#39;s representation of negative numbers)</span>
 </span></span><span style="display:flex;"><span>print(a <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">2</span>) <span style="color:#75715e"># Output: 40 (Binary: 101000)</span>
-</span></span><span style="display:flex;"><span>print(a <span style="color:#f92672">&gt;&gt;</span> [[<span style="color:#ae81ff">1</span>) <span style="color:#75715e"># Output: 5  (Binary: 0101)</span>
+</span></span><span style="display:flex;"><span>print(a <span style="color:#f92672">&gt;&gt;</span> <span style="color:#ae81ff">1</span>) <span style="color:#75715e"># Output: 5  (Binary: 0101)</span>
 </span></span></code></pre></div><p><strong><a href="./../twos-complement/">Twos Complement</a></strong>  (This needs a separate explanation)</p>
 <p><strong><a href="./../binary-representation-of-numbers/">Binary Representation of Numbers</a></strong> (This also needs a separate explanation)</p>
 <p><strong>Use Cases:</strong></p>

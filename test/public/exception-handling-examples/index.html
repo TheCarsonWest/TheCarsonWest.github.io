@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -47,7 +47,7 @@
 <h1 id="exception-handlingexception-handling"><a href="./../exception-handling/">Exception Handling</a></h1>
 <h1 id="exception-handling-examplesexception-handling-examples"><a href="./../exception-handling-examples/">Exception Handling Examples</a></h1>
 <p>This note covers examples of exception handling in Python.  The core concept is using <code>try...except</code> blocks to gracefully handle errors that might occur during program execution.  Refer to <a href="./../python-exceptions/">Python Exceptions</a> for a comprehensive list of built-in exceptions.</p>
-<p><strong>Example [[1: Handling <code>FileNotFoundError</code></strong></p>
+<p><strong>Example 1: Handling <code>FileNotFoundError</code></strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
 </span></span><span style="display:flex;"><span>        contents <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()

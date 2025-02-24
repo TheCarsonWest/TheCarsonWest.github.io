@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -56,16 +56,16 @@
 </ul>
 <h2 id="multi-step-mechanisms">Multi-Step Mechanisms</h2>
 <p>Most reactions proceed through multiple elementary steps.  The overall rate law for these reactions is determined by the rate-determining step.</p>
-<h3 id="case-1--rds-is-the-first-step">Case [[1:  RDS is the First Step</h3>
+<h3 id="case-1--rds-is-the-first-step">Case 1:  RDS is the First Step</h3>
 <p>If the slowest step is the first step, the rate law for the overall reaction is simply the rate law of that elementary step.  For example:</p>
-<p>Step [[1 (slow):   $ A + B \rightarrow C $
+<p>Step 1 (slow):   $ A + B \rightarrow C $
 Step 2 (fast):  $ C + D \rightarrow E $</p>
 <p>Overall Reaction:  $ A + B + D \rightarrow E $</p>
 <p>Rate Law: Rate =  $ k[A]][B]] $</p>
 <h3 id="case-2-rds-is-not-the-first-step">Case 2: RDS is Not the First Step</h3>
 <p>If the slowest step is not the first step, the rate law can be more complicated.  Intermediates formed in earlier, faster steps must be expressed in terms of reactants. This is done by assuming a fast equilibrium for the steps preceding the RDS.</p>
 <p><strong>Example:</strong></p>
-<p>Step [[1 (fast, reversible):  $ A \rightleftharpoons B + C $
+<p>Step 1 (fast, reversible):  $ A \rightleftharpoons B + C $
 Step 2 (slow):  $ B + D \rightarrow E $</p>
 <p>Overall Reaction:  $ A + D \rightarrow C + E $</p>
 <ol>
@@ -73,13 +73,13 @@ Step 2 (slow):  $ B + D \rightarrow E $</p>
 <p><strong>Rate Law for the RDS:</strong> Rate =  $ k[B]][D]] $</p>
 </li>
 <li>
-<p><strong>Express Intermediates in Terms of Reactants:</strong> Since step [[1 is fast and reversible, we can assume it is at equilibrium:</p>
+<p><strong>Express Intermediates in Terms of Reactants:</strong> Since step 1 is fast and reversible, we can assume it is at equilibrium:</p>
 <p>$ K_{eq} = \frac{[B]][C]]}{[A]]} $   where  $ K_{eq} $  is the equilibrium constant.</p>
 <p>Therefore,  $ [B]] = \frac{K_{eq}[A]]}{[C]]} $</p>
 </li>
 <li>
 <p><strong>Substitute into the RDS Rate Law:</strong></p>
-<p>Rate =  $ k\frac{K_{eq}[A]]}{[C]]}[D]] = k&rsquo;[A]][D]][C]]^{-[[1} $  where  $ k&rsquo; = kK_{eq} $</p>
+<p>Rate =  $ k\frac{K_{eq}[A]]}{[C]]}[D]] = k&rsquo;[A]][D]][C]]^{-1} $  where  $ k&rsquo; = kK_{eq} $</p>
 <p><a href="./../equilibrium-constant/">Equilibrium Constant</a>
 <a href="./../steady-state-approximation/">Steady-State Approximation</a></p>
 </li>

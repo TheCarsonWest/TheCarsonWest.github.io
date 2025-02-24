@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      };
+      </script>
     <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
 
-<script>
-  MathJax = {
-    tex: {
-      inlineMath: [['$', '$']]
-    },
-    svg: {
-      fontCache: 'global'
-    }
-  };
-  </script>
+
     
   </head>
 
@@ -56,9 +56,9 @@
 <li>Probability of an event A:  $ P(A) = \frac{\text{number of favorable outcomes}}{\text{total number of outcomes}} $   (for equally likely outcomes).</li>
 <li>Axioms of probability:
 <ul>
-<li>$ 0 \le P(A) \le [[1 $  for any event A.</li>
-<li>$ P(\Omega) = [[1 $</li>
-<li>If  $ A_1, A_2, &hellip; $  are mutually exclusive events, then  $ P(\bigcup_{i=[[1}^{\infty} A_i) = \sum_{i=[[1}^{\infty} P(A_i) $ .</li>
+<li>$ 0 \le P(A) \le 1 $  for any event A.</li>
+<li>$ P(\Omega) = 1 $</li>
+<li>If  $ A_1, A_2, &hellip; $  are mutually exclusive events, then  $ P(\bigcup_{i=1}^{\infty} A_i) = \sum_{i=1}^{\infty} P(A_i) $ .</li>
 </ul>
 </li>
 <li>Conditional probability:  $ P(A|B) = \frac{P(A \cap B)}{P(B)} $  if  $ P(B) &gt; 0 $ .</li>

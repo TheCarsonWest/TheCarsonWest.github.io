@@ -32,7 +32,7 @@
 
 **Timeline:**
 
-* **Week [[1 (Nov 26th - Dec 2nd):** Focus on [Calculus I Review](./../calculus-i-review/).  Spend 5 hours per day, concentrating on weak areas first.  Practice problems from textbook chapters 3-6.
+* **Week 1 (Nov 26th - Dec 2nd):** Focus on [Calculus I Review](./../calculus-i-review/).  Spend 5 hours per day, concentrating on weak areas first.  Practice problems from textbook chapters 3-6.
 * **Week 2 (Dec 3rd - Dec 9th):** [Linear Algebra Review](./../linear-algebra-review/).  Allocate 4 hours per day.  Work through past exams and practice problems.
 * **Week 3 (Dec 10th - Dec 14th):** [Probability and Statistics Review](./../probability-and-statistics-review/). 3 hours per day. Focus on applying concepts to real-world problems. [Practice Problems](./../practice-problems/) (Another note needed).
 * **Dec 15th:** Exam Day!
@@ -56,7 +56,7 @@
 **Daily Schedule Template:**
 
 * **Morning (8:00 AM - 12:00 PM):** Focus on one topic. Review notes and solve problems.
-* **Afternoon ([[1:00 PM - 5:00 PM):** Work on a different topic. Practice past exam questions.
+* **Afternoon (1:00 PM - 5:00 PM):** Work on a different topic. Practice past exam questions.
 * **Evening (6:00 PM - 8:00 PM):** Review the day's material. Identify areas needing further attention.
 
 
