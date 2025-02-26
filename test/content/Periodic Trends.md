@@ -5,7 +5,7 @@
 +++
 # [APCHEM Home](./../apchem-home/)
 
-# [Ptable.com]](https://ptable.com/?lang=en#Properties)
+# [Ptable.com](https://ptable.com/?lang=en#Properties)
 
 # [Ionization Energy](./../ionization-energy/)
 # [Atomic Radius](./../atomic-radius/)

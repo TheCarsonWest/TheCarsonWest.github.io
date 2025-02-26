@@ -47,7 +47,7 @@
 * **Inferential Statistics:**
     * Estimation: Point estimation (e.g., sample mean) and interval estimation (e.g., confidence intervals).
     * Hypothesis testing:  Formulating null and alternative hypotheses, choosing a test statistic, determining p-values, making decisions.
-    * [Hypothesis Testing](./../hypothesis-testing/)([t-test](./../t-test/), [z-test](./../z-test/), [Chi-squared test](./../chi-squared-test/))
+    * [Hypothesis Testing]([[t-test](./../hypothesis-testing]([[t-test/), [z-test](./../z-test/), [Chi-squared test](./../chi-squared-test/))
     * [Confidence Intervals](./../confidence-intervals/)
     * [Regression Analysis](./../regression-analysis/) (Linear regression, multiple regression)
 

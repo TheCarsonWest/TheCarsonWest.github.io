@@ -13,7 +13,7 @@
 	- Caucuses
 	- Dar-ul-Islam
 	- Arab Gulf States
-- ** [Functional Region](./../functional-region/)(Nodal)**: Organized around a focal point and activity.
+- ** [[Functional Region](Nodal)**: Organized around a focal point and activity.
 	- Centered around a node
 		- Capital Hill
 		- Wall Street
