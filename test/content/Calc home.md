@@ -36,3 +36,7 @@
 ### [Antiderivatives](./../antiderivatives/)
 ### [Constant of Integration](./../constant-of-integration/)
 ## [integrals](./../integrals/)
+# Unit 6: Differential Equations
+## [Differential Equations](./../differential-equations/)
+## [Slope Fields](./../slope-fields/)
+## [Separable Equations](./../separable-equations/)

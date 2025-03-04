@@ -20,8 +20,8 @@
 10. [Fugitive Slave Act](./../fugitive-slave-act/)
 11. [Popular Sovereignty](./../popular-sovereignty/)
 12. [Uncle Toms Cabin](./../uncle-toms-cabin/)
-13. [Kansas](./../kansas/)-[Nebraska Act](./../nebraska-act/)
-14. [Bleeding Kansas](./../bleeding-kansas/)
+13. [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act]]
+14. [[Bleeding [Kansas](./../kansas/)
 15. [Dred Scott v Sandford](./../dred-scott-v-sandford/)
 16. [New Republican Party 1850](./../new-republican-party-1850/)
 17. [Freeport Doctrine](./../freeport-doctrine/)
@@ -40,13 +40,13 @@
 28. [Gettysburg Address](./../gettysburg-address/)
 29. [Shermans March to Sea](./../shermans-march-to-sea/)
 30. [Surrender at Appomattox Courthouse](./../surrender-at-appomattox-courthouse/)
-31. [The Assassination of Abraham Lincoln](./../the-assassination-of-abraham-lincoln/)
+31. [The Assassination of [[Abraham Lincoln](./../the-assassination-of-[[abraham-lincoln/)
 
 ## Reconstruction
-32. 13th amendment]]
-33. 14th amendment]]
-34. 15th amendment]]
-35. [Radical Republicans](./../radical-republicans/)
+32. [13th amendment](./../13th-amendment/)
+33. [14th amendment](./../14th-amendment/)
+34. [15th amendment](./../15th-amendment/)
+35. [Radical [[Republicans](./../radical-[[republicans/)
 36. [Black Codes](./../black-codes/)
 37. [Civil Rights Act of 1866](./../civil-rights-act-of-1866/)
 38. [Reconstruction Act of 1867](./../reconstruction-act-of-1867/)

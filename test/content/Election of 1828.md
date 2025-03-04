@@ -21,4 +21,4 @@ A highly contested presidential election marked by intense campaigning and mudsl
 * **"Era of the Common Man":**  Jackson's presidency ushered in an era of populist politics, favoring the interests of the "common man" over the elite. 
 * **[Spoils System](./../spoils-system/):** Jackson's practice of rewarding his political supporters with government positions, known as the "[Spoils System](./../spoils-system/)," became a defining feature of his presidency. 
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS [[Unit 3](./../ids-[[unit-3/)

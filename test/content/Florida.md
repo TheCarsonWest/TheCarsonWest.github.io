@@ -10,7 +10,7 @@
 * **1513:** Juan Ponce de León explores the [Florida](./../florida/) coast.
 * **1565:** Pedro Menéndez de Avilés establishes the first permanent European settlement in [Florida](./../florida/), St. Augustine.
 * **1763:** [Great Britain](./../great-britain/) acquires [Florida](./../florida/) from [Spain](./../spain/) in the Treaty of Paris.
-* **1783:** [Spain](./../spain/) regains control of [Florida](./../florida/) in the [Treaty of Versailles](./../treaty-of-versailles/).
+* **1783:** [Spain](./../spain/) regains control of [Florida](./../florida/) in the [apush/ids/u6/Treaty of Versailles](./../apush/ids/u6/treaty-of-versailles/).
 * **1819:** [Spain](./../spain/) cedes [Florida](./../florida/) to the [United States](./../united-states/) in the Adams-Onís Treaty.
 * **1822:** [Florida](./../florida/) becomes a territory of the [United States](./../united-states/).
 * **1845:** [Florida](./../florida/) becomes the 27th state of the [United States](./../united-states/).

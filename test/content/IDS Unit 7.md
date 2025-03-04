@@ -1,0 +1,42 @@
++++
+ title = 'IDS Unit 7'
+[params]
+	author = 'Carson West'
++++
+
+# [ID Home](./../id-home/)
+
+4. [Bank Holiday](./../bank-holiday/)
+5. [Fireside Chats](./../fireside-chats/)
+6. [New Deal](./../new-deal/)
+7. [WPA](./../wpa/)
+8. [TVA](./../tva/)
+9. [CCC](./../ccc/)
+10. [AAA](./../aaa/)
+11. [Wagner Act](./../wagner-act/)
+12. [Return to Normalcy](./../return-to-normalcy/)
+13. [Red Scare](./../red-scare/)
+14. [Harlem Renaissance](./../harlem-renaissance/)
+15. [Flapper](./../flapper/)
+16. [Roaring 20s](./../roaring-20s/)
+17. [Stock Market Crash of 1929](./../stock-market-crash-of-1929/)
+18. [Dust Bowl](./../dust-bowl/)
+19. [Rugged Individualism](./../rugged-individualism/)
+20. [Reconstruction Finance Corporation](./../reconstruction-finance-corporation/)
+21. [Bonus Army](./../bonus-army/)
+22. [Great Depression](./../great-depression/)
+23. [Model T](./../model-t/)
+24. [Speakeasies](./../speakeasies/)
+25. [Lend-Lease Act](./../lend-lease-act/)
+26. [Allied Powers](./../allied-powers/)
+27. [Axis Powers](./../axis-powers/)
+28. [Nazism](./../nazism/)
+29. [Holocaust](./../holocaust/)
+30. [Manhattan Project](./../manhattan-project/)
+31. [Rosie the Riveter](./../rosie-the-riveter/)
+32. [Non-Aggression Pact](./../non-aggression-pact/)
+33. [Pearl Harbor Attack](./../pearl-harbor-attack/)
+34. [Battle of Stalingrad](./../battle-of-stalingrad/)
+35. [Battle of Midway](./../battle-of-midway/)
+36. [D-Day](./../d-day/)
+37. [Executive Order 9066](./../executive-order-9066/)

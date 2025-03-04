@@ -14,4 +14,4 @@ Declared the [United States](./../united-states/)' official neutrality in the co
 -  Angered pro-French Democratic-[Republicans](./../republicans/) who felt obligated to help [France](./../france/), leading to increased political partisanship between the Federalists and Democratic-[Republicans](./../republicans/).
 -  Contributed to strained relations with [France](./../france/), ultimately leading to the Quasi-War (an undeclared naval war) between 1798 and 1800. 
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS [[Unit 3](./../ids-[[unit-3/)

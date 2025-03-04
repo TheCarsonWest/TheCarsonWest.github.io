@@ -19,4 +19,4 @@ The first major financial crisis in the [United States](./../united-states/), ch
 - **Contributed to  [sectionalism](./../sectionalism/) :** The Panic hit different regions unevenly, with the South experiencing a more severe and prolonged downturn. This intensified sectional tensions over economic issues like tariffs and internal improvements. 
 - **Marked a shift in American economic life:**  The Panic marked a transition from a period of rapid expansion and speculation to one of greater economic uncertainty and caution.
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS [[Unit 3](./../ids-[[unit-3/)

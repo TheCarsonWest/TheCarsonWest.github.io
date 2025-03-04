@@ -57,4 +57,4 @@ While not directly related to solubility calculations, calculus concepts are cru
 * **[Intermolecular Forces](./../intermolecular-forces/):** Explain the different types of [intermolecular forces](./../intermolecular-forces/) and their role in solubility.
 * **[Henrys Law](./../henrys-law/):** Describe Henry's Law, which relates the solubility of a gas to its [partial pressure](./../partial-pressure/).
 * **[Common Ion Effect](./../common-ion-effect/):** Explain how the presence of a common ion affects solubility.
-* **[Differential Equation](./../differential-equation/):**  Provide a brief overview of differential equations and how they are solved, particularly using separation of variables.
+* **[Differential Equations](./../differential-equations/):**  Provide a brief overview of differential equations and how they are solved, particularly using separation of variables.

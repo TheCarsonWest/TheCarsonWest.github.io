@@ -3,25 +3,25 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Treaty of Versailles](./../treaty-of-versailles/)
+## ID: [apush/ids/u6/[[Treaty of Versailles](./../apush/ids/u6/[[treaty-of-versailles/)
 
 ## When: June 28, 1919
 
 ## Who: 
-* **[Allied Powers](./../allied-powers/):** Primarily the "Big Four":  [United States](./../united-states/) (President [Woodrow Wilson](./../woodrow-wilson/)), [Great Britain](./../great-britain/) (David Lloyd George), [France](./../france/) (Georges Clemenceau), and Italy (Vittorio Emanuele Orlando).  Germany was forced to accept the terms.
+* **[apush/ids/u6/[[Allied Powers](./../apush/ids/u6/[[allied-powers/):** Primarily the "Big Four":  [United States](./../united-states/) (President [Woodrow Wilson](./../woodrow-wilson/)), [Great Britain](./../great-britain/) (David Lloyd George), [France](./../france/) (Georges Clemenceau), and Italy (Vittorio Emanuele Orlando).  Germany was forced to accept the terms.
 
 ## What: 
-The [Treaty of Versailles](./../treaty-of-versailles/) formally ended World War I.  It imposed harsh penalties on Germany, including:
+The [apush/ids/u6/[[Treaty of Versailles](./../apush/ids/u6/[[treaty-of-versailles/) formally ended World War I.  It imposed harsh penalties on Germany, including:
 * Territorial losses (Alsace-Lorraine returned to [France](./../france/), etc.)
 * Demilitarization (reduction of military forces)
 * Reparations (massive financial payments to Allied powers for war damages)
 * Acceptance of war guilt (Article 231, the "war guilt clause").
 
 ## Impact: Why Significant?:
-* **[League of Nations](./../league-of-nations/):** While Wilson championed the [League of Nations](./../league-of-nations/) as part of the treaty, the US Senate ultimately refused to ratify the treaty, largely due to opposition to Article X (collective security clause). This decision isolated the US from international affairs in the interwar period.
+* **[apush/ids/u6/[[League of Nations](./../apush/ids/u6/[[league-of-nations/):** While Wilson championed the [apush/ids/u6/[[League of Nations](./../apush/ids/u6/[[league-of-nations/) as part of the treaty, the US Senate ultimately refused to ratify the treaty, largely due to opposition to Article X (collective security clause). This decision isolated the US from international affairs in the interwar period.
 * **German Resentment:** The harsh terms imposed on Germany fostered deep resentment and instability, contributing significantly to the rise of extremist groups (like the Nazis) and ultimately to the outbreak of World War II.
 * **Post-War Instability:** The Treaty did not successfully create a lasting peace in Europe.  The unresolved issues and economic hardship caused by the reparations fueled tensions and conflicts.
-* **Shift in Global Power:** The treaty marked a shift in global power dynamics, though its lasting effect on this shift was somewhat limited by the US's lack of involvement in the [League of Nations](./../league-of-nations/).
+* **Shift in Global Power:** The treaty marked a shift in global power dynamics, though its lasting effect on this shift was somewhat limited by the US's lack of involvement in the [apush/ids/u6/[[League of Nations](./../apush/ids/u6/[[league-of-nations/).
 * **Redistribution of Territory:** The treaty redrew the map of Europe, creating new nations and altering existing borders. This contributed to future political instability and border disputes.
 
 # [IDS Unit 6](./../ids-unit-6/)

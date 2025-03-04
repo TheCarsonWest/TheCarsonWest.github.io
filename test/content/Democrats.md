@@ -27,13 +27,13 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 ## **The [Gilded Age](./../gilded-age/) and [Progressivism](./../progressivism/) (1877-1917):**
 
 * **Industrialization:** The Democratic Party grappled with the challenges of industrialization, often supporting [labor unions](./../labor-unions/) and advocating for reform.
-* **Populism:** The party embraced populist movements, such a[Populist Party|s the **Populi](./../populist-party|s-the-**populi/)st Party** in the 1890s, which championed farmers' rights and challenged corporate power.
+* **Populism:** The party embraced populist movements, such a[Populist Party](./../populist-party/)|s the **Populi]]st Party** in the 1890s, which championed farmers' rights and challenged corporate power.
 * **[Progressivism](./../progressivism/):**  Some [Democrats](./../democrats/) embraced the Progressive movement, advocating for social justice and government regulation.
 
 ## **The 20th Century:**
 
-* **New Deal:** **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/)**'s presidency marked a significant shift, ushering in the **New Deal**, a series of programs aimed at addressing the Great Depression. This era cemented the Democratic Party's association with social welfare programs and government intervention in the economy.
-* **Civil Rights:**  The Democratic Party played a crucial role in the Civil Rights Movement, with figures like **[Lyndon B. Johnson](./../lyndon-b.-johnson/)** pushing for legislation to dismantle segregation and ensure equal rights.
+* **[New Deal](./../new-deal/):** **[Franklin D](./../franklin-d/). Roosevelt]]**'s presidency marked a significant shift, ushering in the **[New Deal](./../new-deal/)**, a series of programs aimed at addressing the [Great Depression](./../great-depression/). This era cemented the Democratic Party's association with social welfare programs and government intervention in the economy.
+* **Civil Rights:**  The Democratic Party played a crucial role in the Civil Rights Movement, with figures like **[Lyndon B](./../lyndon-b/). Johnson]]** pushing for legislation to dismantle segregation and ensure equal rights.
 * **Cold War:**  The party navigated the Cold War, supporting the containment of communism while also advocating for diplomacy and peaceful coexistence.
 
 ## **The Modern Era:**
@@ -45,9 +45,9 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 **Key Figures:**
 
 * **[Andrew Jackson](./../andrew-jackson/):** Seventh President, Founded the party.
-* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/):** Thirty-second President, architect of the New Deal
-* **[Harry S. Truman](./../harry-s.-truman/):** Thirty-third President, responsible for the Marshall Plan and NATO
-* **[Lyndon B. Johnson](./../lyndon-b.-johnson/):** Thirty-sixth President, championed the Civil Rights Act and the Great Society
+* **[Franklin D](./../franklin-d/). Roosevelt]]:** Thirty-second President, architect of the [New Deal](./../new-deal/)
+* **[Harry S](./../harry-s/). Truman]]:** Thirty-third President, responsible for the Marshall Plan and NATO
+* **[Lyndon B](./../lyndon-b/). Johnson]]:** Thirty-sixth President, championed the Civil Rights Act and the Great Society
 * **[Jimmy Carter](./../jimmy-carter/):** Thirty-ninth President, focused on doing absolutely nothing
 * **[Bill Clinton](./../bill-clinton/):** Forty-second President, focused on rizzing up his interns
 * **[Barack Obama](./../barack-obama/):** Forty-fourth President, first African-American president, focused on dividing the country and blowing up the middle east

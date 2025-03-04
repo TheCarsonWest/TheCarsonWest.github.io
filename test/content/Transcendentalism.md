@@ -19,4 +19,4 @@ A philosophical and literary movement that emphasized:
 * **Influenced Later Thinkers:** [Transcendentalism](./../transcendentalism/) laid the groundwork for later philosophical and literary movements, including  American Romanticism and the counterculture movement of the 1960s. 
 * **Enduring Legacy:** The core tenets of [Transcendentalism](./../transcendentalism/), such as self-reliance, individual responsibility, and the importance of nature, continue to resonate with American culture today. 
 
-# [IDS Unit 3](./../ids-unit-3/)
+# [IDS [[Unit 3](./../ids-[[unit-3/)
