@@ -22,4 +22,4 @@ A period in American history characterized by a sense of national unity and purp
 * **Expansion and Development:**  Policies like the [Monroe Doctrine](./../monroe-doctrine/) and the acquisition of [Florida](./../florida/) expanded US territory and influence.
 * **Seeds of  [Sectionalism](./../sectionalism/) :** Despite the surface harmony, issues like slavery and tariffs continued to simmer, eventually contributing to the rise of [sectionalism](./../sectionalism/) and the demise of this era. 
 
-# [IDS [[Unit 3](./../ids-[[unit-3/)
+# [IDS Unit 3](./../ids-unit-3/)

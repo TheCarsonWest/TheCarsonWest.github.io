@@ -32,7 +32,7 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 
 ## **The 20th Century:**
 
-* **[New Deal](./../new-deal/):** **[Franklin D](./../franklin-d/). Roosevelt]]**'s presidency marked a significant shift, ushering in the **[New Deal](./../new-deal/)**, a series of programs aimed at addressing the [Great Depression](./../great-depression/). This era cemented the Democratic Party's association with social welfare programs and government intervention in the economy.
+* **[New Deal](./../new-deal/):** **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/)]]**'s presidency marked a significant shift, ushering in the **[New Deal](./../new-deal/)**, a series of programs aimed at addressing the [Great Depression](./../great-depression/). This era cemented the Democratic Party's association with social welfare programs and government intervention in the economy.
 * **Civil Rights:**  The Democratic Party played a crucial role in the Civil Rights Movement, with figures like **[Lyndon B](./../lyndon-b/). Johnson]]** pushing for legislation to dismantle segregation and ensure equal rights.
 * **Cold War:**  The party navigated the Cold War, supporting the containment of communism while also advocating for diplomacy and peaceful coexistence.
 
@@ -45,7 +45,7 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 **Key Figures:**
 
 * **[Andrew Jackson](./../andrew-jackson/):** Seventh President, Founded the party.
-* **[Franklin D](./../franklin-d/). Roosevelt]]:** Thirty-second President, architect of the [New Deal](./../new-deal/)
+* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/)]]:** Thirty-second President, architect of the [New Deal](./../new-deal/)
 * **[Harry S](./../harry-s/). Truman]]:** Thirty-third President, responsible for the Marshall Plan and NATO
 * **[Lyndon B](./../lyndon-b/). Johnson]]:** Thirty-sixth President, championed the Civil Rights Act and the Great Society
 * **[Jimmy Carter](./../jimmy-carter/):** Thirty-ninth President, focused on doing absolutely nothing

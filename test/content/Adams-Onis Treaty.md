@@ -19,4 +19,4 @@ Treaty between the [United States](./../united-states/) and [Spain](./../spain/)
 * **Set the Stage for Further Western Expansion:** By defining the western boundary of the [Louisiana](./../louisiana/) Purchase]], the treaty helped pave the way for future U.S. expansion westward.
 * **Enhanced [John Quincy Adams](./../john-quincy-adams/)' Reputation:** The successful negotiation of the treaty bolstered Adams' diplomatic credentials, contributing to his later presidency. 
 
-# [IDS [[Unit 3](./../ids-[[unit-3/)
+# [IDS Unit 3](./../ids-unit-3/)

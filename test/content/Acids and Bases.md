@@ -3,9 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [nexus](./../nexus/)
-# [Acids and Bases](./../acids-and-bases/)
+# [APCHEM Home](./../apchem-home/)
 
+## [Acid-Base Indicators](./../acid-base-indicators/)
+
+## [Acid Dissociation Constant](./../acid-dissociation-constant/)
+## [Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/)
+## [Water as an Acid and Base](./../water-as-an-acid-and-base/)
+# [pH and pOH](./../ph-and-poh/)
 **Definition:**
 
 * **Arrhenius Acid:** Produces  $ H^+ $  ions (protons) in aqueous solution.  Example:  $ HCl \rightarrow H^+ + Cl^- $ 

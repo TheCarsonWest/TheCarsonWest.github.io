@@ -20,7 +20,7 @@ A group of approximately 43,000 demonstrators – made up of 17,000 U.S. World W
 ## Impact: Why Significant?:
 * **Public Perception of Hoover:** The violent dispersal of the [Bonus Army](./../bonus-army/) severely damaged President Hoover's reputation, further eroding public confidence in his ability to handle the [Great Depression](./../great-depression/).
 * **Increased Discontent:** Highlighted the desperation and suffering caused by the [Great Depression](./../great-depression/) and fueled public anger towards the government's perceived inaction.
-* **Election of FDR:** Contributed to Hoover's defeat in the 1932 election and paved the way for [Franklin D](./../franklin-d/). Roosevelt's [New Deal](./../new-deal/).
+* **Election of FDR:** Contributed to Hoover's defeat in the 1932 election and paved the way for [Franklin D. Roosevelt](./../franklin-d.-roosevelt/)'s [New Deal](./../new-deal/).
 * **Shift in Government Responsibility:** The event helped push the narrative of the government needing to assist/care for citizens in desperate economic need.
 * **Symbol of Economic Hardship:** Became a symbol of the widespread poverty and unemployment during the [Great Depression](./../great-depression/).
 

@@ -16,4 +16,4 @@ The Tariff of 1828, often referred to as the "[Tariff of Abominations](./../tari
 * **Strengthened Jacksonian Democracy:**  The crisis led to increased support for Jackson and his party, who advocated for a strong central government. 
 * **Precursor to the [Civil War](./../civil-war/):** The tariff was a significant early flashpoint in the growing tension between North and South, contributing to the eventual outbreak of the [Civil War](./../civil-war/). 
 
-# [IDS [[Unit 3](./../ids-[[unit-3/)
+# [IDS Unit 3](./../ids-unit-3/)

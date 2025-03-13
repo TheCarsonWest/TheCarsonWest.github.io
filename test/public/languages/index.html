@@ -13,23 +13,12 @@
     <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
     <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <script>
-      MathJax = {
-        tex: {
-          inlineMath: [['$', '$']]
-        },
-        svg: {
-          fontCache: 'global'
-        }
-      };
-      </script>
-      <script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-    </script>    
-    <script async src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML"></script>
-
-
-    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   </head>
 
   <body>
@@ -47,7 +36,7 @@
 </div>
 
 <main>
-<p><a href="./../unit-3/">Unit 3</a></p>
+<p><a href="./../aphg-unit-3/">APHG Unit 3</a></p>
 <h1 id="languageslanguages-are-cool"><a href="./../languages/">Languages</a> are cool</h1>
 <h1 id="major-earth-languageslanguages">Major Earth <a href="./../languages/">Languages</a>:</h1>
 <ul>
@@ -69,10 +58,7 @@ Probably around 95% of the worlds population speak one of these 7 languages</li>
 
 </main>
 
-  <footer>
-  
-  
-  </footer>
+
   </body>
 </html>
 

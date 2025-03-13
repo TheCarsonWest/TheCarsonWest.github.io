@@ -43,7 +43,7 @@ The Republican Party underwent a significant transformation in the latter half o
 * **1860:** [Abraham Lincoln](./../abraham-lincoln/)'s election, [Civil War](./../civil-war/) begins
 * **1865-1877:** [Reconstruction Act of 1867](./../reconstruction-act-of-1867/)
 * **1896 Mckinley's election marks beginning of long Republican dominance
-* **1932:** [Franklin D](./../franklin-d/). Roosevelt]]'s election ends Republican dominance
+* **1932:** [Franklin D. Roosevelt](./../franklin-d.-roosevelt/)]]'s election ends Republican dominance
 * **1964:** Goldwater's nomination marks a shift toward conservatism
 * **1980:** [Ronald Reagan](./../ronald-reagan/)'s election signals a conservative resurgence
 * **2000:** [George W](./../george-w/). Bush]]'s election

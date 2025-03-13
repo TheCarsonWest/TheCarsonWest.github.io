@@ -10,7 +10,7 @@
 ## Who: 
 * **Attackers:** Imperial Japanese Navy
 * **Attacked:** [United States](./../united-states/) Naval Base at Pearl Harbor, [Hawaii](./../hawaii/)
-* **President:** [Franklin D](./../franklin-d/). Roosevelt (President of the [United States](./../united-states/))
+* **President:** [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) (President of the [United States](./../united-states/))
 
 ## What: 
 

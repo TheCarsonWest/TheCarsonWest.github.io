@@ -9,7 +9,7 @@
 
 ## WHO: 
 *   **Affected:** The [Great Depression](./../great-depression/) affected virtually every American, with disproportionate impact on farmers, industrial workers, and African Americans.
-*   **Presidents:** [Herbert Hoover](./../herbert-hoover/) (initial response), [Franklin D](./../franklin-d/). Roosevelt ([New Deal](./../new-deal/))
+*   **Presidents:** [Herbert Hoover](./../herbert-hoover/) (initial response), [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) ([New Deal](./../new-deal/))
 *   **Economists:** Influential economists of the time included John Maynard Keynes, whose theories influenced [New Deal](./../new-deal/) policies.
 
 ## WHAT: 

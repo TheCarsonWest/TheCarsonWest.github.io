@@ -53,7 +53,7 @@ An international organization established after World War I to promote peace and
 
 ## Who: 
 * **[Herbert Hoover](./../herbert-hoover/):** President at the start of the Depression.
-* **[Franklin D](./../franklin-d/). Roosevelt:** President who implemented the [New Deal](./../new-deal/) to combat the Depression.
+* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/):** President who implemented the [New Deal](./../new-deal/) to combat the Depression.
 * **American Public:** Suffered widespread unemployment, poverty, and hardship.
 
 ## What: 
@@ -63,7 +63,7 @@ A severe worldwide economic downturn that began with the stock market crash of O
 ## Impact: Why Significant?: 
 * **Widespread Economic Hardship:**  Led to mass unemployment, bank failures, foreclosures, and poverty across the US and the globe.
 * **Hoover's Response:** Initially, President Hoover favored a limited government response, relying on voluntary cooperation and private charity. His policies were widely criticized as inadequate.
-* **Rise of the [New Deal](./../new-deal/):** The [Great Depression](./../great-depression/) led to the election of [Franklin D](./../franklin-d/). Roosevelt and the implementation of the [New Deal](./../new-deal/), a series of government programs and reforms designed to alleviate suffering and stimulate economic recovery.
+* **Rise of the [New Deal](./../new-deal/):** The [Great Depression](./../great-depression/) led to the election of [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) and the implementation of the [New Deal](./../new-deal/), a series of government programs and reforms designed to alleviate suffering and stimulate economic recovery.
 * **Expanded Role of Government:** The [New Deal](./../new-deal/) dramatically expanded the role of the federal government in the economy and in providing social welfare.
 * **Lasting Reforms:** The [New Deal](./../new-deal/) created many lasting programs and institutions, such as Social Security, the FDIC, and the [TVA](./../tva/), that continue to shape American society today.
 * **Changed Political Landscape:**  Shifted the Democratic party to favor a more interventionist role for the government.
@@ -76,7 +76,7 @@ A severe worldwide economic downturn that began with the stock market crash of O
 ## When: 1933-1939
 
 ## Who: 
-* **[Franklin D](./../franklin-d/). Roosevelt (FDR):** President of the [United States](./../united-states/).
+* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/) (FDR):** President of the [United States](./../united-states/).
 * **"Brain Trust":** Group of advisors who helped develop [New Deal](./../new-deal/) policies.
 * **Congress:** Passed [New Deal](./../new-deal/) legislation.
 
@@ -103,7 +103,7 @@ A series of programs and reforms enacted in the [United States](./../united-stat
 ## Who: 
 * **[Allied Powers](./../allied-powers/):** [United States](./../united-states/), [Great Britain](./../great-britain/), Soviet Union, [France](./../france/), etc.
 * **[Axis Powers](./../axis-powers/):** Germany, Japan, Italy
-* **[Franklin D](./../franklin-d/). Roosevelt (FDR):** President of the US during most of the war.
+* **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/) (FDR):** President of the US during most of the war.
 * **[Harry S](./../harry-s/). Truman:** President of the US at the end of the war.
 
 ## What: 

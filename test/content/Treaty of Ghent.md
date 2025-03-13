@@ -20,4 +20,4 @@ The [Treaty of Ghent](./../treaty-of-ghent/) was signed in Ghent, Belgium, endin
 * **Fueled Nationalism:** The war's outcome, despite the treaty's terms, fostered a sense of American national pride and unity, contributing to the [Era of Good Feelings](./../era-of-good-feelings/). 
 * **Shifted Focus Westward:** With the British threat in the east diminished, the [United States](./../united-states/) was free to expand westward, leading to increased conflict with Native American tribes. 
 
-# [IDS [[Unit 3](./../ids-[[unit-3/)
+# [IDS Unit 3](./../ids-unit-3/)

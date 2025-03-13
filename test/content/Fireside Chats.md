@@ -10,7 +10,7 @@
 ## Who: President Franklin Delano Roosevelt (FDR)
 
 ## What: 
-A series of informal radio addresses given by President [Franklin D](./../franklin-d/). Roosevelt to the American people. FDR used simple language and a conversational tone to explain complex issues, policies, and events directly to the public. These broadcasts covered topics such as the banking crisis, the [New Deal](./../new-deal/) programs, and the progress of World War II.
+A series of informal radio addresses given by President [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) to the American people. FDR used simple language and a conversational tone to explain complex issues, policies, and events directly to the public. These broadcasts covered topics such as the banking crisis, the [New Deal](./../new-deal/) programs, and the progress of World War II.
 
 ## Impact: Why Significant?: 
 * **Direct Communication:**  Established a direct line of communication between the President and the American people, bypassing traditional media and political intermediaries.

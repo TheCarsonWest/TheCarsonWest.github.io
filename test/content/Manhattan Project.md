@@ -10,7 +10,7 @@
 ## WHO:
 *   **Key Scientists:** [J](./../j/). Robert Oppenheimer (scientific director), Enrico Fermi, Leo Szilard, Albert Einstein (wrote letter urging action)
 *   **Military Leadership:** General Leslie Groves (military director)
-*   **Government:** President [Franklin D](./../franklin-d/). Roosevelt, President [Harry S](./../harry-s/). Truman
+*   **Government:** President [Franklin D. Roosevelt](./../franklin-d.-roosevelt/), President [Harry S](./../harry-s/). Truman
 *   **Participating Nations:** [United States](./../united-states/), United Kingdom, Canada
 
 ## WHAT:

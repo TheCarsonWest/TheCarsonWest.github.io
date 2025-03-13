@@ -16,4 +16,4 @@ A series of religious revivals that swept across the [United States](./../united
 - ** Democratization of American Christianity:**  Contributed to a more democratic and accessible form of [religion](./../religion/), shifting away from established hierarchies. 
 - **Increased Religious fervor:**  Deepend the religious landscape of the [United States](./../united-states/), shaping American identity and values. 
 
-# [IDS [[Unit 3](./../ids-[[unit-3/)
+# [IDS Unit 3](./../ids-unit-3/)

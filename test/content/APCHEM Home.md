@@ -4,6 +4,8 @@
 	author = 'Carson West'
 +++
 # [nexus](./../nexus/)
+
+# [Acids and Bases](./../acids-and-bases/)
 # [Thermodynamics](./../thermodynamics/)
 # [Equilibrium](./../equilibrium/)
 # [chemical reactions](./../chemical-reactions/)

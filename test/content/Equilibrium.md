@@ -13,6 +13,7 @@
 # [Le Chateliers Principle](./../le-chateliers-principle/)
 # [Base Dissociation Constant](./../base-dissociation-constant/)
 # [Salt Hydrolysis](./../salt-hydrolysis/)
+# [Solubility Product Constant](./../solubility-product-constant/)
 **Key Concepts:**
 
 * **Dynamic [Equilibrium](./../equilibrium/):**  A state where the rates of the forward and reverse reactions are equal, resulting in no net change in concentrations of reactants and products.   $ Rate_{forward} = Rate_{reverse} $ 
