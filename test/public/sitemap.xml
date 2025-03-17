@@ -112,6 +112,8 @@
   </url><url>
     <loc>http://example.org/aphg-unit-4/</loc>
   </url><url>
+    <loc>http://example.org/aphg-unit-5-agriculture/</loc>
+  </url><url>
     <loc>http://example.org/apostrophes/</loc>
   </url><url>
     <loc>http://example.org/approximation-techniques/</loc>
@@ -361,6 +363,8 @@
     <loc>http://example.org/committees-of-correspondence/</loc>
   </url><url>
     <loc>http://example.org/common-fallacies/</loc>
+  </url><url>
+    <loc>http://example.org/common-ion-effect/</loc>
   </url><url>
     <loc>http://example.org/common-pitfalls-with-mutability-and-immutability/</loc>
   </url><url>
@@ -917,6 +921,8 @@
     <loc>http://example.org/inverse-rule/</loc>
   </url><url>
     <loc>http://example.org/ion-concentration/</loc>
+  </url><url>
+    <loc>http://example.org/ionic-product-of-water-kw/</loc>
   </url><url>
     <loc>http://example.org/ionization-energy/</loc>
   </url><url>
@@ -1808,6 +1814,8 @@
   </url><url>
     <loc>http://example.org/type-hinting/</loc>
   </url><url>
+    <loc>http://example.org/types-of-agriculture/</loc>
+  </url><url>
     <loc>http://example.org/types-of-irony/</loc>
   </url><url>
     <loc>http://example.org/types-of-regions/</loc>
@@ -1827,6 +1835,10 @@
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-2/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>
@@ -1867,6 +1879,8 @@
     <loc>http://example.org/virginia/</loc>
   </url><url>
     <loc>http://example.org/virtual-environments/</loc>
+  </url><url>
+    <loc>http://example.org/vocablist/</loc>
   </url><url>
     <loc>http://example.org/vocabulary-lists/</loc>
   </url><url>
