@@ -126,6 +126,8 @@
   </url><url>
     <loc>http://example.org/apush-home/</loc>
   </url><url>
+    <loc>http://example.org/apush-id/</loc>
+  </url><url>
     <loc>http://example.org/apush-people/</loc>
   </url><url>
     <loc>http://example.org/apush-person/</loc>
@@ -1835,6 +1837,8 @@
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/untitled-1/</loc>
   </url><url>
