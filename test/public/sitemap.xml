@@ -18,8 +18,6 @@
   </url><url>
     <loc>http://example.org/aaaa/</loc>
   </url><url>
-    <loc>http://example.org/aasdas/</loc>
-  </url><url>
     <loc>http://example.org/abc-module/</loc>
   </url><url>
     <loc>http://example.org/abraham-lincoln/</loc>
@@ -42,6 +40,8 @@
   </url><url>
     <loc>http://example.org/adherents/</loc>
   </url><url>
+    <loc>http://example.org/agricultural-revolution/</loc>
+  </url><url>
     <loc>http://example.org/alabama/</loc>
   </url><url>
     <loc>http://example.org/alaska/</loc>
@@ -51,6 +51,8 @@
     <loc>http://example.org/alexander-hamilton/</loc>
   </url><url>
     <loc>http://example.org/allied-powers/</loc>
+  </url><url>
+    <loc>http://example.org/allied-powers-wwii/</loc>
   </url><url>
     <loc>http://example.org/alloys/</loc>
   </url><url>
@@ -171,6 +173,8 @@
     <loc>http://example.org/authorial-purpose/</loc>
   </url><url>
     <loc>http://example.org/autonomous-regions/</loc>
+  </url><url>
+    <loc>http://example.org/average-of-a-function/</loc>
   </url><url>
     <loc>http://example.org/avoiding-plagiarism/</loc>
   </url><url>
@@ -1164,6 +1168,8 @@
   </url><url>
     <loc>http://example.org/montana/</loc>
   </url><url>
+    <loc>http://example.org/movement-functions-with-integrals/</loc>
+  </url><url>
     <loc>http://example.org/mro/</loc>
   </url><url>
     <loc>http://example.org/multidimensional-lists/</loc>
@@ -1839,10 +1845,6 @@
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
-  </url><url>
-    <loc>http://example.org/untitled-1/</loc>
-  </url><url>
-    <loc>http://example.org/untitled-2/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>

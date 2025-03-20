@@ -8,7 +8,7 @@
 ## When: June 28, 1919
 
 ## Who: 
-* **[Allied Powers](./../allied-powers/):** Primarily the "Big Four":  [United States](./../united-states/) (President [Woodrow Wilson](./../woodrow-wilson/)), [Great Britain](./../great-britain/) (David Lloyd George), [France](./../france/) (Georges Clemenceau), and Italy (Vittorio Emanuele Orlando).  Germany was forced to accept the terms.
+* **[Allied Powers WWII](./../allied-powers-wwii/):** Primarily the "Big Four":  [United States](./../united-states/) (President [Woodrow Wilson](./../woodrow-wilson/)), [Great Britain](./../great-britain/) (David Lloyd George), [France](./../france/) (Georges Clemenceau), and Italy (Vittorio Emanuele Orlando).  Germany was forced to accept the terms.
 
 ## What: 
 The [Treaty of Versailles](./../treaty-of-versailles/) formally ended World War I.  It imposed harsh penalties on Germany, including:

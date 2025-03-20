@@ -48,7 +48,7 @@
 37. [Triple Alliance](./../triple-alliance/)
 38. [Triple Entente](./../triple-entente/)
 39. [Central Powers](./../central-powers/)
-40. [Allied Powers](./../allied-powers/)
+40. [Allied Powers WWII](./../allied-powers-wwii/)
 41. [Unrestricted Submarine Warfare](./../unrestricted-submarine-warfare/)
 42. [Sinking of the Lusitania](./../sinking-of-the-lusitania/)
 43. [Sussex Pledge](./../sussex-pledge/)

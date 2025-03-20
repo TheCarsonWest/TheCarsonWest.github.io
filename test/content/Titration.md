@@ -9,4 +9,3 @@
 - ### You have an unknown [molarity](./../molarity/) of another,
 - ### you [Double replacement reaction#neutralization|neutralize](./../double-replacement-reaction#neutralization|neutralize/) the solution
 - ### You do math the find the [molarity](./../molarity/) of the other
-

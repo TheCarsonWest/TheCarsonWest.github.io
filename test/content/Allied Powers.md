@@ -3,23 +3,34 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Allied Powers](./../allied-powers/)' Entry into WWI
+## ID: [Allied Powers](./../allied-powers/) (WWII)
 
-## When: September 5, 1914 (and ongoing)
+## When: 1939-1945 (specifically concerning WWII)
 
 ## Who:
-* **[Allied Powers](./../allied-powers/):** Primarily [Great Britain](./../great-britain/), [France](./../france/), and Russia (later joined by the [United States](./../united-states/), Italy, Japan, and others).
-* **[Central Powers](./../central-powers/):** Germany, Austria-Hungary, Ottoman Empire, Bulgaria
 
-## What: 
-Following the assassination of Archduke Franz Ferdinand on June 28, 1914, a series of alliances triggered a rapid escalation into a large-scale European conflict. By September 5th, 1914,  the [Allied Powers](./../allied-powers/) (primarily [Great Britain](./../great-britain/), [France](./../france/), and Russia) were formally at war with the [Central Powers](./../central-powers/) (Germany, Austria-Hungary, and their allies).  This marked the beginning of the major phase of fighting in World War I.
+*   **Primary Allies:**
+    *   **[Great Britain](./../great-britain/):** Initially led by Neville Chamberlain, later by Winston Churchill.
+    *   **[United States](./../united-states/):** Led by President [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) Roosevelt (until 1945) and then [Harry S. Truman](./../harry-s.-truman/). Truman.
+    *   **Soviet Union:** Led by Joseph Stalin (joined Allies after German invasion in 1941).
+    *   **China:** Led by Chiang Kai-shek.
+*   **Other Allied Nations:** [France](./../france/) (Free French Forces led by Charles de Gaulle), Poland, Canada, Australia, New Zealand, India, and numerous other nations.
+
+## What:
+
+*   The [Allied Powers](./../allied-powers/) were a coalition of nations united in their opposition to the [Axis Powers](./../axis-powers/) (primarily Germany, Italy, and Japan) during World War II.
+*   Their core goals were to defeat the [Axis Powers](./../axis-powers/), liberate territories occupied by them, and establish a post-war world order based on democracy, international cooperation, and collective security.
+*   The [Allied Powers](./../allied-powers/) employed a wide range of strategies, including military offensives on multiple fronts (Europe, Pacific, North Africa), naval blockades, strategic bombing, and support for resistance movements in occupied territories.
+*   Major Allied conferences (e.g., Casablanca, Tehran, Yalta, Potsdam) were held to coordinate war strategy and plan for the post-war world.
 
 ## Impact: Why Significant?:
-* **Global Conflict:** The involvement of the [Allied Powers](./../allied-powers/) transformed a European conflict into a global war, drawing in nations across continents.
-* **American Neutrality (Initially):** The US initially declared neutrality, but increasing German aggression (unrestricted submarine warfare, [Zimmerman Telegram](./../zimmerman-telegram/)) eventually led to US entry in 1917.
-* **Shift in Global Power:** WWI dramatically reshaped the global balance of power, leading to the decline of European empires and the rise of the [United States](./../united-states/) as a major global power.
-* **Economic Impact:** The war had a profound impact on the American economy, boosting industrial production, and accelerating the transition to a mass-production economy.
-* **Social Change:** The war significantly impacted American society, spurring social and political reforms, but also fueling anxieties about social unrest and radicalism ([Red Scare](./../red-scare/)).
-* **[Treaty of Versailles](./../treaty-of-versailles/) & [League of Nations](./../league-of-nations/):** The eventual Allied victory shaped the [Treaty of Versailles](./../treaty-of-versailles/), which imposed harsh terms on Germany and led to the creation of the [League of Nations](./../league-of-nations/) (although the US did not join). The consequences of the treaty contributed to the rise of extremist ideologies and ultimately to WWII.
 
-# [IDS Unit 6](./../ids-unit-6/)
+*   **Defeat of [Axis Powers](./../axis-powers/):** The Allied victory in World War II ended Nazi tyranny, Japanese expansionism, and Italian fascism.
+*   **Formation of the United Nations:** The Allied nations played a key role in establishing the United Nations (UN) in 1945, an international organization designed to prevent future wars and promote global cooperation.  This reflected the desire for a more effective [League of Nations](./../league-of-nations/).
+*   **Post-War World Order:** The Allies shaped the post-war world through the division of Germany, the occupation of Japan, and the establishment of new international institutions and economic systems (Bretton Woods System).
+*   **Rise of Superpowers:** The war significantly weakened [Great Britain](./../great-britain/) and [France](./../france/), leading to the emergence of the [United States](./../united-states/) and the Soviet Union as the world's two dominant superpowers, setting the stage for the Cold War.
+*   **Expansion of Democracy:** The defeat of authoritarian regimes during WWII contributed to the spread of democracy in Europe and other parts of the world, although this was complicated by the rise of Soviet influence in Eastern Europe.
+* **US Global Influence:** Increased US involvement in foreign affairs after isolationist sentiment of the 1920s.
+
+
+# [IDS Unit 7](./../ids-unit-7/)

@@ -17,6 +17,7 @@
 * Cold War
 * Korean War
 * Berlin Airlift
+* [Manhattan Project](./../manhattan-project/)
 
 **Important Legislation Signed:**
 * United Nations Charter (1945)

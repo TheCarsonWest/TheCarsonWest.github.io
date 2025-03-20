@@ -46,7 +46,7 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 
 * **[Andrew Jackson](./../andrew-jackson/):** Seventh President, Founded the party.
 * **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/)]]:** Thirty-second President, architect of the [New Deal](./../new-deal/)
-* **[Harry S](./../harry-s/). Truman]]:** Thirty-third President, responsible for the Marshall Plan and NATO
+* **[Harry S. Truman](./../harry-s.-truman/)]]:** Thirty-third President, responsible for the Marshall Plan and NATO
 * **[Lyndon B](./../lyndon-b/). Johnson]]:** Thirty-sixth President, championed the Civil Rights Act and the Great Society
 * **[Jimmy Carter](./../jimmy-carter/):** Thirty-ninth President, focused on doing absolutely nothing
 * **[Bill Clinton](./../bill-clinton/):** Forty-second President, focused on rizzing up his interns

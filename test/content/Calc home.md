@@ -40,3 +40,6 @@
 ## [Differential Equations](./../differential-equations/)
 ## [Slope Fields](./../slope-fields/)
 ## [Separable Equations](./../separable-equations/)
+# Unit 7: Applications of Integrals
+## [Average of a function](./../average-of-a-function/)
+## [Movement functions with integrals](./../movement-functions-with-integrals/)

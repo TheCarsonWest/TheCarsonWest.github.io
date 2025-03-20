@@ -28,7 +28,7 @@
 23. [Model T](./../model-t/)
 24. [Speakeasies](./../speakeasies/)
 25. [Lend-Lease Act](./../lend-lease-act/)
-26. [Allied Powers](./../allied-powers/)
+26. [Allied Powers WWII](./../allied-powers-wwii/)
 27. [Axis Powers](./../axis-powers/)
 28. [Nazism](./../nazism/)
 29. [Holocaust](./../holocaust/)
