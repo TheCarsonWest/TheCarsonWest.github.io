@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Title</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Get the part of the URL after the "?" or "#" symbol
+            const query = window.location.search || window.location.hash;
+
+            // Extract the value after "=" in the query string or hash
+            const title = query.split("=")[1];
+
+            // If a title is provided, decode and set it as the document's title
+            if (title) {
+                document.title = decodeURIComponent(title);
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Welcome to the Dynamic Title Website</h1>
+    <p>Change the title by adding <code>?title=YourTitle</code> or <code>#title=YourTitle</code> to the URL.</p>
+</body>
+</html>

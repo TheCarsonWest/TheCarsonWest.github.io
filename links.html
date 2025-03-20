@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Link Generator</h1>
+    <textarea id="terms" rows="10" cols="50" placeholder="Enter terms, one per line"></textarea>
+    <br>
+    <p>The first time you click the button below, it may only open 1 tab because of chrome's pop-up blocking, you have to come back and allow all popups, delete that tab, and click it again</p>
+    <button onclick="openAllLinks()">Open All Links</button>
+
+    <script>
+        function openAllLinks() {
+            const terms = document.getElementById('terms').value.split('\n');
+
+            terms.forEach(term => {
+                if (term.trim() !== '') {
+                    const query = encodeURIComponent(term);
+                    window.open(`./title.html?title=${query}`, '_blank');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
