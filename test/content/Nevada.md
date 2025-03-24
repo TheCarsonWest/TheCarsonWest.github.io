@@ -26,8 +26,7 @@
 * **1865:** [Nevada](./../nevada/) Legalizes Gambling
 * **1905:** [Nevada](./../nevada/) Passes [Pure Food and Drug Act](./../pure-food-and-drug-act/)
 * **1953:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Test Site Act
-* **1974:** [Nevada](./../nevada/) Passes Equal Rights Amendment
-* **1987:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Gaming Control Act
+* **1974:** [Nevada](./../nevada/) Passes [Equal Rights Amendment](./../equal-rights-amendment/) * **1987:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Gaming Control Act
 * **2019:** [Nevada](./../nevada/) Passes [Nevada](./../nevada/) Clean Energy Act
 
 **Important Court Cases:**

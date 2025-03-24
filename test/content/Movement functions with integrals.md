@@ -3,8 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-Make a AP Calculus AB rundown on Movement functions with integrals in markdown format(make use of headings), use the LaTeX equation library format when writing equations(Try to only use block equations, which you do by having  $$ two dollar signs $$ . For any topic that you believe needs its own independent explanation, enclose it in TWO brackets([like this](./../like-this/), make sure they are just short titles for seperate notes)]].
-
+# [Calc home](./../calc-home/)
 # Movement Functions with Integrals: AP Calculus AB Rundown
 
 This document provides a concise overview of movement functions and their relationship to integrals, as relevant to AP Calculus AB.
@@ -55,7 +54,7 @@ Where  $ v(t) \ge 0 $  on  $ [a, c] $ ,  $ v(t) \le 0 $  on  $ [c, d] $ , and  $
 *   **Average Velocity:** The displacement divided by the time interval:
 
  $$ \text{Average Velocity} = \frac{s(b) - s(a)}{b - a} = \frac{1}{b - a} \int_{a}^{b} v(t) \, dt $$  
-This is also the average value of the velocity function over the interval  $ [a, b] $ . [Average Value Theorem](./../average-value-theorem/)
+This is also the average value of the velocity function over the interval  $ [a, b] $ . [Average of a function](./../average-of-a-function/)
 
 *   **Average Speed:** The total distance traveled divided by the time interval:
 

@@ -28,7 +28,7 @@ The post-Reconstruction era saw the Republican Party's dominance challenged, mar
 The [Great Depression](./../great-depression/) and the [New Deal](./../new-deal/) significantly altered the political landscape.  While initially resisting some aspects of FDR's programs, the Republican Party eventually adapted its platform.  Key events:
 
 * **1930s-1960s:** The rise of the Democratic Party's dominance under the [New Deal](./../new-deal/) coalition. [Republicans](./../republicans/), generally seen as the party of business and fiscal conservatism, struggled to regain a national majority.
-* **1950s-1960s:**  The Civil Rights Movement presented a major challenge to the Republican Party. While some individual [Republicans](./../republicans/) supported civil rights, the party's Southern wing resisted desegregation efforts, leading to a gradual realignment of the electorate.
+* **1950s-1960s:**  The [Civil Rights Movement](./../civil-rights-movement/) presented a major challenge to the Republican Party. While some individual [Republicans](./../republicans/) supported civil rights, the party's Southern wing resisted desegregation efforts, leading to a gradual realignment of the electorate.
 
 **Late 20th and Early 21st Centuries (Conservative Resurgence to Present):**
 

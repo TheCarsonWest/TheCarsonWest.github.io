@@ -8,8 +8,8 @@
 **Events:**
 
 * Bay of Pigs Invasion (1961): Failed CIA-sponsored invasion of Cuba
-* Cuban Missile Crisis (1962): Nuclear standoff with the Soviet Union over Soviet missiles in Cuba
-* Berlin Wall erected (1961): Symbol of Cold War division
+* [Cuban Missile Crisis](./../cuban-missile-crisis/) (1962): Nuclear standoff with the Soviet Union over Soviet missiles in Cuba
+* Berlin Wall erected (1961): Symbol of [Cold War](./../cold-war/) division
 * Space Race: Accelerated efforts to explore space, including the first American in orbit (Alan Shepard)
 * Civil Rights Movement: Increased federal support for desegregation and civil rights
 
@@ -23,7 +23,7 @@
 
 * [Democrats](./../democrats/): Member of the [Democrats](./../democrats/)
 * Kennedy family: Part of a politically prominent family
-* Cold War advocate: Believed in containing the spread of communism
+* [Cold War](./../cold-war/) advocate: Believed in containing the spread of communism
 
 **Impact on the Country:**
 
@@ -31,7 +31,7 @@
  * Pushed for civil rights and social justice
  * Expanded social programs and government intervention in the economy
 * **Foreign Policy:**
- * Heightened Cold War tensions with the Soviet Union
+ * Heightened [Cold War](./../cold-war/) tensions with the Soviet Union
  * Improved relations with Latin America and Europe
  * Committed the [United States](./../united-states/) to the defense of South Vietnam
 * **Legacy:**

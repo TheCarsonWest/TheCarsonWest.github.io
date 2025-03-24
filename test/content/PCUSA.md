@@ -27,7 +27,7 @@ The Presbyterian Church (U.S.A.) ([PCUSA](./../pcusa/)) holds a significant, alb
 
 **Legislation Influenced (Indirectly):**
 
-The [PCUSA](./../pcusa/)'s influence on legislation is primarily indirect.  It's more accurate to say its advocacy and social activism have *shaped the context* within which legislation is debated and passed.  For example, its involvement in the Civil Rights Movement indirectly influenced landmark legislation like the Civil Rights Act of 1964 and the Voting Rights Act of 1965.  Similarly, its advocacy on issues like poverty and environmental protection has influenced policy debates.
+The [PCUSA](./../pcusa/)'s influence on legislation is primarily indirect.  It's more accurate to say its advocacy and social activism have *shaped the context* within which legislation is debated and passed.  For example, its involvement in the [Civil Rights Movement](./../civil-rights-movement/) indirectly influenced landmark legislation like the [Civil Rights Act of 1964](./../civil-rights-act-of-1964/) and the Voting Rights Act of 1965.  Similarly, its advocacy on issues like poverty and environmental protection has influenced policy debates.
 
 **Impact on the Country:**
 

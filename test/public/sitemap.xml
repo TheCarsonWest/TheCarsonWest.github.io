@@ -8,8 +8,6 @@
   </url><url>
     <loc>http://example.org/15th-amendment/</loc>
   </url><url>
-    <loc>http://example.org/1741354417.800715/</loc>
-  </url><url>
     <loc>http://example.org/1741354431.807582/</loc>
   </url><url>
     <loc>http://example.org/1741354442.818152/</loc>
@@ -182,6 +180,8 @@
   </url><url>
     <loc>http://example.org/azeotropes/</loc>
   </url><url>
+    <loc>http://example.org/baby-boom/</loc>
+  </url><url>
     <loc>http://example.org/bacons-rebellion/</loc>
   </url><url>
     <loc>http://example.org/bank-holiday/</loc>
@@ -262,6 +262,8 @@
   </url><url>
     <loc>http://example.org/br%C3%B8nsted-lowry-theory/</loc>
   </url><url>
+    <loc>http://example.org/brown-v-board-of-education/</loc>
+  </url><url>
     <loc>http://example.org/building-a-strong-logical-argument/</loc>
   </url><url>
     <loc>http://example.org/building-ethos/</loc>
@@ -287,6 +289,8 @@
     <loc>http://example.org/calorimetry/</loc>
   </url><url>
     <loc>http://example.org/calvin-coolidge/</loc>
+  </url><url>
+    <loc>http://example.org/camp-david-accords/</loc>
   </url><url>
     <loc>http://example.org/capital-compromise/</loc>
   </url><url>
@@ -336,6 +340,10 @@
   </url><url>
     <loc>http://example.org/civil-rights-act-of-1866/</loc>
   </url><url>
+    <loc>http://example.org/civil-rights-act-of-1964/</loc>
+  </url><url>
+    <loc>http://example.org/civil-rights-movement/</loc>
+  </url><url>
     <loc>http://example.org/civil-war/</loc>
   </url><url>
     <loc>http://example.org/classes-and-objects/</loc>
@@ -351,6 +359,8 @@
     <loc>http://example.org/code-readability-and-refactoring/</loc>
   </url><url>
     <loc>http://example.org/code-style-guides/</loc>
+  </url><url>
+    <loc>http://example.org/cold-war/</loc>
   </url><url>
     <loc>http://example.org/collision-reaction-theory/</loc>
   </url><url>
@@ -410,6 +420,8 @@
   </url><url>
     <loc>http://example.org/constructors/</loc>
   </url><url>
+    <loc>http://example.org/containment/</loc>
+  </url><url>
     <loc>http://example.org/context-managers/</loc>
   </url><url>
     <loc>http://example.org/contextual-applications-of-derivatives/</loc>
@@ -437,6 +449,8 @@
     <loc>http://example.org/critical-point/</loc>
   </url><url>
     <loc>http://example.org/cross-of-gold-speech/</loc>
+  </url><url>
+    <loc>http://example.org/cuban-missile-crisis/</loc>
   </url><url>
     <loc>http://example.org/cultural-diversion/</loc>
   </url><url>
@@ -594,11 +608,17 @@
   </url><url>
     <loc>http://example.org/endothermic-and-exothermic-reactions/</loc>
   </url><url>
+    <loc>http://example.org/energy-crisis-1973/</loc>
+  </url><url>
     <loc>http://example.org/enlightenment/</loc>
   </url><url>
     <loc>http://example.org/enthalpy/</loc>
   </url><url>
     <loc>http://example.org/entropy/</loc>
+  </url><url>
+    <loc>http://example.org/epa/</loc>
+  </url><url>
+    <loc>http://example.org/equal-rights-amendment/</loc>
   </url><url>
     <loc>http://example.org/equilibrium/</loc>
   </url><url>
@@ -657,6 +677,8 @@
     <loc>http://example.org/factors-affecting-rate-of-reaction/</loc>
   </url><url>
     <loc>http://example.org/federalist-papers/</loc>
+  </url><url>
+    <loc>http://example.org/feminine-mystique/</loc>
   </url><url>
     <loc>http://example.org/figurative-language-analysis/</loc>
   </url><url>
@@ -740,6 +762,8 @@
   </url><url>
     <loc>http://example.org/generators/</loc>
   </url><url>
+    <loc>http://example.org/geneva-accords/</loc>
+  </url><url>
     <loc>http://example.org/gentrification/</loc>
   </url><url>
     <loc>http://example.org/geographic-scale/</loc>
@@ -761,6 +785,8 @@
     <loc>http://example.org/getter-and-setter-methods/</loc>
   </url><url>
     <loc>http://example.org/gettysburg-address/</loc>
+  </url><url>
+    <loc>http://example.org/gi-bill/</loc>
   </url><url>
     <loc>http://example.org/gibbs-free-energy/</loc>
   </url><url>
@@ -796,9 +822,15 @@
   </url><url>
     <loc>http://example.org/great-migration/</loc>
   </url><url>
+    <loc>http://example.org/great-society/</loc>
+  </url><url>
     <loc>http://example.org/great-white-fleet/</loc>
   </url><url>
+    <loc>http://example.org/greensboro-sit-ins/</loc>
+  </url><url>
     <loc>http://example.org/grover-cleveland/</loc>
+  </url><url>
+    <loc>http://example.org/gulf-of-tonkin-resolution/</loc>
   </url><url>
     <loc>http://example.org/habaes-corpus-civil-war/</loc>
   </url><url>
@@ -871,6 +903,8 @@
     <loc>http://example.org/ids-unit-6/</loc>
   </url><url>
     <loc>http://example.org/ids-unit-7/</loc>
+  </url><url>
+    <loc>http://example.org/ids-unit-8/</loc>
   </url><url>
     <loc>http://example.org/if-elif-else-statements/</loc>
   </url><url>
@@ -998,6 +1032,8 @@
   </url><url>
     <loc>http://example.org/kittens/</loc>
   </url><url>
+    <loc>http://example.org/korean-war/</loc>
+  </url><url>
     <loc>http://example.org/labor-unions/</loc>
   </url><url>
     <loc>http://example.org/laissez-faire-government/</loc>
@@ -1023,6 +1059,8 @@
     <loc>http://example.org/lend-lease-act/</loc>
   </url><url>
     <loc>http://example.org/letters-from-a-farmer-in-pennsylvania/</loc>
+  </url><url>
+    <loc>http://example.org/levittown/</loc>
   </url><url>
     <loc>http://example.org/lewis-structures/</loc>
   </url><url>
@@ -1112,6 +1150,8 @@
   </url><url>
     <loc>http://example.org/market-revolution/</loc>
   </url><url>
+    <loc>http://example.org/marshall-plan/</loc>
+  </url><url>
     <loc>http://example.org/martin-van-buren/</loc>
   </url><url>
     <loc>http://example.org/maryland/</loc>
@@ -1122,11 +1162,15 @@
   </url><url>
     <loc>http://example.org/mayflower-compact/</loc>
   </url><url>
+    <loc>http://example.org/mccarthyism/</loc>
+  </url><url>
     <loc>http://example.org/mcculloch-v-maryland/</loc>
   </url><url>
     <loc>http://example.org/mean-value-theorem/</loc>
   </url><url>
     <loc>http://example.org/meat-inspection-act/</loc>
+  </url><url>
+    <loc>http://example.org/medicare-and-medicaid/</loc>
   </url><url>
     <loc>http://example.org/memoization-in-recursion/</loc>
   </url><url>
@@ -1168,6 +1212,10 @@
   </url><url>
     <loc>http://example.org/montana/</loc>
   </url><url>
+    <loc>http://example.org/montgomery-bus-boycott/</loc>
+  </url><url>
+    <loc>http://example.org/moral-majority/</loc>
+  </url><url>
     <loc>http://example.org/movement-functions-with-integrals/</loc>
   </url><url>
     <loc>http://example.org/mro/</loc>
@@ -1188,7 +1236,13 @@
   </url><url>
     <loc>http://example.org/natalist-policy/</loc>
   </url><url>
+    <loc>http://example.org/national-defense-education-act/</loc>
+  </url><url>
+    <loc>http://example.org/national-highway-act/</loc>
+  </url><url>
     <loc>http://example.org/national-scale/</loc>
+  </url><url>
+    <loc>http://example.org/nato/</loc>
   </url><url>
     <loc>http://example.org/natural-log-rule/</loc>
   </url><url>
@@ -1209,6 +1263,8 @@
     <loc>http://example.org/nevada/</loc>
   </url><url>
     <loc>http://example.org/new-deal/</loc>
+  </url><url>
+    <loc>http://example.org/new-frontier/</loc>
   </url><url>
     <loc>http://example.org/new-hampshire/</loc>
   </url><url>
@@ -1233,6 +1289,8 @@
     <loc>http://example.org/note-taking-strategies/</loc>
   </url><url>
     <loc>http://example.org/nouns-and-pronouns/</loc>
+  </url><url>
+    <loc>http://example.org/nsc-68/</loc>
   </url><url>
     <loc>http://example.org/nullification/</loc>
   </url><url>
@@ -1291,6 +1349,8 @@
     <loc>http://example.org/panic-of-1819/</loc>
   </url><url>
     <loc>http://example.org/parameter-ordering/</loc>
+  </url><url>
+    <loc>http://example.org/paris-accords/</loc>
   </url><url>
     <loc>http://example.org/partial-fraction-decomposition/</loc>
   </url><url>
@@ -1546,6 +1606,8 @@
   </url><url>
     <loc>http://example.org/robber-barons/</loc>
   </url><url>
+    <loc>http://example.org/roe-v-wade/</loc>
+  </url><url>
     <loc>http://example.org/rogerian-argumentation/</loc>
   </url><url>
     <loc>http://example.org/rolles-theorem/</loc>
@@ -1650,6 +1712,8 @@
   </url><url>
     <loc>http://example.org/south-dakota/</loc>
   </url><url>
+    <loc>http://example.org/southern-christian-leadership-conference/</loc>
+  </url><url>
     <loc>http://example.org/spain/</loc>
   </url><url>
     <loc>http://example.org/spanish-american-war/</loc>
@@ -1667,6 +1731,8 @@
     <loc>http://example.org/square-deal/</loc>
   </url><url>
     <loc>http://example.org/squeeze-theorem/</loc>
+  </url><url>
+    <loc>http://example.org/stagflation/</loc>
   </url><url>
     <loc>http://example.org/stamp-act/</loc>
   </url><url>
@@ -1704,6 +1770,8 @@
   </url><url>
     <loc>http://example.org/synthesis-reaction/</loc>
   </url><url>
+    <loc>http://example.org/taft-hartley-act/</loc>
+  </url><url>
     <loc>http://example.org/tags/</loc>
   </url><url>
     <loc>http://example.org/tammany-hall/</loc>
@@ -1738,6 +1806,8 @@
   </url><url>
     <loc>http://example.org/test-for-the-accuracy-of-local-linearity/</loc>
   </url><url>
+    <loc>http://example.org/tet-offensive/</loc>
+  </url><url>
     <loc>http://example.org/texas/</loc>
   </url><url>
     <loc>http://example.org/the-american-system/</loc>
@@ -1768,9 +1838,13 @@
   </url><url>
     <loc>http://example.org/thomas-nast/</loc>
   </url><url>
+    <loc>http://example.org/three-mile-island/</loc>
+  </url><url>
     <loc>http://example.org/timeliness-of-evidence/</loc>
   </url><url>
     <loc>http://example.org/titration/</loc>
+  </url><url>
+    <loc>http://example.org/to-secure-these-rights/</loc>
   </url><url>
     <loc>http://example.org/topic-refinement/</loc>
   </url><url>
@@ -1814,6 +1888,10 @@
   </url><url>
     <loc>http://example.org/triple-entente/</loc>
   </url><url>
+    <loc>http://example.org/truman-doctrine/</loc>
+  </url><url>
+    <loc>http://example.org/trumans-fair-deal/</loc>
+  </url><url>
     <loc>http://example.org/tuples/</loc>
   </url><url>
     <loc>http://example.org/tva/</loc>
@@ -1845,6 +1923,10 @@
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
   </url><url>
     <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-2/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>
@@ -1882,6 +1964,8 @@
   </url><url>
     <loc>http://example.org/vernacular-region/</loc>
   </url><url>
+    <loc>http://example.org/vietnam-war/</loc>
+  </url><url>
     <loc>http://example.org/virginia/</loc>
   </url><url>
     <loc>http://example.org/virtual-environments/</loc>
@@ -1889,6 +1973,8 @@
     <loc>http://example.org/vocablist/</loc>
   </url><url>
     <loc>http://example.org/vocabulary-lists/</loc>
+  </url><url>
+    <loc>http://example.org/voting-rights-act-of-1965/</loc>
   </url><url>
     <loc>http://example.org/wagner-act/</loc>
   </url><url>
@@ -1901,6 +1987,8 @@
     <loc>http://example.org/water-as-an-acid-and-base/</loc>
   </url><url>
     <loc>http://example.org/water-autoionization/</loc>
+  </url><url>
+    <loc>http://example.org/watergate-scandal/</loc>
   </url><url>
     <loc>http://example.org/web-dubois/</loc>
   </url><url>

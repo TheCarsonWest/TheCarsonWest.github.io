@@ -18,7 +18,7 @@
 
 ## What:
 * **First [Red Scare](./../red-scare/):**  A period of intense anti-communist hysteria fueled by the Bolshevik Revolution in Russia, labor unrest, and a series of bombings attributed to anarchists. It led to widespread fear of foreign influence and radical ideologies.
-* **Second [Red Scare](./../red-scare/):**  Driven by Cold War tensions with the Soviet Union and China, fears of espionage and subversion within the [United States](./../united-states/) intensified. Anti-communism became a dominant theme in American politics and culture.  Characterized by loyalty oaths, blacklisting, and aggressive investigations by government agencies and congressional committees.
+* **Second [Red Scare](./../red-scare/):**  Driven by [Cold War](./../cold-war/) tensions with the Soviet Union and China, fears of espionage and subversion within the [United States](./../united-states/) intensified. Anti-communism became a dominant theme in American politics and culture.  Characterized by loyalty oaths, blacklisting, and aggressive investigations by government agencies and congressional committees.
 
 ## Impact:
 * **Violation of Civil Liberties:**  Both Red Scares resulted in the violation of civil liberties, including freedom of speech and association.  Individuals were often accused of communist sympathies based on flimsy evidence or rumor.

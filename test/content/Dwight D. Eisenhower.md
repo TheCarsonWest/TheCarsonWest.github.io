@@ -8,7 +8,7 @@
 **Events Associated With:**
 
 * World War II (Supreme Allied Commander)
-* Korean War (Negotiated ceasefire)
+* [Korean War](./../korean-war/) (Negotiated ceasefire)
 
 **Important Legislation Signed:**
 

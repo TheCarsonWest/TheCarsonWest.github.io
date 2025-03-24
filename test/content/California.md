@@ -22,7 +22,7 @@
 * **1934:** [California](./../california/) passes the **[California](./../california/) Water Project Act**, authorizing the construction of dams and canals to manage water resources.
 * **1942:** Japanese Americans are interned in camps throughout [California](./../california/) during World War II.
 * **1954:** **Brown v. Board of Education** Supreme Court decision outlaws racial segregation in schools, including in [California](./../california/).
-* **1969:** Kent State shootings mark a turning point in the Vietnam War anti-war movement.
+* **1969:** Kent State shootings mark a turning point in the [Vietnam War](./../vietnam-war/) anti-war movement.
 * **1970s:** [California](./../california/) becomes a major center of the counterculture movement.
 * **1980s:** [California](./../california/) experiences rapid economic growth, fueled by the technology industry.
 * **1994:** Proposition 187, a controversial proposition denying undocumented immigrants access to public benefits, is passed but later overturned by the courts.

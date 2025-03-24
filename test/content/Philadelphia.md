@@ -28,7 +28,7 @@
 * **1800:** Federal capital moved from [Philadelphia](./../philadelphia/) to [Washington](./../washington/), D.C.
 * **1812:** Battle of Germantown takes place outside [Philadelphia](./../philadelphia/) during the [War of 1812](./../war-of-1812/).
 * **1876:** Centennial Exposition held in [Philadelphia](./../philadelphia/) to commemorate the 100th anniversary of the [Declaration of Independence](./../declaration-of-independence/).
-* **1947:** Marshall Plan announced at [Harvard](./../harvard/) University in [Philadelphia](./../philadelphia/).
+* **1947:** [Marshall Plan](./../marshall-plan/) announced at [Harvard](./../harvard/) University in [Philadelphia](./../philadelphia/).
 * **1964:** [Philadelphia](./../philadelphia/) becomes the host city for the 1964 Democratic National Convention.
 * **1976:** Bicentennial celebration marks the 200th anniversary of the [Declaration of Independence](./../declaration-of-independence/) in [Philadelphia](./../philadelphia/).
 * **2008:** Democratic National Convention held in [Philadelphia](./../philadelphia/).

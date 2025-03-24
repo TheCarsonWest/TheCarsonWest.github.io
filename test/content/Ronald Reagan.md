@@ -7,8 +7,7 @@
 
 **Events Associated With:**
 
-* Cold War
-* Iran-Contra Affair
+* [Cold War](./../cold-war/) * Iran-Contra Affair
 * Reaganomics
 * Tax Reform Act of 1986
 * Strategic Arms Limitation Treaty (SALT II)

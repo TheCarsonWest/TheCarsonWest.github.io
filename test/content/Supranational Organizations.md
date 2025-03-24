@@ -25,8 +25,7 @@
 
 - UN Headquarters is in New York on Rockefeller's donated land
 - Its power is grossly overstated
-## NATO
-- Founded in 1949
+## [NATO](./../nato/) - Founded in 1949
 - United States' Military alliance
 	- Theres also other countries but none of them matter
 - The US puts in 70% of the alliance's military budget

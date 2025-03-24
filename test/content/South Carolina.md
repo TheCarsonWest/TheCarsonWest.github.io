@@ -17,17 +17,14 @@
 * **1861:** Attacks [Fort Sumter](./../fort-sumter/), sparking the [Civil War](./../civil-war/) * **1865:** End of the [Civil War](./../civil-war/); [South Carolina](./../south-carolina/) rejoins the Union
 * **1877:** End of Reconstruction
 * **1954:** Brown v. Board of Education desegregates schools
-* **1960s-1970s:** Civil Rights Movement
-
+* **1960s-1970s:** [Civil Rights Movement](./../civil-rights-movement/) 
 **Important Legislation:**
 
 * **1833:** [Nullification](./../nullification/) Act
 * **1860:** Secession Act
 * **1865:** Thirteenth Amendment (abolishing slavery)
 * **1875:** Civil Rights Act of 1875
-* **1964:** Civil Rights Act of 1964
-* **1965:** Voting Rights Act of 1965
-
+* **1964:** [Civil Rights Act of 1964](./../civil-rights-act-of-1964/) * **1965:** [Voting Rights Act of 1965](./../voting-rights-act-of-1965/) 
 **Important Court Cases:**
 
 * **Brown v. Board of Education (1954):** Desegregated schools
@@ -42,8 +39,7 @@
 [South Carolina](./../south-carolina/) played a pivotal role in several key events in American history, including:
 
 * The Revolutionary War
-* The [Civil War](./../civil-war/) * The Civil Rights Movement
-
+* The [Civil War](./../civil-war/) * The [Civil Rights Movement](./../civil-rights-movement/) 
 [South Carolina](./../south-carolina/)'s secession and the battle at [Fort Sumter](./../fort-sumter/) triggered the start of the [Civil War](./../civil-war/), which fundamentally altered the course of American history.
 
 The state's tourism industry is a major economic driver, attracting visitors from across the country and abroad.

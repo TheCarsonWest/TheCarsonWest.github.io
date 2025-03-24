@@ -46,9 +46,7 @@ Democrat party: Founded by [Andrew Jackson](./../andrew-jackson/) after he lost 
 
 * **[Andrew Jackson](./../andrew-jackson/):** Seventh President, Founded the party.
 * **[Franklin D. Roosevelt](./../franklin-d.-roosevelt/)]]:** Thirty-second President, architect of the [New Deal](./../new-deal/)
-* **[Harry S. Truman](./../harry-s.-truman/)]]:** Thirty-third President, responsible for the Marshall Plan and NATO
-* **[Lyndon B](./../lyndon-b/). Johnson]]:** Thirty-sixth President, championed the Civil Rights Act and the Great Society
-* **[Jimmy Carter](./../jimmy-carter/):** Thirty-ninth President, focused on doing absolutely nothing
+* **[Harry S. Truman](./../harry-s.-truman/)]]:** Thirty-third President, responsible for the [Marshall Plan](./../marshall-plan/) and [NATO](./../nato/) * **[Lyndon B](./../lyndon-b/). Johnson]]:** Thirty-sixth President, championed the Civil Rights Act and the [Great Society](./../great-society/) * **[Jimmy Carter](./../jimmy-carter/):** Thirty-ninth President, focused on doing absolutely nothing
 * **[Bill Clinton](./../bill-clinton/):** Forty-second President, focused on rizzing up his interns
 * **[Barack Obama](./../barack-obama/):** Forty-fourth President, first African-American president, focused on dividing the country and blowing up the middle east
 * **[Joe Biden](./../joe-biden/):** Forty-sixth President, focused on taking naps in his [Delaware](./../delaware/) mansion

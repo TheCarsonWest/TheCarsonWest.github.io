@@ -15,7 +15,7 @@
 * **1870:** Hiram Rhodes Revels becomes the first African American to serve in the U.S. Senate from [Mississippi](./../mississippi/).
 * **1890:** [Mississippi](./../mississippi/) adopts a poll tax and literacy test, restricting African American voting rights.
 * **1954:** Brown v. Board of Education, a landmark Supreme Court case, declares racial segregation in public schools unconstitutional.
-* **1964:** [Mississippi](./../mississippi/) Freedom Summer and the Civil Rights Act of 1964 help bring about desegregation in the state.
+* **1964:** [Mississippi](./../mississippi/) Freedom Summer and the [Civil Rights Act of 1964](./../civil-rights-act-of-1964/) help bring about desegregation in the state.
 * **1980:** [Mississippi](./../mississippi/) adopts a new state constitution, replacing the 1890 constitution.
 
 **Important Legislation:**

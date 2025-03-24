@@ -17,9 +17,7 @@
 * [POTUS](./../potus/) (1969-1974)
 
 **Events Associated With:**
-* Watergate Scandal
-* Vietnam War
-* Nixon-Mao Summit
+* [Watergate Scandal](./../watergate-scandal/) * [Vietnam War](./../vietnam-war/) * Nixon-Mao Summit
 * Kissinger's diplomacy
 * SALT I Treaty
 
@@ -34,8 +32,7 @@
 * Committee on Un-American Activities (HUAC)
 
 **Impact on the Country:**
-* Ended the Vietnam War with the Paris Peace Accords (1973)
-* Improved relations with China and the Soviet Union during the Cold War
-* Pardoned former President [Richard Nixon](./../richard-nixon/) after his resignation (1974)
+* Ended the [Vietnam War](./../vietnam-war/) with the Paris Peace Accords (1973)
+* Improved relations with China and the Soviet Union during the [Cold War](./../cold-war/) * Pardoned former President [Richard Nixon](./../richard-nixon/) after his resignation (1974)
 * Legacy marred by the Watergate Scandal, which led to his resignation in 1974
 # [APUSH people](./../apush-people/)

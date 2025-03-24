@@ -13,8 +13,7 @@
 * **1802:** [Georgia](./../georgia/) acquires land from the Creek Indians
 * **1861:** [Georgia](./../georgia/) secedes from the Union
 * **1865:** [Georgia](./../georgia/) readmitted to the Union
-* **1955:** Martin Luther King, Jr. leads the Montgomery Bus Boycott
-* **1961:** [Georgia](./../georgia/) ratifies the 24th Amendment, abolishing the poll tax
+* **1955:** Martin Luther King, Jr. leads the [Montgomery Bus Boycott](./../montgomery-bus-boycott/) * **1961:** [Georgia](./../georgia/) ratifies the 24th Amendment, abolishing the poll tax
 * **1972:** Atlanta hosts the Olympic Games
 
 **Important Legislation**
@@ -39,5 +38,5 @@
 **Impact on the Rest of the Country**
 
 * [Georgia](./../georgia/) has been a major force in the American economy, particularly through its agriculture and manufacturing industries.
-* [Georgia](./../georgia/)'s role in the Civil Rights Movement has had a profound impact on the nation's history and social policies.
+* [Georgia](./../georgia/)'s role in the [Civil Rights Movement](./../civil-rights-movement/) has had a profound impact on the nation's history and social policies.
 * Atlanta has emerged as a global city and a major cultural hub in the Southeast.
