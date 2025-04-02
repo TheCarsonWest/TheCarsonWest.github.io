@@ -13,3 +13,12 @@
 ## [Extreme Value Theorem](./../extreme-value-theorem/)
 ## [Rolles Theorem](./../rolles-theorem/)
 ## [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/)
+
+
+
+
+# [Calc home](./../calc-home/)
+
+# [Calc Rules and theorems](./../calc-rules-and-theorems/)
+
+# [Calc home](./../calc-home/)

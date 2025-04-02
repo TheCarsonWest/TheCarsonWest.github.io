@@ -5,6 +5,7 @@
 +++
 # [nexus](./../nexus/)
 
+# [AP Chemistry Units](./../ap-chemistry-units/)
 # [Acids and Bases](./../acids-and-bases/)
 # [Thermodynamics](./../thermodynamics/)
 # [Equilibrium](./../equilibrium/)
