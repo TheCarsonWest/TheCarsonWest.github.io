@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conda Environments | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conda Environments</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="virtual-environmentsvirtual-environments"><a href="./../virtual-environments/">Virtual Environments</a></h1>
+<h1 id="conda-environmentsconda-environments"><a href="./../conda-environments/">Conda Environments</a></h1>
+<p>Conda environments are isolated spaces that allow you to manage different project dependencies without conflicts.  This is crucial when working on multiple projects that require different versions of Python or packages.</p>
+<p>Key features:</p>
+<ul>
+<li>
+<p><strong>Isolation:</strong> Prevents dependency conflicts between projects.  If project A needs <code>pandas==1.0</code> and project B needs <code>pandas==2.0</code>, you can create separate environments to satisfy both.</p>
+</li>
+<li>
+<p><strong>Reproducibility:</strong>  Easily recreate the exact environment used for a specific project, ensuring consistent results across different machines.  This is done via environment files (usually <code>.yml</code>).</p>
+</li>
+<li>
+<p><strong>Version control:</strong> Manage different versions of Python and packages within each environment.</p>
+</li>
+</ul>
+<p><strong>Creating an environment:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda create -n myenv python<span style="color:#f92672">=</span>3.9 pandas numpy
+</span></span></code></pre></div><p>This creates an environment named <code>myenv</code> with Python 3.9, pandas, and numpy.  <code>-n</code> specifies the environment name.</p>
+<p><strong>Activating an environment:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda activate myenv
+</span></span></code></pre></div><p><strong>Deactivating an environment:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda deactivate
+</span></span></code></pre></div><p><strong>Listing environments:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda env list
+</span></span></code></pre></div><p><strong>Exporting an environment:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda env export &gt; environment.yml
+</span></span></code></pre></div><p>This creates a YAML file (<code>environment.yml</code>) that describes your environment.  You can then recreate it on another machine using:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda env create -f environment.yml
+</span></span></code></pre></div><p><strong>Removing an environment:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>conda env remove -n myenv
+</span></span></code></pre></div><p><a href="./../conda-environment-yaml-files/">Conda Environment YAML Files</a>  (<a href="./../python-package-management/">Python Package Management</a>) <a href="./../virtual-environments/">Virtual Environments</a> vs <a href="./../conda-environments/">Conda Environments</a></p>
+
+</main>
+
+
+  </body>
+</html>
+

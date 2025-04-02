@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libraries like Pandas | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Libraries like Pandas</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="modules-and-packagesmodules-and-packages"><a href="./../modules-and-packages/">Modules and Packages</a></h1>
+<h1 id="python-note-libraries-like-pandaslibraries-like-pandas">Python Note: <a href="./../libraries-like-pandas/">Libraries like Pandas</a></h1>
+<p>The term &ldquo;<a href="./../libraries-like-pandas/">Libraries like Pandas</a>&rdquo; refers to powerful Python libraries that provide high-level data manipulation and analysis capabilities. Pandas, in particular, is a cornerstone of data science in Python.  This note will focus on Pandas, but the concept extends to other libraries with similar functionalities.</p>
+<p>Key features of libraries like Pandas include:</p>
+<ul>
+<li>
+<p><strong>Data Structures:</strong>  Efficient storage and manipulation of data, primarily using <code>Series</code> (1D labeled arrays) and <code>DataFrames</code> (2D labeled data structures).  These are significantly more powerful than standard Python lists and dictionaries for data analysis tasks.</p>
+</li>
+<li>
+<p><strong>Data Cleaning &amp; Preprocessing:</strong> Functions for handling missing data (<code>fillna</code>, <code>dropna</code>), data transformation (e.g., converting data types), and data wrangling in general.</p>
+</li>
+<li>
+<p><strong>Data Analysis:</strong> Tools for exploring and summarizing data – calculating statistics (mean, median, standard deviation), grouping data, applying functions to groups (<code>.groupby()</code>), etc.</p>
+</li>
+<li>
+<p><strong>Data Visualization:</strong>  Integration with visualization libraries (like Matplotlib or Seaborn) to create charts and graphs from your data.  While Pandas itself doesn&rsquo;t handle all visualization, the DataFrame structure makes visualization significantly easier.</p>
+</li>
+<li>
+<p><strong>Data Input/Output:</strong> Reading data from various file formats (CSV, Excel, SQL databases, etc.) using functions like <code>read_csv()</code>, <code>read_excel()</code>, etc., and writing data back to those formats.</p>
+</li>
+</ul>
+<p><strong>Example Pandas Code:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> pandas <span style="color:#66d9ef">as</span> pd
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Create a DataFrame</span>
+</span></span><span style="display:flex;"><span>data <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#39;Name&#39;</span>: [<span style="color:#e6db74">&#39;Alice&#39;</span>, <span style="color:#e6db74">&#39;Bob&#39;</span>, <span style="color:#e6db74">&#39;Charlie&#39;</span>]],
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;Age&#39;</span>: [<span style="color:#ae81ff">25</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">28</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#39;City&#39;</span>: [<span style="color:#e6db74">&#39;[New York](./../new-york/)&#39;</span>, <span style="color:#e6db74">&#39;London&#39;</span>, <span style="color:#e6db74">&#39;Paris&#39;</span>]]}
+</span></span><span style="display:flex;"><span>df <span style="color:#f92672">=</span> pd<span style="color:#f92672">.</span>DataFrame(data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Display the DataFrame</span>
+</span></span><span style="display:flex;"><span>print(df)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Calculate the average age</span>
+</span></span><span style="display:flex;"><span>average_age <span style="color:#f92672">=</span> df[<span style="color:#e6db74">&#39;Age&#39;</span>]]<span style="color:#f92672">.</span>mean()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Average age: </span><span style="color:#e6db74">{</span>average_age<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Filter for people older than 28</span>
+</span></span><span style="display:flex;"><span>older_than_28 <span style="color:#f92672">=</span> df[df[<span style="color:#e6db74">&#39;Age&#39;</span>]] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">28</span>
+</span></span><span style="display:flex;"><span>print(older_than_28)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Group by city and calculate the average age for each city</span>
+</span></span><span style="display:flex;"><span>grouped <span style="color:#f92672">=</span> df<span style="color:#f92672">.</span>groupby(<span style="color:#e6db74">&#39;City&#39;</span>)[<span style="color:#e6db74">&#39;Age&#39;</span>]]<span style="color:#f92672">.</span>mean()
+</span></span><span style="display:flex;"><span>print(grouped)
+</span></span></code></pre></div><p><a href="./../pandas-data-structures/">Pandas Data Structures</a>  (<a href="./../pandas-data-manipulation/">Pandas Data Manipulation</a>) <a href="./../data-visualization-with-matplotlib/">Data Visualization with Matplotlib</a> <a href="./../data-cleaning-in-pandas/">Data Cleaning in Pandas</a></p>
+
+</main>
+
+
+  </body>
+</html>
+

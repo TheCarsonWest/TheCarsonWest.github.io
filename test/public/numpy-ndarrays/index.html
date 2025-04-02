@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NumPy ndarrays | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">NumPy ndarrays</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="libraries-like-numpylibraries-like-numpy"><a href="./../libraries-like-numpy/">Libraries like NumPy</a></h1>
+<h1 id="numpy-ndarraysnumpy-ndarrays"><a href="./../numpy-ndarrays/">NumPy ndarrays</a></h1>
+<p>NumPy&rsquo;s core data structure is the ndarray (N-dimensional array).  It&rsquo;s a powerful tool for numerical computation because it provides efficient storage and manipulation of large arrays of homogeneous data.</p>
+<p>Key features:</p>
+<ul>
+<li>
+<p><strong>Homogeneous data type:</strong> All elements within a single ndarray must be of the same data type (e.g., <code>int32</code>, <code>float64</code>, etc.).  This allows for optimized memory usage and vectorized operations.</p>
+</li>
+<li>
+<p><strong>N-dimensional:</strong>  ndarrays can represent data in any number of dimensions (1D vectors, 2D matrices, 3D tensors, and beyond).</p>
+</li>
+<li>
+<p><strong>Vectorized operations:</strong>  NumPy allows for performing operations on entire arrays at once, rather than iterating element by element. This significantly improves performance.</p>
+</li>
+<li>
+<p><strong>Broadcasting:</strong>  NumPy&rsquo;s broadcasting rules allow for operations between arrays of different shapes under certain conditions, simplifying code and improving efficiency. <a href="./../broadcasting-in-numpy/">Broadcasting in NumPy</a></p>
+</li>
+<li>
+<p><strong>Slicing and indexing:</strong>  Powerful slicing and indexing mechanisms enable accessing and manipulating portions of ndarrays efficiently. <a href="./../numpy-array-indexing-and-slicing/">NumPy Array Indexing and Slicing</a></p>
+</li>
+<li>
+<p><strong>Memory efficiency:</strong> ndarrays store data in contiguous memory locations, improving performance and reducing memory overhead compared to Python lists.</p>
+</li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> numpy <span style="color:#66d9ef">as</span> np
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Creating a 2D array</span>
+</span></span><span style="display:flex;"><span>arr <span style="color:#f92672">=</span> np<span style="color:#f92672">.</span>array(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>, <span style="color:#ae81ff">6</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Accessing elements</span>
+</span></span><span style="display:flex;"><span>print(arr[<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Output: 2</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Performing vectorized operations</span>
+</span></span><span style="display:flex;"><span>print(arr <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>)  <span style="color:#75715e"># Output: [ 2](./../-2/)  4  6, [ 8 10 12]]</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Array shape</span>
+</span></span><span style="display:flex;"><span>print(arr<span style="color:#f92672">.</span>shape)  <span style="color:#75715e"># Output: (2, 3)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Array data type</span>
+</span></span><span style="display:flex;"><span>print(arr<span style="color:#f92672">.</span>dtype)  <span style="color:#75715e"># Output: int64 (or similar, depending on your system)</span>
+</span></span></code></pre></div><p><strong>Related Notes:</strong></p>
+<ul>
+<li><a href="./../numpy-array-creation/">NumPy Array Creation</a></li>
+<li><a href="./../numpy-array-manipulation/">NumPy Array Manipulation</a></li>
+<li><a href="./../numpy-linear-algebra/">NumPy Linear Algebra</a></li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

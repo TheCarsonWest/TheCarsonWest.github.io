@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bias Mitigation | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Bias Mitigation</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="recommended-reading-listrecommended-reading-list"><a href="./../recommended-reading-list/">Recommended Reading List</a></h1>
+<h1 id="bias-mitigationbias-mitigation-notes"><a href="./../bias-mitigation/">Bias Mitigation</a> Notes</h1>
+<p><strong>Main Goal:</strong> Reduce or eliminate undesirable biases in datasets and models.</p>
+<p><strong>Types of Bias:</strong></p>
+<ul>
+<li><strong>Sampling Bias:</strong>  Data doesn&rsquo;t accurately represent the population.  <a href="./../sampling-bias-notes/">Sampling Bias Notes</a></li>
+<li><strong>Measurement Bias:</strong>  Systematic error in how data is collected or measured. <a href="./../measurement-bias-notes/">Measurement Bias Notes</a></li>
+<li><strong>Algorithmic Bias:</strong> Bias inherent in the algorithms themselves. <a href="./../algorithmic-bias-notes/">Algorithmic Bias Notes</a></li>
+<li><strong>Representation Bias:</strong>  Inadequate representation of certain groups in the data.  Related to <a href="./../sampling-bias-notes/">Sampling Bias Notes</a></li>
+</ul>
+<p><strong>Mitigation Techniques:</strong></p>
+<ul>
+<li><strong>Data Preprocessing:</strong>
+<ul>
+<li><strong>Re-sampling:</strong> Oversampling minority classes, undersampling majority classes.  Requires careful consideration to avoid introducing new biases. <a href="./../resampling-techniques/">Resampling Techniques</a></li>
+<li><strong>Data Augmentation:</strong>  Generating synthetic data to balance class distributions. <a href="./../data-augmentation-techniques/">Data Augmentation Techniques</a></li>
+<li><strong>Data Cleaning:</strong> Handling missing values, outliers, and inconsistencies. <a href="./../data-cleaning-techniques/">Data Cleaning Techniques</a></li>
+<li><strong>Feature Selection:</strong> Selecting features that are less likely to be biased. <a href="./../feature-selection-techniques/">Feature Selection Techniques</a></li>
+</ul>
+</li>
+<li><strong>Algorithm Selection:</strong> Choosing algorithms less susceptible to bias.  Consider fairness-aware algorithms. <a href="./../fairness-aware-algorithms/">Fairness-Aware Algorithms</a></li>
+<li><strong>Post-processing:</strong>  Modifying model outputs to mitigate bias after training.  Examples include calibration and threshold adjustment. <a href="./../post-processing-techniques/">Post-processing Techniques</a></li>
+<li><strong>Adversarial Training:</strong> Training a model to be robust against biased inputs. <a href="./../adversarial-training-notes/">Adversarial Training Notes</a></li>
+</ul>
+<p><strong>Evaluation Metrics:</strong></p>
+<p>Need to evaluate the effectiveness of bias mitigation techniques. Metrics will vary based on the type of bias and the context.  Some examples include:</p>
+<ul>
+<li><strong>Accuracy/Precision/Recall:</strong>  Standard metrics, but need to be analyzed across different demographic groups to detect disparities.</li>
+<li><strong>Fairness Metrics:</strong>  e.g., Equal Opportunity, Demographic Parity, Predictive Rate Parity. <a href="./../fairness-metrics-notes/">Fairness Metrics Notes</a></li>
+</ul>
+<p><strong>Mathematical Formalism (example):</strong></p>
+<p>Suppose we have a binary classification problem with protected attribute  $ A $  (e.g., gender) and outcome  $ Y $ .  We want to ensure that the model&rsquo;s predictions are fair across different values of  $ A $ .  One metric of fairness is <strong>Equal Opportunity</strong>, which requires:</p>
+<p>$ P(Y = 1 | \hat{Y} = 1, A = a) = P(Y = 1 | \hat{Y} = 1, A = a&rsquo;) $   for all  $ a, a&rsquo; $ ,</p>
+<p>where  $ \hat{Y} $  represents the model&rsquo;s prediction.</p>
+<p><strong>Further Research:</strong></p>
+<ul>
+<li>Causal inference and bias mitigation. <a href="./../causal-inference-and-bias/">Causal Inference and Bias</a></li>
+<li>Explainable AI (XAI) and bias detection. <a href="./../xai-and-bias-detection/">XAI and Bias Detection</a></li>
+</ul>
+<p><strong>Open Questions:</strong></p>
+<ul>
+<li>How to define and measure fairness in a way that is both meaningful and practical?</li>
+<li>How to balance fairness with accuracy and other desirable model properties?</li>
+<li>How to adapt bias mitigation techniques to different types of data and applications?</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

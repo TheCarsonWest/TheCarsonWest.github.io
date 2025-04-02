@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ISL Book Notes | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">ISL Book Notes</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="useful-websites-and-articlesuseful-websites-and-articles"><a href="./../useful-websites-and-articles/">Useful Websites and Articles</a></h1>
+<h1 id="isl-book-notesisl-book-notes"><a href="./../isl-book-notes/">ISL Book Notes</a></h1>
+<p><strong>Chapter 1: Introduction to Statistical Learning</strong></p>
+<ul>
+<li>
+<p><strong>What is Statistical Learning?</strong>  The goal is to build a model relating a response variable  $ Y $  to a set of predictor variables  $ X_1, X_2, &hellip;, X_p $ .  We can use this model to:</p>
+<ul>
+<li>Predict the response  $ Y $  for new values of  $ X $ .</li>
+<li>Understand the relationship between  $ Y $  and  $ X $ .</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Statistical Learning:</strong></p>
+<ul>
+<li><strong>Supervised Learning:</strong> We have both  $ X $  and  $ Y $  for training data.  Examples: <a href="./../regression/">Regression</a>, <a href="./../classification/">Classification</a>.</li>
+<li><strong>Unsupervised Learning:</strong> We only have  $ X $ . Examples: <a href="./../clustering/">Clustering</a>, <a href="./../dimensionality-reduction/">Dimensionality Reduction</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Regression vs. Classification:</strong></p>
+<ul>
+<li><strong>Regression:</strong>  $ Y $  is continuous.  Examples: predicting house prices, stock prices.</li>
+<li><strong>Classification:</strong>  $ Y $  is categorical. Examples: predicting customer churn, image recognition.</li>
+</ul>
+</li>
+<li>
+<p><strong>Model Accuracy:</strong> Measured by error rate or prediction accuracy.  We use training data to fit the model and test data to evaluate its performance.  This is to avoid <a href="./../overfitting/">Overfitting</a>.</p>
+</li>
+<li>
+<p><strong>Bias-Variance Tradeoff:</strong>  A crucial concept.  <a href="./../bias-variance-tradeoff/">Bias-Variance Tradeoff</a>.</p>
+</li>
+<li>
+<p><strong>Model Selection:</strong> Choosing the best model involves balancing bias and variance.  Techniques include: <a href="./../cross-validation/">Cross-Validation</a>, <a href="./../regularization/">Regularization</a>.</p>
+</li>
+</ul>
+<p><strong>Chapter 2: Linear Regression</strong></p>
+<ul>
+<li>
+<p><strong>Simple Linear Regression:</strong>  Modeling the relationship between a single predictor variable  $ X $  and a continuous response variable  $ Y $  using a linear equation:   $ Y = \beta_0 + \beta_1X + \epsilon $ , where  $ \beta_0 $  is the intercept,  $ \beta_1 $  is the slope, and  $ \epsilon $  is the error term.  Estimating  $ \beta_0 $  and  $ \beta_1 $  using <a href="./../least-squares-estimation/">Least Squares Estimation</a>.</p>
+</li>
+<li>
+<p><strong>Multiple Linear Regression:</strong> Extending simple linear regression to include multiple predictor variables:  $ Y = \beta_0 + \beta_1X_1 + \beta_2X_2 + &hellip; + \beta_pX_p + \epsilon $ .  <a href="./../model-assumptions/">Model Assumptions</a>.</p>
+</li>
+<li>
+<p><strong>Assessing Model Fit:</strong> Using  $ R^2 $ , adjusted  $ R^2 $ , and <a href="./../residual-plots/">Residual Plots</a> to evaluate the model&rsquo;s goodness of fit.</p>
+</li>
+<li>
+<p><strong>Model Diagnostics:</strong> Identifying and addressing potential problems such as <a href="./../multicollinearity/">Multicollinearity</a> and <a href="./../heteroscedasticity/">Heteroscedasticity</a>.</p>
+</li>
+</ul>
+<p><strong>Chapter 3:  Classification</strong></p>
+<ul>
+<li>
+<p><strong>Logistic Regression:</strong> Modeling the probability of a binary outcome using a logistic function:  $ P(Y=1|X) = \frac{1}{1 + exp(-\beta_0 - \beta_1X)} $ . <a href="./../logistic-regression-details/">Logistic Regression Details</a></p>
+</li>
+<li>
+<p><strong>K-Nearest Neighbors:</strong> Classifying a new observation based on the majority class among its  $ k $  nearest neighbors in the feature space. <a href="./../knn-algorithm/">KNN Algorithm</a></p>
+</li>
+<li>
+<p><strong>Linear Discriminant Analysis (LDA):</strong> Assuming data is normally distributed and finding linear combinations of predictors that maximize the separation between classes. <a href="./../lda-details/">LDA Details</a></p>
+</li>
+<li>
+<p><strong>Quadratic Discriminant Analysis (QDA):</strong>  Similar to LDA, but allows for different covariance matrices for each class. <a href="./../qda-details/">QDA Details</a></p>
+</li>
+</ul>
+<p><a href="./../regression/">Regression</a>
+<a href="./../classification/">Classification</a>
+<a href="./../clustering/">Clustering</a>
+<a href="./../dimensionality-reduction/">Dimensionality Reduction</a>
+<a href="./../overfitting/">Overfitting</a>
+<a href="./../bias-variance-tradeoff/">Bias-Variance Tradeoff</a>
+<a href="./../cross-validation/">Cross-Validation</a>
+<a href="./../regularization/">Regularization</a>
+<a href="./../least-squares-estimation/">Least Squares Estimation</a>
+<a href="./../model-assumptions/">Model Assumptions</a>
+<a href="./../residual-plots/">Residual Plots</a>
+<a href="./../multicollinearity/">Multicollinearity</a>
+<a href="./../heteroscedasticity/">Heteroscedasticity</a>
+<a href="./../logistic-regression-details/">Logistic Regression Details</a>
+<a href="./../knn-algorithm/">KNN Algorithm</a>
+<a href="./../lda-details/">LDA Details</a>
+<a href="./../qda-details/">QDA Details</a></p>
+
+</main>
+
+
+  </body>
+</html>
+

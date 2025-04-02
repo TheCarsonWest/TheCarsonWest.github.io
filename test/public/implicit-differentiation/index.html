@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Implicit Differentiation | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Implicit Differentiation</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<p><a href="./../calc-home/">Calc home</a></p>
+<h2 id="implicit-differentiationimplicit-differentiation"><a href="./../implicit-differentiation/">Implicit Differentiation</a></h2>
+<p>Implicit differentiation is a technique used to find the <a href="./../derivative/">derivative</a> of a function that is defined implicitly, meaning that it is not explicitly solved for one variable in terms of the other.</p>
+<h3 id="the-basics">The Basics</h3>
+<p>Let&rsquo;s consider an equation relating  $ x $  and  $ y $ , such as:</p>
+<h1 id="-x2--y2--25---we-cant-easily-solve-this-equation-for---y---in-terms-of---x---however-we-can-still-find-the-derivativederivative---fracdydx---by-using-implicit-differentiation">$$ x^2 + y^2 = 25 $$  We can&rsquo;t easily solve this equation for  $ y $  in terms of  $ x $ . However, we can still find the <a href="./../derivative/">derivative</a>  $ \frac{dy}{dx} $  by using implicit differentiation.</h1>
+<p><strong>The key idea is to differentiate both sides of the equation with respect to  $ x $ , treating  $ y $  as a function of  $ x $ .</strong> This means we&rsquo;ll use the <a href="./../chain-rule/">chain rule</a> whenever we encounter a term involving  $ y $ .</p>
+<h1 id="steps-for-implicit-differentiationimplicit-differentiation">Steps for <a href="./../implicit-differentiation/">Implicit Differentiation</a></h1>
+<ol>
+<li><strong>Differentiate both sides of the equation with respect to  $ x $ .</strong> Remember to use the <a href="./../chain-rule/">chain rule</a> when differentiating terms involving  $ y $ .</li>
+<li><strong>Solve the resulting equation for  $ \frac{dy}{dx} $ .</strong> This may involve algebraic manipulation.</li>
+</ol>
+<h3 id="example">Example</h3>
+<p>Let&rsquo;s find  $ \frac{dy}{dx} $  for the equation  $ x^2 + y^2 = 25 $ .</p>
+<ol>
+<li><strong>Differentiate both sides:</strong>
+$$ \frac{d}{dx}(x^2 + y^2) = \frac{d}{dx}(25) $$      $$ 2x + 2y \frac{dy}{dx} = 0 $$</li>
+<li><strong>Solve for  $ \frac{dy}{dx} $ :</strong>
+$$ 2y \frac{dy}{dx} = -2x $$      $$ \frac{dy}{dx} = \frac{-2x}{2y} = \boxed{-\frac{x}{y}} $$</li>
+</ol>
+<h3 id="chain-rulechain-rule"><a href="./../chain-rule/">Chain Rule</a></h3>
+<p>The <a href="./../chain-rule/">chain rule</a> is essential for implicit differentiation. It states that the <a href="./../derivative/">derivative</a> of a composite function is the product of the <a href="./../derivative/">derivative</a> of the outer function and the <a href="./../derivative/">derivative</a> of the inner function.</p>
+<p><strong>In the context of implicit differentiation, the inner function is often  $ y $ , which is a function of  $ x $ .</strong></p>
+<p>For example, if we have a term like  $ y^3 $ , we differentiate it as follows:</p>
+<p>$$ \frac{d}{dx}(y^3) = 3y^2 \cdot \frac{dy}{dx} $$<br>
+Here,  $ y^3 $  is the outer function,  $ y $  is the inner function, and  $ \frac{dy}{dx} $  represents the <a href="./../derivative/">derivative</a> of the inner function.</p>
+<h3 id="applications-of-implicit-differentiationimplicit-differentiation">Applications of <a href="./../implicit-differentiation/">Implicit Differentiation</a></h3>
+<p>Implicit differentiation has various applications, including:</p>
+<ul>
+<li><strong>Finding the slope of a tangent line to a curve defined implicitly.</strong></li>
+<li><strong>Determining the critical points of a function defined implicitly.</strong></li>
+<li><strong>Solving related rates problems involving implicit equations.</strong></li>
+</ul>
+<h3 id="summary">Summary</h3>
+<p>Implicit differentiation is a powerful tool for finding derivatives when a function is defined implicitly. By treating  $ y $  as a function of  $ x $  and applying the <a href="./../chain-rule/">chain rule</a>, we can successfully differentiate both sides of the equation and solve for  $ \frac{dy}{dx} $ . This technique is valuable in various applications across calculus and other fields.</p>
+
+</main>
+
+
+  </body>
+</html>
+
