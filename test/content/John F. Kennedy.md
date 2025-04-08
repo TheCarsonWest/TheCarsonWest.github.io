@@ -3,39 +3,42 @@
 [params]
 	author = 'Carson West'
 +++
-**[John F. Kennedy](./../john-f.-kennedy/) (1961-1963)**
+# [POTUS](./../potus/)
+# John F. Kennedy (1961-1963)
 
-**Events:**
+## Background
 
-* Bay of Pigs Invasion (1961): Failed CIA-sponsored invasion of Cuba
-* [Cuban Missile Crisis](./../cuban-missile-crisis/) (1962): Nuclear standoff with the Soviet Union over Soviet missiles in Cuba
-* Berlin Wall erected (1961): Symbol of [Cold War](./../cold-war/) division
-* Space Race: Accelerated efforts to explore space, including the first American in orbit (Alan Shepard)
-* Civil Rights Movement: Increased federal support for desegregation and civil rights
+*   **Born:** May 29, 1917, in Brookline, Massachusetts
+*   **Education:** [Harvard](./../harvard/) University, B.A. in Government
+*   **Military Service:** U.S. Navy during World War II, decorated for heroism.
 
-**Legislation:**
+## Key Events and Policies
 
-* Peace Corps Act (1961): Established a volunteer program for Americans to work in developing countries
-* Trade Expansion Act (1962): Reduced tariffs and promoted trade
-* Equal Pay Act (1963): Prohibited wage discrimination based on gender
+*   **Election of 1960:** Defeated Richard Nixon in a very close election. This was the first election with televised debates, a medium Kennedy used effectively to project a youthful and charismatic image.
+*   **New Frontier:** Kennedy's domestic program aimed to address poverty, improve education, and advance the space program.
+*   **[Space Race](./../space-race/):** Intensified the competition with the Soviet Union, famously declaring the goal of landing a man on the moon by the end of the decade.
+*   **[Bay of Pigs Invasion](./../bay-of-pigs-invasion/):** A failed CIA-backed attempt to overthrow Fidel Castro's communist government in Cuba in April 1961.  This was a major embarrassment for the Kennedy administration.
+*   **[Cuban Missile Crisis](./../cuban-missile-crisis/):** A tense 13-day standoff in October 1962 after the U.S. discovered Soviet nuclear missiles in Cuba. Kennedy negotiated with the Soviet Union to remove the missiles, averting a potential nuclear war.
+*   **[Vietnam War](./../vietnam-war/):** Increased U.S. involvement in Vietnam by sending military advisors and financial aid to the South Vietnamese government. The number of advisors dramatically increased during his presidency.
+*   **Alliance for Progress:** A program aimed at improving economic relations between the U.S. and Latin American countries.
+*   **[Civil Rights Movement](./../civil-rights-movement/):** Kennedy initially moved cautiously on civil rights, but later became a strong advocate, sending federal troops to protect civil rights activists and proposing landmark legislation.
 
-**Groups:**
+## Important Legislation
 
-* [Democrats](./../democrats/): Member of the [Democrats](./../democrats/)
-* Kennedy family: Part of a politically prominent family
-* [Cold War](./../cold-war/) advocate: Believed in containing the spread of communism
+*   While Kennedy was assassinated before many of his initiatives were fully enacted, he laid the groundwork for significant legislation passed by his successor, Lyndon B. Johnson. Some key legislation that he directly influenced or set the stage for includes:
+    *   **Trade Expansion Act of 1962:** Reduced tariffs to promote international trade.
 
-**Impact on the Country:**
+## Groups and Associations
 
-* **Domestic Policy:**
- * Pushed for civil rights and social justice
- * Expanded social programs and government intervention in the economy
-* **Foreign Policy:**
- * Heightened [Cold War](./../cold-war/) tensions with the Soviet Union
- * Improved relations with Latin America and Europe
- * Committed the [United States](./../united-states/) to the defense of South Vietnam
-* **Legacy:**
- * Remembered as a charismatic and inspiring leader
- * His assassination in 1963 cast a shadow over the rest of his presidency
- * His policies and vision continue to shape American politics and society
-# [APUSH people](./../apush-people/)
+*   **[Democrats](./../democrats/)** Kennedy was a prominent member of the Democratic Party, representing Massachusetts in both the House and the Senate before becoming president.
+*   **U.S. Navy:** Served in the Navy during World War II.
+*   **PT-109:** Commanded the Patrol Torpedo boat PT-109, and was involved in a major incident when his boat was rammed by a Japanese destroyer.
+
+## Impact on the Country
+
+*   **Revitalized the Presidency:** Brought a youthful energy and charisma to the office, inspiring a sense of optimism and national purpose.
+*   **Cold War Leadership:** Navigated the [Cuban Missile Crisis](./../cuban-missile-crisis/) successfully, demonstrating strong leadership in the face of nuclear threat.
+*   **Civil Rights Advocacy:** Advanced the cause of civil rights, setting the stage for the [Civil Rights Act of 1964](./../civil-rights-act-of-1964/) and the [Voting Rights Act of 1965](./../voting-rights-act-of-1965/).
+*   **Space Exploration:** Galvanized the nation's commitment to space exploration, leading to the successful moon landing in 1969.
+*   **Increased Involvement in Vietnam:** His policies and increased American involvement in Vietnam sowed the seeds for the larger conflict that would dominate the next decade.
+*   **Assassination:** His assassination on November 22, 1963, in Dallas, Texas, shocked the nation and the world, leaving a lasting legacy of what might have been.

@@ -3,49 +3,49 @@
 [params]
 	author = 'Carson West'
 +++
-**[Grover Cleveland](./../grover-cleveland/)**
+# [POTUS](./../potus/)
+# Grover Cleveland: AP [United States](./../united-states/) History Rundown
 
-**Political Affiliation:** [Democrats](./../democrats/)
+Stephen Grover Cleveland (1837-1908) was the 22nd and 24th [POTUS](./../potus/), serving two non-consecutive terms (1885-1889 and 1893-1897). A staunch believer in limited government and fiscal conservatism, Cleveland's presidency was marked by significant economic challenges and a commitment to upholding the gold standard.
 
-**Terms in Office:** Two non-consecutive terms (1885-1889, 1893-1897)
+## Background and Early Career
+*   Born in Caldwell, [New Jersey](./../new-jersey/).
+*   Practiced law in Buffalo, [New York](./../new-york/), gaining a reputation for honesty and integrity.
+*   Rose through local politics, serving as Mayor of Buffalo and Governor of [New York](./../new-york/). His reputation for fighting corruption earned him the nickname "Grover the Good."
 
-**Events Associated With:**
+## Presidential Terms
 
-* Pendleton Civil Service Reform Act (1883)
-* Pullman Strike (1894)
-* Venezuelan Boundary Dispute (1895)
-* Panic of 1893
+### First Term (1885-1889)
 
-**Important Legislation Signed:**
+*   **Election of 1884:** Won against Republican James G. Blaine in a close and scandal-ridden election. Cleveland's image of reform contrasted with Blaine's history of alleged corruption.
+*   **Civil Service Reform:** Strengthened the [Pendleton Act](./../pendleton-act/), advocating for merit-based appointments in government and combating the [Spoils System](./../spoils-system/).
+*   **Tariff Reform:** Believed high tariffs were unfair to consumers and advocated for their reduction, leading to conflict with protectionist interests.
+*   **Interstate Commerce Act (1887):** Signed the [Interstate Commerce Act 1887](./../interstate-commerce-act-1887/), establishing the Interstate Commerce Commission (ICC) to regulate railroads. This marked an early attempt by the federal government to regulate business.
+*   **Dawes Act:** While not directly involved in its creation, the implementation of the [Dawes Severalty Act of 1887](./../dawes-severalty-act-of-1887/) continued during his presidency. This Act aimed to assimilate Native Americans by dividing tribal lands into individual allotments.
 
-* Interstate Commerce Act (1887): Established the Interstate Commerce Commission to regulate railroads.
-* Sherman Antitrust Act (1890): Prohibited monopolies and cartels.
-* Wilson-Gorman Tariff (1894): Reduced tariffs on imported goods.
-* Pullman Arbitration Award (1894): Ended the Pullman Strike.
+### Second Term (1893-1897)
 
-**Groups Associated With:**
+*   **Panic of 1893:** His second term was largely defined by the severe economic depression known as the [Panic of 1893](./../panic-of-1893/). This crisis led to widespread unemployment, business failures, and social unrest.
+*   **Gold Standard:** Firmly believed in maintaining the [Gold Standard](./../gold-standard/) and opposed the free coinage of silver. He believed it was essential for maintaining the nation’s credit.
+*   **Sherman Silver Purchase Act:** Blamed the [Sherman Silver Purchase Act](./../sherman-silver-purchase-act/) for contributing to the economic crisis. He successfully pressured Congress to repeal it in 1893.
+*   **Pullman Strike (1894):** Intervened in the [Pullman Strike](./../pullman-strike/), sending federal troops to ensure the delivery of mail, sparking controversy and angering organized labor.
+*   **Wilson-Gorman Tariff Act (1894):** Signed this tariff act, which was intended to lower tariffs but was heavily amended in the Senate, becoming less reform-oriented than Cleveland desired. He was so displeased with the final bill that he refused to sign it, but it became law anyway.
 
-* [Democrats](./../democrats/)
-* Bourbon [Democrats](./../democrats/) (fiscally conservative [Democrats](./../democrats/))
-* Civil Service Reform Movement
+## Important Legislation Signed
 
-**Impact on the Country:**
+*   **[Interstate Commerce Act 1887](./../interstate-commerce-act-1887/)**
+*   Repeal of the [Sherman Silver Purchase Act](./../sherman-silver-purchase-act/)
 
-* Strengthened civil service and reduced political patronage.
-* Promoted economic regulation and antitrust laws.
-* Struggled to balance labor and business interests during the Pullman Strike.
-* Took a conservative approach to fiscal policy, which some argue contributed to the Panic of 1893.
-* Defended American interests in the Venezuelan Boundary Dispute, solidifying the [Monroe Doctrine](./../monroe-doctrine/).
-* ### Was the ~~only~~  FIRST president to serve two non-consecutive terms. [Donald Trump](./../donald-trump/)
+## Groups and Affiliations
 
-**Key Policies:**
+*   [Democrats](./../democrats/): A staunch Democrat, he believed in limited government and states' rights.
+*   Bourbon Democrats: Represented the conservative wing of the Democratic Party, emphasizing fiscal conservatism, sound money (gold standard), and limited government intervention in the economy.
+*   Anti-Imperialist League: Though his actions were sometimes contradictory, Cleveland generally opposed aggressive [Imperialism 1890s-1950s](./../imperialism-1890s-1950s/), aligning with the Anti-Imperialist League's views after his presidency.
 
-* **Fiscal conservatism:** Opposed excessive government spending and high tariffs.
-* **Laissez-faire economics:** Believed that the economy should operate with minimal government intervention.
-* **Support for civil rights:** Vetoed bills that would have restricted Chinese immigration and federal funding for segregated schools.
-* **Strong foreign policy:** Resisted European influence in the Western Hemisphere and expanded American naval power.
+## Impact on the Country
 
-**Legacy:**
-
-Cleveland was a complex and enigmatic figure who navigated a politically tumultuous era. His legacy is mixed, with some historians praising his fiscal conservatism and others criticizing his handling of the Pullman Strike and economic downturns. Nevertheless, he remains an important figure in American history, known for his integrity and commitment to limited government.
-# [APUSH people](./../apush-people/)
+*   **Advocacy for Fiscal Conservatism:** Championed a limited role for the federal government in the economy.
+*   **Preservation of the Gold Standard:** His commitment to the gold standard, while intended to stabilize the economy, proved controversial and divisive during the economic depression of the 1890s. This further fueled the rise of the [Populist Party](./../populist-party/) and the [Bimetallism](./../bimetallism/) movement.
+*   **Civil Service Reform:** His efforts to strengthen the civil service helped to reduce corruption and improve the efficiency of government.
+*   **Labor Relations:** His intervention in the [Pullman Strike](./../pullman-strike/) demonstrated the government’s willingness to use force to suppress labor unrest, setting a precedent for future government actions.
+*   **Legacy:** Known for his honesty, integrity, and commitment to principle, but also criticized for his conservative economic policies and handling of the economic depression of the 1890s. He left a complex legacy as a president who attempted to uphold traditional values in a rapidly changing nation.

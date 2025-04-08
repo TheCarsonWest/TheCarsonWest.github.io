@@ -7,7 +7,7 @@
 ## WHEN: 1972-1974 (climaxing with Nixon's resignation in August 1974)
 
 ## WHO:
-* **Richard Nixon:** President of the [United States](./../united-states/) * **Committee to Re-Elect the President (CREEP):** Nixon's campaign organization, deeply involved in the scandal.
+* **[Richard Nixon](./../richard-nixon/):** President of the [United States](./../united-states/) * **Committee to Re-Elect the President (CREEP):** Nixon's campaign organization, deeply involved in the scandal.
 * **G. Gordon Liddy & E. Howard Hunt:** Plumbers hired to carry out illegal activities.
 * **Bob Woodward & Carl Bernstein:** [Washington](./../washington/) Post reporters who investigated and exposed the scandal.
 * **John Dean:** White House Counsel who provided damaging testimony against Nixon.

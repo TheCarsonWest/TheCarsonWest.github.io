@@ -3,50 +3,33 @@
 [params]
 	author = 'Carson West'
 +++
-**[Gerald Ford](./../gerald-ford/) (1974-1977)**
+# [POTUS](./../potus/)
+# Gerald Ford: A Rundown
 
-# The only unelected president ever
-* Watergate scandal and Nixon's resignation
-* [Vietnam War](./../vietnam-war/) * Economic recession
+Gerald Ford served as the 38th [POTUS](./../potus/) from 1974 to 1977. His presidency was largely defined by his efforts to heal the nation after the [Watergate Scandal](./../watergate-scandal/) and navigate a period of economic stagnation.
 
-**Important Legislation Signed:**
+## Key Events and Associations
 
-* Education for All Handicapped Children Act (1975): Extended federal funding for special education
-* Tax Reduction Act of 1975: Temporarily reduced income taxes to stimulate the economy
-* Helsinki Accords (1975): Recognized the Soviet Union's control over Eastern Europe and established human rights principles
+*   **Watergate Scandal and Nixon Pardon:** Ford became president after [Richard Nixon](./../richard-nixon/)'s resignation in the wake of the [Watergate Scandal](./../watergate-scandal/). In a controversial move, Ford pardoned Nixon "for all offenses against the [United States](./../united-states/) which he... has committed or may have committed or taken part in" while president. He argued that the pardon was necessary to help the country move forward, but it was met with widespread criticism and damaged his popularity. [Nixon Pardon](./../nixon-pardon/)
+*   **Fall of Saigon (1975):** As president, Ford oversaw the final stages of the [Vietnam War](./../vietnam-war/), including the collapse of South Vietnam and the fall of Saigon to North Vietnamese forces. This marked the end of U.S. involvement in the conflict.
+*   **Helsinki Accords (1975):** Ford participated in the Helsinki Accords, a series of agreements signed by European countries, the United States, and Canada that addressed human rights, political, and territorial issues. They were seen as a step towards détente with the [Soviet Union](./../soviet-union/).
+*   **Mayaguez Incident (1975):** Cambodian communist forces seized the U.S. merchant ship *Mayaguez*. Ford ordered a military rescue operation, which resulted in the recovery of the ship and crew, but also significant loss of American lives.
+*   **Assassination Attempts:** There were two separate assassination attempts on President Ford's life in September 1975, both by women.
 
-**Groups Affiliated With:**
+## Important Legislation Signed
 
-* Republican Party
-* **The warren commission(The people who 'investigated' the [John F. Kennedy](./../john-f.-kennedy/) asssaination)**
-* House of Representatives (1949-1973)
-* House Minority Leader (1965-1973)
+*   **Education for All Handicapped Children Act of 1975 (Individuals with Disabilities Education Act - IDEA):** This act mandated free and appropriate public education for children with disabilities. It required states to develop individualized education programs (IEPs) for each child with special needs.
+*   **Energy Policy and Conservation Act (1975):** Passed in response to the [Energy Crisis 1973](./../energy-crisis-1973/), this act established the Strategic Petroleum Reserve, set fuel efficiency standards for automobiles, and encouraged energy conservation.
+*   **Tax Reduction Act of 1975:** Aimed at stimulating the economy during a period of recession, the act provided tax cuts for individuals and businesses.
 
-**Impact on the Country:**
+## Groups and Affiliations
 
-**Watergate and Nixon's Resignation:**
+*   **[Republicans](./../republicans/):** Ford was a lifelong Republican and served as a member of the House of Representatives from Michigan for 25 years.
+*   **House Minority Leader:** Prior to becoming Vice President, Ford served as the House Minority Leader, a key leadership position within the [Republicans](./../republicans/) party in the House.
 
-* Ford was the first vice president to succeed a president due to resignation.
-* He pardoned Nixon for all federal crimes related to Watergate, a controversial decision that damaged his presidency.
+## Impact on the Country
 
-**Vietnam War:**
-
-* Ford inherited the responsibility of ending the Vietnam War.
-* He ordered the evacuation of Americans and Vietnamese allies from Saigon, effectively ending U.S. involvement in the war.
-
-**Economic Recovery:**
-
-* Ford faced a severe economic recession characterized by high inflation and unemployment.
-* He implemented economic policies known as "Fordonomics," which involved controlling inflation through budget cuts and tax increases.
-
-**Foreign Policy:**
-
-* Ford pursued a policy of détente with the Soviet Union.
-* He signed the Helsinki Accords, which recognized Soviet influence in Eastern Europe and promoted human rights.
-
-**Legacy:**
-
-* [Gerald Ford](./../gerald-ford/) is often remembered as a pragmatic and non-charismatic leader who inherited a difficult period in American history.
-* His presidency was marked by the challenges of Watergate, the Vietnam War, and economic recession.
-* He played a key role in ending the Vietnam War, signing important legislation, and pursuing détente with the Soviet Union.
-# [APUSH people](./../apush-people/)
+*   **Restoring Trust:** Ford's primary goal was to restore trust in government after the [Watergate Scandal](./../watergate-scandal/). While the Nixon pardon was controversial, his honesty and integrity helped to stabilize the country during a turbulent time.
+*   **Economic Challenges:** Ford faced significant economic challenges, including [Stagflation](./../stagflation/) (high inflation and unemployment). His economic policies, while intended to address these issues, had mixed results.
+*   **Foreign Policy:** Ford continued Nixon's policy of détente with the [Soviet Union](./../soviet-union/), but also faced challenges in [Southeast Asia](./../southeast-asia/) with the fall of South Vietnam.
+*   **Legacy:** Ford is often remembered for his decency and commitment to public service. He is credited with helping to heal the nation after [Watergate Scandal](./../watergate-scandal/) and setting the stage for the economic recovery of the late 1970s.

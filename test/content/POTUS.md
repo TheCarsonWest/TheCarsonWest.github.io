@@ -3,6 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
+# [APUSH people](./../apush-people/)
 # Presidents
 
 - [George Washington](./../george-washington/) (1789–1797)
@@ -49,9 +50,8 @@
 - [Bill Clinton](./../bill-clinton/) (1993–2001)
 - [George W. Bush](./../george-w.-bush/) (2001–2009)
 - [Barack Obama](./../barack-obama/) (2009–2017)
-- [Donald Trump](./../donald-trump/) (2017–2021)
+- [Donald Trump](./../donald-trump/) (2017–2021, 2025-2029)
 - [Joe Biden](./../joe-biden/) (2021–2025)
-- [Donald Trump](./../donald-trump/) (2025-2029) (non-consecutive term)
 
 
 # [APUSH people](./../apush-people/)
