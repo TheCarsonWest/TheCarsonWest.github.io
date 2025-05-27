@@ -17,7 +17,7 @@
 A series of laws enacted by Congress to address the issue of slavery in new territories following [Missouri](./../missouri/)'s application for statehood as a slave state. The main components were:
 * **[Missouri](./../missouri/) admitted as a slave state.**
 * **[Maine](./../maine/) admitted as a free state** (previously part of [Massachusetts](./../massachusetts/)) to maintain balance in the Senate.
-* **The 36°30′ parallel:** Slavery prohibited in the [Louisiana](./../louisiana/) Purchase]] territory north of this line, except for [Missouri](./../missouri/).
+* **The 36°30′ parallel:** Slavery prohibited in the [Louisiana Purchase](./../louisiana-purchase/) territory north of this line, except for [Missouri](./../missouri/).
 
 ## Impact? Why Significant?: 
 * **Temporary solution:** The Compromise temporarily defused the sectional crisis over slavery but ultimately failed to resolve the underlying tensions.

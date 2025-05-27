@@ -22,10 +22,10 @@
 15. [VA and KY Resolutions](./../va-and-ky-resolutions/)
 16. [Treaty of Greenville](./../treaty-of-greenville/)
 17. [Marbury vs Madison](./../marbury-vs-madison/)
-18. [Louisiana](./../louisiana/) Purchase]]
+18. [Louisiana Purchase](./../louisiana-purchase/)
 19. [Embargo Act of 1807](./../embargo-act-of-1807/)
 20. [Treaty of Ghent](./../treaty-of-ghent/)
-21. [McCulloch v [[Maryland](./../mcculloch-v-[[maryland/)
+21. [McCulloch v Maryland](./../mcculloch-v-maryland/)
 22. [Adams-Onis Treaty](./../adams-onis-treaty/)
 23. [Era of Good Feelings](./../era-of-good-feelings/)
 24. [Monroe Doctrine](./../monroe-doctrine/)
