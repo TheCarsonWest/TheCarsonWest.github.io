@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NASCAR Live Feed</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; display: flex; flex-direction: row; gap: 40px; }
+    table, th, td { border: 1px solid black; border-collapse: collapse; }
+    th, td { padding: 4px 8px; }
+    input, button { margin: 5px; }
+    .main { flex: 2; }
+    .sidebar { flex: 1; max-width: 400px; }
+    .group-box { margin-bottom: 20px; border: 1px solid #000; padding: 10px; }
+    img { height: 20px; vertical-align: middle; margin-right: 4px; }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main">
+    <h1>NASCAR Live Feed</h1>
+
+    <div>
+      <label>Group Name: <input type="text" id="groupName" /></label>
+      <label>Car Numbers (comma-separated): <input type="text" id="groupCars" /></label>
+      <button onclick="addGroup()">Add Group</button>
+    </div>
+
+    <h2>All Vehicles</h2>
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Badge</th>
+      <th>Name</th>
+      <th>Δ Time</th>
+      <th>Pit Stops</th>
+      <th>Laps Since Pit</th>
+      <th>Laps Led</th>
+      <th>Avg Pos</th>
+    </tr>
+  </thead>
+  <tbody></tbody> <!-- ← this must exist -->
+</table>
+
+  </div>
+
+  <div class="sidebar" id="groupsDisplay">
+    <h2>Groups</h2>
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+</html>
