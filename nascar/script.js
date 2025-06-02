@@ -113,30 +113,32 @@ function updateGroupDisplay() {
   // Populate group boxes
   for (let group in groups) {
     const cars = groups[group];
-    let sum = 0;
-    let count = 0;
     let tableRows = '';
 
-    cars.forEach(c => {
-      const v = vehicleMap[c];
-      if (v) {
-        const pos = v.running_position;
-        const badgeURL = `https://cf.nascar.com/data/images/carbadges/1/${v.vehicle_number}.png`;
-        sum += pos;
-        count++;
-        tableRows += `<tr>
-          <td><img src="${badgeURL}" alt="badge">#${v.vehicle_number}</td>
-          <td>${v.driver.full_name}</td>
-          <td>${pos}</td>
-        </tr>`;
-      } else {
+    const sortedCars = cars
+      .map(c => vehicleMap[c])
+      .filter(v => v)
+      .sort((a, b) => a.running_position - b.running_position);
+
+    sortedCars.forEach(v => {
+      const pos = v.running_position;
+      const badgeURL = `https://cf.nascar.com/data/images/carbadges/1/${v.vehicle_number}.png`;
+      tableRows += `<tr>
+        <td><img src="${badgeURL}" alt="badge">#${v.vehicle_number}</td>
+        <td>${v.driver.full_name}</td>
+        <td>${pos}</td>
+      </tr>`;
+    });
+
+    cars
+      .filter(c => !vehicleMap[c])
+      .forEach(c => {
         tableRows += `<tr>
           <td>#${c}</td><td>–</td><td>–</td>
         </tr>`;
-      }
-    });
+      });
 
-    const avg = count ? (sum / count).toFixed(2) : 'N/A';
+    const avg = sortedCars.length ? (sortedCars.reduce((sum, v) => sum + v.running_position, 0) / sortedCars.length).toFixed(2) : 'N/A';
     const score = calculateGroupScore(cars, scoringSystem, topX);
 
     container.innerHTML += `
