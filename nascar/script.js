@@ -3,6 +3,38 @@ let vehicleMap = {};
 
 const pointsDistribution = [40, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 1, 1, 1, 1];
 
+// Function to set a cookie
+function setCookie(name, value, days) {
+  let expires = "";
+  if (days) {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + encodeURIComponent(JSON.stringify(value)) + expires + "; path=/";
+}
+
+// Function to get a cookie
+function getCookie(name) {
+  const nameEQ = name + "=";
+  const ca = document.cookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return JSON.parse(decodeURIComponent(c.substring(nameEQ.length, c.length)));
+  }
+  return null;
+}
+
+// Load groups from cookies on page load
+function loadGroupsFromCookies() {
+  const savedGroups = getCookie('nascarGroups');
+  if (savedGroups) {
+    groups = savedGroups;
+    updateGroupDisplay();
+  }
+}
+
 function addGroup() {
   const name = document.getElementById('groupName').value.trim();
   const cars = document.getElementById('groupCars').value.trim().split(',').map(c => c.trim());
@@ -10,17 +42,20 @@ function addGroup() {
     groups[name] = cars;
     document.getElementById('groupName').value = '';
     document.getElementById('groupCars').value = '';
+    setCookie('nascarGroups', groups, 30); // Save groups to cookie for 30 days
     updateGroupDisplay();
   }
 }
 
 function deleteGroup(name) {
   delete groups[name];
+  setCookie('nascarGroups', groups, 30); // Update cookie
   updateGroupDisplay();
 }
 
 function deleteAllGroups() {
   groups = {};
+  setCookie('nascarGroups', groups, 30); // Update cookie
   updateGroupDisplay();
 }
 
@@ -48,32 +83,9 @@ function updateGroupDisplay() {
   const topXInput = document.getElementById('topXInput');
   const topX = parseInt(document.getElementById('topX').value) || 3;
 
-  // Show/hide Top X input based on scoring system
   topXInput.style.display = scoringSystem === 'avgPosition' ? 'block' : 'none';
 
-  // Update leaderboard
-  const leaderboardBody = document.getElementById('leaderboard').getElementsByTagName('tbody')[0];
-  leaderboardBody.innerHTML = '';
-  const groupScores = Object.entries(groups).map(([name, cars]) => ({
-    name,
-    score: calculateGroupScore(cars, scoringSystem, topX)
-  }));
-
-  // Sort groups by score (ascending for avgPosition, descending for champPoints)
-  groupScores.sort((a, b) => {
-    if (a.score === 'N/A' && b.score === 'N/A') return 0;
-    if (a.score === 'N/A') return 1;
-    if (b.score === 'N/A') return -1;
-    return scoringSystem === 'avgPosition' ? a.score - b.score : b.score - a.score;
-  });
-
-  groupScores.forEach(({ name, score }) => {
-    const row = leaderboardBody.insertRow();
-    row.insertCell().textContent = name;
-    row.insertCell().textContent = score;
-  });
-
-  // Update group boxes
+  // Set the container HTML first
   container.innerHTML = `
     <h2>Groups</h2>
     <div>
@@ -94,10 +106,11 @@ function updateGroupDisplay() {
           <th>Score</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody id="leaderboardBody"></tbody>
     </table>
   `;
 
+  // Populate group boxes
   for (let group in groups) {
     const cars = groups[group];
     let sum = 0;
@@ -137,6 +150,26 @@ function updateGroupDisplay() {
         </table>
       </div>`;
   }
+
+  // Populate leaderboard after DOM is set
+  const leaderboardBody = document.getElementById('leaderboardBody');
+  const groupScores = Object.entries(groups).map(([name, cars]) => ({
+    name,
+    score: calculateGroupScore(cars, scoringSystem, topX)
+  }));
+
+  groupScores.sort((a, b) => {
+    if (a.score === 'N/A' && b.score === 'N/A') return 0;
+    if (a.score === 'N/A') return 1;
+    if (b.score === 'N/A') return -1;
+    return scoringSystem === 'avgPosition' ? a.score - b.score : b.score - a.score;
+  });
+
+  groupScores.forEach(({ name, score }) => {
+    const row = leaderboardBody.insertRow();
+    row.insertCell().textContent = name;
+    row.insertCell().textContent = score;
+  });
 
   // Reattach event listeners
   document.getElementById('scoringSystem').value = scoringSystem;
@@ -193,4 +226,6 @@ async function fetchAndDisplay() {
   }
 }
 
+// Initialize groups from cookies on page load
+loadGroupsFromCookies();
 setInterval(fetchAndDisplay, 1000);
