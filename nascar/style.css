@@ -1,0 +1,90 @@
+/* Layout and base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+table {
+  width: auto; /* allow table to size naturally */
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  table-layout: auto; /* key: don't force equal-width columns */
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 4px 8px; /* restore readable padding */
+  text-align: left;
+  white-space: nowrap; /* optional: prevents wrapping */
+  color: #f0f0f0;
+}
+
+
+th {
+  background-color: #222;
+}
+
+tr:nth-child(even) {
+  background-color: #181818;
+}
+
+/* Inputs and buttons */
+input, button {
+  margin: 5px;
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  border: 1px solid #444;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+
+/* Flex layout parts */
+.main {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 1;
+  max-width: 400px;
+}
+
+/* Group containers */
+.group-box {
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  padding: 10px;
+  background-color: #1b1b1b;
+  border-radius: 6px;
+}
+
+/* Images */
+img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+/* Headers and labels */
+h1, h2 {
+  color: #ffffff;
+}
+
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Placeholder text */
+::placeholder {
+  color: #888;
+}
