@@ -76,7 +76,10 @@
       for (let v of data.vehicles) {
 const row = table.insertRow();
 
-// # Number
+// Position (leftmost column)
+row.insertCell().textContent = v.running_position ?? '—';
+
+// Car Number
 row.insertCell().textContent = v.vehicle_number;
 
 // Badge
@@ -86,7 +89,7 @@ badge.src = `https://cf.nascar.com/data/images/carbadges/1/${v.vehicle_number}.p
 badge.alt = "badge";
 badgeCell.appendChild(badge);
 
-// Name
+// Driver Name
 row.insertCell().textContent = v.driver.full_name;
 
 // Δ Time
@@ -116,6 +119,7 @@ row.insertCell().textContent = lapsLed;
 
 // Avg Running Position
 row.insertCell().textContent = v.average_running_position?.toFixed(2) ?? '—';
+
 
       }
 
