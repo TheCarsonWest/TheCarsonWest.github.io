@@ -12,6 +12,7 @@
     .sidebar { flex: 1; max-width: 400px; }
     .group-box { margin-bottom: 20px; border: 1px solid #000; padding: 10px; }
     img { height: 20px; vertical-align: middle; margin-right: 4px; }
+    .selected { background-color: #e0e0e0; }
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -23,34 +24,51 @@
       <label>Group Name: <input type="text" id="groupName" /></label>
       <label>Car Numbers (comma-separated): <input type="text" id="groupCars" /></label>
       <button onclick="addGroup()">Add Group</button>
+      <button onclick="deleteAllGroups()">Delete All Groups</button>
     </div>
 
     <h2>All Vehicles</h2>
-<table id="dataTable">
-  <thead>
-    <tr>
-      <th>Pos</th>
-      <th>#</th>
-      <th>Badge</th>
-      <th>Name</th>
-      <th>Δ Time</th>
-      <th>Pit Stops</th>
-      <th>Laps Since Pit</th>
-      <th>Laps Led</th>
-      <th>Avg Pos</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Pos</th>
+          <th>#</th>
+          <th>Badge</th>
+          <th>Name</th>
+          <th>Δ Time</th>
+          <th>Pit Stops</th>
+          <th>Laps Since Pit</th>
+          <th>Laps Led</th>
+          <th>Avg Pos</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </div>
 
   <div class="sidebar" id="groupsDisplay">
     <h2>Groups</h2>
+    <div>
+      <label>Scoring System:</label>
+      <select id="scoringSystem" onchange="updateGroupDisplay()">
+        <option value="avgPosition">Average Position of Top X Drivers</option>
+        <option value="champPoints">Total Championship Points</option>
+      </select>
+      <div id="topXInput" style="display: none;">
+        <label>Top Drivers: <input type="number" id="topX" min="1" value="3" onchange="updateGroupDisplay()"/></label>
+      </div>
+    </div>
+    <h3>Leaderboard</h3>
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th>Group</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
   </div>
   <script src="script.js"></script>
-
-
 </body>
 </html>
