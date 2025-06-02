@@ -14,9 +14,11 @@ node_size: "100"
 # [APUSH Home](./../apush-home/)
 # [APCHEM Home](./../apchem-home/)
 # [Python 1 Home](./../python-1-home/)
+# [AP English Language and Composition](./../ap-english-language-and-composition/)
 
 # [Calc home](./../calc-home/)
 
 [arabic vocab lists](./../arabic-vocab-lists/)
 
 # [Links website](https://thecarsonwest.github.io/links.html)
+# [nacar pool tracker website](https://thecarsonwest.github.io/nascar/index.html)
