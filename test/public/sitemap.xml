@@ -54,6 +54,8 @@
   </url><url>
     <loc>http://example.org/agricultural-revolution/</loc>
   </url><url>
+    <loc>http://example.org/ai-model-comparison-diagram-creation/</loc>
+  </url><url>
     <loc>http://example.org/alabama/</loc>
   </url><url>
     <loc>http://example.org/alaska/</loc>
@@ -316,6 +318,8 @@
   </url><url>
     <loc>http://example.org/choosing-descriptive-variable-names/</loc>
   </url><url>
+    <loc>http://example.org/christopher-columbus/</loc>
+  </url><url>
     <loc>http://example.org/chromatography/</loc>
   </url><url>
     <loc>http://example.org/civil-rights-act-of-1866/</loc>
@@ -338,9 +342,13 @@
   </url><url>
     <loc>http://example.org/cold-war/</loc>
   </url><url>
+    <loc>http://example.org/college-general-essay/</loc>
+  </url><url>
     <loc>http://example.org/collision-reaction-theory/</loc>
   </url><url>
     <loc>http://example.org/colorado/</loc>
+  </url><url>
+    <loc>http://example.org/columbian-exchange/</loc>
   </url><url>
     <loc>http://example.org/combined-gas-law/</loc>
   </url><url>
@@ -512,6 +520,8 @@
   </url><url>
     <loc>http://example.org/dust-bowl/</loc>
   </url><url>
+    <loc>http://example.org/dutch-colonization/</loc>
+  </url><url>
     <loc>http://example.org/dwight-d.-eisenhower/</loc>
   </url><url>
     <loc>http://example.org/ecumene/</loc>
@@ -548,11 +558,15 @@
   </url><url>
     <loc>http://example.org/encapsulation-in-python/</loc>
   </url><url>
+    <loc>http://example.org/encomienda-system/</loc>
+  </url><url>
     <loc>http://example.org/endothermic/</loc>
   </url><url>
     <loc>http://example.org/endothermic-and-exothermic-reactions/</loc>
   </url><url>
     <loc>http://example.org/energy-crisis-1973/</loc>
+  </url><url>
+    <loc>http://example.org/english-colonization/</loc>
   </url><url>
     <loc>http://example.org/enlightenment/</loc>
   </url><url>
@@ -592,6 +606,8 @@
   </url><url>
     <loc>http://example.org/etm/</loc>
   </url><url>
+    <loc>http://example.org/european-rivalries/</loc>
+  </url><url>
     <loc>http://example.org/exception-handling/</loc>
   </url><url>
     <loc>http://example.org/exception-handling-examples/</loc>
@@ -605,6 +621,8 @@
     <loc>http://example.org/extreme-value-theorem/</loc>
   </url><url>
     <loc>http://example.org/factors-affecting-rate-of-reaction/</loc>
+  </url><url>
+    <loc>http://example.org/fairmont-hairpin/</loc>
   </url><url>
     <loc>http://example.org/federalist-papers/</loc>
   </url><url>
@@ -655,6 +673,8 @@
     <loc>http://example.org/freeport-doctrine/</loc>
   </url><url>
     <loc>http://example.org/french-and-indian-war/</loc>
+  </url><url>
+    <loc>http://example.org/french-colonization/</loc>
   </url><url>
     <loc>http://example.org/frozen-sets/</loc>
   </url><url>
@@ -726,6 +746,8 @@
   </url><url>
     <loc>http://example.org/glossary/</loc>
   </url><url>
+    <loc>http://example.org/god-gold-and-glory/</loc>
+  </url><url>
     <loc>http://example.org/gold-standard/</loc>
   </url><url>
     <loc>http://example.org/graduated-symbols/</loc>
@@ -784,6 +806,8 @@
   </url><url>
     <loc>http://example.org/herbert-hoover/</loc>
   </url><url>
+    <loc>http://example.org/hernan-cortes/</loc>
+  </url><url>
     <loc>http://example.org/hess-law/</loc>
   </url><url>
     <loc>http://example.org/heterogeneous-equilibria-examples/</loc>
@@ -813,6 +837,8 @@
     <loc>http://example.org/ideal-gas-laws/</loc>
   </url><url>
     <loc>http://example.org/identity/</loc>
+  </url><url>
+    <loc>http://example.org/ids-unit-1/</loc>
   </url><url>
     <loc>http://example.org/ids-unit-2/</loc>
   </url><url>
@@ -910,6 +936,8 @@
   </url><url>
     <loc>http://example.org/james-monroe/</loc>
   </url><url>
+    <loc>http://example.org/jamestown/</loc>
+  </url><url>
     <loc>http://example.org/jays-treaty/</loc>
   </url><url>
     <loc>http://example.org/jim-crow-laws/</loc>
@@ -929,6 +957,8 @@
     <loc>http://example.org/john-quincy-adams/</loc>
   </url><url>
     <loc>http://example.org/john-tyler/</loc>
+  </url><url>
+    <loc>http://example.org/joint-stock-companies/</loc>
   </url><url>
     <loc>http://example.org/json-conversion/</loc>
   </url><url>
@@ -1048,6 +1078,8 @@
   </url><url>
     <loc>http://example.org/maine/</loc>
   </url><url>
+    <loc>http://example.org/maize-cultivation/</loc>
+  </url><url>
     <loc>http://example.org/manhattan-project/</loc>
   </url><url>
     <loc>http://example.org/map-distortions/</loc>
@@ -1090,11 +1122,15 @@
   </url><url>
     <loc>http://example.org/mentions/</loc>
   </url><url>
+    <loc>http://example.org/mercantilism/</loc>
+  </url><url>
     <loc>http://example.org/method-overriding/</loc>
   </url><url>
     <loc>http://example.org/method-resolution-order-mro/</loc>
   </url><url>
     <loc>http://example.org/michigan/</loc>
+  </url><url>
+    <loc>http://example.org/middle-passage/</loc>
   </url><url>
     <loc>http://example.org/millard-fillmore/</loc>
   </url><url>
@@ -1294,6 +1330,8 @@
   </url><url>
     <loc>http://example.org/plessy-v-ferguson/</loc>
   </url><url>
+    <loc>http://example.org/plymouth-colony/</loc>
+  </url><url>
     <loc>http://example.org/polarity/</loc>
   </url><url>
     <loc>http://example.org/polarizability/</loc>
@@ -1464,6 +1502,8 @@
   </url><url>
     <loc>http://example.org/riemann-sums/</loc>
   </url><url>
+    <loc>http://example.org/roanoke-colony/</loc>
+  </url><url>
     <loc>http://example.org/roaring-20s/</loc>
   </url><url>
     <loc>http://example.org/robber-barons/</loc>
@@ -1558,6 +1598,8 @@
   </url><url>
     <loc>http://example.org/spain/</loc>
   </url><url>
+    <loc>http://example.org/spanish-colonization/</loc>
+  </url><url>
     <loc>http://example.org/spanish-american-war/</loc>
   </url><url>
     <loc>http://example.org/speakeasies/</loc>
@@ -1644,6 +1686,8 @@
   </url><url>
     <loc>http://example.org/the-nature-of-geography-1.1/</loc>
   </url><url>
+    <loc>http://example.org/the-various-precolumbian-native-american-tribes/</loc>
+  </url><url>
     <loc>http://example.org/the-wealth-of-nations/</loc>
   </url><url>
     <loc>http://example.org/theodore-roosevelt/</loc>
@@ -1676,6 +1720,8 @@
   </url><url>
     <loc>http://example.org/traditional-culture/</loc>
   </url><url>
+    <loc>http://example.org/transatlantic-slave-trade/</loc>
+  </url><url>
     <loc>http://example.org/transcendentalism/</loc>
   </url><url>
     <loc>http://example.org/transcontinental-railroad/</loc>
@@ -1687,6 +1733,8 @@
     <loc>http://example.org/treaty-of-greenville/</loc>
   </url><url>
     <loc>http://example.org/treaty-of-paris-1776/</loc>
+  </url><url>
+    <loc>http://example.org/treaty-of-tordesillas/</loc>
   </url><url>
     <loc>http://example.org/treaty-of-versailles/</loc>
   </url><url>
@@ -1766,6 +1814,8 @@
   </url><url>
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
   </url><url>
+    <loc>http://example.org/untitled/</loc>
+  </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>
     <loc>http://example.org/utah/</loc>
@@ -1799,6 +1849,8 @@
     <loc>http://example.org/vietnam-war/</loc>
   </url><url>
     <loc>http://example.org/virginia/</loc>
+  </url><url>
+    <loc>http://example.org/virginia-company/</loc>
   </url><url>
     <loc>http://example.org/virtual-environments/</loc>
   </url><url>

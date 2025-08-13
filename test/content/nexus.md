@@ -6,19 +6,16 @@
 ---
 node_size: "100"
 ---
-
-
 # See [README](./../readme/)
 
 # [APHG Home](./../aphg-home/)
 # [APUSH Home](./../apush-home/)
 # [APCHEM Home](./../apchem-home/)
 # [Python 1 Home](./../python-1-home/)
-# [AP English Language and Composition](./../ap-english-language-and-composition/)
 
 # [Calc home](./../calc-home/)
 
-[arabic vocab lists](./../arabic-vocab-lists/)
+### [arabic vocab lists](./../arabic-vocab-lists/)
 
-# [Links website](https://thecarsonwest.github.io/links.html)
-# [nacar pool tracker website](https://thecarsonwest.github.io/nascar/index.html)
+My family and I like to make betting pools on NASCAR races where we draft a certain amount of drivers who we think will place the highest, so I created a scoreboard for that to better track who is winning and losing.  
+### [nacar pool tracker website](https://thecarsonwest.github.io/nascar/index.html)
