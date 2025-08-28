@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sampling Distributions for Sample Proportions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Sampling Distributions for Sample Proportions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="sampling-distributions-for-sample-proportions">Sampling Distributions for Sample Proportions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>When we take a sample from a population and calculate a statistic, that statistic will vary from sample to sample. A <a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a> is the distribution of all possible values of a statistic (like the sample proportion) for all possible samples of the same size from the same population. This page focuses specifically on the sampling distribution for sample proportions.</p>
+<h2 id="what-is-a-sample-proportion---hatp--">What is a Sample Proportion ( $ \hat{p} $ )?</h2>
+<p>A <strong>sample proportion</strong> ( $ \hat{p} $ ) is the proportion of successes in a simple random sample of size  $ n $  drawn from a population. It is an estimate of the true population proportion ( $ p $ ).</p>
+<p>The formula for the sample proportion is:
+$$  \hat{p} = \frac{X}{n}  $$  where  $ X $  is the number of &ldquo;successes&rdquo; (observations with the characteristic of interest) in the sample, and  $ n $  is the sample size.</p>
+<h2 id="the-sampling-distribution-of---hatp-">The Sampling Distribution of  $ \hat{p} $</h2>
+<p>If we take many, many samples of the same size  $ n $  from a population and calculate  $ \hat{p} $  for each sample, the distribution of these  $ \hat{p} $  values forms the sampling distribution. This distribution has a specific mean, standard deviation, and shape under certain conditions.</p>
+<h3 id="mean-of-the-sampling-distribution-of---hatp-">Mean of the Sampling Distribution of  $ \hat{p} $</h3>
+<p>The mean of the sampling distribution of  $ \hat{p} $  (denoted as  $ \mu_{\hat{p}} $  or  $ E(\hat{p}) $ ) is equal to the true population proportion  $ p $ . This means that  $ \hat{p} $  is an <a href="./../biased-and-unbiased-point-estimates/">Biased and Unbiased Point Estimates</a> of  $ p $ .</p>
+<p>$$  \mu_{\hat{p}} = p  $$</p>
+<h3 id="standard-deviation-of-the-sampling-distribution-of---hatp-">Standard Deviation of the Sampling Distribution of  $ \hat{p} $</h3>
+<p>The standard deviation of the sampling distribution of  $ \hat{p} $  (denoted as  $ \sigma_{\hat{p}} $ ) describes how much the sample proportion typically varies from the population proportion  $ p $ .</p>
+<p>The formula for the standard deviation is:
+$$  \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}  $$  This formula is valid only if the <a href="./../potential-problems-with-sampling/">Potential Problems with Sampling</a> is met, which ensures that individual observations are approximately independent. The <strong>10% Condition</strong> states that the sample size  $ n $  must be no more than 10% of the population size  $ N $  (i.e.,  $ n \le 0.10N $ ).</p>
+<h3 id="shape-of-the-sampling-distribution-of---hatp---normal-approximation">Shape of the Sampling Distribution of  $ \hat{p} $  (Normal Approximation)</h3>
+<p>Under certain conditions, the sampling distribution of  $ \hat{p} $  can be approximated by a <a href="./../the-normal-distribution/">The Normal Distribution</a>. This is a powerful result, similar in spirit to <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a> for sample means.</p>
+<h2 id="conditions-for-a-normal-model">Conditions for a Normal Model</h2>
+<p>To use a Normal distribution as an approximation for the sampling distribution of  $ \hat{p} $ , three key conditions must be met:</p>
+<ol>
+<li><strong>Random Condition:</strong> The data must come from a <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a>, or the data must be produced by a well-designed experiment.</li>
+<li><strong>10% Condition:</strong> The sample size  $ n $  must be no more than 10% of the population size  $ N $ . This ensures that the observations are approximately independent.  $ n \le 0.10N $ .</li>
+<li><strong>Large Counts Condition (Success/Failure Condition):</strong> The number of expected successes ( $ np $ ) and expected failures ( $ n(1-p) $ ) in the sample must both be at least 10. This ensures that the shape of the sampling distribution is approximately Normal.
+<ul>
+<li>$ np \ge 10 $</li>
+<li>$ n(1-p) \ge 10 $</li>
+</ul>
+</li>
+</ol>
+<p>If these conditions are met, we can say that  $ \hat{p} $  follows an approximately Normal distribution with mean  $ \mu_{\hat{p}} = p $  and standard deviation  $ \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} $ .</p>
+<h2 id="summary-table">Summary Table</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Characteristic</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">Formula</th>
+          <th style="text-align: left">Condition for Use (if applicable)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">**Mean of  $ \hat{p} $ **</td>
+          <td style="text-align: left">The center of the sampling distribution of sample proportions.</td>
+          <td style="text-align: left">$ \mu_{\hat{p}} = p $</td>
+          <td style="text-align: left">N/A</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**Standard Deviation of  $ \hat{p} $ **</td>
+          <td style="text-align: left">Measures the variability of sample proportions around the population proportion.</td>
+          <td style="text-align: left">$ \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}} $</td>
+          <td style="text-align: left"><strong>10% Condition:</strong>  $ n \le 0.10N $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**Shape of  $ \hat{p} $ **</td>
+          <td style="text-align: left">Approximately Normal.</td>
+          <td style="text-align: left">$ N(\mu_{\hat{p}}, \sigma_{\hat{p}}) $</td>
+          <td style="text-align: left"><strong>Large Counts Condition:</strong>  $ np \ge 10 $  and  $ n(1-p) \ge 10 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Random Condition</strong></td>
+          <td style="text-align: left">Ensures that the sample is representative of the population.</td>
+          <td style="text-align: left">N/A</td>
+          <td style="text-align: left">Data from <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a> or well-designed experiment</td>
+      </tr>
+  </tbody>
+</table>
+<p>Understanding sampling distributions is fundamental for inferential statistics, as it allows us to quantify the uncertainty in our estimates and make inferences about population parameters based on sample data.</p>
+
+</main>
+
+
+  </body>
+</html>
+

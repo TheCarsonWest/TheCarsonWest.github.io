@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mean and Standard Deviation of Random Variables | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Mean and Standard Deviation of Random Variables</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="mean-and-standard-deviation-of-random-variables">Mean and Standard Deviation of Random Variables</h1>
+<p>This note page expands on the concepts introduced in <a href="./../introduction-to-random-variables-and-probability-distributions/">Introduction to Random Variables and Probability Distributions</a>, focusing specifically on quantifying the center and spread of a random variable&rsquo;s distribution.</p>
+<h2 id="expected-value-mean-of-a-discrete-random-variable">Expected Value (Mean) of a Discrete Random Variable</h2>
+<p>The <strong>expected value</strong> or <strong>mean</strong> of a discrete random variable  $ X $ , denoted as  $ E(X) $  or  $ \mu_X $ , represents the long-run average value of the variable over many repetitions of the random process. It is a measure of the center of the probability distribution.</p>
+<p>To calculate the expected value of a discrete random variable, you multiply each possible value of the variable by its corresponding probability and then sum these products.</p>
+<p>$$  \mu_X = E(X) = \sum x_i p_i
+$$<br>
+Where:</p>
+<ul>
+<li>$ x_i $  are the individual values the random variable  $ X $  can take.</li>
+<li>$ p_i $  are the probabilities associated with each  $ x_i $ .</li>
+</ul>
+<h3 id="example-expected-value">Example: Expected Value</h3>
+<p>Consider a game where you roll a fair six-sided die. If you roll a 6, you win \ $ 5. If you roll a 1 or 2, you lose \ $ 2. Otherwise, you neither win nor lose. Let  $ X $  be the amount of money you win/lose.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">$ x_i $  (Outcome)</th>
+          <th style="text-align: left">$ p_i $  (Probability)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">\ $ 5</td>
+          <td style="text-align: left">$ 1/6 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">-\ $ 2</td>
+          <td style="text-align: left">$ 2/6 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">\ $ 0</td>
+          <td style="text-align: left">$ 3/6 $</td>
+      </tr>
+  </tbody>
+</table>
+<p>The expected value is:
+$$  E(X) = (5 \times \frac{1}{6}) + (-2 \times \frac{2}{6}) + (0 \times \frac{3}{6}) \
+E(X) = \frac{5}{6} - \frac{4}{6} + 0 = \frac{1}{6} \approx \ $ 0.17
+$$  On average, you can expect to win about \ $ 0.17 per game in the long run.</p>
+<h2 id="standard-deviation-of-a-discrete-random-variable">Standard Deviation of a Discrete Random Variable</h2>
+<p>The <strong>standard deviation</strong> of a random variable, denoted as  $ \sigma_X $ , measures the typical distance of the values of the variable from the mean. It quantifies the spread or variability of the distribution. A larger standard deviation indicates greater spread.</p>
+<p>Before calculating the standard deviation, we first find the <strong>variance</strong>, denoted as  $ Var(X) $  or  $ \sigma_X^2 $ . The variance is the expected value of the squared deviations from the mean.</p>
+<p>$$  \sigma_X^2 = Var(X) = \sum (x_i - \mu_X)^2 p_i
+$$<br>
+The standard deviation is simply the square root of the variance:</p>
+<p>$$  \sigma_X = \sqrt{\sum (x_i - \mu_X)^2 p_i}
+$$</p>
+<h3 id="example-standard-deviation">Example: Standard Deviation</h3>
+<p>Using the previous die roll example, where  $ \mu_X = 1/6 $ :</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">$ x_i $</th>
+          <th style="text-align: left">$ p_i $</th>
+          <th style="text-align: left">$ (x_i - \mu_X) $</th>
+          <th style="text-align: left">$ (x_i - \mu_X)^2 $</th>
+          <th style="text-align: left">$ (x_i - \mu_X)^2 p_i $</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">\ $ 5</td>
+          <td style="text-align: left">$ 1/6 $</td>
+          <td style="text-align: left">$ 5 - 1/6 = 29/6 $</td>
+          <td style="text-align: left">$ (29/6)^2 = 841/36 $</td>
+          <td style="text-align: left">$ (841/36) \times 1/6 = 841/216 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">-\ $ 2</td>
+          <td style="text-align: left">$ 2/6 $</td>
+          <td style="text-align: left">$ -2 - 1/6 = -13/6 $</td>
+          <td style="text-align: left">$ (-13/6)^2 = 169/36 $</td>
+          <td style="text-align: left">$ (169/36) \times 2/6 = 338/216 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">\ $ 0</td>
+          <td style="text-align: left">$ 3/6 $</td>
+          <td style="text-align: left">$ 0 - 1/6 = -1/6 $</td>
+          <td style="text-align: left">$ (-1/6)^2 = 1/36 $</td>
+          <td style="text-align: left">$ (1/36) \times 3/6 = 3/216 $</td>
+      </tr>
+  </tbody>
+</table>
+<p>Summing the last column gives the variance:
+$$  Var(X) = \frac{841}{216} + \frac{338}{216} + \frac{3}{216} = \frac{1182}{216} \approx 5.472
+$$  The standard deviation is:
+$$  \sigma_X = \sqrt{\frac{1182}{216}} \approx \sqrt{5.472} \approx \ $ 2.34
+$$  This means that, on average, the amount won or lost per game typically varies by about \ $ 2.34 from the expected win of \ $ 0.17.</p>
+<h2 id="combining-random-variablescombining-random-variables"><a href="./../combining-random-variables/">Combining Random Variables</a></h2>
+<p>When dealing with multiple random variables, we often need to understand the mean and standard deviation of their sum or difference. This topic, known as <a href="./../combining-random-variables/">Combining Random Variables</a>, covers rules for linear transformations of random variables ( $ Y = a + bX $ ) and for combining independent random variables (e.g.,  $ W = X + Y $  or  $ D = X - Y $ ). Key principles include:</p>
+<ul>
+<li><strong>Mean</strong>: Means are additive for both sums and differences ( $ E(X \pm Y) = E(X) \pm E(Y) $ ).</li>
+<li><strong>Variance</strong>: Variances are additive for the sum or difference of independent random variables ( $ Var(X \pm Y) = Var(X) + Var(Y) $ ). Note that standard deviations are not directly additive.</li>
+<li><strong>Independence</strong>: The rule for adding variances only applies if the random variables are independent. If they are not independent, additional considerations related to covariance are needed.</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

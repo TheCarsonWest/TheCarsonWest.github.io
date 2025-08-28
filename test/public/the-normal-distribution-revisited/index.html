@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Normal Distribution, Revisited | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">The Normal Distribution, Revisited</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-statistics-the-normal-distribution-revisited">AP Statistics: The Normal Distribution, Revisited</h1>
+<p>The Normal Distribution is a fundamental concept in statistics, often serving as a model for quantitative data. While we&rsquo;ve previously introduced its basic shape and properties (<a href="./../the-normal-distribution/">The Normal Distribution</a>), this page delves deeper into its applications, standardization, and how we use it to calculate probabilities. It&rsquo;s crucial for understanding topics like <a href="./../sampling-distributions-for-sample-means/">Sampling Distributions for Sample Means</a> and <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>.</p>
+<hr>
+<h2 id="key-properties-of-the-normal-distribution">Key Properties of the Normal Distribution</h2>
+<p>A normal distribution, often called the &ldquo;bell curve,&rdquo; is a symmetric, unimodal distribution characterized by its mean ( $ \mu $ ) and standard deviation ( $ \sigma $ ). Its probability density function is given by:</p>
+<p>$$  f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}  $$<br>
+While we don&rsquo;t typically calculate probabilities directly from this formula, it defines the curve&rsquo;s shape.</p>
+<p><strong>Important Characteristics:</strong></p>
+<ul>
+<li><strong>Symmetry:</strong> The mean, median, and mode are all equal and located at the center of the distribution.</li>
+<li><strong>Total Area:</strong> The total area under the curve is 1, representing 100% of the data.</li>
+<li><strong>Asymptotic:</strong> The tails of the curve extend infinitely in both directions but never quite touch the horizontal axis.</li>
+</ul>
+<hr>
+<h2 id="the-empirical-rule-68-95-997-rule">The Empirical Rule (68-95-99.7 Rule)</h2>
+<p>This rule provides a quick way to estimate the proportion of data within certain standard deviations of the mean for any normal distribution.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Interval</th>
+          <th style="text-align: left">Proportion of Data</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \mu \pm 1\sigma $</td>
+          <td style="text-align: left">Approximately 68%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \mu \pm 2\sigma $</td>
+          <td style="text-align: left">Approximately 95%</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \mu \pm 3\sigma $</td>
+          <td style="text-align: left">Approximately 99.7%</td>
+      </tr>
+  </tbody>
+</table>
+<p>This rule is extremely useful for quick estimations and understanding the spread of data in a normal distribution. For instance, roughly 95% of observations fall within two standard deviations of the mean.</p>
+<hr>
+<h2 id="standardizing-normal-distributions-z-scores">Standardizing Normal Distributions: Z-Scores</h2>
+<p>To compare values from different normal distributions or to find probabilities for any normal distribution, we standardize the values using a <strong>z-score</strong>. A z-score measures how many standard deviations an observation ( $ x $ ) is away from the mean ( $ \mu $ ).</p>
+<p>The formula for a z-score is:</p>
+<p>$$  z = \frac{x - \mu}{\sigma}  $$</p>
+<ul>
+<li>A positive z-score indicates the observation is above the mean.</li>
+<li>A negative z-score indicates the observation is below the mean.</li>
+<li>A z-score of 0 means the observation is equal to the mean.</li>
+</ul>
+<p>The distribution of z-scores for a normal distribution is called the <strong>Standard Normal Distribution</strong>, which has a mean of 0 and a standard deviation of 1.</p>
+<hr>
+<h2 id="calculating-probabilities-with-z-scores">Calculating Probabilities with Z-Scores</h2>
+<p>Once a value  $ x $  is converted to a z-score, we can use the Standard Normal Distribution (Z-table or calculator) to find the probability of observing a value less than, greater than, or between certain values.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li><strong>State the Problem:</strong> Clearly define the probability you want to find (e.g.,  $ P(X &lt; x_0) $ ).</li>
+<li><strong>Standardize:</strong> Convert the  $ x $  value(s) to z-score(s) using  $ z = (x - \mu) / \sigma $ .</li>
+<li><strong>Sketch (Optional but Recommended):</strong> Draw a normal curve and shade the area corresponding to the desired probability.</li>
+<li><strong>Use Table/Calculator:</strong>
+<ul>
+<li><strong>Z-table:</strong> Provides the area to the left of a given z-score.</li>
+<li><strong>Calculator (e.g., <code>normalcdf</code>):</strong> Allows direct calculation of areas between two z-scores (or from  $ -\infty $  to  $ z $ , or  $ z $  to  $ \infty $ ).</li>
+</ul>
+</li>
+</ol>
+<p><strong>Example:</strong> If heights are normally distributed with  $ \mu = 68 $  inches and  $ \sigma = 3 $  inches, what is the probability a randomly selected person is taller than 71 inches?</p>
+<ol>
+<li>$ P(X &gt; 71) $</li>
+<li>$ z = \frac{71 - 68}{3} = \frac{3}{3} = 1 $</li>
+<li>We need  $ P(Z &gt; 1) $ .</li>
+<li>Using a calculator <code>normalcdf(1, E99, 0, 1)</code> or Z-table (finding  $ P(Z &lt; 1) $  and subtracting from 1), we get approximately  $ 1 - 0.8413 = 0.1587 $ .</li>
+</ol>
+<hr>
+<h2 id="assessing-normality">Assessing Normality</h2>
+<p>While the Normal Distribution is widely used, it&rsquo;s essential to determine if a dataset can reasonably be modeled by it. <a href="./../graphical-representations-of-summary-statistics/">Graphical Representations of Summary Statistics</a> and <a href="./../representing-a-quantitative-variable-with-graphs/">Representing a Quantitative Variable with Graphs</a> can help.</p>
+<p><strong>Methods for Assessing Normality:</strong></p>
+<ul>
+<li><strong>Histogram/Stemplot:</strong> Look for a roughly symmetric, unimodal, bell-shaped distribution.</li>
+<li><strong>Normal Probability Plot (or Normal Quantile Plot):</strong>
+<ul>
+<li>Plot the observed data values against the corresponding z-scores (or expected values from a normal distribution).</li>
+<li>If the data are approximately normal, the points on the plot will fall close to a straight line.</li>
+<li>Systematic deviations from a straight line indicate non-normality (e.g., curvature suggests skewness or heavy tails).</li>
+</ul>
+</li>
+</ul>
+<p>Understanding these methods is crucial for justifying the use of normal distribution-based inference procedures later on.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Potential Errors When Performing Tests | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Potential Errors When Performing Tests</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="potential-errors-when-performing-tests">Potential Errors When Performing Tests</h1>
+<p>When performing a hypothesis test, our goal is to make a decision about a population parameter based on sample data. However, since we are using sample data, there&rsquo;s always a chance our decision will be incorrect, regardless of how carefully we follow the procedure. These potential errors are a fundamental aspect of statistical inference.</p>
+<h2 id="type-i-errortype-i-error"><a href="./../type-i-error/">Type I Error</a></h2>
+<p>A <strong>Type I error</strong> occurs when we <strong>reject a true null hypothesis</strong> ( $ H_0 $ ). This means we conclude there is a significant effect or difference when, in reality, there isn&rsquo;t one in the population.</p>
+<ul>
+<li><strong>Probability of a Type I Error:</strong> Denoted by  $ \alpha $  (alpha), which is the significance level of the test.
+<ul>
+<li>$$ P(\text{Type I Error}) = P(\text{Reject } H_0 \text{ | } H_0 \text{ is True}) = \alpha $$  *   <strong>Consequences:</strong> The consequences depend on the context of the problem. For example, if a company concludes a new drug is effective when it isn&rsquo;t, they might invest heavily in a useless product or potentially harm patients.</li>
+</ul>
+</li>
+<li><strong>Controlling Type I Error:</strong> We set the  $ \alpha $  level (e.g., 0.05 or 0.01) before conducting the test. A smaller  $ \alpha $  reduces the probability of a Type I error but makes it harder to reject  $ H_0 $ . This is discussed further in <a href="./../setting-up-a-test-for-a-population-proportion/">Setting Up a Test for a Population Proportion</a>.</li>
+</ul>
+<h2 id="type-ii-errortype-ii-error"><a href="./../type-ii-error/">Type II Error</a></h2>
+<p>A <strong>Type II error</strong> occurs when we <strong>fail to reject a false null hypothesis</strong> ( $ H_0 $ ). This means we fail to detect a significant effect or difference that actually exists in the population.</p>
+<ul>
+<li><strong>Probability of a Type II Error:</strong> Denoted by  $ \beta $  (beta).
+<ul>
+<li>$$ P(\text{Type II Error}) = P(\text{Fail to Reject } H_0 \text{ | } H_0 \text{ is False}) = \beta $$  *   <strong>Consequences:</strong> Failing to detect a real effect can lead to missed opportunities. For example, a company might miss out on a truly effective new drug, or a researcher might overlook a real scientific discovery.</li>
+</ul>
+</li>
+<li><strong>Controlling Type II Error:</strong> Reducing  $ \beta $  is often achieved by increasing the sample size or increasing the significance level  $ \alpha $ .</li>
+</ul>
+<h2 id="the-relationship-between-type-i-and-type-ii-errors">The Relationship Between Type I and Type II Errors</h2>
+<p>There is an inverse relationship between Type I and Type II errors:</p>
+<ul>
+<li>If you **decrease  $ \alpha $ ** (making it harder to reject  $ H_0 $ ), you **increase  $ \beta $ ** (making it harder to detect a real effect).</li>
+<li>If you **increase  $ \alpha $ ** (making it easier to reject  $ H_0 $ ), you **decrease  $ \beta $ ** (making it easier to detect a real effect).</li>
+</ul>
+<p>The choice of  $ \alpha $  depends on which type of error is considered more serious in a particular context.</p>
+<h2 id="power-of-a-test">Power of a Test</h2>
+<p>The <strong>power</strong> of a hypothesis test is the probability of correctly rejecting a false null hypothesis. It is the probability that the test will detect an effect when there actually is an effect.</p>
+<ul>
+<li><strong>Calculation:</strong>
+<ul>
+<li>$$ Power = 1 - \beta $$  *   <strong>Interpretation:</strong> A higher power means a better chance of detecting a real effect.</li>
+</ul>
+</li>
+<li><strong>Factors Affecting Power:</strong>
+<ol>
+<li><strong>Sample Size:</strong> Increasing the sample size generally increases power (and decreases  $ \beta $ ).</li>
+<li><strong>Significance Level ( $ \alpha $ ):</strong> Increasing  $ \alpha $  increases power (and decreases  $ \beta $ ).</li>
+<li><strong>Effect Size:</strong> The magnitude of the true difference or effect in the population. A larger effect size is easier to detect, thus increasing power.</li>
+<li><strong>Standard Deviation:</strong> A smaller population standard deviation (less variability) increases power.</li>
+</ol>
+</li>
+</ul>
+<h2 id="summary-of-decisions-and-errors">Summary of Decisions and Errors</h2>
+<p>This table summarizes the possible outcomes of a hypothesis test:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"><strong>Actual State of  $ H_0 $  (in the Population)</strong></th>
+          <th style="text-align: left"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Decision</strong></td>
+          <td style="text-align: left">$ H_0 $  is True</td>
+          <td style="text-align: left">$ H_0 $  is False</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**Fail to Reject  $ H_0 $ **</td>
+          <td style="text-align: left">Correct Decision ( $ 1 - \alpha $ )</td>
+          <td style="text-align: left">Type II Error ( $ \beta $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">**Reject  $ H_0 $ **</td>
+          <td style="text-align: left">Type I Error ( $ \alpha $ )</td>
+          <td style="text-align: left">Correct Decision (Power,  $ 1 - \beta $ )</td>
+      </tr>
+  </tbody>
+</table>
+<p>Understanding these errors is crucial for interpreting the results of any hypothesis test, as discussed in <a href="./../interpreting-p-values/">Interpreting p-Values</a> and <a href="./../concluding-a-test-for-a-population-proportion/">Concluding a Test for a Population Proportion</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

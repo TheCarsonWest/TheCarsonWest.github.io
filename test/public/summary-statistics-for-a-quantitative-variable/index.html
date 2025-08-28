@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Summary Statistics for a Quantitative Variable | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Summary Statistics for a Quantitative Variable</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="summary-statistics-for-a-quantitative-variable">Summary Statistics for a Quantitative Variable</h1>
+<p>Summary statistics provide a concise numerical description of the main features of a distribution of a quantitative variable. They help us understand the center, spread, and shape of the data without having to look at every single data point. When describing a distribution, we often focus on these key characteristics.</p>
+<h2 id="measures-of-center">Measures of Center</h2>
+<p>Measures of center indicate the &ldquo;typical&rdquo; value of a dataset.</p>
+<h3 id="mean---barx--">Mean ( $ \bar{x} $ )</h3>
+<p>The arithmetic mean, often simply called the mean, is the sum of all values divided by the number of values. It&rsquo;s the most common measure of center.</p>
+<p>$$  \bar{x} = \frac{\sum x_i}{n}  $$</p>
+<ul>
+<li><strong>Interpretation:</strong> The mean is the balancing point of the distribution.</li>
+<li><strong>Sensitivity to Outliers:</strong> The mean is <strong>not resistant</strong> to outliers. Extreme values can significantly pull the mean towards them.</li>
+<li><strong>Appropriate Use:</strong> Best for approximately symmetric distributions without outliers.</li>
+</ul>
+<h3 id="median-m">Median (M)</h3>
+<p>The median is the midpoint of an ordered distribution. Half of the observations are smaller than the median, and half are larger.</p>
+<ul>
+<li><strong>Calculation:</strong>
+<ul>
+<li>Order the data from smallest to largest.</li>
+<li>If  $ n $  is odd, the median is the middle observation. Its position is  $ \frac{n+1}{2} $ .</li>
+<li>If  $ n $  is even, the median is the average of the two middle observations.</li>
+</ul>
+</li>
+<li><strong>Resistance to Outliers:</strong> The median <strong>is resistant</strong> to outliers. Extreme values have little effect on its value.</li>
+<li><strong>Appropriate Use:</strong> Best for skewed distributions or distributions with strong outliers.</li>
+</ul>
+<h3 id="comparing-mean-and-median">Comparing Mean and Median</h3>
+<ul>
+<li><strong>Symmetric Distribution:</strong> Mean  $ \approx $  Median</li>
+<li><strong>Skewed Right Distribution:</strong> Mean  $ &gt; $  Median (The mean is pulled towards the longer tail)</li>
+<li><strong>Skewed Left Distribution:</strong> Mean  $ &lt; $  Median (The mean is pulled towards the longer tail)</li>
+</ul>
+<h2 id="measures-of-spread-variability">Measures of Spread (Variability)</h2>
+<p>Measures of spread describe how much the data values vary from each other.</p>
+<h3 id="range">Range</h3>
+<p>The range is the difference between the maximum and minimum values in a dataset.</p>
+<p>$$  \text{Range} = \text{Maximum value} - \text{Minimum value}  $$</p>
+<ul>
+<li><strong>Limitation:</strong> It is highly sensitive to outliers as it only considers the two most extreme values.</li>
+</ul>
+<h3 id="interquartile-range-iqrinterquartile-range-iqr"><a href="./../interquartile-range-(iqr)/">Interquartile Range (IQR)</a></h3>
+<p>The IQR is the range of the middle 50% of the data. It&rsquo;s the difference between the third quartile (Q3) and the first quartile (Q1).</p>
+<p>$$  IQR = Q_3 - Q_1  $$</p>
+<ul>
+<li><strong>Quartiles:</strong>
+<ul>
+<li>$ Q_1 $  (First Quartile): The median of the lower half of the data. 25% of the data falls below  $ Q_1 $ .</li>
+<li>$ Q_3 $  (Third Quartile): The median of the upper half of the data. 75% of the data falls below  $ Q_3 $ .</li>
+</ul>
+</li>
+<li><strong>Resistance to Outliers:</strong> The IQR <strong>is resistant</strong> to outliers.</li>
+<li><strong>Appropriate Use:</strong> Best for skewed distributions or distributions with strong outliers.</li>
+</ul>
+<h3 id="standard-deviation---s_x--">Standard Deviation ( $ s_x $ )</h3>
+<p>The standard deviation measures the typical distance of an observation from the mean. It&rsquo;s the square root of the variance.</p>
+<p>$$  s_x = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}  $$</p>
+<ul>
+<li><strong>Interpretation:</strong> A larger standard deviation indicates greater variability in the data.</li>
+<li><strong>Sensitivity to Outliers:</strong> The standard deviation is <strong>not resistant</strong> to outliers.</li>
+<li><strong>Properties:</strong>
+<ul>
+<li>$ s_x \ge 0 $ .  $ s_x = 0 $  only when all observations are the same.</li>
+<li>Like the mean,  $ s_x $  is strongly affected by outliers.</li>
+</ul>
+</li>
+<li><strong>Appropriate Use:</strong> Best for approximately symmetric distributions without outliers.</li>
+</ul>
+<h3 id="variance---s_x2--">Variance ( $ s_x^2 $ )</h3>
+<p>The variance is the average of the squared deviations from the mean. It is the square of the standard deviation.</p>
+<p>$$  s_x^2 = \frac{\sum (x_i - \bar{x})^2}{n-1}  $$</p>
+<ul>
+<li><strong>Units:</strong> The units of variance are the square of the units of the original data, which makes it less intuitive to interpret than standard deviation.</li>
+</ul>
+<h2 id="the-five-number-summary">The Five-Number Summary</h2>
+<p>The five-number summary provides a robust numerical description of a distribution and consists of:</p>
+<ol>
+<li>Minimum value</li>
+<li>First Quartile ( $ Q_1 $ )</li>
+<li>Median (M)</li>
+<li>Third Quartile ( $ Q_3 $ )</li>
+<li>Maximum value</li>
+</ol>
+<p>This summary is the basis for constructing <a href="./../graphical-representations-of-summary-statistics#boxplots/">Graphical Representations of Summary Statistics#Boxplots</a>.</p>
+<h2 id="identifying-outliers">Identifying Outliers</h2>
+<p>Outliers are observations that fall outside the overall pattern of the distribution. A common rule for identifying potential outliers using the IQR is:</p>
+<ul>
+<li>An observation is a <strong>low outlier</strong> if it falls below  $ Q_1 - 1.5 \times IQR $ .</li>
+<li>An observation is a <strong>high outlier</strong> if it falls above  $ Q_3 + 1.5 \times IQR $ .</li>
+</ul>
+<p>These summary statistics are fundamental tools for <a href="./../describing-the-distribution-of-a-quantitative-variable/">Describing the Distribution of a Quantitative Variable</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

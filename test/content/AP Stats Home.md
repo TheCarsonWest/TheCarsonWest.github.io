@@ -1,0 +1,81 @@
++++
+ title = 'AP Stats Home'
+[params]
+	author = 'Carson West'
++++
+# [nexus](./../nexus/)
+# AP Stats Unit 1
+### 1.3 [Representing a Categorical Variable with Tables](./../representing-a-categorical-variable-with-tables/)
+### 1.4 [Representing a Categorical Variable with Graphs](./../representing-a-categorical-variable-with-graphs/)
+### 1.5 [Representing a Quantitative Variable with Graphs](./../representing-a-quantitative-variable-with-graphs/)
+### 1.6 [Describing the Distribution of a Quantitative Variable](./../describing-the-distribution-of-a-quantitative-variable/)
+### 1.7 [Summary Statistics for a Quantitative Variable](./../summary-statistics-for-a-quantitative-variable/)
+### 1.8 [Graphical Representations of Summary Statistics](./../graphical-representations-of-summary-statistics/)
+### 1.9 [Comparing Distributions of a Quantitative Variable](./../comparing-distributions-of-a-quantitative-variable/)
+### 1.10 [The Normal Distribution](./../the-normal-distribution/)
+# AP Stats Unit 2
+### 2.2 [Representing Two Categorical Variables](./../representing-two-categorical-variables/)
+### 2.3 [Statistics for Two Categorical Variables](./../statistics-for-two-categorical-variables/)
+### 2.4 [Representing the Relationship Between Two Quantitative Variables](./../representing-the-relationship-between-two-quantitative-variables/)
+### 2.5 [Correlation](./../correlation/)
+### 2.6 [Linear Regression Models](./../linear-regression-models/)
+### 2.7 [Residuals](./../residuals/)
+### 2.8 [Least Squares Regression](./../least-squares-regression/)
+### 2.9 [Analyzing Departures from Linearity](./../analyzing-departures-from-linearity/)
+# AP Stats Unit 3
+### 3.2 [Introduction to Planning a Study](./../introduction-to-planning-a-study/)
+### 3.3 [Random Sampling and a Collection](./../random-sampling-and-a-collection/)
+### 3.4 [Potential Problems with Sampling](./../potential-problems-with-sampling/)
+### 3.5 [Introduction to Experimental Design](./../introduction-to-experimental-design/)
+### 3.6 [Selecting an Experimental Design](./../selecting-an-experimental-design/)
+### 3.7 [Inference and Experiments](./../inference-and-experiments/)
+# AP Stats Unit 4
+### 4.2 [Estimating Probabilities Using Simulation](./../estimating-probabilities-using-simulation/)
+### 4.3 [Introduction to Probability](./../introduction-to-probability/)
+### 4.4 [Mutually Exclusive Events](./../mutually-exclusive-events/)
+### 4.5 [Conditional Probability](./../conditional-probability/)
+### 4.6 [Independent Events and Unions of Events](./../independent-events-and-unions-of-events/)
+### 4.7 [Introduction to Random Variables and Probability Distributions](./../introduction-to-random-variables-and-probability-distributions/)
+### 4.8 [Mean and Standard Deviation of Random Variables](./../mean-and-standard-deviation-of-random-variables/)
+### 4.9 [Combining Random Variables](./../combining-random-variables/)
+### 4.10 [Introduction to the Binomial Distribution](./../introduction-to-the-binomial-distribution/)
+### 4.11 [Parameters for a Binomial Distribution](./../parameters-for-a-binomial-distribution/)
+### 4.12 [The Geometric Distribution](./../the-geometric-distribution/)
+# AP Stats Unit 5
+### 5.2 [The Normal Distribution, Revisited](./../the-normal-distribution-revisited/)
+### 5.3 [The Central Limit Theorem](./../the-central-limit-theorem/)
+### 5.4 [Biased and Unbiased Point Estimates](./../biased-and-unbiased-point-estimates/)
+### 5.5 [Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/)
+### 5.6 [Sampling Distributions for Differences in Sample Proportions](./../sampling-distributions-for-differences-in-sample-proportions/)
+### 5.7 [Sampling Distributions for Sample Means](./../sampling-distributions-for-sample-means/)
+### 5.8 [Sampling Distributions for Differences in Sample Means](./../sampling-distributions-for-differences-in-sample-means/)
+# AP Stats Unit 6
+### 6.2 [Constructing a Confidence Interval for a Population](./../constructing-a-confidence-interval-for-a-population/)
+### 6.3 [Justifying a Claim Based on a Confidence Interval for a Population Proportion](./../justifying-a-claim-based-on-a-confidence-interval-for-a-population-proportion/)
+### 6.4 [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/)
+### 6.5 [Interpreting p-Values](./../interpreting-p-values/)
+### 6.6 [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/)
+### 6.7 [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/)
+### 6.9 [Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions](./../justifying-a-claim-based-on-a-confidence-interval-for-a-difference-of-population-proportions/)
+### 6.10 [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/)
+### 6.11 [Carrying Out a Test for the Difference of Two Population Proportions](./../carrying-out-a-test-for-the-difference-of-two-population-proportions/)
+# AP Stats Unit 7
+### 7.2 [Constructing a Confidence Interval for a Population Mean](./../constructing-a-confidence-interval-for-a-population-mean/)
+### 7.3 [Justifying a Claim About a Population Mean Based on a Confidence Interval](./../justifying-a-claim-about-a-population-mean-based-on-a-confidence-interval/)
+### 7.4 [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/)
+### 7.5 [Carrying Out a Test for a Population Mean](./../carrying-out-a-test-for-a-population-mean/)2
+### 7.6 [Confidence Intervals for the Difference of Two Means](./../confidence-intervals-for-the-difference-of-two-means/)
+### 7.7 [Justifying a Claim About the Difference of Two Means Based on a Confidence Interval](./../justifying-a-claim-about-the-difference-of-two-means-based-on-a-confidence-interval/)
+### 7.8 [Setting Up a Test for the Difference of Two Population Means](./../setting-up-a-test-for-the-difference-of-two-population-means/)
+### 7.9 [Carrying Out a Test for the Difference of Two Population Means](./../carrying-out-a-test-for-the-difference-of-two-population-means/)
+# AP Stats Unit 8
+### 8.2 [Setting Up a Chi-Square Goodness of Fit Test](./../setting-up-a-chi-square-goodness-of-fit-test/)
+### 8.3 [Carrying Out a Chi-Square Test for Goodness of Fit](./../carrying-out-a-chi-square-test-for-goodness-of-fit/)
+### 8.4 [Expected Counts in Two-Way Tables](./../expected-counts-in-two-way-tables/)
+### 8.5 [Setting Up a Chi-Square Test for Homogeneity or Independence](./../setting-up-a-chi-square-test-for-homogeneity-or-independence/)
+### 8.6 [Carrying Out a Chi-Square Test for Homogeneity or Independence](./../carrying-out-a-chi-square-test-for-homogeneity-or-independence/)
+# AP Stats Unit 9
+### 9.2 [Confidence Intervals for the Slope of a Regression Model](./../confidence-intervals-for-the-slope-of-a-regression-model/)
+### 9.3 [Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval](./../justifying-a-claim-about-the-slope-of-a-regression-model-based-on-a-confidence-interval/)
+### 9.4 [Setting Up a Test for the Slope of a Regression Model](./../setting-up-a-test-for-the-slope-of-a-regression-model/)
+### 9.5 [Carrying Out a Test for the Slope of a Regression Model](./../carrying-out-a-test-for-the-slope-of-a-regression-model/)

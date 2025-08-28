@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrying Out a Test for the Slope of a Regression Model | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Carrying Out a Test for the Slope of a Regression Model</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="carrying-out-a-test-for-the-slope-of-a-regression-model">Carrying Out a Test for the Slope of a Regression Model</h1>
+<p>This note page details the execution phase of a hypothesis test for the slope of a population regression line. This test helps us determine if there is a statistically significant linear relationship between two quantitative variables in the population, based on a sample. For the initial steps of defining hypotheses, refer to <a href="./../setting-up-a-test-for-the-slope-of-a-regression-model/">Setting Up a Test for the Slope of a Regression Model</a>.</p>
+<h2 id="conditions-for-inference-for-regression-slope">Conditions for Inference for Regression Slope</h2>
+<p>Before performing any calculations, we must verify that the conditions for inference about the slope of a population regression line are met. These conditions are often summarized by the acronym <strong>LINER</strong>:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Condition</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">How to Check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>L</strong>inear</td>
+          <td style="text-align: left">The true relationship between the explanatory variable ( $ x $ ) and the response variable ( $ y $ ) is linear.</td>
+          <td style="text-align: left">Examine the scatterplot of the data; it should appear roughly linear. Check the residual plot for no obvious pattern.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>I</strong>ndependent</td>
+          <td style="text-align: left">Individual observations are independent of each other. When sampling without replacement, the population size should be at least 10 times the sample size ( $ N \ge 10n $ ).</td>
+          <td style="text-align: left">Assumed if data are from a random sample or randomized experiment. Check the  $ 10% $  condition for sampling without replacement.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">****N<strong>ormal</strong></td>
+          <td style="text-align: left">For any fixed value of  $ x $ , the response variable  $ y $  varies according to a Normal distribution. In practice, this means the residuals are approximately Normally distributed.</td>
+          <td style="text-align: left">Construct a histogram or Normal probability plot of the residuals. Look for approximate symmetry and no strong skewness.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>E</strong>qual</td>
+          <td style="text-align: left">The standard deviation of the response variable  $ \sigma $  is the same for all values of the explanatory variable  $ x $ . In practice, this means the variability of the residuals should be roughly constant across the range of predicted values.</td>
+          <td style="text-align: left">Examine the residual plot; the scatter of points around  $ y=0 $  should be roughly the same for all  $ x $  values (no fan shape).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>R</strong>andom</td>
+          <td style="text-align: left">The data comes from a well-designed random sample or randomized experiment.</td>
+          <td style="text-align: left">State how the data were collected (random sample, randomized experiment, etc.).</td>
+      </tr>
+  </tbody>
+</table>
+<p>Failure to meet these conditions can invalidate the results of the hypothesis test.</p>
+<h2 id="test-statistic">Test Statistic</h2>
+<p>If the conditions are met, we can calculate the test statistic for the slope, which follows a  $ t $ -distribution with  $ df = n-2 $  degrees of freedom.</p>
+<p>The test statistic is given by:
+$$  t = \frac{b - \beta_0}{SE_b}  $$  Where:</p>
+<ul>
+<li>$ b $  is the slope of the sample regression line (least-squares regression line). This is our point estimate for the population slope.</li>
+<li>$ \beta_0 $  is the hypothesized value for the population slope, as stated in the null hypothesis ( $ H_0: \beta = \beta_0 $ ). In most cases, we test  $ H_0: \beta = 0 $  (no linear relationship), so  $ \beta_0 = 0 $ .</li>
+<li>$ SE_b $  is the standard error of the slope, which measures the variability of the sample slope  $ b $  from sample to sample. This value is typically provided in computer output for regression analysis.</li>
+</ul>
+<p>The formula for  $ SE_b $  is:
+$$  SE_b = \frac{s}{\sqrt{\sum (x_i - \bar{x})^2}}  $$  Where  $ s $  is the standard deviation of the residuals (also known as the root mean square error,  $ s_e $ ), and the denominator measures the spread of the  $ x $  values. These values are often found in <a href="./../linear-regression-models/">Linear Regression Models</a> output.</p>
+<h2 id="calculating-the-p-value">Calculating the p-value</h2>
+<p>Once the test statistic  $ t $  is calculated, we use it to find the p-value. The p-value is the probability of observing a sample slope as extreme as, or more extreme than, the one obtained, assuming the null hypothesis is true.</p>
+<p>The p-value is calculated using a  $ t $ -distribution with  $ df = n-2 $  degrees of freedom, where  $ n $  is the number of data points.</p>
+<ul>
+<li><strong>For a two-sided test ( $ H_a: \beta \ne \beta_0 $ ):</strong>
+$ p\text{-value} = 2 \cdot P(T &gt; |t|) $</li>
+<li><strong>For a one-sided test ( $ H_a: \beta &gt; \beta_0 $ ):</strong>
+$ p\text{-value} = P(T &gt; t) $</li>
+<li><strong>For a one-sided test ( $ H_a: \beta &lt; \beta_0 $ ):</strong>
+$ p\text{-value} = P(T &lt; t) $</li>
+</ul>
+<p>The p-value can be found using a  $ t $ -distribution table or statistical software.</p>
+<h2 id="conclusion-in-context">Conclusion in Context</h2>
+<p>The final step is to make a decision about the null hypothesis and interpret the results in the context of the problem.</p>
+<ol>
+<li>
+<p><strong>Decision:</strong> Compare the p-value to the chosen significance level  $ \alpha $ .</p>
+<ul>
+<li>If  $ p\text{-value} &lt; \alpha $ , we <strong>reject the null hypothesis</strong> ( $ H_0 $ ).</li>
+<li>If  $ p\text{-value} \ge \alpha $ , we <strong>fail to reject the null hypothesis</strong> ( $ H_0 $ ).</li>
+</ul>
+</li>
+<li>
+<p><strong>Interpretation:</strong> State the conclusion in clear, non-technical language, referring back to the original question.</p>
+<ul>
+<li><strong>If you reject  $ H_0 $ :</strong> There is convincing statistical evidence (at the  $ \alpha $  level) to suggest that there is a linear relationship between  $ x $  and  $ y $  (or that the population slope is significantly different from  $ \beta_0 $ ). Specifically, address the direction of the relationship if  $ H_a $  was one-sided or the sign of  $ b $  is clear.</li>
+<li><strong>If you fail to reject  $ H_0 $ :</strong> There is <strong>not</strong> convincing statistical evidence (at the  $ \alpha $  level) to suggest a linear relationship between  $ x $  and  $ y $  (or that the population slope is significantly different from  $ \beta_0 $ ). This does <strong>not</strong> mean there is no relationship, just that we don&rsquo;t have enough evidence from our sample to conclude one exists at the chosen significance level.</li>
+</ul>
+</li>
+</ol>
+<p>Remember that a statistically significant relationship does not necessarily imply a strong relationship, nor does it imply causation. Always consider <a href="./../potential-problems-with-sampling/">Potential Problems with Sampling</a> and <a href="./../inference-and-experiments/">Inference and Experiments</a> when interpreting results.</p>
+<p>For further exploration, consider <a href="./../confidence-intervals-for-the-slope-of-a-regression-model/">Confidence Intervals for the Slope of a Regression Model</a> to estimate the true population slope.</p>
+
+</main>
+
+
+  </body>
+</html>
+

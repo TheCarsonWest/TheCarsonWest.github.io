@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sampling Distributions for Differences in Sample Means | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Sampling Distributions for Differences in Sample Means</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="sampling-distributions-for-differences-in-sample-means">Sampling Distributions for Differences in Sample Means</h1>
+<p>When we are interested in comparing two population means ( $ \mu_1 $  and  $ \mu_2 $ ), we often take independent random samples from each population. The difference in the sample means,  $ \bar{x}_1 - \bar{x}_2 $ , serves as our point estimate for the true difference in population means. The sampling distribution of this statistic is crucial for making inferences about  $ \mu_1 - \mu_2 $ .</p>
+<h2 id="understanding-the-sampling-distribution">Understanding the Sampling Distribution</h2>
+<p>The sampling distribution of the difference in sample means,  $ \bar{x}_1 - \bar{x}_2 $ , describes the distribution of all possible differences in sample means that could occur if we were to repeatedly take independent random samples of specific sizes ( $ n_1 $  and  $ n_2 $ ) from two populations.</p>
+<h3 id="mean-of-the-sampling-distribution">Mean of the Sampling Distribution</h3>
+<p>The mean of the sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  is equal to the true difference in the population means:</p>
+<p>$$  \mu_{\bar{x}_1 - \bar{x}_2} = \mu_1 - \mu_2  $$<br>
+This property holds true provided the samples are independent. This indicates that  $ \bar{x}_1 - \bar{x}_2 $  is an <a href="./../biased-and-unbiased-point-estimates%7Cunbiased-estimator/">Biased and Unbiased Point Estimates|unbiased estimator</a> of  $ \mu_1 - \mu_2 $ .</p>
+<h3 id="standard-deviation-of-the-sampling-distribution">Standard Deviation of the Sampling Distribution</h3>
+<p>The standard deviation of the sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  is calculated by combining the variances of the individual sample means. Assuming independent samples, we use the formula:</p>
+<p>$$  \sigma_{\bar{x}_1 - \bar{x}_2} = \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}}  $$<br>
+Where:</p>
+<ul>
+<li>$ \sigma_1 $  and  $ \sigma_2 $  are the standard deviations of the two populations.</li>
+<li>$ n_1 $  and  $ n_2 $  are the sample sizes from the two populations.</li>
+</ul>
+<p><strong>Conditions for using this formula:</strong></p>
+<ul>
+<li><strong>10% Condition:</strong> Both sample sizes  $ n_1 $  and  $ n_2 $  must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ) to ensure independence of observations within each sample and allow us to treat the standard deviation as constant. That is,  $ n_1 \le 0.10 N_1 $  and  $ n_2 \le 0.10 N_2 $ .</li>
+<li><strong>Independence:</strong> The two samples must be independent of each other.</li>
+</ul>
+<h3 id="shape-of-the-sampling-distribution">Shape of the Sampling Distribution</h3>
+<p>The shape of the sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  can be approximated as Normal under certain conditions:</p>
+<ul>
+<li><strong>If both original populations are Normal:</strong> The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  will be approximately Normal regardless of sample sizes ( $ n_1, n_2 $ ).</li>
+<li><strong>If neither or only one original population is Normal:</strong> The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  will be approximately Normal if both sample sizes are sufficiently large (generally  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ). This is due to the <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>.</li>
+</ul>
+<h2 id="conditions-for-inference-with-differences-in-sample-means">Conditions for Inference with Differences in Sample Means</h2>
+<p>When performing inference (e.g., constructing <a href="./../confidence-intervals-for-the-difference-of-two-means/">Confidence Intervals for the Difference of Two Means</a> or <a href="./../setting-up-a-test-for-the-difference-of-two-population-means/">Setting Up a Test for the Difference of Two Population Means</a>), we must check the following conditions:</p>
+<ol>
+<li><strong>Random Condition:</strong>
+<ul>
+<li>The data must come from two independent random samples, or the data must come from two groups in a randomized experiment.</li>
+</ul>
+</li>
+<li><strong>10% Condition:</strong>
+<ul>
+<li>When sampling without replacement,  $ n_1 \le 0.10 N_1 $  and  $ n_2 \le 0.10 N_2 $  to ensure independence within samples.</li>
+</ul>
+</li>
+<li><strong>Normal/Large Sample Condition:</strong>
+<ul>
+<li>Both population distributions are Normal, OR</li>
+<li>Both sample sizes are large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ), OR</li>
+<li>Graphs of the sample data (e.g., dot plots, histograms, box plots) show no strong skewness or outliers for either sample. (This is especially important for smaller sample sizes if the population distribution is unknown).</li>
+</ul>
+</li>
+</ol>
+<h3 id="summary-table-of-sampling-distribution-characteristics">Summary Table of Sampling Distribution Characteristics</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Characteristic</th>
+          <th style="text-align: left">Formula/Rule</th>
+          <th style="text-align: left">Conditions</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Mean ( $ \mu_{\bar{x}_1 - \bar{x}_2} $ )</td>
+          <td style="text-align: left">$ \mu_1 - \mu_2 $</td>
+          <td style="text-align: left">Independent Samples</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Std. Dev. ( $ \sigma_{\bar{x}_1 - \bar{x}_2} $ )</td>
+          <td style="text-align: left">$ \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} $</td>
+          <td style="text-align: left">10% Condition for both samples ( $ n_1 \le 0.10 N_1 $ ,  $ n_2 \le 0.10 N_2 $ ) AND Independent Samples</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Shape</td>
+          <td style="text-align: left">Normal</td>
+          <td style="text-align: left">Both populations are Normal, OR  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $  (by <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>), OR graphical displays show no strong skew/outliers</td>
+      </tr>
+  </tbody>
+</table>
+<p>Understanding this sampling distribution is fundamental for constructing confidence intervals and performing hypothesis tests to compare two population means.</p>
+
+</main>
+
+
+  </body>
+</html>
+

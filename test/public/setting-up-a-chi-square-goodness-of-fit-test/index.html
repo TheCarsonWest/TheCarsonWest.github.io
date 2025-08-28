@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting Up a Chi-Square Goodness of Fit Test | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Setting Up a Chi-Square Goodness of Fit Test</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="setting-up-a-chi-square-goodness-of-fit-test">Setting Up a Chi-Square Goodness of Fit Test</h1>
+<p>The Chi-Square Goodness of Fit test is a powerful statistical tool used to determine if an observed distribution of a <a href="./../categorical-variable/">Categorical Variable</a> differs significantly from a hypothesized or expected distribution. Essentially, it helps us decide if a theoretical model fits the data we&rsquo;ve collected.</p>
+<h2 id="when-to-use-it">When to Use It</h2>
+<p>You should use a Chi-Square Goodness of Fit test when you have:</p>
+<ol>
+<li><strong>A single categorical variable</strong> from a single population.</li>
+<li><strong>Observed counts</strong> for each category of the variable.</li>
+<li><strong>A hypothesized distribution</strong> for the proportion of observations in each category. This hypothesized distribution can come from a theory, a past study, or an assumption of equal proportions across categories.</li>
+</ol>
+<p>For example, you might use this test to see if:</p>
+<ul>
+<li>The proportion of different colored candies in a bag matches the manufacturer&rsquo;s stated proportions.</li>
+<li>The number of accidents on different days of the week is uniformly distributed.</li>
+<li>The distribution of blood types in a sample matches known population percentages.</li>
+</ul>
+<h2 id="hypotheses">Hypotheses</h2>
+<p>Setting up the hypotheses is crucial for any significance test. For a Chi-Square Goodness of Fit test:</p>
+<ul>
+<li>
+<p><strong>Null Hypothesis ( $ H_0 $ ):</strong> The observed distribution of the categorical variable is consistent with the hypothesized distribution. (i.e., there is no significant difference between observed and expected proportions.)</p>
+<ul>
+<li>This is often stated as:  $ H_0: p_1 = \text{hypothesized } p_1, p_2 = \text{hypothesized } p_2, \ldots, p_k = \text{hypothesized } p_k $</li>
+<li>Where  $ p_i $  represents the true proportion for category  $ i $ , and  $ k $  is the number of categories.</li>
+</ul>
+</li>
+<li>
+<p><strong>Alternative Hypothesis ( $ H_a $ ):</strong> The observed distribution of the categorical variable is <strong>not</strong> consistent with the hypothesized distribution. (i.e., there is a significant difference between observed and expected proportions for at least one category.)</p>
+<ul>
+<li>This is typically stated as:  $ H_a: $  At least one of the true proportions ( $ p_i $ ) is different from its hypothesized value.</li>
+</ul>
+</li>
+</ul>
+<p>It&rsquo;s important to remember that the alternative hypothesis doesn&rsquo;t specify how the distributions differ, only that they do.</p>
+<h2 id="conditions-for-inference">Conditions for Inference</h2>
+<p>Before carrying out the test, you must verify that the following conditions are met. If any condition is violated, the results of the test may not be valid.</p>
+<ol>
+<li>
+<p><strong>Random Condition:</strong> The data must come from a <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a> or a well-designed random experiment. This ensures the sample is representative of the population.</p>
+</li>
+<li>
+<p><strong>Independence Condition:</strong></p>
+<ul>
+<li><strong>Within the sample:</strong> Individual observations must be independent of each other. If sampling without replacement, the population size must be at least 10 times the sample size ( $ N \ge 10n $ ).</li>
+<li><strong>Between categories:</strong> The categories of the categorical variable must be mutually exclusive (an observation cannot fall into more than one category).</li>
+</ul>
+</li>
+<li>
+<p><strong>Large Counts Condition:</strong> All expected counts must be at least 5. This condition is vital because the chi-square distribution is a continuous distribution, and we are using it to approximate a discrete distribution of counts. If expected counts are too small, this approximation is not reliable.</p>
+<ul>
+<li><strong>Calculating Expected Counts:</strong> For each category, the expected count ( $ E_i $ ) is calculated by multiplying the total sample size ( $ n $ ) by the hypothesized proportion for that category ( $ p_i $ ).
+$$ E_i = n \times p_i $$      *   For example, if you have a sample of 200 candies and hypothesize that 30% are red, the expected count for red candies would be  $ 200 \times 0.30 = 60 $ .</li>
+</ul>
+</li>
+</ol>
+<p><a href="./../expected-counts-in-chi-square-tests/">Expected Counts in Chi-Square Tests</a></p>
+<h2 id="test-statistic">Test Statistic</h2>
+<p>Once the conditions are met, the next step in setting up the test is to understand the test statistic. The Chi-Square test statistic ( $ \chi^2 $ ) measures how far the observed counts deviate from the expected counts.</p>
+<p>The formula for the Chi-Square test statistic is:</p>
+<p>$$ \chi^2 = \sum \frac{(\text{Observed Count} - \text{Expected Count})^2}{\text{Expected Count}} $$<br>
+Where:</p>
+<ul>
+<li>$ \text{Observed Count} $  is the actual number of observations in a particular category.</li>
+<li>$ \text{Expected Count} $  is the number of observations we would expect in that category if the null hypothesis were true.</li>
+<li>The sum ( $ \sum $ ) is taken over all  $ k $  categories.</li>
+</ul>
+<p>A larger  $ \chi^2 $  value indicates a greater discrepancy between the observed and expected distributions, providing stronger evidence against the null hypothesis.</p>
+<h2 id="degrees-of-freedom">Degrees of Freedom</h2>
+<p>The degrees of freedom (df) for a Chi-Square Goodness of Fit test are calculated as:</p>
+<p>$$ df = \text{number of categories} - 1 $$<br>
+The degrees of freedom determine the specific shape of the chi-square distribution that will be used to calculate the p-value.</p>
+<p>After setting up the hypotheses and checking the conditions, the next step would be <a href="./../carrying-out-a-chi-square-test-for-goodness-of-fit/">Carrying Out a Chi-Square Test for Goodness of Fit</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

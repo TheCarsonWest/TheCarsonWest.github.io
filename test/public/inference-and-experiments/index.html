@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inference and Experiments | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Inference and Experiments</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="inference-and-experiments">Inference and Experiments</h1>
+<p>In AP Statistics, &ldquo;Inference&rdquo; refers to the process of drawing conclusions about a population based on sample data. &ldquo;Experiments&rdquo; are a specific type of study design used to investigate cause-and-effect relationships. When conducted properly, experiments provide the strongest evidence for causal inference.</p>
+<h2 id="the-purpose-of-experiments">The Purpose of Experiments</h2>
+<p>The primary goal of an experiment is to determine if a specific <strong>treatment</strong> (or intervention) causes a change in a <strong>response variable</strong>. Unlike observational studies, which can only establish association, well-designed experiments allow us to make claims of causation. This is achieved by manipulating one or more independent variables (treatments) and observing the effect on dependent variables (responses).</p>
+<h2 id="key-principles-of-experimental-design">Key Principles of Experimental Design</h2>
+<p>Effective experimental design is crucial for valid causal inference. The core principles include:</p>
+<ol>
+<li><strong>Comparison</strong>: Experiments must compare two or more treatments. One of these treatments is often a control group or a placebo.</li>
+<li><strong>Random Assignment</strong>: This is the cornerstone of establishing causation. Subjects are randomly assigned to different treatment groups.
+<ul>
+<li>Why it&rsquo;s important: Random assignment helps to create groups that are roughly equivalent in all characteristics (both known and unknown confounding variables) before the treatment is applied. This ensures that any observed differences in the response variable between groups are likely due to the treatment, not pre-existing differences.</li>
+<li>Distinction: <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a> is about selecting a representative sample from a population for statistical inference (generalizing to the population). Random assignment is about distributing subjects within an experiment to different treatment groups for causal inference (establishing cause-and-effect).</li>
+</ul>
+</li>
+<li><strong>Replication</strong>: Applying each treatment to multiple experimental units.
+<ul>
+<li>Why it&rsquo;s important: Replication reduces the impact of chance variation on the results and increases the reliability of the findings. More replication means a stronger ability to detect effects if they truly exist.</li>
+</ul>
+</li>
+<li><strong>Control</strong>: Efforts to keep all other variables besides the treatment constant across groups.
+<ul>
+<li>Methods: Using a <a href="./../control-group/">Control Group</a> (a group that receives no treatment or a placebo) is a common control method. Blinding (single or double) is also used to control for psychological biases.</li>
+</ul>
+</li>
+</ol>
+<p>For more details on setting up an experiment, refer to <a href="./../introduction-to-experimental-design/">Introduction to Experimental Design</a> and <a href="./../selecting-an-experimental-design/">Selecting an Experimental Design</a>.</p>
+<h2 id="terminology-in-experiments">Terminology in Experiments</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Term</th>
+          <th style="text-align: left">Definition</th>
+          <th style="text-align: left">Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Experimental Unit</strong></td>
+          <td style="text-align: left">The smallest unit to which a treatment is applied.</td>
+          <td style="text-align: left">A single patient receiving a drug, a plot of land receiving a fertilizer.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Treatment</strong></td>
+          <td style="text-align: left">A specific condition applied to the experimental units.</td>
+          <td style="text-align: left">A specific dosage of a drug, a particular type of fertilizer.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Factor</strong></td>
+          <td style="text-align: left">An explanatory variable that is manipulated by the experimenter.</td>
+          <td style="text-align: left">Type of drug (e.g., Drug A, Drug B), level of fertilizer (e.g., low, medium, high).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Level</strong></td>
+          <td style="text-align: left">The specific values or settings for a factor.</td>
+          <td style="text-align: left">Drug A, Drug B are levels of the &ldquo;Type of Drug&rdquo; factor; Low, Medium, High are levels of &ldquo;Fertilizer&rdquo; factor.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Response Variable</strong></td>
+          <td style="text-align: left">The variable that is measured after the treatments are applied.</td>
+          <td style="text-align: left">Blood pressure, crop yield.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Control Group</strong></td>
+          <td style="text-align: left">A group that receives an inactive treatment (placebo) or no treatment.</td>
+          <td style="text-align: left">Patients receiving a sugar pill instead of the actual drug.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="causal-inference-vs-statistical-inference">Causal Inference vs. Statistical Inference</h2>
+<ul>
+<li><strong>Causal Inference</strong>: When an experiment is properly designed with random assignment, we can conclude that changes in the explanatory variable cause changes in the response variable. This is the unique power of experiments.</li>
+<li><strong>Statistical Inference</strong>: Once we have the data from an experiment, we use statistical inference procedures (e.g., <a href="./../setting-up-a-test-for-a-population-mean/">Setting Up a Test for a Population Mean</a>, <a href="./../confidence-intervals-for-the-difference-of-two-means/">Confidence Intervals for the Difference of Two Means</a>) to determine if the observed differences between treatment groups are statistically significant and unlikely to have occurred by random chance. If the experimental units were also randomly sampled from a larger population, we can then generalize our causal conclusions to that population.</li>
+</ul>
+<h2 id="potential-problems-and-solutions">Potential Problems and Solutions</h2>
+<ul>
+<li><strong>Confounding Variables</strong>: Variables that are related to both the explanatory and response variables, making it difficult to determine the true effect of the treatment. Random assignment helps to balance confounding variables across groups.</li>
+<li><strong>Placebo Effect</strong>: The psychological effect where subjects respond to any treatment, even an inactive one. Using a placebo control group helps to isolate the actual effect of the treatment.</li>
+<li><strong>Blinding</strong>:
+<ul>
+<li><strong>Single-blind</strong>: Subjects do not know which treatment they are receiving.</li>
+<li><strong>Double-blind</strong>: Neither the subjects nor the researchers interacting with them know which treatment the subjects are receiving. This helps to reduce bias from both subject expectations and researcher influence.</li>
+</ul>
+</li>
+</ul>
+<p>In summary, carefully designed experiments, particularly those incorporating random assignment, are essential for drawing valid causal inferences in statistics.</p>
+
+</main>
+
+
+  </body>
+</html>
+

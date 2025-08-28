@@ -7,13 +7,16 @@
 node_size: "100"
 ---
 # See [README](./../readme/)
+# 2025-2026
+## [AP Stats Home](./../ap-stats-home/)
 
-# [APHG Home](./../aphg-home/)
-# [APUSH Home](./../apush-home/)
-# [APCHEM Home](./../apchem-home/)
-# [Python 1 Home](./../python-1-home/)
+# 2024-2025
+## [APHG Home](./../aphg-home/)
+## [APUSH Home](./../apush-home/)
+## [APCHEM Home](./../apchem-home/)
+## [Python 1 Home](./../python-1-home/)
 
-# [Calc home](./../calc-home/)
+## [Calc home](./../calc-home/)
 
 ### [arabic vocab lists](./../arabic-vocab-lists/)
 

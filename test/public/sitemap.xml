@@ -80,6 +80,8 @@
   </url><url>
     <loc>http://example.org/anaconda-plan/</loc>
   </url><url>
+    <loc>http://example.org/analyzing-departures-from-linearity/</loc>
+  </url><url>
     <loc>http://example.org/analyzing-functions-with-the-first-derivative/</loc>
   </url><url>
     <loc>http://example.org/analyzing-functions-with-the-second-derivative/</loc>
@@ -99,6 +101,8 @@
     <loc>http://example.org/ap-chem-solutions/</loc>
   </url><url>
     <loc>http://example.org/ap-chemistry-units/</loc>
+  </url><url>
+    <loc>http://example.org/ap-stats-home/</loc>
   </url><url>
     <loc>http://example.org/apchem-gasses/</loc>
   </url><url>
@@ -214,6 +218,8 @@
   </url><url>
     <loc>http://example.org/bessemer-process/</loc>
   </url><url>
+    <loc>http://example.org/biased-and-unbiased-point-estimates/</loc>
+  </url><url>
     <loc>http://example.org/bill-clinton/</loc>
   </url><url>
     <loc>http://example.org/bill-of-rights/</loc>
@@ -284,6 +290,18 @@
   </url><url>
     <loc>http://example.org/carpetbagger/</loc>
   </url><url>
+    <loc>http://example.org/carrying-out-a-chi-square-test-for-goodness-of-fit/</loc>
+  </url><url>
+    <loc>http://example.org/carrying-out-a-chi-square-test-for-homogeneity-or-independence/</loc>
+  </url><url>
+    <loc>http://example.org/carrying-out-a-test-for-a-population-mean/</loc>
+  </url><url>
+    <loc>http://example.org/carrying-out-a-test-for-the-difference-of-two-population-means/</loc>
+  </url><url>
+    <loc>http://example.org/carrying-out-a-test-for-the-difference-of-two-population-proportions/</loc>
+  </url><url>
+    <loc>http://example.org/carrying-out-a-test-for-the-slope-of-a-regression-model/</loc>
+  </url><url>
     <loc>http://example.org/cartogram/</loc>
   </url><url>
     <loc>http://example.org/categories/</loc>
@@ -342,8 +360,6 @@
   </url><url>
     <loc>http://example.org/cold-war/</loc>
   </url><url>
-    <loc>http://example.org/college-general-essay/</loc>
-  </url><url>
     <loc>http://example.org/collision-reaction-theory/</loc>
   </url><url>
     <loc>http://example.org/colorado/</loc>
@@ -355,6 +371,8 @@
     <loc>http://example.org/combined_1730202339_87537/</loc>
   </url><url>
     <loc>http://example.org/combined_1730419517_229186/</loc>
+  </url><url>
+    <loc>http://example.org/combining-random-variables/</loc>
   </url><url>
     <loc>http://example.org/combustion-reaction/</loc>
   </url><url>
@@ -370,15 +388,25 @@
   </url><url>
     <loc>http://example.org/commonwealth-system/</loc>
   </url><url>
+    <loc>http://example.org/comparing-distributions-of-a-quantitative-variable/</loc>
+  </url><url>
     <loc>http://example.org/comparison-operators/</loc>
   </url><url>
     <loc>http://example.org/compromise-of-1850/</loc>
   </url><url>
     <loc>http://example.org/compromise-of-1877/</loc>
   </url><url>
+    <loc>http://example.org/concluding-a-test-for-a-population-proportion/</loc>
+  </url><url>
     <loc>http://example.org/conda-environments/</loc>
   </url><url>
+    <loc>http://example.org/conditional-probability/</loc>
+  </url><url>
     <loc>http://example.org/conditional-statements/</loc>
+  </url><url>
+    <loc>http://example.org/confidence-intervals-for-the-difference-of-two-means/</loc>
+  </url><url>
+    <loc>http://example.org/confidence-intervals-for-the-slope-of-a-regression-model/</loc>
   </url><url>
     <loc>http://example.org/conjugate-acid-base-pairs/</loc>
   </url><url>
@@ -391,6 +419,10 @@
     <loc>http://example.org/constitution-of-the-united-states/</loc>
   </url><url>
     <loc>http://example.org/constitutional-convention/</loc>
+  </url><url>
+    <loc>http://example.org/constructing-a-confidence-interval-for-a-population/</loc>
+  </url><url>
+    <loc>http://example.org/constructing-a-confidence-interval-for-a-population-mean/</loc>
   </url><url>
     <loc>http://example.org/constructors/</loc>
   </url><url>
@@ -405,6 +437,8 @@
     <loc>http://example.org/control-flow-if-statements/</loc>
   </url><url>
     <loc>http://example.org/coroutine-explained/</loc>
+  </url><url>
+    <loc>http://example.org/correlation/</loc>
   </url><url>
     <loc>http://example.org/cotton-gin/</loc>
   </url><url>
@@ -485,6 +519,8 @@
     <loc>http://example.org/derivative/</loc>
   </url><url>
     <loc>http://example.org/derivative-rules/</loc>
+  </url><url>
+    <loc>http://example.org/describing-the-distribution-of-a-quantitative-variable/</loc>
   </url><url>
     <loc>http://example.org/deviations-from-ideal-gas-behavior/</loc>
   </url><url>
@@ -598,6 +634,8 @@
   </url><url>
     <loc>http://example.org/espn-example/</loc>
   </url><url>
+    <loc>http://example.org/estimating-probabilities-using-simulation/</loc>
+  </url><url>
     <loc>http://example.org/ethnic-neighborhoods/</loc>
   </url><url>
     <loc>http://example.org/ethnicity/</loc>
@@ -615,6 +653,8 @@
     <loc>http://example.org/executive-order-9066/</loc>
   </url><url>
     <loc>http://example.org/exothermic/</loc>
+  </url><url>
+    <loc>http://example.org/expected-counts-in-two-way-tables/</loc>
   </url><url>
     <loc>http://example.org/exponent-rule/</loc>
   </url><url>
@@ -754,6 +794,8 @@
   </url><url>
     <loc>http://example.org/granger-laws/</loc>
   </url><url>
+    <loc>http://example.org/graphical-representations-of-summary-statistics/</loc>
+  </url><url>
     <loc>http://example.org/great-awakening/</loc>
   </url><url>
     <loc>http://example.org/great-britain/</loc>
@@ -838,8 +880,6 @@
   </url><url>
     <loc>http://example.org/identity/</loc>
   </url><url>
-    <loc>http://example.org/ids-unit-1/</loc>
-  </url><url>
     <loc>http://example.org/ids-unit-2/</loc>
   </url><url>
     <loc>http://example.org/ids-unit-3/</loc>
@@ -872,6 +912,8 @@
   </url><url>
     <loc>http://example.org/indentured-servitude/</loc>
   </url><url>
+    <loc>http://example.org/independent-events-and-unions-of-events/</loc>
+  </url><url>
     <loc>http://example.org/indeterminate-forms/</loc>
   </url><url>
     <loc>http://example.org/indexing-and-slicing-deep-dive/</loc>
@@ -879,6 +921,8 @@
     <loc>http://example.org/indiana/</loc>
   </url><url>
     <loc>http://example.org/industrial-revolution/</loc>
+  </url><url>
+    <loc>http://example.org/inference-and-experiments/</loc>
   </url><url>
     <loc>http://example.org/infinite-loops/</loc>
   </url><url>
@@ -898,11 +942,23 @@
   </url><url>
     <loc>http://example.org/intermolecular-forces/</loc>
   </url><url>
+    <loc>http://example.org/interpreting-p-values/</loc>
+  </url><url>
     <loc>http://example.org/interstate-commerce-act-1887/</loc>
   </url><url>
     <loc>http://example.org/intervening-obstacles/</loc>
   </url><url>
     <loc>http://example.org/intolerable-acts/</loc>
+  </url><url>
+    <loc>http://example.org/introduction-to-experimental-design/</loc>
+  </url><url>
+    <loc>http://example.org/introduction-to-planning-a-study/</loc>
+  </url><url>
+    <loc>http://example.org/introduction-to-probability/</loc>
+  </url><url>
+    <loc>http://example.org/introduction-to-random-variables-and-probability-distributions/</loc>
+  </url><url>
+    <loc>http://example.org/introduction-to-the-binomial-distribution/</loc>
   </url><url>
     <loc>http://example.org/inverse-differentiation/</loc>
   </url><url>
@@ -964,6 +1020,16 @@
   </url><url>
     <loc>http://example.org/judiciary-act/</loc>
   </url><url>
+    <loc>http://example.org/justifying-a-claim-about-a-population-mean-based-on-a-confidence-interval/</loc>
+  </url><url>
+    <loc>http://example.org/justifying-a-claim-about-the-difference-of-two-means-based-on-a-confidence-interval/</loc>
+  </url><url>
+    <loc>http://example.org/justifying-a-claim-about-the-slope-of-a-regression-model-based-on-a-confidence-interval/</loc>
+  </url><url>
+    <loc>http://example.org/justifying-a-claim-based-on-a-confidence-interval-for-a-difference-of-population-proportions/</loc>
+  </url><url>
+    <loc>http://example.org/justifying-a-claim-based-on-a-confidence-interval-for-a-population-proportion/</loc>
+  </url><url>
     <loc>http://example.org/k_p-and-k_c-relationship/</loc>
   </url><url>
     <loc>http://example.org/ka-and-kb-relationships/</loc>
@@ -1000,6 +1066,8 @@
   </url><url>
     <loc>http://example.org/league-of-nations/</loc>
   </url><url>
+    <loc>http://example.org/least-squares-regression/</loc>
+  </url><url>
     <loc>http://example.org/lees-resolution/</loc>
   </url><url>
     <loc>http://example.org/lend-lease-act/</loc>
@@ -1019,6 +1087,8 @@
     <loc>http://example.org/lilliputians/</loc>
   </url><url>
     <loc>http://example.org/lincoln-douglas-debates/</loc>
+  </url><url>
+    <loc>http://example.org/linear-regression-models/</loc>
   </url><url>
     <loc>http://example.org/lingua-franca/</loc>
   </url><url>
@@ -1108,6 +1178,8 @@
   </url><url>
     <loc>http://example.org/mcculloch-v-maryland/</loc>
   </url><url>
+    <loc>http://example.org/mean-and-standard-deviation-of-random-variables/</loc>
+  </url><url>
     <loc>http://example.org/mean-value-theorem/</loc>
   </url><url>
     <loc>http://example.org/meat-inspection-act/</loc>
@@ -1171,6 +1243,8 @@
     <loc>http://example.org/mutable-types-deeper-dive/</loc>
   </url><url>
     <loc>http://example.org/mutable-vs-immutable-types/</loc>
+  </url><url>
+    <loc>http://example.org/mutually-exclusive-events/</loc>
   </url><url>
     <loc>http://example.org/namespaces-and-scope/</loc>
   </url><url>
@@ -1288,6 +1362,8 @@
   </url><url>
     <loc>http://example.org/parameter-ordering/</loc>
   </url><url>
+    <loc>http://example.org/parameters-for-a-binomial-distribution/</loc>
+  </url><url>
     <loc>http://example.org/paris-accords/</loc>
   </url><url>
     <loc>http://example.org/partial-fraction-decomposition/</loc>
@@ -1362,6 +1438,10 @@
   </url><url>
     <loc>http://example.org/postmodern-architecture/</loc>
   </url><url>
+    <loc>http://example.org/potential-errors-when-performing-tests/</loc>
+  </url><url>
+    <loc>http://example.org/potential-problems-with-sampling/</loc>
+  </url><url>
     <loc>http://example.org/potus/</loc>
   </url><url>
     <loc>http://example.org/power-rule/</loc>
@@ -1413,6 +1493,8 @@
     <loc>http://example.org/radical-republicans/</loc>
   </url><url>
     <loc>http://example.org/ragtime-music/</loc>
+  </url><url>
+    <loc>http://example.org/random-sampling-and-a-collection/</loc>
   </url><url>
     <loc>http://example.org/range-function/</loc>
   </url><url>
@@ -1482,9 +1564,21 @@
   </url><url>
     <loc>http://example.org/report-on-the-public-credit/</loc>
   </url><url>
+    <loc>http://example.org/representing-a-categorical-variable-with-graphs/</loc>
+  </url><url>
+    <loc>http://example.org/representing-a-categorical-variable-with-tables/</loc>
+  </url><url>
+    <loc>http://example.org/representing-a-quantitative-variable-with-graphs/</loc>
+  </url><url>
+    <loc>http://example.org/representing-the-relationship-between-two-quantitative-variables/</loc>
+  </url><url>
+    <loc>http://example.org/representing-two-categorical-variables/</loc>
+  </url><url>
     <loc>http://example.org/republican-motherhood/</loc>
   </url><url>
     <loc>http://example.org/republicans/</loc>
+  </url><url>
+    <loc>http://example.org/residuals/</loc>
   </url><url>
     <loc>http://example.org/resonance-structures/</loc>
   </url><url>
@@ -1528,6 +1622,14 @@
   </url><url>
     <loc>http://example.org/salutary-neglect/</loc>
   </url><url>
+    <loc>http://example.org/sampling-distributions-for-differences-in-sample-means/</loc>
+  </url><url>
+    <loc>http://example.org/sampling-distributions-for-differences-in-sample-proportions/</loc>
+  </url><url>
+    <loc>http://example.org/sampling-distributions-for-sample-means/</loc>
+  </url><url>
+    <loc>http://example.org/sampling-distributions-for-sample-proportions/</loc>
+  </url><url>
     <loc>http://example.org/samuel-adams/</loc>
   </url><url>
     <loc>http://example.org/samuel-slater/</loc>
@@ -1544,6 +1646,14 @@
   </url><url>
     <loc>http://example.org/sectionalism/</loc>
   </url><url>
+    <loc>http://example.org/selecting-an-appropriate-inference-procedure/</loc>
+  </url><url>
+    <loc>http://example.org/selecting-an-appropriate-inference-procedure-for-categorical/</loc>
+  </url><url>
+    <loc>http://example.org/selecting-an-experimental-design/</loc>
+  </url><url>
+    <loc>http://example.org/selecting-implementing-and-communicating-inference-procedures/</loc>
+  </url><url>
     <loc>http://example.org/sense-of-place/</loc>
   </url><url>
     <loc>http://example.org/separable-equations/</loc>
@@ -1553,6 +1663,20 @@
     <loc>http://example.org/sequent-occupance/</loc>
   </url><url>
     <loc>http://example.org/set-operations/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-chi-square-goodness-of-fit-test/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-chi-square-test-for-homogeneity-or-independence/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-test-for-a-population-mean/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-test-for-a-population-proportion/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-test-for-the-difference-of-two-population-means/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-test-for-the-difference-of-two-population-proportions/</loc>
+  </url><url>
+    <loc>http://example.org/setting-up-a-test-for-the-slope-of-a-regression-model/</loc>
   </url><url>
     <loc>http://example.org/sharecroppers/</loc>
   </url><url>
@@ -1622,6 +1746,10 @@
   </url><url>
     <loc>http://example.org/states-list/</loc>
   </url><url>
+    <loc>http://example.org/statistics-for-two-categorical-variables/</loc>
+  </url><url>
+    <loc>http://example.org/stats-rundown/</loc>
+  </url><url>
     <loc>http://example.org/stock-market-crash-of-1929/</loc>
   </url><url>
     <loc>http://example.org/stono-rebellion/</loc>
@@ -1631,6 +1759,8 @@
     <loc>http://example.org/struct-module/</loc>
   </url><url>
     <loc>http://example.org/sugar-act/</loc>
+  </url><url>
+    <loc>http://example.org/summary-statistics-for-a-quantitative-variable/</loc>
   </url><url>
     <loc>http://example.org/supranational-organizations/</loc>
   </url><url>
@@ -1682,9 +1812,17 @@
   </url><url>
     <loc>http://example.org/the-assassination-of-abraham-lincoln/</loc>
   </url><url>
+    <loc>http://example.org/the-central-limit-theorem/</loc>
+  </url><url>
+    <loc>http://example.org/the-geometric-distribution/</loc>
+  </url><url>
     <loc>http://example.org/the-jungle/</loc>
   </url><url>
     <loc>http://example.org/the-nature-of-geography-1.1/</loc>
+  </url><url>
+    <loc>http://example.org/the-normal-distribution/</loc>
+  </url><url>
+    <loc>http://example.org/the-normal-distribution-revisited/</loc>
   </url><url>
     <loc>http://example.org/the-various-precolumbian-native-american-tribes/</loc>
   </url><url>
@@ -1813,8 +1951,6 @@
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
-  </url><url>
-    <loc>http://example.org/untitled/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>

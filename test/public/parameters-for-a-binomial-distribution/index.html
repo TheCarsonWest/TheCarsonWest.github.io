@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parameters for a Binomial Distribution | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Parameters for a Binomial Distribution</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="parameters-for-a-binomial-distribution">Parameters for a Binomial Distribution</h1>
+<p>Understanding the parameters for a binomial distribution is crucial for correctly applying and interpreting binomial probability models. A <a href="./../introduction-to-the-binomial-distribution/">Introduction to the Binomial Distribution</a> arises when we are interested in the number of &ldquo;successes&rdquo; in a fixed number of independent trials, where each trial has only two possible outcomes.</p>
+<h2 id="the-binomial-setting-bins">The Binomial Setting (BINS)</h2>
+<p>Before defining the parameters, let&rsquo;s quickly review the conditions that must be met for a random variable to follow a binomial distribution. These are often remembered by the acronym <strong>BINS</strong>:</p>
+<ul>
+<li><strong>B</strong>inary: Each trial has only two possible outcomes, usually labeled &ldquo;success&rdquo; and &ldquo;failure.&rdquo;</li>
+<li><strong>I</strong>ndependent: The outcome of one trial does not affect the outcome of any other trial.</li>
+<li><strong>N</strong>umber: The number of trials,  $ n $ , is fixed in advance.</li>
+<li><strong>S</strong>uccess: The probability of success,  $ p $ , is the same for each trial.</li>
+</ul>
+<p>Once these conditions are met, we can define the two fundamental parameters that completely characterize a specific binomial distribution.</p>
+<h2 id="the-parameters">The Parameters</h2>
+<p>The two parameters of a binomial distribution are the number of trials ( $ n $ ) and the probability of success on any single trial ( $ p $ ).</p>
+<h3 id="number-of-trials---n--">Number of Trials ( $ n $ )</h3>
+<ul>
+<li><strong>Definition</strong>: The number of independent observations or repetitions of the process. This value is fixed before the experiment begins.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Must be a positive integer.</li>
+<li>Represents the total count of opportunities for success or failure.</li>
+</ul>
+</li>
+<li><strong>Example</strong>: If you flip a coin 10 times,  $ n = 10 $ . If you ask 50 randomly selected students if they prefer online or in-person classes,  $ n = 50 $ .</li>
+</ul>
+<h3 id="probability-of-success---p--">Probability of Success ( $ p $ )</h3>
+<ul>
+<li><strong>Definition</strong>: The likelihood of observing a &ldquo;success&rdquo; on any single, independent trial.</li>
+<li><strong>Characteristics</strong>:
+<ul>
+<li>Must be a value between 0 and 1, inclusive ( $ 0 \le p \le 1 $ ).</li>
+<li>It is assumed to be constant for every trial.</li>
+</ul>
+</li>
+<li><strong>Example</strong>: If the coin is fair,  $ p = 0.5 $  for getting a head (success). If 70% of students prefer online classes, then  $ p = 0.7 $  for a randomly selected student preferring online classes.</li>
+</ul>
+<h3 id="probability-of-failure---q--">Probability of Failure ( $ q $ )</h3>
+<p>While not an independent parameter, the probability of failure ( $ q $ ) is directly derived from  $ p $ .</p>
+<ul>
+<li><strong>Definition</strong>: The likelihood of observing a &ldquo;failure&rdquo; on any single, independent trial.</li>
+<li><strong>Formula</strong>:
+$$ q = 1 - p $$  *   <strong>Example</strong>: If  $ p = 0.7 $ , then  $ q = 1 - 0.7 = 0.3 $ .</li>
+</ul>
+<h2 id="notation">Notation</h2>
+<p>A random variable  $ X $  that follows a binomial distribution with  $ n $  trials and probability of success  $ p $  is denoted as:</p>
+<p>$$ X \sim B(n, p) $$<br>
+This notation concisely tells us that  $ X $  is a binomial random variable, along with its specific parameters.</p>
+<h2 id="mean-and-standard-deviation-of-a-binomial-distribution">Mean and Standard Deviation of a Binomial Distribution</h2>
+<p>Once  $ n $  and  $ p $  are known, we can easily calculate the mean (expected number of successes) and the standard deviation (variability of successes) for the binomial distribution. These are specific formulas for binomial distributions, distinct from the general formulas for <a href="./../mean-and-standard-deviation-of-random-variables/">Mean and Standard Deviation of Random Variables</a>.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Statistic</th>
+          <th style="text-align: left">Formula</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Mean ( $ E[X] $  or  $ \mu_X $ )</td>
+          <td style="text-align: left">$$ \mu_X = np $$</td>
+          <td style="text-align: left">Expected number of successes in  $ n $  trials.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Variance ( $ \sigma_X^2 $ )</td>
+          <td style="text-align: left">$$ \sigma_X^2 = np(1-p) = npq $$</td>
+          <td style="text-align: left">Measures the spread of the distribution.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Standard Deviation ( $ \sigma_X $ )</td>
+          <td style="text-align: left">$$ \sigma_X = \sqrt{np(1-p)} = \sqrt{npq} $$</td>
+          <td style="text-align: left">Standard variability from the mean.</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Example</strong>: For  $ X \sim B(10, 0.5) $ :</p>
+<ul>
+<li>Mean:  $ \mu_X = 10 \times 0.5 = 5 $</li>
+<li>Standard Deviation:  $ \sigma_X = \sqrt{10 \times 0.5 \times 0.5} = \sqrt{2.5} \approx 1.58 $</li>
+</ul>
+<p>These parameters ( $ n $  and  $ p $ ) are fundamental for calculating binomial probabilities, understanding the shape of the distribution, and making inferences about population proportions. They are directly used in the binomial probability formula and form the basis for approximating binomial distributions with a <a href="./../the-normal-distribution-revisited/">The Normal Distribution, Revisited</a> under certain conditions.</p>
+
+</main>
+
+
+  </body>
+</html>
+
