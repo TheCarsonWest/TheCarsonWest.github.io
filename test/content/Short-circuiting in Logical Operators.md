@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Operators](./../operators/)
-# [Short-circuiting in Logical Operators](./../short-circuiting-in-logical-operators/) 
-Python's logical [Operators](./../operators/) (`and`, `or`) employ short-circuiting.  This means that the evaluation of the expression stops as soon as the final outcome is known.
+# Operators
+# Short-circuiting in Logical Operators 
+Python's logical Operators (`and`, `or`) employ short-circuiting.  This means that the evaluation of the expression stops as soon as the final outcome is known.
 
 * **`and`:**  If the left operand is falsy (evaluates to `False`), the entire expression is falsy, and the right operand is *not* evaluated.
 
@@ -34,4 +34,4 @@ print(result) # Output: 1 (no ZeroDivisionError)
 * **Improved Efficiency:**  If the right operand is computationally expensive, short-circuiting avoids unnecessary calculations.
 
 
-**[Truthy and Falsy Values](./../truthy-and-falsy-values/)**  ([Error Handling in Python](./../error-handling-in-python/))
+**Truthy and Falsy Values**  (Error Handling in Python)

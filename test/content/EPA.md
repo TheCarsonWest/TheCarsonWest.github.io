@@ -8,14 +8,14 @@
 ## When: December 2, 1970
 
 ## Who:
-*   **Richard Nixon:** President of the [United States](./../united-states/) who proposed and signed the executive order creating the EPA.
+*   **Richard Nixon:** President of the United States who proposed and signed the executive order creating the EPA.
 *   **Congress:** Passed legislation that strengthened the EPA's powers and responsibilities over time.
 *   **William Ruckelshaus:** First Administrator of the EPA.
 
 ## What:
-*   An independent agency of the [United States](./../united-states/) federal government created to protect human health and the environment.
+*   An independent agency of the United States federal government created to protect human health and the environment.
 *   It sets and enforces environmental standards, conducts research, provides grants, and educates the public.
-*   The [EPA](./../epa/) consolidates various federal environmental responsibilities under one agency.
+*   The EPA consolidates various federal environmental responsibilities under one agency.
 
 ## Impact: Why Significant?:
 *   **Increased Environmental Awareness:** Helped raise public awareness about environmental issues like pollution, endangered species, and resource depletion.
@@ -25,4 +25,4 @@
 *   **Ongoing Debates:** The EPA's role and regulations have often been subjects of political and economic debate, particularly regarding the balance between environmental protection and economic growth.
 *   **Global Impact:** Influenced the development of environmental protection agencies and policies in other countries.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# IDS Unit 8

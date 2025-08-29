@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Frozen Sets](./../frozen-sets/)
-# [Set Operations](./../set-operations/) 
+# [[Frozen Sets]]
+# [[Set Operations]] 
 Set operations in Python leverage the power of the `set` data structure for efficient manipulation of unique elements.  Key operations include:
 
 * **Union:** Combines elements from two or more sets.
@@ -48,11 +48,11 @@ print(is_superset) #Output: True
 
 ```
 
-[Set Theory Basics](./../set-theory-basics/)  ([Python Sets](./../python-sets/))
+[[Set Theory Basics]]  ([[Python Sets]])
 
 
 **Other relevant notes:**
 
-* [Set Comprehensions](./../set-comprehensions/)
-* [Python Data Structures](./../python-data-structures/)
+* [[Set Comprehensions]]
+* [[Python Data Structures]]
 

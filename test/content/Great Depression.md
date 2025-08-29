@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Great Depression](./../great-depression/)
+## ID: [[Great Depression]]
 
 ## WHEN: 1929-1939
 
 ## WHO: 
-*   **Affected:** The [Great Depression](./../great-depression/) affected virtually every American, with disproportionate impact on farmers, industrial workers, and African Americans.
-*   **Presidents:** [Herbert Hoover](./../herbert-hoover/) (initial response), [Franklin D. Roosevelt](./../franklin-d.-roosevelt/) ([New Deal](./../new-deal/))
-*   **Economists:** Influential economists of the time included John Maynard Keynes, whose theories influenced [New Deal](./../new-deal/) policies.
+*   **Affected:** The [[Great Depression]] affected virtually every American, with disproportionate impact on farmers, industrial workers, and African Americans.
+*   **Presidents:** [[Herbert Hoover]] (initial response), [[Franklin D. Roosevelt]] ([[New Deal]])
+*   **Economists:** Influential economists of the time included John Maynard Keynes, whose theories influenced [[New Deal]] policies.
 
 ## WHAT: 
 
@@ -18,11 +18,11 @@ A severe worldwide economic downturn that began with the stock market crash on *
 
 ## IMPACT: Why Significant?: 
 
-*   **Economic Devastation:** The [Great Depression](./../great-depression/) led to widespread poverty and hardship. Unemployment reached 25% and many people lost their homes and farms.
-*   **Shift in Government Role:** The crisis prompted a significant expansion of the federal government's role in the economy. The [New Deal](./../new-deal/) programs initiated by FDR aimed to provide relief, recovery, and reform.
+*   **Economic Devastation:** The [[Great Depression]] led to widespread poverty and hardship. Unemployment reached 25% and many people lost their homes and farms.
+*   **Shift in Government Role:** The crisis prompted a significant expansion of the federal government's role in the economy. The [[New Deal]] programs initiated by FDR aimed to provide relief, recovery, and reform.
 *   **Social and Psychological Effects:**  The Depression profoundly impacted American society, leading to increased stress, displacement, and altered social structures. It also fostered a sense of disillusionment and distrust in institutions.
 *   **Political Realignment:** The Depression led to a major political realignment, with the Democratic Party gaining significant support from labor unions, farmers, and minorities.
-*   **Long-Term Reforms:** The [Great Depression](./../great-depression/) led to lasting reforms in the financial system, including the creation of the Federal Deposit Insurance Corporation (FDIC) and the Securities and Exchange Commission (SEC).
-*   **WWII as an Ending Factor:** While [New Deal](./../new-deal/) programs helped alleviate some of the suffering, full economic recovery was not achieved until the onset of World War II, when increased demand for war materials stimulated production and employment.
+*   **Long-Term Reforms:** The [[Great Depression]] led to lasting reforms in the financial system, including the creation of the Federal Deposit Insurance Corporation (FDIC) and the Securities and Exchange Commission (SEC).
+*   **WWII as an Ending Factor:** While [[New Deal]] programs helped alleviate some of the suffering, full economic recovery was not achieved until the onset of World War II, when increased demand for war materials stimulated production and employment.
 
-# [IDS Unit 7](./../ids-unit-7/)
+# [[IDS Unit 7]]

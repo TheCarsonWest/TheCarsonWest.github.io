@@ -36,11 +36,11 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
 <h1 id="carrying-out-a-test-for-the-difference-of-two-population-proportions">Carrying Out a Test for the Difference of Two Population Proportions</h1>
-<p>This note page details the practical steps involved in executing a hypothesis test for comparing two population proportions, often following the setup discussed in <a href="./../setting-up-a-test-for-the-difference-of-two-population-proportions/">Setting Up a Test for the Difference of Two Population Proportions</a>. The goal is to determine if there&rsquo;s a statistically significant difference between two population proportions ( $ p_1 $  and  $ p_2 $ ) based on sample data.</p>
+<p>This note page details the practical steps involved in executing a hypothesis test for comparing two population proportions, often following the setup discussed in [[Setting Up a Test for the Difference of Two Population Proportions]]. The goal is to determine if there&rsquo;s a statistically significant difference between two population proportions ( $ p_1 $  and  $ p_2 $ ) based on sample data.</p>
 <h2 id="1-state-hypotheses">1. State Hypotheses</h2>
-<p>Before carrying out the test, the null and alternative hypotheses must be clearly stated. This was covered in <a href="./../setting-up-a-test-for-the-difference-of-two-population-proportions/">Setting Up a Test for the Difference of Two Population Proportions</a>.</p>
+<p>Before carrying out the test, the null and alternative hypotheses must be clearly stated. This was covered in [[Setting Up a Test for the Difference of Two Population Proportions]].</p>
 <ul>
 <li><strong>Null Hypothesis ( $ H_0 $ ):</strong>  $ p_1 = p_2 $  (or  $ p_1 - p_2 = 0 $ ). This assumes no difference between the population proportions.</li>
 <li><strong>Alternative Hypothesis ( $ H_a $ ):</strong>
@@ -67,7 +67,7 @@
       </tr>
       <tr>
           <td style="text-align: left"><strong>Independent</strong></td>
-          <td style="text-align: left"><a href="./../the-10%25-condition/">The 10% Condition</a>: When sampling without replacement, both sample sizes ( $ n_1 $  and  $ n_2 $ ) must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). This ensures the independence of observations within each sample.</td>
+          <td style="text-align: left">[[The 10% Condition]]: When sampling without replacement, both sample sizes ( $ n_1 $  and  $ n_2 $ ) must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). This ensures the independence of observations within each sample.</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>Normal (Large Counts)</strong></td>
@@ -97,7 +97,7 @@ $$  SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \f
 $$  z = \frac{(\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}}  $$  Under  $ H_0 $ , we assume  $ p_1 - p_2 = 0 $ , simplifying the formula to:
 $$  z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}}  $$</p>
 <h2 id="4-calculate-the-p-value">4. Calculate the p-value</h2>
-<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming the null hypothesis is true. This probability is found using the standard normal distribution (Z-distribution). <a href="./../interpreting-p-values/">Interpreting p-Values</a> provides more details on its meaning.</p>
+<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming the null hypothesis is true. This probability is found using the standard normal distribution (Z-distribution). [[Interpreting p-Values]] provides more details on its meaning.</p>
 <ul>
 <li><strong>For  $ H_a: p_1 \neq p_2 $  (Two-sided):</strong>  $ P(|Z| \ge |z|) = 2 \cdot P(Z \ge |z|) $</li>
 <li><strong>For  $ H_a: p_1 &lt; p_2 $  (Left-sided):</strong>  $ P(Z \le z) $</li>
@@ -110,7 +110,7 @@ $$  z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} 
 <li><strong>If p-value  $ \le \alpha $ :</strong> Reject the null hypothesis ( $ H_0 $ ). There is convincing evidence to support the alternative hypothesis ( $ H_a $ ).</li>
 <li><strong>If p-value  $ &gt; \alpha $ :</strong> Fail to reject the null hypothesis ( $ H_0 $ ). There is not convincing evidence to support the alternative hypothesis ( $ H_a $ ).</li>
 </ul>
-<p>State your conclusion in the context of the problem, referring back to the original claim about the two population proportions. Remember to mention the significance level used. <a href="./../concluding-a-test-for-a-population-proportion/">Concluding a Test for a Population Proportion</a> offers general guidance on forming conclusions. Be mindful of <a href="./../potential-errors-when-performing-tests/">Potential Errors When Performing Tests</a>.</p>
+<p>State your conclusion in the context of the problem, referring back to the original claim about the two population proportions. Remember to mention the significance level used. [[Concluding a Test for a Population Proportion]] offers general guidance on forming conclusions. Be mindful of [[Potential Errors When Performing Tests]].</p>
 
 </main>
 

@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="recursionrecursion"><a href="./../recursion/">Recursion</a></h1>
-<h1 id="memoization-in-recursionmemoization-in-recursion"><a href="./../memoization-in-recursion/">Memoization in Recursion</a></h1>
+<h1 id="recursion">Recursion</h1>
+<h1 id="memoization-in-recursion">Memoization in Recursion</h1>
 <p>Memoization is an optimization technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.  This is particularly useful in recursive functions where the same subproblems are calculated repeatedly.</p>
 <p><strong>How it works:</strong></p>
 <p>A memoized function maintains a cache (usually a dictionary) to store the results of previous calls. Before computing a result, it checks the cache:</p>
@@ -66,8 +66,8 @@
 </span></span><span style="display:flex;"><span>    cache[n]] <span style="color:#f92672">=</span> result  <span style="color:#75715e"># Cache miss, store result</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result
 </span></span></code></pre></div><p><code>fibonacci_memoized</code> significantly improves performance for larger values of <code>n</code>.</p>
-<p><strong><a href="./../python-dictionaries/">Python Dictionaries</a></strong>  (Note: This needs its own explanation about Python dictionaries and their use in caching.)</p>
-<p><strong><a href="./../recursive-function-design/">Recursive Function Design</a></strong> (Note:  This note should cover best practices for writing efficient recursive functions.)</p>
+<p><strong>Python Dictionaries</strong>  (Note: This needs its own explanation about Python dictionaries and their use in caching.)</p>
+<p><strong>Recursive Function Design</strong> (Note:  This note should cover best practices for writing efficient recursive functions.)</p>
 <p><strong>Advantages of Memoization:</strong></p>
 <ul>
 <li><strong>Improved Performance:</strong>  Significantly reduces computation time for repeated subproblems.</li>

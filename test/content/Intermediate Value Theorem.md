@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-[Calc home](./../calc-home/)
-## [Intermediate Value Theorem](./../intermediate-value-theorem/) (IVT)
+[[Calc home]]
+## [[Intermediate Value Theorem]] (IVT)
 
-The [Intermediate Value Theorem](./../intermediate-value-theorem/) (IVT) is a fundamental theorem in calculus that helps us understand the behavior of continuous functions. It essentially states that if a continuous function takes on two values, then it must also take on all the values in between.
+The [[Intermediate Value Theorem]] (IVT) is a fundamental theorem in calculus that helps us understand the behavior of continuous functions. It essentially states that if a continuous function takes on two values, then it must also take on all the values in between.
 
 # Statement of the IVT
 
@@ -22,7 +22,7 @@ Imagine a continuous curve representing the function  $ f(x) $  on the interval 
 
 ### Key Points
 
-* **[Continuity](./../continuity/) is crucial:** The IVT only applies to continuous functions. If a function has a jump, hole, or vertical asymptote within the interval, the theorem may not hold.
+* **[[Continuity]] is crucial:** The IVT only applies to continuous functions. If a function has a jump, hole, or vertical asymptote within the interval, the theorem may not hold.
 * **Closed interval:** The IVT requires the interval to be closed, meaning it includes both endpoints.
 * **Intermediate value:** The theorem guarantees the existence of a value  $ c $  where  $ f(c) = k $ , but it doesn't tell us how to find that value.
 
@@ -38,7 +38,7 @@ The IVT has numerous applications in calculus and other areas of mathematics. So
 
 Let  $ f(x) = x^3 - 2x - 5 $ . We want to prove that  $ f(x) $  has a root in the interval  $ 2,3 $ .
 
-1. **[Continuity](./../continuity/):**   $ f(x) $  is a polynomial function, which is continuous everywhere.
+1. **[[Continuity]]:**   $ f(x) $  is a polynomial function, which is continuous everywhere.
 2. **Interval:** We are considering the closed interval  $ 2,3 $ .
 3. **Values at endpoints:**   $ f(2) = 8 - 4 - 5 = -1 $  and  $ f(3) = 27 - 6 - 5 = 16 $ .
 4. **Intermediate value:** Since  $ f(2) $  is negative and  $ f(3) $  is positive, the IVT guarantees that there exists a value  $ c $  in the interval  $ (2,3) $  such that  $ f(c) = 0 $ . 

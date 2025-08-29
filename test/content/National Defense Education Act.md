@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [National Defense Education Act](./../national-defense-education-act/) (NDEA)
+## ID: [[National Defense Education Act]] (NDEA)
 
 ## When: September 2, 1958
 
 ## Who:
-*   **President:** [Dwight D. Eisenhower](./../dwight-d.-eisenhower/) *   **U.S. Congress**
+*   **President:** [[Dwight D. Eisenhower]] *   **U.S. Congress**
 
 ## What:
 A comprehensive act passed in response to the Soviet Union's launch of Sputnik in 1957. It provided federal funding to improve American schools, particularly in the areas of science, mathematics, and foreign languages. The Act included funding for student loans, scholarships, and teacher training programs to bolster national security by increasing the number of skilled professionals in critical fields. It also improved guidance counseling and testing programs.
@@ -20,4 +20,4 @@ A comprehensive act passed in response to the Soviet Union's launch of Sputnik i
 *   **Curriculum Reform:** Led to curriculum reforms in schools across the nation, emphasizing science, math, and foreign languages.
 *   **Long-Term Impact on American Competitiveness:** Helped to foster a generation of scientists, engineers, and other professionals who contributed to American economic and technological leadership in the latter half of the 20th century.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

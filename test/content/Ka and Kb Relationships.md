@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Conjugate Acid-Base Pairs](./../conjugate-acid-base-pairs/)
-# [Ka and Kb Relationships](./../ka-and-kb-relationships/)
+# [[Conjugate Acid-Base Pairs]]
+# [[Ka and Kb Relationships]]
 
 **Main Idea:**  The relationship between  $ K_a $  (acid dissociation constant) and  $ K_b $  (base dissociation constant) for a conjugate acid-base pair is defined by the ion product constant of water,  $ K_w $ .
 
@@ -28,8 +28,8 @@ Find the  $ K_b $  for the conjugate base of hydrofluoric acid (HF), given that 
 * **pKa and pKb Relationship:**  Since  $ K_a \times K_b = K_w $ , taking the negative logarithm of both sides gives:   $ pK_a + pK_b = 14 $  (at 25°C).
 
 
-[Acid Dissociation Constant, Ka](./../acid-dissociation-constant-ka/)  
-[Base Dissociation Constant, Kb](./../base-dissociation-constant-kb/)
-[Ion Product Constant of Water, Kw](./../ion-product-constant-of-water-kw/)
-[pKa and pKb](./../pka-and-pkb/)
+[[Acid Dissociation Constant, Ka]]  
+[[Base Dissociation Constant, Kb]]
+[[Ion Product Constant of Water, Kw]]
+[[pKa and pKb]]
 

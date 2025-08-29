@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Headright System](./../headright-system/) 
-## When: Primarily 1618-1700s (implementation varied by colony)  Specific examples:  [Virginia](./../virginia/) established it in 1618.
+## ID: Headright System 
+## When: Primarily 1618-1700s (implementation varied by colony)  Specific examples:  Virginia established it in 1618.
 
 
 ## Who:
@@ -23,4 +23,4 @@ A system of land distribution in which individuals were granted land (usually 50
 * **Political Power:** Land ownership often translated to political power, solidifying the influence of the wealthy elite.
 
 
-# [IDs unit 2](./../ids-unit-2/)
+# IDs unit 2

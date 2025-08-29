@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [For Loop Examples](./../for-loop-examples/)
-# [Range Function](./../range-function/) 
+# For Loop Examples
+# Range Function 
 The `range()` function in Python is a built-in function that generates a sequence of numbers.  It's commonly used in loops to iterate a specific number of times.
 
 **Syntax:**
@@ -49,4 +49,4 @@ print(my_list)
 * The `stop` value is *always* exclusive.  This is a common source of off-by-one errors.
 
 
-[Range Object](./../range-object/)  ([Iteration in Python](./../iteration-in-python/))
+Range Object  (Iteration in Python)

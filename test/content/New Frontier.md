@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [New Frontier](./../new-frontier/) 
+## ID: New Frontier 
 ## WHEN: 1961-1963 (John F. Kennedy's Presidency)
 
-## WHO: [John F. Kennedy](./../john-f.-kennedy/) (President)
+## WHO: John F. Kennedy (President)
 
 ## WHAT:
 
-A slogan used by President [John F. Kennedy](./../john-f.-kennedy/) to describe his goals and policies. It encompassed both domestic and foreign policy initiatives aimed at improving American society and projecting American strength abroad. Key elements included:
+A slogan used by President John F. Kennedy to describe his goals and policies. It encompassed both domestic and foreign policy initiatives aimed at improving American society and projecting American strength abroad. Key elements included:
 
 *   **Domestic Policy:** Increased federal spending on education, healthcare, and urban renewal; civil rights legislation; and a focus on scientific and technological advancement.
-*   **Foreign Policy:** [Containment](./../containment/) of communism, Peace Corps, Alliance for Progress, and a focus on the space race.
+*   **Foreign Policy:** Containment of communism, Peace Corps, Alliance for Progress, and a focus on the space race.
 *   **Overall Theme:**  A call to national unity, public service, and progress.
 
 ## IMPACT: Why Significant?:
@@ -25,4 +25,4 @@ A slogan used by President [John F. Kennedy](./../john-f.-kennedy/) to describe 
 *   **Mixed Success:** While some initiatives were successful, others faced opposition in Congress and were not fully realized during Kennedy's short presidency. His assassination left many goals incomplete, but served as inspiration for future administrations.
 *   **Legacy:** Shaped the Democratic Party's platform for years to come and continues to be a symbol of progressive ideals and government activism.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# IDS Unit 8

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Thermodynamics](./../thermodynamics/)
+# Thermodynamics
 # Thermodynamic Favorability in AP Chemistry
 
 Thermodynamic favorability refers to whether a reaction will proceed spontaneously under a given set of conditions.  A thermodynamically favorable reaction is one that releases free energy (Gibbs Free Energy,  $$ \Delta G < 0 $$ ) and is therefore spontaneous.  However, thermodynamic favorability only indicates whether a reaction *can* occur, not the *rate* at which it will occur. Kinetics governs the rate.

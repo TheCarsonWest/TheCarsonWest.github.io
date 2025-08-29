@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG Home](./../aphg-home/)
+# APHG Home
 
 There are 4 common map projections. they are all distorted
-## [Map Distortions](./../map-distortions/)
-# [Map Types](./../map-types/)
+## Map Distortions
+# Map Types
 ## Robinson 
-![Pasted image 20240829075856.png](./../pasted-image-20240829075856.png/)
+!Pasted image 20240829075856.png
 - Pros
 	- Globe like
 	- not too distorted
@@ -18,7 +18,7 @@ There are 4 common map projections. they are all distorted
 	- Latitudes are parabolic
 	- more distorted by the poles
 ## Mercator
- ![Pasted image 20240905082254.png](./../pasted-image-20240905082254.png/)
+ !Pasted image 20240905082254.png
 - Pros
 	- Everyone likes it
 	- Rectangular
@@ -27,7 +27,7 @@ There are 4 common map projections. they are all distorted
 - Cons
 	- Greenland is the size of Africa
 ## Gall-peters
-![Pasted image 20240829080349.png](./../pasted-image-20240829080349.png/)
+!Pasted image 20240829080349.png
 - Pros
 	- Fixes mercator's relative size problem
 	- Area is correct
@@ -35,7 +35,7 @@ There are 4 common map projections. they are all distorted
 	- It looks bad
 	- Everything is really long
 ## Azimuthal Projection
-![Pasted image 20240829080607.png](./../pasted-image-20240829080607.png/)
+!Pasted image 20240829080607.png
 - Pros
 	- Perfectly un-distorted poles
 	- Gives new perspective

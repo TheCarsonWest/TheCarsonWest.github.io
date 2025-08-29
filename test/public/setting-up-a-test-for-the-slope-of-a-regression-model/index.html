@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="setting-up-a-test-for-the-slope-of-a-regression-model">Setting Up a Test for the Slope of a Regression Model</h1>
-<p>When we believe a linear relationship exists between two quantitative variables, we often use a <a href="./../linear-regression-models/">Linear Regression Models</a> to model this relationship. However, the observed slope from a sample ( $ \hat{b} $ ) might just be due to random chance, even if there&rsquo;s no true linear relationship in the population. A hypothesis test for the slope of a regression model allows us to determine if there is statistically significant evidence of a linear relationship between the two variables in the population.</p>
+<p>When we believe a linear relationship exists between two quantitative variables, we often use a Linear Regression Models to model this relationship. However, the observed slope from a sample ( $ \hat{b} $ ) might just be due to random chance, even if there&rsquo;s no true linear relationship in the population. A hypothesis test for the slope of a regression model allows us to determine if there is statistically significant evidence of a linear relationship between the two variables in the population.</p>
 <h2 id="purpose-of-the-test">Purpose of the Test</h2>
 <p>The primary goal of this test is to assess whether the explanatory variable ( $ x $ ) has a statistically significant linear association with the response variable ( $ y $ ) in the population. If the true population slope ( $ \beta $ ) is zero, it implies that there is no linear relationship between  $ x $  and  $ y $ .</p>
 <h2 id="hypotheses">Hypotheses</h2>
@@ -69,27 +69,27 @@ $$ H_a: \beta &lt; 0 $$</li>
       <tr>
           <td style="text-align: left"><strong>L</strong>inear</td>
           <td style="text-align: left">The true relationship between  $ x $  and  $ y $  is linear.</td>
-          <td style="text-align: left">Examine the [Representing the Relationship Between Two Quantitative Variables</td>
+          <td style="text-align: left">Examine the Representing the Relationship Between Two Quantitative Variables</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>I</strong>ndependent</td>
           <td style="text-align: left">Individual observations are independent of each other.</td>
-          <td style="text-align: left">This is usually ensured by [Random Sampling and a Collection</td>
+          <td style="text-align: left">This is usually ensured by Random Sampling and a Collection</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>N</strong>ormal</td>
           <td style="text-align: left">For any fixed value of  $ x $ , the response  $ y $  varies normally around the true regression line.</td>
-          <td style="text-align: left">Examine a histogram or normal probability plot of the [Residuals</td>
+          <td style="text-align: left">Examine a histogram or normal probability plot of the Residuals</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>E</strong>qual Variance</td>
           <td style="text-align: left">The standard deviation of the response  $ y $  is the same for all values of  $ x $ .</td>
-          <td style="text-align: left">Examine the [Residuals</td>
+          <td style="text-align: left">Examine the Residuals</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>R</strong>andom</td>
-          <td style="text-align: left">The data come from a well-designed [Introduction to Planning a Study</td>
-          <td style="text-align: left">random sample](./../introduction-to-planning-a-study</td>
+          <td style="text-align: left">The data come from a well-designed Introduction to Planning a Study</td>
+          <td style="text-align: left">random sample or Introduction to Experimental Design</td>
       </tr>
   </tbody>
 </table>
@@ -105,7 +105,7 @@ Where:</p>
 <li>$ SE_{\hat{b}} $  is the standard error of the slope. This value is typically provided in the regression output from statistical software.</li>
 </ul>
 <p>The degrees of freedom for this  $ t $ -distribution are  $ df = n - 2 $ , where  $ n $  is the number of observations in the sample.</p>
-<p>This test is often referred to as a  $ t $ -test for the slope. Once the test statistic is calculated, it can be used to find the <a href="./../interpreting-p-values%7Cp-value/">Interpreting p-Values|p-value</a> to make a decision regarding the null hypothesis, as outlined in <a href="./../carrying-out-a-test-for-the-slope-of-a-regression-model/">Carrying Out a Test for the Slope of a Regression Model</a>.</p>
+<p>This test is often referred to as a  $ t $ -test for the slope. Once the test statistic is calculated, it can be used to find the Interpreting p-Values|p-value to make a decision regarding the null hypothesis, as outlined in Carrying Out a Test for the Slope of a Regression Model.</p>
 
 </main>
 

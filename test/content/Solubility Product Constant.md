@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium](./../equilibrium/)
+# Equilibrium
 # Solubility Product Constant (K<sub>sp</sub>) - AP Chemistry Rundown
 
 ## Introduction
@@ -29,10 +29,10 @@ Where:
 
 ## Factors Affecting K<sub>sp</sub>
 
-* **Temperature:** K<sub>sp</sub> is temperature-dependent.  Generally, the solubility of solids increases with increasing temperature, thus increasing K<sub>sp</sub>. [Temperature and Solubility](./../temperature-and-solubility/)
-* **Common Ion Effect:** The presence of a common ion in the solution decreases the solubility of the slightly soluble salt, thus shifting the equilibrium to the left. [Common Ion Effect](./../common-ion-effect/)
-* **pH:** The solubility of some salts, particularly those containing basic anions (e.g., hydroxides, sulfides, carbonates), is affected by the pH of the solution. [pH and Solubility](./../ph-and-solubility/)
-* **Complex Ion Formation:** The formation of complex ions can significantly increase the solubility of a metal salt. [Complex Ion Equilibria](./../complex-ion-equilibria/)
+* **Temperature:** K<sub>sp</sub> is temperature-dependent.  Generally, the solubility of solids increases with increasing temperature, thus increasing K<sub>sp</sub>. Temperature and Solubility
+* **Common Ion Effect:** The presence of a common ion in the solution decreases the solubility of the slightly soluble salt, thus shifting the equilibrium to the left. Common Ion Effect
+* **pH:** The solubility of some salts, particularly those containing basic anions (e.g., hydroxides, sulfides, carbonates), is affected by the pH of the solution. pH and Solubility
+* **Complex Ion Formation:** The formation of complex ions can significantly increase the solubility of a metal salt. Complex Ion Equilibria
 
 ## Calculating K<sub>sp</sub>
 
@@ -62,7 +62,7 @@ The ion product (Q) can be used to predict whether precipitation will occur when
 
 * **Q < K<sub>sp</sub>:** The solution is unsaturated, and no precipitation will occur.
 * **Q = K<sub>sp</sub>:** The solution is saturated, and the system is at equilibrium.
-* **Q > K<sub>sp</sub>:** The solution is supersaturated, and precipitation will occur until Q = K<sub>sp</sub>. [Precipitation Reactions](./../precipitation-reactions/)
+* **Q > K<sub>sp</sub>:** The solution is supersaturated, and precipitation will occur until Q = K<sub>sp</sub>. Precipitation Reactions
 
 
 This rundown provides a comprehensive overview of the solubility product constant for AP Chemistry.  Remember to consult the linked notes for more in-depth explanations of specific topics.

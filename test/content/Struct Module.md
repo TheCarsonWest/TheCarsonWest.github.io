@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [Handling Binary Files](./../handling-binary-files/)
-# [Struct Module](./../struct-module/) Notes
+# [[Handling Binary Files]]
+# [[Struct Module]] Notes
 
 The `struct` module in Python is used for packing and unpacking data in binary format.  It's particularly useful when dealing with binary files, network communication, or interacting with C code or libraries.
 
 **Key Concepts:**
 
-* **Formats:**  Format strings define how data is represented in bytes.  They use a specific syntax (see below). [Format String Syntax](./../format-string-syntax/)
+* **Formats:**  Format strings define how data is represented in bytes.  They use a specific syntax (see below). [[Format String Syntax]]
 * **Packing:** Converting Python data (integers, floats, etc.) into a byte string using `struct.pack()`.
 * **Unpacking:**  Converting a byte string back into Python data using `struct.unpack()`.
-* **Byte Order:**  Specifies the order of bytes (big-endian or little-endian).  This is crucial for interoperability. [Byte Order and Endianness](./../byte-order-and-endianness/)
+* **Byte Order:**  Specifies the order of bytes (big-endian or little-endian).  This is crucial for interoperability. [[Byte Order and Endianness]]
 * **Alignment:**  Controls how data is aligned in memory (can impact performance and compatibility with other systems).
 
 
@@ -59,14 +59,14 @@ print(packed_data_little_endian)
 | `d`       | double              | float               | 8             |
 
 
-**[Error Handling](./../error-handling/):**
+**[[Error Handling]]:**
 
 `struct.error` is raised if there's an issue with the format string or data.
 
 
 **Related Notes:**
 
-* [Format String Syntax](./../format-string-syntax/)
-* [Byte Order and Endianness](./../byte-order-and-endianness/)
-* [Python Data Types](./../python-data-types/)
+* [[Format String Syntax]]
+* [[Byte Order and Endianness]]
+* [[Python Data Types]]
 

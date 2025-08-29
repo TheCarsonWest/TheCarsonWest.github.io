@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Data Type Conversions](./../data-type-conversions/)
-# [JSON Conversion](./../json-conversion/) 
+# [[Data Type Conversions]]
+# [[JSON Conversion]] 
 This note covers JSON conversion in Python.
 
 Key modules:  `json`
@@ -17,7 +17,7 @@ import json
 data = {
     'name': 'John Doe',
     'age': 30,
-    'city': '[New York](./../new-york/)'
+    'city': '[[New York]]'
 }
 
 json_data = json.dumps(data, indent=4) # indent for pretty printing
@@ -59,11 +59,11 @@ except json.JSONDecodeError as e:
 
 ```
 
-[Error Handling in Python](./../error-handling-in-python/)  ([JSON Data Structures](./../json-data-structures/))
+[[Error Handling in Python]]  ([[JSON Data Structures]])
 
 
 **Special Considerations:**
 
 *   **Data types:**  Python's dictionaries and lists map naturally to JSON objects and arrays.  However,  be mindful of unsupported data types (e.g., sets).  You might need custom encoding/decoding logic for these.
-*   **Large files:** For extremely large JSON files, consider using iterative parsing to avoid loading the entire file into memory at once.  Libraries like `ijson` can be helpful here. [Iterative JSON Parsing](./../iterative-json-parsing/)
+*   **Large files:** For extremely large JSON files, consider using iterative parsing to avoid loading the entire file into memory at once.  Libraries like `ijson` can be helpful here. [[Iterative JSON Parsing]]
 

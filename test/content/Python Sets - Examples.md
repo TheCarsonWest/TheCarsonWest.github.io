@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python Sets](./../python-sets/)
-# [Python Sets - Examples](./../python-sets---examples/) 
-This note covers examples of using [Python Sets](./../python-sets/).  Remember to consult [Python Sets - Basics](./../python-sets---basics/) for foundational information.
+# [[Python Sets]]
+# [[Python Sets - Examples]] 
+This note covers examples of using [[Python Sets]].  Remember to consult [[Python Sets - Basics]] for foundational information.
 
 **Creating Sets:**
 
@@ -36,7 +36,7 @@ my_set = set(my_tuple)
 print(my_set)
 ```
 
-*[Set Operations](./../set-operations/)*
+*[[Set Operations]]*
 
 ```python
 set1 = {1, 2, 3}
@@ -86,4 +86,4 @@ my_set.clear() #Removes all elements from the set
 print(my_set) #Output: set()
 ```
 
-Remember to check out [Python Sets - Advanced Techniques](./../python-sets---advanced-techniques/) for more complex examples and applications.
+Remember to check out [[Python Sets - Advanced Techniques]] for more complex examples and applications.

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Justifying a Claim About a Population Mean Based on a Confidence Interval
 
-When we construct a confidence interval for a population mean, we are estimating a range of plausible values for the true population mean ( $ \mu $ ). This interval can then be used to evaluate a specific claim or hypothesis about the value of  $ \mu $  without necessarily performing a formal [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/). This method provides a clear and interpretable way to make a decision or justification based on sample data.
+When we construct a confidence interval for a population mean, we are estimating a range of plausible values for the true population mean ( $ \mu $ ). This interval can then be used to evaluate a specific claim or hypothesis about the value of  $ \mu $  without necessarily performing a formal [[Setting Up a Test for a Population Mean]]. This method provides a clear and interpretable way to make a decision or justification based on sample data.
 
 ## The Purpose
 
@@ -17,7 +17,7 @@ The primary purpose of justifying a claim about a population mean using a confid
 To justify a claim about a population mean based on a confidence interval, follow these steps:
 
 1.  **Identify the Claim/Hypothesized Value**: Clearly state the specific value for the population mean ( $ \mu_0 $ ) that is being claimed or hypothesized.
-2.  **Construct the Confidence Interval**: Calculate a confidence interval for the population mean using your sample data. Ensure the conditions for inference are met (random sample, nearly normal sampling distribution, etc.). Refer to [Constructing a Confidence Interval for a Population Mean](./../constructing-a-confidence-interval-for-a-population-mean/) for details. A general form for a confidence interval for  $ \mu $  is:
+2.  **Construct the Confidence Interval**: Calculate a confidence interval for the population mean using your sample data. Ensure the conditions for inference are met (random sample, nearly normal sampling distribution, etc.). Refer to [[Constructing a Confidence Interval for a Population Mean]] for details. A general form for a confidence interval for  $ \mu $  is:
 
      $$      \bar{x} \pm t^* \left( \frac{s}{\sqrt{n}} \right)
      $$      where  $ \bar{x} $  is the sample mean,  $ t^* $  is the critical t-value for the desired confidence level and  $ n-1 $  degrees of freedom,  $ s $  is the sample standard deviation, and  $ n $  is the sample size.
@@ -28,7 +28,7 @@ To justify a claim about a population mean based on a confidence interval, follo
 
 ## Connection to Hypothesis Testing
 
-There is a strong connection between confidence intervals and [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/). For a two-sided hypothesis test with a significance level  $ \alpha $ , if a hypothesized mean  $ \mu_0 $  falls outside a  $ 100(1-\alpha)\% $  confidence interval, then we would reject the null hypothesis  $ H_0: \mu = \mu_0 $  at the  $ \alpha $  significance level. Conversely, if  $ \mu_0 $  falls inside the confidence interval, we would fail to reject  $ H_0 $ .
+There is a strong connection between confidence intervals and [[Setting Up a Test for a Population Mean]]. For a two-sided hypothesis test with a significance level  $ \alpha $ , if a hypothesized mean  $ \mu_0 $  falls outside a  $ 100(1-\alpha)\% $  confidence interval, then we would reject the null hypothesis  $ H_0: \mu = \mu_0 $  at the  $ \alpha $  significance level. Conversely, if  $ \mu_0 $  falls inside the confidence interval, we would fail to reject  $ H_0 $ .
 
 This means that a  $ 95\% $  confidence interval for  $ \mu $  corresponds to a two-sided hypothesis test with  $ \alpha = 0.05 $ .
 
@@ -45,7 +45,7 @@ Since 100 grams falls *within* the interval (98.5, 101.2), we **do not have conv
 
 *   **Confidence Level**: The conclusion depends on the chosen confidence level. A higher confidence level (e.g., 99%) results in a wider interval, making it more likely that  $ \mu_0 $  falls within it, and thus less likely to reject a claim.
 *   **"Fail to Reject" vs. "Accept"**: If  $ \mu_0 $  is inside the interval, we state that we "do not have convincing evidence to reject the claim," not that we "accept the claim." This nuance is crucial, as the interval only provides a range of *plausible* values, not a definitive confirmation of a single value.
-*   [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/): Just like with hypothesis tests, there's always a possibility of making an incorrect conclusion (Type I or Type II error) when using confidence intervals to justify a claim.
-*   **Conditions**: Always ensure the conditions for constructing the confidence interval are met (random sample, normal population or large sample size for [The Central Limit Theorem](./../the-central-limit-theorem/)) to ensure the validity of your inference.
+*   [[Potential Errors When Performing Tests]]: Just like with hypothesis tests, there's always a possibility of making an incorrect conclusion (Type I or Type II error) when using confidence intervals to justify a claim.
+*   **Conditions**: Always ensure the conditions for constructing the confidence interval are met (random sample, normal population or large sample size for [[The Central Limit Theorem]]) to ensure the validity of your inference.
 
 By carefully considering where a hypothesized population mean falls relative to your confidence interval, you can make informed decisions and justify claims in a statistically sound manner.

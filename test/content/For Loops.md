@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
-# [For Loops](./../for-loops/) 
+# [[Python 1 Home]]
+# [[For Loops]] 
 Python's `for` loop iterates over a sequence (like a list, tuple, string, or range) or other iterable object.
 
 ```python
@@ -19,15 +19,15 @@ for i, fruit in enumerate(fruits): # enumerate gives both index and value
   print(f"Fruit at index {i}: {fruit}")
 ```
 
-[For Loop Examples](./../for-loop-examples/)  ([Range Function](./../range-function/)) [Iterables](./../iterables/)
+[[For Loop Examples]]  ([[Range Function]]) [[Iterables]]
 
 
-**Looping through [Dictionaries](./../dictionaries/):**
+**Looping through [[Dictionaries]]:**
 
 You can iterate through dictionaries using `.items()`, `.keys()`, or `.values()`.
 
 ```python
-person = {"name": "Alice", "age": 30, "city": "[New York](./../new-york/)"}
+person = {"name": "Alice", "age": 30, "city": "[[New York]]"}
 
 for key, value in person.items():
   print(f"{key}: {value}")
@@ -41,9 +41,9 @@ for value in person.values():
 
 **Nested Loops:**
 
-[Nested Loops](./../nested-loops/)
+[[Nested Loops]]
 
-**[Loop Control Statements](./../loop-control-statements/):**
+**[[Loop Control Statements]]:**
 
 * `break`: Exits the loop entirely.
 * `continue`: Skips the current iteration and proceeds to the next.
@@ -60,4 +60,4 @@ for i in range(10):
   print(i)
 ```
 
-**Iterating with `while` loop:** [While Loops](./../while-loops/)
+**Iterating with `while` loop:** [[While Loops]]

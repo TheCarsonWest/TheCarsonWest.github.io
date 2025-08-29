@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG unit 4](./../aphg-unit-4/)
+# APHG unit 4
 
 # Supranational organizations are organizations that countries join 
 - They can do things like legislate together
 - They can defend each other
 - They take from the country's sovereignty
 
-## [apush/ids/u6/League of Nations](./../apush/ids/u6/league-of-nations/)
+## 2425/apush/ids/u6/League of Nations
 - Founded 1919 after WWI
 - Was supposed to do what the UN does
 - US never joined it so it fell apart immediately 
@@ -25,7 +25,7 @@
 
 - UN Headquarters is in New York on Rockefeller's donated land
 - Its power is grossly overstated
-## [NATO](./../nato/) - Founded in 1949
+## NATO - Founded in 1949
 - United States' Military alliance
 	- Theres also other countries but none of them matter
 - The US puts in 70% of the alliance's military budget

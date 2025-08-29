@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-**The [Federalist Papers](./../federalist-papers/)**
+**The [[Federalist Papers]]**
 
-**Authors:** [Alexander Hamilton](./../alexander-hamilton/), [James Madison](./../james-madison/), John Jay (writing as "Publius")
+**Authors:** [[Alexander Hamilton]], [[James Madison]], John Jay (writing as "Publius")
 
 **Impact on Society:**
 
-* Played a decisive role in the ratification of the [Constitution of the United States](./../constitution-of-the-united-states/).
+* Played a decisive role in the ratification of the [[Constitution of the United States]].
 * Shaped American political thought and constitutionalism for centuries.
 * Provided arguments for a strong, centralized government and a separation of powers.
 
@@ -27,7 +27,7 @@
 
 **Other Key Arguments:**
 
-* **The Necessity of a Federal Government:** The [Articles of Confederation](./../articles-of-confederation/) (the previous governing document) were weak and inefficient, and a stronger central government was needed.
+* **The Necessity of a Federal Government:** The [[Articles of Confederation]] (the previous governing document) were weak and inefficient, and a stronger central government was needed.
 * **The Benefits of Union:** A united nation would promote economic prosperity, national security, and international respect.
 * **The Dangers of Factionalism:** Unchecked factions could lead to political instability and tyranny.
 * **The Importance of a Written Constitution:** A clear and written set of rules would protect individual rights and prevent government overreach.
@@ -35,4 +35,4 @@
 
 **Legacy:**
 
-The [Federalist Papers](./../federalist-papers/) remain a seminal work in American political thought. Their arguments for limited government, separation of powers, and a strong national authority continue to influence debates about the role of government in society.
+The [[Federalist Papers]] remain a seminal work in American political thought. Their arguments for limited government, separation of powers, and a strong national authority continue to influence debates about the role of government in society.

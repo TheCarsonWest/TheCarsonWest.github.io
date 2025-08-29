@@ -14,14 +14,14 @@ Generate a comprehensive SVG diagram of Weak Acid + Strong Base Titration Graph.
 ---
 
 # Gemini 2.5 Flash Preview, 4000 thinking tokens (20.9 seconds)
-![Screenshot 2025-06-10 at 10.18.04 AM.png](./../screenshot-2025-06-10-at-10.18.04-am.png/)
+!Screenshot 2025-06-10 at 10.18.04 AM.png
 
 ---
 
 # Grok 3 thinking mode (<a style="color:red">210 seconds </a>)
-![Screenshot 2025-06-10 at 10.18.17 AM.png](./../screenshot-2025-06-10-at-10.18.17-am.png/)
+!Screenshot 2025-06-10 at 10.18.17 AM.png
 # GPT o4-mini, low thinking effort (13.2 seconds)
-![Screenshot 2025-06-10 at 10.18.35 AM.png](./../screenshot-2025-06-10-at-10.18.35-am.png/)
+!Screenshot 2025-06-10 at 10.18.35 AM.png
 ---
 # GPT o4-mini, medium thinking effort (<a style="color:orange">61.1 seconds</a>)
-![Screenshot 2025-06-10 at 10.18.43 AM.png](./../screenshot-2025-06-10-at-10.18.43-am.png/)
+!Screenshot 2025-06-10 at 10.18.43 AM.png

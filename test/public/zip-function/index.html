@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="dictionary-comprehensiondictionary-comprehension"><a href="./../dictionary-comprehension/">Dictionary Comprehension</a></h1>
-<h1 id="zip-functionzip-function"><a href="./../zip-function/">Zip Function</a></h1>
-<p>The <code>zip()</code> function in Python takes <a href="./../iterables/">Iterables</a> (like <a href="./../lists/">Lists</a>, <a href="./../tuples/">Tuples</a>, or strings) as input and returns an iterator of <a href="./../tuples/">Tuples</a>.  Each tuple contains the i-th element from each of the input <a href="./../iterables/">Iterables</a>.  The iterator stops when the shortest input iterable is exhausted.</p>
+<h1 id="dictionary-comprehension">Dictionary Comprehension</h1>
+<h1 id="zip-function">Zip Function</h1>
+<p>The <code>zip()</code> function in Python takes Iterables (like Lists, Tuples, or strings) as input and returns an iterator of Tuples.  Each tuple contains the i-th element from each of the input Iterables.  The iterator stops when the shortest input iterable is exhausted.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>list1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>list2 <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;a&#39;</span>, <span style="color:#e6db74">&#39;b&#39;</span>, <span style="color:#e6db74">&#39;c&#39;</span>]]
 </span></span><span style="display:flex;"><span>
@@ -63,19 +63,19 @@
 </span></span><span style="display:flex;"><span>string2 <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;def&#34;</span>
 </span></span><span style="display:flex;"><span>zipped4 <span style="color:#f92672">=</span> zip(string1,string2)
 </span></span><span style="display:flex;"><span>print(list(zipped4)) <span style="color:#75715e">#Output: [(&#39;a&#39;, &#39;d&#39;), (&#39;b&#39;, &#39;e&#39;), (&#39;c&#39;, &#39;f&#39;)]]</span>
-</span></span></code></pre></div><p><a href="./../iterators/">Iterators</a></p>
-<p><a href="./../iterables/">Iterables</a></p>
-<p>If you need to zip <a href="./../iterables/">Iterables</a> of different lengths and want to pad the shorter <a href="./../iterables/">Iterables</a> with a fill value, you can use <code>itertools.zip_longest()</code>:</p>
+</span></span></code></pre></div><p>Iterators</p>
+<p>Iterables</p>
+<p>If you need to zip Iterables of different lengths and want to pad the shorter Iterables with a fill value, you can use <code>itertools.zip_longest()</code>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> zip_longest
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>list3 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>
 </span></span><span style="display:flex;"><span>list4 <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#39;a&#39;</span>,<span style="color:#e6db74">&#39;b&#39;</span>]]
 </span></span><span style="display:flex;"><span>zipped_longest <span style="color:#f92672">=</span> list(zip_longest(list3,list4, fillvalue<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;-&#39;</span>))
 </span></span><span style="display:flex;"><span>print(zipped_longest) <span style="color:#75715e">#Output: [(1, &#39;a&#39;), (2, &#39;b&#39;), (3, &#39;-&#39;), (4, &#39;-&#39;), (5, &#39;-&#39;)]]</span>
-</span></span></code></pre></div><p><a href="./../itertools.zip_longest()/">itertools.zip_longest()</a></p>
+</span></span></code></pre></div><p>itertools.zip_longest()</p>
 <p><strong>Common Use Cases:</strong></p>
 <ul>
-<li>Creating <a href="./../dictionaries/">Dictionaries</a> from <a href="./../lists/">Lists</a> of keys and values.</li>
+<li>Creating Dictionaries from Lists of keys and values.</li>
 <li>Processing multiple datasets in parallel.</li>
 <li>Combining data from multiple sources.</li>
 </ul>

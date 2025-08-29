@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Namespaces and Scope](./../namespaces-and-scope/)
-# [Nested Functions](./../nested-functions/) 
+# [[Namespaces and Scope]]
+# [[Nested Functions]] 
 Nested functions are functions defined inside other functions.  They have access to the variables in their enclosing scope (the outer function's scope), even after the outer function has finished executing (closure). This is a powerful feature for creating specialized functions or encapsulating logic.
 
 
@@ -26,10 +26,10 @@ print(result)  # Output: 10
 
 ```
 
-[Closures](./../closures/)  -  This needs a seperate explanation on how the inner function retains access to the outer function's variables even after the outer function has completed.
+[[Closures]]  -  This needs a seperate explanation on how the inner function retains access to the outer function's variables even after the outer function has completed.
 
-[Scope and Lifetime of Variables](./../scope-and-lifetime-of-variables/) - Needs further explanation on how variable scope and lifetime relate to nested functions.
+[[Scope and Lifetime of Variables]] - Needs further explanation on how variable scope and lifetime relate to nested functions.
 
-[Decorators](./../decorators/) -  Nested functions are a key part of how decorators work in Python.  This is a related topic.
+[[Decorators]] -  Nested functions are a key part of how decorators work in Python.  This is a related topic.
 
-[Lambda Functions](./../lambda-functions/) - While not strictly nested, lambda functions can be used within nested functions and share similar scoping rules.
+[[Lambda Functions]] - While not strictly nested, lambda functions can be used within nested functions and share similar scoping rules.

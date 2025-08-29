@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG Home](./../aphg-home/)
+# [[APHG Home]]
 
-# [Types of Agriculture](./../types-of-agriculture/)
-# [Altering the environment APHG](./../altering-the-environment-aphg/)
+# [[Types of Agriculture]]
+# [[Altering the environment APHG]]
 
-# [Environmental Consequences](./../environmental-consequences/)
-# [Von Thunens Model](./../von-thunens-model/)
+# [[Environmental Consequences]]
+# [[Von Thunens Model]]

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Analyzing Departures from Linearity
 
-When we fit a [Linear Regression Models|linear regression model](./../linear-regression-models|linear-regression-model/) to a set of bivariate data, we assume that the relationship between the two quantitative variables,  $ x $  (explanatory) and  $ y $  (response), is linear. However, real-world data doesn't always conform to this assumption. Analyzing departures from linearity is crucial to ensure that our chosen model is appropriate and that our predictions and inferences are valid.
+When we fit a [[Linear Regression Models|linear regression model]] to a set of bivariate data, we assume that the relationship between the two quantitative variables,  $ x $  (explanatory) and  $ y $  (response), is linear. However, real-world data doesn't always conform to this assumption. Analyzing departures from linearity is crucial to ensure that our chosen model is appropriate and that our predictions and inferences are valid.
 
 ## Why Assess Linearity?
 
@@ -16,7 +16,7 @@ A linear regression model is built on the premise of a linear relationship. If t
 
 The primary tool for detecting departures from linearity is the **residual plot**.
 
-### [Residuals](./../residuals/)
+### [[Residuals]]
 
 A residual is the difference between the observed value of the response variable and the value predicted by the regression model. It quantifies how much the model "misses" the actual data point.
 
@@ -76,7 +76,7 @@ A residual plot is a scatterplot of the residuals ( $ e $ ) against the explanat
 
 If a residual plot reveals a non-linear pattern, several approaches can be considered:
 
-1.  **[Transforming Data to Achieve Linearity](./../transforming-data-to-achieve-linearity/):** This is a common method. Applying a mathematical transformation (e.g., logarithm, square root, reciprocal) to either the explanatory variable ( $ x $ ), the response variable ( $ y $ ), or both, can sometimes linearize the relationship.
+1.  **[[Transforming Data to Achieve Linearity]]:** This is a common method. Applying a mathematical transformation (e.g., logarithm, square root, reciprocal) to either the explanatory variable ( $ x $ ), the response variable ( $ y $ ), or both, can sometimes linearize the relationship.
     *   **Concave Up (increasing rate of change):** Try  $ log(y) $ ,  $ \sqrt{y} $ , or  $ 1/y $ .
     *   **Concave Down (decreasing rate of change):** Try  $ x^2 $ ,  $ e^x $ ,  $ log(x) $ ,  $ \sqrt{x} $ .
     *   Choosing the correct transformation often involves trial and error and re-examining residual plots after each transformation.
@@ -85,4 +85,4 @@ If a residual plot reveals a non-linear pattern, several approaches can be consi
 
 ## Conclusion
 
-Always construct a residual plot when performing [Least Squares Regression|least-squares regression](./../least-squares-regression|least-squares-regression/). It is a vital diagnostic tool to verify the appropriateness of a linear model. A random scatter of residuals around zero is the goal, indicating that the linear model adequately describes the relationship between the variables. If a pattern is present, the model may be inappropriate, and further analysis (like data transformation) is needed.
+Always construct a residual plot when performing [[Least Squares Regression|least-squares regression]]. It is a vital diagnostic tool to verify the appropriateness of a linear model. A random scatter of residuals around zero is the goal, indicating that the linear model adequately describes the relationship between the variables. If a pattern is present, the model may be inappropriate, and further analysis (like data transformation) is needed.

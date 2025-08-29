@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [ndarray Explained](./../ndarray-explained/)
-# [Vectorization and Performance](./../vectorization-and-performance/) 
-Vectorization is a powerful technique in Python (especially when working with [Libraries like NumPy](./../libraries-like-numpy/)) that significantly boosts performance by performing operations on entire arrays at once, rather than iterating through individual elements. This avoids the overhead of explicit loops, leading to substantial speed improvements.
+# ndarray Explained
+# Vectorization and Performance 
+Vectorization is a powerful technique in Python (especially when working with Libraries like NumPy) that significantly boosts performance by performing operations on entire arrays at once, rather than iterating through individual elements. This avoids the overhead of explicit loops, leading to substantial speed improvements.
 
 **Key Concepts:**
 
-* **[NumPy Arrays](./../numpy-arrays/):**  Vectorization relies heavily on [NumPy Arrays](./../numpy-arrays/).  These are efficient, homogenous data structures optimized for numerical operations. [NumPy Arrays](./../numpy-arrays/)
+* **NumPy Arrays:**  Vectorization relies heavily on NumPy Arrays.  These are efficient, homogenous data structures optimized for numerical operations. NumPy Arrays
 
-* **Broadcasting:**  NumPy's broadcasting rules allow operations between arrays of different shapes (under certain conditions).  Understanding broadcasting is crucial for writing efficient vectorized code. [NumPy Broadcasting](./../numpy-broadcasting/)
+* **Broadcasting:**  NumPy's broadcasting rules allow operations between arrays of different shapes (under certain conditions).  Understanding broadcasting is crucial for writing efficient vectorized code. NumPy Broadcasting
 
 * **Universal Functions (ufuncs):** NumPy provides a set of ufuncs (universal functions) that are vectorized by design. Examples include `+`, `-`, `*`, `/`, `sin`, `cos`, etc.  These operate element-wise on arrays without explicit looping.
 
@@ -64,6 +64,6 @@ Vectorization is a powerful technique in Python (especially when working with [L
 
 **Further Exploration:**
 
-* [NumPy Performance Tips](./../numpy-performance-tips/)
-* [Python Performance Optimization](./../python-performance-optimization/)
+* NumPy Performance Tips
+* Python Performance Optimization
 

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[APHG Unit 2](./../aphg-unit-2/)
+[[APHG Unit 2]]
 ## AP Human Geography: Population Growth & Decline Notes
 
 ### Global Population Trends
@@ -17,7 +17,7 @@
 
 * **Crude Birth Rate (CBR):** Number of live births per 1,000 people per year. 
     * Example: A CBR of 20 means 20 births for every 1,000 people in a year.
-* **[Total Fertility Rate](./../total-fertility-rate/) (TFR):** Average number of children a woman will have in her lifetime.
+* **[[Total Fertility Rate]] (TFR):** Average number of children a woman will have in her lifetime.
     * Historically high (around 6) due to high child mortality.
     * Currently around 2.1 globally.
 
@@ -26,13 +26,13 @@
 * **Development Level:**
     * Developed countries: TFR generally below 2.1 (e.g., US - 2, Japan - under 2).
     * Developing countries: TFR generally higher (4-6 or more).
-* **[Industrial Revolution](./../industrial-revolution/):** Led to increased food production, lower death rates, and eventually lower TFRs in Europe.
+* **[[Industrial Revolution]]:** Led to increased food production, lower death rates, and eventually lower TFRs in Europe.
 * **Women's Education and Empowerment:** 
     * Increased education and workplace equality correlate with lower TFRs (e.g., Japan).
     * Example: Between 1990-2007, TFR in developing nations dropped significantly as female education levels rose.
 * **Economic Development:** Economic stability and security can lead to families choosing to have fewer children.
 
-### The [Demographic Transition Model](./../demographic-transition-model/)
+### The [[Demographic Transition Model]]
 
 Describes the shift in population growth patterns as a country industrializes.
 
@@ -56,7 +56,7 @@ Describes the shift in population growth patterns as a country industrializes.
 
 ### Public Health and Life Expectancy
 
-* **Industrialization and [Urbanization](./../urbanization/):** Initially led to poor sanitation and disease outbreaks (e.g., cholera, plague).
+* **Industrialization and [[Urbanization]]:** Initially led to poor sanitation and disease outbreaks (e.g., cholera, plague).
 	* Stage 2/3
 * **Public Sanitation Improvements:** Sewer systems, water treatment, and hygiene practices drastically increased life expectancy. 
 	* Stage 3

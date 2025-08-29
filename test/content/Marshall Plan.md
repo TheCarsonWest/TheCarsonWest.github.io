@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Marshall Plan](./../marshall-plan/) 
+## ID: Marshall Plan 
 ## WHEN: April 3, 1948 (officially enacted) - lasted until 1951
 
 ## WHO:
-*   **Initiated by:** [United States](./../united-states/) (specifically Secretary of State George Marshall)
+*   **Initiated by:** United States (specifically Secretary of State George Marshall)
 *   **Beneficiaries:** Primarily Western European countries devastated by World War II. Included countries like Great Britain, France, Italy, and West Germany. The Soviet Union and Eastern European countries were invited but refused to participate.
 
 ## WHAT:
@@ -24,6 +24,6 @@
 *   **Strengthened US Influence:** Enhanced American influence in Western Europe and fostered strong alliances that would be crucial during the Cold War.
 *   **European Integration:**  Promoted cooperation and integration among European nations, laying the groundwork for future European institutions like the European Union.
 *   **Positive US Economy:** Helped stimulate the US economy by creating new export markets for American goods.
-*   **Increased Tensions with USSR:** The Soviet Union viewed the [Marshall Plan](./../marshall-plan/) with suspicion, perceiving it as a tool of American imperialism and a threat to its sphere of influence, further escalating [Cold War](./../cold-war/) tensions.
+*   **Increased Tensions with USSR:** The Soviet Union viewed the Marshall Plan with suspicion, perceiving it as a tool of American imperialism and a threat to its sphere of influence, further escalating Cold War tensions.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# IDS Unit 8

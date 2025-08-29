@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Voting Rights Act of 1965](./../voting-rights-act-of-1965/) 
+## ID: [[Voting Rights Act of 1965]] 
 ## When: August 6, 1965
 
 ## Who:
@@ -15,11 +15,11 @@
 
 ## What:
 
-A landmark piece of federal legislation in the [United States](./../united-states/) that outlawed discriminatory voting practices that had been responsible for widespread disenfranchisement of African Americans in the U.S., especially in the South. Specifically:
+A landmark piece of federal legislation in the [[United States]] that outlawed discriminatory voting practices that had been responsible for widespread disenfranchisement of African Americans in the U.S., especially in the South. Specifically:
 
 *   **Outlawed literacy tests and other discriminatory devices:** That had been used to prevent Black citizens from registering to vote.
 *   **Authorized federal oversight of voter registration:** In areas with a history of discrimination.
-*   **Authorized the U.S. Attorney General to investigate the use of poll taxes:** In state and local elections. (Poll taxes were later outlawed by the Supreme Court in *Harper v. [Virginia](./../virginia/) Board of Elections* (1966))
+*   **Authorized the U.S. Attorney General to investigate the use of poll taxes:** In state and local elections. (Poll taxes were later outlawed by the Supreme Court in *Harper v. [[Virginia]] Board of Elections* (1966))
 
 ## Impact: Why Significant?:
 
@@ -30,4 +30,4 @@ A landmark piece of federal legislation in the [United States](./../united-state
 *   **Controversies and Amendments:** The Act has been amended several times since its passage and has been subject to legal challenges, including *Shelby County v. Holder* (2013), which weakened a key provision regarding preclearance, leading to renewed concerns about voter suppression in some states.
 *   **Legacy of Expanding Suffrage:** Built upon earlier civil rights legislation and Supreme Court decisions, further expanding suffrage and solidifying the principle of equal voting rights for all citizens.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

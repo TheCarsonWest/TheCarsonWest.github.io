@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [McCarthyism](./../mccarthyism/) 
+## ID: [[McCarthyism]] 
 ## When: Early 1950s (roughly 1950-1956, peaking around 1950-1954)
 
 ## Who:
@@ -22,6 +22,6 @@ A period of intense anti-communist suspicion in the United States, characterized
 * **Blacklisting:** Many individuals accused of communist ties were blacklisted, preventing them from finding employment in their fields.
 * **Damage to Reputations:** Even when accusations were proven false, the damage to individuals' reputations was often irreparable.
 * **Decline of McCarthy's Influence:**  McCarthy's influence eventually declined after he began to accuse members of the US Army of being communists (Army-McCarthy Hearings in 1954).  He was censured by the Senate in 1954.
-* **Long-Term Impact on American Politics:**  Demonstrated the potential dangers of political demagoguery and the importance of protecting civil liberties even in times of perceived national crisis. It also highlighted the impact of [Cold War](./../cold-war/) anxieties on domestic politics.
+* **Long-Term Impact on American Politics:**  Demonstrated the potential dangers of political demagoguery and the importance of protecting civil liberties even in times of perceived national crisis. It also highlighted the impact of [[Cold War]] anxieties on domestic politics.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

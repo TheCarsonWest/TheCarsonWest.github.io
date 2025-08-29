@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# AP Stats Home
 # Introduction to the Binomial Distribution
 
 The binomial distribution is a discrete probability distribution that models the number of successes in a fixed number of independent trials, each with only two possible outcomes (success or failure), and where the probability of success is constant for each trial. It is a fundamental concept in statistics, often used to analyze situations where we're counting "hits" or "misses" in a series of identical opportunities.
@@ -15,8 +15,8 @@ For a random variable  $ X $  to follow a binomial distribution, four specific c
 | Condition       | Description                                                                                                                                                                                                                                                                                                                                                     |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **B**inary      | Each trial must have only two possible outcomes, typically labeled "success" or "failure." For example, flipping a coin (heads/tails), a product being defective or not, or a patient recovering or not.                                                                                                                                                             |
-| **I**ndependent | The outcome of one trial must not influence the outcome of any other trial. This means that the trials are independent. If sampling without replacement, the sample size should be less than 10% of the population size to ensure approximate independence ([Random Sampling and a Collection](./../random-sampling-and-a-collection/) and [Potential Problems with Sampling](./../potential-problems-with-sampling/)).                         |
-| **N**umber      | The number of trials, denoted by  $ n $ , must be fixed in advance. You know exactly how many times the experiment will be repeated. For instance, flipping a coin 10 times, or inspecting 50 items from a production line. This distinguishes it from the [The Geometric Distribution](./../the-geometric-distribution/), where the number of trials is not fixed.                                     |
+| **I**ndependent | The outcome of one trial must not influence the outcome of any other trial. This means that the trials are independent. If sampling without replacement, the sample size should be less than 10% of the population size to ensure approximate independence (Random Sampling and a Collection and Potential Problems with Sampling).                         |
+| **N**umber      | The number of trials, denoted by  $ n $ , must be fixed in advance. You know exactly how many times the experiment will be repeated. For instance, flipping a coin 10 times, or inspecting 50 items from a production line. This distinguishes it from the The Geometric Distribution, where the number of trials is not fixed.                                     |
 | **S**uccess     | The probability of success, denoted by  $ p $ , must be the same for each trial. This probability remains constant throughout the entire series of  $ n $  trials. The probability of failure,  $ q $ , is then  $ 1-p $ .                                                                                                                                                         |
 
 ## Notation
@@ -25,7 +25,7 @@ If a random variable  $ X $  follows a binomial distribution, we denote it as  $
 *    $ n $  is the fixed number of trials.
 *    $ p $  is the probability of success on any given trial.
 
- $ X $  represents the count of successes in  $ n $  trials. Possible values for  $ X $  are  $ 0, 1, 2, \dots, n $ . This makes  $ X $  a [Introduction to Random Variables and Probability Distributions|discrete random variable](./../introduction-to-random-variables-and-probability-distributions|discrete-random-variable/).
+ $ X $  represents the count of successes in  $ n $  trials. Possible values for  $ X $  are  $ 0, 1, 2, \dots, n $ . This makes  $ X $  a Introduction to Random Variables and Probability Distributions|discrete random variable.
 
 ## Binomial Probability Formula (PMF)
 
@@ -57,4 +57,4 @@ Suppose a fair coin is tossed 5 times. What is the probability of getting exactl
 
 So, the probability of getting exactly 3 heads in 5 tosses is 0.3125.
 
-For a deeper dive into the properties, including the mean and standard deviation of a binomial distribution, refer to [Parameters for a Binomial Distribution](./../parameters-for-a-binomial-distribution/).
+For a deeper dive into the properties, including the mean and standard deviation of a binomial distribution, refer to Parameters for a Binomial Distribution.

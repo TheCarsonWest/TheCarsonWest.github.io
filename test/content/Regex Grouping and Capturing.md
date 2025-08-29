@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Regex Metacharacters](./../regex-metacharacters/)
-# [Regex Grouping and Capturing](./../regex-grouping-and-capturing/) 
-This note covers grouping and capturing in [Regular Expressions](./../regular-expressions/) using Python's `re` module.
+# [[Regex Metacharacters]]
+# [[Regex Grouping and Capturing]] 
+This note covers grouping and capturing in [[Regular Expressions]] using Python's `re` module.
 
 **Core Concepts:**
 
@@ -51,4 +51,4 @@ if match:
 
 
 
-[Regex `re.sub()` function](./../regex-`re.sub()`-function/)  ([Regex `re.findall()` function](./../regex-`re.findall()`-function/)) [Python's `re` Module](./../pythons-`re`-module/)
+[[Regex `re.sub()` function]]  ([[Regex `re.findall()` function]]) [[Python's `re` Module]]

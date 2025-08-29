@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [APHG Home](./../aphg-home/)
+# [[APHG Home]]
 
- - [Reality of our world](./../reality-of-our-world/)
+ - [[Reality of our world]]
  - [[The nature of geography 1.1
- - [Geographic Scale](./../geographic-scale/) video notes
- - [Map Types](./../map-types/)
- - [Geospatial Data](./../geospatial-data/)
- - [Types of Regions](./../types-of-regions/)
- - [Place Names](./../place-names/)
+ - [[Geographic Scale]] video notes
+ - [[Map Types]]
+ - [[Geospatial Data]]
+ - [[Types of Regions]]
+ - [[Place Names]]
 

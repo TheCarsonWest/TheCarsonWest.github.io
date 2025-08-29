@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Representing the Relationship Between Two Quantitative Variables
 
 When we have two quantitative variables measured on the same individuals, we often want to understand if there's a relationship between them and, if so, describe its nature. This involves both graphical and numerical summaries.
 
-## [Scatterplots](./../scatterplots/)
+## [[Scatterplots]]
 
 A **scatterplot** is the most effective graphical tool for displaying the relationship between two quantitative variables. Each individual in the data is represented as a point on the graph.
 
@@ -26,7 +26,7 @@ When analyzing a scatterplot, we look for four key characteristics:
     *   **Negative Association:** As the explanatory variable increases, the response variable tends to decrease. The points trend downwards from left to right.
     *   **No Association:** There is no clear upward or downward trend. The points appear randomly scattered.
 
-2.  **[Outliers](./../outliers/)**: Individual points that fall outside the overall pattern of the relationship. These points can significantly influence numerical summaries and models.
+2.  **[[Outliers]]**: Individual points that fall outside the overall pattern of the relationship. These points can significantly influence numerical summaries and models.
 
 3.  **Form:** The general shape of the relationship.
     *   **Linear:** The points cluster around a straight line. This is the most common form we study in AP Statistics.
@@ -52,7 +52,7 @@ It's crucial to correctly identify the explanatory and response variables based 
 | Temperature vs. ice cream sales | Temperature              | Ice cream sales       |
 | Age vs. reaction time   | Age                      | Reaction time         |
 
-## [Correlation](./../correlation/)
+## [[Correlation]]
 
 While scatterplots provide a visual description, the **correlation coefficient** (denoted by  $ r $ ) is a numerical measure that quantifies the **strength** and **direction** of a *linear* relationship between two quantitative variables.
 
@@ -74,7 +74,7 @@ While scatterplots provide a visual description, the **correlation coefficient**
 *    $ s_x $  and  $ s_y $  are the standard deviations of  $ x $  and  $ y $ .
 
 **Important Notes about Correlation:**
-*   **Correlation does not imply causation.** A strong correlation between two variables does not mean one causes the other. There might be [Lurking Variables](./../lurking-variables/) involved.
+*   **Correlation does not imply causation.** A strong correlation between two variables does not mean one causes the other. There might be [[Lurking Variables]] involved.
 *   **Correlation only measures linear relationships.** A strong non-linear relationship might have a correlation close to 0.
 *   **Correlation is not resistant to outliers.** Outliers can significantly affect the value of  $ r $ .
 *   **Changing units of measurement does not change  $ r $ .** If you change from feet to meters,  $ r $  remains the same.

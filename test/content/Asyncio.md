@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [Async Generators](./../async-generators/)
-# [Asyncio](./../asyncio/) Notes
+# [[Async Generators]]
+# [[Asyncio]] Notes
 
-[Asyncio](./../asyncio/) is Python's built-in library for asynchronous programming.  It allows you to write concurrent code using the `async` and `await` keywords.  This is particularly useful for I/O-bound operations (like network requests or file operations) where you don't want your program to block while waiting for a response.
+[[Asyncio]] is Python's built-in library for asynchronous programming.  It allows you to write concurrent code using the `async` and `await` keywords.  This is particularly useful for I/O-bound operations (like network requests or file operations) where you don't want your program to block while waiting for a response.
 
 Key Concepts:
 
@@ -45,9 +45,9 @@ async def main():
 asyncio.run(main())
 ```
 
-* **Concurrency vs. Parallelism:**  [Asyncio](./../asyncio/) achieves concurrency (multiple tasks seemingly running at the same time), but not necessarily parallelism (multiple tasks running simultaneously on multiple CPU cores).  It's particularly efficient for I/O-bound operations where waiting dominates CPU usage. For CPU-bound operations, multiprocessing might be more appropriate. [Concurrency vs Parallelism](./../concurrency-vs-parallelism/)
+* **Concurrency vs. Parallelism:**  [[Asyncio]] achieves concurrency (multiple tasks seemingly running at the same time), but not necessarily parallelism (multiple tasks running simultaneously on multiple CPU cores).  It's particularly efficient for I/O-bound operations where waiting dominates CPU usage. For CPU-bound operations, multiprocessing might be more appropriate. [[Concurrency vs Parallelism]]
 
-* **[Error Handling](./../error-handling/):**  Use `try...except` blocks within your coroutines to handle potential exceptions.
+* **[[Error Handling]]:**  Use `try...except` blocks within your coroutines to handle potential exceptions.
 
 ```python
 async def might_fail():
@@ -81,4 +81,4 @@ async def main():
 asyncio.run(main())
 ```
 
-[Advanced Asyncio Techniques](./../advanced-asyncio-techniques/)  [Asyncio and Databases](./../asyncio-and-databases/) [Asyncio and Web Servers](./../asyncio-and-web-servers/)
+[[Advanced Asyncio Techniques]]  [[Asyncio and Databases]] [[Asyncio and Web Servers]]

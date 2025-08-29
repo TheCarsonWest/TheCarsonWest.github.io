@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-## [Log Rule](./../log-rule/) 
+## [[Log Rule]] 
 ###  $$ \frac{d}{dx}[\log _{b}(x)]] = \frac{1}{\ln b}\times \frac{1}{x} $$  
 
 
-# [Derivative Rules](./../derivative-rules/)
+# [[Derivative Rules]]

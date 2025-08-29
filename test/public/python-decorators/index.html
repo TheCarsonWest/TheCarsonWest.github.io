@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="python-functionspython-functions"><a href="./../python-functions/">Python Functions</a></h1>
-<h1 id="python-decoratorspython-decorators"><a href="./../python-decorators/">Python Decorators</a></h1>
+<h1 id="python-functions">[[Python Functions]]</h1>
+<h1 id="python-decorators">[[Python Decorators]]</h1>
 <p>Python decorators are a powerful and expressive feature that allows you to modify or enhance functions and methods in a clean and readable way.  They use the <code>@</code> symbol followed by the decorator function name, placed above the function definition.</p>
 <p><strong>Basic Syntax:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator</span>(func):
@@ -54,7 +54,7 @@
 </span></span><span style="display:flex;"><span>say_hello()
 </span></span></code></pre></div><p>This code shows a simple decorator. <code>my_decorator</code> takes a function (<code>func</code>) as input, creates a wrapper function that executes code before and after <code>func</code>, and returns the wrapper. The <code>@my_decorator</code> syntax is equivalent to <code>say_hello = my_decorator(say_hello)</code>.</p>
 <p><strong>Decorator with Arguments:</strong>
-<a href="./../decorators/">Decorators</a> can also accept arguments.  This requires a bit more complexity:</p>
+[[Decorators]] can also accept arguments.  This requires a bit more complexity:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">repeat</span>(num_times):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator_repeat</span>(func):
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
@@ -72,15 +72,15 @@
 </span></span></code></pre></div><p>Here, <code>repeat</code> is a decorator factory – it returns a decorator.  The inner function <code>decorator_repeat</code> takes the function to be decorated, and the innermost <code>wrapper</code> handles the actual repetition.</p>
 <p><strong>Use Cases:</strong></p>
 <ul>
-<li><strong>Logging:</strong>  Track function calls and their arguments/return values. <a href="./../logging-with-decorators/">Logging with Decorators</a></li>
-<li><strong>Timing:</strong> Measure the execution time of functions. <a href="./../timing-functions/">Timing Functions</a></li>
-<li><strong>Access Control:</strong> Restrict access to certain functions based on user roles or permissions. <a href="./../access-control-decorators/">Access Control Decorators</a></li>
-<li><strong>Caching:</strong> Store the results of expensive function calls to avoid redundant computations. <a href="./../caching-decorators/">Caching Decorators</a></li>
+<li><strong>Logging:</strong>  Track function calls and their arguments/return values. [[Logging with Decorators]]</li>
+<li><strong>Timing:</strong> Measure the execution time of functions. [[Timing Functions]]</li>
+<li><strong>Access Control:</strong> Restrict access to certain functions based on user roles or permissions. [[Access Control Decorators]]</li>
+<li><strong>Caching:</strong> Store the results of expensive function calls to avoid redundant computations. [[Caching Decorators]]</li>
 </ul>
 <p><strong>Advanced Topics:</strong></p>
 <ul>
-<li><strong>Class <a href="./../decorators/">Decorators</a>:</strong> <a href="./../decorators/">Decorators</a> can also be applied to classes. <a href="./../class-decorators/">Class Decorators</a></li>
-<li><strong>Decorator Arguments and Order:</strong> Understanding how arguments are passed and the order of multiple decorators is crucial. <a href="./../decorator-arguments-and-order/">Decorator Arguments and Order</a></li>
+<li><strong>Class [[Decorators]]:</strong> [[Decorators]] can also be applied to classes. [[Class Decorators]]</li>
+<li><strong>Decorator Arguments and Order:</strong> Understanding how arguments are passed and the order of multiple decorators is crucial. [[Decorator Arguments and Order]]</li>
 </ul>
 <p><strong>Further Reading:</strong></p>
 <ul>
@@ -88,8 +88,8 @@
 </ul>
 <p><strong>Related Notes:</strong></p>
 <ul>
-<li><a href="./../function-arguments-and-keyword-arguments/">Function Arguments and Keyword Arguments</a></li>
-<li><a href="./../closures-in-python/">Closures in Python</a>  (<a href="./../decorators/">Decorators</a> heavily rely on closures.)</li>
+<li>[[Function Arguments and Keyword Arguments]]</li>
+<li>[[Closures in Python]]  ([[Decorators]] heavily rely on closures.)</li>
 </ul>
 
 </main>

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
-# [Common Pitfalls with Mutability and Immutability](./../common-pitfalls-with-mutability-and-immutability/) 
+# Mutable vs Immutable Types
+# Common Pitfalls with Mutability and Immutability 
 Mutable vs. Immutable types:  A core concept in Python. Understanding this is crucial to avoid unexpected behavior.
 
 * **Immutable:**  These objects cannot be changed after creation.  Changes create a *new* object. Examples include:
@@ -56,11 +56,11 @@ Mutable vs. Immutable types:  A core concept in Python. Understanding this is cr
     print(add_to_list(2))  # Output: 2
     ```
 
-3. **Shallow vs. Deep Copying:** [Shallow vs Deep Copy](./../shallow-vs-deep-copy/)  This is especially relevant when dealing with nested mutable objects.  A shallow copy only copies the references, not the objects themselves. A deep copy creates entirely new copies.
+3. **Shallow vs. Deep Copying:** Shallow vs Deep Copy  This is especially relevant when dealing with nested mutable objects.  A shallow copy only copies the references, not the objects themselves. A deep copy creates entirely new copies.
 
 4. **Tuple containing mutable objects:**
 
-    [Tuples](./../tuples/) themselves are immutable, but they can contain mutable objects.  Modifying the contained mutable object still changes the tuple's content (because the tuple only holds a reference to the object).
+    Tuples themselves are immutable, but they can contain mutable objects.  Modifying the contained mutable object still changes the tuple's content (because the tuple only holds a reference to the object).
 
     ```python
     my_tuple = (1, 2, 3)
@@ -72,5 +72,5 @@ Mutable vs. Immutable types:  A core concept in Python. Understanding this is cr
 5. **Aliasing:** When two variables refer to the same object (especially a mutable object), changes through one variable affect the other.
 
 
-[List Comprehensions](./../list-comprehensions/)
-[Function Arguments](./../function-arguments/)
+List Comprehensions
+Function Arguments

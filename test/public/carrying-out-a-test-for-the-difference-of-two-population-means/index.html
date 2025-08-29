@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="carrying-out-a-test-for-the-difference-of-two-population-means">Carrying Out a Test for the Difference of Two Population Means</h1>
-<p>This notes page details the &ldquo;Do&rdquo; step of a hypothesis test for the difference between two population means ( $ \mu_1 - \mu_2 $ ). This is where the test statistic is calculated and the p-value is determined, assuming the null hypothesis is true. Before proceeding, ensure you have properly <a href="./../setting-up-a-test-for-the-difference-of-two-population-means/">Setting Up a Test for the Difference of Two Population Means</a>.</p>
+<p>This notes page details the &ldquo;Do&rdquo; step of a hypothesis test for the difference between two population means ( $ \mu_1 - \mu_2 $ ). This is where the test statistic is calculated and the p-value is determined, assuming the null hypothesis is true. Before proceeding, ensure you have properly Setting Up a Test for the Difference of Two Population Means.</p>
 <h2 id="1-state-hypotheses">1. State Hypotheses</h2>
 <p>Recall that the hypotheses for this test are:</p>
 <ul>
@@ -60,7 +60,7 @@ $$ H_a: \mu_1 - \mu_2 &gt; 0 \quad \text{ or } \quad \mu_1 &gt; \mu_2 \quad \tex
 <li><strong>Normal / Large Sample</strong>: The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  must be approximately normal. This can be satisfied if:
 <ul>
 <li>Both population distributions are approximately normal (checked with graphs of sample data like dot plots, histograms, or normal probability plots showing no strong skewness or outliers).</li>
-<li>Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>.</li>
+<li>Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to The Central Limit Theorem.</li>
 <li>If one or both sample sizes are small, but the population distribution is clearly not normal, then a t-test is not appropriate.</li>
 </ul>
 </li>
@@ -89,14 +89,14 @@ The degrees of freedom for this t-statistic are calculated using a complex formu
 <li>** $ H_a: \mu_1 - \mu_2 &lt; 0 $  (left-tailed)**:  $ p\text{-value} = P(T \le t) $</li>
 <li>** $ H_a: \mu_1 - \mu_2 \neq 0 $  (two-tailed)**:  $ p\text{-value} = 2 \times P(T \ge |t|) $</li>
 </ul>
-<p><a href="./../interpreting-p-values/">Interpreting p-Values</a> is a critical skill for the conclusion.</p>
+<p>Interpreting p-Values is a critical skill for the conclusion.</p>
 <h2 id="5-formulate-a-conclusion">5. Formulate a Conclusion</h2>
 <p>Finally, compare your p-value to the chosen significance level ( $ \alpha $ , often 0.05).</p>
 <ul>
 <li>**If p-value &lt;  $ \alpha $ **: Reject the null hypothesis. There is convincing evidence that the true difference in population means is what the alternative hypothesis suggests.</li>
 <li>**If p-value  $ \ge \alpha $ **: Fail to reject the null hypothesis. There is not convincing evidence that the true difference in population means is what the alternative hypothesis suggests.</li>
 </ul>
-<p>Always state your conclusion in the context of the problem, referring back to the specific populations and variables involved. Be mindful of <a href="./../potential-errors-when-performing-tests/">Potential Errors When Performing Tests</a>. This process is similar to <a href="./../carrying-out-a-test-for-a-population-mean/">Carrying Out a Test for a Population Mean</a> but extended to two independent samples.</p>
+<p>Always state your conclusion in the context of the problem, referring back to the specific populations and variables involved. Be mindful of Potential Errors When Performing Tests. This process is similar to Carrying Out a Test for a Population Mean but extended to two independent samples.</p>
 
 </main>
 

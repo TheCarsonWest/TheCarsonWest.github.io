@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
-# [Unit 7 Applications of Integrals](./../unit-7-applications-of-integrals/)
+# [[Calc home]]
+# [[Unit 7 Applications of Integrals]]
 # Volumes of Revolutions: AP Calculus AB Rundown
 
 This document provides a concise overview of volumes of revolution, a key topic in AP Calculus AB. We will cover the main methods: the Disk Method, the Washer Method, and briefly touch on the Shell Method (though it's less common on the AB exam).
@@ -20,7 +20,7 @@ The Disk Method is used when the region being revolved is *adjacent* to the axis
 **Procedure:**
 
 1.  **Sketch the region:** Draw the region you're revolving and the axis of revolution.
-2.  **Identify the radius:** Determine the radius, *r*, of a representative disk.  The radius will be a function of either *x* or *y*, depending on the axis of revolution. [Radius Identification](./../radius-identification/)
+2.  **Identify the radius:** Determine the radius, *r*, of a representative disk.  The radius will be a function of either *x* or *y*, depending on the axis of revolution. [[Radius Identification]]
 3.  **Set up the integral:** The volume is found by integrating the area of the disk,  $$ A = \pi r^2 $$ , along the axis of revolution.
 
 **Formulas:**
@@ -43,7 +43,7 @@ The Washer Method is used when the region being revolved is *not adjacent* to th
 **Procedure:**
 
 1.  **Sketch the region:** Draw the region you're revolving and the axis of revolution.
-2.  **Identify the outer and inner radii:** Determine the outer radius, *R*, and the inner radius, *r*, of a representative washer. Both radii will be functions of either *x* or *y*. [Radii Identification](./../radii-identification/)
+2.  **Identify the outer and inner radii:** Determine the outer radius, *R*, and the inner radius, *r*, of a representative washer. Both radii will be functions of either *x* or *y*. [[Radii Identification]]
 3.  **Set up the integral:** The volume is found by integrating the area of the washer,  $$ A = \pi (R^2 - r^2) $$ , along the axis of revolution.
 
 **Formulas:**

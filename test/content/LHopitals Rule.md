@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-L'Hopital's Rule is a powerful tool for evaluating limits involving [Indeterminate Forms](./../indeterminate-forms/). 
+L'Hopital's Rule is a powerful tool for evaluating limits involving [[Indeterminate Forms]]. 
 ### L'Hopital's Rule Statement
 
 **If the limit of a fraction as  $ x $  approaches  $ a $  results in an indeterminate form (0/0 or ∞/∞), then:**
@@ -11,11 +11,11 @@ L'Hopital's Rule is a powerful tool for evaluating limits involving [Indetermina
  $$ \lim_{x \to a} \frac{f(x)}{g(x)} = \lim_{x \to a} \frac{f'(x)}{g'(x)} $$  
 **provided that the limit on the right-hand side exists or is  $ \pm \infty $ .**
 
-**In simpler terms:**  To evaluate the limit of a fraction that results in an indeterminate form, take the [derivative](./../derivative/) of both the numerator and denominator separately, and then evaluate the limit again.
+**In simpler terms:**  To evaluate the limit of a fraction that results in an indeterminate form, take the [[derivative]] of both the numerator and denominator separately, and then evaluate the limit again.
 
 ### Important Notes
 
-* ### **L'Hopital's Rule only applies to [Indeterminate Forms](./../indeterminate-forms/) (0/0 or ∞/∞).** Don't use it for other forms like 0/∞ or ∞/0.
+* ### **L'Hopital's Rule only applies to [[Indeterminate Forms]] (0/0 or ∞/∞).** Don't use it for other forms like 0/∞ or ∞/0.
 * **The rule can be applied repeatedly** if the limit of the derivatives still results in an indeterminate form.
 * **L'Hopital's Rule is not always the easiest method** to evaluate a limit. Sometimes, algebraic manipulation or other techniques may be more efficient.
 ### Example

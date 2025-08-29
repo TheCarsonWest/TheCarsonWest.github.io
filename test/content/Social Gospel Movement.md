@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Social Gospel Movement](./../social-gospel-movement/)
+## ID: [[Social Gospel Movement]]
 
 ## WHEN: 1870-1920
 
 ## WHO: 
 * Walter Rauschenbusch (leading theologian)
-* [Washington](./../washington/) Gladden (prominent minister)
-* [PCUSA](./../pcusa/)
+* [[Washington]] Gladden (prominent minister)
+* [[PCUSA]]
 * Salvation Army
 
 ## WHAT: 
@@ -24,4 +24,4 @@ A reform movement within Protestantism that applied Christian ethics to social p
 * **Challenging Laissez-Faire Economics:**  By advocating for social responsibility of businesses and the wealthy, it indirectly challenged the prevailing ideology of laissez-faire economics.
 * **Influence on Theology:** It impacted theological thought, shifting the focus from individual salvation to social justice and the betterment of society as a whole.
 
-# [IDS Unit 6](./../ids-unit-6/)
+# [[IDS Unit 6]]

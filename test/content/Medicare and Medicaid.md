@@ -5,7 +5,7 @@
 +++
 Okay, here's a notecard in the requested format for Medicare and Medicaid:
 
-## ID: [Medicare and Medicaid](./../medicare-and-medicaid/) 
+## ID: [[Medicare and Medicaid]] 
 ## WHEN: July 30, 1965 (Signed into law as part of the Social Security Amendments of 1965)
 
 ## WHO:
@@ -26,11 +26,11 @@ Okay, here's a notecard in the requested format for Medicare and Medicaid:
 ## IMPACT: Why Significant?:
 
 *   **Expanded Healthcare Access:** Significantly increased access to healthcare for elderly and low-income Americans who previously faced significant barriers to receiving medical care.
-*   **Reduced Poverty:** By covering medical expenses, [Medicare and Medicaid](./../medicare-and-medicaid/) helped alleviate financial burdens for vulnerable populations and reduced poverty rates, particularly among the elderly.
+*   **Reduced Poverty:** By covering medical expenses, [[Medicare and Medicaid]] helped alleviate financial burdens for vulnerable populations and reduced poverty rates, particularly among the elderly.
 *   **Increased Life Expectancy:** Contributed to increased life expectancy and improved health outcomes due to greater access to preventative care and treatment.
 *   **Federal Government's Role:** Expanded the role of the federal government in healthcare, setting a precedent for future healthcare reforms.
 *   **Ongoing Debate:** Sparked ongoing political debates about the appropriate role of government in healthcare, the costs of healthcare, and the effectiveness of these programs.  The programs continue to be modified and debated today.
 *   **Healthcare Industry Growth:** Fueled the growth of the healthcare industry and increased demand for medical services.
 *   **Great Society Legacy:** Remains a cornerstone of President Johnson's "Great Society" and a lasting legacy of the 1960s social reforms.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

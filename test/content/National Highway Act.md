@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [National Highway Act](./../national-highway-act/) 
+## ID: [[National Highway Act]] 
 ## WHEN: June 29, 1956
 
 ## WHO:
@@ -24,4 +24,4 @@
 * **Decline of Public Transportation:** Contributed to the decline of public transportation and the increased reliance on automobiles.
 * **Environmental Impact:** Increased car emissions and promoted urban sprawl, contributing to environmental concerns.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

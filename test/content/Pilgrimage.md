@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Pilgrimage](./../pilgrimage/) 
+# [[Pilgrimage]] 
 **Definition:** A journey to a sacred place for religious reasons.
 
 **Example:**  Muslims traveling to Mecca for the Hajj.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

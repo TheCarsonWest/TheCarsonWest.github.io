@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-used in [intermolecular forces](./../intermolecular-forces/)
+used in [[intermolecular forces]]
 
 # how to figure out the polarity of a molecule in 5 easy steps
 1. Is it an Ionic Compounds?
@@ -14,11 +14,11 @@ used in [intermolecular forces](./../intermolecular-forces/)
 	- If you made it this far its obviously covalent
 		4. Look at a diagram of the molecule
 			5.  Is there both an outward-facing negative and outward-facing positive charge?
-			- If you don't have the charges already labelled, figure it out by finding the [Electronegativity](./../electronegativity/) of each atom, and seeing where the electrons pull towards
+			- If you don't have the charges already labelled, figure it out by finding the [[Electronegativity]] of each atom, and seeing where the electrons pull towards
 				- If yes, then yes
 				- If no, then no
 # How to figure out how polar a polar molecule is
-## Get the [delta symbol](./../delta-symbol/) of the [Electronegativity](./../electronegativity/)s of your outward-facing positive and your outward-facing negative atoms(only one)
+## Get the [[delta symbol]] of the [[Electronegativity]]s of your outward-facing positive and your outward-facing negative atoms(only one)
 - Big number = more polar
 - Small number = not very polar
-Theres also [dipole](./../dipole/) moments but it literally gives the same information but is more complicated
+Theres also [[dipole]] moments but it literally gives the same information but is more complicated

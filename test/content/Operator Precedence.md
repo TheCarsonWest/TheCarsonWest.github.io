@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Operators](./../operators/)
-# [Operator Precedence](./../operator-precedence/) 
-Python, like other programming languages, follows specific rules for the order in which operations are performed in an expression. This is called **operator precedence**.  [Operators](./../operators/) with higher precedence are evaluated before operators with lower precedence.  When operators have the same precedence, the expression is evaluated from left to right (except for a few exceptions, like exponentiation).
+# Operators
+# Operator Precedence 
+Python, like other programming languages, follows specific rules for the order in which operations are performed in an expression. This is called **operator precedence**.  Operators with higher precedence are evaluated before operators with lower precedence.  When operators have the same precedence, the expression is evaluated from left to right (except for a few exceptions, like exponentiation).
 
 
 Here's a table summarizing Python operator precedence (from highest to lowest):
@@ -52,7 +52,7 @@ result6 = True and (False or True) # True and (False or True) = True
 
 To ensure a specific order of operations, use parentheses `()`. Parentheses have the highest precedence.
 
-[Operator Associativity](./../operator-associativity/)
-[Logical Operators](./../logical-operators/)
-[Bitwise Operators](./../bitwise-operators/)
+Operator Associativity
+Logical Operators
+Bitwise Operators
 

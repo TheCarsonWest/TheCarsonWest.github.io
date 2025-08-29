@@ -3,57 +3,57 @@
 [params]
 	author = 'Carson West'
 +++
-# [ID Home](./../id-home/)
+# [[ID Home]]
 
-## I: Immigration/[Urbanization](./../urbanization/)
-1. [Great Chicago Fire](./../great-chicago-fire/)
-2. [Chinese Exclusion Act](./../chinese-exclusion-act/)
-3. [Old Immigration vs New Immigration](./../old-immigration-vs-new-immigration/)
-4. [Plessy v Ferguson](./../plessy-v-ferguson/)
-5. [Urbanization](./../urbanization/)
-6. [Tenement Housing](./../tenement-housing/)
-7. [Social Gospel Movement](./../social-gospel-movement/)
-8. [How the Other Half Lives](./../how-the-other-half-lives/)
-9. [Hull House](./../hull-house/)
-10. [Ragtime Music](./../ragtime-music/)
-11. [Yellow Journalism](./../yellow-journalism/)
+## I: Immigration/[[Urbanization]]
+1. [[Great Chicago Fire]]
+2. [[Chinese Exclusion Act]]
+3. [[Old Immigration vs New Immigration]]
+4. [[Plessy v Ferguson]]
+5. [[Urbanization]]
+6. [[Tenement Housing]]
+7. [[Social Gospel Movement]]
+8. [[How the Other Half Lives]]
+9. [[Hull House]]
+10. [[Ragtime Music]]
+11. [[Yellow Journalism]]
 ## II: Imperialism
-12. [Imperialism 1890s-1950s](./../imperialism-1890s-1950s/)
-13. [Great White Fleet](./../great-white-fleet/)
-14. [White Man’s Burden](./../white-man’s-burden/)
-15. [Open Door Policy](./../open-door-policy/)
-16. [Spanish-American War](./../spanish-american-war/)
-17. [Teller Amendment](./../teller-amendment/)
-18. [Platt Amendment](./../platt-amendment/)
-19. [Roosevelt Corollary (to Monroe Doctrine)](./../roosevelt-corollary-(to-monroe-doctrine)/)
-20. [Panama Canal](./../panama-canal/)
-## III: [Progressivism](./../progressivism/)
-21. [Wisconsin Idea (Robert LaFollete)](./../wisconsin-idea-(robert-lafollete)/)
-22. [Progressive Amendments (16-19).md](./../progressive-amendments-(16-19).md/)
-23. [Teddy Roosevelt (as President)](./../teddy-roosevelt-(as-president)/)
-24. [Bully Pulpit](./../bully-pulpit/)
-25. [Square Deal](./../square-deal/)
-26. [The Jungle](./../the-jungle/)
-27. [Meat Inspection Act](./../meat-inspection-act/)
-28. [Pure Food and Drug Act](./../pure-food-and-drug-act/)
-29. [Sierra Club](./../sierra-club/)
-30. [Booker T Washington](./../booker-t-washington/)
-31. [WEB Dubois](./../web-dubois/)
-32. [Atlanta Compromise](./../atlanta-compromise/)
-33. [Bull Moose Party](./../bull-moose-party/)
-34. [Election of 1912](./../election-of-1912/)
-35. [Clayton Antitrust Act](./../clayton-antitrust-act/)
-36. [Progressivism](./../progressivism/)
+12. [[Imperialism 1890s-1950s]]
+13. [[Great White Fleet]]
+14. [[White Man’s Burden]]
+15. [[Open Door Policy]]
+16. [[Spanish-American War]]
+17. [[Teller Amendment]]
+18. [[Platt Amendment]]
+19. [[Roosevelt Corollary (to Monroe Doctrine)]]
+20. [[Panama Canal]]
+## III: [[Progressivism]]
+21. [[Wisconsin Idea (Robert LaFollete)]]
+22. [[Progressive Amendments (16-19).md]]
+23. [[Teddy Roosevelt (as President)]]
+24. [[Bully Pulpit]]
+25. [[Square Deal]]
+26. [[The Jungle]]
+27. [[Meat Inspection Act]]
+28. [[Pure Food and Drug Act]]
+29. [[Sierra Club]]
+30. [[Booker T Washington]]
+31. [[WEB Dubois]]
+32. [[Atlanta Compromise]]
+33. [[Bull Moose Party]]
+34. [[Election of 1912]]
+35. [[Clayton Antitrust Act]]
+36. [[Progressivism]]
 ## IV: WWI
-37. [Triple Alliance](./../triple-alliance/)
-38. [Triple Entente](./../triple-entente/)
-39. [Central Powers](./../central-powers/)
-40. [Allied Powers WWII](./../allied-powers-wwii/)
-41. [Unrestricted Submarine Warfare](./../unrestricted-submarine-warfare/)
-42. [Sinking of the Lusitania](./../sinking-of-the-lusitania/)
-43. [Sussex Pledge](./../sussex-pledge/)
-44. [Zimmerman Telegram](./../zimmerman-telegram/)
-45. [Great Migration](./../great-migration/)
-46. [Fourteen Points](./../fourteen-points/)
-47. [Treaty of Versailles](./../treaty-of-versailles/)
-48. [League of Nations](./../league-of-nations/)
+37. [[Triple Alliance]]
+38. [[Triple Entente]]
+39. [[Central Powers]]
+40. [[Allied Powers WWII]]
+41. [[Unrestricted Submarine Warfare]]
+42. [[Sinking of the Lusitania]]
+43. [[Sussex Pledge]]
+44. [[Zimmerman Telegram]]
+45. [[Great Migration]]
+46. [[2425/apush/ids/u7/Fourteen Points]]
+47. [[2425/apush/ids/u7/Treaty of Versailles]]
+48. [[2425/apush/ids/u7/League of Nations]]

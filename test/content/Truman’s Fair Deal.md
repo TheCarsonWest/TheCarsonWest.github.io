@@ -30,10 +30,10 @@ A comprehensive set of proposals put forth by President Truman, building upon FD
 *   **Price Controls:**  Maintain price controls to fight inflation after WWII.
 ## IMPACT:
 
-*   **Limited Success:** While some elements were enacted (minimum wage increase, Social Security expansion, Housing Act of 1949), many key proposals like national health insurance and comprehensive civil rights legislation were defeated by Congress, largely due to opposition from Southern [Democrats](./../democrats/) and conservative Republicans.
-*   **Laid the Groundwork:** The Fair Deal established a liberal agenda and set the stage for future reforms during the [Civil Rights Movement](./../civil-rights-movement/) and the Great Society. It kept the ideals of the [New Deal](./../new-deal/) alive.
+*   **Limited Success:** While some elements were enacted (minimum wage increase, Social Security expansion, Housing Act of 1949), many key proposals like national health insurance and comprehensive civil rights legislation were defeated by Congress, largely due to opposition from Southern [[Democrats]] and conservative Republicans.
+*   **Laid the Groundwork:** The Fair Deal established a liberal agenda and set the stage for future reforms during the [[Civil Rights Movement]] and the Great Society. It kept the ideals of the [[New Deal]] alive.
 *   **Continued the Expansion of the Welfare State:** Reinforced the role of the federal government in providing a safety net and promoting social and economic well-being.
 *   **Raised Expectations:** Despite its limitations, the Fair Deal raised public expectations for government action to address social and economic inequalities, influencing future political debates.
 *   **Housing Act of 1949:** Provided funding for urban renewal projects. However, this often led to the displacement of low-income communities and the construction of highways and other infrastructure projects, with unintended negative consequences.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

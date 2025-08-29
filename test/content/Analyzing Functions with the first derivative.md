@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 
-This rundown covers using the first [derivative](./../derivative/) to analyze the behavior of a function.  We'll focus on finding [Critical Point](./../critical-point/), increasing/decreasing intervals, and local extrema.
+This rundown covers using the first [[derivative]] to analyze the behavior of a function.  We'll focus on finding [[Critical Point]], increasing/decreasing intervals, and local extrema.
 
 ## 1. Finding Critical Points
 
-Critical points are points in the domain of a function where the [derivative](./../derivative/) is either zero or undefined.  These points are potential locations for local maxima, local minima, or neither.
+Critical points are points in the domain of a function where the [[derivative]] is either zero or undefined.  These points are potential locations for local maxima, local minima, or neither.
 
 To find critical points:
 
-1. **Find the first [derivative](./../derivative/):**  $ f'(x) $ 
-2. **Set the [derivative](./../derivative/) equal to zero:**  $ f'(x) = 0 $  and solve for  $ x $ .  These are the critical points where the [derivative](./../derivative/) is zero.
-3. **Find where the [derivative](./../derivative/) is undefined:** Determine if there are any points in the domain of  $ f(x) $  where  $ f'(x) $  is undefined (e.g., division by zero, square root of a negative number). These are also critical points.
+1. **Find the first [[derivative]]:**  $ f'(x) $ 
+2. **Set the [[derivative]] equal to zero:**  $ f'(x) = 0 $  and solve for  $ x $ .  These are the critical points where the [[derivative]] is zero.
+3. **Find where the [[derivative]] is undefined:** Determine if there are any points in the domain of  $ f(x) $  where  $ f'(x) $  is undefined (e.g., division by zero, square root of a negative number). These are also critical points.
 
 **Example:**
 
@@ -23,14 +23,14 @@ Let  $ f(x) = x^3 - 3x $ . Then  $ f'(x) = 3x^2 - 3 $ .
 
 Setting  $ f'(x) = 0 $ , we get  $ 3x^2 - 3 = 0 $ , which gives  $ x = \pm 1 $ .
 
- $ f'(x) $  is defined for all real numbers, so there are no additional critical points where the [derivative](./../derivative/) is undefined.
+ $ f'(x) $  is defined for all real numbers, so there are no additional critical points where the [[derivative]] is undefined.
 
 Therefore, the critical points are  $ x = 1 $  and  $ x = -1 $ .
 
 
 ## 2. Increasing and Decreasing Intervals
 
-The first [derivative](./../derivative/) tells us about the function's increasing and decreasing behavior:
+The first [[derivative]] tells us about the function's increasing and decreasing behavior:
 
 * ** $ f'(x) > 0 $ :**   $ f(x) $  is increasing on this interval.
 * ** $ f'(x) < 0 $ :**  $ f(x) $  is decreasing on this interval.
@@ -52,12 +52,12 @@ For  $ f(x) = x^3 - 3x $ , the critical points are  $ x = -1 $  and  $ x = 1 $ .
 
 ## 3. Local Extrema (Local Maxima and Minima)
 
-### First [Derivative](./../derivative/) test
-Local extrema occur at critical points.  The first [derivative](./../derivative/) test helps determine whether a [Critical Point](./../critical-point/) is a local maximum, local minimum, or neither:
+### First [[Derivative]] test
+Local extrema occur at critical points.  The first [[derivative]] test helps determine whether a [[Critical Point]] is a local maximum, local minimum, or neither:
 
-1. **If  $ f'(x) $  changes from positive to negative at a [Critical Point](./../critical-point/)  $ c $ , then  $ f(c) $  is a local maximum.**
-2. **If  $ f'(x) $  changes from negative to positive at a [Critical Point](./../critical-point/)  $ c $ , then  $ f(c) $  is a local minimum.**
-3. **If  $ f'(x) $  does not change sign at a [Critical Point](./../critical-point/)  $ c $ , then  $ f(c) $  is neither a local maximum nor a local minimum (it could be a saddle point).**
+1. **If  $ f'(x) $  changes from positive to negative at a [[Critical Point]]  $ c $ , then  $ f(c) $  is a local maximum.**
+2. **If  $ f'(x) $  changes from negative to positive at a [[Critical Point]]  $ c $ , then  $ f(c) $  is a local minimum.**
+3. **If  $ f'(x) $  does not change sign at a [[Critical Point]]  $ c $ , then  $ f(c) $  is neither a local maximum nor a local minimum (it could be a saddle point).**
 
 
 **Example (continuing from above):**
@@ -70,7 +70,7 @@ Local extrema occur at critical points.  The first [derivative](./../derivative/
 y = x^3 - 3x
 ```
 
-[Second Derivative Test](./../second-derivative-test/)  The second [derivative](./../derivative/) test provides an alternative method to classify critical points.  It's often easier than the first [derivative](./../derivative/) test but has limitations.
+[[Second Derivative Test]]  The second [[derivative]] test provides an alternative method to classify critical points.  It's often easier than the first [[derivative]] test but has limitations.
 
-## 4. Concavity and [Inflection Points](./../inflection-points/)
+## 4. Concavity and [[Inflection Points]]
 

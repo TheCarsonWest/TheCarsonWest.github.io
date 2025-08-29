@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Summary Statistics for a Quantitative Variable
 
 Summary statistics provide a concise numerical description of the main features of a distribution of a quantitative variable. They help us understand the center, spread, and shape of the data without having to look at every single data point. When describing a distribution, we often focus on these key characteristics.
@@ -45,7 +45,7 @@ The range is the difference between the maximum and minimum values in a dataset.
  $$  \text{Range} = \text{Maximum value} - \text{Minimum value}  $$  
 *   **Limitation:** It is highly sensitive to outliers as it only considers the two most extreme values.
 
-### [Interquartile Range (IQR)](./../interquartile-range-(iqr)/)
+### [[Interquartile Range (IQR)]]
 The IQR is the range of the middle 50% of the data. It's the difference between the third quartile (Q3) and the first quartile (Q1).
 
  $$  IQR = Q_3 - Q_1  $$  
@@ -82,7 +82,7 @@ The five-number summary provides a robust numerical description of a distributio
 4.  Third Quartile ( $ Q_3 $ )
 5.  Maximum value
 
-This summary is the basis for constructing [Graphical Representations of Summary Statistics#Boxplots](./../graphical-representations-of-summary-statistics#boxplots/).
+This summary is the basis for constructing [[Graphical Representations of Summary Statistics#Boxplots]].
 
 ## Identifying Outliers
 
@@ -91,4 +91,4 @@ Outliers are observations that fall outside the overall pattern of the distribut
 *   An observation is a **low outlier** if it falls below  $ Q_1 - 1.5 \times IQR $ .
 *   An observation is a **high outlier** if it falls above  $ Q_3 + 1.5 \times IQR $ .
 
-These summary statistics are fundamental tools for [Describing the Distribution of a Quantitative Variable](./../describing-the-distribution-of-a-quantitative-variable/).
+These summary statistics are fundamental tools for [[Describing the Distribution of a Quantitative Variable]].

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Moral Majority](./../moral-majority/) 
+## ID: [[Moral Majority]] 
 ## When: 1979 - late 1980s
 
 ## Who:
@@ -21,11 +21,11 @@ A prominent American political organization associated with the Christian right.
 *   Promoted the election of conservative candidates. Utilized grassroots organizing and media campaigns to influence elections and policy.
 
 ## Impact: Why Significant?:
-*   **Rise of the Religious Right:** The [Moral Majority](./../moral-majority/) played a key role in the rise of the Religious Right as a powerful force in American politics.
+*   **Rise of the Religious Right:** The [[Moral Majority]] played a key role in the rise of the Religious Right as a powerful force in American politics.
 *   **Increased Political Engagement of Evangelicals:** Mobilized evangelical Christians into the Republican Party and the conservative movement.
 *   **Shift in Republican Party Platform:** Influenced the Republican Party platform to become more socially conservative.
-*   **Election of Ronald Reagan:** Contributed significantly to the election of [Ronald Reagan](./../ronald-reagan/) in 1980, marking a shift towards conservatism in American politics.
-*   **Long-Term Impact on [Culture](./../culture/) Wars:** Played a significant role in the ongoing "culture wars" in America, shaping debates on issues such as abortion, sexuality, and the role of religion in public life.
+*   **Election of Ronald Reagan:** Contributed significantly to the election of [[Ronald Reagan]] in 1980, marking a shift towards conservatism in American politics.
+*   **Long-Term Impact on [[Culture]] Wars:** Played a significant role in the ongoing "culture wars" in America, shaping debates on issues such as abortion, sexuality, and the role of religion in public life.
 *   **Decline:** The organization dissolved in the late 1980s, but its legacy continues to influence conservative politics and the Religious Right.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

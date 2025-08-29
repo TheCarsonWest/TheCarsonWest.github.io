@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 
 # Unit 6: Differential Equations
-## [Differential Equations](./../differential-equations/)
-## [Slope Fields](./../slope-fields/)
-## [Separable Equations](./../separable-equations/)
+## [[Differential Equations]]
+## [[Slope Fields]]
+## [[Separable Equations]]
 
-# [Calc home](./../calc-home/)
+# [[Calc home]]

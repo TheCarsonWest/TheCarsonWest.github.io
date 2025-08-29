@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Parameters for a Binomial Distribution
 
-Understanding the parameters for a binomial distribution is crucial for correctly applying and interpreting binomial probability models. A [Introduction to the Binomial Distribution](./../introduction-to-the-binomial-distribution/) arises when we are interested in the number of "successes" in a fixed number of independent trials, where each trial has only two possible outcomes.
+Understanding the parameters for a binomial distribution is crucial for correctly applying and interpreting binomial probability models. A [[Introduction to the Binomial Distribution]] arises when we are interested in the number of "successes" in a fixed number of independent trials, where each trial has only two possible outcomes.
 
 ## The Binomial Setting (BINS)
 
@@ -55,7 +55,7 @@ This notation concisely tells us that  $ X $  is a binomial random variable, alo
 
 ## Mean and Standard Deviation of a Binomial Distribution
 
-Once  $ n $  and  $ p $  are known, we can easily calculate the mean (expected number of successes) and the standard deviation (variability of successes) for the binomial distribution. These are specific formulas for binomial distributions, distinct from the general formulas for [Mean and Standard Deviation of Random Variables](./../mean-and-standard-deviation-of-random-variables/).
+Once  $ n $  and  $ p $  are known, we can easily calculate the mean (expected number of successes) and the standard deviation (variability of successes) for the binomial distribution. These are specific formulas for binomial distributions, distinct from the general formulas for [[Mean and Standard Deviation of Random Variables]].
 
 | Statistic         | Formula                                 | Description                                 |
 | :---------------- | :-------------------------------------- | :------------------------------------------ |
@@ -67,4 +67,4 @@ Once  $ n $  and  $ p $  are known, we can easily calculate the mean (expected n
 *   Mean:  $ \mu_X = 10 \times 0.5 = 5 $ 
 *   Standard Deviation:  $ \sigma_X = \sqrt{10 \times 0.5 \times 0.5} = \sqrt{2.5} \approx 1.58 $ 
 
-These parameters ( $ n $  and  $ p $ ) are fundamental for calculating binomial probabilities, understanding the shape of the distribution, and making inferences about population proportions. They are directly used in the binomial probability formula and form the basis for approximating binomial distributions with a [The Normal Distribution, Revisited](./../the-normal-distribution-revisited/) under certain conditions.
+These parameters ( $ n $  and  $ p $ ) are fundamental for calculating binomial probabilities, understanding the shape of the distribution, and making inferences about population proportions. They are directly used in the binomial probability formula and form the basis for approximating binomial distributions with a [[The Normal Distribution, Revisited]] under certain conditions.

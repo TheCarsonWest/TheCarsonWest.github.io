@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # AP Statistics: Introduction to Planning a Study
 
 Careful planning is the cornerstone of any statistical investigation. Without a well-thought-out design, the data collected may be unreliable, biased, or unable to answer the research questions, rendering the entire effort futile. This page introduces the fundamental types of studies and key terminology essential for designing effective data collection methods.
@@ -22,7 +22,7 @@ In an observational study, researchers observe individuals and measure variables
 
 *   **Characteristics:** No manipulation of variables by the researcher.
 *   **Purpose:** To describe a group or situation, or to explore associations between variables.
-*   **Limitation:** Observational studies can show association (correlation) but **cannot establish causation**. This is because lurking variables or [Confounding Variables](./../confounding-variables/) might be responsible for the observed relationship.
+*   **Limitation:** Observational studies can show association (correlation) but **cannot establish causation**. This is because lurking variables or [[Confounding Variables]] might be responsible for the observed relationship.
 *   **Example:** A study that observes the relationship between screen time and academic performance in high school students. Researchers only record existing screen time habits and grades.
 
 ### Experiments
@@ -31,8 +31,8 @@ An experiment deliberately imposes some treatment on individuals to measure thei
 
 *   **Characteristics:** Researchers actively manipulate one or more independent variables (treatments) and observe the effect on a dependent variable (response).
 *   **Purpose:** To establish a cause-and-effect relationship between variables.
-*   **Advantage:** Well-designed experiments can provide strong evidence for causation due to the control over variables and the use of [Random Sampling and a Collection](./../random-sampling-and-a-collection/) for assignment.
-*   **Example:** A study testing a new fertilizer by applying it to some plants (treatment group) and not others (control group), then measuring plant growth. For more details, see [Introduction to Experimental Design](./../introduction-to-experimental-design/).
+*   **Advantage:** Well-designed experiments can provide strong evidence for causation due to the control over variables and the use of [[Random Sampling and a Collection]] for assignment.
+*   **Example:** A study testing a new fertilizer by applying it to some plants (treatment group) and not others (control group), then measuring plant growth. For more details, see [[Introduction to Experimental Design]].
 
 ### Surveys
 
@@ -40,7 +40,7 @@ A survey is a specific type of observational study that collects information fro
 
 *   **Characteristics:** Gathers data by asking questions to a group of people.
 *   **Purpose:** To estimate population parameters or describe attitudes, opinions, or behaviors.
-*   **Limitation:** Susceptible to various biases (e.g., response bias, non-response bias). The quality of the survey depends heavily on the sampling method and question design. See [Potential Problems with Sampling](./../potential-problems-with-sampling/).
+*   **Limitation:** Susceptible to various biases (e.g., response bias, non-response bias). The quality of the survey depends heavily on the sampling method and question design. See [[Potential Problems with Sampling]].
 *   **Example:** A poll asking a sample of registered voters about their preferred presidential candidate.
 
 ## Key Terminology
@@ -67,7 +67,7 @@ In an experiment, the explanatory variable is the treatment being applied. For e
 
 Randomness plays a vital role in good study design:
 
-*   **Random Sampling:** Essential for [Random Sampling and a Collection](./../random-sampling-and-a-collection/) and surveys to ensure the sample is representative of the population, allowing for generalization of results. This minimizes sampling bias.
+*   **Random Sampling:** Essential for [[Random Sampling and a Collection]] and surveys to ensure the sample is representative of the population, allowing for generalization of results. This minimizes sampling bias.
 *   **Random Assignment:** In experiments, randomly assigning subjects to different treatment groups helps to balance out the effects of potential confounding variables across the groups. This is crucial for establishing causation.
 
 By carefully considering these foundational concepts, we can design studies that yield meaningful and trustworthy conclusions.

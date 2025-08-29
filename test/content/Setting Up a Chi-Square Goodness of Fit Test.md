@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Setting Up a Chi-Square Goodness of Fit Test
 
-The Chi-Square Goodness of Fit test is a powerful statistical tool used to determine if an observed distribution of a [Categorical Variable](./../categorical-variable/) differs significantly from a hypothesized or expected distribution. Essentially, it helps us decide if a theoretical model fits the data we've collected.
+The Chi-Square Goodness of Fit test is a powerful statistical tool used to determine if an observed distribution of a [[Categorical Variable]] differs significantly from a hypothesized or expected distribution. Essentially, it helps us decide if a theoretical model fits the data we've collected.
 
 ## When to Use It
 
@@ -37,7 +37,7 @@ It's important to remember that the alternative hypothesis doesn't specify *how*
 
 Before carrying out the test, you must verify that the following conditions are met. If any condition is violated, the results of the test may not be valid.
 
-1.  **Random Condition:** The data must come from a [Random Sampling and a Collection](./../random-sampling-and-a-collection/) or a well-designed random experiment. This ensures the sample is representative of the population.
+1.  **Random Condition:** The data must come from a [[Random Sampling and a Collection]] or a well-designed random experiment. This ensures the sample is representative of the population.
 
 2.  **Independence Condition:**
     *   **Within the sample:** Individual observations must be independent of each other. If sampling without replacement, the population size must be at least 10 times the sample size ( $ N \ge 10n $ ).
@@ -48,7 +48,7 @@ Before carrying out the test, you must verify that the following conditions are 
     *   **Calculating Expected Counts:** For each category, the expected count ( $ E_i $ ) is calculated by multiplying the total sample size ( $ n $ ) by the hypothesized proportion for that category ( $ p_i $ ).
          $$ E_i = n \times p_i $$      *   For example, if you have a sample of 200 candies and hypothesize that 30% are red, the expected count for red candies would be  $ 200 \times 0.30 = 60 $ .
 
-[Expected Counts in Chi-Square Tests](./../expected-counts-in-chi-square-tests/)
+[[Expected Counts in Chi-Square Tests]]
 
 ## Test Statistic
 
@@ -71,4 +71,4 @@ The degrees of freedom (df) for a Chi-Square Goodness of Fit test are calculated
  $$ df = \text{number of categories} - 1 $$  
 The degrees of freedom determine the specific shape of the chi-square distribution that will be used to calculate the p-value.
 
-After setting up the hypotheses and checking the conditions, the next step would be [Carrying Out a Chi-Square Test for Goodness of Fit](./../carrying-out-a-chi-square-test-for-goodness-of-fit/).
+After setting up the hypotheses and checking the conditions, the next step would be [[Carrying Out a Chi-Square Test for Goodness of Fit]].

@@ -24,4 +24,4 @@ The Tennessee Valley Authority (TVA) was a federally owned corporation created t
 * **Long-term Significance:** The TVA serves as a model for large-scale regional development projects and continues to provide electricity and other services to the Tennessee Valley today.
 
 
-# [IDS Unit 7](./../ids-unit-7/)
+# [[IDS Unit 7]]

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 # Solutions
-## [Chromatography](./../chromatography/)
-## [Distillation](./../distillation/)
+## [[Chromatography]]
+## [[Distillation]]

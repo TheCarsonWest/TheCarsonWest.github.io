@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
-# [C3 Linearization Algorithm](./../c3-linearization-algorithm/) 
-This note covers the C3 linearization algorithm used in Python's method resolution order ([MRO](./../mro/)) for resolving conflicts in multiple inheritance.
+# [[Method Resolution Order (MRO)]]
+# [[C3 Linearization Algorithm]] 
+This note covers the C3 linearization algorithm used in Python's method resolution order ([[MRO]]) for resolving conflicts in multiple inheritance.
 
 The core goal is to maintain a consistent and predictable order for attribute lookup in classes with multiple inheritance, avoiding ambiguities and ensuring that the intended superclass methods are called.  The algorithm is designed to be:
 
-* **Consistent:**  Always produces the same [MRO](./../mro/) for a given class hierarchy.
-* **Intuitive:** The resulting [MRO](./../mro/) generally reflects a programmer's intuitive expectations (though edge cases can exist).
+* **Consistent:**  Always produces the same [[MRO]] for a given class hierarchy.
+* **Intuitive:** The resulting [[MRO]] generally reflects a programmer's intuitive expectations (though edge cases can exist).
 * **Correct:** Prevents conflicts and ensures that the desired superclass methods are called in the appropriate order.
 
 
@@ -46,10 +46,10 @@ class D(B, C):
 print(D.__mro__)  # Output: (<class '__main__.D'>, <class '__main__.B'>, <class '__main__.C'>, <class '__main__.A'>, <class 'object'>)
 ```
 
-In this case, the C3 algorithm produces the [MRO](./../mro/) `<D, B, C, A, object>`.
+In this case, the C3 algorithm produces the [[MRO]] `<D, B, C, A, object>`.
 
 
-[Python MRO](./../python-mro/)  ([Multiple Inheritance in Python](./../multiple-inheritance-in-python/)) [Depth-First Search](./../depth-first-search/)
+[[Python MRO]]  ([[Multiple Inheritance in Python]]) [[Depth-First Search]]
 
 
 The C3 algorithm is crucial for understanding Python's sophisticated approach to multiple inheritance. While the algorithm's implementation details are intricate, the core principles of depth-first traversal and the careful merging of MROs ensure consistent and predictable behavior.  Understanding the intricacies allows for effective use and avoidance of unexpected behaviors in complex inheritance scenarios.

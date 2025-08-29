@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Centrifugal Force](./../centrifugal-force/) 
+# [[Centrifugal Force]] 
 **Definition:** A force that divides people and countries.
 
 **Example:**  Ethnic tensions, religious differences, regional inequalities.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="context-managerscontext-managers"><a href="./../context-managers/">Context Managers</a></h1>
-<h1 id="custom-context-managerscustom-context-managers"><a href="./../custom-context-managers/">Custom Context Managers</a></h1>
+<h1 id="context-managers">[[Context Managers]]</h1>
+<h1 id="custom-context-managers">[[Custom Context Managers]]</h1>
 <p>Context managers are a powerful feature in Python that allows you to manage resources efficiently and gracefully.  The <code>with</code> statement is the syntax used to work with them.  Built-in context managers like <code>open()</code> for files handle opening and closing automatically.  Custom context managers allow you to create your own resource management logic.</p>
 <p>There are two primary ways to define custom context managers:</p>
 <p><strong>1. Using the <code>contextlib.contextmanager</code> decorator:</strong></p>
@@ -84,8 +84,8 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">with</span> MyCustomContextManager(<span style="color:#e6db74">&#34;my_resource&#34;</span>) <span style="color:#66d9ef">as</span> resource:
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Using resource: </span><span style="color:#e6db74">{</span>resource<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># potentially some code that might throw an exception</span>
-</span></span></code></pre></div><p><a href="./../exception-handling/">Exception Handling</a><br>
-<a href="./../resource-management/">Resource Management</a></p>
+</span></span></code></pre></div><p>[[Exception Handling]]<br>
+[[Resource Management]]</p>
 <p>Note: Both methods achieve similar outcomes; the choice depends on complexity and preference.  The <code>@contextmanager</code> decorator is often simpler for straightforward scenarios.  The class-based approach provides more control, particularly for handling exceptions within <code>__exit__</code>.</p>
 
 </main>

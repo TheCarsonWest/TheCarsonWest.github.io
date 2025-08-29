@@ -5,7 +5,7 @@
 +++
 
 ## **Definition:**
-[Redox](./../redox/) reactions are [chemical reactions](./../chemical-reactions/) involving the transfer of electrons between atoms or molecules.
+Redox reactions are chemical reactions involving the transfer of electrons between atoms or molecules.
 
 ## **Key Concepts:**
 * **Oxidation:** Loss of electrons
@@ -15,7 +15,7 @@
 
 ## **ALL REACTIONS EXCEPT DOUBLE REPLACEMENT CAN BE REDOX REACTIONS**
 
-**Balancing [Redox](./../redox/) Equations:**
+**Balancing Redox Equations:**
 
 **Half-Reaction Method:**
 1. **Identify** the oxidized and reduced species.

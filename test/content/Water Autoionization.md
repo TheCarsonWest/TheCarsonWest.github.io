@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)
-# [Water Autoionization](./../water-autoionization/)
+# [[Equilibrium Constant Calculations]]
+# [[Water Autoionization]]
 
 Water undergoes autoionization, meaning it reacts with itself to a small extent to produce hydronium ( $ H_3O^+ $ ) and hydroxide ( $ OH^- $ ) ions.
 
@@ -26,8 +26,8 @@ This is the equilibrium constant expression for the autoionization of water, whe
 * **Effect of Temperature:**  $ K_w $  increases with increasing temperature. This means that at higher temperatures, the autoionization of water is more significant, and the concentration of both  $ H_3O^+ $  and  $ OH^- $  ions increases.
 
 
-[Temperature Dependence of Kw](./../temperature-dependence-of-kw/)
+[[Temperature Dependence of Kw]]
 
-[pH and pOH Calculations](./../ph-and-poh-calculations/)
+[[pH and pOH Calculations]]
 
-[Acid-Base Equilibria](./../acid-base-equilibria/)
+[[Acid-Base Equilibria]]

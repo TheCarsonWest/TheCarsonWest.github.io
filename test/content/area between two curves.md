@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 # Area Between Two Curves - AP Calculus AB Rundown
 
 ## Introduction
@@ -29,8 +29,8 @@ Where  $ f(x) $  and  $ g(x) $  are continuous functions on the interval  $ [a, 
 ## Steps to Calculate Area Between Curves
 
 1.  **Identify the Functions:** Determine the equations of the two curves,  $ f(x) $  and  $ g(x) $ .
-2.  **Find the Intersection Points:** Determine the interval of integration  $ [a, b] $  by finding the  $ x $ -coordinates of the points where the two curves intersect. This is done by setting  $ f(x) = g(x) $  and solving for  $ x $ . These solutions are your limits of integration,  $ a $  and  $ b $ .  [Finding Intersection Points](./../finding-intersection-points/)
-3.  **Determine Which Function is on Top:** Determine which function has a greater value within the interval  $ [a, b] $ .  Choose a test value  $ c $  such that  $ a < c < b $ .  Evaluate  $ f(c) $  and  $ g(c) $ .  The larger value is the "top" function.  [Determining the Top Function](./../determining-the-top-function/)
+2.  **Find the Intersection Points:** Determine the interval of integration  $ [a, b] $  by finding the  $ x $ -coordinates of the points where the two curves intersect. This is done by setting  $ f(x) = g(x) $  and solving for  $ x $ . These solutions are your limits of integration,  $ a $  and  $ b $ .  [[Finding Intersection Points]]
+3.  **Determine Which Function is on Top:** Determine which function has a greater value within the interval  $ [a, b] $ .  Choose a test value  $ c $  such that  $ a < c < b $ .  Evaluate  $ f(c) $  and  $ g(c) $ .  The larger value is the "top" function.  [[Determining the Top Function]]
 4.  **Set up the Integral:** Set up the definite integral with the appropriate limits of integration and the difference between the top and bottom functions.
 5.  **Evaluate the Integral:** Evaluate the definite integral to find the area.  This might require u-substitution or other integration techniques.
 
@@ -83,8 +83,8 @@ To find the intersection points of two curves
 
 
 
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 
-# [area between two curves](./../area-between-two-curves/)
+# [[area between two curves]]
 
-# [Calc home](./../calc-home/)
+# [[Calc home]]

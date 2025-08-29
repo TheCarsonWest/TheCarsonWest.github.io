@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [arabic vocab lists](./../arabic-vocab-lists/)
+# arabic vocab lists
 
 
 | **English Translation**        | **Arabic Terms**                                                               |

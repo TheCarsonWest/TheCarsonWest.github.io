@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [List Comprehension](./../list-comprehension/)
-# [List Comprehension Performance](./../list-comprehension-performance/) 
+# [[List Comprehension]]
+# [[List Comprehension Performance]] 
 List comprehensions are a concise way to create lists in Python, but their performance characteristics are worth understanding.
 
 Generally, list comprehensions are faster than equivalent `for` loops. This is because list comprehensions are implemented in optimized C code within the Python interpreter, whereas `for` loops involve more Python interpreter overhead.
@@ -37,7 +37,7 @@ print(f"List comprehension time: {end_time - start_time:.4f} seconds")
 
 * **Dataset size:** Larger datasets will show a more noticeable difference.
 * **Complexity of operations:** More complex operations within the comprehension (e.g., function calls, conditional logic) can reduce the performance advantage, or even make list comprehensions slightly slower in some cases than well-optimized `for` loops.
-* **Memory usage:** While generally efficient, very large list comprehensions can consume significant memory, potentially leading to performance issues.  [Memory Management in Python](./../memory-management-in-python/)
+* **Memory usage:** While generally efficient, very large list comprehensions can consume significant memory, potentially leading to performance issues.  [[Memory Management in Python]]
 
 **When to use list comprehensions:**
 
@@ -47,12 +47,12 @@ print(f"List comprehension time: {end_time - start_time:.4f} seconds")
 **When to avoid list comprehensions:**
 
 * When readability suffers due to excessive complexity within the comprehension.  It is better to use a `for` loop for complex logic to maintain clarity.
-* When dealing with exceptionally large datasets where memory usage might become problematic.  Consider using generators or iterators in such cases.  [Generators](./../generators/) and [Iterators](./../iterators/)
+* When dealing with exceptionally large datasets where memory usage might become problematic.  Consider using generators or iterators in such cases.  [[Generators]] and [[Iterators]]
 
 
 
 **Further Reading:**
 
-* [Python Performance Tuning](./../python-performance-tuning/)
-* [Profiling Python Code](./../profiling-python-code/)
+* [[Python Performance Tuning]]
+* [[Profiling Python Code]]
 

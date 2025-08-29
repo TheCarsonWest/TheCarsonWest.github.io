@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# AP Stats Home
 # Describing the Distribution of a Quantitative Variable
 
-When analyzing a single quantitative variable, it's crucial to describe its overall pattern and any striking deviations from that pattern. We often use a visual display like a histogram, stemplot, or boxplot (which can be found in [Representing a Quantitative Variable with Graphs](./../representing-a-quantitative-variable-with-graphs/)) to aid in this description. A common mnemonic for a complete description is **SOCS**: **S**hape, **O**utliers, **C**enter, and **S**pread.
+When analyzing a single quantitative variable, it's crucial to describe its overall pattern and any striking deviations from that pattern. We often use a visual display like a histogram, stemplot, or boxplot (which can be found in Representing a Quantitative Variable with Graphs) to aid in this description. A common mnemonic for a complete description is **SOCS**: **S**hape, **O**utliers, **C**enter, and **S**pread.
 
 ## Shape
 
 The shape of a distribution describes its overall form.
 
 *   **Symmetry/Skewness:**
-    *   **Symmetric:** The left and right sides of the graph are approximately mirror images. The mean and median will be close. A special case of a symmetric distribution is the [The Normal Distribution](./../the-normal-distribution/).
+    *   **Symmetric:** The left and right sides of the graph are approximately mirror images. The mean and median will be close. A special case of a symmetric distribution is the The Normal Distribution.
     *   **Skewed Right (Positively Skewed):** The tail extends further to the right. The mean will typically be greater than the median.
     *   **Skewed Left (Negatively Skewed):** The tail extends further to the left. The mean will typically be less than the median.
 *   **Modality:**
@@ -26,7 +26,7 @@ The shape of a distribution describes its overall form.
 
 Outliers are individual values that fall outside the overall pattern of the distribution. They can be due to natural variability, measurement errors, or data entry mistakes. When describing a distribution, you should always mention any apparent outliers and investigate them further.
 
-### [Identifying Outliers](./../identifying-outliers/)
+### Identifying Outliers
 *   **1.5 IQR Rule:** A common method to formally identify potential outliers is the 1.5 IQR rule. A value is considered a potential outlier if it falls below  $ Q_1 - 1.5 \times IQR $  or above  $ Q_3 + 1.5 \times IQR $ . Here,  $ Q_1 $  is the first quartile,  $ Q_3 $  is the third quartile, and  $ IQR = Q_3 - Q_1 $ .
 
 ## Center
@@ -37,7 +37,7 @@ The center of a distribution provides a typical or central value.
      $$  \bar{x} = \frac{\sum x_i}{n}  $$      where  $ x_i $  are the individual data points and  $ n $  is the number of data points.
 *   **Median (M):** The midpoint of the ordered data. Half the observations are smaller, and half are larger. It is resistant to outliers and skewness.
 
-For more on calculating these values, refer to [Summary Statistics for a Quantitative Variable](./../summary-statistics-for-a-quantitative-variable/).
+For more on calculating these values, refer to Summary Statistics for a Quantitative Variable.
 
 ## Spread
 

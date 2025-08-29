@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-## [Basic Integration Formulas](./../basic-integration-formulas/) 
+## Basic Integration Formulas 
 These are the fundamental building blocks for more complex integrations.  You should memorize these:
 
-* **[Power Rule](./../power-rule/):**  $ \int x^n dx = \frac{x^{n+1}}{n+1} + C $ , where  $ n \neq -1 $ 
+* **Power Rule:**  $ \int x^n dx = \frac{x^{n+1}}{n+1} + C $ , where  $ n \neq -1 $ 
 * **Exponential Rule:**  $ \int e^x dx = e^x + C $ 
 * **Logarithmic Rule:**  $ \int \frac{1}{x} dx = \ln|x| + C $ 
 * **Trigonometric Rules:**
@@ -17,4 +17,4 @@ These are the fundamental building blocks for more complex integrations.  You sh
     *  $ \int \sec x \tan x dx = \sec x + C $ 
     *  $ \int \csc x \cot x dx = -\csc x + C $ 
 
-# [Techniques of Integration](./../techniques-of-integration/)
+# Techniques of Integration

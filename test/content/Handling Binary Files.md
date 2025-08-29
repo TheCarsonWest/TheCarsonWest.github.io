@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [File Handling](./../file-handling/)
-# [Handling Binary Files](./../handling-binary-files/) 
+# [[File Handling]]
+# [[Handling Binary Files]] 
 This note covers reading and writing binary data in Python.  Crucially, it differs from text file handling because we're dealing with raw bytes rather than human-readable characters.
 
 Key functions:
@@ -40,11 +40,11 @@ with open("myfile.bin", "rb") as f:
 
 **Important Considerations:**
 
-* **Byte Order:**  Be mindful of endianness (big-endian vs. little-endian) when dealing with multi-byte data structures.  You might need to use the `struct` module for proper handling. [Byte Order and Endianness](./../byte-order-and-endianness/)
-* **[Error Handling](./../error-handling/):** Wrap file operations in `try...except` blocks to handle potential `IOError` exceptions (e.g., file not found).
-* **Data Structures:**  Consider using the `struct` module to pack and unpack data into binary formats that match specific data structures (e.g., integers, floats, structs). [Struct Module](./../struct-module/)
-* **Memory Management:** For very large binary files, consider using memory-mapped files (`mmap`) for more efficient handling. [Memory-Mapped Files](./../memory-mapped-files/)
+* **Byte Order:**  Be mindful of endianness (big-endian vs. little-endian) when dealing with multi-byte data structures.  You might need to use the `struct` module for proper handling. [[Byte Order and Endianness]]
+* **[[Error Handling]]:** Wrap file operations in `try...except` blocks to handle potential `IOError` exceptions (e.g., file not found).
+* **Data Structures:**  Consider using the `struct` module to pack and unpack data into binary formats that match specific data structures (e.g., integers, floats, structs). [[Struct Module]]
+* **Memory Management:** For very large binary files, consider using memory-mapped files (`mmap`) for more efficient handling. [[Memory-Mapped Files]]
 
 
-[File I/O Basics](./../file-i/o-basics/)  
-[Exception Handling](./../exception-handling/)
+[[File I/O Basics]]  
+[[Exception Handling]]

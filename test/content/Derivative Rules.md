@@ -3,18 +3,18 @@
 [params]
 	author = 'Carson West'
 +++
- [Calc home](./../calc-home/)
+ [[Calc home]]
 # Exponential/Logarithmic rules
 
-- [Constant rule](./../constant-rule/)
-- [Power Rule](./../power-rule/)
-- [Exponent Rule](./../exponent-rule/)
-- [Natural Log Rule](./../natural-log-rule/)
-- [Log Rule](./../log-rule/)
+- [[Constant rule]]
+- [[Power Rule]]
+- [[Exponent Rule]]
+- [[Natural Log Rule]]
+- [[Log Rule]]
 # Multi function rules
-- [Product Rule](./../product-rule/)
-- [Quotient Rule](./../quotient-rule/)
-- [Chain Rule](./../chain-rule/)
-# [Trigonometric Derivatives](./../trigonometric-derivatives/)
+- [[Product Rule]]
+- [[Quotient Rule]]
+- [[Chain Rule]]
+# [[Trigonometric Derivatives]]
 
-# [Inverse rule](./../inverse-rule/)
+# [[Inverse rule]]

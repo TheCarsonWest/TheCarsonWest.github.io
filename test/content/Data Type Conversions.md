@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Variables and Data Types](./../variables-and-data-types/)
-# [Data Type Conversions](./../data-type-conversions/) 
+# [[Variables and Data Types]]
+# [[Data Type Conversions]] 
 Python offers various ways to convert data from one type to another.  This is crucial for flexibility and performing operations requiring specific data types.  Incorrect conversions can lead to errors.
 
 **Common Conversions:**
@@ -63,7 +63,7 @@ int("ten")  # Raises TypeError
 
 Python can sometimes perform implicit type conversions (e.g., adding an integer and a float automatically results in a float). However, explicit conversions using the functions above are generally preferred for clarity and to avoid unexpected behavior.
 
-[Error Handling](./../error-handling/)  ([Type Hinting](./../type-hinting/))
+[[Error Handling]]  ([[Type Hinting]])
 
 
 **Advanced Conversions:**
@@ -73,4 +73,4 @@ Python can sometimes perform implicit type conversions (e.g., adding an integer 
 *  Libraries like `json` handle conversion to and from JSON strings.
 
 
-[JSON Conversion](./../json-conversion/)
+[[JSON Conversion]]

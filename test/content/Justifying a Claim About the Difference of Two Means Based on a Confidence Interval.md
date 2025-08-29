@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Justifying a Claim About the Difference of Two Means Based on a Confidence Interval
 
-When comparing two population means,  $ \mu_1 $  and  $ \mu_2 $ , a confidence interval for their difference,  $ \mu_1 - \mu_2 $ , is a powerful tool for making a justified claim. This method allows us to infer whether there's a statistically significant difference between the two means, or if one mean is larger or smaller than the other, based on sample data. This builds upon the concepts introduced in [Confidence Intervals for the Difference of Two Means](./../confidence-intervals-for-the-difference-of-two-means/).
+When comparing two population means,  $ \mu_1 $  and  $ \mu_2 $ , a confidence interval for their difference,  $ \mu_1 - \mu_2 $ , is a powerful tool for making a justified claim. This method allows us to infer whether there's a statistically significant difference between the two means, or if one mean is larger or smaller than the other, based on sample data. This builds upon the concepts introduced in [[Confidence Intervals for the Difference of Two Means]].
 
 ## The Purpose of Justification
 
@@ -14,7 +14,7 @@ The primary goal is to use the constructed confidence interval (e.g., a 95% conf
 
 ## Relating Confidence Intervals to Hypotheses
 
-Though we're not performing a formal [Setting Up a Test for the Difference of Two Population Means](./../setting-up-a-test-for-the-difference-of-two-population-means/), the interpretation of the confidence interval is closely related to potential null hypotheses. The most common null hypothesis is that there is no difference between the two population means, i.e.,  $ H_0: \mu_1 - \mu_2 = 0 $ .
+Though we're not performing a formal [[Setting Up a Test for the Difference of Two Population Means]], the interpretation of the confidence interval is closely related to potential null hypotheses. The most common null hypothesis is that there is no difference between the two population means, i.e.,  $ H_0: \mu_1 - \mu_2 = 0 $ .
 
 A  $ 100(1-\alpha)\% $  confidence interval for  $ \mu_1 - \mu_2 $  provides a range of plausible values for the true difference.
 
@@ -46,10 +46,10 @@ Always state your conclusion in the context of the problem. This means referring
 
 ## Relationship to Hypothesis Testing
 
-Justifying a claim using a confidence interval is directly related to a two-sided [Carrying Out a Test for the Difference of Two Population Means](./../carrying-out-a-test-for-the-difference-of-two-population-means/) at the corresponding significance level  $ \alpha $ .
+Justifying a claim using a confidence interval is directly related to a two-sided [[Carrying Out a Test for the Difference of Two Population Means]] at the corresponding significance level  $ \alpha $ .
 If a  $ 100(1-\alpha)\% $  confidence interval for  $ \mu_1 - \mu_2 $  **does not contain** 0, then a hypothesis test for  $ H_0: \mu_1 - \mu_2 = 0 $  versus  $ H_A: \mu_1 - \mu_2 \neq 0 $  would result in **rejecting**  $ H_0 $  at the  $ \alpha $  significance level.
 Conversely, if the confidence interval **does contain** 0, then we would **fail to reject**  $ H_0 $ .
 
 For one-sided claims, while confidence intervals can provide strong evidence, a formal one-sided hypothesis test is generally more appropriate for specific claims like  $ \mu_1 > \mu_2 $ . However, if the entire interval is above (or below) 0, it certainly provides evidence for a one-sided claim.
 
-This method of justification is a critical skill for [Selecting, Implementing, and Communicating Inference Procedures](./../selecting-implementing-and-communicating-inference-procedures/).
+This method of justification is a critical skill for [[Selecting, Implementing, and Communicating Inference Procedures]].

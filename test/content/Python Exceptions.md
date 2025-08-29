@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Exception Handling Examples](./../exception-handling-examples/)
-# [Python Exceptions](./../python-exceptions/)  [Python Exceptions](./../python-exceptions/) are events that occur during the execution of a program that disrupt the normal flow of instructions.  They are a way for Python to signal that something unexpected or erroneous has happened.  Handling exceptions gracefully is crucial for writing robust and reliable code.
+# [[Exception Handling Examples]]
+# [[Python Exceptions]]  [[Python Exceptions]] are events that occur during the execution of a program that disrupt the normal flow of instructions.  They are a way for Python to signal that something unexpected or erroneous has happened.  Handling exceptions gracefully is crucial for writing robust and reliable code.
 
 Key Concepts:
 
@@ -45,20 +45,20 @@ def validate_age(age):
   # ... rest of the function ...
 ```
 
-* **Custom Exceptions:** You can create your own exception classes by inheriting from the built-in `Exception` class or its subclasses. This allows you to define specific exception types for your application's needs.  ([Custom Exception Classes](./../custom-exception-classes/))
+* **Custom Exceptions:** You can create your own exception classes by inheriting from the built-in `Exception` class or its subclasses. This allows you to define specific exception types for your application's needs.  ([[Custom Exception Classes]])
 
 
-* **[Exception Handling](./../exception-handling/) Best Practices:**
+* **[[Exception Handling]] Best Practices:**
     * Be specific in your `except` blocks. Catch only the exceptions you expect and know how to handle. Avoid a bare `except:` clause unless absolutely necessary.
     * Use `try...except...finally` to ensure cleanup actions (like closing files) are always performed.
-    * Log exceptions for debugging purposes.  ([Logging in Python](./../logging-in-python/))
+    * Log exceptions for debugging purposes.  ([[Logging in Python]])
     * Don't catch exceptions silently unless you have a very good reason (e.g., handling minor issues that the user doesn't need to see).
 
 
 Related Notes:
 
-* [Custom Exception Classes](./../custom-exception-classes/)
-* [Logging in Python](./../logging-in-python/)
-* [Error Handling Strategies](./../error-handling-strategies/)
+* [[Custom Exception Classes]]
+* [[Logging in Python]]
+* [[Error Handling Strategies]]
 
 

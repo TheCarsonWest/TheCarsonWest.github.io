@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# AP Stats Home
 # Selecting an Appropriate Inference Procedure for Categorical Data
 
 Choosing the correct inference procedure is a critical step in any statistical analysis. For categorical variables, the decision hinges on the number of populations or groups being compared and the specific research question. This page outlines the primary inference procedures for categorical data encountered in AP Statistics.
@@ -17,8 +17,8 @@ When faced with a problem involving categorical data, ask yourself these fundame
     *   Two independent populations/groups
     *   Three or more independent populations/groups (or a single population with multiple categories for a goodness-of-fit test)
 2.  **What is the goal of the inference?**
-    *   Estimating a population parameter (e.g., a proportion or the difference between proportions)? Use a [Constructing a Confidence Interval for a Population|Confidence Interval](./../constructing-a-confidence-interval-for-a-population|confidence-interval/).
-    *   Testing a claim about a population parameter or a relationship between variables? Use a [Setting Up a Test for a Population Proportion|Hypothesis Test](./../setting-up-a-test-for-a-population-proportion|hypothesis-test/).
+    *   Estimating a population parameter (e.g., a proportion or the difference between proportions)? Use a Constructing a Confidence Interval for a Population|Confidence Interval.
+    *   Testing a claim about a population parameter or a relationship between variables? Use a Setting Up a Test for a Population Proportion|Hypothesis Test.
 3.  **Is the data collected from a single sample with multiple categories, or multiple samples each with two categories?** This distinction is crucial for Chi-Square tests.
 
 ---
@@ -34,7 +34,7 @@ When faced with a problem involving categorical data, ask yourself these fundame
 *   **Normal (Large Counts):** The number of successes ( $ n\hat{p} $ ) and failures ( $ n(1-\hat{p}) $ ) are both at least 10 (for intervals) or  $ np_0 \ge 10 $  and  $ n(1-p_0) \ge 10 $  (for tests).
 *   **Independence (10% Condition):** The sample size  $ n $  is no more than 10% of the population size  $ N $  ( $ n \le 0.10N $ ).
 
-**Links:** [Constructing a Confidence Interval for a Population Proportion](./../constructing-a-confidence-interval-for-a-population-proportion/), [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/)
+**Links:** Constructing a Confidence Interval for a Population Proportion, Setting Up a Test for a Population Proportion
 
 ---
 
@@ -50,7 +50,7 @@ When faced with a problem involving categorical data, ask yourself these fundame
 *   **Normal (Large Counts):** The number of successes and failures for *each* group are both at least 10.
 *   **Independence (10% Condition):** Each sample size is no more than 10% of its respective population size ( $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ ).
 
-**Links:** [Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions](./../justifying-a-claim-based-on-a-confidence-interval-for-a-difference-of-population-proportions/), [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/)
+**Links:** Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions, Setting Up a Test for the Difference of Two Population Proportions
 
 ---
 
@@ -58,7 +58,7 @@ When faced with a problem involving categorical data, ask yourself these fundame
 
 Chi-square ( $ \chi^2 $ ) tests are used when dealing with counts of categorical data, particularly when comparing three or more groups or categories, or investigating relationships between two categorical variables.
 
-### [Chi-Square Goodness of Fit Test](./../chi-square-goodness-of-fit-test/)
+### Chi-Square Goodness of Fit Test
 
 **Goal:** To determine if the observed distribution of a single categorical variable across several categories matches an expected distribution.
 **Hypotheses:**
@@ -71,11 +71,11 @@ Chi-square ( $ \chi^2 $ ) tests are used when dealing with counts of categorical
 *   **Expected Counts:** All expected counts are at least 5.
 *   **Independence (10% Condition):** The sample size  $ n $  is no more than 10% of the population size  $ N $ .
 
-**Links:** [Setting Up a Chi-Square Goodness of Fit Test](./../setting-up-a-chi-square-goodness-of-fit-test/), [Carrying Out a Chi-Square Test for Goodness of Fit](./../carrying-out-a-chi-square-test-for-goodness-of-fit/)
+**Links:** Setting Up a Chi-Square Goodness of Fit Test, Carrying Out a Chi-Square Test for Goodness of Fit
 
-### [Chi-Square Test for Homogeneity or Independence](./../chi-square-test-for-homogeneity-or-independence/)
+### Chi-Square Test for Homogeneity or Independence
 
-These tests use the same statistic and conditions but address slightly different questions, often distinguished by how the data were collected (sampling design). Both involve analyzing [Expected Counts in Two-Way Tables](./../expected-counts-in-two-way-tables/).
+These tests use the same statistic and conditions but address slightly different questions, often distinguished by how the data were collected (sampling design). Both involve analyzing Expected Counts in Two-Way Tables.
 
 **1. Chi-Square Test for Homogeneity**
 **Goal:** To determine if the distribution of a categorical variable is the same across several different populations or groups. Often used when comparing multiple groups from independent samples.
@@ -96,7 +96,7 @@ These tests use the same statistic and conditions but address slightly different
 *   **Expected Counts:** All expected counts are at least 5.
 *   **Independence (10% Condition):** For an independence test, the sample size  $ n $  is no more than 10% of the population size  $ N $ . For a homogeneity test, each sample size is no more than 10% of its respective population size.
 
-**Links:** [Setting Up a Chi-Square Test for Homogeneity or Independence](./../setting-up-a-chi-square-test-for-homogeneity-or-independence/), [Carrying Out a Chi-Square Test for Homogeneity or Independence](./../carrying-out-a-chi-square-test-for-homogeneity-or-independence/)
+**Links:** Setting Up a Chi-Square Test for Homogeneity or Independence, Carrying Out a Chi-Square Test for Homogeneity or Independence
 
 ---
 

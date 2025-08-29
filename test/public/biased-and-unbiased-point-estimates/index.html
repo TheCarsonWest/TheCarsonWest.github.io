@@ -36,7 +36,7 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
 <h1 id="biased-and-unbiased-point-estimates">Biased and Unbiased Point Estimates</h1>
 <p>In statistics, we often want to estimate unknown population parameters (like the population mean  $ \mu $  or population proportion  $ p $ ) using data from a sample. A <strong>point estimate</strong> is a single value, calculated from sample data, that is used to estimate an unknown population parameter.</p>
 <h2 id="unbiased-point-estimates">Unbiased Point Estimates</h2>
@@ -49,10 +49,10 @@ Where  $ E[\hat{\theta}] $  represents the expected value (mean) of the sampling
 <ul>
 <li><strong>Sample Mean ( $ \bar{x} $ )</strong>: Is an unbiased estimator of the population mean ( $ \mu $ ).
 $$      E[\bar{x}] = \mu
-$$      This is a fundamental concept explored in <a href="./../sampling-distributions-for-sample-means/">Sampling Distributions for Sample Means</a>.</li>
+$$      This is a fundamental concept explored in [[Sampling Distributions for Sample Means]].</li>
 <li><strong>Sample Proportion ( $ \hat{p} $ )</strong>: Is an unbiased estimator of the population proportion ( $ p $ ).
 $$      E[\hat{p}] = p
-$$      This is discussed further in <a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a>.</li>
+$$      This is discussed further in [[Sampling Distributions for Sample Proportions]].</li>
 </ul>
 <h2 id="biased-point-estimates">Biased Point Estimates</h2>
 <p>An estimator is considered <strong>biased</strong> if its sampling distribution has a mean that is not equal to the true value of the parameter being estimated. This means the estimator consistently tends to over-estimate or under-estimate the true parameter. The <strong>bias</strong> of an estimator  $ \hat{\theta} $  is defined as the difference between its expected value and the true parameter value:</p>
@@ -61,7 +61,7 @@ $$<br>
 If  $ Bias(\hat{\theta}) \neq 0 $ , the estimator is biased.</p>
 <p><strong>Examples of Biased Estimators:</strong></p>
 <ul>
-<li><strong>Sample Standard Deviation ( $ s_x $ ) for small samples (without Bessel&rsquo;s correction)</strong>: While the sample variance  $ s_x^2 $  (calculated with  $ n-1 $  in the denominator) is an unbiased estimator of the population variance  $ \sigma^2 $ , the sample standard deviation  $ s_x $  itself (the square root of the sample variance) is generally a biased estimator of the population standard deviation  $ \sigma $ , especially for smaller sample sizes. It tends to underestimate  $ \sigma $ . This is why <a href="./../summary-statistics-for-a-quantitative-variable/">Summary Statistics for a Quantitative Variable</a> uses  $ n-1 $  in the denominator for sample variance/standard deviation calculations.</li>
+<li><strong>Sample Standard Deviation ( $ s_x $ ) for small samples (without Bessel&rsquo;s correction)</strong>: While the sample variance  $ s_x^2 $  (calculated with  $ n-1 $  in the denominator) is an unbiased estimator of the population variance  $ \sigma^2 $ , the sample standard deviation  $ s_x $  itself (the square root of the sample variance) is generally a biased estimator of the population standard deviation  $ \sigma $ , especially for smaller sample sizes. It tends to underestimate  $ \sigma $ . This is why [[Summary Statistics for a Quantitative Variable]] uses  $ n-1 $  in the denominator for sample variance/standard deviation calculations.</li>
 </ul>
 <h2 id="bias-vs-variability">Bias vs. Variability</h2>
 <p>It&rsquo;s crucial to distinguish between bias and variability (or precision).</p>
@@ -69,7 +69,7 @@ If  $ Bias(\hat{\theta}) \neq 0 $ , the estimator is biased.</p>
 <li><strong>Bias</strong> refers to the accuracy of an estimator – whether it consistently hits the target parameter on average. A high-bias estimator is systematically off target.</li>
 <li><strong>Variability</strong> (or precision) refers to the spread of the estimator&rsquo;s sampling distribution. A high-variability estimator yields estimates that are widely scattered around its mean (which could be the true parameter or a biased value).</li>
 </ul>
-<p><a href="./../potential-problems-with-sampling/">Potential Problems with Sampling</a> can lead to both biased estimates (if the sampling method is flawed) and high variability (if the sample size is too small or the population is very diverse).</p>
+<p>[[Potential Problems with Sampling]] can lead to both biased estimates (if the sampling method is flawed) and high variability (if the sample size is too small or the population is very diverse).</p>
 <p>Consider a dartboard analogy:</p>
 <ul>
 <li><strong>Unbiased and Low Variability</strong>: Darts are clustered tightly around the bullseye.</li>
@@ -77,7 +77,7 @@ If  $ Bias(\hat{\theta}) \neq 0 $ , the estimator is biased.</p>
 <li><strong>Unbiased and High Variability</strong>: Darts are scattered widely, but their center is on the bullseye.</li>
 <li><strong>Biased and High Variability</strong>: Darts are scattered widely, and their center is far from the bullseye.</li>
 </ul>
-<h2 id="mean-squared-error-msemean-squared-error-mse"><a href="./../mean-squared-error-(mse)/">Mean Squared Error (MSE)</a></h2>
+<h2 id="mean-squared-error-mse">[[Mean Squared Error (MSE)]]</h2>
 <p>Sometimes, we prefer a slightly biased estimator if it has significantly lower variability, leading to overall better performance. The <strong>Mean Squared Error (MSE)</strong> is a measure that combines both bias and variability:</p>
 <p>$$  MSE(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = Bias(\hat{\theta})^2 + Var(\hat{\theta})
 $$<br>
@@ -99,28 +99,28 @@ Where  $ Var(\hat{\theta}) $  is the variance of the estimator. An estimator wit
           <td style="text-align: left">Population Mean  $ \mu $</td>
           <td style="text-align: left">Yes</td>
           <td style="text-align: left">Average of sample means equals population mean</td>
-          <td style="text-align: left"><a href="./../sampling-distributions-for-sample-means/">Sampling Distributions for Sample Means</a></td>
+          <td style="text-align: left">[[Sampling Distributions for Sample Means]]</td>
       </tr>
       <tr>
           <td style="text-align: left">Sample Proportion  $ \hat{p} $</td>
           <td style="text-align: left">Population Proportion  $ p $</td>
           <td style="text-align: left">Yes</td>
           <td style="text-align: left">Average of sample proportions equals population proportion</td>
-          <td style="text-align: left"><a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a></td>
+          <td style="text-align: left">[[Sampling Distributions for Sample Proportions]]</td>
       </tr>
       <tr>
           <td style="text-align: left">Sample Variance  $ s_x^2 $</td>
           <td style="text-align: left">Population Variance  $ \sigma^2 $</td>
           <td style="text-align: left">Yes (when using  $ n-1 $  denominator)</td>
           <td style="text-align: left">Using  $ n $  in the denominator results in a biased (underestimated) variance</td>
-          <td style="text-align: left"><a href="./../summary-statistics-for-a-quantitative-variable/">Summary Statistics for a Quantitative Variable</a></td>
+          <td style="text-align: left">[[Summary Statistics for a Quantitative Variable]]</td>
       </tr>
       <tr>
           <td style="text-align: left">Sample Standard Deviation  $ s_x $</td>
           <td style="text-align: left">Population Standard Deviation  $ \sigma $</td>
           <td style="text-align: left">No (generally biased)</td>
           <td style="text-align: left">Tends to slightly underestimate  $ \sigma $ , especially for small  $ n $</td>
-          <td style="text-align: left"><a href="./../describing-the-distribution-of-a-quantitative-variable/">Describing the Distribution of a Quantitative Variable</a></td>
+          <td style="text-align: left">[[Describing the Distribution of a Quantitative Variable]]</td>
       </tr>
   </tbody>
 </table>

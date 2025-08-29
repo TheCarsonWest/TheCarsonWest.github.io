@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-# [nexus](./../nexus/)
+# [[nexus]]
 
-# [AP Chemistry Units](./../ap-chemistry-units/)
-# [Acids and Bases](./../acids-and-bases/)
-# [Thermodynamics](./../thermodynamics/)
-# [Equilibrium](./../equilibrium/)
-# [chemical reactions](./../chemical-reactions/)
-# [AP CHEM solutions](./../ap-chem-solutions/)
-# [APCHEM Gasses](./../apchem-gasses/)
-# [Chemical Bonds](./../chemical-bonds/)
-# [Chemistry Constants](./../chemistry-constants/)
-# [Periodic Trends](./../periodic-trends/)
-# [Chemistry Laws](./../chemistry-laws/)
-# [Reactions Types](./../reactions-types/)
-# [Other important AP CHEM things](./../other-important-ap-chem-things/)
-# [AP CHEM solutions](./../ap-chem-solutions/)
+# [[AP Chemistry Units]]
+# [[Acids and Bases]]
+# [[Thermodynamics]]
+# [[Equilibrium]]
+# [[chemical reactions]]
+# [[AP CHEM solutions]]
+# [[APCHEM Gasses]]
+# [[Chemical Bonds]]
+# [[Chemistry Constants]]
+# [[Periodic Trends]]
+# [[Chemistry Laws]]
+# [[Reactions Types]]
+# [[Other important AP CHEM things]]
+# [[AP CHEM solutions]]

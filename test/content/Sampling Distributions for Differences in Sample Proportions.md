@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# AP Stats Home
 # Sampling Distributions for Differences in Sample Proportions
 
 When we are interested in comparing two population proportions, say  $ p_1 $  and  $ p_2 $ , we often take independent random samples from each population. The difference in the sample proportions,  $ \hat{p_1} - \hat{p_2} $ , is a statistic that estimates the true difference in population proportions,  $ p_1 - p_2 $ . Understanding the sampling distribution of this statistic is crucial for making inferences about the populations.
@@ -13,7 +13,7 @@ When we are interested in comparing two population proportions, say  $ p_1 $  an
 The mean (expected value) of the sampling distribution of the difference in sample proportions,  $ \hat{p_1} - \hat{p_2} $ , is equal to the true difference in population proportions:
 
  $$  \mu_{\hat{p_1} - \hat{p_2}} = E(\hat{p_1} - \hat{p_2}) = p_1 - p_2  $$  
-This property holds true provided that [Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/) are themselves unbiased estimators of their respective population proportions.
+This property holds true provided that Sampling Distributions for Sample Proportions are themselves unbiased estimators of their respective population proportions.
 
 ## Standard Deviation of the Sampling Distribution
 
@@ -25,12 +25,12 @@ The standard deviation of the sampling distribution of  $ \hat{p_1} - \hat{p_2} 
 
 To use this formula, two conditions must be met:
 
-1.  **[10% Condition](./../10%-condition/)**: Both samples must be less than 10% of their respective populations. That is,  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ . This ensures that the independence of observations within each sample is maintained and that the standard deviation formula remains valid.
+1.  **10% Condition**: Both samples must be less than 10% of their respective populations. That is,  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ . This ensures that the independence of observations within each sample is maintained and that the standard deviation formula remains valid.
 2.  **Independent Samples**: The two samples must be drawn independently from each other.
 
 ## Shape of the Sampling Distribution
 
-The shape of the sampling distribution of  $ \hat{p_1} - \hat{p_2} $  is approximately Normal, provided certain conditions are met. This approximation is based on the [The Central Limit Theorem](./../the-central-limit-theorem/).
+The shape of the sampling distribution of  $ \hat{p_1} - \hat{p_2} $  is approximately Normal, provided certain conditions are met. This approximation is based on the The Central Limit Theorem.
 
 ### Conditions for Normality (Large Counts Condition)
 
@@ -41,7 +41,7 @@ The sampling distribution of  $ \hat{p_1} - \hat{p_2} $  will be approximately N
 *    $ n_2p_2 \ge 10 $ 
 *    $ n_2(1-p_2) \ge 10 $ 
 
-These are known as the [Large Counts Condition](./../large-counts-condition/). If these conditions are met, we can use the Normal distribution to calculate probabilities involving  $ \hat{p_1} - \hat{p_2} $ .
+These are known as the Large Counts Condition. If these conditions are met, we can use the Normal distribution to calculate probabilities involving  $ \hat{p_1} - \hat{p_2} $ .
 
 ## Summary of the Sampling Distribution
 
@@ -55,7 +55,7 @@ In AP Statistics, we often move beyond analyzing a single population to comparin
 ## I. Definition and Notation
 
 Let  $ p_1 $  be the true proportion of successes for Population 1 and  $ p_2 $  be the true proportion of successes for Population 2.
-We draw an [Random Sampling and a Collection|independent random sample](./../random-sampling-and-a-collection|independent-random-sample/) of size  $ n_1 $  from Population 1, yielding a sample proportion  $ \hat{p_1} $ .
+We draw an Random Sampling and a Collection|independent random sample of size  $ n_1 $  from Population 1, yielding a sample proportion  $ \hat{p_1} $ .
 We draw an independent random sample of size  $ n_2 $  from Population 2, yielding a sample proportion  $ \hat{p_2} $ .
 
 Our statistic of interest is the difference in sample proportions:  $ (\hat{p_1} - \hat{p_2}) $ .
@@ -66,10 +66,10 @@ Our statistic of interest is the difference in sample proportions:  $ (\hat{p_1}
 
 ### A. Shape
 
-The sampling distribution of  $ (\hat{p_1} - \hat{p_2}) $  is approximately Normal, provided certain conditions are met. This approximation is justified by the [The Central Limit Theorem](./../the-central-limit-theorem/) when applied to proportions, specifically when the sample sizes are large enough.
+The sampling distribution of  $ (\hat{p_1} - \hat{p_2}) $  is approximately Normal, provided certain conditions are met. This approximation is justified by the The Central Limit Theorem when applied to proportions, specifically when the sample sizes are large enough.
 
 #### Conditions for Normality (Large Counts Condition)
-For the sampling distribution of  $ (\hat{p_1} - \hat{p_2}) $  to be approximately Normal, we need to satisfy the [Large Counts Condition](./../large-counts-condition/) for *both* samples:
+For the sampling distribution of  $ (\hat{p_1} - \hat{p_2}) $  to be approximately Normal, we need to satisfy the Large Counts Condition for *both* samples:
 *    $ n_1p_1 \ge 10 $ 
 *    $ n_1(1-p_1) \ge 10 $ 
 *    $ n_2p_2 \ge 10 $ 
@@ -79,7 +79,7 @@ These conditions ensure that each sample proportion ( $ \hat{p_1} $  and  $ \hat
 
 ### B. Center (Mean)
 
-The mean of the sampling distribution of the difference in sample proportions,  $ \mu_{\hat{p_1} - \hat{p_2}} $ , is equal to the true difference in population proportions. This means that the statistic  $ \hat{p_1} - \hat{p_2} $  is an [Biased and Unbiased Point Estimates|unbiased estimator](./../biased-and-unbiased-point-estimates|unbiased-estimator/) of  $ p_1 - p_2 $ .
+The mean of the sampling distribution of the difference in sample proportions,  $ \mu_{\hat{p_1} - \hat{p_2}} $ , is equal to the true difference in population proportions. This means that the statistic  $ \hat{p_1} - \hat{p_2} $  is an Biased and Unbiased Point Estimates|unbiased estimator of  $ p_1 - p_2 $ .
 
  $$  \mu_{\hat{p_1} - \hat{p_2}} = E(\hat{p_1} - \hat{p_2}) = p_1 - p_2  $$  
 ### C. Spread (Standard Deviation)
@@ -90,7 +90,7 @@ The standard deviation of the sampling distribution of  $ \hat{p_1} - \hat{p_2} 
 #### Conditions for Using this Formula
 To use this formula for the standard deviation, two conditions must be met:
 1.  **Independent Samples**: The two samples (from Population 1 and Population 2) must be chosen independently of each other. This is crucial because the formula for the variance of a difference of random variables ( $ Var(X-Y) = Var(X) + Var(Y) $ ) only holds for independent random variables.
-2.  **[10% Condition](./../10%-condition/)**: Both samples must be less than 10% of their respective population sizes. That is,  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ . This ensures that the observations within each sample are approximately independent, which is a requirement for the standard deviation formula of a sample proportion,  $ \sqrt{\frac{p(1-p)}{n}} $ , to be valid.
+2.  **10% Condition**: Both samples must be less than 10% of their respective population sizes. That is,  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ . This ensures that the observations within each sample are approximately independent, which is a requirement for the standard deviation formula of a sample proportion,  $ \sqrt{\frac{p(1-p)}{n}} $ , to be valid.
 
 ---
 
@@ -98,9 +98,9 @@ To use this formula for the standard deviation, two conditions must be met:
 
 | Characteristic | Formula / Condition                                                                    | Requirement                                                                                                                                                                                                                                                                                       |
 | :--------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Shape**        | Approximately Normal                                                                   | [Large Counts Condition](./../large-counts-condition/):  $ n_1p_1, n_1(1-p_1), n_2p_2, n_2(1-p_2) $  are all  $ \ge 10 $ .                                                                                                                                                                                                           |
+| **Shape**        | Approximately Normal                                                                   | Large Counts Condition:  $ n_1p_1, n_1(1-p_1), n_2p_2, n_2(1-p_2) $  are all  $ \ge 10 $ .                                                                                                                                                                                                           |
 | **Mean**         |  $ \mu_{\hat{p_1} - \hat{p_2}} = p_1 - p_2 $                                               | Independent random samples.                                                                                                                                                                                                                                                                       |
-| **Standard Dev.**|  $ \sigma_{\hat{p_1} - \hat{p_2}} = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} $  | Independent random samples. <br> [10% Condition](./../10%-condition/):  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ .                                                                                                                                                                                                       |
+| **Standard Dev.**|  $ \sigma_{\hat{p_1} - \hat{p_2}} = \sqrt{\frac{p_1(1-p_1)}{n_1} + \frac{p_2(1-p_2)}{n_2}} $  | Independent random samples. <br> 10% Condition:  $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ .                                                                                                                                                                                                       |
 
 ---
 
@@ -110,4 +110,4 @@ In real-world scenarios, the true population proportions  $ p_1 $  and  $ p_2 $ 
 *   For **confidence intervals**, we use the sample proportions  $ \hat{p_1} $  and  $ \hat{p_2} $  to estimate  $ p_1 $  and  $ p_2 $  in the standard deviation formula. This gives us the standard error:
      $$  SE_{\hat{p_1} - \hat{p_2}} = \sqrt{\frac{\hat{p_1}(1-\hat{p_1})}{n_1} + \frac{\hat{p_2}(1-\hat{p_2})}{n_2}}  $$  *   For **hypothesis tests** where we assume  $ p_1 = p_2 $  (i.e., the null hypothesis is  $ H_0: p_1 - p_2 = 0 $ ), we use a pooled (combined) sample proportion  $ \hat{p_c} $  to estimate the common population proportion.
      $$  \hat{p_c} = \frac{X_1 + X_2}{n_1 + n_2} = \frac{n_1\hat{p_1} + n_2\hat{p_2}}{n_1 + n_2}  $$      The standard deviation (or standard error under the null hypothesis) then becomes:
-     $$  \sigma_{\hat{p_1} - \hat{p_2}} = \sqrt{\hat{p_c}(1-\hat{p_c})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}  $$      Using the correct standard error formula is critical for [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/) and [Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions](./../justifying-a-claim-based-on-a-confidence-interval-for-a-difference-of-population-proportions/).
+     $$  \sigma_{\hat{p_1} - \hat{p_2}} = \sqrt{\hat{p_c}(1-\hat{p_c})\left(\frac{1}{n_1} + \frac{1}{n_2}\right)}  $$      Using the correct standard error formula is critical for Setting Up a Test for the Difference of Two Population Proportions and Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions.

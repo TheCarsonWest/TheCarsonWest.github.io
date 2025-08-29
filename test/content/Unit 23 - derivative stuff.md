@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# Calc home
 
-# Unit 2/3 - [derivative](./../derivative/) stuff
+# Unit 2/3 - derivative stuff
 
-### [Implicit Differentiation](./../implicit-differentiation/)
+### Implicit Differentiation
 
-### [Inverse Differentiation](./../inverse-differentiation/)
+### Inverse Differentiation
 
-### [Higher Order Derivatives](./../higher-order-derivatives/)
+### Higher Order Derivatives
 
-# [Calc home](./../calc-home/)
+# Calc home

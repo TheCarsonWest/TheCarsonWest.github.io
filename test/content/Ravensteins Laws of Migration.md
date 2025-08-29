@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Unit 2b Migration](./../unit-2b-migration/)
+# [[Unit 2b Migration]]
 
 E.G. Ravenstein, a 19th-century geographer, formulated a set of laws to describe migration patterns. These laws, known as Ravenstein's Laws of Migration, remain relevant today, providing a foundational understanding of human movement across space.
 

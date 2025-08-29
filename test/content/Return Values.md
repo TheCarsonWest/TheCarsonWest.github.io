@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
-# [Return Values](./../return-values/) 
+# [[Python 1 Home]]
+# [[Return Values]] 
 Return values are the data sent back by a function after it has completed its execution.  A function can return any data type, including `None` (if no explicit return statement is used).
 
 ```python
@@ -30,10 +30,10 @@ print(returned_value)
 
 ```
 
-[Python Functions](./../python-functions/)  (link to a note about the general concept of [Python Functions](./../python-functions/))
-[Function Parameters](./../function-parameters/) (link to a note about [Function Parameters](./../function-parameters/))
+[[Python Functions]]  (link to a note about the general concept of [[Python Functions]])
+[[Function Parameters]] (link to a note about [[Function Parameters]])
 
-The `return` statement immediately exits the function and sends the specified value back to the caller.  If a function doesn't have a `return` statement, it implicitly returns `None`.  Multiple return values are possible using [Tuples](./../tuples/):
+The `return` statement immediately exits the function and sends the specified value back to the caller.  If a function doesn't have a `return` statement, it implicitly returns `None`.  Multiple return values are possible using [[Tuples]]:
 
 ```python
 def multiple_returns(a, b):
@@ -44,4 +44,4 @@ print(x, y)
 
 ```
 
-[Tuples](./../tuples/) (link to a note on [Tuples](./../tuples/))
+[[Tuples]] (link to a note on [[Tuples]])

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Virtual Environments](./../virtual-environments/)
-# [Package Management with Pip](./../package-management-with-pip/) 
+# [[Virtual Environments]]
+# [[Package Management with Pip]] 
 Pip is the standard package manager for Python.  It allows you to install, manage, and uninstall packages (libraries) easily.
 
 **Key Commands:**
@@ -21,7 +21,7 @@ pip install <package_name>
    ```bash
    pip install -r requirements.txt
    ```
-   ([Requirements Files](./../requirements-files/))
+   ([[Requirements Files]])
 
 * **Uninstallation:**
 ```bash
@@ -46,7 +46,7 @@ pip search <search_term>
 ```
 
 
-**[Virtual Environments](./../virtual-environments/):**  It's crucial to use virtual environments to isolate project dependencies.  Pip integrates well with `venv` (or `virtualenv`).
+**[[Virtual Environments]]:**  It's crucial to use virtual environments to isolate project dependencies.  Pip integrates well with `venv` (or `virtualenv`).
 
 ```bash
 python3 -m venv .venv  # Creates a virtual environment named '.venv'
@@ -55,7 +55,7 @@ source .venv/bin/activate  # Activates the environment (Linux/macOS)
 pip install <package_name> # Install packages within the virtual environment
 deactivate # Deactivates the environment
 ```
-([Virtual Environments](./../virtual-environments/))
+([[Virtual Environments]])
 
 
 **Other Useful Options:**
@@ -72,6 +72,6 @@ deactivate # Deactivates the environment
 * **Proxy Settings:** If you're behind a proxy, you'll need to configure pip to use it. (see pip documentation)
 
 
-[Pip Configuration](./../pip-configuration/)
-[Package Conflicts](./../package-conflicts/)
+[[Pip Configuration]]
+[[Package Conflicts]]
 

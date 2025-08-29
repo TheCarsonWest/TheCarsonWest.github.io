@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Conjugate Acid-Base Pairs](./../conjugate-acid-base-pairs/)
-# [Water as an Acid and Base](./../water-as-an-acid-and-base/)
+# [[Conjugate Acid-Base Pairs]]
+# [[Water as an Acid and Base]]
 
 Water is amphoteric, meaning it can act as both an acid and a base.  This is due to its ability to donate and accept protons ( $ H^+ $ ).
 
@@ -24,9 +24,9 @@ The ion product constant for water ( $ K_w $ ) describes the equilibrium constan
     *  $ pOH = -\log[OH^-]] $ 
     *  $ pH + pOH = 14 $  (at 25°C)
 
-[Acids and Bases](./../acids-and-bases/)
-[pH and pOH Calculations](./../ph-and-poh-calculations/)
-[Acid-Base Equilibria](./../acid-base-equilibria/)
+[[Acids and Bases]]
+[[pH and pOH Calculations]]
+[[Acid-Base Equilibria]]
 
 **Further Notes:**
 

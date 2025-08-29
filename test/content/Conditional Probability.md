@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# AP Stats Home
 # Conditional Probability
 
-Conditional probability is a fundamental concept in [Introduction to Probability](./../introduction-to-probability/) that helps us understand how the likelihood of an event changes when we know that another event has already occurred. It's about narrowing down our sample space based on new information.
+Conditional probability is a fundamental concept in Introduction to Probability that helps us understand how the likelihood of an event changes when we know that another event has already occurred. It's about narrowing down our sample space based on new information.
 
 ## Definition
 
-[Conditional Probability](./../conditional-probability/) measures the probability of an event (let's call it A) occurring, *given that* another event (let's call it B) has already occurred. The information that event B has occurred changes the sample space of possible outcomes, potentially altering the probability of event A.
+Conditional Probability measures the probability of an event (let's call it A) occurring, *given that* another event (let's call it B) has already occurred. The information that event B has occurred changes the sample space of possible outcomes, potentially altering the probability of event A.
 
 ## Notation and Formula
 
@@ -74,7 +74,7 @@ This means that among the students who study Physics (our new sample space of 30
 
 ## Conditional Probability and Independence
 
-Conditional probability plays a crucial role in understanding [Independent Events and Unions of Events](./../independent-events-and-unions-of-events/). Two events A and B are considered independent if the occurrence of one does not affect the probability of the other.
+Conditional probability plays a crucial role in understanding Independent Events and Unions of Events. Two events A and B are considered independent if the occurrence of one does not affect the probability of the other.
 
 Mathematically, A and B are independent if:
 *    $ P(A|B) = P(A) $  (knowing B occurred doesn't change A's probability)

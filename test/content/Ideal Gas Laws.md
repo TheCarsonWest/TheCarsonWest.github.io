@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [APCHEM Gasses](./../apchem-gasses/)
-## [Chemistry Laws](./../chemistry-laws/)
+# APCHEM Gasses
+## Chemistry Laws
 
-#  $$ PV = nRT $$  - P = Pressure (Must be the same unit as the [Universal Gas Constant](./../universal-gas-constant/))
+#  $$ PV = nRT $$  - P = Pressure (Must be the same unit as the Universal Gas Constant)
 - V = Volume (Liters)
 - n = Moles
-- R = [Universal Gas Constant](./../universal-gas-constant/)
+- R = Universal Gas Constant
 	- 
-- T = [Temperature](./../temperature/) (Kelvin)
+- T = Temperature (Kelvin)

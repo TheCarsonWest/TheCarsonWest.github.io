@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Acids and Bases](./../acids-and-bases/)
+# [[Acids and Bases]]
 # Ionic Product of Water ( $ K_w $ ) - AP Chemistry Rundown
 
 The ionic product of water ( $ K_w $ ) is a fundamental concept in acid-base chemistry, especially when dealing with aqueous solutions. It describes the equilibrium constant for the autoionization of water.
@@ -16,7 +16,7 @@ Water is amphoteric, meaning it can act as both an acid and a base.  Therefore, 
 *   One water molecule acts as an acid, donating a proton to form hydroxide ion ( $ OH^- $ ).
 *   The other water molecule acts as a base, accepting a proton to form hydronium ion ( $ H_3O^+ $ ).
 
-[Simplified Autoionization](./../simplified-autoionization/)
+[[Simplified Autoionization]]
 It is often simplified to:
  $ H_2O(l) \rightleftharpoons H^+(aq) + OH^-(aq) $ 
 While technically correct, it's important to remember that free  $ H^+ $  ions don't exist in water; they are always associated with water molecules as  $ H_3O^+ $ .
@@ -34,7 +34,7 @@ The equilibrium constant for the autoionization of water is called the ionic pro
 At 25°C (298 K), the experimentally determined value of  $ K_w $  is:
 
 #  $$ K_w = 1.0 \times 10^{-14} $$  
-[Neutral Water](./../neutral-water/)
+[[Neutral Water]]
 In pure water at 25°C, the concentrations of hydronium and hydroxide ions are equal:
 
 #  $$ [H_3O^+] = [OH^-] = \sqrt{K_w} = \sqrt{1.0 \times 10^{-14}} = 1.0 \times 10^{-7} M $$  
@@ -47,7 +47,7 @@ The autoionization of water is an endothermic process (it absorbs heat).  Theref
 *   At temperatures above 25°C,  $ K_w > 1.0 \times 10^{-14} $ .
 *   At temperatures below 25°C,  $ K_w < 1.0 \times 10^{-14} $ .
 
-[Important Note about Neutrality](./../important-note-about-neutrality/)
+[[Important Note about Neutrality]]
 Even though  $ K_w $  changes with temperature, neutral water *always* has  $ [H_3O^+] = [OH^-] $ . However, the *value* of those concentrations will change with temperature.  For example, at a higher temperature, neutral water will have  $ [H_3O^+] = [OH^-] > 1.0 \times 10^{-7} M $ , but it is still neutral.
 
 ## Implications of  $ K_w $ 
@@ -58,7 +58,7 @@ Even though  $ K_w $  changes with temperature, neutral water *always* has  $ [H
 *   **Basic Solution:**  $ [H_3O^+] < [OH^-] $  (and  $ [OH^-] > 1.0 \times 10^{-7} M $  at 25°C)
 *   **Neutral Solution:**  $ [H_3O^+] = [OH^-] $ 
 
-[Calculating Ion Concentrations](./../calculating-ion-concentrations/)
+[[Calculating Ion Concentrations]]
 Knowing either  $ [H_3O^+] $  or  $ [OH^-] $  allows you to calculate the other using the  $ K_w $  expression:
 
  $ [H_3O^+] = \frac{K_w}{[OH^-]} $ 
@@ -81,7 +81,7 @@ Therefore:
 
  $ pH + pOH = pK_w = 14 $  (at 25°C)
 
-[Temperature and pH Scale](./../temperature-and-ph-scale/)
+[[Temperature and pH Scale]]
 It's crucial to remember that the pH scale is temperature-dependent due to the temperature dependence of  $ K_w $ . While pH = 7 is neutral at 25°C, it is *not* neutral at other temperatures. Neutrality is *always* defined by  $ [H_3O^+] = [OH^-] $ .
 
 ## Common Mistakes to Avoid

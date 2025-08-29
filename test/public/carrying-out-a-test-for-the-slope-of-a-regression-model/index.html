@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="carrying-out-a-test-for-the-slope-of-a-regression-model">Carrying Out a Test for the Slope of a Regression Model</h1>
-<p>This note page details the execution phase of a hypothesis test for the slope of a population regression line. This test helps us determine if there is a statistically significant linear relationship between two quantitative variables in the population, based on a sample. For the initial steps of defining hypotheses, refer to <a href="./../setting-up-a-test-for-the-slope-of-a-regression-model/">Setting Up a Test for the Slope of a Regression Model</a>.</p>
+<p>This note page details the execution phase of a hypothesis test for the slope of a population regression line. This test helps us determine if there is a statistically significant linear relationship between two quantitative variables in the population, based on a sample. For the initial steps of defining hypotheses, refer to Setting Up a Test for the Slope of a Regression Model.</p>
 <h2 id="conditions-for-inference-for-regression-slope">Conditions for Inference for Regression Slope</h2>
 <p>Before performing any calculations, we must verify that the conditions for inference about the slope of a population regression line are met. These conditions are often summarized by the acronym <strong>LINER</strong>:</p>
 <table>
@@ -88,7 +88,7 @@ $$  t = \frac{b - \beta_0}{SE_b}  $$  Where:</p>
 <li>$ SE_b $  is the standard error of the slope, which measures the variability of the sample slope  $ b $  from sample to sample. This value is typically provided in computer output for regression analysis.</li>
 </ul>
 <p>The formula for  $ SE_b $  is:
-$$  SE_b = \frac{s}{\sqrt{\sum (x_i - \bar{x})^2}}  $$  Where  $ s $  is the standard deviation of the residuals (also known as the root mean square error,  $ s_e $ ), and the denominator measures the spread of the  $ x $  values. These values are often found in <a href="./../linear-regression-models/">Linear Regression Models</a> output.</p>
+$$  SE_b = \frac{s}{\sqrt{\sum (x_i - \bar{x})^2}}  $$  Where  $ s $  is the standard deviation of the residuals (also known as the root mean square error,  $ s_e $ ), and the denominator measures the spread of the  $ x $  values. These values are often found in Linear Regression Models output.</p>
 <h2 id="calculating-the-p-value">Calculating the p-value</h2>
 <p>Once the test statistic  $ t $  is calculated, we use it to find the p-value. The p-value is the probability of observing a sample slope as extreme as, or more extreme than, the one obtained, assuming the null hypothesis is true.</p>
 <p>The p-value is calculated using a  $ t $ -distribution with  $ df = n-2 $  degrees of freedom, where  $ n $  is the number of data points.</p>
@@ -119,8 +119,8 @@ $ p\text{-value} = P(T &lt; t) $</li>
 </ul>
 </li>
 </ol>
-<p>Remember that a statistically significant relationship does not necessarily imply a strong relationship, nor does it imply causation. Always consider <a href="./../potential-problems-with-sampling/">Potential Problems with Sampling</a> and <a href="./../inference-and-experiments/">Inference and Experiments</a> when interpreting results.</p>
-<p>For further exploration, consider <a href="./../confidence-intervals-for-the-slope-of-a-regression-model/">Confidence Intervals for the Slope of a Regression Model</a> to estimate the true population slope.</p>
+<p>Remember that a statistically significant relationship does not necessarily imply a strong relationship, nor does it imply causation. Always consider Potential Problems with Sampling and Inference and Experiments when interpreting results.</p>
+<p>For further exploration, consider Confidence Intervals for the Slope of a Regression Model to estimate the true population slope.</p>
 
 </main>
 

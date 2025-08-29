@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Acids and Bases](./../acids-and-bases/)
+# [[Acids and Bases]]
 # Titration Curves
 
 Titration curves are graphical representations of the pH of a solution during a titration. They provide valuable information about the strength of the acid and base involved and the equivalence point of the reaction.
@@ -21,7 +21,7 @@ Titration curves are graphical representations of the pH of a solution during a 
 *   **Characteristics:** The initial pH is higher than in strong acid titrations, and the pH change near the equivalence point is less drastic. A buffer region exists before the equivalence point.
 *   **Equivalence Point:** The equivalence point is at pH > 7 due to the formation of the conjugate base of the weak acid.
 *   **Curve Shape:** The curve starts at a higher pH than strong acid titrations, shows a gradual increase, has a buffering region, a smaller pH jump at the equivalence point, and then levels off at a high pH.
-*   **Half-Equivalence Point: [Half-Equivalence Point](./../half-equivalence-point/)**
+*   **Half-Equivalence Point: [[Half-Equivalence Point]]**
 *   **Example:** Titration of acetic acid ( $ CH_3COOH $ ) with NaOH.
 
      $$ CH_3COOH(aq) + NaOH(aq) \rightarrow CH_3COONa(aq) + H_2O(l) $$  
@@ -42,7 +42,7 @@ Titration curves are graphical representations of the pH of a solution during a 
      $$ H_2SO_4(aq) + NaOH(aq) \rightarrow NaHSO_4(aq) + H_2O(l) $$       $$ NaHSO_4(aq) + NaOH(aq) \rightarrow Na_2SO_4(aq) + H_2O(l) $$  
 ## V. Indicators
 
-*   [Acid-Base Indicators](./../acid-base-indicators/) are weak acids or bases that change color depending on the pH of the solution.
+*   [[Acid-Base Indicators]] are weak acids or bases that change color depending on the pH of the solution.
 *   The appropriate indicator should be chosen such that its color change occurs within the rapid pH change region near the equivalence point.
 *   The pH range where the indicator changes color is called the **transition interval**.
 
@@ -55,7 +55,7 @@ Titration curves are graphical representations of the pH of a solution during a 
 ## VII. Calculations
 
 *   **Stoichiometry:** At the equivalence point, the moles of acid and base are stoichiometrically equivalent.
-*   **Weak Acid/Base Equilibria:** Use [ICE Tables](./../ice-tables/) and  $ K_a $  or  $ K_b $  values to calculate the pH at various points along the titration curve, especially in the buffer region.
+*   **Weak Acid/Base Equilibria:** Use [[ICE Tables]] and  $ K_a $  or  $ K_b $  values to calculate the pH at various points along the titration curve, especially in the buffer region.
 *   **Henderson-Hasselbalch Equation:**   $ pH = pK_a + log \frac{[A^-]}{[HA]} $  (for weak acid titrations). This is useful for calculating the pH in the buffer region.  $ pOH = pK_b + log \frac{[HB^+]}{[B]} $  (for weak base titrations).
 
 ## VIII. Important Considerations

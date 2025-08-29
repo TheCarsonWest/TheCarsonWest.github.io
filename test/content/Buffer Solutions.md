@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Acids and Bases](./../acids-and-bases/)
+# [[Acids and Bases]]
 # Buffer Solutions: AP Chemistry Rundown
 
 ## What is a Buffer Solution?
@@ -17,7 +17,7 @@ A buffer solution *must* contain two components:
 *   **A Weak Acid and its Conjugate Base:** For example, acetic acid ( $ CH_3COOH $ ) and acetate ion ( $ CH_3COO^− $ ), commonly found as sodium acetate ( $ CH_3COONa $ ).
 *   **A Weak Base and its Conjugate Acid:** For example, ammonia ( $ NH_3 $ ) and ammonium ion ( $ NH_4^+ $ ), commonly found as ammonium chloride ( $ NH_4Cl $ ).
 
-[Buffer Composition](./../buffer-composition/)
+[[Buffer Composition]]
 
 ## How Buffers Work
 
@@ -31,7 +31,7 @@ The key to a buffer's function is the equilibrium between the weak acid/base and
 
      $ HA (aq) + OH^- (aq) \rightleftharpoons A^- (aq) + H_2O (l) $ 
 
-[Neutralization Reactions in Buffers](./../neutralization-reactions-in-buffers/)
+[[Neutralization Reactions in Buffers]]
 
 ## The Henderson-Hasselbalch Equation
 
@@ -56,13 +56,13 @@ Where:
 *    $ [BH^+] $  is the concentration of the conjugate acid.
 *    $ [B] $  is the concentration of the weak base.
 
-[Henderson-Hasselbalch Equation Derivation](./../henderson-hasselbalch-equation-derivation/)
+[[Henderson-Hasselbalch Equation Derivation]]
 
 ## Buffer Capacity
 
 Buffer capacity is the amount of acid or base a buffer can neutralize before the pH begins to change appreciably. A buffer is most effective when the concentrations of the weak acid/base and its conjugate are equal (or close to equal), where  $ pH \approx pK_a $ .  Higher concentrations of the buffer components lead to a greater buffer capacity.
 
-[Buffer Capacity Factors](./../buffer-capacity-factors/)
+[[Buffer Capacity Factors]]
 
 ## Preparing a Buffer Solution
 
@@ -74,7 +74,7 @@ There are two main ways to prepare a buffer solution:
 
      $ CH_3COOH (aq) + NaOH (aq) \rightarrow CH_3COONa (aq) + H_2O (l) $ 
 
-[Buffer Preparation Methods](./../buffer-preparation-methods/)
+[[Buffer Preparation Methods]]
 
 ## Buffer Range
 
@@ -84,7 +84,7 @@ The effective buffering range is generally considered to be  $ pH = pK_a \pm 1 $
 
 Buffer regions are visible on titration curves. The region of the titration curve where the pH changes slowly corresponds to the buffering region. The midpoint of this region corresponds to the  $ pK_a $  of the weak acid being titrated. At the half-equivalence point,  $ [HA] = [A^-] $ , and  $ pH = pK_a $ .
 
-[Titration Curve Buffer Regions](./../titration-curve-buffer-regions/)
+[[Titration Curve Buffer Regions]]
 
 ## Common Mistakes
 
@@ -101,4 +101,4 @@ Buffer regions are visible on titration curves. The region of the titration curv
 *   Buffers are most effective within a range of  $ pH = pK_a \pm 1 $ .
 *   Buffer regions can be identified on titration curves.
 
-## [AP Chemistry Buffer Problems](./../ap-chemistry-buffer-problems/)
+## [[AP Chemistry Buffer Problems]]

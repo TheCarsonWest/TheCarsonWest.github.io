@@ -15,9 +15,9 @@ Gibbs Free Energy is defined by the equation:
 where:
 
 *  $ G $  is the Gibbs Free Energy (in Joules or Kilojoules)
-*  $ H $  is the enthalpy of the system (in Joules or Kilojoules) [Enthalpy](./../enthalpy/)
+*  $ H $  is the enthalpy of the system (in Joules or Kilojoules) Enthalpy
 *  $ T $  is the absolute temperature (in Kelvin)
-*  $ S $  is the entropy of the system (in Joules/Kelvin) [Entropy](./../entropy/)
+*  $ S $  is the entropy of the system (in Joules/Kelvin) Entropy
 
 
 ## Spontaneity and Gibbs Free Energy
@@ -65,12 +65,12 @@ The equation relating  $ \Delta G $  to  $ \Delta G° $  and the reaction quotie
 This equation is crucial for calculating the Gibbs Free Energy change under non-standard conditions.  The reaction quotient ( $ Q $ ) has the same form as the equilibrium constant ( $ K $ ), but uses the actual concentrations or partial pressures of reactants and products at any given time, not just at equilibrium.
 
 
-## [Enthalpy](./../enthalpy/)
+## Enthalpy
 
 Enthalpy ( $ H $ ) is a measure of the total heat content of a system.  A positive change in enthalpy ( $ \Delta H > 0 $ ) indicates an endothermic process (heat is absorbed), while a negative change in enthalpy ( $ \Delta H < 0 $ ) indicates an exothermic process (heat is released).
 
 
-## [Entropy](./../entropy/)
+## Entropy
 
 Entropy ( $ S $ ) is a measure of the disorder or randomness of a system.  A positive change in entropy ( $ \Delta S > 0 $ ) indicates an increase in disorder, while a negative change in entropy ( $ \Delta S < 0 $ ) indicates a decrease in disorder.
 

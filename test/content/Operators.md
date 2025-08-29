@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [Control Flow If Statements](./../control-flow-if-statements/)
-# Python [Operators](./../operators/) 
+# [[Control Flow If Statements]]
+# Python [[Operators]] 
 This note covers Python operators.  Further notes will be needed for subtopics.
 
-**Types of [Operators](./../operators/):**
+**Types of [[Operators]]:**
 
-* **Arithmetic [Operators](./../operators/):**  These perform mathematical calculations.
+* **Arithmetic [[Operators]]:**  These perform mathematical calculations.
 
 ```python
 x = 10
@@ -24,7 +24,7 @@ print(x % y)  # Modulus (remainder)
 print(x ** y) # Exponentiation
 ```
 
-* **[Comparison Operators](./../comparison-operators/):** These compare two values and return a Boolean (True or False).
+* **[[Comparison Operators]]:** These compare two values and return a Boolean (True or False).
 
 ```python
 x = 10
@@ -38,7 +38,7 @@ print(x >= y) # Greater than or equal to
 print(x <= y) # Less than or equal to
 ```
 
-* **Logical [Operators](./../operators/):** These combine or modify Boolean expressions.
+* **Logical [[Operators]]:** These combine or modify Boolean expressions.
 
 ```python
 x = True
@@ -49,7 +49,7 @@ print(x or y)  # Logical OR
 print(not x)   # Logical NOT
 ```
 
-* **Assignment [Operators](./../operators/):** These assign values to variables.
+* **Assignment [[Operators]]:** These assign values to variables.
 
 ```python
 x = 10         # Simple assignment
@@ -63,9 +63,9 @@ x //= 5        # x = x // 5
 
 ```
 
-* **[Bitwise Operators](./../bitwise-operators/):** These operate on individual bits of integers. [Bitwise Operators](./../bitwise-operators/)
+* **[[Bitwise Operators]]:** These operate on individual bits of integers. [[Bitwise Operators]]
 
-* **Membership [Operators](./../operators/):** These test for membership in sequences (e.g., lists, tuples, strings).
+* **Membership [[Operators]]:** These test for membership in sequences (e.g., lists, tuples, strings).
 
 ```python
 my_list = 1, 2, 3
@@ -75,7 +75,7 @@ print(1 not in my_list) # False
 
 ```
 
-* **[Identity](./../identity/) [Operators](./../operators/):** These test for object identity (whether two variables refer to the same object in memory).
+* **[[Identity]] [[Operators]]:** These test for object identity (whether two variables refer to the same object in memory).
 
 ```python
 x = 1,2,3
@@ -89,11 +89,11 @@ print(x == y) # True (same values)
 
 ```
 
-**[Operator Precedence](./../operator-precedence/):**  The order in which operators are evaluated.  [Operator Precedence](./../operator-precedence/)
+**[[Operator Precedence]]:**  The order in which operators are evaluated.  [[Operator Precedence]]
 
 
 **Further Notes:**
 
-* [Operator Overloading](./../operator-overloading/) (How operators behave differently with different data types.)
-* [Short-circuiting in Logical Operators](./../short-circuiting-in-logical-operators/) (How `and` and `or` can sometimes avoid evaluating all operands.)
+* [[Operator Overloading]] (How operators behave differently with different data types.)
+* [[Short-circuiting in Logical Operators]] (How `and` and `or` can sometimes avoid evaluating all operands.)
 

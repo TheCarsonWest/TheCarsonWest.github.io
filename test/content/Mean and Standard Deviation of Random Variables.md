@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Mean and Standard Deviation of Random Variables
 
-This note page expands on the concepts introduced in [Introduction to Random Variables and Probability Distributions](./../introduction-to-random-variables-and-probability-distributions/), focusing specifically on quantifying the center and spread of a random variable's distribution.
+This note page expands on the concepts introduced in [[Introduction to Random Variables and Probability Distributions]], focusing specifically on quantifying the center and spread of a random variable's distribution.
 
 ## Expected Value (Mean) of a Discrete Random Variable
 
@@ -61,8 +61,8 @@ Summing the last column gives the variance:
  $$  \sigma_X = \sqrt{\frac{1182}{216}} \approx \sqrt{5.472} \approx \ $ 2.34
  $$  This means that, on average, the amount won or lost per game typically varies by about \ $ 2.34 from the expected win of \ $ 0.17.
 
-## [Combining Random Variables](./../combining-random-variables/)
-When dealing with multiple random variables, we often need to understand the mean and standard deviation of their sum or difference. This topic, known as [Combining Random Variables](./../combining-random-variables/), covers rules for linear transformations of random variables ( $ Y = a + bX $ ) and for combining independent random variables (e.g.,  $ W = X + Y $  or  $ D = X - Y $ ). Key principles include:
+## [[Combining Random Variables]]
+When dealing with multiple random variables, we often need to understand the mean and standard deviation of their sum or difference. This topic, known as [[Combining Random Variables]], covers rules for linear transformations of random variables ( $ Y = a + bX $ ) and for combining independent random variables (e.g.,  $ W = X + Y $  or  $ D = X - Y $ ). Key principles include:
 *   **Mean**: Means are additive for both sums and differences ( $ E(X \pm Y) = E(X) \pm E(Y) $ ).
 *   **Variance**: Variances are additive for the sum or difference of *independent* random variables ( $ Var(X \pm Y) = Var(X) + Var(Y) $ ). Note that standard deviations are not directly additive.
 *   **Independence**: The rule for adding variances only applies if the random variables are independent. If they are not independent, additional considerations related to covariance are needed.

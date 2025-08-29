@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # AP Statistics: Introduction to Probability
 
 Probability is the language of randomness. It provides a mathematical framework for quantifying the likelihood of events occurring in situations where the outcome is uncertain. In AP Statistics, we use probability to understand, describe, and make inferences about populations based on samples.
@@ -45,7 +45,7 @@ The following rules form the foundation for all probability calculations:
      $$  \sum_{\text{all outcomes}} P(\text{outcome}) = 1  $$      *   For example, if  $ S = \{ o_1, o_2, \dots, o_n \} $ , then  $ P(o_1) + P(o_2) + \dots + P(o_n) = 1 $ .
 3.  **Complement Rule**: The probability that an event A does not occur (denoted as  $ A^c $  or  $ \text{A'} $ ) is 1 minus the probability that A does occur.
      $$  P(A^c) = 1 - P(A)  $$      *   *Example*: If the probability of rain is  $ P(\text{Rain}) = 0.3 $ , then the probability of no rain is  $ P(\text{No Rain}) = 1 - 0.3 = 0.7 $ .
-4.  **Addition Rule for Mutually Exclusive Events**: If two events A and B are [Mutually Exclusive Events](./../mutually-exclusive-events/) (meaning they cannot occur at the same time, i.e.,  $ P(A \text{ and } B) = 0 $ ), then the probability that A or B occurs is the sum of their individual probabilities.
+4.  **Addition Rule for Mutually Exclusive Events**: If two events A and B are [[Mutually Exclusive Events]] (meaning they cannot occur at the same time, i.e.,  $ P(A \text{ and } B) = 0 $ ), then the probability that A or B occurs is the sum of their individual probabilities.
      $$  P(A \text{ or } B) = P(A) + P(B)  $$      *   *Example*: When rolling a die, the event "rolling a 2" and "rolling a 4" are mutually exclusive.  $ P(2 \text{ or } 4) = P(2) + P(4) = \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3} $ .
 
 ---
@@ -65,16 +65,16 @@ If all outcomes in a sample space are equally likely, the probability of an even
 ### 2. Empirical Probability (Relative Frequency)
 
 This type of probability is based on observations from an experiment or simulation.
- $$  P(A) \approx \frac{\text{Number of times event A occurs}}{\text{Total number of trials}}  $$  As the number of trials increases, the empirical probability approaches the theoretical probability. This concept is formalized by the [The Law of Large Numbers](./../the-law-of-large-numbers/).
+ $$  P(A) \approx \frac{\text{Number of times event A occurs}}{\text{Total number of trials}}  $$  As the number of trials increases, the empirical probability approaches the theoretical probability. This concept is formalized by the [[The Law of Large Numbers]].
 *   *Example*: If you flip a coin 100 times and get 53 heads, the empirical probability of heads is  $ 53/100 = 0.53 $ . If you flip it 10,000 times and get 4980 heads, the empirical probability is  $ 4980/10000 = 0.498 $ .
 
-For more on using simulations to estimate probabilities, see [Estimating Probabilities Using Simulation](./../estimating-probabilities-using-simulation/).
+For more on using simulations to estimate probabilities, see [[Estimating Probabilities Using Simulation]].
 
 ---
 
 ## The Law of Large Numbers
 
-[The Law of Large Numbers](./../the-law-of-large-numbers/) states that as the number of repetitions of a chance process increases, the proportion of times a specific outcome occurs approaches its true probability. This is why empirical probability becomes a good estimate of theoretical probability over many trials.
+[[The Law of Large Numbers]] states that as the number of repetitions of a chance process increases, the proportion of times a specific outcome occurs approaches its true probability. This is why empirical probability becomes a good estimate of theoretical probability over many trials.
 
 ---
 
@@ -91,4 +91,4 @@ Visual tools like Venn diagrams are helpful for understanding relationships betw
 
 ---
 
-This introduction lays the groundwork for understanding more complex probability concepts such as [Conditional Probability](./../conditional-probability/), [Independent Events and Unions of Events](./../independent-events-and-unions-of-events/), and the behavior of [Random Variables](./../random-variables/).
+This introduction lays the groundwork for understanding more complex probability concepts such as [[Conditional Probability]], [[Independent Events and Unions of Events]], and the behavior of [[Random Variables]].

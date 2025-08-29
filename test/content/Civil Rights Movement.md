@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Civil Rights Movement](./../civil-rights-movement/) 
+## ID: [[Civil Rights Movement]] 
 ## WHEN: 1954-1968 (most intense period, but seeds planted earlier and effects continue later)
 
 ## WHO:
@@ -26,7 +26,7 @@ Key Events/Legislation:
 *   **1957: Little Rock Crisis:** Federal troops enforce desegregation of Central High School in Little Rock, Arkansas.
 *   **1960: Greensboro Sit-ins:** Students peacefully protest segregation at lunch counters, inspiring similar protests across the South.
 *   **1961: Freedom Rides:** Activists challenge segregation on interstate buses.
-*   **1963: March on [Washington](./../washington/) for Jobs and Freedom:** Massive demonstration advocating for civil and economic rights; MLK's "I Have a Dream" speech.
+*   **1963: March on [[Washington]] for Jobs and Freedom:** Massive demonstration advocating for civil and economic rights; MLK's "I Have a Dream" speech.
 *   **1964: Civil Rights Act:** Outlaws discrimination based on race, color, religion, sex, or national origin.
 *   **1965: Voting Rights Act:** Prohibits racial discrimination in voting, especially in the South.
 *   **1968: Civil Rights Act of 1968 (Fair Housing Act):** Prohibited discrimination in the sale, rental, and financing of housing.
@@ -36,8 +36,8 @@ Key Events/Legislation:
 *   **Increased Political Participation:** Expanded voting rights for African Americans.
 *   **Shift in Public Opinion:** Raised awareness of racial inequality and generated support for civil rights.
 *   **Inspiration for other Movements:** Inspired other movements for social justice, including the women's rights, LGBTQ+ rights, and disability rights movements.
-*   **Continued Struggle for Equality:** While significant progress was made, racial inequality persists in areas such as housing, employment, education, and the criminal justice system. The [Civil Rights Movement](./../civil-rights-movement/) laid the foundation for ongoing efforts to achieve racial justice.
+*   **Continued Struggle for Equality:** While significant progress was made, racial inequality persists in areas such as housing, employment, education, and the criminal justice system. The [[Civil Rights Movement]] laid the foundation for ongoing efforts to achieve racial justice.
 *   **Divisions within the Movement:** Exposed different philosophies and approaches to achieving racial equality (e.g., nonviolence vs. Black Power), leading to internal tensions and debates.
 *   **Transformation of American Society:** Profoundly changed social norms, legal structures, and political landscape of the United States.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]
