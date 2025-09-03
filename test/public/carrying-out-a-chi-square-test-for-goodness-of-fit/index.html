@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="carrying-out-a-chi-square-test-for-goodness-of-fit">Carrying Out a Chi-Square Test for Goodness of Fit</h1>
-<p>The Chi-Square Test for Goodness of Fit is a powerful statistical tool used to determine if an observed distribution of a categorical variable differs significantly from a hypothesized or expected distribution. Before carrying out the test, it&rsquo;s essential to have properly [[Setting Up a Chi-Square Goodness of Fit Test]] by stating hypotheses and defining parameters.</p>
+<p>The Chi-Square Test for Goodness of Fit is a powerful statistical tool used to determine if an observed distribution of a categorical variable differs significantly from a hypothesized or expected distribution. Before carrying out the test, it&rsquo;s essential to have properly Setting Up a Chi-Square Goodness of Fit Test by stating hypotheses and defining parameters.</p>
 <hr>
 <h2 id="conditions-for-inference">Conditions for Inference</h2>
 <p>Before calculating the test statistic and p-value, we must verify that the conditions for performing a Chi-Square Goodness of Fit test are met. These are:</p>
@@ -60,7 +60,7 @@ $$<br>
 Where:</p>
 <ul>
 <li><strong>Observed (O)</strong>: The actual count for each category from the sample.</li>
-<li><strong>Expected (E)</strong>: The count that would be expected for each category if the null hypothesis were true. These are calculated as  $ E = n \times p_i $ , where  $ n $  is the total sample size and  $ p_i $  is the hypothesized proportion for that category. [[Expected Counts in Two-Way Tables]] is a related concept for two-way tables, but here we use the hypothesized proportions.</li>
+<li><strong>Expected (E)</strong>: The count that would be expected for each category if the null hypothesis were true. These are calculated as  $ E = n \times p_i $ , where  $ n $  is the total sample size and  $ p_i $  is the hypothesized proportion for that category. Expected Counts in Two-Way Tables is a related concept for two-way tables, but here we use the hypothesized proportions.</li>
 <li>** $ \sum $ **: Sum of these values over all categories.</li>
 </ul>
 <p>A larger  $ \chi^2 $  value indicates a greater discrepancy between the observed and expected distributions, providing stronger evidence against the null hypothesis.</p>
@@ -78,7 +78,7 @@ The degrees of freedom determine the specific shape of the  $ \chi^2 $  distribu
 <li>You can use a calculator&rsquo;s <code> $ \chi^2 $ cdf</code> function (e.g., <code> $ \chi^2 $ cdf(lower_bound =  $ \chi^2 $ _statistic, upper_bound = E99, df)</code>).</li>
 <li>Alternatively, statistical software will provide the p-value directly.</li>
 </ul>
-<p>A small p-value (typically less than the significance level  $ \alpha $ ) suggests that the observed differences are unlikely to have occurred by chance if the null hypothesis were true, leading to rejection of  $ H_0 $ . [[Interpreting p-Values]] provides more detail on this.</p>
+<p>A small p-value (typically less than the significance level  $ \alpha $ ) suggests that the observed differences are unlikely to have occurred by chance if the null hypothesis were true, leading to rejection of  $ H_0 $ . Interpreting p-Values provides more detail on this.</p>
 <hr>
 <h2 id="conclusion">Conclusion</h2>
 <p>The final step is to make a conclusion in the context of the problem, linking back to the null and alternative hypotheses. This involves comparing the p-value to the chosen significance level  $ \alpha $ .</p>
@@ -86,7 +86,7 @@ The degrees of freedom determine the specific shape of the  $ \chi^2 $  distribu
 <li>**If p-value  $ &lt; \alpha $ **: We reject the null hypothesis ( $ H_0 $ ). There is convincing evidence that the observed distribution of the categorical variable is significantly different from the hypothesized distribution.</li>
 <li>**If p-value  $ \ge \alpha $ **: We fail to reject the null hypothesis ( $ H_0 $ ). There is not convincing evidence that the observed distribution of the categorical variable is significantly different from the hypothesized distribution.</li>
 </ul>
-<p>Remember that failing to reject  $ H_0 $  does not mean we accept  $ H_0 $ ; it simply means we don&rsquo;t have enough evidence to claim a difference. [[Concluding a Test for a Population Proportion]] offers a general framework for drawing conclusions in hypothesis tests.</p>
+<p>Remember that failing to reject  $ H_0 $  does not mean we accept  $ H_0 $ ; it simply means we don&rsquo;t have enough evidence to claim a difference. Concluding a Test for a Population Proportion offers a general framework for drawing conclusions in hypothesis tests.</p>
 
 </main>
 

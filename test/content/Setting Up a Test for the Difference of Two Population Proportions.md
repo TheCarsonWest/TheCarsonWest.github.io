@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Setting Up a Test for the Difference of Two Population Proportions
 
 When we want to compare the proportion of "successes" between two distinct populations or groups, we use a two-sample  $ z $ -test for the difference of population proportions. This test helps us determine if an observed difference in sample proportions is statistically significant or if it could reasonably occur by chance, assuming there's no real difference in the populations.
@@ -33,7 +33,7 @@ To ensure the validity of our test results, specific conditions must be met. The
 
 | Condition               | Description                                                                                                                                                                                                                                                                                                                                                            |
 | :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Random**              | The data must come from two independent random samples from the populations of interest, or from two groups in a randomized experiment. [[Random Sampling and a Collection]]                                                                                                                                                                                               |
+| **Random**              | The data must come from two independent random samples from the populations of interest, or from two groups in a randomized experiment. Random Sampling and a Collection                                                                                                                                                                                               |
 | **Independent**         | Observations within each sample must be independent. When sampling without replacement, the population size must be at least 10 times the sample size for both populations. That is,  $ N_1 \ge 10n_1 $  and  $ N_2 \ge 10n_2 $ . Also, the two samples/groups themselves must be independent of each other.                                                                       |
 | **Normal (Large Counts)** | The sampling distribution of  $ \hat{p}_1 - \hat{p}_2 $  must be approximately normal. This is satisfied if there are at least 10 "successes" and at least 10 "failures" in *each* sample, using the *pooled* proportion. <br>  $ n_1 \hat{p}_c \ge 10 $ ,  $ n_1 (1 - \hat{p}_c) \ge 10 $  <br>  $ n_2 \hat{p}_c \ge 10 $ ,  $ n_2 (1 - \hat{p}_c) \ge 10 $  |
 
@@ -56,7 +56,7 @@ The formula for the  $ z $ -test statistic is:
 Where:
 *    $ \hat{p}_1 $  is the sample proportion for Population 1 ( $ x_1/n_1 $ ).
 *    $ \hat{p}_2 $  is the sample proportion for Population 2 ( $ x_2/n_2 $ ).
-*    $ \hat{p}_c $  is the [[Pooled Proportion]] (calculated above).
+*    $ \hat{p}_c $  is the Pooled Proportion (calculated above).
 *    $ n_1 $  and  $ n_2 $  are the sample sizes.
 
-This  $ z $ -statistic follows a standard normal distribution if the conditions are met and the null hypothesis is true. Once the test statistic is calculated, it is used to find the [[Interpreting p-Values|p-value]] for the test. For the next steps in the process, refer to [[Carrying Out a Test for the Difference of Two Population Proportions]].
+This  $ z $ -statistic follows a standard normal distribution if the conditions are met and the null hypothesis is true. Once the test statistic is calculated, it is used to find the Interpreting p-Values|p-value for the test. For the next steps in the process, refer to Carrying Out a Test for the Difference of Two Population Proportions.

@@ -36,17 +36,17 @@
 </div>
 
 <main>
-<h1 id="mutable-vs-immutable-types">[[Mutable vs Immutable Types]]</h1>
-<h1 id="data-structures-in-python">[[Data Structures in Python]]</h1>
+<h1 id="mutable-vs-immutable-types">Mutable vs Immutable Types</h1>
+<h1 id="data-structures-in-python">Data Structures in Python</h1>
 <p>This note covers the fundamental data structures in Python.  I&rsquo;ll need to expand on several of these in separate notes.</p>
 <p><strong>1. Built-in Data Structures:</strong></p>
 <p>Python offers several built-in data structures:</p>
 <ul>
-<li><strong>[[Lists]]:</strong> Ordered, mutable (changeable) sequences of items.  Allow duplicate elements.</li>
+<li><strong>Lists:</strong> Ordered, mutable (changeable) sequences of items.  Allow duplicate elements.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#34;hello&#34;</span>, <span style="color:#ae81ff">3.14</span>, <span style="color:#66d9ef">True</span>]]
 </span></span></code></pre></div><ul>
-<li><strong>[[Tuples]]:</strong> Ordered, immutable (unchangeable) sequences of items. Allow duplicate elements.  Useful for representing fixed collections of data.</li>
+<li><strong>Tuples:</strong> Ordered, immutable (unchangeable) sequences of items. Allow duplicate elements.  Useful for representing fixed collections of data.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_tuple <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#e6db74">&#34;hello&#34;</span>, <span style="color:#ae81ff">3.14</span>, <span style="color:#66d9ef">True</span>)
 </span></span></code></pre></div><ul>
@@ -54,16 +54,16 @@
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_set <span style="color:#f92672">=</span> {<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>} <span style="color:#75715e"># {1, 2, 3, 4}</span>
 </span></span></code></pre></div><ul>
-<li><strong>[[Dictionaries]]:</strong>  Unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), values can be any data type.  Provides efficient lookups by key.</li>
+<li><strong>Dictionaries:</strong>  Unordered collections of key-value pairs.  Keys must be immutable (e.g., strings, numbers, tuples), values can be any data type.  Provides efficient lookups by key.</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Alice&#34;</span>, <span style="color:#e6db74">&#34;age&#34;</span>: <span style="color:#ae81ff">30</span>, <span style="color:#e6db74">&#34;city&#34;</span>: <span style="color:#e6db74">&#34;[[New York]]&#34;</span>}
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;name&#34;</span>: <span style="color:#e6db74">&#34;Alice&#34;</span>, <span style="color:#e6db74">&#34;age&#34;</span>: <span style="color:#ae81ff">30</span>, <span style="color:#e6db74">&#34;city&#34;</span>: <span style="color:#e6db74">&#34;New York&#34;</span>}
 </span></span></code></pre></div><p><strong>2.  Data Structure Operations:</strong></p>
 <p>Each data structure has its own set of operations (methods):</p>
 <ul>
-<li><strong>[[Lists]]:</strong>  <code>append()</code>, <code>insert()</code>, <code>remove()</code>, <code>pop()</code>, <code>sort()</code>, <code>reverse()</code>, <code>index()</code>, <code>count()</code> etc.  ([[List Methods]])</li>
-<li><strong>[[Tuples]]:</strong>  Limited operations due to immutability.  <code>index()</code>, <code>count()</code>. ([[Tuple Methods]])</li>
-<li><strong>Sets:</strong> <code>add()</code>, <code>remove()</code>, <code>union()</code>, <code>intersection()</code>, <code>difference()</code> etc. ([[Set Methods]])</li>
-<li><strong>[[Dictionaries]]:</strong> <code>get()</code>, <code>items()</code>, <code>keys()</code>, <code>values()</code>, <code>update()</code>, <code>pop()</code>, <code>popitem()</code> etc. ([[Dictionary Methods]])</li>
+<li><strong>Lists:</strong>  <code>append()</code>, <code>insert()</code>, <code>remove()</code>, <code>pop()</code>, <code>sort()</code>, <code>reverse()</code>, <code>index()</code>, <code>count()</code> etc.  (List Methods)</li>
+<li><strong>Tuples:</strong>  Limited operations due to immutability.  <code>index()</code>, <code>count()</code>. (Tuple Methods)</li>
+<li><strong>Sets:</strong> <code>add()</code>, <code>remove()</code>, <code>union()</code>, <code>intersection()</code>, <code>difference()</code> etc. (Set Methods)</li>
+<li><strong>Dictionaries:</strong> <code>get()</code>, <code>items()</code>, <code>keys()</code>, <code>values()</code>, <code>update()</code>, <code>pop()</code>, <code>popitem()</code> etc. (Dictionary Methods)</li>
 </ul>
 <p><strong>3. Choosing the Right Data Structure:</strong></p>
 <p>The choice of data structure depends on the specific needs of your program:</p>
@@ -73,7 +73,7 @@
 <li>Use sets when you need to store unique items and perform set operations.</li>
 <li>Use dictionaries when you need to store data in key-value pairs for efficient lookups.</li>
 </ul>
-<p><strong>4.  More Advanced Data Structures ([[Advanced Data Structures]])</strong></p>
+<p><strong>4.  More Advanced Data Structures (Advanced Data Structures)</strong></p>
 <p>This section will cover more advanced data structures, like:</p>
 <ul>
 <li><strong>Deque (double-ended queue):</strong>  Efficient for adding and removing elements from both ends.</li>
@@ -86,7 +86,7 @@
 <li>Python documentation on built-in types.</li>
 <li>Relevant chapters in a Python textbook.</li>
 </ul>
-<p><strong>Linked Notes:</strong> [[List Methods]], [[Tuple Methods]], [[Set Methods]], [[Dictionary Methods]], [[Advanced Data Structures]]</p>
+<p><strong>Linked Notes:</strong> List Methods, Tuple Methods, Set Methods, Dictionary Methods, Advanced Data Structures</p>
 
 </main>
 

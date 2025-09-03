@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APHG Unit 2]]
+# APHG Unit 2
 
-The Epidemiological Transition Model ([[ETM]]) describes the changing patterns of disease and death within a population over time. It closely aligns with the [[Demographic Transition Model]] (DTM), illustrating how population health shifts alongside population growth and development.
+The Epidemiological Transition Model (ETM) describes the changing patterns of disease and death within a population over time. It closely aligns with the Demographic Transition Model (DTM), illustrating how population health shifts alongside population growth and development.
 
-**Where it fits in the [[Demographic Transition Model]]:**
+**Where it fits in the Demographic Transition Model:**
 
-The [[ETM]] is considered a **sub-model** of the DTM. It complements the DTM's focus on population growth and age structure by explaining the **corresponding changes in disease profiles**.  
+The ETM is considered a **sub-model** of the DTM. It complements the DTM's focus on population growth and age structure by explaining the **corresponding changes in disease profiles**.  
 
 **Stages of the Epidemiological Transition Model:**
 
@@ -58,6 +58,6 @@ The [[ETM]] is considered a **sub-model** of the DTM. It complements the DTM's f
 
 **Key Points:**
 
-* The [[ETM]] highlights the dynamic nature of disease patterns and the importance of public health interventions.
+* The ETM highlights the dynamic nature of disease patterns and the importance of public health interventions.
 * The stages are not always linear and can vary between countries and populations.
 * Factors like economic development, access to healthcare, and environmental conditions influence the transition process.

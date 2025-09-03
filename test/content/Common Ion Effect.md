@@ -47,8 +47,8 @@ As you can see, the solubility of AgCl in the NaCl solution is significantly low
 
 The common ion effect has several practical applications:
 
-* **Qualitative Analysis:**  [[Qualitative Analysis]]  Used to selectively precipitate certain ions from a solution.
-* **pH Control:** [[Buffers]]  Plays a role in buffer solutions, where a weak acid and its conjugate base (or a weak base and its conjugate acid) are present. The common ion suppresses the ionization of the weak acid or base, helping to maintain a stable pH.
+* **Qualitative Analysis:**  Qualitative Analysis  Used to selectively precipitate certain ions from a solution.
+* **pH Control:** Buffers  Plays a role in buffer solutions, where a weak acid and its conjugate base (or a weak base and its conjugate acid) are present. The common ion suppresses the ionization of the weak acid or base, helping to maintain a stable pH.
 * **Solubility Control:**  Used to control the precipitation of salts in various chemical processes.
 
 
@@ -59,6 +59,6 @@ The common ion effect has several practical applications:
 * The common ion must be the same as one of the ions comprising the sparingly soluble salt.
 
 
-## [[Le Chateliers Principle]]
-## [[Solubility Product Constant]]
-## [[Equilibrium]]
+## Le Chateliers Principle
+## Solubility Product Constant
+## Equilibrium

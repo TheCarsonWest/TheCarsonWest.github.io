@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
+# Calc home
 # Separable Equations (AP Calculus AB Rundown)
 
 ## Introduction
@@ -24,21 +24,21 @@ where  $ f(x) $  is a function of  $ x $  only, and  $ g(y) $  is a function of 
 
  $$  \frac{1}{g(y)} dy = f(x) dx
  $$  
-[[Division by Zero]]
+Division by Zero
 
 2. **Integrate both sides:** Apply the integral to both sides of the equation with respect to their respective variables.
 
  $$  \int \frac{1}{g(y)} dy = \int f(x) dx
  $$  
-[[Integration Techniques]]
+Integration Techniques
 
 3. **Solve for  $ y $  (if possible):** After integrating, you will have an equation involving  $ x $  and  $ y $ .  Attempt to isolate  $ y $  to express the solution explicitly as  $ y = F(x) $ . If this isn't feasible, leave the solution in implicit form.
 
-[[Implicit Differentiation]]
+Implicit Differentiation
 
 4. **Apply initial conditions (if given):** If an initial condition is provided (e.g.,  $ y(x_0) = y_0 $ ), substitute the values of  $ x_0 $  and  $ y_0 $  into the solution to determine the constant of integration ( $ C $ ) from the integration step.
 
-[[Initial Value Problems]]
+Initial Value Problems
 
 ## Example
 
@@ -62,9 +62,9 @@ Solve the differential equation:
 
 Separable equations are used in a wide variety of applications, including:
 
-* **Exponential Growth and Decay:** Modeling population growth, radioactive decay, and other processes where the rate of change is proportional to the current quantity. [[Exponential Growth and Decay]]
-* **Newton's Law of Cooling:** Describing the cooling or heating of an object in a surrounding medium. [[Newton's Law of Cooling]]
-* **Mixing Problems:** Analyzing the concentration of substances in tanks or containers with inflow and outflow.  [[Mixing Problems]]
+* **Exponential Growth and Decay:** Modeling population growth, radioactive decay, and other processes where the rate of change is proportional to the current quantity. Exponential Growth and Decay
+* **Newton's Law of Cooling:** Describing the cooling or heating of an object in a surrounding medium. Newton's Law of Cooling
+* **Mixing Problems:** Analyzing the concentration of substances in tanks or containers with inflow and outflow.  Mixing Problems
 
 
 This rundown provides a fundamental understanding of separable equations.  Practice solving various examples to solidify your understanding and prepare for the AP Calculus AB exam.

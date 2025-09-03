@@ -9,7 +9,7 @@
 
 ## Who:
 *   **Plaintiffs:** Oliver Brown (on behalf of his daughter Linda Brown) and other African American families
-*   **Defendant:** Board of Education of Topeka, [[Kansas]] *   **Supreme Court:** Led by Chief Justice Earl Warren
+*   **Defendant:** Board of Education of Topeka, Kansas *   **Supreme Court:** Led by Chief Justice Earl Warren
 *   **NAACP:** Thurgood Marshall (lead attorney) and the NAACP Legal Defense and Educational Fund
 
 ## What:
@@ -22,4 +22,4 @@ A landmark Supreme Court case in which the Court declared state laws establishin
 *   **Expansion of Civil Rights:** The legal arguments used in *Brown v. Board* were later applied to challenge other forms of segregation and discrimination, extending the scope of civil rights protections.
 *   **Equal Protection Clause:** Reinforced the importance of the 14th Amendment's Equal Protection Clause in guaranteeing equal rights and opportunities for all citizens.
 
-# [[IDS Unit 8]]
+# IDS Unit 8

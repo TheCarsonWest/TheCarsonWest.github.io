@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[For Loop Examples]]
-# [[List Comprehensions]] 
+# For Loop Examples
+# List Comprehensions 
 List comprehensions provide a concise way to create lists in Python.  They're essentially a shorthand for a `for` loop combined with an optional conditional statement.
 
 **Basic Syntax:**
@@ -42,10 +42,10 @@ words = ["hello", "world", "python"]]
 uppercase_words = [word.upper() for word in words]] # Output: ['HELLO', 'WORLD', 'PYTHON']]
 ```
 
-4. **Nested [[List Comprehension]] ([[Nested Loops]])**:  Creating a matrix:
+4. **Nested List Comprehension (Nested Loops)**:  Creating a matrix:
 
 ```python
-matrix = [[i*j for j in range(3]])]] for i in range(3)]] # Output: [[0, 0, 0]], [0, 1, 2, [0, 2, 4
+matrix = i*j for j in range(3)]] for i in range(3)]] # Output: 0, 0, 0, [0, 1, 2, [0, 2, 4
 ```
 
 
@@ -55,10 +55,10 @@ matrix = [[i*j for j in range(3]])]] for i in range(3)]] # Output: [[0, 0, 0]], 
 * **Efficiency:**  Can be slightly faster than traditional loops in some cases, especially for simple operations.
 
 
-**When NOT to use [[List Comprehensions]]:**
+**When NOT to use List Comprehensions:**
 
 * **Complex logic:** If your logic involves multiple nested loops or very complex conditional statements, a traditional `for` loop might be clearer.
 * **Side effects:** Avoid using list comprehensions if you need to perform actions that have side effects (like modifying external variables) within the comprehension.  This can lead to less readable and less maintainable code.
 
 
-[[Iterable Objects]]
+Iterable Objects

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Equilibrium]]
-# [[Thermodynamics]]
+# Equilibrium
+# Thermodynamics
 # Absolute Entropy and Entropy Change: An AP Chemistry Rundown
 
 ## What is Entropy?
@@ -35,9 +35,9 @@ For a chemical reaction at standard conditions (298 K and 1 atm), the standard e
 
 where *n* and *m* are the stoichiometric coefficients of the products and reactants, respectively, and  $ S^\circ $  represents the standard molar entropy of each substance.
 
-[[Standard Conditions]]
+Standard Conditions
 
-[[Third Law of Thermodynamics]]
+Third Law of Thermodynamics
 
 
 ## Predicting the Sign of  $ \Delta S $ 
@@ -62,7 +62,7 @@ Entropy is crucial in determining the spontaneity of a reaction.  It is incorpor
 where  $ \Delta G $  is the change in Gibbs free energy,  $ \Delta H $  is the change in enthalpy,  $ T $  is the temperature in Kelvin, and  $ \Delta S $  is the change in entropy.  A negative  $ \Delta G $  indicates a spontaneous process.  The contribution of entropy to spontaneity becomes more significant at higher temperatures.
 
 
-[[Gibbs Free Energy]]
+Gibbs Free Energy
 
 
 This rundown provides a foundational understanding of absolute entropy and entropy change within the context of AP Chemistry. Remember to consult your textbook and other resources for more detailed explanations and examples.

@@ -3,18 +3,18 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics Note Page: Energy of Simple Harmonic Oscillators
 
 Simple Harmonic Motion (SHM) is a special type of periodic motion where the restoring force is directly proportional to the displacement and acts in the direction opposite to the displacement. This section focuses on the energy transformations within such systems.
 
 ## Energy in SHM Systems
 
-In a system undergoing [[Defining Simple Harmonic Motion (SHM)]], such as a mass on a spring, energy continuously transforms between kinetic and potential forms. Assuming an ideal system with no damping (e.g., air resistance or friction), the total mechanical energy of the system remains constant, adhering to the principle of [[Conservation of Energy]].
+In a system undergoing Defining Simple Harmonic Motion (SHM), such as a mass on a spring, energy continuously transforms between kinetic and potential forms. Assuming an ideal system with no damping (e.g., air resistance or friction), the total mechanical energy of the system remains constant, adhering to the principle of Conservation of Energy.
 
 ### Kinetic Energy in SHM
 
-The [[Translational Kinetic Energy]] ( $ KE $ ) of an oscillating mass  $ m $  at any given instant is given by:
+The Translational Kinetic Energy ( $ KE $ ) of an oscillating mass  $ m $  at any given instant is given by:
 
  $ 
 KE = \frac{1}{2}mv^2
@@ -35,13 +35,13 @@ KE_{max} = \frac{1}{2}mA^2\omega^2
 
 ### Potential Energy in SHM
 
-For a spring-mass system, the [[Potential Energy]] stored in the spring ( $ PE_s $ ) is given by:
+For a spring-mass system, the Potential Energy stored in the spring ( $ PE_s $ ) is given by:
 
  $ 
 PE_s = \frac{1}{2}kx^2
  $ 
 
-Where  $ k $  is the [[Spring Forces|spring constant]] and  $ x $  is the displacement from the equilibrium position.
+Where  $ k $  is the Spring Forces|spring constant and  $ x $  is the displacement from the equilibrium position.
 Since  $ x(t) = A \cos(\omega t + \phi) $ , the potential energy as a function of time is:
 
  $ 
@@ -104,4 +104,4 @@ This equation is extremely useful for solving problems involving the velocity of
 v = \pm \omega \sqrt{A^2 - x^2}
  $ 
 
-[[Conservation of Energy]] is a fundamental principle for analyzing SHM systems, especially when considering the interplay between kinetic and potential energy forms. Understanding these energy transformations is crucial for comprehending the dynamics of oscillating systems.
+Conservation of Energy is a fundamental principle for analyzing SHM systems, especially when considering the interplay between kinetic and potential energy forms. Understanding these energy transformations is crucial for comprehending the dynamics of oscillating systems.

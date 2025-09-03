@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [[Camp David Accords]] 
+## ID: Camp David Accords 
 ## When: September 17, 1978
 
 ## Who:
@@ -22,6 +22,6 @@ A peace treaty signed by Egyptian President Anwar Sadat and Israeli Prime Minist
 *   **Egyptian Isolation:** Egypt faced criticism and isolation from other Arab nations for making peace with Israel.
 *   **Assassination of Sadat:** Anwar Sadat was assassinated in 1981 by Islamic extremists who opposed the peace treaty.
 *   **Framework for Future Negotiations:** Served as a framework for future negotiations and peace efforts between Israel and its Arab neighbors, although progress has been limited.
-* **US Role in Middle East:** Highlighted the growing role of the [[United States]] as a mediator and power broker in the Middle East.
+* **US Role in Middle East:** Highlighted the growing role of the United States as a mediator and power broker in the Middle East.
 
-# [[IDS Unit 8]]
+# IDS Unit 8

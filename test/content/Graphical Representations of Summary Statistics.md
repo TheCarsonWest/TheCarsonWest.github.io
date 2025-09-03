@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Graphical Representations of Summary Statistics
 
-Graphical representations of summary statistics provide powerful visual tools to understand and compare distributions of quantitative variables. While [[Summary Statistics for a Quantitative Variable]] give us numerical values for center, spread, and shape, graphs allow for quick, intuitive interpretation and identification of patterns, skewness, and outliers. They are especially useful when comparing multiple groups or understanding the overall structure of a dataset.
+Graphical representations of summary statistics provide powerful visual tools to understand and compare distributions of quantitative variables. While Summary Statistics for a Quantitative Variable give us numerical values for center, spread, and shape, graphs allow for quick, intuitive interpretation and identification of patterns, skewness, and outliers. They are especially useful when comparing multiple groups or understanding the overall structure of a dataset.
 
 ## Box Plots (Box-and-Whisker Plots)
 
-Box plots are a highly effective way to visualize the [[Summary Statistics for a Quantitative Variable]] for a quantitative variable, particularly the five-number summary. They are excellent for comparing distributions across different categories.
+Box plots are a highly effective way to visualize the Summary Statistics for a Quantitative Variable for a quantitative variable, particularly the five-number summary. They are excellent for comparing distributions across different categories.
 
 ### Components of a Box Plot
 
@@ -22,7 +22,7 @@ A standard box plot displays:
 *   **Whiskers**: Lines extending from the box to the minimum and maximum values within 1.5 times the IQR from the quartiles.
     *   Upper Fence:  $ Q3 + 1.5 \times IQR $ 
     *   Lower Fence:  $ Q1 - 1.5 \times IQR $ 
-*   **Outliers**: Individual points beyond the whiskers, indicated by dots, asterisks, or other symbols. These are values that fall outside the fences. [[Identifying Outliers]] is crucial for understanding unusual observations.
+*   **Outliers**: Individual points beyond the whiskers, indicated by dots, asterisks, or other symbols. These are values that fall outside the fences. Identifying Outliers is crucial for understanding unusual observations.
 
 ### Interpreting Box Plots
 
@@ -53,10 +53,10 @@ Any data points below -27.5 or above 112.5 would be considered outliers.
 
 ## Histograms with Summary Statistics
 
-While [[Representing a Quantitative Variable with Graphs#Histograms]] show the frequency distribution of raw data, summary statistics like the mean ( $ \mu $  or  $ \bar{x} $ ) and standard deviation ( $ \sigma $  or  $ s $ ) can be overlaid or inferred to provide additional context.
+While Representing a Quantitative Variable with Graphs#Histograms show the frequency distribution of raw data, summary statistics like the mean ( $ \mu $  or  $ \bar{x} $ ) and standard deviation ( $ \sigma $  or  $ s $ ) can be overlaid or inferred to provide additional context.
 
 *   **Mean**: Often represented by a vertical line, especially on symmetric or approximately normal distributions.
-*   **Standard Deviation**: Can be shown by adding shaded regions or additional vertical lines at  $ \bar{x} \pm s $ ,  $ \bar{x} \pm 2s $ , etc., to illustrate the spread around the mean. This is particularly useful for [[The Normal Distribution]].
+*   **Standard Deviation**: Can be shown by adding shaded regions or additional vertical lines at  $ \bar{x} \pm s $ ,  $ \bar{x} \pm 2s $ , etc., to illustrate the spread around the mean. This is particularly useful for The Normal Distribution.
 
  $$  \text{Approximate range of data (for unimodal, symmetric distributions): } \bar{x} \pm 3s
  $$  
@@ -64,4 +64,4 @@ However, it's crucial to remember that the mean and standard deviation are sensi
 
 ## Dot Plots and Stem-and-Leaf Plots
 
-[[Representing a Quantitative Variable with Graphs#Dot Plots]] and [[Representing a Quantitative Variable with Graphs#Stem-and-Leaf Plots]] also allow for a visual assessment of summary statistics, though less directly than box plots for the five-number summary. You can easily pinpoint the minimum, maximum, and visually estimate the median, quartiles, and modes from these plots. They are best for smaller datasets where individual data points are important to display.
+Representing a Quantitative Variable with Graphs#Dot Plots and Representing a Quantitative Variable with Graphs#Stem-and-Leaf Plots also allow for a visual assessment of summary statistics, though less directly than box plots for the five-number summary. You can easily pinpoint the minimum, maximum, and visually estimate the median, quartiles, and modes from these plots. They are best for smaller datasets where individual data points are important to display.

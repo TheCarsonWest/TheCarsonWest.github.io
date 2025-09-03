@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="confidence-intervals-for-the-slope-of-a-regression-model">Confidence Intervals for the Slope of a Regression Model</h1>
-<p>When we fit a [[Linear Regression Models]] to a sample of data, we obtain a sample regression line with a slope,  $ \hat{b} $ . This sample slope is a point estimate for the true, unknown slope  $ \beta $  of the population regression line. A confidence interval for  $ \beta $  provides a range of plausible values for the true slope, allowing us to make inferences about the relationship between two quantitative variables in the population.</p>
+<p>When we fit a Linear Regression Models to a sample of data, we obtain a sample regression line with a slope,  $ \hat{b} $ . This sample slope is a point estimate for the true, unknown slope  $ \beta $  of the population regression line. A confidence interval for  $ \beta $  provides a range of plausible values for the true slope, allowing us to make inferences about the relationship between two quantitative variables in the population.</p>
 <h2 id="purpose">Purpose</h2>
 <p>The primary purpose of constructing a confidence interval for the slope of a regression model is to estimate the true slope  $ \beta $  of the population regression line with a certain level of confidence. This helps us understand how the dependent variable ( $ y $ ) changes, on average, for each unit increase in the independent variable ( $ x $ ), across the entire population.</p>
 <h2 id="formula">Formula</h2>
@@ -65,7 +65,7 @@ Where:</p>
       <tr>
           <td style="text-align: left"><strong>L</strong>inear</td>
           <td style="text-align: left">The true relationship between  $ x $  and  $ y $  is linear.</td>
-          <td style="text-align: left">Examine a scatterplot of the data for linearity. A [[Residuals]] plot should show no obvious pattern.</td>
+          <td style="text-align: left">Examine a scatterplot of the data for linearity. A Residuals plot should show no obvious pattern.</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>I</strong>ndependent</td>
@@ -75,12 +75,12 @@ Where:</p>
       <tr>
           <td style="text-align: left"><strong>N</strong>ormal</td>
           <td style="text-align: left">For any fixed value of  $ x $ , the response  $ y $  varies according to a Normal distribution around the true regression line.</td>
-          <td style="text-align: left">Examine a histogram or Normal probability plot of the [[Residuals]] to check for approximate normality and absence of strong skewness or outliers.</td>
+          <td style="text-align: left">Examine a histogram or Normal probability plot of the Residuals to check for approximate normality and absence of strong skewness or outliers.</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>E</strong>qual Standard Deviation (Equal Variance)</td>
           <td style="text-align: left">The standard deviation of  $ y $  about the true regression line is the same for all values of  $ x $ .</td>
-          <td style="text-align: left">Examine the [[Residuals]] plot for a consistent spread of points around the residual = 0 line (no fanning out or in).</td>
+          <td style="text-align: left">Examine the Residuals plot for a consistent spread of points around the residual = 0 line (no fanning out or in).</td>
       </tr>
       <tr>
           <td style="text-align: left"><strong>R</strong>andom</td>
@@ -111,7 +111,7 @@ Where:</p>
 <p>&ldquo;We are [Confidence Level]% confident that the interval from [Lower Bound] to [Upper Bound] captures the true slope of the population regression line relating [explanatory variable] to [response variable].&rdquo;</p>
 <p>For example, a 95% confidence interval of (0.8, 1.2) for the slope might be interpreted as: &ldquo;We are 95% confident that for every one-unit increase in [explanatory variable], the [response variable] increases by an average of between 0.8 and 1.2 units.&rdquo;</p>
 <h2 id="relationship-to-hypothesis-testing">Relationship to Hypothesis Testing</h2>
-<p>A confidence interval for the slope is closely related to a [[Setting Up a Test for the Slope of a Regression Model]] for the slope. If a confidence interval for  $ \beta $  does not contain a hypothesized value (e.g., 0 for a test of no linear relationship), then we would reject the null hypothesis at the corresponding significance level. Conversely, if it does contain the hypothesized value, we would fail to reject the null hypothesis. This concept is explored further in [[Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval]].</p>
+<p>A confidence interval for the slope is closely related to a Setting Up a Test for the Slope of a Regression Model for the slope. If a confidence interval for  $ \beta $  does not contain a hypothesized value (e.g., 0 for a test of no linear relationship), then we would reject the null hypothesis at the corresponding significance level. Conversely, if it does contain the hypothesized value, we would fail to reject the null hypothesis. This concept is explored further in Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval.</p>
 
 </main>
 

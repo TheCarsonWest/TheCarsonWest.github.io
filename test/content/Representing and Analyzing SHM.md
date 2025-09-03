@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics Note Page: Representing and Analyzing SHM
 
-Simple Harmonic Motion (SHM) is a special type of periodic motion where the restoring force is directly proportional to the displacement from equilibrium and acts in the opposite direction. Understanding how to represent and analyze SHM mathematically is crucial for predicting the behavior of oscillating systems. This page builds upon the concepts introduced in [[Defining Simple Harmonic Motion (SHM)]] and [[Frequency and Period of SHM]].
+Simple Harmonic Motion (SHM) is a special type of periodic motion where the restoring force is directly proportional to the displacement from equilibrium and acts in the opposite direction. Understanding how to represent and analyze SHM mathematically is crucial for predicting the behavior of oscillating systems. This page builds upon the concepts introduced in Defining Simple Harmonic Motion (SHM) and Frequency and Period of SHM.
 
 ## I. Position as a Function of Time
 
@@ -16,10 +16,10 @@ The displacement of an object undergoing SHM from its equilibrium position can b
 
 Where:
 *    $ x(t) $  is the displacement from equilibrium at time  $ t $ .
-*    $ A $  is the [[Amplitude of SHM]], the maximum displacement from equilibrium.
-*    $ \omega $  (omega) is the [[Angular Frequency in SHM]], representing how fast the oscillation occurs in radians per second. It is related to the period  $ T $  and frequency  $ f $  by  $ \omega = \frac{2\pi}{T} = 2\pi f $ .
+*    $ A $  is the Amplitude of SHM, the maximum displacement from equilibrium.
+*    $ \omega $  (omega) is the Angular Frequency in SHM, representing how fast the oscillation occurs in radians per second. It is related to the period  $ T $  and frequency  $ f $  by  $ \omega = \frac{2\pi}{T} = 2\pi f $ .
 *    $ t $  is time.
-*    $ \phi $  (phi) is the [[Phase Constant in SHM]], which accounts for the initial conditions of the motion (i.e., the displacement at  $ t=0 $ ).
+*    $ \phi $  (phi) is the Phase Constant in SHM, which accounts for the initial conditions of the motion (i.e., the displacement at  $ t=0 $ ).
 
 **Example:** If an object starts at its positive maximum displacement ( $ x=A $ ) at  $ t=0 $ , then  $ A = A \cos(\phi) $ , which implies  $ \phi = 0 $ . If it starts at equilibrium moving in the positive direction ( $ x=0, v>0 $ ) at  $ t=0 $ , then  $ 0 = A \cos(\phi) $ , which implies  $ \phi = -\frac{\pi}{2} $  (or  $ \frac{3\pi}{2} $ ).
 
@@ -72,4 +72,4 @@ The position, velocity, and acceleration in SHM are all sinusoidal functions but
 *   Acceleration is  $ 180^\circ $  (or  $ \pi $  radians) out of phase with position. When position is positive maximum, acceleration is negative maximum, and vice-versa.
 *   Acceleration is  $ 90^\circ $  (or  $ \pi/2 $  radians) out of phase with velocity.
 
-This phase relationship is critical for understanding the energy transformations in SHM, which is covered in [[Energy of Simple Harmonic Oscillators]].
+This phase relationship is critical for understanding the energy transformations in SHM, which is covered in Energy of Simple Harmonic Oscillators.

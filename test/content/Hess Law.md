@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Thermodynamics]]
+# Thermodynamics
 # Hess's Law 
-Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken.  In other words, if a reaction can be carried out in a series of steps, the sum of the enthalpy changes ( $ \Delta H $ ) for the individual steps will be equal to the overall enthalpy change for the direct reaction. This is a consequence of enthalpy being a state function. [[State Functions]]
+Hess's Law states that the total enthalpy change for a reaction is independent of the pathway taken.  In other words, if a reaction can be carried out in a series of steps, the sum of the enthalpy changes ( $ \Delta H $ ) for the individual steps will be equal to the overall enthalpy change for the direct reaction. This is a consequence of enthalpy being a state function. State Functions
 
 ## Applying Hess's Law
 
@@ -55,7 +55,7 @@ Therefore, the enthalpy change for the target reaction is -283.0 kJ.
 
 ## Connection to Standard Enthalpies of Formation
 
-Hess's Law is closely related to [[Standard Enthalpies of Formation]].  The standard enthalpy of formation ( $ \Delta H_f^\circ $ ) of a compound is the enthalpy change for the formation of one mole of the compound from its elements in their standard states.  Hess's Law can be used to calculate the standard enthalpy change of any reaction using the standard enthalpies of formation of the reactants and products:
+Hess's Law is closely related to Standard Enthalpies of Formation.  The standard enthalpy of formation ( $ \Delta H_f^\circ $ ) of a compound is the enthalpy change for the formation of one mole of the compound from its elements in their standard states.  Hess's Law can be used to calculate the standard enthalpy change of any reaction using the standard enthalpies of formation of the reactants and products:
 
  $ \Delta H^\circ_{rxn} = \sum n\Delta H_f^\circ (\text{products}) - \sum m\Delta H_f^\circ (\text{reactants}) $ 
 
@@ -64,4 +64,4 @@ where *n* and *m* are the stoichiometric coefficients of the products and reacta
 
 ## Bond Enthalpies and Hess's Law
 
-Hess's Law can also be applied using [[Bond Enthalpies]] to estimate reaction enthalpies.  This involves considering the energy required to break bonds in the reactants and the energy released when bonds are formed in the products.
+Hess's Law can also be applied using Bond Enthalpies to estimate reaction enthalpies.  This involves considering the energy required to break bonds in the reactants and the energy released when bonds are formed in the products.

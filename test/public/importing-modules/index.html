@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="python-1-home">[[Python 1 Home]]</h1>
-<h1 id="importing-modules">[[Importing Modules]]</h1>
+<h1 id="python-1-home">Python 1 Home</h1>
+<h1 id="importing-modules">Importing Modules</h1>
 <p>This note covers importing modules in Python.</p>
 <p>Modules are files containing Python definitions and statements.  They provide a way to organize and reuse code.</p>
 <p><strong>Ways to Import:</strong></p>
@@ -45,7 +45,7 @@
 <li><code>import module_name</code>: Imports the entire module. Access members using <code>module_name.member</code>.</li>
 <li><code>from module_name import member_name</code>: Imports a specific member (function, class, variable).  Access directly using <code>member_name</code>.</li>
 <li><code>from module_name import member1, member2</code>: Imports multiple specific members.</li>
-<li><code>from module_name import *</code>: Imports all members.  Generally discouraged due to potential naming conflicts.  ([[Namespaces and Scope]])</li>
+<li><code>from module_name import *</code>: Imports all members.  Generally discouraged due to potential naming conflicts.  (Namespaces and Scope)</li>
 </ul>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> math
@@ -59,7 +59,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> os <span style="color:#f92672">import</span> path, getcwd
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>print(getcwd()) <span style="color:#75715e">#Prints current working directory.  </span>
-</span></span></code></pre></div><p><strong>[[Module Search Path]]:</strong></p>
+</span></span></code></pre></div><p><strong>Module Search Path:</strong></p>
 <p>Python searches for modules in a specific order:</p>
 <ol>
 <li>The current directory.</li>
@@ -67,7 +67,7 @@
 <li>Standard library directories.</li>
 <li>Installation-specific directories (site-packages).</li>
 </ol>
-<p>([[PYTHONPATH Environment Variable]])</p>
+<p>(PYTHONPATH Environment Variable)</p>
 <p><strong>Packages:</strong></p>
 <p>Packages are a way to organize modules into directories. A package directory must contain an <code>__init__.py</code> file (can be empty).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># mypackage/</span>
@@ -78,15 +78,15 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> mypackage.module1
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> mypackage.module2 
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> mypackage <span style="color:#f92672">import</span> module1, module2
-</span></span></code></pre></div><p>([[Packages and <strong>init</strong>.py]])</p>
+</span></span></code></pre></div><p>(Packages and <strong>init</strong>.py)</p>
 <p><strong>Relative Imports:</strong></p>
 <p>Within a package, you can import modules relative to the current module&rsquo;s location.  Use leading dots to specify the relative path.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># mypackage/module1.py</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">from</span> .module2 <span style="color:#f92672">import</span> my_function <span style="color:#75715e"># Imports my_function from module2 within mypackage</span>
-</span></span></code></pre></div><p>([[Relative Imports]])</p>
+</span></span></code></pre></div><p>(Relative Imports)</p>
 <p><strong>Built-in Modules:</strong></p>
 <p>Python comes with many built-in modules (e.g., <code>math</code>, <code>os</code>, <code>random</code>, <code>sys</code>).  These are always available without needing to install them.</p>
-<p>([[Standard Library Modules]])</p>
+<p>(Standard Library Modules)</p>
 
 </main>
 

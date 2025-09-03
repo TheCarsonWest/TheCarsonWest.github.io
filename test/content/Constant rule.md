@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## [[Constant rule]] ###  $$  \frac{d}{dx}[C]] = 0  $$  
+## Constant rule ###  $$  \frac{d}{dx}[C]] = 0  $$  
 
 
-# [[Derivative Rules]]
+# Derivative Rules

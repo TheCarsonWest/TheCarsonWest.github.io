@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1: Topic 2.6 - Gravitational Force
 
 ## Introduction to Gravitational Force
 
-[[Gravitational Force]] is one of the four fundamental forces of nature, responsible for the attraction between any two objects with mass. It's a fundamental concept in physics, explaining everything from why an apple falls from a tree to the orbits of planets around the Sun. Unlike electric or magnetic forces, gravity is always attractive.
+Gravitational Force is one of the four fundamental forces of nature, responsible for the attraction between any two objects with mass. It's a fundamental concept in physics, explaining everything from why an apple falls from a tree to the orbits of planets around the Sun. Unlike electric or magnetic forces, gravity is always attractive.
 
 ## Newton's Law of Universal Gravitation
 
@@ -41,7 +41,7 @@ The  $ 1/r^2 $  term in the equation signifies an **inverse square law**. This m
 
 ### Vector Nature of Gravitational Force
 
-[[Forces and Free-Body Diagrams]] are vector quantities, meaning they have both magnitude and direction. The gravitational force acts along the line connecting the centers of the two masses. For  $ m_1 $  attracting  $ m_2 $ , the force  $ F_{12} $  on  $ m_2 $  due to  $ m_1 $  points towards  $ m_1 $ . By [[Newton’s Third Law]], the force  $ F_{21} $  on  $ m_1 $  due to  $ m_2 $  is equal in magnitude and opposite in direction to  $ F_{12} $ .
+Forces and Free-Body Diagrams are vector quantities, meaning they have both magnitude and direction. The gravitational force acts along the line connecting the centers of the two masses. For  $ m_1 $  attracting  $ m_2 $ , the force  $ F_{12} $  on  $ m_2 $  due to  $ m_1 $  points towards  $ m_1 $ . By Newton’s Third Law, the force  $ F_{21} $  on  $ m_1 $  due to  $ m_2 $  is equal in magnitude and opposite in direction to  $ F_{12} $ .
 
 ## Gravitational Field and Acceleration Due to Gravity ( $ g $ )
 

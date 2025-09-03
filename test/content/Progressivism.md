@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [[Progressivism]] (1890s-1920s)
+## ID: Progressivism (1890s-1920s)
 
 ## When: 1890s-1920s
 
 ## Who: 
-* **Reformers:**  A diverse group including journalists (muckrakers), social workers, labor activists, politicians (e.g., [[Theodore Roosevelt]], [[Woodrow Wilson]]), and intellectuals.  Specific individuals like Jane Addams ([[Hull House]]), Ida B. Wells (anti-lynching), and Upton Sinclair ( *[[The Jungle]]*) are important examples.
+* **Reformers:**  A diverse group including journalists (muckrakers), social workers, labor activists, politicians (e.g., Theodore Roosevelt, Woodrow Wilson), and intellectuals.  Specific individuals like Jane Addams (Hull House), Ida B. Wells (anti-lynching), and Upton Sinclair ( *The Jungle*) are important examples.
 
 ## What:  
 A broad reform movement aimed at addressing social and political problems caused by industrialization, urbanization, and political corruption.  Progressives sought to improve living and working conditions, expand democracy, and regulate big business.  Key areas of focus included:
@@ -25,8 +25,8 @@ A broad reform movement aimed at addressing social and political problems caused
 * **Expanded Suffrage:**  The 19th Amendment granted women the right to vote, a major victory for the women's suffrage movement.
 * **Social Justice Advancements:**  Progress was made in areas like child labor reform, public health, and racial equality (though racial progress was limited).
 * **Increased Political Participation:**  Progressive reforms like the direct primary and initiative increased citizen involvement in the political process.
-* **Laying the Groundwork for the [[New Deal]]:**  Many of the progressive ideas and reforms laid the foundation for the [[New Deal]] programs of the 1930s.
+* **Laying the Groundwork for the New Deal:**  Many of the progressive ideas and reforms laid the foundation for the New Deal programs of the 1930s.
 * **Rise of the Regulatory State:** The Progressive Era significantly contributed to the development of a more active and interventionalist federal government, a characteristic that has persisted to this day.
 
 
-# [[IDS Unit 6]]
+# IDS Unit 6

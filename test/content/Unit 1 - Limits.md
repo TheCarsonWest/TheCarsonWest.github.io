@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
+# Calc home
 
 # Unit 1
-### [[Calculus Limits]]
-### [[Indeterminate Forms]]
+### Calculus Limits
+### Indeterminate Forms
 
-# [[Calc home]]
+# Calc home

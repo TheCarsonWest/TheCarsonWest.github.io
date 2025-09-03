@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APUSH Home]]
-# [[POTUS]]
+# APUSH Home
+# POTUS
 
-- [[Alexander Hamilton]]
-- [[Henry David Thoreau]]
+- Alexander Hamilton
+- Henry David Thoreau
 - 

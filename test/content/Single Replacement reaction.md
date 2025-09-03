@@ -15,7 +15,7 @@
 **Reactivity Series:**
 
 The reactivity of elements determines which element will replace another in a single replacement reaction. The reactivity series is a list of elements arranged in order of their decreasing reactivity. Elements at the top of the series are more reactive than those at the bottom.
-![[Pasted image 20241001204937.png]]
+!Pasted image 20241001204937.png
 **Predicting Products:**
 
 To predict the products of a single replacement reaction, use the following rules:

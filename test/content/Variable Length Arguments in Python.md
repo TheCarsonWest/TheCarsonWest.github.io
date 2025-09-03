@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python Functions]]
-# [[Variable Length Arguments in Python]] 
+# Python Functions
+# Variable Length Arguments in Python 
 Python offers flexibility in defining functions that can accept a variable number of arguments. This is achieved using two special syntaxes: `*args` and `**kwargs`.
 
 *   `*args`:  This allows a function to accept a variable number of positional arguments. These arguments are collected into a tuple.
@@ -28,7 +28,7 @@ def print_details(**kwargs):
   for key, value in kwargs.items():
     print(f"{key}: {value}")
 
-print_details(name="Alice", age=30, city="[[New York]]")
+print_details(name="Alice", age=30, city="New York")
 ```
 
 Output:
@@ -36,7 +36,7 @@ Output:
 ```
 name: Alice
 age: 30
-city: [[New York]] ```
+city: New York ```
 
 You can combine `*args` and `**kwargs` in a single function definition:
 
@@ -61,7 +61,7 @@ Keyword arguments: {'name': 'Bob', 'age': 25}
 *   `args` and `kwargs` are just conventions; you can use other names (e.g., `*numbers`, `**params`), but sticking to the convention improves readability.
 
 
-[[Tuple Unpacking]]
-[[Dictionary Manipulation]]
-[[Function Definitions]]
+Tuple Unpacking
+Dictionary Manipulation
+Function Definitions
 

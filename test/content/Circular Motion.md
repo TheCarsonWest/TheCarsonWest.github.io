@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1: Topic 2.9 - Circular Motion
 
 ## Introduction to Circular Motion
@@ -14,11 +14,11 @@ Circular motion describes the movement of an object along the circumference of a
 
 ### Uniform Circular Motion (UCM)
 
-[[Uniform Circular Motion]] is a special case where an object moves in a circular path at a constant **speed**. Despite the constant speed, the object is always accelerating because its [[Vectors and Motion in Two Dimensions|velocity vector]] is continuously changing direction.
+Uniform Circular Motion is a special case where an object moves in a circular path at a constant **speed**. Despite the constant speed, the object is always accelerating because its Vectors and Motion in Two Dimensions|velocity vector is continuously changing direction.
 
 ### Centripetal Acceleration
 
-For an object to move in a circle, there must be an acceleration directed towards the center of the circle. This is called **centripetal acceleration** ( $ a_c $ ). Without it, the object would move in a straight line tangent to the circle according to [[Newton’s First Law]].
+For an object to move in a circle, there must be an acceleration directed towards the center of the circle. This is called **centripetal acceleration** ( $ a_c $ ). Without it, the object would move in a straight line tangent to the circle according to Newton’s First Law.
 
 The magnitude of centripetal acceleration is given by:
 
@@ -37,7 +37,7 @@ Where  $ \omega $  is the angular velocity (in rad/s). Recall that  $ v = \omega
 
 ### Centripetal Force
 
-According to [[Newton’s Second Law]], if there is an acceleration, there must be a net force causing it. The force responsible for centripetal acceleration is called the **centripetal force** ( $ F_c $ ). It is always directed towards the center of the circular path, parallel to the centripetal acceleration.
+According to Newton’s Second Law, if there is an acceleration, there must be a net force causing it. The force responsible for centripetal acceleration is called the **centripetal force** ( $ F_c $ ). It is always directed towards the center of the circular path, parallel to the centripetal acceleration.
 
 The magnitude of centripetal force is:
 
@@ -49,7 +49,7 @@ Where:
 *  $ v $  is the tangential speed (in m/s)
 *  $ r $  is the radius of the circular path (in m)
 
-It's crucial to understand that "centripetal force" is not a new fundamental force, but rather a *role* played by existing forces (e.g., tension, friction, gravity, normal force). For instance, for a car turning a corner, friction provides the centripetal force. For a satellite orbiting Earth, [[Gravitational Force]] provides the centripetal force.
+It's crucial to understand that "centripetal force" is not a new fundamental force, but rather a *role* played by existing forces (e.g., tension, friction, gravity, normal force). For instance, for a car turning a corner, friction provides the centripetal force. For a satellite orbiting Earth, Gravitational Force provides the centripetal force.
 
 ### Tangential Velocity
 
@@ -74,8 +74,8 @@ Where:
 
 ### Solving Problems with Circular Motion
 
-1.  **Draw a [[Forces and Free-Body Diagrams|Free-Body Diagram]]:** Identify all forces acting on the object.
+1.  **Draw a Forces and Free-Body Diagrams|Free-Body Diagram:** Identify all forces acting on the object.
 2.  **Choose a Coordinate System:** Orient one axis (usually the y-axis) towards the center of the circular path. The other axis is tangential.
-3.  **Apply [[Newton’s Second Law]]:** Sum the forces in the radial direction and set them equal to  $ ma_c $ .
+3.  **Apply Newton’s Second Law:** Sum the forces in the radial direction and set them equal to  $ ma_c $ .
      $ \Sigma F_{radial} = ma_c = \frac{mv^2}{r} $ 
 4.  **Solve:** Use the resulting equation to find the unknown quantity. Remember that forces *causing* the circular motion are centripetal, not an extra force.

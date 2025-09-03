@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-## [[u-Substitution]] 
-This is the most fundamental technique for simplifying [[integrals]].  It involves substituting a part of the integrand with a new variable,  $ u $ , to make the integral easier to solve.
+## u-Substitution 
+This is the most fundamental technique for simplifying integrals.  It involves substituting a part of the integrand with a new variable,  $ u $ , to make the integral easier to solve.
 
 **Steps:**
 
@@ -20,4 +20,4 @@ Let  $ u = x^2 + 1 $ , then  $ du = 2x dx $ , so  $ x dx = \frac{1}{2} du $ .
 
 The integral becomes:  $ \int u^3 \frac{1}{2} du = \frac{1}{8}u^4 + C = \frac{1}{8}(x^2 + 1)^4 + C $ 
 
-# [[Techniques of Integration]]
+# Techniques of Integration

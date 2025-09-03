@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics: Topic 6.5 - Rolling
 
 ## 1. Introduction to Rolling Motion
@@ -46,7 +46,7 @@ To analyze the dynamics of rolling, we use Newton's Second Law for both translat
 
 2.  **Rotational Motion (about the center of mass):**
      $  \sum \tau = I \alpha  $ 
-    where  $ I $  is the [[Rotational Inertia]] of the object about its center of mass.
+    where  $ I $  is the Rotational Inertia of the object about its center of mass.
 
 **Friction's Role in Rolling:**
 For an object to roll, there must be a force that provides the torque needed for rotation. This is often **static friction**.
@@ -71,9 +71,9 @@ This equation shows that the total kinetic energy depends on both the object's m
 
 ## 6. Rolling Down an Incline
 
-When different objects (e.g., solid cylinder, hollow cylinder, sphere) roll down an incline without slipping, they all have the same gravitational potential energy at the top. However, they will reach the bottom with different speeds due to their different [[Rotational Inertia]].
+When different objects (e.g., solid cylinder, hollow cylinder, sphere) roll down an incline without slipping, they all have the same gravitational potential energy at the top. However, they will reach the bottom with different speeds due to their different Rotational Inertia.
 
-By [[Conservation of Energy]]:
+By Conservation of Energy:
  $  PE_{initial} + K_{initial} = PE_{final} + K_{final}  $ 
 If starting from rest ( $ K_{initial}=0 $ ) at height  $ h $  ( $ PE_{final}=0 $  at bottom):
  $  Mgh = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} I_{CM} \omega^2  $ 

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Acids and Bases]]
+# Acids and Bases
 # Polyprotic Acids: AP Chemistry Rundown
 
 Polyprotic acids are acids that can donate more than one proton (H⁺) per molecule in solution. This means they have multiple ionization steps, each with its own equilibrium constant.

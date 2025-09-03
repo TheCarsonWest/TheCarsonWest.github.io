@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics Note Page: Topic 7.2 - Frequency and Period of SHM
 
 This page delves into the fundamental concepts of frequency and period, crucial for understanding Simple Harmonic Motion (SHM). These quantities quantify how often an oscillation repeats and how long it takes for a single cycle.
 
 ## I. Defining Frequency and Period
 
-In [[Defining Simple Harmonic Motion (SHM)]], objects oscillate back and forth about an equilibrium position. Frequency ( $ f $ ) and Period ( $ T $ ) are two key measures of this oscillatory motion.
+In Defining Simple Harmonic Motion (SHM), objects oscillate back and forth about an equilibrium position. Frequency ( $ f $ ) and Period ( $ T $ ) are two key measures of this oscillatory motion.
 
 ### A. Period ( $ T $ )
 The period is the time it takes for one complete cycle of oscillation.
@@ -40,7 +40,7 @@ f = \frac{1}{T}
 
 ## III. Angular Frequency ( $ \omega $ )
 
-In addition to linear frequency ( $ f $ ), [[Representing and Analyzing SHM]] often uses **angular frequency** ( $ \omega $ ). It represents the rate of change of the angular position (or phase) of the oscillating object, analogous to angular speed in [[Circular Motion]].
+In addition to linear frequency ( $ f $ ), Representing and Analyzing SHM often uses **angular frequency** ( $ \omega $ ). It represents the rate of change of the angular position (or phase) of the oscillating object, analogous to angular speed in Circular Motion.
 
 *   **Units**: Radians per second (rad/s)
 *   **Relationship**: Angular frequency is directly proportional to linear frequency and inversely proportional to the period:
@@ -71,7 +71,7 @@ For a mass ( $ m $ ) attached to an ideal spring with spring constant ( $ k $ ),
      $ 
     \omega = \sqrt{\frac{k}{m}}
      $ 
-    **Key Insight**: The period and frequency *do not* depend on the amplitude of the oscillation. They depend only on the mass and the [[Spring Forces|spring constant]]. A stiffer spring (larger  $ k $ ) leads to a higher frequency and shorter period. A larger mass (larger  $ m $ ) leads to a lower frequency and longer period.
+    **Key Insight**: The period and frequency *do not* depend on the amplitude of the oscillation. They depend only on the mass and the Spring Forces|spring constant. A stiffer spring (larger  $ k $ ) leads to a higher frequency and shorter period. A larger mass (larger  $ m $ ) leads to a lower frequency and longer period.
 
 ### B. Simple Pendulum
 
@@ -89,7 +89,7 @@ For a simple pendulum consisting of a point mass ( $ m $ ) suspended by a light 
      $ 
     \omega = \sqrt{\frac{g}{L}}
      $ 
-    **Key Insight**: For small angles (typically less than 15 degrees), the period and frequency *do not* depend on the mass of the bob or the amplitude of the swing. They depend only on the length of the string and the [[Gravitational Force|acceleration due to gravity]] ( $ g $ ). A longer pendulum (larger  $ L $ ) leads to a longer period and lower frequency.
+    **Key Insight**: For small angles (typically less than 15 degrees), the period and frequency *do not* depend on the mass of the bob or the amplitude of the swing. They depend only on the length of the string and the Gravitational Force|acceleration due to gravity ( $ g $ ). A longer pendulum (larger  $ L $ ) leads to a longer period and lower frequency.
 
 ### Summary Table
 

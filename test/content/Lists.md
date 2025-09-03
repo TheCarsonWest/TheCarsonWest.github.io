@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python 1 Home]]
-# [[Lists]]  [[Lists]] are ordered, mutable (changeable) sequences of items.  They can contain items of different data types.
+# Python 1 Home
+# Lists  Lists are ordered, mutable (changeable) sequences of items.  They can contain items of different data types.
 
-**Creating [[Lists]]:**
+**Creating Lists:**
 
 ```python
 my_list = 1, 2, "hello", 3.14, True]]
@@ -14,7 +14,7 @@ empty_list = 1
 ```
 
 **Accessing Elements:**
- [[Lists]] are zero-indexed.
+ Lists are zero-indexed.
 
 ```python
 first_element = my_list[0]]  # 1
@@ -48,10 +48,10 @@ print(my_list)  # Output will depend on previous operations.
 ```
 
 
-**[[List Comprehensions]]:** [[List Comprehension]]
+**List Comprehensions:** List Comprehension
 
 
-**Iterating through [[Lists]]:**
+**Iterating through Lists:**
 
 ```python
 for item in my_list:
@@ -68,6 +68,6 @@ for i, item in enumerate(my_list):
 * Membership: `item in list`, `item not in list`
 
 
-**Nested [[Lists]]:** [[Multidimensional Lists]]
+**Nested Lists:** Multidimensional Lists
 
-**Mutable vs. Immutable:** [[Mutable vs Immutable Types]]
+**Mutable vs. Immutable:** Mutable vs Immutable Types

@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Abstract Classes]]
-# Python Notes: [[ABC Module]] 
-**Current String:** `[[ABC Module]]`
+# Abstract Classes
+# Python Notes: ABC Module 
+**Current String:** `ABC Module`
 
-**Full List:** `['[[ABC Module]]']]`
+**Full List:** `['ABC Module']]`
 
 
 The `ABC` module in Python stands for **Abstract Base Classes**.  It's used to define interfaces for classes.  This means you specify *what* methods a class *must* have, without specifying *how* those methods are implemented.
@@ -69,14 +69,14 @@ print(f"Rectangle Perimeter: {rectangle.perimeter()}")
 
 Related Notes:
 
-* [[Abstract Methods]]
-* [[Decorators]]
-* [[Inheritance]]
+* Abstract Methods
+* Decorators
+* Inheritance
 
 
 Further points to consider:
 
-*   [[Error Handling]]:  How to handle situations where subclasses fail to implement required abstract methods.
+*   Error Handling:  How to handle situations where subclasses fail to implement required abstract methods.
 *   Benefits of using ABCs:  Improved code organization, maintainability, and extensibility.  Enforcing a consistent interface across different classes.
 *   Use Cases:  Examples of when using ABCs is particularly beneficial (e.g., designing APIs, working with polymorphic behavior).
 

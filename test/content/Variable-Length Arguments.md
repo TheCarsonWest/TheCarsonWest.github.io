@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Function Overloading]]
-# [[Variable-Length Arguments]] in Python
+# Function Overloading
+# Variable-Length Arguments in Python
 
-Python offers flexibility in [[Function Definitions]] by allowing variable-length arguments. This means you can define functions that accept a varying number of arguments, without needing to specify the exact number beforehand.  There are two main ways to achieve this:
+Python offers flexibility in Function Definitions by allowing variable-length arguments. This means you can define functions that accept a varying number of arguments, without needing to specify the exact number beforehand.  There are two main ways to achieve this:
 
 * **`*args` (Arbitrary Positional Arguments):**
 
@@ -33,7 +33,7 @@ def print_details(**kwargs):
   for key, value in kwargs.items():
     print(f"{key}: {value}")
 
-print_details(name="Alice", age=30, city="[[New York]]")
+print_details(name="Alice", age=30, city="New York")
 ```
 
 Output:
@@ -41,7 +41,7 @@ Output:
 ```
 name: Alice
 age: 30
-city: [[New York]] ```
+city: New York ```
 
 * **Combining `*args` and `**kwargs`:**
 
@@ -63,7 +63,7 @@ Keyword arguments: {'name': 'Bob', 'age': 25}
 ```
 
 
-[[Tuple Unpacking]]
-[[Dictionary Manipulation]]
+Tuple Unpacking
+Dictionary Manipulation
 
 These are essential for understanding how to fully utilize `*args` and `**kwargs`.

@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APCHEM Home]]
+# APCHEM Home
 
-- [[Maxwell-Boltzmann Distribution]]
-- [[Activation Energy]]
-- [[Rate Laws]]
-- [[Factors affecting rate of reaction]]
-- [[Reaction Mechanisms]]
+- Maxwell-Boltzmann Distribution
+- Activation Energy
+- Rate Laws
+- Factors affecting rate of reaction
+- Reaction Mechanisms
 - 

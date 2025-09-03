@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python 1 Home]]
-# [[List Comprehension]] 
+# Python 1 Home
+# List Comprehension 
 List comprehension provides a concise way to create lists in Python. It's a powerful tool for creating lists based on existing iterables.
 
 **Basic Syntax:**
@@ -50,9 +50,9 @@ new_list = [expression for item in iterable if condition]]
     ```
 
 
-**[[Nested Loops]]**
+**Nested Loops**
 
-**[[For Loops]]**
+**For Loops**
 
 
 List comprehension offers a more readable and efficient alternative to traditional `for` loops when creating lists.  It's important to understand its syntax and usage to write more concise and Pythonic code.

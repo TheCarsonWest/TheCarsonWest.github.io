@@ -3,19 +3,19 @@
 [params]
 	author = 'Carson West'
 +++
-# [[nexus]]
+# nexus
 
-# [[AP Chemistry Units]]
-# [[Acids and Bases]]
-# [[Thermodynamics]]
-# [[Equilibrium]]
-# [[chemical reactions]]
-# [[AP CHEM solutions]]
-# [[APCHEM Gasses]]
-# [[Chemical Bonds]]
-# [[Chemistry Constants]]
-# [[Periodic Trends]]
-# [[Chemistry Laws]]
-# [[Reactions Types]]
-# [[Other important AP CHEM things]]
-# [[AP CHEM solutions]]
+# AP Chemistry Units
+# Acids and Bases
+# Thermodynamics
+# Equilibrium
+# chemical reactions
+# AP CHEM solutions
+# APCHEM Gasses
+# Chemical Bonds
+# Chemistry Constants
+# Periodic Trends
+# Chemistry Laws
+# Reactions Types
+# Other important AP CHEM things
+# AP CHEM solutions

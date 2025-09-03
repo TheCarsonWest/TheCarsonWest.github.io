@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Representing a Categorical Variable with Tables
 
-When analyzing data, the first step is often to organize and display it. For [[Categorical Variable|categorical variables]], tables are a fundamental tool to summarize the distribution of data. A categorical variable assigns labels that place individuals into particular groups or categories.
+When analyzing data, the first step is often to organize and display it. For Categorical Variable|categorical variables, tables are a fundamental tool to summarize the distribution of data. A categorical variable assigns labels that place individuals into particular groups or categories.
 
 ## Frequency Tables
 
@@ -41,10 +41,10 @@ When interpreting a frequency table, look for:
 *   **Dominant Categories**: Are there categories that clearly stand out as more common than others?
 *   **Proportions**: What percentage of the data falls into a specific category?
 
-Tables provide a precise summary of the data. While tables are excellent for numerical precision, [[Representing a Categorical Variable with Graphs]] such as bar charts and pie charts offer a more visual representation of the distribution, making patterns easier to spot quickly.
+Tables provide a precise summary of the data. While tables are excellent for numerical precision, Representing a Categorical Variable with Graphs such as bar charts and pie charts offer a more visual representation of the distribution, making patterns easier to spot quickly.
 
 ## Two-Way Tables
 
-When you have two categorical variables, you can use a [[Two-Way Table|two-way table]] (also known as a contingency table) to display the relationship between them. This allows for a deeper analysis of how categories of one variable relate to categories of another. For more on this, refer to [[Representing Two Categorical Variables]].
+When you have two categorical variables, you can use a Two-Way Table|two-way table (also known as a contingency table) to display the relationship between them. This allows for a deeper analysis of how categories of one variable relate to categories of another. For more on this, refer to Representing Two Categorical Variables.
 
 Understanding how to construct and interpret frequency tables is a foundational skill in statistics, enabling clear and concise communication of categorical data distributions.

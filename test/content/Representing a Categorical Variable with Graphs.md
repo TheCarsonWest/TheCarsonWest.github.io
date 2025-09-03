@@ -3,18 +3,18 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Representing a Categorical Variable with Graphs
 
 Categorical variables categorize individuals into groups or categories. Unlike quantitative variables, which take numerical values that can be ordered and measured, categorical variables deal with labels. Visualizing these variables through graphs is crucial for understanding the distribution of data within each category and for identifying patterns or differences. This note page focuses on the primary graphical methods for displaying a single categorical variable.
 
 ## Introduction to Graphing Categorical Data
 
-When we have data for a categorical variable, we are interested in how many observations fall into each category, or what proportion of the total observations each category represents. These counts and proportions are often summarized first in a [[Representing a Categorical Variable with Tables]]. Graphs then provide a visual summary, making it easier to compare categories and spot trends.
+When we have data for a categorical variable, we are interested in how many observations fall into each category, or what proportion of the total observations each category represents. These counts and proportions are often summarized first in a Representing a Categorical Variable with Tables. Graphs then provide a visual summary, making it easier to compare categories and spot trends.
 
 ## Bar Charts
 
-[[Bar Charts]] are the most common and often the most appropriate way to display the distribution of a categorical variable.
+Bar Charts are the most common and often the most appropriate way to display the distribution of a categorical variable.
 
 ### What is a Bar Chart?
 A bar chart displays the categories of a categorical variable on one axis (usually the horizontal axis) and the counts or proportions (percentages) of observations in each category on the other axis (usually the vertical axis). Each category is represented by a bar, and the height of the bar corresponds to the count or proportion for that category.
@@ -23,7 +23,7 @@ A bar chart displays the categories of a categorical variable on one axis (usual
 1.  **Label Axes**: The horizontal axis (x-axis) lists the categories of the variable. The vertical axis (y-axis) is labeled with "Count," "Frequency," "Relative Frequency," or "Percent."
 2.  **Scale Vertical Axis**: Choose an appropriate scale for the vertical axis, starting from 0.
 3.  **Draw Bars**: For each category, draw a bar whose height matches its count or percentage.
-4.  **Separate Bars**: Leave spaces between the bars to indicate that the categories are distinct and not on a continuous scale. This is a key distinction from [[Representing a Quantitative Variable with Graphs#Histograms|Histograms]], where bars touch.
+4.  **Separate Bars**: Leave spaces between the bars to indicate that the categories are distinct and not on a continuous scale. This is a key distinction from Representing a Quantitative Variable with Graphs#Histograms|Histograms, where bars touch.
 
 ### Example: Preferred Pet
 Let's consider the distribution of preferred pets among a sample of 20 students.
@@ -41,7 +41,7 @@ A bar chart for this data would have "Preferred Pet" on the x-axis and "Count" o
 
 ## Pie Charts
 
-[[Pie Charts]] are another common way to display the distribution of a categorical variable, but they are often less effective than bar charts, especially when comparing categories.
+Pie Charts are another common way to display the distribution of a categorical variable, but they are often less effective than bar charts, especially when comparing categories.
 
 ### What is a Pie Chart?
 A pie chart shows the distribution of a categorical variable as "slices" of a circular "pie." Each slice represents a category, and the size of the slice (both in area and central angle) is proportional to the percentage of observations in that category.
@@ -70,5 +70,5 @@ Pie charts are best used when you want to show how a whole is divided into parts
 
 *   **Labels and Titles**: Always include clear titles and axis labels to ensure the graph is easily understandable.
 *   **Source**: If the data comes from a specific source, include that information.
-*   **Avoid Misleading Graphs**: Be wary of [[Potential Problems with Sampling#Bias|biased]] or misleading graphical representations. For example, 3D bar charts or pie charts can distort the perception of proportions.
+*   **Avoid Misleading Graphs**: Be wary of Potential Problems with Sampling#Bias|biased or misleading graphical representations. For example, 3D bar charts or pie charts can distort the perception of proportions.
 *   **Order of Categories**: In bar charts, categories can be ordered alphabetically, by size (ascending or descending), or by some other logical criterion. For pie charts, the order typically doesn't convey additional information beyond the labels themselves.

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-Make a AP Chemistry rundown on determining [[Rate from Reaction mechanism]]  in markdown format(make use of headings), use the LaTeX equation library format when writing equations. For any topic that you believe needs its own independent explanation, enclose it in TWO brackets([[like this]], make sure they are just short titles for seperate notes)
+Make a AP Chemistry rundown on determining Rate from Reaction mechanism  in markdown format(make use of headings), use the LaTeX equation library format when writing equations. For any topic that you believe needs its own independent explanation, enclose it in TWO brackets(like this, make sure they are just short titles for seperate notes)
 
 # Rate Law from Reaction Mechanism (AP Chemistry Rundown)
 
@@ -55,23 +55,23 @@ Overall Reaction:  $ A + D \rightarrow C + E $
 
     Rate =  $ k\frac{K_{eq}[A]]}{[C]]}[D]] = k'[A]][D]][C]]^{-1} $  where  $ k' = kK_{eq} $ 
 
-    [[Equilibrium Constant]]
-    [[Steady-State Approximation]]
+    Equilibrium Constant
+    Steady-State Approximation
 
 This final rate law includes a reactant ( $ A $  and  $ D $ ) and a product from the first step ( $ C $ ).  This can happen when the RDS is not the first step. In some cases, you might need to use the steady-state approximation if equilibrium cannot be assumed.
 
 ## Steady-State Approximation
 
-[[Steady-State Approximation]]
+Steady-State Approximation
 
 When the intermediate is highly reactive, the steady-state approximation can be used. This approximation assumes that the rate of formation of the intermediate is equal to its rate of consumption, so its concentration remains relatively constant.
 
 
 ## Catalyst
 
-[[Catalyst]]
+Catalyst
 
-Catalysts affect the rate of reaction by providing an alternative reaction pathway with a lower [[Activation Energy]]. They are not consumed in the overall reaction. The presence of a catalyst can change the rate law.
+Catalysts affect the rate of reaction by providing an alternative reaction pathway with a lower Activation Energy. They are not consumed in the overall reaction. The presence of a catalyst can change the rate law.
 
 
 ## Summary

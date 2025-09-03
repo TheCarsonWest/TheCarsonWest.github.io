@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Namespaces and Scope]]
-# [[Modules and Packages]] 
+# Namespaces and Scope
+# Modules and Packages 
 Python's modularity is a key strength.  It allows for code reusability and organization.
 
 * **Modules:**  A single Python file (`.py`) containing functions, classes, and variables.  Think of it as a toolbox with specific tools.
@@ -65,15 +65,15 @@ from mypackage.module2 import some_other_function
 some_other_function()
 ```
 
-[[Import Statements]]
+Import Statements
 
-[[Standard Library Modules]]
+Standard Library Modules
 
-[[Creating Your Own Modules and Packages]]
+Creating Your Own Modules and Packages
 
-[[Namespaces and Scope]]
+Namespaces and Scope
 
 
-[[The `__init__.py` File]]  (Explains the purpose and functionality of `__init__.py` in more detail.)
+The `__init__.py` File  (Explains the purpose and functionality of `__init__.py` in more detail.)
 
-[[Package Management with Pip]] (How to install and manage external packages using pip)
+Package Management with Pip (How to install and manage external packages using pip)

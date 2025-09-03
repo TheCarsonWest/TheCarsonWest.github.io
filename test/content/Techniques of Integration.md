@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
-# [[integrals]]
-- [[Basic Integration Formulas]]
-- [[u-Substitution]]
-- [[Integration by Parts]]
-- [[Trigonometric Integrals]]
-- [[Trigonometric Substitution]]
-- [[Partial Fraction Decomposition]]
-- [[Numerical Integration (Approximation Methods)]]
+# Calc home
+# integrals
+- Basic Integration Formulas
+- u-Substitution
+- Integration by Parts
+- Trigonometric Integrals
+- Trigonometric Substitution
+- Partial Fraction Decomposition
+- Numerical Integration (Approximation Methods)

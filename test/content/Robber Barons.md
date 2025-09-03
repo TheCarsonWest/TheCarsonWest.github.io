@@ -3,20 +3,20 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [[Robber Barons]]
+## ID: Robber Barons
 
-## When: 1870s-1900s (Roughly coincides with the [[Gilded Age]])
+## When: 1870s-1900s (Roughly coincides with the Gilded Age)
 
 ## Who: 
 * **Cornelius Vanderbilt:** Railroads
-* **[[John D. Rockefeller]]:** Standard Oil (oil)
-* **[[Andrew Carnegie]]:** Carnegie Steel (steel)
-* **[[J.P. Morgan]]:** Finance and Banking
+* **John D. Rockefeller:** Standard Oil (oil)
+* **Andrew Carnegie:** Carnegie Steel (steel)
+* **J.P. Morgan:** Finance and Banking
 * **Jay Gould:** Railroads (Speculator and notorious for shady dealings)
 
 
 ## What: 
-Powerful industrialists who amassed immense fortunes through often ruthless business practices during the [[Gilded Age]].  They controlled major sectors of the American economy, employing tactics such as monopolies, trusts, and horizontal/vertical integration to eliminate competition and maximize profits.
+Powerful industrialists who amassed immense fortunes through often ruthless business practices during the Gilded Age.  They controlled major sectors of the American economy, employing tactics such as monopolies, trusts, and horizontal/vertical integration to eliminate competition and maximize profits.
 
 ## Impact: Why Significant?:
 * **Industrial Growth:**  Fueled unprecedented industrial expansion and economic growth in the U.S.  Created massive wealth, but this wealth was concentrated in the hands of a few.
@@ -26,4 +26,4 @@ Powerful industrialists who amassed immense fortunes through often ruthless busi
 * **Government Regulation:** Their actions ultimately led to increased government regulation of businesses and the rise of anti-trust legislation (e.g., the Sherman Antitrust Act of 1890, though initially weakly enforced).
 * **Shaped American Capitalism:** Their methods and influence fundamentally shaped the development of American capitalism and continue to be debated in terms of their positive and negative impacts.
 
-# [[IDS Unit 5]]
+# IDS Unit 5

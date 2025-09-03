@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APHG Unit 5 Agriculture]]
+# APHG Unit 5 Agriculture
 Okay, here are bulleted notes summarizing the provided article on the environmental consequences of agricultural practices:
 
 *   **Overview:** All agricultural practices impact the environment, and overuse of farmlands and water resources leads to negative consequences.

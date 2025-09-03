@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Operators]]
-# [[Operator Overloading]] 
+# Operators
+# Operator Overloading 
 Operator overloading allows you to define the behavior of built-in operators (like `+`, `-`, `*`, `/`, etc.) for user-defined types (classes).  This makes your classes more intuitive and Pythonic.
 
 **How it works:**
@@ -34,7 +34,7 @@ print(str(v3)) #prints (4,6)
 Here, `__add__` is overloaded to define the behavior of the `+` operator for `MyVector` objects.  The `+` operator now performs vector addition.
 
 
-**Commonly Overloaded [[Operators]] and their corresponding methods:**
+**Commonly Overloaded Operators and their corresponding methods:**
 
 * `+`: `__add__`
 * `-`: `__sub__`
@@ -51,11 +51,11 @@ Here, `__add__` is overloaded to define the behavior of the `+` operator for `My
 **Important Considerations:**
 
 * **Return Type:** The special methods should usually return an instance of the same class or a compatible type.
-* **[[Error Handling]]:**  You should include error handling (e.g., `TypeError` for incompatible types) within your overloaded methods.
+* **Error Handling:**  You should include error handling (e.g., `TypeError` for incompatible types) within your overloaded methods.
 * **Readability:** While powerful, overuse can make your code harder to understand. Use operator overloading judiciously where it enhances clarity and usability.
 
 
-[[Dunder Methods]]
-[[Error Handling in Python]]
-[[Magic Methods]]
+Dunder Methods
+Error Handling in Python
+Magic Methods
 

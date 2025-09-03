@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Local Linearity]]
+# Local Linearity
 
 Let's consider the polynomial 
 #  $$ f(x) = x^3 - 2x + 1 $$  We want to find an interval around  $ x=1 $  where the tangent line approximation is within 0.1 of the actual function value.
 
 ### Find the tangent line:
 
-First, we find the [[derivative]] of  $ f(x) $ :
+First, we find the derivative of  $ f(x) $ :
  $ f'(x) = 3x^2 - 2 $ 
 
 At  $ x=1 $ , the function value is  $ f(1) = 1^3 - 2(1) + 1 = 0 $ , and the slope of the tangent line is  $ f'(1) = 3(1)^2 - 2 = 1 $ .
@@ -43,6 +43,6 @@ y = x^3 - 2x + 0.9
 ```
 
 The Desmos graph shows the function  $ f(x) = x^3 - 2x + 1 $  (blue), its tangent line at  $ x=1 $  (red), and the boundaries representing the 0.1 error margin (green and purple). You can visually confirm that the tangent line stays within the 0.1 tolerance band around  $ x=1 $  within the approximate interval we calculated.  The exact interval boundaries would require more precise numerical methods.
-The [[local linearity]] approximation using the tangent line at  $ x=1 $  is accurate to within 0.1 for approximately  $$ x \in [0.86, 1.14 $$ .This demonstrates that [[local linearity]] holds true in a small neighborhood around the point of tangency, but the size of this neighborhood depends on the function and the desired level of accuracy.
+The local linearity approximation using the tangent line at  $ x=1 $  is accurate to within 0.1 for approximately  $$ x \in [0.86, 1.14 $$ .This demonstrates that local linearity holds true in a small neighborhood around the point of tangency, but the size of this neighborhood depends on the function and the desired level of accuracy.
 
-# [[Local Linearity]]
+# Local Linearity

@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Glossary]]
+# Glossary
 
-# [[Adherents]] 
-**Definition:**  Followers or believers in a particular [[Religion]] or ideology.
+# Adherents 
+**Definition:**  Followers or believers in a particular Religion or ideology.
 
-**Example:**  [[Adherents]] of Christianity, Islam, or Buddhism.
+**Example:**  Adherents of Christianity, Islam, or Buddhism.
 
-# [[Glossary]]
+# Glossary

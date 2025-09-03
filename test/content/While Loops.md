@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python 1 Home]]
-# [[While Loops]] 
+# Python 1 Home
+# While Loops 
 While loops in Python execute a block of code repeatedly as long as a given condition is true.
 
 ```python
@@ -16,11 +16,11 @@ while count < 5:
 
 The loop continues until `count` is no longer less than 5.  We must ensure the condition eventually becomes false to avoid an infinite loop.
 
-[[Infinite Loops]]
+Infinite Loops
 
 **Important Considerations:**
 
-* **[[Infinite Loops]]:**  If the condition never evaluates to `False`, the loop will run indefinitely.  This is a common error.
+* **Infinite Loops:**  If the condition never evaluates to `False`, the loop will run indefinitely.  This is a common error.
 * **Break Statement:** The `break` statement can be used to exit a `while` loop prematurely, regardless of the condition.
 * **Continue Statement:** The `continue` statement skips the rest of the current iteration and proceeds to the next iteration.
 
@@ -49,6 +49,6 @@ while count < 5:
 
 **Related Notes:**
 
-* [[Control Flow If Statements]]
-* [[For Loops]]
+* Control Flow If Statements
+* For Loops
 

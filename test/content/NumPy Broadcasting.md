@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Libraries like NumPy]]
-# [[NumPy Broadcasting]] 
+# Libraries like NumPy
+# NumPy Broadcasting 
 NumPy broadcasting is a powerful mechanism that allows NumPy to perform operations on arrays of different shapes, under certain conditions.  It avoids explicit looping and significantly speeds up computations.
 
 **Core Idea:** Broadcasting allows binary operations (like +, -, *, /) to be applied between arrays of different shapes, provided that certain rules are met.  The smaller array is implicitly "stretched" or "copied" to match the shape of the larger array before the operation is performed.
@@ -46,11 +46,11 @@ c = a + b #This will raise a ValueError
 a = np.array(1,2,3,4,5,6)
 b = np.array(1,2)
 c = a + b
-print(c) # Output: 2 3 4,6 [[7 8]]
+print(c) # Output: 2 3 4,6 7 8
 
 ```
 
-**Advanced Cases:**  Broadcasting can involve more complex shape manipulations, including the use of `None` or `np.newaxis` to add dimensions.  [[NumPy Newaxis]]
+**Advanced Cases:**  Broadcasting can involve more complex shape manipulations, including the use of `None` or `np.newaxis` to add dimensions.  NumPy Newaxis
 
 
 **Benefits of Broadcasting:**
@@ -66,7 +66,7 @@ print(c) # Output: 2 3 4,6 [[7 8]]
 
 **Related Notes:**
 
-* [[NumPy Array Shape and Reshaping]]
-* [[NumPy Array Indexing and Slicing]]
+* NumPy Array Shape and Reshaping
+* NumPy Array Indexing and Slicing
 
 

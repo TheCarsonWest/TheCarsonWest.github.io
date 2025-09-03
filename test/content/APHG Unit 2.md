@@ -4,14 +4,14 @@
 	author = 'Carson West'
 +++
 
-# [[APHG Home]]
+# APHG Home
 
- - [[ESPN]]
- - [[Population Distribution]]
- - [[Population Composition]]
- - [[Population Pyramids]]
-- [[Demographic Transition Model]]
-- [[ETM]] Epidemiological Transition Model
-- [[population growth and decline]]
-- [[Natalist Policy]]
+ - ESPN
+ - Population Distribution
+ - Population Composition
+ - Population Pyramids
+- Demographic Transition Model
+- ETM Epidemiological Transition Model
+- population growth and decline
+- Natalist Policy
 

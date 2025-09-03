@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Linear Regression Models
 
-Linear regression models are a fundamental tool in AP Statistics used to describe the relationship between two quantitative variables when a scatterplot suggests a linear association. The primary goal is to predict the value of one variable (the response variable) from the value of another (the explanatory variable). This topic builds upon understanding [[Representing the Relationship Between Two Quantitative Variables]] and [[Correlation]].
+Linear regression models are a fundamental tool in AP Statistics used to describe the relationship between two quantitative variables when a scatterplot suggests a linear association. The primary goal is to predict the value of one variable (the response variable) from the value of another (the explanatory variable). This topic builds upon understanding Representing the Relationship Between Two Quantitative Variables and Correlation.
 
 ## The Least-Squares Regression Line (LSRL)
 
@@ -19,7 +19,7 @@ Where:
 *    $ b $  is the **slope**, which represents the predicted change in  $ y $  for every one-unit increase in  $ x $ .
 *    $ x $  is the value of the explanatory variable.
 
-For a deeper dive into its calculation, refer to [[Least Squares Regression]].
+For a deeper dive into its calculation, refer to Least Squares Regression.
 
 ### Interpreting Slope and Y-intercept
 
@@ -34,7 +34,7 @@ The slope ( $ b $ ) and y-intercept ( $ a $ ) can be calculated using the follow
 
  $$  b = r \frac{s_y}{s_x}  $$   $$  a = \bar{y} - b\bar{x}  $$  
 Where:
-*    $ r $  is the [[Correlation]] coefficient between  $ x $  and  $ y $ .
+*    $ r $  is the Correlation coefficient between  $ x $  and  $ y $ .
 *    $ s_y $  is the standard deviation of the response variable  $ y $ .
 *    $ s_x $  is the standard deviation of the explanatory variable  $ x $ .
 *    $ \bar{y} $  is the mean of the response variable  $ y $ .
@@ -42,10 +42,10 @@ Where:
 
 ## Residuals
 
-[[Residuals]] are the differences between the observed values of the response variable and the values predicted by the regression line. They represent the "error" in the prediction for each data point.
+Residuals are the differences between the observed values of the response variable and the values predicted by the regression line. They represent the "error" in the prediction for each data point.
 
  $$  \text{Residual} = \text{Observed } y - \text{Predicted } y = y - \hat{y}  $$  
-A **residual plot** is a scatterplot of the residuals against the explanatory variable (or predicted values  $ \hat{y} $ ). A good linear model will show no obvious pattern in the residual plot (a random scatter around zero). Patterns in a residual plot indicate that a linear model might not be appropriate, suggesting [[Analyzing Departures from Linearity]].
+A **residual plot** is a scatterplot of the residuals against the explanatory variable (or predicted values  $ \hat{y} $ ). A good linear model will show no obvious pattern in the residual plot (a random scatter around zero). Patterns in a residual plot indicate that a linear model might not be appropriate, suggesting Analyzing Departures from Linearity.
 
 ## Coefficient of Determination ( $ R^2 $ )
 
@@ -71,8 +71,8 @@ Where  $ n $  is the number of data points.
 
 ## Extrapolation
 
-[[Extrapolation]] is the use of a regression line to predict values of the response variable ( $ y $ ) for values of the explanatory variable ( $ x $ ) that are outside the range of the observed data. This is generally not recommended because the linear relationship observed within the data range may not continue outside that range. The further you extrapolate, the less reliable your prediction becomes.
+Extrapolation is the use of a regression line to predict values of the response variable ( $ y $ ) for values of the explanatory variable ( $ x $ ) that are outside the range of the observed data. This is generally not recommended because the linear relationship observed within the data range may not continue outside that range. The further you extrapolate, the less reliable your prediction becomes.
 
 ## Outliers and Influential Points
 
-Points that lie far from the overall pattern of the data are considered [[Outliers and Influential Points]]. An **outlier** in regression is a point that has a large residual (far from the line in the y-direction). An **influential point** is an outlier in the x-direction that, if removed, would significantly change the slope or y-intercept of the regression line. It's important to identify and assess the impact of such points.
+Points that lie far from the overall pattern of the data are considered Outliers and Influential Points. An **outlier** in regression is a point that has a large residual (far from the line in the y-direction). An **influential point** is an outlier in the x-direction that, if removed, would significantly change the slope or y-intercept of the regression line. It's important to identify and assess the impact of such points.

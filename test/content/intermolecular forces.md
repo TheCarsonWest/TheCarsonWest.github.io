@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-[[Chemical Bonds]]
-# Uses little delta δ symbol(different than [[delta symbol]])
+Chemical Bonds
+# Uses little delta δ symbol(different than delta symbol)
 
 ## Atoms in molecules have partial charges because electrons are goofy 
-## IMFS are never as strong as [[Chemical Bonds]]
-#  $$ Na^{δ+}\ \ \textemdash\ \ \ Cl^{δ-} $$  - High [[Polarity]] molecules will have high intermolecular attraction 
-	-  Things will attract each other a certain amount based on [[Electronegativity]]
-	- **All Ionic Compounds are polar** because all the positive sides of ionic molecules have low [[Electronegativity]]
-	- Covalent Compounds get [[Polarity]] based on the [[delta symbol]] of their [[Electronegativity]]
-	- See [[Polarity]]
+## IMFS are never as strong as Chemical Bonds
+#  $$ Na^{δ+}\ \ \textemdash\ \ \ Cl^{δ-} $$  - High Polarity molecules will have high intermolecular attraction 
+	-  Things will attract each other a certain amount based on Electronegativity
+	- **All Ionic Compounds are polar** because all the positive sides of ionic molecules have low Electronegativity
+	- Covalent Compounds get Polarity based on the delta symbol of their Electronegativity
+	- See Polarity
 
 
 # Van Der Waals IMFs
@@ -20,10 +20,10 @@ van der waals is a fancy way of saying these are the ones that exist between **i
 ## Dipole Dipole: Opposites attract
 - Only occurs in polar molecules
 - HBr is a highly polar molecule, and the Br will be attracted to other molecules' hydrogens
-## [[London Dispersion]]
-## [[Hydrogen Bonds]]
+## London Dispersion
+## Hydrogen Bonds
 # Non Van Der Waals IMFs
-## Ion Dipole: An ion attracts a [[dipole]]
+## Ion Dipole: An ion attracts a dipole
 
 # What IMFs do
 ## Kinetic energy
@@ -34,5 +34,5 @@ van der waals is a fancy way of saying these are the ones that exist between **i
 ## Boiling point
 - More IMF = more boiling
 - Weak attractions increases non-agitated evaporation
-	- A cup of water left open in a dark room at room [[Temperature]] will fully evaporate in 5 days
+	- A cup of water left open in a dark room at room Temperature will fully evaporate in 5 days
 	- A glass of isopropyl will evaporate in the same conditions in 2 days

@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics: Connecting Linear and Rotational Motion
 
 ## Introduction
 
-Many physical systems involve both linear and rotational motion. Understanding how these two types of motion are related is crucial for analyzing the behavior of objects that rotate while also translating, or for describing the linear motion of a point on a rotating object. This page explores the fundamental connections between linear and rotational kinematic and dynamic quantities, particularly for rigid bodies and points on rotating objects. A good foundation in [[Circular Motion]] is helpful here.
+Many physical systems involve both linear and rotational motion. Understanding how these two types of motion are related is crucial for analyzing the behavior of objects that rotate while also translating, or for describing the linear motion of a point on a rotating object. This page explores the fundamental connections between linear and rotational kinematic and dynamic quantities, particularly for rigid bodies and points on rotating objects. A good foundation in Circular Motion is helpful here.
 
 ## Kinematic Relationships
 
@@ -34,7 +34,7 @@ It's important to remember that these relationships apply to the *tangential* co
 
 ## Rolling Without Slipping
 
-A common and important application of connecting linear and rotational motion is the concept of [[Rolling]]. When an object rolls without slipping, there's a specific relationship between its translational speed and its rotational speed.
+A common and important application of connecting linear and rotational motion is the concept of Rolling. When an object rolls without slipping, there's a specific relationship between its translational speed and its rotational speed.
 
 **Key Condition:** For an object rolling without slipping, the point of contact between the object and the surface is instantaneously at rest relative to the surface.
 
@@ -70,13 +70,13 @@ Where:
 *    $ I_{CM} $  is the moment of inertia about the center of mass.
 *    $ \omega $  is the angular speed of rotation about the center of mass.
 
-This equation is fundamental for applying the [[Conservation of Energy]] principle to objects undergoing both translation and rotation, such as a ball rolling down an incline.
+This equation is fundamental for applying the Conservation of Energy principle to objects undergoing both translation and rotation, such as a ball rolling down an incline.
 
 ## Dynamic Relationships (Brief Mention)
 
 Just as kinematic quantities are connected, so are dynamic quantities:
 *   **Force and Torque:** Torque ( $ \tau $ ) is the rotational analog of force. For a force  $ F $  applied at a distance  $ r $  from the pivot,  $ \tau = rF\sin\phi $ .
-*   **Linear Momentum and Angular Momentum:** [[Linear Momentum]] ( $ p=mv $ ) has its rotational counterpart in [[Angular Momentum and Angular Impulse]] ( $ L=I\omega $ ).
+*   **Linear Momentum and Angular Momentum:** Linear Momentum ( $ p=mv $ ) has its rotational counterpart in Angular Momentum and Angular Impulse ( $ L=I\omega $ ).
 *   **Newton's Second Law:**  $ F_{net} = ma $  for linear motion, and  $ \tau_{net} = I\alpha $  for rotational motion. These can be interconnected in problems involving rolling or hinged systems.
 
 Understanding these connections allows for a comprehensive analysis of systems where both linear and rotational dynamics are at play.

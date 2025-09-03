@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Libraries like Pandas]]
-# [[Pandas Data Manipulation]] 
+# Libraries like Pandas
+# Pandas Data Manipulation 
 This note covers data manipulation using the Pandas library in Python.
 
 Key functionalities:
@@ -26,7 +26,7 @@ Key functionalities:
     ```python
     print(df[df['col1']] > 1) # Selects rows where 'col1' > 1
     ```
-    * [[Data Selection with Pandas]]
+    * Data Selection with Pandas
 
 
 * **Data Cleaning:**
@@ -41,7 +41,7 @@ Key functionalities:
     df_with_duplicates = pd.DataFrame({'A': 1, 1, 2, 2, 'B': 4, 4, 5, 5})
     print(df_with_duplicates.drop_duplicates())
     ```
-    [[Data Cleaning Techniques]]
+    Data Cleaning Techniques
 
 
 * **Data Transformation:**
@@ -57,17 +57,17 @@ Key functionalities:
     ```
     * Pivoting and melting: `.pivot()`, `.melt()`
     ```python
-    #Example requires more elaborate data, see [[Data Reshaping with Pandas]]
+    #Example requires more elaborate data, see Data Reshaping with Pandas
     ```
-    [[Data Transformation Methods]]
+    Data Transformation Methods
 
 
 * **Data Joining/Merging:**
     * `pd.merge()` (different types of joins)
     ```python
-    # Example requires creating two dataframes first, see [[Data Merging Techniques]]
+    # Example requires creating two dataframes first, see Data Merging Techniques
     ```
-    [[Data Merging Techniques]]
+    Data Merging Techniques
 
 
 * **Data Visualization (brief):**
@@ -75,6 +75,6 @@ Key functionalities:
     ```python
     df.plot.bar(x='col1', y='col2') #Requires matplotlib to be installed
     ```
-    [[Pandas Visualization]]
+    Pandas Visualization
 
 This is a high-level overview. Each bullet point above could be expanded into a more detailed note.  Refer to the linked notes for more in-depth explanations.

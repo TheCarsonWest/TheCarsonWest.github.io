@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APCHEM Home]]
+# APCHEM Home
 
-- ## [[Planck constant]]
-- ## [[Speed of light]]
-- ## [[Coulombs Constant]]
-- ## [[Electrical constant]]
-- ## [[Magnetic Constant]]
+- ## Planck constant
+- ## Speed of light
+- ## Coulombs Constant
+- ## Electrical constant
+- ## Magnetic Constant

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1: Topic 7.1 - Defining Simple Harmonic Motion (SHM)
 
 ## Introduction to Simple Harmonic Motion
@@ -29,7 +29,7 @@ Where:
 *    $ x $  is the displacement from the equilibrium position.
 *   The negative sign indicates that the restoring force is always directed opposite to the displacement, pushing or pulling the object back towards equilibrium.
 
-[[Spring Forces]] are a classic example of this restoring force, where  $ F_s = -kx $ .
+Spring Forces are a classic example of this restoring force, where  $ F_s = -kx $ .
 
 ### Equilibrium Position
 
@@ -59,7 +59,7 @@ The most common examples of systems that exhibit SHM (or approximate SHM) includ
 
 *   **Mass-Spring System**: A mass attached to an ideal spring oscillating horizontally on a frictionless surface or vertically under gravity (where the equilibrium position is just shifted).
 *   **Simple Pendulum (Small Angles)**: For small angular displacements ( $ \theta < 15^\circ $ ), the restoring force (a component of gravity) is approximately proportional to the displacement, making the motion approximately SHM.
-*   [[Torsional Pendulum]]
-*   [[Physical Pendulum]]
+*   Torsional Pendulum
+*   Physical Pendulum
 
 Understanding SHM is crucial for analyzing various physical phenomena, from the vibrations of atoms in a solid to the oscillations of bridges and buildings.

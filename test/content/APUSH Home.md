@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[nexus]]
-# [[ID Home]]
-# [[States list]]
-# [[APUSH people]]
+# nexus
+# ID Home
+# States list
+# APUSH people
 
-# [[APUSH Groups]]
+# APUSH Groups
 

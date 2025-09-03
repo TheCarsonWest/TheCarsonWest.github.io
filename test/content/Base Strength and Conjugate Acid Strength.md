@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Conjugate Acid-Base Pairs]]
-# [[Base Strength and Conjugate Acid Strength]]
+# Conjugate Acid-Base Pairs
+# Base Strength and Conjugate Acid Strength
 
 **Key Idea:**  The strength of a base is inversely related to the strength of its conjugate acid.  A strong base has a weak conjugate acid, and a weak base has a strong conjugate acid.
 
@@ -14,7 +14,7 @@
 
 * **Examples of Weak Bases:** Ammonia ( $ NH_3 $ ), amines (organic compounds with  $ NH_2 $  group). These partially dissociate in water.  $ NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^- $ 
 
-* ** $ K_b $  ([[Base Dissociation Constant]]):**  A measure of base strength.  A larger  $ K_b $  value indicates a stronger base.  For the reaction  $ B + H_2O \rightleftharpoons BH^+ + OH^- $ ,   $ K_b = \frac{[BH^+]][OH^-]]}{[B]]} $ 
+* ** $ K_b $  (Base Dissociation Constant):**  A measure of base strength.  A larger  $ K_b $  value indicates a stronger base.  For the reaction  $ B + H_2O \rightleftharpoons BH^+ + OH^- $ ,   $ K_b = \frac{[BH^+]][OH^-]]}{[B]]} $ 
 
 * ** $ pK_b $ : **  $ pK_b = -\log{K_b} $ .  A smaller  $ pK_b $  value indicates a stronger base.
 
@@ -25,9 +25,9 @@
 
 * **Relationship between  $ K_a $  and  $ K_b $ :** For a conjugate acid-base pair in water at 25°C:  $ K_a \times K_b = K_w = 1.0 \times 10^{-14} $ 
 
-* **[[Acid Strength and Conjugate Base Strength]]**:  This is the reciprocal relationship.
+* **Acid Strength and Conjugate Base Strength**:  This is the reciprocal relationship.
 
-* **[[Factors Affecting Acid/Base Strength**:  Electrostatic Effects]], Resonance Effects]], Inductive Effects]], Hybridization Effects]], Solvent Effects]]
+* **Factors Affecting Acid/Base Strength**:  Electrostatic Effects, Resonance Effects]], Inductive Effects]], Hybridization Effects]], Solvent Effects]]
 
 
 * **Practice Problems:**

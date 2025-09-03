@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Representing a Quantitative Variable with Graphs
 
-When analyzing data in AP Statistics, it's crucial to distinguish between different types of variables. A **quantitative variable** takes numerical values for which it makes sense to find an average. These values typically represent counts or measurements. Graphical representations are powerful tools for visualizing the [[Describing the Distribution of a Quantitative Variable]] of a quantitative variable, helping us identify patterns, shape, center, spread, and potential outliers.
+When analyzing data in AP Statistics, it's crucial to distinguish between different types of variables. A **quantitative variable** takes numerical values for which it makes sense to find an average. These values typically represent counts or measurements. Graphical representations are powerful tools for visualizing the Describing the Distribution of a Quantitative Variable of a quantitative variable, helping us identify patterns, shape, center, spread, and potential outliers.
 
 ## Types of Graphs for Quantitative Variables
 
 Several types of graphs are specifically designed to display the distribution of a single quantitative variable. Each has its strengths and is suitable for different scenarios.
 
-### [[Dotplots]]
+### Dotplots
 
 A dotplot is one of the simplest graphs for displaying a quantitative variable.
 *   **Construction**: Draw a horizontal axis and label it with the variable name. Mark a dot above the appropriate value on the axis for each observation. If there are multiple occurrences of a value, stack the dots vertically.
@@ -28,7 +28,7 @@ A dotplot is one of the simplest graphs for displaying a quantitative variable.
   Number of Siblings
 ```
 
-### [[Stemplots (Stem-and-Leaf Plots)]]
+### Stemplots (Stem-and-Leaf Plots)
 
 Stemplots are another way to display the distribution of a quantitative variable, especially for small to moderate datasets. They are unique in that they retain the individual data values.
 *   **Construction**: Separate each observation into a **stem** (all but the final digit) and a **leaf** (the final digit). Write the stems in a vertical column, then draw a vertical line to their right. Write each leaf in the row next to its stem, in increasing order away from the stem. Include a **key** to explain what the stems and leaves represent.
@@ -44,7 +44,7 @@ Stemplots are another way to display the distribution of a quantitative variable
 Key: 8|1 represents a score of 81
 ```
 
-### [[Histograms]]
+### Histograms
 
 Histograms are the most common type of graph for visualizing the distribution of a quantitative variable for larger datasets.
 *   **Construction**:
@@ -67,4 +67,4 @@ Regardless of the graph type, always remember to:
 *   **Provide a title**: A clear, concise title summarizing the graph's content.
 *   **Scale axes appropriately**: Ensure the chosen scale allows for a clear representation of the data without being misleading.
 
-These graphical representations are the first step in [[Describing the Distribution of a Quantitative Variable]], which then leads to calculating [[Summary Statistics for a Quantitative Variable]] for a more formal analysis.
+These graphical representations are the first step in Describing the Distribution of a Quantitative Variable, which then leads to calculating Summary Statistics for a Quantitative Variable for a more formal analysis.

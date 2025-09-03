@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1: Topic 2.3 - Newton’s Third Law
 
-Newton's Third Law, often stated as "for every action, there is an equal and opposite reaction," is a fundamental principle describing the interaction between two objects. It is crucial for understanding how forces manifest in systems and for constructing accurate [[Free-Body Diagrams]].
+Newton's Third Law, often stated as "for every action, there is an equal and opposite reaction," is a fundamental principle describing the interaction between two objects. It is crucial for understanding how forces manifest in systems and for constructing accurate Free-Body Diagrams.
 
 ---
 
@@ -22,7 +22,7 @@ Mathematically, if object A exerts a force  $ \vec{F}_{A \text{ on } B} $  on ob
 
 **Key Points:**
 *   Forces always come in pairs. You cannot have a single, isolated force.
-*   The two forces in an action-reaction pair always act on *different* objects. This is a critical distinction from forces acting on a single object in [[Newton’s Second Law]].
+*   The two forces in an action-reaction pair always act on *different* objects. This is a critical distinction from forces acting on a single object in Newton’s Second Law.
 *   The forces in a pair are always of the same type (e.g., both gravitational, both normal, both frictional).
 
 ---
@@ -64,7 +64,7 @@ It's a common misconception to confuse action-reaction pairs with balanced force
 
 *   **Balanced Forces:**
     *   Act on the *same* object.
-    *   Cancel each other out, resulting in zero [[Newton’s Second Law]] (zero acceleration).
+    *   Cancel each other out, resulting in zero Newton’s Second Law (zero acceleration).
     *   Not necessarily equal and opposite (they just happen to sum to zero).
     *   Examples: For a book at rest on a table, the upward normal force from the table on the book and the downward gravitational force from Earth on the book are balanced forces *on the book*. (Note: The normal force and gravitational force on the book are *not* an action-reaction pair.)
 
@@ -72,4 +72,4 @@ It's a common misconception to confuse action-reaction pairs with balanced force
 
 ## V. Applying the Third Law to Systems
 
-When analyzing a system of multiple interacting objects, the internal action-reaction forces between objects within the system cancel out. This simplification is useful when applying [[Newton’s Second Law]] to the entire system as a whole, as only external forces need to be considered. For example, if two blocks are connected and pushed, the force of block 1 on block 2 and block 2 on block 1 are internal forces to the two-block system and sum to zero for the system's net acceleration.
+When analyzing a system of multiple interacting objects, the internal action-reaction forces between objects within the system cancel out. This simplification is useful when applying Newton’s Second Law to the entire system as a whole, as only external forces need to be considered. For example, if two blocks are connected and pushed, the force of block 1 on block 2 and block 2 on block 1 are internal forces to the two-block system and sum to zero for the system's net acceleration.

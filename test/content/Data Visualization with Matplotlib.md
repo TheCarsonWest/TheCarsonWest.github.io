@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Libraries like Pandas]]
-# [[Data Visualization with Matplotlib]] 
+# Libraries like Pandas
+# Data Visualization with Matplotlib 
 This note covers the basics of data visualization using the Matplotlib library in Python.
 
 Key aspects to cover:
@@ -33,10 +33,10 @@ Key aspects to cover:
     * Using `plt.subplots()` for creating multiple subplots within a single figure.
 
 * **More Advanced Plotting:**
-    * [[Matplotlib Subplots]] -  Detailed explanation of creating and customizing subplots.
-    * [[Matplotlib Styling]] -  Advanced customization options, including stylesheets and rcParams.
+    * Matplotlib Subplots -  Detailed explanation of creating and customizing subplots.
+    * Matplotlib Styling -  Advanced customization options, including stylesheets and rcParams.
     * 3D plotting with `mpl_toolkits.mplot3d`: Creating 3D visualizations (requires extra import).
-    * [[Working with Images in Matplotlib]] - Importing and displaying images.  Examples using `imread` and `imshow`.
+    * Working with Images in Matplotlib - Importing and displaying images.  Examples using `imread` and `imshow`.
 
 
 * **Saving Plots:**
@@ -47,6 +47,6 @@ Key aspects to cover:
     * Matplotlib official documentation: [https://matplotlib.org/](https://matplotlib.org/)
     * Matplotlib tutorials and examples: [Numerous online tutorials available](Search online for "Matplotlib tutorials")
 
-* **Related Notes:** [[Data Wrangling with Pandas]] (for preparing data for visualization)
+* **Related Notes:** Data Wrangling with Pandas (for preparing data for visualization)
 
 

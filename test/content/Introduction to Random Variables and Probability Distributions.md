@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Introduction to Random Variables and Probability Distributions
 
 This note page introduces the fundamental concepts of random variables and their associated probability distributions, crucial for understanding statistical inference.
@@ -44,7 +44,7 @@ The **probability distribution** of a discrete random variable lists all possibl
 
 We can also calculate probabilities for events involving multiple outcomes, for instance,  $ P(X \ge 1) = P(X=1) + P(X=2) = 0.50 + 0.25 = 0.75 $ .
 
-To learn more about the specific characteristics of these distributions, refer to [[Mean and Standard Deviation of Random Variables]] and [[Combining Random Variables]]. Specific types of discrete distributions include [[Introduction to the Binomial Distribution]] and [[The Geometric Distribution]].
+To learn more about the specific characteristics of these distributions, refer to Mean and Standard Deviation of Random Variables and Combining Random Variables. Specific types of discrete distributions include Introduction to the Binomial Distribution and The Geometric Distribution.
 
 ### Continuous Random Variables
 A **continuous random variable** is a random variable that can take on any value within a given interval. These values usually result from measuring.
@@ -64,6 +64,6 @@ For a continuous random variable, we cannot list all possible values because the
 4.  The probability of a continuous random variable taking on any *exact* single value is 0. That is,  $ P(X=x) = 0 $ . This implies that  $ P(X < x) = P(X \le x) $ .
 
 **Visualizing Continuous Distributions:**
-A common continuous distribution is [[The Normal Distribution]]. Its density curve is bell-shaped and symmetric. Probabilities correspond to areas under this curve.
+A common continuous distribution is The Normal Distribution. Its density curve is bell-shaped and symmetric. Probabilities correspond to areas under this curve.
 
-For an in-depth understanding of how to estimate probabilities using simulations for either type of random variable, refer to [[Estimating Probabilities Using Simulation]]. For foundational probability concepts, see [[Introduction to Probability]].
+For an in-depth understanding of how to estimate probabilities using simulations for either type of random variable, refer to Estimating Probabilities Using Simulation. For foundational probability concepts, see Introduction to Probability.

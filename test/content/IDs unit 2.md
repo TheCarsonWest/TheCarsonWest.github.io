@@ -3,42 +3,42 @@
 [params]
 	author = 'Carson West'
 +++
-# [[ID Home]]
+# ID Home
 
-1. [[Headright System]] 
-2. [[House of Burgesses]] 
-3. [[Indentured Servitude]]
-4. [[Puritans]]
-5. [[Mayflower Compact]]
-6. [[Pequot War]] 
-7. [[King Philip’s War]] 
-8. [[Bacon’s Rebellion]] 
-9. [[Enlightenment]] 
-10. [[Great Awakening]] 
-11. [[French and Indian War]]
-12. [[Proclamation of 1763]]
-13. [[Salutary Neglect]]
-14. [[Sugar Act]]
-15. [[Stamp Act]]
-16. [[Sons of Liberty]]
-17. [[Townshend Act]] 
-18. [[Letters from a Farmer in [[Pennsylvania]]
-19. [[Committees of Correspondence]]
-20. [[Boston Massacre]]
-21. [[Tea Act]]
-22. [[Boston Tea Party]]
-23. [[Intolerable Acts]]
-24. [[First Continental Congress]]
-25. [[Olive Branch Petition]]
-26. [[Second Continental Congress]]
-27. [[Common Sense]]
-28. [[Lees Resolution]]
-29. [[Battle of Bunker Hill]]
-30. [[Valley Forge]]
-31. [[The Wealth of Nations]]
-32. [[Battle of Yorktown]]
-33. [[Stono Rebellion]]
-34. [[Triangular Trade]]
-35. [[Albany Plan of Union]]
-36. [[Battle of Saratoga]]
-37. [[Treaty of Paris 1776]]
+1. Headright System 
+2. House of Burgesses 
+3. Indentured Servitude
+4. Puritans
+5. Mayflower Compact
+6. Pequot War 
+7. King Philip’s War 
+8. Bacon’s Rebellion 
+9. Enlightenment 
+10. Great Awakening 
+11. French and Indian War
+12. Proclamation of 1763
+13. Salutary Neglect
+14. Sugar Act
+15. Stamp Act
+16. Sons of Liberty
+17. Townshend Act 
+18. Letters from a Farmer in [[Pennsylvania
+19. Committees of Correspondence
+20. Boston Massacre
+21. Tea Act
+22. Boston Tea Party
+23. Intolerable Acts
+24. First Continental Congress
+25. Olive Branch Petition
+26. Second Continental Congress
+27. Common Sense
+28. Lees Resolution
+29. Battle of Bunker Hill
+30. Valley Forge
+31. The Wealth of Nations
+32. Battle of Yorktown
+33. Stono Rebellion
+34. Triangular Trade
+35. Albany Plan of Union
+36. Battle of Saratoga
+37. Treaty of Paris 1776

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Libraries like NumPy]]
-# [[NumPy Fourier Transforms]] 
+# Libraries like NumPy
+# NumPy Fourier Transforms 
 These notes cover the use of NumPy's functions for performing Fourier Transforms.  NumPy provides efficient implementations for these crucial signal processing operations.
 
 Key functions:
@@ -36,16 +36,16 @@ transformed_image = np.fft.fft2(image)
 
 * **Normalization:**  The scaling of the output of `fft()` and `ifft()` might need adjustment depending on the application.  Refer to the NumPy documentation for details on normalization factors.
 
-* **Frequency Interpretation:** The output of `fft()` represents the frequency components of the input signal.  Understanding how the frequency axis is mapped is crucial for interpretation. [[Frequency Axis Interpretation]]
+* **Frequency Interpretation:** The output of `fft()` represents the frequency components of the input signal.  Understanding how the frequency axis is mapped is crucial for interpretation. Frequency Axis Interpretation
 
-* **Real and Imaginary Parts:** The output of `fft()` is generally complex, with real and imaginary parts.  These represent the magnitude and phase of each frequency component respectively. [[Complex Numbers in FFT]]
+* **Real and Imaginary Parts:** The output of `fft()` is generally complex, with real and imaginary parts.  These represent the magnitude and phase of each frequency component respectively. Complex Numbers in FFT
 
 * **Efficiency:** NumPy's FFT implementation uses highly optimized algorithms (typically FFTW) which are significantly faster than naive implementations.
 
 **Related Notes:**
 
-* [[Signal Processing with NumPy]]
-* [[Discrete Fourier Transform (DFT) Basics]]
+* Signal Processing with NumPy
+* Discrete Fourier Transform (DFT) Basics
 
 **Example: Simple signal analysis**
 

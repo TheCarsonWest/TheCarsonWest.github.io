@@ -36,14 +36,14 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="analyzing-departures-from-linearity">Analyzing Departures from Linearity</h1>
-<p>When we fit a [[Linear Regression Models|linear regression model]] to a set of bivariate data, we assume that the relationship between the two quantitative variables,  $ x $  (explanatory) and  $ y $  (response), is linear. However, real-world data doesn&rsquo;t always conform to this assumption. Analyzing departures from linearity is crucial to ensure that our chosen model is appropriate and that our predictions and inferences are valid.</p>
+<p>When we fit a Linear Regression Models|linear regression model to a set of bivariate data, we assume that the relationship between the two quantitative variables,  $ x $  (explanatory) and  $ y $  (response), is linear. However, real-world data doesn&rsquo;t always conform to this assumption. Analyzing departures from linearity is crucial to ensure that our chosen model is appropriate and that our predictions and inferences are valid.</p>
 <h2 id="why-assess-linearity">Why Assess Linearity?</h2>
 <p>A linear regression model is built on the premise of a linear relationship. If this assumption is violated, the model&rsquo;s predictions may be systematically biased, and interpretations of the slope and intercept can be misleading. It&rsquo;s a key condition to check for the validity of statistical inference based on regression.</p>
 <h2 id="detecting-departures-from-linearity">Detecting Departures from Linearity</h2>
 <p>The primary tool for detecting departures from linearity is the <strong>residual plot</strong>.</p>
-<h3 id="residuals">[[Residuals]]</h3>
+<h3 id="residuals">Residuals</h3>
 <p>A residual is the difference between the observed value of the response variable and the value predicted by the regression model. It quantifies how much the model &ldquo;misses&rdquo; the actual data point.</p>
 <p>$$  e = y - \hat{y}
 $$<br>
@@ -113,7 +113,7 @@ Where:</p>
 <p>If a residual plot reveals a non-linear pattern, several approaches can be considered:</p>
 <ol>
 <li>
-<p><strong>[[Transforming Data to Achieve Linearity]]:</strong> This is a common method. Applying a mathematical transformation (e.g., logarithm, square root, reciprocal) to either the explanatory variable ( $ x $ ), the response variable ( $ y $ ), or both, can sometimes linearize the relationship.</p>
+<p><strong>Transforming Data to Achieve Linearity:</strong> This is a common method. Applying a mathematical transformation (e.g., logarithm, square root, reciprocal) to either the explanatory variable ( $ x $ ), the response variable ( $ y $ ), or both, can sometimes linearize the relationship.</p>
 <ul>
 <li><strong>Concave Up (increasing rate of change):</strong> Try  $ log(y) $ ,  $ \sqrt{y} $ , or  $ 1/y $ .</li>
 <li><strong>Concave Down (decreasing rate of change):</strong> Try  $ x^2 $ ,  $ e^x $ ,  $ log(x) $ ,  $ \sqrt{x} $ .</li>
@@ -125,7 +125,7 @@ Where:</p>
 </li>
 </ol>
 <h2 id="conclusion">Conclusion</h2>
-<p>Always construct a residual plot when performing [[Least Squares Regression|least-squares regression]]. It is a vital diagnostic tool to verify the appropriateness of a linear model. A random scatter of residuals around zero is the goal, indicating that the linear model adequately describes the relationship between the variables. If a pattern is present, the model may be inappropriate, and further analysis (like data transformation) is needed.</p>
+<p>Always construct a residual plot when performing Least Squares Regression|least-squares regression. It is a vital diagnostic tool to verify the appropriateness of a linear model. A random scatter of residuals around zero is the goal, indicating that the linear model adequately describes the relationship between the variables. If a pattern is present, the model may be inappropriate, and further analysis (like data transformation) is needed.</p>
 
 </main>
 

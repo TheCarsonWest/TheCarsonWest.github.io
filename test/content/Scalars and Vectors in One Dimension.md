@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1.1: Scalars and Vectors in One Dimension
 
 Understanding the nature of physical quantities is fundamental to physics. Quantities can be broadly categorized into two types: scalars and vectors. This distinction is crucial for accurately describing motion and interactions.
@@ -87,4 +87,4 @@ For example, if  $ \vec{v} = +5 \text{ m/s} $ :
 *    $ 2\vec{v} = +10 \text{ m/s} $ 
 *    $ -3\vec{v} = -15 \text{ m/s} $ 
 
-This foundational understanding of scalars and vectors is essential for analyzing [[Representing Motion]] and other topics in physics, including [[Vectors and Motion in Two Dimensions]].
+This foundational understanding of scalars and vectors is essential for analyzing Representing Motion and other topics in physics, including Vectors and Motion in Two Dimensions.

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Confidence Intervals for the Slope of a Regression Model
 
-When we fit a [[Linear Regression Models]] to a sample of data, we obtain a sample regression line with a slope,  $ \hat{b} $ . This sample slope is a point estimate for the true, unknown slope  $ \beta $  of the population regression line. A confidence interval for  $ \beta $  provides a range of plausible values for the true slope, allowing us to make inferences about the relationship between two quantitative variables in the population.
+When we fit a Linear Regression Models to a sample of data, we obtain a sample regression line with a slope,  $ \hat{b} $ . This sample slope is a point estimate for the true, unknown slope  $ \beta $  of the population regression line. A confidence interval for  $ \beta $  provides a range of plausible values for the true slope, allowing us to make inferences about the relationship between two quantitative variables in the population.
 
 ## Purpose
 
@@ -29,10 +29,10 @@ Before constructing a confidence interval, certain conditions must be met to ens
 
 | Condition | Description | How to Check |
 | :-------- | :---------- | :----------- |
-| **L**inear | The true relationship between  $ x $  and  $ y $  is linear. | Examine a scatterplot of the data for linearity. A [[Residuals]] plot should show no obvious pattern. |
+| **L**inear | The true relationship between  $ x $  and  $ y $  is linear. | Examine a scatterplot of the data for linearity. A Residuals plot should show no obvious pattern. |
 | **I**ndependent | Individual observations are independent of each other. | Check the experimental design. If sampling without replacement, the population size should be at least 10 times the sample size ( $ N \ge 10n $ ). |
-| **N**ormal | For any fixed value of  $ x $ , the response  $ y $  varies according to a Normal distribution around the true regression line. | Examine a histogram or Normal probability plot of the [[Residuals]] to check for approximate normality and absence of strong skewness or outliers. |
-| **E**qual Standard Deviation (Equal Variance) | The standard deviation of  $ y $  about the true regression line is the same for all values of  $ x $ . | Examine the [[Residuals]] plot for a consistent spread of points around the residual = 0 line (no fanning out or in). |
+| **N**ormal | For any fixed value of  $ x $ , the response  $ y $  varies according to a Normal distribution around the true regression line. | Examine a histogram or Normal probability plot of the Residuals to check for approximate normality and absence of strong skewness or outliers. |
+| **E**qual Standard Deviation (Equal Variance) | The standard deviation of  $ y $  about the true regression line is the same for all values of  $ x $ . | Examine the Residuals plot for a consistent spread of points around the residual = 0 line (no fanning out or in). |
 | **R**andom | The data come from a well-designed random sample or randomized experiment. | State how the data were collected. |
 
 ## Degrees of Freedom
@@ -68,4 +68,4 @@ For example, a 95% confidence interval of (0.8, 1.2) for the slope might be inte
 
 ## Relationship to Hypothesis Testing
 
-A confidence interval for the slope is closely related to a [[Setting Up a Test for the Slope of a Regression Model]] for the slope. If a confidence interval for  $ \beta $  does *not* contain a hypothesized value (e.g., 0 for a test of no linear relationship), then we would reject the null hypothesis at the corresponding significance level. Conversely, if it *does* contain the hypothesized value, we would fail to reject the null hypothesis. This concept is explored further in [[Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval]].
+A confidence interval for the slope is closely related to a Setting Up a Test for the Slope of a Regression Model for the slope. If a confidence interval for  $ \beta $  does *not* contain a hypothesized value (e.g., 0 for a test of no linear relationship), then we would reject the null hypothesis at the corresponding significance level. Conversely, if it *does* contain the hypothesized value, we would fail to reject the null hypothesis. This concept is explored further in Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval.

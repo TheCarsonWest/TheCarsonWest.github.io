@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APCHEM Home]]
+# APCHEM Home
 
-- [[AP CHEM solutions]]
-- [[ion concentration]]
-- [[Maxwell-Boltzmann Distribution]]
+- AP CHEM solutions
+- ion concentration
+- Maxwell-Boltzmann Distribution

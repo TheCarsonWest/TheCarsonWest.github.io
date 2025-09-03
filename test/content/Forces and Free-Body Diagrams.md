@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics Note Page: Topic 2.2 Forces and Free-Body Diagrams
 
 ## Introduction to Forces
@@ -14,7 +14,7 @@ Forces can be categorized into two main types:
 *   **Contact Forces:** These occur when objects physically touch each other (e.g., friction, normal force, tension, applied force).
 *   **Non-Contact (Field) Forces:** These forces act over a distance without physical contact (e.g., gravitational force, electrostatic force, magnetic force).
 
-For a deeper understanding of vector properties, refer to [[Scalars and Vectors in One Dimension]] and [[Vectors and Motion in Two Dimensions]].
+For a deeper understanding of vector properties, refer to Scalars and Vectors in One Dimension and Vectors and Motion in Two Dimensions.
 
 ## Types of Forces
 
@@ -29,11 +29,11 @@ Here are some common types of forces encountered in AP Physics:
 | **Gravitational Force** |  $ F_g $  (or  $ W $ ) | The attractive force between any two objects with mass. On Earth, it's an object's weight.               |
 | **Spring Force**    |  $ F_s $     | The restorative force exerted by a spring, proportional to its displacement from equilibrium.            |
 
-For more details on specific forces, see [[Gravitational Force]] and [[Spring Forces]].
+For more details on specific forces, see Gravitational Force and Spring Forces.
 
 ## Net Force
 
-The **net force** ( $ \Sigma \vec{F} $  or  $ \vec{F}_{net} $ ) on an object is the vector sum of all individual forces acting on it. It determines the object's acceleration according to [[Newton’s Second Law]].
+The **net force** ( $ \Sigma \vec{F} $  or  $ \vec{F}_{net} $ ) on an object is the vector sum of all individual forces acting on it. It determines the object's acceleration according to Newton’s Second Law.
 
 Mathematically, if multiple forces  $ \vec{F_1}, \vec{F_2}, ..., \vec{F_n} $  act on an object:
  $ 
@@ -50,7 +50,7 @@ The magnitude of the net force is  $ |\vec{F}_{net}| = \sqrt{(\sum F_x)^2 + (\su
 
 ## Free-Body Diagrams (FBDs)
 
-[[Free-Body Diagrams]] are essential tools in mechanics for visualizing all forces acting *on a single object*. They help simplify complex scenarios and apply Newton's Laws correctly.
+Free-Body Diagrams are essential tools in mechanics for visualizing all forces acting *on a single object*. They help simplify complex scenarios and apply Newton's Laws correctly.
 
 ### Steps to Draw a Free-Body Diagram:
 

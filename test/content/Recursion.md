@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python 1 Home]]
-# [[Recursion]]
+# Python 1 Home
+# Recursion
 
-[[Recursion in Python]] involves a function calling itself within its own definition.  This allows for elegant solutions to problems that can be broken down into smaller, self-similar subproblems.
+Recursion in Python involves a function calling itself within its own definition.  This allows for elegant solutions to problems that can be broken down into smaller, self-similar subproblems.
 
 **Key Concepts:**
 
@@ -37,9 +37,9 @@ print(factorial(5))  # Output: 120
 
 **Related Notes:**
 
-* [[Function Parameters]]
-* [[Return Values]]
-* [[Memoization in Recursion]]  (This will explain how to optimize recursive functions for performance)
+* Function Parameters
+* Return Values
+* Memoization in Recursion  (This will explain how to optimize recursive functions for performance)
 
 
 **Example: Fibonacci Sequence (Illustrating potential inefficiency)**
