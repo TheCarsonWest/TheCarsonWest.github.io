@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Nazi-Soviet [Non-Aggression Pact](./../non-aggression-pact/)
+## ID: Nazi-Soviet [[Non-Aggression Pact]]
 
 ## When: August 23, 1939
 
@@ -20,7 +20,7 @@ A treaty of non-aggression between Nazi Germany and the Soviet Union. Publicly, 
 * **Removed Soviet Opposition:** Freed Hitler from fearing a two-front war when invading Poland, enabling him to launch World War II.
 * **Allowed the Invasion of Poland:** The pact paved the way for Germany's invasion of Poland on September 1, 1939, triggering World War II.
 * **Soviet Expansion:** Enabled the Soviet Union to occupy and annex territories, including parts of Poland and the Baltic States.
-* **Shift in Alliances:** This unexpected agreement stunned the world and temporarily altered the balance of power in Europe. It removed the perceived ideological barrier between [Nazism](./../nazism/) and Communism, leading to confusion among supporters of both ideologies.
+* **Shift in Alliances:** This unexpected agreement stunned the world and temporarily altered the balance of power in Europe. It removed the perceived ideological barrier between [[Nazism]] and Communism, leading to confusion among supporters of both ideologies.
 * **Eventual Breakdown:** The pact was ultimately broken by Germany's invasion of the Soviet Union in June 1941 (Operation Barbarossa). This event brought the Soviet Union into the Allied camp, fighting against Nazi Germany.
 
-# [IDS Unit 7](./../ids-unit-7/)
+# [[IDS Unit 7]]

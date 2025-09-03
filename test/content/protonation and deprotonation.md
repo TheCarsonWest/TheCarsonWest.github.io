@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [Unit 8  Acids and Bases](./../unit-8--acids-and-bases/)
-# [Acids and Bases](./../acids-and-bases/)
+# [[Unit 8  Acids and Bases]]
+# [[Acids and Bases]]
 # Protonation and Deprotonation
 
 ## Introduction
-Protonation and deprotonation are fundamental concepts in acid-base chemistry, involving the transfer of a proton ( $ H^+ $ ) between chemical species. Understanding these processes is crucial for comprehending chemical reactions, especially in aqueous solutions. The [Brønsted-Lowry Theory](./../brønsted-lowry-theory/) defines acids as proton donors and bases as proton acceptors.
+Protonation and deprotonation are fundamental concepts in acid-base chemistry, involving the transfer of a proton ( $ H^+ $ ) between chemical species. Understanding these processes is crucial for comprehending chemical reactions, especially in aqueous solutions. The [[Brønsted-Lowry Theory]] defines acids as proton donors and bases as proton acceptors.
 
 ## Protonation
 Protonation is the addition of a proton ( $ H^+ $ ) to a molecule, ion, or atom. This process generally increases the positive charge of the species.
@@ -41,7 +41,7 @@ Deprotonation is the removal of a proton ( $ H^+ $ ) from a molecule, ion, or at
      $$ NH_4^+(aq) \rightleftharpoons NH_3(aq) + H^+(aq) $$      The ammonium ion donates a proton to form ammonia.
 
 ## Acid and Base Strength and Extent of Protonation/Deprotonation
-The strength of an acid or base is determined by its tendency to donate or accept protons, respectively. Strong acids and bases completely dissociate or ionize in solution, while weak acids and bases only partially dissociate. [Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/) and [Base Strength and Conjugate Acid Strength](./../base-strength-and-conjugate-acid-strength/) are inversely proportional.
+The strength of an acid or base is determined by its tendency to donate or accept protons, respectively. Strong acids and bases completely dissociate or ionize in solution, while weak acids and bases only partially dissociate. [[Acid Strength and Conjugate Base Strength]] and [[Base Strength and Conjugate Acid Strength]] are inversely proportional.
 
 ### Acid Dissociation Constant ( $ K_a $ )
 The acid dissociation constant ( $ K_a $ ) quantifies the strength of an acid in solution.
@@ -56,7 +56,7 @@ The base dissociation constant ( $ K_b $ ) quantifies the strength of a base in 
 A larger  $ K_b $  value indicates a stronger base.
 
 ###  $ K_w $  and the relationship between  $ K_a $  and  $ K_b $ 
-For a conjugate acid-base pair, the product of their dissociation constants is equal to the [Ionic product of water Kw](./../ionic-product-of-water-kw/).
+For a conjugate acid-base pair, the product of their dissociation constants is equal to the [[Ionic product of water Kw]].
 
  $$ K_a \times K_b = K_w = 1.0 \times 10^{-14} \text{ at } 25^\circ C $$  
 ## Factors Affecting Protonation/Deprotonation

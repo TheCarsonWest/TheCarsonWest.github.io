@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 
-The [Extreme Value Theorem](./../extreme-value-theorem/) is a fundamental concept in calculus that guarantees the existence of maximum and minimum values for a continuous function over a closed interval.
+The [[Extreme Value Theorem]] is a fundamental concept in calculus that guarantees the existence of maximum and minimum values for a continuous function over a closed interval.
 ## Theorem Statement
 
 #### Let  $ f $  be a continuous function on a closed interval  $ [a, b]] $ . Then  $ f $  attains both an absolute maximum value  $ f(c) $  and an absolute minimum value  $ f(d) $  at some numbers  $ c $  and  $ d $  in  $ [a, b]] $ .
@@ -13,10 +13,10 @@ The [Extreme Value Theorem](./../extreme-value-theorem/) is a fundamental concep
 
 ## Key Concepts
 
-* **Continuous Function:**  A function is continuous on an interval if its graph can be drawn without lifting your pen.  Formally, a function  $ f(x) $  is continuous at a point  $ x=c $  if  $ \lim_{x \to c} f(x) = f(c) $ .  [Continuity](./../continuity/)
+* **Continuous Function:**  A function is continuous on an interval if its graph can be drawn without lifting your pen.  Formally, a function  $ f(x) $  is continuous at a point  $ x=c $  if  $ \lim_{x \to c} f(x) = f(c) $ .  [[Continuity]]
 * **Closed Interval:** A closed interval  $ [a, b]] $  includes its endpoints,  $ a $  and  $ b $ .  Open intervals  $ (a, b) $  do not include the endpoints.
 * **Absolute Maximum/Minimum:** The absolute maximum (or minimum) is the largest (or smallest) value of the function over the entire interval.  It's also sometimes called the global maximum/minimum.
-* **Local Maximum/Minimum:** A local maximum (or minimum) is the largest (or smallest) value of the function within a small neighborhood around a point. [Local vs. Absolute Extrema](./../local-vs.-absolute-extrema/)
+* **Local Maximum/Minimum:** A local maximum (or minimum) is the largest (or smallest) value of the function within a small neighborhood around a point. [[Local vs. Absolute Extrema]]
 
 
 ## Finding Extrema
@@ -24,7 +24,7 @@ The [Extreme Value Theorem](./../extreme-value-theorem/) is a fundamental concep
 To find the absolute maximum and minimum values of a continuous function  $ f(x) $  on a closed interval  $ [a, b]] $ :
 
 1. **Find critical points:** Find all values of  $ x $  in the interval  $ (a, b) $  where  $ f'(x) = 0 $  or  $ f'(x) $  is undefined.
-2. **Evaluate the function:** Evaluate  $ f(x) $  at each [Critical Point](./../critical-point/) found in step 1, and also at the endpoints  $ x = a $  and  $ x = b $ .
+2. **Evaluate the function:** Evaluate  $ f(x) $  at each [[Critical Point]] found in step 1, and also at the endpoints  $ x = a $  and  $ x = b $ .
 3. **Compare values:** The largest value among those found in step 2 is the absolute maximum, and the smallest value is the absolute minimum.
 
 
@@ -54,4 +54,4 @@ The EVT only guarantees the existence of absolute extrema; it doesn't provide a 
 
 ## Summary
 
-The [Extreme Value Theorem](./../extreme-value-theorem/) is a powerful tool for analyzing the behavior of continuous functions on closed intervals.  By understanding its conditions and applying the steps outlined above, you can confidently locate the absolute maximum and minimum values of many functions.
+The [[Extreme Value Theorem]] is a powerful tool for analyzing the behavior of continuous functions on closed intervals.  By understanding its conditions and applying the steps outlined above, you can confidently locate the absolute maximum and minimum values of many functions.

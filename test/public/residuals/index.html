@@ -36,14 +36,14 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
 <h1 id="residuals">Residuals</h1>
-<p>Residuals are fundamental to understanding the accuracy and appropriateness of a <a href="./../linear-regression-models/">Linear Regression Models</a> when fitting data. They represent the &ldquo;leftover&rdquo; variation in the dependent variable after accounting for the linear relationship with the independent variable.</p>
+<p>Residuals are fundamental to understanding the accuracy and appropriateness of a [[Linear Regression Models]] when fitting data. They represent the &ldquo;leftover&rdquo; variation in the dependent variable after accounting for the linear relationship with the independent variable.</p>
 <h2 id="definition-and-purpose">Definition and Purpose</h2>
 <p>A <strong>residual</strong> is the difference between an observed value of the response variable ( $ y $ ) and the value predicted by the regression model ( $ \hat{y} $ ). In essence, it tells us how far off our prediction was for a specific data point.</p>
 <ul>
 <li><strong>Observed Value ( $ y $ )</strong>: The actual value from the dataset.</li>
-<li><strong>Predicted Value ( $ \hat{y} $ )</strong>: The value estimated by the <a href="./../least-squares-regression/">Least Squares Regression</a> line for a given x-value.</li>
+<li><strong>Predicted Value ( $ \hat{y} $ )</strong>: The value estimated by the [[Least Squares Regression]] line for a given x-value.</li>
 </ul>
 <p>The primary purpose of residuals is to help us assess how well a regression model fits the data and to identify any patterns or issues that the linear model might not be capturing.</p>
 <h2 id="calculating-residuals">Calculating Residuals</h2>
@@ -59,7 +59,7 @@ Where:</p>
 <p><strong>Example:</strong>
 If the actual weight of a dog is 25 kg, and our regression model predicts 22 kg for a dog of that size, the residual would be  $ e = 25 - 22 = 3 $  kg. A positive residual means the model underpredicted the actual value, while a negative residual means the model overpredicted it.</p>
 <h2 id="residual-plots">Residual Plots</h2>
-<p>A <a href="./../residuals/">Residuals</a> plot (or residual plot) is a scatterplot of the residuals against the explanatory variable (x) or the predicted values ( $ \hat{y} $ ). These plots are crucial for assessing the appropriateness of a linear model.</p>
+<p>A [[Residuals]] plot (or residual plot) is a scatterplot of the residuals against the explanatory variable (x) or the predicted values ( $ \hat{y} $ ). These plots are crucial for assessing the appropriateness of a linear model.</p>
 <h3 id="how-to-construct-a-residual-plot">How to Construct a Residual Plot</h3>
 <ol>
 <li>Calculate the residuals for each data point using the formula  $ e = y - \hat{y} $ .</li>
@@ -72,7 +72,7 @@ If the actual weight of a dog is 25 kg, and our regression model predicts 22 kg 
 <p><strong>No Obvious Pattern</strong>:</p>
 <ul>
 <li><strong>Good Fit (Random Scatter)</strong>: If the points in the residual plot are randomly scattered around the horizontal line at 0 with no discernible pattern, it suggests that a linear model is appropriate for the data. This indicates that the linear model has captured most of the systematic relationship between the variables.</li>
-<li><strong>Bad Fit (Presence of a Pattern)</strong>: If there is a clear pattern (e.g., a curved shape, fanning out, or clustering) in the residual plot, it indicates that the linear model is not the best fit for the data. This means a nonlinear relationship might exist, or other variables might be influencing the relationship. <a href="./../analyzing-departures-from-linearity/">Analyzing Departures from Linearity</a> often involves examining residual plots for patterns.</li>
+<li><strong>Bad Fit (Presence of a Pattern)</strong>: If there is a clear pattern (e.g., a curved shape, fanning out, or clustering) in the residual plot, it indicates that the linear model is not the best fit for the data. This means a nonlinear relationship might exist, or other variables might be influencing the relationship. [[Analyzing Departures from Linearity]] often involves examining residual plots for patterns.</li>
 </ul>
 <table>
   <thead>
@@ -110,7 +110,7 @@ If the actual weight of a dog is 25 kg, and our regression model predicts 22 kg 
 </li>
 </ol>
 <h2 id="properties-of-residuals-in-least-squares-regression">Properties of Residuals in Least Squares Regression</h2>
-<p>For a <a href="./../least-squares-regression/">Least Squares Regression</a> line:</p>
+<p>For a [[Least Squares Regression]] line:</p>
 <ul>
 <li>The sum of the residuals is always zero:  $ \sum e_i = \sum (y_i - \hat{y}_i) = 0 $ .</li>
 <li>The mean of the residuals is also zero.</li>

@@ -6,7 +6,7 @@
 
 # Half-Equivalence Point
 
-The half-equivalence point is a specific point in a [Titration](./../titration/) where exactly half of the analyte has reacted with the titrant. This point is particularly important when titrating a weak acid or a weak base, as it provides a direct way to determine the  $ pK_a $  or  $ pK_b $  of the weak acid or base.
+The half-equivalence point is a specific point in a [[Titration]] where exactly half of the analyte has reacted with the titrant. This point is particularly important when titrating a weak acid or a weak base, as it provides a direct way to determine the  $ pK_a $  or  $ pK_b $  of the weak acid or base.
 
 ## Definition
 
@@ -17,11 +17,11 @@ The half-equivalence point is the point in a titration where:
 
 ## Significance
 
-The key significance of the half-equivalence point lies in its relationship to the [Acid Dissociation Constant](./../acid-dissociation-constant/) ( $ K_a $ ) and the [Base Dissociation Constant](./../base-dissociation-constant/) ( $ K_b $ ).
+The key significance of the half-equivalence point lies in its relationship to the [[Acid Dissociation Constant]] ( $ K_a $ ) and the [[Base Dissociation Constant]] ( $ K_b $ ).
 
 ### Weak Acids
 
-At the half-equivalence point, the pH of the solution is equal to the  $ pK_a $  of the weak acid. This can be derived from the [Henderson-Hasselbalch Equation](./../henderson-hasselbalch-equation/):
+At the half-equivalence point, the pH of the solution is equal to the  $ pK_a $  of the weak acid. This can be derived from the [[Henderson-Hasselbalch Equation]]:
 
  $ pH = pK_a + log\frac{[A^-]}{[HA]} $ 
 

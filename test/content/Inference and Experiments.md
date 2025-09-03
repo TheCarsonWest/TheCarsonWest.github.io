@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Inference and Experiments
 
 In AP Statistics, "Inference" refers to the process of drawing conclusions about a population based on sample data. "Experiments" are a specific type of study design used to investigate cause-and-effect relationships. When conducted properly, experiments provide the strongest evidence for causal inference.
@@ -19,13 +19,13 @@ Effective experimental design is crucial for valid causal inference. The core pr
 1.  **Comparison**: Experiments must compare two or more treatments. One of these treatments is often a control group or a placebo.
 2.  **Random Assignment**: This is the cornerstone of establishing causation. Subjects are randomly assigned to different treatment groups.
     *   *Why it's important*: Random assignment helps to create groups that are roughly equivalent in all characteristics (both known and unknown confounding variables) before the treatment is applied. This ensures that any observed differences in the response variable between groups are likely due to the treatment, not pre-existing differences.
-    *   *Distinction*: [Random Sampling and a Collection](./../random-sampling-and-a-collection/) is about selecting a representative sample from a population for statistical inference (generalizing to the population). Random assignment is about distributing subjects within an experiment to different treatment groups for causal inference (establishing cause-and-effect).
+    *   *Distinction*: [[Random Sampling and a Collection]] is about selecting a representative sample from a population for statistical inference (generalizing to the population). Random assignment is about distributing subjects within an experiment to different treatment groups for causal inference (establishing cause-and-effect).
 3.  **Replication**: Applying each treatment to multiple experimental units.
     *   *Why it's important*: Replication reduces the impact of chance variation on the results and increases the reliability of the findings. More replication means a stronger ability to detect effects if they truly exist.
 4.  **Control**: Efforts to keep all other variables besides the treatment constant across groups.
-    *   *Methods*: Using a [Control Group](./../control-group/) (a group that receives no treatment or a placebo) is a common control method. Blinding (single or double) is also used to control for psychological biases.
+    *   *Methods*: Using a [[Control Group]] (a group that receives no treatment or a placebo) is a common control method. Blinding (single or double) is also used to control for psychological biases.
 
-For more details on setting up an experiment, refer to [Introduction to Experimental Design](./../introduction-to-experimental-design/) and [Selecting an Experimental Design](./../selecting-an-experimental-design/).
+For more details on setting up an experiment, refer to [[Introduction to Experimental Design]] and [[Selecting an Experimental Design]].
 
 ## Terminology in Experiments
 
@@ -41,7 +41,7 @@ For more details on setting up an experiment, refer to [Introduction to Experime
 ## Causal Inference vs. Statistical Inference
 
 *   **Causal Inference**: When an experiment is properly designed with random assignment, we can conclude that changes in the explanatory variable *cause* changes in the response variable. This is the unique power of experiments.
-*   **Statistical Inference**: Once we have the data from an experiment, we use statistical inference procedures (e.g., [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/), [Confidence Intervals for the Difference of Two Means](./../confidence-intervals-for-the-difference-of-two-means/)) to determine if the observed differences between treatment groups are statistically significant and unlikely to have occurred by random chance. If the experimental units were also randomly sampled from a larger population, we can then generalize our causal conclusions to that population.
+*   **Statistical Inference**: Once we have the data from an experiment, we use statistical inference procedures (e.g., [[Setting Up a Test for a Population Mean]], [[Confidence Intervals for the Difference of Two Means]]) to determine if the observed differences between treatment groups are statistically significant and unlikely to have occurred by random chance. If the experimental units were also randomly sampled from a larger population, we can then generalize our causal conclusions to that population.
 
 ## Potential Problems and Solutions
 

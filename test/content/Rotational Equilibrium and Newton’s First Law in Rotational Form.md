@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [[AP Physics Home]]
 # AP Physics Note Page: Rotational Equilibrium and Newton’s First Law in Rotational Form
 
 ## 5.5 Rotational Equilibrium and Newton’s First Law in Rotational Form
 
-This topic explores the conditions under which an object remains in a state of constant rotational motion (or no rotational motion at all). It's the rotational analog to [Newton’s First Law](./../newton’s-first-law/) for translational motion.
+This topic explores the conditions under which an object remains in a state of constant rotational motion (or no rotational motion at all). It's the rotational analog to [[Newton’s First Law]] for translational motion.
 
 ### I. Rotational Equilibrium Defined
 
@@ -20,7 +20,7 @@ This concept is crucial for analyzing static structures like bridges, cranes, an
 
 ### II. Condition for Rotational Equilibrium
 
-Just as a net force causes translational acceleration (Newton's Second Law:  $ \Sigma F = ma $ ), a net torque causes angular acceleration ([Newton’s Second Law in Rotational Form](./../newton’s-second-law-in-rotational-form/):  $ \Sigma \tau = I \alpha $ ).
+Just as a net force causes translational acceleration (Newton's Second Law:  $ \Sigma F = ma $ ), a net torque causes angular acceleration ([[Newton’s Second Law in Rotational Form]]:  $ \Sigma \tau = I \alpha $ ).
 
 Therefore, for an object to be in rotational equilibrium ( $ \alpha = 0 $ ), the net torque acting on it must be zero.
 
@@ -30,7 +30,7 @@ Where  $ \Sigma \tau $  is the sum of all torques acting on the object. This sum
 
 ### III. Torques and Lever Arms
 
-[Torque](./../torque/) ( $ \tau $ ) is the rotational equivalent of force. It measures the effectiveness of a force in causing an object to rotate about a pivot point.
+[[Torque]] ( $ \tau $ ) is the rotational equivalent of force. It measures the effectiveness of a force in causing an object to rotate about a pivot point.
 
 The magnitude of torque is given by:
  $  \tau = r F \sin(\theta)  $ 

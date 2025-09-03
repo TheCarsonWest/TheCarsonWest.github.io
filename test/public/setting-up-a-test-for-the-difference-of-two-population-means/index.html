@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
 <h1 id="setting-up-a-test-for-the-difference-of-two-population-means">Setting Up a Test for the Difference of Two Population Means</h1>
-<p>When we want to compare the means of two distinct populations or two different treatments, we often use a two-sample t-test for the difference between two population means. This statistical inference procedure allows us to determine if there is a statistically significant difference between the true population means ( $ \mu_1 $  and  $ \mu_2 $ ). This process involves stating hypotheses, checking conditions, and defining the test statistic and p-value, similar to <a href="./../setting-up-a-test-for-a-population-mean/">Setting Up a Test for a Population Mean</a>.</p>
+<p>When we want to compare the means of two distinct populations or two different treatments, we often use a two-sample t-test for the difference between two population means. This statistical inference procedure allows us to determine if there is a statistically significant difference between the true population means ( $ \mu_1 $  and  $ \mu_2 $ ). This process involves stating hypotheses, checking conditions, and defining the test statistic and p-value, similar to [[Setting Up a Test for a Population Mean]].</p>
 <h2 id="1-state-the-hypotheses">1. State the Hypotheses</h2>
 <p>The first step in setting up any significance test is to clearly state the null and alternative hypotheses. These hypotheses are statements about the unknown population parameters.</p>
 <ul>
@@ -74,9 +74,9 @@ $$ H_0: \mu_1 - \mu_2 = 0 \quad \text{or} \quad H_0: \mu_1 = \mu_2 $$      Where
 </li>
 </ul>
 <h2 id="2-identify-the-significance-level---alpha--">2. Identify the Significance Level ( $ \alpha $ )</h2>
-<p>Before collecting or analyzing data, you should choose a significance level, denoted by  $ \alpha $ . This is the probability of making a <a href="./../potential-errors-when-performing-tests#type-i-error%7Ctype-i-error/">Potential Errors When Performing Tests#Type I Error|Type I error</a> (rejecting a true null hypothesis). Common choices for  $ \alpha $  are 0.05 or 0.01. If not provided, it is often assumed to be 0.05.</p>
+<p>Before collecting or analyzing data, you should choose a significance level, denoted by  $ \alpha $ . This is the probability of making a [[Potential Errors When Performing Tests#Type I Error|Type I error]] (rejecting a true null hypothesis). Common choices for  $ \alpha $  are 0.05 or 0.01. If not provided, it is often assumed to be 0.05.</p>
 <h2 id="3-check-conditions-for-inference">3. Check Conditions for Inference</h2>
-<p>To ensure the validity of the two-sample t-test, several conditions must be met. These conditions are similar to those for <a href="./../constructing-a-confidence-interval-for-a-population-mean/">Constructing a Confidence Interval for a Population Mean</a> but are applied to two independent samples.</p>
+<p>To ensure the validity of the two-sample t-test, several conditions must be met. These conditions are similar to those for [[Constructing a Confidence Interval for a Population Mean]] but are applied to two independent samples.</p>
 <ul>
 <li><strong>Random Condition</strong>: The data for each sample must come from a random sample or a randomized experiment.
 <ul>
@@ -94,7 +94,7 @@ $$ H_0: \mu_1 - \mu_2 = 0 \quad \text{or} \quad H_0: \mu_1 = \mu_2 $$      Where
 <li><strong>Normal/Large Sample Condition</strong>: For each sample, the sampling distribution of the sample mean must be approximately normal. This can be satisfied if:
 <ul>
 <li>Both population distributions are approximately normal (checked with graphs like dot plots, histograms, or normal probability plots).</li>
-<li>Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>.</li>
+<li>Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to [[The Central Limit Theorem]].</li>
 <li>If sample sizes are small and the population distribution is unknown, use graphical displays of the sample data to assess for strong skewness or outliers. If such features are present, the condition is not met.</li>
 </ul>
 </li>
@@ -112,7 +112,7 @@ $$ t = \frac{(\bar{x}_1 - \bar{x}_2) - (\mu_1 - \mu_2)_0}{\sqrt{\frac{s_1^2}{n_1
 <li>$ (\mu_1 - \mu_2)_0 $  is the hypothesized difference in population means (typically 0 under  $ H_0 $ ).</li>
 </ul>
 <p>The degrees of freedom (df) for this t-statistic are calculated using a complex formula or, more commonly in AP Statistics, by using the smaller of  $ (n_1 - 1) $  and  $ (n_2 - 1) $  for a conservative estimate, or letting technology calculate a more precise value.</p>
-<p>After setting up the test, the next step is <a href="./../carrying-out-a-test-for-the-difference-of-two-population-means/">Carrying Out a Test for the Difference of Two Population Means</a>, which involves calculating the test statistic and the p-value, and then making a conclusion.</p>
+<p>After setting up the test, the next step is [[Carrying Out a Test for the Difference of Two Population Means]], which involves calculating the test statistic and the p-value, and then making a conclusion.</p>
 
 </main>
 

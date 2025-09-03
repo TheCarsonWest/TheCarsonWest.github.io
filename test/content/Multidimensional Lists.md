@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Lists](./../lists/)
-# [Multidimensional Lists](./../multidimensional-lists/) 
+# [[Lists]]
+# [[Multidimensional Lists]] 
 Multidimensional lists in Python are lists within lists, creating a structure that can represent matrices, tables, or other higher-dimensional data.  The number of dimensions is limited only by memory and practicality.
 
 **Example:**
@@ -25,8 +25,8 @@ print(matrix12)  # Output: 6 (second row, third column)
 # A 3D list (e.g., a cube of data)
 cube = [
     1, 2, 3, 4,
-    5, 6, [7, 8](./../7,-8/),
-    [9, 10](./../9,-10/), [11, 12]]
+    5, 6, [[7, 8]],
+    [[9, 10]], [11, 12]]
 ]]
 
 print(cube1[0]]1) #Output: 6
@@ -42,17 +42,17 @@ print(cube1[0]]1) #Output: 6
 
 **Important Considerations:**
 
-* **Memory Efficiency:**  Multidimensional lists can consume significant memory, especially with large dimensions. Consider using NumPy arrays for better performance and memory management with large datasets. [NumPy Arrays](./../numpy-arrays/)
+* **Memory Efficiency:**  Multidimensional lists can consume significant memory, especially with large dimensions. Consider using NumPy arrays for better performance and memory management with large datasets. [[NumPy Arrays]]
 * **Nested Loops:** Accessing and manipulating elements often requires nested loops.  
-* **[List Comprehension](./../list-comprehension/):**  List comprehensions can be used to create and manipulate multidimensional lists concisely.  [List Comprehensions](./../list-comprehensions/)
+* **[[List Comprehension]]:**  List comprehensions can be used to create and manipulate multidimensional lists concisely.  [[List Comprehensions]]
 
 
-**Example using [List Comprehension](./../list-comprehension/) to create a 2D list:**
+**Example using [[List Comprehension]] to create a 2D list:**
 
 ```python
 rows = 3
 cols = 4
-matrix = [i * cols + j for j in range(cols)](./../i-*-cols-+-j-for-j-in-range(cols)/) for i in range(rows)]]
+matrix = [[i * cols + j for j in range(cols)]] for i in range(rows)]]
 print(matrix)
 ```
 

@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [[AP Physics Home]]
 # AP Physics 1 - Topic 3.3: Potential Energy
 
 ## 1. Introduction to Potential Energy
 
-Potential energy ( $ U $ ) is the energy an object possesses due to its position or configuration within a force field, rather than its motion. It represents stored energy that has the potential to be converted into other forms of energy, such as [Translational Kinetic Energy](./../translational-kinetic-energy/). Unlike kinetic energy, potential energy is associated with conservative forces.
+Potential energy ( $ U $ ) is the energy an object possesses due to its position or configuration within a force field, rather than its motion. It represents stored energy that has the potential to be converted into other forms of energy, such as [[Translational Kinetic Energy]]. Unlike kinetic energy, potential energy is associated with conservative forces.
 
-Potential energy is a [Scalars and Vectors in One Dimension|scalar](./../scalars-and-vectors-in-one-dimension|scalar/) quantity, measured in Joules (J). The *change* in potential energy ( $ \Delta U $ ) is often more significant than its absolute value, as it relates directly to the work done by conservative forces.
+Potential energy is a [[Scalars and Vectors in One Dimension|scalar]] quantity, measured in Joules (J). The *change* in potential energy ( $ \Delta U $ ) is often more significant than its absolute value, as it relates directly to the work done by conservative forces.
 
 ## 2. Gravitational Potential Energy ( $ U_g $ )
 
@@ -35,12 +35,12 @@ Elastic potential energy is the energy stored in an elastic material, such as a 
 For an ideal spring with spring constant  $ k $  that is stretched or compressed by a displacement  $ x $  from its equilibrium position, the elastic potential energy is:
  $  U_s = \frac{1}{2}kx^2  $ 
 Where:
-*    $ k $  = spring constant (N/m), a measure of the spring's stiffness ([Spring Forces](./../spring-forces/))
+*    $ k $  = spring constant (N/m), a measure of the spring's stiffness ([[Spring Forces]])
 *    $ x $  = displacement from the spring's equilibrium position (m)
 
 ## 4. Conservative Forces and Potential Energy
 
-Potential energy is only defined for [Conservative Forces](./../conservative-forces/). A force is conservative if the work it does on an object moving between two points is independent of the path taken. Alternatively, a conservative force does zero net [Work](./../work/) on an object moving along any closed path.
+Potential energy is only defined for [[Conservative Forces]]. A force is conservative if the work it does on an object moving between two points is independent of the path taken. Alternatively, a conservative force does zero net [[Work]] on an object moving along any closed path.
 *   **Examples of Conservative Forces:** Gravitational force, spring force.
 *   **Examples of Non-Conservative Forces:** Friction, air resistance. Work done by non-conservative forces results in a change in the total mechanical energy of a system.
 
@@ -50,7 +50,7 @@ For instance, the work done by gravity  $ W_g = - (U_{g,f} - U_{g,i}) = U_{g,i} 
 
 ## 5. Relationship to Work and Conservation of Energy
 
-Potential energy plays a crucial role in the [Conservation of Energy](./../conservation-of-energy/). In systems where only conservative forces do work, the total mechanical energy ( $ E = K + U $ ) remains constant. When an object moves under the influence of conservative forces, potential energy can be converted into kinetic energy, and vice-versa, while the sum remains constant.
+Potential energy plays a crucial role in the [[Conservation of Energy]]. In systems where only conservative forces do work, the total mechanical energy ( $ E = K + U $ ) remains constant. When an object moves under the influence of conservative forces, potential energy can be converted into kinetic energy, and vice-versa, while the sum remains constant.
 
 | Energy Type           | Symbol | Formula                               | Description                                     |
 | :-------------------- | :----- | :------------------------------------ | :---------------------------------------------- |
@@ -59,4 +59,4 @@ Potential energy plays a crucial role in the [Conservation of Energy](./../conse
 | Elastic PE            |  $ U_s $   |  $ U_s = \frac{1}{2}kx^2 $                | Energy stored in a stretched/compressed spring  |
 | Total Mechanical Energy |  $ E $     |  $ E = K + U_g + U_s $  (if applicable) | Sum of kinetic and potential energies           |
 
-Understanding potential energy is fundamental for analyzing energy transformations and applying the principle of [Conservation of Energy](./../conservation-of-energy/) in various physical systems.
+Understanding potential energy is fundamental for analyzing energy transformations and applying the principle of [[Conservation of Energy]] in various physical systems.

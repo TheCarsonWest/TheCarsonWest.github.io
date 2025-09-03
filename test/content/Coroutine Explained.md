@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Async Generators](./../async-generators/)
-# [Coroutine Explained](./../coroutine-explained/) 
+# [[Async Generators]]
+# [[Coroutine Explained]] 
 A coroutine is a specialized type of function that can be paused and resumed at various points.  Unlike regular functions which run to completion, coroutines can yield control back to the caller, and later resume execution from where they left off.  This is achieved using the `async` and `await` keywords (introduced in Python 3.5).
 
 Key features:
@@ -42,11 +42,11 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-[Asyncio Explained](./../asyncio-explained/)  This example uses `asyncio.sleep`, which is an asynchronous version of `time.sleep`.  The `asyncio` library is fundamental to working with coroutines effectively.  More details should be in [Asyncio Explained](./../asyncio-explained/).
+[[Asyncio Explained]]  This example uses `asyncio.sleep`, which is an asynchronous version of `time.sleep`.  The `asyncio` library is fundamental to working with coroutines effectively.  More details should be in [[Asyncio Explained]].
 
-[await Explained](./../await-explained/)  Further explanation of the `await` keyword and its behaviour, particularly the implications of using it with different kinds of asynchronous objects is needed in [await Explained](./../await-explained/).
+[[await Explained]]  Further explanation of the `await` keyword and its behaviour, particularly the implications of using it with different kinds of asynchronous objects is needed in [[await Explained]].
 
-[async def Explained](./../async-def-explained/)  A more detailed examination of the `async def` syntax and its unique characteristics, such as how it interacts with other function types and decorators could go in [async def Explained](./../async-def-explained/).
+[[async def Explained]]  A more detailed examination of the `async def` syntax and its unique characteristics, such as how it interacts with other function types and decorators could go in [[async def Explained]].
 
 
 Important points to remember:

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium](./../equilibrium/)
-# [Le Chateliers Principle Examples](./../le-chateliers-principle-examples/)
+# [[Equilibrium]]
+# [[Le Chateliers Principle Examples]]
 
-[Le Chateliers Principle](./../le-chateliers-principle/) states that if a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress.  This can involve changes in concentration, pressure, volume, or temperature.
+[[Le Chateliers Principle]] states that if a change of condition is applied to a system in equilibrium, the system will shift in a direction that relieves the stress.  This can involve changes in concentration, pressure, volume, or temperature.
 
 **Types of Stress and System Response:**
 
@@ -23,21 +23,21 @@
 * **Change in Temperature:**
     * **Exothermic reactions ( $ ΔH < 0 $ ):** Increasing temperature shifts the equilibrium to the left (towards reactants), decreasing temperature shifts to the right.
     * **Endothermic reactions ( $ ΔH > 0 $ ):** Increasing temperature shifts the equilibrium to the right (towards products), decreasing temperature shifts to the left.
-    *  $ K_{eq} $  changes with temperature. [Equilibrium Constant](./../equilibrium-constant/)
+    *  $ K_{eq} $  changes with temperature. [[Equilibrium Constant]]
 
 
 **Examples:**
 
 * **Haber Process ( $ N_2 + 3H_2 \rightleftharpoons 2NH_3 + heat $ ):**  This is an exothermic reaction. To maximize  $ NH_3 $  production, high pressure, low temperature, and continuously removing  $ NH_3 $  are employed.  However, low temperatures slow the reaction rate, hence a compromise is needed.
 
-* **Dissolution of a slightly soluble salt:**  $ AgCl(s) \rightleftharpoons Ag^+(aq) + Cl^-(aq) $  Adding  $ Cl^- $  ions will shift the equilibrium to the left, decreasing the solubility of  $ AgCl $ . This is the common ion effect. [Common Ion Effect](./../common-ion-effect/)
+* **Dissolution of a slightly soluble salt:**  $ AgCl(s) \rightleftharpoons Ag^+(aq) + Cl^-(aq) $  Adding  $ Cl^- $  ions will shift the equilibrium to the left, decreasing the solubility of  $ AgCl $ . This is the common ion effect. [[Common Ion Effect]]
 
 
 **Further Notes:**
 
-* [Equilibrium Constant](./../equilibrium-constant/)
-* [Reaction Quotient](./../reaction-quotient/)
-* [Gibbs Free Energy and Equilibrium](./../gibbs-free-energy-and-equilibrium/)
+* [[Equilibrium Constant]]
+* [[Reaction Quotient]]
+* [[Gibbs Free Energy and Equilibrium]]
 
 
 **Practice Problems:**

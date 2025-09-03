@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Carrying Out a Test for the Slope of a Regression Model
 
-This note page details the execution phase of a hypothesis test for the slope of a population regression line. This test helps us determine if there is a statistically significant linear relationship between two quantitative variables in the population, based on a sample. For the initial steps of defining hypotheses, refer to [Setting Up a Test for the Slope of a Regression Model](./../setting-up-a-test-for-the-slope-of-a-regression-model/).
+This note page details the execution phase of a hypothesis test for the slope of a population regression line. This test helps us determine if there is a statistically significant linear relationship between two quantitative variables in the population, based on a sample. For the initial steps of defining hypotheses, refer to [[Setting Up a Test for the Slope of a Regression Model]].
 
 ## Conditions for Inference for Regression Slope
 
@@ -33,7 +33,7 @@ The test statistic is given by:
 *    $ SE_b $  is the standard error of the slope, which measures the variability of the sample slope  $ b $  from sample to sample. This value is typically provided in computer output for regression analysis.
 
 The formula for  $ SE_b $  is:
- $$  SE_b = \frac{s}{\sqrt{\sum (x_i - \bar{x})^2}}  $$  Where  $ s $  is the standard deviation of the residuals (also known as the root mean square error,  $ s_e $ ), and the denominator measures the spread of the  $ x $  values. These values are often found in [Linear Regression Models](./../linear-regression-models/) output.
+ $$  SE_b = \frac{s}{\sqrt{\sum (x_i - \bar{x})^2}}  $$  Where  $ s $  is the standard deviation of the residuals (also known as the root mean square error,  $ s_e $ ), and the denominator measures the spread of the  $ x $  values. These values are often found in [[Linear Regression Models]] output.
 
 ## Calculating the p-value
 
@@ -63,6 +63,6 @@ The final step is to make a decision about the null hypothesis and interpret the
     *   **If you reject  $ H_0 $ :** There is convincing statistical evidence (at the  $ \alpha $  level) to suggest that there is a linear relationship between  $ x $  and  $ y $  (or that the population slope is significantly different from  $ \beta_0 $ ). Specifically, address the direction of the relationship if  $ H_a $  was one-sided or the sign of  $ b $  is clear.
     *   **If you fail to reject  $ H_0 $ :** There is **not** convincing statistical evidence (at the  $ \alpha $  level) to suggest a linear relationship between  $ x $  and  $ y $  (or that the population slope is significantly different from  $ \beta_0 $ ). This does **not** mean there is no relationship, just that we don't have enough evidence from our sample to conclude one exists at the chosen significance level.
 
-Remember that a statistically significant relationship does not necessarily imply a strong relationship, nor does it imply causation. Always consider [Potential Problems with Sampling](./../potential-problems-with-sampling/) and [Inference and Experiments](./../inference-and-experiments/) when interpreting results.
+Remember that a statistically significant relationship does not necessarily imply a strong relationship, nor does it imply causation. Always consider [[Potential Problems with Sampling]] and [[Inference and Experiments]] when interpreting results.
 
-For further exploration, consider [Confidence Intervals for the Slope of a Regression Model](./../confidence-intervals-for-the-slope-of-a-regression-model/) to estimate the true population slope.
+For further exploration, consider [[Confidence Intervals for the Slope of a Regression Model]] to estimate the true population slope.

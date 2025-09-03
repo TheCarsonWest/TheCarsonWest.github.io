@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Hess Law](./../hess-law/)
-# [Thermodynamics](./../thermodynamics/)
+# [[Hess Law]]
+# [[Thermodynamics]]
 Bond enthalpy (or bond energy) is the average amount of energy required to break one mole of a specific type of bond in the gaseous phase.  It's an important concept in thermochemistry, allowing us to estimate the enthalpy change ( $ \Delta H $ ) of reactions without needing to directly measure it experimentally.  Remember that bond enthalpies are *average* values, as the actual energy required to break a specific bond can vary slightly depending on the molecule's structure and surrounding atoms.
 
 ## Understanding the Concept
@@ -43,10 +43,10 @@ This calculation provides an *estimate* of the enthalpy change.  The actual valu
 
 ## Limitations of Using Bond Enthalpies
 
-[Average vs. Actual Bond Enthalpies](./../average-vs.-actual-bond-enthalpies/)  The use of average bond enthalpies inherently involves some error.  The strength of a bond can vary depending on the molecule's structure and the surrounding atoms. For example, a C-H bond in methane will have a slightly different bond enthalpy than a C-H bond in benzene.
+[[Average vs. Actual Bond Enthalpies]]  The use of average bond enthalpies inherently involves some error.  The strength of a bond can vary depending on the molecule's structure and the surrounding atoms. For example, a C-H bond in methane will have a slightly different bond enthalpy than a C-H bond in benzene.
 
-[Phase Changes and Standard Conditions](./../phase-changes-and-standard-conditions/) Bond enthalpies are typically given for gaseous phase molecules. If the reactants and products are in different phases (solid, liquid, or gas) then additional energy terms (heat of fusion or vaporization) will need to be considered.  The calculations are usually based on standard conditions (298 K and 1 atm).
+[[Phase Changes and Standard Conditions]] Bond enthalpies are typically given for gaseous phase molecules. If the reactants and products are in different phases (solid, liquid, or gas) then additional energy terms (heat of fusion or vaporization) will need to be considered.  The calculations are usually based on standard conditions (298 K and 1 atm).
 
-[Resonance Structures](./../resonance-structures/)  In molecules with resonance structures, the actual bond enthalpy may differ from the average calculated using individual bond enthalpies.
+[[Resonance Structures]]  In molecules with resonance structures, the actual bond enthalpy may differ from the average calculated using individual bond enthalpies.
 
 

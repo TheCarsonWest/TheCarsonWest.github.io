@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium](./../equilibrium/)
+# [[Equilibrium]]
 
 # Reaction Quotient (Q) - AP Chemistry Rundown
 
@@ -24,7 +24,7 @@ The reaction quotient, Q, is calculated using the same formula as the equilibriu
 
     *Note: If dealing with gases, partial pressures are used instead of concentrations.*
      $$ Q_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b} $$  
-[Concentration vs Pressure](./../concentration-vs-pressure/)
+[[Concentration vs Pressure]]
 ## Comparing Q and K
 
 The comparison of Q and K is crucial for predicting the direction of a reaction shift.
@@ -34,7 +34,7 @@ The comparison of Q and K is crucial for predicting the direction of a reaction 
 2.  **Q > K:** The ratio of products to reactants is *greater* than at equilibrium.  The reaction will shift to the *left*, favoring the *formation of more reactants* to reach equilibrium.
 
 3.  **Q = K:** The system is *at equilibrium*. There is no net change in the concentrations of reactants and products.
-[Le Chatelier's Principle](./../le-chatelier's-principle/)
+[[Le Chatelier's Principle]]
 ## Applications
 
 *   **Predicting Reaction Direction:**  The primary use of Q is to determine which direction a reversible reaction will proceed to reach equilibrium.
@@ -57,7 +57,7 @@ At a certain point in time, the partial pressures are:   $$ P_{N_2} = 2 \ atm $$
 
      $$ Q_p = 4.5 $$  and  $$ K_p = 8 $$  
     Since  $$ Q_p < K_p $$ , the reaction will shift to the *right* to reach equilibrium, favoring the *formation of more ammonia* ( $$ NH_3 $$ ).
-[ICE Tables](./../ice-tables/)
+[[ICE Tables]]
 ## Common Mistakes to Avoid
 
 *   **Using Equilibrium Concentrations to Calculate Q:** Remember that Q is calculated using *non-equilibrium* concentrations or partial pressures.  Using equilibrium values will simply give you K.

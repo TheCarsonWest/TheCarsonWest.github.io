@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="chaining-decoratorschaining-decorators"><a href="./../chaining-decorators/">Chaining Decorators</a></h1>
-<h1 id="decorator-basicsdecorator-basics--decoratorsdecorators-are-a-powerful-and-expressive-feature-in-python-that-allows-you-to-modify-or-enhance-functions-and-methods-in-a-clean-and-readable-way--they-use-the--symbol-followed-by-the-decorator-function-name-placed-above-the-function-definition"><a href="./../decorator-basics/">Decorator Basics</a>  <a href="./../decorators/">Decorators</a> are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the <code>@</code> symbol followed by the decorator function name, placed above the function definition.</h1>
+<h1 id="chaining-decorators">[[Chaining Decorators]]</h1>
+<h1 id="decorator-basics--decorators-are-a-powerful-and-expressive-feature-in-python-that-allows-you-to-modify-or-enhance-functions-and-methods-in-a-clean-and-readable-way--they-use-the--symbol-followed-by-the-decorator-function-name-placed-above-the-function-definition">[[Decorator Basics]]  [[Decorators]] are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the <code>@</code> symbol followed by the decorator function name, placed above the function definition.</h1>
 <p><strong>Basic Syntax:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_decorator</span>(func):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>():
@@ -59,8 +59,8 @@ Something is happening after the function is called.
 <p>The <code>@my_decorator</code> syntax is syntactic sugar for:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>say_hello <span style="color:#f92672">=</span> my_decorator(say_hello)
 </span></span></code></pre></div><p><code>my_decorator</code> takes the function <code>say_hello</code> as input, and returns a new function (<code>wrapper</code>) which wraps the original functionality with additional code.  The <code>wrapper</code> function then becomes the new <code>say_hello</code>.</p>
-<p><strong><a href="./../decorators/">Decorators</a> with Arguments:</strong>
-<a href="./../decorators/">Decorators</a> can also accept arguments.  This requires a bit more complexity:</p>
+<p><strong>[[Decorators]] with Arguments:</strong>
+[[Decorators]] can also accept arguments.  This requires a bit more complexity:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">repeat</span>(num_times):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">decorator_repeat</span>(func):
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wrapper</span>(<span style="color:#f92672">*</span>args, <span style="color:#f92672">**</span>kwargs):
@@ -76,8 +76,8 @@ Something is happening after the function is called.
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;World&#34;</span>)
 </span></span></code></pre></div><p>This uses a closure to handle the <code>num_times</code> argument. The outer function <code>repeat</code> returns the actual decorator (<code>decorator_repeat</code>).</p>
-<p><strong><a href="./../decorator-advanced-usage/">Decorator Advanced Usage</a></strong>  (This will be a separate note)</p>
-<p><strong><a href="./../closures-in-python/">Closures in Python</a></strong> (This will be a separate note)</p>
+<p><strong>[[Decorator Advanced Usage]]</strong>  (This will be a separate note)</p>
+<p><strong>[[Closures in Python]]</strong> (This will be a separate note)</p>
 <p><strong>Example Use Cases:</strong></p>
 <ul>
 <li><strong>Logging:</strong>  Track function calls and their arguments/return values.</li>
@@ -85,8 +85,8 @@ Something is happening after the function is called.
 <li><strong>Authentication:</strong>  Check user permissions before executing a function.</li>
 <li><strong>Caching:</strong> Store the results of expensive function calls to avoid redundant computations.</li>
 </ul>
-<p><strong>Note:</strong>  When using decorators with methods (functions within a class), you need to use <code>functools.wraps</code> to preserve metadata like the function&rsquo;s name and docstring.  This is crucial for debugging and introspection.  See <a href="./../decorator-gotchas/">Decorator Gotchas</a></p>
-<p><strong><a href="./../decorator-gotchas/">Decorator Gotchas</a></strong> (This will be a separate note)</p>
+<p><strong>Note:</strong>  When using decorators with methods (functions within a class), you need to use <code>functools.wraps</code> to preserve metadata like the function&rsquo;s name and docstring.  This is crucial for debugging and introspection.  See [[Decorator Gotchas]]</p>
+<p><strong>[[Decorator Gotchas]]</strong> (This will be a separate note)</p>
 
 </main>
 

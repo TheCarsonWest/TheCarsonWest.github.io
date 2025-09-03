@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="data-type-conversionsdata-type-conversions"><a href="./../data-type-conversions/">Data Type Conversions</a></h1>
-<h1 id="type-hintingtype-hinting-in-python"><a href="./../type-hinting/">Type Hinting</a> in Python</h1>
-<p>Type hinting in Python allows you to specify the expected <a href="./../data-types/">Data Types</a> of variables, function arguments, and <a href="./../return-values/">Return Values</a>.  This improves code readability, helps catch errors during development (using tools like MyPy), and aids in better code understanding and maintainability.</p>
+<h1 id="data-type-conversions">[[Data Type Conversions]]</h1>
+<h1 id="type-hinting-in-python">[[Type Hinting]] in Python</h1>
+<p>Type hinting in Python allows you to specify the expected [[Data Types]] of variables, function arguments, and [[Return Values]].  This improves code readability, helps catch errors during development (using tools like MyPy), and aids in better code understanding and maintainability.</p>
 <p><strong>Basic Syntax:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Variable annotation</span>
 </span></span><span style="display:flex;"><span>age: int <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
@@ -64,13 +64,13 @@
 <ul>
 <li>Type hinting is optional in Python; it doesn&rsquo;t enforce types at runtime (unless you use a runtime type checker).</li>
 <li>Can add some overhead to writing code.</li>
-<li><a href="./../type-hinting-complexities/">Type hinting complexities</a> (separate note needed)  -  dealing with complex types like unions, generics, etc. requires understanding advanced concepts.</li>
+<li>[[Type hinting complexities]] (separate note needed)  -  dealing with complex types like unions, generics, etc. requires understanding advanced concepts.</li>
 </ul>
 <p><strong>Related Notes:</strong></p>
 <ul>
-<li><a href="./../mypy-usage/">MyPy Usage</a> (separate note needed) - How to use the MyPy static type checker.</li>
-<li><a href="./../type-aliases/">Type Aliases</a> (separate note needed) - Defining custom type names for improved readability.</li>
-<li><a href="./../optional-types/">Optional Types</a> (separate note needed) - Using the <code>Optional</code> type to handle cases where a variable might be <code>None</code>.</li>
+<li>[[MyPy Usage]] (separate note needed) - How to use the MyPy static type checker.</li>
+<li>[[Type Aliases]] (separate note needed) - Defining custom type names for improved readability.</li>
+<li>[[Optional Types]] (separate note needed) - Using the <code>Optional</code> type to handle cases where a variable might be <code>None</code>.</li>
 </ul>
 <p><strong>Example with MyPy:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Install MyPy: pip install mypy</span>
@@ -81,7 +81,7 @@
 <li><strong>Type Unions:</strong>  Specify multiple possible types for a variable.  Example: <code>x: int | str</code></li>
 <li><strong>Generics:</strong>  Define types that can work with different underlying types. Example: <code>List[T]]</code> (where <code>T</code> is a type parameter)</li>
 <li><strong>Type Var:</strong> Define type variables used in generics.</li>
-<li><a href="./../type-checking-decorators/">Type Checking Decorators</a> (separate note needed) – Using <a href="./../decorators/">Decorators</a> to enforce type checking at runtime</li>
+<li>[[Type Checking Decorators]] (separate note needed) – Using [[Decorators]] to enforce type checking at runtime</li>
 </ul>
 <p>This concludes the basic overview of type hinting in python. Remember to consult the official python documentation for the most up-to-date and thorough explanation.</p>
 

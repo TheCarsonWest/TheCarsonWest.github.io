@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 # Slope Fields: AP Calculus AB Rundown
 
 Slope fields, also known as direction fields, are a visual representation of the solutions to a first-order differential equation. They provide a graphical way to understand the behavior of solutions without actually solving the equation analytically.
@@ -45,11 +45,11 @@ Slope fields are useful for:
 
 ## Key Observations and Concepts
 
-*   **Isoclines:** [What are isoclines?](./../what-are-isoclines?/) Isoclines are curves along which the slope field has a constant slope.  They are defined by the equation  $ f(x, y) = c $ , where *c* is a constant. Identifying isoclines can simplify the process of drawing a slope field.  For example, if  $ \frac{dy}{dx} = x + y $ , then the isocline where the slope is 0 is given by  $ x + y = 0 $ , or  $ y = -x $ .  All line segments along this line will be horizontal.
+*   **Isoclines:** [[What are isoclines?]] Isoclines are curves along which the slope field has a constant slope.  They are defined by the equation  $ f(x, y) = c $ , where *c* is a constant. Identifying isoclines can simplify the process of drawing a slope field.  For example, if  $ \frac{dy}{dx} = x + y $ , then the isocline where the slope is 0 is given by  $ x + y = 0 $ , or  $ y = -x $ .  All line segments along this line will be horizontal.
 
-*   **Equilibrium Solutions:** [What are equilibrium solutions?](./../what-are-equilibrium-solutions?/) Equilibrium solutions are constant solutions of the differential equation.  They occur when  $ \frac{dy}{dx} = 0 $ .  On the slope field, these are represented by horizontal lines.
+*   **Equilibrium Solutions:** [[What are equilibrium solutions?]] Equilibrium solutions are constant solutions of the differential equation.  They occur when  $ \frac{dy}{dx} = 0 $ .  On the slope field, these are represented by horizontal lines.
 
-*   **Stability:**  Equilibrium solutions can be stable, unstable, or semi-stable. [Stability of equilibrium solutions](./../stability-of-equilibrium-solutions/)
+*   **Stability:**  Equilibrium solutions can be stable, unstable, or semi-stable. [[Stability of equilibrium solutions]]
     *   **Stable:** Solutions that start near a stable equilibrium solution will approach it as  $ x $  increases.
     *   **Unstable:** Solutions that start near an unstable equilibrium solution will move away from it as  $ x $  increases.
     *   **Semi-stable:** Solutions approach the equilibrium from one side, but move away from it from the other side.
@@ -80,6 +80,6 @@ Slope fields are useful for:
 
 ---
 
-[What are isoclines?](./../what-are-isoclines?/): An isocline is a curve (often a line) where the slope field has a constant slope. They are defined by the equation  $ f(x,y) = c $ , where *c* is a constant.  Finding isoclines can help you draw the slope field more efficiently. For example, if  $ \frac{dy}{dx} = x + y $ , then the isocline where the slope is 0 is given by  $ x + y = 0 $ , or  $ y = -x $ .  All line segments along this line will be horizontal.
+[[What are isoclines?]]: An isocline is a curve (often a line) where the slope field has a constant slope. They are defined by the equation  $ f(x,y) = c $ , where *c* is a constant.  Finding isoclines can help you draw the slope field more efficiently. For example, if  $ \frac{dy}{dx} = x + y $ , then the isocline where the slope is 0 is given by  $ x + y = 0 $ , or  $ y = -x $ .  All line segments along this line will be horizontal.
 
-[What are equilibrium solutions?](./../what-are-equilibrium-solutions?/): An equilibrium solution is a constant solution to a differential equation, meaning  $ y =
+[[What are equilibrium solutions?]]: An equilibrium solution is a constant solution to a differential equation, meaning  $ y =

@@ -36,10 +36,10 @@
 </div>
 
 <main>
-<h1 id="regex-flagsregex-flags"><a href="./../regex-flags/">Regex Flags</a></h1>
-<h1 id="regex-special-charactersregex-special-characters"><a href="./../regex-special-characters/">Regex Special Characters</a></h1>
-<p>These notes cover special characters used in <a href="./../regular-expressions/">Regular Expressions</a> within Python.  Remember to import the <code>re</code> module before using any regex functions.  <code>import re</code></p>
-<p><a href="./../regex-metacharacters/">Regex Metacharacters</a>  These are symbols with special meanings in regex.</p>
+<h1 id="regex-flags">[[Regex Flags]]</h1>
+<h1 id="regex-special-characters">[[Regex Special Characters]]</h1>
+<p>These notes cover special characters used in [[Regular Expressions]] within Python.  Remember to import the <code>re</code> module before using any regex functions.  <code>import re</code></p>
+<p>[[Regex Metacharacters]]  These are symbols with special meanings in regex.</p>
 <ul>
 <li>
 <p><strong><code>.</code> (Dot):</strong> Matches any single character except a newline.</p>
@@ -69,10 +69,10 @@
 <p><strong><code>\|</code> (Vertical Bar):</strong> Acts as an &ldquo;or&rdquo; operator.  e.g., <code>cat|dog</code> matches either &ldquo;cat&rdquo; or &ldquo;dog&rdquo;.</p>
 </li>
 <li>
-<p><strong><code>\</code> (Backslash):</strong> Escapes special characters.  e.g., <code>\.</code> matches a literal dot, <code>\(</code> matches a literal opening parenthesis.  It&rsquo;s also used for special escape <a href="./../sequences/">Sequences</a> like <code>\d</code> (digit), <code>\w</code> (alphanumeric), <code>\s</code> (whitespace).</p>
+<p><strong><code>\</code> (Backslash):</strong> Escapes special characters.  e.g., <code>\.</code> matches a literal dot, <code>\(</code> matches a literal opening parenthesis.  It&rsquo;s also used for special escape [[Sequences]] like <code>\d</code> (digit), <code>\w</code> (alphanumeric), <code>\s</code> (whitespace).</p>
 </li>
 </ul>
-<p><a href="./../regex-quantifiers/">Regex Quantifiers</a>  These characters control how many times a preceding element should appear.  (Already mentioned some above, but details here are crucial)</p>
+<p>[[Regex Quantifiers]]  These characters control how many times a preceding element should appear.  (Already mentioned some above, but details here are crucial)</p>
 <ul>
 <li>
 <p><strong><code>*</code> (Asterisk):</strong> Zero or more occurrences.</p>
@@ -117,8 +117,8 @@
 </span></span><span style="display:flex;"><span>pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;\bf\w+\b&#34;</span> <span style="color:#75715e">#Matches whole words starting with &#39;f&#39;</span>
 </span></span><span style="display:flex;"><span>matches <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(pattern,text)
 </span></span><span style="display:flex;"><span>print(matches) <span style="color:#75715e"># Output: [&#39;fox&#39;, &#39;fox&#39;]]</span>
-</span></span></code></pre></div><p><a href="./../regex-escape-sequences/">Regex Escape Sequences</a>  Details on <code>\d</code>, <code>\w</code>, <code>\s</code>, etc.</p>
-<p><a href="./../python-re-module/">Python re Module</a>  Functions like <code>re.findall</code>, <code>re.search</code>, <code>re.match</code>, <code>re.sub</code>, etc.</p>
+</span></span></code></pre></div><p>[[Regex Escape Sequences]]  Details on <code>\d</code>, <code>\w</code>, <code>\s</code>, etc.</p>
+<p>[[Python re Module]]  Functions like <code>re.findall</code>, <code>re.search</code>, <code>re.match</code>, <code>re.sub</code>, etc.</p>
 
 </main>
 

@@ -3,26 +3,26 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Selecting an Experimental Design
 
-Choosing the appropriate experimental design is crucial for drawing valid conclusions about cause-and-effect relationships. This page builds upon the [Introduction to Experimental Design](./../introduction-to-experimental-design/) by delving into specific design structures and their applications.
+Choosing the appropriate experimental design is crucial for drawing valid conclusions about cause-and-effect relationships. This page builds upon the [[Introduction to Experimental Design]] by delving into specific design structures and their applications.
 
 ## Key Principles of Experimental Design
 
 Effective experimental designs adhere to three fundamental principles:
 
-1.  **[Control (Experimental Design)](./../control-(experimental-design)/)**:
+1.  **[[Control (Experimental Design)]]**:
     *   Researchers must control for lurking variables that could affect the response. This often involves keeping conditions as similar as possible for all experimental units, except for the treatments being compared.
     *   A **control group** receives an inactive treatment (placebo) or the standard treatment, serving as a baseline for comparison.
     *   **Placebo effect**: A response to a dummy treatment, which highlights the need for a control group and blinding.
 
-2.  **[Randomization (Experimental Design)](./../randomization-(experimental-design)/)**:
+2.  **[[Randomization (Experimental Design)]]**:
     *   Randomly assigning experimental units to treatment groups helps create groups that are roughly equivalent in all respects before the treatments are applied.
     *   This balances the effects of unmeasured or unknown lurking variables among the treatment groups.
     *   Randomization ensures that any observed differences in the response are more likely due to the treatments rather than pre-existing differences between groups.
 
-3.  **[Replication (Experimental Design)](./../replication-(experimental-design)/)**:
+3.  **[[Replication (Experimental Design)]]**:
     *   Applying each treatment to multiple experimental units (or repeating the experiment multiple times) helps reduce the impact of chance variation on the results.
     *   The more experimental units in each treatment group, the more precisely we can estimate the effects of the treatments.
     *   Replication allows us to determine if observed effects are consistent and not just random fluctuations.
@@ -105,10 +105,10 @@ To prevent bias, experimenters often employ blinding:
 *   **Single-blind**: The experimental units do not know which treatment they are receiving.
 *   **Double-blind**: Neither the experimental units nor the researchers directly involved with the subjects know which treatment each unit is receiving. This is ideal to prevent conscious or subconscious bias from both the subjects and the experimenters.
 
-Blinding helps to minimize the [Placebo Effect](./../placebo-effect/) and experimenter bias, strengthening the validity of the conclusions.
+Blinding helps to minimize the [[Placebo Effect]] and experimenter bias, strengthening the validity of the conclusions.
 
 ## Ethical Considerations
 
 Ethical guidelines must always be followed in experimental design, particularly when involving human subjects or animals. This includes informed consent, protection of privacy, and minimizing harm.
 
-By carefully considering these principles and design types, researchers can select an experimental design that effectively answers their research questions and provides reliable conclusions, setting the stage for [Inference and Experiments](./../inference-and-experiments/).
+By carefully considering these principles and design types, researchers can select an experimental design that effectively answers their research questions and provides reliable conclusions, setting the stage for [[Inference and Experiments]].

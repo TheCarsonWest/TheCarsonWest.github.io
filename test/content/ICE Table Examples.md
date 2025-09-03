@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)
-# [ICE Table Examples](./../ice-table-examples/)
+# [[Equilibrium Constant Calculations]]
+# [[ICE Table Examples]]
 
 ICE tables are used to solve equilibrium problems.  They stand for **I**nitial, **C**hange, **E**quilibrium.
 
@@ -23,7 +23,7 @@ where:
 *  $ a $ ,  $ b $ ,  $ c $  are the stoichiometric coefficients from the balanced chemical equation.
 *  $ x $  represents the change in concentration to reach equilibrium.
 
-**Example 1: Simple [Equilibrium](./../equilibrium/)**
+**Example 1: Simple [[Equilibrium]]**
 
 Consider the reaction:   $ N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g) $ 
 
@@ -42,18 +42,18 @@ We can now write the expression for  $ K_c $ :
 This equation can be solved for  $ x $  (often requiring the quadratic formula or approximation methods). Once  $ x $  is found, the equilibrium concentrations can be calculated.
 
 
-**Example 2:  [Equilibrium](./../equilibrium/) with an Initial Product Concentration**
+**Example 2:  [[Equilibrium]] with an Initial Product Concentration**
 
-([Equilibrium Constant Calculations](./../equilibrium-constant-calculations/))
+([[Equilibrium Constant Calculations]])
 
 **Example 3:  Weak Acid/Base Equilibria**
 
-([Weak Acid/Base Equilibria](./../weak-acid/base-equilibria/))
+([[Weak Acid/Base Equilibria]])
 
 
 **Example 4:  Solubility Equilibria**
 
-([Solubility Equilibria](./../solubility-equilibria/))
+([[Solubility Equilibria]])
 
 **Important Notes:**
 

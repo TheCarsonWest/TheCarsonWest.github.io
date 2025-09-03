@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [For Loop Examples](./../for-loop-examples/)
-# [Loop Control Statements](./../loop-control-statements/) 
+# [[For Loop Examples]]
+# [[Loop Control Statements]] 
 Loop control statements in Python alter the flow of execution within loops (primarily `for` and `while` loops).  They allow you to skip iterations, terminate the loop prematurely, or jump to a specific point within the loop.
 
 The key loop control statements are:
@@ -56,8 +56,8 @@ else:
 
 ```
 
-[Nested Loops](./../nested-loops/)  
-[Break and Continue Statements Detailed](./../break-and-continue-statements-detailed/)
-[For Loop Syntax](./../for-loop-syntax/)
-[While Loop Syntax](./../while-loop-syntax/)
+[[Nested Loops]]  
+[[Break and Continue Statements Detailed]]
+[[For Loop Syntax]]
+[[While Loop Syntax]]
 

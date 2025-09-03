@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-[Calc home](./../calc-home/)
+[[Calc home]]
 ## Differentiating Inverse Functions in Calculus AB
 
 This rundown explores the concept of differentiating inverse functions in Calculus AB, focusing on the essential understanding and application of the technique. 
@@ -20,7 +20,7 @@ For example, consider the function  $ f(x) = 2x + 1 $ . Its inverse is  $ f^{-1}
 *  $ f(f^{-1}(x)) = f\left(\frac{x-1}{2}\right) = 2\left(\frac{x-1}{2}\right) + 1 = x $ 
 *  $ f^{-1}(f(x)) = f^{-1}(2x + 1) = \frac{(2x+1)-1}{2} = x $ 
 
-# The [Derivative](./../derivative/) of an Inverse Function
+# The [[Derivative]] of an Inverse Function
 
 The derivative of an inverse function can be found using the following formula:
 
@@ -30,8 +30,8 @@ The derivative of an inverse function can be found using the following formula:
 
 1. **Finding the Inverse:**  First, determine the inverse function  $ f^{-1}(x) $ .
 2. **Evaluating the Original Function:**  Evaluate the original function  $ f(x) $  at the inverse function,  $ f^{-1}(x) $ . This gives us  $ f(f^{-1}(x)) $ .
-3. **Finding the [Derivative](./../derivative/):**  Calculate the derivative of the original function,  $ f'(x) $ .
-4. **Evaluating the [Derivative](./../derivative/):**  Evaluate the derivative of the original function at the inverse function,  $ f'(f^{-1}(x)) $ .
+3. **Finding the [[Derivative]]:**  Calculate the derivative of the original function,  $ f'(x) $ .
+4. **Evaluating the [[Derivative]]:**  Evaluate the derivative of the original function at the inverse function,  $ f'(f^{-1}(x)) $ .
 5. **Taking the Reciprocal:**  Take the reciprocal of the result from step 4.
 
 ### Example: Differentiating an Inverse Function
@@ -40,8 +40,8 @@ Let's find the derivative of the inverse of the function  $ f(x) = x^3 + 2x $ .
 
 1. **Finding the Inverse:**  Finding the inverse function explicitly can be challenging. For this example, we'll assume we know the inverse exists and focus on the differentiation process. 
 2. **Evaluating the Original Function:**  We need to find  $ f(f^{-1}(x)) $ . Since  $ f^{-1}(x) $  "undoes"  $ f(x) $ , we know that  $ f(f^{-1}(x)) = x $ .
-3. **Finding the [Derivative](./../derivative/):**  The derivative of the original function is  $ f'(x) = 3x^2 + 2 $ .
-4. **Evaluating the [Derivative](./../derivative/):**  We need to find  $ f'(f^{-1}(x)) $ . Since we don't have an explicit form for  $ f^{-1}(x) $ , we leave it as is:  $ f'(f^{-1}(x)) = 3(f^{-1}(x))^2 + 2 $ .
+3. **Finding the [[Derivative]]:**  The derivative of the original function is  $ f'(x) = 3x^2 + 2 $ .
+4. **Evaluating the [[Derivative]]:**  We need to find  $ f'(f^{-1}(x)) $ . Since we don't have an explicit form for  $ f^{-1}(x) $ , we leave it as is:  $ f'(f^{-1}(x)) = 3(f^{-1}(x))^2 + 2 $ .
 5. **Taking the Reciprocal:**  The derivative of the inverse function is:
 
  $ \qquad \frac{d}{dx} f^{-1}(x) = \frac{1}{f'(f^{-1}(x))} = \boxed{\frac{1}{3(f^{-1}(x))^2 + 2}} $ 
@@ -61,7 +61,7 @@ Inverse functions have a wide range of applications in various fields, including
 
 ### Key Points to Remember
 
-* The derivative of an inverse function is the reciprocal of the [derivative](./../derivative/) of the original function evaluated at the inverse function.
+* The derivative of an inverse function is the reciprocal of the [[derivative]] of the original function evaluated at the inverse function.
 * Not all functions have inverses.
 * The domain of the inverse function is the range of the original function, and vice versa.
 

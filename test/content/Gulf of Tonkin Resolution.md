@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Gulf of Tonkin Resolution](./../gulf-of-tonkin-resolution/) 
+## ID: [[Gulf of Tonkin Resolution]] 
 ## When: August 7, 1964
 
 ## Who:
 * **US Congress:**  Approved the resolution.
-* **President [Lyndon B. Johnson](./../lyndon-b.-johnson/) (LBJ):** Sought and used the resolution as justification for escalating US involvement in Vietnam.
+* **President [[Lyndon B. Johnson]] (LBJ):** Sought and used the resolution as justification for escalating US involvement in Vietnam.
 * **North Vietnam:** Allegedly attacked US ships in the Gulf of Tonkin.
 
 ## What:
@@ -21,4 +21,4 @@ A joint resolution passed by the US Congress in response to alleged attacks on U
 * **Congressional Backlash:**  Later, Congress sought to limit presidential power with the War Powers Act of 1973, requiring presidential consultation with Congress before deploying troops in a prolonged conflict.
 * **Controversy and Debate:** The Gulf of Tonkin incident and the subsequent resolution remain controversial, with questions raised about the accuracy of the information presented to Congress and the motivations behind the escalation of the war.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

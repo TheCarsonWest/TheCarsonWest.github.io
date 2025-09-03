@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Watergate Scandal](./../watergate-scandal/) 
+## ID: [[Watergate Scandal]] 
 ## WHEN: 1972-1974 (climaxing with Nixon's resignation in August 1974)
 
 ## WHO:
-* **[Richard Nixon](./../richard-nixon/):** President of the [United States](./../united-states/) * **Committee to Re-Elect the President (CREEP):** Nixon's campaign organization, deeply involved in the scandal.
+* **[[Richard Nixon]]:** President of the [[United States]] * **Committee to Re-Elect the President (CREEP):** Nixon's campaign organization, deeply involved in the scandal.
 * **G. Gordon Liddy & E. Howard Hunt:** Plumbers hired to carry out illegal activities.
-* **Bob Woodward & Carl Bernstein:** [Washington](./../washington/) Post reporters who investigated and exposed the scandal.
+* **Bob Woodward & Carl Bernstein:** [[Washington]] Post reporters who investigated and exposed the scandal.
 * **John Dean:** White House Counsel who provided damaging testimony against Nixon.
 * **Special Prosecutor Archibald Cox:** Investigated the Watergate affair and demanded the tapes.
 * **Judge John Sirica:** Presided over the Watergate trials.
@@ -35,4 +35,4 @@ A major political scandal that began with a break-in at the Democratic National 
 *   **War Powers Act:** Although not a direct result, Watergate contributed to a climate of distrust that led to the passage of the War Powers Act in 1973, limiting presidential power to commit troops without Congressional approval.
 * **Lasting Legacy:** The term "Watergate" became synonymous with political scandal and abuse of power. It continues to be referenced in discussions of governmental wrongdoing.
 
-# [IDS Unit 8](./../ids-unit-8/)
+# [[IDS Unit 8]]

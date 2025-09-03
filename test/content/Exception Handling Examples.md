@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [Exception Handling](./../exception-handling/)
-# [Exception Handling Examples](./../exception-handling-examples/) 
-This note covers examples of exception handling in Python.  The core concept is using `try...except` blocks to gracefully handle errors that might occur during program execution.  Refer to [Python Exceptions](./../python-exceptions/) for a comprehensive list of built-in exceptions.
+# [[Exception Handling]]
+# [[Exception Handling Examples]] 
+This note covers examples of exception handling in Python.  The core concept is using `try...except` blocks to gracefully handle errors that might occur during program execution.  Refer to [[Python Exceptions]] for a comprehensive list of built-in exceptions.
 
 **Example 1: Handling `FileNotFoundError`**
 
@@ -64,7 +64,7 @@ finally:
 
 **Example 5: Raising custom exceptions**
 
-You can define your own exceptions by creating classes that inherit from the `Exception` class or one of its subclasses. [Custom Exceptions](./../custom-exceptions/)
+You can define your own exceptions by creating classes that inherit from the `Exception` class or one of its subclasses. [[Custom Exceptions]]
 
 ```python
 class MyCustomError(Exception):
@@ -82,7 +82,7 @@ except Exception as e:
 
 **Further Reading:**
 
-* [Python Error Handling Best Practices](./../python-error-handling-best-practices/)
-* [Context Managers](./../context-managers/) (for more elegant resource management)
+* [[Python Error Handling Best Practices]]
+* [[Context Managers]] (for more elegant resource management)
 
 

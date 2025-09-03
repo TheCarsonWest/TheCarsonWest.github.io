@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Namespaces and Scope](./../namespaces-and-scope/)
-# [Global vs Local Variables](./../global-vs-local-variables/) 
+# [[Namespaces and Scope]]
+# [[Global vs Local Variables]] 
 **Scope:**  The scope of a variable determines where in your code that variable is accessible.
 
 * **Global Variables:** Declared outside of any function. Accessible from anywhere in the program *after* its declaration.
@@ -50,11 +50,11 @@ Without the `global` keyword, a new local variable with the same name would be c
 **Potential Issues:**
 
 * **Name clashes:** Using the same name for global and local variables can lead to confusion and unexpected behavior.  It's generally good practice to avoid this.
-* **Readability:** Overuse of global variables can make code harder to understand and maintain, as it becomes difficult to track where a variable's value might be changed.  [Variable Naming Conventions](./../variable-naming-conventions/)  It's generally better to pass data as arguments and return values.
+* **Readability:** Overuse of global variables can make code harder to understand and maintain, as it becomes difficult to track where a variable's value might be changed.  [[Variable Naming Conventions]]  It's generally better to pass data as arguments and return values.
 
 
 **Related Notes:**
 
-* [Variable Scope and Lifetime](./../variable-scope-and-lifetime/)
-* [Namespaces in Python](./../namespaces-in-python/)
+* [[Variable Scope and Lifetime]]
+* [[Namespaces in Python]]
 

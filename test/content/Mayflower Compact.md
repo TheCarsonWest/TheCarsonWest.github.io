@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: [Mayflower Compact](./../mayflower-compact/) 
+## ID: [[Mayflower Compact]] 
 ## When: November 11, 1620
 
 ## Who: 
-* Pilgrims (Separatist [Puritans](./../puritans/)) aboard the Mayflower
+* Pilgrims (Separatist [[Puritans]]) aboard the Mayflower
 
 ## What: 
 A social contract signed by 41 male Pilgrims aboard the Mayflower before landing at Plymouth. It established a civil government based on majority rule and committed the signatories to enact just and equal laws for the general good of the colony.  It was not a constitution, but a framework for self-governance.

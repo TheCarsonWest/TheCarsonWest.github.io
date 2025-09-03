@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
-# [Function Parameters](./../function-parameters/) 
+# [[Python 1 Home]]
+# [[Function Parameters]] 
 Python function parameters allow you to pass data into functions, making them reusable and flexible.  There are several types of parameters:
 
 * **Positional Parameters:**  These are matched based on their position in the function definition and the function call.
@@ -22,7 +22,7 @@ greet("Alice", "Hello") # Output: Hello, Alice!
 greet(greeting="Good morning", name="Bob") # Output: Good morning, Bob!
 ```
 
-* **[Default Parameters](./../default-parameters/):** These assign a default value to a parameter if no value is provided during the function call.
+* **[[Default Parameters]]:** These assign a default value to a parameter if no value is provided during the function call.
 
 ```python
 def greet(name, greeting="Hello"):
@@ -31,7 +31,7 @@ def greet(name, greeting="Hello"):
 greet("Charlie") # Output: Hello, Charlie!
 greet("Dave", "Hi") # Output: Hi, Dave!
 ```
-[Default Parameters](./../default-parameters/)
+[[Default Parameters]]
 
 * **Variable-length Positional Arguments (`*args`):**  Allows a function to accept any number of positional arguments. These are packed into a tuple.
 
@@ -53,7 +53,7 @@ def print_kwargs(**kwargs):
   for key, value in kwargs.items():
     print(f"{key}: {value}")
 
-print_kwargs(name="Eve", age=30, city="[New York](./../new-york/)")
+print_kwargs(name="Eve", age=30, city="[[New York]]")
 ```
 
 * **Combining Parameter Types:** You can combine different parameter types in a single function definition, but positional parameters must come before keyword parameters and `*args` before `**kwargs`.
@@ -71,7 +71,7 @@ my_function(1, 2, 3, 4, c=10, d=20)
 def annotated_function(name: str, age: int) -> str:
   return f"{name} is {age} years old."
 ```
-[Type Hinting](./../type-hinting/)
+[[Type Hinting]]
 
 
-Related Notes: [Python Functions](./../python-functions/), [Return Values](./../return-values/)
+Related Notes: [[Python Functions]], [[Return Values]]

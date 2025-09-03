@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Sampling Distributions for Differences in Sample Means
 
 When we are interested in comparing two population means ( $ \mu_1 $  and  $ \mu_2 $ ), we often take independent random samples from each population. The difference in the sample means,  $ \bar{x}_1 - \bar{x}_2 $ , serves as our point estimate for the true difference in population means. The sampling distribution of this statistic is crucial for making inferences about  $ \mu_1 - \mu_2 $ .
@@ -17,7 +17,7 @@ The sampling distribution of the difference in sample means,  $ \bar{x}_1 - \bar
 The mean of the sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  is equal to the true difference in the population means:
 
  $$  \mu_{\bar{x}_1 - \bar{x}_2} = \mu_1 - \mu_2  $$  
-This property holds true provided the samples are independent. This indicates that  $ \bar{x}_1 - \bar{x}_2 $  is an [Biased and Unbiased Point Estimates|unbiased estimator](./../biased-and-unbiased-point-estimates|unbiased-estimator/) of  $ \mu_1 - \mu_2 $ .
+This property holds true provided the samples are independent. This indicates that  $ \bar{x}_1 - \bar{x}_2 $  is an [[Biased and Unbiased Point Estimates|unbiased estimator]] of  $ \mu_1 - \mu_2 $ .
 
 ### Standard Deviation of the Sampling Distribution
 
@@ -37,11 +37,11 @@ Where:
 The shape of the sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  can be approximated as Normal under certain conditions:
 
 *   **If both original populations are Normal:** The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  will be approximately Normal regardless of sample sizes ( $ n_1, n_2 $ ).
-*   **If neither or only one original population is Normal:** The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  will be approximately Normal if both sample sizes are sufficiently large (generally  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ). This is due to the [The Central Limit Theorem](./../the-central-limit-theorem/).
+*   **If neither or only one original population is Normal:** The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  will be approximately Normal if both sample sizes are sufficiently large (generally  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ). This is due to the [[The Central Limit Theorem]].
 
 ## Conditions for Inference with Differences in Sample Means
 
-When performing inference (e.g., constructing [Confidence Intervals for the Difference of Two Means](./../confidence-intervals-for-the-difference-of-two-means/) or [Setting Up a Test for the Difference of Two Population Means](./../setting-up-a-test-for-the-difference-of-two-population-means/)), we must check the following conditions:
+When performing inference (e.g., constructing [[Confidence Intervals for the Difference of Two Means]] or [[Setting Up a Test for the Difference of Two Population Means]]), we must check the following conditions:
 
 1.  **Random Condition:**
     *   The data must come from two independent random samples, or the data must come from two groups in a randomized experiment.
@@ -58,6 +58,6 @@ When performing inference (e.g., constructing [Confidence Intervals for the Diff
 | :---------------------------------- | :------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Mean ( $ \mu_{\bar{x}_1 - \bar{x}_2} $ ) |  $ \mu_1 - \mu_2 $                                                            | Independent Samples                                                                                                                                  |
 | Std. Dev. ( $ \sigma_{\bar{x}_1 - \bar{x}_2} $ ) |  $ \sqrt{\frac{\sigma_1^2}{n_1} + \frac{\sigma_2^2}{n_2}} $                   | 10% Condition for both samples ( $ n_1 \le 0.10 N_1 $ ,  $ n_2 \le 0.10 N_2 $ ) AND Independent Samples                                                      |
-| Shape                               | Normal                                                                    | Both populations are Normal, OR  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $  (by [The Central Limit Theorem](./../the-central-limit-theorem/)), OR graphical displays show no strong skew/outliers |
+| Shape                               | Normal                                                                    | Both populations are Normal, OR  $ n_1 \ge 30 $  and  $ n_2 \ge 30 $  (by [[The Central Limit Theorem]]), OR graphical displays show no strong skew/outliers |
 
 Understanding this sampling distribution is fundamental for constructing confidence intervals and performing hypothesis tests to compare two population means.

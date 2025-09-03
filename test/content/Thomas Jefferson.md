@@ -3,32 +3,32 @@
 [params]
 	author = 'Carson West'
 +++
-# [POTUS](./../potus/)
+# [[POTUS]]
 # Thomas Jefferson: A Rundown
  
 
  ## Overview
- Thomas Jefferson (1743-1826) was a Founding Father, principal author of the [Declaration of Independence](./../declaration-of-independence/), third President of the [United States](./../united-states/) (1801-1809), and a key figure in the early American republic. His contributions spanned philosophy, politics, diplomacy, and education, leaving a lasting impact on the nation's development.
+ Thomas Jefferson (1743-1826) was a Founding Father, principal author of the [[Declaration of Independence]], third President of the [[United States]] (1801-1809), and a key figure in the early American republic. His contributions spanned philosophy, politics, diplomacy, and education, leaving a lasting impact on the nation's development.
  
 
  ## Key Events and Associations
  
 
- *  **American Revolution:** Jefferson was a leading figure in the movement for independence from [Great Britain](./../great-britain/).
-  *  Served in the [Second Continental Congress](./../second-continental-congress/).
-  *  Drafted the [Declaration of Independence](./../declaration-of-independence/) (1776).
- *  **Governor of [Virginia](./../virginia/) (1779-1781):** His tenure was marked by challenges during the Revolutionary War.
- *  **Minister to [France](./../france/) (1785-1789):** He observed the pre-revolutionary climate and maintained diplomatic relations.
- *  **Secretary of State (1790-1793):** Under President [George Washington](./../george-washington/), he clashed with [Alexander Hamilton](./../alexander-hamilton/) over economic policy and the role of the federal government.
- *  **Vice President (1797-1801):** Under President [John Adams](./../john-adams/), marked by political divisions and the [XYZ Affair](./../xyz-affair/).
+ *  **American Revolution:** Jefferson was a leading figure in the movement for independence from [[Great Britain]].
+  *  Served in the [[Second Continental Congress]].
+  *  Drafted the [[Declaration of Independence]] (1776).
+ *  **Governor of [[Virginia]] (1779-1781):** His tenure was marked by challenges during the Revolutionary War.
+ *  **Minister to [[France]] (1785-1789):** He observed the pre-revolutionary climate and maintained diplomatic relations.
+ *  **Secretary of State (1790-1793):** Under President [[George Washington]], he clashed with [[Alexander Hamilton]] over economic policy and the role of the federal government.
+ *  **Vice President (1797-1801):** Under President [[John Adams]], marked by political divisions and the [[XYZ Affair]].
  *  **President (1801-1809):** A period of expansion, domestic policy shifts, and international challenges.
  
 
  ## Important Legislation and Actions
  
 
- *  **[Louisiana Purchase](./../louisiana-purchase/) (1803):** This acquisition doubled the size of the United States, opening vast territories for westward expansion and securing control of the Mississippi River.
- *  **[Embargo Act of 1807](./../embargo-act-of-1807/):** Enacted in response to British and French interference with American shipping, this act prohibited American ships from trading in foreign ports. The goal was to force the European powers to respect American neutrality, but it severely damaged the American economy.
+ *  **[[Louisiana Purchase]] (1803):** This acquisition doubled the size of the United States, opening vast territories for westward expansion and securing control of the Mississippi River.
+ *  **[[Embargo Act of 1807]]:** Enacted in response to British and French interference with American shipping, this act prohibited American ships from trading in foreign ports. The goal was to force the European powers to respect American neutrality, but it severely damaged the American economy.
  *  **Reduced the National Debt:** Jefferson and his Treasury Secretary, Albert Gallatin, implemented policies to reduce the national debt inherited from the Federalist administration.
  *  **Established the University of Virginia:** After his presidency, Jefferson founded and designed the University of Virginia, reflecting his commitment to education and republican ideals.
  
@@ -37,7 +37,7 @@
  
 
  *  **Founding Father:** A key leader in the American Revolution and the formation of the United States.
- *  **Anti-Federalists/[Republicans](./../republicans/) (later [Democrats](./../democrats/)):** He opposed the strong centralized government favored by the Federalists and advocated for states' rights and a strict interpretation of the [Constitution of the United States](./../constitution-of-the-united-states/).
+ *  **Anti-Federalists/[[Republicans]] (later [[Democrats]]):** He opposed the strong centralized government favored by the Federalists and advocated for states' rights and a strict interpretation of the [[Constitution of the United States]].
  *  **Planter Class:** Jefferson was a wealthy landowner and slaveholder.
  *  **Deist/Enlightenment Thinker:** Influenced by Enlightenment ideals of reason, natural rights, and individual liberty.
  
@@ -46,7 +46,7 @@
  
 
  *  **Declaration of Independence:** Articulated the principles of self-government, natural rights, and equality that became foundational to American identity.
- *  **Expansion of the United States:** The [Louisiana Purchase](./../louisiana-purchase/) significantly expanded the nation's territory and resources, fueling westward expansion and economic growth.
+ *  **Expansion of the United States:** The [[Louisiana Purchase]] significantly expanded the nation's territory and resources, fueling westward expansion and economic growth.
  *  **Democratic-Republican Ideals:** Championed the principles of limited government, states' rights, and agrarianism, shaping early American political discourse and influencing future generations of political leaders.
  *  **Promoted Education:** His commitment to education, particularly through the establishment of the University of Virginia, contributed to the development of American intellectual and cultural life.
  *  **Contradictions and Complexities:** Jefferson's legacy is marked by contradictions, particularly his advocacy for liberty and equality while owning slaves. This complicates his image and raises important questions about the complexities of American history.

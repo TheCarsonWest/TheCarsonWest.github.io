@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Setting Up a Test for the Slope of a Regression Model
 
-When we believe a linear relationship exists between two quantitative variables, we often use a [Linear Regression Models](./../linear-regression-models/) to model this relationship. However, the observed slope from a sample ( $ \hat{b} $ ) might just be due to random chance, even if there's no true linear relationship in the population. A hypothesis test for the slope of a regression model allows us to determine if there is statistically significant evidence of a linear relationship between the two variables in the population.
+When we believe a linear relationship exists between two quantitative variables, we often use a [[Linear Regression Models]] to model this relationship. However, the observed slope from a sample ( $ \hat{b} $ ) might just be due to random chance, even if there's no true linear relationship in the population. A hypothesis test for the slope of a regression model allows us to determine if there is statistically significant evidence of a linear relationship between the two variables in the population.
 
 ## Purpose of the Test
 
@@ -29,11 +29,11 @@ Before carrying out a test for the slope of a regression model, several conditio
 
 | Condition | Description | How to Check |
 | :-------- | :---------- | :----------- |
-| **L**inear | The true relationship between  $ x $  and  $ y $  is linear. | Examine the [Representing the Relationship Between Two Quantitative Variables|scatterplot](./../representing-the-relationship-between-two-quantitative-variables|scatterplot/) of the data for linearity. A [Residuals|residual plot](./../residuals|residual-plot/) should show no obvious pattern. |
-| **I**ndependent | Individual observations are independent of each other. | This is usually ensured by [Random Sampling and a Collection|random sampling](./../random-sampling-and-a-collection|random-sampling/) or [Introduction to Experimental Design|random assignment](./../introduction-to-experimental-design|random-assignment/). If sampling without replacement, check the  $ 10\% $  condition: sample size  $ n \le 0.10 \times $  population size. |
-| **N**ormal | For any fixed value of  $ x $ , the response  $ y $  varies normally around the true regression line. | Examine a histogram or normal probability plot of the [Residuals|residuals](./../residuals|residuals/). It should appear approximately normal. Large sample sizes can sometimes mitigate minor departures due to the [The Central Limit Theorem|Central Limit Theorem](./../the-central-limit-theorem|central-limit-theorem/). |
-| **E**qual Variance | The standard deviation of the response  $ y $  is the same for all values of  $ x $ . | Examine the [Residuals|residual plot](./../residuals|residual-plot/). The spread of the residuals should be roughly constant across all predicted values ( $ \hat{y} $ ) or values of  $ x $ . |
-| **R**andom | The data come from a well-designed [Introduction to Planning a Study|random sample](./../introduction-to-planning-a-study|random-sample/) or [Introduction to Experimental Design|randomized experiment](./../introduction-to-experimental-design|randomized-experiment/). | State how the data were collected and confirm it was random. |
+| **L**inear | The true relationship between  $ x $  and  $ y $  is linear. | Examine the [[Representing the Relationship Between Two Quantitative Variables|scatterplot]] of the data for linearity. A [[Residuals|residual plot]] should show no obvious pattern. |
+| **I**ndependent | Individual observations are independent of each other. | This is usually ensured by [[Random Sampling and a Collection|random sampling]] or [[Introduction to Experimental Design|random assignment]]. If sampling without replacement, check the  $ 10\% $  condition: sample size  $ n \le 0.10 \times $  population size. |
+| **N**ormal | For any fixed value of  $ x $ , the response  $ y $  varies normally around the true regression line. | Examine a histogram or normal probability plot of the [[Residuals|residuals]]. It should appear approximately normal. Large sample sizes can sometimes mitigate minor departures due to the [[The Central Limit Theorem|Central Limit Theorem]]. |
+| **E**qual Variance | The standard deviation of the response  $ y $  is the same for all values of  $ x $ . | Examine the [[Residuals|residual plot]]. The spread of the residuals should be roughly constant across all predicted values ( $ \hat{y} $ ) or values of  $ x $ . |
+| **R**andom | The data come from a well-designed [[Introduction to Planning a Study|random sample]] or [[Introduction to Experimental Design|randomized experiment]]. | State how the data were collected and confirm it was random. |
 
 If these conditions are not reasonably met, the inference procedure for the slope may not be appropriate, and the conclusions drawn could be unreliable.
 
@@ -51,4 +51,4 @@ Where:
 
 The degrees of freedom for this  $ t $ -distribution are  $ df = n - 2 $ , where  $ n $  is the number of observations in the sample.
 
-This test is often referred to as a  $ t $ -test for the slope. Once the test statistic is calculated, it can be used to find the [Interpreting p-Values|p-value](./../interpreting-p-values|p-value/) to make a decision regarding the null hypothesis, as outlined in [Carrying Out a Test for the Slope of a Regression Model](./../carrying-out-a-test-for-the-slope-of-a-regression-model/).
+This test is often referred to as a  $ t $ -test for the slope. Once the test statistic is calculated, it can be used to find the [[Interpreting p-Values|p-value]] to make a decision regarding the null hypothesis, as outlined in [[Carrying Out a Test for the Slope of a Regression Model]].

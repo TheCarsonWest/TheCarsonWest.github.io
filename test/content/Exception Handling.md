@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Python 1 Home](./../python-1-home/)
-# [Exception Handling](./../exception-handling/)
+# [[Python 1 Home]]
+# [[Exception Handling]]
 
 Python uses `try`, `except`, `else`, and `finally` blocks to handle exceptions.
 
@@ -26,7 +26,7 @@ finally:
 
 ```
 
-[Custom Exceptions](./../custom-exceptions/)  ([Exception Handling Examples](./../exception-handling-examples/))
+[[Custom Exceptions]]  ([[Exception Handling Examples]])
 
 
 **Common Exceptions:**
@@ -63,4 +63,4 @@ except ValueError as e:
     raise RuntimeError("A ValueError occurred") from e
 ```
 
-[File IO Modes](./../file-io-modes/)  [Handling Binary Files](./../handling-binary-files/)
+[[File IO Modes]]  [[Handling Binary Files]]

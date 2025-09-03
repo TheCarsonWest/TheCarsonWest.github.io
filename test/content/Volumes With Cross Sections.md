@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 # Volumes With Cross Sections: AP Calculus AB Rundown
 
 This topic focuses on finding the volume of a 3D solid based on knowing the area of its cross-sections perpendicular to a given axis.
@@ -22,7 +22,7 @@ Where:
 
 1.  **Sketch the Base:** Carefully sketch the region that forms the base of the solid. This will help you determine the limits of integration and the relationship between  $ x $  and  $ y $ .
 2.  **Determine the Axis of Integration:** Decide whether to integrate with respect to  $ x $  or  $ y $  based on the orientation of the cross-sections. If the cross-sections are perpendicular to the x-axis, integrate with respect to  $ x $ . If they are perpendicular to the y-axis, integrate with respect to  $ y $ .
-3.  **Find the Area Function A(x) or A(y):** This is the most crucial step.  You need to express the area of the cross-section as a function of  $ x $  or  $ y $ .  The specific formula for  $ A(x) $  or  $ A(y) $  depends on the shape of the cross-section. [Area Formulas for Common Shapes](./../area-formulas-for-common-shapes/)
+3.  **Find the Area Function A(x) or A(y):** This is the most crucial step.  You need to express the area of the cross-section as a function of  $ x $  or  $ y $ .  The specific formula for  $ A(x) $  or  $ A(y) $  depends on the shape of the cross-section. [[Area Formulas for Common Shapes]]
 4.  **Determine the Limits of Integration:** Find the values of  $ x $  (or  $ y $ ) that define the beginning and end of the solid along the chosen axis.
 5.  **Integrate:** Evaluate the definite integral of the area function over the limits of integration to find the volume.
 

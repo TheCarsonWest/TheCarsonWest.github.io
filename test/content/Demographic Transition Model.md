@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-### 1. [Demographic Transition Model](./../demographic-transition-model/) 
+### 1. [[Demographic Transition Model]] 
 
 !1(https://populationeducation.org/wp-content/uploads/2014/10/dtm.png)
 
@@ -12,14 +12,14 @@ This model illustrates the shifts in birth rates, death rates, and population gr
 | Stage                   | Birth Rate  | Death Rate  | Population Growth               | Key Characteristics                                                                       | Examples                                                                            |
 | ----------------------- | ----------- | ----------- | ------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | **1. Pre-industrial**   | High        | High        | Stable (low)                    | Limited healthcare, sanitation, and food security.                                        | Uncontacted tribes, everyone before the 1700s                                       |
-| **2. Early Industrial** | High        | **Falling** | **Rapid increase**              | Improved sanitation and healthcare; reduced infant mortality. created by [Cultural Lag](./../cultural-lag/) | Poorer MENA, Africa, Central Asia                                                   |
+| **2. Early Industrial** | High        | **Falling** | **Rapid increase**              | Improved sanitation and healthcare; reduced infant mortality. created by [[Cultural Lag]] | Poorer MENA, Africa, Central Asia                                                   |
 | **3. Late Industrial**  | **Falling** | **Falling** | **Slowing increase**            | Increased urbanization, education, and family planning.                                   | Central and South America, Wealthier MENA Countries, Wealthier SEA countries, India |
 | **4. Post-industrial**  | Low         | Low         | Stable (high) or **decreasing** | High living standards, aging population.                                                  | US, Canada, Argentina, Australia, New Zealand, Most of europe                       |
 | **5. (Speculative)**    | Very Low    | Low         | **Declining**                   | Extremely low fertility rates.                                                            | Russia, Japan, Germany                                                              |
 
 **Factors Driving the Transition:**
 
-* **Industrialization & [Urbanization](./../urbanization/):** Shift from agricultural to industrial economies.
+* **Industrialization & [[Urbanization]]:** Shift from agricultural to industrial economies.
 * **Medical Advancements:** Improved sanitation, healthcare, and disease control.
 * **Economic Development:** Higher living standards, education, and women's empowerment.
 * **Social & Cultural Changes:** Smaller family sizes, later marriages, career focus.
@@ -40,11 +40,11 @@ This model explains the leading causes of death in each stage of the demographic
 
 ### Important Statistics:
 
-* **[Total Fertility Rate](./../total-fertility-rate/) (TFR):** Average number of children per woman.
+* **[[Total Fertility Rate]] (TFR):** Average number of children per woman.
 * **Replacement Rate:** TFR of 2.1 needed for a stable population.
-* **[Infant Mortality Rate](./../infant-mortality-rate/) (IMR):** Number of infant deaths per 1,000 live births.
+* **[[Infant Mortality Rate]] (IMR):** Number of infant deaths per 1,000 live births.
 * **Zero Population Growth (ZPG):** Birth rate equals death rate.
-* **[Migration](./../migration/):** Movement of people within and between countries, impacting [Population Distribution](./../population-distribution/).
+* **[[Migration]]:** Movement of people within and between countries, impacting [[Population Distribution]].
 
 ### Key Takeaways:
 
@@ -54,7 +54,7 @@ This model explains the leading causes of death in each stage of the demographic
 
 what is the changes in lifestyle seen in demographic transiotion model stage 4?a
 
- Here's a breakdown of lifestyle changes typically observed in Stage 4 of the [Demographic Transition Model](./../demographic-transition-model/), along with the reasons behind them:
+ Here's a breakdown of lifestyle changes typically observed in Stage 4 of the [[Demographic Transition Model]], along with the reasons behind them:
 
 **Stage 4: Low Stationary Stage**
 
@@ -65,11 +65,11 @@ what is the changes in lifestyle seen in demographic transiotion model stage 4?a
 * **Very Low Population Growth:**  With birth and death rates both low, population growth is minimal or even stagnant.
 
 **Lifestyle Changes:**
-[APHG Unit 2](./../aphg-unit-2/)
+[[APHG Unit 2]]
 * **Increased Focus on Individualism and Personal Fulfillment:** With smaller family sizes, individuals often have more time and resources to pursue personal goals, education, careers, and leisure activities.
 * **Later Marriages and Childbearing:** People tend to delay marriage and parenthood, prioritizing education, career establishment, and financial stability.
 * **Higher Levels of Education, Especially for Women:**  Access to education, particularly for women, becomes more widespread, contributing to greater economic independence and changing family dynamics.
-* **Increased [Urbanization](./../urbanization/):** People continue to migrate to urban areas in search of job opportunities and a different lifestyle.
+* **Increased [[Urbanization]]:** People continue to migrate to urban areas in search of job opportunities and a different lifestyle.
 * **Aging Population:**  With low birth rates and longer life expectancies, the proportion of older adults in the population increases significantly. This leads to:
     * **Greater Demand for Healthcare and Social Services:**  Societies need to adapt to support an aging population with increased healthcare needs.
     * **Shifts in Workforce Dynamics:**  A smaller pool of younger workers may lead to labor shortages and a need to adjust retirement ages.

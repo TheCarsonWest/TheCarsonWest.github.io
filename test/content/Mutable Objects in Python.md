@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Default Parameters](./../default-parameters/)
-# [Mutable Objects in Python](./../mutable-objects-in-python/) 
+# [[Default Parameters]]
+# [[Mutable Objects in Python]] 
 Mutable objects in Python are objects whose internal state can be changed after they are created.  This means you can modify their contents without creating a new object.  In contrast, immutable objects cannot be changed after creation; any operation that appears to modify them actually creates a new object.
 
 Key characteristics of mutable objects:
@@ -16,7 +16,7 @@ Key characteristics of mutable objects:
 
 Examples of Mutable Objects:
 
-* **[Lists](./../lists/):**
+* **[[Lists]]:**
 
 ```python
 my_list = 1, 2, 3
@@ -24,7 +24,7 @@ my_list.append(4)  # Modifies the original list
 print(my_list)  # Output: 1, 2, 3, 4
 ```
 
-* **[Dictionaries](./../dictionaries/):**
+* **[[Dictionaries]]:**
 
 ```python
 my_dict = {'a': 1, 'b': 2}
@@ -40,7 +40,7 @@ my_set.add(4) # Modifies the original set
 print(my_set) # Output: {1, 2, 3, 4}
 ```
 
-* [Sets in Python](./../sets-in-python/) (Note: This will be a seperate note)
+* [[Sets in Python]] (Note: This will be a seperate note)
 
 * **User-defined classes (if implemented to be mutable):**  You can create your own mutable objects by defining classes.  The use of instance variables and methods is typically how you will make these modifications
 
@@ -55,9 +55,9 @@ list1.append(4)
 print(list2)  # Output: 1, 2, 3, 4  (list2 is also modified)
 ```
 
-* **Copying:** To avoid unintended side effects from aliasing, you can create a copy of a mutable object using techniques like slicing (`[:]]`) for lists or the `copy()` method for more complex objects.  See [Shallow vs Deep Copying](./../shallow-vs-deep-copying/) for more details.
+* **Copying:** To avoid unintended side effects from aliasing, you can create a copy of a mutable object using techniques like slicing (`[:]]`) for lists or the `copy()` method for more complex objects.  See [[Shallow vs Deep Copying]] for more details.
 
 
-[Immutable Objects in Python](./../immutable-objects-in-python/) (Note: This will be a seperate note)
+[[Immutable Objects in Python]] (Note: This will be a seperate note)
 
-[Shallow vs Deep Copying](./../shallow-vs-deep-copying/) (Note: This will be a seperate note)
+[[Shallow vs Deep Copying]] (Note: This will be a seperate note)

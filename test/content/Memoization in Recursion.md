@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [Recursion](./../recursion/)
-# [Memoization in Recursion](./../memoization-in-recursion/) 
+# [[Recursion]]
+# [[Memoization in Recursion]] 
 Memoization is an optimization technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.  This is particularly useful in recursive functions where the same subproblems are calculated repeatedly.
 
 **How it works:**
@@ -49,9 +49,9 @@ def fibonacci_memoized(n):
 `fibonacci_memoized` significantly improves performance for larger values of `n`.
 
 
-**[Python Dictionaries](./../python-dictionaries/)**  (Note: This needs its own explanation about Python dictionaries and their use in caching.)
+**[[Python Dictionaries]]**  (Note: This needs its own explanation about Python dictionaries and their use in caching.)
 
-**[Recursive Function Design](./../recursive-function-design/)** (Note:  This note should cover best practices for writing efficient recursive functions.)
+**[[Recursive Function Design]]** (Note:  This note should cover best practices for writing efficient recursive functions.)
 
 
 **Advantages of Memoization:**

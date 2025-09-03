@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 # Differential Equations
 
 ## I. Introduction to Differential Equations
@@ -54,9 +54,9 @@ Solve the differential equation  $ \frac{dy}{dx} = xy $  with the initial condit
 
     The particular solution is  $ y = 2e^{\frac{1}{2}x^2} $ .
 
-[Integration Techniques](./../integration-techniques/)
-[Absolute Values in Integration](./../absolute-values-in-integration/)
-[Solving for C](./../solving-for-c/)
+[[Integration Techniques]]
+[[Absolute Values in Integration]]
+[[Solving for C]]
 
 ## III. Slope Fields ***
 
@@ -73,8 +73,8 @@ Solve the differential equation  $ \frac{dy}{dx} = xy $  with the initial condit
     *   **Sketching Solutions:** Given an initial condition, start at the corresponding point on the slope field and follow the direction of the line segments to sketch a solution curve.
     *   **Qualitative Analysis:**  Slope fields can help you understand the general behavior of solutions, such as where solutions are increasing, decreasing, or constant. They can also help identify equilibrium solutions (where  $ \frac{dy}{dx} = 0 $ ).
 
-[Equilibrium Solutions](./../equilibrium-solutions/)
-[Sketching on Slope Fields](./../sketching-on-slope-fields/)
+[[Equilibrium Solutions]]
+[[Sketching on Slope Fields]]
 
 ## IV. Exponential Growth and Decay ***
 

@@ -36,19 +36,19 @@
 </div>
 
 <main>
-<h1 id="listslists"><a href="./../lists/">Lists</a></h1>
-<h1 id="mutable-vs-immutable-typesmutable-vs-immutable-types"><a href="./../mutable-vs-immutable-types/">Mutable vs Immutable Types</a></h1>
+<h1 id="lists">[[Lists]]</h1>
+<h1 id="mutable-vs-immutable-types">[[Mutable vs Immutable Types]]</h1>
 <p>This refers to the ability of an object to change its value after it&rsquo;s created.</p>
 <ul>
 <li>
-<p><strong><a href="./../immutable-types/">Immutable Types</a>:</strong>  Once created, their value cannot be changed.  If you perform an operation that seems to modify them, you&rsquo;re actually creating a new object.</p>
+<p><strong>[[Immutable Types]]:</strong>  Once created, their value cannot be changed.  If you perform an operation that seems to modify them, you&rsquo;re actually creating a new object.</p>
 <p>Examples:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>
 </span></span><span style="display:flex;"><span>my_string <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; world&#34;</span>  <span style="color:#75715e"># Creates a new string object; my_string now points to this new object.</span>
 </span></span><span style="display:flex;"><span>print(id(my_string)) <span style="color:#75715e">#The memory address will change</span>
 </span></span><span style="display:flex;"><span>my_tuple <span style="color:#f92672">=</span> (<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)
 </span></span><span style="display:flex;"><span><span style="color:#75715e">#my_tuple[0]] = 4  # This will raise a TypeError because tuples are immutable.</span>
-</span></span></code></pre></div><p><a href="./../immutable-types-deeper-dive/">Immutable Types Deeper Dive</a></p>
+</span></span></code></pre></div><p>[[Immutable Types Deeper Dive]]</p>
 </li>
 <li>
 <p><strong>Mutable Types:</strong> Their value can be changed after creation.</p>
@@ -58,7 +58,7 @@
 </span></span><span style="display:flex;"><span>print(id(my_list)) <span style="color:#75715e">#The memory address will remain the same</span>
 </span></span><span style="display:flex;"><span>my_dict <span style="color:#f92672">=</span> {<span style="color:#e6db74">&#34;a&#34;</span>: <span style="color:#ae81ff">1</span>, <span style="color:#e6db74">&#34;b&#34;</span>: <span style="color:#ae81ff">2</span>}
 </span></span><span style="display:flex;"><span>my_dict[<span style="color:#e6db74">&#34;c&#34;</span>]] <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>  <span style="color:#75715e"># Modifies the dictionary in place.</span>
-</span></span></code></pre></div><p><a href="./../mutable-types-deeper-dive/">Mutable Types Deeper Dive</a></p>
+</span></span></code></pre></div><p>[[Mutable Types Deeper Dive]]</p>
 </li>
 <li>
 <p><strong>Implications:</strong></p>
@@ -66,11 +66,11 @@
 <li><strong>Immutability often leads to better code predictability and easier debugging.</strong>  Since objects don&rsquo;t change unexpectedly, it&rsquo;s easier to reason about the state of your program.</li>
 <li><strong>Mutability can be more efficient for certain operations.</strong> Modifying a list in place is generally faster than creating a new list every time you want to change it.</li>
 <li><strong>Immutability is crucial for data integrity in some contexts.</strong>  For instance, using immutable objects as keys in dictionaries is essential, because the key&rsquo;s identity must remain constant.</li>
-<li><a href="./../common-pitfalls-with-mutability-and-immutability/">Common Pitfalls with Mutability and Immutability</a></li>
+<li>[[Common Pitfalls with Mutability and Immutability]]</li>
 </ul>
 </li>
 <li>
-<p><strong>Related Notes:</strong> <a href="./../data-structures-in-python/">Data Structures in Python</a></p>
+<p><strong>Related Notes:</strong> [[Data Structures in Python]]</p>
 </li>
 </ul>
 

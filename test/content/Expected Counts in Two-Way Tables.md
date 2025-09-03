@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Stats Home](./../ap-stats-home/)
+# [[AP Stats Home]]
 # Expected Counts in Two-Way Tables
 
-When analyzing [Representing Two Categorical Variables](./../representing-two-categorical-variables/) using a two-way table, we often want to determine if there's a significant association between the two variables. This analysis typically involves comparing the observed counts in each cell of the table to what we would *expect* to see if there were no association (i.e., if the variables were independent). These "expected counts" are a crucial component for [Setting Up a Chi-Square Test for Homogeneity or Independence](./../setting-up-a-chi-square-test-for-homogeneity-or-independence/).
+When analyzing [[Representing Two Categorical Variables]] using a two-way table, we often want to determine if there's a significant association between the two variables. This analysis typically involves comparing the observed counts in each cell of the table to what we would *expect* to see if there were no association (i.e., if the variables were independent). These "expected counts" are a crucial component for [[Setting Up a Chi-Square Test for Homogeneity or Independence]].
 
 ## What are Expected Counts?
 
@@ -87,6 +87,6 @@ Here is the table of expected counts for our example:
 
 Notice that expected counts do not have to be whole numbers, as they represent theoretical averages if independence holds.
 
-## [Conditions for Chi-Square Tests](./../conditions-for-chi-square-tests/)
+## [[Conditions for Chi-Square Tests]]
 
 A crucial condition for performing a chi-square test for homogeneity or independence is that **all expected counts must be at least 5**. If any expected count is less than 5, the assumptions for the chi-square distribution are violated, and the results of the test may not be reliable. In such cases, categories might need to be combined, or alternative statistical methods pursued.

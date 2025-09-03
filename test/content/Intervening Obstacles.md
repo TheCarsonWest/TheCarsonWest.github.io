@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [Push and Pull Factors](./../push-and-pull-factors/)
+# [[Push and Pull Factors]]
 
 * Barriers that make reaching a destination more difficult:
     * Economic: Lack of funds to reach destination.
