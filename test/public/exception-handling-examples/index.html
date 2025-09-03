@@ -63,7 +63,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;An unexpected error occurred: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span></code></pre></div><p><strong>Example 4: Using <code>else</code> and <code>finally</code> clauses</strong></p>
-<p>The <code>else</code> block executes if no exception occurs in the <code>try</code> block. The <code>finally</code> block always executes, regardless of whether an exception occurred or not. This is often used for cleanup actions (e.g., closing files).</p>
+<p>The <code>else</code> block executes if no exception occurs in the <code>try</code> block. The <code>finally</code> block <em>always</em> executes, regardless of whether an exception occurred or not. This is often used for cleanup actions (e.g., closing files).</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
 </span></span><span style="display:flex;"><span>        contents <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()

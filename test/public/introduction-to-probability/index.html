@@ -54,22 +54,22 @@
 <ul>
 <li><strong>Experiment (or Chance Process)</strong>: Any activity or process that has two or more possible outcomes, where there is uncertainty about which outcome will occur.
 <ul>
-<li>Example: Flipping a coin, rolling a die, drawing a card from a deck.</li>
+<li><em>Example</em>: Flipping a coin, rolling a die, drawing a card from a deck.</li>
 </ul>
 </li>
 <li><strong>Outcome</strong>: A single possible result of an experiment.
 <ul>
-<li>Example: Getting a &ldquo;Heads&rdquo; when flipping a coin, rolling a &ldquo;3&rdquo; on a die.</li>
+<li><em>Example</em>: Getting a &ldquo;Heads&rdquo; when flipping a coin, rolling a &ldquo;3&rdquo; on a die.</li>
 </ul>
 </li>
 <li><strong>Sample Space ( $ S $ )</strong>: The set of all possible outcomes of an experiment.
 <ul>
-<li>Example: For a coin flip,  $ S = { \text{Heads, Tails} } $ . For rolling a 6-sided die,  $ S = { 1, 2, 3, 4, 5, 6 } $ .</li>
+<li><em>Example</em>: For a coin flip,  $ S = { \text{Heads, Tails} } $ . For rolling a 6-sided die,  $ S = { 1, 2, 3, 4, 5, 6 } $ .</li>
 </ul>
 </li>
 <li><strong>Event</strong>: A subset of the sample space; a collection of one or more outcomes. Events are usually denoted by capital letters (A, B, C, etc.).
 <ul>
-<li>Example: Event A = &ldquo;getting an even number&rdquo; when rolling a die.  $ A = { 2, 4, 6 } $ .</li>
+<li><em>Example</em>: Event A = &ldquo;getting an even number&rdquo; when rolling a die.  $ A = { 2, 4, 6 } $ .</li>
 </ul>
 </li>
 </ul>
@@ -81,16 +81,16 @@
 $$ 0 \le P(A) \le 1 $$  2.  <strong>Sum of Probabilities</strong>: The sum of the probabilities of all possible outcomes in the sample space must be 1.
 $$  \sum_{\text{all outcomes}} P(\text{outcome}) = 1  $$      *   For example, if  $ S = { o_1, o_2, \dots, o_n } $ , then  $ P(o_1) + P(o_2) + \dots + P(o_n) = 1 $ .</li>
 <li><strong>Complement Rule</strong>: The probability that an event A does not occur (denoted as  $ A^c $  or  $ \text{A&rsquo;} $ ) is 1 minus the probability that A does occur.
-$$  P(A^c) = 1 - P(A)  $$      *   Example: If the probability of rain is  $ P(\text{Rain}) = 0.3 $ , then the probability of no rain is  $ P(\text{No Rain}) = 1 - 0.3 = 0.7 $ .</li>
+$$  P(A^c) = 1 - P(A)  $$      *   <em>Example</em>: If the probability of rain is  $ P(\text{Rain}) = 0.3 $ , then the probability of no rain is  $ P(\text{No Rain}) = 1 - 0.3 = 0.7 $ .</li>
 <li><strong>Addition Rule for Mutually Exclusive Events</strong>: If two events A and B are [[Mutually Exclusive Events]] (meaning they cannot occur at the same time, i.e.,  $ P(A \text{ and } B) = 0 $ ), then the probability that A or B occurs is the sum of their individual probabilities.
-$$  P(A \text{ or } B) = P(A) + P(B)  $$      *   Example: When rolling a die, the event &ldquo;rolling a 2&rdquo; and &ldquo;rolling a 4&rdquo; are mutually exclusive.  $ P(2 \text{ or } 4) = P(2) + P(4) = \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3} $ .</li>
+$$  P(A \text{ or } B) = P(A) + P(B)  $$      *   <em>Example</em>: When rolling a die, the event &ldquo;rolling a 2&rdquo; and &ldquo;rolling a 4&rdquo; are mutually exclusive.  $ P(2 \text{ or } 4) = P(2) + P(4) = \frac{1}{6} + \frac{1}{6} = \frac{2}{6} = \frac{1}{3} $ .</li>
 </ol>
 <hr>
 <h2 id="calculating-probability">Calculating Probability</h2>
 <p>There are primarily two ways to think about calculating probabilities:</p>
 <h3 id="1-theoretical-probability-equally-likely-outcomes">1. Theoretical Probability (Equally Likely Outcomes)</h3>
 <p>If all outcomes in a sample space are equally likely, the probability of an event A is given by:
-$$  P(A) = \frac{\text{Number of outcomes in event A}}{\text{Total number of outcomes in the sample space}}  $$  *   Example: What is the probability of rolling an even number on a fair 6-sided die?
+$$  P(A) = \frac{\text{Number of outcomes in event A}}{\text{Total number of outcomes in the sample space}}  $$  *   <em>Example</em>: What is the probability of rolling an even number on a fair 6-sided die?
 *   Sample Space  $ S = {1, 2, 3, 4, 5, 6} $ , so total outcomes = 6.
 *   Event A = &ldquo;even number&rdquo; =  $ {2, 4, 6} $ , so number of outcomes in A = 3.
 *    $ P(A) = \frac{3}{6} = \frac{1}{2} = 0.5 $ .</p>
@@ -98,7 +98,7 @@ $$  P(A) = \frac{\text{Number of outcomes in event A}}{\text{Total number of out
 <p>This type of probability is based on observations from an experiment or simulation.
 $$  P(A) \approx \frac{\text{Number of times event A occurs}}{\text{Total number of trials}}  $$  As the number of trials increases, the empirical probability approaches the theoretical probability. This concept is formalized by the [[The Law of Large Numbers]].</p>
 <ul>
-<li>Example: If you flip a coin 100 times and get 53 heads, the empirical probability of heads is  $ 53/100 = 0.53 $ . If you flip it 10,000 times and get 4980 heads, the empirical probability is  $ 4980/10000 = 0.498 $ .</li>
+<li><em>Example</em>: If you flip a coin 100 times and get 53 heads, the empirical probability of heads is  $ 53/100 = 0.53 $ . If you flip it 10,000 times and get 4980 heads, the empirical probability is  $ 4980/10000 = 0.498 $ .</li>
 </ul>
 <p>For more on using simulations to estimate probabilities, see [[Estimating Probabilities Using Simulation]].</p>
 <hr>

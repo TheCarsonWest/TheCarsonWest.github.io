@@ -51,7 +51,7 @@
 <ul>
 <li>Slicing extracts a portion of a sequence using <code>[start:stop:step]]</code>.</li>
 <li><code>start</code> is the index of the first element to include (inclusive). Defaults to 0.</li>
-<li><code>stop</code> is the index of the element to stop before (exclusive). Defaults to the length of the sequence.</li>
+<li><code>stop</code> is the index of the element to stop <em>before</em> (exclusive). Defaults to the length of the sequence.</li>
 <li><code>step</code> is the increment between indices. Defaults to 1.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;abcdefg&#34;</span>
@@ -65,7 +65,7 @@
 <ul>
 <li><strong>Omitting <code>start</code>, <code>stop</code>, or <code>step</code>:</strong>  Provides flexibility.  For example, <code>[:]]</code> creates a copy of the entire sequence.</li>
 <li><strong>Slicing with negative indices:</strong> Allows for flexible selection from the end.</li>
-<li><strong>Slicing and mutability:</strong> Slices create views of the original sequence; modifying a slice modifies the original.  This is different from creating a copy with <code>[:]]</code>.  This is particularly relevant for mutable sequences like lists.  ([[Mutability and Immutability]])</li>
+<li><strong>Slicing and mutability:</strong> Slices create <em>views</em> of the original sequence; modifying a slice modifies the original.  This is different from creating a copy with <code>[:]]</code>.  This is particularly relevant for mutable sequences like lists.  ([[Mutability and Immutability]])</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>
 </span></span><span style="display:flex;"><span>sliced_list <span style="color:#f92672">=</span> my_list1:<span style="color:#ae81ff">4</span>

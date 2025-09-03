@@ -47,10 +47,10 @@
 <p><strong>Ranges:</strong> You can specify ranges of characters using a hyphen.  <code>[a-z]]</code> matches any lowercase letter, <code>[0-9]]</code> matches any digit, and <code>[A-Z]]</code> matches any uppercase letter.  You can combine ranges: <code>[a-zA-Z0-9]]</code> matches any alphanumeric character.</p>
 </li>
 <li>
-<p><strong>Negation:</strong> A caret <code>^</code> at the beginning of a character set negates it. <code>[^abc]]</code> matches any character except &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  <code>[^0-9]]</code> matches any non-digit character.</p>
+<p><strong>Negation:</strong> A caret <code>^</code> at the beginning of a character set negates it. <code>[^abc]]</code> matches any character <em>except</em> &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  <code>[^0-9]]</code> matches any non-digit character.</p>
 </li>
 <li>
-<p><strong>Special Characters:</strong> Inside character sets, most [[Regex Metacharacters]] lose their special meaning except for <code>\</code> (backslash), <code>^</code> (caret - when at the beginning), and <code>-</code> (hyphen).  To match a literal <code>]]</code> (closing square bracket), place it first or escape it with a backslash <code>\]]</code>. To match a literal <code>-</code>, place it at the beginning or end, or escape it with <code>\-</code>. To match a literal <code>^</code>, place it anywhere other than the beginning, or escape it.</p>
+<p><strong>Special Characters:</strong> Inside character sets, most [[Regex Metacharacters]] lose their special meaning <em>except</em> for <code>\</code> (backslash), <code>^</code> (caret - when at the beginning), and <code>-</code> (hyphen).  To match a literal <code>]]</code> (closing square bracket), place it first or escape it with a backslash <code>\]]</code>. To match a literal <code>-</code>, place it at the beginning or end, or escape it with <code>\-</code>. To match a literal <code>^</code>, place it anywhere other than the beginning, or escape it.</p>
 </li>
 <li>
 <p><strong>Examples:</strong></p>

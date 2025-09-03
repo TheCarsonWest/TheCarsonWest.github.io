@@ -63,7 +63,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> my_module  <span style="color:#75715e"># now you can import your module</span>
 </span></span></code></pre></div><p><strong>Important Considerations:</strong></p>
 <ul>
-<li><strong>Order Matters:</strong> The order of directories in <code>sys.path</code> is significant.  The interpreter will find the first occurrence of the module.</li>
+<li><strong>Order Matters:</strong> The order of directories in <code>sys.path</code> is significant.  The interpreter will find the <em>first</em> occurrence of the module.</li>
 <li><strong>Namespace Conflicts:</strong> Modifying <code>sys.path</code> can lead to namespace conflicts if you have multiple modules with the same name in different directories.</li>
 <li><strong>Security:</strong>  Avoid arbitrarily adding directories to <code>sys.path</code> from untrusted sources, as this could expose your system to malicious code.  Be especially cautious with dynamically constructed paths.</li>
 </ul>

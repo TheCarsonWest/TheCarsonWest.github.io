@@ -60,7 +60,7 @@
 <p><strong><code>?</code> (Question Mark):</strong> Matches zero or one occurrence of the preceding character or group.</p>
 </li>
 <li>
-<p><strong><code>1</code> (Square Brackets):</strong> Defines a character set.  e.g., <code>[abc]]</code> matches &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  Ranges are possible: <code>[a-z]]</code> matches any lowercase letter.  <code>[^abc]]</code> negates the set (matches anything except a, b, or c).</p>
+<p><strong><code>1</code> (Square Brackets):</strong> Defines a character set.  e.g., <code>[abc]]</code> matches &lsquo;a&rsquo;, &lsquo;b&rsquo;, or &lsquo;c&rsquo;.  Ranges are possible: <code>[a-z]]</code> matches any lowercase letter.  <code>[^abc]]</code> negates the set (matches anything <em>except</em> a, b, or c).</p>
 </li>
 <li>
 <p><strong><code>()</code> (Parentheses):</strong> Creates a capturing group.  Used for extracting specific parts of a matched string.  Also useful for grouping parts of the regex for applying quantifiers.</p>
@@ -84,13 +84,13 @@
 <p><strong><code>?</code> (Question Mark):</strong> Zero or one occurrence.</p>
 </li>
 <li>
-<p><strong><code>{n}</code>:</strong> Exactly n occurrences.</p>
+<p><strong><code>{n}</code>:</strong> Exactly <em>n</em> occurrences.</p>
 </li>
 <li>
-<p><strong><code>{n,}</code>:</strong> n or more occurrences.</p>
+<p><strong><code>{n,}</code>:</strong> <em>n</em> or more occurrences.</p>
 </li>
 <li>
-<p><strong><code>{n,m}</code>:</strong> Between n and m occurrences (inclusive).</p>
+<p><strong><code>{n,m}</code>:</strong> Between <em>n</em> and <em>m</em> occurrences (inclusive).</p>
 </li>
 </ul>
 <p><strong>Example:</strong></p>

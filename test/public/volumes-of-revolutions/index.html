@@ -43,44 +43,44 @@
 <h2 id="1-introduction">1. Introduction</h2>
 <p>Volumes of revolution involve calculating the volume of a 3D solid formed by rotating a 2D region around a line (the axis of revolution).  The key is to slice the solid into infinitesimally thin shapes (disks or washers) and integrate their volumes.</p>
 <h2 id="2-the-disk-method">2. The Disk Method</h2>
-<p>The Disk Method is used when the region being revolved is adjacent to the axis of revolution. This means the cross-sections perpendicular to the axis of revolution are solid disks.</p>
+<p>The Disk Method is used when the region being revolved is <em>adjacent</em> to the axis of revolution. This means the cross-sections perpendicular to the axis of revolution are solid disks.</p>
 <p><strong>Procedure:</strong></p>
 <ol>
 <li><strong>Sketch the region:</strong> Draw the region you&rsquo;re revolving and the axis of revolution.</li>
-<li><strong>Identify the radius:</strong> Determine the radius, r, of a representative disk.  The radius will be a function of either x or y, depending on the axis of revolution. [[Radius Identification]]</li>
+<li><strong>Identify the radius:</strong> Determine the radius, <em>r</em>, of a representative disk.  The radius will be a function of either <em>x</em> or <em>y</em>, depending on the axis of revolution. [[Radius Identification]]</li>
 <li><strong>Set up the integral:</strong> The volume is found by integrating the area of the disk,  $$ A = \pi r^2 $$ , along the axis of revolution.</li>
 </ol>
 <p><strong>Formulas:</strong></p>
 <ul>
 <li>
 <p><strong>Revolution about the x-axis:</strong>
-$$ V = \pi \int_a^b [f(x)]^2 , dx $$      where f(x) is the function defining the curve, and a and b are the limits of integration along the x-axis.</p>
+$$ V = \pi \int_a^b [f(x)]^2 , dx $$      where <em>f(x)</em> is the function defining the curve, and <em>a</em> and <em>b</em> are the limits of integration along the x-axis.</p>
 </li>
 <li>
 <p><strong>Revolution about the y-axis:</strong>
-$$ V = \pi \int_c^d [g(y)]^2 , dy $$      where g(y) is the function defining the curve (solved for x in terms of y), and c and d are the limits of integration along the y-axis.</p>
+$$ V = \pi \int_c^d [g(y)]^2 , dy $$      where <em>g(y)</em> is the function defining the curve (solved for <em>x</em> in terms of <em>y</em>), and <em>c</em> and <em>d</em> are the limits of integration along the y-axis.</p>
 </li>
 </ul>
 <p><strong>Example:</strong></p>
 <p>Find the volume of the solid formed by revolving the region bounded by  $$ y = \sqrt{x} $$ ,  $$ x = 4 $$ , and  $$ y = 0 $$  about the x-axis.</p>
 <p>$$ V = \pi \int_0^4 (\sqrt{x})^2 , dx = \pi \int_0^4 x , dx = \pi \left[ \frac{1}{2}x^2 \right]_0^4 = \pi \left( \frac{1}{2}(4)^2 - 0 \right) = 8\pi $$</p>
 <h2 id="3-the-washer-method">3. The Washer Method</h2>
-<p>The Washer Method is used when the region being revolved is not adjacent to the axis of revolution. This creates a &ldquo;hole&rdquo; in the center of the solid, resulting in washer-shaped cross-sections.</p>
+<p>The Washer Method is used when the region being revolved is <em>not adjacent</em> to the axis of revolution. This creates a &ldquo;hole&rdquo; in the center of the solid, resulting in washer-shaped cross-sections.</p>
 <p><strong>Procedure:</strong></p>
 <ol>
 <li><strong>Sketch the region:</strong> Draw the region you&rsquo;re revolving and the axis of revolution.</li>
-<li><strong>Identify the outer and inner radii:</strong> Determine the outer radius, R, and the inner radius, r, of a representative washer. Both radii will be functions of either x or y. [[Radii Identification]]</li>
+<li><strong>Identify the outer and inner radii:</strong> Determine the outer radius, <em>R</em>, and the inner radius, <em>r</em>, of a representative washer. Both radii will be functions of either <em>x</em> or <em>y</em>. [[Radii Identification]]</li>
 <li><strong>Set up the integral:</strong> The volume is found by integrating the area of the washer,  $$ A = \pi (R^2 - r^2) $$ , along the axis of revolution.</li>
 </ol>
 <p><strong>Formulas:</strong></p>
 <ul>
 <li>
 <p><strong>Revolution about the x-axis:</strong>
-$$ V = \pi \int_a^b ([f(x)]^2 - [g(x)]^2) , dx $$      where f(x) is the outer function (further from the axis) and g(x) is the inner function (closer to the axis), and a and b are the limits of integration along the x-axis.</p>
+$$ V = \pi \int_a^b ([f(x)]^2 - [g(x)]^2) , dx $$      where <em>f(x)</em> is the outer function (further from the axis) and <em>g(x)</em> is the inner function (closer to the axis), and <em>a</em> and <em>b</em> are the limits of integration along the x-axis.</p>
 </li>
 <li>
 <p><strong>Revolution about the y-axis:</strong>
-$$ V = \pi \int_c^d ([F(y)]^2 - [G(y)]^2) , dy $$      where F(y) is the outer function (further from the axis) and G(y) is the inner function (closer to the axis), and c and d are the limits of integration along the y-axis.</p>
+$$ V = \pi \int_c^d ([F(y)]^2 - [G(y)]^2) , dy $$      where <em>F(y)</em> is the outer function (further from the axis) and <em>G(y)</em> is the inner function (closer to the axis), and <em>c</em> and <em>d</em> are the limits of integration along the y-axis.</p>
 </li>
 </ul>
 <p><strong>Example:</strong></p>

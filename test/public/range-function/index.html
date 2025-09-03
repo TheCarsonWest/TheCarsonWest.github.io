@@ -43,7 +43,7 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>range(stop)
 </span></span><span style="display:flex;"><span>range(start, stop[, step]])
 </span></span></code></pre></div><ul>
-<li><code>stop</code>:  The ending number (exclusive).  The sequence will go up to, but not include, this number.  This is the only required argument.</li>
+<li><code>stop</code>:  The ending number (exclusive).  The sequence will go up to, but not include, this number.  This is the <em>only</em> required argument.</li>
 <li><code>start</code>: The starting number (inclusive). Defaults to 0 if not specified.</li>
 <li><code>step</code>: The increment between each number. Defaults to 1 if not specified.  Can be negative for reverse iteration.</li>
 </ul>
@@ -69,8 +69,8 @@
 </span></span><span style="display:flex;"><span>print(my_list)
 </span></span></code></pre></div><p><strong>Important Considerations:</strong></p>
 <ul>
-<li><code>range()</code> returns a range object, not a list.  This is a memory-efficient way to represent a sequence of numbers, especially when dealing with large ranges.  To get a list, you need to explicitly convert it using <code>list()</code>.</li>
-<li>The <code>stop</code> value is always exclusive.  This is a common source of off-by-one errors.</li>
+<li><code>range()</code> returns a <em>range object</em>, not a list.  This is a memory-efficient way to represent a sequence of numbers, especially when dealing with large ranges.  To get a list, you need to explicitly convert it using <code>list()</code>.</li>
+<li>The <code>stop</code> value is <em>always</em> exclusive.  This is a common source of off-by-one errors.</li>
 </ul>
 <p>[[Range Object]]  ([[Iteration in Python]])</p>
 

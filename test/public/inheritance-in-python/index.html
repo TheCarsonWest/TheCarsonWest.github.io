@@ -38,7 +38,7 @@
 <main>
 <h1 id="method-resolution-order-mro">[[Method Resolution Order (MRO)]]</h1>
 <h1 id="inheritance-in-python">[[Inheritance in Python]]</h1>
-<p><strong>Definition:</strong> [[Inheritance]] is a mechanism that allows a class (the child class or subclass) to inherit attributes and methods from another class (the parent class or superclass).  This promotes code reusability and establishes an &ldquo;is-a&rdquo; relationship between classes.</p>
+<p><strong>Definition:</strong> [[Inheritance]] is a mechanism that allows a class (the <em>child class</em> or <em>subclass</em>) to inherit attributes and methods from another class (the <em>parent class</em> or <em>superclass</em>).  This promotes code reusability and establishes an &ldquo;is-a&rdquo; relationship between classes.</p>
 <p><strong>Syntax:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ParentClass</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">def</span> __init__(self, parent_attribute):
@@ -69,7 +69,7 @@
 <p><strong><code>super()</code> function:</strong></p>
 <p>The <code>super()</code> function is used to call methods of the parent class from within the child class.  This is particularly useful when you want to extend or modify the behavior of a parent class method without rewriting it entirely.  ([[super() function]])</p>
 <p><strong>[[Method Overriding]]:</strong></p>
-<p>When a child class provides a method with the same name and signature as a method in the parent class, it overrides the parent class method.  The child class method will be called instead of the parent class method. ([[Method Overriding in Python]])</p>
+<p>When a child class provides a method with the same name and signature as a method in the parent class, it <em>overrides</em> the parent class method.  The child class method will be called instead of the parent class method. ([[Method Overriding in Python]])</p>
 <p><strong>Method Resolution Order ([[MRO]]):</strong></p>
 <p>In multiple inheritance, the [[MRO]] determines the order in which methods are searched for when called. Python uses the C3 linearization algorithm to determine the [[MRO]].  ([[Method Resolution Order (MRO)]])</p>
 <p><strong>Advantages of [[Inheritance]]:</strong></p>
