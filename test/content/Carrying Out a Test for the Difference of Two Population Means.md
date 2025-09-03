@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Carrying Out a Test for the Difference of Two Population Means
 
-This notes page details the "Do" step of a hypothesis test for the difference between two population means ( $ \mu_1 - \mu_2 $ ). This is where the test statistic is calculated and the p-value is determined, assuming the null hypothesis is true. Before proceeding, ensure you have properly Setting Up a Test for the Difference of Two Population Means.
+This notes page details the "Do" step of a hypothesis test for the difference between two population means ( $ \mu_1 - \mu_2 $ ). This is where the test statistic is calculated and the p-value is determined, assuming the null hypothesis is true. Before proceeding, ensure you have properly [Setting Up a Test for the Difference of Two Population Means](./../setting-up-a-test-for-the-difference-of-two-population-means/).
 
 ## 1. State Hypotheses
 
@@ -25,7 +25,7 @@ Before calculating the test statistic, verify that the conditions for inference 
     *   **10% Condition**: If sampling without replacement, ensure the sample sizes  $ n_1 $  and  $ n_2 $  are less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). That is,  $ n_1 \le 0.10 N_1 $  and  $ n_2 \le 0.10 N_2 $ . This ensures that the standard deviation of the sampling distribution is not significantly underestimated.
 *   **Normal / Large Sample**: The sampling distribution of  $ \bar{x}_1 - \bar{x}_2 $  must be approximately normal. This can be satisfied if:
     *   Both population distributions are approximately normal (checked with graphs of sample data like dot plots, histograms, or normal probability plots showing no strong skewness or outliers).
-    *   Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to The Central Limit Theorem.
+    *   Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to [The Central Limit Theorem](./../the-central-limit-theorem/).
     *   If one or both sample sizes are small, but the population distribution is clearly not normal, then a t-test is not appropriate.
 
 ## 3. Calculate the Test Statistic
@@ -54,7 +54,7 @@ The p-value depends on the alternative hypothesis:
 *   ** $ H_a: \mu_1 - \mu_2 < 0 $  (left-tailed)**:  $ p\text{-value} = P(T \le t) $ 
 *   ** $ H_a: \mu_1 - \mu_2 \neq 0 $  (two-tailed)**:  $ p\text{-value} = 2 \times P(T \ge |t|) $ 
 
-Interpreting p-Values is a critical skill for the conclusion.
+[Interpreting p-Values](./../interpreting-p-values/) is a critical skill for the conclusion.
 
 ## 5. Formulate a Conclusion
 
@@ -63,4 +63,4 @@ Finally, compare your p-value to the chosen significance level ( $ \alpha $ , of
 *   **If p-value <  $ \alpha $ **: Reject the null hypothesis. There is convincing evidence that the true difference in population means is what the alternative hypothesis suggests.
 *   **If p-value  $ \ge \alpha $ **: Fail to reject the null hypothesis. There is not convincing evidence that the true difference in population means is what the alternative hypothesis suggests.
 
-Always state your conclusion in the context of the problem, referring back to the specific populations and variables involved. Be mindful of Potential Errors When Performing Tests. This process is similar to Carrying Out a Test for a Population Mean but extended to two independent samples.
+Always state your conclusion in the context of the problem, referring back to the specific populations and variables involved. Be mindful of [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/). This process is similar to [Carrying Out a Test for a Population Mean](./../carrying-out-a-test-for-a-population-mean/) but extended to two independent samples.

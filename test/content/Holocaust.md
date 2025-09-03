@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: The Holocaust
+## ID: The [Holocaust](./../holocaust/)
 
 ## WHEN: 1933-1945 (Specifically intensified during WWII era)
 
@@ -21,11 +21,11 @@ A genocide perpetrated by Nazi Germany during World War II in which approximatel
 *   **"Final Solution":** The Nazi plan to exterminate the Jewish people.
 
 ## IMPACT: Why Significant?:
-*   **Unprecedented Human Tragedy:** The Holocaust represents the systematic murder of millions based on race, religion, and other discriminatory factors.
+*   **Unprecedented Human Tragedy:** The [Holocaust](./../holocaust/) represents the systematic murder of millions based on race, religion, and other discriminatory factors.
 *   **Shaped Post-War World:** Led to a greater understanding of human rights and the importance of preventing genocide.
 *   **Nuremberg Trials:** International trials held to prosecute Nazi leaders for war crimes and crimes against humanity.
 *   **Creation of the State of Israel:** Increased support for Zionism and the establishment of a Jewish state in 1948.
 *   **International Law and Conventions:** Influenced the development of international laws regarding genocide, human rights, and war crimes.
 *   **Impact on American Society:** Increased awareness of prejudice and discrimination. Led to debates about immigration policies and America's response during the war. Sparked soul-searching about the role of bystanders in the face of injustice.
 
-# IDS Unit 7
+# [IDS Unit 7](./../ids-unit-7/)

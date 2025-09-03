@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# Calc home
+# [Calc home](./../calc-home/)
 
 ### 1. Position, Velocity, and Acceleration
 

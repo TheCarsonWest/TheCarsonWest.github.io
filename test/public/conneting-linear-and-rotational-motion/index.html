@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conneting Linear and Rotational Motion | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conneting Linear and Rotational Motion</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-home">[[AP Physics Home]]</h1>
+<h1 id="ap-physics-connecting-linear-and-rotational-motion">AP Physics: Connecting Linear and Rotational Motion</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Many physical systems involve both linear and rotational motion. Understanding how these two types of motion are related is crucial for analyzing the behavior of objects that rotate while also translating, or for describing the linear motion of a point on a rotating object. This page explores the fundamental connections between linear and rotational kinematic and dynamic quantities, particularly for rigid bodies and points on rotating objects. A good foundation in [[Circular Motion]] is helpful here.</p>
+<h2 id="kinematic-relationships">Kinematic Relationships</h2>
+<p>For a point on a rigid body rotating about a fixed axis, or for an object rolling without slipping, there are direct relationships between linear and angular kinematic quantities. The radius  $ r $  (distance from the axis of rotation) plays a key role in these conversions.</p>
+<h3 id="displacement-velocity-and-acceleration">Displacement, Velocity, and Acceleration</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Linear Quantity</th>
+          <th style="text-align: left">Rotational Quantity</th>
+          <th style="text-align: left">Relationship</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Position ( $ s $  or  $ x $ )</td>
+          <td style="text-align: left">Angular Position ( $ \theta $ )</td>
+          <td style="text-align: left">$ s = r\theta $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Tangential Velocity ( $ v_t $ )</td>
+          <td style="text-align: left">Angular Velocity ( $ \omega $ )</td>
+          <td style="text-align: left">$ v_t = r\omega $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Tangential Acceleration ( $ a_t $ )</td>
+          <td style="text-align: left">Angular Acceleration ( $ \alpha $ )</td>
+          <td style="text-align: left">$ a_t = r\alpha $</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Equations:</strong></p>
+<ul>
+<li><strong>Linear Displacement:</strong>  $ s = r\theta $
+<ul>
+<li>Where  $ s $  is the arc length (linear distance),  $ r $  is the radius, and  $ \theta $  is the angular displacement in radians.</li>
+</ul>
+</li>
+<li><strong>Tangential Velocity:</strong>  $ v_t = r\omega $
+<ul>
+<li>Where  $ v_t $  is the linear velocity tangent to the circular path, and  $ \omega $  is the angular velocity in rad/s.</li>
+</ul>
+</li>
+<li><strong>Tangential Acceleration:</strong>  $ a_t = r\alpha $
+<ul>
+<li>Where  $ a_t $  is the linear acceleration tangent to the circular path, and  $ \alpha $  is the angular acceleration in rad/s $ ^2 $ .</li>
+</ul>
+</li>
+</ul>
+<p>It&rsquo;s important to remember that these relationships apply to the tangential components of linear motion. For objects undergoing circular motion, there is also a centripetal (or radial) acceleration,  $ a_c = v_t^2/r = r\omega^2 $ , which is perpendicular to  $ a_t $ . The total linear acceleration is the vector sum of these components.</p>
+<h2 id="rolling-without-slipping">Rolling Without Slipping</h2>
+<p>A common and important application of connecting linear and rotational motion is the concept of [[Rolling]]. When an object rolls without slipping, there&rsquo;s a specific relationship between its translational speed and its rotational speed.</p>
+<p><strong>Key Condition:</strong> For an object rolling without slipping, the point of contact between the object and the surface is instantaneously at rest relative to the surface.</p>
+<p>This implies that the linear speed of the center of mass ( $ v_{CM} $ ) is directly related to its angular speed ( $ \omega $ ) and radius ( $ R $ ):</p>
+<p>$
+v_{CM} = R\omega
+$</p>
+<p>Similarly, for acceleration:</p>
+<p>$
+a_{CM} = R\alpha
+$</p>
+<p>Where  $ R $  is the radius of the rolling object. This condition is crucial for analyzing the dynamics of rolling objects, as it links their translational kinematics to their rotational kinematics.</p>
+<h2 id="rotational-and-translational-kinetic-energy">Rotational and Translational Kinetic Energy</h2>
+<p>When an object performs both translational and rotational motion, its total kinetic energy is the sum of its translational kinetic energy (associated with the motion of its center of mass) and its rotational kinetic energy (associated with its rotation about its center of mass).</p>
+<p>$
+K_{total} = K_{translational} + K_{rotational}
+$</p>
+<p>$
+K_{total} = \frac{1}{2}mv_{CM}^2 + \frac{1}{2}I_{CM}\omega^2
+$</p>
+<p>Where:</p>
+<ul>
+<li>$ m $  is the mass of the object.</li>
+<li>$ v_{CM} $  is the linear speed of the center of mass.</li>
+<li>$ I_{CM} $  is the moment of inertia about the center of mass.</li>
+<li>$ \omega $  is the angular speed of rotation about the center of mass.</li>
+</ul>
+<p>This equation is fundamental for applying the [[Conservation of Energy]] principle to objects undergoing both translation and rotation, such as a ball rolling down an incline.</p>
+<h2 id="dynamic-relationships-brief-mention">Dynamic Relationships (Brief Mention)</h2>
+<p>Just as kinematic quantities are connected, so are dynamic quantities:</p>
+<ul>
+<li><strong>Force and Torque:</strong> Torque ( $ \tau $ ) is the rotational analog of force. For a force  $ F $  applied at a distance  $ r $  from the pivot,  $ \tau = rF\sin\phi $ .</li>
+<li><strong>Linear Momentum and Angular Momentum:</strong> [[Linear Momentum]] ( $ p=mv $ ) has its rotational counterpart in [[Angular Momentum and Angular Impulse]] ( $ L=I\omega $ ).</li>
+<li><strong>Newton&rsquo;s Second Law:</strong>  $ F_{net} = ma $  for linear motion, and  $ \tau_{net} = I\alpha $  for rotational motion. These can be interconnected in problems involving rolling or hinged systems.</li>
+</ul>
+<p>Understanding these connections allows for a comprehensive analysis of systems where both linear and rotational dynamics are at play.</p>
+
+</main>
+
+
+  </body>
+</html>
+

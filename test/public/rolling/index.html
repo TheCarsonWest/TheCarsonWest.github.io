@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rolling | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Rolling</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-home">[[AP Physics Home]]</h1>
+<h1 id="ap-physics-topic-65---rolling">AP Physics: Topic 6.5 - Rolling</h1>
+<h2 id="1-introduction-to-rolling-motion">1. Introduction to Rolling Motion</h2>
+<p>Rolling is a common type of motion that combines both <strong>translation</strong> (movement of the center of mass) and <strong>rotation</strong> (spinning about an axis). When an object rolls, its center of mass moves linearly, while every point on the object simultaneously rotates around the center of mass. This means the object&rsquo;s total kinetic energy is a sum of its translational kinetic energy and rotational kinetic energy.</p>
+<h2 id="2-condition-for-pure-rolling">2. Condition for Pure Rolling</h2>
+<p>Pure rolling, or rolling without slipping, is a critical concept. It occurs when the point of contact between the rolling object and the surface is instantaneously at rest relative to the surface. This implies a direct relationship between the translational velocity of the center of mass and the angular velocity of the object.</p>
+<p>For pure rolling:
+$  v_{CM} = R\omega  $
+where:</p>
+<ul>
+<li>$ v_{CM} $  is the linear velocity of the center of mass.</li>
+<li>$ R $  is the radius of the rolling object.</li>
+<li>$ \omega $  is the angular velocity.</li>
+</ul>
+<p>Similarly, for pure rolling, the translational acceleration of the center of mass ( $ a_{CM} $ ) is related to the angular acceleration ( $ \alpha $ ) by:
+$  a_{CM} = R\alpha  $</p>
+<p>If  $ v_{CM} &gt; R\omega $ , the object is slipping forward. If  $ v_{CM} &lt; R\omega $ , the object is skidding or slipping backward.</p>
+<h2 id="3-kinematics-of-pure-rolling">3. Kinematics of Pure Rolling</h2>
+<p>Consider a point on the circumference of a wheel rolling without slipping:</p>
+<ul>
+<li><strong>Velocity at the Top:</strong> The velocity of the top point is twice the velocity of the center of mass ( $ v_{top} = 2v_{CM} $ ).</li>
+<li><strong>Velocity at the Bottom:</strong> The velocity of the bottom point (point of contact) is instantaneously zero relative to the surface ( $ v_{bottom} = 0 $ ). This is the definition of pure rolling.</li>
+<li><strong>Velocity at the Center of Mass:</strong> The velocity of the center of mass is  $ v_{CM} $ .</li>
+</ul>
+<p>This can be visualized as a superposition of a purely translational motion (all points move with  $ v_{CM} $ ) and a purely rotational motion (points rotate with  $ R\omega $ ).</p>
+<h2 id="4-dynamics-of-rolling">4. Dynamics of Rolling</h2>
+<p>To analyze the dynamics of rolling, we use Newton&rsquo;s Second Law for both translational and rotational motion.</p>
+<ol>
+<li>
+<p><strong>Translational Motion (along the direction of motion):</strong>
+$  \sum F_{x} = M a_{CM}  $
+where  $ M $  is the total mass of the object.</p>
+</li>
+<li>
+<p><strong>Rotational Motion (about the center of mass):</strong>
+$  \sum \tau = I \alpha  $
+where  $ I $  is the [[Rotational Inertia]] of the object about its center of mass.</p>
+</li>
+</ol>
+<p><strong>Friction&rsquo;s Role in Rolling:</strong>
+For an object to roll, there must be a force that provides the torque needed for rotation. This is often <strong>static friction</strong>.</p>
+<ul>
+<li>If an object rolls down an incline, static friction acts <strong>up the incline</strong> to prevent slipping and cause rotation.</li>
+<li>If an object is pulled horizontally by a force  $ F $  at its center of mass and rolls without slipping, static friction acts <strong>backward</strong> to provide the necessary torque.</li>
+</ul>
+<p>It&rsquo;s crucial to remember that if pure rolling occurs, the static friction force does <strong>no work</strong> because the point of application of the force (the point of contact) is instantaneously at rest.</p>
+<h2 id="5-kinetic-energy-of-rolling-objects">5. Kinetic Energy of Rolling Objects</h2>
+<p>The total kinetic energy ( $ K_{total} $ ) of a rolling object is the sum of its translational kinetic energy ( $ K_{trans} $ ) and its rotational kinetic energy ( $ K_{rot} $ ).</p>
+<p>$  K_{total} = K_{trans} + K_{rot}  $
+$  K_{total} = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} I_{CM} \omega^2  $</p>
+<p>For pure rolling, we can substitute  $ \omega = v_{CM}/R $ :</p>
+<p>$  K_{total} = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} I_{CM} \left(\frac{v_{CM}}{R}\right)^2  $
+$  K_{total} = \frac{1}{2} v_{CM}^2 \left(M + \frac{I_{CM}}{R^2}\right)  $</p>
+<p>This equation shows that the total kinetic energy depends on both the object&rsquo;s mass and its moment of inertia. Objects with larger moments of inertia (relative to their mass and radius) will have a larger fraction of their kinetic energy stored as rotational energy.</p>
+<h2 id="6-rolling-down-an-incline">6. Rolling Down an Incline</h2>
+<p>When different objects (e.g., solid cylinder, hollow cylinder, sphere) roll down an incline without slipping, they all have the same gravitational potential energy at the top. However, they will reach the bottom with different speeds due to their different [[Rotational Inertia]].</p>
+<p>By [[Conservation of Energy]]:
+$  PE_{initial} + K_{initial} = PE_{final} + K_{final}  $
+If starting from rest ( $ K_{initial}=0 $ ) at height  $ h $  ( $ PE_{final}=0 $  at bottom):
+$  Mgh = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} I_{CM} \omega^2  $
+Using  $ I_{CM} = kMR^2 $  (where  $ k $  is a constant based on the object&rsquo;s shape) and  $ \omega = v_{CM}/R $ :
+$  Mgh = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} (kMR^2) \left(\frac{v_{CM}}{R}\right)^2  $
+$  Mgh = \frac{1}{2} M v_{CM}^2 + \frac{1}{2} kM v_{CM}^2  $
+$  Mgh = \frac{1}{2} M v_{CM}^2 (1+k)  $
+Solving for  $ v_{CM} $ :
+$  v_{CM} = \sqrt{\frac{2gh}{1+k}}  $</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Object</th>
+          <th style="text-align: left">Rotational Inertia ( $ I_{CM} $ )</th>
+          <th style="text-align: left">$ k $  value</th>
+          <th style="text-align: left">$ v_{CM} $  at bottom</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Hoop/Thin Ring</td>
+          <td style="text-align: left">$ MR^2 $</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">$ \sqrt{gh} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Solid Cylinder</td>
+          <td style="text-align: left">$ \frac{1}{2}MR^2 $</td>
+          <td style="text-align: left">$ \frac{1}{2} $</td>
+          <td style="text-align: left">$ \sqrt{\frac{4}{3}gh} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Solid Sphere</td>
+          <td style="text-align: left">$ \frac{2}{5}MR^2 $</td>
+          <td style="text-align: left">$ \frac{2}{5} $</td>
+          <td style="text-align: left">$ \sqrt{\frac{10}{7}gh} $</td>
+      </tr>
+  </tbody>
+</table>
+<p>From the table, the solid sphere (smallest  $ k $ ) will have the largest  $ v_{CM} $  and thus reach the bottom first, followed by the solid cylinder, and then the hoop. This demonstrates how the distribution of mass affects the rolling motion.</p>
+
+</main>
+
+
+  </body>
+</html>
+

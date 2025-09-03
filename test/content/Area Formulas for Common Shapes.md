@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# Volumes With Cross Sections
+# [Volumes With Cross Sections](./../volumes-with-cross-sections/)
 # Area Formulas for Common Shapes: AP Calculus AB Rundown
 
 This rundown covers area formulas for common geometric shapes, which are fundamental for understanding area calculations in calculus, particularly when dealing with integration and related rates problems.
@@ -40,7 +40,7 @@ This rundown covers area formulas for common geometric shapes, which are fundame
     *   `b` is the base
     *   `h` is the height (perpendicular to the base)
 
-    **Note on Height**: The height *must* be perpendicular to the base. For non-right triangles, you may need to use trigonometry to find the height.
+    [**Note on Height**](./../**note-on-height**/): The height *must* be perpendicular to the base. For non-right triangles, you may need to use trigonometry to find the height.
 
 ## 4. Circle
 
@@ -63,7 +63,7 @@ This rundown covers area formulas for common geometric shapes, which are fundame
     *   `b_1` and `b_2` are the lengths of the parallel bases
     *   `h` is the height (perpendicular distance between the bases)
 
-    **Trapezoid Bases**: Make sure you identify the parallel sides as the bases.
+    [**Trapezoid Bases**](./../**trapezoid-bases**/): Make sure you identify the parallel sides as the bases.
 
 ## 6. Parallelogram
 
@@ -76,7 +76,7 @@ This rundown covers area formulas for common geometric shapes, which are fundame
     *   `b` is the base
     *   `h` is the height (perpendicular distance between the base and the opposite side)
 
-    **Parallelogram Height**:  The height is NOT the length of the slanted side.
+    [**Parallelogram Height**](./../**parallelogram-height**/):  The height is NOT the length of the slanted side.
 
 ## 7. Sector of a Circle
 
@@ -89,7 +89,7 @@ This rundown covers area formulas for common geometric shapes, which are fundame
     *   `r` is the radius
     *   `\theta` is the central angle in *radians*
 
-    **Radian Measure**: Always ensure the angle is in radians when using this formula. Convert from degrees if necessary:  `radians = degrees * (π/180)`.
+    [**Radian Measure**](./../**radian-measure**/): Always ensure the angle is in radians when using this formula. Convert from degrees if necessary:  `radians = degrees * (π/180)`.
 ## Application in Calculus
 
 These formulas are crucial for:

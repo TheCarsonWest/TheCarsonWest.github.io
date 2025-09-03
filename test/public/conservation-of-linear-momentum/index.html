@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conservation of Linear Momentum | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conservation of Linear Momentum</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-home">[[AP Physics Home]]</h1>
+<h1 id="43-conservation-of-linear-momentum">4.3: Conservation of Linear Momentum</h1>
+<p>This note page expands on the fundamental principle of [[Conservation of Linear Momentum]], a crucial concept in AP Physics. It builds upon our understanding of [[Linear Momentum]] and [[Change in Momentum and Impulse]], detailing the conditions under which the total momentum of a system remains constant.</p>
+<h2 id="i-the-principle-of-conservation-of-linear-momentum">I. The Principle of Conservation of Linear Momentum</h2>
+<p>The Law of Conservation of Linear Momentum states that if the net external force acting on a system of particles is zero, then the total linear momentum of the system remains constant. In simpler terms, the momentum lost by one part of the system is gained by another part, such that the total momentum before and after an interaction is the same.</p>
+<h3 id="a-mathematical-statement">A. Mathematical Statement</h3>
+<p>For an [[Isolated System]] (where net external force is zero), the total momentum ( $ P_{total} $ ) before an interaction is equal to the total momentum after the interaction.</p>
+<p>$
+\vec{P}{initial} = \vec{P}{final}
+$</p>
+<p>For a system with multiple objects, this can be expressed as the sum of individual momenta:</p>
+<p>$
+\sum_{i} m_i \vec{v}{i, initial} = \sum{i} m_i \vec{v}_{i, final}
+$</p>
+<p>Where:</p>
+<ul>
+<li>$ m_i $  is the mass of the  $ i $ -th object.</li>
+<li>$ \vec{v}_{i, initial} $  is the initial velocity of the  $ i $ -th object.</li>
+<li>$ \vec{v}_{i, final} $  is the final velocity of the  $ i $ -th object.</li>
+</ul>
+<p>This equation holds true for each component (x, y, z) independently, meaning  $ \vec{P}{x, initial} = \vec{P}{x, final} $  and  $ \vec{P}{y, initial} = \vec{P}{y, final} $ .</p>
+<h2 id="ii-conditions-for-momentum-conservation">II. Conditions for Momentum Conservation</h2>
+<p>The conservation of linear momentum is a direct consequence of [[Newton’s Third Law]] when considering an [[Isolated System]].</p>
+<h3 id="a-isolated-system">A. Isolated System</h3>
+<p>A system is considered <strong>isolated</strong> if the net external force acting on it is zero. This means:</p>
+<ol>
+<li><strong>No external forces</strong>: No forces from outside the system act on its components.</li>
+<li><strong>External forces balance</strong>: If external forces are present, they sum to zero (e.g., gravity balanced by a normal force, but usually, we consider interactions where external forces are negligible during the short duration of the interaction).</li>
+</ol>
+<p><strong>Internal forces</strong>, which are forces exchanged between objects within the system (e.g., collision forces), do not change the total momentum of the system. According to [[Newton’s Third Law]], these forces are equal in magnitude and opposite in direction, so their impulse on the system cancels out.</p>
+<h2 id="iii-applications-and-types-of-interactions">III. Applications and Types of Interactions</h2>
+<p>The conservation of linear momentum is particularly useful in analyzing collisions and explosions.</p>
+<h3 id="a-collisions">A. Collisions</h3>
+<p>In a collision, objects exert forces on each other over a short period. As these forces are internal to the system, the total momentum of the system (all colliding objects) is conserved, provided external forces are negligible during the collision. Collisions are broadly categorized into:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Type of Collision</th>
+          <th style="text-align: left">Conservation of Momentum</th>
+          <th style="text-align: left">Conservation of Kinetic Energy</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>[[Elastic and Inelastic Collisions]]</strong></td>
+          <td style="text-align: left">Yes</td>
+          <td style="text-align: left">Yes</td>
+          <td style="text-align: left">Objects bounce off each other; kinetic energy and momentum are conserved.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>[[Elastic and Inelastic Collisions]]</strong></td>
+          <td style="text-align: left">Yes</td>
+          <td style="text-align: left">No (Kinetic energy is lost, usually as heat, sound, or deformation)</td>
+          <td style="text-align: left">Objects may stick together or deform; momentum is conserved, but kinetic energy is not.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="b-explosions-reverse-collisions">B. Explosions (Reverse Collisions)</h3>
+<p>An explosion is essentially the reverse of an inelastic collision where objects initially at rest or moving together separate. Internal forces (e.g., expanding gases) propel parts of the system apart. The total momentum of the system before the explosion is equal to the total momentum after the explosion. If the system was initially at rest, its total momentum remains zero after the explosion.</p>
+<p><strong>Example</strong>: A cannon firing a projectile. The cannon and projectile form a system. Before firing, total momentum is zero. After firing, the forward momentum of the projectile is equal in magnitude and opposite in direction to the backward momentum (recoil) of the cannon, ensuring the total momentum of the system remains zero.</p>
+<p>$
+(m_{cannon} + m_{projectile}) \vec{v}{initial} = m{cannon} \vec{v}{cannon, final} + m{projectile} \vec{v}{projectile, final}
+$
+If  $ \vec{v}{initial} = 0 $ , then  $ 0 = m_{cannon} \vec{v}{cannon, final} + m{projectile} \vec{v}_{projectile, final} $ .</p>
+<h3 id="c-recoil">C. Recoil</h3>
+<p>Recoil is a direct application of momentum conservation, particularly evident when objects push off each other, like a gun firing a bullet or a rocket expelling exhaust. The momentum of the expelled mass (bullet, exhaust) in one direction is balanced by the momentum of the remaining object (gun, rocket) in the opposite direction.</p>
+<h2 id="iv-connection-to-impulse">IV. Connection to Impulse</h2>
+<p>Recall that [[Change in Momentum and Impulse]] is defined as  $ \vec{J} = \Delta \vec{P} = \vec{F}{net} \Delta t $ .
+If the net external force  $ \vec{F}{net} $  acting on a system is zero, then the impulse  $ \vec{J} $  is zero. This implies that the change in momentum  $ \Delta \vec{P} $  is also zero, meaning the total momentum  $ \vec{P} $  remains constant. This reinforces the principle of momentum conservation.</p>
+
+</main>
+
+
+  </body>
+</html>
+

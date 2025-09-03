@@ -12,6 +12,6 @@
 ## Relationship between joules and frequency
 
 ## used in:
-- ## Magnetic Constant
+- ## [Magnetic Constant](./../magnetic-constant/)
 
-!Screenshot 2024-09-06 at 10.25.10 AM.png
+![Screenshot 2024-09-06 at 10.25.10 AM.png](./../screenshot-2024-09-06-at-10.25.10-am.png/)

@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# APCHEM Gasses
-# Effusion Rate (AP Chemistry Rundown)
+# [APCHEM Gasses](./../apchem-gasses/)
+# [Effusion Rate](./../effusion-rate/) (AP Chemistry Rundown)
 
 ## Introduction
 
-Effusion is the process of gas particles escaping through a tiny hole into a vacuum.  Think of a balloon slowly deflating – that's effusion in action, albeit a slow one.  The rate of effusion is the speed at which this happens.  It's important to understand that effusion is different from diffusion.  Diffusion is the mixing of gases, while effusion is the escape of a gas through a small opening. Diffusion
+Effusion is the process of gas particles escaping through a tiny hole into a vacuum.  Think of a balloon slowly deflating – that's effusion in action, albeit a slow one.  The rate of effusion is the speed at which this happens.  It's important to understand that effusion is different from diffusion.  Diffusion is the mixing of gases, while effusion is the escape of a gas through a small opening. [Diffusion](./../diffusion/)
 
 ## Graham's Law of Effusion
 
@@ -24,7 +24,7 @@ Where:
 *  $ M_1 $  is the molar mass of gas 1
 *  $ M_2 $  is the molar mass of gas 2
 
-This relationship makes intuitive sense.  Lighter molecules, on average, move faster than heavier molecules at the same Temperature. Kinetic Molecular Theory Therefore, they are more likely to encounter and pass through the small opening.
+This relationship makes intuitive sense.  Lighter molecules, on average, move faster than heavier molecules at the same [Temperature](./../temperature/). [Kinetic Molecular Theory](./../kinetic-molecular-theory/) Therefore, they are more likely to encounter and pass through the small opening.
 
 ## Example Calculations
 
@@ -51,7 +51,7 @@ The molar mass of the unknown gas is approximately 15.9 g/mol.
 
 Effusion has several practical applications, including:
 
-* **Isotope separation:**  Different isotopes of the same element have slightly different molar masses. This difference allows for separation using effusion, although the process is often slow and requires multiple stages. Isotopes
+* **Isotope separation:**  Different isotopes of the same element have slightly different molar masses. This difference allows for separation using effusion, although the process is often slow and requires multiple stages. [Isotopes](./../isotopes/)
 * **Determining molar mass:** As demonstrated in Example 2, effusion can be used to experimentally determine the molar mass of an unknown gas.
 * **Leak detection:**  The rate of effusion can be used to detect leaks in vacuum systems or other sealed containers.
 

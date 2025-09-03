@@ -3,18 +3,18 @@
 [params]
 	author = 'Carson West'
 +++
-# Handling Binary Files
-# Memory-Mapped Files 
+# [Handling Binary Files](./../handling-binary-files/)
+# [Memory-Mapped Files](./../memory-mapped-files/) 
 Python's `mmap` module allows for memory-mapping files. This means treating a file on disk as if it were directly accessible in your program's memory.  This can offer significant performance advantages for large files, especially when dealing with random access.
 
 
 **Key Concepts:**
 
 * **Efficiency:**  Avoids the overhead of repeatedly reading and writing to the file from disk. Changes made in memory are reflected on disk (and vice-versa, depending on the mode).
-* **Shared Memory:** Multiple processes can access and modify the same memory-mapped file simultaneously, enabling inter-process communication (IPC). Inter-Process Communication (IPC)
-* **Synchronization:** Because multiple processes can access the same memory, proper synchronization mechanisms (like locks) are crucial to prevent race conditions and data corruption. Synchronization Primitives
+* **Shared Memory:** Multiple processes can access and modify the same memory-mapped file simultaneously, enabling inter-process communication (IPC). [Inter-Process Communication (IPC)](./../inter-process-communication-(ipc)/)
+* **Synchronization:** Because multiple processes can access the same memory, proper synchronization mechanisms (like locks) are crucial to prevent race conditions and data corruption. [Synchronization Primitives](./../synchronization-primitives/)
 * **File Modes:**  Different modes affect how the mapped file behaves (read-only, read-write, copy-on-write, etc.).
-* **Error Handling:**  Properly handle exceptions like `mmap.error` for scenarios where the mapping fails.
+* **[Error Handling](./../error-handling/):**  Properly handle exceptions like `mmap.error` for scenarios where the mapping fails.
 
 
 **Example:**
@@ -52,8 +52,8 @@ finally:
 
 **Further Exploration:**
 
-*  Memory Management in Python
-*  File I/O in Python
+*  [Memory Management in Python](./../memory-management-in-python/)
+*  [File I/O in Python](./../file-i/o-in-python/)
 
 
 **Important Notes:**

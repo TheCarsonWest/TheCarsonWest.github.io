@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vectors and Motion in Two Dimensions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Vectors and Motion in Two Dimensions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-home">[[AP Physics Home]]</h1>
+<h1 id="ap-physics-15-vectors-and-motion-in-two-dimensions">AP Physics 1.5: Vectors and Motion in Two Dimensions</h1>
+<p>This page expands on the concept of [[Scalars and Vectors in One Dimension]] to analyze motion in a plane (two dimensions), a fundamental skill for understanding more complex physics problems.</p>
+<h2 id="1-introduction-to-vectors-in-2d">1. Introduction to Vectors in 2D</h2>
+<p>In two dimensions, a vector quantity requires both magnitude and direction, often represented by an arrow on a coordinate plane. The direction is typically specified by an angle relative to a positive axis (e.g., positive x-axis).</p>
+<h3 id="components-of-a-vector">Components of a Vector</h3>
+<p>Any vector  $ \vec{A} $  can be broken down into its perpendicular components along the x and y axes. This is crucial for simplifying vector operations.</p>
+<p>If a vector  $ \vec{A} $  has magnitude  $ A $  and makes an angle  $ \theta $  with the positive x-axis:</p>
+<ul>
+<li><strong>x-component:</strong>  $ A_x = A \cos \theta $</li>
+<li><strong>y-component:</strong>  $ A_y = A \sin \theta $</li>
+</ul>
+<p>Conversely, if you have the components  $ A_x $  and  $ A_y $ :</p>
+<ul>
+<li><strong>Magnitude:</strong>  $ A = \sqrt{A_x^2 + A_y^2} $</li>
+<li><strong>Direction (angle):</strong>  $ \theta = \tan^{-1}\left(\frac{A_y}{A_x}\right) $  (Careful with quadrant for  $ \theta $ )</li>
+</ul>
+<h2 id="2-vector-operations">2. Vector Operations</h2>
+<p>Performing operations like addition, subtraction, and scalar multiplication on vectors in two dimensions is most straightforward using their components.</p>
+<h3 id="vector-addition">Vector Addition</h3>
+<p>To add two vectors  $ \vec{A} $  and  $ \vec{B} $ , add their corresponding components:
+$  \vec{R} = \vec{A} + \vec{B}  $
+$  R_x = A_x + B_x  $
+$  R_y = A_y + B_y  $
+Then find the magnitude and direction of  $ \vec{R} $  from  $ R_x $  and  $ R_y $ .</p>
+<h3 id="vector-subtraction">Vector Subtraction</h3>
+<p>To subtract vector  $ \vec{B} $  from  $ \vec{A} $ , subtract their components:
+$  \vec{D} = \vec{A} - \vec{B} = \vec{A} + (-\vec{B})  $
+$  D_x = A_x - B_x  $
+$  D_y = A_y - B_y  $
+Note that subtracting a vector is equivalent to adding its negative (same magnitude, opposite direction).</p>
+<h3 id="scalar-multiplication">Scalar Multiplication</h3>
+<p>Multiplying a vector  $ \vec{A} $  by a scalar  $ c $ :
+$  c\vec{A} = (cA_x, cA_y)  $
+The magnitude changes by a factor of  $ |c| $ , and the direction reverses if  $ c $  is negative.</p>
+<h2 id="3-position-velocity-and-acceleration-in-2d">3. Position, Velocity, and Acceleration in 2D</h2>
+<p>The definitions of position, velocity, and acceleration extend directly from one dimension to two by considering their x and y components independently.</p>
+<h3 id="position-vector">Position Vector</h3>
+<p>A particle&rsquo;s position is given by a position vector  $ \vec{r} $  from the origin:
+$  \vec{r}(t) = x(t)\hat{i} + y(t)\hat{j}  $
+where  $ \hat{i} $  and  $ \hat{j} $  are unit vectors along the x and y axes, respectively.</p>
+<h3 id="displacement-vector">Displacement Vector</h3>
+<p>The change in position is the displacement vector  $ \Delta \vec{r} $ :
+$  \Delta \vec{r} = \vec{r}_f - \vec{r}_i = (x_f - x_i)\hat{i} + (y_f - y_i)\hat{j} = \Delta x \hat{i} + \Delta y \hat{j}  $</p>
+<h3 id="velocity-vector">Velocity Vector</h3>
+<p>[[Representing Motion]] in 2D involves the velocity vector, which is always tangent to the path of motion.</p>
+<ul>
+<li><strong>Average Velocity:</strong>
+$  \vec{v}{avg} = \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta x}{\Delta t}\hat{i} + \frac{\Delta y}{\Delta t}\hat{j} = v{x,avg}\hat{i} + v_{y,avg}\hat{j}  $</li>
+<li><strong>Instantaneous Velocity:</strong>
+$  \vec{v}(t) = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat{i} + \frac{dy}{dt}\hat{j} = v_x(t)\hat{i} + v_y(t)\hat{j}  $
+The magnitude of the instantaneous velocity is the speed:  $ v = \sqrt{v_x^2 + v_y^2} $ .</li>
+</ul>
+<h3 id="acceleration-vector">Acceleration Vector</h3>
+<ul>
+<li><strong>Average Acceleration:</strong>
+$  \vec{a}{avg} = \frac{\Delta \vec{v}}{\Delta t} = \frac{\Delta v_x}{\Delta t}\hat{i} + \frac{\Delta v_y}{\Delta t}\hat{j} = a{x,avg}\hat{i} + a_{y,avg}\hat{j}  $</li>
+<li><strong>Instantaneous Acceleration:</strong>
+$  \vec{a}(t) = \frac{d\vec{v}}{dt} = \frac{dv_x}{dt}\hat{i} + \frac{dv_y}{dt}\hat{j} = a_x(t)\hat{i} + a_y(t)\hat{j}  $
+Acceleration can change both the magnitude and direction of the velocity vector.</li>
+</ul>
+<h2 id="4-kinematics-in-two-dimensions-constant-acceleration">4. Kinematics in Two Dimensions (Constant Acceleration)</h2>
+<p>When acceleration is constant, the motion in the x and y directions can be analyzed independently using the one-dimensional kinematic equations. This is a powerful concept.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Kinematic Equation</th>
+          <th style="text-align: left">X-Component</th>
+          <th style="text-align: left">Y-Component</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Velocity-Time</td>
+          <td style="text-align: left">$ v_x = v_{0x} + a_x t $</td>
+          <td style="text-align: left">$ v_y = v_{0y} + a_y t $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Position-Time</td>
+          <td style="text-align: left">$ x = x_0 + v_{0x} t + \frac{1}{2} a_x t^2 $</td>
+          <td style="text-align: left">$ y = y_0 + v_{0y} t + \frac{1}{2} a_y t^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Velocity-Position</td>
+          <td style="text-align: left">$ v_x^2 = v_{0x}^2 + 2 a_x (x - x_0) $</td>
+          <td style="text-align: left">$ v_y^2 = v_{0y}^2 + 2 a_y (y - y_0) $</td>
+      </tr>
+  </tbody>
+</table>
+<p>Common applications include [[Projectile Motion]] where  $ a_x = 0 $  and  $ a_y = -g $  (assuming positive y is upward). The time &rsquo; $ t $ &rsquo; is the common link between the x and y motions.</p>
+<p>This independent analysis of components also forms the basis for understanding more complex topics like [[Circular Motion]].</p>
+
+</main>
+
+
+  </body>
+</html>
+

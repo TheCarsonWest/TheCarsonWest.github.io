@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Chaining Decorators
-# Function Wrappers 
+# [Chaining Decorators](./../chaining-decorators/)
+# [Function Wrappers](./../function-wrappers/) 
 Function wrappers are a powerful technique in Python that allows you to extend or modify the behavior of a function without modifying its core functionality.  This is achieved by creating a new function that wraps around the original function, executing additional code before or after the original function's execution.
 
 Key aspects:
@@ -38,11 +38,11 @@ After function execution
 ```
 
 * **Use Cases:**
-    * **Logging:**  Record function calls, arguments, and return values. Logging in Python
-    * **Timing:** Measure the execution time of a function. Performance Measurement
-    * **Input Validation:** Check if the input arguments are valid before executing the function. Input Validation Techniques
-    * **Authentication/Authorization:**  Add security checks before allowing the function to run. Security in Python
-    * **Caching:** Store the results of expensive function calls to speed up subsequent calls. Caching Mechanisms
+    * **Logging:**  Record function calls, arguments, and return values. [Logging in Python](./../logging-in-python/)
+    * **Timing:** Measure the execution time of a function. [Performance Measurement](./../performance-measurement/)
+    * **Input Validation:** Check if the input arguments are valid before executing the function. [Input Validation Techniques](./../input-validation-techniques/)
+    * **Authentication/Authorization:**  Add security checks before allowing the function to run. [Security in Python](./../security-in-python/)
+    * **Caching:** Store the results of expensive function calls to speed up subsequent calls. [Caching Mechanisms](./../caching-mechanisms/)
 
 
 * **`functools.wraps`:** This decorator is crucial when creating wrappers. It helps preserve the metadata (like `__name__`, `__doc__`) of the original function, preventing issues with introspection and documentation.
@@ -86,6 +86,6 @@ greet("Alice")
 This example shows a decorator factory `repeat` that takes `num_times` as an argument.
 
 
-* **Class Decorators:** It's also possible to create decorators using classes. This can be particularly useful for more complex scenarios. Class Decorators
+* **Class [Decorators](./../decorators/):** It's also possible to create decorators using classes. This can be particularly useful for more complex scenarios. [Class Decorators](./../class-decorators/)
 
 Remember to consult the official Python documentation for more advanced details and examples.

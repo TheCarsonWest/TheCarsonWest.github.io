@@ -92,6 +92,8 @@
   </url><url>
     <loc>http://example.org/andrew-johnson/</loc>
   </url><url>
+    <loc>http://example.org/angular-momentum-and-angular-impulse/</loc>
+  </url><url>
     <loc>http://example.org/antiderivatives/</loc>
   </url><url>
     <loc>http://example.org/ap-chem-experiments/</loc>
@@ -101,6 +103,8 @@
     <loc>http://example.org/ap-chem-solutions/</loc>
   </url><url>
     <loc>http://example.org/ap-chemistry-units/</loc>
+  </url><url>
+    <loc>http://example.org/ap-physics-home/</loc>
   </url><url>
     <loc>http://example.org/ap-stats-home/</loc>
   </url><url>
@@ -340,6 +344,8 @@
   </url><url>
     <loc>http://example.org/chaining-decorators/</loc>
   </url><url>
+    <loc>http://example.org/change-in-momentum-and-impulse/</loc>
+  </url><url>
     <loc>http://example.org/chemical-bonds/</loc>
   </url><url>
     <loc>http://example.org/chemical-reactions/</loc>
@@ -357,6 +363,8 @@
     <loc>http://example.org/christopher-columbus/</loc>
   </url><url>
     <loc>http://example.org/chromatography/</loc>
+  </url><url>
+    <loc>http://example.org/circular-motion/</loc>
   </url><url>
     <loc>http://example.org/civil-rights-act-of-1866/</loc>
   </url><url>
@@ -429,6 +437,12 @@
     <loc>http://example.org/conjugate-acid-base-pairs/</loc>
   </url><url>
     <loc>http://example.org/connecticut/</loc>
+  </url><url>
+    <loc>http://example.org/conneting-linear-and-rotational-motion/</loc>
+  </url><url>
+    <loc>http://example.org/conservation-of-energy/</loc>
+  </url><url>
+    <loc>http://example.org/conservation-of-linear-momentum/</loc>
   </url><url>
     <loc>http://example.org/constant-of-integration/</loc>
   </url><url>
@@ -522,6 +536,8 @@
   </url><url>
     <loc>http://example.org/default-parameters/</loc>
   </url><url>
+    <loc>http://example.org/defining-simple-harmonic-motion-shm/</loc>
+  </url><url>
     <loc>http://example.org/delaware/</loc>
   </url><url>
     <loc>http://example.org/delta-symbol/</loc>
@@ -582,6 +598,8 @@
   </url><url>
     <loc>http://example.org/effusion-rate/</loc>
   </url><url>
+    <loc>http://example.org/elastic-and-inelastic-collisions/</loc>
+  </url><url>
     <loc>http://example.org/election-of-1800/</loc>
   </url><url>
     <loc>http://example.org/election-of-1824/</loc>
@@ -619,6 +637,8 @@
     <loc>http://example.org/endothermic-and-exothermic-reactions/</loc>
   </url><url>
     <loc>http://example.org/energy-crisis-1973/</loc>
+  </url><url>
+    <loc>http://example.org/energy-of-simple-harmonic-oscillators/</loc>
   </url><url>
     <loc>http://example.org/english-colonization/</loc>
   </url><url>
@@ -702,6 +722,10 @@
   </url><url>
     <loc>http://example.org/florida/</loc>
   </url><url>
+    <loc>http://example.org/fluids-and-conservation-laws/</loc>
+  </url><url>
+    <loc>http://example.org/fluids-and-newtons-laws/</loc>
+  </url><url>
     <loc>http://example.org/folk-and-pop-culture/</loc>
   </url><url>
     <loc>http://example.org/for-loop-examples/</loc>
@@ -709,6 +733,8 @@
     <loc>http://example.org/for-loops/</loc>
   </url><url>
     <loc>http://example.org/for-loops-in-python/</loc>
+  </url><url>
+    <loc>http://example.org/forces-and-free-body-diagrams/</loc>
   </url><url>
     <loc>http://example.org/formal-charge/</loc>
   </url><url>
@@ -733,6 +759,8 @@
     <loc>http://example.org/french-and-indian-war/</loc>
   </url><url>
     <loc>http://example.org/french-colonization/</loc>
+  </url><url>
+    <loc>http://example.org/frequency-and-period-of-shm/</loc>
   </url><url>
     <loc>http://example.org/frozen-sets/</loc>
   </url><url>
@@ -813,6 +841,8 @@
     <loc>http://example.org/granger-laws/</loc>
   </url><url>
     <loc>http://example.org/graphical-representations-of-summary-statistics/</loc>
+  </url><url>
+    <loc>http://example.org/gravitational-force/</loc>
   </url><url>
     <loc>http://example.org/great-awakening/</loc>
   </url><url>
@@ -960,6 +990,8 @@
   </url><url>
     <loc>http://example.org/intermolecular-forces/</loc>
   </url><url>
+    <loc>http://example.org/internal-structure-and-density/</loc>
+  </url><url>
     <loc>http://example.org/interpreting-p-values/</loc>
   </url><url>
     <loc>http://example.org/interstate-commerce-act-1887/</loc>
@@ -1106,6 +1138,8 @@
   </url><url>
     <loc>http://example.org/lincoln-douglas-debates/</loc>
   </url><url>
+    <loc>http://example.org/linear-momentum/</loc>
+  </url><url>
     <loc>http://example.org/linear-regression-models/</loc>
   </url><url>
     <loc>http://example.org/lingua-franca/</loc>
@@ -1248,6 +1282,8 @@
   </url><url>
     <loc>http://example.org/moral-majority/</loc>
   </url><url>
+    <loc>http://example.org/motion-of-orbiting-satellites/</loc>
+  </url><url>
     <loc>http://example.org/movement-functions-with-integrals/</loc>
   </url><url>
     <loc>http://example.org/mro/</loc>
@@ -1309,6 +1345,12 @@
     <loc>http://example.org/new-republican-party-1850/</loc>
   </url><url>
     <loc>http://example.org/new-york/</loc>
+  </url><url>
+    <loc>http://example.org/newtons-second-law/</loc>
+  </url><url>
+    <loc>http://example.org/newtons-second-law-in-rotational-form/</loc>
+  </url><url>
+    <loc>http://example.org/newtons-third-law/</loc>
   </url><url>
     <loc>http://example.org/nexus/</loc>
   </url><url>
@@ -1456,15 +1498,21 @@
   </url><url>
     <loc>http://example.org/postmodern-architecture/</loc>
   </url><url>
+    <loc>http://example.org/potential-energy/</loc>
+  </url><url>
     <loc>http://example.org/potential-errors-when-performing-tests/</loc>
   </url><url>
     <loc>http://example.org/potential-problems-with-sampling/</loc>
   </url><url>
     <loc>http://example.org/potus/</loc>
   </url><url>
+    <loc>http://example.org/power/</loc>
+  </url><url>
     <loc>http://example.org/power-rule/</loc>
   </url><url>
     <loc>http://example.org/presidential-election-of-1896/</loc>
+  </url><url>
+    <loc>http://example.org/pressure/</loc>
   </url><url>
     <loc>http://example.org/private-and-protected-members/</loc>
   </url><url>
@@ -1552,6 +1600,8 @@
   </url><url>
     <loc>http://example.org/redox/</loc>
   </url><url>
+    <loc>http://example.org/reference-frames-and-relative-motion/</loc>
+  </url><url>
     <loc>http://example.org/refugee/</loc>
   </url><url>
     <loc>http://example.org/regex-character-sets/</loc>
@@ -1587,6 +1637,10 @@
     <loc>http://example.org/representing-a-categorical-variable-with-tables/</loc>
   </url><url>
     <loc>http://example.org/representing-a-quantitative-variable-with-graphs/</loc>
+  </url><url>
+    <loc>http://example.org/representing-and-analyzing-shm/</loc>
+  </url><url>
+    <loc>http://example.org/representing-motion/</loc>
   </url><url>
     <loc>http://example.org/representing-the-relationship-between-two-quantitative-variables/</loc>
   </url><url>
@@ -1624,11 +1678,17 @@
   </url><url>
     <loc>http://example.org/rolles-theorem/</loc>
   </url><url>
+    <loc>http://example.org/rolling/</loc>
+  </url><url>
     <loc>http://example.org/ronald-reagan/</loc>
   </url><url>
     <loc>http://example.org/roosevelt-corollary-to-monroe-doctrine/</loc>
   </url><url>
     <loc>http://example.org/rosie-the-riveter/</loc>
+  </url><url>
+    <loc>http://example.org/rotatinal-kinetic-energy/</loc>
+  </url><url>
+    <loc>http://example.org/rotational-equilibrium-and-newtons-first-law-in-rotational-form/</loc>
   </url><url>
     <loc>http://example.org/rugged-individualism/</loc>
   </url><url>
@@ -1653,6 +1713,8 @@
     <loc>http://example.org/samuel-slater/</loc>
   </url><url>
     <loc>http://example.org/saturation/</loc>
+  </url><url>
+    <loc>http://example.org/scalars-and-vectors-in-one-dimension/</loc>
   </url><url>
     <loc>http://example.org/scalawag/</loc>
   </url><url>
@@ -1751,6 +1813,8 @@
     <loc>http://example.org/speed-of-light/</loc>
   </url><url>
     <loc>http://example.org/spoils-system/</loc>
+  </url><url>
+    <loc>http://example.org/spring-forces/</loc>
   </url><url>
     <loc>http://example.org/square-deal/</loc>
   </url><url>
@@ -1868,6 +1932,8 @@
   </url><url>
     <loc>http://example.org/toponyms/</loc>
   </url><url>
+    <loc>http://example.org/torque-and-work/</loc>
+  </url><url>
     <loc>http://example.org/total-fertility-rate/</loc>
   </url><url>
     <loc>http://example.org/townshend-act/</loc>
@@ -1881,6 +1947,8 @@
     <loc>http://example.org/transcendentalism/</loc>
   </url><url>
     <loc>http://example.org/transcontinental-railroad/</loc>
+  </url><url>
+    <loc>http://example.org/translational-kinetic-energy/</loc>
   </url><url>
     <loc>http://example.org/trapezoidal-rule/</loc>
   </url><url>
@@ -1996,6 +2064,8 @@
   </url><url>
     <loc>http://example.org/vectorization-and-performance/</loc>
   </url><url>
+    <loc>http://example.org/vectors-and-motion-in-two-dimensions/</loc>
+  </url><url>
     <loc>http://example.org/vermont/</loc>
   </url><url>
     <loc>http://example.org/vernacular-region/</loc>
@@ -2059,6 +2129,8 @@
     <loc>http://example.org/woodrow-wilson/</loc>
   </url><url>
     <loc>http://example.org/worcester-v-georgia/</loc>
+  </url><url>
+    <loc>http://example.org/work/</loc>
   </url><url>
     <loc>http://example.org/wpa/</loc>
   </url><url>

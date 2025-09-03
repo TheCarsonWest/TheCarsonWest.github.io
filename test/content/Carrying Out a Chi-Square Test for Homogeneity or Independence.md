@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Carrying Out a Chi-Square Test for Homogeneity or Independence
 
-This page details the mechanics of performing a Chi-Square Test for Homogeneity or Independence, building upon the foundational concepts introduced in Setting Up a Chi-Square Test for Homogeneity or Independence. These tests are used to determine if there is a statistically significant association between two categorical variables in a single population (independence) or if the distribution of a categorical variable is the same across several populations (homogeneity).
+This page details the mechanics of performing a Chi-Square Test for Homogeneity or Independence, building upon the foundational concepts introduced in [Setting Up a Chi-Square Test for Homogeneity or Independence](./../setting-up-a-chi-square-test-for-homogeneity-or-independence/). These tests are used to determine if there is a statistically significant association between two categorical variables in a single population (independence) or if the distribution of a categorical variable is the same across several populations (homogeneity).
 
 ## 1. State Hypotheses
 
@@ -23,8 +23,8 @@ Before carrying out the test, you must have clearly stated your null ( $ H_0 $ )
 Before proceeding with calculations, ensure the conditions for a Chi-Square test are met:
 
 1.  **Random**: The data must come from a random sample(s) or a randomized experiment. For homogeneity, samples should be independent.
-2.  **10% Condition** (Potential Problems with Sampling): When sampling without replacement, the sample size(s) should be no more than 10% of the population size(s). This ensures independence of observations.
-3.  **Large Expected Counts**: All expected counts must be at least 5. This condition is crucial for the  $ \chi^2 $  distribution to be a good approximation for the sampling distribution of the test statistic. Refer to Expected Counts in Two-Way Tables for how to calculate these.
+2.  **10% Condition** ([Potential Problems with Sampling](./../potential-problems-with-sampling/)): When sampling without replacement, the sample size(s) should be no more than 10% of the population size(s). This ensures independence of observations.
+3.  **Large Expected Counts**: All expected counts must be at least 5. This condition is crucial for the  $ \chi^2 $  distribution to be a good approximation for the sampling distribution of the test statistic. Refer to [Expected Counts in Two-Way Tables](./../expected-counts-in-two-way-tables/) for how to calculate these.
 
 ## 3. Calculate the Chi-Square Test Statistic
 
@@ -58,7 +58,7 @@ You can find the P-value using:
 *   **Chi-Square Table**: Look up your calculated  $ \chi^2 $  value in a Chi-Square distribution table using your degrees of freedom. This will give a range for the P-value.
 *   **Calculator/Statistical Software**: Most graphing calculators (e.g., TI-83/84) have a `chi2cdf` function or a dedicated Chi-Square test feature that will compute the P-value directly.
 
-A smaller P-value indicates stronger evidence against  $ H_0 $ . Refer to Interpreting p-Values for more details.
+A smaller P-value indicates stronger evidence against  $ H_0 $ . Refer to [Interpreting p-Values](./../interpreting-p-values/) for more details.
 
 ## 6. Make a Decision and Conclusion
 
@@ -82,4 +82,4 @@ Remember to state your conclusion in the context of the problem, referencing the
 | **5. P-value**                     | Find the probability of getting a  $ \chi^2 $  value as extreme or more extreme than the observed  $ \chi^2 $  using the  $ \chi^2 $  distribution with the appropriate  $ df $ .                         |
 | **6. Conclusion**                  | Compare P-value to  $ \alpha $ . Reject or Fail to Reject  $ H_0 $ . State conclusion in context, linking back to the hypotheses and the strength of evidence.                                  |
 
-This structured approach ensures all necessary components of a Chi-Square test for homogeneity or independence are addressed. Also, be mindful of Potential Errors When Performing Tests such as Type I or Type II errors when making your final conclusion.
+This structured approach ensures all necessary components of a Chi-Square test for homogeneity or independence are addressed. Also, be mindful of [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/) such as Type I or Type II errors when making your final conclusion.
