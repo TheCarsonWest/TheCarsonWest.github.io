@@ -72,7 +72,7 @@
 <p><strong>Implications of Mutability:</strong></p>
 <ul>
 <li>
-<p><strong>Aliasing:</strong> When you assign a mutable object to a new variable, both variables point to the <em>same</em> object in memory. Modifying the object through one variable affects the other.</p>
+<p><strong>Aliasing:</strong> When you assign a mutable object to a new variable, both variables point to the same object in memory. Modifying the object through one variable affects the other.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>list1 <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>
 </span></span><span style="display:flex;"><span>list2 <span style="color:#f92672">=</span> list1
 </span></span><span style="display:flex;"><span>list2<span style="color:#f92672">.</span>append(<span style="color:#ae81ff">4</span>)

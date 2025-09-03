@@ -46,7 +46,7 @@
 </span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Bob&#34;</span>, <span style="color:#e6db74">&#34;Hi&#34;</span>)  <span style="color:#75715e"># Output: Hi, Bob!</span>
 </span></span></code></pre></div><p><strong>Important Considerations:</strong></p>
 <ul>
-<li><strong>Order Matters:</strong> Default parameters must come <em>after</em> non-default parameters in the function definition.</li>
+<li><strong>Order Matters:</strong> Default parameters must come after non-default parameters in the function definition.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Correct</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a, b<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>):
@@ -56,7 +56,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">func</span>(a<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, b):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span></code></pre></div><ul>
-<li><strong>Mutable [[Default Arguments]]:</strong> Be cautious when using mutable objects (like lists or dictionaries) as default parameters.  The default is created <em>once</em> when the function is defined, not each time it&rsquo;s called. This can lead to unexpected behavior.</li>
+<li><strong>Mutable [[Default Arguments]]:</strong> Be cautious when using mutable objects (like lists or dictionaries) as default parameters.  The default is created once when the function is defined, not each time it&rsquo;s called. This can lead to unexpected behavior.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add_to_list</span>(item, my_list<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>):
 </span></span><span style="display:flex;"><span>  my_list<span style="color:#f92672">.</span>append(item)

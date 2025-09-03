@@ -48,7 +48,7 @@
 <li><code>frozenset</code> ([[Frozen Sets]])</li>
 </ul>
 <p><strong>What does immutability mean?</strong></p>
-<p>It means that once an immutable object is created, its value cannot be changed.  Any operation that <em>appears</em> to modify an immutable object actually creates a <em>new</em> object with the modified value.</p>
+<p>It means that once an immutable object is created, its value cannot be changed.  Any operation that appears to modify an immutable object actually creates a new object with the modified value.</p>
 <p><strong>Example (Strings):</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>my_string <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>
 </span></span><span style="display:flex;"><span>my_string <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; world&#34;</span>  <span style="color:#75715e"># This doesn&#39;t modify my_string in place.</span>
@@ -70,7 +70,7 @@
 <li><strong>Performance:</strong> While creating new objects might seem inefficient, Python&rsquo;s memory management often optimizes this.  However, frequent modifications to large immutable objects can impact performance.</li>
 </ul>
 <p><strong>Contrast with Mutable Types:</strong></p>
-<p>Mutable types, like [[Lists]] and [[Dictionaries]], <em>can</em> be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [[Mutable Types in Python]]</p>
+<p>Mutable types, like [[Lists]] and [[Dictionaries]], can be modified in place.  This allows for more flexibility but also introduces potential risks related to concurrency and unintended side effects. [[Mutable Types in Python]]</p>
 <p><strong>Further Exploration:</strong></p>
 <ul>
 <li>Deep vs. shallow copying with immutable and mutable objects. [[Deep vs. Shallow Copy]]</li>

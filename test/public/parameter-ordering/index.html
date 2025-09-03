@@ -42,7 +42,7 @@
 <p>The general order is:</p>
 <ol>
 <li>
-<p><strong>Positional Parameters:</strong> These are the parameters that are filled based on their position in the function definition.  They <em>must</em> be provided in the correct order during function invocation.</p>
+<p><strong>Positional Parameters:</strong> These are the parameters that are filled based on their position in the function definition.  They must be provided in the correct order during function invocation.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, c):
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
@@ -57,7 +57,7 @@
 </span></span><span style="display:flex;"><span>my_func(c<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, a<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, b<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>) <span style="color:#75715e"># Order doesn&#39;t matter here</span>
 </span></span></code></pre></div></li>
 <li>
-<p><strong>[[Default Parameters]]:</strong> These parameters have a default value assigned in the function definition. If a value is not provided during invocation, the default value is used.  Default parameters <em>must</em> come after non-default parameters.</p>
+<p><strong>[[Default Parameters]]:</strong> These parameters have a default value assigned in the function definition. If a value is not provided during invocation, the default value is used.  Default parameters must come after non-default parameters.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, c<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>): <span style="color:#75715e"># c has a default value</span>
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
@@ -84,7 +84,7 @@
 <p><strong>Important Considerations:</strong></p>
 <ul>
 <li>
-<p><strong>Mixing Positional and Keyword Arguments:</strong> You can mix positional and keyword arguments, but positional arguments <em>must</em> come before keyword arguments.</p>
+<p><strong>Mixing Positional and Keyword Arguments:</strong> You can mix positional and keyword arguments, but positional arguments must come before keyword arguments.</p>
 </li>
 <li>
 <p><strong>Parameter Order Matters:</strong>  The order of parameters in the function definition dictates how arguments are assigned. Incorrect order leads to <code>TypeError</code> exceptions.</p>

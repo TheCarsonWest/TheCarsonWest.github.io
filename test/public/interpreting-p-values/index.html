@@ -40,7 +40,7 @@
 <h1 id="interpreting-p-values">Interpreting p-Values</h1>
 <p>The p-value is a fundamental concept in [[Setting Up a Test for a Population Proportion]] and other hypothesis tests. It quantifies the evidence against the null hypothesis provided by the sample data. Understanding its meaning is crucial for drawing valid conclusions from statistical analyses.</p>
 <h2 id="what-is-a-p-value">What is a p-Value?</h2>
-<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated from our sample data, <em>assuming that the null hypothesis is true</em>.</p>
+<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated from our sample data, assuming that the null hypothesis is true.</p>
 <p>Mathematically, if we have a test statistic  $ t $  (or  $ z $ ,  $ \chi^2 $ , etc.) calculated from our sample, and  $ H_0 $  is the null hypothesis:</p>
 <p>$$  p\text{-value} = P(\text{Test Statistic} \ge t_{\text{observed}} \mid H_0 \text{ is true})  $$  (This is for a right-tailed test; it adapts for left-tailed or two-tailed tests).</p>
 <h2 id="context-in-hypothesis-testing">Context in Hypothesis Testing</h2>
@@ -53,7 +53,7 @@
 <h2 id="how-to-interpret-the-p-value">How to Interpret the p-Value</h2>
 <p>The p-value is a probability, so it always ranges between 0 and 1.</p>
 <ul>
-<li><strong>Small p-value ( $ \le \alpha $ )</strong>: A small p-value indicates that the observed data (or more extreme data) would be unlikely to occur if the null hypothesis were true. This suggests that the data provides strong evidence <em>against</em> the null hypothesis. We would then <strong>reject the null hypothesis</strong>.</li>
+<li><strong>Small p-value ( $ \le \alpha $ )</strong>: A small p-value indicates that the observed data (or more extreme data) would be unlikely to occur if the null hypothesis were true. This suggests that the data provides strong evidence against the null hypothesis. We would then <strong>reject the null hypothesis</strong>.</li>
 <li><strong>Large p-value ( $ &gt; \alpha $ )</strong>: A large p-value indicates that the observed data would be reasonably likely to occur if the null hypothesis were true. This means the data does not provide sufficient evidence to reject the null hypothesis. We would then <strong>fail to reject the null hypothesis</strong>.</li>
 </ul>
 <h3 id="comparing-with-significance-level---alpha--">Comparing with Significance Level ( $ \alpha $ )</h3>
@@ -79,7 +79,7 @@
       </tr>
   </tbody>
 </table>
-<p>It&rsquo;s important to remember that failing to reject  $ H_0 $  does <strong>not</strong> mean we <em>accept</em>  $ H_0 $ . It simply means our data does not provide enough evidence to conclude otherwise.</p>
+<p>It&rsquo;s important to remember that failing to reject  $ H_0 $  does <strong>not</strong> mean we accept  $ H_0 $ . It simply means our data does not provide enough evidence to conclude otherwise.</p>
 <h2 id="common-misconceptions-about-p-values">Common Misconceptions about p-Values</h2>
 <p>It&rsquo;s crucial to avoid common misinterpretations of the p-value:</p>
 <ol>
