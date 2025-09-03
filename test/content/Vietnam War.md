@@ -5,15 +5,15 @@
 +++
 Okay, here are several notecards covering key aspects of the Vietnam War, formatted for APUSH:
 
-## ID: [[Gulf of Tonkin Resolution]] 
+## ID: Gulf of Tonkin Resolution 
 ## When: August 7, 1964
 
 ## Who:
-*   **US Congress:** Authorized President [[Lyndon B. Johnson]] *   **President Lyndon B. Johnson:** Sought the resolution after alleged attacks on U.S. Navy ships.
+*   **US Congress:** Authorized President Lyndon B. Johnson *   **President Lyndon B. Johnson:** Sought the resolution after alleged attacks on U.S. Navy ships.
 *   **North Vietnam:** Accused of attacking U.S. ships in the Gulf of Tonkin.
 
 ## What:
-A joint resolution passed by the U.S. Congress in response to alleged attacks on U.S. destroyers (USS Maddox and USS Turner Joy) in the Gulf of Tonkin. It authorized President Johnson to take "all necessary measures to repel any armed attack against the forces of the [[United States]] and to prevent further aggression" in Southeast Asia.
+A joint resolution passed by the U.S. Congress in response to alleged attacks on U.S. destroyers (USS Maddox and USS Turner Joy) in the Gulf of Tonkin. It authorized President Johnson to take "all necessary measures to repel any armed attack against the forces of the United States and to prevent further aggression" in Southeast Asia.
 
 ## Impact: Why Significant?:
 *   **Escalation of the War:** The resolution gave President Johnson a "blank check" to escalate U.S. involvement in Vietnam without a formal declaration of war.
@@ -21,7 +21,7 @@ A joint resolution passed by the U.S. Congress in response to alleged attacks on
 *   **Limited Congressional Oversight:** Reduced Congress's role in overseeing the war.
 *   **Debate and Controversy:** Later investigations raised doubts about the veracity of the Gulf of Tonkin incidents, fueling anti-war sentiment and distrust of the government. The resolution was repealed in 1971.
 
-## ID: [[Tet Offensive]] 
+## ID: Tet Offensive 
 ## When: January 30, 1968 (Vietnamese Lunar New Year - Tet)
 
 ## Who:
@@ -87,7 +87,7 @@ A peace agreement signed in Paris that was intended to bring an end to the Vietn
 *   **President:** The act was intended to limit the President's power.
 
 ## What:
-A federal law intended to check the president's power to commit the [[United States]] to an armed conflict without the consent of the U.S. Congress. It requires the president to notify Congress within 48 hours of committing armed forces to military action and forbids armed forces from remaining for more than 60 days, with a further 30-day withdrawal period, without congressional authorization or a declaration of war.
+A federal law intended to check the president's power to commit the United States to an armed conflict without the consent of the U.S. Congress. It requires the president to notify Congress within 48 hours of committing armed forces to military action and forbids armed forces from remaining for more than 60 days, with a further 30-day withdrawal period, without congressional authorization or a declaration of war.
 
 ## Impact: Why Significant?:
 *   **Limits Presidential Power:** A response to the expansion of presidential war-making power during the Vietnam War.
@@ -96,6 +96,6 @@ A federal law intended to check the president's power to commit the [[United Sta
 *   **Ongoing Debate:**  The effectiveness and constitutionality of the War Powers Act remain subjects of debate.
 *   **Shapes Foreign Policy:**  Continues to influence the relationship between the executive and legislative branches in foreign policy decision-making.
 
-These notecards provide a solid foundation for understanding the key aspects of the [[Vietnam War]] within the context of the APUSH curriculum. Remember to study beyond these cards and consider the broader themes and connections to other periods in U.S. history. Good luck!
+These notecards provide a solid foundation for understanding the key aspects of the Vietnam War within the context of the APUSH curriculum. Remember to study beyond these cards and consider the broader themes and connections to other periods in U.S. history. Good luck!
 
-# [[IDS Unit 8]]
+# IDS Unit 8

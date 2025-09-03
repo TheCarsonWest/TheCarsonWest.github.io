@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Acids and Bases]]
+# Acids and Bases
 # pH and pOH: An AP Chemistry Rundown
 
 This rundown covers the fundamental concepts of pH and pOH, essential for understanding acids, bases, and equilibrium in AP Chemistry.
@@ -28,7 +28,7 @@ Water undergoes self-ionization to a very small extent, producing hydrogen and h
 The equilibrium constant for this reaction is the ion product of water,  $ K_w $ :
 
      $$ K_w = [\text{H}^+][\text{OH}^-] $$  
-At 25°C,  $ K_w = 1.0 \times 10^{-14} $ . [[Kw and Temperature]]
+At 25°C,  $ K_w = 1.0 \times 10^{-14} $ . Kw and Temperature
 
 Taking the negative logarithm of both sides:
 
@@ -57,7 +57,7 @@ You can convert between these values using the following relationships:
 
 ## 6. Strong Acids and Bases
 
-Strong acids and bases completely dissociate in water. This simplifies pH and pOH calculations. [[Strong Acids and Bases]]
+Strong acids and bases completely dissociate in water. This simplifies pH and pOH calculations. Strong Acids and Bases
 
 *   **Strong Acid:** For example, if  $ [\text{HCl}] = 0.01 \text{ M} $ , then  $ [\text{H}^+] = 0.01 \text{ M} $ .  Therefore,  $ \text{pH} = -\log(0.01) = 2 $ .
 
@@ -65,7 +65,7 @@ Strong acids and bases completely dissociate in water. This simplifies pH and pO
 
 ## 7. Weak Acids and Bases
 
-Weak acids and bases only partially dissociate in water.  Therefore, you must use equilibrium constants ( $ K_a $  for weak acids and  $ K_b $  for weak bases) and ICE tables to determine the  $ [\text{H}^+] $  or  $ [\text{OH}^-] $  concentration and subsequently calculate pH or pOH. [[Weak Acids and Bases]]
+Weak acids and bases only partially dissociate in water.  Therefore, you must use equilibrium constants ( $ K_a $  for weak acids and  $ K_b $  for weak bases) and ICE tables to determine the  $ [\text{H}^+] $  or  $ [\text{OH}^-] $  concentration and subsequently calculate pH or pOH. Weak Acids and Bases
 
 *   **Weak Acid:** HA(aq) + H<sub>2</sub>O(l) ⇌ H<sub>3</sub>O<sup>+</sup>(aq) + A<sup>-</sup>(aq)
   $$ K_a = \frac{[H_3O^+][A^-]}{[HA]} $$  
@@ -81,4 +81,4 @@ Taking the negative logarithm:
      $$ \text{p}K_a + \text{p}K_b = \text{p}K_w = 14 \text{ (at 25°C)} $$  
 ## 9. Polyprotic Acids
 
-Polyprotic acids have more than one ionizable proton (e.g.,  $ \text{H}_2\text{SO}_4 $ ,  $ \text{H}_3\text{PO}_4 $ ).  They dissociate in a stepwise manner, each with its own  $ K_a $  value ( $ K_{a1} $ ,  $ K_{a2} $ , etc.).  The first dissociation is typically the most significant contributor to the  $ [\text{H}^+] $  concentration. [[Polyprotic Acids]]
+Polyprotic acids have more than one ionizable proton (e.g.,  $ \text{H}_2\text{SO}_4 $ ,  $ \text{H}_3\text{PO}_4 $ ).  They dissociate in a stepwise manner, each with its own  $ K_a $  value ( $ K_{a1} $ ,  $ K_{a2} $ , etc.).  The first dissociation is typically the most significant contributor to the  $ [\text{H}^+] $  concentration. Polyprotic Acids

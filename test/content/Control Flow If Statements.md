@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[While Loops]]
-# [[Control Flow If Statements]] 
+# While Loops
+# Control Flow If Statements 
 Python's `if` statements control the execution flow based on conditions.
 
 Basic Syntax:
@@ -40,8 +40,8 @@ else:
 * The `else` block is optional.
 
 
-[[Boolean Logic]]  -  This needs a separate note explaining boolean operators (and, or, not) and truth tables.
+Boolean Logic  -  This needs a separate note explaining boolean operators (and, or, not) and truth tables.
 
-[[Comparison Operators]] - This should cover operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
+Comparison Operators - This should cover operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
 
-[[Nested If Statements]] -  Explaining how to have `if` statements inside other `if` statements.
+Nested If Statements -  Explaining how to have `if` statements inside other `if` statements.

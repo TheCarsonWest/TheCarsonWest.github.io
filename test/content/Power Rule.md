@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-## [[Power Rule]] 
+## Power Rule 
 ###  $$  \frac{d}{dx} [x^n]] = nx^{n-1}  $$  
 
 
-# [[Derivative Rules]]
+# Derivative Rules

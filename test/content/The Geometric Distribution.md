@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # The Geometric Distribution
 
-The geometric distribution is a discrete probability distribution that models the number of trials needed to achieve the *first* success in a sequence of [[Independent Events and Unions of Events|independent]] Bernoulli trials. Unlike the [[Introduction to the Binomial Distribution|Binomial Distribution]] which counts the number of successes in a fixed number of trials, the geometric distribution focuses on the waiting time for that very first success.
+The geometric distribution is a discrete probability distribution that models the number of trials needed to achieve the *first* success in a sequence of Independent Events and Unions of Events|independent Bernoulli trials. Unlike the Introduction to the Binomial Distribution|Binomial Distribution which counts the number of successes in a fixed number of trials, the geometric distribution focuses on the waiting time for that very first success.
 
 ## Conditions for a Geometric Setting (BITS)
 
@@ -62,7 +62,7 @@ We are often interested in the probability that the first success occurs *on or 
 
 It's crucial to distinguish between geometric and binomial distributions.
 
-| Feature         | [[Introduction to the Binomial Distribution|Binomial Distribution]] | The Geometric Distribution |
+| Feature         | Introduction to the Binomial Distribution|Binomial Distribution | The Geometric Distribution |
 | :-------------- | :------------------------------------ | :----------------------- |
 | **Random Variable** | Number of successes in a fixed number of trials ( $ n $ ) | Number of trials until the first success |
 | **Number of Trials** | Fixed ( $ n $ )                           | Variable (can be infinite) |
@@ -76,7 +76,7 @@ For calculations, your graphing calculator has built-in functions:
 *   **`geometpdf(p, k)`**: Calculates  $ P(X=k) $  (probability of first success on the  $ k $ -th trial).
 *   **`geometcdf(p, k)`**: Calculates  $ P(X \le k) $  (probability of first success on or before the  $ k $ -th trial).
 
-## [[Expected Counts in Two-Way Tables|Example Application]]
+## Expected Counts in Two-Way Tables|Example Application
 
 Imagine you are a basketball player with a 30% free throw percentage ( $ p=0.3 $ ).
 

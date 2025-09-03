@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
+# Calc home
 
-# Unit 2/3 - [[derivative]] stuff
+# Unit 2/3 - derivative stuff
 
-### [[Implicit Differentiation]]
+### Implicit Differentiation
 
-### [[Inverse Differentiation]]
+### Inverse Differentiation
 
-### [[Higher Order Derivatives]]
+### Higher Order Derivatives
 
-# [[Calc home]]
+# Calc home

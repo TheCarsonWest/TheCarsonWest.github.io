@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APCHEM Home]]
+# APCHEM Home
 
-- [[Heat]]
-- [[Temperature]]
-- [[Enthalpy]]
-- [[Entropy]]
-- [[Laws of Conservation]]
-- [[Endothermic]]
-- [[Exothermic]]
-# [[Heat of Vaporization]]
-# [[Hess Law]]
-# [[Bond Enthalpies]]
+- Heat
+- Temperature
+- Enthalpy
+- Entropy
+- Laws of Conservation
+- Endothermic
+- Exothermic
+# Heat of Vaporization
+# Hess Law
+# Bond Enthalpies

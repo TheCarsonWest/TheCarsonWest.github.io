@@ -20,12 +20,12 @@
 
 **Authors:**
 
-The Constitution was drafted by a group of delegates at the [[Constitutional Convention]] in [[Philadelphia]] in 1787. Key delegates included:
+The Constitution was drafted by a group of delegates at the Constitutional Convention in Philadelphia in 1787. Key delegates included:
 
-* [[George Washington]] (President of the Convention)
-* [[James Madison]] (Father of the Constitution)
-* [[Alexander Hamilton]]
-* [[Benjamin Franklin]]
+* George Washington (President of the Convention)
+* James Madison (Father of the Constitution)
+* Alexander Hamilton
+* Benjamin Franklin
 * George Mason
 * Edmund Randolph
-* [[John Adams]]
+* John Adams

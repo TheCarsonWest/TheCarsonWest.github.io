@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1.3: Representing Motion
 
 Representing motion is fundamental to understanding how objects move. It involves describing an object's position, how that position changes over time, and the rate at which it changes. This topic lays the groundwork for analyzing more complex motion scenarios.
@@ -27,7 +27,7 @@ Displacement is a vector quantity defined as the change in an object's position.
  $ 
 Where  $ x_f $  is the final position and  $ x_i $  is the initial position. Displacement can be positive, negative, or zero, depending on the direction and if the object returns to its starting point.
 
-**[[Scalars and Vectors in One Dimension]]**: It's crucial to distinguish between scalar quantities (like distance and speed) and vector quantities (like position, displacement, and velocity) which have both magnitude and direction.
+**Scalars and Vectors in One Dimension**: It's crucial to distinguish between scalar quantities (like distance and speed) and vector quantities (like position, displacement, and velocity) which have both magnitude and direction.
 
 ---
 
@@ -56,7 +56,7 @@ Instantaneous velocity is the velocity of an object at a specific instant in tim
  $ 
 \vec{v} = \lim_{\Delta t \to 0} \frac{\Delta \vec{x}}{\Delta t} = \frac{d\vec{x}}{dt}
  $ 
-[[Reference Frames and Relative Motion]] also play a role in how velocity is perceived and measured.
+Reference Frames and Relative Motion also play a role in how velocity is perceived and measured.
 
 ---
 

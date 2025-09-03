@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APHG Unit 3]]
-# Folk [[Culture]] = Local
+# APHG Unit 3
+# Folk Culture = Local
 # Pop culture = globalized
 
-| Feature      | Folk [[Culture]]                                                                                                                                                                                                        | Pop [[Culture]]                                                                                                                                  |
+| Feature      | Folk Culture                                                                                                                                                                                                        | Pop Culture                                                                                                                                  |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Origin**   | Anonymous; originates within a specific group or community; passed down through generations orally or through imitation.                                                                                                | Created by specific individuals or organizations; often mass-produced and disseminated through media.                                            |
 | **Sports**   | Locally-developed games and activities, often tied to the environment and traditions of a specific group.  Examples:  Indigenous games, traditional wrestling styles. <br><br>EXAMPLES: Buzkashi, Oval Racing, Football | Organized, professional sports with global reach and standardized rules. <br><br><br>Examples:  Soccer, Baseball, Basketball.                    |

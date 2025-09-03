@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Confidence Intervals for the Difference of Two Means
 
 Confidence intervals are a fundamental tool in AP Statistics, allowing us to estimate an unknown population parameter with a certain level of confidence. When we are interested in comparing two different population means ( $ \mu_1 $  and  $ \mu_2 $ ), we use a confidence interval for the difference of two means ( $ \mu_1 - \mu_2 $ ). This is particularly useful when comparing the effectiveness of two treatments, the average performance of two groups, or the mean values from two distinct populations.
@@ -16,12 +16,12 @@ The primary goal of constructing a confidence interval for the difference of two
 
 Before constructing a confidence interval, several conditions must be met to ensure the validity of the procedure. These are often referred to as the "PANIC" or "NICE" conditions, depending on the acronym used.
 
-1.  **Random**: The data for both samples must come from [[Random Sampling and a Collection]] or [[Introduction to Experimental Design]] for two independent groups.
+1.  **Random**: The data for both samples must come from Random Sampling and a Collection or Introduction to Experimental Design for two independent groups.
     *   Sample 1 is a simple random sample (SRS) from Population 1.
     *   Sample 2 is a simple random sample (SRS) from Population 2.
     *   The two samples must be independent of each other.
 2.  **Normal (Large Sample)**:
-    *   For each sample, either the population distribution is normal, or the sample size is large enough ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) for the [[The Central Limit Theorem]] to apply, making the sampling distribution of the sample mean approximately normal.
+    *   For each sample, either the population distribution is normal, or the sample size is large enough ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) for the The Central Limit Theorem to apply, making the sampling distribution of the sample mean approximately normal.
     *   If population distributions are unknown and sample sizes are less than 30, a graph (e.g., boxplot or histogram) of the sample data should show no strong skewness or outliers.
 3.  **Independent**:
     *   **Within groups**: Individual observations within each sample must be independent. This is typically ensured by random sampling.
@@ -57,11 +57,11 @@ After constructing the interval, we interpret it in context:
 
 "We are [Confidence Level]% confident that the true difference in the population means ( $ \mu_1 - \mu_2 $ ) is between [Lower Bound] and [Upper Bound]."
 
-### [[Justifying a Claim About the Difference of Two Means Based on a Confidence Interval]]
+### Justifying a Claim About the Difference of Two Means Based on a Confidence Interval
 
 The interpretation of the interval's relationship to zero is critical:
 *   If the interval contains 0: It is plausible that there is no true difference between the population means ( $ \mu_1 = \mu_2 $ ). We do not have sufficient evidence to conclude that one mean is different from the other.
 *   If the interval is entirely above 0: We are confident that  $ \mu_1 > \mu_2 $ .
 *   If the interval is entirely below 0: We are confident that  $ \mu_1 < \mu_2 $ .
 
-For more on single population mean intervals, refer to [[Constructing a Confidence Interval for a Population Mean]]. For the theoretical basis, see [[Sampling Distributions for Differences in Sample Means]].
+For more on single population mean intervals, refer to Constructing a Confidence Interval for a Population Mean. For the theoretical basis, see Sampling Distributions for Differences in Sample Means.

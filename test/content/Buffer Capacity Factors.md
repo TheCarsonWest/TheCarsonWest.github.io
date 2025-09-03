@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 
-# [[Buffer Solutions]]
+# Buffer Solutions
 # Buffer Capacity Factors: AP Chemistry Rundown
 
 ## What is Buffer Capacity?
@@ -27,7 +27,7 @@ Several key factors influence buffer capacity:
 
 ### 2. Relative Concentrations of the Weak Acid and Conjugate Base
 
-*   **Optimal Ratio: Equal or Close to Equal:** The buffer capacity is highest when the concentrations of the weak acid and its conjugate base are equal or close to equal. Ideally, the ratio [A-]/[HA] should be close to 1. [[Optimal Buffer Ratio]]
+*   **Optimal Ratio: Equal or Close to Equal:** The buffer capacity is highest when the concentrations of the weak acid and its conjugate base are equal or close to equal. Ideally, the ratio [A-]/[HA] should be close to 1. Optimal Buffer Ratio
 
 *   **Henderson-Hasselbalch Equation:** This relationship is evident from the Henderson-Hasselbalch equation:
 
@@ -36,11 +36,11 @@ Several key factors influence buffer capacity:
     When  $ [A^-] = [HA] $ , the  $ log\frac{[A^-]}{[HA]} $  term becomes  $ log(1) = 0 $ , and the  $ pH $  of the buffer equals the  $ pK_a $  of the weak acid. This is where the buffer is most effective.
 
 *   **Capacity Drops Off With Imbalance:** As the ratio of [A-]/[HA] deviates significantly from 1 (either much greater than 1 or much less than 1), the buffer becomes less effective. The buffer can only neutralize so much added acid if there is very little conjugate base, or vice versa.
-    [[Buffer Range]]
+    Buffer Range
 
 ### 3. The pKa of the Weak Acid
 
-*   **Buffer Range:** The buffer is most effective when the desired pH is close to the  $ pK_a $  of the weak acid. This is because the concentrations of the weak acid and its conjugate base are closest when the pH is near the  $ pK_a $ .  The buffer works best within approximately one pH unit above and below the  $ pK_a $  value. [[Effective Buffer Range]]
+*   **Buffer Range:** The buffer is most effective when the desired pH is close to the  $ pK_a $  of the weak acid. This is because the concentrations of the weak acid and its conjugate base are closest when the pH is near the  $ pK_a $ .  The buffer works best within approximately one pH unit above and below the  $ pK_a $  value. Effective Buffer Range
 
 *   **Choosing the Right Acid:** When selecting a weak acid to create a buffer for a specific pH, choose one with a  $ pK_a $  value as close as possible to the desired pH.
 

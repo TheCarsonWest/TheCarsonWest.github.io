@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics: Topic 3.5 - Power
 
 ## Introduction to Power
 
-In physics, **Power** is a scalar quantity that measures the rate at which [[Work]] is done or energy is transferred. It tells us how quickly energy is being used or transformed. A powerful machine isn't necessarily one that does a lot of work, but one that can do a given amount of work in a short period of time.
+In physics, **Power** is a scalar quantity that measures the rate at which Work is done or energy is transferred. It tells us how quickly energy is being used or transformed. A powerful machine isn't necessarily one that does a lot of work, but one that can do a given amount of work in a short period of time.
 
 ### Defining Power
 
@@ -24,7 +24,7 @@ Since work is a transfer of energy, power can also be expressed as the rate of e
 \bar{P} = \frac{\Delta E}{\Delta t}
  $ 
 
-Where  $ \Delta E $  represents the change in energy. This definition highlights the close relationship between [[Work]], [[Conservation of Energy]], and Power.
+Where  $ \Delta E $  represents the change in energy. This definition highlights the close relationship between Work, Conservation of Energy, and Power.
 
 ### Units of Power
 
@@ -55,7 +55,7 @@ This is a crucial relationship, stating that instantaneous power is the dot prod
 
 ## Power and Efficiency
 
-[[Efficiency]] is a measure of how effectively a system converts input energy into useful output energy (or input power into useful output power). No real-world system is 100% efficient due to energy losses, often in the form of heat or sound.
+Efficiency is a measure of how effectively a system converts input energy into useful output energy (or input power into useful output power). No real-world system is 100% efficient due to energy losses, often in the form of heat or sound.
 
 The efficiency ( $ \eta $ ) of a system is given by:
 
@@ -81,4 +81,4 @@ Efficiency is a dimensionless quantity, usually expressed as a percentage. Under
 
 ## Applications
 
-Power is a fundamental concept in many areas of physics and engineering. For example, when considering a car engine, its power rating indicates how quickly it can do work to accelerate the car. In [[Circular Motion]], the power exerted by a force depends on the tangential component of the force and the tangential speed. In general, understanding power allows for a comprehensive analysis of energy consumption and performance of systems.
+Power is a fundamental concept in many areas of physics and engineering. For example, when considering a car engine, its power rating indicates how quickly it can do work to accelerate the car. In Circular Motion, the power exerted by a force depends on the tangential component of the force and the tangential speed. In general, understanding power allows for a comprehensive analysis of energy consumption and performance of systems.

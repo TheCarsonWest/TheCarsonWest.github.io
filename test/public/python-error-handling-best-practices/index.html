@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="exception-handling-examples">[[Exception Handling Examples]]</h1>
-<h1 id="python-error-handling-best-practices">[[Python Error Handling Best Practices]]</h1>
+<h1 id="exception-handling-examples">Exception Handling Examples</h1>
+<h1 id="python-error-handling-best-practices">Python Error Handling Best Practices</h1>
 <p>These notes cover best practices for handling errors in Python.  The goal is to write robust and user-friendly code that gracefully handles unexpected situations.</p>
 <p><strong>Key Concepts:</strong></p>
 <ul>
@@ -61,7 +61,7 @@
 <p><strong>Specific vs. General Exceptions:</strong>  It&rsquo;s best to catch specific exceptions first, then use a general <code>Exception</code> clause to catch anything you haven&rsquo;t explicitly handled.  This improves code readability and helps pinpoint the source of errors.  Avoid bare <code>except:</code> blocks, as they can mask unexpected problems.</p>
 </li>
 <li>
-<p><strong>Logging Errors:</strong>  Instead of just printing error messages to the console (which might be missed or unhelpful in production environments), use a logging library (like the built-in <code>logging</code> module) to record errors with timestamps, severity levels, and other relevant information. [[Python Logging]]</p>
+<p><strong>Logging Errors:</strong>  Instead of just printing error messages to the console (which might be missed or unhelpful in production environments), use a logging library (like the built-in <code>logging</code> module) to record errors with timestamps, severity levels, and other relevant information. Python Logging</p>
 </li>
 <li>
 <p><strong>Raising Custom Exceptions:</strong> Create custom exceptions to handle application-specific error conditions.  This improves code clarity and maintainability.</p>
@@ -75,7 +75,7 @@
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">raise</span> InvalidInputError(<span style="color:#e6db74">&#34;Input must be an integer.&#34;</span>)
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ... rest of the function ...</span>
 </span></span></code></pre></div><ul>
-<li><strong>[[Context Managers]] (<code>with</code> statement):</strong>  Useful for managing resources that need to be properly released (e.g., files, network connections).  The <code>with</code> statement ensures that resources are cleaned up even if exceptions occur.</li>
+<li><strong>Context Managers (<code>with</code> statement):</strong>  Useful for managing resources that need to be properly released (e.g., files, network connections).  The <code>with</code> statement ensures that resources are cleaned up even if exceptions occur.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
 </span></span><span style="display:flex;"><span>    contents <span style="color:#f92672">=</span> f<span style="color:#f92672">.</span>read()
@@ -85,13 +85,13 @@
 <p><strong>Defensive Programming:</strong> Write code that anticipates potential problems and handles them gracefully.  This includes input validation, checking for null values, and handling edge cases.</p>
 </li>
 <li>
-<p><strong>Testing:</strong> Thorough testing is crucial for identifying and addressing potential error handling issues.  Unit tests should include scenarios that trigger various exceptions to ensure your error handling logic works as expected. [[Python Unit Testing]]</p>
+<p><strong>Testing:</strong> Thorough testing is crucial for identifying and addressing potential error handling issues.  Unit tests should include scenarios that trigger various exceptions to ensure your error handling logic works as expected. Python Unit Testing</p>
 </li>
 </ul>
 <p><strong>Related Notes:</strong></p>
 <ul>
-<li>[[Python Exception Hierarchy]]</li>
-<li>[[Common Python Exceptions]]</li>
+<li>Python Exception Hierarchy</li>
+<li>Common Python Exceptions</li>
 </ul>
 
 </main>

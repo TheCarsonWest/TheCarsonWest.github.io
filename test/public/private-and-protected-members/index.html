@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="classes-and-objects">[[Classes and Objects]]</h1>
-<h1 id="private-and-protected-members">[[Private and Protected Members]]</h1>
+<h1 id="classes-and-objects">Classes and Objects</h1>
+<h1 id="private-and-protected-members">Private and Protected Members</h1>
 <p>Python doesn&rsquo;t have true private members in the same way as some other languages (like Java or C++).  Instead, it uses a naming convention to indicate that an attribute or method should be treated as private or protected.</p>
 <p><strong>Name Mangling:</strong>  Python uses name mangling to achieve a form of privacy.  If you prefix an attribute or method name with double underscores (<code>__</code>),  it undergoes name mangling. This makes it harder (but not impossible) to access it from outside the class.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyClass</span>:
@@ -70,8 +70,8 @@
 <li>Use <code>_</code> (single underscore) to signal that an attribute/method is intended for internal use within the class and its subclasses.  Remember that it&rsquo;s not truly protected, only a convention.</li>
 <li>Avoid directly accessing mangled names (<code>_ClassName__attributeName</code>).</li>
 </ul>
-<p>[[Getter and Setter Methods]]
-[[Encapsulation in Python]]</p>
+<p>Getter and Setter Methods
+Encapsulation in Python</p>
 
 </main>
 

@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="exception-handling">[[Exception Handling]]</h1>
-<h1 id="exception-handling-examples">[[Exception Handling Examples]]</h1>
-<p>This note covers examples of exception handling in Python.  The core concept is using <code>try...except</code> blocks to gracefully handle errors that might occur during program execution.  Refer to [[Python Exceptions]] for a comprehensive list of built-in exceptions.</p>
+<h1 id="exception-handling">Exception Handling</h1>
+<h1 id="exception-handling-examples">Exception Handling Examples</h1>
+<p>This note covers examples of exception handling in Python.  The core concept is using <code>try...except</code> blocks to gracefully handle errors that might occur during program execution.  Refer to Python Exceptions for a comprehensive list of built-in exceptions.</p>
 <p><strong>Example 1: Handling <code>FileNotFoundError</code></strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;myfile.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> f:
@@ -75,7 +75,7 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">finally</span>:
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">&#34;This always executes.&#34;</span>)
 </span></span></code></pre></div><p><strong>Example 5: Raising custom exceptions</strong></p>
-<p>You can define your own exceptions by creating classes that inherit from the <code>Exception</code> class or one of its subclasses. [[Custom Exceptions]]</p>
+<p>You can define your own exceptions by creating classes that inherit from the <code>Exception</code> class or one of its subclasses. Custom Exceptions</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyCustomError</span>(<span style="color:#a6e22e">Exception</span>):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span><span style="display:flex;"><span>
@@ -87,8 +87,8 @@
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;An unexpected error occurred: </span><span style="color:#e6db74">{</span>e<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span></code></pre></div><p><strong>Further Reading:</strong></p>
 <ul>
-<li>[[Python Error Handling Best Practices]]</li>
-<li>[[Context Managers]] (for more elegant resource management)</li>
+<li>Python Error Handling Best Practices</li>
+<li>Context Managers (for more elegant resource management)</li>
 </ul>
 
 </main>

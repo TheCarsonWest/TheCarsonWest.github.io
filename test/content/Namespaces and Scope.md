@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Importing Modules]]
-# [[Namespaces and Scope]] 
+# Importing Modules
+# Namespaces and Scope 
 Namespaces are basically containers that hold names (variables, functions, classes, etc.).  They help prevent naming conflicts.  Python uses namespaces to manage the organization of names, ensuring that names are unique and accessible within their intended context.
 
 There are several types of namespaces:
@@ -38,7 +38,7 @@ print(f"Outside function: x = {x}")  # Output: Outside function: x = 10
 
 In this example, the `x` inside the function is different from the global `x`.
 
-[[Nested Functions]]
+Nested Functions
 
 
 Example with nested functions:
@@ -59,7 +59,7 @@ outer_function()
 print(f"Global: x = {x}")
 ```
 
-[[Modules and Packages]]
+Modules and Packages
 
 The `global` keyword can be used to modify a global variable from within a function.  However, it's generally best to avoid modifying global variables directly inside functions to improve code readability and maintainability.
 
@@ -76,4 +76,4 @@ print(global_var) #Output: 10
 
 ```
 
-[[Global vs Local Variables]]
+Global vs Local Variables

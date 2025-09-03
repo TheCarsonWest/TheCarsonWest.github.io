@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python Sets - Examples]]
-# [[Python Sets - Basics]] 
+# Python Sets - Examples
+# Python Sets - Basics 
 Key Features:
 
 * Unordered collections of unique elements.
 * Defined using curly braces `{}` or the `set()` constructor.
 * Mutable (can be changed after creation).
 * Do not allow duplicate elements; attempting to add a duplicate has no effect.
-* Support mathematical [[Set Operations]] (union, intersection, difference, etc.).
+* Support mathematical Set Operations (union, intersection, difference, etc.).
 
 
 **Creating Sets:**
@@ -53,7 +53,7 @@ print(my_set) #Output: set()
 
 ```
 
-**[[Set Operations]]:**
+**Set Operations:**
 
 ```python
 set1 = {1, 2, 3}
@@ -88,5 +88,5 @@ print(f"Is set1 a superset of set3?: {set1.issuperset(set3)}") #True
 * `x in my_set`: Checks if `x` is an element of the set.
 * `x not in my_set`: Checks if `x` is not an element of the set.
 
-[[Set Comprehension]]
-[[Frozen Sets]]
+Set Comprehension
+Frozen Sets

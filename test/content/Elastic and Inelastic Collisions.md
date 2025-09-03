@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # Topic 4.4: Elastic and Inelastic Collisions
 
 Collisions are fundamental interactions between two or more objects that exert forces on each other over a relatively short time. During a collision, the internal forces between the objects are typically much larger than any external forces, allowing us to often approximate the system as isolated during the impact.
 
-## [[Conservation of Linear Momentum]]
+## Conservation of Linear Momentum
 
-A crucial principle in analyzing collisions is the [[Conservation of Linear Momentum]]. For any system of objects undergoing a collision, if the net external force on the system is zero, the total linear momentum of the system before the collision is equal to the total linear momentum of the system after the collision.
+A crucial principle in analyzing collisions is the Conservation of Linear Momentum. For any system of objects undergoing a collision, if the net external force on the system is zero, the total linear momentum of the system before the collision is equal to the total linear momentum of the system after the collision.
 
  $ 
 \vec{p}_{\text{total, initial}} = \vec{p}_{\text{total, final}}
@@ -24,7 +24,7 @@ Where  $ m $  is mass,  $ \vec{v} $  is velocity, and subscripts  $ i $  and  $ 
 
 ## Types of Collisions
 
-Collisions are primarily categorized by whether [[Translational Kinetic Energy]] is conserved.
+Collisions are primarily categorized by whether Translational Kinetic Energy is conserved.
 
 ### 1. Elastic Collisions
 

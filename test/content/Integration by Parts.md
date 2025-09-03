@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## [[Integration by Parts]] 
+## Integration by Parts 
 This technique is used when the integrand is a product of two functions.  It's based on the product rule for differentiation.
 
 **Formula:**  $ \int u dv = uv - \int v du $ 
@@ -16,6 +16,6 @@ Let  $ u = x $ ,  $ dv = e^x dx $ . Then  $ du = dx $ ,  $ v = e^x $ .
 
  $ \int x e^x dx = xe^x - \int e^x dx = xe^x - e^x + C $ 
 
-[[Integration by Parts Examples]]
+Integration by Parts Examples
 
-# [[Techniques of Integration]]
+# Techniques of Integration

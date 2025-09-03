@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval
 
-When we construct a [[Confidence Intervals for the Slope of a Regression Model]], our primary goal is to estimate the true, unknown population slope ( $ \beta $ ) of the least-squares regression line relating two quantitative variables. Beyond just estimating, these intervals are crucial for making and justifying claims about the nature of the relationship between these variables in the population.
+When we construct a Confidence Intervals for the Slope of a Regression Model, our primary goal is to estimate the true, unknown population slope ( $ \beta $ ) of the least-squares regression line relating two quantitative variables. Beyond just estimating, these intervals are crucial for making and justifying claims about the nature of the relationship between these variables in the population.
 
 ## Understanding the Population Slope ( $ \beta $ )
 
@@ -25,7 +25,7 @@ Where:
 *    $ t^* $  is the critical  $ t $ -value for the desired confidence level with  $ df = n-2 $  degrees of freedom.
 *    $ SE_b $  is the standard error of the slope, representing the typical variation of sample slopes around the true population slope.
 
-For a deeper dive into the calculation, refer to [[Confidence Intervals for the Slope of a Regression Model]].
+For a deeper dive into the calculation, refer to Confidence Intervals for the Slope of a Regression Model.
 
 ## Interpreting the Confidence Interval
 

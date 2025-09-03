@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Selecting, Implementing, and Communicating Inference Procedures
 
 Understanding and correctly applying statistical inference procedures is a cornerstone of AP Statistics. This involves a systematic approach to choose the right method, execute it accurately, and clearly convey the findings in context.
@@ -22,9 +22,9 @@ The first critical step is identifying which inferential procedure to use. This 
 
 ### C. Identify the Number of Samples/Groups
 *   **One Sample**: Inference about a single population parameter (e.g.,  $ p $ ,  $ \mu $ ).
-*   **Two Samples**: Inference about the difference between two population parameters (e.g.,  $ p_1 - p_2 $ ,  $ \mu_1 - \mu_2 $ ). This could be independent samples or [[Paired Data]].
-*   **Multiple Groups/Categories**: Comparing more than two proportions or distributions ([[Setting Up a Chi-Square Goodness of Fit Test]], [[Setting Up a Chi-Square Test for Homogeneity or Independence]]).
-*   **Relationship between Two Quantitative Variables**: Inference about the slope of a regression line ([[Setting Up a Test for the Slope of a Regression Model]]).
+*   **Two Samples**: Inference about the difference between two population parameters (e.g.,  $ p_1 - p_2 $ ,  $ \mu_1 - \mu_2 $ ). This could be independent samples or Paired Data.
+*   **Multiple Groups/Categories**: Comparing more than two proportions or distributions (Setting Up a Chi-Square Goodness of Fit Test, Setting Up a Chi-Square Test for Homogeneity or Independence).
+*   **Relationship between Two Quantitative Variables**: Inference about the slope of a regression line (Setting Up a Test for the Slope of a Regression Model).
 
 ### D. Procedure Selection Matrix
 
@@ -51,7 +51,7 @@ The choice of inference procedure is paramount. It depends on the specific resea
     *   **One Variable**: Analyzing a single population parameter (e.g.,  $ p $ ,  $ \mu $ ).
     *   **Two Variables**:
         *   Comparing two population parameters (e.g.,  $ p_1 - p_2 $ ,  $ \mu_1 - \mu_2 $ ).
-        *   Investigating a relationship between two variables (e.g., [[Correlation]], [[Linear Regression Models]]).
+        *   Investigating a relationship between two variables (e.g., Correlation, Linear Regression Models).
 
 ### C. Identify the Number of Samples/Groups
 *   **One Sample**: Inference about a single population parameter.
@@ -62,8 +62,8 @@ The choice of inference procedure is paramount. It depends on the specific resea
 ### D. Key Parameter/Statistic of Interest
 *   **Proportion ( $ p $ )**: For categorical data.
 *   **Mean ( $ \mu $ )**: For quantitative data.
-*   **Slope ( $ \beta $ )**: For the relationship between two quantitative variables in [[Linear Regression Models]].
-*   **Distribution/Association**: For categorical data across multiple groups (e.g., [[Expected Counts in Two-Way Tables]]).
+*   **Slope ( $ \beta $ )**: For the relationship between two quantitative variables in Linear Regression Models.
+*   **Distribution/Association**: For categorical data across multiple groups (e.g., Expected Counts in Two-Way Tables).
 
 ### E. Procedure Selection Summary
 

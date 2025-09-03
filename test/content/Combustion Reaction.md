@@ -6,7 +6,7 @@
 
 A **combustion reaction** is a chemical process where  a hydrocarbon) reacts rapidly with oxygen (**O₂**) to produce energy in the form of heat and light. The most common products of complete combustion are carbon dioxide (**CO₂**) and water (**H₂O**). 
 
-#### General Form of a [[Combustion Reaction]] 
+#### General Form of a Combustion Reaction 
 The general form of a combustion reaction for a hydrocarbon can be represented as:
 
  $$  C_xH_y + O_2 \rightarrow CO_2 + H_2O

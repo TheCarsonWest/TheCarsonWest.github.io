@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Acids and Bases]]
-# [[Conjugate Acid-Base Pairs]]
+# Acids and Bases
+# Conjugate Acid-Base Pairs
 
 A conjugate acid-base pair differs by a single proton ( $ H^+ $ ).
 
@@ -35,8 +35,8 @@ In this equation:
     * As a base:  $ H_2O + H^+ \rightleftharpoons H_3O^+ $  (conjugate acid is  $ H_3O^+ $ )
 
 
-[[Amphoteric Substances]]  (Water as an Acid and Base)
+Amphoteric Substances  (Water as an Acid and Base)
 
-[[Acid Strength and Conjugate Base Strength]]  (Base Strength and Conjugate Acid Strength)
+Acid Strength and Conjugate Base Strength  (Base Strength and Conjugate Acid Strength)
 
-[[Ka and Kb Relationships]]
+Ka and Kb Relationships

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Modules and Packages]]
-# [[Virtual Environments]] 
+# Modules and Packages
+# Virtual Environments 
 Python's strength lies in its vast ecosystem of packages.  However, managing dependencies between different projects can become a nightmare without proper tools.  This is where virtual environments shine.
 
 A virtual environment is an isolated space where you can install packages without affecting your system's global Python installation or other projects.  This prevents conflicts and ensures that each project has its own specific set of dependencies.
@@ -55,4 +55,4 @@ deactivate
 ```
 
 
-[[Package Management with Pip]]  ([[Conda Environments]])
+Package Management with Pip  (Conda Environments)

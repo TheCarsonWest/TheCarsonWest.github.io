@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Calc home]]
+# Calc home
 Riemann sums are used to approximate the definite integral of a function, which represents the area under the curve.  They provide a foundational understanding of integration before moving on to more sophisticated techniques.
 
-## Types of [[Riemann Sums]] 
+## Types of Riemann Sums 
 There are three main types of Riemann sums, each differing in how the rectangle heights are determined:
 
 1. Left Riemann Sum: The height of each rectangle is determined by the function's value at the *left endpoint* of the subinterval.
@@ -16,7 +16,7 @@ There are three main types of Riemann sums, each differing in how the rectangle 
 3. Midpoint Riemann Sum: The height of each rectangle is determined by the function's value at the *midpoint* of the subinterval.
 
 
-##  Calculating [[Riemann Sums]] 
+##  Calculating Riemann Sums 
 Let's consider a function  $ f(x) $  on the interval  $ [a, b]] $ . We divide this interval into  $ n $  subintervals of equal width,  $ \Delta x = \frac{b-a}{n} $ .  The  $ i $ -th subinterval is  $ [x_{i-1}, x_i]] $ , where  $ x_i = a + i\Delta x $ .
 
 The general formula for a Riemann sum is:
@@ -41,12 +41,12 @@ x = 0
 x = 2
 ```
 
-## [[Error Analysis]]
+## Error Analysis
 
 The error in a Riemann sum approximation is the difference between the actual value of the definite integral and the approximation. The error decreases as the number of subintervals ( $ n $ ) increases.  Generally, the error is proportional to  $ \frac{1}{n} $ .  More sophisticated error bounds exist, but are beyond the scope of AB calculus.
 
 
-##  Relationship to Definite [[integrals]]
+##  Relationship to Definite integrals
 
 As the number of subintervals ( $ n $ ) approaches infinity, the Riemann sum converges to the definite integral:
 
@@ -55,7 +55,7 @@ As the number of subintervals ( $ n $ ) approaches infinity, the Riemann sum con
 This is the fundamental theorem of calculus, connecting the concept of Riemann sums to the process of integration.
 
 
-## [[Applications of Riemann Sums]]
+## Applications of Riemann Sums
 
 Riemann sums are not just theoretical tools; they have practical applications in various fields, including:
 

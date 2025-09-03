@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python 1 Home]]
-# [[Generators]]  [[Generators]] are a powerful feature in Python that allows you to create iterators in a concise and efficient way.  Instead of creating a whole list in memory at once, generators produce values one at a time, only when requested. This makes them memory-efficient, especially when dealing with large datasets or infinite sequences.
+# Python 1 Home
+# Generators  Generators are a powerful feature in Python that allows you to create iterators in a concise and efficient way.  Instead of creating a whole list in memory at once, generators produce values one at a time, only when requested. This makes them memory-efficient, especially when dealing with large datasets or infinite sequences.
 
 Key characteristics:
 
@@ -13,8 +13,8 @@ Key characteristics:
 *   **Iterable:** Can be used in `for` loops and other iteration contexts.
 
 
-**Creating [[Generators]]:**
- [[Generators]] are defined using functions, but instead of a `return` statement, they use the `yield` keyword.  `yield` pauses execution and returns a value, preserving the generator's state.  The next time the generator is called, it resumes from where it left off.
+**Creating Generators:**
+ Generators are defined using functions, but instead of a `return` statement, they use the `yield` keyword.  `yield` pauses execution and returns a value, preserving the generator's state.  The next time the generator is called, it resumes from where it left off.
 
 ```python
 def my_generator(n):
@@ -41,7 +41,7 @@ gen_expr = (i**2 for i in range(5))
 print(list(gen_expr)) #Output: [0, 1, 4, 9, 16
 ```
 
-**Advantages over [[Lists]]:**
+**Advantages over Lists:**
 
 *   Memory Efficiency:  Especially beneficial for large datasets or infinite sequences.
 *   Readability:  Can make code cleaner and more concise than explicit iterator classes.
@@ -50,7 +50,7 @@ print(list(gen_expr)) #Output: [0, 1, 4, 9, 16
 
 **Related Notes:**
 
-* [[Iterators]]
-* [[List Comprehensions]]
-* [[Async Generators]] (for asynchronous operations)
+* Iterators
+* List Comprehensions
+* Async Generators (for asynchronous operations)
 

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python Sets]]
-# [[Frozen Sets]] 
+# Python Sets
+# Frozen Sets 
 Frozen sets are immutable versions of Python's built-in `set` type.  This means once a frozen set is created, its elements cannot be added or removed.  They are hashable, unlike regular sets, which makes them suitable as keys in dictionaries or elements of other sets.
 
 **Key Characteristics:**
@@ -12,7 +12,7 @@ Frozen sets are immutable versions of Python's built-in `set` type.  This means 
 * **Immutability:**  The defining characteristic.  No changes after creation.
 * **Hashability:** Allows use as dictionary keys or set elements.
 * **Membership Testing:**  `in` and `not in` operators work efficiently.
-* **[[Set Operations]]:**  Standard set operations (union, intersection, difference, etc.) are supported, but always return *new* frozen sets.
+* **Set Operations:**  Standard set operations (union, intersection, difference, etc.) are supported, but always return *new* frozen sets.
 
 **Creation:**
 
@@ -59,4 +59,4 @@ print(f"Is 3 in set1? {3 in set1}")
 *   Data structures that require elements to be unique and unchanging.
 
 
-[[Set Operations]]  ([[Python Sets]])
+Set Operations  (Python Sets)

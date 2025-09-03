@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Regular Expressions]]
-# [[Regex Metacharacters]] 
-These characters have special meaning within [[Regular Expressions]] and are not treated literally.  They modify the behavior of other characters or patterns.  It's crucial to understand them for effective regex use.
+# Regular Expressions
+# Regex Metacharacters 
+These characters have special meaning within Regular Expressions and are not treated literally.  They modify the behavior of other characters or patterns.  It's crucial to understand them for effective regex use.
 
 **List of Common Metacharacters:**
 
@@ -52,9 +52,9 @@ print(re.findall(r"(quick) (brown)", text)) #Output:[('quick', 'brown')]]
 
 ```
 
-[[Regex Character Sets]]  
-[[Regex Quantifiers]]
-[[Regex Grouping and Capturing]]
-[[Regex Special Sequences]]
+Regex Character Sets  
+Regex Quantifiers
+Regex Grouping and Capturing
+Regex Special Sequences
 
 

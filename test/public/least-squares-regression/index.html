@@ -36,10 +36,10 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">[[AP Stats Home]]</h1>
+<h1 id="ap-stats-home">AP Stats Home</h1>
 <h1 id="least-squares-regression">Least Squares Regression</h1>
 <h2 id="introduction-to-least-squares-regression">Introduction to Least Squares Regression</h2>
-<p>When analyzing the relationship between two [[Representing the Relationship Between Two Quantitative Variables|quantitative variables]], a [[Linear Regression Models|linear regression model]] aims to describe this relationship with a straight line. The <strong>Least Squares Regression Line (LSRL)</strong> is the specific line that best fits the data by minimizing the sum of the squared vertical distances (residuals) from each data point to the line. This method provides the most commonly used linear model for prediction.</p>
+<p>When analyzing the relationship between two Representing the Relationship Between Two Quantitative Variables|quantitative variables, a Linear Regression Models|linear regression model aims to describe this relationship with a straight line. The <strong>Least Squares Regression Line (LSRL)</strong> is the specific line that best fits the data by minimizing the sum of the squared vertical distances (residuals) from each data point to the line. This method provides the most commonly used linear model for prediction.</p>
 <p>The primary goal of least squares regression is to make predictions about a response variable ( $ y $ ) based on an explanatory variable ( $ x $ ).</p>
 <h2 id="the-least-squares-regression-line-lsrl">The Least Squares Regression Line (LSRL)</h2>
 <p>The equation of the Least Squares Regression Line is given by:
@@ -51,13 +51,13 @@ $$ \hat{y} = a + bx $$  Where:</p>
 </ul>
 <h3 id="how-the-lsrl-is-determined">How the LSRL is Determined</h3>
 <p>The &ldquo;least squares&rdquo; part refers to the mathematical criterion used to find this &ldquo;best-fit&rdquo; line. The LSRL is the unique line that minimizes the <strong>Sum of Squared Residuals (SSR)</strong>.</p>
-<p>$$ SSR = \sum(y_i - \hat{y}_i)^2 $$  Where  $ y_i $  is the observed value of the response variable and  $ \hat{y}_i $  is the predicted value from the regression line for the  $ i $ -th data point. This minimization process makes the LSRL sensitive to extreme values or [[Analyzing Departures from Linearity|outliers]].</p>
+<p>$$ SSR = \sum(y_i - \hat{y}_i)^2 $$  Where  $ y_i $  is the observed value of the response variable and  $ \hat{y}_i $  is the predicted value from the regression line for the  $ i $ -th data point. This minimization process makes the LSRL sensitive to extreme values or Analyzing Departures from Linearity|outliers.</p>
 <h3 id="formulas-for-slope-and-y-intercept">Formulas for Slope and Y-intercept</h3>
 <p>The slope ( $ b $ ) and y-intercept ( $ a $ ) of the LSRL can be calculated using the following formulas:</p>
 <p>$$ b = r \frac{s_y}{s_x} $$   $$ a = \bar{y} - b\bar{x} $$<br>
 Where:</p>
 <ul>
-<li>$ r $  is the [[Correlation|correlation coefficient]] between  $ x $  and  $ y $ .</li>
+<li>$ r $  is the Correlation|correlation coefficient between  $ x $  and  $ y $ .</li>
 <li>$ s_y $  is the standard deviation of the response variable  $ y $ .</li>
 <li>$ s_x $  is the standard deviation of the explanatory variable  $ x $ .</li>
 <li>$ \bar{y} $  is the mean of the response variable  $ y $ .</li>
@@ -66,7 +66,7 @@ Where:</p>
 <h3 id="properties-of-the-lsrl">Properties of the LSRL</h3>
 <ol>
 <li><strong>Passes Through the Means</strong>: The LSRL always passes through the point  $ (\bar{x}, \bar{y}) $ . This means if you substitute  $ \bar{x} $  into the equation, you will get  $ \bar{y} $  as the predicted value.</li>
-<li><strong>Role of Correlation</strong>: The square of the [[Correlation|correlation coefficient]],  $ r^2 $ , known as the <strong>[[Coefficient of Determination ( $ r^2 $ )]]</strong>, provides the proportion of the variation in the response variable ( $ y $ ) that is explained by the linear relationship with the explanatory variable ( $ x $ ).</li>
+<li><strong>Role of Correlation</strong>: The square of the Correlation|correlation coefficient,  $ r^2 $ , known as the <strong>Coefficient of Determination ( $ r^2 $ )</strong>, provides the proportion of the variation in the response variable ( $ y $ ) that is explained by the linear relationship with the explanatory variable ( $ x $ ).</li>
 <li><strong>Interpolation vs. Extrapolation</strong>: Using the LSRL to make predictions within the range of the observed  $ x $  values (interpolation) is generally reliable. Making predictions outside this range (extrapolation) is risky and may not be accurate, as the linear relationship may not hold.</li>
 </ol>
 <h2 id="key-terminology">Key Terminology</h2>
@@ -92,7 +92,7 @@ Where:</p>
       <tr>
           <td style="text-align: left">Residual</td>
           <td style="text-align: left">$ e = y-\hat{y} $</td>
-          <td style="text-align: left">The difference between an observed value and its predicted value ([[Residuals</td>
+          <td style="text-align: left">The difference between an observed value and its predicted value (Residuals</td>
       </tr>
       <tr>
           <td style="text-align: left">Slope</td>
@@ -118,9 +118,9 @@ Where:</p>
 </table>
 <h2 id="cautions-and-considerations">Cautions and Considerations</h2>
 <ul>
-<li><strong>Outliers and Influential Points</strong>: The LSRL is sensitive to [[Analyzing Departures from Linearity|outliers]], especially those that are extreme in the x-direction. Such points can significantly affect the slope and y-intercept.</li>
-<li><strong>Correlation is Not Causation</strong>: Even a strong linear relationship does not imply that changes in  $ x $  cause changes in  $ y $ . There might be [[Lurking and Confounding Variables|lurking variables]] or other factors at play.</li>
-<li><strong>Linearity</strong>: Always inspect a [[Scatterplot]] to confirm that a linear model is appropriate for the data before applying least squares regression. [[Residual plots]] are also crucial for checking the appropriateness of the linear model.</li>
+<li><strong>Outliers and Influential Points</strong>: The LSRL is sensitive to Analyzing Departures from Linearity|outliers, especially those that are extreme in the x-direction. Such points can significantly affect the slope and y-intercept.</li>
+<li><strong>Correlation is Not Causation</strong>: Even a strong linear relationship does not imply that changes in  $ x $  cause changes in  $ y $ . There might be Lurking and Confounding Variables|lurking variables or other factors at play.</li>
+<li><strong>Linearity</strong>: Always inspect a Scatterplot to confirm that a linear model is appropriate for the data before applying least squares regression. Residual plots are also crucial for checking the appropriateness of the linear model.</li>
 </ul>
 
 </main>

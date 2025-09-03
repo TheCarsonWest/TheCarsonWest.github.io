@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics Notes: Topic 8.1 - Internal Structure and Density
 
 ## 1. Introduction to Density
 
-Density ( $ \rho $ ) is a fundamental physical property of matter that quantifies how much "stuff" is packed into a given space. It is defined as the mass per unit volume of a substance. Understanding density is crucial for analyzing the behavior of [[Fluids and Newton’s Laws]] and [[Fluids and Conservation Laws]].
+Density ( $ \rho $ ) is a fundamental physical property of matter that quantifies how much "stuff" is packed into a given space. It is defined as the mass per unit volume of a substance. Understanding density is crucial for analyzing the behavior of Fluids and Newton’s Laws and Fluids and Conservation Laws.
 
 The formula for density is:
 
@@ -39,7 +39,7 @@ Density is an intensive property, meaning it does not depend on the amount of su
 
 ## 2. Internal Structure and Density
 
-The density of a substance is directly related to its [[Atomic Arrangement and Intermolecular Forces]].
+The density of a substance is directly related to its Atomic Arrangement and Intermolecular Forces.
 Essentially, it depends on two primary factors at the microscopic level:
 
 1.  **Mass of the constituent particles**: Heavier atoms or molecules will contribute to a higher density for a given packing efficiency.

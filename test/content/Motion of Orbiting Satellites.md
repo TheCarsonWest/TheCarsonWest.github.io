@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Physics Home]]
+# AP Physics Home
 # AP Physics 1: Topic 6.6 - Motion of Orbiting Satellites
 
 ## Introduction to Orbiting Satellites
 
-An orbiting satellite is an object (natural or artificial) that revolves around a larger celestial body due to the force of [[Gravitational Force]]. Examples include the Moon orbiting Earth (natural satellite) or the International Space Station (artificial satellite). For simplicity in AP Physics 1, we often consider orbits to be perfectly circular, although in reality, most orbits are elliptical.
+An orbiting satellite is an object (natural or artificial) that revolves around a larger celestial body due to the force of Gravitational Force. Examples include the Moon orbiting Earth (natural satellite) or the International Space Station (artificial satellite). For simplicity in AP Physics 1, we often consider orbits to be perfectly circular, although in reality, most orbits are elliptical.
 
 ## Forces and Motion in Orbit
 
-The primary force acting on a satellite in orbit is the [[Gravitational Force]] exerted by the central body. This force acts as the centripetal force, continuously pulling the satellite towards the center of its orbit and causing it to move in a curved path.
+The primary force acting on a satellite in orbit is the Gravitational Force exerted by the central body. This force acts as the centripetal force, continuously pulling the satellite towards the center of its orbit and causing it to move in a curved path.
 
 *   **Central Body Mass**:  $ M $ 
 *   **Satellite Mass**:  $ m $ 
@@ -22,7 +22,7 @@ The gravitational force is given by Newton's Law of Universal Gravitation:
  $ F_g = \frac{GMm}{r^2} $ 
 where  $ G $  is the universal gravitational constant ( $ 6.67 \times 10^{-11} \text{ N} \cdot \text{m}^2/\text{kg}^2 $ ).
 
-For a satellite in a stable circular orbit, this gravitational force provides the necessary [[Circular Motion]]'s centripetal force:
+For a satellite in a stable circular orbit, this gravitational force provides the necessary Circular Motion's centripetal force:
  $ F_c = \frac{mv^2}{r} $ 
 Equating these two forces allows us to derive key orbital characteristics.
 
@@ -49,11 +49,11 @@ Squaring both sides gives us **Kepler's Third Law** for circular orbits:
 This relationship indicates that  $ T^2 \propto r^3 $ , meaning the square of the orbital period is proportional to the cube of the orbital radius. The constant of proportionality depends only on the mass of the central body.
 
 ### Geosynchronous Orbit
-[[Geosynchronous Orbit]] is a special type of orbit where a satellite remains above the same point on Earth's equator. This requires the satellite's orbital period to be exactly one sidereal day (approximately 23 hours, 56 minutes, 4 seconds), matching Earth's rotation period.
+Geosynchronous Orbit is a special type of orbit where a satellite remains above the same point on Earth's equator. This requires the satellite's orbital period to be exactly one sidereal day (approximately 23 hours, 56 minutes, 4 seconds), matching Earth's rotation period.
 
 ## Energy of an Orbiting Satellite
 
-An orbiting satellite possesses both kinetic energy ( $ K $ ) due to its motion and gravitational [[Potential Energy]] ( $ U_g $ ) due to its position in the gravitational field.
+An orbiting satellite possesses both kinetic energy ( $ K $ ) due to its motion and gravitational Potential Energy ( $ U_g $ ) due to its position in the gravitational field.
 
 *   **Kinetic Energy**:
      $  K = \frac{1}{2}mv^2  $ 

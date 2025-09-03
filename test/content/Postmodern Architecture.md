@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Glossary]]
+# Glossary
 
-# [[Postmodern Architecture]] 
+# Postmodern Architecture 
 **Definition:**  A reaction against the uniformity of modern architecture, characterized by diverse aesthetics and playful designs.
 
-**Example:** The Guggenheim Museum in Bilbao, [[Spain]].
+**Example:** The Guggenheim Museum in Bilbao, Spain.
 
-# [[Glossary]]
+# Glossary

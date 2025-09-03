@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# [[AP Stats Home]]
+# AP Stats Home
 # Residuals
 
-Residuals are fundamental to understanding the accuracy and appropriateness of a [[Linear Regression Models]] when fitting data. They represent the "leftover" variation in the dependent variable after accounting for the linear relationship with the independent variable.
+Residuals are fundamental to understanding the accuracy and appropriateness of a Linear Regression Models when fitting data. They represent the "leftover" variation in the dependent variable after accounting for the linear relationship with the independent variable.
 
 ## Definition and Purpose
 
 A **residual** is the difference between an observed value of the response variable ( $ y $ ) and the value predicted by the regression model ( $ \hat{y} $ ). In essence, it tells us how far off our prediction was for a specific data point.
 
 *   **Observed Value ( $ y $ )**: The actual value from the dataset.
-*   **Predicted Value ( $ \hat{y} $ )**: The value estimated by the [[Least Squares Regression]] line for a given x-value.
+*   **Predicted Value ( $ \hat{y} $ )**: The value estimated by the Least Squares Regression line for a given x-value.
 
 The primary purpose of residuals is to help us assess how well a regression model fits the data and to identify any patterns or issues that the linear model might not be capturing.
 
@@ -33,7 +33,7 @@ If the actual weight of a dog is 25 kg, and our regression model predicts 22 kg 
 
 ## Residual Plots
 
-A [[Residuals]] plot (or residual plot) is a scatterplot of the residuals against the explanatory variable (x) or the predicted values ( $ \hat{y} $ ). These plots are crucial for assessing the appropriateness of a linear model.
+A Residuals plot (or residual plot) is a scatterplot of the residuals against the explanatory variable (x) or the predicted values ( $ \hat{y} $ ). These plots are crucial for assessing the appropriateness of a linear model.
 
 ### How to Construct a Residual Plot
 
@@ -46,7 +46,7 @@ When examining a residual plot, we look for two main characteristics:
 
 1.  **No Obvious Pattern**:
     *   **Good Fit (Random Scatter)**: If the points in the residual plot are randomly scattered around the horizontal line at 0 with no discernible pattern, it suggests that a linear model is appropriate for the data. This indicates that the linear model has captured most of the systematic relationship between the variables.
-    *   **Bad Fit (Presence of a Pattern)**: If there is a clear pattern (e.g., a curved shape, fanning out, or clustering) in the residual plot, it indicates that the linear model is not the best fit for the data. This means a nonlinear relationship might exist, or other variables might be influencing the relationship. [[Analyzing Departures from Linearity]] often involves examining residual plots for patterns.
+    *   **Bad Fit (Presence of a Pattern)**: If there is a clear pattern (e.g., a curved shape, fanning out, or clustering) in the residual plot, it indicates that the linear model is not the best fit for the data. This means a nonlinear relationship might exist, or other variables might be influencing the relationship. Analyzing Departures from Linearity often involves examining residual plots for patterns.
 
     | Pattern Type       | Implication for Linear Model                                   |
     | :----------------- | :------------------------------------------------------------- |
@@ -61,7 +61,7 @@ When examining a residual plot, we look for two main characteristics:
 
 ## Properties of Residuals in Least Squares Regression
 
-For a [[Least Squares Regression]] line:
+For a Least Squares Regression line:
 
 *   The sum of the residuals is always zero:  $ \sum e_i = \sum (y_i - \hat{y}_i) = 0 $ .
 *   The mean of the residuals is also zero.

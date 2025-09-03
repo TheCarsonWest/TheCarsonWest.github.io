@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Python Functions]]
-# [[Function Parameters and Arguments]] 
+# Python Functions
+# Function Parameters and Arguments 
 Python functions utilize parameters to receive input and arguments to provide that input during function calls.  There's a subtle but important distinction.
 
 * **Parameters:** These are defined within the function's definition. They act as placeholders for the values that will be passed in.
@@ -30,9 +30,9 @@ greet("Bob", "Good morning") # "Bob" and "Good morning" are arguments
 greet(greeting="Hi", name="Charlie") #Keyword Arguments
 ```
 
-* **[[Default Parameters]]:**  Parameters can have default values. If an argument isn't provided for a parameter with a default, the default is used.  Default parameters must come after non-default parameters in the function definition.
+* **Default Parameters:**  Parameters can have default values. If an argument isn't provided for a parameter with a default, the default is used.  Default parameters must come after non-default parameters in the function definition.
 
-* **[[Variable-Length Arguments]] (Arbitrary Arguments):**
+* **Variable-Length Arguments (Arbitrary Arguments):**
     * `*args`:  Collects any number of positional arguments into a tuple.
     * `**kwargs`: Collects any number of keyword arguments into a dictionary.
 
@@ -45,16 +45,16 @@ def my_function(a, b, *args, **kwargs):
 my_function(1, 2, 3, 4, 5, name="Alice", age=30)
 ```
 
-[[Variable-Length Arguments]]
+Variable-Length Arguments
 
 **Argument Passing:**
 
 Python uses pass-by-object-reference.  This means that when you pass a mutable object (like a list or dictionary) to a function, the function can modify the original object.  If you pass an immutable object (like an integer or string), the original object is not modified within the function.
 
-[[Pass-by-Object-Reference]]
+Pass-by-Object-Reference
 
 
-**Scope and Lifetime of Variables:**  Parameters have local scope within the function.  [[Scope and Lifetime of Variables]]
+**Scope and Lifetime of Variables:**  Parameters have local scope within the function.  Scope and Lifetime of Variables
 
 **Example illustrating mutability and immutability in argument passing:**
 

@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Operators]]
-# [[Bitwise Operators]] 
+# Operators
+# Bitwise Operators 
 Bitwise operators work directly on the individual bits of integers.  They are rarely used in typical Python programming but are essential for low-level programming, working with hardware, or specific optimization scenarios.
 
 
-**Types of [[Bitwise Operators]]:**
+**Types of Bitwise Operators:**
 
 *   `&` (AND):  Returns 1 if both bits are 1, otherwise 0.
 *   `|` (OR): Returns 1 if at least one bit is 1, otherwise 0.
@@ -33,9 +33,9 @@ print(a >> 1) # Output: 5  (Binary: 0101)
 
 ```
 
-**[[Twos Complement]]**  (This needs a separate explanation)
+**Twos Complement**  (This needs a separate explanation)
 
-**[[Binary Representation of Numbers]]** (This also needs a separate explanation)
+**Binary Representation of Numbers** (This also needs a separate explanation)
 
 
 **Use Cases:**

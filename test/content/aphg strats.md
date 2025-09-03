@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# [[APHG Home]]
+# APHG Home
 
 
-- [[ESPN]]
-	- [[ESPN Example]]
-- [[CER Strategy]]
+- ESPN
+	- ESPN Example
+- CER Strategy

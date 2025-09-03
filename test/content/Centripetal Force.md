@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Glossary]]
+# Glossary
 
-# [[Centripetal Force]] 
+# Centripetal Force 
 **Definition:**  A force that unites people and promotes national unity.
 
-**Example:**  A shared [[Language]], national holidays, a common enemy.
+**Example:**  A shared Language, national holidays, a common enemy.
 
-# [[Glossary]]
+# Glossary

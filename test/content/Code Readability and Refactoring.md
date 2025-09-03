@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# [[Nested If Statements]]
-# [[Code Readability and Refactoring]] 
+# Nested If Statements
+# Code Readability and Refactoring 
 **Goal:**  Improve understanding and maintainability of Python code.
 
 **Key Aspects:**
@@ -21,7 +21,7 @@ un = "Bob"  # What does 'un' mean?
 calcAvg(s) # too cryptic
 ```
 
-* **Consistent Formatting:**  Follow PEP 8 style guide ([[PEP 8 Style Guide]]) for indentation, line length, spacing etc.  Use a linter (like `pylint` or `flake8`) to enforce consistency ([[Linters and Static Analysis]])
+* **Consistent Formatting:**  Follow PEP 8 style guide (PEP 8 Style Guide) for indentation, line length, spacing etc.  Use a linter (like `pylint` or `flake8`) to enforce consistency (Linters and Static Analysis)
 
 ```python
 # Good (PEP 8 compliant)
@@ -37,7 +37,7 @@ def myfunction(param1,param2):
 
 ```
 
-* **Comments:** Add comments to explain complex logic or non-obvious parts of the code, but avoid commenting obvious code.  ( [[Effective Commenting]])
+* **Comments:** Add comments to explain complex logic or non-obvious parts of the code, but avoid commenting obvious code.  ( Effective Commenting)
 
 ```python
 # Good comment
@@ -49,7 +49,7 @@ fibonacci_numbers = calculate_fibonacci(n)
 z = x + y 
 ```
 
-* **Functions and Modules:** Break down large tasks into smaller, well-defined functions. Organize related functions into modules for better organization. ([[Modular Design in Python]])
+* **Functions and Modules:** Break down large tasks into smaller, well-defined functions. Organize related functions into modules for better organization. (Modular Design in Python)
 
 ```python
 # Good - Modular approach
@@ -88,7 +88,7 @@ function_c()
     * **Consolidate Conditional Expression:** Simplify nested `if/else` statements.
 
 
-* **Testing:** Write unit tests to ensure code correctness and prevent regressions during refactoring ([[Unit Testing in Python]])
+* **Testing:** Write unit tests to ensure code correctness and prevent regressions during refactoring (Unit Testing in Python)
 
 
 * **Code Reviews:**  Have another developer review your code for readability and potential issues.
