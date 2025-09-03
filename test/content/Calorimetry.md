@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# Endothermic and Exothermic Reactions
-# Calorimetry
+# [Endothermic and Exothermic Reactions](./../endothermic-and-exothermic-reactions/)
+# [Calorimetry](./../calorimetry/)
 
-**Definition:** Calorimetry is the science of measuring the heat of chemical reactions or physical changes.  It's based on the principle of heat transfer: heat lost by one system equals heat gained by another.
+**Definition:** [Calorimetry](./../calorimetry/) is the science of measuring the heat of chemical reactions or physical changes.  It's based on the principle of heat transfer: heat lost by one system equals heat gained by another.
 
 **Key Concepts:**
 
@@ -16,11 +16,11 @@
 
 * **Heat Transfer ( $ q $ ):** The amount of heat energy transferred.  It's positive if heat is absorbed (endothermic) and negative if heat is released (exothermic).
 
-* **Enthalpy Change ( $ \Delta H $ ):**  The heat absorbed or released at constant pressure.  For reactions in solution, often measured using a calorimeter.   $ \Delta H = q_p $  (where  $ q_p $  is heat at constant pressure).
+* **[Enthalpy](./../enthalpy/) Change ( $ \Delta H $ ):**  The heat absorbed or released at constant pressure.  For reactions in solution, often measured using a calorimeter.   $ \Delta H = q_p $  (where  $ q_p $  is heat at constant pressure).
 
-* **Types of Calorimetry:**
+* **Types of [Calorimetry](./../calorimetry/):**
     * **Constant-pressure calorimetry (coffee-cup calorimeter):**  Used for reactions at atmospheric pressure. Heat exchanged is approximately equal to the change in enthalpy ( $ \Delta H $ ).
-    * **Constant-volume calorimetry (bomb calorimeter):** Used for combustion reactions.  Heat exchanged is related to the change in internal energy ( $ \Delta U $ ).  Bomb Calorimetry
+    * **Constant-volume calorimetry (bomb calorimeter):** Used for combustion reactions.  Heat exchanged is related to the change in internal energy ( $ \Delta U $ ).  [Bomb Calorimetry](./../bomb-calorimetry/)
 
 
 **Equations:**
@@ -38,7 +38,7 @@
 
 **Related Notes:**
 
-* Bomb Calorimetry
-* Thermochemistry  (This will cover enthalpy, entropy, Gibbs free energy, etc.)
-* First Law of Thermodynamics
+* [Bomb Calorimetry](./../bomb-calorimetry/)
+* [Thermochemistry](./../thermochemistry/)  (This will cover enthalpy, entropy, Gibbs free energy, etc.)
+* [First Law of Thermodynamics](./../first-law-of-thermodynamics/)
 

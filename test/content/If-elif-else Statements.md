@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Nested If Statements
-# If-elif-else Statements 
+# [Nested If Statements](./../nested-if-statements/)
+# [If-elif-else Statements](./../if-elif-else-statements/) 
 Python's `if-elif-else` statements provide a way to control the flow of execution based on multiple conditions.  They're an extension of the basic `if` statement, allowing for more complex decision-making.
 
 **Basic Syntax:**
@@ -46,11 +46,11 @@ else:
 
 **Nested `if-elif-else`:**
 
-You can nest `if-elif-else` statements within each other to create more complex logic.  However, excessive nesting can make code harder to read and maintain. Nested Conditional Statements
+You can nest `if-elif-else` statements within each other to create more complex logic.  However, excessive nesting can make code harder to read and maintain. [Nested Conditional Statements](./../nested-conditional-statements/)
 
 **Short-circuiting:**
 
-Python uses short-circuiting evaluation for boolean operators (`and`, `or`). This means that if the outcome of the expression can be determined from evaluating only the first part, the second part won't be evaluated.  This can be useful for optimization and avoiding errors. Boolean Operators
+Python uses short-circuiting evaluation for boolean operators (`and`, `or`). This means that if the outcome of the expression can be determined from evaluating only the first part, the second part won't be evaluated.  This can be useful for optimization and avoiding errors. [Boolean Operators](./../boolean-operators/)
 
 **Common Mistakes:**
 
@@ -61,6 +61,6 @@ Python uses short-circuiting evaluation for boolean operators (`and`, `or`). Thi
 
 **Related Notes:**
 
-* Boolean Logic
-* Conditional Expressions (Ternary Operator)
+* [Boolean Logic](./../boolean-logic/)
+* [Conditional Expressions (Ternary Operator)](./../conditional-expressions-(ternary-operator)/)
 

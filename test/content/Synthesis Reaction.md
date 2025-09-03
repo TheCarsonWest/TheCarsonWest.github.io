@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-Reactions Types
+[Reactions Types](./../reactions-types/)
 **Definition:** A reaction in which two or more substances combine to form a new, more complex substance.
 
 **General Equation:**

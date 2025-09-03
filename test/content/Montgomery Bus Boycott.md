@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Montgomery Bus Boycott 
+## ID: [Montgomery Bus Boycott](./../montgomery-bus-boycott/) 
 ## When: December 5, 1955 - December 20, 1956 (381 days)
 
 ## Who:
@@ -22,4 +22,4 @@ A political and social protest campaign against the policy of racial segregation
 * **Economic Impact:** The bus company suffered significant financial losses, highlighting the economic power of organized boycotts.
 * **Inspired National Movement:** It galvanized the African American community and strengthened the resolve to fight for equal rights, contributing significantly to the broader Civil Rights Movement.
 
-# IDS Unit 8
+# [IDS Unit 8](./../ids-unit-8/)

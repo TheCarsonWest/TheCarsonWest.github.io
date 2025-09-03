@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions
 
 When comparing two population proportions, a confidence interval for their difference provides a range of plausible values for  $ (p_1 - p_2) $ . This interval is a powerful tool for making an informed decision or justifying a claim about whether there's a significant difference between the two proportions, or if one proportion is greater/less than the other.
@@ -16,7 +16,7 @@ The goal is to determine if the confidence interval for  $ (p_1 - p_2) $  suppor
 *    $ p_1 < p_2 $  (or  $ p_1 - p_2 < 0 $ )
 *    $ p_1 = p_2 $  (there is no difference)
 
-For a deeper understanding of how these intervals are constructed, refer to Constructing a Confidence Interval for a Population Proportion and Sampling Distributions for Differences in Sample Proportions.
+For a deeper understanding of how these intervals are constructed, refer to [Constructing a Confidence Interval for a Population Proportion](./../constructing-a-confidence-interval-for-a-population-proportion/) and [Sampling Distributions for Differences in Sample Proportions](./../sampling-distributions-for-differences-in-sample-proportions/).
 
 ## Interpreting the Confidence Interval
 
@@ -65,9 +65,9 @@ The confidence level (e.g., 90%, 95%, 99%) reflects the strength of our conclusi
 
 A higher confidence level will result in a wider interval, making it more likely to contain 0, and thus less likely to show a significant difference. Conversely, a lower confidence level will result in a narrower interval, making it more likely to exclude 0.
 
-## Confidence Intervals vs. Hypothesis Tests
+## [Confidence Intervals vs. Hypothesis Tests](./../confidence-intervals-vs.-hypothesis-tests/)
 
-Justifying a claim based on a confidence interval is closely related to performing a Setting Up a Test for the Difference of Two Population Proportions. In fact, a confidence interval can be used to perform a two-sided hypothesis test:
+Justifying a claim based on a confidence interval is closely related to performing a [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/). In fact, a confidence interval can be used to perform a two-sided hypothesis test:
 *   If a  $ (1-\alpha) \times 100\% $  confidence interval for  $ (p_1 - p_2) $  contains 0, then a two-sided hypothesis test at significance level  $ \alpha $  would *fail to reject* the null hypothesis  $ H_0: p_1 = p_2 $ .
 *   If the interval does not contain 0, then the two-sided test would *reject*  $ H_0 $ .
 

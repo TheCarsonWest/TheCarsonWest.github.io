@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="python-1-home">Python 1 Home</h1>
-<h1 id="file-handling">File Handling</h1>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="file-handlingfile-handling"><a href="./../file-handling/">File Handling</a></h1>
 <p>Key aspects to remember about file handling in Python:</p>
 <ul>
 <li><strong>Opening Files:</strong>  Use the <code>open()</code> function.  Specify the filename and the mode (&lsquo;r&rsquo; for reading, &lsquo;w&rsquo; for writing, &lsquo;a&rsquo; for appending, &lsquo;x&rsquo; for exclusive creation, &lsquo;b&rsquo; for binary, &rsquo;t&rsquo; for text -  &lsquo;r+&rsquo; for reading and writing, etc.).</li>
@@ -78,7 +78,7 @@
 <p><strong>Appending to Files:</strong> Use <code>&quot;a&quot;</code> mode to add content to the end of an existing file.</p>
 </li>
 <li>
-<p><strong>Error Handling:</strong> Use <code>try...except</code> blocks to handle potential <code>FileNotFoundError</code> exceptions.</p>
+<p><strong><a href="./../error-handling/">Error Handling</a>:</strong> Use <code>try...except</code> blocks to handle potential <code>FileNotFoundError</code> exceptions.</p>
 </li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">try</span>:
@@ -89,14 +89,14 @@
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">finally</span>:
 </span></span><span style="display:flex;"><span>    file<span style="color:#f92672">.</span>close() <span style="color:#75715e">#This will still execute even if exception occurs.  Best way to ensure file is closed</span>
 </span></span></code></pre></div><ul>
-<li><strong>Context Managers (<code>with</code> statement):</strong> The preferred way to handle files, automatically closing them even if errors occur.</li>
+<li><strong><a href="./../context-managers/">Context Managers</a> (<code>with</code> statement):</strong> The preferred way to handle files, automatically closing them even if errors occur.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">with</span> open(<span style="color:#e6db74">&#34;my_file.txt&#34;</span>, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> file:
 </span></span><span style="display:flex;"><span>    contents <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e"># ... process contents ...</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#75715e"># File is automatically closed here.</span>
-</span></span></code></pre></div><p>File IO Modes, Handling Binary Files</p>
+</span></span></code></pre></div><p><a href="./../file-io-modes/">File IO Modes</a>, <a href="./../handling-binary-files/">Handling Binary Files</a></p>
 
 </main>
 

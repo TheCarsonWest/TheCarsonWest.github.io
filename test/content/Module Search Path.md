@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Importing Modules
-# Module Search Path 
+# [Importing Modules](./../importing-modules/)
+# [Module Search Path](./../module-search-path/) 
 The Python interpreter searches for modules in a specific order, defined by the `sys.path` variable.  This is crucial for importing modules correctly.
 
 `sys.path` is a list of strings, each representing a directory.  The interpreter searches these directories in order until it finds the module being imported.
@@ -21,9 +21,9 @@ The `sys.path` list typically includes:
 3. Installation-dependent default locations (e.g., site-packages directories).
 
 
-PYTHONPATH Environment Variable
+[PYTHONPATH Environment Variable](./../pythonpath-environment-variable/)
 
-Site-packages Directories
+[Site-packages Directories](./../site-packages-directories/)
 
 If a module is not found in any of these directories, an `ImportError` is raised.
 
@@ -50,6 +50,6 @@ import my_module  # now you can import your module
 * **Security:**  Avoid arbitrarily adding directories to `sys.path` from untrusted sources, as this could expose your system to malicious code.  Be especially cautious with dynamically constructed paths.
 
 
-Module Importing in Python
-Error Handling: ImportError
+[Module Importing in Python](./../module-importing-in-python/)
+[Error Handling: ImportError](./../error-handling:-importerror/)
 

@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # AP Statistics: The Normal Distribution, Revisited
 
-The Normal Distribution is a fundamental concept in statistics, often serving as a model for quantitative data. While we've previously introduced its basic shape and properties (The Normal Distribution), this page delves deeper into its applications, standardization, and how we use it to calculate probabilities. It's crucial for understanding topics like Sampling Distributions for Sample Means and The Central Limit Theorem.
+The Normal Distribution is a fundamental concept in statistics, often serving as a model for quantitative data. While we've previously introduced its basic shape and properties ([The Normal Distribution](./../the-normal-distribution/)), this page delves deeper into its applications, standardization, and how we use it to calculate probabilities. It's crucial for understanding topics like [Sampling Distributions for Sample Means](./../sampling-distributions-for-sample-means/) and [The Central Limit Theorem](./../the-central-limit-theorem/).
 
 ---
 
@@ -75,7 +75,7 @@ Once a value  $ x $  is converted to a z-score, we can use the Standard Normal D
 
 ## Assessing Normality
 
-While the Normal Distribution is widely used, it's essential to determine if a dataset can reasonably be modeled by it. Graphical Representations of Summary Statistics and Representing a Quantitative Variable with Graphs can help.
+While the Normal Distribution is widely used, it's essential to determine if a dataset can reasonably be modeled by it. [Graphical Representations of Summary Statistics](./../graphical-representations-of-summary-statistics/) and [Representing a Quantitative Variable with Graphs](./../representing-a-quantitative-variable-with-graphs/) can help.
 
 **Methods for Assessing Normality:**
 *   **Histogram/Stemplot:** Look for a roughly symmetric, unimodal, bell-shaped distribution.

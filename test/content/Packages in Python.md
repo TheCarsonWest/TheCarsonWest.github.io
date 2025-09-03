@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Importing Modules
-# Packages in Python 
+# [Importing Modules](./../importing-modules/)
+# [Packages in Python](./../packages-in-python/) 
 Packages are a way of organizing related modules into a directory hierarchy.  This helps to avoid naming conflicts and makes it easier to manage large collections of code.
 
 A package is essentially a directory containing an `__init__.py` file (can be empty, but it's required to tell Python that the directory is a package) and other modules (`.py` files).
@@ -67,7 +67,7 @@ myproject.mypackage.subpackage1.module3.my_nested_function()
 module3.my_nested_function()
 ```
 
-**Installing Packages (Python Package Management):**
+**Installing Packages ([Python Package Management](./../python-package-management/)):**
 
 This is a crucial step to using external packages.  It involves using tools like `pip`.
 
@@ -85,7 +85,7 @@ import mypackage
 mypackage.my_package_function()
 ```
 
-Relative Imports: This is a special way of importing modules within a package itself.
+[Relative Imports](./../relative-imports/): This is a special way of importing modules within a package itself.
 
 
-Namespaces in Python:  Understanding namespaces is essential for comprehending how packages work.  They help organize and manage symbols to avoid conflicts.
+[Namespaces in Python](./../namespaces-in-python/):  Understanding namespaces is essential for comprehending how packages work.  They help organize and manage symbols to avoid conflicts.

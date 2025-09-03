@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Flapper
+## ID: [Flapper](./../flapper/)
 
 ## WHEN: 1920s (Specifically the Jazz Age/Roaring Twenties)
 
-## WHO: Young, urban women in the United States and Europe. Often associated with the "New Woman."
+## WHO: Young, urban women in the [United States](./../united-states/) and Europe. Often associated with the "New Woman."
 
 ## WHAT: A "flapper" was a young woman in the 1920s who embraced a lifestyle considered daring and modern for the time. This included:
 
@@ -23,4 +23,4 @@
 *   **Modernization:** The flapper represents a significant step towards modernization of society, especially concerning gender roles and freedom of expression.
 *   **Controversy:** They were controversial and criticized by some who saw their behavior as immoral and a threat to traditional values. This highlights the culture clash between the older generations and the new.
 
-# IDS Unit 7
+# [IDS Unit 7](./../ids-unit-7/)

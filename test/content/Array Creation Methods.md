@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# ndarray Explained
-# Array Creation Methods 
+# [ndarray Explained](./../ndarray-explained/)
+# [Array Creation Methods](./../array-creation-methods/) 
 Different ways to create arrays in Python, focusing primarily on NumPy arrays which are the most common type of array used for numerical computation.  Standard Python lists are less efficient for numerical operations.
 
-NumPy Arrays -  A separate note dedicated to explaining NumPy arrays in detail.  This will cover data types, dimensions, and other core concepts.
+[NumPy Arrays](./../numpy-arrays/) -  A separate note dedicated to explaining NumPy arrays in detail.  This will cover data types, dimensions, and other core concepts.
 
 **Methods:**
 
@@ -89,7 +89,7 @@ identity_matrix = np.eye(3) # 3x3 identity matrix
 print(identity_matrix)
 ```
 
-7. **Using `numpy.random` functions:**  NumPy's `random` module provides various functions to create arrays with random numbers.  See NumPy Random Number Generation for more details.  Examples:
+7. **Using `numpy.random` functions:**  NumPy's `random` module provides various functions to create arrays with random numbers.  See [NumPy Random Number Generation](./../numpy-random-number-generation/) for more details.  Examples:
 
 
 ```python
@@ -102,7 +102,7 @@ random_integers = np.random.randint(0,10, size=(2,3)) # 2x3 array of random inte
 print(random_integers)
 ```
 
-8.  Array Reshaping -  A separate note describing how to change the shape of an existing array using `reshape()`, `resize()`, and other methods.
+8.  [Array Reshaping](./../array-reshaping/) -  A separate note describing how to change the shape of an existing array using `reshape()`, `resize()`, and other methods.
 
 
 

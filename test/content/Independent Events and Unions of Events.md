@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Independent Events and Unions of Events
 
-Understanding how events relate to each other and how to calculate the probability of their combined occurrences is fundamental in AP Statistics. This page will cover the definitions, conditions, and rules for independent events and unions of events. For a general overview of probability, refer to Introduction to Probability.
+Understanding how events relate to each other and how to calculate the probability of their combined occurrences is fundamental in AP Statistics. This page will cover the definitions, conditions, and rules for independent events and unions of events. For a general overview of probability, refer to [Introduction to Probability](./../introduction-to-probability/).
 
 ## Independent Events
 
-Two events are **independent** if the occurrence of one does not affect the probability of the other occurring. This concept is distinct from Mutually Exclusive Events. While mutually exclusive events cannot happen at the same time, independent events can.
+Two events are **independent** if the occurrence of one does not affect the probability of the other occurring. This concept is distinct from [Mutually Exclusive Events](./../mutually-exclusive-events/). While mutually exclusive events cannot happen at the same time, independent events can.
 
 ### Conditions for Independence
 
@@ -19,7 +19,7 @@ There are several ways to define or test for independence between two events, A 
 1.  **Conditional Probability Definition**:
     Events A and B are independent if the probability of A occurring, given that B has already occurred, is simply the probability of A.
      $$  P(A|B) = P(A)  $$      Similarly,
-     $$  P(B|A) = P(B)  $$      If these conditions hold, then A and B are independent. Otherwise, they are dependent. For more on this, see Conditional Probability.
+     $$  P(B|A) = P(B)  $$      If these conditions hold, then A and B are independent. Otherwise, they are dependent. For more on this, see [Conditional Probability](./../conditional-probability/).
 
 2.  **Multiplication Rule for Independent Events**:
     Events A and B are independent if and only if the probability that both A and B occur is the product of their individual probabilities.
@@ -48,7 +48,7 @@ The probability of the union of any two events A and B is given by the General A
 
 ### Addition Rule for Mutually Exclusive Events
 
-If events A and B are Mutually Exclusive Events, they cannot occur at the same time, meaning  $ P(A \text{ and } B) = 0 $ . In this special case, the General Addition Rule simplifies to:
+If events A and B are [Mutually Exclusive Events](./../mutually-exclusive-events/), they cannot occur at the same time, meaning  $ P(A \text{ and } B) = 0 $ . In this special case, the General Addition Rule simplifies to:
  $$  P(A \text{ or } B) = P(A) + P(B)  $$  
 ### Example of Union of Events
 

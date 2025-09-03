@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics 1: Topic 4.2 - Change in Momentum and Impulse
 
 ## Introduction to Momentum
 
-Momentum is a fundamental concept in physics, representing an object's "quantity of motion." It is a vector quantity, possessing both magnitude and direction. For a more detailed understanding, refer to Linear Momentum.
+Momentum is a fundamental concept in physics, representing an object's "quantity of motion." It is a vector quantity, possessing both magnitude and direction. For a more detailed understanding, refer to [Linear Momentum](./../linear-momentum/).
 
 ## Change in Momentum ( $ \Delta p $ )
 
@@ -68,7 +68,7 @@ This equivalence highlights the direct relationship between impulse and momentum
 
 The Impulse-Momentum Theorem is a direct consequence of Newton's Second Law. It states that the impulse applied to an object is equal to the change in its momentum. This theorem is a powerful tool for analyzing situations where forces act over time to change an object's motion.
 
-Starting from Newton's Second Law (Newton’s Second Law):
+Starting from Newton's Second Law ([Newton’s Second Law](./../newton’s-second-law/)):
  $ 
 F_{net} = ma
  $ 
@@ -102,6 +102,6 @@ The Impulse-Momentum Theorem helps explain various real-world phenomena and engi
 
 *   **Impact Protection**: Objects designed to absorb impact (e.g., airbags, crumple zones in cars, padding in sports equipment) work by increasing the time interval ( $ \Delta t $ ) over which the force acts. By extending  $ \Delta t $  for a given change in momentum ( $ \Delta p $ ), the average force ( $ F_{net} = \Delta p / \Delta t $ ) experienced by an object is reduced, minimizing injury or damage.
 *   **Follow-Through in Sports**: Athletes (e.g., in golf, tennis, baseball) are taught to "follow through" with their swings. This increases the contact time ( $ \Delta t $ ) between the implement (club, racket, bat) and the ball, thus increasing the impulse ( $ J = F_{net} \Delta t $ ) imparted to the ball, leading to a greater change in momentum ( $ \Delta p $ ) and higher final velocity.
-*   **Rocket Propulsion**: Rockets expel exhaust gases at high velocity. The force exerted by the engine on the gases (action) results in an equal and opposite force on the rocket (reaction), according to Newton’s Third Law. This sustained force over time provides an impulse, changing the rocket's momentum.
+*   **Rocket Propulsion**: Rockets expel exhaust gases at high velocity. The force exerted by the engine on the gases (action) results in an equal and opposite force on the rocket (reaction), according to [Newton’s Third Law](./../newton’s-third-law/). This sustained force over time provides an impulse, changing the rocket's momentum.
 
-Understanding these concepts is crucial for analyzing collisions and interactions between objects, which are further explored in Conservation of Linear Momentum and Elastic and Inelastic Collisions.
+Understanding these concepts is crucial for analyzing collisions and interactions between objects, which are further explored in [Conservation of Linear Momentum](./../conservation-of-linear-momentum/) and [Elastic and Inelastic Collisions](./../elastic-and-inelastic-collisions/).

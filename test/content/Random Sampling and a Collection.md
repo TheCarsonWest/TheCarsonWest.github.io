@@ -3,23 +3,23 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # AP Statistics: Random Sampling and a Collection
 
 ## Introduction to Sampling
 
-In statistics, it's often impractical or impossible to collect data from every individual in a Population. Instead, we study a subset of that population, called a Sample, to make inferences about the entire group. The process of selecting this subset is known as sampling. The goal of a well-designed sample is to be representative of the population, allowing us to generalize findings with confidence.
+In statistics, it's often impractical or impossible to collect data from every individual in a [Population](./../population/). Instead, we study a subset of that population, called a [Sample](./../sample/), to make inferences about the entire group. The process of selecting this subset is known as sampling. The goal of a well-designed sample is to be representative of the population, allowing us to generalize findings with confidence.
 
 ### Key Definitions
 
-*   **Population**: The entire group of individuals or objects about which we want information. (e.g., all high school students in the US)
-*   **Sample**: A subset of individuals in the population from which we actually collect data. (e.g., 1000 high school students in the US selected for a survey)
-*   **Census**: A study that collects data from every member of a population. While ideal, it's often too costly, time-consuming, or even impossible.
+*   **[Population](./../population/)**: The entire group of individuals or objects about which we want information. (e.g., all high school students in the US)
+*   **[Sample](./../sample/)**: A subset of individuals in the population from which we actually collect data. (e.g., 1000 high school students in the US selected for a survey)
+*   **[Census](./../census/)**: A study that collects data from every member of a population. While ideal, it's often too costly, time-consuming, or even impossible.
 *   **Sampling Frame**: The list of individuals from which a sample is actually selected. Ideally, the sampling frame should match the population, but in practice, it might not.
 
 ## Why Random Sampling?
 
-Random sampling is crucial because it ensures that every individual in the population has an equal or known chance of being selected. This helps avoid Bias and allows us to use probability to make valid inferences about the population. If a sample is not randomly selected, it may not be representative, leading to misleading conclusions.
+Random sampling is crucial because it ensures that every individual in the population has an equal or known chance of being selected. This helps avoid [Bias](./../bias/) and allows us to use probability to make valid inferences about the population. If a sample is not randomly selected, it may not be representative, leading to misleading conclusions.
 
 ### Types of Random Sampling Methods
 
@@ -33,9 +33,9 @@ Here are common methods for selecting a random sample:
 
 ## 1. Introduction to Random Sampling
 
-Random sampling is a cornerstone of inferential statistics. Its primary purpose is to select a Sample from a larger Population in such a way that the sample is representative, minimizing Bias and allowing for valid generalizations about the population.
+Random sampling is a cornerstone of inferential statistics. Its primary purpose is to select a [Sample](./../sample/) from a larger [Population](./../population/) in such a way that the sample is representative, minimizing [Bias](./../bias/) and allowing for valid generalizations about the population.
 
-When conducting a study, it's often impossible or impractical to collect data from every individual in the population (a Census). Therefore, we rely on samples. The *randomness* in sampling is critical because it ensures that every individual has an equal or known chance of being selected, which forms the basis for probability-based inference.
+When conducting a study, it's often impossible or impractical to collect data from every individual in the population (a [Census](./../census/)). Therefore, we rely on samples. The *randomness* in sampling is critical because it ensures that every individual has an equal or known chance of being selected, which forms the basis for probability-based inference.
 
 *   **Population**: The entire group of individuals or objects about which we want information. (e.g., all registered voters in a state)
 *   **Sample**: A subset of individuals in the population from which we actually collect data. (e.g., 1000 registered voters randomly selected for a poll)
@@ -47,7 +47,7 @@ The main goal of random sampling is to produce a sample that is **unbiased** and
 
 For example, if we wanted to estimate the average height of adult males in the US and only sampled basketball players, our estimate would be significantly biased upwards. Random sampling helps to mitigate such issues.
 
-Furthermore, random sampling allows us to use the laws of probability to quantify the uncertainty in our estimates. This is essential for constructing Confidence Intervals for a Population Mean or Setting Up a Test for a Population Proportion.
+Furthermore, random sampling allows us to use the laws of probability to quantify the uncertainty in our estimates. This is essential for constructing [Confidence Intervals for a Population Mean](./../confidence-intervals-for-a-population-mean/) or [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/).
 
 ## 3. Common Random Sampling Methods
 
@@ -67,7 +67,7 @@ If a population has  $ N = 5000 $  individuals and we want a sample of  $ n = 50
 
 ## 4. The Collection of Data: Practical Considerations
 
-Once a sampling method is chosen, the "collection" phase involves the actual gathering of data. This process is susceptible to various non-sampling errors, which are not due to the sampling method itself but rather how the data is collected or interpreted. Potential Problems with Sampling often arise during this phase.
+Once a sampling method is chosen, the "collection" phase involves the actual gathering of data. This process is susceptible to various non-sampling errors, which are not due to the sampling method itself but rather how the data is collected or interpreted. [Potential Problems with Sampling](./../potential-problems-with-sampling/) often arise during this phase.
 
 Some key considerations for data collection include:
 
@@ -76,4 +76,4 @@ Some key considerations for data collection include:
 *   **Wording of Questions**: Poorly worded or ambiguous questions can lead to misinterpretation and biased responses.
 *   **Undercoverage**: Occurs when some groups in the population are left out of the process of choosing the sample (e.g., a phone survey that excludes people without landlines).
 
-A well-designed study minimizes these issues to ensure the data collected accurately reflects the intended measurements from the chosen sample. Understanding these potential pitfalls is critical for interpreting Summary Statistics for a Quantitative Variable or Statistics for Two Categorical Variables derived from a sample.
+A well-designed study minimizes these issues to ensure the data collected accurately reflects the intended measurements from the chosen sample. Understanding these potential pitfalls is critical for interpreting [Summary Statistics for a Quantitative Variable](./../summary-statistics-for-a-quantitative-variable/) or [Statistics for Two Categorical Variables](./../statistics-for-two-categorical-variables/) derived from a sample.

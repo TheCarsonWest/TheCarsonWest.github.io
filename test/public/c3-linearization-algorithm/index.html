@@ -36,13 +36,13 @@
 </div>
 
 <main>
-<h1 id="method-resolution-order-mro">Method Resolution Order (MRO)</h1>
-<h1 id="c3-linearization-algorithm">C3 Linearization Algorithm</h1>
-<p>This note covers the C3 linearization algorithm used in Python&rsquo;s method resolution order (MRO) for resolving conflicts in multiple inheritance.</p>
+<h1 id="method-resolution-order-mromethod-resolution-order-mro"><a href="./../method-resolution-order-(mro)/">Method Resolution Order (MRO)</a></h1>
+<h1 id="c3-linearization-algorithmc3-linearization-algorithm"><a href="./../c3-linearization-algorithm/">C3 Linearization Algorithm</a></h1>
+<p>This note covers the C3 linearization algorithm used in Python&rsquo;s method resolution order (<a href="./../mro/">MRO</a>) for resolving conflicts in multiple inheritance.</p>
 <p>The core goal is to maintain a consistent and predictable order for attribute lookup in classes with multiple inheritance, avoiding ambiguities and ensuring that the intended superclass methods are called.  The algorithm is designed to be:</p>
 <ul>
-<li><strong>Consistent:</strong>  Always produces the same MRO for a given class hierarchy.</li>
-<li><strong>Intuitive:</strong> The resulting MRO generally reflects a programmer&rsquo;s intuitive expectations (though edge cases can exist).</li>
+<li><strong>Consistent:</strong>  Always produces the same <a href="./../mro/">MRO</a> for a given class hierarchy.</li>
+<li><strong>Intuitive:</strong> The resulting <a href="./../mro/">MRO</a> generally reflects a programmer&rsquo;s intuitive expectations (though edge cases can exist).</li>
 <li><strong>Correct:</strong> Prevents conflicts and ensures that the desired superclass methods are called in the appropriate order.</li>
 </ul>
 <p>The algorithm itself is complex, but can be understood through its principles:</p>
@@ -74,8 +74,8 @@
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">pass</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>print(D<span style="color:#f92672">.</span>__mro__)  <span style="color:#75715e"># Output: (&lt;class &#39;__main__.D&#39;&gt;, &lt;class &#39;__main__.B&#39;&gt;, &lt;class &#39;__main__.C&#39;&gt;, &lt;class &#39;__main__.A&#39;&gt;, &lt;class &#39;object&#39;&gt;)</span>
-</span></span></code></pre></div><p>In this case, the C3 algorithm produces the MRO <code>&lt;D, B, C, A, object&gt;</code>.</p>
-<p>Python MRO  (Multiple Inheritance in Python) Depth-First Search</p>
+</span></span></code></pre></div><p>In this case, the C3 algorithm produces the <a href="./../mro/">MRO</a> <code>&lt;D, B, C, A, object&gt;</code>.</p>
+<p><a href="./../python-mro/">Python MRO</a>  (<a href="./../multiple-inheritance-in-python/">Multiple Inheritance in Python</a>) <a href="./../depth-first-search/">Depth-First Search</a></p>
 <p>The C3 algorithm is crucial for understanding Python&rsquo;s sophisticated approach to multiple inheritance. While the algorithm&rsquo;s implementation details are intricate, the core principles of depth-first traversal and the careful merging of MROs ensure consistent and predictable behavior.  Understanding the intricacies allows for effective use and avoidance of unexpected behaviors in complex inheritance scenarios.</p>
 
 </main>

@@ -26,5 +26,5 @@ For simplicity we will do solve using  $ y=f(x) $
 ####  $$ \int_{0}^{27}\sqrt{ 1+(f'(x))^2 }dx = 45.09697 \text{ Meters} $$  # (b):
 We simply need to find how long it takes the car to travel  $ 45.09697 $  Meters
 ##  $$ \int_{0}^{x}s(t)dt=45.09697 $$  **Solve using desmos**
-!Pasted image 20250522223838.png
+![Pasted image 20250522223838.png](./../pasted-image-20250522223838.png/)
 ###  $$ \int_{0}^{2.818}s(t)dt=\boxed{45.09697} $$  ####  $$ \boxed{ \text{It takes 2.818 Seconds for the McLaren to go through the Fairmont Hairpin}} $$  

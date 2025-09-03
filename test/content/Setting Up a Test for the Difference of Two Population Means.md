@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Setting Up a Test for the Difference of Two Population Means
 
-When we want to compare the means of two distinct populations or two different treatments, we often use a two-sample t-test for the difference between two population means. This statistical inference procedure allows us to determine if there is a statistically significant difference between the true population means ( $ \mu_1 $  and  $ \mu_2 $ ). This process involves stating hypotheses, checking conditions, and defining the test statistic and p-value, similar to Setting Up a Test for a Population Mean.
+When we want to compare the means of two distinct populations or two different treatments, we often use a two-sample t-test for the difference between two population means. This statistical inference procedure allows us to determine if there is a statistically significant difference between the true population means ( $ \mu_1 $  and  $ \mu_2 $ ). This process involves stating hypotheses, checking conditions, and defining the test statistic and p-value, similar to [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/).
 
 ## 1. State the Hypotheses
 
@@ -27,11 +27,11 @@ The first step in setting up any significance test is to clearly state the null 
 
 ## 2. Identify the Significance Level ( $ \alpha $ )
 
-Before collecting or analyzing data, you should choose a significance level, denoted by  $ \alpha $ . This is the probability of making a Potential Errors When Performing Tests#Type I Error|Type I error (rejecting a true null hypothesis). Common choices for  $ \alpha $  are 0.05 or 0.01. If not provided, it is often assumed to be 0.05.
+Before collecting or analyzing data, you should choose a significance level, denoted by  $ \alpha $ . This is the probability of making a [Potential Errors When Performing Tests#Type I Error|Type I error](./../potential-errors-when-performing-tests#type-i-error|type-i-error/) (rejecting a true null hypothesis). Common choices for  $ \alpha $  are 0.05 or 0.01. If not provided, it is often assumed to be 0.05.
 
 ## 3. Check Conditions for Inference
 
-To ensure the validity of the two-sample t-test, several conditions must be met. These conditions are similar to those for Constructing a Confidence Interval for a Population Mean but are applied to two independent samples.
+To ensure the validity of the two-sample t-test, several conditions must be met. These conditions are similar to those for [Constructing a Confidence Interval for a Population Mean](./../constructing-a-confidence-interval-for-a-population-mean/) but are applied to two independent samples.
 
 *   **Random Condition**: The data for each sample must come from a random sample or a randomized experiment.
     *   If comparing two populations, both samples must be independent random samples from their respective populations.
@@ -42,7 +42,7 @@ To ensure the validity of the two-sample t-test, several conditions must be met.
     *   This ensures that the observations within each sample are independent. The two samples themselves must also be independent of each other.
 *   **Normal/Large Sample Condition**: For each sample, the sampling distribution of the sample mean must be approximately normal. This can be satisfied if:
     *   Both population distributions are approximately normal (checked with graphs like dot plots, histograms, or normal probability plots).
-    *   Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to The Central Limit Theorem.
+    *   Both sample sizes are sufficiently large ( $ n_1 \ge 30 $  and  $ n_2 \ge 30 $ ) due to [The Central Limit Theorem](./../the-central-limit-theorem/).
     *   If sample sizes are small and the population distribution is unknown, use graphical displays of the sample data to assess for strong skewness or outliers. If such features are present, the condition is not met.
 
 ## 4. Name the Test
@@ -62,4 +62,4 @@ The formula for the two-sample t-test statistic is:
 
 The degrees of freedom (df) for this t-statistic are calculated using a complex formula or, more commonly in AP Statistics, by using the smaller of  $ (n_1 - 1) $  and  $ (n_2 - 1) $  for a conservative estimate, or letting technology calculate a more precise value.
 
-After setting up the test, the next step is Carrying Out a Test for the Difference of Two Population Means, which involves calculating the test statistic and the p-value, and then making a conclusion.
+After setting up the test, the next step is [Carrying Out a Test for the Difference of Two Population Means](./../carrying-out-a-test-for-the-difference-of-two-population-means/), which involves calculating the test statistic and the p-value, and then making a conclusion.

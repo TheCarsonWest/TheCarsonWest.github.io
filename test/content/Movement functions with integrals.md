@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# Calc home
+# [Calc home](./../calc-home/)
 # Movement Functions with Integrals: AP Calculus AB Rundown
 
 This document provides a concise overview of movement functions and their relationship to integrals, as relevant to AP Calculus AB.
@@ -27,7 +27,7 @@ Integration allows us to move "backwards" in the position-velocity-acceleration 
 *   **Finding Velocity from Acceleration:**  Given the acceleration function  $ a(t) $  and the initial velocity  $ v(0) $ , we can find the velocity function  $ v(t) $  by integrating  $ a(t) $ :
 
  $$ v(t) = v(0) + \int_{0}^{t} a(\tau) \, d\tau $$  
-Note that we are using  $ \tau $  as the variable of integration here to avoid confusion with the upper limit,  $ t $ . Understanding Dummy Variables
+Note that we are using  $ \tau $  as the variable of integration here to avoid confusion with the upper limit,  $ t $ . [Understanding Dummy Variables](./../understanding-dummy-variables/)
 
 *   **Finding Position from Velocity:** Given the velocity function  $ v(t) $  and the initial position  $ s(0) $ , we can find the position function  $ s(t) $  by integrating  $ v(t) $ :
 
@@ -54,7 +54,7 @@ Where  $ v(t) \ge 0 $  on  $ [a, c] $ ,  $ v(t) \le 0 $  on  $ [c, d] $ , and  $
 *   **Average Velocity:** The displacement divided by the time interval:
 
  $$ \text{Average Velocity} = \frac{s(b) - s(a)}{b - a} = \frac{1}{b - a} \int_{a}^{b} v(t) \, dt $$  
-This is also the average value of the velocity function over the interval  $ [a, b] $ . Average of a function
+This is also the average value of the velocity function over the interval  $ [a, b] $ . [Average of a function](./../average-of-a-function/)
 
 *   **Average Speed:** The total distance traveled divided by the time interval:
 
@@ -68,14 +68,14 @@ This is also the average value of the velocity function over the interval  $ [a,
 *   **Direction:** Velocity is a vector quantity (it has both magnitude and direction). Speed is a scalar quantity (it only has magnitude).  The sign of the velocity indicates direction.
 
 *   **When  $ v(t) = 0 $ :**  When the velocity is zero, the object is momentarily at rest.  This is often a turning point, where the object changes direction.  Finding these points is essential for calculating total distance.
-Finding Roots
+[Finding Roots](./../finding-roots/)
 
-## Understanding Dummy Variables
+## [Understanding Dummy Variables](./../understanding-dummy-variables/)
 In the equations:
  $$ v(t) = v(0) + \int_{0}^{t} a(\tau) \, d\tau $$   $$ s(t) = s(0) + \int_{0}^{t} v(\tau) \, d\tau $$  
 The variable  $ \tau $  is a "dummy variable".  It's just a placeholder variable used within the integral.  The important thing is that the *limits* of integration are in terms of time ( $ 0 $  to  $ t $ ).  The variable of integration inside the integral ( $ a(\tau) $  or  $ v(\tau) $ ) doesn't affect the final result, as long as it's consistent with the differential ( $ d\tau $ ). We use a different variable than  $ t $  to avoid confusion between the upper limit of integration and the variable in the function we are defining.
 
-## Average of a function
+## [Average of a function](./../average-of-a-function/)
 The Average Value Theorem states that if a function  $ f(x) $  is continuous on the closed interval  $ [a, b] $ , then there exists a number  $ c $  in the interval  $ (a, b) $  such that:
 
  $$ f(c) = \frac{1}{b-a} \int_a^b f(x) \, dx $$  

@@ -3,20 +3,20 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Potential Errors When Performing Tests
 
 When performing a hypothesis test, our goal is to make a decision about a population parameter based on sample data. However, since we are using sample data, there's always a chance our decision will be incorrect, regardless of how carefully we follow the procedure. These potential errors are a fundamental aspect of statistical inference.
 
-## Type I Error
+## [Type I Error](./../type-i-error/)
 
 A **Type I error** occurs when we **reject a true null hypothesis** ( $ H_0 $ ). This means we conclude there is a significant effect or difference when, in reality, there isn't one in the population.
 
 *   **Probability of a Type I Error:** Denoted by  $ \alpha $  (alpha), which is the significance level of the test.
     *    $$ P(\text{Type I Error}) = P(\text{Reject } H_0 \text{ | } H_0 \text{ is True}) = \alpha $$  *   **Consequences:** The consequences depend on the context of the problem. For example, if a company concludes a new drug is effective when it isn't, they might invest heavily in a useless product or potentially harm patients.
-*   **Controlling Type I Error:** We set the  $ \alpha $  level (e.g., 0.05 or 0.01) before conducting the test. A smaller  $ \alpha $  reduces the probability of a Type I error but makes it harder to reject  $ H_0 $ . This is discussed further in Setting Up a Test for a Population Proportion.
+*   **Controlling Type I Error:** We set the  $ \alpha $  level (e.g., 0.05 or 0.01) before conducting the test. A smaller  $ \alpha $  reduces the probability of a Type I error but makes it harder to reject  $ H_0 $ . This is discussed further in [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/).
 
-## Type II Error
+## [Type II Error](./../type-ii-error/)
 
 A **Type II error** occurs when we **fail to reject a false null hypothesis** ( $ H_0 $ ). This means we fail to detect a significant effect or difference that actually exists in the population.
 
@@ -54,4 +54,4 @@ This table summarizes the possible outcomes of a hypothesis test:
 | **Fail to Reject  $ H_0 $ ** | Correct Decision ( $ 1 - \alpha $ )               | Type II Error ( $ \beta $ )                                          |
 | **Reject  $ H_0 $ **       | Type I Error ( $ \alpha $ )                       | Correct Decision (Power,  $ 1 - \beta $ )                           |
 
-Understanding these errors is crucial for interpreting the results of any hypothesis test, as discussed in Interpreting p-Values and Concluding a Test for a Population Proportion.
+Understanding these errors is crucial for interpreting the results of any hypothesis test, as discussed in [Interpreting p-Values](./../interpreting-p-values/) and [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/).

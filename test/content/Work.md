@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # Topic 3.2: Work
 
 Work is a fundamental concept in physics, representing the transfer of energy to or from an object by means of a force acting on that object. It's crucial for understanding how forces change the motion or configuration of systems.
@@ -23,7 +23,7 @@ The work ( $ W $ ) done by a constant force ( $ F $ ) on an object that undergoe
  $ W = F d \cos\theta $ 
 
 Where:
-*    $ W $  is the work done (a Scalars and Vectors in One Dimension|scalar quantity).
+*    $ W $  is the work done (a [Scalars and Vectors in One Dimension|scalar quantity](./../scalars-and-vectors-in-one-dimension|scalar-quantity/)).
 *    $ F $  is the magnitude of the constant force.
 *    $ d $  is the magnitude of the displacement.
 *    $ \theta $  is the angle between the force vector and the displacement vector.
@@ -40,7 +40,7 @@ The sign of work depends on the angle  $ \theta $  between the force and displac
 | Angle ( $ \theta $ ) |  $ \cos\theta $  | Type of Work | Description                                                                        |
 | :--------------- | :----------- | :----------- | :--------------------------------------------------------------------------------- |
 |  $ 0^\circ \le \theta < 90^\circ $  | Positive       | Positive Work  | Force has a component in the direction of motion, increasing the object's speed/energy. |
-|  $ \theta = 90^\circ $    | Zero         | Zero Work    | Force is perpendicular to the displacement (e.g., centripetal force in Circular Motion). |
+|  $ \theta = 90^\circ $    | Zero         | Zero Work    | Force is perpendicular to the displacement (e.g., centripetal force in [Circular Motion](./../circular-motion/)). |
 |  $ 90^\circ < \theta \le 180^\circ $  | Negative       | Negative Work  | Force has a component opposite to the direction of motion, decreasing the object's speed/energy. |
 
 **Examples:**
@@ -58,13 +58,13 @@ Or
 
 ## Work-Energy Theorem
 
-One of the most important applications of work is the Work-Energy Theorem. This theorem states that the net work done on an object is equal to the change in its Translational Kinetic Energy:
+One of the most important applications of work is the [Work-Energy Theorem](./../work-energy-theorem/). This theorem states that the net work done on an object is equal to the change in its [Translational Kinetic Energy](./../translational-kinetic-energy/):
 
  $ W_{net} = \Delta K = K_f - K_i = \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 $ 
 
 Where:
 *    $ W_{net} $  is the net work done on the object.
-*    $ \Delta K $  is the change in the object's Translational Kinetic Energy.
+*    $ \Delta K $  is the change in the object's [Translational Kinetic Energy](./../translational-kinetic-energy/).
 *    $ m $  is the mass of the object.
 *    $ v_f $  is the final speed of the object.
 *    $ v_i $  is the initial speed of the object.
@@ -73,11 +73,11 @@ This theorem provides a powerful link between forces and changes in motion.
 
 ## Work and Energy
 
-Work is directly related to energy transfer. When positive work is done on an object, its energy increases. When negative work is done, its energy decreases. Work is also closely related to Potential Energy concepts and is a key component in the principle of Conservation of Energy. The rate at which work is done is known as Power.
+Work is directly related to energy transfer. When positive work is done on an object, its energy increases. When negative work is done, its energy decreases. Work is also closely related to [Potential Energy](./../potential-energy/) concepts and is a key component in the principle of [Conservation of Energy](./../conservation-of-energy/). The rate at which work is done is known as [Power](./../power/).
 
 ## Work Done by a Variable Force
 
 For situations where the applied force is not constant, the work done must be calculated using calculus. If the force varies with position ( $ F(x) $ ), the work done is the area under the force-displacement graph:
 
  $ W = \int_{x_i}^{x_f} F(x) \, dx $ 
-This is particularly useful for forces like Spring Forces where  $ F = -kx $ .
+This is particularly useful for forces like [Spring Forces](./../spring-forces/) where  $ F = -kx $ .

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Constructors
-# Special Methods 
+# [Constructors](./../constructors/)
+# [Special Methods](./../special-methods/) 
 These are methods in Python classes that begin and end with double underscores (`__`), also known as "dunder" methods. They define how objects of the class behave in certain contexts.  They're crucial for creating classes that interact seamlessly with built-in Python features and other libraries.
 
 **Examples and Functionality:**
@@ -55,20 +55,20 @@ my_list = MyList(1,2,3)
 print(len(my_list))
 ```
 
-* `__add__(self, other)`: Defines the behavior of the `+` operator for objects of your class. Operator Overloading
+* `__add__(self, other)`: Defines the behavior of the `+` operator for objects of your class. [Operator Overloading](./../operator-overloading/)
 
-* `__eq__(self, other)`: Defines the behavior of the `==` operator. Operator Overloading
+* `__eq__(self, other)`: Defines the behavior of the `==` operator. [Operator Overloading](./../operator-overloading/)
 
-* `__iter__(self)`:  Makes your class iterable (using `for` loops).  Needs to return an iterator object. Iterators and Generators
+* `__iter__(self)`:  Makes your class iterable (using `for` loops).  Needs to return an iterator object. [Iterators](./../iterators/) and [Generators](./../generators/)
 
-* `__getitem__(self, key)`: Allows accessing items using indexing (`my_object[index]]`). Context Managers
+* `__getitem__(self, key)`: Allows accessing items using indexing (`my_object[index]]`). [Context Managers](./../context-managers/)
 
 
 **Further Exploration:**
 
-* Operator Overloading:  Focuses on `__add__`, `__eq__`, `__mul__`, etc.  How to customize arithmetic and comparison Operators.
-* Iterators and Generators:  Detailed explanation of how to create iterable classes using `__iter__` and `__next__`.
-* Context Managers: Explanation of `__enter__` and `__exit__` methods for managing resources.
-* Object Lifecycle:  A deeper dive into object creation, destruction, and garbage collection.  How these special methods interact with the Python interpreter.
+* [Operator Overloading](./../operator-overloading/):  Focuses on `__add__`, `__eq__`, `__mul__`, etc.  How to customize arithmetic and comparison [Operators](./../operators/).
+* [Iterators](./../iterators/) and [Generators](./../generators/):  Detailed explanation of how to create iterable classes using `__iter__` and `__next__`.
+* [Context Managers](./../context-managers/): Explanation of `__enter__` and `__exit__` methods for managing resources.
+* [Object Lifecycle](./../object-lifecycle/):  A deeper dive into object creation, destruction, and garbage collection.  How these special methods interact with the Python interpreter.
 
 This is not an exhaustive list, but covers some of the most frequently used special methods.  The Python documentation provides a complete reference.

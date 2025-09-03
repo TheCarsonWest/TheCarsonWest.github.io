@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Python 1 Home
-# Default Parameters 
+# [Python 1 Home](./../python-1-home/)
+# [Default Parameters](./../default-parameters/) 
 Default parameters allow you to specify default values for function arguments.  If a caller doesn't provide a value for an argument with a default, the default value is used.
 
 ```python
@@ -29,7 +29,7 @@ def func(a=1, b):
     pass
 ```
 
-* **Mutable Default Arguments:** Be cautious when using mutable objects (like lists or dictionaries) as default parameters.  The default is created *once* when the function is defined, not each time it's called. This can lead to unexpected behavior.
+* **Mutable [Default Arguments](./../default-arguments/):** Be cautious when using mutable objects (like lists or dictionaries) as default parameters.  The default is created *once* when the function is defined, not each time it's called. This can lead to unexpected behavior.
 
 ```python
 def add_to_list(item, my_list=1):
@@ -53,6 +53,6 @@ print(add_to_list(1))  # Output: 1
 print(add_to_list(2))  # Output: 2
 ```
 
-Function Parameters
-Python Functions
+[Function Parameters](./../function-parameters/)
+[Python Functions](./../python-functions/)
 

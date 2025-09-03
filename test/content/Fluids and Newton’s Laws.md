@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics Note Page: Topic 8.3 - Fluids and Newton’s Laws
 
-This topic explores how the fundamental principles of Newton’s Second Law and Newton’s Third Law apply to systems involving fluids, building upon our understanding of forces and motion. We'll examine concepts like density, pressure, and buoyancy, understanding how fluids exert forces and respond to external forces.
+This topic explores how the fundamental principles of [Newton’s Second Law](./../newton’s-second-law/) and [Newton’s Third Law](./../newton’s-third-law/) apply to systems involving fluids, building upon our understanding of forces and motion. We'll examine concepts like density, pressure, and buoyancy, understanding how fluids exert forces and respond to external forces.
 
 ## 1. Density ( $ \rho $ )
 
@@ -42,7 +42,7 @@ Pressure is the force exerted perpendicularly on a surface per unit area. In flu
     *    $ \rho $  is the fluid density
     *    $ g $  is the acceleration due to gravity
     *    $ h $  is the depth
-*   Atmospheric Pressure: The pressure exerted by the weight of the air in the atmosphere. At sea level, it's approximately  $ 1.01 \times 10^5 $  Pa.
+*   [Atmospheric Pressure](./../atmospheric-pressure/): The pressure exerted by the weight of the air in the atmosphere. At sea level, it's approximately  $ 1.01 \times 10^5 $  Pa.
 
 ## 3. Buoyancy and Archimedes’ Principle
 
@@ -59,7 +59,7 @@ Buoyancy is an upward force exerted by a fluid that opposes the weight of an imm
 
 ### Applying Newton's Laws to Buoyancy
 
-When an object is in a fluid, its motion (or lack thereof) is governed by the forces acting on it, which include its weight and the buoyant force. We use Forces and Free-Body Diagrams to analyze these situations.
+When an object is in a fluid, its motion (or lack thereof) is governed by the forces acting on it, which include its weight and the buoyant force. We use [Forces and Free-Body Diagrams](./../forces-and-free-body-diagrams/) to analyze these situations.
 
 *   **Floating**: An object floats if  $ F_B \ge mg $ . This occurs when the object's average density is less than or equal to the fluid's density. In equilibrium,  $ F_B = mg $ .
     *   If  $ \rho_{object} < \rho_{fluid} $ , the object floats with part of its volume submerged.
@@ -74,6 +74,6 @@ When an object is in a fluid, its motion (or lack thereof) is governed by the fo
 
 ## 4. Continuity Equation (Revisited in Fluids and Conservation Laws)
 
-While primarily discussed in Fluids and Conservation Laws, the concept of fluid flow, where mass is conserved, is related to how fluids behave under forces. The continuity equation describes the conservation of mass in fluid flow:
+While primarily discussed in [Fluids and Conservation Laws](./../fluids-and-conservation-laws/), the concept of fluid flow, where mass is conserved, is related to how fluids behave under forces. The continuity equation describes the conservation of mass in fluid flow:
  $  A_1 v_1 = A_2 v_2  $ 
 Where  $ A $  is the cross-sectional area and  $ v $  is the fluid speed. This implies that for an incompressible fluid, where the area decreases, the speed must increase, affecting the forces experienced by the fluid.

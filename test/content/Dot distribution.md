@@ -4,9 +4,9 @@
 	author = 'Carson West'
 +++
 
- Glossary
+ [Glossary](./../glossary/)
 
-** Dot distribution:**
+** [Dot distribution](./../dot-distribution/):**
 
 - A method of mapping by which a single dot represents a certain number of people or other phenomena.
 - Used to show the distribution of a population or other phenomenon across a given area.

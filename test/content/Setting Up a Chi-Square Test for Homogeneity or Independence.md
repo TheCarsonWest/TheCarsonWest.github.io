@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Setting Up a Chi-Square Test for Homogeneity or Independence
 
 Chi-square tests for homogeneity or independence are powerful tools used to analyze relationships between two categorical variables. While similar in their calculations, they differ fundamentally in their experimental design and the conclusions they allow us to draw.
 
-## Chi-Square Test for Homogeneity vs. Independence
+## [Chi-Square Test for Homogeneity vs. Independence](./../chi-square-test-for-homogeneity-vs.-independence/)
 
 The distinction between a test for homogeneity and a test for independence lies in the sampling method:
 
@@ -45,7 +45,7 @@ Before performing a chi-square test, certain conditions must be met:
 
 ## Observed and Expected Counts
 
-Data for these tests are organized into a Two-Way Table of **observed counts**. The core idea of the chi-square test is to compare these observed counts to the **expected counts** – what we would expect to see if the null hypothesis were true.
+Data for these tests are organized into a [Two-Way Table](./../two-way-table/) of **observed counts**. The core idea of the chi-square test is to compare these observed counts to the **expected counts** – what we would expect to see if the null hypothesis were true.
 
 The formula for calculating an expected count in any cell of a two-way table is:
 
@@ -62,7 +62,7 @@ Let's illustrate with an example:
 To find the expected count for Group A and Category 1:
  $$  E_{\text{Group A, Cat 1}} = \frac{(\text{Row Total for Group A}) \times (\text{Column Total for Cat 1})}{\text{Grand Total}} = \frac{100 \times 55}{200} = 27.5
  $$  
-Expected Counts in Two-Way Tables are crucial for calculating the chi-square test statistic.
+[Expected Counts in Two-Way Tables](./../expected-counts-in-two-way-tables/) are crucial for calculating the chi-square test statistic.
 
 ## The Chi-Square Test Statistic
 
@@ -82,4 +82,4 @@ The degrees of freedom (df) for a chi-square test for homogeneity or independenc
  $$  
 These degrees of freedom are used to determine the shape of the chi-square distribution and ultimately to find the p-value.
 
-Once these steps are completed, you would proceed to Carrying Out a Chi-Square Test for Homogeneity or Independence to calculate the p-value and draw a conclusion.
+Once these steps are completed, you would proceed to [Carrying Out a Chi-Square Test for Homogeneity or Independence](./../carrying-out-a-chi-square-test-for-homogeneity-or-independence/) to calculate the p-value and draw a conclusion.

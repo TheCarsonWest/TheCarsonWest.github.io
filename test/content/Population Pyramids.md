@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# APHG Unit 2
+# [APHG Unit 2](./../aphg-unit-2/)
 # Basic Types
 ## Rapid Growth
 !1(https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc-pWQDamNqEo4BJR7YdJnNSs9n17-D1QDpive1yPFXOr1vLia_4M25kAcrvSAGEomUAy343CtoTJ_VDmZRTQuKT0cx3De_gwODaPnzGTgID29pX1DEcRP_ePd4TZoajDjNI_95M426V3WO8LbSOjQkFv7bLSbJZQsxJA0=s2048?key=B659LZ_lNi3daDyxDVX5ew)

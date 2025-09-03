@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Carrying Out a Test for the Difference of Two Population Proportions
 
-This note page details the practical steps involved in executing a hypothesis test for comparing two population proportions, often following the setup discussed in Setting Up a Test for the Difference of Two Population Proportions. The goal is to determine if there's a statistically significant difference between two population proportions ( $ p_1 $  and  $ p_2 $ ) based on sample data.
+This note page details the practical steps involved in executing a hypothesis test for comparing two population proportions, often following the setup discussed in [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/). The goal is to determine if there's a statistically significant difference between two population proportions ( $ p_1 $  and  $ p_2 $ ) based on sample data.
 
 ## 1. State Hypotheses
 
-Before carrying out the test, the null and alternative hypotheses must be clearly stated. This was covered in Setting Up a Test for the Difference of Two Population Proportions.
+Before carrying out the test, the null and alternative hypotheses must be clearly stated. This was covered in [Setting Up a Test for the Difference of Two Population Proportions](./../setting-up-a-test-for-the-difference-of-two-population-proportions/).
 *   **Null Hypothesis ( $ H_0 $ ):**  $ p_1 = p_2 $  (or  $ p_1 - p_2 = 0 $ ). This assumes no difference between the population proportions.
 *   **Alternative Hypothesis ( $ H_a $ ):**
     *    $ p_1 \neq p_2 $  (Two-sided test)
@@ -24,7 +24,7 @@ Before performing any calculations, it is crucial to verify that the necessary c
 | Condition Name   | Description                                                                                                                                                                      |
 | :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Random**       | The data should come from two independent random samples or two groups in a randomized experiment. Without random assignment/sampling, generalization to the population is problematic. |
-| **Independent**  |   The 10% Condition: When sampling without replacement, both sample sizes ( $ n_1 $  and  $ n_2 $ ) must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). This ensures the independence of observations within each sample.                                                                                              |
+| **Independent**  |   [The 10% Condition](./../the-10%-condition/): When sampling without replacement, both sample sizes ( $ n_1 $  and  $ n_2 $ ) must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). This ensures the independence of observations within each sample.                                                                                              |
 | **Normal (Large Counts)** | The sampling distribution of  $ \hat{p}_1 - \hat{p}_2 $  is approximately normal if the number of successes and failures in both samples are sufficiently large. Specifically:                                                                                                                                                                                                                                                           |
 |                  |    $ n_1 \hat{p}_1 \ge 10 $ ,  $ n_1 (1 - \hat{p}_1) \ge 10 $                                                                                                                                        |
 |                  |    $ n_2 \hat{p}_2 \ge 10 $ ,  $ n_2 (1 - \hat{p}_2) \ge 10 $                                                                                                                                       |
@@ -48,7 +48,7 @@ The z-test statistic is then calculated as:
  $$  z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}}  $$  
 ## 4. Calculate the p-value
 
-The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming the null hypothesis is true. This probability is found using the standard normal distribution (Z-distribution). Interpreting p-Values provides more details on its meaning.
+The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming the null hypothesis is true. This probability is found using the standard normal distribution (Z-distribution). [Interpreting p-Values](./../interpreting-p-values/) provides more details on its meaning.
 
 *   **For  $ H_a: p_1 \neq p_2 $  (Two-sided):**  $ P(|Z| \ge |z|) = 2 \cdot P(Z \ge |z|) $ 
 *   **For  $ H_a: p_1 < p_2 $  (Left-sided):**  $ P(Z \le z) $ 
@@ -63,4 +63,4 @@ Finally, compare the p-value to the chosen significance level ( $ \alpha $ ) (e.
 *   **If p-value  $ \le \alpha $ :** Reject the null hypothesis ( $ H_0 $ ). There is convincing evidence to support the alternative hypothesis ( $ H_a $ ).
 *   **If p-value  $ > \alpha $ :** Fail to reject the null hypothesis ( $ H_0 $ ). There is not convincing evidence to support the alternative hypothesis ( $ H_a $ ).
 
-State your conclusion in the context of the problem, referring back to the original claim about the two population proportions. Remember to mention the significance level used. Concluding a Test for a Population Proportion offers general guidance on forming conclusions. Be mindful of Potential Errors When Performing Tests.
+State your conclusion in the context of the problem, referring back to the original claim about the two population proportions. Remember to mention the significance level used. [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/) offers general guidance on forming conclusions. Be mindful of [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/).

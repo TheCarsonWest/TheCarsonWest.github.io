@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="python-1-home">Python 1 Home</h1>
-<h1 id="function-parameters">Function Parameters</h1>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="function-parametersfunction-parameters"><a href="./../function-parameters/">Function Parameters</a></h1>
 <p>Python function parameters allow you to pass data into functions, making them reusable and flexible.  There are several types of parameters:</p>
 <ul>
 <li><strong>Positional Parameters:</strong>  These are matched based on their position in the function definition and the function call.</li>
@@ -51,14 +51,14 @@
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>greet(greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Good morning&#34;</span>, name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bob&#34;</span>) <span style="color:#75715e"># Output: Good morning, Bob!</span>
 </span></span></code></pre></div><ul>
-<li><strong>Default Parameters:</strong> These assign a default value to a parameter if no value is provided during the function call.</li>
+<li><strong><a href="./../default-parameters/">Default Parameters</a>:</strong> These assign a default value to a parameter if no value is provided during the function call.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name, greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hello&#34;</span>):
 </span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>greeting<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Charlie&#34;</span>) <span style="color:#75715e"># Output: Hello, Charlie!</span>
 </span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Dave&#34;</span>, <span style="color:#e6db74">&#34;Hi&#34;</span>) <span style="color:#75715e"># Output: Hi, Dave!</span>
-</span></span></code></pre></div><p>Default Parameters</p>
+</span></span></code></pre></div><p><a href="./../default-parameters/">Default Parameters</a></p>
 <ul>
 <li><strong>Variable-length Positional Arguments (<code>*args</code>):</strong>  Allows a function to accept any number of positional arguments. These are packed into a tuple.</li>
 </ul>
@@ -77,7 +77,7 @@
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> kwargs<span style="color:#f92672">.</span>items():
 </span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>key<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>print_kwargs(name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Eve&#34;</span>, age<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, city<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;New York&#34;</span>)
+</span></span><span style="display:flex;"><span>print_kwargs(name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Eve&#34;</span>, age<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, city<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;[New York](./../new-york/)&#34;</span>)
 </span></span></code></pre></div><ul>
 <li><strong>Combining Parameter Types:</strong> You can combine different parameter types in a single function definition, but positional parameters must come before keyword parameters and <code>*args</code> before <code>**kwargs</code>.</li>
 </ul>
@@ -90,8 +90,8 @@
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">annotated_function</span>(name: str, age: int) <span style="color:#f92672">-&gt;</span> str:
 </span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{</span>age<span style="color:#e6db74">}</span><span style="color:#e6db74"> years old.&#34;</span>
-</span></span></code></pre></div><p>Type Hinting</p>
-<p>Related Notes: Python Functions, Return Values</p>
+</span></span></code></pre></div><p><a href="./../type-hinting/">Type Hinting</a></p>
+<p>Related Notes: <a href="./../python-functions/">Python Functions</a>, <a href="./../return-values/">Return Values</a></p>
 
 </main>
 

@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics 1: Topic 3.4 - Conservation of Energy
 
 ## 1. Introduction to Conservation of Energy
 
-The principle of Conservation of Energy is one of the most fundamental concepts in physics. It states that the total energy of an isolated system remains constant; energy can neither be created nor destroyed, but it can be transformed from one form to another. In the context of mechanics, this often involves the interplay between kinetic energy and various forms of potential energy.
+The principle of [Conservation of Energy](./../conservation-of-energy/) is one of the most fundamental concepts in physics. It states that the total energy of an isolated system remains constant; energy can neither be created nor destroyed, but it can be transformed from one form to another. In the context of mechanics, this often involves the interplay between kinetic energy and various forms of potential energy.
 
 ## 2. Mechanical Energy
 
-Mechanical energy ( $ E_M $ ) is the sum of an object's Translational Kinetic Energy ( $ K $ ) and all forms of Potential Energy ( $ U $ ).
+Mechanical energy ( $ E_M $ ) is the sum of an object's [Translational Kinetic Energy](./../translational-kinetic-energy/) ( $ K $ ) and all forms of [Potential Energy](./../potential-energy/) ( $ U $ ).
 
  $  E_M = K + U  $ 
 
@@ -30,11 +30,11 @@ Potential energy is stored energy that depends on the relative positions of vari
     Where  $ m $  is mass,  $ g $  is the acceleration due to gravity, and  $ h $  is the height above a chosen reference level.
 *   **Elastic Potential Energy ( $ U_s $ )**: Energy stored in an elastic object, like a spring, when it is stretched or compressed from its equilibrium position.
      $  U_s = \frac{1}{2}kx^2  $ 
-    Where  $ k $  is the Spring Forces|spring constant and  $ x $  is the displacement from equilibrium.
+    Where  $ k $  is the [Spring Forces|spring constant](./../spring-forces|spring-constant/) and  $ x $  is the displacement from equilibrium.
 
 ## 3. The Principle of Conservation of Mechanical Energy
 
-When only conservative forces (like gravity and spring forces) do Work within a system, the total mechanical energy of the system remains constant.
+When only conservative forces (like gravity and spring forces) do [Work](./../work/) within a system, the total mechanical energy of the system remains constant.
 
  $  E_{Mi} = E_{Mf}  $ 
  $  K_i + U_i = K_f + U_f  $ 

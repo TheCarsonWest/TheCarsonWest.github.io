@@ -3,17 +3,17 @@
 [params]
 	author = 'Carson West'
 +++
-# Multidimensional Lists
-# NumPy Arrays 
+# [Multidimensional Lists](./../multidimensional-lists/)
+# [NumPy Arrays](./../numpy-arrays/) 
 NumPy arrays are the fundamental data structure for numerical computation in Python.  They provide efficient storage and manipulation of numerical data.  Key advantages over standard Python lists include:
 
 * **Homogeneous data type:** All elements in a NumPy array must be of the same data type. This allows for optimized memory usage and faster computations.
 * **Vectorized operations:** NumPy supports vectorized operations, meaning that operations are applied to the entire array at once, rather than element by element. This significantly speeds up calculations.
-* **Broadcasting:**  A powerful feature that allows arithmetic operations between arrays of different shapes under certain conditions. Broadcasting in NumPy
+* **Broadcasting:**  A powerful feature that allows arithmetic operations between arrays of different shapes under certain conditions. [Broadcasting in NumPy](./../broadcasting-in-numpy/)
 * **Efficient memory layout:** NumPy arrays store data in contiguous memory locations, improving memory access speed.
 
 
-**Creating NumPy Arrays:**
+**Creating [NumPy Arrays](./../numpy-arrays/):**
 
 NumPy arrays are created using the `numpy.array()` function.
 
@@ -64,7 +64,7 @@ arr8 = arr2[:2, :2 # Selects a subarray
 # Reshaping arrays
 arr9 = arr1.reshape(5,1) # Reshapes arr1 into a 5x1 array
 
-# Linear algebra operations (NumPy Linear Algebra)
+# Linear algebra operations ([NumPy Linear Algebra](./../numpy-linear-algebra/))
 # ...
 
 print(arr6)
@@ -74,7 +74,7 @@ print(arr9)
 ```
 
 
-NumPy Indexing and Slicing
-NumPy Data Types
+[NumPy Indexing and Slicing](./../numpy-indexing-and-slicing/)
+[NumPy Data Types](./../numpy-data-types/)
 
 

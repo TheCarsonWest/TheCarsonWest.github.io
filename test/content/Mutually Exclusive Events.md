@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Mutually Exclusive Events
 
 ## Introduction to Mutually Exclusive Events
 
-In Introduction to Probability, we learned about events and their probabilities. Mutually exclusive events, also known as disjoint events, are a fundamental concept in probability theory. Two events are considered mutually exclusive if they cannot occur at the same time. This means that if one event happens, the other simply cannot.
+In [Introduction to Probability](./../introduction-to-probability/), we learned about events and their probabilities. Mutually exclusive events, also known as disjoint events, are a fundamental concept in probability theory. Two events are considered mutually exclusive if they cannot occur at the same time. This means that if one event happens, the other simply cannot.
 
 ### Definition
 Two events,  $ A $  and  $ B $ , are **mutually exclusive** (or **disjoint**) if they have no outcomes in common. That is, the occurrence of one event precludes the occurrence of the other.
@@ -58,9 +58,9 @@ Are  $ A $  and  $ B $  mutually exclusive? Yes, you cannot roll a number that i
 The probability of rolling an even OR an odd number is:
  $ P(A \text{ or } B) = P(A) + P(B) = 1/2 + 1/2 = 1 $ . This makes sense, as all outcomes are either even or odd.
 
-## Mutually Exclusive vs. Independent Events
+## [Mutually Exclusive vs. Independent Events](./../mutually-exclusive-vs.-independent-events/)
 
-It is crucial to understand the difference between mutually exclusive events and Independent Events and Unions of Events. These two concepts are often confused but are almost opposite of each other.
+It is crucial to understand the difference between mutually exclusive events and [Independent Events and Unions of Events](./../independent-events-and-unions-of-events/). These two concepts are often confused but are almost opposite of each other.
 
 | Feature             | Mutually Exclusive Events                               | Independent Events                                    |
 | :------------------ | :------------------------------------------------------ | :---------------------------------------------------- |

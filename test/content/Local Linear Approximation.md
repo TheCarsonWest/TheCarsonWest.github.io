@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-### Local Linear Approximation 
-The concept of Local Linearity allows us to approximate the value of a function near a point using the tangent line at that point. This is called the **local linear approximation**.
+### [Local Linear Approximation](./../local-linear-approximation/) 
+The concept of [Local Linearity](./../local-linearity/) allows us to approximate the value of a function near a point using the tangent line at that point. This is called the **local linear approximation**.
 
 **Idea:**
 
@@ -26,4 +26,4 @@ Using the local linear approximation, we get:
  $$ \sqrt{4.1} \approx f(4) + f'(4)(4.1-4) = 2 + \frac{1}{4}(0.1) = 2.025 $$  
 This approximation is quite accurate, as the actual value of  $ \sqrt{4.1} $  is approximately 2.0248.
 
-# Local Linearity
+# [Local Linearity](./../local-linearity/)

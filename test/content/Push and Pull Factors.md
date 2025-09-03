@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-Unit 2b Migration
+[Unit 2b Migration](./../unit-2b-migration/)
 # Push and pull factors are reasons people migrate
 * Cultural: (e.g., religious freedom)
 * Demographic: (e.g., unbalanced sex ratios, overpopulation)
@@ -30,24 +30,24 @@ Unit 2b Migration
 
 * **Voluntary migration is the most common type of migration**, driven by the desire for a better life.
 * **The decision to migrate usually involves push factors** (reasons for leaving) and pull factors (reasons for going).
-## Economic Push and Pull Factors * **Lack of jobs** and economic opportunities are the most common reasons for migration.
+## Economic [Push and Pull Factors](./../push-and-pull-factors/) * **Lack of jobs** and economic opportunities are the most common reasons for migration.
 * Largest country-to-country migration flows (2005-2010):
     * Most flows originate and/or end in Asia.
 ### Examples
 * Rust Belt
-	* Nobody wants to live in Gary Indiana so they left for the south
-* Gilded Age
+	* Nobody wants to live in Gary [Indiana](./../indiana/) so they left for the south
+* [Gilded Age](./../gilded-age/)
 	* America: "trust me bro we are so much better than europe bro PLEASE move here I swear youll live better"
 	* Europeans actually believed this
 	* Now everyone lives in a windowless apartment in the Bronx with 15 hour shifts in a  cotton mill
 
-## Social Push and Pull Factors 
-* Discrimination and persecution based on ethnicity, race, gender, or Religion can drive migration.
+## Social [Push and Pull Factors](./../push-and-pull-factors/) 
+* Discrimination and persecution based on ethnicity, race, gender, or [Religion](./../religion/) can drive migration.
 ### Examples
 * Mormons
 	* People didn't like the false prophet worshippers, and they frequently battled on the streets of the midwest
-		* Joseph Smith was hung for treason against the state of Illinois
-	* Those heretics got pushed out to Utah where their ancient hyperintellegent Israelite civilizations apparently lived
+		* Joseph Smith was hung for treason against the state of [Illinois](./../illinois/)
+	* Those heretics got pushed out to [Utah](./../utah/) where their ancient hyperintellegent Israelite civilizations apparently lived
 	* List of Latter Day Saints in heaven:
 		* 
 		* 
@@ -58,13 +58,13 @@ Unit 2b Migration
 	* The short people killed the tall people
 	* Very recent
 
-## Political Push and Pull Factors 
+## Political [Push and Pull Factors](./../push-and-pull-factors/) 
 * Persecution, arrest, and discrimination due to opposing government policies can lead to migration.
 ### Examples
 - Cuba
 	- Who tf wants to be communist
 	- Everyone leaves the first chance they get
-	- Now Cubans are a majority demographic in certain counties in Florida
+	- Now Cubans are a majority demographic in certain counties in [Florida](./../florida/)
 - China
 	- Communist
 	- A lot of olympians would defect the country from the olympics
@@ -74,17 +74,17 @@ Unit 2b Migration
 	- Communist
 	- A lot of olympians would defect the country from the olympics
 
-## Environmental Push and Pull Factors 
+## Environmental [Push and Pull Factors](./../push-and-pull-factors/) 
 * Natural disasters, drought, and unfavorable conditions can force people to migrate.
 
 ### Examples:
 * Nepal earthquake, Tsunami in Japan, Tsunami in Indonesia: Displaced populations
 * Desertification: Deterioration of land to a desert-like condition due to human actions. This forces people to migrate from drylands in Africa.
-* Flooding: Events like the 2011 Mississippi River flooding and Jakarta, Indonesia flooding force people from their homes.
+* Flooding: Events like the 2011 [Mississippi](./../mississippi/) River flooding and Jakarta, Indonesia flooding force people from their homes.
 
-## Demographic Push and Pull Factors 
+## Demographic [Push and Pull Factors](./../push-and-pull-factors/) 
 * Demographic imbalances can influence migration:
     * Gender:  Young adults may migrate due to unbalanced sex ratios, difficulty finding a spouse.
     * Overpopulation: A young population can strain resources and lead to migration.
 
-# Intervening Obstacles
+# [Intervening Obstacles](./../intervening-obstacles/)

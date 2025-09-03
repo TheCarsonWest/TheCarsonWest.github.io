@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics 1.5: Vectors and Motion in Two Dimensions
 
-This page expands on the concept of Scalars and Vectors in One Dimension to analyze motion in a plane (two dimensions), a fundamental skill for understanding more complex physics problems.
+This page expands on the concept of [Scalars and Vectors in One Dimension](./../scalars-and-vectors-in-one-dimension/) to analyze motion in a plane (two dimensions), a fundamental skill for understanding more complex physics problems.
 
 ## 1. Introduction to Vectors in 2D
 
@@ -60,7 +60,7 @@ The change in position is the displacement vector  $ \Delta \vec{r} $ :
  $  \Delta \vec{r} = \vec{r}_f - \vec{r}_i = (x_f - x_i)\hat{i} + (y_f - y_i)\hat{j} = \Delta x \hat{i} + \Delta y \hat{j}  $ 
 
 ### Velocity Vector
-Representing Motion in 2D involves the velocity vector, which is always tangent to the path of motion.
+[Representing Motion](./../representing-motion/) in 2D involves the velocity vector, which is always tangent to the path of motion.
 *   **Average Velocity:**
      $  \vec{v}_{avg} = \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta x}{\Delta t}\hat{i} + \frac{\Delta y}{\Delta t}\hat{j} = v_{x,avg}\hat{i} + v_{y,avg}\hat{j}  $ 
 *   **Instantaneous Velocity:**
@@ -84,6 +84,6 @@ When acceleration is constant, the motion in the x and y directions can be analy
 | Position-Time      |  $ x = x_0 + v_{0x} t + \frac{1}{2} a_x t^2 $  |  $ y = y_0 + v_{0y} t + \frac{1}{2} a_y t^2 $  |
 | Velocity-Position  |  $ v_x^2 = v_{0x}^2 + 2 a_x (x - x_0) $  |  $ v_y^2 = v_{0y}^2 + 2 a_y (y - y_0) $  |
 
-Common applications include Projectile Motion where  $ a_x = 0 $  and  $ a_y = -g $  (assuming positive y is upward). The time ' $ t $ ' is the common link between the x and y motions.
+Common applications include [Projectile Motion](./../projectile-motion/) where  $ a_x = 0 $  and  $ a_y = -g $  (assuming positive y is upward). The time ' $ t $ ' is the common link between the x and y motions.
 
-This independent analysis of components also forms the basis for understanding more complex topics like Circular Motion.
+This independent analysis of components also forms the basis for understanding more complex topics like [Circular Motion](./../circular-motion/).

@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Battle of Bunker Hill 
+## ID: [Battle of Bunker Hill](./../battle-of-bunker-hill/) 
 ## When: June 17, 1775
 
 ## Who:
 * **British:** General William Howe and approximately 2,400 troops.
-* **Colonials/Patriots:**  Colonel William Prescott (primarily) and approximately 1,500 militia from Massachusetts, New Hampshire, Rhode Island, and Connecticut.  
+* **Colonials/Patriots:**  Colonel William Prescott (primarily) and approximately 1,500 militia from [Massachusetts](./../massachusetts/), [New Hampshire](./../new-hampshire/), [Rhode Island](./../rhode-island/), and [Connecticut](./../connecticut/).  
 
 ## What: 
 A significant early battle of the American Revolutionary War, fought on Breed's Hill (inaccurate name that stuck). Although a tactical British victory, it demonstrated the Patriots' determination and military capability, boosting American morale and attracting more recruits. The battle involved a series of British assaults on the colonial fortifications. Despite their eventual retreat from the hill, the colonists inflicted heavy casualties on the better equipped and trained British army.
@@ -20,4 +20,4 @@ A significant early battle of the American Revolutionary War, fought on Breed's 
 * **Strategic Implications:** While a tactical victory for the British, it delayed their advance toward the siege of Boston and ultimately proved a pivotal battle in the early stages of the war, highlighting the Patriots' readiness to resist the British.
 * **Tactical Learning:**  The battle provided both sides with valuable lessons in siege warfare and combat strategies. The British learned the hard way about attacking fortified positions. The Patriots refined their defensive tactics.
 
-# APUSH Period 4
+# [APUSH Period 4](./../apush-period-4/)

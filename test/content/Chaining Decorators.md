@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Decorators
-# Chaining Decorators 
+# [Decorators](./../decorators/)
+# [Chaining Decorators](./../chaining-decorators/) 
 Chaining decorators in Python means applying multiple decorators to a single function.  The order of application matters, as decorators are applied from the inside out (bottom to top).
 
 ```python
@@ -43,6 +43,6 @@ Decorator 1 after
 Notice how `my_decorator_2` is executed first, then `my_decorator_1`.  This is because the `@` syntax applies decorators from bottom to top.
 
 
-Decorator Basics  (Function Wrappers)
+[Decorator Basics](./../decorator-basics/)  ([Function Wrappers](./../function-wrappers/))
 
-The above example only shows decorators without arguments.  Decorators with Arguments  handle more complex scenarios.  Remember to also review Function Scope and Closures as they are fundamental to understanding how decorators work.
+The above example only shows decorators without arguments.  [Decorators with Arguments](./../decorators-with-arguments/)  handle more complex scenarios.  Remember to also review [Function Scope and Closures](./../function-scope-and-closures/) as they are fundamental to understanding how decorators work.

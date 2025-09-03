@@ -36,9 +36,9 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">AP Stats Home</h1>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
 <h1 id="justifying-a-claim-about-a-population-mean-based-on-a-confidence-interval">Justifying a Claim About a Population Mean Based on a Confidence Interval</h1>
-<p>When we construct a confidence interval for a population mean, we are estimating a range of plausible values for the true population mean ( $ \mu $ ). This interval can then be used to evaluate a specific claim or hypothesis about the value of  $ \mu $  without necessarily performing a formal Setting Up a Test for a Population Mean. This method provides a clear and interpretable way to make a decision or justification based on sample data.</p>
+<p>When we construct a confidence interval for a population mean, we are estimating a range of plausible values for the true population mean ( $ \mu $ ). This interval can then be used to evaluate a specific claim or hypothesis about the value of  $ \mu $  without necessarily performing a formal <a href="./../setting-up-a-test-for-a-population-mean/">Setting Up a Test for a Population Mean</a>. This method provides a clear and interpretable way to make a decision or justification based on sample data.</p>
 <h2 id="the-purpose">The Purpose</h2>
 <p>The primary purpose of justifying a claim about a population mean using a confidence interval is to determine if a hypothesized value for the population mean ( $ \mu_0 $ ) is consistent with the data we&rsquo;ve observed. If the hypothesized value falls within our interval of plausible values, we consider it a plausible value for  $ \mu $ . If it falls outside, we consider it implausible.</p>
 <h2 id="how-to-justify-a-claim">How to Justify a Claim</h2>
@@ -48,7 +48,7 @@
 <p><strong>Identify the Claim/Hypothesized Value</strong>: Clearly state the specific value for the population mean ( $ \mu_0 $ ) that is being claimed or hypothesized.</p>
 </li>
 <li>
-<p><strong>Construct the Confidence Interval</strong>: Calculate a confidence interval for the population mean using your sample data. Ensure the conditions for inference are met (random sample, nearly normal sampling distribution, etc.). Refer to Constructing a Confidence Interval for a Population Mean for details. A general form for a confidence interval for  $ \mu $  is:</p>
+<p><strong>Construct the Confidence Interval</strong>: Calculate a confidence interval for the population mean using your sample data. Ensure the conditions for inference are met (random sample, nearly normal sampling distribution, etc.). Refer to <a href="./../constructing-a-confidence-interval-for-a-population-mean/">Constructing a Confidence Interval for a Population Mean</a> for details. A general form for a confidence interval for  $ \mu $  is:</p>
 <p>$$      \bar{x} \pm t^* \left( \frac{s}{\sqrt{n}} \right)
 $$      where  $ \bar{x} $  is the sample mean,  $ t^* $  is the critical t-value for the desired confidence level and  $ n-1 $  degrees of freedom,  $ s $  is the sample standard deviation, and  $ n $  is the sample size.</p>
 </li>
@@ -61,7 +61,7 @@ $$      where  $ \bar{x} $  is the sample mean,  $ t^* $  is the critical t-valu
 </li>
 </ol>
 <h2 id="connection-to-hypothesis-testing">Connection to Hypothesis Testing</h2>
-<p>There is a strong connection between confidence intervals and Setting Up a Test for a Population Mean. For a two-sided hypothesis test with a significance level  $ \alpha $ , if a hypothesized mean  $ \mu_0 $  falls outside a  $ 100(1-\alpha)% $  confidence interval, then we would reject the null hypothesis  $ H_0: \mu = \mu_0 $  at the  $ \alpha $  significance level. Conversely, if  $ \mu_0 $  falls inside the confidence interval, we would fail to reject  $ H_0 $ .</p>
+<p>There is a strong connection between confidence intervals and <a href="./../setting-up-a-test-for-a-population-mean/">Setting Up a Test for a Population Mean</a>. For a two-sided hypothesis test with a significance level  $ \alpha $ , if a hypothesized mean  $ \mu_0 $  falls outside a  $ 100(1-\alpha)% $  confidence interval, then we would reject the null hypothesis  $ H_0: \mu = \mu_0 $  at the  $ \alpha $  significance level. Conversely, if  $ \mu_0 $  falls inside the confidence interval, we would fail to reject  $ H_0 $ .</p>
 <p>This means that a  $ 95% $  confidence interval for  $ \mu $  corresponds to a two-sided hypothesis test with  $ \alpha = 0.05 $ .</p>
 <h2 id="example">Example</h2>
 <p>Suppose a company claims that the mean weight of their product is 100 grams. You take a sample of 30 products and construct a 95% confidence interval for the mean weight, which is found to be (98.5 grams, 101.2 grams).</p>
@@ -74,8 +74,8 @@ $$      where  $ \bar{x} $  is the sample mean,  $ t^* $  is the critical t-valu
 <ul>
 <li><strong>Confidence Level</strong>: The conclusion depends on the chosen confidence level. A higher confidence level (e.g., 99%) results in a wider interval, making it more likely that  $ \mu_0 $  falls within it, and thus less likely to reject a claim.</li>
 <li><strong>&ldquo;Fail to Reject&rdquo; vs. &ldquo;Accept&rdquo;</strong>: If  $ \mu_0 $  is inside the interval, we state that we &ldquo;do not have convincing evidence to reject the claim,&rdquo; not that we &ldquo;accept the claim.&rdquo; This nuance is crucial, as the interval only provides a range of plausible values, not a definitive confirmation of a single value.</li>
-<li>Potential Errors When Performing Tests: Just like with hypothesis tests, there&rsquo;s always a possibility of making an incorrect conclusion (Type I or Type II error) when using confidence intervals to justify a claim.</li>
-<li><strong>Conditions</strong>: Always ensure the conditions for constructing the confidence interval are met (random sample, normal population or large sample size for The Central Limit Theorem) to ensure the validity of your inference.</li>
+<li><a href="./../potential-errors-when-performing-tests/">Potential Errors When Performing Tests</a>: Just like with hypothesis tests, there&rsquo;s always a possibility of making an incorrect conclusion (Type I or Type II error) when using confidence intervals to justify a claim.</li>
+<li><strong>Conditions</strong>: Always ensure the conditions for constructing the confidence interval are met (random sample, normal population or large sample size for <a href="./../the-central-limit-theorem/">The Central Limit Theorem</a>) to ensure the validity of your inference.</li>
 </ul>
 <p>By carefully considering where a hypothesized population mean falls relative to your confidence interval, you can make informed decisions and justify claims in a statistically sound manner.</p>
 

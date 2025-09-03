@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics Note Page: Topic 6.2 - Torque and Work
 
 This page explores the concepts of torque and work in rotational motion, building upon their linear counterparts. Just as force causes linear acceleration, torque causes angular acceleration. Similarly, work done by a force can be extended to work done by a torque in rotational systems.
@@ -36,7 +36,7 @@ Alternatively, if  $ r_{\perp} $  is the lever arm, then:
 
 ## 2. Work Done by a Torque
 
-Just as Work is done by a force when an object undergoes displacement, work is done by a torque when an object undergoes angular displacement.
+Just as [Work](./../work/) is done by a force when an object undergoes displacement, work is done by a torque when an object undergoes angular displacement.
 
 ### 2.1. Rotational Work Formula
 
@@ -65,7 +65,7 @@ W_{net} = \Delta K_{rot} = \frac{1}{2} I \omega_f^2 - \frac{1}{2} I \omega_i^2
 
 Where:
 -  $ W_{net} $  is the net work done by all torques (J)
--  $ \Delta K_{rot} $  is the change in Rotatinal Kinetic Energy (J)
+-  $ \Delta K_{rot} $  is the change in [Rotatinal Kinetic Energy](./../rotatinal-kinetic-energy/) (J)
 -  $ I $  is the moment of inertia (kg·m $ ^2 $ )
 -  $ \omega_f $  is the final angular speed (rad/s)
 -  $ \omega_i $  is the initial angular speed (rad/s)
@@ -74,7 +74,7 @@ This theorem is fundamental for relating the work done by torques to changes in 
 
 ## 3. Power in Rotational Motion
 
-Power is the rate at which work is done. For rotational motion, power ( $ P $ ) can be expressed as:
+[Power](./../power/) is the rate at which work is done. For rotational motion, power ( $ P $ ) can be expressed as:
 
  $ 
 P = \frac{dW}{dt} = \tau \frac{d\theta}{dt} = \tau \omega
@@ -89,7 +89,7 @@ This is analogous to the linear power formula  $ P = Fv $ .
 
 ## 4. Relationship between Linear and Rotational Work
 
-The concepts of linear and rotational work are inherently linked. As discussed in Conneting Linear and Rotational Motion, linear quantities can be related to their rotational counterparts.
+The concepts of linear and rotational work are inherently linked. As discussed in [Conneting Linear and Rotational Motion](./../conneting-linear-and-rotational-motion/), linear quantities can be related to their rotational counterparts.
 
 For a tangential force  $ F_t $  acting at a distance  $ r $  from the axis of rotation, undergoing a linear displacement  $ s = r\Delta\theta $ :
 

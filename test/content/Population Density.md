@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
- Glossary
+ [Glossary](./../glossary/)
 
 # [Arithmetic Density]]
 #  $$  Density = {People \over Area}  $$  

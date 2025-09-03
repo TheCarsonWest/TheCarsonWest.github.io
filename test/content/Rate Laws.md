@@ -3,11 +3,11 @@
 [params]
 	author = 'Carson West'
 +++
-# chemical reactions
+# [chemical reactions](./../chemical-reactions/)
 ## Introduction
 
-Chemical kinetics is the study of Reaction Rates.  A rate law expresses the relationship between the rate of a reaction and the concentrations of reactants.  The rate law provides crucial information about the mechanism of a reaction.
-# units of reaction constant
+Chemical kinetics is the study of [Reaction Rates](./../reaction-rates/).  A rate law expresses the relationship between the rate of a reaction and the concentrations of reactants.  The rate law provides crucial information about the mechanism of a reaction.
+# [units of reaction constant](./../units-of-reaction-constant/)
 ## General Form of a Rate Law
 
 For a generic reaction:
@@ -18,7 +18,7 @@ The rate law is expressed as:
 #  $$ Rate = k[A]]^m[B]]^n \dots $$  
 Where:
 
-*  *k* is the rate constant (Temperature dependent).
+*  *k* is the rate constant ([Temperature](./../temperature/) dependent).
 *  *[A]]* and *[B]]* are the molar concentrations of reactants A and B.
 *  *m* and *[n]]* are the reaction orders with respect to A and B, respectively.  These are *not* necessarily the same as the stoichiometric coefficients (a and b).  They must be determined experimentally.
 
@@ -34,12 +34,12 @@ The overall reaction order is the sum of the individual orders (m + n).  The rea
 !1(https://www.chadsprep.com/wp-content/uploads/2020/02/2nd-Order-Integrated-Rate-Law-Plots.png)
 
 
-## Determining Rate Laws 
+## Determining [Rate Laws](./../rate-laws/) 
 There are several methods to determine rate laws experimentally:
 
-* **Method of Initial Rates:** Method of Initial Rates This method uses initial Reaction Rates measured under different initial reactant concentrations.  By comparing the changes in rate with changes in concentration, the reaction orders can be determined.
+* **Method of Initial Rates:** [Method of Initial Rates](./../method-of-initial-rates/) This method uses initial [Reaction Rates](./../reaction-rates/) measured under different initial reactant concentrations.  By comparing the changes in rate with changes in concentration, the reaction orders can be determined.
 
-* **Integrated Rate Laws:** Integrated Rate Laws These laws relate concentration to time.  By plotting experimental data according to the integrated rate laws for different orders, the correct order can be identified by the linear plot.
+* **Integrated [Rate Laws](./../rate-laws/):** [Integrated Rate Laws](./../integrated-rate-laws/) These laws relate concentration to time.  By plotting experimental data according to the integrated rate laws for different orders, the correct order can be identified by the linear plot.
 
 * **Graphical Methods:**  Analyzing plots of concentration versus time can help determine the reaction order.  For example, a plot of ln[A]] vs. time yields a straight line for a first-order reaction.
 
@@ -48,9 +48,9 @@ There are several methods to determine rate laws experimentally:
 
 The rate constant, *k*, is a proportionality constant that relates the rate to the reactant concentrations.  Its value depends on:
 
-* **Temperature:**  Generally, *k* increases with temperature.  Arrhenius Equation
-* **Activation Energy:** Activation Energy A higher Activation Energy results in a smaller *k*.
-* **Presence of a Catalyst:**  Catalysts increase *k* by providing an alternative reaction pathway with lower Activation Energy. Catalysis
+* **[Temperature](./../temperature/):**  Generally, *k* increases with temperature.  [Arrhenius Equation](./../arrhenius-equation/)
+* **[Activation Energy](./../activation-energy/):** [Activation Energy](./../activation-energy/) A higher [Activation Energy](./../activation-energy/) results in a smaller *k*.
+* **Presence of a Catalyst:**  Catalysts increase *k* by providing an alternative reaction pathway with lower [Activation Energy](./../activation-energy/). [Catalysis](./../catalysis/)
 ### Units of k
 
 The units of *k* depend on the overall reaction order:
@@ -108,4 +108,4 @@ The rate law for the reaction is:  Rate = 0.1 M⁻²s⁻¹ [A]]²[B]]
 
 
 # Elementary Reactions
-An elementary reaction is a single step in a reaction mechanism.  For elementary reactions, the reaction orders *are* equal to the stoichiometric coefficients.  Complex reactions involve multiple elementary steps.  The slowest elementary step, called the rate-determining step, determines the overall rate law. Rate-Determining Step
+An elementary reaction is a single step in a reaction mechanism.  For elementary reactions, the reaction orders *are* equal to the stoichiometric coefficients.  Complex reactions involve multiple elementary steps.  The slowest elementary step, called the rate-determining step, determines the overall rate law. [Rate-Determining Step](./../rate-determining-step/)

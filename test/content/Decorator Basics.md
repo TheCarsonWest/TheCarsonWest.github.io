@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Chaining Decorators
-# Decorator Basics  Decorators are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name, placed above the function definition.
+# [Chaining Decorators](./../chaining-decorators/)
+# [Decorator Basics](./../decorator-basics/)  [Decorators](./../decorators/) are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name, placed above the function definition.
 
 **Basic Syntax:**
 
@@ -41,8 +41,8 @@ say_hello = my_decorator(say_hello)
 
 `my_decorator` takes the function `say_hello` as input, and returns a new function (`wrapper`) which wraps the original functionality with additional code.  The `wrapper` function then becomes the new `say_hello`.
 
-**Decorators with Arguments:**
- Decorators can also accept arguments.  This requires a bit more complexity:
+**[Decorators](./../decorators/) with Arguments:**
+ [Decorators](./../decorators/) can also accept arguments.  This requires a bit more complexity:
 
 ```python
 def repeat(num_times):
@@ -63,9 +63,9 @@ greet("World")
 
 This uses a closure to handle the `num_times` argument. The outer function `repeat` returns the actual decorator (`decorator_repeat`).
 
-**Decorator Advanced Usage**  (This will be a separate note)
+**[Decorator Advanced Usage](./../decorator-advanced-usage/)**  (This will be a separate note)
 
-**Closures in Python** (This will be a separate note)
+**[Closures in Python](./../closures-in-python/)** (This will be a separate note)
 
 
 **Example Use Cases:**
@@ -75,6 +75,6 @@ This uses a closure to handle the `num_times` argument. The outer function `repe
 * **Authentication:**  Check user permissions before executing a function.
 * **Caching:** Store the results of expensive function calls to avoid redundant computations.
 
-**Note:**  When using decorators with methods (functions within a class), you need to use `functools.wraps` to preserve metadata like the function's name and docstring.  This is crucial for debugging and introspection.  See Decorator Gotchas
+**Note:**  When using decorators with methods (functions within a class), you need to use `functools.wraps` to preserve metadata like the function's name and docstring.  This is crucial for debugging and introspection.  See [Decorator Gotchas](./../decorator-gotchas/)
 
-**Decorator Gotchas** (This will be a separate note)
+**[Decorator Gotchas](./../decorator-gotchas/)** (This will be a separate note)

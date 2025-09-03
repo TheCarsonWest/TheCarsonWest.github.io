@@ -3,46 +3,46 @@
 [params]
 	author = 'Carson West'
 +++
-- 15th amendment
-- Abraham Lincoln
-- Anaconda Plan
-- Andrew Johnson
-- Battle of Antietam
-- Battle of Bull Run
-- Battle of Gettsyburg
-- Black Codes
-- Bleeding [[Kansas
-- California
-- Capital Compromise
-- Carpetbagger
-- Compromise of 1850
-- Cotton Gin
-- Democracy in America
-- Democrats
-- Dred Scott v Sandford
-- Election of 1860
-- Emancipation Proclamation
-- Fort Sumter
-- Franklin Pierce
-- Free-soilers
-- Freeport Doctrine
-- Fugitive Slave Act
-- Habaes Corpus civil war
-- Harpers Ferry Raid
-- IDS Unit 4
-- Kansas-Nebraska Act]]
-- Lincoln Douglas Debates
-- Market Revolution
-- Missouri Compromise]]
-- Nat Turner Rebellion
-- New Republican Party 1850
-- Popular Sovereignty
-- sectionalism
-- Sharecroppers
-- Shermans March to Sea
-- Surrender at Appomattox Courthouse
-- Tenant Farming
-- [[The Assassination of Abraham Lincoln
-- Uncle Toms Cabin
-- Ulysses S. Grant]]
-- Wilmot Proviso
+- [15th amendment](./../15th-amendment/)
+- [Abraham Lincoln](./../abraham-lincoln/)
+- [Anaconda Plan](./../anaconda-plan/)
+- [Andrew Johnson](./../andrew-johnson/)
+- [Battle of Antietam](./../battle-of-antietam/)
+- [Battle of Bull Run](./../battle-of-bull-run/)
+- [Battle of Gettsyburg](./../battle-of-gettsyburg/)
+- [Black Codes](./../black-codes/)
+- [Bleeding [[Kansas](./../bleeding-[[kansas/)
+- [California](./../california/)
+- [Capital Compromise](./../capital-compromise/)
+- [Carpetbagger](./../carpetbagger/)
+- [Compromise of 1850](./../compromise-of-1850/)
+- [Cotton Gin](./../cotton-gin/)
+- [Democracy in America](./../democracy-in-america/)
+- [Democrats](./../democrats/)
+- [Dred Scott v Sandford](./../dred-scott-v-sandford/)
+- [Election of 1860](./../election-of-1860/)
+- [Emancipation Proclamation](./../emancipation-proclamation/)
+- [Fort Sumter](./../fort-sumter/)
+- [Franklin Pierce](./../franklin-pierce/)
+- [Free-soilers](./../free-soilers/)
+- [Freeport Doctrine](./../freeport-doctrine/)
+- [Fugitive Slave Act](./../fugitive-slave-act/)
+- [Habaes Corpus civil war](./../habaes-corpus-civil-war/)
+- [Harpers Ferry Raid](./../harpers-ferry-raid/)
+- [IDS Unit 4](./../ids-unit-4/)
+- [Kansas](./../kansas/)-[Nebraska](./../nebraska/) Act]]
+- [Lincoln Douglas Debates](./../lincoln-douglas-debates/)
+- [Market Revolution](./../market-revolution/)
+- [Missouri](./../missouri/) Compromise]]
+- [Nat Turner Rebellion](./../nat-turner-rebellion/)
+- [New Republican Party 1850](./../new-republican-party-1850/)
+- [Popular Sovereignty](./../popular-sovereignty/)
+- [sectionalism](./../sectionalism/)
+- [Sharecroppers](./../sharecroppers/)
+- [Shermans March to Sea](./../shermans-march-to-sea/)
+- [Surrender at Appomattox Courthouse](./../surrender-at-appomattox-courthouse/)
+- [Tenant Farming](./../tenant-farming/)
+- [[The Assassination of [Abraham Lincoln](./../abraham-lincoln/)
+- [Uncle Toms Cabin](./../uncle-toms-cabin/)
+- [Ulysses S](./../ulysses-s/). Grant]]
+- [Wilmot Proviso](./../wilmot-proviso/)

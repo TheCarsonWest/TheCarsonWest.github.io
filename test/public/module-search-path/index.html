@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="importing-modules">Importing Modules</h1>
-<h1 id="module-search-path">Module Search Path</h1>
+<h1 id="importing-modulesimporting-modules"><a href="./../importing-modules/">Importing Modules</a></h1>
+<h1 id="module-search-pathmodule-search-path"><a href="./../module-search-path/">Module Search Path</a></h1>
 <p>The Python interpreter searches for modules in a specific order, defined by the <code>sys.path</code> variable.  This is crucial for importing modules correctly.</p>
 <p><code>sys.path</code> is a list of strings, each representing a directory.  The interpreter searches these directories in order until it finds the module being imported.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> sys
@@ -48,8 +48,8 @@
 <li>The directories specified by the <code>PYTHONPATH</code> environment variable (if set).</li>
 <li>Installation-dependent default locations (e.g., site-packages directories).</li>
 </ol>
-<p>PYTHONPATH Environment Variable</p>
-<p>Site-packages Directories</p>
+<p><a href="./../pythonpath-environment-variable/">PYTHONPATH Environment Variable</a></p>
+<p><a href="./../site-packages-directories/">Site-packages Directories</a></p>
 <p>If a module is not found in any of these directories, an <code>ImportError</code> is raised.</p>
 <p><strong>Modifying <code>sys.path</code>:</strong></p>
 <p>You can modify <code>sys.path</code> programmatically to add or remove directories from the search path.  This is useful for:</p>
@@ -67,8 +67,8 @@
 <li><strong>Namespace Conflicts:</strong> Modifying <code>sys.path</code> can lead to namespace conflicts if you have multiple modules with the same name in different directories.</li>
 <li><strong>Security:</strong>  Avoid arbitrarily adding directories to <code>sys.path</code> from untrusted sources, as this could expose your system to malicious code.  Be especially cautious with dynamically constructed paths.</li>
 </ul>
-<p>Module Importing in Python
-Error Handling: ImportError</p>
+<p><a href="./../module-importing-in-python/">Module Importing in Python</a>
+<a href="./../error-handling:-importerror/">Error Handling: ImportError</a></p>
 
 </main>
 

@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Libraries like NumPy
-# NumPy Random Number Generation 
+# [Libraries like NumPy](./../libraries-like-numpy/)
+# [NumPy Random Number Generation](./../numpy-random-number-generation/) 
 NumPy's `random` module (now deprecated; use `numpy.random` directly) provides functions for generating various random numbers and distributions.  It's significantly faster than Python's built-in `random` module, especially for large arrays.
 
 
@@ -60,10 +60,10 @@ np.random.seed(42) # setting it again produces the same results
 print(np.random.rand(2))
 ```
 
-* **Other Distributions:** NumPy provides functions for generating random numbers from many other probability distributions, including binomial, exponential, Poisson, etc.  Refer to the NumPy documentation for a complete list.  (NumPy Distributions)
+* **Other Distributions:** NumPy provides functions for generating random numbers from many other probability distributions, including binomial, exponential, Poisson, etc.  Refer to the NumPy documentation for a complete list.  ([NumPy Distributions](./../numpy-distributions/))
 
 
-* **Generating Random Matrices:**  NumPy offers convenient ways to create random matrices with specific properties (e.g., symmetric, orthogonal, etc.).(Random Matrix Generation)
+* **Generating Random Matrices:**  NumPy offers convenient ways to create random matrices with specific properties (e.g., symmetric, orthogonal, etc.).([Random Matrix Generation](./../random-matrix-generation/))
 
 
 **Deprecated `random` Module:**
@@ -71,4 +71,4 @@ print(np.random.rand(2))
 The top-level `numpy.random` module is now preferred over the older `np.random` module.  While the older module might still work in some cases, it is recommended to transition to the newer approach for better compatibility and future-proofing.
 
 
-**Note:**  For more advanced random number generation and statistical simulations, consider using libraries like SciPy.(SciPy Statistical Functions)
+**Note:**  For more advanced random number generation and statistical simulations, consider using libraries like SciPy.([SciPy Statistical Functions](./../scipy-statistical-functions/))

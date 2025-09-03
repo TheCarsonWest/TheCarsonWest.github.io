@@ -3,15 +3,15 @@
 [params]
 	author = 'Carson West'
 +++
-# APCHEM Home
+# [APCHEM Home](./../apchem-home/)
 
-## Coulombs Law
-## Aufbau Principle
+## [Coulombs Law](./../coulombs-law/)
+## [Aufbau Principle](./../aufbau-principle/)
 
 # Gasses
-## Ideal Gas Laws
+## [Ideal Gas Laws](./../ideal-gas-laws/)
 
-## Combined Gas Law
+## [Combined Gas Law](./../combined-gas-law/)
 # Solutions
-## Henrys Law
-## Raoults Law
+## [Henrys Law](./../henrys-law/)
+## [Raoults Law](./../raoults-law/)

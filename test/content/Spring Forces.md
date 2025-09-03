@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics 1: Topic 2.8 - Spring Forces
 
-Spring forces are fundamental to understanding many physical phenomena, from simple oscillators to the behavior of materials. They are a type of Restoring Force that acts to return a spring to its equilibrium position when it is stretched or compressed.
+Spring forces are fundamental to understanding many physical phenomena, from simple oscillators to the behavior of materials. They are a type of [Restoring Force](./../restoring-force/) that acts to return a spring to its equilibrium position when it is stretched or compressed.
 
 ## Hooke's Law
 
@@ -23,7 +23,7 @@ Where:
 *    $ k $  is the **spring constant** (in Newtons per meter, N/m). This constant represents the stiffness of the spring; a larger  $ k $  means a stiffer spring.
 *    $ \vec{x} $  is the **displacement vector** from the spring's equilibrium position (in meters, m). The magnitude of  $ x $  is the amount of stretch or compression.
 
-The negative sign in Hooke's Law indicates that the spring force is always a Restoring Force, meaning it acts in the opposite direction to the displacement. If the spring is stretched ( $ x $  is positive), the force pulls it back (force is negative). If the spring is compressed ( $ x $  is negative), the force pushes it outwards (force is positive).
+The negative sign in Hooke's Law indicates that the spring force is always a [Restoring Force](./../restoring-force/), meaning it acts in the opposite direction to the displacement. If the spring is stretched ( $ x $  is positive), the force pulls it back (force is negative). If the spring is compressed ( $ x $  is negative), the force pushes it outwards (force is positive).
 
 ### Key Characteristics of Spring Forces
 
@@ -31,7 +31,7 @@ The negative sign in Hooke's Law indicates that the spring force is always a Res
 | :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
 | **Restoring Nature**  | Always acts to restore the spring to its equilibrium (unstretched, uncompressed) position.                                                |
 | **Variable Force**    | Unlike gravity near Earth's surface, the spring force is not constant; its magnitude changes with displacement.                           |
-| **Conservative Force**| Work done by a spring force depends only on the initial and final positions, not the path taken. This implies Potential Energy storage.|
+| **Conservative Force**| Work done by a spring force depends only on the initial and final positions, not the path taken. This implies [Potential Energy](./../potential-energy/) storage.|
 
 ## Work Done by a Spring
 
@@ -45,7 +45,7 @@ W_s = \int_{x_1}^{x_2} (-kx) dx = -\frac{1}{2}k(x_2^2 - x_1^2)
 
 If the spring starts from its equilibrium position ( $ x_1=0 $ ) and is stretched or compressed to a displacement  $ x $  ( $ x_2=x $ ), the work done *by* the spring is  $ W_s = -\frac{1}{2}kx^2 $ .
 
-Conversely, the work done *on* the spring *by an external force* to stretch or compress it from equilibrium to displacement  $ x $  is  $ W_{ext} = \frac{1}{2}kx^2 $ . This work is stored as Elastic Potential Energy.
+Conversely, the work done *on* the spring *by an external force* to stretch or compress it from equilibrium to displacement  $ x $  is  $ W_{ext} = \frac{1}{2}kx^2 $ . This work is stored as [Elastic Potential Energy](./../elastic-potential-energy/).
 
 ## Elastic Potential Energy
 
@@ -60,17 +60,17 @@ Where:
 *    $ k $  is the **spring constant** (N/m).
 *    $ x $  is the **displacement** from the equilibrium position (m).
 
-This energy represents the work done to deform the spring from its equilibrium state and is available to do work when the spring returns to equilibrium. Elastic potential energy is a crucial component in Conservation of Energy problems involving springs, often converting between kinetic energy, gravitational potential energy, and elastic potential energy.
+This energy represents the work done to deform the spring from its equilibrium state and is available to do work when the spring returns to equilibrium. Elastic potential energy is a crucial component in [Conservation of Energy](./../conservation-of-energy/) problems involving springs, often converting between kinetic energy, gravitational potential energy, and elastic potential energy.
 
 ## Relating Spring Forces to Simple Harmonic Motion (SHM)
 
-A mass attached to a spring, oscillating without friction, is a classic example of Defining Simple Harmonic Motion (SHM). The restoring nature of the spring force is what drives this oscillatory motion. For such a system, Newton's Second Law yields:
+A mass attached to a spring, oscillating without friction, is a classic example of [Defining Simple Harmonic Motion (SHM)](./../defining-simple-harmonic-motion-(shm)/). The restoring nature of the spring force is what drives this oscillatory motion. For such a system, Newton's Second Law yields:
 
  $ 
 \Sigma F = ma \Rightarrow -kx = ma
  $ 
 
-This leads to a differential equation whose solution describes Representing and Analyzing SHM. The period and frequency of such an oscillator depend on the mass and the spring constant  $ k $ . For an ideal mass-spring system, the period  $ T $  is given by:
+This leads to a differential equation whose solution describes [Representing and Analyzing SHM](./../representing-and-analyzing-shm/). The period and frequency of such an oscillator depend on the mass and the spring constant  $ k $ . For an ideal mass-spring system, the period  $ T $  is given by:
 
  $ 
 T = 2\pi\sqrt{\frac{m}{k}}

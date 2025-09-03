@@ -3,56 +3,56 @@
 [params]
 	author = 'Carson West'
 +++
-APHG Home
+[APHG Home](./../aphg-home/)
 ### Region Types
- - Formal region
- - Functional Region
- - Vernacular Region
-## Map Types
- - Cloropleth
- - Dot distribution
- - Graduated Symbols
- - Cartogram
+ - [Formal region](./../formal-region/)
+ - [Functional Region](./../functional-region/)
+ - [Vernacular Region](./../vernacular-region/)
+## [Map Types](./../map-types/)
+ - [Cloropleth](./../cloropleth/)
+ - [Dot distribution](./../dot-distribution/)
+ - [Graduated Symbols](./../graduated-symbols/)
+ - [Cartogram](./../cartogram/)
 ## Stats 
- - Population Density
- - Ecumene
- - Total Fertility Rate
-- ETM
-- Demographic Transition Model
+ - [Population Density](./../population-density/)
+ - [Ecumene](./../ecumene/)
+ - [Total Fertility Rate](./../total-fertility-rate/)
+- [ETM](./../etm/)
+- [Demographic Transition Model](./../demographic-transition-model/)
 ## People
-- Refugee
-## APHG Unit 3 
-- Culture
-- Cultural Trait
-- Artifacts
-- Sociofacts
-- Mentifacts
-- Popular Culture
-- Traditional Culture
-- Cultural Norms
-- Ethnocentrism
-- Cultural Relativism
-- Cultural Landscape
-- Identity
-- Sequent Occupance
-- Ethnicity
-- Ethnic Neighborhoods
-- Traditional Architecture
-- Postmodern Architecture
-- Religion
-- Pilgrimage
-- Language
-- Toponyms
-- Gendered Spaces
-- Gendered Identity
-- Safe Spaces
-- Gentrification
-- Third Place
-- Sense of Place
-- Placemaking
-- Dialects
-- Adherents
-- Denominations
-- Sect
-- Centripetal Force
-- Centrifugal Force
+- [Refugee](./../refugee/)
+## [APHG Unit 3](./../aphg-unit-3/) 
+- [Culture](./../culture/)
+- [Cultural Trait](./../cultural-trait/)
+- [Artifacts](./../artifacts/)
+- [Sociofacts](./../sociofacts/)
+- [Mentifacts](./../mentifacts/)
+- [Popular Culture](./../popular-culture/)
+- [Traditional Culture](./../traditional-culture/)
+- [Cultural Norms](./../cultural-norms/)
+- [Ethnocentrism](./../ethnocentrism/)
+- [Cultural Relativism](./../cultural-relativism/)
+- [Cultural Landscape](./../cultural-landscape/)
+- [Identity](./../identity/)
+- [Sequent Occupance](./../sequent-occupance/)
+- [Ethnicity](./../ethnicity/)
+- [Ethnic Neighborhoods](./../ethnic-neighborhoods/)
+- [Traditional Architecture](./../traditional-architecture/)
+- [Postmodern Architecture](./../postmodern-architecture/)
+- [Religion](./../religion/)
+- [Pilgrimage](./../pilgrimage/)
+- [Language](./../language/)
+- [Toponyms](./../toponyms/)
+- [Gendered Spaces](./../gendered-spaces/)
+- [Gendered Identity](./../gendered-identity/)
+- [Safe Spaces](./../safe-spaces/)
+- [Gentrification](./../gentrification/)
+- [Third Place](./../third-place/)
+- [Sense of Place](./../sense-of-place/)
+- [Placemaking](./../placemaking/)
+- [Dialects](./../dialects/)
+- [Adherents](./../adherents/)
+- [Denominations](./../denominations/)
+- [Sect](./../sect/)
+- [Centripetal Force](./../centripetal-force/)
+- [Centrifugal Force](./../centrifugal-force/)

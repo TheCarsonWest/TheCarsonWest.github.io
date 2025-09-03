@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics Notes: Topic 6.3 - Angular Momentum and Angular Impulse
 
 ## 1. Introduction to Angular Momentum
 
-Just as Linear Momentum describes the "quantity of motion" for translational motion, **Angular Momentum** ( $ L $ ) describes the "quantity of rotational motion" for rotational motion. It is a crucial concept for understanding how rotating systems behave, especially when torques act upon them or when their mass distribution changes.
+Just as [Linear Momentum](./../linear-momentum/) describes the "quantity of motion" for translational motion, **Angular Momentum** ( $ L $ ) describes the "quantity of rotational motion" for rotational motion. It is a crucial concept for understanding how rotating systems behave, especially when torques act upon them or when their mass distribution changes.
 
 ## 2. Angular Momentum ( $ L $ )
 
@@ -46,7 +46,7 @@ The SI unit for angular momentum is Joule-second (J·s) or kilogram-meter square
 
 ## 3. Angular Impulse ( $ J_{\text{angular}} $ )
 
-Analogous to how Change in Momentum and Impulse relates linear impulse to a change in linear momentum, **Angular Impulse** relates to a change in angular momentum.
+Analogous to how [Change in Momentum and Impulse](./../change-in-momentum-and-impulse/) relates linear impulse to a change in linear momentum, **Angular Impulse** relates to a change in angular momentum.
 
 ### 3.1 Definition
 
@@ -76,7 +76,7 @@ Combining this with the definition of angular impulse:
 \int_{t_1}^{t_2} \vec{\tau}_{\text{net}} \, dt = \Delta \vec{L}
  $ 
 
-This theorem is derived directly from Newton’s Second Law in Rotational Form,  $ \vec{\tau}_{\text{net}} = \frac{d\vec{L}}{dt} $ .
+This theorem is derived directly from [Newton’s Second Law in Rotational Form](./../newton’s-second-law-in-rotational-form/),  $ \vec{\tau}_{\text{net}} = \frac{d\vec{L}}{dt} $ .
 
 ### 3.3 Units of Angular Impulse
 
@@ -91,6 +91,6 @@ The SI unit for angular impulse is Newton-meter-second (N·m·s), which is equiv
 | Impulse-Momentum Theorem |  $ \Delta p = J $        |  $ \Delta L = J_{\text{angular}} $  |  $ \Delta L = \tau_{\text{net}} \Delta t $                     |
 | Cause of Change | Net Force ( $ \vec{F}_{\text{net}} $ ) | Net Torque ( $ \vec{\tau}_{\text{net}} $ ) |  $ \tau_{\text{net}} = \frac{dL}{dt} $                        |
 
-## 5. Conservation of Angular Momentum
+## 5. [Conservation of Angular Momentum](./../conservation-of-angular-momentum/)
 
 An extremely important consequence of the Angular Impulse-Momentum Theorem is the **Conservation of Angular Momentum**. If the net external torque acting on a system is zero ( $ \vec{\tau}_{\text{net}} = 0 $ ), then the angular impulse is zero, and thus the total angular momentum of the system remains constant ( $ \Delta \vec{L} = 0 $ , so  $ \vec{L}_i = \vec{L}_f $ ). This principle is fundamental to understanding the behavior of isolated rotating systems, such as planets orbiting stars, figure skaters spinning, or collapsing stars forming pulsars.

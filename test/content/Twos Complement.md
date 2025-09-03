@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# Bitwise Operators
+# [Bitwise Operators](./../bitwise-operators/)
 # Two's Complement
 
 Two's complement is a way to represent signed integers (positive and negative) in binary.  It's the most common method used in computers because it simplifies arithmetic operations, particularly addition and subtraction.
@@ -53,9 +53,9 @@ print(twos_complement(-5, 8)) # Output: 11111011
 **Disadvantages:**
 
 * **Range Limitation:** The range of representable numbers is limited by the number of bits used.  For example, with 8 bits, the range is -128 to 127.
-* Bitwise Operations  (Need separate explanation)
-* Binary Representation (Need separate explanation)
+* [Bitwise Operations](./../bitwise-operations/)  (Need separate explanation)
+* [Binary Representation](./../binary-representation/) (Need separate explanation)
 
 
-Number Systems (A note on different number systems like decimal, binary, hexadecimal would be useful)
+[Number Systems](./../number-systems/) (A note on different number systems like decimal, binary, hexadecimal would be useful)
 

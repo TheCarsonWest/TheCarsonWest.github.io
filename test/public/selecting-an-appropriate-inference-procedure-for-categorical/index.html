@@ -36,7 +36,7 @@
 </div>
 
 <main>
-<h1 id="ap-stats-home">AP Stats Home</h1>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
 <h1 id="selecting-an-appropriate-inference-procedure-for-categorical-data">Selecting an Appropriate Inference Procedure for Categorical Data</h1>
 <p>Choosing the correct inference procedure is a critical step in any statistical analysis. For categorical variables, the decision hinges on the number of populations or groups being compared and the specific research question. This page outlines the primary inference procedures for categorical data encountered in AP Statistics.</p>
 <h2 id="key-considerations-for-categorical-inference">Key Considerations for Categorical Inference</h2>
@@ -51,8 +51,8 @@
 </li>
 <li><strong>What is the goal of the inference?</strong>
 <ul>
-<li>Estimating a population parameter (e.g., a proportion or the difference between proportions)? Use a Constructing a Confidence Interval for a Population|Confidence Interval.</li>
-<li>Testing a claim about a population parameter or a relationship between variables? Use a Setting Up a Test for a Population Proportion|Hypothesis Test.</li>
+<li>Estimating a population parameter (e.g., a proportion or the difference between proportions)? Use a <a href="./../constructing-a-confidence-interval-for-a-population%7Cconfidence-interval/">Constructing a Confidence Interval for a Population|Confidence Interval</a>.</li>
+<li>Testing a claim about a population parameter or a relationship between variables? Use a <a href="./../setting-up-a-test-for-a-population-proportion%7Chypothesis-test/">Setting Up a Test for a Population Proportion|Hypothesis Test</a>.</li>
 </ul>
 </li>
 <li><strong>Is the data collected from a single sample with multiple categories, or multiple samples each with two categories?</strong> This distinction is crucial for Chi-Square tests.</li>
@@ -69,7 +69,7 @@ $$  z = \frac{\hat{p} - p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}  $$  <strong>Condition
 <li><strong>Normal (Large Counts):</strong> The number of successes ( $ n\hat{p} $ ) and failures ( $ n(1-\hat{p}) $ ) are both at least 10 (for intervals) or  $ np_0 \ge 10 $  and  $ n(1-p_0) \ge 10 $  (for tests).</li>
 <li><strong>Independence (10% Condition):</strong> The sample size  $ n $  is no more than 10% of the population size  $ N $  ( $ n \le 0.10N $ ).</li>
 </ul>
-<p><strong>Links:</strong> Constructing a Confidence Interval for a Population Proportion, Setting Up a Test for a Population Proportion</p>
+<p><strong>Links:</strong> <a href="./../constructing-a-confidence-interval-for-a-population-proportion/">Constructing a Confidence Interval for a Population Proportion</a>, <a href="./../setting-up-a-test-for-a-population-proportion/">Setting Up a Test for a Population Proportion</a></p>
 <hr>
 <h2 id="inference-for-two-population-proportions">Inference for Two Population Proportions</h2>
 <p><strong>Goal:</strong> To estimate or test a claim about the difference between two population proportions ( $ p_1 - p_2 $ ).
@@ -83,11 +83,11 @@ $$  z = \frac{(\hat{p_1} - \hat{p_2}) - 0}{\sqrt{\hat{p}_c(1-\hat{p}_c)\left(\fr
 <li><strong>Normal (Large Counts):</strong> The number of successes and failures for each group are both at least 10.</li>
 <li><strong>Independence (10% Condition):</strong> Each sample size is no more than 10% of its respective population size ( $ n_1 \le 0.10N_1 $  and  $ n_2 \le 0.10N_2 $ ).</li>
 </ul>
-<p><strong>Links:</strong> Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions, Setting Up a Test for the Difference of Two Population Proportions</p>
+<p><strong>Links:</strong> <a href="./../justifying-a-claim-based-on-a-confidence-interval-for-a-difference-of-population-proportions/">Justifying a Claim Based on a Confidence Interval for a Difference of Population Proportions</a>, <a href="./../setting-up-a-test-for-the-difference-of-two-population-proportions/">Setting Up a Test for the Difference of Two Population Proportions</a></p>
 <hr>
 <h2 id="chi-square-tests">Chi-Square Tests</h2>
 <p>Chi-square ( $ \chi^2 $ ) tests are used when dealing with counts of categorical data, particularly when comparing three or more groups or categories, or investigating relationships between two categorical variables.</p>
-<h3 id="chi-square-goodness-of-fit-test">Chi-Square Goodness of Fit Test</h3>
+<h3 id="chi-square-goodness-of-fit-testchi-square-goodness-of-fit-test"><a href="./../chi-square-goodness-of-fit-test/">Chi-Square Goodness of Fit Test</a></h3>
 <p><strong>Goal:</strong> To determine if the observed distribution of a single categorical variable across several categories matches an expected distribution.
 <strong>Hypotheses:</strong></p>
 <ul>
@@ -100,9 +100,9 @@ $$  \chi^2 = \sum \frac{(Observed - Expected)^2}{Expected}  $$  <strong>Degrees 
 <li><strong>Expected Counts:</strong> All expected counts are at least 5.</li>
 <li><strong>Independence (10% Condition):</strong> The sample size  $ n $  is no more than 10% of the population size  $ N $ .</li>
 </ul>
-<p><strong>Links:</strong> Setting Up a Chi-Square Goodness of Fit Test, Carrying Out a Chi-Square Test for Goodness of Fit</p>
-<h3 id="chi-square-test-for-homogeneity-or-independence">Chi-Square Test for Homogeneity or Independence</h3>
-<p>These tests use the same statistic and conditions but address slightly different questions, often distinguished by how the data were collected (sampling design). Both involve analyzing Expected Counts in Two-Way Tables.</p>
+<p><strong>Links:</strong> <a href="./../setting-up-a-chi-square-goodness-of-fit-test/">Setting Up a Chi-Square Goodness of Fit Test</a>, <a href="./../carrying-out-a-chi-square-test-for-goodness-of-fit/">Carrying Out a Chi-Square Test for Goodness of Fit</a></p>
+<h3 id="chi-square-test-for-homogeneity-or-independencechi-square-test-for-homogeneity-or-independence"><a href="./../chi-square-test-for-homogeneity-or-independence/">Chi-Square Test for Homogeneity or Independence</a></h3>
+<p>These tests use the same statistic and conditions but address slightly different questions, often distinguished by how the data were collected (sampling design). Both involve analyzing <a href="./../expected-counts-in-two-way-tables/">Expected Counts in Two-Way Tables</a>.</p>
 <p><strong>1. Chi-Square Test for Homogeneity</strong>
 <strong>Goal:</strong> To determine if the distribution of a categorical variable is the same across several different populations or groups. Often used when comparing multiple groups from independent samples.
 <strong>Hypotheses:</strong></p>
@@ -125,7 +125,7 @@ $$  \chi^2 = \sum \frac{(Observed - Expected)^2}{Expected}  $$  <strong>Degrees 
 <li><strong>Expected Counts:</strong> All expected counts are at least 5.</li>
 <li><strong>Independence (10% Condition):</strong> For an independence test, the sample size  $ n $  is no more than 10% of the population size  $ N $ . For a homogeneity test, each sample size is no more than 10% of its respective population size.</li>
 </ul>
-<p><strong>Links:</strong> Setting Up a Chi-Square Test for Homogeneity or Independence, Carrying Out a Chi-Square Test for Homogeneity or Independence</p>
+<p><strong>Links:</strong> <a href="./../setting-up-a-chi-square-test-for-homogeneity-or-independence/">Setting Up a Chi-Square Test for Homogeneity or Independence</a>, <a href="./../carrying-out-a-chi-square-test-for-homogeneity-or-independence/">Carrying Out a Chi-Square Test for Homogeneity or Independence</a></p>
 <hr>
 <h2 id="summary-table-for-categorical-inference-procedures">Summary Table for Categorical Inference Procedures</h2>
 <table>

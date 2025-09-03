@@ -5,7 +5,7 @@
 +++
 Okay, here's a notecard formatted according to your specifications for "The Feminine Mystique":
 
-## ID: The Feminine Mystique 
+## ID: The [Feminine Mystique](./../feminine-mystique/) 
 ## When: 1963
 
 ## Who:
@@ -24,4 +24,4 @@ Okay, here's a notecard formatted according to your specifications for "The Femi
 *   **Inspired Activism:**  *The Feminine Mystique* motivated women to organize and advocate for equal rights, leading to the formation of organizations such as the National Organization for Women (NOW), which Friedan co-founded.
 *   **Impact on Legislation:** Contributed to the passage of legislation addressing gender discrimination in employment, education, and other areas.
 
-# IDS Unit 8
+# [IDS Unit 8](./../ids-unit-8/)

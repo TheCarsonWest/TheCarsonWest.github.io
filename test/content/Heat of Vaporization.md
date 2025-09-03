@@ -3,28 +3,28 @@
 [params]
 	author = 'Carson West'
 +++
-# Thermodynamics
-# Heat of Vaporization
+# [Thermodynamics](./../thermodynamics/)
+# [Heat of Vaporization](./../heat-of-vaporization/)
 
 The heat of vaporization ( $ \Delta H_{vap} $ ), also known as the enthalpy of vaporization, is the amount of heat energy required to change one mole of a substance from its liquid phase to its gaseous phase at a constant temperature and pressure (usually the boiling point).  This is an endothermic process, meaning heat is absorbed by the substance.
 
 ## Understanding the Process
 
-Vaporization involves overcoming the intermolecular forces holding liquid molecules together.  In liquids, these forces (intermolecular forces) – such as hydrogen bonding, dipole-dipole interactions, and London dispersion forces – restrict the movement of molecules.  To transition to the gaseous phase, enough energy must be supplied to overcome these attractions and allow molecules to escape the liquid's surface.  The stronger the intermolecular forces, the more energy is required, and thus the higher the heat of vaporization.
+Vaporization involves overcoming the [intermolecular forces](./../intermolecular-forces/) holding liquid molecules together.  In liquids, these forces ([intermolecular forces](./../intermolecular-forces/)) – such as hydrogen bonding, [dipole](./../dipole/)-[dipole](./../dipole/) interactions, and London dispersion forces – restrict the movement of molecules.  To transition to the gaseous phase, enough energy must be supplied to overcome these attractions and allow molecules to escape the liquid's surface.  The stronger the [intermolecular forces](./../intermolecular-forces/), the more energy is required, and thus the higher the heat of vaporization.
 
-##  Factors Affecting Heat of Vaporization
+##  Factors Affecting [Heat of Vaporization](./../heat-of-vaporization/)
 
 Several factors influence the heat of vaporization:
 
-* **Intermolecular Forces:** As mentioned above, stronger intermolecular forces lead to higher  $ \Delta H_{vap} $ . For example, water has a relatively high heat of vaporization due to its strong hydrogen bonding.
+* **Intermolecular Forces:** As mentioned above, stronger [intermolecular forces](./../intermolecular-forces/) lead to higher  $ \Delta H_{vap} $ . For example, water has a relatively high heat of vaporization due to its strong hydrogen bonding.
 
 * **Molecular Weight:**  Generally, larger molecules have higher heats of vaporization because they exhibit stronger London dispersion forces.
 
-* **Temperature:** While  $ \Delta H_{vap} $  is usually reported at the boiling point, it's important to note that it's slightly temperature-dependent.  At higher temperatures, less energy is required to overcome intermolecular forces, resulting in a slightly lower  $ \Delta H_{vap} $ .  However, this temperature dependence is often neglected in AP Chemistry calculations.
+* **[Temperature](./../temperature/):** While  $ \Delta H_{vap} $  is usually reported at the boiling point, it's important to note that it's slightly temperature-dependent.  At higher temperatures, less energy is required to overcome [intermolecular forces](./../intermolecular-forces/), resulting in a slightly lower  $ \Delta H_{vap} $ .  However, this temperature dependence is often neglected in AP Chemistry calculations.
 
 * **Pressure:** The heat of vaporization is affected by pressure. However, this effect is typically small and often ignored unless explicitly stated in a problem.
 
-## Calculating Heat of Vaporization
+## Calculating [Heat of Vaporization](./../heat-of-vaporization/)
 
 The heat absorbed during vaporization can be calculated using the following equation:
 
@@ -34,13 +34,13 @@ Where:
 
 *  $ q $  is the heat absorbed (in Joules or kilojoules)
 *  $ n $  is the number of moles of the substance
-*  $ \Delta H_{vap} $  is the molar heat of vaporization (in J/mol or kJ/mol)
+*  $ \Delta H_{vap} $  is the molar heat of vaporization (in [J](./../j/)/mol or kJ/mol)
 
-Thermodynamics and q=mcΔT: This equation is different from the equation used to calculate the heat transferred during temperature changes ( $ q = mc\Delta T $ ). Remember to use the appropriate equation depending on whether a phase change is occurring.
+[Thermodynamics and q=mcΔT](./../thermodynamics-and-q=mcδt/): This equation is different from the equation used to calculate the heat transferred during temperature changes ( $ q = mc\Delta T $ ). Remember to use the appropriate equation depending on whether a phase change is occurring.
 
 ##  Clausius-Clapeyron Equation
 
-The Clausius-Clapeyron equation relates the vapor pressure of a liquid to its temperature and heat of vaporization:
+The Clausius-Clapeyron equation relates the [vapor pressure](./../vapor-pressure/) of a liquid to its temperature and heat of vaporization:
 
  $ \ln \left(\frac{P_2}{P_1}\right) = \frac{-\Delta H_{vap}}{R} \left(\frac{1}{T_2} - \frac{1}{T_1}\right) $ 
 
@@ -48,9 +48,9 @@ Where:
 
 *  $ P_1 $  and  $ P_2 $  are the vapor pressures at temperatures  $ T_1 $  and  $ T_2 $  (in Kelvin)
 *  $ \Delta H_{vap} $  is the molar heat of vaporization
-*  $ R $  is the ideal gas constant (8.314 J/mol·K)
+*  $ R $  is the ideal gas constant (8.314 [J](./../j/)/mol·K)
 
-This equation is useful for determining the heat of vaporization if vapor pressure data at different temperatures are available, or for predicting vapor pressure at a given temperature if the heat of vaporization is known.
+This equation is useful for determining the heat of vaporization if [vapor pressure](./../vapor-pressure/) data at different temperatures are available, or for predicting [vapor pressure](./../vapor-pressure/) at a given temperature if the heat of vaporization is known.
 
 
 ## Example Problem

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# Calc home
+# [Calc home](./../calc-home/)
 
 ## What is an Antiderivative?
 
@@ -14,10 +14,10 @@ An antiderivative is the reverse process of differentiation.  If we have a funct
 In simpler terms, the derivative of the antiderivative is the original function.  Note that antiderivatives are not unique. If  $ F(x) $  is an antiderivative of  $ f(x) $ , then so is  $ F(x) + C $ , where  $ C $  is any constant. This is because the derivative of a constant is always zero.
 
 
-## Finding Antiderivatives 
+## Finding [Antiderivatives](./../antiderivatives/) 
 Finding antiderivatives often involves reversing the rules of differentiation.  Here are some basic examples:
 
-* **Power Rule:** If  $ f(x) = x^n $ , then  $ F(x) = \frac{x^{n+1}}{n+1} + C $  for  $ n \neq -1 $ .
+* **[Power Rule](./../power-rule/):** If  $ f(x) = x^n $ , then  $ F(x) = \frac{x^{n+1}}{n+1} + C $  for  $ n \neq -1 $ .
 
 * **Constant Multiple Rule:** If  $ F(x) $  is an antiderivative of  $ f(x) $ , then  $ kF(x) $  is an antiderivative of  $ kf(x) $ , where  $ k $  is a constant.
 
@@ -31,7 +31,7 @@ Finding antiderivatives often involves reversing the rules of differentiation.  
     * If  $ f(x) = \cos(x) $ , then  $ F(x) = \sin(x) + C $ .
 
 
-## The Indefinite Integral
+## [The Indefinite Integral](./../the-indefinite-integral/)
 
 The indefinite integral is a notation used to represent the antiderivative.  It's written as:
 
@@ -46,7 +46,7 @@ where:
 *  $ C $  is the constant of integration.
 
 
-## Initial Value Problems
+## [Initial Value Problems](./../initial-value-problems/)
 
 An initial value problem provides an initial condition, which allows us to determine the specific value of the constant of integration,  $ C $ .  For example, if we are given that  $ F(0) = 5 $  and  $ F'(x) = 2x $ , then we can find the specific antiderivative.
 

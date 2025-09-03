@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Estimating Probabilities Using Simulation
 
 Simulation is a powerful tool in statistics used to estimate probabilities for complex events or scenarios that are difficult to calculate analytically. It involves modeling a real-world process using random numbers and then repeating the process many times to observe the outcomes and estimate the likelihood of a particular event. This technique is particularly useful when the underlying probability distribution is unknown or the event's probability depends on a series of uncertain outcomes.
@@ -42,7 +42,7 @@ Estimating probabilities using simulation generally follows a structured, multi-
 
 5.  **Run Multiple Trials**:
     *   Repeat the simulation process a large number of times (e.g., 50, 100, 1000 trials).
-    *   More trials generally lead to a more accurate estimate due to the Law of Large Numbers.
+    *   More trials generally lead to a more accurate estimate due to the [Law of Large Numbers](./../law-of-large-numbers/).
 
 6.  **Calculate the Estimated Probability**:
     *   Count the number of trials where the event of interest occurred.
@@ -76,6 +76,6 @@ A basketball player has an 80% free throw percentage. We want to estimate the pr
 
 ## Connecting to Other Concepts
 
-*   **Probability Distributions**: Simulation can help us understand and visualize Introduction to Random Variables and Probability Distributions for complex scenarios where direct calculation is hard.
-*   **The Binomial Distribution**: The free throw example above could be modeled using the Introduction to the Binomial Distribution if we wanted to calculate the exact probability analytically, but simulation provides an alternative, especially if the conditions for a binomial distribution weren't perfectly met (e.g., probability of success changing).
-*   **Sampling Distributions for Sample Proportions**: The results from many simulation trials can themselves form a sampling distribution, which is fundamental to inferential statistics.
+*   **Probability Distributions**: Simulation can help us understand and visualize [Introduction to Random Variables and Probability Distributions](./../introduction-to-random-variables-and-probability-distributions/) for complex scenarios where direct calculation is hard.
+*   **The Binomial Distribution**: The free throw example above could be modeled using the [Introduction to the Binomial Distribution](./../introduction-to-the-binomial-distribution/) if we wanted to calculate the exact probability analytically, but simulation provides an alternative, especially if the conditions for a binomial distribution weren't perfectly met (e.g., probability of success changing).
+*   **[Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/)**: The results from many simulation trials can themselves form a sampling distribution, which is fundamental to inferential statistics.

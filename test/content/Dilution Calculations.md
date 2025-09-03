@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-write an AP chemstry rundown on Dilution Calculations, include examples, and use the MathJax notation to depict chemical equations, do NOT use code blocks
+write an AP chemstry rundown on [Dilution Calculations](./../dilution-calculations/), include examples, and use the MathJax notation to depict chemical equations, do NOT use code blocks
 
-# Dilution Calculations 
+# [Dilution Calculations](./../dilution-calculations/) 
 Dilution is the process of decreasing the concentration of a solute in a solution, usually simply by mixing with more solvent like adding more water to a solution.  It doesn't change the amount of *solute* present, just the *concentration*.
 
 **Key Concept:** The number of moles of solute remains constant during dilution.
@@ -24,8 +24,8 @@ Because the moles of solute remain constant, we can derive the following equatio
 
 Where:
 
-*  $ M_1 $  is the initial molarity *  $ V_1 $  is the initial volume
-*  $ M_2 $  is the final molarity *  $ V_2 $  is the final volume
+*  $ M_1 $  is the initial [molarity](./../molarity/) *  $ V_1 $  is the initial volume
+*  $ M_2 $  is the final [molarity](./../molarity/) *  $ V_2 $  is the final volume
 
 
 **Units:**

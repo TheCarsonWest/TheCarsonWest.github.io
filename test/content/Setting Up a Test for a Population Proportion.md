@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Setting Up a Test for a Population Proportion
 
-When we want to make a claim or decision about the true proportion of a certain characteristic within a population, we often use a Hypothesis Test. This process allows us to assess the evidence against a null hypothesis in favor of an alternative hypothesis. This note page focuses on the crucial initial steps of setting up such a test for a population proportion.
+When we want to make a claim or decision about the true proportion of a certain characteristic within a population, we often use a [Hypothesis Test](./../hypothesis-test/). This process allows us to assess the evidence against a null hypothesis in favor of an alternative hypothesis. This note page focuses on the crucial initial steps of setting up such a test for a population proportion.
 
 ---
 
@@ -16,9 +16,9 @@ A hypothesis test generally follows a four-step process, often remembered by mne
 1.  **P**arameters: Define the population parameter of interest.
 2.  **H**ypotheses: State the null and alternative hypotheses.
 3.  **A**ssumptions/Conditions: Check the conditions required for the test.
-4.  **N**ame the test and **T**est statistic: Identify the appropriate test and calculate its statistic (covered in Carrying Out a Test for a Population Proportion).
-5.  **O**btain p-value: Determine the probability of observing our data (or more extreme) if the null hypothesis were true (covered in Interpreting p-Values).
-6.  **M**ake a decision and **S**tate a conclusion: Compare the p-value to the significance level and draw a conclusion in context (covered in Concluding a Test for a Population Proportion).
+4.  **N**ame the test and **T**est statistic: Identify the appropriate test and calculate its statistic (covered in [Carrying Out a Test for a Population Proportion](./../carrying-out-a-test-for-a-population-proportion/)).
+5.  **O**btain p-value: Determine the probability of observing our data (or more extreme) if the null hypothesis were true (covered in [Interpreting p-Values](./../interpreting-p-values/)).
+6.  **M**ake a decision and **S**tate a conclusion: Compare the p-value to the significance level and draw a conclusion in context (covered in [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/)).
 
 ---
 
@@ -65,10 +65,10 @@ The alternative hypothesis is the statement we are trying to find evidence for. 
 
 ## 3. Checking Conditions (A)
 
-Before performing a hypothesis test for a population proportion, three key conditions must be met to ensure the sampling distribution of the sample proportion ( $ \hat{p} $ ) is approximately normal. These are often referred to as the "Random, Normal, Independent" conditions. This builds upon concepts from Sampling Distributions for Sample Proportions.
+Before performing a hypothesis test for a population proportion, three key conditions must be met to ensure the sampling distribution of the sample proportion ( $ \hat{p} $ ) is approximately normal. These are often referred to as the "Random, Normal, Independent" conditions. This builds upon concepts from [Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/).
 
 ### a. Random Condition
-The data must come from a Random Sampling and a Collection or a Randomized Experiment. This ensures the sample is representative of the population.
+The data must come from a [Random Sampling and a Collection](./../random-sampling-and-a-collection/) or a [Randomized Experiment](./../randomized-experiment/). This ensures the sample is representative of the population.
 
 *   **Check:** Was the sample obtained using a simple random sample (SRS) or a well-designed random process? If it's an experiment, were subjects randomly assigned?
 

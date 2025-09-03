@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# Calc home
-# Calc Rules and theorems
-The Fundamental Theorem of Calculus connects the seemingly disparate concepts of derivatives and integrals. It essentially states that differentiation and integration are inverse operations.  It's broken down into two parts:
+# [Calc home](./../calc-home/)
+# [Calc Rules and theorems](./../calc-rules-and-theorems/)
+The [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/) connects the seemingly disparate concepts of derivatives and [integrals](./../integrals/). It essentially states that differentiation and integration are inverse operations.  It's broken down into two parts:
 
 ## Part 1: The FTC and Accumulation Functions
 
@@ -19,7 +19,7 @@ then the derivative of  $ F(x) $  is simply  $ f(x) $ :
 
 **In simpler terms:** The rate of change of the accumulated area under a curve is the height of the curve at that point.
 
-Accumulation Functions
+[Accumulation Functions](./../accumulation-functions/)
 
 This means that if we have a function representing the accumulation of something (like the total distance traveled given a velocity function), its derivative gives the instantaneous rate of that accumulation (like the instantaneous velocity).
 
@@ -34,13 +34,13 @@ And  $ \frac{dF}{dx} = x^2 = f(x) $ , as the FTC Part 1 states.
 
 ## Part 2: The FTC and Definite Integrals
 
-Part 2 of the FTC provides a method for evaluating definite integrals. If  $ F(x) $  is an antiderivative of  $ f(x) $ , then:
+Part 2 of the FTC provides a method for evaluating definite [integrals](./../integrals/). If  $ F(x) $  is an antiderivative of  $ f(x) $ , then:
 
  $ \int_a^b f(x) \, dx = F(b) - F(a) $ 
 
 **In simpler terms:** To find the definite integral of a function, find its antiderivative, evaluate it at the upper limit of integration, subtract the evaluation at the lower limit of integration.
 
-Antiderivatives
+[Antiderivatives](./../antiderivatives/)
 
 **Example:**
 
@@ -51,7 +51,7 @@ To evaluate  $ \int_1^3 x^2 \, dx $ , we find the antiderivative of  $ x^2 $ , w
 
 ## Connecting the Two Parts
 
-The two parts of the FTC are intimately related. Part 1 shows that differentiation "undoes" integration, while Part 2 uses this fact to provide a practical method for calculating definite integrals.  Part 2 relies on the existence of an antiderivative, which is guaranteed (under certain conditions) by Part 1.
+The two parts of the FTC are intimately related. Part 1 shows that differentiation "undoes" integration, while Part 2 uses this fact to provide a practical method for calculating definite [integrals](./../integrals/).  Part 2 relies on the existence of an antiderivative, which is guaranteed (under certain conditions) by Part 1.
 
 ## Visual Representation
 
@@ -68,4 +68,4 @@ The graph shows  $ y=x^2 $  (blue) and its accumulation function from 0 to x (re
 The FTC applies to continuous functions on a closed interval  $ [a, b]] $ .  While many functions encountered in AP Calculus AB satisfy this condition, it's crucial to be aware of this limitation.
 
 
-This rundown provides a concise overview of the Fundamental Theorem of Calculus for AP Calculus AB. Remember to practice applying both parts to various functions to solidify your understanding.
+This rundown provides a concise overview of the [Fundamental Theorem of Calculus](./../fundamental-theorem-of-calculus/) for AP Calculus AB. Remember to practice applying both parts to various functions to solidify your understanding.

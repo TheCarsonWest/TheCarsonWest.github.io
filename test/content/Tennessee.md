@@ -3,24 +3,24 @@
 [params]
 	author = 'Carson West'
 +++
-**Tennessee in United States History**
+**[Tennessee](./../tennessee/) in [United States](./../united-states/) History**
 
 **Timeline of Events:**
 
-* 1785: Tennessee established as a territory.
-* 1790: Tennessee admitted to the Union as the 16th state.
-* 1803: Tennessee Territory split into the states of Tennessee and Alabama.
-* 1812: Battle of New Orleans: Volunteer troops from Tennessee fought under General Andrew Jackson.
-* 1861: Tennessee secedes from the Union and joins the Confederacy.
-* 1863: Chattanooga Campaign: Union forces under General Ulysses S. Grant capture Chattanooga.
-* 1865: Tennessee is readmitted to the Union.
-* 1875: Tennessee Centennial Exposition is held in Nashville.
-* 1896: Plessy v. Ferguson: Supreme Court case involving segregation of railroads, based on an incident in Tennessee.
+* 1785: [Tennessee](./../tennessee/) established as a territory.
+* 1790: [Tennessee](./../tennessee/) admitted to the Union as the 16th state.
+* 1803: [Tennessee](./../tennessee/) Territory split into the states of [Tennessee](./../tennessee/) and [Alabama](./../alabama/).
+* 1812: Battle of New Orleans: Volunteer troops from [Tennessee](./../tennessee/) fought under General [Andrew Jackson](./../andrew-jackson/).
+* 1861: [Tennessee](./../tennessee/) secedes from the Union and joins the Confederacy.
+* 1863: Chattanooga Campaign: Union forces under General [Ulysses S](./../ulysses-s/). Grant capture Chattanooga.
+* 1865: [Tennessee](./../tennessee/) is readmitted to the Union.
+* 1875: [Tennessee](./../tennessee/) Centennial Exposition is held in Nashville.
+* 1896: Plessy v. Ferguson: Supreme Court case involving segregation of railroads, based on an incident in [Tennessee](./../tennessee/).
 
 **Important Legislation:**
 
 * 1847: Women's Rights Act: Granted women the right to own and control property.
-* 1865: Reconstruction Era legislation: Enacted during the Civil War and Reconstruction period to address the status of former slaves and rebuild the South.
+* 1865: Reconstruction Era legislation: Enacted during the [Civil War](./../civil-war/) and Reconstruction period to address the status of former slaves and rebuild the South.
 
 **Important Court Cases:**
 
@@ -29,11 +29,11 @@
 
 **Major Industry:**
 
-* Agriculture: Historically, Tennessee's primary industry has been agriculture, with major crops including cotton, tobacco, and corn.
+* Agriculture: Historically, [Tennessee](./../tennessee/)'s primary industry has been agriculture, with major crops including cotton, tobacco, and corn.
 
 **Impact on the Rest of the Country:**
 
-* Battle of New Orleans: Tennessee volunteers played a crucial role in the American victory in the War of 1812.
-* Civil War: Tennessee was a key battleground during the Civil War, and its secession from the Union had a significant impact on the conflict.
-* Music: Tennessee has had a major influence on American music, particularly country and blues music.
-* Historical significance: Tennessee is home to numerous historical landmarks, including the Hermitage (Andrew Jackson's estate), the Great Smoky Mountains National Park, and the Ryman Auditorium (the "Mother Church of Country Music").
+* Battle of New Orleans: [Tennessee](./../tennessee/) volunteers played a crucial role in the American victory in the [War of 1812](./../war-of-1812/).
+* [Civil War](./../civil-war/): [Tennessee](./../tennessee/) was a key battleground during the [Civil War](./../civil-war/), and its secession from the Union had a significant impact on the conflict.
+* Music: [Tennessee](./../tennessee/) has had a major influence on American music, particularly country and blues music.
+* Historical significance: [Tennessee](./../tennessee/) is home to numerous historical landmarks, including the Hermitage ([Andrew Jackson](./../andrew-jackson/)'s estate), the Great Smoky Mountains National Park, and the Ryman Auditorium (the "Mother Church of Country Music").

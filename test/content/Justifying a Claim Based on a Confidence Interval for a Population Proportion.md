@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Justifying a Claim Based on a Confidence Interval for a Population Proportion
 
-When making claims about an unknown population proportion, a confidence interval provides a plausible range of values for that proportion. Instead of simply stating a point estimate, a confidence interval incorporates the uncertainty inherent in Sampling Distributions for Sample Proportions. This note page focuses on how to use a Constructing a Confidence Interval for a Population proportion to support or refute a specific claim.
+When making claims about an unknown population proportion, a confidence interval provides a plausible range of values for that proportion. Instead of simply stating a point estimate, a confidence interval incorporates the uncertainty inherent in [Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/). This note page focuses on how to use a [Constructing a Confidence Interval for a Population](./../constructing-a-confidence-interval-for-a-population/) proportion to support or refute a specific claim.
 
 ---
 
@@ -57,7 +57,7 @@ When concluding, it's crucial to phrase your justification carefully:
 
 *   **Avoid definitive statements**: Never say "we have proven" or "the true proportion is." Instead, use phrases like "we have convincing evidence," "it is plausible," or "we do not have convincing evidence to reject/support."
 *   **Contextualize**: Always state your conclusion in the context of the problem.
-*   **Relationship to Significance Tests**: A 95% confidence interval is equivalent to a two-sided Setting Up a Test for a Population Proportion at the  $ \alpha = 0.05 $  significance level. If the null hypothesized value ( $ p_0 $ ) falls outside the 95% confidence interval, then a two-sided test would reject the null hypothesis at  $ \alpha = 0.05 $ . This connection is part of Concluding a Test for a Population Proportion.
+*   **Relationship to Significance Tests**: A 95% confidence interval is equivalent to a two-sided [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/) at the  $ \alpha = 0.05 $  significance level. If the null hypothesized value ( $ p_0 $ ) falls outside the 95% confidence interval, then a two-sided test would reject the null hypothesis at  $ \alpha = 0.05 $ . This connection is part of [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/).
 
 ---
 
@@ -75,4 +75,4 @@ A company claims that 80% of its customers are satisfied. A random sample of 200
 
 ---
 
-Confidence Level and Margin of Error
+[Confidence Level and Margin of Error](./../confidence-level-and-margin-of-error/)

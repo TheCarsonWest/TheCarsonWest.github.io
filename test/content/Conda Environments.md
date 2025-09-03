@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Virtual Environments
-# Conda Environments 
+# [Virtual Environments](./../virtual-environments/)
+# [Conda Environments](./../conda-environments/) 
 Conda environments are isolated spaces that allow you to manage different project dependencies without conflicts.  This is crucial when working on multiple projects that require different versions of Python or packages.
 
 Key features:
@@ -59,4 +59,4 @@ conda env create -f environment.yml
 conda env remove -n myenv
 ```
 
-Conda Environment YAML Files  (Python Package Management) Virtual Environments vs Conda Environments
+[Conda Environment YAML Files](./../conda-environment-yaml-files/)  ([Python Package Management](./../python-package-management/)) [Virtual Environments](./../virtual-environments/) vs [Conda Environments](./../conda-environments/)

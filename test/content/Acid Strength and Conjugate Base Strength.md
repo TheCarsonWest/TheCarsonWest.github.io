@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# Conjugate Acid-Base Pairs
-# Acid Strength and Conjugate Base Strength
+# [Conjugate Acid-Base Pairs](./../conjugate-acid-base-pairs/)
+# [Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/)
 
 **Main Idea:**  The strength of an acid is inversely related to the strength of its conjugate base.  Strong acids have weak conjugate bases, and weak acids have strong conjugate bases.
 
-* **Acid Dissociation Constant ( $ K_a $ )**: This equilibrium constant quantifies the strength of an acid in aqueous solution.  A larger  $ K_a $  value indicates a stronger acid.
+* **[Acid Dissociation Constant](./../acid-dissociation-constant/) ( $ K_a $ )**: This equilibrium constant quantifies the strength of an acid in aqueous solution.  A larger  $ K_a $  value indicates a stronger acid.
 
    $ HA(aq) \rightleftharpoons H^+(aq) + A^-(aq) $ 
 
@@ -18,11 +18,11 @@
 
 * **Factors Affecting Acid Strength:**
 
-    * **Bond Strength:** Weaker bonds are easier to break, leading to stronger acids.  Consider the H-X bond strength in hydrohalic acids (HF, HCl, HBr, HI). Bond Strength and Acid Strength
-    * **Electronegativity:**  More electronegative atoms stabilize the conjugate base by attracting the negative charge more effectively. This makes the acid stronger. Electronegativity and Acid Strength
-    * **Resonance:** If the conjugate base can delocalize the negative charge through resonance, the acid will be stronger. Resonance and Acid Strength
-    * **Size/Polarizability:** Larger atoms can better stabilize the negative charge on the conjugate base through polarizability, leading to stronger acidity. Atomic Size and Acid Strength
-    * **Inductive Effect:** Electron-withdrawing groups can stabilize the conjugate base and increase acid strength.  Inductive Effect and Acid Strength
+    * **Bond Strength:** Weaker bonds are easier to break, leading to stronger acids.  Consider the H-X bond strength in hydrohalic acids (HF, HCl, HBr, HI). [Bond Strength and Acid Strength](./../bond-strength-and-acid-strength/)
+    * **Electronegativity:**  More electronegative atoms stabilize the conjugate base by attracting the negative charge more effectively. This makes the acid stronger. [Electronegativity and Acid Strength](./../electronegativity-and-acid-strength/)
+    * **Resonance:** If the conjugate base can delocalize the negative charge through resonance, the acid will be stronger. [Resonance and Acid Strength](./../resonance-and-acid-strength/)
+    * **Size/Polarizability:** Larger atoms can better stabilize the negative charge on the conjugate base through polarizability, leading to stronger acidity. [Atomic Size and Acid Strength](./../atomic-size-and-acid-strength/)
+    * **Inductive Effect:** Electron-withdrawing groups can stabilize the conjugate base and increase acid strength.  [Inductive Effect and Acid Strength](./../inductive-effect-and-acid-strength/)
 
 
 * **Conjugate Base Strength:** The strength of a conjugate base is directly related to the stability of the anion ( $ A^- $ ).  Factors that stabilize the anion ( $ A^- $ ) make it a weaker conjugate base and, therefore, the corresponding acid stronger.
@@ -38,4 +38,4 @@
     *  $ CH_3COOH $  (weak acid) has a relatively strong conjugate base,  $ CH_3COO^- $ .
 
 
-* **Further Notes:** Acid-Base Equilibria, Titration Curves
+* **Further Notes:** [Acid-Base Equilibria, Titration Curves](./../acid-base-equilibria,-titration-curves/)

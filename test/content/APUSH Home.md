@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# nexus
-# ID Home
-# States list
-# APUSH people
+# [nexus](./../nexus/)
+# [ID Home](./../id-home/)
+# [States list](./../states-list/)
+# [APUSH people](./../apush-people/)
 
-# APUSH Groups
+# [APUSH Groups](./../apush-groups/)
 

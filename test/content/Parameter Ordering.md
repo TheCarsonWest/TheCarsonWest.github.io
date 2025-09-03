@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Function Parameters
-# Parameter Ordering in Python
+# [Function Parameters](./../function-parameters/)
+# [Parameter Ordering](./../parameter-ordering/) in Python
 
 Python's function parameter ordering follows a specific pattern which can sometimes be confusing, especially when dealing with many parameters. Understanding this order is crucial for writing readable and maintainable code.
 
@@ -29,7 +29,7 @@ The general order is:
    my_func(c=3, a=1, b=2) # Order doesn't matter here
    ```
 
-3. **Default Parameters:** These parameters have a default value assigned in the function definition. If a value is not provided during invocation, the default value is used.  Default parameters *must* come after non-default parameters.
+3. **[Default Parameters](./../default-parameters/):** These parameters have a default value assigned in the function definition. If a value is not provided during invocation, the default value is used.  Default parameters *must* come after non-default parameters.
 
    ```python
    def my_func(a, b, c=3): # c has a default value
@@ -47,7 +47,7 @@ The general order is:
 
    my_func(1, 2, 3, 4, 5) # args will be (3, 4, 5)
    ```
-   Variable Arguments
+   [Variable Arguments](./../variable-arguments/)
 
 5.  **`**kwargs` (Variable Keyword Arguments): This allows a function to accept a variable number of keyword arguments. These arguments are collected into a dictionary.
 
@@ -57,7 +57,7 @@ The general order is:
 
    my_func(1, 2, c=3, d=4) # kwargs will be {'c': 3, 'd': 4}
    ```
-   Variable Keyword Arguments
+   [Variable Keyword Arguments](./../variable-keyword-arguments/)
 
 
 **Important Considerations:**
@@ -70,7 +70,7 @@ The general order is:
 
 
 Related Notes:
-- Variable Arguments
-- Variable Keyword Arguments
-- Default Parameter Gotchas (Potential issues with mutable default parameters)
+- [Variable Arguments](./../variable-arguments/)
+- [Variable Keyword Arguments](./../variable-keyword-arguments/)
+- [Default Parameter Gotchas](./../default-parameter-gotchas/) (Potential issues with mutable default parameters)
 

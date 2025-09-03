@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# ndarray Explained
-# Broadcasting Explained 
+# [ndarray Explained](./../ndarray-explained/)
+# [Broadcasting Explained](./../broadcasting-explained/) 
 Broadcasting is a powerful feature in NumPy that allows for efficient operations between arrays of different shapes.  It avoids explicit looping and significantly speeds up computations.  The core idea is that NumPy attempts to *stretch* smaller arrays to match the shape of larger arrays before performing element-wise operations.
 
 **Rules of Broadcasting:**
@@ -48,13 +48,13 @@ b = np.array(1, 2, 3) # Shape (3,)
 **Use Cases:**
 
 * **Vectorized Operations:**  Perform element-wise operations efficiently on arrays of different shapes without explicit loops.
-* **Matrix-Vector Multiplication (simplified cases):**  Can be used for specific cases where one operand is a vector.  (Matrix Multiplication) for more general matrix operations.
+* **Matrix-Vector Multiplication (simplified cases):**  Can be used for specific cases where one operand is a vector.  ([Matrix Multiplication](./../matrix-multiplication/)) for more general matrix operations.
 * **Data Preprocessing:**  Useful in scaling or normalizing data sets where operations might need to be applied across rows or columns of different sizes.
 
 
 **Further Reading:**
 
-* NumPy Documentation on Broadcasting  (This note should contain a link to the official NumPy documentation on broadcasting)
+* [NumPy Documentation on Broadcasting](./../numpy-documentation-on-broadcasting/)  (This note should contain a link to the official NumPy documentation on broadcasting)
 
 **Pitfalls:**
 

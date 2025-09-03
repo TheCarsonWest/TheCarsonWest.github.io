@@ -3,65 +3,65 @@
 [params]
 	author = 'Carson West'
 +++
-# nexus
+# [nexus](./../nexus/)
 
-- non programming things about python
+- [non programming things about python](./../non-programming-things-about-python/)
 
-- Variables and Data Types
- - Operators
- - Control Flow If Statements
- - For Loops
- - While Loops
- - Python Functions
- - Function Parameters
- - Return Values
- - Default Parameters
- - Recursion
-- Lambda Functions
- - Lists
- - Tuples
- - Dictionaries
- - Python Sets
- - List Comprehension
- - File Handling
- - Exception Handling
- - Classes and Objects
- - Inheritance
- - Polymorphism
- - Encapsulation
- - Modules and Packages
- - Importing Modules
- - Generators
- - Decorators
- - Context Managers
- - Regular Expressions
- - Libraries like NumPy
- - Libraries like Pandas
- - Libraries like Matplotlib
- - Type Hinting
- - Mutable vs Immutable Types
-- Bitwise Operators
- - Nested If Statements
- - Nested Loops
- - Function Overloading
-- Higher-Order Functions
- - Closures
- - Global and Nonlocal Variables
-- Memoization in Recursion
- - Map, Filter, and Reduce
-- Multidimensional Lists
- - Dictionary Comprehension
-- Frozen Sets
- - File IO Modes
- - Handling Binary Files
- - Custom Exceptions
- - Abstract Classes
-- Multiple Inheritance
-- Method Resolution Order (MRO)
- - Private and Protected Members
- - Virtual Environments
-- Async Generators
-- Chaining Decorators
-- Custom Context Managers
- - Regex Groups and Backreferences
- - NumPy Broadcasting
+- [Variables and Data Types](./../variables-and-data-types/)
+ - [Operators](./../operators/)
+ - [Control Flow If Statements](./../control-flow-if-statements/)
+ - [For Loops](./../for-loops/)
+ - [While Loops](./../while-loops/)
+ - [Python Functions](./../python-functions/)
+ - [Function Parameters](./../function-parameters/)
+ - [Return Values](./../return-values/)
+ - [Default Parameters](./../default-parameters/)
+ - [Recursion](./../recursion/)
+- [Lambda Functions](./../lambda-functions/)
+ - [Lists](./../lists/)
+ - [Tuples](./../tuples/)
+ - [Dictionaries](./../dictionaries/)
+ - [Python Sets](./../python-sets/)
+ - [List Comprehension](./../list-comprehension/)
+ - [File Handling](./../file-handling/)
+ - [Exception Handling](./../exception-handling/)
+ - [Classes and Objects](./../classes-and-objects/)
+ - [Inheritance](./../inheritance/)
+ - [Polymorphism](./../polymorphism/)
+ - [Encapsulation](./../encapsulation/)
+ - [Modules and Packages](./../modules-and-packages/)
+ - [Importing Modules](./../importing-modules/)
+ - [Generators](./../generators/)
+ - [Decorators](./../decorators/)
+ - [Context Managers](./../context-managers/)
+ - [Regular Expressions](./../regular-expressions/)
+ - [Libraries like NumPy](./../libraries-like-numpy/)
+ - [Libraries like Pandas](./../libraries-like-pandas/)
+ - [Libraries like Matplotlib](./../libraries-like-matplotlib/)
+ - [Type Hinting](./../type-hinting/)
+ - [Mutable vs Immutable Types](./../mutable-vs-immutable-types/)
+- [Bitwise Operators](./../bitwise-operators/)
+ - [Nested If Statements](./../nested-if-statements/)
+ - [Nested Loops](./../nested-loops/)
+ - [Function Overloading](./../function-overloading/)
+- [Higher-Order Functions](./../higher-order-functions/)
+ - [Closures](./../closures/)
+ - [Global and Nonlocal Variables](./../global-and-nonlocal-variables/)
+- [Memoization in Recursion](./../memoization-in-recursion/)
+ - [Map, Filter, and Reduce](./../map,-filter,-and-reduce/)
+- [Multidimensional Lists](./../multidimensional-lists/)
+ - [Dictionary Comprehension](./../dictionary-comprehension/)
+- [Frozen Sets](./../frozen-sets/)
+ - [File IO Modes](./../file-io-modes/)
+ - [Handling Binary Files](./../handling-binary-files/)
+ - [Custom Exceptions](./../custom-exceptions/)
+ - [Abstract Classes](./../abstract-classes/)
+- [Multiple Inheritance](./../multiple-inheritance/)
+- [Method Resolution Order (MRO)](./../method-resolution-order-(mro)/)
+ - [Private and Protected Members](./../private-and-protected-members/)
+ - [Virtual Environments](./../virtual-environments/)
+- [Async Generators](./../async-generators/)
+- [Chaining Decorators](./../chaining-decorators/)
+- [Custom Context Managers](./../custom-context-managers/)
+ - [Regex Groups and Backreferences](./../regex-groups-and-backreferences/)
+ - [NumPy Broadcasting](./../numpy-broadcasting/)

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics - Topic 4.1: Linear Momentum
 
 ## Introduction to Linear Momentum
@@ -19,7 +19,7 @@ Linear momentum, denoted by  $ \vec{p} $ , is defined as the product of an objec
  $ 
 
 **Key Characteristics:**
-*   **Vector Quantity**: Momentum is a vector quantity, meaning it has both magnitude and direction. Its direction is always the same as the object's velocity. This aligns with our understanding of Scalars and Vectors in One Dimension and Vectors and Motion in Two Dimensions.
+*   **Vector Quantity**: Momentum is a vector quantity, meaning it has both magnitude and direction. Its direction is always the same as the object's velocity. This aligns with our understanding of [Scalars and Vectors in One Dimension](./../scalars-and-vectors-in-one-dimension/) and [Vectors and Motion in Two Dimensions](./../vectors-and-motion-in-two-dimensions/).
 *   **Mass ( $ m $ )**: A scalar quantity, typically measured in kilograms (kg).
 *   **Velocity ( $ \vec{v} $ )**: A vector quantity, measured in meters per second (m/s).
 
@@ -29,7 +29,7 @@ The SI unit for linear momentum is the kilogram-meter per second (kg·m/s). Ther
 
 ## Relationship to Newton's Second Law
 
-Linear momentum is directly linked to Newton’s Second Law. While Newton's Second Law is often stated as  $ F = ma $ , its more fundamental form involves the rate of change of momentum.
+Linear momentum is directly linked to [Newton’s Second Law](./../newton’s-second-law/). While Newton's Second Law is often stated as  $ F = ma $ , its more fundamental form involves the rate of change of momentum.
 
 The net external force ( $ \vec{F}_{\text{net}} $ ) acting on an object is equal to the rate of change of its linear momentum:
 
@@ -45,14 +45,14 @@ This demonstrates that a net force causes a change in momentum, not just acceler
 
 ## Importance in Physics
 
-Linear momentum is particularly useful when analyzing systems where forces are not constant or are difficult to measure directly, especially in situations like collisions or explosions. Its importance is further highlighted by the principle of Conservation of Linear Momentum, which states that the total momentum of an isolated system remains constant.
+Linear momentum is particularly useful when analyzing systems where forces are not constant or are difficult to measure directly, especially in situations like collisions or explosions. Its importance is further highlighted by the principle of [Conservation of Linear Momentum](./../conservation-of-linear-momentum/), which states that the total momentum of an isolated system remains constant.
 
 ## Types of Momentum
 
 | Type                | Description                                                          |
 | :------------------ | :------------------------------------------------------------------- |
 | **Linear Momentum** | Momentum of an object moving along a straight line or path.          |
-| **Angular Momentum**| Angular Momentum and Angular Impulse - Momentum of a rotating object, topic 4.4. |
+| **Angular Momentum**| [Angular Momentum and Angular Impulse](./../angular-momentum-and-angular-impulse/) - Momentum of a rotating object, topic 4.4. |
 
 ## Example Scenarios
 
@@ -67,7 +67,7 @@ If the same object was moving at 3 m/s to the left, its momentum would be  $ 6 \
 ## Connection to Other Topics
 
 Understanding linear momentum is essential for advanced topics such as:
-*   Change in Momentum and Impulse
-*   Conservation of Linear Momentum
-*   Elastic and Inelastic Collisions
+*   [Change in Momentum and Impulse](./../change-in-momentum-and-impulse/)
+*   [Conservation of Linear Momentum](./../conservation-of-linear-momentum/)
+*   [Elastic and Inelastic Collisions](./../elastic-and-inelastic-collisions/)
 *   Rocket propulsion (where mass changes over time)

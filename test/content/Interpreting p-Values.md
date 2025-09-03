@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Interpreting p-Values
 
-The p-value is a fundamental concept in Setting Up a Test for a Population Proportion and other hypothesis tests. It quantifies the evidence against the null hypothesis provided by the sample data. Understanding its meaning is crucial for drawing valid conclusions from statistical analyses.
+The p-value is a fundamental concept in [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/) and other hypothesis tests. It quantifies the evidence against the null hypothesis provided by the sample data. Understanding its meaning is crucial for drawing valid conclusions from statistical analyses.
 
 ## What is a p-Value?
 
@@ -18,7 +18,7 @@ Mathematically, if we have a test statistic  $ t $  (or  $ z $ ,  $ \chi^2 $ , e
 
 ## Context in Hypothesis Testing
 
-In any Setting Up a Test for a Population Proportion or other Setting Up a Test for a Population Mean, we begin by stating two competing hypotheses:
+In any [Setting Up a Test for a Population Proportion](./../setting-up-a-test-for-a-population-proportion/) or other [Setting Up a Test for a Population Mean](./../setting-up-a-test-for-a-population-mean/), we begin by stating two competing hypotheses:
 *   **Null Hypothesis ( $ H_0 $ )**: A statement of no effect, no difference, or no relationship. It's the status quo or the claim we are trying to find evidence against.
 *   **Alternative Hypothesis ( $ H_A $  or  $ H_1 $ )**: A statement that contradicts the null hypothesis, representing what we are trying to find evidence for.
 
@@ -32,7 +32,7 @@ The p-value is a probability, so it always ranges between 0 and 1.
 
 ### Comparing with Significance Level ( $ \alpha $ )
 
-Before performing a hypothesis test, a Potential Errors When Performing Tests is set. This is denoted by  $ \alpha $  (alpha) and is the pre-determined threshold for statistical significance. Common values for  $ \alpha $  are 0.05, 0.01, or 0.10.
+Before performing a hypothesis test, a [Potential Errors When Performing Tests](./../potential-errors-when-performing-tests/) is set. This is denoted by  $ \alpha $  (alpha) and is the pre-determined threshold for statistical significance. Common values for  $ \alpha $  are 0.05, 0.01, or 0.10.
 
 | p-value vs.  $ \alpha $  | Decision Regarding  $ H_0 $  | Conclusion in Context |
 | :------------------- | :----------------------- | :-------------------- |
@@ -50,4 +50,4 @@ It's crucial to avoid common misinterpretations of the p-value:
 3.  **The p-value is NOT a measure of the effect size or practical significance.** A statistically significant result (small p-value) doesn't necessarily mean the effect is large or practically important. Conversely, a large p-value doesn't mean there's no effect, just no statistically significant evidence of one.
 4.  **A p-value close to 0 does NOT mean the alternative hypothesis is definitely true.** It means the data is very unlikely under the null hypothesis.
 
-For a detailed example of making a decision based on a p-value, refer to Concluding a Test for a Population Proportion. The p-value is a tool to quantify evidence, and its interpretation should always be within the context of the study and the hypotheses being tested.
+For a detailed example of making a decision based on a p-value, refer to [Concluding a Test for a Population Proportion](./../concluding-a-test-for-a-population-proportion/). The p-value is a tool to quantify evidence, and its interpretation should always be within the context of the study and the hypotheses being tested.

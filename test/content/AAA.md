@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# IDS Unit 7
+# [IDS Unit 7](./../ids-unit-7/)
 
 ## ID: Agricultural Adjustment Act (AAA)
 

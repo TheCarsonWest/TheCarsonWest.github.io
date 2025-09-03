@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-# Private and Protected Members
-# Getter and Setter Methods 
+# [Private and Protected Members](./../private-and-protected-members/)
+# [Getter and Setter Methods](./../getter-and-setter-methods/) 
 These methods provide controlled access to an object's attributes.  They are crucial for encapsulation and data integrity.
 
 **Why use them?**
 
-* **Encapsulation:** Hide internal object state.  Prevent direct manipulation of attributes, which can lead to inconsistencies or errors.
+* **[Encapsulation](./../encapsulation/):** Hide internal object state.  Prevent direct manipulation of attributes, which can lead to inconsistencies or errors.
 * **Data Validation:**  Enforce constraints on attribute values before they are assigned.  This ensures data remains valid and prevents unexpected behavior.
 * **Maintainability:** Makes it easier to modify internal implementation without affecting external code that uses the object.
 
@@ -72,4 +72,4 @@ except ValueError as e:
     print(e)
 ```
 
-Property Decorator in Python  Encapsulation in OOP Error Handling in Python
+[Property Decorator in Python](./../property-decorator-in-python/)  [Encapsulation in OOP](./../encapsulation-in-oop/) [Error Handling in Python](./../error-handling-in-python/)

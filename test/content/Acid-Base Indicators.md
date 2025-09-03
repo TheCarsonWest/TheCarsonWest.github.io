@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Acids and Bases
-# Acid-Base Indicators
+# [Acids and Bases](./../acids-and-bases/)
+# [Acid-Base Indicators](./../acid-base-indicators/)
 
 Acid-base indicators are substances that change color depending on the pH of the solution they are in.  This color change is due to a change in the indicator's chemical structure, often involving protonation or deprotonation.
 
@@ -25,13 +25,13 @@ Acid-base indicators are substances that change color depending on the pH of the
     * Bromothymol blue: Yellow in acidic solution, blue in basic solution. Transition range: ~6.0-7.6
 
 
-* **Choosing an indicator:** The appropriate indicator for a titration depends on the pH at the equivalence point.  The indicator's transition range should encompass the equivalence point pH. Titration Curves
+* **Choosing an indicator:** The appropriate indicator for a titration depends on the pH at the equivalence point.  The indicator's transition range should encompass the equivalence point pH. [Titration Curves](./../titration-curves/)
 
 
 * **Limitations:** Indicators provide an approximate measure of pH. They are not precise instruments for determining pH.  The exact pH at which the color change occurs can be influenced by temperature and ionic strength.
 
 
-* Weak Acids and Bases
-* Equilibrium Constants
-* pH and pOH
+* [Weak Acids and Bases](./../weak-acids-and-bases/)
+* [Equilibrium Constants](./../equilibrium-constants/)
+* [pH and pOH](./../ph-and-poh/)
 

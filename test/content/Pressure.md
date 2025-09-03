@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics Note Page: Topic 8.2 Pressure
 
 ## Introduction to Pressure
@@ -22,7 +22,7 @@ P = \frac{F_\perp}{A}
 -    $ A $ : The area over which the force is applied (in square meters, m $ ^2 $ ).
 -    $ P $ : Pressure (in Pascals, Pa).
 
-Pressure is a Scalars and Vectors in One Dimension|scalar quantity, meaning it has magnitude but no direction. However, the force creating the pressure always acts perpendicular to the surface.
+Pressure is a [Scalars and Vectors in One Dimension|scalar](./../scalars-and-vectors-in-one-dimension|scalar/) quantity, meaning it has magnitude but no direction. However, the force creating the pressure always acts perpendicular to the surface.
 
 ### Units of Pressure
 
@@ -47,7 +47,7 @@ Other common units include:
 
 ## Pressure in Fluids
 
-For a fluid at rest, pressure acts equally in all directions at a given depth. This is a consequence of Newton’s Second Law and the molecular nature of fluids. Imagine a tiny cube within a fluid; if the pressure wasn't equal on all sides, the cube would accelerate.
+For a fluid at rest, pressure acts equally in all directions at a given depth. This is a consequence of [Newton’s Second Law](./../newton’s-second-law/) and the molecular nature of fluids. Imagine a tiny cube within a fluid; if the pressure wasn't equal on all sides, the cube would accelerate.
 
 ### Absolute vs. Gauge Pressure
 
@@ -79,7 +79,7 @@ This equation shows that:
 2.  Pressure is the same at all points at the same horizontal level within a continuous fluid.
 3.  Pressure does not depend on the shape or volume of the container, only on the depth, fluid density, and surface pressure.
 
-## Pascal's Principle
+## [Pascal's Principle](./../pascal's-principle/)
 
 Pascal's Principle states that a pressure change applied to an enclosed incompressible fluid is transmitted undiminished to every portion of the fluid and to the walls of the containing vessel. This principle is fundamental to hydraulic systems.
 

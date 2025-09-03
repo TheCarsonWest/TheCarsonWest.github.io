@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-Okay, here's a notecard formatted for the APUSH Cold War topic, following your instructions:
+Okay, here's a notecard formatted for the APUSH [Cold War](./../cold-war/) topic, following your instructions:
 
-## ID: The Cold War 
+## ID: The [Cold War](./../cold-war/) 
 ## WHEN: 1947-1991 (Roughly)
 
 ## WHO:
@@ -17,7 +17,7 @@ Okay, here's a notecard formatted for the APUSH Cold War topic, following your i
 
 ## WHAT:
 
-A period of geopolitical tension between the United States and the Soviet Union and their respective allies. It was characterized by ideological, political, and economic rivalry, as well as an arms race (especially nuclear weapons) and proxy wars, but without direct military conflict between the two superpowers. Key aspects included:
+A period of geopolitical tension between the [United States](./../united-states/) and the Soviet Union and their respective allies. It was characterized by ideological, political, and economic rivalry, as well as an arms race (especially nuclear weapons) and proxy wars, but without direct military conflict between the two superpowers. Key aspects included:
 
 *   **Ideological Struggle:**  Capitalism vs. Communism
 *   **Arms Race:** Buildup of nuclear and conventional weapons.
@@ -34,7 +34,7 @@ A period of geopolitical tension between the United States and the Soviet Union 
 *   **Economic Impact:**  Massive military spending and technological development, spurring economic growth in some areas but also leading to economic strain.
 *   **Domestic Impact:**  Increased government power, the Red Scare, anti-communist sentiment, and a focus on national security (e.g., creation of the CIA, expansion of the military-industrial complex).
 *   **Technological Innovation:**  Space Race and advancements in computing, communications, and other technologies.
-*   **Shaped US Foreign Policy:**  Justified interventionist foreign policy for decades and influenced alliances and global relationships long after the Cold War ended.
+*   **Shaped US Foreign Policy:**  Justified interventionist foreign policy for decades and influenced alliances and global relationships long after the [Cold War](./../cold-war/) ended.
 *   **Fall of Communism:** Ultimately led to the collapse of the Soviet Union and the end of communist regimes in Eastern Europe, reshaping the global political landscape.
 
-# IDS Unit 8
+# [IDS Unit 8](./../ids-unit-8/)

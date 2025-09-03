@@ -3,13 +3,13 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Baby Boom 
+## ID: [Baby Boom](./../baby-boom/) 
 ## When: 1946-1964
 
 ## Who:
 * **American families:** Primarily white, middle-class families experiencing newfound prosperity.
 * **Returning WWII Veterans:** Eager to start families after years of war.
-* **Government Policies:** GI Bill contributed to increased homeownership and family formation.
+* **Government Policies:** [GI Bill](./../gi-bill/) contributed to increased homeownership and family formation.
 
 ## What:
 A significant increase in the birth rate following World War II in the United States. This led to a dramatic rise in the population, creating a generation known as the "Baby Boomers."
@@ -22,4 +22,4 @@ A significant increase in the birth rate following World War II in the United St
 * **Strain on Resources:** Placed demands on resources and infrastructure (schools, hospitals, etc.).
 * **Future Implications:** As Baby Boomers aged, they placed strains on Social Security and Medicare systems. The sheer size of the generation continues to shape policy debates today.
 
-# IDS Unit 8
+# [IDS Unit 8](./../ids-unit-8/)

@@ -5,11 +5,11 @@
 +++
 https://www.youtube.com/watch?v=mQnem4VxlBQ
 
-Unit 2b Migration
+[Unit 2b Migration](./../unit-2b-migration/)
 
-## The Complexities of Asylum in the United States
+## The Complexities of Asylum in the [United States](./../united-states/)
 
-This piece explores the often-misunderstood process of seeking asylum in the United States, highlighting the challenges, controversies, and human impact of the system.
+This piece explores the often-misunderstood process of seeking asylum in the [United States](./../united-states/), highlighting the challenges, controversies, and human impact of the system.
 
 **The Current Situation:**
 
@@ -19,9 +19,9 @@ This piece explores the often-misunderstood process of seeking asylum in the Uni
 
 **A Historical Perspective:**
 
-* The 1951 UN Refugee Convention defined a Refugee as someone fleeing persecution based on race, Religion, nationality, political opinion, or membership in a particular social group.  This was largely a response to the post-World War II Refugee crisis and the failure of many countries to accept Jewish refugees fleeing the Holocaust.
-* The U.S. Refugee Act of 1980 differentiated between refugees (vetted before arrival) and asylum seekers (applying at the border or within the U.S. on a temporary visa).
-* While the president sets annual Refugee quotas, there's no limit on asylum grants.
+* The 1951 UN [Refugee](./../refugee/) Convention defined a [Refugee](./../refugee/) as someone fleeing persecution based on race, [Religion](./../religion/), nationality, political opinion, or membership in a particular social group.  This was largely a response to the post-World War II [Refugee](./../refugee/) crisis and the failure of many countries to accept Jewish refugees fleeing the Holocaust.
+* The U.S. [Refugee](./../refugee/) Act of 1980 differentiated between refugees (vetted before arrival) and asylum seekers (applying at the border or within the U.S. on a temporary visa).
+* While the president sets annual [Refugee](./../refugee/) quotas, there's no limit on asylum grants.
 
 **The Asylum Process and its Challenges:**
 

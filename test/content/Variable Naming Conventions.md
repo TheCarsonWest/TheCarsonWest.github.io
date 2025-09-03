@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Variables and Data Types
-# Variable Naming Conventions 
+# [Variables and Data Types](./../variables-and-data-types/)
+# [Variable Naming Conventions](./../variable-naming-conventions/) 
 Python's variable naming follows specific conventions for readability and maintainability.  Inconsistent naming can lead to errors and make code harder to understand.
 
 
@@ -40,10 +40,10 @@ if = 1             # Uses a reserved keyword (invalid)
 
 **Further Notes:**
 
-* Data Types  (Understanding Data Types helps in choosing appropriate variable names.)
-* Code Style Guides (PEP 8 provides detailed guidelines on Python style, including variable naming.)
+* [Data Types](./../data-types/)  (Understanding [Data Types](./../data-types/) helps in choosing appropriate variable names.)
+* [Code Style Guides](./../code-style-guides/) (PEP 8 provides detailed guidelines on Python style, including variable naming.)
 
 **Example of referencing another note:**
 
-For a more in-depth explanation on how to choose effective variable names, refer to Choosing Descriptive Variable Names.
+For a more in-depth explanation on how to choose effective variable names, refer to [Choosing Descriptive Variable Names](./../choosing-descriptive-variable-names/).
 

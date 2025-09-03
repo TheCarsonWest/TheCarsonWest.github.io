@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# Regular Expressions
-# Regex Groups and Backreferences 
-These notes cover how to use groups and backreferences in Regular Expressions within Python.
+# [Regular Expressions](./../regular-expressions/)
+# [Regex Groups and Backreferences](./../regex-groups-and-backreferences/) 
+These notes cover how to use groups and backreferences in [Regular Expressions](./../regular-expressions/) within Python.
 
 The core idea is to create groups within a regex pattern to capture specific parts of the matched string.  These captured parts can then be reused (backreferenced) within the same pattern or accessed after the match is made.
 
@@ -55,7 +55,7 @@ if match:
 ```
 
 
-Regex Metacharacters  (Python's `re` Module)
+[Regex Metacharacters](./../regex-metacharacters/)  ([Python's `re` Module](./../python's-`re`-module/))
 
 
-This is useful for extracting specific parts of a matched string in a structured way.  Refer to Regex Metacharacters for more information on the basic building blocks of Regular Expressions used in these examples.  The Python's `re` Module note will cover the different functions available within Python's `re` module for working with Regular Expressions.
+This is useful for extracting specific parts of a matched string in a structured way.  Refer to [Regex Metacharacters](./../regex-metacharacters/) for more information on the basic building blocks of [Regular Expressions](./../regular-expressions/) used in these examples.  The [Python's `re` Module](./../python's-`re`-module/) note will cover the different functions available within Python's `re` module for working with [Regular Expressions](./../regular-expressions/).

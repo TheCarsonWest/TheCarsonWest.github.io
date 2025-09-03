@@ -12,9 +12,9 @@ Derivatives represent the **instantaneous rate of change** of a function.  This 
 3. **Calculate the derivative:** Use the appropriate differentiation rules to find the derivative of the function.
 4. **Interpret the result:** Explain the meaning of the derivative in the context of the problem.
 
-## Implicit Differentiation 
+## [Implicit Differentiation](./../implicit-differentiation/) 
 
-Implicit Differentiation is a technique used to find the derivative of a function that is not explicitly defined as  $ y = f(x) $ . Instead, the function is defined by an equation that implicitly relates  $ x $  and  $ y $ , or any other variable you may see.
+[Implicit Differentiation](./../implicit-differentiation/) is a technique used to find the derivative of a function that is not explicitly defined as  $ y = f(x) $ . Instead, the function is defined by an equation that implicitly relates  $ x $  and  $ y $ , or any other variable you may see.
 
 ## Examples
 

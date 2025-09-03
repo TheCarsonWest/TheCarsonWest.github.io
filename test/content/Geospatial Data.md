@@ -25,7 +25,7 @@
  * Uses: crime analysis, pollution effects, urban planning
 
 # **Tokyo Subway Map**
-!Pasted image 20240911075621.png
+![Pasted image 20240911075621.png](./../pasted-image-20240911075621.png/)
 * Highly useful but inaccurate
 * Demonstrates the importance of relative location
 * Passengers don't need to know actual distances or track layouts and the squiggles

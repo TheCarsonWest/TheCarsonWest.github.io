@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Python 1 Home
-# Importing Modules 
+# [Python 1 Home](./../python-1-home/)
+# [Importing Modules](./../importing-modules/) 
 This note covers importing modules in Python.
 
 Modules are files containing Python definitions and statements.  They provide a way to organize and reuse code.
@@ -14,7 +14,7 @@ Modules are files containing Python definitions and statements.  They provide a 
 *   `import module_name`: Imports the entire module. Access members using `module_name.member`.
 *   `from module_name import member_name`: Imports a specific member (function, class, variable).  Access directly using `member_name`.
 *   `from module_name import member1, member2`: Imports multiple specific members.
-*   `from module_name import *`: Imports all members.  Generally discouraged due to potential naming conflicts.  (Namespaces and Scope)
+*   `from module_name import *`: Imports all members.  Generally discouraged due to potential naming conflicts.  ([Namespaces and Scope](./../namespaces-and-scope/))
 
 **Example:**
 
@@ -32,7 +32,7 @@ from os import path, getcwd
 print(getcwd()) #Prints current working directory.  
 ```
 
-**Module Search Path:**
+**[Module Search Path](./../module-search-path/):**
 
 Python searches for modules in a specific order:
 
@@ -41,7 +41,7 @@ Python searches for modules in a specific order:
 3.  Standard library directories.
 4.  Installation-specific directories (site-packages).
 
-(PYTHONPATH Environment Variable)
+([PYTHONPATH Environment Variable](./../pythonpath-environment-variable/))
 
 **Packages:**
 
@@ -58,7 +58,7 @@ import mypackage.module2
 from mypackage import module1, module2
 ```
 
-(Packages and __init__.py)
+([Packages and __init__.py](./../packages-and-__init__.py/))
 
 
 **Relative Imports:**
@@ -71,11 +71,11 @@ Within a package, you can import modules relative to the current module's locati
 from .module2 import my_function # Imports my_function from module2 within mypackage
 ```
 
-(Relative Imports)
+([Relative Imports](./../relative-imports/))
 
 **Built-in Modules:**
 
 Python comes with many built-in modules (e.g., `math`, `os`, `random`, `sys`).  These are always available without needing to install them.
 
 
-(Standard Library Modules)
+([Standard Library Modules](./../standard-library-modules/))

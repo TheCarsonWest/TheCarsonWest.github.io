@@ -3,9 +3,9 @@
 [params]
 	author = 'Carson West'
 +++
-# Libraries like NumPy
-# ndarray Explained 
-NumPy's `ndarray` (N-dimensional array) is the fundamental data structure for numerical computation in Python.  It's a powerful tool offering significant performance advantages over standard Python Lists, especially for large datasets.
+# [Libraries like NumPy](./../libraries-like-numpy/)
+# [ndarray Explained](./../ndarray-explained/) 
+NumPy's `ndarray` (N-dimensional array) is the fundamental data structure for numerical computation in Python.  It's a powerful tool offering significant performance advantages over standard Python [Lists](./../lists/), especially for large datasets.
 
 Key characteristics:
 
@@ -15,9 +15,9 @@ Key characteristics:
 
 * **Vectorized operations:**  NumPy allows performing operations on entire arrays at once, without explicit looping. This is significantly faster than iterating through individual elements in a Python list.
 
-* **Broadcasting:**  NumPy's broadcasting rules allow operations between arrays of different shapes under certain conditions, simplifying code and improving performance.  Broadcasting Explained
+* **Broadcasting:**  NumPy's broadcasting rules allow operations between arrays of different shapes under certain conditions, simplifying code and improving performance.  [Broadcasting Explained](./../broadcasting-explained/)
 
-* **Memory efficiency:**  `ndarrays` store data in contiguous memory locations, unlike Python Lists which can be scattered. This improves data access speeds and reduces memory overhead.
+* **Memory efficiency:**  `ndarrays` store data in contiguous memory locations, unlike Python [Lists](./../lists/) which can be scattered. This improves data access speeds and reduces memory overhead.
 
 * **Slicing and indexing:**  Powerful slicing and indexing mechanisms allow for easy selection and manipulation of array elements and subarrays.
 
@@ -33,7 +33,7 @@ arr = np.array(1, 2, 3, 4, 5, 6)
 print(arr[0, 1)  # Output: 2
 
 # Performing vectorized operations
-print(arr * 2)  # Output:  2  4  6, [ 8 10 12]]
+print(arr * 2)  # Output: [ 2](./../-2/)  4  6, [ 8 10 12]]
 
 # Slicing
 print(arr[:, 1) # Output: 2 5
@@ -45,9 +45,9 @@ print(arr.dtype)  # Output: int64 (or similar, depending on your system)
 
 **Further Exploration:**
 
-* Array Creation Methods
-* Indexing and Slicing Deep Dive
-* NumPy Data Types
-* Vectorization and Performance
+* [Array Creation Methods](./../array-creation-methods/)
+* [Indexing and Slicing Deep Dive](./../indexing-and-slicing-deep-dive/)
+* [NumPy Data Types](./../numpy-data-types/)
+* [Vectorization and Performance](./../vectorization-and-performance/)
 
 

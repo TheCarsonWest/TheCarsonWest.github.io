@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Python 1 Home
-# File Handling 
+# [Python 1 Home](./../python-1-home/)
+# [File Handling](./../file-handling/) 
 Key aspects to remember about file handling in Python:
 
 *   **Opening Files:**  Use the `open()` function.  Specify the filename and the mode ('r' for reading, 'w' for writing, 'a' for appending, 'x' for exclusive creation, 'b' for binary, 't' for text -  'r+' for reading and writing, etc.).
@@ -44,7 +44,7 @@ file.close()
 
 *   **Appending to Files:** Use `"a"` mode to add content to the end of an existing file.
 
-*   **Error Handling:** Use `try...except` blocks to handle potential `FileNotFoundError` exceptions.
+*   **[Error Handling](./../error-handling/):** Use `try...except` blocks to handle potential `FileNotFoundError` exceptions.
 
 ```python
 try:
@@ -56,7 +56,7 @@ finally:
     file.close() #This will still execute even if exception occurs.  Best way to ensure file is closed
 ```
 
-*   **Context Managers (`with` statement):** The preferred way to handle files, automatically closing them even if errors occur.
+*   **[Context Managers](./../context-managers/) (`with` statement):** The preferred way to handle files, automatically closing them even if errors occur.
 
 ```python
 with open("my_file.txt", "r") as file:
@@ -66,6 +66,6 @@ with open("my_file.txt", "r") as file:
 # File is automatically closed here.
 ```
 
-File IO Modes, Handling Binary Files
+[File IO Modes](./../file-io-modes/), [Handling Binary Files](./../handling-binary-files/)
 
 

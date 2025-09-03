@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Stats Home
+# [AP Stats Home](./../ap-stats-home/)
 # Combining Random Variables
 
-Understanding how to combine random variables is crucial for analyzing situations involving multiple sources of variation. This topic builds upon Introduction to Random Variables and Probability Distributions and Mean and Standard Deviation of Random Variables. When we combine random variables, we are often interested in the mean and standard deviation of the resulting new random variable.
+Understanding how to combine random variables is crucial for analyzing situations involving multiple sources of variation. This topic builds upon [Introduction to Random Variables and Probability Distributions](./../introduction-to-random-variables-and-probability-distributions/) and [Mean and Standard Deviation of Random Variables](./../mean-and-standard-deviation-of-random-variables/). When we combine random variables, we are often interested in the mean and standard deviation of the resulting new random variable.
 
 ## Combining Means of Random Variables
 
@@ -27,7 +27,7 @@ These rules also extend to linear transformations:
 
 Combining variances is slightly more complex than combining means, as it requires the assumption of independence between the random variables.
 
-### Independent Random Variables
+### [Independent Random Variables](./../independent-random-variables/)
 
 Two random variables are **independent** if the outcome of one does not affect the outcome of the other. This condition is critical for combining variances.
 
@@ -57,4 +57,4 @@ Let  $ X $  and  $ Y $  be random variables, and  $ a, b $  be constants.
 
 ## Shape of the Distribution
 
-If the original random variables  $ X $  and  $ Y $  are The Normal Distribution|Normally distributed, then any linear combination of  $ X $  and  $ Y $  (e.g.,  $ X+Y $ ,  $ X-Y $ ,  $ aX+bY $ ) will also be Normally distributed. This property is very useful for performing inferential procedures later on. If the variables are not Normally distributed, the shape of their sum or difference may become approximately Normal, especially if there are many variables, due to the The Central Limit Theorem.
+If the original random variables  $ X $  and  $ Y $  are [The Normal Distribution|Normally distributed](./../the-normal-distribution|normally-distributed/), then any linear combination of  $ X $  and  $ Y $  (e.g.,  $ X+Y $ ,  $ X-Y $ ,  $ aX+bY $ ) will also be Normally distributed. This property is very useful for performing inferential procedures later on. If the variables are not Normally distributed, the shape of their sum or difference may become approximately Normal, especially if there are many variables, due to the [The Central Limit Theorem](./../the-central-limit-theorem/).

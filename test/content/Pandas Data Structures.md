@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Libraries like Pandas
-# Pandas Data Structures 
+# [Libraries like Pandas](./../libraries-like-pandas/)
+# [Pandas Data Structures](./../pandas-data-structures/) 
 Pandas primarily uses two data structures:  `Series` and `DataFrame`.
 
 * **Series:**  A one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.).  The labels are collectively called the *index*.
@@ -30,15 +30,15 @@ print(df.iloc[0]]) # Accessing a row by integer location
 print(df.loc[0, 'col1']]) # Accessing a specific cell by label
 ```
 
-Series Object  (DataFrame Object)
+[Series Object](./../series-object/)  ([DataFrame Object](./../dataframe-object/))
 
-* **Index:**  Both `Series` and `DataFrame` use indexes to access data efficiently.  Indexes can be integers (default), dates, or even custom objects.  Understanding indexes is crucial for efficient data manipulation. Pandas Indexing
-
-
-* **Data Input/Output:** Pandas provides excellent tools for reading and writing data from various formats (CSV, Excel, SQL databases, etc.). Pandas I/O
+* **Index:**  Both `Series` and `DataFrame` use indexes to access data efficiently.  Indexes can be integers (default), dates, or even custom objects.  Understanding indexes is crucial for efficient data manipulation. [Pandas Indexing](./../pandas-indexing/)
 
 
-* **Data Cleaning and Manipulation:** Pandas offers a rich set of functions for cleaning and manipulating data, including handling missing values, data type conversion, and string manipulation. Pandas Data Cleaning
+* **Data Input/Output:** Pandas provides excellent tools for reading and writing data from various formats (CSV, Excel, SQL databases, etc.). [Pandas I/O](./../pandas-i/o/)
 
 
-* **Data Wrangling:** This involves transforming and preparing data for analysis.  Includes tasks like merging, joining, pivoting, and reshaping data. Pandas Data Wrangling
+* **Data Cleaning and Manipulation:** Pandas offers a rich set of functions for cleaning and manipulating data, including handling missing values, data type conversion, and string manipulation. [Pandas Data Cleaning](./../pandas-data-cleaning/)
+
+
+* **Data Wrangling:** This involves transforming and preparing data for analysis.  Includes tasks like merging, joining, pivoting, and reshaping data. [Pandas Data Wrangling](./../pandas-data-wrangling/)

@@ -4,7 +4,7 @@
 	author = 'Carson West'
 +++
 
-# APHG Home
+# [APHG Home](./../aphg-home/)
 # Berlin Conference
 *   **Imperialism:** The core driving force.
 *   **Colonialism:** The direct result of the conference.

@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="classes-and-objects">Classes and Objects</h1>
-<h1 id="multiple-inheritance">Multiple Inheritance</h1>
+<h1 id="classes-and-objectsclasses-and-objects"><a href="./../classes-and-objects/">Classes and Objects</a></h1>
+<h1 id="multiple-inheritancemultiple-inheritance"><a href="./../multiple-inheritance/">Multiple Inheritance</a></h1>
 <p>Multiple inheritance in Python allows a class to inherit from multiple parent classes.  This means a child class can gain attributes and methods from several different sources.</p>
 <p><strong>Example:</strong></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span>:
@@ -73,8 +73,8 @@
 </span></span><span style="display:flex;"><span>my_bat<span style="color:#f92672">.</span>speak()  <span style="color:#75715e"># Output: Squeak!</span>
 </span></span><span style="display:flex;"><span>my_bat<span style="color:#f92672">.</span>give_birth() <span style="color:#75715e"># Output: Giving birth to live young</span>
 </span></span><span style="display:flex;"><span>my_bat<span style="color:#f92672">.</span>fly() <span style="color:#75715e">#Output: Flying</span>
-</span></span></code></pre></div><p><strong>Method Resolution Order (MRO):</strong> MRO  This determines the order in which methods are searched for when a method call is made. Python uses the C3 linearization algorithm to determine the MRO.  Understanding MRO is crucial to avoid ambiguity and unexpected behavior in multiple inheritance scenarios.</p>
-<p><strong>Diamond Problem:</strong> Diamond Problem A classic problem in multiple inheritance where two parent classes have a common ancestor, and the child class inherits from both.  This can lead to conflicts if both parents implement the same method.</p>
+</span></span></code></pre></div><p><strong>Method Resolution Order (<a href="./../mro/">MRO</a>):</strong> <a href="./../mro/">MRO</a>  This determines the order in which methods are searched for when a method call is made. Python uses the C3 linearization algorithm to determine the <a href="./../mro/">MRO</a>.  Understanding <a href="./../mro/">MRO</a> is crucial to avoid ambiguity and unexpected behavior in multiple inheritance scenarios.</p>
+<p><strong>Diamond Problem:</strong> <a href="./../diamond-problem/">Diamond Problem</a> A classic problem in multiple inheritance where two parent classes have a common ancestor, and the child class inherits from both.  This can lead to conflicts if both parents implement the same method.</p>
 <p><strong>Advantages:</strong></p>
 <ul>
 <li>Code Reusability:  Avoids repeating code in multiple classes.</li>

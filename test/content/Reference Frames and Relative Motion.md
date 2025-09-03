@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics: Topic 1.4 - Reference Frames and Relative Motion
 
 This section explores how an object's motion is observed differently depending on the observer's own motion. Understanding reference frames is fundamental to accurately describing and analyzing physical phenomena.
@@ -12,7 +12,7 @@ This section explores how an object's motion is observed differently depending o
 
 A **reference frame** is a coordinate system or set of axes relative to which observations and measurements of physical quantities (like position, velocity, and acceleration) are made. It consists of an origin point and a set of directions.
 
-*   **Inertial Reference Frame:** A reference frame that is either at rest or moving with a constant velocity. In an inertial frame, Newton’s First Law (and thus Newton’s Second Law) holds true without the need for fictitious forces.
+*   **Inertial Reference Frame:** A reference frame that is either at rest or moving with a constant velocity. In an inertial frame, [Newton’s First Law](./../newton’s-first-law/) (and thus [Newton’s Second Law](./../newton’s-second-law/)) holds true without the need for fictitious forces.
 *   **Non-Inertial Reference Frame:** A reference frame that is accelerating. In such a frame, fictitious forces (e.g., centrifugal force, Coriolis force) appear to act on objects to make Newton's laws appear to hold. For AP Physics 1, we primarily deal with inertial reference frames.
 
 ## Relative Position
@@ -56,7 +56,7 @@ If the person walks opposite to the train's motion,  $ \vec{v}_{P/G} = -2 \text{
 
 ### Components of Relative Velocity
 
-In two dimensions, relative velocity problems often involve Vectors and Motion in Two Dimensions. You'll typically break down each velocity vector into its x and y components.
+In two dimensions, relative velocity problems often involve [Vectors and Motion in Two Dimensions](./../vectors-and-motion-in-two-dimensions/). You'll typically break down each velocity vector into its x and y components.
 
 Let  $ \vec{v}_{O/A} = v_{O/A,x}\hat{i} + v_{O/A,y}\hat{j} $ , and similarly for the other terms.
 Then:
@@ -83,14 +83,14 @@ If  $ \vec{a}_{B/A} = 0 $  (i.e., B is an inertial frame relative to A), then:
 \vec{a}_{O/A} = \vec{a}_{O/B}
  $ 
 
-This means that observers in different inertial frames will agree on the acceleration of an object, even if they disagree on its velocity. This principle is fundamental to Newton’s Second Law and is why inertial frames are so important.
+This means that observers in different inertial frames will agree on the acceleration of an object, even if they disagree on its velocity. This principle is fundamental to [Newton’s Second Law](./../newton’s-second-law/) and is why inertial frames are so important.
 
 ## Common Scenarios & Problem Types
 
 | Scenario                       | Description                                                                     | Key Application                                     |
 | :----------------------------- | :------------------------------------------------------------------------------ | :-------------------------------------------------- |
-| Boat Crossing a River      | A boat moving relative to water, water moving relative to the ground.             | Vector addition for determining resultant velocity. |
+| [Boat Crossing a River](./../boat-crossing-a-river/)      | A boat moving relative to water, water moving relative to the ground.             | Vector addition for determining resultant velocity. |
 | Airplane in Wind               | An airplane moving relative to air, air moving relative to the ground.            | Similar to boat/river; finding ground speed/direction. |
 | Two Moving Objects             | Calculating the velocity of one car/person relative to another.                 | Direct application of  $ \vec{v}_{A/B} = \vec{v}_{A/G} - \vec{v}_{B/G} $ . |
 
-Boat Crossing a River is a classic example of applying relative velocity concepts in two dimensions, often involving trigonometry to resolve vectors.
+[Boat Crossing a River](./../boat-crossing-a-river/) is a classic example of applying relative velocity concepts in two dimensions, often involving trigonometry to resolve vectors.

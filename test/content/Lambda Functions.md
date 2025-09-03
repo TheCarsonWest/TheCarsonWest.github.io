@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Python 1 Home
-# Lambda Functions 
+# [Python 1 Home](./../python-1-home/)
+# [Lambda Functions](./../lambda-functions/) 
 Lambda functions are small, anonymous functions defined using the `lambda` keyword.  They are useful for short, simple operations that don't require a full function definition.
 
 ```python
@@ -15,7 +15,7 @@ add = lambda x, y: x + y
 print(add(3, 4))  # Output: 7
 ```
 
-Lambda functions are often used with higher-order functions like `map`, `filter`, and `reduce`. Higher-Order Functions
+Lambda functions are often used with higher-order functions like `map`, `filter`, and `reduce`. [Higher-Order Functions](./../higher-order-functions/)
 
 **Example with `map`:**
 
@@ -33,6 +33,6 @@ even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # Output: 2, 4, 6
 ```
 
-Lambda functions can only contain a single expression, which is implicitly returned.  They cannot have multiple statements or complex logic.  For more complex operations, a regular function definition is preferred. Python Functions
+Lambda functions can only contain a single expression, which is implicitly returned.  They cannot have multiple statements or complex logic.  For more complex operations, a regular function definition is preferred. [Python Functions](./../python-functions/)
 
 

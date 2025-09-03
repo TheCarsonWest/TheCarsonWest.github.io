@@ -3,10 +3,10 @@
 [params]
 	author = 'Carson West'
 +++
-# AP Physics Home
+# [AP Physics Home](./../ap-physics-home/)
 # AP Physics: Topic 8.4 - Fluids and Conservation Laws
 
-This notes page explores how fundamental conservation laws, such as conservation of mass and conservation of energy, are applied to the behavior of fluids. Building upon concepts from Fluids and Newton’s Laws, we will analyze fluid dynamics in terms of continuous flow and energy transformations.
+This notes page explores how fundamental conservation laws, such as conservation of mass and conservation of energy, are applied to the behavior of fluids. Building upon concepts from [Fluids and Newton’s Laws](./../fluids-and-newton’s-laws/), we will analyze fluid dynamics in terms of continuous flow and energy transformations.
 
 ## 1. Introduction to Ideal Fluid Flow
 
@@ -21,7 +21,7 @@ These assumptions allow us to use powerful conservation principles to describe f
 
 ## 2. Conservation of Mass: The Equation of Continuity
 
-The **Equation of Continuity** is a direct consequence of the Conservation of Linear Momentum for an ideal, incompressible fluid. It states that the mass flow rate must be constant through any pipe or tube.
+The **Equation of Continuity** is a direct consequence of the [Conservation of Linear Momentum](./../conservation-of-linear-momentum/) for an ideal, incompressible fluid. It states that the mass flow rate must be constant through any pipe or tube.
 
 Consider a fluid flowing through a pipe of varying cross-sectional area.
  $  \text{Mass flow rate} = \frac{dm}{dt} = \rho A v  $ 
@@ -36,7 +36,7 @@ For an incompressible fluid,  $ \rho_1 = \rho_2 $ , simplifying to:
  $  A_1 v_1 = A_2 v_2  $ 
 This implies that where the pipe is narrower ( $ A $  is smaller), the fluid speed ( $ v $ ) must be greater.
 
-Volume Flow Rate is defined as  $ Q = Av $ . Therefore, the Equation of Continuity states  $ Q_1 = Q_2 $ .
+[Volume Flow Rate](./../volume-flow-rate/) is defined as  $ Q = Av $ . Therefore, the Equation of Continuity states  $ Q_1 = Q_2 $ .
 
 | Variable | Description                  | Units (SI) |
 | :------- | :--------------------------- | :--------- |
@@ -47,7 +47,7 @@ Volume Flow Rate is defined as  $ Q = Av $ . Therefore, the Equation of Continui
 
 ## 3. Conservation of Energy: Bernoulli's Equation
 
-**Bernoulli's Equation** is an application of the Conservation of Energy principle to ideal fluid flow. It relates the pressure, speed, and height of an ideal fluid at two points along a streamline.
+**Bernoulli's Equation** is an application of the [Conservation of Energy](./../conservation-of-energy/) principle to ideal fluid flow. It relates the pressure, speed, and height of an ideal fluid at two points along a streamline.
 
 Consider an ideal fluid flowing through a pipe with varying height and cross-section. The work done on the fluid by pressure differences and gravity results in changes in its kinetic and potential energy.
 The equation is given by:
@@ -72,4 +72,4 @@ Where:
 
 ## 4. Relationship to Other Principles
 
-Both the Equation of Continuity and Bernoulli's Equation are macroscopic manifestations of fundamental conservation laws. The continuity equation is essentially Conservation of Mass for a moving fluid, while Bernoulli's equation is a statement of Conservation of Energy for a moving fluid. Understanding these connections reinforces the unifying power of conservation principles in physics.
+Both the Equation of Continuity and Bernoulli's Equation are macroscopic manifestations of fundamental conservation laws. The continuity equation is essentially [Conservation of Mass](./../conservation-of-mass/) for a moving fluid, while Bernoulli's equation is a statement of [Conservation of Energy](./../conservation-of-energy/) for a moving fluid. Understanding these connections reinforces the unifying power of conservation principles in physics.

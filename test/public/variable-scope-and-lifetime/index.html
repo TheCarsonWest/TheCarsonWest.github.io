@@ -36,8 +36,8 @@
 </div>
 
 <main>
-<h1 id="python-functions">Python Functions</h1>
-<h1 id="variable-scope-and-lifetime">Variable Scope and Lifetime</h1>
+<h1 id="python-functionspython-functions"><a href="./../python-functions/">Python Functions</a></h1>
+<h1 id="variable-scope-and-lifetimevariable-scope-and-lifetime"><a href="./../variable-scope-and-lifetime/">Variable Scope and Lifetime</a></h1>
 <p>Python&rsquo;s variable scope determines where a variable is accessible within your code.  A variable&rsquo;s lifetime is how long it exists in memory.  These two concepts are closely related.</p>
 <p><strong>Scope:</strong></p>
 <ul>
@@ -60,7 +60,7 @@
 </span></span><span style="display:flex;"><span>another_function() <span style="color:#75715e"># prints 20</span>
 </span></span><span style="display:flex;"><span>print(y) <span style="color:#75715e"># prints 20</span>
 </span></span></code></pre></div><ul>
-<li><strong>Enclosing Function Locals (Nested Functions):</strong>  If you have Nested Functions, inner functions can access variables from their enclosing (outer) functions, but not vice-versa.  This is called closure.</li>
+<li><strong>Enclosing Function Locals (<a href="./../nested-functions/">Nested Functions</a>):</strong>  If you have <a href="./../nested-functions/">Nested Functions</a>, inner functions can access variables from their enclosing (outer) functions, but not vice-versa.  This is called closure.</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">outer_function</span>():
 </span></span><span style="display:flex;"><span>  z <span style="color:#f92672">=</span> <span style="color:#ae81ff">30</span>
@@ -87,7 +87,7 @@
 </span></span><span style="display:flex;"><span>modify_global()
 </span></span><span style="display:flex;"><span>print(global_var)  <span style="color:#75715e"># Output: 100</span>
 </span></span></code></pre></div><ul>
-<li><strong><code>nonlocal</code> keyword:</strong> Similar to <code>global</code>, but for variables in enclosing functions (Nested Functions).</li>
+<li><strong><code>nonlocal</code> keyword:</strong> Similar to <code>global</code>, but for variables in enclosing functions (<a href="./../nested-functions/">Nested Functions</a>).</li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">outer</span>():
 </span></span><span style="display:flex;"><span>    x <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
@@ -100,8 +100,8 @@
 </span></span><span style="display:flex;"><span>outer()
 </span></span></code></pre></div><p><strong>Lifetime:</strong></p>
 <p>A variable&rsquo;s lifetime is directly related to its scope. A variable&rsquo;s lifetime begins when it is created (assigned a value) and ends when it&rsquo;s no longer referenced and garbage collected. In local scope, this happens when the function completes.  In global scope, it&rsquo;s at program termination.</p>
-<p>Garbage Collection</p>
-<p>LEGB Rule (This will explain the order of scope searching: Local, Enclosing function locals, Global, Built-in)</p>
+<p><a href="./../garbage-collection/">Garbage Collection</a></p>
+<p><a href="./../legb-rule/">LEGB Rule</a> (This will explain the order of scope searching: Local, Enclosing function locals, Global, Built-in)</p>
 
 </main>
 

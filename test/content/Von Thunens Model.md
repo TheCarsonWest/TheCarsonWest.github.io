@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# APHG Unit 5 Agriculture
+# [APHG Unit 5 Agriculture](./../aphg-unit-5-agriculture/)
 
 Okay, here's an explanation of Von Thunen's Model, focusing on the key aspects you've starred:
 

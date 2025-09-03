@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Equilibrium Constant Calculations
-# Heterogeneous Equilibria Examples
+# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)
+# [Heterogeneous Equilibria Examples](./../heterogeneous-equilibria-examples/)
 
 Heterogeneous equilibria involve reactants and products in different phases.  The concentration of pure solids and liquids are essentially constant and therefore are omitted from the equilibrium expression.
 
@@ -18,7 +18,7 @@ Heterogeneous equilibria involve reactants and products in different phases.  Th
 
     $ AgCl(s) \rightleftharpoons Ag^+(aq) + Cl^-(aq) $ 
 
-   The equilibrium constant expression is:   $ K_{sp} = [Ag^+]][Cl^-]] $   ( $ K_{sp} $  is the solubility product constant).  Note that solid  $ AgCl $  is omitted. Solubility Product Constant
+   The equilibrium constant expression is:   $ K_{sp} = [Ag^+]][Cl^-]] $   ( $ K_{sp} $  is the solubility product constant).  Note that solid  $ AgCl $  is omitted. [Solubility Product Constant](./../solubility-product-constant/)
 
 * **Decomposition of a solid:**
 
@@ -40,15 +40,15 @@ Heterogeneous equilibria involve reactants and products in different phases.  Th
 * **Reactions with water:**
 
     The equilibrium between gaseous carbon dioxide and aqueous carbonic acid:
-     $$ CO_2(g) + H_2O(l) \rightleftharpoons H_2CO_3(aq) $$      The equilibrium expression would be:   $ K = \frac{[H_2CO_3}{P_{CO_2}} $ .  Liquid water is omitted. Acid-Base Equilibria
+     $$ CO_2(g) + H_2O(l) \rightleftharpoons H_2CO_3(aq) $$      The equilibrium expression would be:   $ K = \frac{[H_2CO_3}{P_{CO_2}} $ .  Liquid water is omitted. [Acid-Base Equilibria](./../acid-base-equilibria/)
 
 
 **General Considerations:**
 
-*  The equilibrium constant,  $ K $ , is temperature dependent.  A change in temperature will shift the equilibrium. Le Chateliers Principle
+*  The equilibrium constant,  $ K $ , is temperature dependent.  A change in temperature will shift the equilibrium. [Le Chateliers Principle](./../le-chateliers-principle/)
 *  Adding more solid or liquid reactant or product will not affect the equilibrium position, since their concentrations are constant.
-*  Changes in pressure only affect the equilibrium if gases are involved.  Increasing pressure will favor the side with fewer gas molecules. Gas Laws
+*  Changes in pressure only affect the equilibrium if gases are involved.  Increasing pressure will favor the side with fewer gas molecules. [Gas Laws](./../gas-laws/)
 
 
-Equilibrium Constant
-Gibbs Free Energy
+[Equilibrium Constant](./../equilibrium-constant/)
+[Gibbs Free Energy](./../gibbs-free-energy/)

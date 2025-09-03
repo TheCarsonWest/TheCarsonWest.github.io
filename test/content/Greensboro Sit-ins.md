@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-## ID: Greensboro Sit-ins 
+## ID: [Greensboro Sit-ins](./../greensboro-sit-ins/) 
 **WHEN:** February 1, 1960
 
 **WHO:**
 
-*   **Started by:** Four African American students: Franklin McCain, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, and Joseph McNeil, all students at North Carolina A&T, a historically Black college.
+*   **Started by:** Four African American students: Franklin McCain, Ezell Blair Jr. (later Jibreel Khazan), David Richmond, and Joseph McNeil, all students at [North Carolina](./../north-carolina/) A&T, a historically Black college.
 *   **Involved:** Other African American students, civil rights activists, local communities, and eventually, the management of Woolworth's stores.
-*   **Inspired by:** The broader Civil Rights Movement and the nonviolent direct action tactics promoted by groups like the Congress of Racial Equality (CORE).
+*   **Inspired by:** The broader [Civil Rights Movement](./../civil-rights-movement/) and the nonviolent direct action tactics promoted by groups like the Congress of Racial Equality (CORE).
 
 **WHAT:**
 
@@ -25,4 +25,4 @@ A series of nonviolent protests that began when four African American students s
 *   **Empowerment of students:** The sit-ins demonstrated the power of student activism and grassroots organizing in the fight for civil rights.
 *   **Momentum for the Civil Rights Act:** The Greensboro sit-ins helped build momentum for the passage of the Civil Rights Act of 1964, which outlawed discrimination based on race, color, religion, sex, or national origin.
 
-# IDS Unit 8
+# [IDS Unit 8](./../ids-unit-8/)

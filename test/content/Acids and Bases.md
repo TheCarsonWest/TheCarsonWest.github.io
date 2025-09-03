@@ -3,16 +3,16 @@
 [params]
 	author = 'Carson West'
 +++
-# APCHEM Home
+# [APCHEM Home](./../apchem-home/)
 
-## Acid-Base Indicators
+## [Acid-Base Indicators](./../acid-base-indicators/)
 
-## Acid Dissociation Constant
-## Acid Strength and Conjugate Base Strength
-## Water as an Acid and Base
-# pH and pOH
-# Ionic product of water Kw
-# protonation and deprotonation
+## [Acid Dissociation Constant](./../acid-dissociation-constant/)
+## [Acid Strength and Conjugate Base Strength](./../acid-strength-and-conjugate-base-strength/)
+## [Water as an Acid and Base](./../water-as-an-acid-and-base/)
+# [pH and pOH](./../ph-and-poh/)
+# [Ionic product of water Kw](./../ionic-product-of-water-kw/)
+# [protonation and deprotonation](./../protonation-and-deprotonation/)
 **Definition:**
 
 * **Arrhenius Acid:** Produces  $ H^+ $  ions (protons) in aqueous solution.  Example:  $ HCl \rightarrow H^+ + Cl^- $ 
@@ -20,7 +20,7 @@
 * **Brønsted-Lowry Acid:**  Proton ( $ H^+ $ ) donor.
 * **Brønsted-Lowry Base:** Proton ( $ H^+ $ ) acceptor.
 
-**Conjugate Acid-Base Pairs**
+**[Conjugate Acid-Base Pairs](./../conjugate-acid-base-pairs/)**
 
 **Strength:**
 
@@ -39,13 +39,13 @@
 **Neutralization Reactions:** Reaction between an acid and a base, producing salt and water.
  $ HCl(aq) + NaOH(aq) \rightarrow NaCl(aq) + H_2O(l) $ 
 
-**Titrations:**  A method to determine the concentration of an unknown solution using a solution of known concentration.  Titration Curves
+**Titrations:**  A method to determine the concentration of an unknown solution using a solution of known concentration.  [Titration Curves](./../titration-curves/)
 
-**Buffers:** Solutions that resist changes in pH upon addition of small amounts of acid or base.  Buffer Solutions
+**Buffers:** Solutions that resist changes in pH upon addition of small amounts of acid or base.  [Buffer Solutions](./../buffer-solutions/)
 
 **Related Notes:**
 
-* Equilibrium :  Many acid-base reactions are equilibrium reactions. Understanding equilibrium constants ( $ K_a $ ,  $ K_b $ ) is crucial.
-* Le Chateliers Principle:  Predicts the shift in equilibrium when conditions are changed (e.g., adding acid/base).
+* [Equilibrium](./../equilibrium/) :  Many acid-base reactions are equilibrium reactions. Understanding equilibrium constants ( $ K_a $ ,  $ K_b $ ) is crucial.
+* [Le Chateliers Principle](./../le-chateliers-principle/):  Predicts the shift in equilibrium when conditions are changed (e.g., adding acid/base).
 
 

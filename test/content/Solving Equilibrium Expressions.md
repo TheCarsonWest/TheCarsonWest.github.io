@@ -3,12 +3,12 @@
 [params]
 	author = 'Carson West'
 +++
-# Equilibrium Constant Calculations
-# Solving Equilibrium Expressions
+# [Equilibrium Constant Calculations](./../equilibrium-constant-calculations/)
+# Solving [Equilibrium](./../equilibrium/) Expressions
 
-This note covers solving equilibrium expressions, focusing on different scenarios and problem-solving strategies.  It assumes familiarity with writing equilibrium expressions.  If not, refer to Equilibrium Expressions.
+This note covers solving equilibrium expressions, focusing on different scenarios and problem-solving strategies.  It assumes familiarity with writing equilibrium expressions.  If not, refer to [Equilibrium Expressions](./../equilibrium-expressions/).
 
-**1.  Simple Equilibrium Calculations:**
+**1.  Simple [Equilibrium Calculations](./../equilibrium-calculations/):**
 
 These involve solving for one unknown in the equilibrium expression, given the equilibrium concentrations of all other species.
 
@@ -17,7 +17,7 @@ These involve solving for one unknown in the equilibrium expression, given the e
     $ K_c = \frac{[B]]_{eq}}{[A]]_{eq}} \implies 10 = \frac{[B]]_{eq}}{2} \implies [B]]_{eq} = 20M $ 
 
 
-**2. ICE Tables (Initial, Change, Equilibrium):**
+**2. [ICE Tables (Initial, Change, Equilibrium](./../ice-tables-(initial,-change,-equilibrium/)):**
 
 These are crucial when only initial concentrations and the equilibrium constant are known.
 
@@ -30,9 +30,9 @@ These are crucial when only initial concentrations and the equilibrium constant 
    | A       | 1     | -2x       | 1-2x    |
    | B       | 0     | +x        | x       |
 
-    $ K_c = \frac{[B]]_{eq}}{[A]]_{eq}^2} = \frac{x}{(1-2x)^2} = 4 $ .  Solving the quadratic equation gives  $ x $ , and thus equilibrium concentrations.  (Solving Quadratic Equations)
+    $ K_c = \frac{[B]]_{eq}}{[A]]_{eq}^2} = \frac{x}{(1-2x)^2} = 4 $ .  Solving the quadratic equation gives  $ x $ , and thus equilibrium concentrations.  ([Solving Quadratic Equations](./../solving-quadratic-equations/))
 
-**3. Manipulating Equilibrium Expressions:**
+**3. Manipulating [Equilibrium](./../equilibrium/) Expressions:**
 
 Sometimes, we need to manipulate the expression before solving. This might involve:
 
@@ -49,8 +49,8 @@ If the  $ K_c $  value is very small or very large, simplifying assumptions can 
 
 These might involve multiple simultaneous equilibria, or situations where the reaction quotient ( $ Q $ ) is compared to  $ K_c $  to determine the direction the reaction will shift.
 
-* Simultaneous Equilibria
-* Reaction Quotient (Q)
+* [Simultaneous Equilibria](./../simultaneous-equilibria/)
+* [Reaction Quotient (Q)](./../reaction-quotient-(q)/)
 
 
 **6.  Units:**

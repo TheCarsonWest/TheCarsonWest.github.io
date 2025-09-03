@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Python 1 Home
-# Decorators  Decorators are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
+# [Python 1 Home](./../python-1-home/)
+# [Decorators](./../decorators/)  [Decorators](./../decorators/) are a powerful and expressive feature in Python that allows you to modify or enhance functions and methods in a clean and readable way.  They use the `@` symbol followed by the decorator function name placed above the function definition.
 
 ```python
 def my_decorator(func):
@@ -27,8 +27,8 @@ This example shows a simple decorator that prints messages before and after the 
 say_hello = my_decorator(say_hello)
 ```
 
-**Arguments to Decorators:**
- Decorators can also accept arguments. This requires a more complex structure:
+**Arguments to [Decorators](./../decorators/):**
+ [Decorators](./../decorators/) can also accept arguments. This requires a more complex structure:
 
 ```python
 def repeat(num_times):
@@ -50,13 +50,13 @@ greet("World")
 Here, `repeat` is a decorator factory – it returns a decorator.
 
 
-**Decorator Factories**
+**[Decorator Factories](./../decorator-factories/)**
 
-**Chaining Decorators**
+**[Chaining Decorators](./../chaining-decorators/)**
 
 
-**Class Decorators:**
- Decorators can also be classes:
+**Class [Decorators](./../decorators/):**
+ [Decorators](./../decorators/) can also be classes:
 
 
 ```python
@@ -91,4 +91,4 @@ This uses the `__call__` method to make the class behave like a function.
 * Input Validation: Check the validity of function arguments.
 
 
-Related notes: Closures, Higher-Order Functions
+Related notes: [Closures](./../closures/), [Higher-Order Functions](./../higher-order-functions/)

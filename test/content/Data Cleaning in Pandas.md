@@ -3,8 +3,8 @@
 [params]
 	author = 'Carson West'
 +++
-# Libraries like Pandas
-# Data Cleaning in Pandas 
+# [Libraries like Pandas](./../libraries-like-pandas/)
+# [Data Cleaning in Pandas](./../data-cleaning-in-pandas/) 
 This note covers data cleaning techniques within the Pandas library.  Focus will be on practical application and common issues.
 
 Key areas to cover:
@@ -14,7 +14,7 @@ Key areas to cover:
     * `dropna()` - removing rows/columns with missing data.  Explore `how`, `thresh`, `subset` parameters.
     * Imputation techniques:
         * Filling with specific values (`fillna()` with constants, mean, median, forward/backward fill)
-        * Using more sophisticated methods (e.g., from scikit-learn's `SimpleImputer`)  (Imputation Techniques)
+        * Using more sophisticated methods (e.g., from scikit-learn's `SimpleImputer`)  ([Imputation Techniques](./../imputation-techniques/))
     * Understanding the implications of different imputation strategies and choosing appropriate methods based on the dataset and the analysis goals.
 
 * **Dealing with Outliers:**
@@ -23,12 +23,12 @@ Key areas to cover:
         * Removal (careful consideration needed!)
         * Winsorizing/Clipping (capping values at certain percentiles)
         * Transformation (e.g., logarithmic transformation)
-    * Consider the domain knowledge and potential impact on analysis before choosing a method. (Outlier Detection and Treatment)
+    * Consider the domain knowledge and potential impact on analysis before choosing a method. ([Outlier Detection and Treatment](./../outlier-detection-and-treatment/))
 
 * **Data Transformation:**
     * Changing data types (`astype()`)
-    * String manipulation (e.g., using `str.lower()`, `str.strip()`, regular expressions)  (Pandas String Manipulation)
-    * Feature scaling (e.g., standardization, normalization) Feature Scaling in Pandas
+    * String manipulation (e.g., using `str.lower()`, `str.strip()`, regular expressions)  ([Pandas String Manipulation](./../pandas-string-manipulation/))
+    * Feature scaling (e.g., standardization, normalization) [Feature Scaling in Pandas](./../feature-scaling-in-pandas/)
     * Creating new features from existing ones (feature engineering).
 
 * **Data Consistency:**

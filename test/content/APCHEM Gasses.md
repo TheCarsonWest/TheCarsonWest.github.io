@@ -3,14 +3,14 @@
 [params]
 	author = 'Carson West'
 +++
-# APCHEM Home
+# [APCHEM Home](./../apchem-home/)
 
-## Ideal Gas Laws
-## Universal Gas Constant
-# Combined Gas Law
-# partial pressure equation
+## [Ideal Gas Laws](./../ideal-gas-laws/)
+## [Universal Gas Constant](./../universal-gas-constant/)
+# [Combined Gas Law](./../combined-gas-law/)
+# [partial pressure](./../partial-pressure/) equation
 
-## Deviations from Ideal Gas Behavior
-## Effusion Rate
+## [Deviations from Ideal Gas Behavior](./../deviations-from-ideal-gas-behavior/)
+## [Effusion Rate](./../effusion-rate/)
 
 ## [Van Der Waals Calculator](https://www.desmos.com/calculator/dfwqngruiv)
