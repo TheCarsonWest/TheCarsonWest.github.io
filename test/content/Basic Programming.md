@@ -1,8 +1,3 @@
-+++
- title = 'Basic Programming'
-[params]
-	author = 'Carson West'
-+++
 ```python
 print("Hello world")
 ```
@@ -42,7 +37,7 @@ Thats it
 use comments to help people read your code and you are good
 
 
-# String [Operators](./../operators/) and `input()`
+# String [[Operators]] and `input()`
 ```python
 x = input("Name: ")
 print("hello "+ x)

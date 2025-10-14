@@ -1,13 +1,8 @@
-+++
- title = 'Cultural Trait'
-[params]
-	author = 'Carson West'
-+++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Cultural Trait](./../cultural-trait/) 
-**Definition:** A single element of normal practice in a [Culture](./../culture/), such as the wearing of a turban.
+# [[Cultural Trait]] 
+**Definition:** A single element of normal practice in a [[Culture]], such as the wearing of a turban.
 
 **Example:** Bowing as a greeting in Japan.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

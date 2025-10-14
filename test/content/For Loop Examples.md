@@ -1,10 +1,5 @@
-+++
- title = 'For Loop Examples'
-[params]
-	author = 'Carson West'
-+++
-# [For Loops](./../for-loops/)
-# [For Loop Examples](./../for-loop-examples/) 
+# [[For Loops]]
+# [[For Loop Examples]] 
 This note covers examples of using `for` loops in Python.
 
 * **Basic Iteration:**
@@ -55,7 +50,7 @@ for i in range(3):
         print(f"i: {i}, j: {j}")
 ```
 
-* **[Loop Control Statements](./../loop-control-statements/):**
+* **[[Loop Control Statements]]:**
 
     * `break`: Terminates the loop prematurely.
     * `continue`: Skips the current iteration and proceeds to the next.
@@ -73,4 +68,4 @@ for i in range(5):
 
 ```
 
-[List Comprehensions](./../list-comprehensions/)  ([Loop Control Statements](./../loop-control-statements/)) [Range Function](./../range-function/)
+[[List Comprehensions]]  ([[Loop Control Statements]]) [[Range Function]]

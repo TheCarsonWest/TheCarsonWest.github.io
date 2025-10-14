@@ -1,8 +1,3 @@
-+++
- title = 'English Colonization'
-[params]
-	author = 'Carson West'
-+++
 Here's a concise notecard on English Colonization within APUSH Period 1 (1491-1607):
 
 ---

@@ -1,19 +1,14 @@
-+++
- title = 'Regex Special Characters'
-[params]
-	author = 'Carson West'
-+++
-# [Regex Flags](./../regex-flags/)
-# [Regex Special Characters](./../regex-special-characters/) 
-These notes cover special characters used in [Regular Expressions](./../regular-expressions/) within Python.  Remember to import the `re` module before using any regex functions.  `import re`
+# [[Regex Flags]]
+# [[Regex Special Characters]] 
+These notes cover special characters used in [[Regular Expressions]] within Python.  Remember to import the `re` module before using any regex functions.  `import re`
 
-[Regex Metacharacters](./../regex-metacharacters/)  These are symbols with special meanings in regex.
+[[Regex Metacharacters]]  These are symbols with special meanings in regex.
 
 * **`.` (Dot):** Matches any single character except a newline.
 
 * **`^` (Caret):** Matches the beginning of a string.
 
-* **` $ ` (Dollar):** Matches the end of a string.
+* **`$` (Dollar):** Matches the end of a string.
 
 * **`*` (Asterisk):** Matches zero or more occurrences of the preceding character or group.
 
@@ -27,10 +22,10 @@ These notes cover special characters used in [Regular Expressions](./../regular-
 
 * **`\|` (Vertical Bar):** Acts as an "or" operator.  e.g., `cat|dog` matches either "cat" or "dog".
 
-* **`\` (Backslash):** Escapes special characters.  e.g., `\.` matches a literal dot, `\(` matches a literal opening parenthesis.  It's also used for special escape [Sequences](./../sequences/) like `\d` (digit), `\w` (alphanumeric), `\s` (whitespace).
+* **`\` (Backslash):** Escapes special characters.  e.g., `\.` matches a literal dot, `\(` matches a literal opening parenthesis.  It's also used for special escape [[Sequences]] like `\d` (digit), `\w` (alphanumeric), `\s` (whitespace).
 
 
-[Regex Quantifiers](./../regex-quantifiers/)  These characters control how many times a preceding element should appear.  (Already mentioned some above, but details here are crucial)
+[[Regex Quantifiers]]  These characters control how many times a preceding element should appear.  (Already mentioned some above, but details here are crucial)
 
 * **`*` (Asterisk):** Zero or more occurrences.
 
@@ -74,6 +69,6 @@ print(matches) # Output: ['fox', 'fox']]
 ```
 
 
-[Regex Escape Sequences](./../regex-escape-sequences/)  Details on `\d`, `\w`, `\s`, etc.
+[[Regex Escape Sequences]]  Details on `\d`, `\w`, `\s`, etc.
 
-[Python re Module](./../python-re-module/)  Functions like `re.findall`, `re.search`, `re.match`, `re.sub`, etc.
+[[Python re Module]]  Functions like `re.findall`, `re.search`, `re.match`, `re.sub`, etc.

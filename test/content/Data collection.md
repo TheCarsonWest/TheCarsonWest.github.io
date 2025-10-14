@@ -1,9 +1,4 @@
-+++
- title = 'Data collection'
-[params]
-	author = 'Carson West'
-+++
-# [Cengage home](./../cengage-home/)
+# [[Cengage home]]
 
 ### **Approximately 80% of the world's data is spatial(for maps)**
 

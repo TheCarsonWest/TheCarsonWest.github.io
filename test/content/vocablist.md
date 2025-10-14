@@ -1,8 +1,3 @@
-+++
- title = 'vocablist'
-[params]
-	author = 'Carson West'
-+++
 
 assertion
 clarity

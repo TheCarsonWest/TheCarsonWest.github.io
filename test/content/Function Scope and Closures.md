@@ -1,10 +1,5 @@
-+++
- title = 'Function Scope and Closures'
-[params]
-	author = 'Carson West'
-+++
-# [Chaining Decorators](./../chaining-decorators/)
-# [Function Scope and Closures](./../function-scope-and-closures/) 
+# [[Chaining Decorators]]
+# [[Function Scope and Closures]] 
 Python's scope rules determine where a variable is accessible within your code.  Understanding this is crucial for writing clean and predictable functions.
 
 * **LEGB Rule:** Python uses the LEGB rule to search for a variable:
@@ -79,6 +74,6 @@ print(result)  # Output: 8
 ```
 
 
-[Nested Functions](./../nested-functions/)
-[Variable Scope](./../variable-scope/)
+[[Nested Functions]]
+[[Variable Scope]]
 

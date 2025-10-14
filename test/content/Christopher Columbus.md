@@ -1,8 +1,3 @@
-+++
- title = 'Christopher Columbus'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Period 1: Christopher Columbus
 
 ---

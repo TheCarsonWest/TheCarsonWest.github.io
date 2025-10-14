@@ -1,8 +1,3 @@
-+++
- title = 'APUSH ID'
-[params]
-	author = 'Carson West'
-+++
 Create a notecard on the APUSH "Unit 7 - Treaty of Versailles and League of Nations, 1920’s/Great Depression, New Deal, and WWII" topic {{title}}, using this following format:
 WHEN: (Some of these are given within the parantheses above) (exact date if possible, if not narrow it down to a specific time period...acts/laws, specific events, etc should have specific dates. AP exam questions are ALWAYS broken down into certain time frames; timelines will be very important)
 
@@ -20,15 +15,15 @@ Here is a good example
 
 ## Who: 
 * **Union:**  General George Meade and the Army of the Potomac
-* **Confederate:** General Robert E. Lee and the Army of Northern [Virginia](./../virginia/)
+* **Confederate:** General Robert E. Lee and the Army of Northern [[Virginia]]
 
 ## What: 
 
-A pivotal battle of the American Civil War fought in Gettysburg, [Pennsylvania](./../pennsylvania/). It involved three days of intense fighting between Union and Confederate forces. The battle culminated in a decisive Union victory, marking a turning point in the war.
+A pivotal battle of the American Civil War fought in Gettysburg, [[Pennsylvania]]. It involved three days of intense fighting between Union and Confederate forces. The battle culminated in a decisive Union victory, marking a turning point in the war.
 
 ## Impact: Why Significant?: 
-* **Turning Point:**  The Battle of Gettysburg marked the beginning of the end for the Confederacy. It crippled Lee's army and forced him to retreat back to [Virginia](./../virginia/).
+* **Turning Point:**  The Battle of Gettysburg marked the beginning of the end for the Confederacy. It crippled Lee's army and forced him to retreat back to [[Virginia]].
 * **Union Momentum:** The victory boosted Union morale and strengthened the resolve to continue the war.
 * **Increased Casualties:** Both sides suffered significant casualties, highlighting the immense human cost of the war.
-* **Lincoln's [Gettysburg Address](./../gettysburg-address/):** Delivered on November 19, 1863, Lincoln's famous speech redefined the purpose of the war as a fight for freedom and equality, solidifying the importance of the Union victory.
+* **Lincoln's [[Gettysburg Address]]:** Delivered on November 19, 1863, Lincoln's famous speech redefined the purpose of the war as a fight for freedom and equality, solidifying the importance of the Union victory.
 * **Strategic Significance:** Gettysburg stopped Lee's invasion of the North, preventing a major victory for the Confederates and ultimately leading to the Union's success.

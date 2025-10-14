@@ -1,9 +1,4 @@
-+++
- title = 'm3l1 vocab'
-[params]
-	author = 'Carson West'
-+++
-# [arabic vocab lists](./../arabic-vocab-lists/)
+# [[arabic vocab lists]]
 # Module Three Lesson One Vocabulary
 
 | **English Translation**                | **Arabic terms**                 |

@@ -1,11 +1,6 @@
-+++
- title = 'aphg strats'
-[params]
-	author = 'Carson West'
-+++
-# [APHG Home](./../aphg-home/)
+# [[APHG Home]]
 
 
-- [ESPN](./../espn/)
-	- [ESPN Example](./../espn-example/)
-- [CER Strategy](./../cer-strategy/)
+- [[ESPN]]
+	- [[ESPN Example]]
+- [[CER Strategy]]

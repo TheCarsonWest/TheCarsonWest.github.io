@@ -1,9 +1,4 @@
-+++
- title = 'Model T'
-[params]
-	author = 'Carson West'
-+++
-# [IDS Unit 7](./../ids-unit-7/)
+# [[IDS Unit 7]]
 ## ID: Model T
 
 ## When: 1908-1927 (1920s/Great Depression Era)

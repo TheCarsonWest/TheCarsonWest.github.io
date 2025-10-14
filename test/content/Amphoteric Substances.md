@@ -1,12 +1,7 @@
-+++
- title = 'Amphoteric Substances'
-[params]
-	author = 'Carson West'
-+++
-# [Conjugate Acid-Base Pairs](./../conjugate-acid-base-pairs/)
-# [Amphoteric Substances](./../amphoteric-substances/)
+# [[Conjugate Acid-Base Pairs]]
+# [[Amphoteric Substances]]
 
-Amphoteric substances can act as both acids and bases.  This means they can donate or accept a proton ( $ H^+ $ ) depending on the reaction conditions.
+Amphoteric substances can act as both acids and bases.  This means they can donate or accept a proton ($H^+$) depending on the reaction conditions.
 
 **Key Characteristics:**
 
@@ -16,18 +11,18 @@ Amphoteric substances can act as both acids and bases.  This means they can dona
 
 **Examples:**
 
-* **Water ( $ H_2O $ )**:   $ H_2O + H^+ \rightleftharpoons H_3O^+ $  (acts as a base) ;   $ H_2O \rightleftharpoons H^+ + OH^- $  (acts as an acid)
-* **Amino acids:** Contain both carboxyl (-COOH) groups (acidic) and amino (- $ NH_2 $ ) groups (basic).
-* **Hydrogen carbonate ion ( $ HCO_3^- $ )**:  $ HCO_3^- + H^+ \rightleftharpoons H_2CO_3 $  (acts as a base) ;  $ HCO_3^- \rightleftharpoons H^+ + CO_3^{2-} $  (acts as an acid)
-* **Aluminum hydroxide ( $ Al(OH)_3 $ )**: Reacts with acids to form salts and water, and with bases to form aluminates.
+* **Water ($H_2O$)**:  $H_2O + H^+ \rightleftharpoons H_3O^+$ (acts as a base) ;  $H_2O \rightleftharpoons H^+ + OH^-$ (acts as an acid)
+* **Amino acids:** Contain both carboxyl (-COOH) groups (acidic) and amino (-$NH_2$) groups (basic).
+* **Hydrogen carbonate ion ($HCO_3^-$)**: $HCO_3^- + H^+ \rightleftharpoons H_2CO_3$ (acts as a base) ; $HCO_3^- \rightleftharpoons H^+ + CO_3^{2-}$ (acts as an acid)
+* **Aluminum hydroxide ($Al(OH)_3$)**: Reacts with acids to form salts and water, and with bases to form aluminates.
 
 **Reactions:**
 
-* **With Acids:**  An amphoteric substance acts as a base, accepting a proton.  For example:   $ Al(OH)_3(s) + 3HCl(aq) \rightarrow AlCl_3(aq) + 3H_2O(l) $ 
-* **With Bases:** An amphoteric substance acts as an acid, donating a proton. For example:  $ Al(OH)_3(s) + NaOH(aq) \rightarrow NaAl(OH)_4(aq) $ 
+* **With Acids:**  An amphoteric substance acts as a base, accepting a proton.  For example:  $Al(OH)_3(s) + 3HCl(aq) \rightarrow AlCl_3(aq) + 3H_2O(l)$
+* **With Bases:** An amphoteric substance acts as an acid, donating a proton. For example: $Al(OH)_3(s) + NaOH(aq) \rightarrow NaAl(OH)_4(aq)$
 
 
-[Acid-Base Reactions  Brønsted-Lowry Theory](./../acid-base-reactions--brønsted-lowry-theory/) Conjugate Acid-Base Pairs]]
+[[Acid-Base Reactions  Brønsted-Lowry Theory]] Conjugate Acid-Base Pairs]]
 
 **Further points to consider:**
 

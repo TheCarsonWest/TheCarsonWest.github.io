@@ -1,9 +1,4 @@
-+++
- title = 'm2l2 vocab'
-[params]
-	author = 'Carson West'
-+++
-# [arabic vocab lists](./../arabic-vocab-lists/)
+# [[arabic vocab lists]]
 # Module Two Lesson Two Vocabulary
 
 

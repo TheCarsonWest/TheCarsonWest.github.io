@@ -1,8 +1,3 @@
-+++
- title = 'Plymouth Colony'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Notecard: Plymouth Colony
 
 **APUSH Period:** Primarily Period 2 (1607-1754), though often studied in conjunction with early colonial motivations from Period 1. Founded 1620.

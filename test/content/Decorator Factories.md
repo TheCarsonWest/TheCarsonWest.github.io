@@ -1,10 +1,5 @@
-+++
- title = 'Decorator Factories'
-[params]
-	author = 'Carson West'
-+++
-# [Decorators](./../decorators/)
-# [Decorator Factories](./../decorator-factories/) 
+# [[Decorators]]
+# [[Decorator Factories]] 
 Decorator factories are functions that return decorators.  They allow for creating decorators with parameters.  This is useful when you need a decorator that can be configured at runtime.
 
 
@@ -38,7 +33,7 @@ This example shows `repeat` as a decorator factory. It takes `num_times` as a pa
 
 **Related Notes:**
 
-*   [Decorators](./../decorators/)
-*   [Higher-Order Functions](./../higher-order-functions/)
-*   [Closures](./../closures/) (because the inner functions in a decorator factory use closures)
+*   [[Decorators]]
+*   [[Higher-Order Functions]]
+*   [[Closures]] (because the inner functions in a decorator factory use closures)
 

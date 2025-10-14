@@ -1,10 +1,5 @@
-+++
- title = 'berlin conference'
-[params]
-	author = 'Carson West'
-+++
 
-# [APHG Home](./../aphg-home/)
+# [[APHG Home]]
 # Berlin Conference
 *   **Imperialism:** The core driving force.
 *   **Colonialism:** The direct result of the conference.

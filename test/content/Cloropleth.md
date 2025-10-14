@@ -1,13 +1,8 @@
-+++
- title = 'Cloropleth'
-[params]
-	author = 'Carson West'
-+++
 
- [Glossary](./../glossary/)
+ [[Glossary]]
 **Choropleth**
 
-- A type of thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as [Population Density](./../population-density/) or per-capita income.
+- A type of thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map, such as [[Population Density]] or per-capita income.
 
 
 - Data is divided into classes, and colors or shades are assigned to represent the different classes of data.

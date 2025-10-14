@@ -1,8 +1,3 @@
-+++
- title = 'European Rivalries'
-[params]
-	author = 'Carson West'
-+++
 # APUSH Period 1: European Rivalries (1491-1607)
 
 ---

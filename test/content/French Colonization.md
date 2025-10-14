@@ -1,8 +1,3 @@
-+++
- title = 'French Colonization'
-[params]
-	author = 'Carson West'
-+++
 ### APUSH Notecard: Period 1 - French Colonization (1491-1607)
 
 **Key People & Events:**

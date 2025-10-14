@@ -1,10 +1,5 @@
-+++
- title = 'Break and Continue Statements'
-[params]
-	author = 'Carson West'
-+++
-# [While Loops](./../while-loops/)
-# [Break and Continue Statements](./../break-and-continue-statements/) 
+# [[While Loops]]
+# [[Break and Continue Statements]] 
 These statements alter the flow of control within loops ( `for` and `while`).
 
 * **`break`:** Terminates the loop entirely.  Execution jumps to the statement immediately following the loop.
@@ -43,4 +38,4 @@ for i in range(1,3):
 #       (2,2)
 ```
 
-[Loop Control Flow](./../loop-control-flow/)  ([Break statement](./../break-statement/)) [Continue statement](./../continue-statement/)
+[[Loop Control Flow]]  ([[Break statement]]) [[Continue statement]]

@@ -1,8 +1,3 @@
-+++
- title = 'Mercantilism'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Period 1: Mercantilism (1491-1607)
 
 ---

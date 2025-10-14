@@ -1,10 +1,5 @@
-+++
- title = 'For Loops in Python'
-[params]
-	author = 'Carson West'
-+++
-# [List Comprehension](./../list-comprehension/)
-# [For Loops in Python](./../for-loops-in-python/) 
+# [[List Comprehension]]
+# [[For Loops in Python]] 
 Basic Syntax:
 
 ```python
@@ -64,7 +59,7 @@ for i in range(3):
         print(f"i = {i}, j = {j}")
 ```
 
-**[Loop Control Statements](./../loop-control-statements/):**
+**[[Loop Control Statements]]:**
 
 * `break`:  Terminates the loop prematurely.
 * `continue`: Skips the rest of the current iteration and proceeds to the next.
@@ -88,4 +83,4 @@ for i in range(5):
     print(i)
 ```
 
-[List Comprehensions](./../list-comprehensions/)  ([Range Function](./../range-function/)) [Break and Continue Statements](./../break-and-continue-statements/)
+[[List Comprehensions]]  ([[Range Function]]) [[Break and Continue Statements]]

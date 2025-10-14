@@ -1,9 +1,4 @@
-+++
- title = 'Unit 7  Equilibrium'
-[params]
-	author = 'Carson West'
-+++
-# [AP Chemistry Units](./../ap-chemistry-units/)
+# [[AP Chemistry Units]]
 
 # Unit 7 : Equilibrium
 ## 7.1 : Introduction to Equilibrium
@@ -17,4 +12,4 @@
 ## 7.9 : Reaction Quotient and Le Châtelier's Principle
 ## 7.10 : Applications of Le Châtelier's Principle
 
-# [AP Chemistry Units](./../ap-chemistry-units/)
+# [[AP Chemistry Units]]

@@ -1,8 +1,3 @@
-+++
- title = 'Spanish Colonization'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Period 1: Spanish Colonization (1491-1607)
 
 ---

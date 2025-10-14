@@ -1,8 +1,3 @@
-+++
- title = 'Jamestown'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Notecard: Jamestown (Period 1)
 
 ---

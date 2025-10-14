@@ -1,9 +1,4 @@
-+++
- title = 'CCC'
-[params]
-	author = 'Carson West'
-+++
-# [IDS Unit 7](./../ids-unit-7/)
+# [[IDS Unit 7]]
 ## ID: Civilian Conservation Corps (CCC)
 
 ## When: 1933-1942 (Great Depression/New Deal)

@@ -1,8 +1,3 @@
-+++
- title = 'IDs used'
-[params]
-	author = 'Carson West'
-+++
 this is a list of the IDs i actually remembered using the on 2025 AP Exam
 
 1. [ ] Headright System 

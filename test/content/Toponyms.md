@@ -1,13 +1,8 @@
-+++
- title = 'Toponyms'
-[params]
-	author = 'Carson West'
-+++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Toponyms](./../toponyms/) 
+# [[Toponyms]] 
 **Definition:** Place names, which often reflect the history, culture, and language of a place.
 
-**Example:**  San Francisco (Spanish influence), [New York](./../new-york/) (English influence).
+**Example:**  San Francisco (Spanish influence), [[New York]] (English influence).
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

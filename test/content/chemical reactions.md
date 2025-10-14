@@ -1,13 +1,8 @@
-+++
- title = 'chemical reactions'
-[params]
-	author = 'Carson West'
-+++
-# [APCHEM Home](./../apchem-home/)
+# [[APCHEM Home]]
 
-- [Maxwell-Boltzmann Distribution](./../maxwell-boltzmann-distribution/)
-- [Activation Energy](./../activation-energy/)
-- [Rate Laws](./../rate-laws/)
-- [Factors affecting rate of reaction](./../factors-affecting-rate-of-reaction/)
-- [Reaction Mechanisms](./../reaction-mechanisms/)
+- [[Maxwell-Boltzmann Distribution]]
+- [[Activation Energy]]
+- [[Rate Laws]]
+- [[Factors affecting rate of reaction]]
+- [[Reaction Mechanisms]]
 - 

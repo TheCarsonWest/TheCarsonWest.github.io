@@ -1,8 +1,3 @@
-+++
- title = 'Roanoke Colony'
-[params]
-	author = 'Carson West'
-+++
 ## APUSH Period 1: Roanoke Colony Notecard
 
 ---

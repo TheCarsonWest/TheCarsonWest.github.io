@@ -1,13 +1,8 @@
-+++
- title = 'Artifacts'
-[params]
-	author = 'Carson West'
-+++
-# [Glossary](./../glossary/)
+# [[Glossary]]
 
-# [Artifacts](./../artifacts/) 
-**Definition:** The tangible, physical objects created and used by members of a [Culture](./../culture/).
+# [[Artifacts]] 
+**Definition:** The tangible, physical objects created and used by members of a [[Culture]].
 
 **Example:** Clothing, tools, buildings, artwork.
 
-# [Glossary](./../glossary/)
+# [[Glossary]]

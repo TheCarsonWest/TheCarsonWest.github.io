@@ -1,12 +1,7 @@
-+++
- title = 'Unit 1 - Limits'
-[params]
-	author = 'Carson West'
-+++
-# [Calc home](./../calc-home/)
+# [[Calc home]]
 
 # Unit 1
-### [Calculus Limits](./../calculus-limits/)
-### [Indeterminate Forms](./../indeterminate-forms/)
+### [[Calculus Limits]]
+### [[Indeterminate Forms]]
 
-# [Calc home](./../calc-home/)
+# [[Calc home]]

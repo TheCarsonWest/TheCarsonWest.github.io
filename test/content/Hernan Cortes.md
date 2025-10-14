@@ -1,8 +1,3 @@
-+++
- title = 'Hernan Cortes'
-[params]
-	author = 'Carson West'
-+++
 ```markdown
 # APUSH Notecard: Hernan Cortes
 

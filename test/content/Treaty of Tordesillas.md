@@ -1,8 +1,3 @@
-+++
- title = 'Treaty of Tordesillas'
-[params]
-	author = 'Carson West'
-+++
 ## Treaty of Tordesillas
 
 **Date:** June 7, 1494
