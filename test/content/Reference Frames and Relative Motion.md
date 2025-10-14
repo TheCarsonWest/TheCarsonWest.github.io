@@ -27,20 +27,16 @@ Consider two reference frames: A and B. We want to find the velocity of an objec
 
 The general formula for relative velocity is:
 
- $ 
-\vec{v}_{O/A} = \vec{v}_{O/B} + \vec{v}_{B/A}
- $ 
-
+ $$  \vec{v}_{O/A} = \vec{v}_{O/B} + \vec{v}_{B/A}
+ $$  
 Where:
 *    $ \vec{v}_{O/A} $ : Velocity of object O as observed from reference frame A.
 *    $ \vec{v}_{O/B} $ : Velocity of object O as observed from reference frame B.
 *    $ \vec{v}_{B/A} $ : Velocity of reference frame B as observed from reference frame A.
 
 **Key Relationship:** The velocity of frame A with respect to B is the negative of the velocity of frame B with respect to A:
- $ 
-\vec{v}_{A/B} = -\vec{v}_{B/A}
- $ 
-
+ $$  \vec{v}_{A/B} = -\vec{v}_{B/A}
+ $$  
 **Example Scenario:**
 Imagine a person (P) walking on a moving train (T), which itself is moving relative to the ground (G).
 *    $ \vec{v}_{P/T} $ : Velocity of the person relative to the train (e.g., 2 m/s forward).
@@ -48,10 +44,8 @@ Imagine a person (P) walking on a moving train (T), which itself is moving relat
 *    $ \vec{v}_{P/G} $ : Velocity of the person relative to the ground.
 
 Using the relative velocity formula:
- $ 
-\vec{v}_{P/G} = \vec{v}_{P/T} + \vec{v}_{T/G}
- $ 
-If both velocities are in the same direction,  $ \vec{v}_{P/G} = 2 \text{ m/s} + 10 \text{ m/s} = 12 \text{ m/s} $ .
+ $$  \vec{v}_{P/G} = \vec{v}_{P/T} + \vec{v}_{T/G}
+ $$  If both velocities are in the same direction,  $ \vec{v}_{P/G} = 2 \text{ m/s} + 10 \text{ m/s} = 12 \text{ m/s} $ .
 If the person walks opposite to the train's motion,  $ \vec{v}_{P/G} = -2 \text{ m/s} + 10 \text{ m/s} = 8 \text{ m/s} $ .
 
 ### Components of Relative Velocity
@@ -60,13 +54,9 @@ In two dimensions, relative velocity problems often involve [Vectors and Motion 
 
 Let  $ \vec{v}_{O/A} = v_{O/A,x}\hat{i} + v_{O/A,y}\hat{j} $ , and similarly for the other terms.
 Then:
- $ 
-v_{O/A,x} = v_{O/B,x} + v_{B/A,x}
- $ 
- $ 
-v_{O/A,y} = v_{O/B,y} + v_{B/A,y}
- $ 
-
+ $$  v_{O/A,x} = v_{O/B,x} + v_{B/A,x}
+ $$   $$  v_{O/A,y} = v_{O/B,y} + v_{B/A,y}
+ $$  
 ## Relative Acceleration
 
 Similar to velocity, acceleration is also relative to the chosen reference frame. For objects moving in different inertial reference frames, the acceleration of an object remains the same if the relative velocity between the frames is constant.
@@ -74,15 +64,11 @@ Similar to velocity, acceleration is also relative to the chosen reference frame
 If frame B is moving at a constant velocity with respect to frame A ( $ \vec{v}_{B/A} = \text{constant} $ ), then  $ \vec{a}_{B/A} = 0 $ .
 In this case, the acceleration of object O observed from A ( $ \vec{a}_{O/A} $ ) is equal to the acceleration of object O observed from B ( $ \vec{a}_{O/B} $ ):
 
- $ 
-\vec{a}_{O/A} = \vec{a}_{O/B} + \vec{a}_{B/A}
- $ 
-
+ $$  \vec{a}_{O/A} = \vec{a}_{O/B} + \vec{a}_{B/A}
+ $$  
 If  $ \vec{a}_{B/A} = 0 $  (i.e., B is an inertial frame relative to A), then:
- $ 
-\vec{a}_{O/A} = \vec{a}_{O/B}
- $ 
-
+ $$  \vec{a}_{O/A} = \vec{a}_{O/B}
+ $$  
 This means that observers in different inertial frames will agree on the acceleration of an object, even if they disagree on its velocity. This principle is fundamental to [Newton’s Second Law](./../newton’s-second-law/) and is why inertial frames are so important.
 
 ## Common Scenarios & Problem Types

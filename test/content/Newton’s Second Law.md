@@ -18,10 +18,8 @@ Newton's Second Law states that the acceleration of an object is directly propor
 
 The law is most commonly expressed by the following vector equation:
 
- $ 
-\vec{F}_{net} = m \vec{a}
- $ 
-
+ $$  \vec{F}_{net} = m \vec{a}
+ $$  
 Where:
 *    $ \vec{F}_{net} $  is the [Net Force](./../net-force/) (the vector sum of all forces acting on the object), measured in Newtons (N).
 *    $ m $  is the [Mass (Physics)](./../mass-(physics)/) of the object, measured in kilograms (kg).
@@ -29,19 +27,15 @@ Where:
 
 From this equation, we can also express acceleration as:
 
- $ 
-\vec{a} = \frac{\vec{F}_{net}}{m}
- $ 
-
+ $$  \vec{a} = \frac{\vec{F}_{net}}{m}
+ $$  
 This highlights that for a given net force, a more massive object will experience less acceleration, and for a given mass, a larger net force will produce greater acceleration.
 
 ### Key Concepts
 
 *   **Vector Nature**: Both force and acceleration are vector quantities. This means we must consider their direction when applying Newton's Second Law. Often, this involves resolving forces into their components along perpendicular axes (e.g., x and y axes).
-     $ 
-    \sum F_x = m a_x \quad \text{and} \quad \sum F_y = m a_y
-     $ 
-*   **Net Force**: The sum of all individual forces acting on an object. If the net force is zero, the object's acceleration is zero, meaning it is either at rest or moving at a constant velocity (an application of Newton's First Law, which is a special case of the Second Law).
+     $$      \sum F_x = m a_x \quad \text{and} \quad \sum F_y = m a_y
+     $$  *   **Net Force**: The sum of all individual forces acting on an object. If the net force is zero, the object's acceleration is zero, meaning it is either at rest or moving at a constant velocity (an application of Newton's First Law, which is a special case of the Second Law).
 *   **Units**:
     *   The SI unit of force, the Newton (N), is defined directly from the Second Law:  $ 1 \text{ N} = 1 \text{ kg} \cdot \text{m/s}^2 $ .
 
@@ -55,7 +49,7 @@ Applying Newton's Second Law effectively involves a systematic approach:
 4.  **Apply Newton's Second Law**: Write separate equations for the sum of forces in each perpendicular direction (e.g.,  $ \Sigma F_x = m a_x $  and  $ \Sigma F_y = m a_y $ ).
 5.  **Solve**: Solve the resulting system of equations for the unknown quantities (e.g., acceleration, tension, normal force).
 
-### Examples of Forces
+### Examples of Forc es
 
 Newton's Second Law can be applied to various types of forces, including:
 

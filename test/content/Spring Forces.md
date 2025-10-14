@@ -14,10 +14,8 @@ The force exerted by an ideal spring is directly proportional to the displacemen
 
 When a spring is stretched or compressed by a displacement  $ x $  from its natural length, the spring exerts a force  $ F_s $  given by:
 
- $ 
-\vec{F}_s = -k\vec{x}
- $ 
-
+ $$  \vec{F}_s = -k\vec{x}
+ $$  
 Where:
 *    $ \vec{F}_s $  is the **spring force** (in Newtons, N).
 *    $ k $  is the **spring constant** (in Newtons per meter, N/m). This constant represents the stiffness of the spring; a larger  $ k $  means a stiffer spring.

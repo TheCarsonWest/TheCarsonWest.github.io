@@ -57,19 +57,15 @@
 <p>Performing operations like addition, subtraction, and scalar multiplication on vectors in two dimensions is most straightforward using their components.</p>
 <h3 id="vector-addition">Vector Addition</h3>
 <p>To add two vectors  $ \vec{A} $  and  $ \vec{B} $ , add their corresponding components:
-$  \vec{R} = \vec{A} + \vec{B}  $
-$  R_x = A_x + B_x  $
-$  R_y = A_y + B_y  $
-Then find the magnitude and direction of  $ \vec{R} $  from  $ R_x $  and  $ R_y $ .</p>
+$ \vec{R} = \vec{A} + \vec{B} $
+$ R_x = A_x + B_x $
+$$  R_y = A_y + B_y  $$  Then find the magnitude and direction of  $ \vec{R} $  from  $ R_x $  and  $ R_y $ .</p>
 <h3 id="vector-subtraction">Vector Subtraction</h3>
 <p>To subtract vector  $ \vec{B} $  from  $ \vec{A} $ , subtract their components:
-$  \vec{D} = \vec{A} - \vec{B} = \vec{A} + (-\vec{B})  $
-$  D_x = A_x - B_x  $
-$  D_y = A_y - B_y  $
-Note that subtracting a vector is equivalent to adding its negative (same magnitude, opposite direction).</p>
+$$  \vec{D} = \vec{A} - \vec{B} = \vec{A} + (-\vec{B})  $$   $$  D_x = A_x - B_x  $$   $$  D_y = A_y - B_y  $$  Note that subtracting a vector is equivalent to adding its negative (same magnitude, opposite direction).</p>
 <h3 id="scalar-multiplication">Scalar Multiplication</h3>
 <p>Multiplying a vector  $ \vec{A} $  by a scalar  $ c $ :
-$  c\vec{A} = (cA_x, cA_y)  $
+$ c\vec{A} = (cA_x, cA_y) $
 The magnitude changes by a factor of  $ |c| $ , and the direction reverses if  $ c $  is negative.</p>
 <h2 id="3-position-velocity-and-acceleration-in-2d">3. Position, Velocity, and Acceleration in 2D</h2>
 <p>The definitions of position, velocity, and acceleration extend directly from one dimension to two by considering their x and y components independently.</p>
@@ -79,23 +75,19 @@ $  \vec{r}(t) = x(t)\hat{i} + y(t)\hat{j}  $
 where  $ \hat{i} $  and  $ \hat{j} $  are unit vectors along the x and y axes, respectively.</p>
 <h3 id="displacement-vector">Displacement Vector</h3>
 <p>The change in position is the displacement vector  $ \Delta \vec{r} $ :
-$  \Delta \vec{r} = \vec{r}_f - \vec{r}_i = (x_f - x_i)\hat{i} + (y_f - y_i)\hat{j} = \Delta x \hat{i} + \Delta y \hat{j}  $</p>
+$$  \Delta \vec{r} = \vec{r}_f - \vec{r}_i = (x_f - x_i)\hat{i} + (y_f - y_i)\hat{j} = \Delta x \hat{i} + \Delta y \hat{j}  $$</p>
 <h3 id="velocity-vector">Velocity Vector</h3>
 <p><a href="./../representing-motion/">Representing Motion</a> in 2D involves the velocity vector, which is always tangent to the path of motion.</p>
 <ul>
 <li><strong>Average Velocity:</strong>
-$  \vec{v}{avg} = \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta x}{\Delta t}\hat{i} + \frac{\Delta y}{\Delta t}\hat{j} = v{x,avg}\hat{i} + v_{y,avg}\hat{j}  $</li>
-<li><strong>Instantaneous Velocity:</strong>
-$  \vec{v}(t) = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat{i} + \frac{dy}{dt}\hat{j} = v_x(t)\hat{i} + v_y(t)\hat{j}  $
-The magnitude of the instantaneous velocity is the speed:  $ v = \sqrt{v_x^2 + v_y^2} $ .</li>
+$$  \vec{v}{avg} = \frac{\Delta \vec{r}}{\Delta t} = \frac{\Delta x}{\Delta t}\hat{i} + \frac{\Delta y}{\Delta t}\hat{j} = v{x,avg}\hat{i} + v_{y,avg}\hat{j}  $$  *   <strong>Instantaneous Velocity:</strong>
+$$  \vec{v}(t) = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat{i} + \frac{dy}{dt}\hat{j} = v_x(t)\hat{i} + v_y(t)\hat{j}  $$      The magnitude of the instantaneous velocity is the speed:  $ v = \sqrt{v_x^2 + v_y^2} $ .</li>
 </ul>
 <h3 id="acceleration-vector">Acceleration Vector</h3>
 <ul>
 <li><strong>Average Acceleration:</strong>
-$  \vec{a}{avg} = \frac{\Delta \vec{v}}{\Delta t} = \frac{\Delta v_x}{\Delta t}\hat{i} + \frac{\Delta v_y}{\Delta t}\hat{j} = a{x,avg}\hat{i} + a_{y,avg}\hat{j}  $</li>
-<li><strong>Instantaneous Acceleration:</strong>
-$  \vec{a}(t) = \frac{d\vec{v}}{dt} = \frac{dv_x}{dt}\hat{i} + \frac{dv_y}{dt}\hat{j} = a_x(t)\hat{i} + a_y(t)\hat{j}  $
-Acceleration can change both the magnitude and direction of the velocity vector.</li>
+$$  \vec{a}{avg} = \frac{\Delta \vec{v}}{\Delta t} = \frac{\Delta v_x}{\Delta t}\hat{i} + \frac{\Delta v_y}{\Delta t}\hat{j} = a{x,avg}\hat{i} + a_{y,avg}\hat{j}  $$  *   <strong>Instantaneous Acceleration:</strong>
+$$  \vec{a}(t) = \frac{d\vec{v}}{dt} = \frac{dv_x}{dt}\hat{i} + \frac{dv_y}{dt}\hat{j} = a_x(t)\hat{i} + a_y(t)\hat{j}  $$      Acceleration can change both the magnitude and direction of the velocity vector.</li>
 </ul>
 <h2 id="4-kinematics-in-two-dimensions-constant-acceleration">4. Kinematics in Two Dimensions (Constant Acceleration)</h2>
 <p>When acceleration is constant, the motion in the x and y directions can be analyzed independently using the one-dimensional kinematic equations. This is a powerful concept.</p>
