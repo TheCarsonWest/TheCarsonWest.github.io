@@ -1,4 +1,9 @@
-# [[arabic vocab lists]]
++++
+ title = 'm3l3 vocab'
+[params]
+	author = 'Carson West'
++++
+# [arabic vocab lists](./../arabic-vocab-lists/)
 # Module Three Lesson Three Vocabulary
 
 |   |   |   |
@@ -57,7 +62,7 @@
 |**يَكتُبُ**|To write||
 |**الحَاسُوب**|The computer||
 |**السفرِ**|Travel||
-|**الولاياتِ المتحدةِ الأمْريكِية**|The [[United States]] of America||
+|**الولاياتِ المتحدةِ الأمْريكِية**|The [United States](./../united-states/) of America||
 |**فترةٍ قصيرةٍ**|Short  time||
 |**أَشخَاصٍ**|People||
 |**في رَأيُكِ**|In your opinion||

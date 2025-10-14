@@ -1,9 +1,14 @@
-# [[Calc home]]
++++
+ title = 'Unit 4 - Applications of derivatives'
+[params]
+	author = 'Carson West'
++++
+# [Calc home](./../calc-home/)
 
 # Unit 4 - Applications of derivatives
-### [[Contextual Applications of Derivatives]]
+### [Contextual Applications of Derivatives](./../contextual-applications-of-derivatives/)
 
-### [[Straight Line motion]]
-### [[Local Linearity]]
+### [Straight Line motion](./../straight-line-motion/)
+### [Local Linearity](./../local-linearity/)
 
-# [[Calc home]]
+# [Calc home](./../calc-home/)

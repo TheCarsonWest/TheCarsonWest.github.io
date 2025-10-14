@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Geometric Distribution | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">The Geometric Distribution</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="the-geometric-distribution">The Geometric Distribution</h1>
+<p>The geometric distribution is a discrete probability distribution that models the number of trials needed to achieve the first success in a sequence of <a href="./../independent-events-and-unions-of-events%7Cindependent/">Independent Events and Unions of Events|independent</a> Bernoulli trials. Unlike the <a href="./../introduction-to-the-binomial-distribution%7Cbinomial-distribution/">Introduction to the Binomial Distribution|Binomial Distribution</a> which counts the number of successes in a fixed number of trials, the geometric distribution focuses on the waiting time for that very first success.</p>
+<h2 id="conditions-for-a-geometric-setting-bits">Conditions for a Geometric Setting (BITS)</h2>
+<p>For a random variable  $ X $  to follow a geometric distribution, the following conditions must be met:</p>
+<ul>
+<li><strong>B</strong>inary: Each trial has only two possible outcomes: &ldquo;success&rdquo; or &ldquo;failure.&rdquo;</li>
+<li><strong>I</strong>ndependent: The outcomes of each trial are independent of each other.</li>
+<li><strong>T</strong>rials: We are counting the number of trials until the <strong>first</strong> success occurs.</li>
+<li><strong>S</strong>uccess: The probability of success ( $ p $ ) remains the same for each trial.</li>
+</ul>
+<p>If these conditions are met,  $ X $  is a geometric random variable, denoted as  $ X \sim \text{Geom}(p) $ .</p>
+<h2 id="probability-mass-function-pmf">Probability Mass Function (PMF)</h2>
+<p>The probability that the first success occurs on the  $ k $ -th trial is given by:</p>
+<p>$$ P(X = k) = (1 - p)^{k-1} p $$<br>
+where:</p>
+<ul>
+<li>$ k $  is the number of the trial on which the first success occurs ( $ k = 1, 2, 3, \ldots $ ).</li>
+<li>$ p $  is the probability of success on any given trial.</li>
+<li>$ (1-p) $  is the probability of failure on any given trial.</li>
+<li>$ (1-p)^{k-1} $  represents  $ k-1 $  consecutive failures before the first success.</li>
+</ul>
+<p><strong>Example:</strong>
+Suppose the probability of hitting a target is  $ p=0.2 $ . What is the probability that the first hit occurs on the 4th shot?
+$ P(X=4) = (1-0.2)^{4-1} (0.2) = (0.8)^3 (0.2) = 0.512 \times 0.2 = 0.1024 $ .</p>
+<h2 id="mean-expected-value-of-a-geometric-distribution">Mean (Expected Value) of a Geometric Distribution</h2>
+<p>The mean or expected number of trials until the first success is:</p>
+<p>$$ E(X) = \mu_X = \frac{1}{p} $$<br>
+This makes intuitive sense: if the probability of success is  $ p=0.25 $ , you&rsquo;d expect to wait  $ 1/0.25 = 4 $  trials on average to get a success.</p>
+<h2 id="standard-deviation-of-a-geometric-distribution">Standard Deviation of a Geometric Distribution</h2>
+<p>The standard deviation of a geometric distribution is:</p>
+<p>$$ \sigma_X = \sqrt{\frac{1-p}{p^2}} $$</p>
+<h2 id="cumulative-probability">Cumulative Probability</h2>
+<p>We are often interested in the probability that the first success occurs on or before a certain trial, or after a certain trial.</p>
+<ul>
+<li>
+<p><strong>Probability of first success on or before the  $ k $ -th trial:</strong>
+$ P(X \le k) = P(X=1) + P(X=2) + \dots + P(X=k) $
+This can also be calculated as:
+$$ P(X \le k) = 1 - P(X &gt; k) = 1 - (1-p)^k $$      This is because  $ P(X &gt; k) $  means the first  $ k $  trials were all failures.</p>
+</li>
+<li>
+<p><strong>Probability of first success after the  $ k $ -th trial:</strong>
+$$ P(X &gt; k) = (1-p)^k $$      This means the first  $ k $  trials were all failures.</p>
+</li>
+</ul>
+<h2 id="comparing-geometric-vs-binomial">Comparing Geometric vs. Binomial</h2>
+<p>It&rsquo;s crucial to distinguish between geometric and binomial distributions.</p>
+<p>| Feature         | <a href="./../introduction-to-the-binomial-distribution%7Cbinomial-distribution/">Introduction to the Binomial Distribution|Binomial Distribution</a> | The Geometric Distribution |
+| :&mdash;&mdash;&mdash;&mdash;&ndash; | :&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; | :&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash; |
+| <strong>Random Variable</strong> | Number of successes in a fixed number of trials ( $ n $ ) | Number of trials until the first success |
+| <strong>Number of Trials</strong> | Fixed ( $ n $ )                           | Variable (can be infinite) |
+| <strong>Question Type</strong> | &ldquo;How many successes in  $ n $  trials?&rdquo;    | &ldquo;How many trials until the first success?&rdquo; |
+| <strong>Probability Function</strong> |  $ P(X=k) = \binom{n}{k} p^k (1-p)^{n-k} $  |  $ P(X=k) = (1-p)^{k-1} p $  |</p>
+<h2 id="calculator-functions-ti-84">Calculator Functions (TI-84)</h2>
+<p>For calculations, your graphing calculator has built-in functions:</p>
+<ul>
+<li><strong><code>geometpdf(p, k)</code></strong>: Calculates  $ P(X=k) $  (probability of first success on the  $ k $ -th trial).</li>
+<li><strong><code>geometcdf(p, k)</code></strong>: Calculates  $ P(X \le k) $  (probability of first success on or before the  $ k $ -th trial).</li>
+</ul>
+<h2 id="expected-counts-in-two-way-tablesexample-applicationexpected-counts-in-two-way-tablesexample-application"><a href="./../expected-counts-in-two-way-tables%7Cexample-application/">Expected Counts in Two-Way Tables|Example Application</a></h2>
+<p>Imagine you are a basketball player with a 30% free throw percentage ( $ p=0.3 $ ).</p>
+<ol>
+<li>
+<p><strong>What is the probability that your first successful free throw occurs on your 3rd attempt?</strong>
+This is  $ P(X=3) $ .
+$ P(X=3) = (1-0.3)^{3-1} (0.3) = (0.7)^2 (0.3) = 0.49 \times 0.3 = 0.147 $ .
+Using calculator: <code>geometpdf(0.3, 3) = 0.147</code>.</p>
+</li>
+<li>
+<p><strong>What is the expected number of free throws you will take until your first success?</strong>
+$ E(X) = \frac{1}{p} = \frac{1}{0.3} \approx 3.33 $  attempts.</p>
+</li>
+<li>
+<p><strong>What is the probability that it takes you more than 5 attempts to make your first free throw?</strong>
+This is  $ P(X &gt; 5) $ .
+$ P(X &gt; 5) = (1-0.3)^5 = (0.7)^5 = 0.16807 $ .</p>
+</li>
+<li>
+<p><strong>What is the probability that your first success occurs on or before your 4th attempt?</strong>
+This is  $ P(X \le 4) $ .
+$ P(X \le 4) = 1 - (1-0.3)^4 = 1 - (0.7)^4 = 1 - 0.2401 = 0.7599 $ .
+Using calculator: <code>geometcdf(0.3, 4) = 0.7599</code>.</p>
+</li>
+</ol>
+
+</main>
+
+
+  </body>
+</html>
+

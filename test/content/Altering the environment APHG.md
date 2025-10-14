@@ -1,4 +1,9 @@
-# [[APHG Unit 5 Agriculture]]
++++
+ title = 'Altering the environment APHG'
+[params]
+	author = 'Carson West'
++++
+# [APHG Unit 5 Agriculture](./../aphg-unit-5-agriculture/)
 **14.1 Consequences of Agricultural Practices: Altering the Environment**
 
 *   **Overall Theme:** Agricultural practices, driven by the need to feed a growing global population, significantly alter landscapes, both positively and negatively, with lasting environmental and societal consequences.

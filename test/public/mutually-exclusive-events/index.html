@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mutually Exclusive Events | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Mutually Exclusive Events</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="mutually-exclusive-events">Mutually Exclusive Events</h1>
+<h2 id="introduction-to-mutually-exclusive-events">Introduction to Mutually Exclusive Events</h2>
+<p>In <a href="./../introduction-to-probability/">Introduction to Probability</a>, we learned about events and their probabilities. Mutually exclusive events, also known as disjoint events, are a fundamental concept in probability theory. Two events are considered mutually exclusive if they cannot occur at the same time. This means that if one event happens, the other simply cannot.</p>
+<h3 id="definition">Definition</h3>
+<p>Two events,  $ A $  and  $ B $ , are <strong>mutually exclusive</strong> (or <strong>disjoint</strong>) if they have no outcomes in common. That is, the occurrence of one event precludes the occurrence of the other.</p>
+<h2 id="key-characteristics">Key Characteristics</h2>
+<ul>
+<li><strong>No Overlap</strong>: Mutually exclusive events never share any common outcomes in the sample space.</li>
+<li><strong>Simultaneous Occurrence Impossible</strong>: It is impossible for both events to happen at the same time in a single trial or observation.</li>
+<li><strong>Intersection is Empty</strong>: The intersection of two mutually exclusive events is an empty set ( $ \emptyset $ ).</li>
+</ul>
+<h3 id="visualizing-mutually-exclusive-events">Visualizing Mutually Exclusive Events</h3>
+<p>Venn diagrams are excellent tools for visualizing relationships between events. For mutually exclusive events, their circles in a Venn diagram will not overlap.</p>
+<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">graph TD
+    subgraph Sample Space (S)
+        A -- (No overlap) --&gt; B
+    end
+    style A fill:#ADD8E6,stroke:#333,stroke-width:2px
+    style B fill:#FFB6C1,stroke:#333,stroke-width:2px
+</code></pre><p>In this diagram, the circles representing Event A and Event B are separate, indicating no common outcomes.</p>
+<h2 id="probability-of-mutually-exclusive-events">Probability of Mutually Exclusive Events</h2>
+<p>When two events  $ A $  and  $ B $  are mutually exclusive, the probability that both events occur is 0. This is expressed as:</p>
+<p>$$ P(A \text{ and } B) = P(A \cap B) = 0 $$</p>
+<h3 id="the-addition-rule-for-mutually-exclusive-events">The Addition Rule for Mutually Exclusive Events</h3>
+<p>For any two events  $ A $  and  $ B $ , the general addition rule for the probability of their union (the probability that  $ A $  occurs or  $ B $  occurs or both occur) is:</p>
+<p>$$ P(A \text{ or } B) = P(A \cup B) = P(A) + P(B) - P(A \cap B) $$<br>
+However, if  $ A $  and  $ B $  are mutually exclusive, we know that  $ P(A \cap B) = 0 $ . Therefore, the addition rule simplifies considerably for mutually exclusive events:</p>
+<p>$$ P(A \text{ or } B) = P(A) + P(B) $$<br>
+This simplified rule states that the probability of one or the other mutually exclusive event occurring is simply the sum of their individual probabilities.</p>
+<p><strong>Example:</strong>
+Consider rolling a standard six-sided die.
+Let event  $ A $  be rolling an even number {2, 4, 6}.  $ P(A) = 3/6 = 1/2 $ .
+Let event  $ B $  be rolling an odd number {1, 3, 5}.  $ P(B) = 3/6 = 1/2 $ .</p>
+<p>Are  $ A $  and  $ B $  mutually exclusive? Yes, you cannot roll a number that is both even and odd simultaneously. The intersection  $ A \cap B = \emptyset $ .
+The probability of rolling an even OR an odd number is:
+$ P(A \text{ or } B) = P(A) + P(B) = 1/2 + 1/2 = 1 $ . This makes sense, as all outcomes are either even or odd.</p>
+<h2 id="mutually-exclusive-vs-independent-eventsmutually-exclusive-vs-independent-events"><a href="./../mutually-exclusive-vs.-independent-events/">Mutually Exclusive vs. Independent Events</a></h2>
+<p>It is crucial to understand the difference between mutually exclusive events and <a href="./../independent-events-and-unions-of-events/">Independent Events and Unions of Events</a>. These two concepts are often confused but are almost opposite of each other.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Mutually Exclusive Events</th>
+          <th style="text-align: left">Independent Events</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Definition</strong></td>
+          <td style="text-align: left">Cannot occur at the same time ( $ P(A \cap B) = 0 $ )</td>
+          <td style="text-align: left">Occurrence of one does not affect the other ( $ P(A \cap B) = P(A) \cdot P(B) $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Overlap in Venn</strong></td>
+          <td style="text-align: left">No overlap (disjoint)</td>
+          <td style="text-align: left">May or may not overlap, but their relationship is defined by their probabilities</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">** $ P(A \cap B) $ **</td>
+          <td style="text-align: left">$ 0 $  (if  $ A $  and  $ B $  are not impossible events)</td>
+          <td style="text-align: left">$ P(A) \cdot P(B) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Can both happen?</strong></td>
+          <td style="text-align: left">No</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Key Takeaway</strong>: If two events are mutually exclusive and have non-zero probabilities, they cannot be independent. If  $ P(A) &gt; 0 $  and  $ P(B) &gt; 0 $ , and they are mutually exclusive, then  $ P(A \cap B) = 0 $ . However, if they were independent,  $ P(A \cap B) $  would be  $ P(A) \cdot P(B) $ , which would be greater than 0. Since  $ 0 \ne P(A) \cdot P(B) $  (unless one event has a probability of 0), they cannot be both.</p>
+<p>The only case where two events can be both mutually exclusive and independent is if at least one of them is an impossible event (i.e., has a probability of 0). This is usually not relevant for typical AP Statistics problems.</p>
+<h2 id="examples-in-ap-statistics-context">Examples in AP Statistics Context</h2>
+<ol>
+<li><strong>Card Deck</strong>:
+<ul>
+<li>Event  $ A $ : Drawing a red card.</li>
+<li>Event  $ B $ : Drawing a black card.</li>
+<li>Are  $ A $  and  $ B $  mutually exclusive? Yes, a card cannot be both red and black.  $ P(A \text{ or } B) = P(A) + P(B) = 26/52 + 26/52 = 1 $ .</li>
+</ul>
+</li>
+<li><strong>Survey Data</strong>:
+<ul>
+<li>Event  $ C $ : A randomly selected person is a high school student.</li>
+<li>Event  $ D $ : A randomly selected person is a college graduate.</li>
+<li>Are  $ C $  and  $ D $  mutually exclusive? Yes, assuming a person cannot be both at the same time for the purpose of the survey (e.g., they are not simultaneously enrolled in both).</li>
+</ul>
+</li>
+</ol>
+<p>Understanding mutually exclusive events is fundamental for correctly applying the addition rule and for distinguishing between different types of event relationships in probability calculations.</p>
+
+</main>
+
+
+  </body>
+</html>
+

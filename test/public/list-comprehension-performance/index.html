@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>List Comprehension Performance | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">List Comprehension Performance</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="list-comprehensionlist-comprehension"><a href="./../list-comprehension/">List Comprehension</a></h1>
+<h1 id="list-comprehension-performancelist-comprehension-performance"><a href="./../list-comprehension-performance/">List Comprehension Performance</a></h1>
+<p>List comprehensions are a concise way to create lists in Python, but their performance characteristics are worth understanding.</p>
+<p>Generally, list comprehensions are faster than equivalent <code>for</code> loops. This is because list comprehensions are implemented in optimized C code within the Python interpreter, whereas <code>for</code> loops involve more Python interpreter overhead.</p>
+<p><strong>Example demonstrating speed difference:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> time
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Using a for loop</span>
+</span></span><span style="display:flex;"><span>start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000000</span>):
+</span></span><span style="display:flex;"><span>  my_list<span style="color:#f92672">.</span>append(i<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>end_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;For loop time: </span><span style="color:#e6db74">{</span>end_time <span style="color:#f92672">-</span> start_time<span style="color:#e6db74">:</span><span style="color:#e6db74">.4f</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> seconds&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Using list comprehension</span>
+</span></span><span style="display:flex;"><span>start_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [i<span style="color:#f92672">*</span><span style="color:#ae81ff">2</span> <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1000000</span>)]]
+</span></span><span style="display:flex;"><span>end_time <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;List comprehension time: </span><span style="color:#e6db74">{</span>end_time <span style="color:#f92672">-</span> start_time<span style="color:#e6db74">:</span><span style="color:#e6db74">.4f</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> seconds&#34;</span>)
+</span></span></code></pre></div><p><strong>However, the performance advantage isn&rsquo;t always significant.</strong>  The difference becomes more pronounced with larger datasets and more complex operations within the comprehension.  For very simple operations on small lists, the difference might be negligible.</p>
+<p><strong>Factors affecting performance:</strong></p>
+<ul>
+<li><strong>Dataset size:</strong> Larger datasets will show a more noticeable difference.</li>
+<li><strong>Complexity of operations:</strong> More complex operations within the comprehension (e.g., function calls, conditional logic) can reduce the performance advantage, or even make list comprehensions slightly slower in some cases than well-optimized <code>for</code> loops.</li>
+<li><strong>Memory usage:</strong> While generally efficient, very large list comprehensions can consume significant memory, potentially leading to performance issues.  <a href="./../memory-management-in-python/">Memory Management in Python</a></li>
+</ul>
+<p><strong>When to use list comprehensions:</strong></p>
+<ul>
+<li>For creating lists concisely and readably when the logic is simple and straightforward.</li>
+<li>When performance is a concern, especially with larger datasets.</li>
+</ul>
+<p><strong>When to avoid list comprehensions:</strong></p>
+<ul>
+<li>When readability suffers due to excessive complexity within the comprehension.  It is better to use a <code>for</code> loop for complex logic to maintain clarity.</li>
+<li>When dealing with exceptionally large datasets where memory usage might become problematic.  Consider using generators or iterators in such cases.  <a href="./../generators/">Generators</a> and <a href="./../iterators/">Iterators</a></li>
+</ul>
+<p><strong>Further Reading:</strong></p>
+<ul>
+<li><a href="./../python-performance-tuning/">Python Performance Tuning</a></li>
+<li><a href="./../profiling-python-code/">Profiling Python Code</a></li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

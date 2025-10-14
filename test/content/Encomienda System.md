@@ -1,3 +1,8 @@
++++
+ title = 'Encomienda System'
+[params]
+	author = 'Carson West'
++++
 ```markdown
 # APUSH Period 1 Notecard: The Encomienda System
 

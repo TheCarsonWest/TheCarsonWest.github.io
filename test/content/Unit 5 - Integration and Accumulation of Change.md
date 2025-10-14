@@ -1,11 +1,16 @@
-# [[Calc home]]
++++
+ title = 'Unit 5 - Integration and Accumulation of Change'
+[params]
+	author = 'Carson West'
++++
+# [Calc home](./../calc-home/)
 
 # Unit 5 - Integration and Accumulation of Change
 
-### [[Riemann Sums]]
-### [[Trapezoidal Rule]]
-### [[Antiderivatives]]
-### [[Constant of Integration]]
-## [[integrals]]
+### [Riemann Sums](./../riemann-sums/)
+### [Trapezoidal Rule](./../trapezoidal-rule/)
+### [Antiderivatives](./../antiderivatives/)
+### [Constant of Integration](./../constant-of-integration/)
+## [integrals](./../integrals/)
 
-# [[Calc home]]
+# [Calc home](./../calc-home/)

@@ -1,5 +1,10 @@
-# [[Iterables]]
-# [[Iterators]] 
++++
+ title = 'Iterators'
+[params]
+	author = 'Carson West'
++++
+# [Iterables](./../iterables/)
+# [Iterators](./../iterators/) 
 An iterator is an object that allows you to traverse through a sequence of data one element at a time.  It doesn't load the entire sequence into memory at once, making it memory-efficient for large datasets.
 
 Key characteristics:
@@ -52,4 +57,4 @@ for item in my_list:  #The for loop implicitly calls iter() and next()
     print(item)
 ```
 
-[[Iterables]]  ([[Generators]])
+[Iterables](./../iterables/)  ([Generators](./../generators/))

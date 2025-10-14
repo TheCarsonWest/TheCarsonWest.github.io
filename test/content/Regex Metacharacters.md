@@ -1,12 +1,17 @@
-# [[Regular Expressions]]
-# [[Regex Metacharacters]] 
-These characters have special meaning within [[Regular Expressions]] and are not treated literally.  They modify the behavior of other characters or patterns.  It's crucial to understand them for effective regex use.
++++
+ title = 'Regex Metacharacters'
+[params]
+	author = 'Carson West'
++++
+# [Regular Expressions](./../regular-expressions/)
+# [Regex Metacharacters](./../regex-metacharacters/) 
+These characters have special meaning within [Regular Expressions](./../regular-expressions/) and are not treated literally.  They modify the behavior of other characters or patterns.  It's crucial to understand them for effective regex use.
 
 **List of Common Metacharacters:**
 
 * `.` (dot): Matches any single character except a newline.
 * `^`: Matches the beginning of a string.
-* `$`: Matches the end of a string.
+* ` $ `: Matches the end of a string.
 * `*`: Matches zero or more occurrences of the preceding character or group.
 * `+`: Matches one or more occurrences of the preceding character or group.
 * `?`: Matches zero or one occurrence of the preceding character or group.
@@ -31,7 +36,7 @@ print(re.findall(r".o", text))  # Output: ['Th', 'o', 'o']]
 print(re.findall(r"^The", text)) # Output: ['The']]
 
 # Matches the string only if it ends with '.'
-print(re.findall(r"\.$", text)) # Output: ['.']]
+print(re.findall(r"\. $ ", text)) # Output: ['.']]
 
 # Matches 'o' followed by zero or more 'x' characters
 print(re.findall(r"ox*", text)) # Output: ['o', 'ox']]
@@ -47,9 +52,9 @@ print(re.findall(r"(quick) (brown)", text)) #Output:[('quick', 'brown')]]
 
 ```
 
-[[Regex Character Sets]]  
-[[Regex Quantifiers]]
-[[Regex Grouping and Capturing]]
-[[Regex Special Sequences]]
+[Regex Character Sets](./../regex-character-sets/)  
+[Regex Quantifiers](./../regex-quantifiers/)
+[Regex Grouping and Capturing](./../regex-grouping-and-capturing/)
+[Regex Special Sequences](./../regex-special-sequences/)
 
 

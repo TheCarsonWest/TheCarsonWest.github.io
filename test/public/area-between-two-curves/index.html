@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>area between two curves | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">area between two curves</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<h1 id="area-between-two-curves---ap-calculus-ab-rundown">Area Between Two Curves - AP Calculus AB Rundown</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Finding the area between two curves is a common application of definite integrals in AP Calculus AB. The core idea is to integrate the difference between the two functions over a specified interval. This rundown will cover the essential concepts, formulas, and techniques you need to master this topic.</p>
+<h2 id="the-fundamental-idea">The Fundamental Idea</h2>
+<p>The area between two curves,  $ f(x) $  and  $ g(x) $ , over an interval  $ [a, b] $  is found by integrating the absolute difference between the functions.  It is important to find which function is on top to ensure that the result is positive.</p>
+<h2 id="formula">Formula</h2>
+<p>The area,  $ A $ , between the curves  $ f(x) $  and  $ g(x) $  from  $ x = a $  to  $ x = b $  is given by:</p>
+<p>$$  A = \int_{a}^{b} |f(x) - g(x)| , dx
+$$<br>
+Where  $ f(x) $  and  $ g(x) $  are continuous functions on the interval  $ [a, b] $ .  If  $ f(x) \geq g(x) $  on  $ [a, b] $ , then the formula simplifies to:</p>
+<p>$$  A = \int_{a}^{b} [f(x) - g(x)] , dx
+$$<br>
+<strong>Key Point:</strong>  $ f(x) $  is the &ldquo;top&rdquo; function and  $ g(x) $  is the &ldquo;bottom&rdquo; function within the interval  $ [a, b] $ .</p>
+<h2 id="steps-to-calculate-area-between-curves">Steps to Calculate Area Between Curves</h2>
+<ol>
+<li><strong>Identify the Functions:</strong> Determine the equations of the two curves,  $ f(x) $  and  $ g(x) $ .</li>
+<li><strong>Find the Intersection Points:</strong> Determine the interval of integration  $ [a, b] $  by finding the  $ x $ -coordinates of the points where the two curves intersect. This is done by setting  $ f(x) = g(x) $  and solving for  $ x $ . These solutions are your limits of integration,  $ a $  and  $ b $ .  <a href="./../finding-intersection-points/">Finding Intersection Points</a></li>
+<li><strong>Determine Which Function is on Top:</strong> Determine which function has a greater value within the interval  $ [a, b] $ .  Choose a test value  $ c $  such that  $ a &lt; c &lt; b $ .  Evaluate  $ f(c) $  and  $ g(c) $ .  The larger value is the &ldquo;top&rdquo; function.  <a href="./../determining-the-top-function/">Determining the Top Function</a></li>
+<li><strong>Set up the Integral:</strong> Set up the definite integral with the appropriate limits of integration and the difference between the top and bottom functions.</li>
+<li><strong>Evaluate the Integral:</strong> Evaluate the definite integral to find the area.  This might require u-substitution or other integration techniques.</li>
+</ol>
+<h2 id="examples">Examples</h2>
+<h3 id="example-1">Example 1</h3>
+<p>Find the area between the curves  $ f(x) = x^2 $  and  $ g(x) = x $  from  $ x = 0 $  to  $ x = 1 $ .</p>
+<ol>
+<li><strong>Functions:</strong>   $ f(x) = x^2 $  and  $ g(x) = x $</li>
+<li><strong>Interval:</strong>  $ [0, 1] $  (Given)</li>
+<li><strong>Top Function:</strong> On the interval  $ [0, 1] $ ,  $ g(x) = x $  is greater than  $ f(x) = x^2 $ . For example, at  $ x = 0.5 $ ,  $ f(0.5) = 0.25 $  and  $ g(0.5) = 0.5 $ .</li>
+<li><strong>Integral:</strong>
+$$      A = \int_{0}^{1} (x - x^2) , dx
+$$  5.  <strong>Evaluation:</strong>
+$$      A = \left[ \frac{x^2}{2} - \frac{x^3}{3} \right]_{0}^{1} = \left( \frac{1}{2} - \frac{1}{3} \right) - \left( 0 - 0 \right) = \frac{1}{6}
+$$<br>
+Therefore, the area between the curves is  $ \frac{1}{6} $ .</li>
+</ol>
+<h3 id="example-2">Example 2</h3>
+<p>Find the area between the curves  $ f(x) = x^2 - 4 $  and  $ g(x) = x - 2 $ .</p>
+<ol>
+<li><strong>Functions:</strong>  $ f(x) = x^2 - 4 $  and  $ g(x) = x - 2 $</li>
+<li><strong>Intersection Points:</strong>
+$$      x^2 - 4 = x - 2 \
+x^2 - x - 2 = 0 \
+(x - 2)(x + 1) = 0 \
+x = 2, x = -1
+$$      Interval:  $ [-1, 2] $</li>
+<li><strong>Top Function:</strong> On the interval  $ [-1, 2] $ ,  $ g(x) = x - 2 $  is greater than  $ f(x) = x^2 - 4 $ . For example, at  $ x = 0 $ ,  $ f(0) = -4 $  and  $ g(0) = -2 $ .</li>
+<li><strong>Integral:</strong>
+$$      A = \int_{-1}^{2} [(x - 2) - (x^2 - 4)] , dx = \int_{-1}^{2} (-x^2 + x + 2) , dx
+$$  5.  <strong>Evaluation:</strong>
+$$      A = \left[ -\frac{x^3}{3} + \frac{x^2}{2} + 2x \right]_{-1}^{2} = \left( -\frac{8}{3} + \frac{4}{2} + 4 \right) - \left( \frac{1}{3} + \frac{1}{2} - 2 \right) = -\frac{8}{3} + 2 + 4 - \frac{1}{3} - \frac{1}{2} + 2 = 8 - 3 - \frac{1}{2} = 5 - \frac{1}{2} = \frac{9}{2}
+$$<br>
+Therefore, the area between the curves is  $ \frac{9}{2} $ .</li>
+</ol>
+<h2 id="integrating-with-respect-to---y-">Integrating with Respect to  $ y $</h2>
+<p>Sometimes, it&rsquo;s easier to integrate with respect to  $ y $  if the functions are easily expressible in terms of  $ y $ , i.e.,  $ x = f(y) $  and  $ x = g(y) $ . In this case, the area is:</p>
+<p>$$  A = \int_{c}^{d} |f(y) - g(y)| , dy
+$$<br>
+Where  $ c $  and  $ d $  are the  $ y $ -coordinates of the intersection points, and  $ f(y) $  and  $ g(y) $  are the functions of  $ y $ .   $ f(y) $  is the &ldquo;right&rdquo; function and  $ g(y) $  is the &ldquo;left&rdquo; function.</p>
+<p>To find the intersection points of two curves</p>
+<h1 id="calc-homecalc-home-1"><a href="./../calc-home/">Calc home</a></h1>
+<h1 id="area-between-two-curvesarea-between-two-curves"><a href="./../area-between-two-curves/">area between two curves</a></h1>
+<h1 id="calc-homecalc-home-2"><a href="./../calc-home/">Calc home</a></h1>
+
+</main>
+
+
+  </body>
+</html>
+

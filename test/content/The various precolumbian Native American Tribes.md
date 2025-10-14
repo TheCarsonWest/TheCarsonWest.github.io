@@ -1,3 +1,8 @@
++++
+ title = 'The various precolumbian Native American Tribes'
+[params]
+	author = 'Carson West'
++++
 ```markdown
 # APUSH Period 1: Pre-Columbian Native American Tribes (c. 1491)
 

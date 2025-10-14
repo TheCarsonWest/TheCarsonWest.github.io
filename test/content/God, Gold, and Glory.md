@@ -1,3 +1,8 @@
++++
+ title = 'God, Gold, and Glory'
+[params]
+	author = 'Carson West'
++++
 # APUSH Notecard: Period 1 (1491-1607) - God, Gold, and Glory
 
 **Core Concept:** "God, Gold, and Glory" represents the primary motivations driving European (primarily Spanish and Portuguese) exploration and colonization of the Americas during Period 1.

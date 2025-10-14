@@ -1,3 +1,8 @@
++++
+ title = 'Middle Passage'
+[params]
+	author = 'Carson West'
++++
 Here's your notecard on the Middle Passage for APUSH Period 1 (1491-1607):
 
 ---

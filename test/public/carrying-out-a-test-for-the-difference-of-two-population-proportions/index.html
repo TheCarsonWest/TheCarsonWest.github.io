@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carrying Out a Test for the Difference of Two Population Proportions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Carrying Out a Test for the Difference of Two Population Proportions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="carrying-out-a-test-for-the-difference-of-two-population-proportions">Carrying Out a Test for the Difference of Two Population Proportions</h1>
+<p>This note page details the practical steps involved in executing a hypothesis test for comparing two population proportions, often following the setup discussed in <a href="./../setting-up-a-test-for-the-difference-of-two-population-proportions/">Setting Up a Test for the Difference of Two Population Proportions</a>. The goal is to determine if there&rsquo;s a statistically significant difference between two population proportions ( $ p_1 $  and  $ p_2 $ ) based on sample data.</p>
+<h2 id="1-state-hypotheses">1. State Hypotheses</h2>
+<p>Before carrying out the test, the null and alternative hypotheses must be clearly stated. This was covered in <a href="./../setting-up-a-test-for-the-difference-of-two-population-proportions/">Setting Up a Test for the Difference of Two Population Proportions</a>.</p>
+<ul>
+<li><strong>Null Hypothesis ( $ H_0 $ ):</strong>  $ p_1 = p_2 $  (or  $ p_1 - p_2 = 0 $ ). This assumes no difference between the population proportions.</li>
+<li><strong>Alternative Hypothesis ( $ H_a $ ):</strong>
+<ul>
+<li>$ p_1 \neq p_2 $  (Two-sided test)</li>
+<li>$ p_1 &lt; p_2 $  (One-sided, left-tailed test)</li>
+<li>$ p_1 &gt; p_2 $  (One-sided, right-tailed test)</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-check-conditions">2. Check Conditions</h2>
+<p>Before performing any calculations, it is crucial to verify that the necessary conditions for inference are met. These ensure the validity of the sampling distribution and the resulting p-value.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Condition Name</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Random</strong></td>
+          <td style="text-align: left">The data should come from two independent random samples or two groups in a randomized experiment. Without random assignment/sampling, generalization to the population is problematic.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Independent</strong></td>
+          <td style="text-align: left"><a href="./../the-10%25-condition/">The 10% Condition</a>: When sampling without replacement, both sample sizes ( $ n_1 $  and  $ n_2 $ ) must be less than 10% of their respective population sizes ( $ N_1 $  and  $ N_2 $ ). This ensures the independence of observations within each sample.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Normal (Large Counts)</strong></td>
+          <td style="text-align: left">The sampling distribution of  $ \hat{p}_1 - \hat{p}_2 $  is approximately normal if the number of successes and failures in both samples are sufficiently large. Specifically:</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">$ n_1 \hat{p}_1 \ge 10 $ ,  $ n_1 (1 - \hat{p}_1) \ge 10 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">$ n_2 \hat{p}_2 \ge 10 $ ,  $ n_2 (1 - \hat{p}_2) \ge 10 $</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: For the Large Counts condition for a hypothesis test, we use the <strong>pooled proportion</strong> ( $  \hat{p}_c  $ ) to calculate the expected counts, assuming  $ H_0 $  is true. This means we use  $ \hat{p}_c $  instead of  $ \hat{p}_1 $  and  $ \hat{p}_2 $  when checking the Normal condition.</p>
+<h2 id="3-calculate-the-test-statistic-z-score">3. Calculate the Test Statistic (z-score)</h2>
+<p>If the conditions are met, we can calculate the test statistic. For two population proportions, we use a z-statistic. Since we assume  $ H_0: p_1 = p_2 $  is true, we pool the sample data to estimate the common population proportion.</p>
+<h3 id="pooled-proportion---hatp_c--">Pooled Proportion ( $ \hat{p}_c $ )</h3>
+<p>The pooled proportion is calculated as:
+$$  \hat{p}_c = \frac{X_1 + X_2}{n_1 + n_2}  $$  where  $ X_1 $  and  $ X_2 $  are the number of successes in sample 1 and sample 2, respectively, and  $ n_1 $  and  $ n_2 $  are the respective sample sizes.</p>
+<h3 id="standard-error">Standard Error</h3>
+<p>The standard error for the difference in sample proportions, using the pooled proportion under  $ H_0 $ , is:
+$$  SE_{\hat{p}_1 - \hat{p}_2} = \sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}  $$</p>
+<h3 id="z-test-statistic">z-Test Statistic</h3>
+<p>The z-test statistic is then calculated as:
+$$  z = \frac{(\hat{p}_1 - \hat{p}_2) - (p_1 - p_2)}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}}  $$  Under  $ H_0 $ , we assume  $ p_1 - p_2 = 0 $ , simplifying the formula to:
+$$  z = \frac{\hat{p}_1 - \hat{p}_2}{\sqrt{\frac{\hat{p}_c(1 - \hat{p}_c)}{n_1} + \frac{\hat{p}_c(1 - \hat{p}_c)}{n_2}}}  $$</p>
+<h2 id="4-calculate-the-p-value">4. Calculate the p-value</h2>
+<p>The p-value is the probability of observing a test statistic as extreme as, or more extreme than, the one calculated, assuming the null hypothesis is true. This probability is found using the standard normal distribution (Z-distribution). <a href="./../interpreting-p-values/">Interpreting p-Values</a> provides more details on its meaning.</p>
+<ul>
+<li><strong>For  $ H_a: p_1 \neq p_2 $  (Two-sided):</strong>  $ P(|Z| \ge |z|) = 2 \cdot P(Z \ge |z|) $</li>
+<li><strong>For  $ H_a: p_1 &lt; p_2 $  (Left-sided):</strong>  $ P(Z \le z) $</li>
+<li><strong>For  $ H_a: p_1 &gt; p_2 $  (Right-sided):</strong>  $ P(Z \ge z) $</li>
+</ul>
+<p>You can use a z-table or statistical software/calculator to find this probability.</p>
+<h2 id="5-make-a-decision-and-conclusion">5. Make a Decision and Conclusion</h2>
+<p>Finally, compare the p-value to the chosen significance level ( $ \alpha $ ) (e.g.,  $ \alpha = 0.05 $ ).</p>
+<ul>
+<li><strong>If p-value  $ \le \alpha $ :</strong> Reject the null hypothesis ( $ H_0 $ ). There is convincing evidence to support the alternative hypothesis ( $ H_a $ ).</li>
+<li><strong>If p-value  $ &gt; \alpha $ :</strong> Fail to reject the null hypothesis ( $ H_0 $ ). There is not convincing evidence to support the alternative hypothesis ( $ H_a $ ).</li>
+</ul>
+<p>State your conclusion in the context of the problem, referring back to the original claim about the two population proportions. Remember to mention the significance level used. <a href="./../concluding-a-test-for-a-population-proportion/">Concluding a Test for a Population Proportion</a> offers general guidance on forming conclusions. Be mindful of <a href="./../potential-errors-when-performing-tests/">Potential Errors When Performing Tests</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,6 +1,11 @@
-# [[APUSH Home]]
-# [[POTUS]]
++++
+ title = 'APUSH people'
+[params]
+	author = 'Carson West'
++++
+# [APUSH Home](./../apush-home/)
+# [POTUS](./../potus/)
 
-- [[Alexander Hamilton]]
-- [[Henry David Thoreau]]
+- [Alexander Hamilton](./../alexander-hamilton/)
+- [Henry David Thoreau](./../henry-david-thoreau/)
 - 

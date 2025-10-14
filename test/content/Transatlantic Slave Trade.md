@@ -1,3 +1,8 @@
++++
+ title = 'Transatlantic Slave Trade'
+[params]
+	author = 'Carson West'
++++
 ```markdown
 # APUSH Notecard: Transatlantic Slave Trade (Period 1: 1491-1607)
 

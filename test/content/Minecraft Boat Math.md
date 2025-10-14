@@ -1,3 +1,8 @@
++++
+ title = 'Minecraft Boat Math'
+[params]
+	author = 'Carson West'
++++
 ```java
 
 public void tick() {  

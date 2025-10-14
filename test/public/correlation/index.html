@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Correlation | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Correlation</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="correlation">Correlation</h1>
+<p>Correlation is a statistical measure that quantifies the <strong>strength</strong> and <strong>direction</strong> of the <strong>linear relationship</strong> between two <a href="./../quantitative-variable/">Quantitative Variable</a>. It&rsquo;s a key component in understanding how two variables move together. Before delving into correlation, it&rsquo;s essential to visualize the relationship between two quantitative variables using a <a href="./../representing-the-relationship-between-two-quantitative-variables%7Cscatterplot/">Representing the Relationship Between Two Quantitative Variables|scatterplot</a>.</p>
+<h2 id="the-correlation-coefficient---r--">The Correlation Coefficient ( $ r $ )</h2>
+<p>The most common measure of correlation is the Pearson product-moment correlation coefficient, denoted by  $ r $ .</p>
+<h3 id="formula-for---r-">Formula for  $ r $</h3>
+<p>The correlation coefficient  $ r $  for a set of  $ n $  paired observations  $ (x_i, y_i) $  is calculated as:</p>
+<p>$$  r = \frac{1}{n-1} \sum_{i=1}^{n} \left(\frac{x_i - \bar{x}}{s_x}\right) \left(\frac{y_i - \bar{y}}{s_y}\right)
+$$<br>
+Where:</p>
+<ul>
+<li>$ n $  is the number of data points.</li>
+<li>$ x_i $  and  $ y_i $  are individual data points.</li>
+<li>$ \bar{x} $  and  $ \bar{y} $  are the means of the  $ x $  and  $ y $  variables, respectively.</li>
+<li>$ s_x $  and  $ s_y $  are the standard deviations of the  $ x $  and  $ y $  variables, respectively.</li>
+<li>The terms  $ \left(\frac{x_i - \bar{x}}{s_x}\right) $  and  $ \left(\frac{y_i - \bar{y}}{s_y}\right) $  are the standardized scores (z-scores) for each observation. This formula essentially averages the product of the z-scores for  $ x $  and  $ y $ .</li>
+</ul>
+<h3 id="properties-of---r-">Properties of  $ r $</h3>
+<p>Understanding the properties of the correlation coefficient is crucial for correct interpretation:</p>
+<ul>
+<li><strong>Range:</strong>  $ r $  always falls between -1 and 1, inclusive ( $ -1 \le r \le 1 $ ).
+<ul>
+<li>$ r = 1 $ : Perfect positive linear relationship.</li>
+<li>$ r = -1 $ : Perfect negative linear relationship.</li>
+<li>$ r = 0 $ : No linear relationship (variables may still have a non-linear relationship).</li>
+</ul>
+</li>
+<li><strong>Direction:</strong> The sign of  $ r $  indicates the direction of the linear relationship.
+<ul>
+<li>Positive  $ r $  (e.g.,  $ r = 0.75 $ ): As one variable increases, the other tends to increase.</li>
+<li>Negative  $ r $  (e.g.,  $ r = -0.60 $ ): As one variable increases, the other tends to decrease.</li>
+</ul>
+</li>
+<li><strong>Strength:</strong> The absolute value of  $ r $  indicates the strength of the linear relationship. Values closer to 1 or -1 indicate stronger linear relationships. Values closer to 0 indicate weaker linear relationships.
+<ul>
+<li>Generally, absolute values above 0.7 are considered strong, between 0.3 and 0.7 moderate, and below 0.3 weak. These are guidelines, not strict rules.</li>
+</ul>
+</li>
+<li><strong>Units:</strong>  $ r $  is a unitless measure. It&rsquo;s not affected by changes in the units of measurement for  $ x $  or  $ y $ . For example, converting height from inches to centimeters won&rsquo;t change  $ r $ .</li>
+<li><strong>Symmetry:</strong> The correlation between  $ x $  and  $ y $  is the same as the correlation between  $ y $  and  $ x $ .  $ r_{xy} = r_{yx} $ .</li>
+<li><strong>Sensitivity to Outliers:</strong> The correlation coefficient is <strong>not resistant</strong> to outliers. Outliers can significantly affect the value of  $ r $ , potentially making a weak correlation appear strong, or vice versa. Always inspect a <a href="./../representing-the-relationship-between-two-quantitative-variables%7Cscatterplot/">Representing the Relationship Between Two Quantitative Variables|scatterplot</a> for outliers.</li>
+<li><strong>Linearity:</strong>  $ r $  only measures the strength of a linear relationship. A strong non-linear relationship (e.g., a curve) might have an  $ r $  value close to 0, which would incorrectly suggest no relationship if not observed on a scatterplot.</li>
+</ul>
+<h3 id="interpreting---r---values">Interpreting  $ r $  Values</h3>
+<p>Here&rsquo;s a general guide for interpreting the strength of the linear relationship based on  $ r $ :</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Value of  $ r $  (absolute)</th>
+          <th style="text-align: left">Strength of Linear Relationship</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ 0.90 \le</td>
+          <td style="text-align: left">r</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ 0.70 \le</td>
+          <td style="text-align: left">r</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ 0.50 \le</td>
+          <td style="text-align: left">r</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ 0.30 \le</td>
+          <td style="text-align: left">r</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ 0.00 \le</td>
+          <td style="text-align: left">r</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="correlation-does-not-imply-causationcorrelation-does-not-imply-causation"><a href="./../correlation-does-not-imply-causation/">Correlation Does Not Imply Causation</a></h2>
+<p>One of the most critical concepts in statistics, often misunderstood, is that <strong>correlation does not imply causation</strong>. Just because two variables are strongly correlated does not mean that one causes the other. There might be:</p>
+<ul>
+<li><strong>Confounding variables</strong>: A third, unobserved variable affecting both.</li>
+<li><strong>Common response</strong>: Both variables respond to a third, lurking variable.</li>
+<li><strong>Coincidence</strong>: The relationship is purely by chance.</li>
+</ul>
+<p>For example, the number of ice cream sales and the number of drownings might be strongly positively correlated. This doesn&rsquo;t mean eating ice cream causes drowning, nor that drowning causes ice cream sales. Both are influenced by a lurking variable: hot weather.</p>
+<p>Always be cautious when drawing conclusions about cause-and-effect from correlational studies. Experimental studies are generally needed to establish causation, as discussed in <a href="./../introduction-to-experimental-design/">Introduction to Experimental Design</a>.</p>
+<h2 id="when-to-use-correlation">When to Use Correlation</h2>
+<p>Correlation is appropriate for describing the relationship between two <a href="./../quantitative-variable/">Quantitative Variable</a>. It&rsquo;s most meaningful when the scatterplot shows a roughly linear pattern. If the pattern is clearly curved, correlation is not an appropriate measure of the relationship, and other methods like <a href="./../analyzing-departures-from-linearity/">Analyzing Departures from Linearity</a> may be needed.</p>
+
+</main>
+
+
+  </body>
+</html>
+

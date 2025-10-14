@@ -1,6 +1,11 @@
-write an AP chemstry rundown on [[Dilution Calculations]], include examples, and use the MathJax notation to depict chemical equations, do NOT use code blocks
++++
+ title = 'Dilution Calculations'
+[params]
+	author = 'Carson West'
++++
+write an AP chemstry rundown on [Dilution Calculations](./../dilution-calculations/), include examples, and use the MathJax notation to depict chemical equations, do NOT use code blocks
 
-# [[Dilution Calculations]] 
+# [Dilution Calculations](./../dilution-calculations/) 
 Dilution is the process of decreasing the concentration of a solute in a solution, usually simply by mixing with more solvent like adding more water to a solution.  It doesn't change the amount of *solute* present, just the *concentration*.
 
 **Key Concept:** The number of moles of solute remains constant during dilution.
@@ -9,18 +14,18 @@ Dilution is the process of decreasing the concentration of a solute in a solutio
 
 Molarity (M) is defined as moles of solute per liter of solution:
 
-$M = \frac{moles \, of \, solute}{liters \, of \, solution}$
+ $ M = \frac{moles \, of \, solute}{liters \, of \, solution} $ 
 
 **Dilution Equation:**
 
 Because the moles of solute remain constant, we can derive the following equation for dilution calculations:
 
-$M_1V_1 = M_2V_2$
+ $ M_1V_1 = M_2V_2 $ 
 
 Where:
 
-* $M_1$ is the initial [[molarity]] * $V_1$ is the initial volume
-* $M_2$ is the final [[molarity]] * $V_2$ is the final volume
+*  $ M_1 $  is the initial [molarity](./../molarity/) *  $ V_1 $  is the initial volume
+*  $ M_2 $  is the final [molarity](./../molarity/) *  $ V_2 $  is the final volume
 
 
 **Units:**
@@ -33,18 +38,18 @@ What volume of a 12.0 M HCl solution is required to prepare 250.0 mL of a 0.500 
 
 1. **Identify knowns and unknowns:**
 
-   $M_1$ = 12.0 M
-   $V_1$ = ?
-   $M_2$ = 0.500 M
-   $V_2$ = 250.0 mL
+    $ M_1 $  = 12.0 M
+    $ V_1 $  = ?
+    $ M_2 $  = 0.500 M
+    $ V_2 $  = 250.0 mL
 
 2. **Apply the dilution equation:**
 
-   $(12.0 \, M)(V_1) = (0.500 \, M)(250.0 \, mL)$
+    $ (12.0 \, M)(V_1) = (0.500 \, M)(250.0 \, mL) $ 
 
-3. **Solve for $V_1$:**
+3. **Solve for  $ V_1 $ :**
 
-   $V_1 = \frac{(0.500 \, M)(250.0 \, mL)}{12.0 \, M} = 10.4 \, mL$
+    $ V_1 = \frac{(0.500 \, M)(250.0 \, mL)}{12.0 \, M} = 10.4 \, mL $ 
 
 Therefore, 10.4 mL of the 12.0 M HCl solution is needed.
 

@@ -1,5 +1,10 @@
-# [[Regex Flags]]
-# [[Regex Compilation]] 
++++
+ title = 'Regex Compilation'
+[params]
+	author = 'Carson West'
++++
+# [Regex Flags](./../regex-flags/)
+# [Regex Compilation](./../regex-compilation/) 
 Regex compilation is the process of transforming a regular expression string into a compiled pattern object. This object can then be used for efficient matching against multiple strings.  This is generally faster than repeatedly compiling the same regex string.
 
 
@@ -41,4 +46,4 @@ print(f"All matches (compiled): {matches}")
 * Consider compilation even for single use if the regex is complex and performance is critical.
 
 
-**[[Regex Methods]]**  ([[Regex Metacharacters]])  ([[Python Modules]])
+**[Regex Methods](./../regex-methods/)**  ([Regex Metacharacters](./../regex-metacharacters/))  ([Python Modules](./../python-modules/))

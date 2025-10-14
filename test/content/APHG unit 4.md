@@ -1,4 +1,9 @@
-# [[APHG Home]]
++++
+ title = 'APHG unit 4'
+[params]
+	author = 'Carson West'
++++
+# [APHG Home](./../aphg-home/)
 
-# [[Autonomous Regions]]
+# [Autonomous Regions](./../autonomous-regions/)
 # 

@@ -1,3 +1,8 @@
++++
+ title = 'Smartphone debate'
+[params]
+	author = 'Carson West'
++++
 
 **(Greeting)**
 

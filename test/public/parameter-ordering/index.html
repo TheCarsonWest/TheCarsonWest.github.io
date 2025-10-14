@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parameter Ordering | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Parameter Ordering</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="function-parametersfunction-parameters"><a href="./../function-parameters/">Function Parameters</a></h1>
+<h1 id="parameter-orderingparameter-ordering-in-python"><a href="./../parameter-ordering/">Parameter Ordering</a> in Python</h1>
+<p>Python&rsquo;s function parameter ordering follows a specific pattern which can sometimes be confusing, especially when dealing with many parameters. Understanding this order is crucial for writing readable and maintainable code.</p>
+<p>The general order is:</p>
+<ol>
+<li>
+<p><strong>Positional Parameters:</strong> These are the parameters that are filled based on their position in the function definition.  They must be provided in the correct order during function invocation.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, c):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)  <span style="color:#75715e"># Correct order</span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">1</span>)  <span style="color:#75715e"># Different order, but still positional</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Keyword Parameters (Named Arguments):</strong>  These parameters are specified using the <code>parameter_name=value</code> syntax.  The order of keyword parameters doesn&rsquo;t matter as long as the parameter names are correct.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, c):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_func(c<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, a<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span>, b<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>) <span style="color:#75715e"># Order doesn&#39;t matter here</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong><a href="./../default-parameters/">Default Parameters</a>:</strong> These parameters have a default value assigned in the function definition. If a value is not provided during invocation, the default value is used.  Default parameters must come after non-default parameters.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, c<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>): <span style="color:#75715e"># c has a default value</span>
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>) <span style="color:#75715e"># c defaults to 3</span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">4</span>) <span style="color:#75715e"># c is overridden to 4</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong><code>*args</code> (Variable Positional Arguments):</strong>  This allows a function to accept a variable number of positional arguments.  These arguments are collected into a tuple.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, <span style="color:#f92672">*</span>args):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, args: </span><span style="color:#e6db74">{</span>args<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, <span style="color:#ae81ff">5</span>) <span style="color:#75715e"># args will be (3, 4, 5)</span>
+</span></span></code></pre></div><p><a href="./../variable-arguments/">Variable Arguments</a></p>
+</li>
+<li>
+<p>**<code>**kwargs</code> (Variable Keyword Arguments): This allows a function to accept a variable number of keyword arguments. These arguments are collected into a dictionary.</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_func</span>(a, b, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, kwargs: </span><span style="color:#e6db74">{</span>kwargs<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_func(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, c<span style="color:#f92672">=</span><span style="color:#ae81ff">3</span>, d<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>) <span style="color:#75715e"># kwargs will be {&#39;c&#39;: 3, &#39;d&#39;: 4}</span>
+</span></span></code></pre></div><p><a href="./../variable-keyword-arguments/">Variable Keyword Arguments</a></p>
+<p><strong>Important Considerations:</strong></p>
+<ul>
+<li>
+<p><strong>Mixing Positional and Keyword Arguments:</strong> You can mix positional and keyword arguments, but positional arguments must come before keyword arguments.</p>
+</li>
+<li>
+<p><strong>Parameter Order Matters:</strong>  The order of parameters in the function definition dictates how arguments are assigned. Incorrect order leads to <code>TypeError</code> exceptions.</p>
+</li>
+<li>
+<p><strong>Readability:</strong> Using keyword arguments enhances code readability, especially with functions having many parameters.</p>
+</li>
+</ul>
+<p>Related Notes:</p>
+<ul>
+<li><a href="./../variable-arguments/">Variable Arguments</a></li>
+<li><a href="./../variable-keyword-arguments/">Variable Keyword Arguments</a></li>
+<li><a href="./../default-parameter-gotchas/">Default Parameter Gotchas</a> (Potential issues with mutable default parameters)</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

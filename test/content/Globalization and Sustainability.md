@@ -1,4 +1,9 @@
- [[Cengage home]]
++++
+ title = 'Globalization and Sustainability'
+[params]
+	author = 'Carson West'
++++
+ [Cengage home](./../cengage-home/)
 ## Globalization: the process by which the nations of the world become more interconnected
 
 ## Major factors leading to globalization
@@ -9,7 +14,7 @@
 	- Buy the cheapest cotton in Brazil
 	- Use an American factory to turn it into cloth
 	- send it off for Xiang Zhang(age 7) to make into a shirt at the Shein factory in China
-	- Sell it in [[France]]
+	- Sell it in [France](./../france/)
 - Paying fees for crossing borders and transporting it is cheaper than doing the whole thing in one country
 ### The Internet
 - I can talk to محمد بن ابدلازيز اشتري شورما مع بابسي in Saudi Arabia right now on social media

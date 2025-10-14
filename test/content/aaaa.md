@@ -1,3 +1,8 @@
++++
+ title = 'aaaa'
+[params]
+	author = 'Carson West'
++++
 <%*
 function callGemini(prompt, apiKey, callback) {
   const apiUrl = 'https://api.generativeai.google.com/v1beta2/models/gemini-2.0-flash:generateText'; // Or the appropriate Gemini API endpoint
@@ -6,7 +11,7 @@ function callGemini(prompt, apiKey, callback) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer ${apiKey}`, // Important: Use your actual API key!
+      'Authorization': `Bearer  $ {apiKey}`, // Important: Use your actual API key!
     },
     body: JSON.stringify({
       prompt: {
@@ -19,9 +24,9 @@ function callGemini(prompt, apiKey, callback) {
   .then(response => {
       if (!response.ok) {
         return response.json().then(errorData => { // Parse error for better message
-          throw new Error(`Gemini API error: ${response.status} - ${errorData.error.message || response.statusText}`);
+          throw new Error(`Gemini API error:  $ {response.status} -  $ {errorData.error.message || response.statusText}`);
         }).catch(() => { // Fallback if error parsing fails
-          throw new Error(`Gemini API error: ${response.status} - ${response.statusText}`);
+          throw new Error(`Gemini API error:  $ {response.status} -  $ {response.statusText}`);
         });
       }
       return response.json();

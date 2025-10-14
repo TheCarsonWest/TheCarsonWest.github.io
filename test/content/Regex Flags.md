@@ -1,5 +1,10 @@
-# [[Regular Expressions]]
-# [[Regex Flags]] 
++++
+ title = 'Regex Flags'
+[params]
+	author = 'Carson West'
++++
+# [Regular Expressions](./../regular-expressions/)
+# [Regex Flags](./../regex-flags/) 
 Python's `re` module offers several flags that modify the behavior of regular expression operations.  These flags are used as optional arguments to functions like `re.compile()`, `re.search()`, `re.findall()`, etc. They are combined using the bitwise OR operator (`|`).
 
 
@@ -15,7 +20,7 @@ match = re.search("world", text, re.IGNORECASE)
 print(match) # <re.Match object; span=(6, 11), match='World'>
 ```
 
-* `re.MULTILINE` (or `re.M`):  Makes `^` and `$` match the beginning and end of each line (instead of the entire string).
+* `re.MULTILINE` (or `re.M`):  Makes `^` and ` $ ` match the beginning and end of each line (instead of the entire string).
 
 ```python
 import re
@@ -52,7 +57,7 @@ print(match) # ['Hello']]
 ```
 
 
-* `re.VERBOSE` (or `re.X`): Allows you to write more readable [[Regular Expressions]] by ignoring whitespace and adding comments.
+* `re.VERBOSE` (or `re.X`): Allows you to write more readable [Regular Expressions](./../regular-expressions/) by ignoring whitespace and adding comments.
 
 ```python
 import re
@@ -69,5 +74,5 @@ print(match) #<re.Match object; span=(0, 8), match='123 abc'>
 
 ```
 
-[[Regex Special Characters]]  
-[[Regex Compilation]]
+[Regex Special Characters](./../regex-special-characters/)  
+[Regex Compilation](./../regex-compilation/)

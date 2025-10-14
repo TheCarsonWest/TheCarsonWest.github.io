@@ -1,5 +1,10 @@
-# [[List Comprehension]]
-# Python: [[Conditional Statements]] 
++++
+ title = 'Conditional Statements'
+[params]
+	author = 'Carson West'
++++
+# [List Comprehension](./../list-comprehension/)
+# Python: [Conditional Statements](./../conditional-statements/) 
 Conditional statements control the flow of execution in a program based on certain conditions.  Python uses `if`, `elif` (else if), and `else` keywords to implement these.
 
 **Basic Syntax:**
@@ -41,7 +46,7 @@ else:
   print("x is less than 5")
 ```
 
-**Nested [[Conditional Statements]]:**
+**Nested [Conditional Statements](./../conditional-statements/):**
 
 You can nest conditional statements within each other:
 
@@ -68,4 +73,4 @@ result = "x is greater than 5" if x > 5 else "x is not greater than 5"
 print(result)
 ```
 
-[[Boolean Logic]]  ([[Truth Tables]]) [[Comparison Operators]]
+[Boolean Logic](./../boolean-logic/)  ([Truth Tables](./../truth-tables/)) [Comparison Operators](./../comparison-operators/)

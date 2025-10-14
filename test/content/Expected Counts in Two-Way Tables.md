@@ -1,7 +1,12 @@
-# [[AP Stats Home]]
++++
+ title = 'Expected Counts in Two-Way Tables'
+[params]
+	author = 'Carson West'
++++
+# [AP Stats Home](./../ap-stats-home/)
 # Expected Counts in Two-Way Tables
 
-When analyzing [[Representing Two Categorical Variables]] using a two-way table, we often want to determine if there's a significant association between the two variables. This analysis typically involves comparing the observed counts in each cell of the table to what we would *expect* to see if there were no association (i.e., if the variables were independent). These "expected counts" are a crucial component for [[Setting Up a Chi-Square Test for Homogeneity or Independence]].
+When analyzing [Representing Two Categorical Variables](./../representing-two-categorical-variables/) using a two-way table, we often want to determine if there's a significant association between the two variables. This analysis typically involves comparing the observed counts in each cell of the table to what we would *expect* to see if there were no association (i.e., if the variables were independent). These "expected counts" are a crucial component for [Setting Up a Chi-Square Test for Homogeneity or Independence](./../setting-up-a-chi-square-test-for-homogeneity-or-independence/).
 
 ## What are Expected Counts?
 
@@ -11,10 +16,8 @@ An **expected count** for a specific cell in a two-way table is the number of ob
 
 The expected count for any cell in a two-way table is calculated using the following formula:
 
-$$
-\text{Expected Count} = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}
-$$
-
+ $$  \text{Expected Count} = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}
+ $$  
 Where:
 *   **Row Total**: The sum of all observed counts in the row containing the cell of interest.
 *   **Column Total**: The sum of all observed counts in the column containing the cell of interest.
@@ -39,50 +42,38 @@ Now, let's calculate the expected counts for each cell:
     Row Total (Visual) = 40
     Column Total (Pass) = 75
     Grand Total = 100
-    $$
-    E_{\text{Visual, Pass}} = \frac{40 \times 75}{100} = \frac{3000}{100} = 30
-    $$
-
+     $$      E_{\text{Visual, Pass}} = \frac{40 \times 75}{100} = \frac{3000}{100} = 30
+     $$  
 2.  **Expected Count (Visual, Fail)**:
     Row Total (Visual) = 40
     Column Total (Fail) = 25
     Grand Total = 100
-    $$
-    E_{\text{Visual, Fail}} = \frac{40 \times 25}{100} = \frac{1000}{100} = 10
-    $$
-
+     $$      E_{\text{Visual, Fail}} = \frac{40 \times 25}{100} = \frac{1000}{100} = 10
+     $$  
 3.  **Expected Count (Auditory, Pass)**:
     Row Total (Auditory) = 30
     Column Total (Pass) = 75
     Grand Total = 100
-    $$
-    E_{\text{Auditory, Pass}} = \frac{30 \times 75}{100} = \frac{2250}{100} = 22.5
-    $$
-
+     $$      E_{\text{Auditory, Pass}} = \frac{30 \times 75}{100} = \frac{2250}{100} = 22.5
+     $$  
 4.  **Expected Count (Auditory, Fail)**:
     Row Total (Auditory) = 30
     Column Total (Fail) = 25
     Grand Total = 100
-    $$
-    E_{\text{Auditory, Fail}} = \frac{30 \times 25}{100} = \frac{750}{100} = 7.5
-    $$
-
+     $$      E_{\text{Auditory, Fail}} = \frac{30 \times 25}{100} = \frac{750}{100} = 7.5
+     $$  
 5.  **Expected Count (Kinesthetic, Pass)**:
     Row Total (Kinesthetic) = 30
     Column Total (Pass) = 75
     Grand Total = 100
-    $$
-    E_{\text{Kinesthetic, Pass}} = \frac{30 \times 75}{100} = \frac{2250}{100} = 22.5
-    $$
-
+     $$      E_{\text{Kinesthetic, Pass}} = \frac{30 \times 75}{100} = \frac{2250}{100} = 22.5
+     $$  
 6.  **Expected Count (Kinesthetic, Fail)**:
     Row Total (Kinesthetic) = 30
     Column Total (Fail) = 25
     Grand Total = 100
-    $$
-    E_{\text{Kinesthetic, Fail}} = \frac{30 \times 25}{100} = \frac{750}{100} = 7.5
-    $$
-
+     $$      E_{\text{Kinesthetic, Fail}} = \frac{30 \times 25}{100} = \frac{750}{100} = 7.5
+     $$  
 ## Expected Counts Table
 
 Here is the table of expected counts for our example:
@@ -96,6 +87,6 @@ Here is the table of expected counts for our example:
 
 Notice that expected counts do not have to be whole numbers, as they represent theoretical averages if independence holds.
 
-## [[Conditions for Chi-Square Tests]]
+## [Conditions for Chi-Square Tests](./../conditions-for-chi-square-tests/)
 
 A crucial condition for performing a chi-square test for homogeneity or independence is that **all expected counts must be at least 5**. If any expected count is less than 5, the assumptions for the chi-square distribution are violated, and the results of the test may not be reliable. In such cases, categories might need to be combined, or alternative statistical methods pursued.

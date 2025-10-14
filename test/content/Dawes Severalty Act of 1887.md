@@ -1,10 +1,15 @@
++++
+ title = 'Dawes Severalty Act of 1887'
+[params]
+	author = 'Carson West'
++++
 ## ID: Dawes Severalty Act
 
 ## When: February 8, 1887
 
 ## Who:
 * **Author:** Senator Henry L. Dawes
-* **Affected:** Native American tribes in the [[United States]]
+* **Affected:** Native American tribes in the [United States](./../united-states/)
 
 ## What:
 Legislation that aimed to assimilate Native Americans into American society by dissolving communal land ownership and allotting parcels of land to individual Native Americans.  The act aimed to break up tribal organizations and encourage farming.  Unsuccessful, it was widely viewed as a tool of dispossession and led to significant loss of tribal lands.
@@ -16,4 +21,4 @@ Legislation that aimed to assimilate Native Americans into American society by d
 * **Increased Poverty and Dependence:** Many Native Americans lacked the resources and skills to farm successfully, resulting in widespread poverty and dependence on the federal government.
 * **Legacy of Resentment:** The act remains a source of resentment and a reminder of the injustices suffered by Native Americans.  It represents a key part of the broader process of American westward expansion and the dispossession of indigenous peoples.
 
-# [[IDS Unit 5]]
+# [IDS Unit 5](./../ids-unit-5/)

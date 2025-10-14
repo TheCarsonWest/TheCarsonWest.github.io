@@ -1,4 +1,9 @@
-# [[Chemical Bonds]]
++++
+ title = 'Electrical Conductivity of Molecules'
+[params]
+	author = 'Carson West'
++++
+# [Chemical Bonds](./../chemical-bonds/)
 !1(https://mrsmittypapchem.weebly.com/uploads/3/8/0/2/38022025/8855679_orig.jpg)
 
 | Substance Type                     | Bond Type                   | Solid                                                              | Molten/Liquid                                                              | Aqueous                                                                                   |

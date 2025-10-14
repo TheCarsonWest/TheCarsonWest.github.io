@@ -1,4 +1,9 @@
-# [[Equilibrium]]
++++
+ title = 'Reaction Quotient'
+[params]
+	author = 'Carson West'
++++
+# [Equilibrium](./../equilibrium/)
 
 # Reaction Quotient (Q) - AP Chemistry Rundown
 
@@ -9,20 +14,17 @@ The reaction quotient, Q, is calculated using the same formula as the equilibriu
 
 *   **For a general reversible reaction:**
 
-    $$aA + bB \rightleftharpoons cC + dD$$
-
+     $$ aA + bB \rightleftharpoons cC + dD $$  
 *   **The reaction quotient, Q, is:**
 
-    $$Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
-
+     $$ Q = \frac{[C]^c[D]^d}{[A]^a[B]^b} $$  
     Where:
     *   [A], [B], [C], and [D] are the concentrations of reactants and products at a specific time.
     *   a, b, c, and d are the stoichiometric coefficients from the balanced chemical equation.
 
     *Note: If dealing with gases, partial pressures are used instead of concentrations.*
-    $$Q_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}$$
-
-[[Concentration vs Pressure]]
+     $$ Q_p = \frac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b} $$  
+[Concentration vs Pressure](./../concentration-vs-pressure/)
 ## Comparing Q and K
 
 The comparison of Q and K is crucial for predicting the direction of a reaction shift.
@@ -32,7 +34,7 @@ The comparison of Q and K is crucial for predicting the direction of a reaction 
 2.  **Q > K:** The ratio of products to reactants is *greater* than at equilibrium.  The reaction will shift to the *left*, favoring the *formation of more reactants* to reach equilibrium.
 
 3.  **Q = K:** The system is *at equilibrium*. There is no net change in the concentrations of reactants and products.
-[[Le Chatelier's Principle]]
+[Le Chatelier's Principle](./../le-chatelier's-principle/)
 ## Applications
 
 *   **Predicting Reaction Direction:**  The primary use of Q is to determine which direction a reversible reaction will proceed to reach equilibrium.
@@ -45,20 +47,17 @@ The comparison of Q and K is crucial for predicting the direction of a reaction 
 
 Consider the following reaction:
 
-$$N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$$
-
-At a certain point in time, the partial pressures are:  $$P_{N_2} = 2 \ atm$$, $$P_{H_2} = 1 \ atm$$, and $$P_{NH_3} = 3 \ atm$$.  The equilibrium constant, $$K_p$$, for this reaction at the given temperature is 8.
+ $$ N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g) $$  
+At a certain point in time, the partial pressures are:   $$ P_{N_2} = 2 \ atm $$ ,  $$ P_{H_2} = 1 \ atm $$ , and  $$ P_{NH_3} = 3 \ atm $$ .  The equilibrium constant,  $$ K_p $$ , for this reaction at the given temperature is 8.
 
 1.  **Calculate Q:**
 
-    $$Q_p = \frac{(P_{NH_3})^2}{(P_{N_2})(P_{H_2})^3} = \frac{(3)^2}{(2)(1)^3} = \frac{9}{2} = 4.5$$
-
+     $$ Q_p = \frac{(P_{NH_3})^2}{(P_{N_2})(P_{H_2})^3} = \frac{(3)^2}{(2)(1)^3} = \frac{9}{2} = 4.5 $$  
 2.  **Compare Q and K:**
 
-    $$Q_p = 4.5$$ and $$K_p = 8$$
-
-    Since $$Q_p < K_p$$, the reaction will shift to the *right* to reach equilibrium, favoring the *formation of more ammonia* ($$NH_3$$).
-[[ICE Tables]]
+     $$ Q_p = 4.5 $$  and  $$ K_p = 8 $$  
+    Since  $$ Q_p < K_p $$ , the reaction will shift to the *right* to reach equilibrium, favoring the *formation of more ammonia* ( $$ NH_3 $$ ).
+[ICE Tables](./../ice-tables/)
 ## Common Mistakes to Avoid
 
 *   **Using Equilibrium Concentrations to Calculate Q:** Remember that Q is calculated using *non-equilibrium* concentrations or partial pressures.  Using equilibrium values will simply give you K.

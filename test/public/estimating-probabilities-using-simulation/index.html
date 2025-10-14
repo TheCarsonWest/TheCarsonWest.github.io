@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estimating Probabilities Using Simulation | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Estimating Probabilities Using Simulation</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="estimating-probabilities-using-simulation">Estimating Probabilities Using Simulation</h1>
+<p>Simulation is a powerful tool in statistics used to estimate probabilities for complex events or scenarios that are difficult to calculate analytically. It involves modeling a real-world process using random numbers and then repeating the process many times to observe the outcomes and estimate the likelihood of a particular event. This technique is particularly useful when the underlying probability distribution is unknown or the event&rsquo;s probability depends on a series of uncertain outcomes.</p>
+<h2 id="why-use-simulation">Why Use Simulation?</h2>
+<p>We often turn to simulation when:</p>
+<ul>
+<li>Theoretical calculations are too complex or impossible.</li>
+<li>It&rsquo;s impractical or costly to perform actual experiments.</li>
+<li>We want to understand the long-run behavior of a random process.</li>
+</ul>
+<p>Simulation provides an approximation of the true probability, which improves with a greater number of trials.</p>
+<h2 id="the-simulation-process">The Simulation Process</h2>
+<p>Estimating probabilities using simulation generally follows a structured, multi-step approach:</p>
+<ol>
+<li>
+<p><strong>Identify the Component of Interest</strong>:</p>
+<ul>
+<li>Clearly define the basic random event that is repeated in the situation.</li>
+<li>Example: Flipping a coin, rolling a die, selecting a person from a group.</li>
+</ul>
+</li>
+<li>
+<p><strong>Model the Component with a Random Device</strong>:</p>
+<ul>
+<li>Choose a random device (e.g., coin, die, random number generator) that accurately reflects the probability of the component&rsquo;s outcomes.</li>
+<li>Assign numbers or outcomes from the random device to represent the actual outcomes of the component.</li>
+<li>The assignment must be proportional to the probability of each outcome.</li>
+<li>Example: If the probability of success is  $ P(\text{Success}) = 0.60 $ , use random digits 00-59 for success and 60-99 for failure (using two-digit numbers).</li>
+</ul>
+</li>
+<li>
+<p><strong>Define a Trial</strong>:</p>
+<ul>
+<li>A trial is one complete repetition of the experiment or scenario being simulated.</li>
+<li>It consists of a sequence of random numbers that mimics the event until the outcome of interest is achieved or a specific condition is met.</li>
+<li>Example: Rolling a die until a 6 appears, or simulating 5 coin flips.</li>
+</ul>
+</li>
+<li>
+<p><strong>State the Response Variable</strong>:</p>
+<ul>
+<li>Clearly identify what you will measure or count during each trial. This is the outcome you are interested in.</li>
+<li>Example: The number of rolls needed to get a 6, or the number of heads in 5 flips.</li>
+</ul>
+</li>
+<li>
+<p><strong>Run Multiple Trials</strong>:</p>
+<ul>
+<li>Repeat the simulation process a large number of times (e.g., 50, 100, 1000 trials).</li>
+<li>More trials generally lead to a more accurate estimate due to the <a href="./../law-of-large-numbers/">Law of Large Numbers</a>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Calculate the Estimated Probability</strong>:</p>
+<ul>
+<li>Count the number of trials where the event of interest occurred.</li>
+<li>The estimated probability is given by:
+$$  P(\text{Event}) \approx \frac{\text{Number of favorable outcomes}}{\text{Total number of trials}}  $$</li>
+</ul>
+</li>
+</ol>
+<h2 id="example-simulating-a-basketball-players-free-throws">Example: Simulating a Basketball Player&rsquo;s Free Throws</h2>
+<p>A basketball player has an 80% free throw percentage. We want to estimate the probability that the player makes at least 3 out of 5 free throws in a game.</p>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>
+<p><strong>Component</strong>: A single free throw.</p>
+</li>
+<li>
+<p><strong>Random Device</strong>: Use a random number generator (RNG) or a table of random digits.</p>
+<ul>
+<li>Let digits 0-7 represent a made free throw (80% chance).</li>
+<li>Let digits 8-9 represent a missed free throw (20% chance).</li>
+</ul>
+</li>
+<li>
+<p><strong>Trial</strong>: Generate 5 random digits, representing 5 free throws.</p>
+</li>
+<li>
+<p><strong>Response Variable</strong>: Count the number of made free throws in each trial. We are interested if this count is 3 or more.</p>
+</li>
+<li>
+<p><strong>Run Trials</strong>:
+Let&rsquo;s run 5 trials as an example (in a real simulation, we&rsquo;d do many more):</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Trial</th>
+          <th style="text-align: left">Random Digits</th>
+          <th style="text-align: left">Outcomes (M=Make, F=Miss)</th>
+          <th style="text-align: left">Number of Makes</th>
+          <th style="text-align: left">At Least 3 Makes?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">4, 1, 9, 0, 7</td>
+          <td style="text-align: left">M, M, F, M, M</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">2</td>
+          <td style="text-align: left">8, 3, 5, 2, 6</td>
+          <td style="text-align: left">F, M, M, M, M</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3</td>
+          <td style="text-align: left">0, 2, 0, 1, 9</td>
+          <td style="text-align: left">M, M, M, M, F</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">5, 9, 4, 3, 0</td>
+          <td style="text-align: left">M, F, M, M, M</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">5</td>
+          <td style="text-align: left">7, 6, 8, 1, 2</td>
+          <td style="text-align: left">M, M, F, M, M</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>
+<p><strong>Estimate Probability</strong>: In this small example, 5 out of 5 trials resulted in at least 3 makes.
+$$  P(\text{at least 3 makes}) \approx \frac{5}{5} = 1.00  $$      Note: With only 5 trials, this is a very rough estimate. A real simulation would involve hundreds or thousands of trials for a more reliable estimate.</p>
+</li>
+</ol>
+<h2 id="connecting-to-other-concepts">Connecting to Other Concepts</h2>
+<ul>
+<li><strong>Probability Distributions</strong>: Simulation can help us understand and visualize <a href="./../introduction-to-random-variables-and-probability-distributions/">Introduction to Random Variables and Probability Distributions</a> for complex scenarios where direct calculation is hard.</li>
+<li><strong>The Binomial Distribution</strong>: The free throw example above could be modeled using the <a href="./../introduction-to-the-binomial-distribution/">Introduction to the Binomial Distribution</a> if we wanted to calculate the exact probability analytically, but simulation provides an alternative, especially if the conditions for a binomial distribution weren&rsquo;t perfectly met (e.g., probability of success changing).</li>
+<li><strong><a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a></strong>: The results from many simulation trials can themselves form a sampling distribution, which is fundamental to inferential statistics.</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conditional Probability | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conditional Probability</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="conditional-probability">Conditional Probability</h1>
+<p>Conditional probability is a fundamental concept in <a href="./../introduction-to-probability/">Introduction to Probability</a> that helps us understand how the likelihood of an event changes when we know that another event has already occurred. It&rsquo;s about narrowing down our sample space based on new information.</p>
+<h2 id="definition">Definition</h2>
+<p><a href="./../conditional-probability/">Conditional Probability</a> measures the probability of an event (let&rsquo;s call it A) occurring, given that another event (let&rsquo;s call it B) has already occurred. The information that event B has occurred changes the sample space of possible outcomes, potentially altering the probability of event A.</p>
+<h2 id="notation-and-formula">Notation and Formula</h2>
+<p>The conditional probability of event A given event B is denoted as  $ P(A|B) $ .
+The formula for conditional probability is:</p>
+<p>$$  P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$<br>
+where:</p>
+<ul>
+<li>$ P(A|B) $  is the probability of event A occurring given that event B has occurred.</li>
+<li>$ P(A \cap B) $  is the probability that both event A and event B occur (their intersection).</li>
+<li>$ P(B) $  is the probability that event B occurs.</li>
+</ul>
+<p><strong>Important Note</strong>: This formula is only valid when  $ P(B) &gt; 0 $ . If  $ P(B) = 0 $ , then event B is impossible, and we cannot condition on an impossible event.</p>
+<p>Similarly, if we want to find the probability of B given A, the formula is:</p>
+<p>$$  P(B|A) = \frac{P(A \cap B)}{P(A)}
+$$</p>
+<h2 id="understanding-the-formula">Understanding the Formula</h2>
+<p>Think of it as revising your sample space. When you know event B has happened, your new &ldquo;universe&rdquo; of possible outcomes is just the outcomes where B occurs. Out of those outcomes, you&rsquo;re interested in the ones where A also occurs. Thus,  $ P(A \cap B) $  represents the part of B where A also happens, and you normalize it by dividing by  $ P(B) $  to get a probability within this new, reduced sample space.</p>
+<h2 id="multiplication-rule-for-probability">Multiplication Rule for Probability</h2>
+<p>The conditional probability formula can be rearranged to find the probability of the intersection of two events:</p>
+<p>$$  P(A \cap B) = P(A|B) \cdot P(B)
+$$<br>
+or</p>
+<p>$$  P(A \cap B) = P(B|A) \cdot P(A)
+$$<br>
+This is known as the <strong>General Multiplication Rule</strong>. It&rsquo;s very useful when you know a conditional probability and the probability of the conditioning event.</p>
+<h2 id="example-scenario">Example Scenario</h2>
+<p>Let&rsquo;s consider a class of 100 students.</p>
+<ul>
+<li>40 students study Math (M)</li>
+<li>30 students study Physics (P)</li>
+<li>10 students study both Math and Physics ( $ M \cap P $ )</li>
+</ul>
+<p>We can create a two-way table for this:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">Physics (P)</th>
+          <th style="text-align: left">No Physics ( $ P^c $ )</th>
+          <th style="text-align: left">Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Math (M)</td>
+          <td style="text-align: left">10</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">40</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">No Math ( $ M^c $ )</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">40</td>
+          <td style="text-align: left">60</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">70</td>
+          <td style="text-align: left">100</td>
+      </tr>
+  </tbody>
+</table>
+<p>From this, we can calculate probabilities:</p>
+<ul>
+<li>$ P(M) = 40/100 = 0.4 $</li>
+<li>$ P(P) = 30/100 = 0.3 $</li>
+<li>$ P(M \cap P) = 10/100 = 0.1 $</li>
+</ul>
+<p>Now, let&rsquo;s find the conditional probability that a student studies Math given that they study Physics,  $ P(M|P) $ :</p>
+<p>$$  P(M|P) = \frac{P(M \cap P)}{P(P)} = \frac{0.1}{0.3} = \frac{1}{3} \approx 0.333
+$$<br>
+This means that among the students who study Physics (our new sample space of 30 students), 10 of them also study Math. So,  $ 10/30 = 1/3 $ .</p>
+<h2 id="conditional-probability-and-independence">Conditional Probability and Independence</h2>
+<p>Conditional probability plays a crucial role in understanding <a href="./../independent-events-and-unions-of-events/">Independent Events and Unions of Events</a>. Two events A and B are considered independent if the occurrence of one does not affect the probability of the other.</p>
+<p>Mathematically, A and B are independent if:</p>
+<ul>
+<li>$ P(A|B) = P(A) $  (knowing B occurred doesn&rsquo;t change A&rsquo;s probability)</li>
+<li>$ P(B|A) = P(B) $  (knowing A occurred doesn&rsquo;t change B&rsquo;s probability)</li>
+<li>$ P(A \cap B) = P(A) \cdot P(B) $  (this is the Multiplication Rule for Independent Events)</li>
+</ul>
+<p>If these conditions are not met, the events are dependent. In our example above,  $ P(M|P) \approx 0.333 $  and  $ P(M) = 0.4 $ . Since  $ P(M|P) \ne P(M) $ , studying Math and Physics are <strong>dependent events</strong>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

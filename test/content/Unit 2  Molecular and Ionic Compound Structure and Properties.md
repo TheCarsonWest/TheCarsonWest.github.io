@@ -1,4 +1,9 @@
-# [[AP Chemistry Units]]
++++
+ title = 'Unit 2  Molecular and Ionic Compound Structure and Properties'
+[params]
+	author = 'Carson West'
++++
+# [AP Chemistry Units](./../ap-chemistry-units/)
 
 # Unit 2 : Molecular and Ionic Compound Structure and Properties
 ## 2.1 : Types of Chemical Bonds
@@ -9,4 +14,4 @@
 ## 2.6 : Resonance and Formal Charge
 ## 2.7 : VSEPR and Bond Hybridization
 
-# [[AP Chemistry Units]]
+# [AP Chemistry Units](./../ap-chemistry-units/)

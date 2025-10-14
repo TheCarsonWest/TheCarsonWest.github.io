@@ -1,3 +1,8 @@
++++
+ title = 'Dutch Colonization'
+[params]
+	author = 'Carson West'
++++
 ## APUSH Period 1: Dutch Colonization (1491-1607)
 
 While significant Dutch colonization efforts and the establishment of New Netherland primarily occur *after* 1607, the foundational explorations and the *motives* for Dutch involvement in North America begin to solidify within this period.

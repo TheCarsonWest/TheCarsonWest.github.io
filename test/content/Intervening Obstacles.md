@@ -1,4 +1,9 @@
-# [[Push and Pull Factors]]
++++
+ title = 'Intervening Obstacles'
+[params]
+	author = 'Carson West'
++++
+# [Push and Pull Factors](./../push-and-pull-factors/)
 
 * Barriers that make reaching a destination more difficult:
     * Economic: Lack of funds to reach destination.

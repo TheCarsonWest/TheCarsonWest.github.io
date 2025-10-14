@@ -1,8 +1,13 @@
-## ID: The [[Great Awakening]] 
++++
+ title = 'Great Awakening'
+[params]
+	author = 'Carson West'
++++
+## ID: The [Great Awakening](./../great-awakening/) 
 ## When: 1730s-1740s
 
 ## Who:
-* **Religious Leaders:** Jonathan Edwards (New England), George Whitefield (traveling evangelist), Gilbert Tennent ([[New Jersey]])
+* **Religious Leaders:** Jonathan Edwards (New England), George Whitefield (traveling evangelist), Gilbert Tennent ([New Jersey](./../new-jersey/))
 * **Participants:**  Colonists from all social classes, although initially more prominent among the less affluent.
 
 ## What:
@@ -15,4 +20,4 @@ A series of religious revivals that swept through the American colonies.  Charac
 * **Increased Literacy:** The desire to read the Bible spurred literacy rates.
 * **Development of Colleges:**  New colleges were founded (e.g., Princeton, Dartmouth) to train ministers for the growing evangelical movement.
 
-# [[IDS Unit 4]]
+# [IDS Unit 4](./../ids-unit-4/)

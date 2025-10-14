@@ -1,5 +1,10 @@
-# [[Python 1 Home]]
-# [[Python Sets]]
++++
+ title = 'Python Sets'
+[params]
+	author = 'Carson West'
++++
+# [Python 1 Home](./../python-1-home/)
+# [Python Sets](./../python-sets/)
 
 Python sets are unordered collections of unique elements.  They are defined using curly braces `{}` or the `set()` constructor.
 
@@ -14,7 +19,7 @@ empty_set = set() #Creating an empty set.  Note: {} creates an empty dictionary.
 print(empty_set) #Output: set()
 ```
 
-**Key [[Set Operations]]:**
+**Key [Set Operations](./../set-operations/):**
 
 * **`union()` or `|`:** Combines elements from two sets.
 ```python
@@ -57,10 +62,10 @@ print(my_set)
 * **`isdisjoint()`:** Checks if two sets have no common elements.
 
 
-[[Frozen Sets]]
-[[Python Sets - Examples]]
+[Frozen Sets](./../frozen-sets/)
+[Python Sets - Examples](./../python-sets---examples/)
 
-**Set Comprehension:** Similar to [[List Comprehension]], but creates a set.
+**Set Comprehension:** Similar to [List Comprehension](./../list-comprehension/), but creates a set.
 
 ```python
 squares = {x**2 for x in range(5)}

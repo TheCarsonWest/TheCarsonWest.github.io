@@ -1,13 +1,18 @@
-# [[APUSH Home]]
++++
+ title = 'APUSH Groups'
+[params]
+	author = 'Carson West'
++++
+# [APUSH Home](./../apush-home/)
 
-## [[Democrats]]
+## [Democrats](./../democrats/)
 
-## [[Federalists]]
+## [Federalists](./../federalists/)
 
-## [[Democratic-Republican]]
+## [Democratic-Republican](./../democratic-republican/)
 
-## [[Whigs]]
+## [Whigs](./../whigs/)
 
-## [[Republicans]]
+## [Republicans](./../republicans/)
 
-## [[PCUSA]]
+## [PCUSA](./../pcusa/)

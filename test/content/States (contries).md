@@ -1,4 +1,9 @@
-# [[APHG Home]]
++++
+ title = 'States (contries)'
+[params]
+	author = 'Carson West'
++++
+# [APHG Home](./../aphg-home/)
 # What is a state
 Requirements to be a state
 - have a border

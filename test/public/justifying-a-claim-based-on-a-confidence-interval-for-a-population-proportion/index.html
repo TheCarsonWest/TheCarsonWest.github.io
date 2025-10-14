@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Justifying a Claim Based on a Confidence Interval for a Population Proportion | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Justifying a Claim Based on a Confidence Interval for a Population Proportion</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="justifying-a-claim-based-on-a-confidence-interval-for-a-population-proportion">Justifying a Claim Based on a Confidence Interval for a Population Proportion</h1>
+<p>When making claims about an unknown population proportion, a confidence interval provides a plausible range of values for that proportion. Instead of simply stating a point estimate, a confidence interval incorporates the uncertainty inherent in <a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a>. This note page focuses on how to use a <a href="./../constructing-a-confidence-interval-for-a-population/">Constructing a Confidence Interval for a Population</a> proportion to support or refute a specific claim.</p>
+<hr>
+<h2 id="understanding-the-confidence-interval">Understanding the Confidence Interval</h2>
+<p>A confidence interval for a population proportion  $ p $  is typically expressed as:</p>
+<p>$$  \hat{p} \pm z^* \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
+$$<br>
+Where:</p>
+<ul>
+<li>$ \hat{p} $  is the sample proportion.</li>
+<li>$ z^* $  is the critical value from the standard normal distribution corresponding to the desired confidence level.</li>
+<li>$ n $  is the sample size.</li>
+</ul>
+<p>This interval gives a range of values within which we are, for example, 95% confident the true population proportion  $ p $  lies.</p>
+<hr>
+<h2 id="the-role-of-the-claimed-value">The Role of the Claimed Value</h2>
+<p>To justify a claim using a confidence interval, we compare the claimed value of the population proportion (often denoted as  $ p_0 $ ) with the calculated interval. The claim could be one of two types:</p>
+<ol>
+<li><strong>A specific value claim</strong>: The true proportion is equal to some value, e.g.,  $ p = 0.5 $ .</li>
+<li><strong>A directional claim</strong>: The true proportion is greater than, less than, or not equal to some value, e.g.,  $ p &gt; 0.5 $ ,  $ p &lt; 0.5 $ , or  $ p \neq 0.5 $ .</li>
+</ol>
+<hr>
+<h2 id="justification-rules">Justification Rules</h2>
+<p>The decision rule for justifying a claim based on a confidence interval is straightforward:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Claim Type</th>
+          <th style="text-align: left">Confidence Interval Result</th>
+          <th style="text-align: left">Conclusion</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ p = p_0 $  (specific value)</td>
+          <td style="text-align: left">$ p_0 $  is within the interval</td>
+          <td style="text-align: left">We do not have convincing evidence to reject the claim that  $ p = p_0 $ .  $ p_0 $  is a plausible value.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">$ p_0 $  is outside the interval</td>
+          <td style="text-align: left">We have convincing evidence to reject the claim that  $ p = p_0 $ .  $ p_0 $  is not a plausible value.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ p &gt; p_0 $  (directional)</td>
+          <td style="text-align: left">The entire interval is above  $ p_0 $</td>
+          <td style="text-align: left">We have convincing evidence to support the claim that  $ p &gt; p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">The interval overlaps or is entirely below  $ p_0 $</td>
+          <td style="text-align: left">We do not have convincing evidence to support the claim that  $ p &gt; p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ p &lt; p_0 $  (directional)</td>
+          <td style="text-align: left">The entire interval is below  $ p_0 $</td>
+          <td style="text-align: left">We have convincing evidence to support the claim that  $ p &lt; p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">The interval overlaps or is entirely above  $ p_0 $</td>
+          <td style="text-align: left">We do not have convincing evidence to support the claim that  $ p &lt; p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ p \neq p_0 $  (directional)</td>
+          <td style="text-align: left">$ p_0 $  is outside the interval</td>
+          <td style="text-align: left">We have convincing evidence to support the claim that  $ p \neq p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left">$ p_0 $  is within the interval</td>
+          <td style="text-align: left">We do not have convincing evidence to support the claim that  $ p \neq p_0 $ .  $ p_0 $  is a plausible value.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="interpreting-the-conclusion">Interpreting the Conclusion</h2>
+<p>When concluding, it&rsquo;s crucial to phrase your justification carefully:</p>
+<ul>
+<li><strong>Avoid definitive statements</strong>: Never say &ldquo;we have proven&rdquo; or &ldquo;the true proportion is.&rdquo; Instead, use phrases like &ldquo;we have convincing evidence,&rdquo; &ldquo;it is plausible,&rdquo; or &ldquo;we do not have convincing evidence to reject/support.&rdquo;</li>
+<li><strong>Contextualize</strong>: Always state your conclusion in the context of the problem.</li>
+<li><strong>Relationship to Significance Tests</strong>: A 95% confidence interval is equivalent to a two-sided <a href="./../setting-up-a-test-for-a-population-proportion/">Setting Up a Test for a Population Proportion</a> at the  $ \alpha = 0.05 $  significance level. If the null hypothesized value ( $ p_0 $ ) falls outside the 95% confidence interval, then a two-sided test would reject the null hypothesis at  $ \alpha = 0.05 $ . This connection is part of <a href="./../concluding-a-test-for-a-population-proportion/">Concluding a Test for a Population Proportion</a>.</li>
+</ul>
+<hr>
+<h2 id="example-scenario">Example Scenario</h2>
+<p>A company claims that 80% of its customers are satisfied. A random sample of 200 customers reveals 150 are satisfied. A 95% confidence interval for the true proportion of satisfied customers is calculated as  $ (0.697, 0.803) $ .</p>
+<p><strong>Claim</strong>: The true proportion of satisfied customers is  $ p = 0.80 $ .</p>
+<p><strong>Justification</strong>: The claimed value,  $ p_0 = 0.80 $ , falls within the 95% confidence interval  $ (0.697, 0.803) $ . Therefore, we do not have convincing evidence to reject the company&rsquo;s claim that 80% of its customers are satisfied. The value 0.80 is a plausible proportion for satisfied customers based on this sample.</p>
+<p><strong>Claim</strong>: The true proportion of satisfied customers is  $ p &lt; 0.85 $ .</p>
+<p><strong>Justification</strong>: The entire 95% confidence interval  $ (0.697, 0.803) $  is below 0.85. Therefore, we have convincing evidence to support the claim that the true proportion of satisfied customers is less than 0.85.</p>
+<hr>
+<p><a href="./../confidence-level-and-margin-of-error/">Confidence Level and Margin of Error</a></p>
+
+</main>
+
+
+  </body>
+</html>
+

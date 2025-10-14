@@ -1,4 +1,9 @@
-# [[AP Stats Home]]
++++
+ title = 'Estimating Probabilities Using Simulation'
+[params]
+	author = 'Carson West'
++++
+# [AP Stats Home](./../ap-stats-home/)
 # Estimating Probabilities Using Simulation
 
 Simulation is a powerful tool in statistics used to estimate probabilities for complex events or scenarios that are difficult to calculate analytically. It involves modeling a real-world process using random numbers and then repeating the process many times to observe the outcomes and estimate the likelihood of a particular event. This technique is particularly useful when the underlying probability distribution is unknown or the event's probability depends on a series of uncertain outcomes.
@@ -24,7 +29,7 @@ Estimating probabilities using simulation generally follows a structured, multi-
     *   Choose a random device (e.g., coin, die, random number generator) that accurately reflects the probability of the component's outcomes.
     *   Assign numbers or outcomes from the random device to represent the actual outcomes of the component.
     *   The assignment must be proportional to the probability of each outcome.
-    *   *Example*: If the probability of success is $P(\text{Success}) = 0.60$, use random digits 00-59 for success and 60-99 for failure (using two-digit numbers).
+    *   *Example*: If the probability of success is  $ P(\text{Success}) = 0.60 $ , use random digits 00-59 for success and 60-99 for failure (using two-digit numbers).
 
 3.  **Define a Trial**:
     *   A trial is one complete repetition of the experiment or scenario being simulated.
@@ -37,13 +42,12 @@ Estimating probabilities using simulation generally follows a structured, multi-
 
 5.  **Run Multiple Trials**:
     *   Repeat the simulation process a large number of times (e.g., 50, 100, 1000 trials).
-    *   More trials generally lead to a more accurate estimate due to the [[Law of Large Numbers]].
+    *   More trials generally lead to a more accurate estimate due to the [Law of Large Numbers](./../law-of-large-numbers/).
 
 6.  **Calculate the Estimated Probability**:
     *   Count the number of trials where the event of interest occurred.
     *   The estimated probability is given by:
-        $$ P(\text{Event}) \approx \frac{\text{Number of favorable outcomes}}{\text{Total number of trials}} $$
-
+         $$  P(\text{Event}) \approx \frac{\text{Number of favorable outcomes}}{\text{Total number of trials}}  $$  
 ## Example: Simulating a Basketball Player's Free Throws
 
 A basketball player has an 80% free throw percentage. We want to estimate the probability that the player makes at least 3 out of 5 free throws in a game.
@@ -68,11 +72,10 @@ A basketball player has an 80% free throw percentage. We want to estimate the pr
     | 5     | 7, 6, 8, 1, 2 | M, M, F, M, M               | 4               | Yes               |
 
 6.  **Estimate Probability**: In this small example, 5 out of 5 trials resulted in at least 3 makes.
-    $$ P(\text{at least 3 makes}) \approx \frac{5}{5} = 1.00 $$
-    *Note*: With only 5 trials, this is a very rough estimate. A real simulation would involve hundreds or thousands of trials for a more reliable estimate.
+     $$  P(\text{at least 3 makes}) \approx \frac{5}{5} = 1.00  $$      *Note*: With only 5 trials, this is a very rough estimate. A real simulation would involve hundreds or thousands of trials for a more reliable estimate.
 
 ## Connecting to Other Concepts
 
-*   **Probability Distributions**: Simulation can help us understand and visualize [[Introduction to Random Variables and Probability Distributions]] for complex scenarios where direct calculation is hard.
-*   **The Binomial Distribution**: The free throw example above could be modeled using the [[Introduction to the Binomial Distribution]] if we wanted to calculate the exact probability analytically, but simulation provides an alternative, especially if the conditions for a binomial distribution weren't perfectly met (e.g., probability of success changing).
-*   **[[Sampling Distributions for Sample Proportions]]**: The results from many simulation trials can themselves form a sampling distribution, which is fundamental to inferential statistics.
+*   **Probability Distributions**: Simulation can help us understand and visualize [Introduction to Random Variables and Probability Distributions](./../introduction-to-random-variables-and-probability-distributions/) for complex scenarios where direct calculation is hard.
+*   **The Binomial Distribution**: The free throw example above could be modeled using the [Introduction to the Binomial Distribution](./../introduction-to-the-binomial-distribution/) if we wanted to calculate the exact probability analytically, but simulation provides an alternative, especially if the conditions for a binomial distribution weren't perfectly met (e.g., probability of success changing).
+*   **[Sampling Distributions for Sample Proportions](./../sampling-distributions-for-sample-proportions/)**: The results from many simulation trials can themselves form a sampling distribution, which is fundamental to inferential statistics.

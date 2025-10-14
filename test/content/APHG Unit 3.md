@@ -1,10 +1,15 @@
-21# [[APHG Home]]
-# [[Folk and Pop culture]]
++++
+ title = 'APHG Unit 3'
+[params]
+	author = 'Carson West'
++++
+21# [APHG Home](./../aphg-home/)
+# [Folk and Pop culture](./../folk-and-pop-culture/)
 
-# [[Diffusion of Culture]]
-# [[Cultural Diversion]]
+# [Diffusion of Culture](./../diffusion-of-culture/)
+# [Cultural Diversion](./../cultural-diversion/)
 
 
-# [[Language]]
-- [[Languages]]
-- [[Lingua Franca]]
+# [Language](./../language/)
+- [Languages](./../languages/)
+- [Lingua Franca](./../lingua-franca/)

@@ -1,3 +1,8 @@
++++
+ title = 'Maize Cultivation'
+[params]
+	author = 'Carson West'
++++
 ## APUSH Notecard: Maize Cultivation
 
 ### Period 1: 1491-1607

@@ -1,4 +1,9 @@
-# [[IDS Unit 7]]
++++
+ title = 'Allied Powers WWII'
+[params]
+	author = 'Carson West'
++++
+# [IDS Unit 7](./../ids-unit-7/)
 ## ID: Allied Powers (WWII)
 
 ## When: 1939-1945 (Specifically during World War II)

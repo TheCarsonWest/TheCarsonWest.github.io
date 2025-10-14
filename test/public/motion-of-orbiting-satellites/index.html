@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Motion of Orbiting Satellites | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Motion of Orbiting Satellites</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-homeap-physics-home"><a href="./../ap-physics-home/">AP Physics Home</a></h1>
+<h1 id="ap-physics-1-topic-66---motion-of-orbiting-satellites">AP Physics 1: Topic 6.6 - Motion of Orbiting Satellites</h1>
+<h2 id="introduction-to-orbiting-satellites">Introduction to Orbiting Satellites</h2>
+<p>An orbiting satellite is an object (natural or artificial) that revolves around a larger celestial body due to the force of <a href="./../gravitational-force/">Gravitational Force</a>. Examples include the Moon orbiting Earth (natural satellite) or the International Space Station (artificial satellite). For simplicity in AP Physics 1, we often consider orbits to be perfectly circular, although in reality, most orbits are elliptical.</p>
+<h2 id="forces-and-motion-in-orbit">Forces and Motion in Orbit</h2>
+<p>The primary force acting on a satellite in orbit is the <a href="./../gravitational-force/">Gravitational Force</a> exerted by the central body. This force acts as the centripetal force, continuously pulling the satellite towards the center of its orbit and causing it to move in a curved path.</p>
+<ul>
+<li><strong>Central Body Mass</strong>:  $ M $</li>
+<li><strong>Satellite Mass</strong>:  $ m $</li>
+<li><strong>Orbital Radius</strong>:  $ r $  (distance from the center of the central body to the satellite)</li>
+</ul>
+<p>The gravitational force is given by Newton&rsquo;s Law of Universal Gravitation:
+$ F_g = \frac{GMm}{r^2} $
+where  $ G $  is the universal gravitational constant ( $ 6.67 \times 10^{-11} \text{ N} \cdot \text{m}^2/\text{kg}^2 $ ).</p>
+<p>For a satellite in a stable circular orbit, this gravitational force provides the necessary <a href="./../circular-motion/">Circular Motion</a>&rsquo;s centripetal force:
+$ F_c = \frac{mv^2}{r} $
+Equating these two forces allows us to derive key orbital characteristics.</p>
+<h2 id="orbital-speed-and-period">Orbital Speed and Period</h2>
+<p>By setting the gravitational force equal to the centripetal force, we can determine the orbital speed ( $ v $ ) of the satellite.</p>
+<p>$  \frac{GMm}{r^2} = \frac{mv^2}{r}  $
+Notice that the mass of the satellite ( $ m $ ) cancels out, meaning the orbital speed for a given radius only depends on the mass of the central body ( $ M $ ).</p>
+<p>$  v^2 = \frac{GM}{r}  $
+$  v = \sqrt{\frac{GM}{r}}  $</p>
+<p>This equation shows that satellites in higher orbits (larger  $ r $ ) move slower.</p>
+<p>The orbital period ( $ T $ ) is the time it takes for a satellite to complete one full revolution. For a circular orbit, the distance traveled in one period is the circumference  $ 2\pi r $ .
+Since  $ v = \frac{\text{distance}}{\text{time}} = \frac{2\pi r}{T} $ , we can express the period as:
+$  T = \frac{2\pi r}{v}  $
+Substituting the expression for  $ v $ :
+$  T = \frac{2\pi r}{\sqrt{\frac{GM}{r}}} = 2\pi r \sqrt{\frac{r}{GM}}  $
+$  T = 2\pi \sqrt{\frac{r^3}{GM}}  $
+Squaring both sides gives us <strong>Kepler&rsquo;s Third Law</strong> for circular orbits:
+$  T^2 = \frac{4\pi^2}{GM} r^3  $
+This relationship indicates that  $ T^2 \propto r^3 $ , meaning the square of the orbital period is proportional to the cube of the orbital radius. The constant of proportionality depends only on the mass of the central body.</p>
+<h3 id="geosynchronous-orbit">Geosynchronous Orbit</h3>
+<p><a href="./../geosynchronous-orbit/">Geosynchronous Orbit</a> is a special type of orbit where a satellite remains above the same point on Earth&rsquo;s equator. This requires the satellite&rsquo;s orbital period to be exactly one sidereal day (approximately 23 hours, 56 minutes, 4 seconds), matching Earth&rsquo;s rotation period.</p>
+<h2 id="energy-of-an-orbiting-satellite">Energy of an Orbiting Satellite</h2>
+<p>An orbiting satellite possesses both kinetic energy ( $ K $ ) due to its motion and gravitational <a href="./../potential-energy/">Potential Energy</a> ( $ U_g $ ) due to its position in the gravitational field.</p>
+<ul>
+<li>
+<p><strong>Kinetic Energy</strong>:
+$  K = \frac{1}{2}mv^2  $
+Substituting  $ v^2 = \frac{GM}{r} $ :
+$  K = \frac{1}{2}m\left(\frac{GM}{r}\right) = \frac{GMm}{2r}  $</p>
+</li>
+<li>
+<p><strong>Gravitational Potential Energy</strong>:
+The gravitational potential energy for a system of two masses is defined as:
+$  U_g = -\frac{GMm}{r}  $
+The negative sign indicates that the system is bound; energy must be added to separate the masses. The potential energy is zero at infinite separation.</p>
+</li>
+<li>
+<p><strong>Total Mechanical Energy ( $ E_{total} $ )</strong>:
+The total mechanical energy is the sum of kinetic and potential energy:
+$  E_{total} = K + U_g  $
+$  E_{total} = \frac{GMm}{2r} + \left(-\frac{GMm}{r}\right)  $
+$  E_{total} = -\frac{GMm}{2r}  $
+The total mechanical energy of an orbiting satellite is negative, which is characteristic of a bound system. The total energy is constant for an isolated satellite system.</p>
+</li>
+</ul>
+<h2 id="summary-of-orbital-parameters">Summary of Orbital Parameters</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Parameter</th>
+          <th style="text-align: left">Symbol</th>
+          <th style="text-align: left">Formula</th>
+          <th style="text-align: left">Dependencies</th>
+          <th style="text-align: left">Notes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Gravitational Force</td>
+          <td style="text-align: left">$ F_g $</td>
+          <td style="text-align: left">$ \frac{GMm}{r^2} $</td>
+          <td style="text-align: left">$ G, M, m, r $</td>
+          <td style="text-align: left">Acts as centripetal force</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Orbital Speed</td>
+          <td style="text-align: left">$ v $</td>
+          <td style="text-align: left">$ \sqrt{\frac{GM}{r}} $</td>
+          <td style="text-align: left">$ G, M, r $  (independent of satellite mass  $ m $ )</td>
+          <td style="text-align: left">Decreases with increasing radius</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Orbital Period</td>
+          <td style="text-align: left">$ T $</td>
+          <td style="text-align: left">$ 2\pi \sqrt{\frac{r^3}{GM}} $</td>
+          <td style="text-align: left">$ G, M, r $  (independent of satellite mass  $ m $ )</td>
+          <td style="text-align: left">Increases with increasing radius (Kepler&rsquo;s 3rd Law)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Kinetic Energy</td>
+          <td style="text-align: left">$ K $</td>
+          <td style="text-align: left">$ \frac{GMm}{2r} $</td>
+          <td style="text-align: left">$ G, M, m, r $</td>
+          <td style="text-align: left">Always positive, decreases with increasing radius</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Potential Energy</td>
+          <td style="text-align: left">$ U_g $</td>
+          <td style="text-align: left">$ -\frac{GMm}{r} $</td>
+          <td style="text-align: left">$ G, M, m, r $</td>
+          <td style="text-align: left">Always negative, increases (less negative) with increasing radius</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Total Energy</td>
+          <td style="text-align: left">$ E_{total} $</td>
+          <td style="text-align: left">$ -\frac{GMm}{2r} $</td>
+          <td style="text-align: left">$ G, M, m, r $</td>
+          <td style="text-align: left">Always negative, increases (less negative) with increasing radius</td>
+      </tr>
+  </tbody>
+</table>
+<p>This framework allows us to analyze the motion and energy of satellites in circular orbits, providing a fundamental understanding of celestial mechanics relevant to AP Physics.</p>
+
+</main>
+
+
+  </body>
+</html>
+

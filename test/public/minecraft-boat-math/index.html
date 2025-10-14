@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minecraft Boat Math | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Minecraft Boat Math</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tick</span>() {  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">oldStatus</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">status</span>;  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">status</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getStatus</span>();  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">status</span> <span style="color:#f92672">!=</span> AbstractBoat.<span style="color:#a6e22e">Status</span>.<span style="color:#a6e22e">UNDER_WATER</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">status</span> <span style="color:#f92672">!=</span> AbstractBoat.<span style="color:#a6e22e">Status</span>.<span style="color:#a6e22e">UNDER_FLOWING_WATER</span>) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">outOfControlTicks</span> <span style="color:#f92672">=</span> 0.<span style="color:#a6e22e">0F</span>;  
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">outOfControlTicks</span><span style="color:#f92672">++</span>;  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">level</span>().<span style="color:#a6e22e">isClientSide</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">outOfControlTicks</span> <span style="color:#f92672">&gt;=</span> 60.<span style="color:#a6e22e">0F</span>) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">ejectPassengers</span>();  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getHurtTime</span>() <span style="color:#f92672">&gt;</span> 0) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setHurtTime</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getHurtTime</span>() <span style="color:#f92672">-</span> 1);  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getDamage</span>() <span style="color:#f92672">&gt;</span> 0.<span style="color:#a6e22e">0F</span>) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setDamage</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getDamage</span>() <span style="color:#f92672">-</span> 1.<span style="color:#a6e22e">0F</span>);  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">super</span>.<span style="color:#a6e22e">tick</span>();  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">tickLerp</span>();  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">isControlledByLocalInstance</span>()) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getFirstPassenger</span>() <span style="color:#66d9ef">instanceof</span> Player)) {  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setPaddleState</span>(<span style="color:#66d9ef">false</span>, <span style="color:#66d9ef">false</span>);  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">floatBoat</span>();  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">level</span>().<span style="color:#a6e22e">isClientSide</span>) {  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">controlBoat</span>();  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">level</span>().<span style="color:#a6e22e">sendPacketToServer</span>(<span style="color:#66d9ef">new</span> ServerboundPaddleBoatPacket(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getPaddleState</span>(0), <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getPaddleState</span>(1)));  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">move</span>(MoverType.<span style="color:#a6e22e">SELF</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getDeltaMovement</span>());  
+</span></span><span style="display:flex;"><span>    } <span style="color:#66d9ef">else</span> {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setDeltaMovement</span>(Vec3.<span style="color:#a6e22e">ZERO</span>);  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">applyEffectsFromBlocks</span>();  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">applyEffectsFromBlocks</span>();  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">tickBubbleColumn</span>();
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">controlBoat</span>() {  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">isVehicle</span>()) {  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">float</span> f <span style="color:#f92672">=</span> 0.<span style="color:#a6e22e">0F</span>;  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputLeft</span>) {  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">deltaRotation</span><span style="color:#f92672">--</span>;  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputRight</span>) {  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">deltaRotation</span><span style="color:#f92672">++</span>;  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputRight</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputLeft</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputUp</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputDown</span>) {  
+</span></span><span style="display:flex;"><span>            f <span style="color:#f92672">+=</span> 0.<span style="color:#a6e22e">005F</span>;  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setYRot</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getYRot</span>() <span style="color:#f92672">+</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">deltaRotation</span>);  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputUp</span>) {  
+</span></span><span style="display:flex;"><span>            f <span style="color:#f92672">+=</span> 0.<span style="color:#a6e22e">04F</span>;  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputDown</span>) {  
+</span></span><span style="display:flex;"><span>            f <span style="color:#f92672">-=</span> 0.<span style="color:#a6e22e">005F</span>;  
+</span></span><span style="display:flex;"><span>        }  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setDeltaMovement</span>(  
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getDeltaMovement</span>()  
+</span></span><span style="display:flex;"><span>                .<span style="color:#a6e22e">add</span>(  
+</span></span><span style="display:flex;"><span>                    (<span style="color:#66d9ef">double</span>)(Mth.<span style="color:#a6e22e">sin</span>(<span style="color:#f92672">-</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getYRot</span>() <span style="color:#f92672">*</span> (<span style="color:#66d9ef">float</span>) (Math.<span style="color:#a6e22e">PI</span> <span style="color:#f92672">/</span> 180.<span style="color:#a6e22e">0</span>)) <span style="color:#f92672">*</span> f),  
+</span></span><span style="display:flex;"><span>                    0.<span style="color:#a6e22e">0</span>,  
+</span></span><span style="display:flex;"><span>                    (<span style="color:#66d9ef">double</span>)(Mth.<span style="color:#a6e22e">cos</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">getYRot</span>() <span style="color:#f92672">*</span> (<span style="color:#66d9ef">float</span>) (Math.<span style="color:#a6e22e">PI</span> <span style="color:#f92672">/</span> 180.<span style="color:#a6e22e">0</span>)) <span style="color:#f92672">*</span> f)  
+</span></span><span style="display:flex;"><span>                )  
+</span></span><span style="display:flex;"><span>        );  
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">setPaddleState</span>(<span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputRight</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputLeft</span> <span style="color:#f92672">||</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputUp</span>, <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputLeft</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span><span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputRight</span> <span style="color:#f92672">||</span> <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">inputUp</span>);  
+</span></span><span style="display:flex;"><span>    }  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+</main>
+
+
+  </body>
+</html>
+

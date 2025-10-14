@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Function Parameters | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Function Parameters</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="python-1-homepython-1-home"><a href="./../python-1-home/">Python 1 Home</a></h1>
+<h1 id="function-parametersfunction-parameters"><a href="./../function-parameters/">Function Parameters</a></h1>
+<p>Python function parameters allow you to pass data into functions, making them reusable and flexible.  There are several types of parameters:</p>
+<ul>
+<li><strong>Positional Parameters:</strong>  These are matched based on their position in the function definition and the function call.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name, greeting):
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>greeting<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Alice&#34;</span>, <span style="color:#e6db74">&#34;Hello&#34;</span>) <span style="color:#75715e"># Output: Hello, Alice!</span>
+</span></span></code></pre></div><ul>
+<li><strong>Keyword Parameters:</strong> These are specified by name in the function call, allowing you to pass arguments in any order.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>greet(greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Good morning&#34;</span>, name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Bob&#34;</span>) <span style="color:#75715e"># Output: Good morning, Bob!</span>
+</span></span></code></pre></div><ul>
+<li><strong><a href="./../default-parameters/">Default Parameters</a>:</strong> These assign a default value to a parameter if no value is provided during the function call.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greet</span>(name, greeting<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Hello&#34;</span>):
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>greeting<span style="color:#e6db74">}</span><span style="color:#e6db74">, </span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">!&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Charlie&#34;</span>) <span style="color:#75715e"># Output: Hello, Charlie!</span>
+</span></span><span style="display:flex;"><span>greet(<span style="color:#e6db74">&#34;Dave&#34;</span>, <span style="color:#e6db74">&#34;Hi&#34;</span>) <span style="color:#75715e"># Output: Hi, Dave!</span>
+</span></span></code></pre></div><p><a href="./../default-parameters/">Default Parameters</a></p>
+<ul>
+<li><strong>Variable-length Positional Arguments (<code>*args</code>):</strong>  Allows a function to accept any number of positional arguments. These are packed into a tuple.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">sum_all</span>(<span style="color:#f92672">*</span>args):
+</span></span><span style="display:flex;"><span>  total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> args:
+</span></span><span style="display:flex;"><span>    total <span style="color:#f92672">+=</span> num
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> total
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(sum_all(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>)) <span style="color:#75715e"># Output: 6</span>
+</span></span><span style="display:flex;"><span>print(sum_all(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">20</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">40</span>)) <span style="color:#75715e"># Output: 100</span>
+</span></span></code></pre></div><ul>
+<li><strong>Variable-length Keyword Arguments (<code>**kwargs</code>):</strong> Allows a function to accept any number of keyword arguments. These are packed into a dictionary.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_kwargs</span>(<span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">for</span> key, value <span style="color:#f92672">in</span> kwargs<span style="color:#f92672">.</span>items():
+</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>key<span style="color:#e6db74">}</span><span style="color:#e6db74">: </span><span style="color:#e6db74">{</span>value<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print_kwargs(name<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Eve&#34;</span>, age<span style="color:#f92672">=</span><span style="color:#ae81ff">30</span>, city<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;[New York](./../new-york/)&#34;</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Combining Parameter Types:</strong> You can combine different parameter types in a single function definition, but positional parameters must come before keyword parameters and <code>*args</code> before <code>**kwargs</code>.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">my_function</span>(a, b, <span style="color:#f92672">*</span>args, c<span style="color:#f92672">=</span><span style="color:#ae81ff">5</span>, <span style="color:#f92672">**</span>kwargs):
+</span></span><span style="display:flex;"><span>  print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;a: </span><span style="color:#e6db74">{</span>a<span style="color:#e6db74">}</span><span style="color:#e6db74">, b: </span><span style="color:#e6db74">{</span>b<span style="color:#e6db74">}</span><span style="color:#e6db74">, args: </span><span style="color:#e6db74">{</span>args<span style="color:#e6db74">}</span><span style="color:#e6db74">, c: </span><span style="color:#e6db74">{</span>c<span style="color:#e6db74">}</span><span style="color:#e6db74">, kwargs: </span><span style="color:#e6db74">{</span>kwargs<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>my_function(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">4</span>, c<span style="color:#f92672">=</span><span style="color:#ae81ff">10</span>, d<span style="color:#f92672">=</span><span style="color:#ae81ff">20</span>)
+</span></span></code></pre></div><ul>
+<li><strong>Parameter Annotations:</strong> These are optional and provide type hints for better code readability and static analysis. They don&rsquo;t enforce type checking at runtime.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">annotated_function</span>(name: str, age: int) <span style="color:#f92672">-&gt;</span> str:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">return</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74"> is </span><span style="color:#e6db74">{</span>age<span style="color:#e6db74">}</span><span style="color:#e6db74"> years old.&#34;</span>
+</span></span></code></pre></div><p><a href="./../type-hinting/">Type Hinting</a></p>
+<p>Related Notes: <a href="./../python-functions/">Python Functions</a>, <a href="./../return-values/">Return Values</a></p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,5 +1,10 @@
-# [[File Handling]]
-# [[File IO Modes]] 
++++
+ title = 'File IO Modes'
+[params]
+	author = 'Carson West'
++++
+# [File Handling](./../file-handling/)
+# [File IO Modes](./../file-io-modes/) 
 Python's built-in `open()` function allows for various file access modes, influencing how the file is handled during operations.  These modes are specified as a second argument to `open()`.
 
 Common Modes:
@@ -43,4 +48,4 @@ with open("my_file.txt", "r") as file:
 
 ```
 
-[[File Handling Best Practices]]  [[Error Handling with Files]] [[Context Managers]]
+[File Handling Best Practices](./../file-handling-best-practices/)  [Error Handling with Files](./../error-handling-with-files/) [Context Managers](./../context-managers/)

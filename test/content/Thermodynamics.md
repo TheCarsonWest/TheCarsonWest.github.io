@@ -1,12 +1,17 @@
-# [[APCHEM Home]]
++++
+ title = 'Thermodynamics'
+[params]
+	author = 'Carson West'
++++
+# [APCHEM Home](./../apchem-home/)
 
-- [[Heat]]
-- [[Temperature]]
-- [[Enthalpy]]
-- [[Entropy]]
-- [[Laws of Conservation]]
-- [[Endothermic]]
-- [[Exothermic]]
-# [[Heat of Vaporization]]
-# [[Hess Law]]
-# [[Bond Enthalpies]]
+- [Heat](./../heat/)
+- [Temperature](./../temperature/)
+- [Enthalpy](./../enthalpy/)
+- [Entropy](./../entropy/)
+- [Laws of Conservation](./../laws-of-conservation/)
+- [Endothermic](./../endothermic/)
+- [Exothermic](./../exothermic/)
+# [Heat of Vaporization](./../heat-of-vaporization/)
+# [Hess Law](./../hess-law/)
+# [Bond Enthalpies](./../bond-enthalpies/)

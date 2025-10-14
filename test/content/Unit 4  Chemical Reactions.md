@@ -1,4 +1,9 @@
-# [[AP Chemistry Units]]
++++
+ title = 'Unit 4  Chemical Reactions'
+[params]
+	author = 'Carson West'
++++
+# [AP Chemistry Units](./../ap-chemistry-units/)
 
 # Unit 4 : Chemical Reactions
 ## 4.1 : Introduction for Reactions
@@ -11,4 +16,4 @@
 ## 4.8 : Acid-Base Reactions and Buffers
 ## 4.9 : Redox (Oxidation-Reduction) Reactions
 
-# [[AP Chemistry Units]]
+# [AP Chemistry Units](./../ap-chemistry-units/)

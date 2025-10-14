@@ -1,5 +1,10 @@
-# [[Variable Naming Conventions]]
-# [[Data Types]] 
++++
+ title = 'Data Types'
+[params]
+	author = 'Carson West'
++++
+# [Variable Naming Conventions](./../variable-naming-conventions/)
+# [Data Types](./../data-types/) 
 Python has several built-in data types.  Here's a breakdown:
 
 * **Numeric Types:**
@@ -54,4 +59,4 @@ y = float(x)  # convert to float
 z = str(x)   # convert to string
 ```
 
-[[Type Conversion]]  [[Mutability]]  [[Immutability]] [[Sequence Types in Detail]] [[Dictionary Methods]]
+[Type Conversion](./../type-conversion/)  [Mutability](./../mutability/)  [Immutability](./../immutability/) [Sequence Types in Detail](./../sequence-types-in-detail/) [Dictionary Methods](./../dictionary-methods/)

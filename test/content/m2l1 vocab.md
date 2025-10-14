@@ -1,4 +1,9 @@
-# [[arabic vocab lists]]
++++
+ title = 'm2l1 vocab'
+[params]
+	author = 'Carson West'
++++
+# [arabic vocab lists](./../arabic-vocab-lists/)
 
 |                                         |                         |           |
 | --------------------------------------- | ----------------------- | --------- |

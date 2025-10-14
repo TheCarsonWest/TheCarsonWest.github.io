@@ -1,4 +1,9 @@
-# [[arabic vocab lists]]
++++
+ title = 'm4l3 vocab'
+[params]
+	author = 'Carson West'
++++
+# [arabic vocab lists](./../arabic-vocab-lists/)
 # Module Four Lesson Three Vocabulary
 
 
@@ -58,7 +63,7 @@
 | **مُعظَم**                   | Most                         |
 | **الخَليجِ العَربي**         | The Arabic Gulf              |
 | **المُحيط الأَطلَسي**        | The Atlantic Ocean           |
-| **الحَرارةِ  المُرتَفعَة**   | The high [[Temperature]]         |
+| **الحَرارةِ  المُرتَفعَة**   | The high [Temperature](./../temperature/)         |
 | **قِلَة - قَليل**            | Few                          |
 | **إقلِيم البَحر المُتوسِط**  | Mediterranean Region         |
 | **شمالاً**                   | North                        |

@@ -1,3 +1,8 @@
++++
+ title = 'Agricultural Revolution'
+[params]
+	author = 'Carson West'
++++
 Here is my archaic notes on this subject, make them more more and thourough.
 
 - First agricultural reovlution

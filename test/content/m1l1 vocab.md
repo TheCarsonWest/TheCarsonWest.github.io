@@ -1,5 +1,10 @@
++++
+ title = 'm1l1 vocab'
+[params]
+	author = 'Carson West'
++++
 
-[[arabic vocab lists]]
+[arabic vocab lists](./../arabic-vocab-lists/)
 
 
 | **English Translation**                 | **Arabic word / phrase**                   |

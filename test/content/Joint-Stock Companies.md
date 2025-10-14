@@ -1,3 +1,8 @@
++++
+ title = 'Joint-Stock Companies'
+[params]
+	author = 'Carson West'
++++
 # APUSH Notecard: Joint-Stock Companies
 ## Period 1: 1491-1607
 

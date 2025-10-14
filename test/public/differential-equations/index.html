@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Differential Equations | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Differential Equations</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<h1 id="differential-equations">Differential Equations</h1>
+<h2 id="i-introduction-to-differential-equations">I. Introduction to Differential Equations</h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A differential equation is an equation that relates a function to its derivatives.  In AP Calculus AB, we primarily focus on first-order differential equations, meaning they involve the first derivative.</p>
+</li>
+<li>
+<p><strong>General Form:</strong> A first-order differential equation can often be written in the form:</p>
+<p>$ \qquad \frac{dy}{dx} = f(x, y) $</p>
+</li>
+<li>
+<p><strong>Goal:</strong> The goal is to find a function  $ y = f(x) $  that satisfies the differential equation. This function is called a solution to the differential equation.</p>
+</li>
+<li>
+<p><strong>Types of Solutions:</strong></p>
+<ul>
+<li><strong>General Solution:</strong>  Contains an arbitrary constant (usually &lsquo;C&rsquo;). Represents a family of solutions.</li>
+<li><strong>Particular Solution:</strong> Obtained by finding the value of the arbitrary constant &lsquo;C&rsquo; using an initial condition.</li>
+</ul>
+</li>
+</ul>
+<h2 id="ii-solving-differential-equations-separation-of-variables-">II. Solving Differential Equations: Separation of Variables ***</h2>
+<ul>
+<li>
+<p><strong>Method:</strong> Separation of Variables is a technique used to solve certain types of first-order differential equations. It works when the equation can be written in the form:</p>
+<p>$ \qquad \frac{dy}{dx} = g(x)h(y) $</p>
+</li>
+<li>
+<p><strong>Steps:</strong></p>
+<ol>
+<li>
+<p><strong>Separate the Variables:</strong>  Rewrite the equation so that all terms involving &lsquo;y&rsquo; and &lsquo;dy&rsquo; are on one side, and all terms involving &lsquo;x&rsquo; and &lsquo;dx&rsquo; are on the other side.</p>
+<p>$ \qquad \frac{dy}{h(y)} = g(x) dx $</p>
+</li>
+<li>
+<p><strong>Integrate Both Sides:</strong> Integrate both sides of the equation with respect to their respective variables. Remember to include the constant of integration (+C) on one side (usually the side with &lsquo;x&rsquo;).</p>
+<p>$ \qquad \int \frac{dy}{h(y)} = \int g(x) dx + C $</p>
+</li>
+<li>
+<p><strong>Solve for y:</strong>  Solve the resulting equation for &lsquo;y&rsquo; in terms of &lsquo;x&rsquo;. This gives you the general solution.</p>
+</li>
+<li>
+<p><strong>Apply Initial Condition (if given):</strong> If an initial condition is provided (e.g., y(0) = 2), substitute the values of &lsquo;x&rsquo; and &lsquo;y&rsquo; into the general solution to solve for the constant &lsquo;C&rsquo;.  This gives you the particular solution.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>Example:</p>
+<p>Solve the differential equation  $ \frac{dy}{dx} = xy $  with the initial condition  $ y(0) = 2 $ .</p>
+<ol>
+<li>
+<p><strong>Separate:</strong>  $ \frac{dy}{y} = x dx $</p>
+</li>
+<li>
+<p><strong>Integrate:</strong>  $ \int \frac{dy}{y} = \int x dx + C $   which gives   $ \ln|y| = \frac{1}{2}x^2 + C $</p>
+</li>
+<li>
+<p><strong>Solve for y:</strong>  $ e^{\ln|y|} = e^{\frac{1}{2}x^2 + C} $  , so  $ |y| = e^{\frac{1}{2}x^2}e^C $ . We can write  $ y = Ae^{\frac{1}{2}x^2} $ , where  $ A = \pm e^C $ .</p>
+</li>
+<li>
+<p><strong>Apply Initial Condition:</strong>  $ y(0) = 2 $ , so  $ 2 = Ae^{\frac{1}{2}(0)^2} = A(1) $ .  Therefore,  $ A = 2 $ .</p>
+<p>The particular solution is  $ y = 2e^{\frac{1}{2}x^2} $ .</p>
+</li>
+</ol>
+<p><a href="./../integration-techniques/">Integration Techniques</a>
+<a href="./../absolute-values-in-integration/">Absolute Values in Integration</a>
+<a href="./../solving-for-c/">Solving for C</a></p>
+<h2 id="iii-slope-fields-">III. Slope Fields ***</h2>
+<ul>
+<li>
+<p><strong>Definition:</strong> A slope field (also called a direction field) is a graphical representation of the solutions to a first-order differential equation. At each point (x, y) in the plane, a small line segment (or arrow) is drawn with a slope equal to the value of   $ \frac{dy}{dx} $   at that point.</p>
+</li>
+<li>
+<p><strong>Interpretation:</strong> The slope field visually shows the direction that solutions to the differential equation would take at different points in the plane.  You can sketch solution curves by following the &ldquo;flow&rdquo; of the slope field.</p>
+</li>
+<li>
+<p><strong>Construction:</strong></p>
+<ol>
+<li>Choose a grid of points (x, y) in the plane.</li>
+<li>For each point (x, y), evaluate   $ \frac{dy}{dx} $   using the given differential equation.</li>
+<li>Draw a short line segment at (x, y) with the slope you calculated.</li>
+</ol>
+</li>
+<li>
+<p><strong>Using Slope Fields:</strong></p>
+<ul>
+<li><strong>Sketching Solutions:</strong> Given an initial condition, start at the corresponding point on the slope field and follow the direction of the line segments to sketch a solution curve.</li>
+<li><strong>Qualitative Analysis:</strong>  Slope fields can help you understand the general behavior of solutions, such as where solutions are increasing, decreasing, or constant. They can also help identify equilibrium solutions (where  $ \frac{dy}{dx} = 0 $ ).</li>
+</ul>
+</li>
+</ul>
+<p><a href="./../equilibrium-solutions/">Equilibrium Solutions</a>
+<a href="./../sketching-on-slope-fields/">Sketching on Slope Fields</a></p>
+<h2 id="iv-exponential-growth-and-decay-">IV. Exponential Growth and Decay ***</h2>
+<ul>
+<li>
+<p><strong>Differential Equation:</strong> The classic differential equation for exponential growth and decay is:</p>
+<p>$ \qquad \frac{dy}{dt} = ky $</p>
+<p>where:</p>
+<ul>
+<li>&lsquo;y&rsquo; represents the quantity that is growing or decaying.</li>
+<li>&rsquo;t&rsquo; represents time.</li>
+<li>&lsquo;k&rsquo; is the constant of proportionality.  If k &gt; 0, it represents growth; if k &lt; 0, it represents decay.</li>
+</ul>
+</li>
+<li>
+<p><strong>Solution:</strong> The general solution to this differential equation is:</p>
+<p>$ \qquad y(t) = y_0e^{kt} $</p>
+<p>where:</p>
+<ul>
+<li>$ y(t) $  is the amount at time &rsquo;t&rsquo;.</li>
+<li>$ y_0 $  is the initial amount (at t = 0).</li>
+</ul>
+</li>
+<li>
+<p><strong>Applications:</strong></p>
+<ul>
+<li><strong>Population Growth:</strong> Modeling the growth of populations (e.g., bacteria, animals).</li>
+<li><strong>Radioactive Decay:</strong> Modeling the decay of radioactive substances.</li>
+<li><strong>Compound Interest:</strong>  Modeling the growth of investments with continuous compounding.</li>
+<li><strong>Newton&rsquo;s Law of Cooling:</strong>  Modeling the temperature change of an object as it cools or warms.</li>
+</ul>
+</li>
+<li>
+<p><strong>Half-Life:</strong> For exponential decay, the half-life is the time it takes for the quantity to reduce to half its initial value. If  $ T $  is the half-life, then:</p>
+<p>$ \qquad e^{kT} = \frac{1}{2} $</p>
+<p>Taking the natural logarithm of both sides gives:</p>
+<p>$ \qquad kT = \ln\left(\frac{1}{2}\right) = -\ln(2) $</p>
+<p>So,   $ T = \frac{-\ln</p>
+</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

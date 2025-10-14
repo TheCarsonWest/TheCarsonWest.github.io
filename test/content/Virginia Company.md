@@ -1,3 +1,8 @@
++++
+ title = 'Virginia Company'
+[params]
+	author = 'Carson West'
++++
 ## APUSH Period 1: Virginia Company (1491-1607)
 
 ---

@@ -1,5 +1,10 @@
-# [[Handling Binary Files]]
-# [[Byte Order and Endianness]] 
++++
+ title = 'Byte Order and Endianness'
+[params]
+	author = 'Carson West'
++++
+# [Handling Binary Files](./../handling-binary-files/)
+# [Byte Order and Endianness](./../byte-order-and-endianness/) 
 This note covers byte order and endianness in Python.
 
 Python, being a high-level language, mostly abstracts away the details of byte order.  However, understanding endianness is crucial when working with binary data, network programming, or interacting with lower-level systems.
@@ -56,7 +61,7 @@ print(hex(unpacked_little)) # Output: 0x12345678
 
 ```
 
-**[[Python Struct Module]]**  ([[Byte Order in Network Programming]])
+**[Python Struct Module](./../python-struct-module/)**  ([Byte Order in Network Programming](./../byte-order-in-network-programming/))
 
 
 **Determining Your System's Endianness:**
