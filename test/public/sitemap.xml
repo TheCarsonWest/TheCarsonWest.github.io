@@ -166,6 +166,8 @@
   </url><url>
     <loc>http://example.org/arabic-vocab-lists/</loc>
   </url><url>
+    <loc>http://example.org/arc-lengths-of-parametric-equations/</loc>
+  </url><url>
     <loc>http://example.org/area-between-two-curves/</loc>
   </url><url>
     <loc>http://example.org/area-formulas-for-common-shapes/</loc>
@@ -297,6 +299,10 @@
     <loc>http://example.org/calc-rules-and-theorems/</loc>
   </url><url>
     <loc>http://example.org/calc-rundown/</loc>
+  </url><url>
+    <loc>http://example.org/calculus-and-polar-coordinates/</loc>
+  </url><url>
+    <loc>http://example.org/calculus-and-vector-valued-functions/</loc>
   </url><url>
     <loc>http://example.org/calculus-limits/</loc>
   </url><url>
@@ -570,6 +576,8 @@
   </url><url>
     <loc>http://example.org/differential-equations/</loc>
   </url><url>
+    <loc>http://example.org/differentiating-parametric-equations/</loc>
+  </url><url>
     <loc>http://example.org/diffusion-of-culture/</loc>
   </url><url>
     <loc>http://example.org/dilution-calculations/</loc>
@@ -714,6 +722,10 @@
   </url><url>
     <loc>http://example.org/finding-reaction-order/</loc>
   </url><url>
+    <loc>http://example.org/finding-taylor-approximations/</loc>
+  </url><url>
+    <loc>http://example.org/finding-taylor-or-maclaurin-series-for-a-function/</loc>
+  </url><url>
     <loc>http://example.org/fireside-chats/</loc>
   </url><url>
     <loc>http://example.org/first-continental-congress/</loc>
@@ -762,6 +774,10 @@
   </url><url>
     <loc>http://example.org/frequency-and-period-of-shm/</loc>
   </url><url>
+    <loc>http://example.org/frictionless-cart-lab-report/</loc>
+  </url><url>
+    <loc>http://example.org/frictionless-cart-lab-report-1/</loc>
+  </url><url>
     <loc>http://example.org/frozen-sets/</loc>
   </url><url>
     <loc>http://example.org/fugitive-slave-act/</loc>
@@ -797,6 +813,10 @@
     <loc>http://example.org/gentrification/</loc>
   </url><url>
     <loc>http://example.org/geographic-scale/</loc>
+  </url><url>
+    <loc>http://example.org/geometric-series/</loc>
+  </url><url>
+    <loc>http://example.org/geometric-series--the-nth-term-test/</loc>
   </url><url>
     <loc>http://example.org/george-h.-w.-bush/</loc>
   </url><url>
@@ -843,6 +863,8 @@
     <loc>http://example.org/graphical-representations-of-summary-statistics/</loc>
   </url><url>
     <loc>http://example.org/gravitational-force/</loc>
+  </url><url>
+    <loc>http://example.org/gravitational-force-lab-report/</loc>
   </url><url>
     <loc>http://example.org/great-awakening/</loc>
   </url><url>
@@ -974,6 +996,8 @@
   </url><url>
     <loc>http://example.org/infinite-loops/</loc>
   </url><url>
+    <loc>http://example.org/infinite-sequences-and-series/</loc>
+  </url><url>
     <loc>http://example.org/inflection-points/</loc>
   </url><url>
     <loc>http://example.org/inheritance/</loc>
@@ -1096,7 +1120,11 @@
   </url><url>
     <loc>http://example.org/korean-war/</loc>
   </url><url>
+    <loc>http://example.org/lab-report/</loc>
+  </url><url>
     <loc>http://example.org/labor-unions/</loc>
+  </url><url>
+    <loc>http://example.org/lagrange-error-bound/</loc>
   </url><url>
     <loc>http://example.org/laissez-faire-government/</loc>
   </url><url>
@@ -1258,8 +1286,6 @@
   </url><url>
     <loc>http://example.org/millard-fillmore/</loc>
   </url><url>
-    <loc>http://example.org/minecraft-boat-math/</loc>
-  </url><url>
     <loc>http://example.org/minnesota/</loc>
   </url><url>
     <loc>http://example.org/mississippi/</loc>
@@ -1285,6 +1311,8 @@
     <loc>http://example.org/moral-majority/</loc>
   </url><url>
     <loc>http://example.org/motion-of-orbiting-satellites/</loc>
+  </url><url>
+    <loc>http://example.org/motion-problems-with-parametric-and-vector-valued-functions/</loc>
   </url><url>
     <loc>http://example.org/movement-functions-with-integrals/</loc>
   </url><url>
@@ -1381,6 +1409,8 @@
     <loc>http://example.org/numpy-random-number-generation/</loc>
   </url><url>
     <loc>http://example.org/object-instantiation/</loc>
+  </url><url>
+    <loc>http://example.org/obsidian/</loc>
   </url><url>
     <loc>http://example.org/octet/</loc>
   </url><url>
@@ -1560,6 +1590,8 @@
   </url><url>
     <loc>http://example.org/radical-republicans/</loc>
   </url><url>
+    <loc>http://example.org/radius-and-interval-of-convergence/</loc>
+  </url><url>
     <loc>http://example.org/ragtime-music/</loc>
   </url><url>
     <loc>http://example.org/random-sampling-and-a-collection/</loc>
@@ -1641,6 +1673,8 @@
     <loc>http://example.org/representing-a-quantitative-variable-with-graphs/</loc>
   </url><url>
     <loc>http://example.org/representing-and-analyzing-shm/</loc>
+  </url><url>
+    <loc>http://example.org/representing-functions-as-power-series/</loc>
   </url><url>
     <loc>http://example.org/representing-motion/</loc>
   </url><url>
@@ -1894,11 +1928,17 @@
   </url><url>
     <loc>http://example.org/the-american-system/</loc>
   </url><url>
+    <loc>http://example.org/the-area-between-polar-curves/</loc>
+  </url><url>
+    <loc>http://example.org/the-area-within-a-polar-curve/</loc>
+  </url><url>
     <loc>http://example.org/the-assassination-of-abraham-lincoln/</loc>
   </url><url>
     <loc>http://example.org/the-central-limit-theorem/</loc>
   </url><url>
     <loc>http://example.org/the-geometric-distribution/</loc>
+  </url><url>
+    <loc>http://example.org/the-integral-test/</loc>
   </url><url>
     <loc>http://example.org/the-jungle/</loc>
   </url><url>
@@ -2039,6 +2079,16 @@
     <loc>http://example.org/universal-gas-constant/</loc>
   </url><url>
     <loc>http://example.org/unrestricted-submarine-warfare/</loc>
+  </url><url>
+    <loc>http://example.org/untitled/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-1/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-2/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-3/</loc>
+  </url><url>
+    <loc>http://example.org/untitled-4/</loc>
   </url><url>
     <loc>http://example.org/urbanization/</loc>
   </url><url>

@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Motion Problems with Parametric and Vector-Valued Functions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Motion Problems with Parametric and Vector-Valued Functions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc Home</a></h1>
+<h1 id="ap-calculus-bc-notes-motion-problems-with-parametric-and-vector-valued-functions">AP Calculus BC Notes: Motion Problems with Parametric and Vector-Valued Functions</h1>
+<p>This topic extends motion analysis from single-variable calculus to objects moving along paths defined parametrically or by vector-valued functions, typically in a 2D plane. It integrates concepts from <a href="./../differentiating-parametric-equations/">Differentiating Parametric Equations</a> and <a href="./../calculus-and-vector-valued-functions/">Calculus and Vector-Valued Functions</a>.</p>
+<h2 id="1-position-velocity-and-acceleration">1. Position, Velocity, and Acceleration</h2>
+<p>For a particle moving in the  $ xy $ -plane, its position at time  $ t $  can be described by:</p>
+<ul>
+<li><strong>Parametric Equations:</strong>  $ x = f(t) $  and  $ y = g(t) $</li>
+<li><strong>Vector-Valued Function:</strong>  $ \mathbf{r}(t) = \langle x(t), y(t) \rangle $  or  $ \mathbf{r}(t) = x(t)\mathbf{i} + y(t)\mathbf{j} $</li>
+</ul>
+<h3 id="11-velocity-vector">1.1. Velocity Vector</h3>
+<p>The velocity vector describes the instantaneous rate of change of position. It is the derivative of the position vector with respect to time.</p>
+<p>If  $ \mathbf{r}(t) = \langle x(t), y(t) \rangle $ , then the velocity vector is:
+$$  \mathbf{v}(t) = \mathbf{r}&rsquo;(t) = \langle x&rsquo;(t), y&rsquo;(t) \rangle = \left\langle \frac{dx}{dt}, \frac{dy}{dt} \right\rangle  $$  Here,  $ x&rsquo;(t) $  is the horizontal component of velocity, and  $ y&rsquo;(t) $  is the vertical component of velocity.</p>
+<h3 id="12-acceleration-vector">1.2. Acceleration Vector</h3>
+<p>The acceleration vector describes the instantaneous rate of change of the velocity vector. It is the derivative of the velocity vector (or the second derivative of the position vector) with respect to time.</p>
+<p>If  $ \mathbf{v}(t) = \langle x&rsquo;(t), y&rsquo;(t) \rangle $ , then the acceleration vector is:
+$$  \mathbf{a}(t) = \mathbf{v}&rsquo;(t) = \mathbf{r}&rsquo;&rsquo;(t) = \langle x&rsquo;&rsquo;(t), y&rsquo;&rsquo;(t) \rangle = \left\langle \frac{d^2x}{dt^2}, \frac{d^2y}{dt^2} \right\rangle  $$</p>
+<h2 id="2-speed">2. Speed</h2>
+<p>Speed is the magnitude of the velocity vector. It is a scalar quantity and is always non-negative.</p>
+<p>For  $ \mathbf{v}(t) = \langle x&rsquo;(t), y&rsquo;(t) \rangle $ , the speed is given by:
+$$  \text{Speed} = ||\mathbf{v}(t)|| = \sqrt{(x&rsquo;(t))^2 + (y&rsquo;(t))^2}  $$<br>
+<strong>Key Point:</strong> If the particle is at rest, its speed is 0, which implies  $ x&rsquo;(t) = 0 $  and  $ y&rsquo;(t) = 0 $ .</p>
+<h2 id="3-direction-of-motion">3. Direction of Motion</h2>
+<p>The direction of motion at any point is given by the direction of the velocity vector. The slope of the tangent line to the path at time  $ t $  is given by:
+$$  \frac{dy}{dx} = \frac{dy/dt}{dx/dt}  $$  provided  $ dx/dt \neq 0 $ . This is a direct application of <a href="./../differentiating-parametric-equations/">Differentiating Parametric Equations</a>.</p>
+<h2 id="4-total-distance-traveled-arc-length">4. Total Distance Traveled (Arc Length)</h2>
+<p>The total distance a particle travels along its path from time  $ t=a $  to  $ t=b $  is the arc length of the path over that interval. This is calculated by integrating the speed function.</p>
+<p>$$  \text{Total Distance} = \int_a^b ||\mathbf{v}(t)|| , dt = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} , dt  $$  This formula is consistent with the general formula for <a href="./../arc-lengths-of-parametric-equations/">Arc Lengths of Parametric Equations</a>.</p>
+<h2 id="5-displacement">5. Displacement</h2>
+<p>Displacement refers to the net change in position from an initial time  $ t=a $  to a final time  $ t=b $ . It is a vector quantity.</p>
+<p>If the initial position is  $ \mathbf{r}(a) = \langle x(a), y(a) \rangle $  and the final position is  $ \mathbf{r}(b) = \langle x(b), y(b) \rangle $ , then the displacement vector is:
+$$  \Delta \mathbf{r} = \mathbf{r}(b) - \mathbf{r}(a) = \left\langle \int_a^b x&rsquo;(t) , dt, \int_a^b y&rsquo;(t) , dt \right\rangle  $$  The net change in  $ x $ -position is  $ \int_a^b x&rsquo;(t) , dt = x(b) - x(a) $ .
+The net change in  $ y $ -position is  $ \int_a^b y&rsquo;(t) , dt = y(b) - y(a) $ .</p>
+<h2 id="6-integrals-to-find-position">6. Integrals to Find Position</h2>
+<p>If you are given the initial position  $ \mathbf{r}(t_0) = \langle x(t_0), y(t_0) \rangle $  and the velocity vector  $ \mathbf{v}(t) = \langle x&rsquo;(t), y&rsquo;(t) \rangle $ , you can find the position at any time  $ t $  using integration:</p>
+<p>$$  x(t) = x(t_0) + \int_{t_0}^t x&rsquo;(u) , du  $$   $$  y(t) = y(t_0) + \int_{t_0}^t y&rsquo;(u) , du  $$  Thus,
+$$  \mathbf{r}(t) = \left\langle x(t_0) + \int_{t_0}^t x&rsquo;(u) , du, y(t_0) + \int_{t_0}^t y&rsquo;(u) , du \right\rangle  $$<br>
+Similarly, if given initial velocity and acceleration, you can integrate acceleration to find velocity.</p>
+<h2 id="7-describing-motion">7. Describing Motion</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quantity</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">Vector/Scalar</th>
+          <th style="text-align: left">Formula</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Position</strong></td>
+          <td style="text-align: left">Location of the particle at time  $ t $ .</td>
+          <td style="text-align: left">Vector</td>
+          <td style="text-align: left">$ \mathbf{r}(t) = \langle x(t), y(t) \rangle $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Velocity</strong></td>
+          <td style="text-align: left">Rate of change of position; tangent to the path.</td>
+          <td style="text-align: left">Vector</td>
+          <td style="text-align: left">$ \mathbf{v}(t) = \langle x&rsquo;(t), y&rsquo;(t) \rangle $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Acceleration</strong></td>
+          <td style="text-align: left">Rate of change of velocity.</td>
+          <td style="text-align: left">Vector</td>
+          <td style="text-align: left">$ \mathbf{a}(t) = \langle x&rsquo;&rsquo;(t), y&rsquo;&rsquo;(t) \rangle $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Speed</strong></td>
+          <td style="text-align: left">Magnitude of the velocity vector.</td>
+          <td style="text-align: left">Scalar</td>
+          <td style="text-align: left">$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Slope of Path</strong></td>
+          <td style="text-align: left">Direction of motion (tangent line to path).</td>
+          <td style="text-align: left">Scalar</td>
+          <td style="text-align: left">$ \frac{dy}{dx} = \frac{dy/dt}{dx/dt} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Total Distance</strong></td>
+          <td style="text-align: left">Length of path traveled.</td>
+          <td style="text-align: left">Scalar</td>
+          <td style="text-align: left">$ \int_a^b</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Displacement</strong></td>
+          <td style="text-align: left">Net change in position (vector from start to end).</td>
+          <td style="text-align: left">Vector</td>
+          <td style="text-align: left">$ \mathbf{r}(b) - \mathbf{r}(a) $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="when-is-a-particle-moving-updown-leftrightwhen-is-a-particle-moving-updown-leftright"><a href="./../when-is-a-particle-moving-up/down,-left/right?/">When is a Particle Moving Up/Down, Left/Right?</a></h2>
+<p>A particle moves <strong>right</strong> when  $ x&rsquo;(t) &gt; 0 $ .
+A particle moves <strong>left</strong> when  $ x&rsquo;(t) &lt; 0 $ .
+A particle moves <strong>up</strong> when  $ y&rsquo;(t) &gt; 0 $ .
+A particle moves <strong>down</strong> when  $ y&rsquo;(t) &lt; 0 $ .</p>
+<p>A particle stops moving horizontally when  $ x&rsquo;(t) = 0 $ .
+A particle stops moving vertically when  $ y&rsquo;(t) = 0 $ .</p>
+<h2 id="particle-direction-changeparticle-direction-change"><a href="./../particle-direction-change/">Particle Direction Change</a></h2>
+<p>For a particle to change horizontal direction,  $ x&rsquo;(t) $  must change sign.
+For a particle to change vertical direction,  $ y&rsquo;(t) $  must change sign.
+For a particle to change direction along its path, its velocity vector must point in a new general direction. This typically involves at least one of  $ x&rsquo;(t) $  or  $ y&rsquo;(t) $  changing sign, or both reversing direction.</p>
+<h2 id="projectile-motionprojectile-motion"><a href="./../projectile-motion/">Projectile Motion</a></h2>
+<p>Projectile motion often involves parametric equations with constant acceleration due to gravity.
+If an object is launched from height  $ h $  with initial velocity  $ \mathbf{v}0 = \langle v{0x}, v_{0y} \rangle = \langle ||\mathbf{v}_0||\cos\theta, ||\mathbf{v}_0||\sin\theta \rangle $ , where  $ \theta $  is the launch angle, and acceleration due to gravity is  $ a_y = -g $ :</p>
+<ul>
+<li>$ \mathbf{a}(t) = \langle 0, -g \rangle $</li>
+<li>$ \mathbf{v}(t) = \langle v_{0x}, v_{0y} - gt \rangle $</li>
+<li>$ \mathbf{r}(t) = \langle x_0 + v_{0x}t, y_0 + v_{0y}t - \frac{1}{2}gt^2 \rangle $</li>
+</ul>
+<p>Here,  $ x_0 $  and  $ y_0 $  are initial horizontal and vertical positions (often  $ x_0=0, y_0=h $ ).</p>
+
+</main>
+
+
+  </body>
+</html>
+
