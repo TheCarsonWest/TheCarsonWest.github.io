@@ -33,7 +33,7 @@
 - 12.1: [Magnetic Fields](./../magnetic-fields/)
 - 12.2: [Magnetism and Moving Charges](./../magnetism-and-moving-charges/)
 - 12.3: [Magnetism and Current-Carrying Wires](./../magnetism-and-current-carrying-wires/)
-- 12.4: [Electromagnetic Induction and Faraday's Law](./../electromagnetic-induction-and-faraday's-law/)
+- 12.4: [Electromagnetic Induction and Faradays Law](./../electromagnetic-induction-and-faradays-law/)
 ## Unit 13: Geometric Optics** (12-15%)
 - 13.1: [Reflection](./../reflection/)
 - 13.2: [Images Formed by Mirrors](./../images-formed-by-mirrors/)

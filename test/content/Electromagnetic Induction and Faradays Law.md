@@ -1,13 +1,9 @@
 +++
- title = 'Electromagnetic Induction and Faraday's Law'
+ title = 'Electromagnetic Induction and Faradays Law'
 [params]
 	author = 'Carson West'
 +++
-
 # [AP Physics C Home](./../ap-physics-c-home/)
-# Electromagnetic Induction and Faraday's Law
-
-Electromagnetic induction is the phenomenon where a changing magnetic environment creates an electromotive force (EMF), which can drive current in a circuit. This discovery, primarily credited to Michael Faraday, is the foundational principle behind electric generators, transformers, and inductors.
 
 ## Magnetic Flux
 Before defining Faraday's Law, one must understand [Magnetic Flux](./../magnetic-flux/). Magnetic flux ( $ \Phi_B $ ) measures the amount of magnetic field passing through a specific surface area. It is defined by the dot product of the magnetic field vector and the area vector:
