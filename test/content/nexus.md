@@ -7,8 +7,10 @@
 node_size: "100"
 ---
 # See [README](./../readme/)
+# More
+# [AP Physics C Home](./../ap-physics-c-home/)
 # 2025-2026
-# [AP Physics Home](./../ap-physics-home/)
+# [AP Physics 1 Home](./../ap-physics-1-home/)
 ## [AP Stats Home](./../ap-stats-home/)
 
 # 2024-2025

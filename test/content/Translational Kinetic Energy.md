@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [AP Physics 1 Home](./../ap-physics-1-home/)
 # AP Physics 1: Translational Kinetic Energy
 
 ## Introduction to Translational Kinetic Energy
@@ -16,11 +16,11 @@ This energy is a measure of the work an object can do by virtue of its motion, o
 The translational kinetic energy ( $ K $ ) of an object is directly proportional to its mass ( $ m $ ) and the square of its speed ( $ v $ ).
  $$  K = \frac{1}{2}mv^2
  $$  Where:
-*    $ K $  is the translational kinetic energy.
-*    $ m $  is the mass of the object.
-*    $ v $  is the speed of the object (magnitude of its velocity).
+*   $ K $ is the translational kinetic energy.
+*   $ m $ is the mass of the object.
+*   $ v $ is the speed of the object (magnitude of its velocity).
 
-It's important to note that since speed ( $ v $ ) is squared, the direction of motion does not affect the kinetic energy. An object moving at  $ 10 \text{ m/s} $  to the east has the same kinetic energy as an identical object moving at  $ 10 \text{ m/s} $  to the west.
+It's important to note that since speed ( $ v $ ) is squared, the direction of motion does not affect the kinetic energy. An object moving at $ 10 \text{ m/s} $ to the east has the same kinetic energy as an identical object moving at $ 10 \text{ m/s} $ to the west.
 ## Units of Translational Kinetic Energy
 
 The standard SI unit for energy, including kinetic energy, is the **Joule** (J).
@@ -30,10 +30,10 @@ One Joule is defined as:
 
 ## Key Characteristics of Translational Kinetic Energy
 
-*   **Scalar Quantity**: As mentioned, kinetic energy has no direction. It is always a non-negative value. An object at rest ( $ v=0 $ ) has  $ 0 \text{ J} $  of kinetic energy.
+*   **Scalar Quantity**: As mentioned, kinetic energy has no direction. It is always a non-negative value. An object at rest ( $ v=0 $ ) has $ 0 \text{ J} $ of kinetic energy.
 *   **Dependence on Mass and Speed**:
     *   Doubling the mass of an object will double its kinetic energy (assuming constant speed).
-    *   Doubling the speed of an object will quadruple its kinetic energy (since  $ v $  is squared). This implies that speed has a much greater impact on kinetic energy than mass.
+    *   Doubling the speed of an object will quadruple its kinetic energy (since $ v $ is squared). This implies that speed has a much greater impact on kinetic energy than mass.
 *   **Reference Frame Dependence**: The speed of an object is relative to a [Reference Frames and Relative Motion|reference frame](./../reference-frames-and-relative-motion|reference-frame/). Therefore, its kinetic energy is also relative to that same reference frame. For example, a person sitting in a moving train has zero kinetic energy relative to the train, but significant kinetic energy relative to the ground.
 
 ## Connection to the Work-Energy Theorem
@@ -47,8 +47,8 @@ Translational kinetic energy is intimately linked to [Work](./../work/). The [Wo
 | Characteristic           | Description                                                                            |
 | :----------------------- | :------------------------------------------------------------------------------------- |
 | **Definition**           | Energy due to an object's translational motion.                                        |
-| **Formula**              |  $ K = \frac{1}{2}mv^2 $                                                                   |
-| **SI Unit**              | Joule (J) or  $ \text{kg} \cdot \text{m}^2/\text{s}^2 $                                    |
+| **Formula**              | $ K = \frac{1}{2}mv^2 $                                                                  |
+| **SI Unit**              | Joule (J) or $ \text{kg} \cdot \text{m}^2/\text{s}^2 $                                   |
 | **Type of Quantity**     | Scalar (magnitude only)                                                                |
 | **Dependence**           | Directly proportional to mass ( $ m $ ), proportional to the square of speed ( $ v $ ).        |
 | **Relationship to Work** | Change in kinetic energy equals the net work done on an object ( $ W_{net} = \Delta K $ ). |

@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [AP Physics 1 Home](./../ap-physics-1-home/)
 # AP Physics Note Page: Topic 2.2 Forces and Free-Body Diagrams
 
 ## Introduction to Forces
@@ -22,25 +22,25 @@ Here are some common types of forces encountered in AP Physics:
 
 | Force Type          | Symbol   | Description                                                                                              |
 | :------------------ | :------- | :------------------------------------------------------------------------------------------------------- |
-| **Applied Force**   |  $ F_A $     | A force directly applied to an object by a person or another object.                                     |
-| **Normal Force**    |  $ F_N $     | A contact force perpendicular to the surface of contact, preventing objects from passing through surfaces. |
-| **Friction Force**  |  $ F_f $     | A contact force parallel to the surface, opposing relative motion or its tendency.                       |
-| **Tension Force**   |  $ F_T $     | The force transmitted through a string, rope, cable, or wire when pulled tight.                          |
-| **Gravitational Force** |  $ F_g $  (or  $ W $ ) | The attractive force between any two objects with mass. On Earth, it's an object's weight.               |
-| **Spring Force**    |  $ F_s $     | The restorative force exerted by a spring, proportional to its displacement from equilibrium.            |
+| **Applied Force**   | $ F_A $    | A force directly applied to an object by a person or another object.                                     |
+| **Normal Force**    | $ F_N $    | A contact force perpendicular to the surface of contact, preventing objects from passing through surfaces. |
+| **Friction Force**  | $ F_f $    | A contact force parallel to the surface, opposing relative motion or its tendency.                       |
+| **Tension Force**   | $ F_T $    | The force transmitted through a string, rope, cable, or wire when pulled tight.                          |
+| **Gravitational Force** | $ F_g $ (or $ W $ ) | The attractive force between any two objects with mass. On Earth, it's an object's weight.               |
+| **Spring Force**    | $ F_s $    | The restorative force exerted by a spring, proportional to its displacement from equilibrium.            |
 
 For more details on specific forces, see [Gravitational Force](./../gravitational-force/) and [Spring Forces](./../spring-forces/).
 
 ## Net Force
 
-The **net force** ( $ \Sigma \vec{F} $  or  $ \vec{F}_{net} $ ) on an object is the vector sum of all individual forces acting on it. It determines the object's acceleration according to [Newton’s Second Law](./../newton’s-second-law/).
+The **net force** ( $ \Sigma \vec{F} $ or $ \vec{F}_{net} $ ) on an object is the vector sum of all individual forces acting on it. It determines the object's acceleration according to [Newton’s Second Law](./../newton’s-second-law/).
 
-Mathematically, if multiple forces  $ \vec{F_1}, \vec{F_2}, ..., \vec{F_n} $  act on an object:
+Mathematically, if multiple forces $ \vec{F_1}, \vec{F_2}, ..., \vec{F_n} $ act on an object:
  $$  \vec{F}_{net} = \sum \vec{F} = \vec{F_1} + \vec{F_2} + ... + \vec{F_n}
  $$  In component form, for 2D motion:
  $$  \sum F_x = F_{1x} + F_{2x} + ... + F_{nx}
  $$   $$  \sum F_y = F_{1y} + F_{2y} + ... + F_{ny}
- $$  The magnitude of the net force is  $ |\vec{F}_{net}| = \sqrt{(\sum F_x)^2 + (\sum F_y)^2} $ .
+ $$  The magnitude of the net force is $ |\vec{F}_{net}| = \sqrt{(\sum F_x)^2 + (\sum F_y)^2} $ .
 
 ## Free-Body Diagrams (FBDs)
 
@@ -57,7 +57,7 @@ Mathematically, if multiple forces  $ \vec{F_1}, \vec{F_2}, ..., \vec{F_n} $  ac
     *   Is something pushing or pulling it directly? (Applied force)
     *   Is it attached to a spring? (Spring force)
 4.  **Draw Force Vectors:** For each identified force, draw an arrow originating from the center of the object (or point mass) pointing in the direction of the force.
-    *   Label each vector clearly with its force symbol (e.g.,  $ F_g $ ,  $ F_N $ ,  $ F_T $ ).
+    *   Label each vector clearly with its force symbol (e.g., $ F_g $ , $ F_N $ , $ F_T $ ).
     *   The relative lengths of the arrows should roughly indicate the magnitudes of the forces.
 5.  **Establish a Coordinate System:** Draw an x-y coordinate system. Align one axis with the direction of acceleration if possible (e.g., parallel to an incline).
 
@@ -70,4 +70,4 @@ Consider a block resting on a rough inclined plane.
     *   **Normal Force ( $ F_N $ ):** Perpendicular to the inclined surface, pushing up and away from it.
     *   **Static Friction Force ( $ F_f $ ):** Parallel to the inclined surface, opposing the tendency of motion (up the incline if the block tends to slide down).
 
-The FBD would show these three arrows originating from the block, with  $ F_g $  pointing vertically down,  $ F_N $  perpendicular to the incline, and  $ F_f $  parallel to the incline. When analyzing,  $ F_g $  would typically be resolved into components parallel and perpendicular to the incline.
+The FBD would show these three arrows originating from the block, with $ F_g $ pointing vertically down, $ F_N $ perpendicular to the incline, and $ F_f $ parallel to the incline. When analyzing, $ F_g $ would typically be resolved into components parallel and perpendicular to the incline.

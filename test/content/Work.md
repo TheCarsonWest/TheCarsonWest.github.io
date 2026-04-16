@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [AP Physics 1 Home](./../ap-physics-1-home/)
 # Topic 3.2: Work
 
 Work is a fundamental concept in physics, representing the transfer of energy to or from an object by means of a force acting on that object. It's crucial for understanding how forces change the motion or configuration of systems.
@@ -23,10 +23,10 @@ The work ( $ W $ ) done by a constant force ( $ F $ ) on an object that undergoe
  $ W = F d \cos\theta $ 
 
 Where:
-*    $ W $  is the work done (a [Scalars and Vectors in One Dimension|scalar quantity](./../scalars-and-vectors-in-one-dimension|scalar-quantity/)).
-*    $ F $  is the magnitude of the constant force.
-*    $ d $  is the magnitude of the displacement.
-*    $ \theta $  is the angle between the force vector and the displacement vector.
+*   $ W $ is the work done (a [Scalars and Vectors in One Dimension|scalar quantity](./../scalars-and-vectors-in-one-dimension|scalar-quantity/)).
+*   $ F $ is the magnitude of the constant force.
+*   $ d $ is the magnitude of the displacement.
+*   $ \theta $ is the angle between the force vector and the displacement vector.
 
 ### Units of Work
 
@@ -35,13 +35,13 @@ The SI unit for work is the **Joule (J)**. One Joule is defined as the work done
 
 ## Positive, Negative, and Zero Work
 
-The sign of work depends on the angle  $ \theta $  between the force and displacement vectors:
+The sign of work depends on the angle $ \theta $ between the force and displacement vectors:
 
-| Angle ( $ \theta $ ) |  $ \cos\theta $  | Type of Work | Description                                                                        |
+| Angle ( $ \theta $ ) | $ \cos\theta $ | Type of Work | Description                                                                        |
 | :--------------- | :----------- | :----------- | :--------------------------------------------------------------------------------- |
-|  $ 0^\circ \le \theta < 90^\circ $  | Positive       | Positive Work  | Force has a component in the direction of motion, increasing the object's speed/energy. |
-|  $ \theta = 90^\circ $    | Zero         | Zero Work    | Force is perpendicular to the displacement (e.g., centripetal force in [Circular Motion](./../circular-motion/)). |
-|  $ 90^\circ < \theta \le 180^\circ $  | Negative       | Negative Work  | Force has a component opposite to the direction of motion, decreasing the object's speed/energy. |
+| $ 0^\circ \le \theta < 90^\circ $ | Positive       | Positive Work  | Force has a component in the direction of motion, increasing the object's speed/energy. |
+| $ \theta = 90^\circ $   | Zero         | Zero Work    | Force is perpendicular to the displacement (e.g., centripetal force in [Circular Motion](./../circular-motion/)). |
+| $ 90^\circ < \theta \le 180^\circ $ | Negative       | Negative Work  | Force has a component opposite to the direction of motion, decreasing the object's speed/energy. |
 
 **Examples:**
 *   **Positive Work:** Pushing a box across the floor in the direction of motion.
@@ -63,11 +63,11 @@ One of the most important applications of work is the [Work-Energy Theorem](./..
  $ W_{net} = \Delta K = K_f - K_i = \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 $ 
 
 Where:
-*    $ W_{net} $  is the net work done on the object.
-*    $ \Delta K $  is the change in the object's [Translational Kinetic Energy](./../translational-kinetic-energy/).
-*    $ m $  is the mass of the object.
-*    $ v_f $  is the final speed of the object.
-*    $ v_i $  is the initial speed of the object.
+*   $ W_{net} $ is the net work done on the object.
+*   $ \Delta K $ is the change in the object's [Translational Kinetic Energy](./../translational-kinetic-energy/).
+*   $ m $ is the mass of the object.
+*   $ v_f $ is the final speed of the object.
+*   $ v_i $ is the initial speed of the object.
 
 This theorem provides a powerful link between forces and changes in motion.
 
@@ -80,4 +80,4 @@ Work is directly related to energy transfer. When positive work is done on an ob
 For situations where the applied force is not constant, the work done must be calculated using calculus. If the force varies with position ( $ F(x) $ ), the work done is the area under the force-displacement graph:
 
  $ W = \int_{x_i}^{x_f} F(x) \, dx $ 
-This is particularly useful for forces like [Spring Forces](./../spring-forces/) where  $ F = -kx $ .
+This is particularly useful for forces like [Spring Forces](./../spring-forces/) where $ F = -kx $ .

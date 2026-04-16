@@ -3,7 +3,7 @@
 [params]
 	author = 'Carson West'
 +++
-# [AP Physics Home](./../ap-physics-home/)
+# [AP Physics 1 Home](./../ap-physics-1-home/)
 # AP Physics - Topic 4.1: Linear Momentum
 
 ## Introduction to Linear Momentum
@@ -12,7 +12,7 @@ Linear momentum is a fundamental concept in physics that describes the "quantity
 
 ## Definition and Formula
 
-Linear momentum, denoted by  $ \vec{p} $ , is defined as the product of an object's mass ( $ m $ ) and its velocity ( $ \vec{v} $ ).
+Linear momentum, denoted by $ \vec{p} $ , is defined as the product of an object's mass ( $ m $ ) and its velocity ( $ \vec{v} $ ).
 
  $ 
 \vec{p} = m\vec{v}
@@ -29,7 +29,7 @@ The SI unit for linear momentum is the kilogram-meter per second (kg·m/s). Ther
 
 ## Relationship to Newton's Second Law
 
-Linear momentum is directly linked to [Newton’s Second Law](./../newton’s-second-law/). While Newton's Second Law is often stated as  $ F = ma $ , its more fundamental form involves the rate of change of momentum.
+Linear momentum is directly linked to [Newton’s Second Law](./../newton’s-second-law/). While Newton's Second Law is often stated as $ F = ma $ , its more fundamental form involves the rate of change of momentum.
 
 The net external force ( $ \vec{F}_{\text{net}} $ ) acting on an object is equal to the rate of change of its linear momentum:
 
@@ -37,7 +37,7 @@ The net external force ( $ \vec{F}_{\text{net}} $ ) acting on an object is equal
 \vec{F}_{\text{net}} = \frac{d\vec{p}}{dt}
  $ 
 
-For a constant mass system, we can derive  $ F=ma $ :
+For a constant mass system, we can derive $ F=ma $ :
  $ 
 \vec{F}_{\text{net}} = \frac{d(m\vec{v})}{dt} = m\frac{d\vec{v}}{dt} = m\vec{a}
  $ 
@@ -62,7 +62,7 @@ Its linear momentum is:
 \vec{p} = (2 \text{ kg})(3 \text{ m/s, right}) = 6 \text{ kg·m/s, right}
  $ 
 
-If the same object was moving at 3 m/s to the left, its momentum would be  $ 6 \text{ kg·m/s, left} $ . This emphasizes the vector nature of momentum.
+If the same object was moving at 3 m/s to the left, its momentum would be $ 6 \text{ kg·m/s, left} $ . This emphasizes the vector nature of momentum.
 
 ## Connection to Other Topics
 
