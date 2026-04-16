@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Motion in Two or Three Dimensions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Motion in Two or Three Dimensions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-topic-15---motion-in-two-or-three-dimensions">AP Physics C: Topic 1.5 - Motion in Two or Three Dimensions</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Motion in two or three dimensions extends the concepts of one-dimensional kinematics by incorporating the vector nature of position, velocity, and acceleration across multiple axes. This topic is fundamental to understanding complex movements like projectile motion, orbital mechanics, and more generally, any motion not confined to a single straight line. It builds directly upon the principles introduced in <a href="./../displacement,-velocity,-and-acceleration/">Displacement, Velocity, and Acceleration</a> and relies heavily on the use of <a href="./../scalars-and-vectors/">Scalars and Vectors</a>.</p>
+<h2 id="vector-nature-of-motion">Vector Nature of Motion</h2>
+<p>In two or three dimensions, physical quantities like position, displacement, velocity, and acceleration are represented by vectors. This means they have both magnitude and direction. We typically use a Cartesian coordinate system (x, y, z) to describe these vectors.</p>
+<h3 id="position-vector">Position Vector</h3>
+<p>The position vector  $ \vec{r} $  describes an object&rsquo;s location in space relative to a chosen origin.
+In 2D:  $$ \vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} $$  In 3D:  $$ \vec{r}(t) = x(t)\hat{i} + y(t)\hat{j} + z(t)\hat{k} $$  Where  $ x(t) $ ,  $ y(t) $ , and  $ z(t) $  are the coordinates as functions of time, and  $ \hat{i} $ ,  $ \hat{j} $ ,  $ \hat{k} $  are unit vectors along the x, y, and z axes, respectively.</p>
+<h3 id="displacement-vector">Displacement Vector</h3>
+<p>The displacement vector  $ \Delta\vec{r} $  represents the change in an object&rsquo;s position from an initial position  $ \vec{r}_i $  to a final position  $ \vec{r}_f $ .
+$$ \Delta\vec{r} = \vec{r}_f - \vec{r}_i = (x_f - x_i)\hat{i} + (y_f - y_i)\hat{j} + (z_f - z_i)\hat{k} $$</p>
+<h3 id="velocity-vector">Velocity Vector</h3>
+<h4 id="average-velocity">Average Velocity</h4>
+<p>The average velocity  $ \vec{v}{avg} $  is the ratio of the displacement vector to the time interval  $ \Delta t $ .
+$$ \vec{v}{avg} = \frac{\Delta\vec{r}}{\Delta t} $$</p>
+<h4 id="instantaneous-velocity">Instantaneous Velocity</h4>
+<p>The instantaneous velocity  $ \vec{v}(t) $  is the derivative of the position vector with respect to time. It is a vector tangent to the path of motion at any given point.
+$$ \vec{v}(t) = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat{i} + \frac{dy}{dt}\hat{j} + \frac{dz}{dt}\hat{k} = v_x(t)\hat{i} + v_y(t)\hat{j} + v_z(t)\hat{k} $$  The magnitude of the instantaneous velocity is called the speed:  $ v = |\vec{v}| = \sqrt{v_x^2 + v_y^2 + v_z^2} $ .</p>
+<h3 id="acceleration-vector">Acceleration Vector</h3>
+<h4 id="average-acceleration">Average Acceleration</h4>
+<p>The average acceleration  $ \vec{a}{avg} $  is the ratio of the change in velocity vector to the time interval  $ \Delta t $ .
+$$ \vec{a}{avg} = \frac{\Delta\vec{v}}{\Delta t} $$</p>
+<h4 id="instantaneous-acceleration">Instantaneous Acceleration</h4>
+<p>The instantaneous acceleration  $ \vec{a}(t) $  is the derivative of the velocity vector with respect to time, or the second derivative of the position vector.
+$$ \vec{a}(t) = \frac{d\vec{v}}{dt} = \frac{dv_x}{dt}\hat{i} + \frac{dv_y}{dt}\hat{j} + \frac{dv_z}{dt}\hat{k} = a_x(t)\hat{i} + a_y(t)\hat{j} + a_z(t)\hat{k} $$   $$ \vec{a}(t) = \frac{d^2\vec{r}}{dt^2} $$</p>
+<h2 id="kinematic-equations-for-constant-acceleration">Kinematic Equations for Constant Acceleration</h2>
+<p>When acceleration is constant, the motion can be analyzed independently in each dimension. The one-dimensional kinematic equations apply to each component of motion.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Component Equations for Constant Acceleration</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ v_x = v_{x0} + a_xt $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ x = x_0 + v_{x0}t + \frac{1}{2}a_xt^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_x^2 = v_{x0}^2 + 2a_x(x - x_0) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_y = v_{y0} + a_yt $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ y = y_0 + v_{y0}t + \frac{1}{2}a_yt^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_y^2 = v_{y0}^2 + 2a_y(y - y_0) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_z = v_{z0} + a_zt $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ z = z_0 + v_{z0}t + \frac{1}{2}a_zt^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_z^2 = v_{z0}^2 + 2a_z(z - z_0) $</td>
+      </tr>
+  </tbody>
+</table>
+<p>These component equations can be combined vectorially:
+$$ \vec{v} = \vec{v}_0 + \vec{a}t $$   $$ \vec{r} = \vec{r}_0 + \vec{v}_0t + \frac{1}{2}\vec{a}t^2 $$</p>
+<h3 id="projectile-motion">Projectile Motion</h3>
+<p><a href="./../projectile-motion/">Projectile Motion</a> is a classic example of motion in two dimensions under constant acceleration, where the acceleration is due to gravity (neglecting air resistance). Typically,  $ a_x = 0 $  and  $ a_y = -g $  (if y is upward).</p>
+<h2 id="relative-motion">Relative Motion</h2>
+<p>Understanding motion often requires specifying a <a href="./../reference-frames-and-relative-motion/">Reference Frames and Relative Motion</a>. In 2D/3D, the velocity of an object A relative to a reference frame B is given by:
+$$ \vec{v}{AB} = \vec{v}{AC} + \vec{v}_{CB} $$  where C is an intermediate reference frame.</p>
+<h2 id="summary-of-key-concepts-and-equations">Summary of Key Concepts and Equations</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Concept</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">Equation (2D)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Position</td>
+          <td style="text-align: left">Vector from origin to object&rsquo;s location.</td>
+          <td style="text-align: left">$ \vec{r} = x\hat{i} + y\hat{j} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Displacement</td>
+          <td style="text-align: left">Change in position vector.</td>
+          <td style="text-align: left">$ \Delta\vec{r} = \vec{r}_f - \vec{r}_i $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Instantaneous Velocity</td>
+          <td style="text-align: left">Time derivative of position vector. Direction is tangent to path.</td>
+          <td style="text-align: left">$ \vec{v} = \frac{d\vec{r}}{dt} = v_x\hat{i} + v_y\hat{j} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Instantaneous Acceleration</td>
+          <td style="text-align: left">Time derivative of velocity vector (second derivative of position vector).</td>
+          <td style="text-align: left">$ \vec{a} = \frac{d\vec{v}}{dt} = a_x\hat{i} + a_y\hat{j} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Constant Acceleration (Vector Form)</td>
+          <td style="text-align: left">If  $ \vec{a} $  is constant, treat components independently.</td>
+          <td style="text-align: left">$ \vec{v} = \vec{v}_0 + \vec{a}t $  <!-- raw HTML omitted -->  $ \vec{r} = \vec{r}_0 + \vec{v}_0t + \frac{1}{2}\vec{a}t^2 $</td>
+      </tr>
+  </tbody>
+</table>
+
+</main>
+
+
+  </body>
+</html>
+

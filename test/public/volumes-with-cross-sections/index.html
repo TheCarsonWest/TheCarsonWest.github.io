@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Volumes With Cross Sections | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Volumes With Cross Sections</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc home</a></h1>
+<h1 id="volumes-with-cross-sections-ap-calculus-ab-rundown">Volumes With Cross Sections: AP Calculus AB Rundown</h1>
+<p>This topic focuses on finding the volume of a 3D solid based on knowing the area of its cross-sections perpendicular to a given axis.</p>
+<h2 id="1-general-principle">1. General Principle</h2>
+<p>The fundamental idea is to slice the solid into infinitesimally thin cross-sections, calculate the area of each cross-section, and then integrate the area function over the interval of the solid.</p>
+<p>$$ V = \int_{a}^{b} A(x) , dx \quad \text{or} \quad V = \int_{c}^{d} A(y) , dy $$<br>
+Where:</p>
+<ul>
+<li>$ V $  is the volume of the solid.</li>
+<li>$ A(x) $  or  $ A(y) $  is the area of the cross-section at position  $ x $  or  $ y $ , respectively.</li>
+<li>$ [a, b] $  or  $ [c, d] $  are the intervals on the x-axis or y-axis, respectively, over which the solid extends.</li>
+</ul>
+<h2 id="2-key-steps-to-solve-volume-with-cross-sections-problems">2. Key Steps to Solve Volume with Cross Sections Problems</h2>
+<ol>
+<li><strong>Sketch the Base:</strong> Carefully sketch the region that forms the base of the solid. This will help you determine the limits of integration and the relationship between  $ x $  and  $ y $ .</li>
+<li><strong>Determine the Axis of Integration:</strong> Decide whether to integrate with respect to  $ x $  or  $ y $  based on the orientation of the cross-sections. If the cross-sections are perpendicular to the x-axis, integrate with respect to  $ x $ . If they are perpendicular to the y-axis, integrate with respect to  $ y $ .</li>
+<li><strong>Find the Area Function A(x) or A(y):</strong> This is the most crucial step.  You need to express the area of the cross-section as a function of  $ x $  or  $ y $ .  The specific formula for  $ A(x) $  or  $ A(y) $  depends on the shape of the cross-section. <a href="./../area-formulas-for-common-shapes/">Area Formulas for Common Shapes</a></li>
+<li><strong>Determine the Limits of Integration:</strong> Find the values of  $ x $  (or  $ y $ ) that define the beginning and end of the solid along the chosen axis.</li>
+<li><strong>Integrate:</strong> Evaluate the definite integral of the area function over the limits of integration to find the volume.</li>
+</ol>
+<h2 id="3-common-cross-section-shapes-and-their-area-formulas">3. Common Cross-Section Shapes and Their Area Formulas</h2>
+<p>Here are some common shapes you might encounter, along with their area formulas:</p>
+<ul>
+<li><strong>Squares:</strong> If the side length of the square is  $ s $ , then  $ A = s^2 $ .</li>
+<li><strong>Rectangles:</strong> If the length is  $ l $  and the width is  $ w $ , then  $ A = lw $ . Usually one dimension is constant and the other is defined by the region.</li>
+<li><strong>Semicircles:</strong> If the diameter is  $ d $ , then the radius is  $ r = d/2 $ , and  $ A = \frac{1}{2}\pi r^2 = \frac{1}{2}\pi (\frac{d}{2})^2 = \frac{\pi}{8}d^2 $ .</li>
+<li><strong>Equilateral Triangles:</strong> If the side length is  $ s $ , then  $ A = \frac{\sqrt{3}}{4}s^2 $ .</li>
+<li><strong>Isosceles Right Triangles:</strong>  If the leg length is  $ l $ , then  $ A = \frac{1}{2}l^2 $ .</li>
+<li><strong>Right Triangles:</strong> if the base is  $ b $  and height is  $ h $ , then  $ A = \frac{1}{2}bh $</li>
+</ul>
+<p>In all these cases, the side length, diameter, or base/height will be expressed in terms of  $ x $  or  $ y $  based on the region defining the base of the solid.</p>
+<h2 id="4-examples">4. Examples</h2>
+<p><strong>Example 1:</strong></p>
+<p>The base of a solid is the region bounded by  $ y = x^2 $  and  $ y = 4 $ .  Cross-sections perpendicular to the x-axis are squares. Find the volume.</p>
+<ol>
+<li>
+<p><strong>Sketch:</strong> Sketch the parabola  $ y = x^2 $  and the line  $ y = 4 $ .</p>
+</li>
+<li>
+<p><strong>Axis of Integration:</strong> Since the cross-sections are perpendicular to the x-axis, we integrate with respect to  $ x $ .</p>
+</li>
+<li>
+<p><strong>Area Function:</strong> The side length of the square is the distance between the two curves:  $ s = 4 - x^2 $ . Therefore, the area of the square is  $ A(x) = (4 - x^2)^2 $ .</p>
+</li>
+<li>
+<p><strong>Limits of Integration:</strong> Find the points of intersection:  $ x^2 = 4 $ , so  $ x = \pm 2 $ .  The limits of integration are  $ -2 $  and  $ 2 $ .</p>
+</li>
+<li>
+<p><strong>Integrate:</strong></p>
+<p>$$ V = \int_{-2}^{2} (4 - x^2)^2 , dx = \int_{-2}^{2} (16 - 8x^2 + x^4) , dx $$<br>
+$$ V = \left[16x - \frac{8}{3}x^3 + \frac{1}{5}x^5\right]_{-2}^{2} = 2\left(32 - \frac{64}{3} + \frac{32}{5}\right) = \frac{512}{15} $$</p>
+</li>
+</ol>
+
+</main>
+
+
+  </body>
+</html>
+

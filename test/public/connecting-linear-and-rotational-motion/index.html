@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Connecting Linear and Rotational Motion | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Connecting Linear and Rotational Motion</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-connecting-linear-and-rotational-motion">AP Physics C: Connecting Linear and Rotational Motion</h1>
+<p>In AP Physics C: Mechanics, understanding how translational (linear) motion relates to rotational motion is fundamental to analyzing complex systems. This connection is primarily dictated by the radius of rotation  $ r $ .</p>
+<h2 id="the-fundamental-relationships">The Fundamental Relationships</h2>
+<p>When an object moves in a circular path or rotates about an axis, the linear variables (position, velocity, and acceleration) are linked to their angular counterparts (angle, angular velocity, and angular acceleration).</p>
+<p>The linear arc length  $ s $ , tangential velocity  $ v $ , and tangential acceleration  $ a_t $  are related to the angular displacement  $ \theta $ , angular velocity  $ \omega $ , and angular acceleration  $ \alpha $  by the radius  $ r $ :</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Linear Variable</th>
+          <th style="text-align: left">Angular Variable</th>
+          <th style="text-align: left">Relationship</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Arc Length ( $ s $ )</td>
+          <td style="text-align: left">Angular Displacement ( $ \theta $ )</td>
+          <td style="text-align: left">$ s=r\theta $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Tangential Velocity ( $ v $ )</td>
+          <td style="text-align: left">Angular Velocity ( $ \omega $ )</td>
+          <td style="text-align: left">$ v=r\omega $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Tangential Acceleration ( $ a_t $ )</td>
+          <td style="text-align: left">Angular Acceleration ( $ \alpha $ )</td>
+          <td style="text-align: left">$ a_t=r\alpha $</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: In these equations,  $ \theta $  must be in radians.</p>
+<h2 id="velocity-components">Velocity Components</h2>
+<p>When an object rotates, every point on the rigid body has the same angular velocity  $ \omega $ , but points at different distances from the center have different linear speeds.</p>
+<p>The tangential velocity vector is always perpendicular to the radial vector pointing from the axis of rotation. If an object is not just rotating but also moving linearly (like a wheel rolling on the ground), we use these relations to describe the motion of the center of mass. See <a href="./../rolling/">Rolling</a> for a deeper dive into this specific case.</p>
+<h2 id="acceleration-components">Acceleration Components</h2>
+<p>It is crucial to distinguish between tangential and radial (centripetal) acceleration:</p>
+<ol>
+<li><strong>Tangential Acceleration ( $ a_t $ ):</strong> This component is responsible for changing the speed of the object. It is defined as:
+$$ a_t=r\alpha $$  2.  <strong>Radial (Centripetal) Acceleration ( $ a_r $  or  $ a_c $ ):</strong> This component is responsible for changing the direction of the velocity vector, keeping the object in a circular path. It is defined as:
+$$ a_r=\frac{v^2}{r}=r\omega^2 $$<br>
+The total linear acceleration vector is the vector sum of these two components:
+$$ \vec{a}_{total} = \vec{a}_t + \vec{a}r $$<br>
+Since these two components are perpendicular, the magnitude of the total linear acceleration is:
+$$ a{total}=\sqrt{a_t^2 + a_r^2} $$</li>
+</ol>
+<h2 id="why-it-matters">Why It Matters</h2>
+<p>These connections allow us to bridge the gap between <a href="./../rotational-kinematics/">Rotational Kinematics</a> and standard linear kinematics. By converting linear forces and velocities into their rotational equivalents (or vice-versa), we can solve problems involving systems like pulleys, gears, and rotating rigid bodies using Newton&rsquo;s laws. For an in-depth look at how these motions interact with forces, review <a href="./../newtons-second-law-in-rotational-form/">Newtons Second Law in Rotational Form</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

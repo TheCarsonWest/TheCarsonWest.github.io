@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rotational Kinematics | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Rotational Kinematics</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-rotational-kinematics">AP Physics C: Rotational Kinematics</h1>
+<p>Rotational kinematics describes the motion of a rotating rigid body. Just as linear motion is described by displacement, velocity, and acceleration, rotational motion uses angular counterparts.</p>
+<h2 id="angular-variables">Angular Variables</h2>
+<p>For an object rotating about a fixed axis, we define the following variables:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Variable</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">SI Unit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \theta $</td>
+          <td style="text-align: left">Angular Position</td>
+          <td style="text-align: left">radians (rad)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \omega $</td>
+          <td style="text-align: left">Angular Velocity</td>
+          <td style="text-align: left">rad/s</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \alpha $</td>
+          <td style="text-align: left">Angular Acceleration</td>
+          <td style="text-align: left">rad/s²</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li><strong>Angular Position ( $ \theta $ ):</strong> The angle through which a point or line has been rotated in a specified sense about a specified axis.</li>
+<li><strong>Angular Velocity ( $ \omega $ ):</strong> The rate of change of angular position.
+$$ \omega = \frac{d\theta}{dt} $$  - <strong>Angular Acceleration ( $ \alpha $ ):</strong> The rate of change of angular velocity.
+$$ \alpha = \frac{d\omega}{dt} = \frac{d^2\theta}{dt^2} $$<br>
+<a href="./../direction-of-rotational-vectors/">Direction of Rotational Vectors</a></li>
+</ul>
+<h2 id="rotational-kinematic-equations">Rotational Kinematic Equations</h2>
+<p>If a rigid body undergoes constant angular acceleration, we can use a set of kinematic equations analogous to those in linear kinematics. These equations apply only when  $ \alpha $  is constant.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Linear Equation ( $ a $  = const)</th>
+          <th style="text-align: left">Rotational Equation ( $ \alpha $  = const)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ v_f = v_i + at $</td>
+          <td style="text-align: left">$ \omega_f = \omega_i + \alpha t $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \Delta x = v_it + \frac{1}{2}at^2 $</td>
+          <td style="text-align: left">$ \Delta \theta = \omega_it + \frac{1}{2}\alpha t^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ v_f^2 = v_i^2 + 2a\Delta x $</td>
+          <td style="text-align: left">$ \omega_f^2 = \omega_i^2 + 2\alpha \Delta \theta $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \Delta x = \frac{1}{2}(v_i + v_f)t $</td>
+          <td style="text-align: left">$ \Delta \theta = \frac{1}{2}(\omega_i + \omega_f)t $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="important-considerations">Important Considerations</h2>
+<ol>
+<li><strong>Radians:</strong> Always ensure that your calculator is in radian mode when performing calculations involving trigonometric functions or when converting between linear and angular units. The radian is a dimensionless unit, defined by the ratio of arc length to radius ( $ s = r\theta $ ).</li>
+<li><strong>Signs:</strong> Consistency is crucial. You must define a positive direction for rotation (usually counter-clockwise is defined as positive) and stick to it for all variables ( $ \theta $ ,  $ \omega $ , and  $ \alpha $ ).</li>
+<li><strong>Non-constant Acceleration:</strong> If  $ \alpha $  is not constant (i.e., it is a function of time), the kinematic equations above are invalid. In such cases, you must use calculus to integrate or differentiate:
+$$ \omega(t) = \omega_0 + \int_{0}^{t} \alpha(t&rsquo;) dt&rsquo; $$      $$ \theta(t) = \theta_0 + \int_{0}^{t} \omega(t&rsquo;) dt&rsquo; $$<br>
+For more complex rotational motion problems, it is often necessary to bridge the gap between rotational and linear motion. See the notes on <a href="./../connecting-linear-and-rotational-motion/">Connecting Linear and Rotational Motion</a> for details on tangential acceleration, centripetal acceleration, and how they relate to angular variables.</li>
+</ol>
+
+</main>
+
+
+  </body>
+</html>
+

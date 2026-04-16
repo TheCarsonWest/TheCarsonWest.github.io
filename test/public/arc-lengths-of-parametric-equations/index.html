@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arc Lengths of Parametric Equations | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Arc Lengths of Parametric Equations</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc Home</a></h1>
+<h1 id="ap-calculus-bc-notes-arc-lengths-of-parametric-equations">AP Calculus BC Notes: Arc Lengths of Parametric Equations</h1>
+<p>Arc length is a fundamental concept in calculus that allows us to measure the distance along a curve. For parametric equations, which describe a curve using a parameter (often  $ t $ ), the method for finding arc length is particularly elegant and extends concepts from <a href="./../calculus-and-vector-valued-functions/">Calculus and Vector-Valued Functions</a>.</p>
+<hr>
+<h2 id="1-introduction-to-arc-length">1. Introduction to Arc Length</h2>
+<p>When a curve is defined by parametric equations  $ x = f(t) $  and  $ y = g(t) $ , we can trace its path as the parameter  $ t $  varies over a given interval  $ [a, b] $ . The arc length represents the total distance traveled along this curve without retracing. This concept is crucial for understanding the path length of objects in <a href="./../motion-problems-with-parametric-and-vector-valued-functions/">Motion Problems with Parametric and Vector-Valued Functions</a> and for various applications in physics and engineering.</p>
+<hr>
+<h2 id="2-the-arc-length-formula-for-parametric-curves">2. The Arc Length Formula for Parametric Curves</h2>
+<p>To find the arc length  $ L $  of a parametric curve defined by  $ x = f(t) $  and  $ y = g(t) $  from  $ t=a $  to  $ t=b $ , we use the following integral formula. This formula assumes that  $ f&rsquo;(t) $  and  $ g&rsquo;(t) $  are continuous on  $ [a, b] $  and that the curve does not intersect itself on the interval (or if it does, we only measure the length of one traversal).</p>
+<p>The arc length  $ L $  is given by:</p>
+<p>$$  L = \int_{a}^{b} \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} dt
+$$</p>
+<h3 id="breakdown-of-the-formula-components">Breakdown of the Formula Components:</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Component</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">Relevance</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \frac{dx}{dt} $</td>
+          <td style="text-align: left">Derivative of  $ x $  with respect to  $ t $</td>
+          <td style="text-align: left">Represents the instantaneous rate of change of the  $ x $ -coordinate. Crucial for <a href="./../differentiating-parametric-equations/">Differentiating Parametric Equations</a>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \frac{dy}{dt} $</td>
+          <td style="text-align: left">Derivative of  $ y $  with respect to  $ t $</td>
+          <td style="text-align: left">Represents the instantaneous rate of change of the  $ y $ -coordinate. Also from <a href="./../differentiating-parametric-equations/">Differentiating Parametric Equations</a>.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} $</td>
+          <td style="text-align: left">Magnitude of the velocity vector</td>
+          <td style="text-align: left">This term, often denoted as  $ ds/dt $ , represents the instantaneous speed along the curve. It&rsquo;s derived from the Pythagorean theorem on infinitesimal changes  $ dx $  and  $ dy $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \int_{a}^{b} \dots dt $</td>
+          <td style="text-align: left">Definite integral over  $ [a, b] $</td>
+          <td style="text-align: left">Sums up these infinitesimal speeds over the entire parameter interval to give the total length.</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="3-derivation-intuition-derivation-of-arc-length-formuladerivation-of-arc-length-formula">3. Derivation Intuition <a href="./../derivation-of-arc-length-formula/">Derivation of Arc Length Formula</a></h2>
+<p>The formula can be intuitively understood by considering small segments of the curve. For an infinitesimal change in  $ t $ , say  $ dt $ , the changes in  $ x $  and  $ y $  are  $ dx = \frac{dx}{dt} dt $  and  $ dy = \frac{dy}{dt} dt $ . The length of this small segment,  $ ds $ , can be approximated using the Pythagorean theorem:</p>
+<p>$$ (ds)^2 = (dx)^2 + (dy)^2 $$   $$ ds = \sqrt{(dx)^2 + (dy)^2} $$<br>
+Substituting the expressions for  $ dx $  and  $ dy $ :</p>
+<p>$$  ds = \sqrt{\left(\frac{dx}{dt} dt\right)^2 + \left(\frac{dy}{dt} dt\right)^2} = \sqrt{\left(\frac{dx}{dt}\right)^2 dt^2 + \left(\frac{dy}{dt}\right)^2 dt^2}
+$$   $$  ds = \sqrt{\left[\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2\right] dt^2} = \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} dt
+$$<br>
+Integrating  $ ds $  from  $ t=a $  to  $ t=b $  gives the total arc length  $ L $ .</p>
+<hr>
+<h2 id="4-key-considerations-and-tips">4. Key Considerations and Tips</h2>
+<ul>
+<li><strong>Continuity of Derivatives:</strong> Ensure that  $ \frac{dx}{dt} $  and  $ \frac{dy}{dt} $  are continuous on the interval  $ [a, b] $ . If they are not, the formula may not apply directly, or the curve might have sharp corners.</li>
+<li><strong>Smooth Curve:</strong> The curve must be &ldquo;smooth&rdquo; meaning its derivatives are continuous and not simultaneously zero, which prevents cusps or corners.</li>
+<li><strong>Non-Self-Intersecting:</strong> For a simple arc length calculation, the curve should not intersect itself on the given interval, or you&rsquo;ll be calculating the length of multiple traversals. If it does, you might need to adjust the integration limits.</li>
+<li><strong>Symmetry:</strong> Look for symmetry to simplify calculations or to determine the correct limits of integration.</li>
+<li><strong>Calculator Use:</strong> Integrals involving square roots can often be complex. Be prepared to use a graphing calculator (e.g., TI-84, TI-Nspire) to evaluate the definite integral, especially if it&rsquo;s non-standard.</li>
+</ul>
+<hr>
+<h2 id="5-example-walkthrough">5. Example Walkthrough</h2>
+<p><strong>Problem:</strong> Find the arc length of the curve defined by  $ x = t^2 $  and  $ y = \frac{1}{3}t^3 $  from  $ t=0 $  to  $ t=\sqrt{3} $ .</p>
+<p><strong>Solution:</strong></p>
+<ol>
+<li>
+<p><strong>Find the derivatives:</strong>
+$ \frac{dx}{dt} = \frac{d}{dt}(t^2) = 2t $
+$ \frac{dy}{dt} = \frac{d}{dt}\left(\frac{1}{3}t^3\right) = t^2 $</p>
+</li>
+<li>
+<p><strong>Square the derivatives and sum them:</strong>
+$ \left(\frac{dx}{dt}\right)^2 = (2t)^2 = 4t^2 $
+$ \left(\frac{dy}{dt}\right)^2 = (t^2)^2 = t^4 $
+$ \left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2 = 4t^2 + t^4 = t^2(4 + t^2) $</p>
+</li>
+<li>
+<p><strong>Take the square root:</strong>
+$ \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2} = \sqrt{t^2(4 + t^2)} = |t|\sqrt{4 + t^2} $
+Since  $ t $  is on the interval  $ [0, \sqrt{3}] $ ,  $ t \ge 0 $ , so  $ |t|=t $ .
+Thus, we have  $ t\sqrt{4 + t^2} $ .</p>
+</li>
+<li>
+<p><strong>Set up and evaluate the integral:</strong>
+$ L = \int_{0}^{\sqrt{3}} t\sqrt{4 + t^2} dt $</p>
+<p>We can use a u-substitution: Let  $ u = 4 + t^2 $ , then  $ du = 2t dt $ , so  $ t dt = \frac{1}{2} du $ .
+When  $ t=0 $ ,  $ u = 4 + 0^2 = 4 $ .
+When  $ t=\sqrt{3} $ ,  $ u = 4 + (\sqrt{3})^2 = 4 + 3 = 7 $ .</p>
+<p>$ L = \int_{4}^{7} \sqrt{u} \cdot \frac{1}{2} du = \frac{1}{2} \int_{4}^{7} u^{1/2} du $
+$ L = \frac{1}{2} \left[\frac{u^{3/2}}{3/2}\right]{4}^{7} = \frac{1}{2} \cdot \frac{2}{3} \left[u^{3/2}\right]{4}^{7} = \frac{1}{3} \left[7^{3/2} - 4^{3/2}\right] $
+$ L = \frac{1}{3} \left[7\sqrt{7} - (\sqrt{4})^3\right] = \frac{1}{3} \left[7\sqrt{7} - 2^3\right] = \frac{1}{3} \left[7\sqrt{7} - 8\right] $</p>
+</li>
+</ol>
+<p>The arc length of the curve is  $ \frac{7\sqrt{7}-8}{3} $ .</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Displacement, Velocity, and Acceleration | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Displacement, Velocity, and Acceleration</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-topic-12---displacement-velocity-and-acceleration">AP Physics C: Topic 1.2 - Displacement, Velocity, and Acceleration</h1>
+<p>In AP Physics C, we begin our study of <a href="./../kinematics/">Kinematics</a>, the description of motion without considering its causes. This topic lays the fundamental groundwork for understanding how objects move in one dimension.</p>
+<h2 id="position">Position</h2>
+<p>Position ( $ \vec{x} $  or  $ \vec{r} $ ) describes an object&rsquo;s location relative to a chosen origin. It is a <a href="./../scalars-and-vectors%7Cvector-quantity/">Scalars and Vectors|vector quantity</a>, meaning it has both magnitude and direction. In one dimension, we typically use the x-axis, so position is often denoted as  $ x $ .</p>
+<h2 id="displacement">Displacement</h2>
+<p>Displacement ( $ \Delta \vec{x} $  or  $ \Delta x $ ) is the change in an object&rsquo;s position. It is the straight-line distance and direction from the initial position to the final position.</p>
+<ul>
+<li><strong>Definition</strong>: The change in position.</li>
+<li><strong>Formula</strong>:
+$$ \Delta x = x_f - x_i $$      where  $ x_f $  is the final position and  $ x_i $  is the initial position.</li>
+<li><strong>Vector Quantity</strong>: Displacement is a vector. A positive  $ \Delta x $  indicates movement in the positive direction (e.g., right or up), and a negative  $ \Delta x $  indicates movement in the negative direction (e.g., left or down).</li>
+<li><strong>Units</strong>: Meters (m).</li>
+<li><strong>Distinction from Distance</strong>: Distance is the total path length traveled, always positive, and a scalar quantity. Displacement only depends on the start and end points. For example, if you walk 5m right and then 5m left, your total distance traveled is 10m, but your displacement is 0m.</li>
+</ul>
+<h2 id="velocity">Velocity</h2>
+<p>Velocity describes the rate at which an object&rsquo;s position changes. It is a <a href="./../scalars-and-vectors%7Cvector-quantity/">Scalars and Vectors|vector quantity</a> with both magnitude and direction.</p>
+<h3 id="average-velocityaverage-velocity"><a href="./../average-velocity/">Average Velocity</a></h3>
+<p>Average velocity ( $ \vec{v}{avg} $  or  $ v{avg} $ ) is the total displacement divided by the total time taken for that displacement.</p>
+<ul>
+<li><strong>Formula</strong>:
+$$ v_{avg} = \frac{\Delta x}{\Delta t} = \frac{x_f - x_i}{t_f - t_i} $$  *   <strong>Units</strong>: Meters per second (m/s).</li>
+</ul>
+<h3 id="instantaneous-velocityinstantaneous-velocity"><a href="./../instantaneous-velocity/">Instantaneous Velocity</a></h3>
+<p>Instantaneous velocity ( $ \vec{v} $  or  $ v $ ) is the velocity of an object at a specific instant in time. It is defined as the limit of the average velocity as the time interval approaches zero.</p>
+<ul>
+<li><strong>Calculus Definition</strong>: Instantaneous velocity is the time derivative of the position function.
+$$ v(t) = \frac{dx}{dt} $$  *   <strong>Graphical Interpretation</strong>: On a position-time graph, instantaneous velocity is the slope of the tangent line at any given point.</li>
+<li><strong>Distinction from Speed</strong>: Speed is the magnitude of velocity (i.e., how fast an object is moving without regard to direction) and is a scalar quantity. Instantaneous speed is the magnitude of instantaneous velocity.</li>
+</ul>
+<h2 id="acceleration">Acceleration</h2>
+<p>Acceleration describes the rate at which an object&rsquo;s velocity changes. It is a <a href="./../scalars-and-vectors%7Cvector-quantity/">Scalars and Vectors|vector quantity</a>.</p>
+<h3 id="average-accelerationaverage-acceleration"><a href="./../average-acceleration/">Average Acceleration</a></h3>
+<p>Average acceleration ( $ \vec{a}{avg} $  or  $ a{avg} $ ) is the change in velocity divided by the time taken for that change.</p>
+<ul>
+<li><strong>Formula</strong>:
+$$ a_{avg} = \frac{\Delta v}{\Delta t} = \frac{v_f - v_i}{t_f - t_i} $$  *   <strong>Units</strong>: Meters per second squared (m/s $ ^2 $ ).</li>
+</ul>
+<h3 id="instantaneous-accelerationinstantaneous-acceleration"><a href="./../instantaneous-acceleration/">Instantaneous Acceleration</a></h3>
+<p>Instantaneous acceleration ( $ \vec{a} $  or  $ a $ ) is the acceleration of an object at a specific instant in time.</p>
+<ul>
+<li><strong>Calculus Definition</strong>: Instantaneous acceleration is the time derivative of the velocity function, or the second time derivative of the position function.
+$$ a(t) = \frac{dv}{dt} = \frac{d^2x}{dt^2} $$  *   <strong>Graphical Interpretation</strong>: On a velocity-time graph, instantaneous acceleration is the slope of the tangent line at any given point.</li>
+</ul>
+<h2 id="connecting-position-velocity-and-acceleration-via-calculus">Connecting Position, Velocity, and Acceleration via Calculus</h2>
+<p>The relationships between position, velocity, and acceleration are fundamental in calculus-based physics.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quantity</th>
+          <th style="text-align: left">From Previous (Derivative)</th>
+          <th style="text-align: left">To Previous (Integral)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Velocity</strong></td>
+          <td style="text-align: left">$ v(t) = \frac{dx}{dt} $</td>
+          <td style="text-align: left">$ x(t) = \int v(t) dt + C $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Acceleration</strong></td>
+          <td style="text-align: left">$ a(t) = \frac{dv}{dt} $  or  $ a(t) = \frac{d^2x}{dt^2} $</td>
+          <td style="text-align: left">$ v(t) = \int a(t) dt + C $</td>
+      </tr>
+  </tbody>
+</table>
+<ul>
+<li><strong>Derivatives</strong>:
+<ul>
+<li>Taking the <a href="./../ap-calculus:-derivatives%7Cderivative/">AP Calculus: Derivatives|derivative</a> of the position function with respect to time gives the instantaneous velocity function.</li>
+<li>Taking the derivative of the velocity function with respect to time gives the instantaneous acceleration function.</li>
+</ul>
+</li>
+<li><strong>Integrals</strong>:
+<ul>
+<li>Taking the <a href="./../ap-calculus:-integrals%7Cintegral/">AP Calculus: Integrals|integral</a> of the acceleration function with respect to time gives the instantaneous velocity function (plus an initial velocity constant).</li>
+<li>Taking the integral of the velocity function with respect to time gives the instantaneous position function (plus an initial position constant).</li>
+<li>These integrals represent the &ldquo;area under the curve&rdquo; on a graph.</li>
+</ul>
+</li>
+</ul>
+<h2 id="graphical-analysis">Graphical Analysis</h2>
+<p>Graphical representations are crucial for understanding motion:</p>
+<ul>
+<li><strong>Position-Time (x-t) Graph</strong>:
+<ul>
+<li>The slope of the x-t graph at any point gives the <strong>instantaneous velocity</strong> ( $ v = dx/dt $ ).</li>
+<li>A straight line indicates constant velocity.</li>
+<li>A curved line indicates changing velocity (acceleration).</li>
+</ul>
+</li>
+<li><strong>Velocity-Time (v-t) Graph</strong>:
+<ul>
+<li>The slope of the v-t graph at any point gives the <strong>instantaneous acceleration</strong> ( $ a = dv/dt $ ).</li>
+<li>The area under the v-t graph between two time points gives the <strong>displacement</strong> ( $ \Delta x = \int v(t) dt $ ).</li>
+<li>A straight line indicates constant acceleration.</li>
+<li>A horizontal line indicates constant velocity (zero acceleration).</li>
+</ul>
+</li>
+<li><strong>Acceleration-Time (a-t) Graph</strong>:
+<ul>
+<li>The area under the a-t graph between two time points gives the <strong>change in velocity</strong> ( $ \Delta v = \int a(t) dt $ ).</li>
+</ul>
+</li>
+</ul>
+<p>Understanding these relationships is vital for solving kinematics problems in AP Physics C, especially those involving non-constant acceleration.</p>
+
+</main>
+
+
+  </body>
+</html>
+

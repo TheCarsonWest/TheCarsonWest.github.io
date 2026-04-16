@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rotational Kinetic Energy | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Rotational Kinetic Energy</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-61-rotational-kinetic-energy">Topic 6.1: Rotational Kinetic Energy</h1>
+<h2 id="introduction">Introduction</h2>
+<p>In classical mechanics, kinetic energy is the energy an object possesses due to its motion. While we previously studied the kinetic energy of objects moving linearly ( $ K = \frac{1}{2}mv^2 $ ), objects that rotate about an axis also possess kinetic energy. This energy is derived from the individual motion of every particle that makes up the rotating rigid body.</p>
+<h2 id="deriving-rotational-kinetic-energy">Deriving Rotational Kinetic Energy</h2>
+<p>Consider a rigid object rotating about a fixed axis with an angular velocity  $ \omega $ . We can imagine this object as a collection of many small point masses  $ m_i $ , each at a distance  $ r_i $  from the axis of rotation.</p>
+<p>The linear speed of any specific particle  $ i $  is given by  $ v_i = r_i\omega $ . The kinetic energy of this individual particle is:
+$$ K_i = \frac{1}{2}m_i v_i^2 = \frac{1}{2}m_i(r_i\omega)^2 = \frac{1}{2}m_i r_i^2 \omega^2 $$<br>
+To find the total kinetic energy of the rotating body, we sum the kinetic energies of all particles:
+$$ K_{rot} = \sum \frac{1}{2} m_i r_i^2 \omega^2 = \frac{1}{2} \left( \sum m_i r_i^2 \right) \omega^2 $$<br>
+Since the term  $ \sum m_i r_i^2 $  is defined as the <a href="./../rotational-inertia/">Rotational Inertia</a> ( $ I $ ), we arrive at the fundamental equation for rotational kinetic energy:
+$$ K_{rot} = \frac{1}{2}I\omega^2 $$</p>
+<h2 id="comparing-linear-and-rotational-energy">Comparing Linear and Rotational Energy</h2>
+<p>There is a direct analogy between linear and rotational kinetic energy. Both rely on a measure of &ldquo;resistance to change in motion&rdquo; (mass vs. moment of inertia) and the &ldquo;rate of motion&rdquo; squared (velocity vs. angular velocity).</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quantity</th>
+          <th style="text-align: left">Linear Motion</th>
+          <th style="text-align: left">Rotational Motion</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Inertial Property</td>
+          <td style="text-align: left">Mass ( $ m $ )</td>
+          <td style="text-align: left"><a href="./../rotational-inertia/">Rotational Inertia</a> ( $ I $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Velocity</td>
+          <td style="text-align: left">Velocity ( $ v $ )</td>
+          <td style="text-align: left">Angular Velocity ( $ \omega $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Kinetic Energy</td>
+          <td style="text-align: left">$ K = \frac{1}{2}mv^2 $</td>
+          <td style="text-align: left">$ K = \frac{1}{2}I\omega^2 $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="total-kinetic-energy">Total Kinetic Energy</h2>
+<p>For objects that are undergoing both translational motion (moving through space) and rotational motion (spinning), the total kinetic energy of the system is the sum of both types:
+$$ K_{total} = K_{trans} + K_{rot} $$   $$ K_{total} = \frac{1}{2}mv_{cm}^2 + \frac{1}{2}I_{cm}\omega^2 $$<br>
+Note that for the rotation term, the <a href="./../rotational-inertia/">Rotational Inertia</a> must be calculated about the center of mass ( $ I_{cm} $ ) if the object is rotating about its center while moving linearly. This concept is central to understanding <a href="./../rolling/">Rolling</a> motion without slipping.</p>
+<h2 id="important-considerations">Important Considerations</h2>
+<ul>
+<li><strong>Units:</strong> Rotational kinetic energy is measured in Joules (J), consistent with all energy forms.</li>
+<li><strong>Vector Nature:</strong> While angular velocity  $ \omega $  is a vector, kinetic energy is a scalar quantity. It does not have a direction.</li>
+<li><strong>Work-Energy Theorem:</strong> Just as net work changes linear kinetic energy, a net torque acting on a rotating object changes its rotational kinetic energy, a relationship explored in <a href="./../torque-and-work/">Torque and Work</a>.</li>
+</ul>
+<p>By understanding how energy is stored in rotation, we can solve complex dynamics problems involving flywheels, rolling spheres, and rotating machinery.</p>
+
+</main>
+
+
+  </body>
+</html>
+

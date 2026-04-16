@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Representing the Relationship Between Two Quantitative Variables | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Representing the Relationship Between Two Quantitative Variables</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="representing-the-relationship-between-two-quantitative-variables">Representing the Relationship Between Two Quantitative Variables</h1>
+<p>When we have two quantitative variables measured on the same individuals, we often want to understand if there&rsquo;s a relationship between them and, if so, describe its nature. This involves both graphical and numerical summaries.</p>
+<h2 id="scatterplotsscatterplots"><a href="./../scatterplots/">Scatterplots</a></h2>
+<p>A <strong>scatterplot</strong> is the most effective graphical tool for displaying the relationship between two quantitative variables. Each individual in the data is represented as a point on the graph.</p>
+<ul>
+<li><strong>Explanatory Variable (Independent Variable):</strong> Plotted on the horizontal ( $ x $ ) axis. This variable is thought to explain or cause changes in the response variable.</li>
+<li><strong>Response Variable (Dependent Variable):</strong> Plotted on the vertical ( $ y $ ) axis. This variable measures an outcome of a study.</li>
+</ul>
+<p><strong>Example:</strong> If we&rsquo;re studying how the number of hours studied relates to exam scores, hours studied would likely be the explanatory variable, and exam scores the response variable.</p>
+<h2 id="describing-a-scatterplot-dofs">Describing a Scatterplot (DOFS)</h2>
+<p>When analyzing a scatterplot, we look for four key characteristics:</p>
+<ol>
+<li>
+<p><strong>Direction:</strong></p>
+<ul>
+<li><strong>Positive Association:</strong> As the explanatory variable increases, the response variable tends to increase. The points trend upwards from left to right.</li>
+<li><strong>Negative Association:</strong> As the explanatory variable increases, the response variable tends to decrease. The points trend downwards from left to right.</li>
+<li><strong>No Association:</strong> There is no clear upward or downward trend. The points appear randomly scattered.</li>
+</ul>
+</li>
+<li>
+<p><strong><a href="./../outliers/">Outliers</a></strong>: Individual points that fall outside the overall pattern of the relationship. These points can significantly influence numerical summaries and models.</p>
+</li>
+<li>
+<p><strong>Form:</strong> The general shape of the relationship.</p>
+<ul>
+<li><strong>Linear:</strong> The points cluster around a straight line. This is the most common form we study in AP Statistics.</li>
+<li><strong>Non-linear (Curved):</strong> The points follow a curved pattern (e.g., parabolic, exponential).</li>
+<li><strong>No Clear Form:</strong> The points show no discernible pattern.</li>
+</ul>
+</li>
+<li>
+<p><strong>Strength:</strong> How closely the points follow the form.</p>
+<ul>
+<li><strong>Strong:</strong> The points are tightly clustered around the form.</li>
+<li><strong>Moderate:</strong> The points show a clear form but with some scatter.</li>
+<li><strong>Weak:</strong> The points are widely scattered, but a form might still be discernible.</li>
+</ul>
+</li>
+</ol>
+<h3 id="example-of-dofs-description">Example of DOFS Description</h3>
+<p>&ldquo;The scatterplot shows a <strong>strong, positive, linear relationship</strong> between hours studied and exam scores, with <strong>no obvious outliers</strong>.&rdquo;</p>
+<h2 id="choosing-appropriate-variables">Choosing Appropriate Variables</h2>
+<p>It&rsquo;s crucial to correctly identify the explanatory and response variables based on the context of the problem.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Context</th>
+          <th style="text-align: left">Explanatory Variable (x)</th>
+          <th style="text-align: left">Response Variable (y)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Hours of exercise vs. weight loss</td>
+          <td style="text-align: left">Hours of exercise</td>
+          <td style="text-align: left">Weight loss</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Temperature vs. ice cream sales</td>
+          <td style="text-align: left">Temperature</td>
+          <td style="text-align: left">Ice cream sales</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Age vs. reaction time</td>
+          <td style="text-align: left">Age</td>
+          <td style="text-align: left">Reaction time</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="correlationcorrelation"><a href="./../correlation/">Correlation</a></h2>
+<p>While scatterplots provide a visual description, the <strong>correlation coefficient</strong> (denoted by  $ r $ ) is a numerical measure that quantifies the <strong>strength</strong> and <strong>direction</strong> of a linear relationship between two quantitative variables.</p>
+<ul>
+<li><strong>Range:</strong>  $ r $  always falls between -1 and 1, inclusive ( $ -1 \le r \le 1 $ ).</li>
+<li><strong>Direction:</strong>
+<ul>
+<li>$ r &gt; 0 $ : Positive linear association.</li>
+<li>$ r &lt; 0 $ : Negative linear association.</li>
+<li>$ r \approx 0 $ : Very weak or no linear association.</li>
+</ul>
+</li>
+<li><strong>Strength:</strong>
+<ul>
+<li>Values close to  $ \pm 1 $  indicate a strong linear relationship.</li>
+<li>Values close to  $ 0 $  indicate a weak linear relationship.</li>
+<li>$ r = \pm 1 $  means a perfect linear relationship (all points fall exactly on a straight line).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Formula for Correlation Coefficient:</strong>
+$$  r = \frac{1}{n-1} \sum \left( \frac{x_i - \bar{x}}{s_x} \right) \left( \frac{y_i - \bar{y}}{s_y} \right)  $$  Where:</p>
+<ul>
+<li>$ n $  is the number of observations.</li>
+<li>$ x_i $  and  $ y_i $  are individual data points.</li>
+<li>$ \bar{x} $  and  $ \bar{y} $  are the means of  $ x $  and  $ y $ .</li>
+<li>$ s_x $  and  $ s_y $  are the standard deviations of  $ x $  and  $ y $ .</li>
+</ul>
+<p><strong>Important Notes about Correlation:</strong></p>
+<ul>
+<li><strong>Correlation does not imply causation.</strong> A strong correlation between two variables does not mean one causes the other. There might be <a href="./../lurking-variables/">Lurking Variables</a> involved.</li>
+<li><strong>Correlation only measures linear relationships.</strong> A strong non-linear relationship might have a correlation close to 0.</li>
+<li><strong>Correlation is not resistant to outliers.</strong> Outliers can significantly affect the value of  $ r $ .</li>
+<li><strong>Changing units of measurement does not change  $ r $ .</strong> If you change from feet to meters,  $ r $  remains the same.</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

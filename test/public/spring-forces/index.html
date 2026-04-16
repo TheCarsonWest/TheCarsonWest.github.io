@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spring Forces | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Spring Forces</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-28-spring-forces">Topic 2.8: Spring Forces</h1>
+<p>Spring forces are a fundamental example of a &ldquo;restoring force&rdquo;—a force that acts to bring a system back to its equilibrium position. In AP Physics C, understanding these forces is crucial for both mechanics and later units on oscillations.</p>
+<h2 id="hookes-law">Hooke&rsquo;s Law</h2>
+<p>The primary relationship governing ideal springs is <strong>Hooke&rsquo;s Law</strong>. It states that the force exerted by a spring is directly proportional to the displacement of the spring from its equilibrium position.</p>
+<p>The equation for Hooke&rsquo;s Law is:
+$$ F_s = -kx $$</p>
+<h3 id="variables-breakdown">Variables Breakdown</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Variable</th>
+          <th style="text-align: left">Definition</th>
+          <th style="text-align: left">SI Unit</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ F_s $</td>
+          <td style="text-align: left">The force exerted by the spring</td>
+          <td style="text-align: left">Newtons (N)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ k $</td>
+          <td style="text-align: left">The spring constant (stiffness)</td>
+          <td style="text-align: left">N/m</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ x $</td>
+          <td style="text-align: left">Displacement from equilibrium</td>
+          <td style="text-align: left">Meters (m)</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Important Note on the Negative Sign:</strong>
+The negative sign indicates that the force is a <strong>restoring force</strong>. If you stretch the spring (positive  $ x $ ), the spring pulls back in the negative direction. If you compress the spring (negative  $ x $ ), the spring pushes back in the positive direction.</p>
+<p><a href="./../calculating-the-spring-constant-from-experimental-data/">Calculating the Spring Constant from Experimental Data</a></p>
+<h2 id="springs-and-work">Springs and Work</h2>
+<p>Because the force of a spring is non-constant (it changes as  $ x $  changes), we cannot simply use  $ W = Fd $ . Instead, we must use calculus to integrate the force over the distance.</p>
+<p>The work done by the spring as it moves from an initial position  $ x_i $  to a final position  $ x_f $  is:
+$$ W_s = \int_{x_i}^{x_f} (-kx) , dx = -\frac{1}{2}kx_f^2 + \frac{1}{2}kx_i^2 $$<br>
+This leads directly to the concept of Elastic Potential Energy, which you can explore further in <a href="./../potential-energy/">Potential Energy</a>.</p>
+<h2 id="the-spring-mass-system">The Spring-Mass System</h2>
+<p>When a spring is attached to a mass, it forms a dynamic system often analyzed using <a href="./../newtons-second-law/">Newtons Second Law</a>. If the mass is displaced and released on a frictionless surface, it will exhibit simple harmonic motion.</p>
+<p>The net force acting on the mass at any point  $ x $  is:
+$$ \sum F = ma = -kx $$<br>
+Rearranging this gives a differential equation:
+$$ \frac{d^2x}{dt^2} + \frac{k}{m}x = 0 $$<br>
+Solving this equation is fundamental to understanding <a href="./../defining-simple-harmonic-motion-(shm)/">Defining Simple Harmonic Motion (SHM)</a>.</p>
+<h2 id="important-considerations-for-ap-physics-c">Important Considerations for AP Physics C</h2>
+<ol>
+<li><strong>Ideal Springs:</strong> Unless otherwise stated, assume springs are &ldquo;massless&rdquo; and &ldquo;ideal&rdquo; (they obey Hooke&rsquo;s Law perfectly and do not dissipate energy via heat).</li>
+<li><strong>Vertical Springs:</strong> When a spring is suspended vertically, gravity adds a constant force ( $ mg $ ). The equilibrium position shifts downward by an amount  $ \Delta x = \frac{mg}{k} $ . When analyzing motion, it is often easiest to define the new equilibrium position as the new &ldquo;zero&rdquo; point for your coordinate system.</li>
+<li><strong>Forces:</strong> Always remember to draw your <a href="./../forces-and-free-body-diagrams/">Forces and Free-Body Diagrams</a> carefully. The spring force vector always points toward the equilibrium position, regardless of the direction of motion.</li>
+</ol>
+
+</main>
+
+
+  </body>
+</html>
+

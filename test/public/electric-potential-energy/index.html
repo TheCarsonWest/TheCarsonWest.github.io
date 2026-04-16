@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Potential Energy | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Electric Potential Energy</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-electric-potential-energy">AP Physics C: Electric Potential Energy</h1>
+<p>Electric potential energy is the energy a charged object possesses because of its position within an electric field. It is a scalar quantity and a fundamental concept in understanding electrostatic interactions.</p>
+<h2 id="the-concept-of-potential-energy">The Concept of Potential Energy</h2>
+<p>Just as a mass in a gravitational field has gravitational potential energy due to its position, a charged particle in an electric field has electric potential energy ( $ U_E $ ). This energy arises from the work done by the electric field (or against it) to move a charge from one point to another.</p>
+<p>The change in electric potential energy,  $ \Delta U_E $ , is defined by the negative of the work done by the conservative electric force as the charge moves from point A to point B:</p>
+<p>$$ \Delta U_E = U_B - U_A = -W_{electric} = -\int_A^B \vec{F}_E \cdot d\vec{r} $$<br>
+Since  $ \vec{F}_E = q\vec{E} $ , this simplifies to:</p>
+<p>$$ \Delta U_E = -q \int_A^B \vec{E} \cdot d\vec{r} $$</p>
+<h2 id="potential-energy-of-a-system-of-point-charges">Potential Energy of a System of Point Charges</h2>
+<p>When we have two point charges,  $ q_1 $  and  $ q_2 $ , separated by a distance  $ r $ , the potential energy of the system is the work required to assemble them by bringing them from infinity to their current separation. The formula for this interaction energy is:</p>
+<p>$$ U_E = \frac{k q_1 q_2}{r} $$<br>
+Where:</p>
+<ul>
+<li>$ k $  is Coulomb&rsquo;s constant ( $ 8.99 \times 10^9 , \text{N}\cdot\text{m}^2/\text{C}^2 $ )</li>
+<li>$ q_1, q_2 $  are the charges (including signs)</li>
+<li>$ r $  is the separation distance</li>
+</ul>
+<h3 id="key-observations">Key Observations</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Interaction Type</th>
+          <th style="text-align: left">Sign of  $ U_E $</th>
+          <th style="text-align: left">Meaning</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Like Charges</td>
+          <td style="text-align: left">Positive (+)</td>
+          <td style="text-align: left">Work is required to push them together; they naturally repel.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Opposite Charges</td>
+          <td style="text-align: left">Negative (-)</td>
+          <td style="text-align: left">Energy is released as they move together; they are bound.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="relationship-to-electric-potential">Relationship to Electric Potential</h2>
+<p>It is crucial to distinguish between Electric Potential Energy and <a href="./../electric-potential/">Electric Potential</a>. While potential energy ( $ U_E $ ) depends on the charge ( $ q $ ) being placed in a field, electric potential ( $ V $ ) is a property of the field itself at a specific point in space.</p>
+<p>They are related by the following equation:</p>
+<p>$$ U_E = qV $$<br>
+This relationship allows us to calculate the potential energy of a charge  $ q $  if we know the electric potential  $ V $  at its location.</p>
+<h2 id="conservation-of-energy-in-electrostatics">Conservation of Energy in Electrostatics</h2>
+<p>In systems where only conservative electric forces are at play, the total mechanical energy of a charged particle is conserved. If we consider a particle moving from position A to B in an electric field:</p>
+<p>$$ K_A + U_A = K_B + U_B $$<br>
+Substituting the kinetic energy formula ( $ K = \frac{1}{2}mv^2 $ ):</p>
+<p>$$ \frac{1}{2}mv_A^2 + qV_A = \frac{1}{2}mv_B^2 + qV_B $$<br>
+This principle is essential for solving problems involving <a href="./../simple-circuits/">Simple Circuits</a> and the motion of charged particles, such as those found in cathode ray tubes or particle accelerators. Understanding this energy conservation is also a prerequisite for understanding <a href="./../capacitors/">Capacitors</a> and how they store energy in their fields.</p>
+
+</main>
+
+
+  </body>
+</html>
+

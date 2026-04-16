@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Confidence Intervals for the Slope of a Regression Model | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Confidence Intervals for the Slope of a Regression Model</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="confidence-intervals-for-the-slope-of-a-regression-model">Confidence Intervals for the Slope of a Regression Model</h1>
+<p>When we fit a <a href="./../linear-regression-models/">Linear Regression Models</a> to a sample of data, we obtain a sample regression line with a slope,  $ \hat{b} $ . This sample slope is a point estimate for the true, unknown slope  $ \beta $  of the population regression line. A confidence interval for  $ \beta $  provides a range of plausible values for the true slope, allowing us to make inferences about the relationship between two quantitative variables in the population.</p>
+<h2 id="purpose">Purpose</h2>
+<p>The primary purpose of constructing a confidence interval for the slope of a regression model is to estimate the true slope  $ \beta $  of the population regression line with a certain level of confidence. This helps us understand how the dependent variable ( $ y $ ) changes, on average, for each unit increase in the independent variable ( $ x $ ), across the entire population.</p>
+<h2 id="formula">Formula</h2>
+<p>The general formula for a confidence interval for the slope of a regression line is:</p>
+<p>$$  \hat{b} \pm t^* \cdot SE_{\hat{b}}
+$$<br>
+Where:</p>
+<ul>
+<li>$ \hat{b} $  is the sample slope (our point estimate for  $ \beta $ ).</li>
+<li>$ t^* $  is the critical  $ t $ -value for the desired confidence level and degrees of freedom.</li>
+<li>$ SE_{\hat{b}} $  is the standard error of the slope.</li>
+</ul>
+<h2 id="conditions-for-inference">Conditions for Inference</h2>
+<p>Before constructing a confidence interval, certain conditions must be met to ensure the validity of the inference. These are often remembered by the acronym <strong>LINER</strong>:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Condition</th>
+          <th style="text-align: left">Description</th>
+          <th style="text-align: left">How to Check</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>L</strong>inear</td>
+          <td style="text-align: left">The true relationship between  $ x $  and  $ y $  is linear.</td>
+          <td style="text-align: left">Examine a scatterplot of the data for linearity. A <a href="./../residuals/">Residuals</a> plot should show no obvious pattern.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>I</strong>ndependent</td>
+          <td style="text-align: left">Individual observations are independent of each other.</td>
+          <td style="text-align: left">Check the experimental design. If sampling without replacement, the population size should be at least 10 times the sample size ( $ N \ge 10n $ ).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>N</strong>ormal</td>
+          <td style="text-align: left">For any fixed value of  $ x $ , the response  $ y $  varies according to a Normal distribution around the true regression line.</td>
+          <td style="text-align: left">Examine a histogram or Normal probability plot of the <a href="./../residuals/">Residuals</a> to check for approximate normality and absence of strong skewness or outliers.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>E</strong>qual Standard Deviation (Equal Variance)</td>
+          <td style="text-align: left">The standard deviation of  $ y $  about the true regression line is the same for all values of  $ x $ .</td>
+          <td style="text-align: left">Examine the <a href="./../residuals/">Residuals</a> plot for a consistent spread of points around the residual = 0 line (no fanning out or in).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>R</strong>andom</td>
+          <td style="text-align: left">The data come from a well-designed random sample or randomized experiment.</td>
+          <td style="text-align: left">State how the data were collected.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="degrees-of-freedom">Degrees of Freedom</h2>
+<p>The degrees of freedom (df) for inference about the slope of a regression line are given by:</p>
+<p>$$  df = n - 2
+$$<br>
+where  $ n $  is the number of data points (observations). We subtract 2 because we are estimating two parameters from the data: the slope ( $ \beta $ ) and the y-intercept ( $ \alpha $ ).</p>
+<h2 id="standard-error-of-the-slope---se_hatb--">Standard Error of the Slope ( $ SE_{\hat{b}} $ )</h2>
+<p>The standard error of the slope,  $ SE_{\hat{b}} $ , measures the typical distance between the sample slopes ( $ \hat{b} $ ) from repeated samples and the true population slope ( $ \beta $ ). It quantifies the variability of the sample slope.</p>
+<p>The formula for  $ SE_{\hat{b}} $  is:</p>
+<p>$$  SE_{\hat{b}} = \frac{s_e}{\sqrt{(n-1)s_x^2}} = \frac{s_e}{s_x\sqrt{n-1}}
+$$<br>
+Where:</p>
+<ul>
+<li>$ s_e $  is the standard deviation of the residuals (also known as the residual standard error), which estimates the common standard deviation  $ \sigma $  of the responses about the true regression line.</li>
+<li>$ s_x $  is the standard deviation of the independent variable  $ x $ .</li>
+<li>$ n $  is the sample size.</li>
+</ul>
+<p>Often,  $ SE_{\hat{b}} $  is provided directly in computer output for regression analysis.</p>
+<h2 id="interpretation">Interpretation</h2>
+<p>A confidence interval for the slope  $ \beta $  can be interpreted as follows:</p>
+<p>&ldquo;We are [Confidence Level]% confident that the interval from [Lower Bound] to [Upper Bound] captures the true slope of the population regression line relating [explanatory variable] to [response variable].&rdquo;</p>
+<p>For example, a 95% confidence interval of (0.8, 1.2) for the slope might be interpreted as: &ldquo;We are 95% confident that for every one-unit increase in [explanatory variable], the [response variable] increases by an average of between 0.8 and 1.2 units.&rdquo;</p>
+<h2 id="relationship-to-hypothesis-testing">Relationship to Hypothesis Testing</h2>
+<p>A confidence interval for the slope is closely related to a <a href="./../setting-up-a-test-for-the-slope-of-a-regression-model/">Setting Up a Test for the Slope of a Regression Model</a> for the slope. If a confidence interval for  $ \beta $  does not contain a hypothesized value (e.g., 0 for a test of no linear relationship), then we would reject the null hypothesis at the corresponding significance level. Conversely, if it does contain the hypothesized value, we would fail to reject the null hypothesis. This concept is explored further in <a href="./../justifying-a-claim-about-the-slope-of-a-regression-model-based-on-a-confidence-interval/">Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

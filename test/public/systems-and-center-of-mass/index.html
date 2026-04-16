@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Systems and Center of Mass | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Systems and Center of Mass</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-systems-and-center-of-mass">AP Physics C: Systems and Center of Mass</h1>
+<h2 id="introduction-to-systems">Introduction to Systems</h2>
+<p>In physics, a <strong>system</strong> is a collection of objects chosen for analysis. Defining a system is crucial for applying fundamental principles like <a href="./../conservation-of-linear-momentum/">Conservation of Linear Momentum</a> or <a href="./../conservation-of-energy/">Conservation of Energy</a>. The objects within the system are subject to <strong>internal forces</strong> (forces between objects in the system) and <strong>external forces</strong> (forces exerted by objects outside the system). Only external forces can change the total momentum or energy of a closed system.</p>
+<h2 id="center-of-mass-cm">Center of Mass (CM)</h2>
+<p>The <strong>center of mass (CM)</strong> is a unique point in a system or object that represents the average position of all the mass in the system. For many purposes, a system can be treated as if all its mass is concentrated at its center of mass, and all external forces act at this point. This greatly simplifies the analysis of complex systems, especially when considering <a href="./../translational-kinetic-energy/">Translational Kinetic Energy</a> and the overall motion of the system.</p>
+<p><strong>Key Properties of the CM:</strong></p>
+<ul>
+<li>It simplifies the application of <a href="./../newtons-second-law/">Newtons Second Law</a> to extended objects or systems.</li>
+<li>The CM of a system follows a path determined by the net external force acting on the system, regardless of internal forces or the motion of individual parts.</li>
+<li>For symmetrical objects with uniform density, the CM is at the geometric center.</li>
+</ul>
+<h2 id="calculating-the-center-of-mass">Calculating the Center of Mass</h2>
+<h3 id="discrete-particle-systems">Discrete Particle Systems</h3>
+<p>For a system consisting of  $ N $  discrete particles with masses  $ m_1, m_2, \dots, m_N $  located at positions  $ \vec{r}_1, \vec{r}_2, \dots, \vec{r}N $ , the position vector of the center of mass,  $ \vec{r}{CM} $ , is given by:</p>
+<p>$$  \vec{r}{CM} = \frac{\sum{i=1}^{N} m_i \vec{r}i}{M}  $$<br>
+Where  $ M = \sum{i=1}^{N} m_i $  is the total mass of the system. In component form, this can be written as:</p>
+<p>$$  x_{CM} = \frac{\sum_{i=1}^{N} m_i x_i}{M}  $$   $$  y_{CM} = \frac{\sum_{i=1}^{N} m_i y_i}{M}  $$   $$  z_{CM} = \frac{\sum_{i=1}^{N} m_i z_i}{M}  $$</p>
+<h3 id="continuous-mass-distributions">Continuous Mass Distributions</h3>
+<p>For objects with a continuous mass distribution, we replace the summation with an integral. Consider an infinitesimally small mass element  $ dm $  at position  $ \vec{r} $ :</p>
+<p>$$  \vec{r}_{CM} = \frac{1}{M} \int \vec{r} , dm  $$<br>
+Again, in component form:</p>
+<p>$$  x_{CM} = \frac{1}{M} \int x , dm  $$   $$  y_{CM} = \frac{1}{M} \int y , dm  $$   $$  z_{CM} = \frac{1}{M} \int z , dm  $$<br>
+To evaluate these integrals,  $ dm $  must be expressed in terms of the position coordinates. This often involves using mass densities:</p>
+<ul>
+<li><strong>Linear mass density ( $ \lambda $ )</strong>:  $ dm = \lambda , dl $  (for 1D objects like rods)</li>
+<li><strong>Surface mass density ( $ \sigma $ )</strong>:  $ dm = \sigma , dA $  (for 2D objects like plates)</li>
+<li><strong>Volume mass density ( $ \rho $ )</strong>:  $ dm = \rho , dV $  (for 3D objects)</li>
+</ul>
+<p><a href="./../integration/">Integration</a> techniques are essential for solving these types of problems.</p>
+<h2 id="velocity-and-acceleration-of-the-center-of-mass">Velocity and Acceleration of the Center of Mass</h2>
+<p>The velocity of the center of mass,  $ \vec{v}_{CM} $ , is the time derivative of its position vector:</p>
+<p>$$  \vec{v}{CM} = \frac{d\vec{r}{CM}}{dt} = \frac{\sum_{i=1}^{N} m_i \vec{v}i}{M} = \frac{\vec{P}{total}}{M}  $$<br>
+Where  $ \vec{v}i $  is the velocity of particle  $ i $ , and  $ \vec{P}{total} = \sum m_i \vec{v}_i $  is the total linear momentum of the system.</p>
+<p>Similarly, the acceleration of the center of mass,  $ \vec{a}_{CM} $ , is the time derivative of its velocity vector:</p>
+<p>$$  \vec{a}{CM} = \frac{d\vec{v}{CM}}{dt} = \frac{\sum_{i=1}^{N} m_i \vec{a}_i}{M}  $$<br>
+Where  $ \vec{a}_i $  is the acceleration of particle  $ i $ .</p>
+<h2 id="newtons-second-law-for-a-system">Newton&rsquo;s Second Law for a System</h2>
+<p>Applying <a href="./../newtons-second-law/">Newtons Second Law</a> to the system as a whole, considering only external forces:</p>
+<p>$$  \vec{F}{net, ext} = M \vec{a}{CM}  $$<br>
+Here,  $ \vec{F}_{net, ext} $  is the net external force acting on the system, and  $ M $  is the total mass of the system. This powerful equation states that the center of mass of a system moves as if all the system&rsquo;s mass were concentrated at that point and all external forces were applied there. Internal forces cancel out in pairs due to <a href="./../newtons-third-law/">Newtons Third Law</a> and therefore do not affect the motion of the center of mass. This is a fundamental concept in analyzing collisions and explosions.</p>
+
+</main>
+
+
+  </body>
+</html>
+

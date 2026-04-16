@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics on Nerd-Emoji Web</title>
+    <link>http://example.org/physics/</link>
+    <description>Recent content in Physics on Nerd-Emoji Web</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://example.org/physics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Forces</title>
+      <link>http://example.org/physics/spring-forces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://example.org/physics/spring-forces/</guid>
+      <description>&lt;h1 id=&#34;ap-physics-1-homeap-physics-1-home&#34;&gt;&lt;a href=&#34;./../ap-physics-1-home/&#34;&gt;AP Physics 1 Home&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;ap-physics-1-topic-28---spring-forces&#34;&gt;AP Physics 1: Topic 2.8 - Spring Forces&lt;/h1&gt;&#xA;&lt;p&gt;Spring forces are fundamental to understanding many physical phenomena, from simple oscillators to the behavior of materials. They are a type of &lt;a href=&#34;./../restoring-force/&#34;&gt;Restoring Force&lt;/a&gt; that acts to return a spring to its equilibrium position when it is stretched or compressed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hookes-law&#34;&gt;Hooke&amp;rsquo;s Law&lt;/h2&gt;&#xA;&lt;p&gt;The force exerted by an ideal spring is directly proportional to the displacement of the spring from its equilibrium position. This relationship is known as Hooke&amp;rsquo;s Law.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resistive Forces | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Resistive Forces</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-resistive-forces">AP Physics C: Resistive Forces</h1>
+<p>Resistive forces, also known as drag forces or fluid resistance, are forces that oppose the relative motion of an object through a fluid (liquid or gas). Unlike kinetic friction which acts between two solid surfaces, resistive forces depend on the velocity of the object and the properties of the fluid.</p>
+<h2 id="types-of-resistive-forces">Types of Resistive Forces</h2>
+<p>There are two primary models for resistive forces depending on the velocity of the object: linear drag and quadratic (or turbulent) drag.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Drag Type</th>
+          <th style="text-align: left">Typical Context</th>
+          <th style="text-align: left">Relationship to Velocity</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Linear Drag</strong></td>
+          <td style="text-align: left">Small objects moving at low speeds (e.g., oil, slow-moving viscous fluid)</td>
+          <td style="text-align: left">Proportional to  $ v $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Quadratic Drag</strong></td>
+          <td style="text-align: left">Larger objects moving at high speeds (e.g., air, water)</td>
+          <td style="text-align: left">Proportional to  $ v^2 $</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="linear-drag">Linear Drag</h3>
+<p>For low-speed motion, the resistive force is modeled as:
+$$  \vec{F}_r = -b\vec{v}  $$  Where  $ b $  is a constant that depends on the properties of the fluid and the shape of the object, and  $ \vec{v} $  is the velocity. The negative sign indicates the force acts opposite to the direction of motion.</p>
+<h3 id="quadratic-drag">Quadratic Drag</h3>
+<p>For high-speed motion, the resistive force is modeled as:
+$$  \vec{F}_r = -\frac{1}{2}D\rho A v^2  $$  Where  $ D $  is the drag coefficient,  $ \rho $  is the density of the fluid,  $ A $  is the cross-sectional area, and  $ v $  is the speed. Because of the  $ v^2 $  dependence, resistive force increases rapidly as speed increases.</p>
+<h2 id="terminal-velocity">Terminal Velocity</h2>
+<p>As an object falls through a fluid, it accelerates until the resistive force equals the gravitational force. At this point, the net force is zero, and the object reaches its maximum constant speed, known as <strong>terminal velocity</strong>.</p>
+<p><a href="./../terminal-velocity-analysis/">Terminal Velocity Analysis</a></p>
+<p>To determine the terminal velocity, one must apply <a href="./../newtons-second-law/">Newtons Second Law</a>. For an object falling under linear drag:</p>
+<ol>
+<li>Sum of forces:  $ \sum F_y = mg - bv_t = ma $</li>
+<li>At terminal velocity,  $ a = 0 $ .</li>
+<li>Solving for  $ v_t $ :
+$$  v_t = \frac{mg}{b}  $$<br>
+For quadratic drag, the process is similar:
+$$  mg - \frac{1}{2}D\rho A v_t^2 = 0  $$   $$  v_t = \sqrt{\frac{2mg}{D\rho A}}  $$</li>
+</ol>
+<h2 id="solving-equations-of-motion">Solving Equations of Motion</h2>
+<p>Because resistive forces depend on velocity, the acceleration is not constant. This means standard kinematic equations do not apply. To find position or velocity as a function of time, one must set up a differential equation using <a href="./../newtons-second-law/">Newtons Second Law</a> and integrate.</p>
+<p>Often, you will need to rearrange the equation to the form  $ a = \frac{dv}{dt} $  and separate variables to solve for  $ v(t) $ . This is a critical skill for AP Physics C, as it bridges the gap between basic mechanics and calculus-based physics.</p>
+<p>See also related topics:</p>
+<ul>
+<li><a href="./../forces-and-free-body-diagrams/">Forces and Free-Body Diagrams</a></li>
+<li><a href="./../kinetic-and-static-friction/">Kinetic and Static Friction</a></li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

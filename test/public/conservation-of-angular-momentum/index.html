@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conservation of Angular Momentum | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conservation of Angular Momentum</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="64-conservation-of-angular-momentum">6.4: Conservation of Angular Momentum</h1>
+<p>The principle of conservation of angular momentum is a fundamental concept in rotational mechanics, serving as the rotational analog to the <a href="./../conservation-of-linear-momentum/">Conservation of Linear Momentum</a>. It allows us to analyze complex systems—ranging from spinning figure skaters to planetary orbits—without needing to know the specific forces applied at every instant.</p>
+<h2 id="the-conservation-law">The Conservation Law</h2>
+<p>Angular momentum ( $ L $ ) is conserved for a system if the net external torque acting on that system is zero. Mathematically, this is expressed as:</p>
+<p>$$  \sum \vec{\tau}{ext} = \frac{d\vec{L}}{dt}  $$<br>
+If the net external torque is zero ( $ \sum \vec{\tau}{ext} = 0 $ ), then the rate of change of angular momentum is zero, meaning:</p>
+<p>$$  \vec{L}{initial} = \vec{L}{final}  $$<br>
+Or, in terms of rotational inertia ( $ I $ ) and angular velocity ( $ \omega $ ):</p>
+<p>$$  I_i \omega_i = I_f \omega_f  $$</p>
+<h3 id="conditions-for-conservation">Conditions for Conservation</h3>
+<p>It is vital to distinguish between internal and external torques. Internal torques (torques exerted by parts of the system on each other) do not change the total angular momentum of the system. Only external torques can alter the system&rsquo;s angular momentum.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Scenario</th>
+          <th style="text-align: left">Net External Torque</th>
+          <th style="text-align: left">Angular Momentum Conserved?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">A figure skater pulls in arms</td>
+          <td style="text-align: left">Zero</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">A planet orbiting the sun</td>
+          <td style="text-align: left">Zero (Radial force)</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">A door being pushed open</td>
+          <td style="text-align: left">Non-zero</td>
+          <td style="text-align: left">No</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">A falling cat twisting in air</td>
+          <td style="text-align: left">Zero (Internal forces only)</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="rotational-collisions-and-angular-momentumrotational-collisions-and-angular-momentum"><a href="./../rotational-collisions-and-angular-momentum/">Rotational Collisions and Angular Momentum</a></h2>
+<p>When two objects collide or interact rotationally, we treat the interaction as a closed system. Because the collision forces are internal (acting within the system), the total angular momentum remains constant throughout the process. This is particularly useful for problems involving &ldquo;sticky&rdquo; collisions where objects become attached or change their distribution of mass.</p>
+<h3 id="important-considerations">Important Considerations</h3>
+<ol>
+<li><strong>Axis of Rotation:</strong> Conservation of angular momentum must be calculated about the same fixed point or axis for both the initial and final states.</li>
+<li><strong>Vector Nature:</strong> Angular momentum is a vector. If a system has multiple rotating components, you must account for the direction of their rotation (e.g., using the right-hand rule) and sum them as vectors.</li>
+<li><strong>Change in Rotational Inertia:</strong> Frequently, these problems involve a change in  $ I $ . For example, when a mass moves closer to the axis of rotation,  $ I $  decreases, which—by conservation—forces  $ \omega $  to increase to keep  $ L $  constant.</li>
+</ol>
+<h2 id="applications">Applications</h2>
+<p>This principle explains why ice skaters spin faster when they pull their arms in. By pulling their mass closer to the axis of rotation, they decrease their moment of inertia ( $ I $ ). To conserve angular momentum ( $ L = I\omega $ ), their angular velocity ( $ \omega $ ) must increase.</p>
+<p>Another classic application is the <a href="./../motion-of-orbiting-satellites/">Motion of Orbiting Satellites</a>. As a planet moves in an elliptical orbit, its distance from the sun changes. As the distance (radius) changes, the planet&rsquo;s speed must change to ensure that angular momentum is conserved at every point in the orbit. This is effectively Kepler&rsquo;s Second Law.</p>
+
+</main>
+
+
+  </body>
+</html>
+

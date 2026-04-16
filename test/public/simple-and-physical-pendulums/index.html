@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple and Physical Pendulums | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Simple and Physical Pendulums</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-75-simple-and-physical-pendulums">Topic 7.5: Simple and Physical Pendulums</h1>
+<p>In AP Physics C, understanding pendulums requires applying the concepts of <a href="./../defining-simple-harmonic-motion-(shm)/">Defining Simple Harmonic Motion (SHM)</a> to rotational systems. Pendulums are systems that oscillate about an equilibrium position due to a restoring force or torque.</p>
+<h2 id="the-simple-pendulum">The Simple Pendulum</h2>
+<p>A simple pendulum consists of a point mass ( $ m $ ) attached to a massless string of length ( $ L $ ) oscillating in a uniform gravitational field.</p>
+<p>For small angles, the restoring force is proportional to the displacement, allowing us to model the motion as Simple Harmonic Motion (SHM). Using Newton’s Second Law in rotational form (<a href="./../newtons-second-law-in-rotational-form/">Newtons Second Law in Rotational Form</a>), where  $ \tau = I\alpha $ :</p>
+<p>The torque provided by gravity is  $ \tau = -mgL\sin(\theta) $ . For small angles,  $ \sin(\theta) \approx \theta $  (in radians), leading to the differential equation:</p>
+<p>$$ \frac{d^2\theta}{dt^2} + \frac{g}{L}\theta = 0 $$<br>
+This yields the following period for a simple pendulum:</p>
+<p>$$ T = 2\pi\sqrt{\frac{L}{g}} $$</p>
+<h2 id="the-physical-pendulum">The Physical Pendulum</h2>
+<p>A physical pendulum is any rigid body oscillating about a fixed pivot point that does not pass through its center of mass. Unlike the simple pendulum, the distribution of mass matters, requiring the use of <a href="./../rotational-inertia/">Rotational Inertia</a>.</p>
+<p>Using the rotational version of Newton’s Second Law,  $ \tau_{net} = I\alpha $ , where  $ I $  is the moment of inertia about the pivot point and  $ d $  is the distance from the pivot to the center of mass:</p>
+<p>$$ \tau = -mgd\sin(\theta) = I\frac{d^2\theta}{dt^2} $$<br>
+Again, applying the small-angle approximation ( $ \sin(\theta) \approx \theta $ ):</p>
+<p>$$ \frac{d^2\theta}{dt^2} + \left(\frac{mgd}{I}\right)\theta = 0 $$<br>
+Comparing this to the standard SHM equation  $ \frac{d^2\theta}{dt^2} + \omega^2\theta = 0 $ , we find the angular frequency  $ \omega = \sqrt{\frac{mgd}{I}} $ . The period is:</p>
+<p>$$ T = 2\pi\sqrt{\frac{I}{mgd}} $$</p>
+<h2 id="comparison-table">Comparison Table</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Simple Pendulum</th>
+          <th style="text-align: left">Physical Pendulum</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Assumption</strong></td>
+          <td style="text-align: left">Mass at end of string</td>
+          <td style="text-align: left">Extended rigid body</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Angular Frequency ( $ \omega $ )</strong></td>
+          <td style="text-align: left">$ \sqrt{\frac{g}{L}} $</td>
+          <td style="text-align: left">$ \sqrt{\frac{mgd}{I}} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Period ( $ T $ )</strong></td>
+          <td style="text-align: left">$ 2\pi\sqrt{\frac{L}{g}} $</td>
+          <td style="text-align: left">$ 2\pi\sqrt{\frac{I}{mgd}} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Requires  $ I $ ?</strong></td>
+          <td style="text-align: left">No ( $ I = mL^2 $ )</td>
+          <td style="text-align: left">Yes</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="key-takeaways">Key Takeaways</h2>
+<ol>
+<li><strong>Small Angle Approximation:</strong> Both formulas strictly apply only when  $ \theta $  is small (typically  $ \theta &lt; 15^\circ $ ). If the amplitude is large, the motion is no longer strictly simple harmonic.</li>
+<li><strong>Dependence on  $ g $ :</strong> Both pendulums are sensitive to the local gravitational field. A pendulum clock that keeps perfect time on Earth will run slow on the Moon.</li>
+<li><strong>The Pivot Point:</strong> In a physical pendulum, the moment of inertia ( $ I $ ) must be calculated relative to the axis of rotation (the pivot point). If you have the inertia about the center of mass ( $ I_{cm} $ ), use the <a href="./../parallel-axis-theorem/">Parallel Axis Theorem</a> to find the inertia about the pivot point.</li>
+</ol>
+
+</main>
+
+
+  </body>
+</html>
+

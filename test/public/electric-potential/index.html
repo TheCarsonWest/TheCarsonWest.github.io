@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Potential | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Electric Potential</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="electric-potential">Electric Potential</h1>
+<p>Electric potential is a fundamental concept in electrostatics that describes the energy per unit charge at any point in an electric field. It allows us to analyze electric circuits and fields using scalar quantities rather than vector fields, simplifying many calculations.</p>
+<h2 id="definition-and-relation-to-electric-potential-energy">Definition and Relation to Electric Potential Energy</h2>
+<p>Electric potential, denoted by  $ V $ , is defined as the <a href="./../electric-potential-energy/">Electric Potential Energy</a> ( $ U_E $ ) per unit charge ( $ q $ ). It essentially measures the &ldquo;voltage&rdquo; at a specific point in space.</p>
+<p>$$ V = \frac{U_E}{q} $$<br>
+The SI unit for electric potential is the <strong>Volt (V)</strong>, where  $ 1 \text{ V} = 1 \text{ J/C} $ . Note that while electric potential energy depends on the test charge present, electric potential is a property of the field itself and depends only on the source charges creating that field.</p>
+<h2 id="potential-difference---delta-v--">Potential Difference ( $ \Delta V $ )</h2>
+<p>The work required to move a charge between two points is related to the change in electric potential. The potential difference between two points, often called &ldquo;voltage,&rdquo; is given by:</p>
+<p>$$ \Delta V = V_f - V_i = -\int_{i}^{f} \vec{E} \cdot d\vec{r} $$<br>
+This equation shows that the potential difference is the line integral of the electric field  $ \vec{E} $  along the path from point  $ i $  to point  $ f $ .</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quantity</th>
+          <th style="text-align: left">Symbol</th>
+          <th style="text-align: left">Unit</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Electric Potential</td>
+          <td style="text-align: left">$ V $</td>
+          <td style="text-align: left">Volts (V)</td>
+          <td style="text-align: left">Energy per unit charge</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Potential Difference</td>
+          <td style="text-align: left">$ \Delta V $</td>
+          <td style="text-align: left">Volts (V)</td>
+          <td style="text-align: left">Change in potential between points</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Electric Field</td>
+          <td style="text-align: left">$ \vec{E} $</td>
+          <td style="text-align: left">N/C or V/m</td>
+          <td style="text-align: left">Force per unit charge</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="relationship-between-electric-field-and-potential">Relationship Between Electric Field and Potential</h2>
+<p>The electric field is the negative gradient of the electric potential. This relationship allows us to derive the electric field if the potential function is known:</p>
+<p>$$ \vec{E} = -\nabla V $$<br>
+In a one-dimensional system, this simplifies to:</p>
+<p>$$ E_x = -\frac{dV}{dx} $$<br>
+This signifies that the electric field points in the direction of the steepest decrease in potential.</p>
+<h2 id="electric-potential-due-to-point-charges">Electric Potential due to Point Charges</h2>
+<p>For a single point charge  $ q $ , the electric potential at a distance  $ r $  from the charge is determined by setting the potential at infinity to zero:</p>
+<p>$$ V = k_e \frac{q}{r} $$<br>
+Where  $ k_e $  is Coulomb&rsquo;s constant. By the <strong>Principle of Superposition</strong>, if multiple point charges are present, the total electric potential at a point is the algebraic sum of the potentials due to each individual charge:</p>
+<p>$$ V_{total} = \sum_{i} k_e \frac{q_i}{r_i} $$<br>
+Because potential is a scalar (not a vector), we simply add the values without needing to worry about directional components. This makes solving for potential generally easier than solving for the <a href="./../electric-fields/">Electric Fields</a>.</p>
+<h2 id="equipotential-surfaces">Equipotential Surfaces</h2>
+<p>An equipotential surface is a region where the electric potential is the same at every point. Moving a charge along an equipotential surface requires zero work. Crucially, the electric field lines are always perpendicular to equipotential surfaces.</p>
+
+</main>
+
+
+  </body>
+</html>
+

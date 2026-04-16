@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gausss Law | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Gausss Law</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-gausss-law">AP Physics C: Gauss&rsquo;s Law</h1>
+<h2 id="overview">Overview</h2>
+<p>Gauss&rsquo;s Law is a fundamental principle in electromagnetism that relates the distribution of electric charge to the resulting electric field. It provides an elegant way to calculate electric fields in highly symmetric systems, often bypassing the complicated integration required by <a href="./../electric-fields-of-charge-distributions/">Electric Fields of Charge Distributions</a>.</p>
+<p>Gauss&rsquo;s Law states that the net electric flux through any hypothetical closed surface (a Gaussian surface) is equal to the net charge enclosed by that surface divided by the permittivity of free space ( $ \epsilon_0 $ ).</p>
+<h2 id="the-mathematical-formulation">The Mathematical Formulation</h2>
+<p>The law is mathematically expressed as:</p>
+<p>$$ \Phi_E = \oint \vec{E} \cdot d\vec{A} = \frac{q_{enc}}{\epsilon_0} $$<br>
+Where:</p>
+<ul>
+<li>$ \Phi_E $  is the electric flux through the surface.</li>
+<li>$ \vec{E} $  is the electric field vector.</li>
+<li>$ d\vec{A} $  is the differential area vector (pointing outward, normal to the surface).</li>
+<li>$ q_{enc} $  is the total charge enclosed within the Gaussian surface.</li>
+<li>$ \epsilon_0 $  is the vacuum permittivity ( $ 8.85 \times 10^{-12} \text{ C}^2/\text{N}\cdot\text{m}^2 $ ).</li>
+</ul>
+<h2 id="key-concepts-and-conditions">Key Concepts and Conditions</h2>
+<p>To effectively apply Gauss&rsquo;s Law, you must choose a Gaussian surface that exploits the symmetry of the charge distribution. The goal is to make the electric field magnitude  $ E $  constant over the surface so it can be pulled out of the integral.</p>
+<h3 id="symmetry-types-for-gausss-law">Symmetry Types for Gauss&rsquo;s Law</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Symmetry</th>
+          <th style="text-align: left">Gaussian Surface</th>
+          <th style="text-align: left">Typical Field Dependence</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Spherical</td>
+          <td style="text-align: left">Sphere</td>
+          <td style="text-align: left">$ E \propto 1/r^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cylindrical</td>
+          <td style="text-align: left">Cylinder</td>
+          <td style="text-align: left">$ E \propto 1/r $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Planar</td>
+          <td style="text-align: left">Pillbox</td>
+          <td style="text-align: left">$ E = \text{constant} $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="important-considerations">Important Considerations</h2>
+<ol>
+<li><strong>Gaussian Surfaces:</strong> These surfaces are imaginary. They do not have to be physical objects, nor do they need to coincide with the surface of the charge distribution. They can be anywhere, but they are most useful when they pass through the point where you want to calculate the electric field.</li>
+<li><strong>Zero Flux:</strong> If the net charge enclosed is zero, the net flux is zero. This does not necessarily mean the electric field is zero everywhere on the surface, but it means the total flux entering the surface equals the total flux leaving it.</li>
+<li><strong>Limitations:</strong> While Gauss&rsquo;s Law is always true, it is only useful for calculating electric fields when the charge distribution exhibits high degrees of symmetry (spherical, cylindrical, or planar). For asymmetric distributions, one must revert to standard integration of <a href="./../electric-fields-of-charge-distributions/">Electric Fields of Charge Distributions</a>.</li>
+</ol>
+<h2 id="application-to-conductors">Application to Conductors</h2>
+<p>Gauss&rsquo;s Law provides significant insight into the behavior of <a href="./../electrostatics-with-conductors/">Electrostatics with Conductors</a>. In electrostatic equilibrium, the electric field inside a conductor is zero. Consequently, Gauss&rsquo;s Law implies that any excess charge placed on a conductor must reside entirely on its outer surface. If you create a Gaussian surface just inside the material of a conductor, the enclosed charge must be zero.</p>
+<p>For deeper insights into how charge distributes itself, refer to <a href="./../redistribution-of-charge-between-conductors/">Redistribution of Charge between Conductors</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Power | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Electric Power</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="electric-power">Electric Power</h1>
+<p>In the context of electric circuits, <strong>Electric Power</strong> ( $ P $ ) represents the rate at which electrical energy is transferred or converted into other forms of energy (such as heat, light, or mechanical motion) by an electric circuit component. Understanding power is crucial for designing safe and efficient electrical systems.</p>
+<h2 id="defining-electric-power">Defining Electric Power</h2>
+<p>When charge moves through a potential difference, the potential energy changes. Power is defined as the rate of change of this energy with respect to time ( $ t $ ). Since  $ P = \frac{dU}{dt} $  and  $ U = qV $ , we arrive at the fundamental definition:</p>
+<p>$$ P = IV $$<br>
+Where:</p>
+<ul>
+<li>$ P $  is power measured in Watts ( $ W $  or  $ J/s $ ).</li>
+<li>$ I $  is the current through the component measured in Amperes ( $ A $ ).</li>
+<li>$ V $  is the potential difference (voltage) across the component measured in Volts ( $ V $ ).</li>
+</ul>
+<h2 id="power-dissipation-in-resistors">Power Dissipation in Resistors</h2>
+<p>For components that obey <a href="./../resistance,-resistivity,-and-ohm's-law/">Resistance, Resistivity, and Ohm&rsquo;s Law</a>, we can substitute Ohm&rsquo;s Law ( $ V = IR $ ) into the power equation to derive alternative forms. These are particularly useful when you only know two of the three variables ( $ I, V, R $ ).</p>
+<h3 id="power-equations-table">Power Equations Table</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Equation</th>
+          <th style="text-align: left">Best Used When&hellip;</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$$ P = IV $$</td>
+          <td style="text-align: left">Both current and voltage are known.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$$ P = I^2R $$</td>
+          <td style="text-align: left">Current and resistance are known (e.g., series circuits).</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$$ P = \frac{V^2}{R} $$</td>
+          <td style="text-align: left">Voltage and resistance are known (e.g., parallel circuits).</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="joule-heating">Joule Heating</h3>
+<p>When current flows through a resistor, the collisions between moving electrons and the atoms of the resistor material transfer energy to the atoms, increasing their kinetic energy. This manifests as thermal energy, commonly known as <strong>Joule heating</strong>. This process is irreversible in standard resistors and represents energy &ldquo;lost&rdquo; from the circuit as heat.</p>
+<h2 id="power-ratings-and-efficiency">Power Ratings and Efficiency</h2>
+<p>Electrical appliances are often labeled with a &ldquo;power rating.&rdquo; This rating indicates the power the device consumes when connected to a specific operating voltage.</p>
+<ul>
+<li><strong>Warning:</strong> Operating a device at a voltage higher than its rating can cause excessive power dissipation ( $ P = \frac{V^2}{R} $ ), leading to overheating or component failure.</li>
+<li><strong>Energy Consumption:</strong> Power is the rate of consumption. Total energy ( $ E $ ) used over a time interval  $ \Delta t $  is calculated by:</li>
+</ul>
+<p>$$ E = P \cdot \Delta t $$<br>
+While the SI unit for energy is the Joule ( $ J $ ), utility companies often measure energy in <strong>kilowatt-hours</strong> ( $ kWh $ ), where  $ 1 \text{ kWh} = 3.6 \times 10^6 \text{ J} $ .</p>
+<h2 id="relation-to-circuit-laws">Relation to Circuit Laws</h2>
+<p>Power is fundamentally linked to the energy conservation principles found in <a href="./../kirchhoff%E2%80%99s-loop-rule/">Kirchhoff’s Loop Rule</a>. In any closed loop, the total power supplied by the battery (or EMF source) must equal the total power dissipated by all components (resistors, etc.) in that circuit:</p>
+<p>$$ \sum P_{supplied} = \sum P_{dissipated} $$<br>
+This conservation ensures that energy is neither created nor destroyed within the electrical system, merely transformed.</p>
+
+</main>
+
+
+  </body>
+</html>
+

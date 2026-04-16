@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kirchhoff’s Loop Rule | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Kirchhoff’s Loop Rule</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="kirchhoffs-loop-rule">Kirchhoff’s Loop Rule</h1>
+<p>Kirchhoff’s Loop Rule, often referred to as Kirchhoff&rsquo;s Voltage Law (KVL), is a fundamental principle in circuit analysis derived from the <a href="./../law-of-conservation-of-energy/">Law of Conservation of Energy</a>. It is essential for solving complex <a href="./../compound-dc-circuits/">Compound DC Circuits</a>.</p>
+<h2 id="definition">Definition</h2>
+<p>The loop rule states that the algebraic sum of all potential differences (voltage changes) around any closed loop in a circuit must equal zero. In simpler terms, if you start at any point in a circuit and trace a complete path back to the starting point, the total energy gained from sources (like batteries) must equal the total energy dissipated by components (like resistors).</p>
+<p>Mathematically, this is expressed as:
+$$ \sum_{i=1}^{n} \Delta V_i = 0 $$</p>
+<h2 id="sign-conventions-for-loop-analysis">Sign Conventions for Loop Analysis</h2>
+<p>When applying the loop rule, it is critical to maintain consistent signs. We define a direction for the loop (either clockwise or counter-clockwise). As you traverse each component, follow these rules:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Component</th>
+          <th style="text-align: left">Direction of Traverse</th>
+          <th style="text-align: left">Change in Potential ( $ \Delta V $ )</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Resistor</strong></td>
+          <td style="text-align: left">With current direction</td>
+          <td style="text-align: left">$ -IR $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Resistor</strong></td>
+          <td style="text-align: left">Against current direction</td>
+          <td style="text-align: left">$ +IR $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Battery</strong></td>
+          <td style="text-align: left">From negative to positive terminal</td>
+          <td style="text-align: left">$ +\mathcal{E} $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Battery</strong></td>
+          <td style="text-align: left">From positive to negative terminal</td>
+          <td style="text-align: left">$ -\mathcal{E} $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="the-physics-behind-the-rule">The Physics Behind the Rule</h2>
+<p>The loop rule is a direct consequence of the conservative nature of the electrostatic field. Since the electrostatic force is conservative, the work done in moving a charge around a closed path is zero. Because electric potential is defined as potential energy per unit charge, moving a charge around a closed loop results in a net change in potential of zero. If the sum were not zero, the circuit would violate the <a href="./../the-first-law-of-thermodynamics/">The First Law of Thermodynamics</a>, implying that energy could be created or destroyed within a closed system.</p>
+<h2 id="application-strategy">Application Strategy</h2>
+<p>To solve problems involving the loop rule, follow this systematic approach:</p>
+<ol>
+<li><strong>Identify Loops:</strong> Clearly identify all independent closed loops in the circuit.</li>
+<li><strong>Assign Currents:</strong> Label the magnitude and direction of the current in each branch of the circuit. If you guess the wrong direction, the mathematical solution will simply yield a negative value for the current.</li>
+<li><strong>Traverse Loops:</strong> Choose a direction (e.g., clockwise) to traverse each loop.</li>
+<li><strong>Write Equations:</strong> Apply the sum of potential differences equal to zero for each loop. Use the sign conventions listed above.</li>
+<li><strong>Solve System of Equations:</strong> Combine these equations with those derived from <a href="./../kirchhoff%E2%80%99s-junction-rule/">Kirchhoff’s Junction Rule</a> to solve for unknown currents or resistances.</li>
+</ol>
+<p>For circuits involving capacitors, remember that you may also need to reference <a href="./../capacitors/">Capacitors</a> to determine the voltage across those specific components. When circuits are analyzed over time, you may transition into <a href="./../resistor-capacitor-(rc)-circuits/">Resistor-Capacitor (RC) Circuits</a>, where the loop rule remains valid but involves time-dependent differential equations.</p>
+
+</main>
+
+
+  </body>
+</html>
+

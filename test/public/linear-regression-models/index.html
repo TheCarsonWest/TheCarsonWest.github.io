@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linear Regression Models | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Linear Regression Models</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="linear-regression-models">Linear Regression Models</h1>
+<p>Linear regression models are a fundamental tool in AP Statistics used to describe the relationship between two quantitative variables when a scatterplot suggests a linear association. The primary goal is to predict the value of one variable (the response variable) from the value of another (the explanatory variable). This topic builds upon understanding <a href="./../representing-the-relationship-between-two-quantitative-variables/">Representing the Relationship Between Two Quantitative Variables</a> and <a href="./../correlation/">Correlation</a>.</p>
+<h2 id="the-least-squares-regression-line-lsrl">The Least-Squares Regression Line (LSRL)</h2>
+<p>The most common method for fitting a line to a set of data is the <strong>Least-Squares Regression Line (LSRL)</strong>. This line minimizes the sum of the squared vertical distances (residuals) between the observed data points and the line itself. The equation of the LSRL is:</p>
+<p>$$  \hat{y} = a + bx  $$<br>
+Where:</p>
+<ul>
+<li>$ \hat{y} $  (read as &ldquo;y-hat&rdquo;) is the predicted value of the response variable for a given  $ x $ .</li>
+<li>$ a $  is the <strong>y-intercept</strong>, the predicted value of  $ y $  when  $ x=0 $ .</li>
+<li>$ b $  is the <strong>slope</strong>, which represents the predicted change in  $ y $  for every one-unit increase in  $ x $ .</li>
+<li>$ x $  is the value of the explanatory variable.</li>
+</ul>
+<p>For a deeper dive into its calculation, refer to <a href="./../least-squares-regression/">Least Squares Regression</a>.</p>
+<h3 id="interpreting-slope-and-y-intercept">Interpreting Slope and Y-intercept</h3>
+<p>Interpreting the slope and y-intercept in context is crucial:</p>
+<ul>
+<li><strong>Slope ( $ b $ ):</strong> For every one-unit increase in the explanatory variable ( $ x $ ), the response variable ( $ y $ ) is predicted to change by  $ b $  units, on average.</li>
+<li><strong>Y-intercept ( $ a $ ):</strong> When the explanatory variable ( $ x $ ) is 0, the predicted value of the response variable ( $ y $ ) is  $ a $ . (Be cautious: sometimes  $ x=0 $  is not a meaningful value in context).</li>
+</ul>
+<h3 id="formulas-for-slope-and-y-intercept">Formulas for Slope and Y-intercept</h3>
+<p>The slope ( $ b $ ) and y-intercept ( $ a $ ) can be calculated using the following formulas:</p>
+<p>$$  b = r \frac{s_y}{s_x}  $$   $$  a = \bar{y} - b\bar{x}  $$<br>
+Where:</p>
+<ul>
+<li>$ r $  is the <a href="./../correlation/">Correlation</a> coefficient between  $ x $  and  $ y $ .</li>
+<li>$ s_y $  is the standard deviation of the response variable  $ y $ .</li>
+<li>$ s_x $  is the standard deviation of the explanatory variable  $ x $ .</li>
+<li>$ \bar{y} $  is the mean of the response variable  $ y $ .</li>
+<li>$ \bar{x} $  is the mean of the explanatory variable  $ x $ .</li>
+</ul>
+<h2 id="residuals">Residuals</h2>
+<p><a href="./../residuals/">Residuals</a> are the differences between the observed values of the response variable and the values predicted by the regression line. They represent the &ldquo;error&rdquo; in the prediction for each data point.</p>
+<p>$$  \text{Residual} = \text{Observed } y - \text{Predicted } y = y - \hat{y}  $$<br>
+A <strong>residual plot</strong> is a scatterplot of the residuals against the explanatory variable (or predicted values  $ \hat{y} $ ). A good linear model will show no obvious pattern in the residual plot (a random scatter around zero). Patterns in a residual plot indicate that a linear model might not be appropriate, suggesting <a href="./../analyzing-departures-from-linearity/">Analyzing Departures from Linearity</a>.</p>
+<h2 id="coefficient-of-determination---r2--">Coefficient of Determination ( $ R^2 $ )</h2>
+<p>The <strong>coefficient of determination</strong>, denoted as  $ R^2 $ , is a measure that tells us how well the regression line fits the data. It is the square of the correlation coefficient ( $ r $ ).</p>
+<p>$$  R^2 = r^2  $$</p>
+<h3 id="interpretation-of---r2-">Interpretation of  $ R^2 $</h3>
+<p>$ R^2 $  represents the proportion (or percentage, if multiplied by 100) of the variation in the response variable ( $ y $ ) that can be explained by the linear relationship with the explanatory variable ( $ x $ ). A higher  $ R^2 $  indicates that the model explains more of the variability in the response variable.</p>
+<p><strong>Example:</strong> If  $ R^2 = 0.75 $ , it means that 75% of the variation in  $ y $  can be explained by the linear relationship with  $ x $ . The remaining 25% of the variation is due to other factors or random chance.</p>
+<h2 id="standard-deviation-of-the-residuals---s_e---or---s--">Standard Deviation of the Residuals ( $ s_e $  or  $ s $ )</h2>
+<p>The standard deviation of the residuals, often denoted as  $ s $  or  $ s_e $ , measures the typical distance between the observed  $ y $  values and the predicted  $ \hat{y} $  values (the typical size of a residual).</p>
+<p>$$  s = \sqrt{\frac{\sum(y_i - \hat{y}_i)^2}{n-2}}  $$<br>
+Where  $ n $  is the number of data points.</p>
+<h3 id="interpretation-of---s-">Interpretation of  $ s $</h3>
+<p>$ s $  estimates the standard deviation of the errors (residuals) and tells us the typical prediction error using the LSRL. A smaller value of  $ s $  indicates that the observed  $ y $  values generally fall closer to the regression line, meaning the model makes more precise predictions.</p>
+<h2 id="extrapolation">Extrapolation</h2>
+<p><a href="./../extrapolation/">Extrapolation</a> is the use of a regression line to predict values of the response variable ( $ y $ ) for values of the explanatory variable ( $ x $ ) that are outside the range of the observed data. This is generally not recommended because the linear relationship observed within the data range may not continue outside that range. The further you extrapolate, the less reliable your prediction becomes.</p>
+<h2 id="outliers-and-influential-points">Outliers and Influential Points</h2>
+<p>Points that lie far from the overall pattern of the data are considered <a href="./../outliers-and-influential-points/">Outliers and Influential Points</a>. An <strong>outlier</strong> in regression is a point that has a large residual (far from the line in the y-direction). An <strong>influential point</strong> is an outlier in the x-direction that, if removed, would significantly change the slope or y-intercept of the regression line. It&rsquo;s important to identify and assess the impact of such points.</p>
+
+</main>
+
+
+  </body>
+</html>
+

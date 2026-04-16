@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Induced Currents and Magnetic Forces | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Induced Currents and Magnetic Forces</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="induced-currents-and-magnetic-forces">Induced Currents and Magnetic Forces</h1>
+<p>When a conductor moves through a magnetic field, the motion of the charge carriers within the conductor creates an interaction between the magnetic field and the electric current. This interaction is the foundation of motional electromotive force (EMF) and the resulting induced currents.</p>
+<h2 id="motional-emf">Motional EMF</h2>
+<p>Motional EMF occurs when a conductor moves through a magnetic field. For a conducting rod of length  $ l $  moving at a velocity  $ v $  perpendicular to a uniform magnetic field  $ B $ , the magnetic force on the charge carriers creates a potential difference across the ends of the rod.</p>
+<p>The magnetic force acting on a charge  $ q $  is given by  $ F = qvB $ . This force pushes charges to the ends of the rod until an opposing electric field is established, creating a balanced electric force  $ F_E = qE = q(\frac{\Delta V}{l}) $ . By equating these forces, we derive the motional EMF:</p>
+<p>$$ \varepsilon = Blv $$<br>
+This equation assumes the velocity, magnetic field, and the length of the conductor are all mutually perpendicular. If they are not perpendicular, you must use the appropriate components.</p>
+<h2 id="lenzs-law-and-energy-conservation">Lenz&rsquo;s Law and Energy Conservation</h2>
+<p>The induced current that arises from motional EMF creates its own magnetic field. According to <a href="./../lenz's-law/">Lenz&rsquo;s Law</a>, the direction of this induced current is such that the resulting magnetic force opposes the original motion of the conductor.</p>
+<p>This is a physical manifestation of the <a href="./../conservation-of-energy/">Conservation of Energy</a>. If the induced current did not oppose the motion, the system would accelerate without any external work input, violating energy conservation laws.</p>
+<h2 id="induced-current-in-a-circuit">Induced Current in a Circuit</h2>
+<p>Consider a conductive loop or a sliding rod on rails forming a closed circuit with resistance  $ R $ . The induced EMF generates an induced current ( $ I $ ) governed by <a href="./../ohms-law/">Ohms Law</a>:</p>
+<p>$$ I = \frac{\varepsilon}{R} = \frac{Blv}{R} $$<br>
+Because there is a current flowing in a magnetic field, the rod will experience a magnetic force (often called a &ldquo;magnetic drag force&rdquo;) that opposes its motion:</p>
+<p>$$ F_B = IlB = \left(\frac{Blv}{R}\right)lB = \frac{B^2l^2v}{R} $$</p>
+<h3 id="summary-of-relationships">Summary of Relationships</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Variable</th>
+          <th style="text-align: left">Symbol</th>
+          <th style="text-align: left">Relationship to Motion</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Motional EMF</td>
+          <td style="text-align: left">$ \varepsilon $</td>
+          <td style="text-align: left">$ \varepsilon \propto v $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Induced Current</td>
+          <td style="text-align: left">$ I $</td>
+          <td style="text-align: left">$ I \propto v $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Magnetic Drag Force</td>
+          <td style="text-align: left">$ F_B $</td>
+          <td style="text-align: left">$ F_B \propto v $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="power-considerations">Power Considerations</h2>
+<p>As the magnetic force opposes the motion of the rod, an external force  $ F_{ext} $  must be applied to maintain a constant velocity  $ v $ . The power delivered by the external force is equal to the rate at which energy is dissipated in the resistor.</p>
+<p>The mechanical power input is:
+$$ P_{mech} = F_{ext}v = \left(\frac{B^2l^2v}{R}\right)v = \frac{B^2l^2v^2}{R} $$<br>
+The electrical power dissipated as heat in the resistor is:
+$$ P_{elec} = I^2R = \left(\frac{Blv}{R}\right)^2 R = \frac{B^2l^2v^2}{R} $$<br>
+As expected,  $ P_{mech} = P_{elec} $ , confirming the principle of <a href="./../conservation-of-energy/">Conservation of Energy</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Math | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Math</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="the-mathematics-behind-boat-racing">The mathematics behind boat racing</h1>
+<h1 id="how-do-we-move-in-a-straight-line">How do we move in a straight line?</h1>
+<p>Heres a pseudocode breakdown of how boat physics works in Minecraft(if you only worry about going in a straight line):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">tick</span>(){ <span style="color:#75715e">// Every tick, this runs (Yes, its all tick based!)</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> (wIsPressed()) { <span style="color:#75715e">// If W is pressed, add thrust</span>
+</span></span><span style="display:flex;"><span>		t <span style="color:#f92672">=</span> .<span style="color:#a6e22e">04</span>
+</span></span><span style="display:flex;"><span>	}<span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span>(sIsPressed()) { <span style="color:#75715e">// If S is pressed, subtract thrust</span>
+</span></span><span style="display:flex;"><span>			t <span style="color:#f92672">=</span> .<span style="color:#a6e22e">005</span>
+</span></span><span style="display:flex;"><span>		}<span style="color:#66d9ef">else</span>{
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span>(aIsPressed <span style="color:#f92672">||</span> dIsPressed){ <span style="color:#75715e">// If you are turning but NOT moving forward or backward, add a little bit of thrust</span>
+</span></span><span style="display:flex;"><span>				t <span style="color:#f92672">=</span> .<span style="color:#a6e22e">005</span>
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>		
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	newVelocity <span style="color:#f92672">=</span> (oldVelocity<span style="color:#f92672">+</span>t) <span style="color:#f92672">*</span> friction
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="basic-breakdown">Basic breakdown</h2>
+<p>If we just hold W, while on a block with friction value  $ f $ , we can find our velocity at tick  $ t $  using this recursive series.</p>
+<h2 id="-v_tv_t-104times-f---which-can-be-generalized-as-an-equation-this-is-very-useful">$$ v_t=(v_{t-1}+.04)\times f $$  Which can be generalized as an equation (this is very useful):</h2>
+<h2 id="-vtfrac04f1-f1-ft---graphing-on-desmos-yields-this-line">$$ v(t)=\frac{.04f}{1-f}(1-f^t) $$  Graphing on desmos yields this line.</h2>
+<p><img src="https://thecarsonwest.github.io/test/content/pasted-image-20260218134005.png" alt="Pasted image 20260218134005.png"></p>
+<h2 id="friction-values-and-top-speed">Friction values and top speed.</h2>
+<p>This equation has an asymptote, indicating the speed we will reach after an infinite amount of time, specifically at   $$ \frac{.04f}{1-f} \space\text{ blocks/tick} $$ or in the metric we like,
+$$ v_{max}(f)= 20\left(\frac{.04f}{1-f}\right) \space\text{ blocks/second} $$  Plugging this in with the friction values we commonly use we find we find
+$$ v_{max}(0.989 \text{ (Blue Ice) })=71.93 \frac{\text{blocks}}{\text{sec}} $$  $$ v_{max}(0.98 \text{ (Regular and Packed Ice) })=39.2 \frac{\text{blocks}}{\text{sec}} $$  Its a little smaller than what has been found experimentally, but close enough.</p>
+<h3 id="finding-a-friction-for-for-a-certain-top-speed">Finding a friction for for a certain top speed</h3>
+<p>rearranging the equation we can find the required friction value for a certain top speed(in blocks/tick), which could be useful on maps using boatutils, we get this equation</p>
+<p>$$ f(v_{max})=\frac{20v_{max}}{20(v_{max}+.04)} $$  so for example, if we wanted to find the friction value to limit the player to 20 blocks/second, or 1 block/tick,
+$$ f\left( \frac{20}{20} \right)=0.962 $$</p>
+
+</main>
+
+
+  </body>
+</html>
+

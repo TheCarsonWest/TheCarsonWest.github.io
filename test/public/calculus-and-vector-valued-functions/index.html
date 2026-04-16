@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculus and Vector-Valued Functions | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Calculus and Vector-Valued Functions</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc Home</a></h1>
+<h1 id="ap-calculus-bc-notes-94-calculus-and-vector-valued-functions">AP Calculus BC Notes: 9.4 Calculus and Vector-Valued Functions</h1>
+<p>Vector-valued functions are crucial in describing motion and curves in 2D and 3D space. They assign a vector to each real number (parameter, often time  $ t $ ). Calculus extend;s naturally to these functions, allowing us to analyze properties like limits, continuity, rates of change (velocity, acceleration), and displacement.</p>
+<h2 id="defining-a-vector-valued-function">Defining a Vector-Valued Function</h2>
+<p>A vector-valued function  $ \mathbf{r}(t) $  is typically defined by its component functions:</p>
+<p>For 2D:  $$ \mathbf{r}(t) = \langle x(t), y(t) \rangle = x(t)\mathbf{i} + y(t)\mathbf{j} $$  For 3D:  $$ \mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle = x(t)\mathbf{i} + y(t)\mathbf{j} + z(t)\mathbf{k} $$<br>
+Where  $ x(t) $ ,  $ y(t) $ , and  $ z(t) $  are real-valued functions of the parameter  $ t $ . The domain of  $ \mathbf{r}(t) $  is the intersection of the domains of its component functions.</p>
+<h2 id="limits-of-vector-valued-functions">Limits of Vector-Valued Functions</h2>
+<p>The limit of a vector-valued function is found by taking the limit of each component function separately, provided each limit exists.</p>
+<p>If  $ \mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle $ , then:
+$$  \lim_{t \to a} \mathbf{r}(t) = \left\langle \lim_{t \to a} x(t), \lim_{t \to a} y(t), \lim_{t \to a} z(t) \right\rangle  $$  A vector-valued function  $ \mathbf{r}(t) $  is <strong>continuous</strong> at  $ t=a $  if  $ \lim_{t \to a} \mathbf{r}(t) = \mathbf{r}(a) $ , which implies that all component functions are continuous at  $ t=a $ .</p>
+<h2 id="derivatives-of-vector-valued-functions">Derivatives of Vector-Valued Functions</h2>
+<p>The derivative of a vector-valued function is found by differentiating each component function with respect to  $ t $ . This derivative,  $ \mathbf{r}&rsquo;(t) $ , represents a tangent vector to the curve at  $ t $ .</p>
+<p>If  $ \mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle $ , then:
+$$  \mathbf{r}&rsquo;(t) = \frac{d}{dt}\mathbf{r}(t) = \left\langle x&rsquo;(t), y&rsquo;(t), z&rsquo;(t) \right\rangle  $$  The derivative  $ \mathbf{r}&rsquo;(t) $  gives the instantaneous direction and magnitude of change along the curve. For motion problems, this is the <a href="./../motion-problems-with-parametric-and-vector-valued-functions#velocity-and-acceleration%7Cvelocity-vector/">Motion Problems with Parametric and Vector-Valued Functions#Velocity and Acceleration|velocity vector</a>. The second derivative,  $ \mathbf{r}&rsquo;&rsquo;(t) $ , gives the <a href="./../motion-problems-with-parametric-and-vector-valued-functions#velocity-and-acceleration%7Cacceleration-vector/">Motion Problems with Parametric and Vector-Valued Functions#Velocity and Acceleration|acceleration vector</a>.</p>
+<h3 id="differentiation-rules">Differentiation Rules</h3>
+<p>Differentiation rules for vector-valued functions are similar to those for real-valued functions, extended to vectors. Let  $ \mathbf{u}(t) $  and  $ \mathbf{v}(t) $  be differentiable vector functions,  $ c $  a scalar, and  $ f(t) $  a differentiable scalar function.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Rule</th>
+          <th style="text-align: left">Formula</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Scalar Multiple</td>
+          <td style="text-align: left">$ \frac{d}{dt}[c\mathbf{u}(t)] = c\mathbf{u}&rsquo;(t) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Sum/Difference</td>
+          <td style="text-align: left">$ \frac{d}{dt}[\mathbf{u}(t) \pm \mathbf{v}(t)] = \mathbf{u}&rsquo;(t) \pm \mathbf{v}&rsquo;(t) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Scalar Function Product</td>
+          <td style="text-align: left">$ \frac{d}{dt}[f(t)\mathbf{u}(t)] = f&rsquo;(t)\mathbf{u}(t) + f(t)\mathbf{u}&rsquo;(t) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Dot Product</td>
+          <td style="text-align: left">$ \frac{d}{dt}[\mathbf{u}(t) \cdot \mathbf{v}(t)] = \mathbf{u}&rsquo;(t) \cdot \mathbf{v}(t) + \mathbf{u}(t) \cdot \mathbf{v}&rsquo;(t) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Cross Product (3D only)</td>
+          <td style="text-align: left">$ \frac{d}{dt}[\mathbf{u}(t) \times \mathbf{v}(t)] = \mathbf{u}&rsquo;(t) \times \mathbf{v}(t) + \mathbf{u}(t) \times \mathbf{v}&rsquo;(t) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Chain Rule</td>
+          <td style="text-align: left">$ \frac{d}{dt}[\mathbf{u}(f(t))] = \mathbf{u}&rsquo;(f(t))f&rsquo;(t) $</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Key Property</strong>: If  $ |\mathbf{r}(t)| = c $  (constant magnitude), then  $ \mathbf{r}(t) \cdot \mathbf{r}&rsquo;(t) = 0 $ . This means  $ \mathbf{r}(t) $  and  $ \mathbf{r}&rsquo;(t) $  are orthogonal. This is particularly useful for circular motion.</p>
+<h2 id="integrals-of-vector-valued-functions">Integrals of Vector-Valued Functions</h2>
+<p>Integration of a vector-valued function is also performed component by component. This applies to both indefinite and definite integrals.</p>
+<p>If  $ \mathbf{r}(t) = \langle x(t), y(t), z(t) \rangle $ , then:</p>
+<h3 id="indefinite-integral">Indefinite Integral</h3>
+<p>$$  \int \mathbf{r}(t) ,dt = \left\langle \int x(t) ,dt, \int y(t) ,dt, \int z(t) ,dt \right\rangle + \mathbf{C}  $$  Where  $ \mathbf{C} = \langle C_1, C_2, C_3 \rangle $  is a constant vector of integration.</p>
+<h3 id="definite-integral">Definite Integral</h3>
+<p>$$  \int_a^b \mathbf{r}(t) ,dt = \left\langle \int_a^b x(t) ,dt, \int_a^b y(t) ,dt, \int_a^b z(t) ,dt \right\rangle  $$  The definite integral of a velocity vector over an interval gives the <a href="./../motion-problems-with-parametric-and-vector-valued-functions#displacement-and-total-distance%7Cdisplacement-vector/">Motion Problems with Parametric and Vector-Valued Functions#Displacement and Total Distance|displacement vector</a> during that interval.</p>
+<h2 id="arc-length-of-a-vector-valued-curve">Arc Length of a Vector-Valued Curve</h2>
+<p>The <a href="./../arc-lengths-of-parametric-equations%7Carc-length/">Arc Lengths of Parametric Equations|arc length</a>  $ L $  of a smooth curve defined by  $ \mathbf{r}(t) $  from  $ t=a $  to  $ t=b $  is given by:
+$$  L = \int_a^b |\mathbf{r}&rsquo;(t)| ,dt = \int_a^b \sqrt{\left(\frac{dx}{dt}\right)^2 + \left(\frac{dy}{dt}\right)^2 + \left(\frac{dz}{dt}\right)^2} ,dt  $$  For a 2D curve, simply omit the  $ z $  component. This is the total distance traveled by an object whose position is given by  $ \mathbf{r}(t) $ .</p>
+
+</main>
+
+
+  </body>
+</html>
+

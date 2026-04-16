@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conservation of Electric Energy | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Conservation of Electric Energy</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="conservation-of-electric-energy">Conservation of Electric Energy</h1>
+<p>Conservation of energy is a fundamental principle in physics. When applied to electric systems, it states that the total energy in an isolated electric system remains constant. This is a specific application of the broader concept of <a href="./../conservation-of-energy/">Conservation of Energy</a> to the electric field and electric potential.</p>
+<h2 id="electric-potential-energy-vs-electric-potential">Electric Potential Energy vs. Electric Potential</h2>
+<p>It is crucial to distinguish between energy and potential.</p>
+<ul>
+<li><strong>Electric Potential Energy ( $ U_E $ ):</strong> The energy stored in a system of charges due to their positions. The unit is Joules ( $ J $ ).</li>
+<li><strong>Electric Potential ( $ V $ ):</strong> The electric potential energy per unit charge at a specific location in space. The unit is Volts ( $ V = J/C $ ).</li>
+</ul>
+<p>The relationship is defined as:
+$$ U_E = qV $$<br>
+For a point charge  $ q $  in the presence of another charge  $ Q $  at a distance  $ r $ :
+$$ U_E = k\frac{qQ}{r} $$<br>
+For a more comprehensive look at these definitions, refer to <a href="./../electric-potential-energy/">Electric Potential Energy</a> and <a href="./../electric-potential/">Electric Potential</a>.</p>
+<h2 id="the-conservation-principle">The Conservation Principle</h2>
+<p>In an electric field, the total mechanical energy of a charge  $ q $  is conserved if only conservative electric forces are doing work. The total energy  $ E_{total} $  is the sum of kinetic energy ( $ K $ ) and electric potential energy ( $ U_E $ ):</p>
+<p>$$ E_{total} = K + U_E = \text{constant} $$<br>
+When a charge moves from an initial point ( $ i $ ) to a final point ( $ f $ ), the change in kinetic energy is equal to the negative change in potential energy:</p>
+<p>$$ \Delta K + \Delta U_E = 0 $$   $$ K_f - K_i = -(U_{E,f} - U_{E,i}) $$<br>
+Since  $ U_E = qV $ , we can rewrite this in terms of electric potential:</p>
+<p>$$ \frac{1}{2}mv_f^2 - \frac{1}{2}mv_i^2 = -q(V_f - V_i) $$<br>
+This equation allows us to solve for the velocity of a particle moving through an electric potential difference without needing to know the path taken.</p>
+<h3 id="energy-conversion-summary-table">Energy Conversion Summary Table</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Energy Component</th>
+          <th style="text-align: left">Definition</th>
+          <th style="text-align: left">Mathematical Form</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Kinetic Energy</strong></td>
+          <td style="text-align: left">Energy of motion</td>
+          <td style="text-align: left">$ K = \frac{1}{2}mv^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Electric Potential Energy</strong></td>
+          <td style="text-align: left">Energy due to position in a field</td>
+          <td style="text-align: left">$ U_E = qV $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Total Energy</strong></td>
+          <td style="text-align: left">Constant in a conservative field</td>
+          <td style="text-align: left">$ E = K + U_E $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="applications">Applications</h2>
+<h3 id="accelerated-charged-particles">Accelerated Charged Particles</h3>
+<p>When a charged particle (like an electron or proton) is released from rest in an electric field, its potential energy is converted entirely into kinetic energy.</p>
+<p>$$ K_f = q(V_i - V_f) $$   $$ \frac{1}{2}mv^2 = q\Delta V $$<br>
+This principle is the basis for particle accelerators and the operation of cathode ray tubes.</p>
+<h3 id="work-done-by-electric-forces">Work Done by Electric Forces</h3>
+<p>The work done by an electric field on a charge is related to the change in potential energy:
+$$ W_{field} = -\Delta U_E = -q\Delta V $$<br>
+If an external force moves a charge against the field without changing its kinetic energy, the external work is:
+$$ W_{ext} = \Delta U_E = q\Delta V $$<br>
+This connects directly to the concept of <a href="./../work/">Work</a>, where we analyze the displacement of objects under the influence of force. If you are examining more complex circuits or field interactions, it is often helpful to reference <a href="./../electric-fields/">Electric Fields</a> to determine the path and magnitude of the potential difference.</p>
+
+</main>
+
+
+  </body>
+</html>
+

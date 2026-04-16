@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kinetic and Static Friction | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Kinetic and Static Friction</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-27-kinetic-and-static-friction">Topic 2.7: Kinetic and Static Friction</h1>
+<p>Friction is a resistive force that acts parallel to the surfaces in contact, opposing the relative motion (or attempted motion) between them. In AP Physics C, understanding the distinction between static and kinetic friction is critical for solving problems involving <a href="./../forces-and-free-body-diagrams/">Forces and Free-Body Diagrams</a> and <a href="./../newtons-second-law/">Newtons Second Law</a>.</p>
+<h2 id="the-nature-of-friction">The Nature of Friction</h2>
+<p>Friction arises from the microscopic interactions between the surfaces of two objects. Even surfaces that appear smooth have irregularities that collide or bond when in contact. The magnitude of the frictional force is generally proportional to the <strong>normal force</strong> ( $ F_N $ ), which represents the pressing together of the two surfaces.</p>
+<h2 id="static-friction---f_s--">Static Friction ( $ f_s $ )</h2>
+<p>Static friction acts on an object that is at rest or not sliding relative to the surface. It is a &ldquo;self-adjusting&rdquo; force; it increases to match the applied force until it reaches a maximum threshold.</p>
+<ul>
+<li><strong>Behavior:</strong> As long as the object does not move, the static frictional force  $ f_s $  exactly balances the component of the applied force parallel to the surface.</li>
+<li><strong>The Threshold:</strong> Once the applied force exceeds the maximum possible static friction ( $ f_{s,max} $ ), the object begins to move.</li>
+</ul>
+<p>The relationship is expressed as:
+$$ f_s \leq \mu_s F_N $$<br>
+Where:</p>
+<ul>
+<li>$ f_{s,max} = \mu_s F_N $  is the maximum static friction before slipping occurs.</li>
+<li>$ \mu_s $  is the <strong>coefficient of static friction</strong>, a dimensionless constant determined by the two materials in contact.</li>
+</ul>
+<h2 id="kinetic-friction---f_k--">Kinetic Friction ( $ f_k $ )</h2>
+<p>Kinetic friction (or sliding friction) acts when the two surfaces are in relative motion. Unlike static friction, kinetic friction is generally constant regardless of how fast the object is moving (up to a point).</p>
+<p>The relationship is defined as:
+$$ f_k = \mu_k F_N $$<br>
+Where:</p>
+<ul>
+<li>$ \mu_k $  is the <strong>coefficient of kinetic friction</strong>.</li>
+<li>Typically,  $ \mu_k &lt; \mu_s $  for any given pair of surfaces, which explains why it is harder to start moving a heavy object than it is to keep it moving.</li>
+</ul>
+<h2 id="comparison-table">Comparison Table</h2>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Static Friction ( $ f_s $ )</th>
+          <th style="text-align: left">Kinetic Friction ( $ f_k $ )</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Motion</strong></td>
+          <td style="text-align: left">Zero relative motion</td>
+          <td style="text-align: left">Relative motion present</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Magnitude</strong></td>
+          <td style="text-align: left">Variable ( $ 0 $  to  $ \mu_s F_N $ )</td>
+          <td style="text-align: left">Constant ( $ \mu_k F_N $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Coefficient</strong></td>
+          <td style="text-align: left">$ \mu_s $  (Static)</td>
+          <td style="text-align: left">$ \mu_k $  (Kinetic)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Direction</strong></td>
+          <td style="text-align: left">Opposes intended motion</td>
+          <td style="text-align: left">Opposes actual motion</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="key-concepts-for-problem-solving">Key Concepts for Problem Solving</h2>
+<p>When analyzing systems with friction, consider the following:</p>
+<ol>
+<li><strong>Direction:</strong> Always draw the friction vector opposite to the direction of the relative velocity or the tendency to move.</li>
+<li><strong>Normal Force:</strong> Do not assume  $ F_N = mg $ . If an object is on an incline,  $ F_N = mg \cos(\theta) $ . If there are vertical applied forces,  $ F_N $  must be calculated using <a href="./../newtons-second-law/">Newtons Second Law</a> in the y-direction.</li>
+<li><strong>Transitions:</strong> In problems involving potential movement, always check the condition of the system. Calculate the applied force and compare it to  $ f_{s,max} $ . If  $ F_{applied} &gt; \mu_s F_N $ , then the object accelerates, and you must use  $ f_k $  for your equations of motion.</li>
+</ol>
+<p>For a broader discussion on forces that oppose motion, see <a href="./../resistive-forces/">Resistive Forces</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

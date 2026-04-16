@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dielectrics | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Dielectrics</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="ap-physics-c-dielectrics">AP Physics C: Dielectrics</h1>
+<h2 id="overview">Overview</h2>
+<p>A dielectric is a non-conducting material (an insulator) placed between the plates of a capacitor. When inserted, dielectrics increase the capacitance of the capacitor, allowing it to store more charge at a given potential difference. This is a fundamental concept in <a href="./../capacitors/">Capacitors</a>.</p>
+<h2 id="molecular-basis-of-dielectrics">Molecular Basis of Dielectrics</h2>
+<p>When a dielectric is placed in an external electric field  $ E_0 $  (created by the capacitor plates), the molecules within the dielectric become polarized.</p>
+<ol>
+<li><strong>Polar Molecules:</strong> Molecules with a permanent dipole moment align with the field.</li>
+<li><strong>Non-Polar Molecules:</strong> The field induces a dipole moment by slightly shifting the electron clouds relative to the nuclei.</li>
+</ol>
+<p>This polarization creates an internal &ldquo;induced&rdquo; electric field ( $ E_{induced} $ ) that points in the opposite direction of the external field. The net electric field ( $ E_{net} $ ) inside the dielectric is reduced:
+$$ E_{net} = E_0 - E_{induced} $$</p>
+<h2 id="the-dielectric-constant---kappa--">The Dielectric Constant ( $ \kappa $ )</h2>
+<p>The dielectric constant, denoted by  $ \kappa $  (kappa), is a dimensionless property of the material that quantifies how much the material reduces the electric field. It is always greater than or equal to 1. For a vacuum,  $ \kappa = 1 $ .</p>
+<p>The relationship between the initial field ( $ E_0 $ ) and the net field ( $ E_{net} $ ) is:
+$$ E_{net} = \frac{E_0}{\kappa} $$<br>
+Similarly, the potential difference ( $ V $ ) across a capacitor with a dielectric, compared to the original potential ( $ V_0 $ ) without one, is:
+$$ V = \frac{V_0}{\kappa} $$</p>
+<h2 id="impact-on-capacitance">Impact on Capacitance</h2>
+<p>Since capacitance is defined as  $ C = Q/V $ , if the potential difference  $ V $  decreases while the charge  $ Q $  remains constant (assuming the capacitor is disconnected from the battery), the capacitance must increase:
+$$ C = \frac{Q}{V} = \frac{Q}{V_0/\kappa} = \kappa \left(\frac{Q}{V_0}\right) = \kappa C_0 $$<br>
+Thus, for a parallel plate capacitor, the new capacitance is:
+$$ C = \frac{\kappa \epsilon_0 A}{d} $$</p>
+<h3 id="summary-of-effects">Summary of Effects</h3>
+<p>Assuming the capacitor is disconnected from the charging source, the charge  $ Q $  remains constant. Here is how the physical quantities change when a dielectric is inserted:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Quantity</th>
+          <th style="text-align: left">Change with Dielectric</th>
+          <th style="text-align: left">Formula</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Capacitance</strong></td>
+          <td style="text-align: left">Increases</td>
+          <td style="text-align: left">$ C = \kappa C_0 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Electric Field</strong></td>
+          <td style="text-align: left">Decreases</td>
+          <td style="text-align: left">$ E = E_0 / \kappa $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Voltage</strong></td>
+          <td style="text-align: left">Decreases</td>
+          <td style="text-align: left">$ V = V_0 / \kappa $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Charge</strong></td>
+          <td style="text-align: left">Remains Constant</td>
+          <td style="text-align: left">$ Q = Q_0 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Stored Energy</strong></td>
+          <td style="text-align: left">Decreases</td>
+          <td style="text-align: left">$ U = U_0 / \kappa $</td>
+      </tr>
+  </tbody>
+</table>
+<p>Note: If the capacitor remains connected to a battery, the Voltage ( $ V $ ) stays constant, meaning the Charge ( $ Q $ ) must increase to accommodate the higher capacitance.</p>
+<h2 id="energy-storage">Energy Storage</h2>
+<p>Dielectrics also impact the energy stored in the electric field of the capacitor. Since  $ U = \frac{1}{2}QV $  or  $ U = \frac{Q^2}{2C} $ , inserting a dielectric when the battery is disconnected reduces the potential energy stored in the system, as the work done by the field on the dielectric is external energy removed from the capacitor. This relates back to the concepts discussed in <a href="./../electric-potential-energy/">Electric Potential Energy</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Capacitors | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Capacitors</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-106-capacitors">Topic 10.6: Capacitors</h1>
+<p>Capacitors are fundamental components in electronic circuits designed to store electrical potential energy in an electric field. By separating opposite charges on two conductive plates, a capacitor creates a potential difference that can be released when needed.</p>
+<h2 id="basic-principles-of-capacitance">Basic Principles of Capacitance</h2>
+<p>Capacitance ( $ C $ ) is defined as the measure of a capacitor&rsquo;s ability to store charge ( $ Q $ ) for a given potential difference ( $ V $ ). It is a geometric property of the device and does not change based on the amount of charge stored.</p>
+<p>The defining equation for capacitance is:
+$$ C=\frac{Q}{V} $$<br>
+Where:</p>
+<ul>
+<li>$ C $  is capacitance in Farads (F)</li>
+<li>$ Q $  is the magnitude of charge on either plate in Coulombs (C)</li>
+<li>$ V $  is the potential difference between the plates in Volts (V)</li>
+</ul>
+<h2 id="the-parallel-plate-capacitor">The Parallel-Plate Capacitor</h2>
+<p>For the most common configuration, the parallel-plate capacitor, capacitance is determined by the physical geometry of the plates and the material between them (the dielectric).</p>
+<p>The formula for parallel-plate capacitance is:
+$$ C=\frac{\kappa\epsilon_0 A}{d} $$</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Symbol</th>
+          <th style="text-align: left">Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \epsilon_0 $</td>
+          <td style="text-align: left">Permittivity of free space ( $ 8.85 \times 10^{-12} \text{ F/m} $ )</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ A $</td>
+          <td style="text-align: left">Area of one plate</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ d $</td>
+          <td style="text-align: left">Separation distance between plates</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \kappa $</td>
+          <td style="text-align: left">Dielectric constant of the material between plates</td>
+      </tr>
+  </tbody>
+</table>
+<p><a href="./../electric-potential/">Electric Potential</a> explains how the separation distance  $ d $  relates to the electric field created between these plates.</p>
+<h2 id="energy-storage">Energy Storage</h2>
+<p>Capacitors store energy within the electric field formed between the plates. This stored potential energy ( $ U_c $ ) can be calculated using the charge and potential difference:</p>
+<p>$$ U_c=\frac{1}{2}QV=\frac{1}{2}CV^2=\frac{Q^2}{2C} $$<br>
+As the capacitor charges, work is done to move charge against the existing electric field, which is why energy is stored as potential energy rather than being dissipated as heat.</p>
+<h2 id="dielectrics">Dielectrics</h2>
+<p>A dielectric is an insulating material placed between the plates of a capacitor. Inserting a dielectric increases the capacitance by a factor of  $ \kappa $  (the dielectric constant). The dielectric works by becoming polarized, creating an internal electric field that opposes the external field created by the plates, effectively reducing the net electric field and allowing more charge to be stored for the same voltage.</p>
+<h2 id="combining-capacitors">Combining Capacitors</h2>
+<p>When multiple capacitors are connected in a circuit, they can be simplified into an equivalent capacitance ( $ C_{eq} $ ).</p>
+<h3 id="series-circuits">Series Circuits</h3>
+<p>In series, the charge  $ Q $  is the same on each capacitor, but the potential difference  $ V $  is divided.
+$$ \frac{1}{C_{eq}}=\frac{1}{C_1}+\frac{1}{C_2}+&hellip; $$</p>
+<h3 id="parallel-circuits">Parallel Circuits</h3>
+<p>In parallel, the potential difference  $ V $  is the same across each capacitor, but the charge  $ Q $  is divided.
+$$ C_{eq}=C_1+C_2+&hellip; $$<br>
+Understanding how these combine is crucial when analyzing <a href="./../simple-circuits/">Simple Circuits</a> or complex <a href="./../resistor-capacitor-(rc)-circuits/">Resistor-Capacitor (RC) Circuits</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

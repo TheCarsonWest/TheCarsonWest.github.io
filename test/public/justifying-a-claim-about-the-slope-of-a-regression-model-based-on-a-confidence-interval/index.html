@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="justifying-a-claim-about-the-slope-of-a-regression-model-based-on-a-confidence-interval">Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval</h1>
+<p>When we construct a <a href="./../confidence-intervals-for-the-slope-of-a-regression-model/">Confidence Intervals for the Slope of a Regression Model</a>, our primary goal is to estimate the true, unknown population slope ( $ \beta $ ) of the least-squares regression line relating two quantitative variables. Beyond just estimating, these intervals are crucial for making and justifying claims about the nature of the relationship between these variables in the population.</p>
+<h2 id="understanding-the-population-slope---beta--">Understanding the Population Slope ( $ \beta $ )</h2>
+<p>The population slope ( $ \beta $ ) represents the true change in the mean response variable for every one-unit increase in the explanatory variable, assuming a linear relationship.</p>
+<ul>
+<li>If  $ \beta &gt; 0 $ , there is a positive linear association.</li>
+<li>If  $ \beta &lt; 0 $ , there is a negative linear association.</li>
+<li>If  $ \beta = 0 $ , there is no linear association between the variables (i.e., the explanatory variable is not useful for linearly predicting the response).</li>
+</ul>
+<h2 id="revisiting-the-confidence-interval-for-slope">Revisiting the Confidence Interval for Slope</h2>
+<p>A confidence interval for the population slope  $ \beta $  is constructed using the sample slope  $ b $  from the least-squares regression line:</p>
+<p>$$  \text{CI} = b \pm t^* \cdot SE_b  $$<br>
+Where:</p>
+<ul>
+<li>$ b $  is the sample slope.</li>
+<li>$ t^* $  is the critical  $ t $ -value for the desired confidence level with  $ df = n-2 $  degrees of freedom.</li>
+<li>$ SE_b $  is the standard error of the slope, representing the typical variation of sample slopes around the true population slope.</li>
+</ul>
+<p>For a deeper dive into the calculation, refer to <a href="./../confidence-intervals-for-the-slope-of-a-regression-model/">Confidence Intervals for the Slope of a Regression Model</a>.</p>
+<h2 id="interpreting-the-confidence-interval">Interpreting the Confidence Interval</h2>
+<p>The interpretation of the interval itself remains consistent with other confidence intervals:
+&ldquo;We are C% confident that the true population slope (or true change in the mean [response variable] for each one-unit increase in [explanatory variable]) is between the lower bound and upper bound.&rdquo;</p>
+<h2 id="justifying-a-claim-about-the-slope">Justifying a Claim About the Slope</h2>
+<p>To justify a claim about the nature of the linear relationship, we examine whether specific values, especially 0, are included within or excluded from our calculated confidence interval.</p>
+<h3 id="claims-and-justifications">Claims and Justifications:</h3>
+<p>| Claim About Population Slope ( $ \beta $ ) | Confidence Interval Outcome                                 | Conclusion</p>
+
+</main>
+
+
+  </body>
+</html>
+

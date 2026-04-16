@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Fields | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Electric Fields</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-103-electric-fields">Topic 10.3: Electric Fields</h1>
+<p>Electric fields are a fundamental concept in electromagnetism, describing the influence a charged object exerts on the space around it. An electric field exists at a point if a test charge placed at that point experiences an electric force.</p>
+<h2 id="definition-and-fundamental-equation">Definition and Fundamental Equation</h2>
+<p>The electric field  $ \vec{E} $  at a specific point in space is defined as the force per unit charge experienced by a small positive test charge  $ q_0 $  placed at that point.</p>
+<p>$$  \vec{E} = \frac{\vec{F}}{q_0}  $$<br>
+The units for the electric field are Newtons per Coulomb ( $ \text{N/C} $ ) or Volts per meter ( $ \text{V/m} $ ). Since force is a vector quantity, the electric field is also a vector, possessing both magnitude and direction. By convention, the direction of the electric field vector is the direction in which a positive test charge would accelerate if placed in the field.</p>
+<h2 id="electric-fields-from-point-charges">Electric Fields from Point Charges</h2>
+<p>For a single point charge  $ Q $ , the electric field at a distance  $ r $  can be derived from <a href="./../electric-charge-and-electric-force/">Electric Charge and Electric Force</a> (Coulomb&rsquo;s Law).</p>
+<p>$$  E = k \frac{|Q|}{r^2}  $$<br>
+Where:</p>
+<ul>
+<li>$ k $  is Coulomb&rsquo;s constant ( $ \approx 8.99 \times 10^9 , \text{N}\cdot\text{m}^2/\text{C}^2 $ ).</li>
+<li>$ Q $  is the source charge.</li>
+<li>$ r $  is the distance from the source charge.</li>
+</ul>
+<h2 id="superposition-principle">Superposition Principle</h2>
+<p>When multiple charges are present, the total electric field at any point is the vector sum of the individual electric fields produced by each charge. This is known as the <strong>Principle of Superposition</strong>.</p>
+<p>$$  \vec{E}_{total} = \vec{E}_1 + \vec{E}_2 + \dots + \vec{E}n = \sum{i=1}^{n} \vec{E}_i  $$</p>
+<h2 id="electric-field-lines">Electric Field Lines</h2>
+<p>Electric field lines (or lines of force) are a visual tool used to map the electric field. They represent the direction of the field vector at any point.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Property</th>
+          <th style="text-align: left">Rule</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Direction</strong></td>
+          <td style="text-align: left">Lines originate on positive charges and terminate on negative charges.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Density</strong></td>
+          <td style="text-align: left">The density of the lines is proportional to the magnitude of the field.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Crossing</strong></td>
+          <td style="text-align: left">Field lines can never intersect, as the field must have a unique direction at every point.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Start/End</strong></td>
+          <td style="text-align: left">The number of lines leaving a positive charge or entering a negative charge is proportional to the magnitude of the charge.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="continuous-charge-distributions">Continuous Charge Distributions</h2>
+<p>When dealing with objects rather than point charges, we treat the charge as distributed over a line, surface, or volume. Calculating the field requires <a href="./../calculus-based-electric-fields/">Calculus-Based Electric Fields</a>, where we integrate over the charge distribution:</p>
+<p>$$  \vec{E} = \int \frac{k , dq}{r^2} \hat{r}  $$<br>
+This approach is necessary for shapes like charged rods, rings, or disks, where the simple point-charge formula does not apply directly.</p>
+<h2 id="relationship-to-potential">Relationship to Potential</h2>
+<p>The electric field is not only related to force but also to potential. It can be viewed as the negative gradient of the <a href="./../electric-potential/">Electric Potential</a>. In one dimension, this is expressed as:</p>
+<p>$$  E_x = -\frac{dV}{dx}  $$<br>
+This relationship emphasizes that the electric field points in the direction of the steepest decrease in electric potential.</p>
+
+</main>
+
+
+  </body>
+</html>
+

@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Representing Two Categorical Variables | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Representing Two Categorical Variables</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="representing-two-categorical-variables">Representing Two Categorical Variables</h1>
+<p>When we collect data on two categorical variables for the same individuals, we often want to explore the relationship between these variables. This involves organizing and displaying the data in a way that allows us to identify patterns and associations. This page focuses on how to effectively represent this type of data.</p>
+<h2 id="two-way-tables-contingency-tables">Two-Way Tables (Contingency Tables)</h2>
+<p>The primary tool for representing the relationship between two categorical variables is a <a href="./../two-way-table/">Two-Way Table</a>. Also known as a contingency table, it displays counts (or frequencies) of observations for each combination of categories for the two variables.</p>
+<ul>
+<li><strong>Structure</strong>:
+<ul>
+<li>One categorical variable&rsquo;s categories form the <strong>rows</strong> of the table.</li>
+<li>The other categorical variable&rsquo;s categories form the <strong>columns</strong> of the table.</li>
+<li>The entries in the cells of the table are the <strong>counts</strong> of individuals who fall into that specific combination of categories.</li>
+<li><strong>Row totals</strong> and <strong>column totals</strong> provide the <a href="./../marginal-distribution/">Marginal Distribution</a> for each variable separately.</li>
+<li>The <strong>grand total</strong> (bottom right corner) is the total number of individuals in the study.</li>
+</ul>
+</li>
+</ul>
+<h3 id="example-opinion-on-a-new-policy-by-gender">Example: Opinion on a New Policy by Gender</h3>
+<p>Consider a survey asking students about their opinion on a new school policy (Support, Oppose, Neutral) and their gender (Male, Female).</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">Support</th>
+          <th style="text-align: left">Oppose</th>
+          <th style="text-align: left">Neutral</th>
+          <th style="text-align: left">Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Male</strong></td>
+          <td style="text-align: left">50</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Female</strong></td>
+          <td style="text-align: left">40</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">10</td>
+          <td style="text-align: left">110</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Total</strong></td>
+          <td style="text-align: left">90</td>
+          <td style="text-align: left">90</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">210</td>
+      </tr>
+  </tbody>
+</table>
+<p>From this table, we can see, for instance, that 50 males supported the policy. There were 100 males surveyed in total, and 90 students supported the policy overall.</p>
+<h2 id="types-of-relative-frequencies">Types of Relative Frequencies</h2>
+<p>While counts are useful, converting them to relative frequencies (proportions or percentages) allows for easier comparison, especially when group sizes are different.</p>
+<h3 id="1-joint-relative-frequencies">1. Joint Relative Frequencies</h3>
+<p>These are the proportions of individuals that fall into specific combinations of categories relative to the <strong>grand total</strong>. They tell us the proportion of all individuals in the study that share two specific characteristics.</p>
+<p>$$  \text{Joint Relative Frequency} = \frac{\text{Count in cell}}{\text{Grand Total}}  $$</p>
+<ul>
+<li>Example: The proportion of students who are male AND support the policy:  $ 50 / 210 \approx 0.238 $  (or 23.8%).</li>
+</ul>
+<h3 id="2-marginal-relative-frequencies">2. Marginal Relative Frequencies</h3>
+<p>These are the proportions of individuals that fall into one category of a single variable, relative to the <strong>grand total</strong>. They are found by dividing the row or column totals by the grand total. These represent the <a href="./../marginal-distribution/">Marginal Distribution</a> for each variable.</p>
+<p>$$  \text{Marginal Relative Frequency (Row)} = \frac{\text{Row Total}}{\text{Grand Total}}  $$   $$  \text{Marginal Relative Frequency (Column)} = \frac{\text{Column Total}}{\text{Grand Total}}  $$</p>
+<ul>
+<li>Example: The proportion of all students who are female:  $ 110 / 210 \approx 0.524 $  (or 52.4%).</li>
+<li>Example: The proportion of all students who oppose the policy:  $ 90 / 210 \approx 0.429 $  (or 42.9%).</li>
+</ul>
+<h3 id="3-conditional-relative-frequencies">3. Conditional Relative Frequencies</h3>
+<p><a href="./../conditional-relative-frequencies/">Conditional Relative Frequencies</a> tell us the proportion of individuals with a specific characteristic within a particular subgroup. They are crucial for investigating relationships between the two variables, as they allow us to compare distributions across different categories of one variable.</p>
+<p>$$  \text{Conditional Relative Frequency} = \frac{\text{Count in cell}}{\text{Marginal Total of the conditioning variable}}  $$</p>
+<ul>
+<li>
+<p><strong>Conditioning on one variable</strong>: To see if opinion depends on gender, we would look at the distribution of opinion within each gender.</p>
+<ul>
+<li>Example: Proportion of males who support the policy:  $ 50 / 100 = 0.50 $  (or 50%).</li>
+<li>Example: Proportion of females who support the policy:  $ 40 / 110 \approx 0.364 $  (or 36.4%).</li>
+<li>Comparing these (50% vs. 36.4%) suggests a difference in opinion between genders.</li>
+</ul>
+</li>
+<li>
+<p><strong>Conditioning on the other variable</strong>: To see if gender depends on opinion, we would look at the distribution of gender within each opinion category.</p>
+<ul>
+<li>Example: Proportion of those who support the policy who are male:  $ 50 / 90 \approx 0.556 $  (or 55.6%).</li>
+<li>Example: Proportion of those who support the policy who are female:  $ 40 / 90 \approx 0.444 $  (or 44.4%).</li>
+</ul>
+</li>
+</ul>
+<p>By comparing these conditional distributions, we can assess whether there&rsquo;s an association or <a href="./../independence-(categorical-variables)/">Independence (Categorical Variables)</a> between the two categorical variables. If the conditional distributions are similar, there might be little to no association. If they are different, an association likely exists.</p>
+<p>For more on analyzing these relationships, refer to <a href="./../statistics-for-two-categorical-variables/">Statistics for Two Categorical Variables</a>. While not extensively covered in AP Statistics, graphical representations like segmented bar charts can visually display conditional distributions, similar to how <a href="./../representing-a-categorical-variable-with-graphs/">Representing a Categorical Variable with Graphs</a> handles single categorical variables.</p>
+
+</main>
+
+
+  </body>
+</html>
+

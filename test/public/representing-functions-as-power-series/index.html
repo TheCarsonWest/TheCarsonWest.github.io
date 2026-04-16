@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Representing Functions as Power Series | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Representing Functions as Power Series</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="calc-homecalc-home"><a href="./../calc-home/">Calc Home</a></h1>
+<h1 id="ap-calculus-bc-notes-representing-functions-as-power-series">AP Calculus BC Notes: Representing Functions as Power Series</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Representing a function as a power series allows us to express complex functions as an infinite sum of simpler polynomial terms. This is incredibly useful for approximating functions, solving differential equations, and evaluating integrals that might otherwise be intractable. A power series centered at  $ x=c $  is an expression of the form:</p>
+<p>$$  \sum_{n=0}^{\infty} a_n (x-c)^n = a_0 + a_1(x-c) + a_2(x-c)^2 + \dots
+$$<br>
+When a function  $ f(x) $  can be represented by a power series, we say that the series <strong>converges</strong> to  $ f(x) $  on its <a href="./../radius-and-interval-of-convergence/">Radius and Interval of Convergence</a>.</p>
+<h2 id="key-techniques-for-representation">Key Techniques for Representation</h2>
+<p>The primary goal is to manipulate known series or use calculus operations to derive a power series for a given function.</p>
+<h3 id="1-using-the-geometric-series-formula">1. Using the Geometric Series Formula</h3>
+<p>The most fundamental power series representation comes from the sum of a <a href="./../geometric-series-&amp;-the-nth-term-test/">Geometric Series &amp; the nth-Term Test</a>.
+For  $ |r| &lt; 1 $ , the sum of a geometric series is:
+$$  \sum_{n=0}^{\infty} r^n = \frac{1}{1-r}
+$$  By setting  $ r = u $ , we have the basic power series for  $ \frac{1}{1-x} $  centered at  $ x=0 $ :
+$$  \frac{1}{1-x} = \sum_{n=0}^{\infty} x^n = 1 + x + x^2 + x^3 + \dots, \quad \text{for } |x|&lt;1
+$$<br>
+This series can be manipulated to represent a variety of rational functions.</p>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>**For  $ \frac{1}{1+x} $ **: Substitute  $ x $  with  $ -x $  into the base series.
+$$      \frac{1}{1+x} = \frac{1}{1-(-x)} = \sum_{n=0}^{\infty} (-x)^n = \sum_{n=0}^{\infty} (-1)^n x^n = 1 - x + x^2 - x^3 + \dots, \quad \text{for } |-x|&lt;1 \implies |x|&lt;1
+$$  *   **For  $ \frac{1}{1-3x^2} $ **: Substitute  $ x $  with  $ 3x^2 $ .
+$$      \frac{1}{1-3x^2} = \sum_{n=0}^{\infty} (3x^2)^n = \sum_{n=0}^{\infty} 3^n x^{2n} = 1 + 3x^2 + 9x^4 + 27x^6 + \dots, \quad \text{for } |3x^2|&lt;1 \implies |x| &lt; \frac{1}{\sqrt{3}}
+$$</li>
+</ul>
+<h3 id="2-differentiation-of-power-series">2. Differentiation of Power Series</h3>
+<p>If  $ f(x) = \sum_{n=0}^{\infty} a_n (x-c)^n $  for  $ |x-c| &lt; R $ , then  $ f&rsquo;(x) $  can be found by differentiating the series term-by-term. The radius of convergence  $ R $  remains the same.</p>
+<p>$$  f&rsquo;(x) = \frac{d}{dx} \left( \sum_{n=0}^{\infty} a_n (x-c)^n \right) = \sum_{n=1}^{\infty} n a_n (x-c)^{n-1}
+$$<br>
+<strong>Example:</strong> To find a power series for  $ \frac{1}{(1-x)^2} $ :
+We know  $ \frac{1}{1-x} = \sum_{n=0}^{\infty} x^n $ . Differentiating both sides with respect to  $ x $ :
+$$  \frac{d}{dx} \left( \frac{1}{1-x} \right) = \frac{d}{dx} \left( \sum_{n=0}^{\infty} x^n \right)
+$$   $$  \frac{1}{(1-x)^2} = \sum_{n=1}^{\infty} n x^{n-1} = 1 + 2x + 3x^2 + 4x^3 + \dots, \quad \text{for } |x|&lt;1
+$$</p>
+<h3 id="3-integration-of-power-series">3. Integration of Power Series</h3>
+<p>If  $ f(x) = \sum_{n=0}^{\infty} a_n (x-c)^n $  for  $ |x-c| &lt; R $ , then  $ \int f(x) dx $  can be found by integrating the series term-by-term. The radius of convergence  $ R $  remains the same.</p>
+<p>$$  \int f(x) dx = \int \left( \sum_{n=0}^{\infty} a_n (x-c)^n \right) dx = C + \sum_{n=0}^{\infty} \frac{a_n}{n+1} (x-c)^{n+1}
+$$  The constant of integration  $ C $  can be found by evaluating  $ f(c) $  or a known value of the integrated function.</p>
+<p><strong>Example:</strong> To find a power series for  $ \ln(1-x) $ :
+We know  $ \frac{1}{1-x} = \sum_{n=0}^{\infty} x^n $ .
+Since  $ \int \frac{1}{1-x} dx = -\ln(1-x) $ , we integrate the series:
+$$  -\ln(1-x) = C + \sum_{n=0}^{\infty} \frac{x^{n+1}}{n+1} = C + x + \frac{x^2}{2} + \frac{x^3}{3} + \dots
+$$  To find  $ C $ , let  $ x=0 $ :  $ -\ln(1-0) = C + 0 \implies 0 = C $ .
+So,  $ \ln(1-x) = -\sum_{n=0}^{\infty} \frac{x^{n+1}}{n+1} = -x - \frac{x^2}{2} - \frac{x^3}{3} - \dots, \quad \text{for } |x|&lt;1 $ .</p>
+<h2 id="common-power-series-representations">Common Power Series Representations</h2>
+<p>Knowing these common series is crucial for manipulating and deriving new representations. These are essentially <a href="./../finding-taylor-or-maclaurin-series-for-a-function/">Finding Taylor or Maclaurin Series for a Function</a> centered at  $ c=0 $ .</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Function  $ f(x) $</th>
+          <th style="text-align: left">Power Series Representation (Maclaurin Series)</th>
+          <th style="text-align: left">Interval of Convergence</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \frac{1}{1-x} $</td>
+          <td style="text-align: left">$ \sum_{n=0}^{\infty} x^n $</td>
+          <td style="text-align: left">$ (-1, 1) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ e^x $</td>
+          <td style="text-align: left">$ \sum_{n=0}^{\infty} \frac{x^n}{n!} $</td>
+          <td style="text-align: left">$ (-\infty, \infty) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \sin x $</td>
+          <td style="text-align: left">$ \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{(2n+1)!} $</td>
+          <td style="text-align: left">$ (-\infty, \infty) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \cos x $</td>
+          <td style="text-align: left">$ \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n}}{(2n)!} $</td>
+          <td style="text-align: left">$ (-\infty, \infty) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \arctan x $</td>
+          <td style="text-align: left">$ \sum_{n=0}^{\infty} (-1)^n \frac{x^{2n+1}}{2n+1} $</td>
+          <td style="text-align: left">$ [-1, 1] $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \ln(1+x) $</td>
+          <td style="text-align: left">$ \sum_{n=1}^{\infty} (-1)^{n-1} \frac{x^n}{n} $</td>
+          <td style="text-align: left">$ (-1, 1] $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="strategies-for-deriving-series">Strategies for Deriving Series</h2>
+<ol>
+<li><strong>Algebraic Manipulation</strong>: Transform the given function into a form resembling  $ \frac{a}{1-r} $  or any of the common series. This often involves factoring, polynomial long division, or partial fraction decomposition.</li>
+<li><strong>Substitution</strong>: Replace  $ x $  with  $ kx $ ,  $ x^m $ , or  $ ax+b $  in a known series.</li>
+<li><strong>Differentiation/Integration</strong>: If the function is the derivative or integral of a known series, apply term-by-term calculus.</li>
+<li><strong>Multiplication/Division</strong>: Multiply or divide known power series (though division is generally more complex).</li>
+</ol>
+<h2 id="further-considerations">Further Considerations</h2>
+<ul>
+<li><strong><a href="./../radius-and-interval-of-convergence/">Radius and Interval of Convergence</a></strong>: Always determine the interval for which the power series representation is valid. This is crucial for understanding where the series accurately represents the function.</li>
+<li><strong><a href="./../finding-taylor-or-maclaurin-series-for-a-function/">Finding Taylor or Maclaurin Series for a Function</a></strong>: While the techniques above are for manipulating known series, the most general method for finding a power series (Taylor series) directly from a function&rsquo;s derivatives is given by Taylor&rsquo;s Formula.</li>
+<li><strong>Applications</strong>: Power series are fundamental in approximating definite integrals, solving differential equations, and in <a href="./../finding-taylor-approximations/">Finding Taylor Approximations</a>.</li>
+</ul>
+
+</main>
+
+
+  </body>
+</html>
+

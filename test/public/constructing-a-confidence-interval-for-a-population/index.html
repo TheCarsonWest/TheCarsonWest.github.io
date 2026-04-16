@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Constructing a Confidence Interval for a Population | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Constructing a Confidence Interval for a Population</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="constructing-a-confidence-interval-for-a-population-proportion">Constructing a Confidence Interval for a Population Proportion</h1>
+<p>A <strong>confidence interval</strong> provides an estimated range of values which is likely to include an unknown population parameter, in this case, the population proportion ( $ p $ ). Instead of just a single point estimate (our sample proportion  $ \hat{p} $ ), a confidence interval gives us a range of plausible values for  $ p $  and quantifies our confidence that this range captures the true parameter.</p>
+<h2 id="purpose-and-point-estimate">Purpose and Point Estimate</h2>
+<p>Our goal is to estimate an unknown population proportion  $ p $  (e.g., the true proportion of all U.S. adults who support a certain policy). We use a sample proportion, denoted by  $ \hat{p} $ , as our <strong>point estimate</strong> for  $ p $ .
+The formula for the sample proportion is:
+$$ \hat{p} = \frac{\text{number of successes in the sample}}{\text{sample size}} = \frac{x}{n} $$</p>
+<h2 id="general-formula">General Formula</h2>
+<p>A confidence interval generally follows the form:
+$$  \text{Point Estimate} \pm \text{Margin of Error}  $$  For a population proportion, this translates to:
+$$  \hat{p} \pm z^* \cdot \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}  $$  Where:</p>
+<ul>
+<li>$ \hat{p} $  is the sample proportion.</li>
+<li>$ z^* $  is the <a href="./../critical-values/">Critical Values</a> for the desired confidence level.</li>
+<li>$ \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $  is the standard error of the sample proportion.</li>
+</ul>
+<h2 id="conditions-for-inference">Conditions for Inference</h2>
+<p>Before constructing a confidence interval for a population proportion, several conditions must be met to ensure the validity of the procedure. These are often remembered as &ldquo;RANDOM, NORMAL, INDEPENDENT&rdquo;:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Condition</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Random</strong></td>
+          <td style="text-align: left">The data must come from a <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a> or a <a href="./../randomized-comparative-experiment/">Randomized Comparative Experiment</a>. This ensures the sample is representative of the population.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Normal</strong></td>
+          <td style="text-align: left">The sampling distribution of  $ \hat{p} $  must be approximately normal. This is checked by verifying that the expected number of successes ( $ np $ ) and failures ( $ n(1-p) $ ) are both at least 10. Since  $ p $  is unknown, we use  $ \hat{p} $ :  $ n\hat{p} \ge 10 $  and  $ n(1-\hat{p}) \ge 10 $ . This condition allows us to use  $ z^* $  critical values.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Independent</strong></td>
+          <td style="text-align: left">Individual observations must be independent. This is ensured if sampling without replacement, the population size is at least 10 times the sample size ( $ N \ge 10n $ ). This is the <a href="./../10%25-condition/">10% Condition</a>.</td>
+      </tr>
+  </tbody>
+</table>
+<p>If these conditions are met, we can use the Normal approximation for the <a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a>.</p>
+<h2 id="steps-for-construction-panicphantoms">Steps for Construction (PANIC/PHANTOMS)</h2>
+<p>A common mnemonic to remember the steps for constructing a confidence interval is <strong>PANIC</strong> (Parameter, Assumptions, Name, Interval, Conclude) or <strong>PHANTOMS</strong> (Parameter, Hypotheses, Assumptions, Name, Test Statistic, Obtain p-value, Make a decision, State conclusion). Here, we&rsquo;ll focus on the construction:</p>
+<ol>
+<li><strong>Parameter (P)</strong>: Define the population proportion of interest,  $ p $ .</li>
+<li><strong>Assumptions (A)</strong>: Check the three conditions (Random, Normal, Independent). If any are violated, the interval may not be reliable.</li>
+<li><strong>Name (N)</strong>: State the specific inference procedure you are using: a one-sample z-interval for a population proportion.</li>
+<li><strong>Interval (I)</strong>:
+<ul>
+<li>Calculate the point estimate  $ \hat{p} $ .</li>
+<li>Find the appropriate <a href="./../critical-values%7Ccritical-value/">Critical Values|critical value</a>  $ z^* $  for your chosen confidence level (e.g., for 95% confidence,  $ z^* \approx 1.96 $ ).</li>
+<li>Calculate the standard error:  $ SE_{\hat{p}} = \sqrt{\frac{\hat{p}(1-\hat{p})}{n}} $ .</li>
+<li>Construct the interval using the formula:  $ \hat{p} \pm z^* \cdot SE_{\hat{p}} $ .</li>
+</ul>
+</li>
+<li><strong>Conclude (C)</strong>: Interpret the confidence interval in the context of the problem.</li>
+</ol>
+<h2 id="interpretation-of-a-confidence-interval">Interpretation of a Confidence Interval</h2>
+<p>The interpretation of a confidence interval is crucial and must be phrased carefully. For example, a 95% confidence interval for the proportion of voters who support a candidate might be (0.48, 0.52).</p>
+<p>A correct interpretation would be:
+&ldquo;We are 95% confident that the interval from 0.48 to 0.52 captures the true proportion of all voters who support the candidate.&rdquo;</p>
+<p><strong>Common Misinterpretations to Avoid:</strong></p>
+<ul>
+<li><strong>Do NOT</strong> say: &ldquo;There is a 95% probability that the true proportion is in this interval.&rdquo; (Once the interval is calculated, the true proportion is either in it or it isn&rsquo;t; probability applies to the method, not the specific interval).</li>
+<li><strong>Do NOT</strong> say: &ldquo;95% of all samples would have a sample proportion in this interval.&rdquo; (The interval estimates  $ p $ , not  $ \hat{p} $ ).</li>
+<li><strong>Do NOT</strong> say: &ldquo;95% of the data falls within this interval.&rdquo; (This is about the population distribution, not the parameter  $ p $ ).</li>
+</ul>
+<p>The confidence level refers to the success rate of the method: If we were to take many, many samples and construct a confidence interval from each, about 95% of those intervals would capture the true population proportion.</p>
+<p>This note page sets the foundation for understanding how to quantify uncertainty when estimating a population proportion. For applying this to specific claims, refer to <a href="./../justifying-a-claim-based-on-a-confidence-interval-for-a-population-proportion/">Justifying a Claim Based on a Confidence Interval for a Population Proportion</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

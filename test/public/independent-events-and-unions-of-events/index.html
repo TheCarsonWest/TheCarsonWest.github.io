@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Independent Events and Unions of Events | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Independent Events and Unions of Events</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="independent-events-and-unions-of-events">Independent Events and Unions of Events</h1>
+<p>Understanding how events relate to each other and how to calculate the probability of their combined occurrences is fundamental in AP Statistics. This page will cover the definitions, conditions, and rules for independent events and unions of events. For a general overview of probability, refer to <a href="./../introduction-to-probability/">Introduction to Probability</a>.</p>
+<h2 id="independent-events">Independent Events</h2>
+<p>Two events are <strong>independent</strong> if the occurrence of one does not affect the probability of the other occurring. This concept is distinct from <a href="./../mutually-exclusive-events/">Mutually Exclusive Events</a>. While mutually exclusive events cannot happen at the same time, independent events can.</p>
+<h3 id="conditions-for-independence">Conditions for Independence</h3>
+<p>There are several ways to define or test for independence between two events, A and B:</p>
+<ol>
+<li>
+<p><strong>Conditional Probability Definition</strong>:
+Events A and B are independent if the probability of A occurring, given that B has already occurred, is simply the probability of A.
+$$  P(A|B) = P(A)  $$      Similarly,
+$$  P(B|A) = P(B)  $$      If these conditions hold, then A and B are independent. Otherwise, they are dependent. For more on this, see <a href="./../conditional-probability/">Conditional Probability</a>.</p>
+</li>
+<li>
+<p><strong>Multiplication Rule for Independent Events</strong>:
+Events A and B are independent if and only if the probability that both A and B occur is the product of their individual probabilities.
+$$  P(A \text{ and } B) = P(A) \cdot P(B)  $$      This is often used as a test for independence. If  $ P(A \text{ and } B) \neq P(A) \cdot P(B) $ , then the events are dependent.
+This rule can be extended to more than two independent events. For instance, for three independent events A, B, and C:
+$$  P(A \text{ and } B \text{ and } C) = P(A) \cdot P(B) \cdot P(C)  $$</p>
+</li>
+</ol>
+<h3 id="example-of-independent-events">Example of Independent Events</h3>
+<p>Consider rolling a fair six-sided die twice.</p>
+<ul>
+<li>Let event A be &ldquo;rolling a 4 on the first roll.&rdquo;</li>
+<li>Let event B be &ldquo;rolling an odd number on the second roll.&rdquo;</li>
+</ul>
+<p>The outcome of the first roll does not affect the outcome of the second roll. Thus, A and B are independent.
+$ P(A) = 1/6 $
+$ P(B) = 3/6 = 1/2 $
+The probability of both occurring is  $ P(A \text{ and } B) = P(A) \cdot P(B) = (1/6) \cdot (1/2) = 1/12 $ .</p>
+<h2 id="unions-of-events">Unions of Events</h2>
+<p>The <strong>union of two events</strong> A and B, denoted as  $ A \cup B $  (read as &ldquo;A or B&rdquo;), is the event that A occurs, or B occurs, or both occur.</p>
+<h3 id="general-addition-rule">General Addition Rule</h3>
+<p>The probability of the union of any two events A and B is given by the General Addition Rule:
+$$  P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B)  $$  The term  $ P(A \text{ and } B) $  is subtracted because the outcomes where both A and B occur are counted twice (once in  $ P(A) $  and once in  $ P(B) $ ).</p>
+<h3 id="addition-rule-for-mutually-exclusive-events">Addition Rule for Mutually Exclusive Events</h3>
+<p>If events A and B are <a href="./../mutually-exclusive-events/">Mutually Exclusive Events</a>, they cannot occur at the same time, meaning  $ P(A \text{ and } B) = 0 $ . In this special case, the General Addition Rule simplifies to:
+$$  P(A \text{ or } B) = P(A) + P(B)  $$</p>
+<h3 id="example-of-union-of-events">Example of Union of Events</h3>
+<p>Consider drawing a single card from a standard 52-card deck.</p>
+<ul>
+<li>Let event A be &ldquo;drawing a King.&rdquo; ( $ P(A) = 4/52 = 1/13 $ )</li>
+<li>Let event B be &ldquo;drawing a Spade.&rdquo; ( $ P(B) = 13/52 = 1/4 $ )</li>
+<li>Let event ( $ A \text{ and } B $ ) be &ldquo;drawing a King of Spades.&rdquo; ( $ P(A \text{ and } B) = 1/52 $ )</li>
+</ul>
+<p>The probability of drawing a King or a Spade is:
+$$  P(A \text{ or } B) = P(A) + P(B) - P(A \text{ and } B) = \frac{4}{52} + \frac{13}{52} - \frac{1}{52} = \frac{16}{52} = \frac{4}{13}  $$</p>
+<h2 id="summary-table-independence-vs-mutually-exclusive">Summary Table: Independence vs. Mutually Exclusive</h2>
+<p>It is crucial to distinguish between independent and mutually exclusive events.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Feature</th>
+          <th style="text-align: left">Independent Events</th>
+          <th style="text-align: left">Mutually Exclusive Events</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Definition</strong></td>
+          <td style="text-align: left">Occurrence of one doesn&rsquo;t affect other.</td>
+          <td style="text-align: left">Cannot occur at the same time.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">** $ P(A \text{ and } B) $ **</td>
+          <td style="text-align: left">$ P(A) \cdot P(B) $</td>
+          <td style="text-align: left">$ 0 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">** $ P(A \text{ or } B) $ **</td>
+          <td style="text-align: left">$ P(A) + P(B) - P(A) \cdot P(B) $</td>
+          <td style="text-align: left">$ P(A) + P(B) $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Can they both happen?</strong></td>
+          <td style="text-align: left">Yes, if  $ P(A) &gt; 0 $  and  $ P(B) &gt; 0 $ .</td>
+          <td style="text-align: left">No.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Example</strong></td>
+          <td style="text-align: left">Flipping a coin twice, getting heads both times.</td>
+          <td style="text-align: left">Rolling a die, getting a 1 and a 6.</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Formal relationship</strong></td>
+          <td style="text-align: left">$ P(A</td>
+          <td style="text-align: left">B) = P(A) $</td>
+      </tr>
+  </tbody>
+</table>
+
+</main>
+
+
+  </body>
+</html>
+

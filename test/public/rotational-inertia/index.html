@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rotational Inertia | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Rotational Inertia</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="54-rotational-inertia">5.4 Rotational Inertia</h1>
+<p>Rotational inertia, also known as the moment of inertia ( $ I $ ), is the rotational analog of mass. It represents an object’s resistance to changes in its angular velocity. While mass tells us how hard it is to change an object&rsquo;s linear motion, rotational inertia tells us how hard it is to change an object&rsquo;s rotation about a specific axis.</p>
+<h2 id="definition-and-formula">Definition and Formula</h2>
+<p>For a point mass  $ m $  rotating at a distance  $ r $  from an axis of rotation, rotational inertia is defined as:</p>
+<p>$$ I=mr^2 $$<br>
+For a system of multiple point masses, the total rotational inertia is simply the sum of the individual moments of inertia:</p>
+<p>$$ I_{total}=\sum m_i r_i^2 $$<br>
+For continuous rigid bodies, we calculate the rotational inertia using calculus by integrating over the mass distribution:</p>
+<p>$$ I=\int r^2 dm $$<br>
+<a href="./../calculating-rotational-inertia-via-integration/">Calculating Rotational Inertia via Integration</a></p>
+<h2 id="moments-of-inertia-for-common-objects">Moments of Inertia for Common Objects</h2>
+<p>The rotational inertia of an object depends not just on its mass, but on how that mass is distributed relative to the axis of rotation. Objects with mass concentrated further from the axis of rotation have larger rotational inertia.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Object</th>
+          <th style="text-align: left">Axis of Rotation</th>
+          <th style="text-align: left">Moment of Inertia ( $ I $ )</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Hoop (thin ring)</td>
+          <td style="text-align: left">Central axis</td>
+          <td style="text-align: left">$ I=MR^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Solid Cylinder/Disk</td>
+          <td style="text-align: left">Central axis</td>
+          <td style="text-align: left">$ I=\frac{1}{2}MR^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Solid Sphere</td>
+          <td style="text-align: left">Center</td>
+          <td style="text-align: left">$ I=\frac{2}{5}MR^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Thin Rod</td>
+          <td style="text-align: left">Center of mass</td>
+          <td style="text-align: left">$ I=\frac{1}{12}ML^2 $</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Thin Rod</td>
+          <td style="text-align: left">End</td>
+          <td style="text-align: left">$ I=\frac{1}{3}ML^2 $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="the-parallel-axis-theorem">The Parallel Axis Theorem</h2>
+<p>If you know the rotational inertia of an object about its center of mass ( $ I_{cm} $ ), you can find its rotational inertia about any parallel axis displaced by a distance  $ d $  using the <strong>Parallel Axis Theorem</strong>:</p>
+<p>$$ I=I_{cm}+Md^2 $$<br>
+This theorem is incredibly useful for solving complex rotational problems where the axis of rotation is not located at the object&rsquo;s center of mass.</p>
+<h2 id="significance-in-rotational-motion">Significance in Rotational Motion</h2>
+<p>Rotational inertia appears as a critical term in the dynamic equations of rotational motion. It is the factor that relates torque to angular acceleration, a relationship analogous to Newton’s Second Law ( $ F=ma $ ):</p>
+<p>$$ \tau_{net}=I\alpha $$<br>
+<a href="./../newtons-second-law-in-rotational-form/">Newtons Second Law in Rotational Form</a></p>
+<p>Furthermore, rotational inertia determines the amount of energy stored in a rotating object:</p>
+<p>$$ K_{rot}=\frac{1}{2}I\omega^2 $$<br>
+<a href="./../rotational-kinetic-energy/">Rotational Kinetic Energy</a></p>
+<p>Understanding how rotational inertia changes (for instance, a figure skater pulling in their arms) is essential for grasping concepts like the <a href="./../conservation-of-angular-momentum/">Conservation of Angular Momentum</a>. By decreasing their effective radius ( $ r $ ), they decrease their rotational inertia ( $ I $ ), which forces an increase in angular velocity ( $ \omega $ ) to conserve angular momentum.</p>
+
+</main>
+
+
+  </body>
+</html>
+

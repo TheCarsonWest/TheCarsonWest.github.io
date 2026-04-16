@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Electric Flux | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Electric Flux</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-85-electric-flux">Topic 8.5: Electric Flux</h1>
+<p>Electric flux is a fundamental concept in electromagnetism that quantifies the amount of electric field passing through a specific surface. It serves as the gateway to understanding <a href="./../gausss-law/">Gausss Law</a>, which is a powerful tool for calculating electric fields in highly symmetric charge distributions.</p>
+<h2 id="defining-electric-flux">Defining Electric Flux</h2>
+<p>Conceptually, electric flux ( $ \Phi_E $ ) can be visualized as the number of electric field lines piercing a given surface. If the surface is perpendicular to the field, the flux is maximized. If the surface is parallel to the field, no lines pierce it, and the flux is zero.</p>
+<h3 id="the-scalar-product-definition">The Scalar Product Definition</h3>
+<p>For a flat surface of area  $ A $  in a uniform electric field  $ \vec{E} $ , the electric flux is the scalar (dot) product of the electric field vector and the area vector  $ \vec{A} $ :</p>
+<p>$$ \Phi_E = \vec{E} \cdot \vec{A} = EA \cos(\theta) $$<br>
+In this equation:</p>
+<ul>
+<li>$ \vec{A} $  is a vector whose magnitude is the area of the surface and whose direction is perpendicular (normal) to the surface.</li>
+<li>$ \theta $  is the angle between the electric field vector  $ \vec{E} $  and the normal vector  $ \vec{A} $ .</li>
+</ul>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Scenario</th>
+          <th style="text-align: left">Angle ( $ \theta $ )</th>
+          <th style="text-align: left">Flux ( $ \Phi_E $ )</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$ \vec{E} $  is perpendicular to the surface</td>
+          <td style="text-align: left">$ 0^\circ $</td>
+          <td style="text-align: left">$ EA $  (Maximum)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \vec{E} $  is parallel to the surface</td>
+          <td style="text-align: left">$ 90^\circ $</td>
+          <td style="text-align: left">$ 0 $  (Minimum)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$ \vec{E} $  is at an angle</td>
+          <td style="text-align: left">$ \theta $</td>
+          <td style="text-align: left">$ EA \cos(\theta) $</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="generalizing-for-non-uniform-fields-and-curved-surfaces">Generalizing for Non-Uniform Fields and Curved Surfaces</h2>
+<p>When the electric field is not uniform or the surface is curved, we cannot use the simple dot product formula. Instead, we must use calculus. We divide the surface into an infinite number of infinitesimal area elements  $ d\vec{A} $ . The total flux is the sum of these infinitesimal contributions:</p>
+<p>$$ \Phi_E = \int \vec{E} \cdot d\vec{A} $$</p>
+<h3 id="closed-surfaces">Closed Surfaces</h3>
+<p>A special case of great importance in physics involves a closed surface (a surface that encloses a volume, such as a sphere or a cube). For a closed surface, we use a specific notation for the integral to indicate the surface is closed:</p>
+<p>$$ \Phi_E = \oint \vec{E} \cdot d\vec{A} $$<br>
+By convention, the area vector  $ d\vec{A} $  for a closed surface always points <strong>outward</strong> from the volume.</p>
+<ul>
+<li>If the net flux is positive, there is a net outward flow of field lines, implying a net positive charge enclosed.</li>
+<li>If the net flux is negative, there is a net inward flow, implying a net negative charge enclosed.</li>
+<li>If the net flux is zero, the amount of field entering the surface equals the amount leaving, implying no net enclosed charge.</li>
+</ul>
+<p>This relationship between the flux through a closed surface and the enclosed charge is the precise foundation of <a href="./../gausss-law/">Gausss Law</a>.</p>
+
+</main>
+
+
+  </body>
+</html>
+

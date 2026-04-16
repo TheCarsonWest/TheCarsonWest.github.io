@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Circuits with Capacitors and Inductors (LC Circuits) | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Circuits with Capacitors and Inductors (LC Circuits)</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-physics-c-homeap-physics-c-home"><a href="./../ap-physics-c-home/">AP Physics C Home</a></h1>
+<h1 id="topic-136-circuits-with-capacitors-and-inductors-lc-circuits">Topic 13.6: Circuits with Capacitors and Inductors (LC Circuits)</h1>
+<p>An LC circuit consists of an ideal capacitor with capacitance  $ C $  and an ideal inductor with inductance  $ L $  connected in a closed loop. When the capacitor is initially charged and allowed to discharge through the inductor, the circuit exhibits electromagnetic oscillations. This system is the electromagnetic analog to a mechanical mass-spring system undergoing <a href="./../defining-simple-harmonic-motion-(shm)/">Defining Simple Harmonic Motion (SHM)</a>.</p>
+<h2 id="the-physics-of-lc-oscillations">The Physics of LC Oscillations</h2>
+<p>In an ideal LC circuit (with no resistance), energy is conserved, constantly trading back and forth between the electric field of the capacitor and the magnetic field of the inductor.</p>
+<ol>
+<li><strong>Capacitor Discharging:</strong> Initially, all energy is stored in the electric field:  $ U_E = \frac{1}{2}\frac{Q^2}{C} $ . As the capacitor discharges, current  $ I $  begins to flow, creating a magnetic field in the inductor.</li>
+<li><strong>Inductor Charging:</strong> As  $ I $  reaches its maximum, all energy is stored in the magnetic field of the inductor:  $ U_B = \frac{1}{2}LI^2 $ .</li>
+<li><strong>Cycle Repeats:</strong> The inductor opposes the change in current (Lenz&rsquo;s Law), forcing current to continue until the capacitor is recharged with opposite polarity.</li>
+</ol>
+<h2 id="mathematical-representation">Mathematical Representation</h2>
+<p>The behavior of charge  $ q(t) $  in an LC circuit can be described by applying the loop rule. Since the total voltage sum is zero:
+$$ V_C + V_L = 0 \implies \frac{q}{C} + L\frac{di}{dt} = 0 $$<br>
+Since  $ i = \frac{dq}{dt} $  and  $ \frac{di}{dt} = \frac{d^2q}{dt^2} $ , we derive the differential equation for SHM:
+$$ \frac{d^2q}{dt^2} + \frac{1}{LC}q = 0 $$</p>
+<h3 id="key-formulas">Key Formulas</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Parameter</th>
+          <th style="text-align: left">Formula</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Angular Frequency ( $ \omega $ )</strong></td>
+          <td style="text-align: left">$$ \omega = \frac{1}{\sqrt{LC}} $$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Period ( $ T $ )</strong></td>
+          <td style="text-align: left">$$ T = 2\pi\sqrt{LC} $$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Charge as a Function of Time</strong></td>
+          <td style="text-align: left">$$ q(t) = Q_{max}\cos(\omega t + \phi) $$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Current as a Function of Time</strong></td>
+          <td style="text-align: left">$$ i(t) = -I_{max}\sin(\omega t + \phi) $$</td>
+      </tr>
+  </tbody>
+</table>
+<p>Where  $ I_{max} = \omega Q_{max} $ .</p>
+<h2 id="energy-in-lc-circuits">Energy in LC Circuits</h2>
+<p>In an ideal circuit, the total energy is constant. Just as in a mass-spring system, the energy oscillates between two forms:</p>
+<p>$$ U_{total} = U_E + U_B = \frac{q^2}{2C} + \frac{1}{2}Li^2 = \text{Constant} $$<br>
+At any given moment, the energy stored in the capacitor is maximum when the current is zero, and the energy stored in the inductor is maximum when the charge on the capacitor is zero.</p>
+<h2 id="damped-oscillations">Damped Oscillations</h2>
+<p>In reality, all circuits have some resistance  $ R $ . If resistance is present, energy is dissipated as heat, leading to <strong>Damped LC Oscillations</strong>. This is analogous to a mass-spring system with friction. The amplitude of the charge oscillations will decay over time, eventually coming to rest, similar to the behavior seen in <a href="./../resistor-capacitor-(rc)-circuits/">Resistor Capacitor (RC) Circuits</a> but involving oscillatory motion.</p>
+
+</main>
+
+
+  </body>
+</html>
+

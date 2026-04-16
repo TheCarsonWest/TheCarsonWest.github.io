@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting Up a Test for a Population Proportion | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Setting Up a Test for a Population Proportion</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="setting-up-a-test-for-a-population-proportion">Setting Up a Test for a Population Proportion</h1>
+<p>When we want to make a claim or decision about the true proportion of a certain characteristic within a population, we often use a <a href="./../hypothesis-test/">Hypothesis Test</a>. This process allows us to assess the evidence against a null hypothesis in favor of an alternative hypothesis. This note page focuses on the crucial initial steps of setting up such a test for a population proportion.</p>
+<hr>
+<h2 id="the-four-step-process-introduction">The Four-Step Process (Introduction)</h2>
+<p>A hypothesis test generally follows a four-step process, often remembered by mnemonics like &ldquo;PHANTOMS&rdquo; or &ldquo;PANDA&rdquo; (though specific steps vary slightly). The setup involves the first three parts:</p>
+<ol>
+<li><strong>P</strong>arameters: Define the population parameter of interest.</li>
+<li><strong>H</strong>ypotheses: State the null and alternative hypotheses.</li>
+<li><strong>A</strong>ssumptions/Conditions: Check the conditions required for the test.</li>
+<li><strong>N</strong>ame the test and <strong>T</strong>est statistic: Identify the appropriate test and calculate its statistic (covered in <a href="./../carrying-out-a-test-for-a-population-proportion/">Carrying Out a Test for a Population Proportion</a>).</li>
+<li><strong>O</strong>btain p-value: Determine the probability of observing our data (or more extreme) if the null hypothesis were true (covered in <a href="./../interpreting-p-values/">Interpreting p-Values</a>).</li>
+<li><strong>M</strong>ake a decision and <strong>S</strong>tate a conclusion: Compare the p-value to the significance level and draw a conclusion in context (covered in <a href="./../concluding-a-test-for-a-population-proportion/">Concluding a Test for a Population Proportion</a>).</li>
+</ol>
+<hr>
+<h2 id="1-defining-the-parameter-p">1. Defining the Parameter (P)</h2>
+<p>First, clearly define the population parameter you are interested in. For a test about a population proportion, this is usually denoted by  $ p $ .</p>
+<ul>
+<li>Let  $ p $  = the true proportion of [contextual event/group] in the [defined population].</li>
+</ul>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Let  $ p $  = the true proportion of U.S. adults who support a new healthcare policy.</li>
+</ul>
+<hr>
+<h2 id="2-stating-hypotheses-h">2. Stating Hypotheses (H)</h2>
+<p>This is a critical step where you articulate the claim you are testing. Every hypothesis test involves two competing statements: the null hypothesis ( $ H_0 $ ) and the alternative hypothesis ( $ H_a $ ).</p>
+<h3 id="null-hypothesis---h_0--">Null Hypothesis ( $ H_0 $ )</h3>
+<p>The null hypothesis represents the status quo, a statement of no effect, no difference, or no change. It always includes an equality sign.</p>
+<ul>
+<li>$ H_0: p = p_0 $
+*   where  $ p_0 $  is a specific hypothesized value for the population proportion.</li>
+</ul>
+<h3 id="alternative-hypothesis---h_a--">Alternative Hypothesis ( $ H_a $ )</h3>
+<p>The alternative hypothesis is the statement we are trying to find evidence for. It reflects the claim or suspicion that something has changed or is different. It can be one-sided (greater than or less than) or two-sided (not equal to).</p>
+<p><strong>Types of Alternative Hypotheses:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Type</th>
+          <th style="text-align: left">Notation</th>
+          <th style="text-align: left">Description</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Two-Sided</strong></td>
+          <td style="text-align: left">$ H_a: p \ne p_0 $</td>
+          <td style="text-align: left">Used when we are interested in whether the true proportion is simply different from  $ p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>One-Sided</strong></td>
+          <td style="text-align: left">$ H_a: p &gt; p_0 $</td>
+          <td style="text-align: left">Used when we are interested in whether the true proportion is greater than  $ p_0 $ .</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>One-Sided</strong></td>
+          <td style="text-align: left">$ H_a: p &lt; p_0 $</td>
+          <td style="text-align: left">Used when we are interested in whether the true proportion is less than  $ p_0 $ .</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>Choosing the Alternative:</strong> The choice of  $ H_a $  depends on the specific question being asked or the claim being investigated.</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>A company claims that 80% of its customers are satisfied. A consumer group suspects this percentage is lower.
+<ul>
+<li>$ H_0: p = 0.80 $</li>
+<li>$ H_a: p &lt; 0.80 $</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="3-checking-conditions-a">3. Checking Conditions (A)</h2>
+<p>Before performing a hypothesis test for a population proportion, three key conditions must be met to ensure the sampling distribution of the sample proportion ( $ \hat{p} $ ) is approximately normal. These are often referred to as the &ldquo;Random, Normal, Independent&rdquo; conditions. This builds upon concepts from <a href="./../sampling-distributions-for-sample-proportions/">Sampling Distributions for Sample Proportions</a>.</p>
+<h3 id="a-random-condition">a. Random Condition</h3>
+<p>The data must come from a <a href="./../random-sampling-and-a-collection/">Random Sampling and a Collection</a> or a <a href="./../randomized-experiment/">Randomized Experiment</a>. This ensures the sample is representative of the population.</p>
+<ul>
+<li><strong>Check:</strong> Was the sample obtained using a simple random sample (SRS) or a well-designed random process? If it&rsquo;s an experiment, were subjects randomly assigned?</li>
+</ul>
+<h3 id="b-normal-condition-large-counts-condition">b. Normal Condition (Large Counts Condition)</h3>
+<p>The sampling distribution of  $ \hat{p} $  is approximately normal if the expected number of successes and failures are both at least 10. Crucially, we use the hypothesized population proportion ( $ p_0 $ ) from  $ H_0 $  for this check, not the sample proportion ( $ \hat{p} $ ).</p>
+<ul>
+<li>$ np_0 \ge 10 $</li>
+<li>$ n(1 - p_0) \ge 10 $</li>
+</ul>
+<p>Where:</p>
+<ul>
+<li>$ n $  = sample size</li>
+<li>$ p_0 $  = hypothesized population proportion from  $ H_0 $</li>
+</ul>
+<h3 id="c-independent-condition-10-condition">c. Independent Condition (10% Condition)</h3>
+<p>When sampling without replacement, the observations must be independent. This is ensured if the sample size is no more than 10% of the population size.</p>
+<ul>
+<li>$ n \le 0.10N $
+*   Where  $ N $  = population size.</li>
+<li><strong>Check:</strong> Is the sample size ( $ n $ ) less than 10% of the total population size? If we assume the population is very large relative to the sample (e.g., millions of people), this condition is usually met.</li>
+</ul>
+<hr>
+<p>Once these three steps are completed, you have successfully set up your hypothesis test for a population proportion and are ready to proceed with calculating the test statistic and p-value.</p>
+
+</main>
+
+
+  </body>
+</html>
+

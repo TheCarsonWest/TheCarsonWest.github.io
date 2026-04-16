@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Setting Up a Chi-Square Test for Homogeneity or Independence | Nerd-Emoji Web</title>
+    <style>
+      body {
+          font-family: 'Open Sans'
+      }
+      </style>
+    <link rel="stylesheet" href="https://thecarsonwest.github.io/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="https://thecarsonwest.github.io/nerd-emoji.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  </head>
+
+  <body>
+
+    <nav>
+    <ul class="menu">
+      
+    </ul>
+    <hr/>
+    </nav>
+<div class="article-meta">
+<h1><span class="title">Setting Up a Chi-Square Test for Homogeneity or Independence</span></h1>
+<h2 class="author">Carson West</h2>
+
+</div>
+
+<main>
+<h1 id="ap-stats-homeap-stats-home"><a href="./../ap-stats-home/">AP Stats Home</a></h1>
+<h1 id="setting-up-a-chi-square-test-for-homogeneity-or-independence">Setting Up a Chi-Square Test for Homogeneity or Independence</h1>
+<p>Chi-square tests for homogeneity or independence are powerful tools used to analyze relationships between two categorical variables. While similar in their calculations, they differ fundamentally in their experimental design and the conclusions they allow us to draw.</p>
+<h2 id="chi-square-test-for-homogeneity-vs-independencechi-square-test-for-homogeneity-vs-independence"><a href="./../chi-square-test-for-homogeneity-vs.-independence/">Chi-Square Test for Homogeneity vs. Independence</a></h2>
+<p>The distinction between a test for homogeneity and a test for independence lies in the sampling method:</p>
+<ul>
+<li><strong>Test for Homogeneity:</strong> Used when you have <strong>two or more independent random samples</strong>, each taken from a different population or treatment group, and you want to see if the distribution of a single categorical variable is the same across those populations/groups.
+<ul>
+<li><strong>Example:</strong> Comparing the distribution of preferred social media platforms (categorical variable) among college students (Population 1) vs. high school students (Population 2). Here, we sample independently from two pre-defined populations.</li>
+</ul>
+</li>
+<li><strong>Test for Independence:</strong> Used when you have <strong>a single random sample</strong> from a population, and you want to assess if there&rsquo;s an association or relationship between two categorical variables within that population.
+<ul>
+<li><strong>Example:</strong> Taking a single random sample of adults and asking them about their education level (Categorical Variable 1) and their political affiliation (Categorical Variable 2). We want to see if these two variables are associated.</li>
+</ul>
+</li>
+</ul>
+<p>Despite their different purposes, the mechanics of setting up and carrying out the test (hypotheses, conditions, calculations) are largely identical once the data is organized into a two-way table.</p>
+<h2 id="hypotheses">Hypotheses</h2>
+<p>For both tests, the null and alternative hypotheses are stated as follows:</p>
+<ul>
+<li><strong>Null Hypothesis ( $ H_0 $ ):</strong>
+<ul>
+<li><strong>For Homogeneity:</strong> There is no difference in the distribution of the categorical variable across the populations/groups. (i.e., The distributions are homogeneous.)</li>
+<li><strong>For Independence:</strong> The two categorical variables are independent in the population. (i.e., There is no association between them.)</li>
+</ul>
+</li>
+<li><strong>Alternative Hypothesis ( $ H_a $ ):</strong>
+<ul>
+<li><strong>For Homogeneity:</strong> There is a difference in the distribution of the categorical variable across the populations/groups. (i.e., The distributions are not homogeneous.)</li>
+<li><strong>For Independence:</strong> The two categorical variables are not independent in the population. (i.e., There is an association between them.)</li>
+</ul>
+</li>
+</ul>
+<p>Note: The alternative hypothesis is always non-directional. We are simply testing for any difference or association.</p>
+<h2 id="conditions-for-inference">Conditions for Inference</h2>
+<p>Before performing a chi-square test, certain conditions must be met:</p>
+<ol>
+<li><strong>Random Condition:</strong>
+<ul>
+<li><strong>For Homogeneity:</strong> The data must come from two or more independent random samples or randomized experiments.</li>
+<li><strong>For Independence:</strong> The data must come from a single random sample.</li>
+</ul>
+</li>
+<li><strong>Large Counts (Expected Counts) Condition:</strong> All expected counts must be at least 5. This condition ensures that the chi-square distribution is a good approximation for the sampling distribution of the test statistic.</li>
+<li><strong>Independent Observations Condition:</strong>
+<ul>
+<li>When sampling without replacement, the sample size(s) should be less than 10% of the population size(s) (i.e.,  $ n \le 0.10N $ ). This ensures that individual observations are independent.</li>
+</ul>
+</li>
+</ol>
+<h2 id="observed-and-expected-counts">Observed and Expected Counts</h2>
+<p>Data for these tests are organized into a <a href="./../two-way-table/">Two-Way Table</a> of <strong>observed counts</strong>. The core idea of the chi-square test is to compare these observed counts to the <strong>expected counts</strong> – what we would expect to see if the null hypothesis were true.</p>
+<p>The formula for calculating an expected count in any cell of a two-way table is:</p>
+<p>$$  \text{Expected Count} = \frac{(\text{Row Total}) \times (\text{Column Total})}{\text{Grand Total}}
+$$<br>
+Let&rsquo;s illustrate with an example:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left">Category 1</th>
+          <th style="text-align: left">Category 2</th>
+          <th style="text-align: left">Total</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Group A</td>
+          <td style="text-align: left">25</td>
+          <td style="text-align: left">75</td>
+          <td style="text-align: left">100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Group B</td>
+          <td style="text-align: left">30</td>
+          <td style="text-align: left">70</td>
+          <td style="text-align: left">100</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Total</strong></td>
+          <td style="text-align: left"><strong>55</strong></td>
+          <td style="text-align: left"><strong>145</strong></td>
+          <td style="text-align: left"><strong>200</strong></td>
+      </tr>
+  </tbody>
+</table>
+<p>To find the expected count for Group A and Category 1:
+$$  E_{\text{Group A, Cat 1}} = \frac{(\text{Row Total for Group A}) \times (\text{Column Total for Cat 1})}{\text{Grand Total}} = \frac{100 \times 55}{200} = 27.5
+$$<br>
+<a href="./../expected-counts-in-two-way-tables/">Expected Counts in Two-Way Tables</a> are crucial for calculating the chi-square test statistic.</p>
+<h2 id="the-chi-square-test-statistic">The Chi-Square Test Statistic</h2>
+<p>The chi-square test statistic ( $ \chi^2 $ ) measures the overall difference between the observed and expected counts. A larger  $ \chi^2 $  value indicates greater discrepancy and stronger evidence against the null hypothesis.</p>
+<p>The formula is:</p>
+<p>$$  \chi^2 = \sum \frac{(\text{Observed} - \text{Expected})^2}{\text{Expected}}
+$$<br>
+Where the sum is taken over all cells in the two-way table.</p>
+<h2 id="degrees-of-freedom">Degrees of Freedom</h2>
+<p>The degrees of freedom (df) for a chi-square test for homogeneity or independence are calculated as:</p>
+<p>$$  df = (\text{number of rows} - 1) \times (\text{number of columns} - 1)
+$$<br>
+These degrees of freedom are used to determine the shape of the chi-square distribution and ultimately to find the p-value.</p>
+<p>Once these steps are completed, you would proceed to <a href="./../carrying-out-a-chi-square-test-for-homogeneity-or-independence/">Carrying Out a Chi-Square Test for Homogeneity or Independence</a> to calculate the p-value and draw a conclusion.</p>
+
+</main>
+
+
+  </body>
+</html>
+
